@@ -1,0 +1,15 @@
+Dear Editor-in-Chief,
+
+Please consider our manuscript, "Static Feasibility Can Overstate Chronological Admissibility in Distributional Power-System Operating States," for IEEE Transactions on Power Systems.
+
+The paper asks whether the admissibility verdict for the same distributional operating-state target changes as operational information absent from a static model is restored. It separates mean movement, target-law shape, conditional support, source-native chronology, and AC feasibility rather than compressing them into one notion of reachability.
+
+In RTS-GMLC Area 1, native online-to-online ramping preserves exact March and July target-mean admission, whereas source-native minimum up/down logic rejects both means even in a deliberately relaxed no-network chronology. For July, an exact 8.0205-MW relaxation repair and a verified network-constrained feasible schedule bound the stricter network-plus-native-ramp repair between 8.0205 and 11.9263 MW. A new warm-started MIP run retains this bracket without converting its upper endpoint into an optimum. Direct nonlinear AC projection independently recovers AC-feasible shared-support witnesses for all 48 prespecified March/July hours.
+
+The paper also includes two independent evidence layers. A PyPSA-GB January/July LP replication yields a 10.01% shape share and a 6.63% clock-hour premium; a metadata audit shows that the frozen cases do not natively parameterize unit-commitment chronology, so no GB chronology claim is made. Public Elexon B1610 operational outturns for matched weekdays yield a 5.89% shape share and a 1.15% same-settlement-period premium. This Elexon result is explicitly observational and is not labelled a field experiment or causal redispatch estimate.
+
+The archive includes raw Elexon responses and hashes, chronology and AC witnesses, solver records, PyPSA-GB extracts and parameter audit, acquisition and analysis code, and a clean-room check that reproduces 26 of 26 central numerical claims. A permanent repository identifier is pending author deposit.
+
+Sincerely,
+Ghassan Malkawi
+Ahmed Abdelaziz Elsayed

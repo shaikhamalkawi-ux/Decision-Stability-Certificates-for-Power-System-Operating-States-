@@ -1,0 +1,50 @@
+[
+  {
+    "month": 3,
+    "mode": "fixed_commitment",
+    "cases": 24,
+    "successes": 3,
+    "success_rate": 0.125,
+    "median_restoration_L1_MW": 50.3472029270322,
+    "max_restoration_L1_MW": 50.66639516686401,
+    "min_voltage_pu": 0.9732423443373456,
+    "max_voltage_pu": 1.0499998936987829,
+    "max_branch_loading_fraction": 0.8807437785293071
+  },
+  {
+    "month": 3,
+    "mode": "shared_continuous",
+    "cases": 24,
+    "successes": 0,
+    "success_rate": 0.0,
+    "median_restoration_L1_MW": null,
+    "max_restoration_L1_MW": null,
+    "min_voltage_pu": null,
+    "max_voltage_pu": null,
+    "max_branch_loading_fraction": null
+  },
+  {
+    "month": 7,
+    "mode": "fixed_commitment",
+    "cases": 24,
+    "successes": 0,
+    "success_rate": 0.0,
+    "median_restoration_L1_MW": null,
+    "max_restoration_L1_MW": null,
+    "min_voltage_pu": null,
+    "max_voltage_pu": null,
+    "max_branch_loading_fraction": null
+  },
+  {
+    "month": 7,
+    "mode": "shared_continuous",
+    "cases": 24,
+    "successes": 0,
+    "success_rate": 0.0,
+    "median_restoration_L1_MW": null,
+    "max_restoration_L1_MW": null,
+    "min_voltage_pu": null,
+    "max_voltage_pu": null,
+    "max_branch_loading_fraction": null
+  }
+]

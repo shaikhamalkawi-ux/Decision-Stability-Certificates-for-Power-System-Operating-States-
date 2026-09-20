@@ -1,0 +1,27 @@
+claim,expected,reproduced,absolute_deviation,tolerance,status,evidence,method
+RTS month 02 mean L1 (MW),397.001,397.00125701574257,0.00025701574259073823,0.0005,PASS,V4 upstream dispatch CSVs,direct means; no project imports
+RTS month 02 empirical W1 (MW),411.69,411.68964498003254,0.0003550199674577925,0.0005,PASS,V4 upstream dispatch CSVs,Hungarian assignment on L1 costs
+RTS month 03 mean L1 (MW),329.223,329.22324026224123,0.00024026224122053463,0.0005,PASS,V4 upstream dispatch CSVs,direct means; no project imports
+RTS month 03 empirical W1 (MW),357.682,357.68211783659666,0.00011783659664388324,0.0005,PASS,V4 upstream dispatch CSVs,Hungarian assignment on L1 costs
+RTS month 04 mean L1 (MW),641.069,641.0690546151446,5.4615144676972704e-05,0.0005,PASS,V4 upstream dispatch CSVs,direct means; no project imports
+RTS month 04 empirical W1 (MW),667.672,667.672381018719,0.0003810187189401404,0.0005,PASS,V4 upstream dispatch CSVs,Hungarian assignment on L1 costs
+RTS month 05 mean L1 (MW),781.466,781.4656931576147,0.00030684238527101115,0.0005,PASS,V4 upstream dispatch CSVs,direct means; no project imports
+RTS month 05 empirical W1 (MW),790.28,790.2800071457168,7.145716836021165e-06,0.0005,PASS,V4 upstream dispatch CSVs,Hungarian assignment on L1 costs
+RTS month 06 mean L1 (MW),1039.444,1039.4438275052207,0.00017249477923542145,0.0005,PASS,V4 upstream dispatch CSVs,direct means; no project imports
+RTS month 06 empirical W1 (MW),1047.087,1047.0871382242735,0.0001382242735417094,0.0005,PASS,V4 upstream dispatch CSVs,Hungarian assignment on L1 costs
+RTS month 07 mean L1 (MW),1587.737384570594,1587.737384570594,0.0,1e-08,PASS,V4 upstream dispatch CSVs,direct means; no project imports
+RTS month 07 empirical W1 (MW),1592.540955999171,1592.5409559991708,2.2737367544323206e-13,1e-08,PASS,V4 upstream dispatch CSVs,Hungarian assignment on L1 costs
+RTS month 10 mean L1 (MW),1174.326,1174.3260104354085,1.0435408512421418e-05,0.0005,PASS,V4 upstream dispatch CSVs,direct means; no project imports
+RTS month 10 empirical W1 (MW),1181.694,1181.6938675782726,0.00013242172735772328,0.0005,PASS,V4 upstream dispatch CSVs,Hungarian assignment on L1 costs
+GB common internal coordinates,2685.0,2685.0,0.0,1e-07,PASS,released PyPSA-GB dispatch and metadata CSVs,"independent filtering, L1 assignment, and clock-hour grouping"
+GB mean L1 (MW),16785.25504628075,16785.25504628075,0.0,1e-07,PASS,released PyPSA-GB dispatch and metadata CSVs,"independent filtering, L1 assignment, and clock-hour grouping"
+GB empirical W1 (MW),18651.979267728475,18651.979267728475,0.0,1e-07,PASS,released PyPSA-GB dispatch and metadata CSVs,"independent filtering, L1 assignment, and clock-hour grouping"
+GB shape gap (MW),1866.7242214477264,1866.7242214477264,0.0,1e-07,PASS,released PyPSA-GB dispatch and metadata CSVs,"independent filtering, L1 assignment, and clock-hour grouping"
+GB hour-conditioned W1 (MW),19888.552386016217,19888.55238601621,7.275957614183426e-12,1e-07,PASS,released PyPSA-GB dispatch and metadata CSVs,"independent filtering, L1 assignment, and clock-hour grouping"
+GB hour premium (MW),1236.5731182877425,1236.5731182877353,7.275957614183426e-12,1e-07,PASS,released PyPSA-GB dispatch and metadata CSVs,"independent filtering, L1 assignment, and clock-hour grouping"
+July no-network repair artifact sum (MW),8.020508464286115,8.02050846428686,7.442935157087049e-13,1e-09,PASS,native_minud_repair_month_07.csv,sum of released per-coordinate absolute mean changes
+July network witness repair artifact sum (MW),11.9262964643,11.926296464291593,8.407496920881385e-12,1e-08,PASS,network_repair_mean.csv,sum of released per-coordinate absolute mean changes
+AC month 03 successful witnesses,24.0,24.0,0.0,0.0,PASS,ac_projection_results.csv,row count
+AC month 03 median restoration (MW),39.208762,39.20876204942236,4.942236131455502e-08,5e-07,PASS,ac_projection_results.csv,median over released successful witnesses
+AC month 07 successful witnesses,24.0,24.0,0.0,0.0,PASS,ac_projection_results.csv,row count
+AC month 07 median restoration (MW),31.080193,31.080193272661646,2.7266164437378393e-07,5e-07,PASS,ac_projection_results.csv,median over released successful witnesses

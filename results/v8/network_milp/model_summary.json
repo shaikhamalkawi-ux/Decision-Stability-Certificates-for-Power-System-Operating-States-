@@ -1,0 +1,16 @@
+{
+  "variables": 23098,
+  "binary_variables": 12096,
+  "constraints": 48954,
+  "hours": 168,
+  "generators": 41,
+  "thermal_generators": 24,
+  "buses": 24,
+  "formulation": "July network + weak/free-boundary source-native minimum up/down + online-to-online native ramp + L1 target-mean repair",
+  "known_feasible_upper_bound_MW": 11.9262964643,
+  "known_relaxation_lower_bound_MW": 8.020508464286115,
+  "mip_start_objective_MW": 11.926296464291301,
+  "mip_start_max_row_violation": 7.958078640513122e-12,
+  "mip_start_max_bound_violation": 0.0,
+  "mip_start_max_integrality_violation": 0.0
+}

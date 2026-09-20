@@ -1,0 +1,78 @@
+=== DSC-Grid independent PyPSA-GB replication ===
+Step 1/8: install pinned runtime dependencies
+$ /usr/bin/python3 -m pip install -q pypsa==1.0.7 linopy==0.5.7 highspy==1.12.0 atlite==0.4.1 powerplantmatching==0.7.1 snakemake==9.13.4 tsam==2.3.9 netcdf4==1.7.2 openpyxl==3.1.5 xlrd==2.0.2 pyxlsb==1.0.10 geopandas==1.1.1 pyproj==3.7.2 shapely==2.0.7 fiona==1.10.1 rasterio==1.4.3 rioxarray==0.20.0 cartopy==0.25.0 geojson==3.2.0 country_converter==1.3.2 geopy==2.4.1 Levenshtein==0.27.1 fuzzywuzzy==0.18.0 pyarrow==22.0.0 tables==3.10.2
+Step 2/8: clone and freeze PyPSA-GB source
+$ git clone --filter=blob:none https://github.com/andrewlyden/PyPSA-GB.git /content/dsc_grid_gb_replication/PyPSA-GB
+$ git checkout 8e084afe4fb2d4be86f270d3f12ad3315eee2a3a
+$ git rev-parse HEAD
+UTF-8 cache normalization: nominatim_cache_failures.txt; decoder=cp1252; changed=True
+Step 3/8: configure two matched 2020 Reduced-network weeks
+Step 4/8: acquire the frozen 2020 ERA5/atlite cutout from the project Zenodo record
+Cutout MD5 PASS: 9d08ab99530454944a8efffcd547b720; bytes=766913074
+Step 5/8: build and solve January and July historical Reduced networks
+$ snakemake resources/network/DSC_Jan2020_reduced_solved.nc resources/network/DSC_Jul2020_reduced_solved.nc --cores 2 --rerun-incomplete --printshellcmds
+Step 6/8: extract matched generation operating-state laws
+Step 7/8: write independent-system metrics and admissibility boundary
+{
+  "system": "PyPSA-GB",
+  "source_commit": "8e084afe4fb2d4be86f270d3f12ad3315eee2a3a",
+  "network": "Reduced (32-bus configuration)",
+  "year": 2020,
+  "source_week": "2020-01-01 through 2020-01-07",
+  "target_week": "2020-07-01 through 2020-07-07",
+  "resolution_minutes": 60,
+  "state_definition": "common non-emergency Generator active-power outputs only; storage and links audited separately",
+  "n_common_coordinates": 2692,
+  "M_mean_L1_MW": 17937.147903423614,
+  "W1_empirical_L1_MW": 20397.860806356854,
+  "G_shape_MW": 2460.712902933239,
+  "shape_share": 0.12063583168321135,
+  "only_january_coordinates": [],
+  "only_july_coordinates": [
+    "Birkhall_Estate",
+    "Bolton_Hill_WTW",
+    "Building_F,_Renishaw_Factory",
+    "Burnfoot_East_Wind_Farm_further_extension",
+    "Coire_Na_Cloiche_Wind_Farm",
+    "Hewitts_Avenue_Tesco",
+    "Iron_Mountain_Building",
+    "Iron_Mountain_Howe_Moss_Drive",
+    "Lamby_Way_Solar_Farm",
+    "Lamp_Hill_Wimpole_Estate",
+    "Mamhilad_Solar_Farm",
+    "Pretoria_Road",
+    "Queen_Elizabeth_The_Queen_Mothers_Hospital",
+    "Renishaw_PLC_Factory",
+    "St_Margarets_Bay",
+    "Tesco_Crab_Tree_Lane",
+    "Tesco_Super_Store_Bridge_Road",
+    "Tesco_Super_Store_Garratt_Way,_Gorton",
+    "Tesco_Superstore_Shripney_Road",
+    "Tesco_Wombwell_Lane",
+    "Tralorg_Wind_Farm"
+  ],
+  "diagnostics": {
+    "January": {
+      "snapshots": 168,
+      "generators_total": 2721,
+      "state_coordinates": 2692,
+      "load_shedding_MWh": 0.0,
+      "buses": 35,
+      "lines": 99,
+      "links": 7,
+      "storage_units": 74
+    },
+    "July": {
+      "snapshots": 168,
+      "generators_total": 2742,
+      "state_coordinates": 2713,
+      "load_shedding_MWh": 0.0,
+      "buses": 35,
+      "lines": 99,
+      "links": 7,
+      "storage_units": 74
+    }
+  }
+}
+Scientific GB replication run completed.
+Step 8/8: package and download return bundle

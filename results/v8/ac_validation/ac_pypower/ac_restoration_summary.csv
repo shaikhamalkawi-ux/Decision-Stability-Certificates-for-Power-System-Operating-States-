@@ -1,0 +1,5 @@
+month,mode,cases,successes,success_rate,median_restoration_L1_MW,max_restoration_L1_MW,min_voltage_pu,max_voltage_pu,max_branch_loading_fraction
+3,fixed_commitment,24,3,0.125,50.3472029270322,50.66639516686401,0.9732423443373456,1.0499998936987829,0.8807437785293071
+3,shared_continuous,24,0,0.0,,,,,
+7,fixed_commitment,24,0,0.0,,,,,
+7,shared_continuous,24,0,0.0,,,,,

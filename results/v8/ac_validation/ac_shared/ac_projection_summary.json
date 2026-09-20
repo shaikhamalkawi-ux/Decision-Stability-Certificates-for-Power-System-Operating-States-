@@ -1,0 +1,64 @@
+{
+  "method": "CasADi 3.7.2 + IPOPT direct nonconvex AC feasibility projection",
+  "objective": "min sum_j |Pg_j-Pg_DC,j| with voltage, Q, nodal AC balance, branch terminal apparent-power, and support bounds",
+  "claim_boundary": "Successful solves are AC-feasible local restoration witnesses; nonconvergence is not proof of infeasibility; objectives are locally optimized and not global certificates.",
+  "network": "RTS-GMLC Area 1 internal 24-bus/38-branch model, matching the locked DC topology",
+  "voltage_bounds": [
+    0.95,
+    1.05
+  ],
+  "branch_rating": "Cont Rating at both terminals",
+  "months": [
+    3,
+    7
+  ],
+  "hours_per_month": 24,
+  "modes": [
+    "shared_continuous"
+  ],
+  "multistart_seeds": [
+    "previous",
+    "source",
+    "loss_seed",
+    "flat"
+  ],
+  "environment": {
+    "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+    "platform": "Linux-6.18.35-x86_64-with-glibc2.41",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "casadi": "3.7.2"
+  },
+  "summary": [
+    {
+      "month": 3,
+      "mode": "shared_continuous",
+      "cases": 24,
+      "successes": 24,
+      "success_rate": 1.0,
+      "median_L1_MW": 39.20876204942235,
+      "min_L1_MW": 18.7998183173565,
+      "max_L1_MW": 74.42401987895298,
+      "median_losses_MW": 39.208762049424934,
+      "max_branch_loading_fraction": 1.00000000000019,
+      "min_voltage_pu": 0.9769202794368808,
+      "max_voltage_pu": 1.0500000001048524,
+      "max_constraint_violation": 9.499490261077881e-08
+    },
+    {
+      "month": 7,
+      "mode": "shared_continuous",
+      "cases": 24,
+      "successes": 24,
+      "success_rate": 1.0,
+      "median_L1_MW": 31.08019327266165,
+      "min_L1_MW": 16.92390311311614,
+      "max_L1_MW": 68.47415712982897,
+      "median_losses_MW": 31.080193239085247,
+      "max_branch_loading_fraction": 1.000000000001415,
+      "min_voltage_pu": 0.9887292064630253,
+      "max_voltage_pu": 1.0500000001046208,
+      "max_constraint_violation": 8.667484507896006e-08
+    }
+  ]
+}

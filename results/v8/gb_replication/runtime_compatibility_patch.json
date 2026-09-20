@@ -1,0 +1,15 @@
+{
+  "purpose": "Normalize only geocoding failure-cache text encoding for Colab runtime compatibility.",
+  "scientific_inputs_changed": false,
+  "records": [
+    {
+      "path": "data/generators/nominatim_cache_failures.txt",
+      "decoder_used": "cp1252",
+      "before_sha256": "7eb4017d4134f2346991a2f930ee1b1c81ae46788c692a4f088644c1c2ba0840",
+      "after_sha256": "6befaebfd193f4e0c6b1c412dff82bcad7d60c3b898f54b1e096f5087ace0e9d",
+      "changed": true,
+      "bytes_before": 2789,
+      "bytes_after": 2793
+    }
+  ]
+}

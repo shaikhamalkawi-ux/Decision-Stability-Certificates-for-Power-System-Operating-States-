@@ -17,7 +17,7 @@ The core scientific distinction is between **static feasibility**, **chronologic
 
 ## Current active baseline
 
-**DSC-Grid V7 — GB Replication and Network-Repair Strengthening**
+**DSC-Grid V8 — Operational Evidence and Chronology Audit**
 
 Current journal target: **IEEE Transactions on Power Systems (TPWRS)**.
 
@@ -27,7 +27,13 @@ Current headline evidence includes:
 - native chronology showing that ramping alone preserves admission while minimum up/down chronology can reject the same exact target mean;
 - a certified July network-constrained chronological repair bracket;
 - an independent PyPSA-GB January/July replication of the distributional information effect;
+- a frozen Elexon matched-day operational-outturn comparison, explicitly limited to observational evidence;
+- a parameter-level audit placing the PyPSA-GB chronology workstream on HOLD rather than imputing missing constraints;
+- a warm-started 600-second HiGHS run that retains the certified July repair bracket without calling the incumbent optimal;
+- a clean-room reproduction in which 26 of 26 central numerical claims pass;
 - AC-restoration evidence handled separately from chronology.
+
+V8 is the candidate successor to V7, pending the project owner's independent ChatGPT audit before the active Google Drive baseline is changed.
 
 ## Repository policy
 

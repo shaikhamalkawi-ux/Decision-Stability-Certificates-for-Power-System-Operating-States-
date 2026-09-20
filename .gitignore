@@ -36,3 +36,7 @@ secrets/
 *.mst
 *.mps.tmp
 *.lp.tmp
+
+# Local evidence-gate working area (large downloaded inputs and builds)
+.work/
+tmp/

@@ -1,0 +1,38 @@
+{
+  "system": "PyPSA-GB",
+  "source_commit": "8e084afe4fb2d4be86f270d3f12ad3315eee2a3a",
+  "scenario_source": "DSC_Jan2020_reduced",
+  "scenario_target": "DSC_Jul2020_reduced",
+  "source_week": "2020-01-01 through 2020-01-07",
+  "target_week": "2020-07-01 through 2020-07-07",
+  "resolution_minutes": 60,
+  "solver": "HiGHS",
+  "solve_mode": "LP",
+  "network_configuration": "Reduced",
+  "solved_buses": 35,
+  "solved_lines": 99,
+  "load_shedding_MWh": {
+    "January": 0.0,
+    "July": 0.0
+  },
+  "primary_state_definition": "common internal non-emergency generator active-power outputs; EU_import generator representations, storage units, and links excluded",
+  "n_primary_common_coordinates": 2685,
+  "M_mean_L1_MW": 16785.25504628075,
+  "W1_empirical_L1_MW": 18651.979267728475,
+  "G_shape_MW": 1866.7242214477264,
+  "shape_share": 0.1000818301721748,
+  "W1_hour_conditioned_L1_MW": 19888.552386016217,
+  "hour_conditioning_premium_over_full_W1_MW": 1236.5731182877425,
+  "hour_conditioning_premium_percent_of_full_W1": 6.629715273312859,
+  "union_zero_padding_sensitivity": {
+    "n_coordinates": 2706,
+    "july_only_internal_coordinates": 21,
+    "july_only_mean_total_MW": 12.39766383099211,
+    "M_mean_L1_MW": 16797.652710111743,
+    "W1_empirical_L1_MW": 18664.376931559465,
+    "G_shape_MW": 1866.7242214477228,
+    "shape_share": 0.10001535161301268,
+    "G_shape_difference_from_primary_MW": -3.637978807091713e-12
+  },
+  "claim_boundary": "Independent replication of the distributional mean-shape and clock-hour conditioning diagnostic only; not a replication of the RTS minimum-up/down chronology rejection."
+}

@@ -1,0 +1,95 @@
+{
+  "method": "CasADi 3.7.2 + IPOPT direct nonconvex AC feasibility projection",
+  "objective": "min sum_j |Pg_j-Pg_DC,j| with voltage, Q, nodal AC balance, branch terminal apparent-power, and support bounds",
+  "claim_boundary": "Successful solves are AC-feasible local restoration witnesses; nonconvergence is not proof of infeasibility; objectives are locally optimized and not global certificates.",
+  "network": "RTS-GMLC Area 1 internal 24-bus/38-branch model, matching the locked DC topology",
+  "voltage_bounds": [
+    0.95,
+    1.05
+  ],
+  "branch_rating": "Cont Rating at both terminals",
+  "months": [
+    3,
+    7
+  ],
+  "hours_per_month": 24,
+  "modes": [
+    "fixed_commitment",
+    "shared_continuous"
+  ],
+  "multistart_seeds": [
+    "previous",
+    "source",
+    "loss_seed",
+    "flat"
+  ],
+  "environment": {
+    "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+    "platform": "Linux-6.18.35-x86_64-with-glibc2.41",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "casadi": "3.7.2"
+  },
+  "summary": [
+    {
+      "month": 3,
+      "mode": "fixed_commitment",
+      "cases": 24,
+      "successes": 8,
+      "success_rate": 0.3333333333333333,
+      "median_L1_MW": 40.245308102308805,
+      "min_L1_MW": 22.789629326305302,
+      "max_L1_MW": 50.666127114950086,
+      "median_losses_MW": 40.24530810066335,
+      "max_branch_loading_fraction": 0.8899632248725865,
+      "min_voltage_pu": 0.9709782851938907,
+      "max_voltage_pu": 1.050000000104829,
+      "max_constraint_violation": 6.514966344184359e-10
+    },
+    {
+      "month": 3,
+      "mode": "shared_continuous",
+      "cases": 24,
+      "successes": 21,
+      "success_rate": 0.875,
+      "median_L1_MW": 39.06956464820175,
+      "min_L1_MW": 18.799818250343836,
+      "max_L1_MW": 74.42401987895681,
+      "median_losses_MW": 39.06956464820246,
+      "max_branch_loading_fraction": 1.0000000000003217,
+      "min_voltage_pu": 0.9769202918103381,
+      "max_voltage_pu": 1.0500000001048524,
+      "max_constraint_violation": 1.6094418242573738e-07
+    },
+    {
+      "month": 7,
+      "mode": "fixed_commitment",
+      "cases": 24,
+      "successes": 15,
+      "success_rate": 0.625,
+      "median_L1_MW": 31.473215142619637,
+      "min_L1_MW": 17.219625277038002,
+      "max_L1_MW": 39.61374110577338,
+      "median_losses_MW": 31.473215128890388,
+      "max_branch_loading_fraction": 0.99999999999876,
+      "min_voltage_pu": 0.956960343757346,
+      "max_voltage_pu": 1.0500000001040453,
+      "max_constraint_violation": 4.829686872653838e-09
+    },
+    {
+      "month": 7,
+      "mode": "shared_continuous",
+      "cases": 24,
+      "successes": 24,
+      "success_rate": 1.0,
+      "median_L1_MW": 31.080193122164523,
+      "min_L1_MW": 16.923903122113504,
+      "max_L1_MW": 68.47415724771949,
+      "median_losses_MW": 31.080193121405046,
+      "max_branch_loading_fraction": 1.000000000001271,
+      "min_voltage_pu": 0.9887292056964317,
+      "max_voltage_pu": 1.0500000001012835,
+      "max_constraint_violation": 7.785274647176266e-08
+    }
+  ]
+}

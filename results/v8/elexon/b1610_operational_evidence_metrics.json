@@ -1,0 +1,99 @@
+{
+  "source": "Elexon Insights B1610 actual generation output per generation unit",
+  "design": "observational matched-weekday two-day comparison; not a field experiment",
+  "source_day": "2023-01-11",
+  "target_day": "2023-07-12",
+  "resolution_minutes": 30,
+  "state_definition": "common registered transmission-connected production BMUs in the acquisition-date BMU reference table; B1610 half-hour metered-energy coordinates converted to average MW",
+  "b1610_unit_conversion": "quantity MWh per 30-minute settlement period divided by 0.5 h (multiplied by 2) to obtain average MW",
+  "n_common_coordinates": 260,
+  "n_atoms_each_day": 48,
+  "M_mean_L1_MW": 19553.647583333335,
+  "W1_empirical_L1_MW": 20776.83725,
+  "G_shape_MW": 1223.1896666666653,
+  "shape_share": 0.05887275584577557,
+  "W1_same_settlement_period_L1_MW": 21016.487666666668,
+  "same_period_premium_over_full_W1_MW": 239.6504166666673,
+  "same_period_premium_percent_of_full_W1": 1.153449939387032,
+  "union_zero_padding_sensitivity": {
+    "n_coordinates": 268,
+    "M_mean_L1_MW": 19555.729375,
+    "W1_empirical_L1_MW": 20778.919041666668,
+    "G_shape_MW": 1223.189666666669
+  },
+  "diagnostics": {
+    "2023-01-11": {
+      "raw_rows": 252912,
+      "registered_transmission_production_rows": 12480,
+      "duplicate_bmu_period_rows": 0,
+      "complete_registered_transmission_production_coordinates": 260,
+      "settlement_run_type_counts_all_rows": {
+        "DF": 252912
+      },
+      "converted_average_power_min_MW": -299.4,
+      "converted_average_power_max_MW": 712.6
+    },
+    "2023-07-12": {
+      "raw_rows": 253728,
+      "registered_transmission_production_rows": 12864,
+      "duplicate_bmu_period_rows": 0,
+      "complete_registered_transmission_production_coordinates": 268,
+      "settlement_run_type_counts_all_rows": {
+        "DF": 253728
+      },
+      "converted_average_power_min_MW": -155.3,
+      "converted_average_power_max_MW": 820.18
+    }
+  },
+  "classification_limitation": "The acquisition-date BMU registry was used to identify transmission production BMUs; it is not asserted to be a historical registry snapshot for 2023.",
+  "settlement_run_limitation": "B1610 exposes the latest available settlement-run value per BMU/period; run-type composition is recorded and no cross-run equivalence is assumed.",
+  "physical_notification_to_metered_outturn": {
+    "interpretation": "descriptive PN-to-settled-outturn discrepancy; not a feasibility test, causal redispatch estimate, or field experiment",
+    "integration": "piecewise-linear PN segments integrated over complete 30-minute settlement periods",
+    "diagnostics": {
+      "2023-01-11": {
+        "raw_rows": 13697,
+        "bmu_period_groups": 11952,
+        "groups_with_exact_1800_s_coverage": 11952,
+        "complete_coordinates": 249,
+        "min_group_duration_s": 1800.0,
+        "max_group_duration_s": 1800.0
+      },
+      "2023-07-12": {
+        "raw_rows": 14244,
+        "bmu_period_groups": 12096,
+        "groups_with_exact_1800_s_coverage": 12096,
+        "complete_coordinates": 252,
+        "min_group_duration_s": 1800.0,
+        "max_group_duration_s": 1800.0
+      }
+    },
+    "by_day": {
+      "2023-01-11": {
+        "n_coordinates": 249,
+        "mean_period_L1_MW": 3461.4031805555555,
+        "median_period_L1_MW": 3245.681333333333,
+        "max_period_L1_MW": 5444.9,
+        "mean_absolute_coordinate_difference_MW": 13.901217592592593
+      },
+      "2023-07-12": {
+        "n_coordinates": 252,
+        "mean_period_L1_MW": 3141.13725,
+        "median_period_L1_MW": 3034.7529999999997,
+        "max_period_L1_MW": 4495.43,
+        "mean_absolute_coordinate_difference_MW": 12.464830357142857
+      }
+    }
+  },
+  "selected_bmu_parameter_snapshot": {
+    "selection": "12 high-mean-movement common non-wind/solar transmission production BMUs; deterministic descriptive sample",
+    "n_units": 12,
+    "dynamic_rows": 110,
+    "rate_rows": 36,
+    "MNZT_rows": 18,
+    "MZT_rows": 18,
+    "RURE_rows": 18,
+    "RDRE_rows": 18,
+    "interpretation": "effective snapshots valid at the requested instant; sampled evidence of nonzero operational parameters, not a complete-system chronology calibration"
+  }
+}

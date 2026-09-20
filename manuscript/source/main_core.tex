@@ -1,0 +1,389 @@
+\documentclass[journal]{IEEEtran}
+\usepackage{amsmath,amssymb,mathtools}
+\usepackage{booktabs,tabularx,multirow}
+\usepackage{graphicx}
+\usepackage{cite}
+\usepackage{url}
+\usepackage[hidelinks]{hyperref}
+\usepackage{microtype}
+\newtheorem{proposition}{Proposition}
+\DeclareMathOperator{\supp}{supp}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\What}{\widehat{P}}
+\newcommand{\Mcal}{\mathcal{M}}
+\newcommand{\Ccal}{\mathcal{C}}
+
+\title{Static Feasibility Can Overstate Chronological Admissibility in Distributional Power-System Operating States}
+\ifdefined\ANON
+\author{Anonymous Author(s)}
+\else
+\author{Ghassan Malkawi and Ahmed Abdelaziz Elsayed%
+\thanks{G. Malkawi is with the Faculty of Computer Information Science, Higher Colleges of Technology, Al Ain, Abu Dhabi, United Arab Emirates (e-mail: gmalkawi@hct.ac.ae).}%
+\thanks{A. A. Elsayed is with the Department of Computer Engineering and Computational Sciences, Canadian University Dubai, Dubai, United Arab Emirates (e-mail: ahmed.elsayed@cud.ac.ae).}%
+}
+\fi
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+A distributional operating-state target can appear admissible in a static grid model while failing once the model restores information that couples decisions through time. We test this statement without conflating convex static support, chronology, and AC feasibility. In RTS-GMLC Area 1, the January-to-July shared static envelope attains the analytic mean lower bound at 1587.737 MW; preserving clock hour adds 12.421 MW and fixing the target commitment pattern adds 14.114 MW. Source-native online-to-online ramping still admits the exact March and July target means, whereas source-native minimum up/down logic rejects both even in a no-network relaxation. The July relaxation has an exact 8.021-MW $L_1$ mean-repair distance, and a verified network-constrained witness bounds the stricter July repair between 8.021 and 11.926 MW. Direct nonlinear AC projections recover AC-feasible witnesses for all 48 prespecified March/July hours. An independent PyPSA-GB Reduced-network replication finds that target-law shape accounts for 10.01\% of empirical $W_1$, although a provenance audit shows that its frozen LP inputs cannot support a chronology claim without imputed parameters. Finally, matched-weekday Elexon B1610 operational outturns exhibit a 5.89\% shape share and a 1.15\% same-settlement-period transport premium. This is observational operational evidence, not a field experiment or causal redispatch estimate. Overall, admissibility is information-specific rather than a universal claim that static models always overstate reachability.
+\end{abstract}
+
+\begin{IEEEkeywords}
+Optimal transport, Wasserstein distance, unit commitment, chronological feasibility, AC optimal power flow, feasibility restoration, RTS-GMLC, PyPSA-GB.
+\end{IEEEkeywords}
+
+\section{Introduction}
+Static feasibility is routinely used to screen candidate operating states because it is computationally convenient. The risk is interpretive: a state that lies inside a static envelope need not remain admissible when clock-hour identity, unit commitment, minimum residence times, reactive power, voltage, and network losses are restored. Conversely, adding a stricter benchmark may change both the physics and the benchmark semantics, making it impossible to attribute a changed verdict to chronology alone.
+
+This paper asks one narrow question: \emph{for the same distributional operating-state target, how does the admissibility verdict change as operational information is restored?} The question is simpler than the machinery used to answer it. We retain the operating-law formulation from the previously verified static analysis, separate target-law shape from support-induced movement, then add a harmonized chronology experiment that preserves the original RTS-GMLC generator semantics. Only after that chronology experiment do we perform a separate AC feasibility projection.
+
+The distinction is important because adjacent literatures answer different questions. Classical and computational optimal transport compare probability laws \cite{Villani2009,Santambrogio2015,PeyreCuturi2019}; weak and moment-constrained transport study conditional or expectation-constrained objects \cite{Gozlan2017,Backhoff2019,Beiglbock2025,Carlier2025,Si2020,BlanchetMurthy2019,Blanchet2024,Lanzetti2025}. Wasserstein distributionally robust OPF instead protects decisions against distributional uncertainty \cite{EsfahaniKuhn2018,RahimianMehrotra2019,GuoI2019,GuoII2019,DallAnese2018,Maghami2024,Liu2024DRUC,Lu2026}. Convex restrictions and feasible-path methods study AC-feasible sets and transitions between operating points \cite{Christianen2025,LeeRobust2021,LeePath2020}. Most recently, Narimani \emph{et al.} certify that two AC-feasible points can belong to disconnected feasible components \cite{Narimani2025}. That topology question is not the question studied here: we test distributional target admission under a declared information hierarchy, not existence of a continuous AC path between two fixed points.
+
+\begin{table*}[t]
+\caption{Closest methodological questions and the boundary of the present contribution.}
+\label{tab:noveltymap}
+\centering
+\scriptsize
+\setlength{\tabcolsep}{5pt}
+\begin{tabularx}{0.97\textwidth}{>{\raggedright\arraybackslash}p{0.18\textwidth}>{\raggedright\arraybackslash}p{0.34\textwidth}X}
+\toprule
+Closest line of work & Primary question & Distinction in this study\\
+\midrule
+Wasserstein DRO/OPF \cite{GuoI2019,GuoII2019,DallAnese2018} & How should an OPF decision be protected against distributional uncertainty? & No ambiguity set or robust decision is optimized; the Wasserstein quantity diagnoses movement of an empirical operating law under declared supports.\\
+Feasible-set restrictions and paths \cite{LeeRobust2021,LeePath2020,Narimani2025} & Is an AC point, region, or continuous path feasible? & The object is a distributional target mean/law; no continuous AC path or connectedness claim is made.\\
+Unit-commitment benchmarks \cite{Knueven2020,PGLibUCRepo} & How should temporal commitment constraints and benchmark instances be formulated? & The native RTS chronology is harmonized to the static source semantics; PGLib-UC is reported separately as a deliberately harder stress semantics.\\
+DC-to-AC restoration \cite{Boateng2027} & Can a DC dispatch be recovered to an AC-feasible operating point? & AC restoration is a separate post-chronology witness layer, not folded into the transport or chronological repair metric.\\
+\bottomrule
+\end{tabularx}
+\end{table*}
+
+The results support five reader-facing findings. First, the previously observed static and conditional premiums are not interchangeable with chronological admissibility. Second, the harmonized chronology experiment identifies the relevant temporal distinction: native continuous ramping does not overturn the March or July mean target, whereas source-native minimum up/down logic does. Third, DC-to-AC projection requires an additional, physically different correction whose successful witnesses quantify loss-, voltage-, reactive-, and branch-constrained restoration without turning solver failure into an infeasibility certificate. Fourth, an independently solved PyPSA-GB January/July pair reproduces the mean--shape and clock-hour information sensitivity on a different system model, while a parameter audit prevents its LP formulation from being overread as chronological evidence. Fifth, public Elexon operational outturns provide a source-independent observational instance of the same distributional information sensitivity. The mathematical reduction and reproducibility controls remain supporting contributions rather than the headline result.
+
+\section{Operating-Law Certificate and Distinct Admissibility Quantities}
+Let the empirical source operating law be
+\begin{equation}
+\widehat P_S=\sum_{i=1}^{n} w_i\delta_{x_i},\qquad w_i>0,\quad \sum_i w_i=1,
+\label{eq:source}
+\end{equation}
+where $x_i\in\R^d$ is an hourly dispatch state. For source atom $i$, let $C_i\subseteq\R^d$ be a nonempty closed convex support, and let $D\subseteq\R^d$ be a convex region for the transported mean. To quantify the least source-to-target movement while retaining the declared support, define
+\begin{equation}
+\begin{aligned}
+\rho_{\{C_i\}}(D)=\inf_{\pi}\Bigl\{&\int c_I(x_I,y)\,d\pi:\;\pi_I=\textstyle\sum_iw_i\delta_i,\\
+&\supp(\pi_{Y|I=i})\subseteq C_i,\;\mathbb E_\pi[Y]\in D\Bigr\}.
+\end{aligned}
+\label{eq:rho}
+\end{equation}
+The quantity answers a support-explicit distributional question; it is not an AC or chronological reachability statement.
+
+\begin{proposition}[Empirical barycentric specialization]
+If each $C_i$ is closed and convex, $D$ is closed and convex, and $c_i(x_i,\cdot)$ is convex on $C_i$, then
+\begin{equation}
+\rho_{\{C_i\}}(D)=\min_{\substack{y_i\in C_i\\ \sum_iw_iy_i\in D}}\sum_{i=1}^{n}w_i c_i(x_i,y_i).
+\label{eq:finite}
+\end{equation}
+For polyhedral $C_i,D$ and $c_i(x_i,y)=\|A_i(y-x_i)\|_1$, (\ref{eq:finite}) is an LP.
+\end{proposition}
+The proof is the standard conditional-barycentre/Jensen argument from weak transport; the role here is to expose the power-system support choices, not to claim priority for the general reduction \cite{Gozlan2017,Backhoff2019}.
+
+For target mean $\mu_T$, the full-coordinate $L_1$ mean lower bound is
+\begin{equation}
+M(\mu_T)=\|\mu_T-\mu_S\|_1.
+\label{eq:mean}
+\end{equation}
+For a fully specified equal-weight target law $\widehat P_T$, let
+\begin{align}
+E(S,T)&=W_1(\widehat P_S,\widehat P_T),\\
+G_{\mathrm{shape}}(S,T)&=E(S,T)-M(\mu_T),\\
+\Pi_C(S,T)&=\rho_C(\{\mu_T\})-M(\mu_T).
+\label{eq:gaps}
+\end{align}
+$G_{\mathrm{shape}}$ measures movement not explained by the target mean; $\Pi_C$ measures movement induced by a declared support. The two gaps answer different questions.
+
+When total generation changes, the $L_1$ mean movement also contains a scale term. For $\Delta=\mu_T-\mu_S$,
+\begin{equation}
+\|\Delta\|_1=|\mathbf 1^\top\Delta|+2\min\left\{\sum_j(\Delta_j)_+,\sum_j(-\Delta_j)_+\right\}.
+\label{eq:scale}
+\end{equation}
+Thus the complete certificate should not be labelled a redispatch volume when net system scale also moves. If one balance coordinate is eliminated via $x=x_0+Bz$, the exact reduced-coordinate cost is $\|B(z-z')\|_1$; replacing it by an unweighted reduced-space $L_1$ norm changes the estimand.
+
+Chronology requires a different object. Let $\Mcal_{\mathrm{chron}}$ denote the set of means generated by schedules satisfying a declared temporal model. If the exact target mean is not admitted, define the mean-admission repair
+\begin{equation}
+A_{\mathrm{chron}}(\mu_T)=\min_{\widetilde\mu\in\Mcal_{\mathrm{chron}}}\|\widetilde\mu-\mu_T\|_1.
+\label{eq:chronrepair}
+\end{equation}
+This avoids describing an inadmissible target with an infinite ``premium.'' It also keeps chronology separate from the source-to-target transport objective in (\ref{eq:rho}).
+
+Finally, AC restoration is defined hour by hour. For a DC target dispatch $p_t^{\mathrm{DC}}$, let $a_t=(\widetilde p_t,q_t,V_t,\theta_t)$ collect the AC decision variables and let $\mathcal F_t^{\mathrm{AC}}$ denote the declared nodal-balance, voltage, reactive-power, and branch-MVA constraints. We solve
+\begin{equation}
+R_t^{\mathrm{AC}}=\min_{a_t\in\mathcal F_t^{\mathrm{AC}}}\|\widetilde p_t-p_t^{\mathrm{DC}}\|_1.
+\label{eq:acrepair}
+\end{equation}
+A successful solve is an AC-feasible restoration witness. Because (\ref{eq:acrepair}) is nonconvex, the returned objective is a local restoration value rather than a globally certified distance; nonconvergence is not evidence of physical infeasibility. This use is aligned with the broader DC-to-AC restoration problem studied by Boateng \emph{et al.} \cite{Boateng2027}.
+
+\section{Experimental Design}
+\subsection{Static and conditional baseline}
+The benchmark is RTS-GMLC Area 1 \cite{Barrows2020,RTSGMLCRepo}: 24 buses, 38 internal branches, and the 41 admitted generation coordinates used in the baseline reconstruction. January 1--7, 2020 is the source week; target weeks are the first available weeks in February, March, April, May, June, July, and October. Rooftop PV is fixed negative load; renewable availability and hydro treatment follow the pinned source data. The static hierarchy contains retrospective shared supports, January-only supports, hour-conditioned supports, and a support with the target commitment pattern fixed. These baseline values are used without modification.
+
+\subsection{Harmonized native chronology}
+The chronology experiment is intentionally not the PGLib-UC instance. Source-native generator limits, minimum up/down times, and $\mathrm{MW/min}$ ramp data are read from the same pinned RTS-GMLC source files. Native hourly online-to-online ramp limits use 60 minutes per interval. For thermal generator $g$ at hour $t$, let $u_{g,t}\in\{0,1\}$ denote on/off status and let $y_{g,t},z_{g,t}$ denote starts and stops. The power/status link and observed transition relation are
+\begin{align}
+P_g^{\min}u_{g,t}&\le p_{g,t}\le P_{g,t}^{\max}u_{g,t},\label{eq:pulink}\\
+u_{g,t}-u_{g,t-1}&=y_{g,t}-z_{g,t},\qquad y_{g,t}+z_{g,t}\le1.\label{eq:transition}
+\end{align}
+For source minimum-up and minimum-down times $U_g$ and $D_g$, respectively, starts and stops observed inside the week satisfy
+\begin{align}
+\sum_{\tau=\max(1,t-U_g+1)}^{t}y_{g,\tau}&\le u_{g,t},\label{eq:minup}\\
+\sum_{\tau=\max(1,t-D_g+1)}^{t}z_{g,\tau}&\le1-u_{g,t}.\label{eq:mindown}
+\end{align}
+The integers $U_g,D_g$ are taken from the RTS-GMLC \texttt{Min Up Time Hr} and \texttt{Min Down Time Hr} fields. The boundary is deliberately weak: pre-horizon status is free and no startup or shutdown is fabricated at $t=0$. This prevents an unknown pre-week commitment history from creating an artificial rejection.
+
+The native ramp-only gate is a separate ablation. When two consecutive hours are online, the observed power change is bounded by the source ramp rate multiplied by 60 minutes. Source-defined startup/shutdown output envelopes are not invented. The exact-mean test first uses hourly system balance but omits network constraints. Hence its feasible set is a relaxation of the network-constrained chronology: if the target mean is infeasible in this weaker set, adding nodal flow constraints cannot restore feasibility. The rejection is independently rechecked with an explicitly constructed transition-variable formulation and SciPy/HiGHS \cite{Virtanen2020,Huangfu2018}.
+
+When the exact mean is rejected, (\ref{eq:chronrepair}) is implemented with nonnegative $d_g^+,d_g^-$:
+\begin{equation}
+\min\sum_g(d_g^++d_g^-),\qquad
+\frac{1}{T}\sum_t p_{g,t}-d_g^++d_g^-=\mu_{T,g}.
+\label{eq:repairlin}
+\end{equation}
+This linearization makes the distinction between an exact repair, a lower bound, and a solver-bounded incumbent explicit.
+
+PGLib-UC \cite{Knueven2020,PGLibUCRepo} is retained only as a stress benchmark. Its RTS-GMLC instances deliberately divide hourly ramp rates by three and also specify startup/shutdown ramps, reserves, initial conditions, and other UC semantics. Its verdict is therefore not labelled ``chronology added to the static model.''
+
+\subsection{AC feasibility projection}
+The prespecified AC layer uses the first 24 March hours and first 24 July hours. The direct projection in (\ref{eq:acrepair}) is built on the same Area-1 internal topology and enforces source generator $P$ bounds, source $Q$ limits, $0.95\le |V|\le1.05$ p.u., and the continuous branch ratings as terminal apparent-power limits. The shared-continuous mode relaxes thermal minimum output to zero, matching the role of a continuous static support; the fixed-commitment mode preserves the thermal on/off pattern of the DC target. CasADi 3.7.2 and IPOPT solve the nonconvex NLP \cite{Andersson2019,Wachter2006}. A separate PYPOWER/MATPOWER-compatible AC-OPF implementation \cite{Zimmerman2011} is used only as a cross-solver witness check where it converges.
+
+\subsection{Independent Great Britain replication}
+To test whether the distributional diagnostic is specific to RTS-GMLC, we run a separate PyPSA-GB experiment using the public model of Lyden \emph{et al.} \cite{Lyden2024} at pinned source commit \texttt{8e084afe4fb2d4be86f270d3f12ad3315eee2a3a}. Two matched Historical-2020 Reduced-network scenarios cover Jan. 1--7 and Jul. 1--7 at 60-min resolution and are solved independently with HiGHS in the model's LP mode. Both 168-h solves terminate optimally with zero load shedding. The solved models contain 35 buses and 99 AC lines; storage and link states are reported separately rather than inserted into the operating-law vector.
+
+The primary GB state contains the 2685 generator coordinates common to both weeks after excluding the \texttt{EU\_import} carrier, because this workflow represents fixed interconnector supply as generator injections. The primary comparison therefore measures internal non-emergency generation only. We compute the mean lower bound, the equal-weight empirical $W_1$, and the shape gap on this common coordinate set. A clock-hour-conditioned transport additionally restricts assignments to source and target hours with the same hour of day. As a dimension-admission sensitivity, 21 internal generator coordinates present only in July are zero-padded into a union universe; this sensitivity is reported separately rather than silently changing the primary state definition.
+
+\subsection{Elexon operational-data evidence}
+We add an observational comparison using public Elexon Insights data \cite{ElexonInsights}. The source and target are matched Wednesdays, Jan. 11 and Jul. 12, 2023, each with 48 half-hour settlement periods. B1610 metered-energy quantities are divided by 0.5 h before use as average-MW coordinates. The primary state contains 260 common, complete transmission-connected production BMUs identified from the acquisition-date reference registry. All used B1610 rows carry the DF settlement-run type. We compute full empirical $W_1$, the mean/shape decomposition, and a conditional transport restricted to the same settlement-period index. A 268-coordinate zero-padding sensitivity admits BMUs complete on either day. Physical Notifications are integrated piecewise linearly over complete 1800-s periods only as a descriptive notification-to-settled-outturn check. Selected effective MNZT, MZT, RURE, and RDRE snapshots document the presence of operational parameters, but do not constitute a complete chronology calibration. This is a matched-day observational design, not a field experiment or causal estimate.
+
+\section{Results}
+\subsection{Static distance does not determine the chronological verdict}
+Table~\ref{tab:meanshape} preserves the previously verified mean--shape result. All seven full empirical $W_1$ distances exceed their prescribed-mean counterparts, but the magnitude of the shape component varies substantially. March has the largest tested shape share, 7.96\%, whereas July is strongly mean-dominant at 0.30\%. For January--July, the 1587.737-MW mean movement decomposes into approximately 737.431 MW of net scale change and 425.153 MW of paired reallocation counted twice by $L_1$.
+
+\begin{table}[t]
+\caption{Verified mean--shape decomposition.}
+\label{tab:meanshape}
+\centering
+\footnotesize
+\begin{tabular}{lrrrr}
+\toprule
+Target & Mean & Full $W_1$ & Shape & Share\\
+ & MW & MW & MW & \%\\
+\midrule
+Feb. & 397.001 & 411.690 & 14.688 & 3.57\\
+Mar. & 329.223 & 357.682 & 28.459 & 7.96\\
+Apr. & 641.069 & 667.672 & 26.603 & 3.98\\
+May & 781.466 & 790.280 & 8.814 & 1.12\\
+Jun. & 1039.444 & 1047.087 & 7.643 & 0.73\\
+Jul. & 1587.737 & 1592.541 & 4.804 & 0.30\\
+Oct. & 1174.326 & 1181.694 & 7.368 & 0.62\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The support hierarchy changes the static cost before chronology is introduced. For July, the retrospective shared support still attains the 1587.737-MW lower bound. Preserving clock-hour identity raises the certificate by 12.421 MW, and fixing the target commitment pattern raises it by 14.114 MW. January-only supports reject June, July, and October rather than being widened after observing the targets. These are support-admission and conditional-transport findings, not statements about the nonconvex chronological set.
+
+\subsection{Native ramping is not the failure mechanism}
+The harmonized chronology result is sharper than the earlier stress test. Table~\ref{tab:chronadmit} isolates the constraint family that changes the verdict. Binary commitment alone admits both exact March and July target means. Adding the native online-to-online ramp constraint alone also admits both means. In contrast, source-native minimum up/down constraints reject both exact means under the deliberately relaxed no-network model. The rejection is reproduced by a second formulation with explicit startup and shutdown variables; adding native online ramp to the minimum-up/down model does not restore admission.
+
+\begin{table}[t]
+\caption{Harmonized exact-mean admission under source-native semantics.}
+\label{tab:chronadmit}
+\centering
+\footnotesize
+\begin{tabular}{lcc}
+\toprule
+Constraint family & March & July\\
+\midrule
+Binary commitment only & Admitted & Admitted\\
+Native online ramp only & Admitted & Admitted\\
+Source-native minimum up/down & Rejected & Rejected\\
+Ramp + minimum up/down & Rejected & Rejected\\
+Independent transition check & Rejected & Rejected\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+For July, (\ref{eq:repairlin}) is solved to zero MIP gap in the no-network minimum-up/down relaxation: the exact relaxation repair is 8.020508 MW. Because the network-constrained chronological set is smaller, this value is a rigorous lower bound for the stricter network chronology. We then restore the Area-1 DC nodal balances, all 38 internal continuous line ratings, and native online-to-online ramp limits. A verified feasible schedule has $L_1$ mean repair 11.926296 MW, with maximum line loading equal to 1.000000 within numerical tolerance, zero recorded native-ramp excess, and no minimum-up/down violation. Therefore the stricter July quantity is bracketed as
+\begin{equation}
+8.020508\le A_{\mathrm{chron}}^{\mathrm{net+ramp}}(\mu_{\mathrm{Jul}})\le 11.926296\ \mathrm{MW}.
+\label{eq:julybracket}
+\end{equation}
+The upper value is a feasible-witness bound, not an optimality claim; the exact network-constrained optimum was not closed within the declared mixed-integer solver budget. For March, the LP relaxation gives 40.018759 MW; no exact integer incumbent was certified within the declared solver budget, so 40.018759 MW is reported only as a lower bound. The paper therefore distinguishes an exact relaxation value, a certified bracket, and a one-sided lower bound rather than reporting all solver outputs as equivalent repairs.
+
+\begin{table}[t]
+\caption{Chronological repair evidence for the July target mean.}
+\label{tab:julyrepair}
+\centering
+\footnotesize
+\begin{tabularx}{\columnwidth}{>{\raggedright\arraybackslash}Xrrl}
+\toprule
+Declared set & Lower & Upper & Status\\
+ & MW & MW & \\
+\midrule
+No-network min-up/down relaxation & 8.021 & 8.021 & Exact\\
+Network + min-up/down + native ramp & 8.021 & 11.926 & Bracket\\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\begin{figure*}[t]
+\centering
+\fbox{\begin{minipage}{0.96\textwidth}
+\centering
+\textbf{Information-restoration ladder for the same operating-state targets}\\[3pt]
+\begin{tabularx}{0.97\textwidth}{>{\bfseries}l X X}
+\toprule
+Layer & March & July\\
+\midrule
+Shared static envelope & Mean admitted; $M=329.223$ MW; shape share 7.96\% & Mean admitted at $M=1587.737$ MW; shape share 0.30\%\\
+Clock-hour / fixed pattern & Positive conditional restriction (all seven targets admitted) & $+12.421$ MW hour-conditioned; $+14.114$ MW fixed-pattern premium\\
+Native online ramp & Exact target mean admitted & Exact target mean admitted\\
+Native minimum up/down & Exact target mean rejected; $A_{\rm chron}\ge40.019$ MW (LP lower bound) & Exact target mean rejected; no-network exact repair 8.021 MW; network+ramp repair bracket 8.021--11.926 MW\\
+AC projection of DC hours & 24/24 shared-continuous AC witnesses; median $R_t^{\rm AC}=39.209$ MW & 24/24 shared-continuous AC witnesses; median $R_t^{\rm AC}=31.080$ MW\\
+\bottomrule
+\end{tabularx}\\[-1pt]
+\footnotesize The rows do not share a common objective and are not added together. They show how the \emph{verdict and required diagnostic} change when different operational information is restored.
+\end{minipage}}
+\caption{The central result is a change in admissibility question, not a single monotone ``physics premium.'' Static/conditional transport, chronological mean admission, and hourly AC projection are distinct quantities.}
+\label{fig:ladder}
+\end{figure*}
+
+The PGLib-UC stress benchmark gives a different temporal pattern: under its modified semantics, ramp-only, startup/shutdown-output-only, and minimum-up/down-only variants each reject the exact March and July means while binary commitment alone admits them. This strengthens the case for keeping benchmark semantics explicit: the native RTS experiment does not support the statement that ramping itself causes the rejection.
+
+\subsection{AC projection adds a separate restoration burden}
+The shared-continuous AC projection returns feasible witnesses for all 48 prespecified hourly states. In March, the median $L_1$ restoration is 39.208762 MW (range 18.799818--74.424020 MW); in July it is 31.080193 MW (16.923903--68.474157 MW). The median correction numerically equals the corresponding active-loss compensation to reported precision. Across successful shared witnesses, voltage remains within the declared 0.95--1.05 p.u. range and the maximum terminal branch loading reaches but does not exceed the continuous rating within numerical tolerance. Maximum recorded nonlinear constraint residuals are below $10^{-7}$.
+
+\begin{table*}[t]
+\caption{Primary shared-continuous AC projection and feasibility checks.}
+\label{tab:ac}
+\centering
+\footnotesize
+\setlength{\tabcolsep}{5pt}
+\begin{tabular}{lrrrrrr}
+\toprule
+Month & Witnesses & Median $R_t^{\rm AC}$ & Range & $V_{\min}$ & Max branch load & Max residual\\
+ & & MW & MW & p.u. & fraction & \\
+\midrule
+Mar. & 24/24 & 39.209 & 18.800--74.424 & 0.976920 & 1.000000 & $9.50\!\times\!10^{-8}$\\
+Jul. & 24/24 & 31.080 & 16.924--68.474 & 0.988729 & 1.000000 & $8.67\!\times\!10^{-8}$\\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+The fixed-commitment projection is intentionally interpreted more narrowly. Bounded fixed-pattern searches return additional feasible witnesses, but the count changes with solver time and initialization and is therefore not treated as a success-rate result. A reproducible cross-solver check is retained instead. Table~\ref{tab:crosssolver} compares the first three March fixed-pattern hours for which both PYPOWER and CasADi/IPOPT returned feasible points. All $L_1$ values agree within 0.001 MW. Nonreturned fixed-pattern cases are not labelled infeasible.
+
+\begin{table}[t]
+\caption{Cross-solver fixed-pattern AC witness check.}
+\label{tab:crosssolver}
+\centering
+\footnotesize
+\begin{tabular}{rrrr}
+\toprule
+March hour & PYPOWER & CasADi/IPOPT & $|\Delta|$\\
+ & MW & MW & MW\\
+\midrule
+00 & 50.666395 & 50.666127 & 0.000268\\
+01 & 50.347203 & 50.346555 & 0.000648\\
+02 & 50.107906 & 50.107658 & 0.000248\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Independent GB system reproduces the distributional information effect}
+The PyPSA-GB experiment provides a second-system check on the distributional, not chronological, part of the result. On 2685 common internal-generation coordinates, January--July mean movement is 16785.255 MW, full empirical $W_1$ is 18651.979 MW, and the resulting shape gap is 1866.724 MW, or 10.01\% of the full transport cost. Preserving clock hour raises the empirical transport to 19888.552 MW, an additional 1236.573 MW or 6.63\% relative to unconstrained full $W_1$. Both underlying weekly network optimizations terminate optimally with zero load shedding.
+
+\begin{table}[t]
+\caption{Independent PyPSA-GB January--July replication on internal generation.}
+\label{tab:gb}
+\centering
+\footnotesize
+\begin{tabular}{lr}
+\toprule
+Quantity & Value\\
+\midrule
+Common internal generator coordinates & 2685\\
+Mean movement $M$ (MW) & 16785.255\\
+Full empirical $W_1$ (MW) & 18651.979\\
+Shape gap $G_{\rm shape}$ (MW) & 1866.724\\
+Shape share of full $W_1$ & 10.01\%\\
+Clock-hour-conditioned $W_1$ (MW) & 19888.552\\
+Clock-hour premium over full $W_1$ (MW) & 1236.573\\
+Clock-hour premium & 6.63\%\\
+Load shedding, Jan./Jul. (MWh) & 0 / 0\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The coordinate-universe sensitivity does not explain the finding. Zero-padding the 21 July-only internal generator coordinates increases both $M$ and full $W_1$ by 12.398 MW but leaves the shape gap unchanged to numerical precision (1866.724 MW). Thus the nonzero shape component and clock-hour premium are not artifacts of discarding those July-only coordinates. Because the PyPSA-GB run uses LP dispatch without minimum-up/down commitment chronology, this result is evidence that the \emph{distributional information hierarchy} transfers to an independent system model; it is not evidence that the RTS chronological rejection transfers to Great Britain.
+
+A generator-metadata audit makes that boundary machine-checkable. In the frozen January and July models, all 2692 and 2713 generator rows, respectively, are noncommittable; all minimum up/down times are zero; and all ramp-limit fields are null. A GB chronology experiment would therefore require imputed parameters and is held rather than silently admitted.
+
+\subsection{Operational outturns reproduce shape and conditioning sensitivity}
+The Elexon comparison provides a public operational-data instance of the distributional diagnostic. Table~\ref{tab:elexon} reports the primary 260-coordinate result. The shape gap is 1223.190 MW, or 5.89\% of full empirical $W_1$. Requiring the source and target atoms to share a settlement-period index raises transport by 239.650 MW (1.15\%). Zero-padding all 268 complete BMUs changes $M$ and $W_1$ equally and leaves the shape gap unchanged to numerical precision.
+
+\begin{table}[t]
+\caption{Matched-weekday Elexon B1610 operational outturn comparison.}
+\label{tab:elexon}
+\centering
+\footnotesize
+\begin{tabular}{lr}
+\toprule
+Quantity & Value\\
+\midrule
+Common complete BMU coordinates & 260\\
+Settlement-period atoms per day & 48\\
+Mean movement $M$ (MW) & 19553.648\\
+Full empirical $W_1$ (MW) & 20776.837\\
+Shape gap (MW) & 1223.190\\
+Shape share & 5.89\%\\
+Same-period $W_1$ (MW) & 21016.488\\
+Same-period premium & 1.15\%\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The mean period-level $L_1$ discrepancy between integrated Physical Notifications and settled outturn is 3461.403 MW in January and 3141.137 MW in July. These magnitudes are retained only as descriptive PN-to-outturn differences. They are not interpreted as feasibility repairs or balancing-action volumes because the observational data do not identify a counterfactual cause.
+
+\subsection{Reproducibility and evidence boundary}
+The chronology, AC, GB, and Elexon claims are backed by machine-readable result tables rather than by figures alone. The released archive retains the pinned RTS-GMLC source commit, both minimum-up/down formulations, the exact July relaxation repair, the network witness and a new warm-started 600-s MIP log, the March LP-bound record, all 48 shared AC witness outputs, the independent PyPSA-GB source commit and solved-dispatch extracts, and raw Elexon responses with SHA-256 hashes. A clean-room script that imports no DSC-Grid analysis module reproduces 26 central numerical claims. This record is also why a negative solver event is not promoted to physical rejection: only transferable relaxation arguments or returned feasible witnesses support the corresponding claims.
+
+\section{Discussion}
+Figure~\ref{fig:ladder} changes the interpretation of the earlier static result. A zero or small static support premium does not imply that a target mean belongs to a chronological set. In the tested RTS system, the distinction is not explained by native continuous ramping: the exact March and July means survive that constraint. They fail only when minimum residence-time logic is restored. The scientific contribution is therefore not ``more constraints make the answer worse,'' but the identification of which information layer changes the admissibility statement under harmonized source semantics.
+For July, the network restoration also shows why rejection and repair should be separated. The relaxation proves that less than 8.021 MW cannot suffice, while an explicit schedule satisfying nodal flow, continuous line ratings, minimum residence times, and native online ramp demonstrates that 11.926 MW does suffice. The unresolved interval is reported as a computational bracket rather than being collapsed to either endpoint.
+
+The result also clarifies why the PGLib-UC stress benchmark cannot be substituted for the native chronology test. PGLib-UC is a valuable UC benchmark, but its modified hourly ramp rates and full UC semantics intentionally create a harder temporal instance. Agreement between native and PGLib tests would have strengthened a chronology claim; disagreement is itself informative because it reveals semantic sensitivity of the verdict. This is exactly why the paper reports the two experiments separately.
+
+The AC layer answers yet another question. A DC operating point ignores losses and reactive-power/voltage feasibility. Boateng \emph{et al.} show that structured DCOPF-to-ACPF recovery can restore feasibility across large test suites using distributed slack and PV/PQ switching \cite{Boateng2027}. Here we use a direct nonlinear projection instead: $P$, $Q$, voltage, and branch constraints are enforced jointly, which yields explicit AC-feasible witnesses and an active-power restoration burden. The 48/48 shared-support recovery shows that the selected March and July DC states can be moved to nearby AC-feasible states under the declared Area-1 model; it does not establish N-1 security, dynamic reachability, or globally minimal AC distance.
+
+The independent Great Britain result strengthens only the part of the argument it actually tests. PyPSA-GB is a separately developed open-source GB system model with different topology, generation fleet, weather-driven renewable profiles, and historical data assembly \cite{Lyden2024}. Its January--July comparison shows a much larger shape share (10.01\%) than the RTS July case and a 6.63\% increase when clock hour is preserved, so the information retained in the support materially changes the distributional comparison in both systems. However, the GB run is an LP dispatch experiment and therefore does not test the RTS minimum-up/down mechanism. Generality is claimed for the diagnostic distinction between mean, shape, and conditional support, not for the specific chronological rejection mechanism.
+
+The Elexon result strengthens the evidence in a different direction: it removes dependence on a synthetic or optimized dispatch model for the mean--shape and conditioning observation. Its 5.89\% shape share and positive same-period premium show that the distinction is visible in settled operational outturns. Yet this does not make it a chronology experiment. A settlement-period label is conditioning information, and a Physical Notification is an observed market/operational record; neither alone identifies the feasible chronological set or a causal intervention.
+
+\section{Limitations and Claim Boundaries}
+The main chronological rejection is proven for exact target means through a no-network relaxation. This is strong for \emph{rejection}: infeasibility in the relaxation transfers to stricter sets. Repair magnitudes require separate qualification. The July 8.020508-MW value is exact for the relaxation and lower-bounds stricter chronology; the verified network-plus-native-ramp witness supplies an 11.926296-MW upper bound but not the exact network optimum. The March 40.018759-MW value remains only an LP lower bound.
+
+The AC projection is a local nonconvex solve. Successful points are valid witnesses under the declared equations and limits, but the objective is not globally certified. Fixed-pattern nonreturns are solver outcomes, not physical infeasibility. The model covers Area 1 internal lines, continuous ratings, steady-state AC balance, voltage, and generator $Q$ limits; it does not include contingencies, transient stability, protection, real operator actions, storage chronology, or a continuous feasible path between hourly points. In particular, our distributional admission result does not claim the feasible-path novelty addressed in \cite{LeePath2020,Narimani2025}.
+
+The PyPSA-GB extension is also deliberately bounded. It uses two Historical-2020 Reduced-network LP weeks, internal generator active-power coordinates, and a common-coordinate primary universe; storage, interconnector links, unit commitment, contingencies, and AC physics are not folded into that replication metric. The 21 July-only internal generator coordinates are tested only in a zero-padding sensitivity. The GB result therefore supports transfer of the distributional mean--shape/conditioning diagnostic, not transfer of the RTS minimum-up/down rejection.
+
+The Elexon extension uses two matched weekdays and an acquisition-date BMU registry to classify 2023 records. The registry is not asserted to be a historical 2023 snapshot, and B1610 provides the latest available settlement-run value per BMU/period. Although both selected days contain only DF rows, the design cannot identify a treatment effect. The PN comparison is therefore descriptive, sampled dynamic-parameter snapshots are not a complete fleet calibration, and neither is used to claim field-experimental or causal validity.
+
+The target laws are equal-weight empirical weeks. Unequal sampling, probabilistic reweighting, different horizons, and other source regimes define different diagnostics. The findings establish a counterexample to the idea that one static admissibility verdict is sufficient; they do not establish that every static model overstates chronology.
+
+\section{Conclusion}
+The same distributional operating-state target can receive different admissibility verdicts as operational information is restored. In RTS-GMLC Area 1, retrospective static supports can attain the prescribed-mean lower bound and conditional supports add finite movement, yet the exact March and July means leave a source-native minimum-up/down chronological set even though native online-to-online ramping alone still admits them. For July, at least 8.021 MW of mean movement is required already in a relaxed chronology, and a network-constrained native-ramp witness places the stricter repair no higher than 11.926 MW; a new warm-started MIP run retains that certified bracket. A separate AC projection recovers all 48 shared-continuous March/July hourly states. On an independently solved PyPSA-GB pair, target-law shape contributes 10.01\% of empirical $W_1$ and clock-hour conditioning raises transport by 6.63\%, while a provenance audit correctly holds any GB chronology claim. On matched-weekday Elexon operational outturns, shape contributes 5.89\% and settlement-period conditioning raises transport by 1.15\%. The latter is observational evidence, not a field experiment.
+
+The practical lesson is methodological: static support, chronological admission, and AC feasibility should not be compressed into one notion of ``reachability.'' A defensible operating-law study should state which information is retained, use a repair distance when an exact target is not admitted, and treat successful AC restorations as physical witnesses without turning nonlinear solver failure into an infeasibility claim.
+
+\section*{Data and Code Availability}
+The companion reproducibility archive contains source-lineage records, chronology formulations and result tables, AC projection code and per-hour outputs, cross-solver records, frozen PyPSA-GB dispatch extracts and parameter audits, raw Elexon responses and acquisition/analysis code, a clean-room claim audit, and SHA-256 manifests. RTS-GMLC and PyPSA-GB upstream sources are identified by pinned public repository commits; Elexon data are obtained from its public Insights API \cite{ElexonInsights}. A permanent repository DOI is pending author deposit.
+
+\input{references.tex}
+\end{document}

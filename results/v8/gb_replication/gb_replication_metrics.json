@@ -1,0 +1,61 @@
+{
+  "system": "PyPSA-GB",
+  "source_commit": "8e084afe4fb2d4be86f270d3f12ad3315eee2a3a",
+  "network": "Reduced (32-bus configuration)",
+  "year": 2020,
+  "source_week": "2020-01-01 through 2020-01-07",
+  "target_week": "2020-07-01 through 2020-07-07",
+  "resolution_minutes": 60,
+  "state_definition": "common non-emergency Generator active-power outputs only; storage and links audited separately",
+  "n_common_coordinates": 2692,
+  "M_mean_L1_MW": 17937.147903423614,
+  "W1_empirical_L1_MW": 20397.860806356854,
+  "G_shape_MW": 2460.712902933239,
+  "shape_share": 0.12063583168321135,
+  "only_january_coordinates": [],
+  "only_july_coordinates": [
+    "Birkhall_Estate",
+    "Bolton_Hill_WTW",
+    "Building_F,_Renishaw_Factory",
+    "Burnfoot_East_Wind_Farm_further_extension",
+    "Coire_Na_Cloiche_Wind_Farm",
+    "Hewitts_Avenue_Tesco",
+    "Iron_Mountain_Building",
+    "Iron_Mountain_Howe_Moss_Drive",
+    "Lamby_Way_Solar_Farm",
+    "Lamp_Hill_Wimpole_Estate",
+    "Mamhilad_Solar_Farm",
+    "Pretoria_Road",
+    "Queen_Elizabeth_The_Queen_Mothers_Hospital",
+    "Renishaw_PLC_Factory",
+    "St_Margarets_Bay",
+    "Tesco_Crab_Tree_Lane",
+    "Tesco_Super_Store_Bridge_Road",
+    "Tesco_Super_Store_Garratt_Way,_Gorton",
+    "Tesco_Superstore_Shripney_Road",
+    "Tesco_Wombwell_Lane",
+    "Tralorg_Wind_Farm"
+  ],
+  "diagnostics": {
+    "January": {
+      "snapshots": 168,
+      "generators_total": 2721,
+      "state_coordinates": 2692,
+      "load_shedding_MWh": 0.0,
+      "buses": 35,
+      "lines": 99,
+      "links": 7,
+      "storage_units": 74
+    },
+    "July": {
+      "snapshots": 168,
+      "generators_total": 2742,
+      "state_coordinates": 2713,
+      "load_shedding_MWh": 0.0,
+      "buses": 35,
+      "lines": 99,
+      "links": 7,
+      "storage_units": 74
+    }
+  }
+}

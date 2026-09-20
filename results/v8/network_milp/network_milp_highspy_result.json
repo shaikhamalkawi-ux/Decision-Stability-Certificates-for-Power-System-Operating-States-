@@ -1,0 +1,17 @@
+{
+  "run_status": "HighsStatus.kWarning",
+  "model_status": "HighsModelStatus.kTimeLimit",
+  "model_status_text": "Time limit reached",
+  "elapsed_s": 601.3419206142426,
+  "objective_MW": 11.926296464290038,
+  "mip_dual_bound_MW": 8.020508464287673,
+  "mip_gap": 0.3274937875053828,
+  "mip_node_count": 0,
+  "primal_solution_status": 2,
+  "dual_solution_status": 0,
+  "max_primal_infeasibility": 7.950973213155521e-12,
+  "sum_primal_infeasibilities": 9.723902164380508e-10,
+  "known_independent_lower_bound_MW": 8.020508464286115,
+  "known_start_upper_bound_MW": 11.926296464291301,
+  "recomputed_objective_MW": 11.92629646429057
+}

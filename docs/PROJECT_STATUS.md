@@ -2,7 +2,7 @@
 
 ## Active scientific baseline
 
-**V7 — GB Replication and Network-Repair Strengthening**
+**V8 — Operational Evidence and Chronology Audit (candidate baseline)**
 
 Target venue: IEEE Transactions on Power Systems (TPWRS).
 
@@ -16,16 +16,14 @@ The same operating-state target can receive different admissibility verdicts as 
 
 Native RTS-GMLC chronology and PGLib-UC stress semantics are not mixed.
 
-## Current strengthening program
+## Evidence-gate outcome
 
-The next scientific version is opened only if new evidence or a verified correction warrants it.
+The A-E evidence gate produced a substantive, admissible revision:
 
-Priority workstreams:
+- A: frozen Elexon matched-day operational evidence, with non-causal claim boundaries;
+- B: PyPSA-GB chronology HOLD because the frozen generator metadata do not contain admissible chronological constraints;
+- C: a warm-started HiGHS network-MILP run that leaves the certified July bracket unchanged;
+- D: independent clean-room reproduction, 26/26 central claims passed;
+- E: a 2024-2026 closest-paper audit supporting the manuscript's narrowed novelty statement.
 
-A. Real GB operational evidence from public Elexon/NESO sources.  
-B. Independent PyPSA-GB chronology / MILP experiment.  
-C. Stronger closure of the July network-constrained repair problem.  
-D. Clean-room independent reproduction of central V7 claims.  
-E. 2024–2026 novelty and closest-paper audit.
-
-If these workstreams do not produce a substantive admissible result, V7 remains the active scientific baseline.
+V8 scientifically supersedes V7, but remains a candidate baseline until the project owner's independent ChatGPT review verifies the calculations, claims, repository state, PDFs, and package integrity. No journal submission has been made.

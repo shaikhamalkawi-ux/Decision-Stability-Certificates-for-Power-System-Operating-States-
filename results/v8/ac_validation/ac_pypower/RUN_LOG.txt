@@ -1,0 +1,119 @@
+=== DSC-Grid V6 AC-restoration one-click Colab ===
+Step 1/7: installing PYPOWER ...
+PYPOWER install: PASS
+Step 2/7: restoring embedded locked inputs ...
+PASS gen.csv 988466f29132b73739de60c9204dd4a2a9ceb0adf572e5966c086611272f4068
+PASS bus.csv cec3f776222812d43eaeaf7ac85b577719dc565f354a04e120c12a647ddb710e
+PASS branch.csv e92d16d13b1c5d2899f7871c0c99c3eb94605528beef157bf9e1ccbcffe5ef4e
+PASS timeseries_data_files/Load/DAY_AHEAD_regional_Load.csv 7a9470d32d49068a91334cb36db54cceb2feb5cb1f702b0fa0847af8bac6cf21
+PASS timeseries_data_files/PV/DAY_AHEAD_pv.csv bfede6e558df5ea0f244b6326940a4ee0b95138643aa8a062897c67134c9c185
+PASS timeseries_data_files/WIND/DAY_AHEAD_wind.csv 6a1a8dc7d10a518523b3b319902ecc1ca1c400223832b26c6edb3a6e69d01dbc
+PASS timeseries_data_files/Hydro/DAY_AHEAD_hydro.csv 4030660920df850138472c5561322c71e5037813c8e3232d3f9bde512a40606d
+PASS timeseries_data_files/RTPV/DAY_AHEAD_rtpv.csv 13a6933c2e0a513e1a453143876dadef6977e6add7701a21f56fe6a753afce42
+PASS month_03_first_week_dispatch.csv aaa0a82e82c512a54ec6f89afa4e00656aa7cf660d9f9929ad9c0493479f5dc8
+PASS month_07_first_week_dispatch.csv 5b16ff77d70404dc131402ec7ee0fabae32f7ab8c560b9557188f65a480ed42e
+Step 3/7: importing scientific stack and self-testing AC-OPF ...
+Using PYPOWER OPF_ALG=560 (PIPS); 540 is not a valid AC algorithm code in PYPOWER 5.1.18.
+PYPOWER case14 self-test: PASS
+Step 4/7: loading RTS-GMLC Area-1 data ...
+RTS Area-1: 24 buses, 38 branches, 41 decision generators
+Step 5/7: running 48 hours x 2 support modes = 96 AC-OPF cases ...
+M03 h00 shared_continuous  success=False L1=nan MW
+M03 h00 fixed_commitment   success=True L1=50.6664 MW
+M03 h01 shared_continuous  success=False L1=nan MW
+M03 h01 fixed_commitment   success=True L1=50.3472 MW
+M03 h02 shared_continuous  success=False L1=nan MW
+M03 h02 fixed_commitment   success=True L1=50.1079 MW
+M03 h03 shared_continuous  success=False L1=nan MW
+M03 h03 fixed_commitment   success=False L1=nan MW
+M03 h04 shared_continuous  success=False L1=nan MW
+M03 h04 fixed_commitment   success=False L1=nan MW
+M03 h05 shared_continuous  success=False L1=nan MW
+M03 h05 fixed_commitment   success=False L1=nan MW
+M03 h06 shared_continuous  success=False L1=nan MW
+M03 h06 fixed_commitment   success=False L1=nan MW
+M03 h07 shared_continuous  success=False L1=nan MW
+M03 h07 fixed_commitment   success=False L1=nan MW
+M03 h08 shared_continuous  success=False L1=nan MW
+M03 h08 fixed_commitment   success=False L1=nan MW
+M03 h09 shared_continuous  success=False L1=nan MW
+M03 h09 fixed_commitment   success=False L1=nan MW
+M03 h10 shared_continuous  success=False L1=nan MW
+M03 h10 fixed_commitment   success=False L1=nan MW
+M03 h11 shared_continuous  success=False L1=nan MW
+M03 h11 fixed_commitment   success=False L1=nan MW
+M03 h12 shared_continuous  success=False L1=nan MW
+M03 h12 fixed_commitment   success=False L1=nan MW
+M03 h13 shared_continuous  success=False L1=nan MW
+M03 h13 fixed_commitment   success=False L1=nan MW
+M03 h14 shared_continuous  success=False L1=nan MW
+M03 h14 fixed_commitment   success=False L1=nan MW
+M03 h15 shared_continuous  success=False L1=nan MW
+M03 h15 fixed_commitment   success=False L1=nan MW
+M03 h16 shared_continuous  success=False L1=nan MW
+M03 h16 fixed_commitment   success=False L1=nan MW
+M03 h17 shared_continuous  success=False L1=nan MW
+M03 h17 fixed_commitment   success=False L1=nan MW
+M03 h18 shared_continuous  success=False L1=nan MW
+M03 h18 fixed_commitment   success=False L1=nan MW
+M03 h19 shared_continuous  success=False L1=nan MW
+M03 h19 fixed_commitment   success=False L1=nan MW
+M03 h20 shared_continuous  success=False L1=nan MW
+M03 h20 fixed_commitment   success=False L1=nan MW
+M03 h21 shared_continuous  success=False L1=nan MW
+M03 h21 fixed_commitment   success=False L1=nan MW
+M03 h22 shared_continuous  success=False L1=nan MW
+M03 h22 fixed_commitment   success=False L1=nan MW
+M03 h23 shared_continuous  success=False L1=nan MW
+M03 h23 fixed_commitment   success=False L1=nan MW
+M07 h00 shared_continuous  success=False L1=nan MW
+M07 h00 fixed_commitment   success=False L1=nan MW
+M07 h01 shared_continuous  success=False L1=nan MW
+M07 h01 fixed_commitment   success=False L1=nan MW
+M07 h02 shared_continuous  success=False L1=nan MW
+M07 h02 fixed_commitment   success=False L1=nan MW
+M07 h03 shared_continuous  success=False L1=nan MW
+M07 h03 fixed_commitment   success=False L1=nan MW
+M07 h04 shared_continuous  success=False L1=nan MW
+M07 h04 fixed_commitment   success=False L1=nan MW
+M07 h05 shared_continuous  success=False L1=nan MW
+M07 h05 fixed_commitment   success=False L1=nan MW
+M07 h06 shared_continuous  success=False L1=nan MW
+M07 h06 fixed_commitment   success=False L1=nan MW
+M07 h07 shared_continuous  success=False L1=nan MW
+M07 h07 fixed_commitment   success=False L1=nan MW
+M07 h08 shared_continuous  success=False L1=nan MW
+M07 h08 fixed_commitment   success=False L1=nan MW
+M07 h09 shared_continuous  success=False L1=nan MW
+M07 h09 fixed_commitment   success=False L1=nan MW
+M07 h10 shared_continuous  success=False L1=nan MW
+M07 h10 fixed_commitment   success=False L1=nan MW
+M07 h11 shared_continuous  success=False L1=nan MW
+M07 h11 fixed_commitment   success=False L1=nan MW
+M07 h12 shared_continuous  success=False L1=nan MW
+M07 h12 fixed_commitment   success=False L1=nan MW
+M07 h13 shared_continuous  success=False L1=nan MW
+M07 h13 fixed_commitment   success=False L1=nan MW
+M07 h14 shared_continuous  success=False L1=nan MW
+M07 h14 fixed_commitment   success=False L1=nan MW
+M07 h15 shared_continuous  success=False L1=nan MW
+M07 h15 fixed_commitment   success=False L1=nan MW
+M07 h16 shared_continuous  success=False L1=nan MW
+M07 h16 fixed_commitment   success=False L1=nan MW
+M07 h17 shared_continuous  success=False L1=nan MW
+M07 h17 fixed_commitment   success=False L1=nan MW
+M07 h18 shared_continuous  success=False L1=nan MW
+M07 h18 fixed_commitment   success=False L1=nan MW
+M07 h19 shared_continuous  success=False L1=nan MW
+M07 h19 fixed_commitment   success=False L1=nan MW
+M07 h20 shared_continuous  success=False L1=nan MW
+M07 h20 fixed_commitment   success=False L1=nan MW
+M07 h21 shared_continuous  success=False L1=nan MW
+M07 h21 fixed_commitment   success=False L1=nan MW
+M07 h22 shared_continuous  success=False L1=nan MW
+M07 h22 fixed_commitment   success=False L1=nan MW
+M07 h23 shared_continuous  success=False L1=nan MW
+M07 h23 fixed_commitment   success=False L1=nan MW
+Step 6/7: writing results ...
+Scientific run completed.
+Step 7/7: packaging and requesting direct download ...
