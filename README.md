@@ -15,13 +15,14 @@ acquisition/analysis code, and source provenance. The package is in
 Release and deposit status:
 
 - [GitHub release](https://github.com/shaikhamalkawi-ux/Decision-Stability-Certificates-for-Power-System-Operating-States-/releases/tag/v8-reproducibility.20260926)
-- Planned Zenodo record: [22976152](https://zenodo.org/records/22976152).
-- Reserved Zenodo DOI: **10.5281/zenodo.22976152**.
+- Published archive: [Zenodo record 22976152](https://zenodo.org/records/22976152).
+- Archive DOI: [10.5281/zenodo.22976152](https://doi.org/10.5281/zenodo.22976152).
 
-**The Zenodo DOI is reserved; file deposit and record publication are pending.**
-The reserved DOI is not yet registered as a published archive. Use the versioned
-GitHub release URL when citing or accessing this snapshot until the Zenodo
-deposit is completed.
+**The reproducibility snapshot is published on Zenodo.** The GitHub and Zenodo
+releases contain the same frozen package. The package was prepared before DOI
+registration, so its internal references to a reserved DOI and pending deposit
+are historical. This root README and the release notes record the published
+status; the frozen archive bytes have been retained unchanged.
 
 ## Research status
 
