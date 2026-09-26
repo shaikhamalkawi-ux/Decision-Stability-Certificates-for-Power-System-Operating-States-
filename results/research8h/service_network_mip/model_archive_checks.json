@@ -1,0 +1,90 @@
+[
+  {
+    "case": "seed_26092600",
+    "shape_matches": true,
+    "zero_objective": true,
+    "exact_fossil_cap_columns": true,
+    "all_cap_coefficients_one": true,
+    "cap_budget_matches": true,
+    "no_mean_rows": true,
+    "integer_block_exact": true,
+    "row_family_counts": {
+      "branch_flow": 6384,
+      "thermal_upper": 4032,
+      "thermal_lower": 4032,
+      "nodal_balance": 4032,
+      "transition": 4008,
+      "exclusive_transition": 4008,
+      "minimum_up": 4008,
+      "minimum_down": 4008,
+      "aggregate_balance": 168,
+      "fossil_energy_cap": 1
+    }
+  },
+  {
+    "case": "seed_26092601",
+    "shape_matches": true,
+    "zero_objective": true,
+    "exact_fossil_cap_columns": true,
+    "all_cap_coefficients_one": true,
+    "cap_budget_matches": true,
+    "no_mean_rows": true,
+    "integer_block_exact": true,
+    "row_family_counts": {
+      "branch_flow": 6384,
+      "thermal_upper": 4032,
+      "thermal_lower": 4032,
+      "nodal_balance": 4032,
+      "transition": 4008,
+      "exclusive_transition": 4008,
+      "minimum_up": 4008,
+      "minimum_down": 4008,
+      "aggregate_balance": 168,
+      "fossil_energy_cap": 1
+    }
+  },
+  {
+    "case": "seed_26092602",
+    "shape_matches": true,
+    "zero_objective": true,
+    "exact_fossil_cap_columns": true,
+    "all_cap_coefficients_one": true,
+    "cap_budget_matches": true,
+    "no_mean_rows": true,
+    "integer_block_exact": true,
+    "row_family_counts": {
+      "branch_flow": 6384,
+      "thermal_upper": 4032,
+      "thermal_lower": 4032,
+      "nodal_balance": 4032,
+      "transition": 4008,
+      "exclusive_transition": 4008,
+      "minimum_up": 4008,
+      "minimum_down": 4008,
+      "aggregate_balance": 168,
+      "fossil_energy_cap": 1
+    }
+  },
+  {
+    "case": "seed_26092603",
+    "shape_matches": true,
+    "zero_objective": true,
+    "exact_fossil_cap_columns": true,
+    "all_cap_coefficients_one": true,
+    "cap_budget_matches": true,
+    "no_mean_rows": true,
+    "integer_block_exact": true,
+    "row_family_counts": {
+      "branch_flow": 6384,
+      "thermal_upper": 4032,
+      "thermal_lower": 4032,
+      "nodal_balance": 4032,
+      "transition": 4008,
+      "exclusive_transition": 4008,
+      "minimum_up": 4008,
+      "minimum_down": 4008,
+      "aggregate_balance": 168,
+      "fossil_energy_cap": 1
+    }
+  }
+]

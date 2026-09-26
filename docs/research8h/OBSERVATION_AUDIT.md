@@ -1,0 +1,23 @@
+# Exact observation-alphabet audit on the actual July week
+
+This is a read-only numerical/graph audit of the existing 168-hour repaired-July case. It performs no optimization, quantization, new permutation search or Euler-trail counting. These definitions and checks are set before recording the counts.
+
+Compare three precisely defined observation alphabets:
+
+1. **Full exogenous input:** the 24 nodal net loads, followed by all 41 native lower-availability values and all 41 upper-availability values (106 binary64 coordinates). Nodal net loads are source regional load times fixed nodal proportions minus native rooftop PV. Dispatch P and commitment U are absent. Timestamps/native row numbers are also absent from the state key.
+2. **Aggregate exogenous input:** the aggregate net demand actually used in the LP, followed by the same 82 availability coordinates (83 binary64 coordinates). Aggregate demand is source area demand minus the sum of rooftop PV; summing rounded nodal values need not be bit-identical to this calculation.
+3. **Endogenous commitment:** the repaired witness's full 24-bit U row. This alphabet depends on a particular operational witness and is not an exogenous input representation.
+
+Primary equality is exact little-endian binary64 row bytes for exogenous vectors and exact uint8 row bytes for U. All values must be finite, and U must be exactly 0 or 1. Count ordinary exact numerical float-tuple classes as a signed-zero cross-check, explicitly reporting any negative zeros or difference from byte classes. This is not numerical rounding or quantization. Static topology, parameters and fixed means do not vary by hour and would not change the classes if repeated in every observation.
+
+Assign state IDs by lexicographic order of their byte keys, independently of occurrence time. Hashes are audit identifiers, while actual bytes determine equality. Report unique states, repeated state classes, repeated observations, largest multiplicity, ordered bigram types and repeated bigram types, self loops, distinct-successor and distinct-predecessor branching. Branching alone is not declared proof of multiple admissible Euler trails. Do not report an Euler-trail count.
+
+For any alphabet whose 168 observed rows are all distinct, check the graph from its labelled bigram counts and endpoints. It must have one start of degree (in=0,out=1), one end (1,0), and all other vertices (1,1); all 167 edge counts are one. Deterministically follow the sole outgoing edge from the stated start, consuming edges. Require that this reconstructs all 168 states and ends at the stated final state. This graph check plus the argument below proves uniqueness of the chronology within the exact labelled observation class; it does not infer operational feasibility.
+
+**Uniqueness argument.** Every admissible chronology with those bigrams and endpoints must start at the specified first state. Its sole outgoing edge forces the next state. Induction forces every subsequent edge, and connectivity/complete edge consumption gives the same entire sequence. When observation vectors are injective over hours, this also identifies their row ordering. Alphabet labels must include the exact vectors (or collision-checked keys), not just an unlabeled graph or multiset of transition-count values.
+
+As a direct relevance check, read the 16 already archived Markov permutations without generating new ones. Compare their bigram multisets for each of the three alphabets and verify endpoints. A preserved U bigram multiset is not evidence of preserved exogenous bigrams. A changed U sequence with preserved U bigrams/endpoints is a concrete ambiguity witness for that endogenous alphabet; it is not an infeasibility proof or an enumeration of all alternatives.
+
+Save exact numeric arrays, byte dictionaries, state sequences, full edge tables and degree counts, reconstruction checks, source hashes and comparison tables. Independently reproduce nodal net inputs from source tables and require bit-exact agreement with the existing nodal checker, while separately recording its positive DC-network witness check. All source/protocol/result paths are new or read-only; previous files remain unchanged.
+
+The purpose is to separate a finite-alphabet worst-case non-identifiability statement from what the raw continuous RTS vectors actually do. If these vectors are all distinct, exact labelled bigrams already encode their order. A theorem showing ambiguity for some finite-alphabet strings does not thereby establish ambiguity for this injectively labelled dataset. A coarser exogenous alphabet would require a new explicit definition and a separate audit; none is introduced here.

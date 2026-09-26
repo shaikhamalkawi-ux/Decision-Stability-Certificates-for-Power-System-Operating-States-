@@ -1,0 +1,20 @@
+{
+  "model_status": "Infeasible",
+  "solver_version": "1.12.0",
+  "elapsed_s": 0.4720556999964174,
+  "time_limit_s": 60,
+  "verdict": "ALL_ON_RESTRICTION_INFEASIBLE",
+  "matrix_sha256": "f4cf4399a73d25ecbe38852b20e75b0f783e2b4087e2b77c5583daf26864f3db",
+  "bounds_sha256": "5d8a5509b783c3c9bc7b3fc73ffbeea0d05261c0020ac9aa4f5ab5168d9d371c",
+  "interpretation": "Only the fixed all-thermal-on restriction is tested; failure is not an unrestricted UC rejection.",
+  "matrix_vector_check": {
+    "pass": false,
+    "tolerance": 1e-05,
+    "residuals": {
+      "column_lower": 3852.816221000082,
+      "column_upper": 4410.959962000085,
+      "row_lower": 1967.5279712389474,
+      "row_upper": 1488.062632232275
+    }
+  }
+}

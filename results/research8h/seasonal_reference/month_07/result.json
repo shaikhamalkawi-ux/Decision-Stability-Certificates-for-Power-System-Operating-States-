@@ -1,0 +1,26 @@
+{
+  "month": 7,
+  "model_status": "Time limit reached",
+  "run_status": "HighsStatus.kWarning",
+  "solver_version": "1.12.0",
+  "elapsed_s": 120.37268850000692,
+  "solver_options": {
+    "time_limit": 120.0,
+    "threads": 1,
+    "random_seed": 0,
+    "mip_rel_gap": 1e-08,
+    "log_to_console": false,
+    "log_file": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\seasonal_reference\\month_07\\solver.log"
+  },
+  "presolve": "solver default",
+  "solution_value_valid": false,
+  "verdict": "UNKNOWN_NO_VERIFIED_REFERENCE",
+  "objective_MWh": null,
+  "mip_dual_bound_MWh": 180075.1924900012,
+  "mip_relative_gap": null,
+  "mip_node_count": 0,
+  "primal_solution_status": 0,
+  "max_primal_infeasibility": null,
+  "numerical_optimality_claim": false,
+  "optimization_calls": 1
+}

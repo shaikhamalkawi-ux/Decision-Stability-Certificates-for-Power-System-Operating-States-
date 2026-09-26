@@ -1,0 +1,42 @@
+GEN UID,Category,Fuel,PMin MW,PMax MW,Min Up Time Hr,Min Down Time Hr,Ramp Rate MW/Min,thermal,fossil_objective_coefficient
+101_CT_1,Oil CT,Oil,8,20.0,1.0,1.0,3.0,True,1
+101_CT_2,Oil CT,Oil,8,20.0,1.0,1.0,3.0,True,1
+101_STEAM_3,Coal,Coal,30,76.0,8.0,4.0,2.0,True,1
+101_STEAM_4,Coal,Coal,30,76.0,8.0,4.0,2.0,True,1
+102_CT_1,Oil CT,Oil,8,20.0,1.0,1.0,3.0,True,1
+102_CT_2,Oil CT,Oil,8,20.0,1.0,1.0,3.0,True,1
+102_STEAM_3,Coal,Coal,30,76.0,8.0,4.0,2.0,True,1
+102_STEAM_4,Coal,Coal,30,76.0,8.0,4.0,2.0,True,1
+107_CC_1,Gas CC,NG,170,355.0,8.0,4.5,4.14,True,1
+113_CT_1,Gas CT,NG,22,55.0,2.2,2.2,3.7,True,1
+113_CT_2,Gas CT,NG,22,55.0,2.2,2.2,3.7,True,1
+113_CT_3,Gas CT,NG,22,55.0,2.2,2.2,3.7,True,1
+113_CT_4,Gas CT,NG,22,55.0,2.2,2.2,3.7,True,1
+115_STEAM_1,Oil ST,Oil,5,12.0,4.0,2.0,1.0,True,1
+115_STEAM_2,Oil ST,Oil,5,12.0,4.0,2.0,1.0,True,1
+115_STEAM_3,Coal,Coal,62,155.0,8.0,8.0,3.0,True,1
+116_STEAM_1,Coal,Coal,62,155.0,8.0,8.0,3.0,True,1
+118_CC_1,Gas CC,NG,170,355.0,8.0,4.5,4.14,True,1
+123_STEAM_2,Coal,Coal,62,155.0,8.0,8.0,3.0,True,1
+123_STEAM_3,Coal,Coal,140,350.0,24.0,48.0,4.0,True,1
+123_CT_1,Gas CT,NG,22,55.0,2.2,2.2,3.7,True,1
+123_CT_4,Gas CT,NG,22,55.0,2.2,2.2,3.7,True,1
+123_CT_5,Gas CT,NG,22,55.0,2.2,2.2,3.7,True,1
+121_NUCLEAR_1,Nuclear,Nuclear,396,400.0,24.0,48.0,20.0,True,0
+122_HYDRO_1,Hydro,Hydro,0,50.0,0.0,0.0,50.0,False,0
+122_HYDRO_2,Hydro,Hydro,0,50.0,0.0,0.0,50.0,False,0
+122_HYDRO_3,Hydro,Hydro,0,50.0,0.0,0.0,50.0,False,0
+122_HYDRO_4,Hydro,Hydro,0,50.0,0.0,0.0,50.0,False,0
+122_HYDRO_5,Hydro,Hydro,0,50.0,0.0,0.0,50.0,False,0
+122_HYDRO_6,Hydro,Hydro,0,50.0,0.0,0.0,50.0,False,0
+113_PV_1,Solar PV,Solar,0,93.6,0.0,0.0,93.6,False,0
+102_PV_1,Solar PV,Solar,0,25.6,0.0,0.0,25.6,False,0
+101_PV_1,Solar PV,Solar,0,25.9,0.0,0.0,25.9,False,0
+102_PV_2,Solar PV,Solar,0,25.3,0.0,0.0,25.3,False,0
+104_PV_1,Solar PV,Solar,0,26.8,0.0,0.0,26.8,False,0
+101_PV_2,Solar PV,Solar,0,26.7,0.0,0.0,26.7,False,0
+101_PV_3,Solar PV,Solar,0,26.2,0.0,0.0,26.2,False,0
+101_PV_4,Solar PV,Solar,0,25.8,0.0,0.0,25.8,False,0
+103_PV_1,Solar PV,Solar,0,61.5,0.0,0.0,61.5,False,0
+119_PV_1,Solar PV,Solar,0,66.6,0.0,0.0,66.6,False,0
+122_WIND_1,Wind,Wind,0,713.5,0.0,0.0,713.5,False,0

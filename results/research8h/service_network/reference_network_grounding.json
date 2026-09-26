@@ -1,0 +1,13 @@
+{
+  "check": {
+    "pass": true,
+    "tolerance": 1e-05,
+    "residuals": {
+      "column_lower": 0.0,
+      "column_upper": 0.0,
+      "row_lower": 1.4779288903810084e-12,
+      "row_upper": 7.958078640513122e-12
+    }
+  },
+  "meaning": "Existing reference checked with its own frozen commitment bounds, not claimed feasible for the all-on restriction."
+}

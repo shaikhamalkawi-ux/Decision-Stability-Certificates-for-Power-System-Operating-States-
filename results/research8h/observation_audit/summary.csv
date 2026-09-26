@@ -1,0 +1,4 @@
+hours,unique_states,repeated_state_classes,observations_in_repeated_classes,repeated_observations_beyond_first,maximum_state_multiplicity,bigram_occurrences,unique_bigram_types,repeated_bigram_types,self_loop_occurrences,start_state,end_state,Euler_trail_count,nontrivial_successor_branching,alphabet,coordinates,key_dtype,key_includes_timestamp_or_native_row,key_includes_dispatch_P,key_includes_commitment_U,negative_zero_coordinates,exact_numerical_tuple_unique_states,byte_and_exact_numerical_class_counts_agree,archived_Markov_orders_preserving_bigrams,observed_nonuniqueness_witness_exists
+168,168,0,0,0,1,167,167,0,0,62,68,NOT_ENUMERATED,False,full_exogenous,106,<f8,False,False,False,0.0,168.0,True,0,False
+168,168,0,0,0,1,167,167,0,0,32,140,NOT_ENUMERATED,False,aggregate_exogenous,83,<f8,False,False,False,0.0,168.0,True,0,False
+168,48,20,140,120,27,167,92,17,79,10,4,NOT_ENUMERATED,True,endogenous_U24,24,u1,False,False,True,,,,16,True

@@ -1,0 +1,27 @@
+{
+  "utc": "2026-09-26T20:50:16.497841+00:00",
+  "months": [
+    1,
+    4,
+    7,
+    10
+  ],
+  "script_sha256": "6844c70fdfe298d85cb2e247ca828cd3b0a1046f3bfc70f306743f74ac0e7805",
+  "protocol_sha256": "c8d8612432e2f04fba9625af0629b74a99942f86a0deff4633b7fbf4795aff99",
+  "bound_sources": {
+    "research8h_service_network_mip.py": "a8c9c73b9f85b10afbb7aa93672ca595ccff6f30a1584faefeea5599a775c760",
+    "research8h_service_network.py": "1cdfa891e4b83e685bb38021709b99066aae6daa994e3c4500e815357f156a41",
+    "temporal_lp_certificate.py": "6191c5760811cab0ec22b2fb1376a5be3aa47cb548e1260c4a17e2563d9802e4",
+    "v8r1_rts_seasonal.py": "bca0127d7b2771c6da3b6a838c8caa7fb6ce0df4eafd9a512326aabd8daf7dc2",
+    "temporal_information_pilot.py": "f2e50b7dccb0e1869c8667a00e32c9d2f1d3f1f641459d4ccb802abe0074d4a0"
+  },
+  "seconds_per_case": 120,
+  "threads": 1,
+  "random_seed": 0,
+  "relative_gap_target": 1e-08,
+  "warm_start": false,
+  "named_unit_mean_constraints": 0,
+  "energy_caps": 0,
+  "objective": "23 fossil-unit MWh; equal weights; nuclear excluded",
+  "execution_context": "Shared host; another independent thread-one MIP may run concurrently; timings are not a benchmark."
+}

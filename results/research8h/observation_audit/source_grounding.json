@@ -1,0 +1,12 @@
+{
+  "nodal_reconstruction_exact_match": true,
+  "network_witness": {
+    "balance_MW": 6.59383658785373e-12,
+    "nodal_balance_MW": 7.958078640513122e-12,
+    "branch_excess_MW": 2.842170943040401e-14,
+    "max_branch_loading": 1.0000000000000002,
+    "pass": true
+  },
+  "max_nodal_sum_minus_aggregate_MW": 4.547473508864641e-13,
+  "P_used_only_for_existing_network_witness_check_not_exogenous_state_key": true
+}

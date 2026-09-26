@@ -1,0 +1,5 @@
+month,model_status,run_status,solver_version,elapsed_s,presolve,solution_value_valid,verdict,objective_MWh,mip_dual_bound_MWh,mip_relative_gap,mip_node_count,primal_solution_status,max_primal_infeasibility,numerical_optimality_claim,optimization_calls,matrix_verification_pass,physical_verification_pass,verified_fossil_energy_MWh
+1,Time limit reached,HighsStatus.kWarning,1.12.0,131.98455980001017,solver default,True,VERIFIED_BINARY_DC_NETWORK_REFERENCE,22964.941239556443,22616.830716809134,0.01515834589411876,0,2,2.5508484213787597e-11,False,1,True,True,22964.941239556443
+4,Time limit reached,HighsStatus.kWarning,1.12.0,121.30437359999632,solver default,False,UNKNOWN_NO_VERIFIED_REFERENCE,,42178.564764400886,,0,0,,False,1,,,
+7,Time limit reached,HighsStatus.kWarning,1.12.0,120.37268850000692,solver default,False,UNKNOWN_NO_VERIFIED_REFERENCE,,180075.1924900012,,0,0,,False,1,,,
+10,Time limit reached,HighsStatus.kWarning,1.12.0,128.88119539999752,solver default,False,UNKNOWN_NO_VERIFIED_REFERENCE,,123931.33744939975,,0,0,,False,1,,,

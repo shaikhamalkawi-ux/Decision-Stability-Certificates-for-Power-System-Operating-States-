@@ -1,0 +1,20 @@
+{
+  "frozen_at_utc": "2026-09-26T20:38:10.795664+00:00",
+  "script_sha256": "1cdfa891e4b83e685bb38021709b99066aae6daa994e3c4500e815357f156a41",
+  "protocol_sha256": "ab798db4f275f709dd6bfca31a534d46267c681d7460942ac0dbbeb194edab51",
+  "source_budget_sha256": "5e77b731b3637ac3f12f8c1b50efd6bc921fd8f59f06049e634719882f78fc19",
+  "budget_MWh": 180555.9189139999,
+  "optimization_runs": 1,
+  "time_limit_s": 60,
+  "threads": 1,
+  "random_seed": 0,
+  "solver": "simplex",
+  "presolve": "off",
+  "commitment": "all thermal units always ON",
+  "permutation_replays_if_feasible": [
+    "seed_26092600",
+    "seed_26092601",
+    "seed_26092602",
+    "seed_26092603"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "source_matrix": "results\\research8h\\service_network_mip\\seed_26092602\\matrix.npz",
+  "matrix_sha256": "2f11940f72432a2a2e89e4a88115eba3cf24a8e82a8110e250c6191020c1f0bb",
+  "source_bounds_sha256": "654f5a7f6cbbed6792b9dc844a99ba455547530855ef8c40e4be090b718db20c",
+  "fixed_bounds_sha256": "4065e2ee72f30edd27711a9448e98d5714401d715aed2e01e4056c9373678697",
+  "fixed_integer_columns": 12096,
+  "matrix_unchanged": true,
+  "objective": "zero",
+  "budget_MWh": 180555.9189139999,
+  "mean_constraints": 0
+}
