@@ -1,0 +1,31 @@
+{
+  "uid": "123_STEAM_3",
+  "horizon": 168,
+  "pmin_MW": 140.0,
+  "pmax_MW": 350.0,
+  "energy_MWh": 3244.76575800001,
+  "min_up_hours": 24,
+  "min_down_hours": 48,
+  "energy_count_lower": 10,
+  "energy_count_upper": 23,
+  "initial_atom_count": 5,
+  "retained_atom_count": 1,
+  "atoms": [
+    {
+      "hour_0based": 139,
+      "status": 1,
+      "necessary_lower_MW": 139.99999,
+      "necessary_upper_MW": 350.0
+    }
+  ],
+  "independent_rejection_check": "PASS",
+  "single_atom_removal_checks": [
+    {
+      "removed_hour": 139,
+      "removed_status": 1,
+      "remaining_compatible_count_example": 10
+    }
+  ],
+  "minimality": "inclusion-minimal among the selected unit's forced-status atoms; not global minimum cardinality",
+  "input_dependency": "Full 168-hour availability and demand, all 41 target energies, and all-unit propagation are retained; this is explanation sparsity, not demonstrated raw-data compression."
+}

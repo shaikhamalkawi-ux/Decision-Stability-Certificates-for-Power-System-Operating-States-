@@ -1,0 +1,56 @@
+{
+  "chronology": {
+    "pass": true,
+    "tolerance": 1e-05,
+    "residuals": {
+      "negative_dispatch_MW": 0.0,
+      "availability_MW": 0.0,
+      "balance_MW": 6.821210263296962e-12,
+      "mean_MW": 0.0,
+      "hydro_fixed_MW": 0.0,
+      "binary": 0.0,
+      "status_lower": 0.0,
+      "status_upper": 0.0,
+      "commit_upper_MW": 0.0,
+      "commit_lower_MW": 0.0,
+      "commit_upper_rounded_MW": 0.0,
+      "commit_lower_rounded_MW": 0.0,
+      "transition_lower": 0.0,
+      "transition_upper": 0.0,
+      "transition_binary": 0.0,
+      "transition_identity": 0.0,
+      "no_simultaneous_transition": 0.0,
+      "initial_transition": 0.0,
+      "residence_violations": 0
+    }
+  },
+  "on_on_ramp": {
+    "pass": true,
+    "tolerance": 1e-05,
+    "residuals": {
+      "negative_dispatch_MW": 0.0,
+      "availability_MW": 0.0,
+      "balance_MW": 6.821210263296962e-12,
+      "mean_MW": 0.0,
+      "hydro_fixed_MW": 0.0,
+      "binary": 0.0,
+      "status_lower": 0.0,
+      "status_upper": 0.0,
+      "commit_upper_MW": 0.0,
+      "commit_lower_MW": 0.0,
+      "commit_upper_rounded_MW": 0.0,
+      "commit_lower_rounded_MW": 0.0,
+      "online_ramp_MW": 0.0
+    }
+  },
+  "network": {
+    "balance_MW": 6.59383658785373e-12,
+    "nodal_balance_MW": 7.958078640513122e-12,
+    "branch_excess_MW": 2.842170943040401e-14,
+    "max_branch_loading": 1.0000000000000002,
+    "pass": true
+  },
+  "dispatch_sha256": "a58ffcaa470cdc01d574ebd34fd2ab4953cb9a73087e1103407bf7b945be65da",
+  "commitment_sha256": "d0baca56221f249076e11dbf26d49c8418ff189b27e44ef4fe5a5ad805cfa449",
+  "target": "verified repaired network witness's complete mean, not the original static mean"
+}

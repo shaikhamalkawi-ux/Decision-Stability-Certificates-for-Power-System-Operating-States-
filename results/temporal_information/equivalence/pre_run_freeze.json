@@ -1,0 +1,21 @@
+{
+  "frozen_before_grouped_solves_utc": "2026-09-26T19:12:00.208247+00:00",
+  "protocol_sha256": "b484ac351170baeb568ba71221dd92f3d78f3d59816bc81dc8b07a39a6fc0995",
+  "script_sha256": "feccebfb34439fbfb9e11998fec12e7517ef316da3bda7ba7d22d57dc84a26d2",
+  "groups": 26,
+  "units": 41,
+  "months": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    10
+  ],
+  "seconds_per_case": 60,
+  "group_inventory_sha256": "6dbdc291ebd15539569ccef0b8edd622702362020ac84d61d6b99b8aee1508b6",
+  "source_upstream_commit": "3ece0d3725c844056132393ee252b3083dd4eab4",
+  "grouping_scope": "represented model equality; no assertion of actual unit-specific emissions equality"
+}

@@ -1,0 +1,16 @@
+{
+  "protocol_sha256": "47f9b4abeefadde049cb2378c186636c457ff145d4c21041adf1961c4ce2c900",
+  "cases": [
+    "identity",
+    "seed_26092600",
+    "seed_26092601",
+    "seed_26092602",
+    "seed_26092603"
+  ],
+  "seconds_per_case": 45.0,
+  "selection": "post-pilot development",
+  "initial_run_limit_s": 60,
+  "executed_final_run_limit_s": 45,
+  "implementation_deviation": "Final reruns used a 45-second limit instead of the protocol maximum of 60 seconds. All actual cumulative per-case solve times remained below 60 seconds; no status was caused by this limit.",
+  "number_of_solver_runs_per_case": 2
+}

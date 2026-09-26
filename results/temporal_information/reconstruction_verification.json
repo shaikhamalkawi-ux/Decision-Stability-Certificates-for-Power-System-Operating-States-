@@ -1,0 +1,175 @@
+{
+  "result": "PASS",
+  "optimization_invoked": false,
+  "positive_chronology": {
+    "pass": true,
+    "tolerance": 1e-05,
+    "residuals": {
+      "negative_dispatch_MW": 0.0,
+      "availability_MW": 0.0,
+      "balance_MW": 6.821210263296962e-12,
+      "mean_MW": 0.0,
+      "hydro_fixed_MW": 0.0,
+      "binary": 0.0,
+      "status_lower": 0.0,
+      "status_upper": 0.0,
+      "commit_upper_MW": 0.0,
+      "commit_lower_MW": 0.0,
+      "commit_upper_rounded_MW": 0.0,
+      "commit_lower_rounded_MW": 0.0,
+      "transition_lower": 0.0,
+      "transition_upper": 0.0,
+      "transition_binary": 0.0,
+      "transition_identity": 0.0,
+      "no_simultaneous_transition": 0.0,
+      "initial_transition": 0.0,
+      "residence_violations": 0
+    }
+  },
+  "positive_network": {
+    "balance_MW": 6.59383658785373e-12,
+    "nodal_balance_MW": 7.958078640513122e-12,
+    "branch_excess_MW": 2.842170943040401e-14,
+    "max_branch_loading": 1.0000000000000002,
+    "pass": true
+  },
+  "paired_cases": [
+    {
+      "case": "identity",
+      "permutation_and_boundary_check": "PASS",
+      "package_restoration": "PASS",
+      "archived_model_matches_reconstructed_native_inputs": "PASS"
+    },
+    {
+      "case": "seed_26092600",
+      "permutation_and_boundary_check": "PASS",
+      "package_restoration": "PASS",
+      "archived_model_matches_reconstructed_native_inputs": "PASS",
+      "exact_reconstructed_model_separation": "PASS",
+      "robust_separation_gap": 9531.940183242696
+    },
+    {
+      "case": "seed_26092601",
+      "permutation_and_boundary_check": "PASS",
+      "package_restoration": "PASS",
+      "archived_model_matches_reconstructed_native_inputs": "PASS",
+      "exact_reconstructed_model_separation": "PASS",
+      "robust_separation_gap": 8554.92209955925
+    },
+    {
+      "case": "seed_26092602",
+      "permutation_and_boundary_check": "PASS",
+      "package_restoration": "PASS",
+      "archived_model_matches_reconstructed_native_inputs": "PASS",
+      "exact_reconstructed_model_separation": "PASS",
+      "robust_separation_gap": 206046.64914792063
+    },
+    {
+      "case": "seed_26092603",
+      "permutation_and_boundary_check": "PASS",
+      "package_restoration": "PASS",
+      "archived_model_matches_reconstructed_native_inputs": "PASS",
+      "exact_reconstructed_model_separation": "PASS",
+      "robust_separation_gap": 1404159.5115282878
+    },
+    {
+      "case": "seed_26092604",
+      "permutation_and_boundary_check": "PASS",
+      "package_restoration": "PASS"
+    },
+    {
+      "case": "seed_26092605",
+      "permutation_and_boundary_check": "PASS",
+      "package_restoration": "PASS"
+    },
+    {
+      "case": "seed_26092606",
+      "permutation_and_boundary_check": "PASS",
+      "package_restoration": "PASS"
+    },
+    {
+      "case": "seed_26092607",
+      "permutation_and_boundary_check": "PASS",
+      "package_restoration": "PASS"
+    },
+    {
+      "case": "seed_26092608",
+      "permutation_and_boundary_check": "PASS",
+      "package_restoration": "PASS"
+    },
+    {
+      "case": "seed_26092609",
+      "permutation_and_boundary_check": "PASS",
+      "package_restoration": "PASS"
+    },
+    {
+      "case": "seed_26092610",
+      "permutation_and_boundary_check": "PASS",
+      "package_restoration": "PASS"
+    },
+    {
+      "case": "seed_26092611",
+      "permutation_and_boundary_check": "PASS",
+      "package_restoration": "PASS"
+    },
+    {
+      "case": "seed_26092612",
+      "permutation_and_boundary_check": "PASS",
+      "package_restoration": "PASS"
+    },
+    {
+      "case": "seed_26092613",
+      "permutation_and_boundary_check": "PASS",
+      "package_restoration": "PASS"
+    },
+    {
+      "case": "seed_26092614",
+      "permutation_and_boundary_check": "PASS",
+      "package_restoration": "PASS"
+    },
+    {
+      "case": "seed_26092615",
+      "permutation_and_boundary_check": "PASS",
+      "package_restoration": "PASS"
+    }
+  ],
+  "previous_corpus_cores": [
+    {
+      "month": 1,
+      "atoms": 1,
+      "reconstructed_forcing_and_independent_core_replay": "PASS"
+    },
+    {
+      "month": 2,
+      "atoms": 2,
+      "reconstructed_forcing_and_independent_core_replay": "PASS"
+    },
+    {
+      "month": 3,
+      "atoms": 1,
+      "reconstructed_forcing_and_independent_core_replay": "PASS"
+    },
+    {
+      "month": 4,
+      "atoms": 1,
+      "reconstructed_forcing_and_independent_core_replay": "PASS"
+    },
+    {
+      "month": 5,
+      "atoms": 3,
+      "reconstructed_forcing_and_independent_core_replay": "PASS"
+    },
+    {
+      "month": 7,
+      "atoms": 1,
+      "reconstructed_forcing_and_independent_core_replay": "PASS"
+    },
+    {
+      "month": 10,
+      "atoms": 5,
+      "reconstructed_forcing_and_independent_core_replay": "PASS"
+    }
+  ],
+  "scope": "Native-input model reconstruction and exact arithmetic checking; shared propagation implementation with independent run-age logic.",
+  "verifier_sha256": "b8ded442c4859e14106537b13fc4d73d1554bb84d219983329fcf032b9a4f81c"
+}

@@ -1,0 +1,31 @@
+{
+  "result": "PASS",
+  "checker": "independent saturated run-age states with explicit online-count sets",
+  "oracle": "exhaustive enumeration of every binary sequence and direct forward dwell windows",
+  "seed": 260926,
+  "horizons": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "minimum_times": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "randomized_forced_state_configurations": 1125,
+  "randomized_configuration_interval_checks": 2250,
+  "explicit_boundary_checks": 11,
+  "total_checks": 2261,
+  "binary_sequences_enumerated": 255640,
+  "initial_history": "freely selectable initial status with minimum dwell already satisfied",
+  "final_history": "no required dwell beyond the observed horizon"
+}

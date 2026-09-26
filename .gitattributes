@@ -1,3 +1,11 @@
 
 # Preserve the release bytes used by the SHA-256 package manifest.
 reproducibility/** -text
+
+# Preserve the new pilot's hashed evidence and frozen protocol/script bytes.
+results/temporal_information/** -text
+docs/TEMPORAL*.md -text
+src/temporal*.py -text
+src/check_temporal_core.py -text
+src/plot_temporal_information.py -text
+src/verify_temporal_information.py -text

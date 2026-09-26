@@ -1,0 +1,145 @@
+[
+  {
+    "month": 1,
+    "verdict": "REJECTED_NECESSARY_CONDITION",
+    "reference_rejection_identity": "PASS",
+    "failing_units": [
+      "123_STEAM_3"
+    ],
+    "core_unit": "123_STEAM_3",
+    "original_forced_status_atoms": 12,
+    "core_atoms": 1,
+    "core_hours_0based": [
+      115
+    ],
+    "independent_core_check": "PASS",
+    "core_extraction_and_checks_s": 0.07282810000469908,
+    "evaluation_status": "previously inspected development corpus; not held out"
+  },
+  {
+    "month": 2,
+    "verdict": "REJECTED_NECESSARY_CONDITION",
+    "reference_rejection_identity": "PASS",
+    "failing_units": [
+      "123_STEAM_3"
+    ],
+    "core_unit": "123_STEAM_3",
+    "original_forced_status_atoms": 25,
+    "core_atoms": 2,
+    "core_hours_0based": [
+      89,
+      141
+    ],
+    "independent_core_check": "PASS",
+    "core_extraction_and_checks_s": 0.21800399999483489,
+    "evaluation_status": "previously inspected development corpus; not held out"
+  },
+  {
+    "month": 3,
+    "verdict": "REJECTED_NECESSARY_CONDITION",
+    "reference_rejection_identity": "PASS",
+    "failing_units": [
+      "123_STEAM_3"
+    ],
+    "core_unit": "123_STEAM_3",
+    "original_forced_status_atoms": 10,
+    "core_atoms": 1,
+    "core_hours_0based": [
+      139
+    ],
+    "independent_core_check": "PASS",
+    "core_extraction_and_checks_s": 0.1350257000012789,
+    "evaluation_status": "previously inspected development corpus; not held out"
+  },
+  {
+    "month": 4,
+    "verdict": "REJECTED_NECESSARY_CONDITION",
+    "reference_rejection_identity": "PASS",
+    "failing_units": [
+      "123_STEAM_3"
+    ],
+    "core_unit": "123_STEAM_3",
+    "original_forced_status_atoms": 5,
+    "core_atoms": 1,
+    "core_hours_0based": [
+      139
+    ],
+    "independent_core_check": "PASS",
+    "core_extraction_and_checks_s": 0.06445679999887943,
+    "evaluation_status": "previously inspected development corpus; not held out"
+  },
+  {
+    "month": 5,
+    "verdict": "REJECTED_NECESSARY_CONDITION",
+    "reference_rejection_identity": "PASS",
+    "failing_units": [
+      "123_STEAM_3"
+    ],
+    "core_unit": "123_STEAM_3",
+    "original_forced_status_atoms": 18,
+    "core_atoms": 3,
+    "core_hours_0based": [
+      68,
+      116,
+      164
+    ],
+    "independent_core_check": "PASS",
+    "core_extraction_and_checks_s": 0.20382389999576844,
+    "evaluation_status": "previously inspected development corpus; not held out"
+  },
+  {
+    "month": 6,
+    "verdict": "UNKNOWN",
+    "reference_rejection_identity": "PASS",
+    "failing_units": [],
+    "core_unit": null,
+    "original_forced_status_atoms": null,
+    "core_atoms": null,
+    "core_hours_0based": null,
+    "independent_core_check": null,
+    "core_extraction_and_checks_s": 6.00004568696022e-07,
+    "evaluation_status": "previously inspected development corpus; not held out"
+  },
+  {
+    "month": 7,
+    "verdict": "REJECTED_NECESSARY_CONDITION",
+    "reference_rejection_identity": "PASS",
+    "failing_units": [
+      "115_STEAM_3",
+      "123_STEAM_3"
+    ],
+    "core_unit": "115_STEAM_3",
+    "original_forced_status_atoms": 165,
+    "core_atoms": 1,
+    "core_hours_0based": [
+      6
+    ],
+    "independent_core_check": "PASS",
+    "core_extraction_and_checks_s": 0.28582079999614507,
+    "evaluation_status": "previously inspected development corpus; not held out"
+  },
+  {
+    "month": 10,
+    "verdict": "REJECTED_NECESSARY_CONDITION",
+    "reference_rejection_identity": "PASS",
+    "failing_units": [
+      "101_STEAM_4",
+      "107_CC_1",
+      "123_STEAM_2",
+      "123_STEAM_3"
+    ],
+    "core_unit": "101_STEAM_4",
+    "original_forced_status_atoms": 20,
+    "core_atoms": 5,
+    "core_hours_0based": [
+      42,
+      92,
+      116,
+      140,
+      160
+    ],
+    "independent_core_check": "PASS",
+    "core_extraction_and_checks_s": 0.06980939998175018,
+    "evaluation_status": "previously inspected development corpus; not held out"
+  }
+]

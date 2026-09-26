@@ -26,6 +26,17 @@ status; the frozen archive bytes have been retained unchanged.
 
 ## Research status
 
+**Experimental branch: temporal-information pilot, 2026-09-26.** The branch
+`codex/temporal-information` contains an independently checked feasible week
+and four reordered versions with the same complete hourly multiset and generator
+means that are infeasible. The four rejections survive strictly matched unit
+energy pooling. The simple single-unit screen misses these cases; additional
+continuous-model certificates strengthen the negative evidence. This is a
+bounded research pilot, not a minimum-information theorem or a submitted paper.
+See the [Arabic decision report](TEMPORAL_INFORMATION_REPORT_AR.md) and
+[reproduction guide](docs/TEMPORAL_INFORMATION_REPRODUCTION.md). These results
+are separate from the existing V8R1 candidate PDFs and the V8 Zenodo deposit.
+
 **Current development candidate: V8R1, pending independent scientific review.**
 The `codex/v8r1-evidence` branch adds an eight-week RTS chronology extension,
 an independently implemented residence-time explanation, an eight-day Elexon

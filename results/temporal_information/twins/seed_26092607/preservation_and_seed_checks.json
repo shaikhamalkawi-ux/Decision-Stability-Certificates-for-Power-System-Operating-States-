@@ -1,0 +1,58 @@
+{
+  "original_package_sha256": "ca7488809f548b8bdcddb7756b132844b5bf1a125e450f8a2dbff235de032909",
+  "inverse_restored_package_sha256": "ca7488809f548b8bdcddb7756b132844b5bf1a125e450f8a2dbff235de032909",
+  "joint_hourly_multiset_exactly_preserved": true,
+  "mean_error_MW": 5.684341886080802e-14,
+  "fixed_edge_hours_each_side": 48,
+  "static_witness": {
+    "pass": true,
+    "tolerance": 1e-05,
+    "residuals": {
+      "negative_dispatch_MW": 0.0,
+      "availability_MW": 0.0,
+      "balance_MW": 6.366462912410498e-12,
+      "mean_MW": 5.684341886080802e-14,
+      "hydro_fixed_MW": 0.0,
+      "binary": 0.0,
+      "status_lower": 0.0,
+      "status_upper": 0.0,
+      "commit_upper_MW": 0.0,
+      "commit_lower_MW": 0.0,
+      "commit_upper_rounded_MW": 0.0,
+      "commit_lower_rounded_MW": 0.0
+    }
+  },
+  "static_network_witness": {
+    "balance_MW": 6.59383658785373e-12,
+    "nodal_balance_MW": 7.958078640513122e-12,
+    "branch_excess_MW": 2.842170943040401e-14,
+    "max_branch_loading": 1.0000000000000002,
+    "pass": true
+  },
+  "permuted_seed_chronology_check": {
+    "pass": false,
+    "tolerance": 1e-05,
+    "residuals": {
+      "negative_dispatch_MW": 0.0,
+      "availability_MW": 0.0,
+      "balance_MW": 6.366462912410498e-12,
+      "mean_MW": 5.684341886080802e-14,
+      "hydro_fixed_MW": 0.0,
+      "binary": 0.0,
+      "status_lower": 0.0,
+      "status_upper": 0.0,
+      "commit_upper_MW": 0.0,
+      "commit_lower_MW": 0.0,
+      "commit_upper_rounded_MW": 0.0,
+      "commit_lower_rounded_MW": 0.0,
+      "transition_lower": 0.0,
+      "transition_upper": 0.0,
+      "transition_binary": 0.0,
+      "transition_identity": 0.0,
+      "no_simultaneous_transition": 0.0,
+      "initial_transition": 0.0,
+      "residence_violations": 123
+    }
+  },
+  "warning": "A failed seed replay alone does not rule out an alternative schedule."
+}

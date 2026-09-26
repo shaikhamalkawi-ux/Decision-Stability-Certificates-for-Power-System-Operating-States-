@@ -1,0 +1,103 @@
+[
+  {
+    "case": "identity",
+    "check": {
+      "pass": true,
+      "tolerance": 1e-05,
+      "residuals": {
+        "column_lower": 9.209299989265675e-12,
+        "column_upper": 3.240074875066057e-12,
+        "row_lower": 3.410605131648481e-12,
+        "row_upper": 2.2851054382044822e-10
+      }
+    }
+  },
+  {
+    "case": "seed_26092600",
+    "check": {
+      "pass": true,
+      "robust_pass": true,
+      "arithmetic": "exact rational interpretation of archived binary64 matrix, bounds and ray",
+      "row_multiplier_nonzeros": 949,
+      "combined_column_nonzeros": 8170,
+      "lower_row_sum": 1364474.7331090458,
+      "box_maximum": 1354937.8244270247,
+      "separation_gap": 9536.908682020956,
+      "outward_bound_relaxation": 1e-05,
+      "robust_separation_gap": 9531.940183242696,
+      "maximum_uniform_bound_relaxation": 0.019194748972762812,
+      "exact_gap_numerator": "217784494591389552766779295249588767161853976823109",
+      "exact_gap_denominator": "22835963083295358096932575511191922182123945984",
+      "exact_robust_gap_numerator": "28530577786366823426467287494967297082131565901084927161",
+      "exact_robust_gap_denominator": "2993155353253689176481146537402947624255349848014848",
+      "elapsed_s": 0.18669859998044558,
+      "scope": "mathematical model with archived float coefficients; not exact physical measurements"
+    }
+  },
+  {
+    "case": "seed_26092601",
+    "check": {
+      "pass": true,
+      "robust_pass": true,
+      "arithmetic": "exact rational interpretation of archived binary64 matrix, bounds and ray",
+      "row_multiplier_nonzeros": 656,
+      "combined_column_nonzeros": 7531,
+      "lower_row_sum": 1258437.1905581565,
+      "box_maximum": 1249878.433363901,
+      "separation_gap": 8558.757194255513,
+      "outward_bound_relaxation": 1e-05,
+      "robust_separation_gap": 8554.92209955925,
+      "maximum_uniform_bound_relaxation": 0.02231693836033253,
+      "exact_gap_numerator": "195447463326907454718919681701811808851682542052187",
+      "exact_gap_denominator": "22835963083295358096932575511191922182123945984",
+      "exact_robust_gap_numerator": "51212421757928114774336422527902567922790173213513576001",
+      "exact_robust_gap_denominator": "5986310706507378352962293074805895248510699696029696",
+      "elapsed_s": 0.18501539999851957,
+      "scope": "mathematical model with archived float coefficients; not exact physical measurements"
+    }
+  },
+  {
+    "case": "seed_26092602",
+    "check": {
+      "pass": true,
+      "robust_pass": true,
+      "arithmetic": "exact rational interpretation of archived binary64 matrix, bounds and ray",
+      "row_multiplier_nonzeros": 1017,
+      "combined_column_nonzeros": 7903,
+      "lower_row_sum": 31099073.827498358,
+      "box_maximum": 30892895.27532562,
+      "separation_gap": 206178.55217274,
+      "outward_bound_relaxation": 1e-05,
+      "robust_separation_gap": 206046.64914792063,
+      "maximum_uniform_bound_relaxation": 0.015631070815478217,
+      "exact_gap_numerator": "147133931436999264120127786273492526083966710821097",
+      "exact_gap_denominator": "713623846352979940529142984724747568191373312",
+      "exact_robust_gap_numerator": "9636400483079426577950458594686850415867215558629972723",
+      "exact_robust_gap_denominator": "46768052394588893382517914646921056628989841375232",
+      "elapsed_s": 0.22813960001803935,
+      "scope": "mathematical model with archived float coefficients; not exact physical measurements"
+    }
+  },
+  {
+    "case": "seed_26092603",
+    "check": {
+      "pass": true,
+      "robust_pass": true,
+      "arithmetic": "exact rational interpretation of archived binary64 matrix, bounds and ray",
+      "row_multiplier_nonzeros": 908,
+      "combined_column_nonzeros": 7906,
+      "lower_row_sum": 160502763.37581548,
+      "box_maximum": 159097924.43366456,
+      "separation_gap": 1404838.942150915,
+      "outward_bound_relaxation": 1e-05,
+      "robust_separation_gap": 1404159.5115282878,
+      "maximum_uniform_bound_relaxation": 0.02067670922335937,
+      "exact_gap_numerator": "250631642351046852595681919314107629042818351604929",
+      "exact_gap_denominator": "178405961588244985132285746181186892047843328",
+      "exact_robust_gap_numerator": "1050716889688244926327408439768931899027097799898111099779",
+      "exact_robust_gap_denominator": "748288838313422294120286634350736906063837462003712",
+      "elapsed_s": 0.16740129998652264,
+      "scope": "mathematical model with archived float coefficients; not exact physical measurements"
+    }
+  }
+]

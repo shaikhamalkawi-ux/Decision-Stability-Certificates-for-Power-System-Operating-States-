@@ -1,0 +1,11 @@
+# Independent implementation and data review
+
+A separate read-only agent reviewed the original frozen implementation, the post-pilot twin extension, and the output tables without rerunning any optimization. No implementation or data-index defect was found that would invalidate the recorded grouped rejections.
+
+The independent data audit checked all 158 raw source UIDs and 41 decision UIDs for uniqueness, target CSV headers for duplicate columns, the group-index partition `0..40`, and the member UID/model-index mapping. It independently reproduced equality of all 55 retained source fields, the base marginal costs, and all 41 annual availability hashes. All five native time-series tables have 8,784 unique timestamp keys in identical order. The 208 original pooled targets independently recompute to maximum differences of `1.46e-11 MWh` and `1.14e-13 MW`, consistent with summation roundoff.
+
+The formulation review reconciled 18,984 columns and 24,290 rows. Individual output/status/transition variables, minimum-residence rules and free-start/truncated-end boundaries match the previous min-up/down family. Exactly 41 individual weekly-mean rows become 26 pooled-mean rows. Every original outcome is explicit Infeasible; no timeout was reclassified. Group construction retains all nonidentifier source columns, costs, emissions placeholders and annual profiles, with limitations explicitly stated.
+
+The archived script and protocol match their original pre-run SHA256 values. The live paths were later extended, so the frozen files, not the extended live paths, supply those original bytes. Abstract-syntax comparison confirms that `make_groups`, `case_inputs`, `check_witness`, and `solve_grouped` are unchanged by the twin extension.
+
+For the extension, the review verified that repaired July dispatch supplies the target means; the identity is checked directly and after serialization; saved permutations and native row mappings are validated; and demand/availability are jointly permuted. The target dispatch itself can remain in original order because only its group weekly means enter constraints. All four twin rejections are recorded as solver results. No independent analytic infeasibility certificate was produced or claimed by this review.

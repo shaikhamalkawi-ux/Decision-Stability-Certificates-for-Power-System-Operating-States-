@@ -1,0 +1,42 @@
+{
+  "status": "post-pilot strengthening; no held-out claim",
+  "initial_run": "All four LPs infeasible, but exact checks rejected raw dual rays because small nonzero coefficients selected infinite row bounds. Raw rays were not archived in that initial implementation.",
+  "adaptation": "Reran five LPs to archive raw rays and construct candidates by setting sign-inadmissible row multipliers to zero. The entire separation is recalculated with exact rationals; no dropped coefficient is assumed mathematically zero.",
+  "initial_per_solve_limit_s": 60,
+  "final_per_solve_limit_s": 45,
+  "actual_solver_times": [
+    {
+      "case": "identity",
+      "initial_solve_elapsed_s": 2.834117199992761,
+      "final_solve_elapsed_s": 2.4121854999975767,
+      "total_actual_solve_elapsed_s": 5.246302699990338
+    },
+    {
+      "case": "seed_26092600",
+      "initial_solve_elapsed_s": 0.9322777999914251,
+      "final_solve_elapsed_s": 0.9469072000065353,
+      "total_actual_solve_elapsed_s": 1.8791849999979604
+    },
+    {
+      "case": "seed_26092601",
+      "initial_solve_elapsed_s": 0.8057381999969948,
+      "final_solve_elapsed_s": 0.8066987000056542,
+      "total_actual_solve_elapsed_s": 1.612436900002649
+    },
+    {
+      "case": "seed_26092602",
+      "initial_solve_elapsed_s": 1.2432051000068896,
+      "final_solve_elapsed_s": 1.2039621000003535,
+      "total_actual_solve_elapsed_s": 2.447167200007243
+    },
+    {
+      "case": "seed_26092603",
+      "initial_solve_elapsed_s": 1.1833496000035666,
+      "final_solve_elapsed_s": 1.2388046999985818,
+      "total_actual_solve_elapsed_s": 2.4221543000021484
+    }
+  ],
+  "number_of_solver_runs_per_case": 2,
+  "total_solver_runs": 10,
+  "implementation_deviation": "The final reruns used 45 seconds per solve rather than the frozen protocol 60-second maximum. Every LP completed in under 3 seconds; total actual solve time per case, including the initial attempt, remained below 60 seconds."
+}
