@@ -1,0 +1,12 @@
+month,unit,target_energy_MWh,energy_online_min,energy_online_max,residence_online_min,residence_online_max,minimum_energy_MWh,minimum_energy_excess_MWh,obstruction
+1,123_STEAM_3,3228.521078000018,10,23,100.0,168.0,14000.0,10771.478921999982,online-count energy budget
+2,123_STEAM_3,6590.548836000053,19,47,101.0,168.0,14140.0,7549.451163999947,online-count energy budget
+3,123_STEAM_3,2898.640426000019,9,20,50.0,168.0,7000.0,4101.359573999981,online-count energy budget
+4,123_STEAM_3,3244.76575800001,10,23,50.0,168.0,7000.0,3755.23424199999,online-count energy budget
+5,123_STEAM_3,12204.019298000268,35,87,123.0,168.0,17220.0,5015.9807019997315,online-count energy budget
+7,115_STEAM_3,25370.000545000003,164,168,,,,,forced on/off pattern incompatible with residence
+7,123_STEAM_3,52035.00108900061,149,168,,,,,forced on/off pattern incompatible with residence
+10,101_STEAM_4,1196.6551700000111,16,39,48.0,164.0,1440.0,243.34482999998886,online-count energy budget
+10,107_CC_1,4050.5999509999974,12,23,,,,,forced on/off pattern incompatible with residence
+10,123_STEAM_2,25246.293617999967,163,168,,,,,forced on/off pattern incompatible with residence
+10,123_STEAM_3,37694.899400000264,108,168,,,,,forced on/off pattern incompatible with residence

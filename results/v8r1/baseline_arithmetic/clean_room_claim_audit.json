@@ -1,0 +1,10 @@
+{
+  "script": "verify_26_claims.py",
+  "imports_project_modules": false,
+  "scope": "arithmetic consistency of frozen generated outputs; not full pipeline or scientific validation",
+  "release": "v8-reproducibility.20260926",
+  "claims": 26,
+  "passed": 26,
+  "failed": 0,
+  "overall": "PASS"
+}

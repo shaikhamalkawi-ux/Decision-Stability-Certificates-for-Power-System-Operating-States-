@@ -1,0 +1,178 @@
+[
+  {
+    "date": "2023-01-04",
+    "file": "B1610_2023-01-04.json",
+    "url": "https://data.elexon.co.uk/bmrs/api/v1/datasets/B1610/stream?from=2023-01-04T00%3A00Z&to=2023-01-04T00%3A00Z&settlementPeriodFrom=1&settlementPeriodTo=48",
+    "acquired_utc": "2026-09-26T18:15:01.247058+00:00",
+    "http_status": null,
+    "error": "HTTPSConnectionPool(host='data.elexon.co.uk', port=443): Max retries exceeded with url: /bmrs/api/v1/datasets/B1610/stream?from=2023-01-04T00%3A00Z&to=2023-01-04T00%3A00Z&settlementPeriodFrom=1&settlementPeriodTo=48 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))",
+    "failed_utc": "2026-09-26T18:15:02.052563+00:00",
+    "outcome": "failed_attempt"
+  },
+  {
+    "date": "2023-01-11",
+    "file": "B1610_2023-01-11.json",
+    "url": "https://data.elexon.co.uk/bmrs/api/v1/datasets/B1610/stream?from=2023-01-11T00%3A00Z&to=2023-01-11T00%3A00Z&settlementPeriodFrom=1&settlementPeriodTo=48",
+    "acquired_utc": "2026-09-26T18:15:01.250595+00:00",
+    "http_status": null,
+    "error": "HTTPSConnectionPool(host='data.elexon.co.uk', port=443): Max retries exceeded with url: /bmrs/api/v1/datasets/B1610/stream?from=2023-01-11T00%3A00Z&to=2023-01-11T00%3A00Z&settlementPeriodFrom=1&settlementPeriodTo=48 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))",
+    "failed_utc": "2026-09-26T18:15:02.046025+00:00",
+    "outcome": "failed_attempt"
+  },
+  {
+    "date": "2023-01-18",
+    "file": "B1610_2023-01-18.json",
+    "url": "https://data.elexon.co.uk/bmrs/api/v1/datasets/B1610/stream?from=2023-01-18T00%3A00Z&to=2023-01-18T00%3A00Z&settlementPeriodFrom=1&settlementPeriodTo=48",
+    "acquired_utc": "2026-09-26T18:15:02.048029+00:00",
+    "http_status": null,
+    "error": "HTTPSConnectionPool(host='data.elexon.co.uk', port=443): Max retries exceeded with url: /bmrs/api/v1/datasets/B1610/stream?from=2023-01-18T00%3A00Z&to=2023-01-18T00%3A00Z&settlementPeriodFrom=1&settlementPeriodTo=48 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))",
+    "failed_utc": "2026-09-26T18:15:02.180496+00:00",
+    "outcome": "failed_attempt"
+  },
+  {
+    "date": "2023-01-25",
+    "file": "B1610_2023-01-25.json",
+    "url": "https://data.elexon.co.uk/bmrs/api/v1/datasets/B1610/stream?from=2023-01-25T00%3A00Z&to=2023-01-25T00%3A00Z&settlementPeriodFrom=1&settlementPeriodTo=48",
+    "acquired_utc": "2026-09-26T18:15:02.054229+00:00",
+    "http_status": null,
+    "error": "HTTPSConnectionPool(host='data.elexon.co.uk', port=443): Max retries exceeded with url: /bmrs/api/v1/datasets/B1610/stream?from=2023-01-25T00%3A00Z&to=2023-01-25T00%3A00Z&settlementPeriodFrom=1&settlementPeriodTo=48 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))",
+    "failed_utc": "2026-09-26T18:15:02.176483+00:00",
+    "outcome": "failed_attempt"
+  },
+  {
+    "date": "2023-07-05",
+    "file": "B1610_2023-07-05.json",
+    "url": "https://data.elexon.co.uk/bmrs/api/v1/datasets/B1610/stream?from=2023-07-05T00%3A00Z&to=2023-07-05T00%3A00Z&settlementPeriodFrom=1&settlementPeriodTo=48",
+    "acquired_utc": "2026-09-26T18:15:02.178500+00:00",
+    "http_status": null,
+    "error": "HTTPSConnectionPool(host='data.elexon.co.uk', port=443): Max retries exceeded with url: /bmrs/api/v1/datasets/B1610/stream?from=2023-07-05T00%3A00Z&to=2023-07-05T00%3A00Z&settlementPeriodFrom=1&settlementPeriodTo=48 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))",
+    "failed_utc": "2026-09-26T18:15:02.335465+00:00",
+    "outcome": "failed_attempt"
+  },
+  {
+    "date": "2023-07-12",
+    "file": "B1610_2023-07-12.json",
+    "url": "https://data.elexon.co.uk/bmrs/api/v1/datasets/B1610/stream?from=2023-07-12T00%3A00Z&to=2023-07-12T00%3A00Z&settlementPeriodFrom=1&settlementPeriodTo=48",
+    "acquired_utc": "2026-09-26T18:15:02.182020+00:00",
+    "http_status": null,
+    "error": "HTTPSConnectionPool(host='data.elexon.co.uk', port=443): Max retries exceeded with url: /bmrs/api/v1/datasets/B1610/stream?from=2023-07-12T00%3A00Z&to=2023-07-12T00%3A00Z&settlementPeriodFrom=1&settlementPeriodTo=48 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))",
+    "failed_utc": "2026-09-26T18:15:02.307392+00:00",
+    "outcome": "failed_attempt"
+  },
+  {
+    "date": "2023-07-19",
+    "file": "B1610_2023-07-19.json",
+    "url": "https://data.elexon.co.uk/bmrs/api/v1/datasets/B1610/stream?from=2023-07-19T00%3A00Z&to=2023-07-19T00%3A00Z&settlementPeriodFrom=1&settlementPeriodTo=48",
+    "acquired_utc": "2026-09-26T18:15:02.309920+00:00",
+    "http_status": null,
+    "error": "HTTPSConnectionPool(host='data.elexon.co.uk', port=443): Max retries exceeded with url: /bmrs/api/v1/datasets/B1610/stream?from=2023-07-19T00%3A00Z&to=2023-07-19T00%3A00Z&settlementPeriodFrom=1&settlementPeriodTo=48 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))",
+    "failed_utc": "2026-09-26T18:15:02.435525+00:00",
+    "outcome": "failed_attempt"
+  },
+  {
+    "date": "2023-07-26",
+    "file": "B1610_2023-07-26.json",
+    "url": "https://data.elexon.co.uk/bmrs/api/v1/datasets/B1610/stream?from=2023-07-26T00%3A00Z&to=2023-07-26T00%3A00Z&settlementPeriodFrom=1&settlementPeriodTo=48",
+    "acquired_utc": "2026-09-26T18:15:02.337481+00:00",
+    "http_status": null,
+    "error": "HTTPSConnectionPool(host='data.elexon.co.uk', port=443): Max retries exceeded with url: /bmrs/api/v1/datasets/B1610/stream?from=2023-07-26T00%3A00Z&to=2023-07-26T00%3A00Z&settlementPeriodFrom=1&settlementPeriodTo=48 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))",
+    "failed_utc": "2026-09-26T18:15:02.484614+00:00",
+    "outcome": "failed_attempt"
+  },
+  {
+    "date": "2023-01-04",
+    "file": "B1610_2023-01-04.json",
+    "url": "https://data.elexon.co.uk/bmrs/api/v1/datasets/B1610/stream?from=2023-01-04T00%3A00Z&to=2023-01-04T00%3A00Z&settlementPeriodFrom=1&settlementPeriodTo=48",
+    "acquired_utc": "2026-09-26T18:15:59.402314+00:00",
+    "http_status": 200,
+    "bytes": 58194625,
+    "sha256": "0d42bd6c54901a4ce49b1e88962552ac3b123f4a7010bad04503899693c3029f",
+    "raw_rows": 252816,
+    "completed_utc": "2026-09-26T18:17:19.872019+00:00",
+    "outcome": "successful_acquisition"
+  },
+  {
+    "date": "2023-01-11",
+    "file": "B1610_2023-01-11.json",
+    "url": "https://data.elexon.co.uk/bmrs/api/v1/datasets/B1610/stream?from=2023-01-11T00%3A00Z&to=2023-01-11T00%3A00Z&settlementPeriodFrom=1&settlementPeriodTo=48",
+    "acquired_utc": "2026-09-26T18:15:59.409486+00:00",
+    "http_status": 200,
+    "bytes": 58217945,
+    "sha256": "2c90e60643a28c8fbac621cb26c5392f59940b9d97fff29dca30707c4a03022f",
+    "raw_rows": 252912,
+    "completed_utc": "2026-09-26T18:17:28.326034+00:00",
+    "outcome": "successful_acquisition"
+  },
+  {
+    "date": "2023-01-18",
+    "file": "B1610_2023-01-18.json",
+    "url": "https://data.elexon.co.uk/bmrs/api/v1/datasets/B1610/stream?from=2023-01-18T00%3A00Z&to=2023-01-18T00%3A00Z&settlementPeriodFrom=1&settlementPeriodTo=48",
+    "acquired_utc": "2026-09-26T18:17:19.966974+00:00",
+    "http_status": 200,
+    "bytes": 58263675,
+    "sha256": "651358c35f4949b3312aa8265a6c283b8994d7784e8a8f9201bcd2979d9df0f0",
+    "raw_rows": 253104,
+    "completed_utc": "2026-09-26T18:18:27.489158+00:00",
+    "outcome": "successful_acquisition"
+  },
+  {
+    "date": "2023-01-25",
+    "file": "B1610_2023-01-25.json",
+    "url": "https://data.elexon.co.uk/bmrs/api/v1/datasets/B1610/stream?from=2023-01-25T00%3A00Z&to=2023-01-25T00%3A00Z&settlementPeriodFrom=1&settlementPeriodTo=48",
+    "acquired_utc": "2026-09-26T18:17:28.593811+00:00",
+    "http_status": 200,
+    "bytes": 58320570,
+    "sha256": "ac40f3a40edf05e5b6379bb336a08b6c4b60b9b25dc28b5e4519cca61a96c254",
+    "raw_rows": 253344,
+    "completed_utc": "2026-09-26T18:19:02.300591+00:00",
+    "outcome": "successful_acquisition"
+  },
+  {
+    "date": "2023-07-05",
+    "file": "B1610_2023-07-05.json",
+    "url": "https://data.elexon.co.uk/bmrs/api/v1/datasets/B1610/stream?from=2023-07-05T00%3A00Z&to=2023-07-05T00%3A00Z&settlementPeriodFrom=1&settlementPeriodTo=48",
+    "acquired_utc": "2026-09-26T18:18:27.567619+00:00",
+    "http_status": 200,
+    "bytes": 58353158,
+    "sha256": "57aa3771aab0bba3fc7e0fbe68d726805026f8a2d87f71580e5d1b2f9c0b6457",
+    "raw_rows": 253488,
+    "completed_utc": "2026-09-26T18:20:02.442780+00:00",
+    "outcome": "successful_acquisition"
+  },
+  {
+    "date": "2023-07-12",
+    "file": "B1610_2023-07-12.json",
+    "url": "https://data.elexon.co.uk/bmrs/api/v1/datasets/B1610/stream?from=2023-07-12T00%3A00Z&to=2023-07-12T00%3A00Z&settlementPeriodFrom=1&settlementPeriodTo=48",
+    "acquired_utc": "2026-09-26T18:19:02.515139+00:00",
+    "http_status": 200,
+    "bytes": 58409993,
+    "sha256": "9b818749ce28b486f9588f1f04ffa16dee7ee6499069f8fb025dbb00384259cf",
+    "raw_rows": 253728,
+    "completed_utc": "2026-09-26T18:20:42.028388+00:00",
+    "outcome": "successful_acquisition"
+  },
+  {
+    "date": "2023-07-19",
+    "file": "B1610_2023-07-19.json",
+    "url": "https://data.elexon.co.uk/bmrs/api/v1/datasets/B1610/stream?from=2023-07-19T00%3A00Z&to=2023-07-19T00%3A00Z&settlementPeriodFrom=1&settlementPeriodTo=48",
+    "acquired_utc": "2026-09-26T18:20:02.540900+00:00",
+    "http_status": 200,
+    "bytes": 58451220,
+    "sha256": "e016bdb461f8d8685c14b25beb521990d0201f09a36412e5f8109fddb10b3e2c",
+    "raw_rows": 253920,
+    "completed_utc": "2026-09-26T18:21:05.296296+00:00",
+    "outcome": "successful_acquisition"
+  },
+  {
+    "date": "2023-07-26",
+    "file": "B1610_2023-07-26.json",
+    "url": "https://data.elexon.co.uk/bmrs/api/v1/datasets/B1610/stream?from=2023-07-26T00%3A00Z&to=2023-07-26T00%3A00Z&settlementPeriodFrom=1&settlementPeriodTo=48",
+    "acquired_utc": "2026-09-26T18:20:42.106926+00:00",
+    "http_status": 200,
+    "bytes": 58333724,
+    "sha256": "4273c866b0273cca4895661148da98edf41a0ae1f039a964c30c4ed4617f4cd7",
+    "raw_rows": 253392,
+    "completed_utc": "2026-09-26T18:21:23.419697+00:00",
+    "outcome": "successful_acquisition"
+  }
+]

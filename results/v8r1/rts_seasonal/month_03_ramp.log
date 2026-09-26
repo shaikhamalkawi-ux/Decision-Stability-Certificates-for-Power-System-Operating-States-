@@ -1,0 +1,51 @@
+Running HiGHS 1.12.0 (git hash: 755a8e0): Copyright (c) 2025 HiGHS under MIT licence terms
+MIP has 16289 rows; 10920 cols; 61968 nonzeros; 4032 integer variables (4032 binary)
+Coefficient ranges:
+  Matrix  [6e-03, 4e+02]
+  Cost    [0e+00, 0e+00]
+  Bound   [1e-01, 7e+02]
+  RHS     [3e-15, 2e+03]
+WARNING: Problem has some excessively small row bounds
+Presolving model
+3199 rows, 2848 cols, 9720 nonzeros  0s
+3129 rows, 2818 cols, 9632 nonzeros  0s
+Presolve reductions: rows 3129(-13160); columns 2818(-8102); nonzeros 9632(-52336) 
+Objective function is integral with scale 1
+
+Solving MIP model with:
+   3129 rows
+   2818 cols (1322 binary, 0 integer, 0 implied int., 1496 continuous, 0 domain fixed)
+   9632 nonzeros
+
+Src: B => Branching; C => Central rounding; F => Feasibility pump; H => Heuristic;
+     I => Shifting; J => Feasibility jump; L => Sub-MIP; P => Empty MIP; R => Randomized rounding;
+     S => Solve LP; T => Evaluate node; U => Unbounded; X => User solution; Y => HiGHS solution;
+     Z => ZI Round; l => Trivial lower; p => Trivial point; u => Trivial upper; z => Trivial zero
+
+        Nodes      |    B&B Tree     |            Objective Bounds              |  Dynamic Constraints |       Work      
+Src  Proc. InQueue |  Leaves   Expl. | BestBound       BestSol              Gap |   Cuts   InLp Confl. | LpIters     Time
+
+         0       0         0   0.00%   0               inf                  inf        0      0      0         0     0.2s
+         0       0         0   0.00%   0               inf                  inf        0      0      2      2009     0.2s
+ R       0       0         0 100.00%   0               0                  0.00%     1769    403    966      3367     1.3s
+         1       0         1 100.00%   0               0                  0.00%     1769    403    966      3367     1.3s
+
+Solving report
+  Status            Optimal
+  Primal bound      0
+  Dual bound        0
+  Gap               0% (tolerance: 0%)
+  P-D integral      0
+  Solution status   feasible
+                    0 (objective)
+                    0 (bound viol.)
+                    0 (int. viol.)
+                    0 (row viol.)
+  Timing            1.25
+  Max sub-MIP depth 0
+  Nodes             1
+  Repair LPs        0
+  LP iterations     3367
+                    0 (strong br.)
+                    1358 (separation)
+                    0 (heuristics)

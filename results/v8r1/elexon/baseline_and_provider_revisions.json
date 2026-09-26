@@ -1,0 +1,122 @@
+{
+  "original_frozen_recomputed_metrics": {
+    "n_coordinates": 260,
+    "n_atoms_each_day": 48,
+    "M_mean_L1_MW": 19553.647583333335,
+    "W1_empirical_L1_MW": 20776.83725,
+    "G_shape_MW": 1223.1896666666653,
+    "shape_share_percent": 5.887275584577558,
+    "W1_same_settlement_period_L1_MW": 21016.487666666668,
+    "same_period_premium_MW": 239.6504166666673,
+    "same_period_premium_percent": 1.153449939387032,
+    "inequalities_verified": true,
+    "transportation_LP_W1_MW": 20776.837250000004,
+    "LP_assignment_abs_difference_MW": 3.637978807091713e-12,
+    "transportation_LP_verified": true
+  },
+  "original_common_coordinate_count": 260,
+  "archived_metric_checks": [
+    {
+      "field": "M_mean_L1_MW",
+      "recomputed": 19553.647583333335,
+      "archived": 19553.647583333335,
+      "absolute_difference": 0.0,
+      "pass": true
+    },
+    {
+      "field": "W1_empirical_L1_MW",
+      "recomputed": 20776.83725,
+      "archived": 20776.83725,
+      "absolute_difference": 0.0,
+      "pass": true
+    },
+    {
+      "field": "G_shape_MW",
+      "recomputed": 1223.1896666666653,
+      "archived": 1223.1896666666653,
+      "absolute_difference": 0.0,
+      "pass": true
+    },
+    {
+      "field": "W1_same_settlement_period_L1_MW",
+      "recomputed": 21016.487666666668,
+      "archived": 21016.487666666668,
+      "absolute_difference": 0.0,
+      "pass": true
+    }
+  ],
+  "reacquired_original_dates_metrics": {
+    "pair_id": "2023-01-11__2023-07-12",
+    "january_day": "2023-01-11",
+    "july_day": "2023-07-12",
+    "primary_ordinal_pair": true,
+    "universe": "pairwise_common",
+    "n_coordinates": 260,
+    "n_atoms_each_day": 48,
+    "M_mean_L1_MW": 19553.647583333335,
+    "W1_empirical_L1_MW": 20776.83725,
+    "G_shape_MW": 1223.1896666666653,
+    "shape_share_percent": 5.887275584577558,
+    "W1_same_settlement_period_L1_MW": 21016.487666666668,
+    "same_period_premium_MW": 239.6504166666673,
+    "same_period_premium_percent": 1.153449939387032,
+    "inequalities_verified": true,
+    "transportation_LP_W1_MW": 20776.837250000004,
+    "LP_assignment_abs_difference_MW": 3.637978807091713e-12,
+    "transportation_LP_verified": true
+  },
+  "provider_revisions_by_day": [
+    {
+      "date": "2023-01-11",
+      "old_sha256": "2ee4f40c7cb0cdc25f007c1c626bde123411232b95a03942e067c7e3316ff694",
+      "new_sha256": "2c90e60643a28c8fbac621cb26c5392f59940b9d97fff29dca30707c4a03022f",
+      "raw_bytes_identical": false,
+      "old_rows": 252912,
+      "new_rows": 252912,
+      "old_only_keys": 0,
+      "new_only_keys": 0,
+      "all_units": {
+        "common_keys": 252912,
+        "quantity_changed_keys": 0,
+        "settlement_run_changed_keys": 0,
+        "nonfinite_quantity_changes": 0,
+        "max_abs_quantity_change_MWh": 0.0,
+        "sum_abs_quantity_change_MWh": 0.0
+      },
+      "classified_transmission_production": {
+        "common_keys": 12480,
+        "quantity_changed_keys": 0,
+        "settlement_run_changed_keys": 0,
+        "nonfinite_quantity_changes": 0,
+        "max_abs_quantity_change_MWh": 0.0,
+        "sum_abs_quantity_change_MWh": 0.0
+      }
+    },
+    {
+      "date": "2023-07-12",
+      "old_sha256": "193a58c4ac40cd5c5ca8d5e42bd5c47ab8b7264e6ac33f34611bea9ef122ae56",
+      "new_sha256": "9b818749ce28b486f9588f1f04ffa16dee7ee6499069f8fb025dbb00384259cf",
+      "raw_bytes_identical": false,
+      "old_rows": 253728,
+      "new_rows": 253728,
+      "old_only_keys": 0,
+      "new_only_keys": 0,
+      "all_units": {
+        "common_keys": 253728,
+        "quantity_changed_keys": 0,
+        "settlement_run_changed_keys": 0,
+        "nonfinite_quantity_changes": 0,
+        "max_abs_quantity_change_MWh": 0.0,
+        "sum_abs_quantity_change_MWh": 0.0
+      },
+      "classified_transmission_production": {
+        "common_keys": 12864,
+        "quantity_changed_keys": 0,
+        "settlement_run_changed_keys": 0,
+        "nonfinite_quantity_changes": 0,
+        "max_abs_quantity_change_MWh": 0.0,
+        "sum_abs_quantity_change_MWh": 0.0
+      }
+    }
+  ]
+}

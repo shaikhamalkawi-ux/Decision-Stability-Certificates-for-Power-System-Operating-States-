@@ -1,0 +1,143 @@
+{
+  "date": "2026-09-26",
+  "scope": "Build and final visual/layout QA of the V8R1 candidate manuscript and research supplement; not a new scientific or publication-readiness audit. No publication performed. No source edits made by the PDF subtask.",
+  "builder": "MiKTeX pdflatex; two passes per final target; isolated copies in .work/pdf_build",
+  "abstract_word_count": 194,
+  "abstract_word_count_rule": "Hyphenated/slash-connected terms counted as one word; numbers counted as words.",
+  "manuscript_page_limit": 10,
+  "manuscript_page_limit_pass": true,
+  "outputs": [
+    {
+      "role": "main",
+      "file": "output/pdf/DSC_Grid_V8R1_Candidate_Manuscript.pdf",
+      "sha256": "903bbadb4b9ec3cc2c1286f8b476e5d6c453f389dfc43fdded42faaafcac06bf",
+      "pages": 9,
+      "all_fonts_embedded": true,
+      "font_count": 24,
+      "font_types": [
+        "Type 1"
+      ],
+      "type3_count": 0,
+      "undefined_references": 0,
+      "undefined_citations": 0,
+      "overfull_boxes": 0,
+      "underfull_warnings": 9,
+      "visual_review": {
+        "status": "pass",
+        "pages_inspected": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "render_dpi": 120,
+        "observations": "Every final rendered page was inspected. No clipping, overlap, missing glyphs, or broken tables/equations. Readable labels and consistent margins. Existing underfull spacing does not obstruct content."
+      },
+      "source_sha256": {
+        "manuscript/source/main.tex": "1f3356bc9467d1edfd85b7c21c5fd7afe60d8332a5746f535fbdac88c132128e",
+        "manuscript/source/main_core.tex": "8b782aaa7c15864a3dcba76f3a513112100a791de98d10e9ebadcfd3d057c869",
+        "manuscript/source/references.tex": "55079a6f4e48706e2d78ead66961ba0e31b6da603b6843d436e72b693b0928be"
+      },
+      "hyperlinks": [
+        {
+          "page": 8,
+          "url": "https://github.com/shaikhamalkawi-ux/Decision-Stability-Certificates-for-Power-System-Operating-States-/tree/codex/v8r1-evidence"
+        },
+        {
+          "page": 8,
+          "url": "https://github.com/shaikhamalkawi-ux/Decision-Stability-Certificates-for-Power-System-Operating-States-/tree/codex/v8r1-evidence"
+        },
+        {
+          "page": 8,
+          "url": "https://zenodo.org/records/22976152"
+        },
+        {
+          "page": 8,
+          "url": "https://doi.org/10.5281/zenodo.22976152"
+        },
+        {
+          "page": 9,
+          "url": "https://github.com/power-grid-lib/pglib-uc"
+        },
+        {
+          "page": 9,
+          "url": "https://github.com/power-grid-lib/pglib-uc"
+        },
+        {
+          "page": 9,
+          "url": "https://github.com/GridMod/RTS-GMLC/tree/v0.2.3"
+        },
+        {
+          "page": 9,
+          "url": "https://github.com/GridMod/RTS-GMLC/tree/v0.2.3"
+        },
+        {
+          "page": 9,
+          "url": "https://developer.data.elexon.co.uk/"
+        },
+        {
+          "page": 9,
+          "url": "https://doi.org/10.5281/zenodo.22976152"
+        }
+      ]
+    },
+    {
+      "role": "supplement",
+      "file": "output/pdf/DSC_Grid_V8R1_Research_Supplement.pdf",
+      "sha256": "38901b9b38094eb1146eb854b8c06f919d606ec3f935356de92d1ef55adabacc",
+      "pages": 8,
+      "all_fonts_embedded": true,
+      "font_count": 19,
+      "font_types": [
+        "Type 1"
+      ],
+      "type3_count": 0,
+      "undefined_references": 0,
+      "undefined_citations": 0,
+      "overfull_boxes": 0,
+      "underfull_warnings": 0,
+      "visual_review": {
+        "status": "pass",
+        "pages_inspected": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "render_dpi": 120,
+        "observations": "Every final rendered page was inspected. No clipping, overlap, missing glyphs, or broken tables/equations. Readable labels and consistent margins. Existing underfull spacing does not obstruct content."
+      },
+      "source_sha256": {
+        "supplement/source/supplement.tex": "87eab24a804612d0476c1faa1e7f6ff3bc95dd7a08fb7a615635c9c82bbdf57b",
+        "supplement/source/supp_references.tex": "63df154fad0f70240d55173ae7b3054ac15ef67a36ef5baba616f0304380a5c8"
+      },
+      "hyperlinks": [
+        {
+          "page": 7,
+          "url": "https://github.com/GridMod/RTS-GMLC/tree/v0.2.3"
+        },
+        {
+          "page": 7,
+          "url": "https://github.com/power-grid-lib/pglib-uc"
+        },
+        {
+          "page": 7,
+          "url": "https://github.com/power-grid-lib/pglib-uc"
+        },
+        {
+          "page": 8,
+          "url": "https://developer.data.elexon.co.uk/"
+        }
+      ]
+    }
+  ]
+}

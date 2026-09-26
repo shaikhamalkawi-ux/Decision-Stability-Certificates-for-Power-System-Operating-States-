@@ -1,0 +1,194 @@
+[
+  {
+    "date": "2023-01-04",
+    "raw_rows": 252816,
+    "raw_unique_bmus": 5267,
+    "registered_transmission_production_rows": 12432,
+    "registered_transmission_production_observed_units": 259,
+    "classification_registry_units": 342,
+    "complete_coordinates": 259,
+    "incomplete_coordinates": 0,
+    "absent_classified_coordinates": 83,
+    "duplicate_bmu_period_rows": 0,
+    "nonfinite_or_nonnumeric_classified_values": 0,
+    "negative_classified_values": 3145,
+    "negative_complete_coordinate_values": 3145,
+    "negative_classified_units": 109,
+    "converted_average_power_min_MW": -295.8,
+    "converted_average_power_max_MW": 658.416,
+    "settlement_run_type_counts_all_rows": {
+      "DF": 252816
+    },
+    "settlement_run_type_counts_classified_rows": {
+      "DF": 12432
+    }
+  },
+  {
+    "date": "2023-01-11",
+    "raw_rows": 252912,
+    "raw_unique_bmus": 5269,
+    "registered_transmission_production_rows": 12480,
+    "registered_transmission_production_observed_units": 260,
+    "classification_registry_units": 342,
+    "complete_coordinates": 260,
+    "incomplete_coordinates": 0,
+    "absent_classified_coordinates": 82,
+    "duplicate_bmu_period_rows": 0,
+    "nonfinite_or_nonnumeric_classified_values": 0,
+    "negative_classified_values": 3246,
+    "negative_complete_coordinate_values": 3246,
+    "negative_classified_units": 95,
+    "converted_average_power_min_MW": -299.4,
+    "converted_average_power_max_MW": 712.6,
+    "settlement_run_type_counts_all_rows": {
+      "DF": 252912
+    },
+    "settlement_run_type_counts_classified_rows": {
+      "DF": 12480
+    }
+  },
+  {
+    "date": "2023-01-18",
+    "raw_rows": 253104,
+    "raw_unique_bmus": 5273,
+    "registered_transmission_production_rows": 12480,
+    "registered_transmission_production_observed_units": 260,
+    "classification_registry_units": 342,
+    "complete_coordinates": 260,
+    "incomplete_coordinates": 0,
+    "absent_classified_coordinates": 82,
+    "duplicate_bmu_period_rows": 0,
+    "nonfinite_or_nonnumeric_classified_values": 0,
+    "negative_classified_values": 2422,
+    "negative_complete_coordinate_values": 2422,
+    "negative_classified_units": 81,
+    "converted_average_power_min_MW": -291.6,
+    "converted_average_power_max_MW": 898.2,
+    "settlement_run_type_counts_all_rows": {
+      "DF": 253104
+    },
+    "settlement_run_type_counts_classified_rows": {
+      "DF": 12480
+    }
+  },
+  {
+    "date": "2023-01-25",
+    "raw_rows": 253344,
+    "raw_unique_bmus": 5278,
+    "registered_transmission_production_rows": 12480,
+    "registered_transmission_production_observed_units": 260,
+    "classification_registry_units": 342,
+    "complete_coordinates": 260,
+    "incomplete_coordinates": 0,
+    "absent_classified_coordinates": 82,
+    "duplicate_bmu_period_rows": 0,
+    "nonfinite_or_nonnumeric_classified_values": 0,
+    "negative_classified_values": 2284,
+    "negative_complete_coordinate_values": 2284,
+    "negative_classified_units": 99,
+    "converted_average_power_min_MW": -293.7,
+    "converted_average_power_max_MW": 1233.2,
+    "settlement_run_type_counts_all_rows": {
+      "DF": 253344
+    },
+    "settlement_run_type_counts_classified_rows": {
+      "DF": 12480
+    }
+  },
+  {
+    "date": "2023-07-05",
+    "raw_rows": 253488,
+    "raw_unique_bmus": 5281,
+    "registered_transmission_production_rows": 12864,
+    "registered_transmission_production_observed_units": 268,
+    "classification_registry_units": 342,
+    "complete_coordinates": 268,
+    "incomplete_coordinates": 0,
+    "absent_classified_coordinates": 74,
+    "duplicate_bmu_period_rows": 0,
+    "nonfinite_or_nonnumeric_classified_values": 0,
+    "negative_classified_values": 3207,
+    "negative_complete_coordinate_values": 3207,
+    "negative_classified_units": 134,
+    "converted_average_power_min_MW": -153.8,
+    "converted_average_power_max_MW": 821.2,
+    "settlement_run_type_counts_all_rows": {
+      "DF": 253488
+    },
+    "settlement_run_type_counts_classified_rows": {
+      "DF": 12864
+    }
+  },
+  {
+    "date": "2023-07-12",
+    "raw_rows": 253728,
+    "raw_unique_bmus": 5286,
+    "registered_transmission_production_rows": 12864,
+    "registered_transmission_production_observed_units": 268,
+    "classification_registry_units": 342,
+    "complete_coordinates": 268,
+    "incomplete_coordinates": 0,
+    "absent_classified_coordinates": 74,
+    "duplicate_bmu_period_rows": 0,
+    "nonfinite_or_nonnumeric_classified_values": 0,
+    "negative_classified_values": 2809,
+    "negative_complete_coordinate_values": 2809,
+    "negative_classified_units": 93,
+    "converted_average_power_min_MW": -155.3,
+    "converted_average_power_max_MW": 820.18,
+    "settlement_run_type_counts_all_rows": {
+      "DF": 253728
+    },
+    "settlement_run_type_counts_classified_rows": {
+      "DF": 12864
+    }
+  },
+  {
+    "date": "2023-07-19",
+    "raw_rows": 253920,
+    "raw_unique_bmus": 5290,
+    "registered_transmission_production_rows": 12864,
+    "registered_transmission_production_observed_units": 268,
+    "classification_registry_units": 342,
+    "complete_coordinates": 268,
+    "incomplete_coordinates": 0,
+    "absent_classified_coordinates": 74,
+    "duplicate_bmu_period_rows": 0,
+    "nonfinite_or_nonnumeric_classified_values": 0,
+    "negative_classified_values": 3641,
+    "negative_complete_coordinate_values": 3641,
+    "negative_classified_units": 144,
+    "converted_average_power_min_MW": -155.7,
+    "converted_average_power_max_MW": 814.9,
+    "settlement_run_type_counts_all_rows": {
+      "DF": 253920
+    },
+    "settlement_run_type_counts_classified_rows": {
+      "DF": 12864
+    }
+  },
+  {
+    "date": "2023-07-26",
+    "raw_rows": 253392,
+    "raw_unique_bmus": 5279,
+    "registered_transmission_production_rows": 12864,
+    "registered_transmission_production_observed_units": 268,
+    "classification_registry_units": 342,
+    "complete_coordinates": 268,
+    "incomplete_coordinates": 0,
+    "absent_classified_coordinates": 74,
+    "duplicate_bmu_period_rows": 0,
+    "nonfinite_or_nonnumeric_classified_values": 0,
+    "negative_classified_values": 3298,
+    "negative_complete_coordinate_values": 3298,
+    "negative_classified_units": 139,
+    "converted_average_power_min_MW": -155.3,
+    "converted_average_power_max_MW": 812.9,
+    "settlement_run_type_counts_all_rows": {
+      "DF": 253392
+    },
+    "settlement_run_type_counts_classified_rows": {
+      "DF": 12864
+    }
+  }
+]

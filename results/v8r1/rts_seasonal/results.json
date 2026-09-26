@@ -1,0 +1,299 @@
+[
+  {
+    "month": 1,
+    "family": "ramp",
+    "model_status": "Optimal",
+    "elapsed_s": 7.530999999988126,
+    "verdict": "ADMITTED_RELAXATION",
+    "solver_version": "1.12.0",
+    "time_limit_s": 60,
+    "rows": 16289,
+    "columns": 10920,
+    "max_primal_infeasibility": 1.2152501227546963e-12,
+    "witness_verification": {
+      "pass": true,
+      "tolerance": 1e-05,
+      "residuals": {
+        "negative_dispatch_MW": 1.1368683772161603e-13,
+        "availability_MW": 1.1368683772161603e-13,
+        "balance_MW": 6.821210263296962e-13,
+        "mean_MW": 1.2153611450571589e-12,
+        "hydro_fixed_MW": 0.0,
+        "binary": 0.0,
+        "commit_upper_MW": 1.1368683772161603e-13,
+        "commit_lower_MW": 1.1368683772161603e-13,
+        "online_ramp_MW": 0.0
+      }
+    }
+  },
+  {
+    "month": 1,
+    "family": "minud",
+    "model_status": "Infeasible",
+    "elapsed_s": 0.5,
+    "verdict": "REJECTED_RELAXATION",
+    "solver_version": "1.12.0",
+    "time_limit_s": 60,
+    "rows": 24305,
+    "columns": 18984,
+    "max_primal_infeasibility": null
+  },
+  {
+    "month": 2,
+    "family": "ramp",
+    "model_status": "Optimal",
+    "elapsed_s": 3.39000000001397,
+    "verdict": "ADMITTED_RELAXATION",
+    "solver_version": "1.12.0",
+    "time_limit_s": 60,
+    "rows": 16289,
+    "columns": 10920,
+    "max_primal_infeasibility": 2.7853275241795927e-12,
+    "witness_verification": {
+      "pass": true,
+      "tolerance": 1e-05,
+      "residuals": {
+        "negative_dispatch_MW": 2.3447910280083306e-13,
+        "availability_MW": 2.2737367544323206e-13,
+        "balance_MW": 6.821210263296962e-13,
+        "mean_MW": 2.7853275241795927e-12,
+        "hydro_fixed_MW": 0.0,
+        "binary": 0.0,
+        "commit_upper_MW": 2.2737367544323206e-13,
+        "commit_lower_MW": 2.3447910280083306e-13,
+        "online_ramp_MW": 0.0
+      }
+    }
+  },
+  {
+    "month": 2,
+    "family": "minud",
+    "model_status": "Infeasible",
+    "elapsed_s": 0.360000000015134,
+    "verdict": "REJECTED_RELAXATION",
+    "solver_version": "1.12.0",
+    "time_limit_s": 60,
+    "rows": 24305,
+    "columns": 18984,
+    "max_primal_infeasibility": null
+  },
+  {
+    "month": 3,
+    "family": "ramp",
+    "model_status": "Optimal",
+    "elapsed_s": 1.2660000000032596,
+    "verdict": "ADMITTED_RELAXATION",
+    "solver_version": "1.12.0",
+    "time_limit_s": 60,
+    "rows": 16289,
+    "columns": 10920,
+    "max_primal_infeasibility": 3.9176484278868884e-10,
+    "witness_verification": {
+      "pass": true,
+      "tolerance": 1e-05,
+      "residuals": {
+        "negative_dispatch_MW": 0.0,
+        "availability_MW": 0.0,
+        "balance_MW": 3.9176484278868884e-10,
+        "mean_MW": 1.0231815394945443e-12,
+        "hydro_fixed_MW": 0.0,
+        "binary": 0.0,
+        "commit_upper_MW": 0.0,
+        "commit_lower_MW": 2.842170943040401e-14,
+        "online_ramp_MW": 0.0
+      }
+    }
+  },
+  {
+    "month": 3,
+    "family": "minud",
+    "model_status": "Infeasible",
+    "elapsed_s": 0.35999999998603016,
+    "verdict": "REJECTED_RELAXATION",
+    "solver_version": "1.12.0",
+    "time_limit_s": 60,
+    "rows": 24305,
+    "columns": 18984,
+    "max_primal_infeasibility": null
+  },
+  {
+    "month": 4,
+    "family": "ramp",
+    "model_status": "Optimal",
+    "elapsed_s": 9.53200000000652,
+    "verdict": "ADMITTED_RELAXATION",
+    "solver_version": "1.12.0",
+    "time_limit_s": 60,
+    "rows": 16289,
+    "columns": 10920,
+    "max_primal_infeasibility": 7.143796665332047e-11,
+    "witness_verification": {
+      "pass": true,
+      "tolerance": 1e-05,
+      "residuals": {
+        "negative_dispatch_MW": 1.1326051208015997e-11,
+        "availability_MW": 0.0,
+        "balance_MW": 6.821210263296962e-13,
+        "mean_MW": 9.019451852054772e-13,
+        "hydro_fixed_MW": 0.0,
+        "binary": 3.641212063048589e-11,
+        "commit_upper_MW": 7.143796665332047e-11,
+        "commit_lower_MW": 1.1326051208015997e-11,
+        "online_ramp_MW": 0.0
+      }
+    }
+  },
+  {
+    "month": 4,
+    "family": "minud",
+    "model_status": "Infeasible",
+    "elapsed_s": 0.6409999999741558,
+    "verdict": "REJECTED_RELAXATION",
+    "solver_version": "1.12.0",
+    "time_limit_s": 60,
+    "rows": 24305,
+    "columns": 18984,
+    "max_primal_infeasibility": null
+  },
+  {
+    "month": 5,
+    "family": "ramp",
+    "model_status": "Time limit reached",
+    "elapsed_s": 60.01600000000326,
+    "verdict": "UNRESOLVED",
+    "solver_version": "1.12.0",
+    "time_limit_s": 60,
+    "rows": 16289,
+    "columns": 10920,
+    "max_primal_infeasibility": null
+  },
+  {
+    "month": 5,
+    "family": "minud",
+    "model_status": "Infeasible",
+    "elapsed_s": 0.4370000000053551,
+    "verdict": "REJECTED_RELAXATION",
+    "solver_version": "1.12.0",
+    "time_limit_s": 60,
+    "rows": 24305,
+    "columns": 18984,
+    "max_primal_infeasibility": null
+  },
+  {
+    "month": 6,
+    "family": "ramp",
+    "model_status": "Optimal",
+    "elapsed_s": 3.4530000000086147,
+    "verdict": "ADMITTED_RELAXATION",
+    "solver_version": "1.12.0",
+    "time_limit_s": 60,
+    "rows": 16289,
+    "columns": 10920,
+    "max_primal_infeasibility": 1.6838440889960565e-11,
+    "witness_verification": {
+      "pass": true,
+      "tolerance": 1e-05,
+      "residuals": {
+        "negative_dispatch_MW": 0.0,
+        "availability_MW": 2.2737367544323206e-13,
+        "balance_MW": 1.3642420526593924e-12,
+        "mean_MW": 1.6838440889960565e-11,
+        "hydro_fixed_MW": 0.0,
+        "binary": 0.0,
+        "commit_upper_MW": 2.2737367544323206e-13,
+        "commit_lower_MW": 2.4868995751603507e-14,
+        "online_ramp_MW": 0.0
+      }
+    }
+  },
+  {
+    "month": 6,
+    "family": "minud",
+    "model_status": "Infeasible",
+    "elapsed_s": 0.8900000000139698,
+    "verdict": "REJECTED_RELAXATION",
+    "solver_version": "1.12.0",
+    "time_limit_s": 60,
+    "rows": 24305,
+    "columns": 18984,
+    "max_primal_infeasibility": null
+  },
+  {
+    "month": 7,
+    "family": "ramp",
+    "model_status": "Optimal",
+    "elapsed_s": 1.125,
+    "verdict": "ADMITTED_RELAXATION",
+    "solver_version": "1.12.0",
+    "time_limit_s": 60,
+    "rows": 16289,
+    "columns": 10920,
+    "max_primal_infeasibility": 4.897628969047219e-10,
+    "witness_verification": {
+      "pass": true,
+      "tolerance": 1e-05,
+      "residuals": {
+        "negative_dispatch_MW": 0.0,
+        "availability_MW": 0.0,
+        "balance_MW": 4.897628969047219e-10,
+        "mean_MW": 4.6497365812134396e-11,
+        "hydro_fixed_MW": 0.0,
+        "binary": 0.0,
+        "commit_upper_MW": 4.1944758777390234e-10,
+        "commit_lower_MW": 0.0,
+        "online_ramp_MW": 0.0
+      }
+    }
+  },
+  {
+    "month": 7,
+    "family": "minud",
+    "model_status": "Infeasible",
+    "elapsed_s": 3.0940000000118744,
+    "verdict": "REJECTED_RELAXATION",
+    "solver_version": "1.12.0",
+    "time_limit_s": 60,
+    "rows": 24305,
+    "columns": 18984,
+    "max_primal_infeasibility": null
+  },
+  {
+    "month": 10,
+    "family": "ramp",
+    "model_status": "Optimal",
+    "elapsed_s": 6.7189999999827705,
+    "verdict": "ADMITTED_RELAXATION",
+    "solver_version": "1.12.0",
+    "time_limit_s": 60,
+    "rows": 16289,
+    "columns": 10920,
+    "max_primal_infeasibility": 3.6862957131234e-10,
+    "witness_verification": {
+      "pass": true,
+      "tolerance": 1e-05,
+      "residuals": {
+        "negative_dispatch_MW": 5.684341886080802e-14,
+        "availability_MW": 3.6862957131234e-10,
+        "balance_MW": 3.2514435588382185e-11,
+        "mean_MW": 1.42763958723596e-11,
+        "hydro_fixed_MW": 0.0,
+        "binary": 0.0,
+        "commit_upper_MW": 3.6862957131234e-10,
+        "commit_lower_MW": 2.0250467969162855e-13,
+        "online_ramp_MW": 0.0
+      }
+    }
+  },
+  {
+    "month": 10,
+    "family": "minud",
+    "model_status": "Infeasible",
+    "elapsed_s": 0.735000000015134,
+    "verdict": "REJECTED_RELAXATION",
+    "solver_version": "1.12.0",
+    "time_limit_s": 60,
+    "rows": 24305,
+    "columns": 18984,
+    "max_primal_infeasibility": null
+  }
+]

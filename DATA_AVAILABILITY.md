@@ -1,5 +1,12 @@
 # Data and code availability
 
+The current V8R1 candidate adds `src/v8r1_*.py`, protocols, parameter audits
+and derived results under `results/v8r1/` on branch `codex/v8r1-evidence`.
+These additions are separate from the frozen V8 baseline described below.
+Raw new Elexon responses remain local; acquisition URLs, timestamps, hashes
+and derived daily signed-state matrices accompany the candidate.
+
+
 The companion reproducibility snapshot is **`v8-reproducibility.20260926`**.
 Its versioned access and citation link is the
 [GitHub release](https://github.com/shaikhamalkawi-ux/Decision-Stability-Certificates-for-Power-System-Operating-States-/releases/tag/v8-reproducibility.20260926).
@@ -44,8 +51,8 @@ and author-side submission drafts.
 - **PyPSA-GB:** obtain source models and external inputs from
   [andrewlyden/PyPSA-GB](https://github.com/andrewlyden/PyPSA-GB) at commit
   `8e084afe4fb2d4be86f270d3f12ad3315eee2a3a`. Source-provided chronology
-  parameters exist; their admissibility for the frozen experiment is still
-  under review.
+  parameters exist; an optional wholesale parameter set has been audited, while
+  complete native networks remain unavailable for a matched chronology test.
 - **Elexon:** use the [Insights API documentation](https://developer.data.elexon.co.uk/),
   the included scripts, and the archived query register. The recorded original
   acquisition date is 2026-09-20. Fresh API responses may have changed; compare

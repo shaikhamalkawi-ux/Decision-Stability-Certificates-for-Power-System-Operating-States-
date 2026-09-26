@@ -1,0 +1,13 @@
+{
+  "verdict": "HOLD",
+  "scope": "native matched-network UC/chronology comparison",
+  "frozen_chronology_fields_present": false,
+  "native_chronology_comparison_admitted": false,
+  "interpretation": "The frozen LP extracts have no activated commitment, minimum-time or ramp fields. This describes these extracts only; it does not establish that upstream PyPSA-GB lacks UC parameters. A matched-network chronology comparison remains on hold pending parameter admission, full model inputs, eligibility and boundary-state validation.",
+  "upstream_source_audit": {
+    "path": "provenance\\v8r1\\gb\\parameter_admission.csv",
+    "keep_rows": 38,
+    "hold_rows": 5,
+    "interpretation": "KEEP entries retain their stated scope; optional source-defined sensitivities do not by themselves admit a native network experiment."
+  }
+}

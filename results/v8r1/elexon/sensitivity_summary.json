@@ -1,0 +1,190 @@
+{
+  "design": "Fixed January/July 2023 Wednesday sample; descriptive and observational",
+  "state_definition": "Signed B1610 registered-generation BMU outturn vectors in average MW; finite negative values retained",
+  "protocol_sha256": "d093dc426113ec9bb38edd23dcd6681ac4faca16992d702edb8f031b056ee149",
+  "dates": [
+    "2023-01-04",
+    "2023-01-11",
+    "2023-01-18",
+    "2023-01-25",
+    "2023-07-05",
+    "2023-07-12",
+    "2023-07-19",
+    "2023-07-26"
+  ],
+  "n_fixed_common_coordinates": 259,
+  "results": {
+    "fixed_common_eight_days": {
+      "primary_four_ordinal_pairs": {
+        "n_pairs": 4,
+        "n_positive_shape_gaps": 4,
+        "n_positive_same_period_premiums": 4,
+        "n_coordinates": {
+          "min": 259.0,
+          "median": 259.0,
+          "max": 259.0
+        },
+        "M_mean_L1_MW": {
+          "min": 16056.269041666666,
+          "median": 17853.7779375,
+          "max": 19558.303541666668
+        },
+        "W1_empirical_L1_MW": {
+          "min": 17170.445125000002,
+          "median": 19734.2626875,
+          "max": 20938.60595833333
+        },
+        "G_shape_MW": {
+          "min": 1114.1760833333356,
+          "median": 1301.7116666666625,
+          "max": 2537.8485833333343
+        },
+        "shape_share_percent": {
+          "min": 5.891297848498653,
+          "median": 6.540529411105898,
+          "max": 13.566275192693166
+        },
+        "same_period_premium_MW": {
+          "min": 239.65041666667094,
+          "median": 319.2544999999991,
+          "max": 461.7130833333358
+        },
+        "same_period_premium_percent": {
+          "min": 1.154302869701423,
+          "median": 1.6654834822909932,
+          "max": 2.4681246902208094
+        }
+      },
+      "secondary_all_sixteen_pairs_nonindependent": {
+        "n_pairs": 16,
+        "n_positive_shape_gaps": 16,
+        "n_positive_same_period_premiums": 16,
+        "n_coordinates": {
+          "min": 259.0,
+          "median": 259.0,
+          "max": 259.0
+        },
+        "M_mean_L1_MW": {
+          "min": 16056.269041666666,
+          "median": 18213.93629166667,
+          "max": 25352.943875000004
+        },
+        "W1_empirical_L1_MW": {
+          "min": 17170.445125000002,
+          "median": 20014.688062500005,
+          "max": 26307.602791666664
+        },
+        "G_shape_MW": {
+          "min": 877.0263333333314,
+          "median": 1366.1178333333319,
+          "max": 2666.2873333333373
+        },
+        "shape_share_percent": {
+          "min": 3.460768448335056,
+          "median": 7.056599535931616,
+          "max": 13.566275192693166
+        },
+        "same_period_premium_MW": {
+          "min": 196.43875000000116,
+          "median": 430.41033333333144,
+          "max": 2010.4395833333365
+        },
+        "same_period_premium_percent": {
+          "min": 0.7466995436856229,
+          "median": 2.1173466336380313,
+          "max": 9.359908326164906
+        }
+      }
+    },
+    "pairwise_common": {
+      "primary_four_ordinal_pairs": {
+        "n_pairs": 4,
+        "n_positive_shape_gaps": 4,
+        "n_positive_same_period_premiums": 4,
+        "n_coordinates": {
+          "min": 259.0,
+          "median": 260.0,
+          "max": 260.0
+        },
+        "M_mean_L1_MW": {
+          "min": 16056.269041666666,
+          "median": 17865.905541666667,
+          "max": 19570.993333333332
+        },
+        "W1_empirical_L1_MW": {
+          "min": 17170.445125000002,
+          "median": 19746.462166666668,
+          "max": 20951.3695
+        },
+        "G_shape_MW": {
+          "min": 1114.1760833333356,
+          "median": 1301.782916666667,
+          "max": 2537.923583333337
+        },
+        "shape_share_percent": {
+          "min": 5.887275584577558,
+          "median": 6.5386974529224045,
+          "max": 13.560118480071383
+        },
+        "same_period_premium_MW": {
+          "min": 239.6504166666673,
+          "median": 319.2544999999973,
+          "max": 461.7130833333322
+        },
+        "same_period_premium_percent": {
+          "min": 1.153449939387032,
+          "median": 1.6649453868781698,
+          "max": 2.466931689714606
+        }
+      },
+      "secondary_all_sixteen_pairs_nonindependent": {
+        "n_pairs": 16,
+        "n_positive_shape_gaps": 16,
+        "n_positive_same_period_premiums": 16,
+        "n_coordinates": {
+          "min": 259.0,
+          "median": 260.0,
+          "max": 260.0
+        },
+        "M_mean_L1_MW": {
+          "min": 16056.269041666666,
+          "median": 18225.267750000003,
+          "max": 25365.63366666667
+        },
+        "W1_empirical_L1_MW": {
+          "min": 17170.445125000002,
+          "median": 20028.073895833335,
+          "max": 26320.366333333335
+        },
+        "G_shape_MW": {
+          "min": 877.1013333333358,
+          "median": 1366.198666666669,
+          "max": 2666.356083333332
+        },
+        "shape_share_percent": {
+          "min": 3.460768448335056,
+          "median": 7.05481208353882,
+          "max": 13.560118480071383
+        },
+        "same_period_premium_MW": {
+          "min": 196.43875000000116,
+          "median": 430.41033333333326,
+          "max": 2010.4395833333328
+        },
+        "same_period_premium_percent": {
+          "min": 0.7463374464937519,
+          "median": 2.1162120379721063,
+          "max": 9.354934808451496
+        }
+      }
+    }
+  },
+  "limitations": [
+    "Acquisition-date registry is not a historical 2023 snapshot.",
+    "Production-flagged coordinates include PS-coded units and station-demand names; values are signed outturns, not uniformly nonnegative generation dispatch. Signs alone do not establish causes.",
+    "Days recur in secondary pairs; no independence or significance claim.",
+    "Distances do not establish chronological feasibility or causal operating changes.",
+    "Two months and one weekday do not establish annual or weather-adjusted robustness.",
+    "Positive shape gap magnitude is empirical; nonnegativity follows the metric inequality."
+  ]
+}

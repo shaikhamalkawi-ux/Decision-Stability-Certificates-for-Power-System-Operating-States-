@@ -9,33 +9,34 @@
 \maketitle
 
 \section{Scope and provenance}
-This supplement provides computational details for the chronology, AC-restoration, and Great Britain analyses reported in the main article. The RTS calculations use the same admitted operating-law baseline and source-processing definitions throughout the study, with RTS-GMLC pinned to source commit \texttt{3ece0d3725c844056132393ee252b3083dd4eab4} \cite{Barrows2020,RTSRepo}. The chronology and AC extensions add constraints and validation layers without redefining the previously reported static mean, shape, hour-conditioned, or fixed-pattern quantities.
+This supplement provides computational details for the chronology, alternating-current (AC) restoration, Great Britain, Elexon operational-data, and independent numerical-verification analyses reported in the main article. The RTS calculations use the same admitted operating-law states and source-processing definitions throughout the study, with RTS-GMLC pinned to source commit \texttt{3ece0d3725c844056132393ee252b3083dd4eab4} \cite{Barrows2020,RTSRepo}. The chronology and AC calculations add constraints and validation layers while preserving the static mean, shape, hour-conditioned, and fixed-commitment state definitions. We use direct-current (DC) network constraints for chronological dispatch, mixed-integer linear programs (MILPs) for commitment, linear programs (LPs) for continuous relaxations, and nonlinear programs (NLPs) for AC projection.
 
 \section{Native chronology formulation}
-Let $g$ index the 41 admitted generation coordinates and $t$ the 168 hourly periods. Thermal units use status $u_{g,t}\in\{0,1\}$ and startup/shutdown indicators $y_{g,t},z_{g,t}$. The independent verification formulation uses
+Let $g$ index the 41 admitted generation coordinates and $t=0,\ldots,T-1$ the hourly periods, with $T=168$. Active generation $p_{g,t}$ is measured in MW. For thermal units, $P_g^{\min}$ is minimum online output, $P_{g,t}^{\max}$ is hourly available maximum output, $u_{g,t}\in\{0,1\}$ is on/off status, and $y_{g,t},z_{g,t}\in\{0,1\}$ are startup/shutdown indicators. The independent verification formulation imposes the power/status link at every hour and the transition equations only for $t=1,\ldots,T-1$:
 \begin{align}
 P_g^{\min}u_{g,t}&\le p_{g,t}\le P_{g,t}^{\max}u_{g,t},\\
 u_{g,t}-u_{g,t-1}&=y_{g,t}-z_{g,t},\\
 y_{g,t}+z_{g,t}&\le1,
 \end{align}
-where, for source minimum-up time $U_g$ and minimum-down time $D_g$, observed starts and stops satisfy
+For source minimum-up time $U_g$ and minimum-down time $D_g$ in hours, observed starts and stops satisfy, for $t=1,\ldots,T-1$,
 \begin{align}
 \sum_{\tau=\max(1,t-U_g+1)}^{t} y_{g,\tau}&\le u_{g,t},\\
 \sum_{\tau=\max(1,t-D_g+1)}^{t} z_{g,\tau}&\le 1-u_{g,t}.
 \end{align}
-The integers $U_g$ and $D_g$ are the source \texttt{Min Up Time Hr} and \texttt{Min Down Time Hr} fields (rounded upward only if a noninteger were encountered). Hourly active-power balance is enforced; hydro availability follows the retained source-processing treatment used for the static baseline. The boundary is intentionally weak: the pre-horizon status is free and a startup/shutdown is not fabricated at $t=0$. This makes the gate a relaxation, so exact-mean infeasibility is inherited by any stricter network-constrained chronology.
+The integers $U_g$ and $D_g$ are the source \texttt{Min Up Time Hr} and \texttt{Min Down Time Hr} fields (rounded upward only if a noninteger were encountered). Hourly active-power balance is enforced; hydro availability follows the retained source-processing treatment used for the static baseline. The boundary is intentionally weak: $u_{g,0}$ is free, $y_{g,0}=z_{g,0}=0$, and no transition to a pre-horizon status is imposed. Residence-time constraints apply only within the observed week, with no terminal extension. This makes the gate a relaxation, so exact-mean infeasibility is inherited by any stricter network-constrained chronology.
 
-The native online-to-online ramp-only gate uses \texttt{Ramp Rate MW/Min}$\times60$ for the hourly interval. PGLib-UC is tested separately because its benchmark intentionally tightens RTS-GMLC hourly ramps and adds other UC semantics \cite{PGLibUC,Knueven2020}.
+The native online-to-online ramp-only gate uses \texttt{Ramp Rate MW/Min}$\times60$ for the hourly interval. Unit-commitment (UC) benchmarks can impose different ramp, startup and boundary semantics \cite{PGLibUC,Knueven2020}; the reported chronology conclusions here use the pinned native RTS parameters throughout. Table~\ref{tab:supp-admission} summarizes admission under the native no-network relaxation.
 
 \begin{table}[t]
 \centering
-\caption{Harmonized exact-mean admission.}
+\caption{Harmonized exact-mean admission in the source-native no-network relaxation.}
+\label{tab:supp-admission}
 \begin{tabular}{lcc}
 \toprule
 Constraint family & March & July\\
 \midrule
 Binary commitment only & Admitted & Admitted\\
-Native online-to-online ramp only & Admitted & Admitted\\
+Native online ramp (redundant) & Admitted & Admitted\\
 Source-native minimum up/down & Rejected & Rejected\\
 Ramp + minimum up/down & Rejected & Rejected\\
 Independent $y/z$ min-up/down check & Rejected & Rejected\\
@@ -44,39 +45,43 @@ Independent $y/z$ min-up/down check & Rejected & Rejected\\
 \end{table}
 
 \section{Chronological mean repair}
-For a target mean $\mu_T$, the repair problem minimizes
+For a target vector of mean generator outputs $\mu_T$, let $\mu_{T,g}$ be its coordinate for generator $g$ and let $d_g^+,d_g^-\ge0$ be positive and negative mean deviations in MW. The repair problem minimizes their sum, equal at optimality to the $L_1$ deviation, where $\|v\|_1=\sum_g|v_g|$:
 \begin{equation}
 \sum_g(d_g^+ + d_g^-),\qquad
-\frac1T\sum_t p_{g,t}-d_g^++d_g^-=\mu_{T,g},
+\frac1T\sum_{t=0}^{T-1} p_{g,t}-d_g^++d_g^-=\mu_{T,g},
 \end{equation}
-subject to the relaxed chronology. July solves to an exact objective of 8.0205084643 MW with reported MIP gap zero. March does not have a certified integer incumbent within the declared solver budget; its LP relaxation yields 40.0187592756 MW, so that number is a lower bound only.
+subject to the relaxed chronology. July solves to an exact objective of 8.0205084643 MW with reported mixed-integer-program (MIP) gap zero. March does not have a certified integer incumbent within the declared solver budget; its LP relaxation yields 40.0187592756 MW, so that number is a lower bound only.
 
-For July, the stricter Area-1 DC network chronology is also bounded directly. Restoring nodal DC balance, all 38 internal continuous line ratings, source-native minimum up/down logic, and native online-to-online ramping gives the certified interval
+For July, the stricter Area-1 DC network chronology is also bounded directly. Let $A_{\mathrm{chron}}^{\mathrm{net+ramp}}(\mu_{\mathrm{Jul}})$ denote the minimum $L_1$ mean deviation from the July target under nodal DC balance, all 38 internal continuous line ratings, source-native minimum up/down logic, and native online-to-online ramping. The certified interval, with endpoints rounded outward, is
 \begin{equation}
-8.0205084643\le A_{\mathrm{chron}}^{\mathrm{net+ramp}}(\mu_{\mathrm{Jul}})\le11.9262964643\ \mathrm{MW}.
+8.0205084642\le A_{\mathrm{chron}}^{\mathrm{net+ramp}}(\mu_{\mathrm{Jul}})\le11.9262964643\ \mathrm{MW}.
 \end{equation}
 The lower endpoint is inherited from the exact no-network relaxation. The upper endpoint is not an optimality claim: it is an explicit feasible schedule obtained after a bounded network MIP search and status-neighborhood refinement. A separate verifier recomputes the schedule from the source data and records maximum system-balance residual $6.6\times10^{-12}$ MW, maximum branch-loading fraction $1.0000000000000002$, zero active-power bound violation, zero native online-ramp excess, and zero minimum-up/down violations. The exact network optimum remains unresolved inside the interval.
 
 \begin{table}[t]
 \centering
-\caption{July chronological mean-repair evidence.}
+\caption{July chronological mean-repair evidence. The exact relaxation value is rounded to nearest; bracket endpoints are rounded outward.}
+\label{tab:supp-repair}
 \begin{tabular}{lrrl}
 \toprule
 Declared set & Lower & Upper & Status\\
  & MW & MW & \\
 \midrule
 No-network min-up/down relaxation & 8.020508 & 8.020508 & Exact\\
-Network + min-up/down + native ramp & 8.020508 & 11.926296 & Certified bracket\\
+Network + min-up/down + native ramp & 8.020508 & 11.926297 & Certified bracket\\
 \bottomrule
 \end{tabular}
 \end{table}
 
+Table~\ref{tab:supp-repair} summarizes the July repair bounds. Table~\ref{tab:supp-coordinate-repair} reports the largest generator-mean adjustments in the exact relaxed repair.
+
 \begin{table}[t]
 \centering
-\caption{Largest coordinate changes in the exact July repair for the no-network minimum-up/down relaxation.}
+\caption{Largest coordinate changes in the exact July repair for the no-network minimum-up/down relaxation. Absolute changes are between repaired and target generator means.}
+\label{tab:supp-coordinate-repair}
 \begin{tabular}{lrrr}
 \toprule
-Generator & Target mean & Repaired mean & $|\Delta|$\\
+Generator & Target mean & Repaired mean & Abs. change\\
  & MW & MW & MW\\
 \midrule
 122\_WIND\_1 & 65.145 & 63.484 & 1.662\\
@@ -93,21 +98,23 @@ Generator & Target mean & Repaired mean & $|\Delta|$\\
 \end{tabular}
 \end{table}
 
-\section{PGLib-UC stress benchmark}
-The PGLib branch is not a continuation of the native semantics. Under both target-initial and free-initial versions, binary commitment alone admits the exact March and July means, whereas ramp-only, startup/shutdown-output-only, and minimum-up/down-only variants reject them. This stress result is useful precisely because it differs from native ramping: benchmark semantics are part of the verdict and must be reported as such.
+\section{Benchmark semantics}
+Published unit-commitment benchmarks motivate careful separation of ramp, startup and boundary conventions. Historical PGLib stress calculations are not part of the candidate's numerical evidence because their exact input revision has not been established. The native RTS results and the independent residence test are separated from that comparison.
 
 \section{Direct AC feasibility projection}
-The AC projection uses the Area-1 internal 24-bus/38-branch topology. For bus voltage $V_i$ and admittance matrix $Y$, the complex nodal balance is
+The AC projection uses the Area-1 internal 24-bus/38-branch topology. At bus $i$, let $V_i$ be voltage magnitude in per-unit (p.u.), $\theta_i$ its phase angle in radians, and $v_i=V_i e^{j\theta_i}$ its complex voltage phasor, with $j^2=-1$. Let $Y_{ik}$ be an entry of the per-unit bus-admittance matrix, $\mathcal G_i$ the set of generators at bus $i$, $P_g,Q_g$ generator active/reactive power, and $P_i^d,Q_i^d$ active/reactive demand. With active power in MW, reactive power in MVAr, and base power $S_{\mathrm{base}}=100$ MVA, the complex nodal balance is
 \begin{equation}
-\sum_{g\in\mathcal G_i}(P_g+jQ_g)-(P_i^d+jQ_i^d)=V_i\overline{\sum_kY_{ik}V_k}.
+\sum_{g\in\mathcal G_i}(P_g+jQ_g)-(P_i^d+jQ_i^d)
+=S_{\mathrm{base}}v_i\overline{\sum_kY_{ik}v_k}.
 \end{equation}
-The nonlinear program minimizes $\sum_g|P_g-P_g^{DC}|$ subject to source hourly $P$ availability, source generator $Q$ limits, $0.95\le|V_i|\le1.05$ p.u., and terminal apparent-power limits $|S_{ik}|\le S^{\rm cont}_{ik}$. Rooftop PV is fixed negative active load, and bus reactive demand is scaled by the same regional load factor used for active demand. CasADi and IPOPT provide the primary witness search \cite{Andersson2019,Wachter2006}; successful points are checked against all constraint residuals.
+The overbar denotes complex conjugation and $k$ indexes buses. For the DC target generator output $P_g^{\mathrm{DC}}$, the restoration objective is $\sum_g|P_g-P_g^{\mathrm{DC}}|$ in MW. The nonlinear program imposes source hourly $P$ availability, source generator $Q$ limits, $0.95\le V_i\le1.05$ p.u., and apparent-power limits at both branch terminals: $|S_{ik}|\le S^{\rm cont}_{ik}$ and $|S_{ki}|\le S^{\rm cont}_{ik}$. Here $S_{ik}$ is complex power injected into the branch at terminal $i$, and $S^{\rm cont}_{ik}$ is the continuous MVA rating. The implementation adds the numerical voltage regularizer $10^{-8}\sum_i(V_i-1)^2$, whose value is at most $6\times10^{-10}$ over the declared voltage interval and 24 buses. Reported restoration costs exclude that term. Rooftop photovoltaic generation is fixed negative active load, and bus reactive demand is scaled by the same regional load factor used for active demand. CasADi and IPOPT provide the primary witness search \cite{Andersson2019,Wachter2006}; successful points are checked against all constraint residuals. For hour $t$, $\widehat R_t^{\mathrm{AC}}$ denotes the returned $L_1$ witness cost, which upper-bounds the ideal minimum $R_t^{\mathrm{AC}}$ for a feasible returned point.
 
-This direct projection differs from a heuristic distributed-slack/PV--PQ recovery pipeline. The latter is well motivated in the literature \cite{Boateng2027}, but here $P$, $Q$, voltage, and branch limits are optimized jointly. The benefit is a direct feasible witness; the cost is that the nonconvex objective is only locally optimized.
+This direct projection differs from a heuristic recovery pipeline using distributed slack and switching between active-power/voltage-controlled (PV) buses and active/reactive-power-specified (PQ) buses. The latter is well motivated in the literature \cite{Boateng2027}, but here $P$, $Q$, voltage, and branch limits are optimized jointly. The benefit is a direct feasible witness; the nonconvex program provides a locally computed restoration value rather than a globally certified minimum. Table~\ref{tab:supp-ac} summarizes the shared-continuous witness results.
 
 \begin{table}[t]
 \centering
-\caption{Primary shared-continuous AC projection.}
+\caption{Primary shared-continuous AC projection. Maximum constraint violation retains the implemented constraint scaling in MW, MVAr, or MVA$^2$.}
+\label{tab:supp-ac}
 \begin{tabular}{lrr}
 \toprule
 Quantity & March & July\\
@@ -126,14 +133,16 @@ Maximum constraint violation & $9.50\times10^{-8}$ & $8.67\times10^{-8}$\\
 \end{tabular}
 \end{table}
 
-The median restoration is equal to the active-loss correction to the precision shown in the released summary. This does not mean every coordinate changes only for losses; it means the local optimum can distribute the required loss compensation without additional $L_1$ movement beyond the net positive injection needed to balance losses.
+The median restoration is equal to the active-loss correction to the precision shown in the released summary. This is an equality of the reported medians, not a claim of coordinatewise equality or of equality at every hour. Each returned local solution redistributes active generation subject to the declared AC constraints.
 
 \section{Fixed-commitment recovery and solver boundary}
+Table~\ref{tab:supp-fixed} reports the bounded fixed-commitment witness searches. The portable routine uses at most 250 IPOPT iterations and 0.4 CPU seconds per initial guess, with a source-data guess and a previous-hour solution when available.
 The fixed-commitment mode sets thermal units that are off in the target DC schedule to zero and retains minimum output for units that are on. This branch is kept as a supporting witness search, not as a comparative success-rate experiment. Under one bounded attempt, 8 March and 15 July hours returned verified witnesses. Repeating the portable bounded routine with the same mathematical model but a different wall-clock realization returned 10 March and 15 July witnesses. The nested March set gained hours 1 and 2; no previously verified witness was lost. This solver-budget sensitivity is why the manuscript does not report the bounded return count as a physical rate.
 
 \begin{table}[t]
 \centering
 \caption{Bounded fixed-pattern witness searches (diagnostic only).}
+\label{tab:supp-fixed}
 \begin{tabular}{lrr}
 \toprule
 Attempt & March & July\\
@@ -148,15 +157,16 @@ A separate PYPOWER 5.1.18 AC-OPF recovery independently converged for the first 
 
 \FloatBarrier
 \section{Per-hour shared AC results}
+Table~\ref{tab:hourly} reports every shared-continuous hourly witness. For each hour, $V_{\min}$ is the minimum bus-voltage magnitude, and the maximum loading fraction is the largest terminal apparent power divided by its continuous branch rating.
 \footnotesize
 \begin{longtable}{rrrrrr}
-\caption{Shared-continuous AC projection by hour.}\label{tab:hourly}\\
+\caption{Shared-continuous AC projection by hour. Month 3/7 denotes March/July; hour 00--23 is the hour of the first target day. Voltage is in p.u.; loading fraction is dimensionless.}\label{tab:hourly}\\
 \toprule
-Month & Hour & $R_t^{AC}$ MW & Loss MW & $V_{\min}$ & Max load frac.\\
+Month & Hour & $\widehat R_t^{\mathrm{AC}}$ MW & Loss MW & $V_{\min}$ & Max load frac.\\
 \midrule
 \endfirsthead
 \toprule
-Month & Hour & $R_t^{AC}$ MW & Loss MW & $V_{\min}$ & Max load frac.\\
+Month & Hour & $\widehat R_t^{\mathrm{AC}}$ MW & Loss MW & $V_{\min}$ & Max load frac.\\
 \midrule
 \endhead
 3 & 00 & 39.347959 & 39.347959 & 0.991926 & 0.811155\\
@@ -220,7 +230,7 @@ The independent-system extension uses PyPSA-GB \cite{Lyden2024} at pinned source
 \end{center}
 Two Historical-2020 Reduced-network scenarios cover Jan. 1--7 and Jul. 1--7 at 60-min resolution. Both are solved with HiGHS in LP mode and terminate optimally with zero load shedding. The returned solved-network diagnostics report 35 buses, 99 lines, 7 links, and 74 storage units in each week. The weather cutout \texttt{uk-2020.nc} is verified at 766,913,074 bytes with MD5 \texttt{9d08ab99530454944a8efffcd547b720}.
 
-The primary operating-law state is defined on the 2685 generator coordinates common to both weeks after removing the \texttt{EU\_import} carrier. This exclusion is deliberate because the historical PyPSA-GB workflow represents fixed interconnector supply as generator injections; storage units and links are also kept outside the state vector. On that primary internal-generation universe,
+The primary operating-law state is defined on the 2685 generator coordinates common to both weeks after removing the \texttt{EU\_import} carrier. This exclusion is deliberate because the historical PyPSA-GB workflow represents fixed interconnector supply as generator injections; storage units and links are also kept outside the state vector. Write $M$ for the $L_1$ difference between the source and target mean vectors, $W_1$ for the first Wasserstein distance between the empirical operating laws with full-coordinate $L_1$ ground cost, and $G_{\rm shape}=W_1-M$ for the shape gap. On that primary internal-generation universe,
 \[
 M=16785.255046\ {\rm MW},\quad
 W_1=18651.979268\ {\rm MW},
@@ -236,6 +246,7 @@ When transport assignments are restricted to source and target hours with the sa
 \begin{table}[t]
 \centering
 \caption{PyPSA-GB January--July internal-generation replication.}
+\label{tab:supp-gb}
 \begin{tabular}{lr}
 \toprule
 Quantity & Value\\
@@ -247,20 +258,23 @@ Shape gap (MW) & 1866.724\\
 Shape share & 10.01\%\\
 Clock-hour $W_1$ (MW) & 19888.552\\
 Clock-hour premium (MW) & 1236.573\\
-Clock-hour premium & 6.63\%\\
+Clock-hour premium / full $W_1$ & 6.63\%\\
 Load shedding, Jan./Jul. (MWh) & 0 / 0\\
 \bottomrule
 \end{tabular}
 \end{table}
 
+Table~\ref{tab:supp-gb} summarizes the internal-generation comparison; each percentage uses full empirical $W_1$ as its denominator.
+
 Twenty-one internal generator coordinates appear in July but not January. In the primary comparison they are excluded to keep the state dimension fixed. A union-universe sensitivity zero-pads those coordinates in January. This changes $M$ from 16785.255046 to 16797.652710 MW and full $W_1$ from 18651.979268 to 18664.376932 MW, while leaving $G_{\rm shape}$ equal to 1866.724221 MW to numerical precision. The July-only coordinates contribute 12.397664 MW to the target mean. Thus the shape result is not an artifact of the common-coordinate intersection.
 
-The first Colab attempt stopped on a non-scientific text-encoding error in \texttt{nominatim\_cache\_failures.txt}. The successful rerun normalizes only that geocoding failure-cache text from CP1252 to UTF-8 and records before/after SHA-256 values. The run manifest explicitly marks \texttt{scientific\_inputs\_changed=false}. No capacity, topology, time-series, or optimization input is modified by that compatibility normalization.
+The geocoding failure-cache text in \texttt{nominatim\_cache\_failures.txt} was normalized from CP1252 to UTF-8 without changing capacity, topology, time-series, or optimization inputs. The run manifest records before/after SHA-256 values for that compatibility change.
 
-This GB extension replicates the distributional mean--shape and clock-hour-conditioning diagnostic on an independently developed system model. It does not replicate the RTS minimum-up/down rejection because the GB scenarios are solved in LP mode without unit-commitment chronology. A direct metadata audit confirms why: all 2692 January and 2713 July generator rows are noncommittable, all minimum up/down times are zero, and all ramp-limit fields are null. The chronology workstream is therefore held; supplying missing UC parameters would be model imputation rather than reproduction.
+This GB extension replicates the distributional diagnostic on an independently developed model. Its LP extracts alone do not establish absence of chronology parameters upstream. The pinned source contains a thermal-fuel route with unresolved unit/carrier-mapping issues and an explicit wholesale overlay for combined-cycle gas turbines (CCGT), open-cycle gas turbines (OCGT), coal and oil. The overlay parameters are source-defined optional assumptions; the original network experiment remains unevaluated because the full time-dependent network and eligibility flags were not archived. The detailed parameter-admission table records each source, unit, code path and limitation.
 
 \FloatBarrier
 \section{Elexon operational-data evidence}
+The record identifiers refer to balancing mechanism units (BMUs), the Dispute Final (DF) settlement run, and Physical Notifications (PNs). Dynamic-parameter codes identify Minimum Non-Zero Time (MNZT), Minimum Zero Time (MZT), Run Up Rate Export (RURE), and Run Down Rate Export (RDRE).
 The operational-data extension uses public Elexon Insights API records \cite{ElexonInsights}. The comparison dates are Wednesday Jan. 11 and Wednesday Jul. 12, 2023. B1610 quantities are settlement-period metered energy in MWh; the released analysis converts each 30-min quantity to average MW by multiplying by two. Both raw files contain 48 settlement periods, no duplicate BMU/period rows in the selected state, and only the DF settlement-run type.
 
 The acquisition-date BMU reference table identifies transmission-connected production BMUs. Of these, 260 have complete B1610 records on both days. Equal-weight L1 transport on the resulting $48\times260$ states gives
@@ -275,15 +289,36 @@ Restricting assignments to the same settlement-period number gives 21016.487667 
 
 Physical Notification segments are integrated piecewise linearly over complete 1800-s settlement periods. For 249 complete January coordinates, the mean period-level L1 PN-to-B1610 discrepancy is 3461.403181 MW; for 252 July coordinates it is 3141.137250 MW. These are descriptive differences, not inferred balancing volumes, feasibility repairs, or causal effects. A deterministic twelve-BMU sample additionally freezes effective MNZT, MZT, RURE, and RDRE snapshots. It demonstrates that nonzero temporal parameters exist in the public data model but is not used as a system-wide chronology calibration.
 
-The archive includes all used raw responses, a SHA-256 file register, exact acquisition endpoint code, and derived tables. The registry was acquired on Sep. 20, 2026 and is not asserted to reproduce historical 2023 registration state.
+The local acquisition records retain raw responses with SHA-256 hashes. The public baseline bundle contains acquisition code and derived tables, but excludes raw third-party responses; the new candidate adds the sensitivity acquisition register and derived results. The registry was acquired on Sep. 20, 2026 and is not asserted to reproduce historical 2023 registration state.
 
-\section{V8 network solve and clean-room audit}
+\section{Network repair bounds and independent numerical verification}
 A warm-started HiGHS 1.12.0 run re-tested the July network/minimum-up/down/native-ramp MIP for 600 s. The verified 11.9262964643-MW witness was accepted with zero bound and integrality violation. At the time limit, the primal objective was 11.926296464290 MW, the dual bound was 8.020508464288 MW, and the maximum primal infeasibility was $7.951\times10^{-12}$. The run therefore leaves the published bracket unchanged and does not convert the upper endpoint into an optimum.
 
-Separately, a clean-room arithmetic script imports no DSC-Grid analysis module. It reads released CSV/ZIP artifacts, reconstructs L1 assignment, and rechecks all seven RTS mean/full-$W_1$ pairs, six GB quantities, two chronological repair sums, and four AC summary claims. All 26 claims pass their declared tolerances. This validates the mapping from released artifacts to reported numbers; it does not replace the solver-status evidence used for exactness, lower bounds, or feasible witnesses.
+Separately, an independent arithmetic script imports none of the primary analysis modules. It reads released CSV/ZIP artifacts, reconstructs $L_1$ assignment, and rechecks all seven RTS mean/full-$W_1$ pairs, six GB quantities, two chronological repair sums, and four AC summary claims. All 26 claims pass their declared tolerances. This validates the mapping from released artifacts to reported numbers; it does not replace the solver-status evidence used for exactness, lower bounds, or feasible witnesses.
+
+\section{Eight-week chronology and independent explanation}
+The fixed seasonal protocol includes all eight archived weeks: January, February, March, April, May, June, July and October. The same 41 target coordinate means and native hourly inputs are used. All eight no-network minimum-up/down models terminate Infeasible with HiGHS 1.12.0, a 60-s limit, one thread and seed zero. Every archived static schedule itself passes native online-to-online ramps. For every thermal unit, let $r_g$ be its native ramp rate in MW/min and $P_g^{\max}$ its constant available maximum. Then $60r_g\ge P_g^{\max}-P_g^{\min}$, so this on/on-only family is redundant at hourly resolution; the smallest slack is 30 MW. This does not address startup/shutdown limits or a finer time grid. A May ramp search timed out without an incumbent, but its original schedule is a directly verified witness. Both records are retained.
+
+An exploratory independent check explains the rejection without an optimization solver. For thermal unit $g$ with $P_g^{\min}>0$, let $\Delta t=1$ h and $E_g=\Delta t\sum_t p^{\mathrm{target}}_{g,t}$ MWh. Propagate necessary lower and upper hourly generation bounds using aggregate balance, each coordinate's fixed energy, generator availability, fixed hydro and the thermal off-or-online-output gap. A positive necessary lower bound forces a unit on; an upper bound below its minimum online output forces it off. For each unit, a finite-state dynamic program stores the current status, remaining mandatory dwell and the reachable total online-hour counts. Both initial statuses start with no prior obligation, transitions add the native minimum dwell, and remaining terminal obligations are not extended beyond hour 167. Let $\mathcal N_g$ be the resulting reachable count set. Feasibility requires
+\[
+\mathcal N_g\cap\left[\left\lceil\frac{E_g}{P_g^{\max}\Delta t}\right\rceil,
+\left\lfloor\frac{E_g}{P_g^{\min}\Delta t}\right\rfloor\right]\ne\varnothing.
+\]
+The implementation widens power bounds by $10^{-5}$ MW and coordinate energy by $168\times10^{-5}$ MWh; it never infers feasibility from this necessary condition. Exhaustive enumeration of all binary schedules verifies the recurrence on 1125 short-horizon forced-status cases.
+
+Seven weeks fail this independent test. For example, January's \texttt{123\_STEAM\_3} target energy is 3228.521078 MWh, allowing at most 23 online hours at its 140-MW minimum output; the forced statuses and native 24-h up/48-h down times require at least 100 online hours. In July, \texttt{115\_STEAM\_3} is forced on at hour 2, off at hour 3 and on at hour 7, violating its eight-hour minimum downtime. June is not rejected by this single-unit test; its full mixed-integer result remains the evidence for rejection. The January source-week rejection also means that no chronologically feasible initial operating law is assumed.
+
+\section{Fixed eight-day Elexon sensitivity}
+The protocol selects every Wednesday of January and July 2023 before downloading additional dates: January 4, 11, 18, 25 and July 5, 12, 19, 26. Its four ordinal pairs are primary and its 16 cross-pairs reuse days; they are descriptive comparisons, not independent samples for significance testing. Each vector retains signed B1610 average-MW values. The acquisition-date production classification includes pumped-storage-coded units and station-demand names; no negative value is clipped. A duplicated registry identifier with consistent classification is represented once as a coordinate, with its two Energy Identification Code (EIC) aliases retained in diagnostics.
+
+Pairwise complete intersections have 259--260 coordinates; the common intersection of all days has 259. Primary shape shares are 6.4889\%, 5.8873\%, 6.5885\% and 13.5601\% in ordinal order; same-period premiums range from 1.15345\% to 2.46693\%. Over all 16 cross-pairs, shape shares range from 3.46077\% to 13.56012\% and same-period premiums from 0.74634\% to 9.35493\%. The fixed-coordinate sensitivity gives primary shape shares of 5.89130--13.56628\%. All 32 independent transportation-program checks agree with assignment results within $1.1\times10^{-11}$ MW. Original-date quantities, run types and keys are unchanged on reacquisition despite different raw byte hashes. Numerical reproducibility is asserted within declared tolerances; byte identity requires the locked serialization environment. Two months and one weekday cannot establish annual, causal or weather-adjusted robustness.
 
 \section{Evidence and claim ledger}
-\begingroup
+Table~\ref{tab:supp-ledger} links each central claim to its evidence and scope.
+\begin{table}[t]
+\centering
+\caption{Evidence supporting the central claims and the limits of each inference.}
+\label{tab:supp-ledger}
 \footnotesize
 \setlength{\tabcolsep}{3pt}
 \begin{tabularx}{0.97\linewidth}{@{}>{\raggedright\arraybackslash}p{0.17\linewidth}>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}p{0.19\linewidth}@{}}
@@ -291,18 +326,18 @@ Separately, a clean-room arithmetic script imports no DSC-Grid analysis module. 
 Claim & Evidence & Boundary\\
 \midrule
 Static shared mean target admitted & Retained LP witness and analytic equality & Declared convex support only\\
-Native ramp preserves March/July exact mean & Source-native hourly ramp admission MILP & Not startup/shutdown or min-up/down\\
-Native min-up/down rejects exact means & Two independent no-network relaxed MILP formulations & Rejection transfers to stricter network chronology; repair values do not\\
-July repair & Exact no-network relaxation plus verified network/native-ramp feasible schedule & 8.020508-MW exact relaxed value; stricter network repair bracket 8.020508--11.926296 MW\\
+Native hourly ramp control admits all eight weeks & Analytic redundancy plus direct archived-schedule checks & Not evidence about binding or startup/shutdown ramps\\
+Native min-up/down rejects eight weekly means & No-network mixed-integer solves; independent necessary-condition rejection for seven weeks & Rejection transfers to stricter network chronology; repair values do not\\
+July repair & Exact no-network relaxation plus verified network/native-ramp feasible schedule & 8.020508-MW exact relaxed value (rounded); outward-rounded network repair bracket 8.020508--11.926297 MW\\
 March 40.018759-MW repair statement & LP relaxation only & Lower bound, not exact integer repair\\
-Shared AC restoration & 48/48 successful direct AC NLP witnesses & Local nonconvex projection; no N-1 or trajectory claim\\
+Shared AC restoration & 48/48 successful direct AC NLP witnesses & Local nonconvex projection; no single-contingency or trajectory claim\\
 Fixed AC supporting witnesses & Common PYPOWER/CasADi witnesses plus bounded-search records & Counts are solver-budget dependent; nonreturns are not infeasibility\\
 GB replication & PyPSA-GB Jan./Jul. 2020 Reduced-network LP: nonzero shape gap and clock-hour premium, zero load shedding & Distributional diagnostic only; no GB min-up/down chronology claim\\
 Elexon operational evidence & Raw B1610/PN/dynamic responses, exact hashes, and derived transport tables & Matched-day observational evidence; not a field experiment or causal redispatch estimate\\
 Clean-room reproduction & 26/26 central numerical claims independently recomputed & Arithmetic artifact audit; solver certificates remain separate\\
 \bottomrule
 \end{tabularx}
-\endgroup
+\end{table}
 
 \section{Reproducibility notes}
 Chronology uses SciPy's mixed-integer interface with HiGHS \cite{Virtanen2020,Huangfu2018}. The reproducibility materials include the exact no-network July repair, network witness, warm-started MIP log, independent verifier, clean-room audit, PyPSA-GB parameter gate, and SHA-256 records. They also include the AC projection code, full result CSV files, per-generator correction records, solver logs, Elexon acquisition and analysis code, and environment metadata. The failed diagnostic PYPOWER branch is retained so that nonlinear solver nonconvergence is not silently omitted. Public upstream data remain subject to their source licences and attribution requirements.

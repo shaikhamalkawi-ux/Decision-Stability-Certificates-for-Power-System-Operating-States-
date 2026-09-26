@@ -1,0 +1,196 @@
+[
+  {
+    "month": 1,
+    "archived_ramp_witness": "PASS",
+    "ramp_source_unit": "MW/min multiplied by60 for consecutive one-hour snapshots",
+    "archived_residuals": {
+      "balance_MW": 2.114575181622058e-11,
+      "negative_MW": 8.121503469737945e-12,
+      "upper_MW": 1.5916157281026244e-12,
+      "conditional_lower_MW": 1.4279066817834973e-10,
+      "conditional_upper_MW": 2.6945556896862396e-11,
+      "hydro_fixed_MW": 0.0,
+      "on_on_ramp_excess_MW": 0.0
+    },
+    "mean_identity": "witness is the original target dispatch, so its complete coordinate mean is identical by construction",
+    "propagation_iterations": 3,
+    "power_tolerance_MW": 1e-05,
+    "coordinate_energy_tolerance_MWh": 0.00168,
+    "residence_certificate": "INFEASIBLE_NECESSARY_CONDITION",
+    "failing_units": [
+      "123_STEAM_3"
+    ],
+    "dispatch_sha256": "f5d9f2b20a52b7f93463963a55cff7cbf49eed9347c8ca94cecd72af442b2317",
+    "summary_sha256": "f98b9f3d4e0641f8627ffa7944068ca1f564473dc972f4c6f35af8b32642184d"
+  },
+  {
+    "month": 2,
+    "archived_ramp_witness": "PASS",
+    "ramp_source_unit": "MW/min multiplied by60 for consecutive one-hour snapshots",
+    "archived_residuals": {
+      "balance_MW": 9.663381206337363e-12,
+      "negative_MW": 8.125056183416746e-12,
+      "upper_MW": 2.1600499167107046e-12,
+      "conditional_lower_MW": 1.1050360626541078e-10,
+      "conditional_upper_MW": 2.3426593998010503e-11,
+      "hydro_fixed_MW": 0.0,
+      "on_on_ramp_excess_MW": 0.0
+    },
+    "mean_identity": "witness is the original target dispatch, so its complete coordinate mean is identical by construction",
+    "propagation_iterations": 3,
+    "power_tolerance_MW": 1e-05,
+    "coordinate_energy_tolerance_MWh": 0.00168,
+    "residence_certificate": "INFEASIBLE_NECESSARY_CONDITION",
+    "failing_units": [
+      "123_STEAM_3"
+    ],
+    "dispatch_sha256": "1676a4eba451ce0c535f92d346e9e40da385d6ff0eb55079865f6ba8baecfd63",
+    "summary_sha256": "446ca5beb72acd0e4e77103d60458563c8c14f5a30bfc7f9a25a840f3b597655"
+  },
+  {
+    "month": 3,
+    "archived_ramp_witness": "PASS",
+    "ramp_source_unit": "MW/min multiplied by60 for consecutive one-hour snapshots",
+    "archived_residuals": {
+      "balance_MW": 8.640199666842818e-12,
+      "negative_MW": 5.3195719145209817e-11,
+      "upper_MW": 1.8189894035458565e-12,
+      "conditional_lower_MW": 1.6757439880166203e-10,
+      "conditional_upper_MW": 2.494182638201892e-11,
+      "hydro_fixed_MW": 0.0,
+      "on_on_ramp_excess_MW": 0.0
+    },
+    "mean_identity": "witness is the original target dispatch, so its complete coordinate mean is identical by construction",
+    "propagation_iterations": 3,
+    "power_tolerance_MW": 1e-05,
+    "coordinate_energy_tolerance_MWh": 0.00168,
+    "residence_certificate": "INFEASIBLE_NECESSARY_CONDITION",
+    "failing_units": [
+      "123_STEAM_3"
+    ],
+    "dispatch_sha256": "aaa0a82e82c512a54ec6f89afa4e00656aa7cf660d9f9929ad9c0493479f5dc8",
+    "summary_sha256": "7d98b0626e1bd14c30c562d5de715a1c06cc62250b438dee9aa6921fc0a54287"
+  },
+  {
+    "month": 4,
+    "archived_ramp_witness": "PASS",
+    "ramp_source_unit": "MW/min multiplied by60 for consecutive one-hour snapshots",
+    "archived_residuals": {
+      "balance_MW": 8.185452315956354e-12,
+      "negative_MW": 7.672085189369682e-12,
+      "upper_MW": 1.9895196601282805e-12,
+      "conditional_lower_MW": 1.318767317570746e-11,
+      "conditional_upper_MW": 4.275690912436403e-12,
+      "hydro_fixed_MW": 0.0,
+      "on_on_ramp_excess_MW": 0.0
+    },
+    "mean_identity": "witness is the original target dispatch, so its complete coordinate mean is identical by construction",
+    "propagation_iterations": 3,
+    "power_tolerance_MW": 1e-05,
+    "coordinate_energy_tolerance_MWh": 0.00168,
+    "residence_certificate": "INFEASIBLE_NECESSARY_CONDITION",
+    "failing_units": [
+      "123_STEAM_3"
+    ],
+    "dispatch_sha256": "360bd259f073b0d4a3bd7439875e2cb7cbf727fabe3576de7c9c8e3e4ef7b748",
+    "summary_sha256": "85cd89ae3f7a668f89d82655e564ef9814e714930efa4eaca41e8d6f534aef09"
+  },
+  {
+    "month": 5,
+    "archived_ramp_witness": "PASS",
+    "ramp_source_unit": "MW/min multiplied by60 for consecutive one-hour snapshots",
+    "archived_residuals": {
+      "balance_MW": 3.637978807091713e-11,
+      "negative_MW": 2.2065940186166703e-09,
+      "upper_MW": 7.011635716480669e-11,
+      "conditional_lower_MW": 2.2065940186166703e-09,
+      "conditional_upper_MW": 2.210661875778896e-09,
+      "hydro_fixed_MW": 0.0,
+      "on_on_ramp_excess_MW": 0.0
+    },
+    "mean_identity": "witness is the original target dispatch, so its complete coordinate mean is identical by construction",
+    "propagation_iterations": 3,
+    "power_tolerance_MW": 1e-05,
+    "coordinate_energy_tolerance_MWh": 0.00168,
+    "residence_certificate": "INFEASIBLE_NECESSARY_CONDITION",
+    "failing_units": [
+      "123_STEAM_3"
+    ],
+    "dispatch_sha256": "864cd1ec8eb9fd8bada370a70d1d1d0357aeee8fde76a92078d0a2fa4a557b16",
+    "summary_sha256": "fca9c2e5c4b3f9817dfb9f96d5942cf8c0a70c2165b6ee055b9f965f1ad5ab98"
+  },
+  {
+    "month": 6,
+    "archived_ramp_witness": "PASS",
+    "ramp_source_unit": "MW/min multiplied by60 for consecutive one-hour snapshots",
+    "archived_residuals": {
+      "balance_MW": 3.660716174636036e-11,
+      "negative_MW": 2.143698552004025e-09,
+      "upper_MW": 2.580691216280684e-11,
+      "conditional_lower_MW": 2.143698552004025e-09,
+      "conditional_upper_MW": 2.271164589728869e-09,
+      "hydro_fixed_MW": 0.0,
+      "on_on_ramp_excess_MW": 0.0
+    },
+    "mean_identity": "witness is the original target dispatch, so its complete coordinate mean is identical by construction",
+    "propagation_iterations": 3,
+    "power_tolerance_MW": 1e-05,
+    "coordinate_energy_tolerance_MWh": 0.00168,
+    "residence_certificate": "NOT_ESTABLISHED",
+    "failing_units": [],
+    "dispatch_sha256": "aa60706b354904fa04b5563bb85ffcf000c40a1a8a10b1fe84c2f2b66e6ae348",
+    "summary_sha256": "e2b148dcf8477b32d04ceb822ff242429ffa0686809f4f53ab1d120fca7176f6"
+  },
+  {
+    "month": 7,
+    "archived_ramp_witness": "PASS",
+    "ramp_source_unit": "MW/min multiplied by60 for consecutive one-hour snapshots",
+    "archived_residuals": {
+      "balance_MW": 1.0163603292312473e-10,
+      "negative_MW": 2.621169059580097e-09,
+      "upper_MW": 1.5006662579253316e-11,
+      "conditional_lower_MW": 2.621169059580097e-09,
+      "conditional_upper_MW": 2.6485338366910582e-09,
+      "hydro_fixed_MW": 0.0,
+      "on_on_ramp_excess_MW": 0.0
+    },
+    "mean_identity": "witness is the original target dispatch, so its complete coordinate mean is identical by construction",
+    "propagation_iterations": 5,
+    "power_tolerance_MW": 1e-05,
+    "coordinate_energy_tolerance_MWh": 0.00168,
+    "residence_certificate": "INFEASIBLE_NECESSARY_CONDITION",
+    "failing_units": [
+      "115_STEAM_3",
+      "123_STEAM_3"
+    ],
+    "dispatch_sha256": "5b16ff77d70404dc131402ec7ee0fabae32f7ab8c560b9557188f65a480ed42e",
+    "summary_sha256": "ddc87cd598a5000e964476ddde86e9f76152daa29b43e6ac2cfbf53737ab9a03"
+  },
+  {
+    "month": 10,
+    "archived_ramp_witness": "PASS",
+    "ramp_source_unit": "MW/min multiplied by60 for consecutive one-hour snapshots",
+    "archived_residuals": {
+      "balance_MW": 3.774403012357652e-11,
+      "negative_MW": 2.261844045392536e-09,
+      "upper_MW": 2.2737367544323206e-12,
+      "conditional_lower_MW": 2.261844045392536e-09,
+      "conditional_upper_MW": 2.2429134105550474e-09,
+      "hydro_fixed_MW": 0.0,
+      "on_on_ramp_excess_MW": 0.0
+    },
+    "mean_identity": "witness is the original target dispatch, so its complete coordinate mean is identical by construction",
+    "propagation_iterations": 6,
+    "power_tolerance_MW": 1e-05,
+    "coordinate_energy_tolerance_MWh": 0.00168,
+    "residence_certificate": "INFEASIBLE_NECESSARY_CONDITION",
+    "failing_units": [
+      "101_STEAM_4",
+      "107_CC_1",
+      "123_STEAM_2",
+      "123_STEAM_3"
+    ],
+    "dispatch_sha256": "cbd2aaecafad94e93303cee3eb29cbdf4f416775575a89a55e11a4c650e5ff15",
+    "summary_sha256": "fd00c105d7f1a12c6174b105481cf0b2abe02dc8dd050ba1178b143dcdc0c113"
+  }
+]

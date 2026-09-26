@@ -26,6 +26,15 @@ status; the frozen archive bytes have been retained unchanged.
 
 ## Research status
 
+**Current development candidate: V8R1, pending independent scientific review.**
+The `codex/v8r1-evidence` branch adds an eight-week RTS chronology extension,
+an independently implemented residence-time explanation, an eight-day Elexon
+sensitivity, an upstream GB parameter-admission audit, and mathematical and
+editorial corrections. See [the decision report](CODEX_DECISION_REPORT_V8R1.md),
+[change log](CHANGELOG_V8_to_V8R1.md), and [current claim boundary](audits/CLAIM_BOUNDARY.md).
+The existing V8 GitHub/Zenodo release is an unchanged historical baseline;
+the new results are under `results/v8r1/` and are not in that old archive.
+
 **V8 is a pre-submission candidate with scientific and editorial corrections
 pending. V7 remains the last independently accepted scientific baseline.**
 The reproducibility snapshot preserves inspectable V8 outputs; it does not
@@ -35,8 +44,8 @@ submission. The journal target is IEEE Transactions on Power Systems.
 The independent review identified a necessary correction to the PyPSA-GB
 chronology interpretation: the pinned upstream repository contains chronology
 parameters. Inactive or absent attributes in the frozen solved LP extracts do
-not establish that suitable parameters are absent upstream. The admissibility
-of source-provided parameters for the specific experiment remains to be resolved.
+not establish that suitable parameters are absent upstream. The new audit recovers a source-defined optional wholesale parameter set;
+complete native networks are still needed for a matched chronology test.
 
 The saved-output verifier passes **26 of 26 arithmetic checks**. This establishes
 consistency of the selected archived calculations, not end-to-end regeneration,

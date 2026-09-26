@@ -1,0 +1,202 @@
+[
+  {
+    "month": 1,
+    "family": "ramp",
+    "evidence": "archived_static_schedule",
+    "verdict": "ADMITTED_RELAXATION",
+    "witness_verification": {
+      "pass": true,
+      "tolerance": 1e-05,
+      "residuals": {
+        "negative_dispatch_MW": 8.121503469737945e-12,
+        "availability_MW": 1.5916157281026244e-12,
+        "balance_MW": 2.114575181622058e-11,
+        "mean_MW": 0.0,
+        "hydro_fixed_MW": 0.0,
+        "binary": 0.0,
+        "status_lower": 0.0,
+        "status_upper": 0.0,
+        "commit_upper_MW": 2.6945556896862396e-11,
+        "commit_lower_MW": 1.4279066817834973e-10,
+        "commit_upper_rounded_MW": 2.6945556896862396e-11,
+        "commit_lower_rounded_MW": 1.4279066817834973e-10,
+        "online_ramp_MW": 0.0
+      }
+    }
+  },
+  {
+    "month": 2,
+    "family": "ramp",
+    "evidence": "archived_static_schedule",
+    "verdict": "ADMITTED_RELAXATION",
+    "witness_verification": {
+      "pass": true,
+      "tolerance": 1e-05,
+      "residuals": {
+        "negative_dispatch_MW": 8.125056183416746e-12,
+        "availability_MW": 2.1600499167107046e-12,
+        "balance_MW": 9.663381206337363e-12,
+        "mean_MW": 0.0,
+        "hydro_fixed_MW": 0.0,
+        "binary": 0.0,
+        "status_lower": 0.0,
+        "status_upper": 0.0,
+        "commit_upper_MW": 2.3426593998010503e-11,
+        "commit_lower_MW": 1.1050360626541078e-10,
+        "commit_upper_rounded_MW": 2.3426593998010503e-11,
+        "commit_lower_rounded_MW": 1.1050360626541078e-10,
+        "online_ramp_MW": 0.0
+      }
+    }
+  },
+  {
+    "month": 3,
+    "family": "ramp",
+    "evidence": "archived_static_schedule",
+    "verdict": "ADMITTED_RELAXATION",
+    "witness_verification": {
+      "pass": true,
+      "tolerance": 1e-05,
+      "residuals": {
+        "negative_dispatch_MW": 5.3195719145209817e-11,
+        "availability_MW": 1.8189894035458565e-12,
+        "balance_MW": 8.640199666842818e-12,
+        "mean_MW": 0.0,
+        "hydro_fixed_MW": 0.0,
+        "binary": 0.0,
+        "status_lower": 0.0,
+        "status_upper": 0.0,
+        "commit_upper_MW": 2.494182638201892e-11,
+        "commit_lower_MW": 1.6757439880166203e-10,
+        "commit_upper_rounded_MW": 2.494182638201892e-11,
+        "commit_lower_rounded_MW": 1.6757439880166203e-10,
+        "online_ramp_MW": 0.0
+      }
+    }
+  },
+  {
+    "month": 4,
+    "family": "ramp",
+    "evidence": "archived_static_schedule",
+    "verdict": "ADMITTED_RELAXATION",
+    "witness_verification": {
+      "pass": true,
+      "tolerance": 1e-05,
+      "residuals": {
+        "negative_dispatch_MW": 7.672085189369682e-12,
+        "availability_MW": 1.9895196601282805e-12,
+        "balance_MW": 8.185452315956354e-12,
+        "mean_MW": 0.0,
+        "hydro_fixed_MW": 0.0,
+        "binary": 0.0,
+        "status_lower": 0.0,
+        "status_upper": 0.0,
+        "commit_upper_MW": 4.275690912436403e-12,
+        "commit_lower_MW": 1.318767317570746e-11,
+        "commit_upper_rounded_MW": 4.275690912436403e-12,
+        "commit_lower_rounded_MW": 1.318767317570746e-11,
+        "online_ramp_MW": 0.0
+      }
+    }
+  },
+  {
+    "month": 5,
+    "family": "ramp",
+    "evidence": "archived_static_schedule",
+    "verdict": "ADMITTED_RELAXATION",
+    "witness_verification": {
+      "pass": true,
+      "tolerance": 1e-05,
+      "residuals": {
+        "negative_dispatch_MW": 2.2065940186166703e-09,
+        "availability_MW": 7.011635716480669e-11,
+        "balance_MW": 3.637978807091713e-11,
+        "mean_MW": 0.0,
+        "hydro_fixed_MW": 0.0,
+        "binary": 0.0,
+        "status_lower": 0.0,
+        "status_upper": 0.0,
+        "commit_upper_MW": 2.210661875778896e-09,
+        "commit_lower_MW": 2.2065940186166703e-09,
+        "commit_upper_rounded_MW": 2.210661875778896e-09,
+        "commit_lower_rounded_MW": 2.2065940186166703e-09,
+        "online_ramp_MW": 0.0
+      }
+    }
+  },
+  {
+    "month": 6,
+    "family": "ramp",
+    "evidence": "archived_static_schedule",
+    "verdict": "ADMITTED_RELAXATION",
+    "witness_verification": {
+      "pass": true,
+      "tolerance": 1e-05,
+      "residuals": {
+        "negative_dispatch_MW": 2.143698552004025e-09,
+        "availability_MW": 2.580691216280684e-11,
+        "balance_MW": 3.660716174636036e-11,
+        "mean_MW": 0.0,
+        "hydro_fixed_MW": 0.0,
+        "binary": 0.0,
+        "status_lower": 0.0,
+        "status_upper": 0.0,
+        "commit_upper_MW": 2.271164589728869e-09,
+        "commit_lower_MW": 2.143698552004025e-09,
+        "commit_upper_rounded_MW": 2.271164589728869e-09,
+        "commit_lower_rounded_MW": 2.143698552004025e-09,
+        "online_ramp_MW": 0.0
+      }
+    }
+  },
+  {
+    "month": 7,
+    "family": "ramp",
+    "evidence": "archived_static_schedule",
+    "verdict": "ADMITTED_RELAXATION",
+    "witness_verification": {
+      "pass": true,
+      "tolerance": 1e-05,
+      "residuals": {
+        "negative_dispatch_MW": 2.621169059580097e-09,
+        "availability_MW": 1.5006662579253316e-11,
+        "balance_MW": 1.0163603292312473e-10,
+        "mean_MW": 0.0,
+        "hydro_fixed_MW": 0.0,
+        "binary": 0.0,
+        "status_lower": 0.0,
+        "status_upper": 0.0,
+        "commit_upper_MW": 2.6485338366910582e-09,
+        "commit_lower_MW": 2.621169059580097e-09,
+        "commit_upper_rounded_MW": 2.6485338366910582e-09,
+        "commit_lower_rounded_MW": 2.621169059580097e-09,
+        "online_ramp_MW": 0.0
+      }
+    }
+  },
+  {
+    "month": 10,
+    "family": "ramp",
+    "evidence": "archived_static_schedule",
+    "verdict": "ADMITTED_RELAXATION",
+    "witness_verification": {
+      "pass": true,
+      "tolerance": 1e-05,
+      "residuals": {
+        "negative_dispatch_MW": 2.261844045392536e-09,
+        "availability_MW": 2.2737367544323206e-12,
+        "balance_MW": 3.774403012357652e-11,
+        "mean_MW": 0.0,
+        "hydro_fixed_MW": 0.0,
+        "binary": 0.0,
+        "status_lower": 0.0,
+        "status_upper": 0.0,
+        "commit_upper_MW": 2.2429134105550474e-09,
+        "commit_lower_MW": 2.261844045392536e-09,
+        "commit_upper_rounded_MW": 2.2429134105550474e-09,
+        "commit_lower_rounded_MW": 2.261844045392536e-09,
+        "online_ramp_MW": 0.0
+      }
+    }
+  }
+]

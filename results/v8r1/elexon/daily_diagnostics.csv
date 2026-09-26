@@ -1,0 +1,9 @@
+date,raw_rows,raw_unique_bmus,registered_transmission_production_rows,registered_transmission_production_observed_units,classification_registry_units,complete_coordinates,incomplete_coordinates,absent_classified_coordinates,duplicate_bmu_period_rows,nonfinite_or_nonnumeric_classified_values,negative_classified_values,negative_complete_coordinate_values,negative_classified_units,converted_average_power_min_MW,converted_average_power_max_MW,settlement_run_type_counts_all_rows,settlement_run_type_counts_classified_rows
+2023-01-04,252816,5267,12432,259,342,259,0,83,0,0,3145,3145,109,-295.8,658.416,{'DF': 252816},{'DF': 12432}
+2023-01-11,252912,5269,12480,260,342,260,0,82,0,0,3246,3246,95,-299.4,712.6,{'DF': 252912},{'DF': 12480}
+2023-01-18,253104,5273,12480,260,342,260,0,82,0,0,2422,2422,81,-291.6,898.2,{'DF': 253104},{'DF': 12480}
+2023-01-25,253344,5278,12480,260,342,260,0,82,0,0,2284,2284,99,-293.7,1233.2,{'DF': 253344},{'DF': 12480}
+2023-07-05,253488,5281,12864,268,342,268,0,74,0,0,3207,3207,134,-153.8,821.2,{'DF': 253488},{'DF': 12864}
+2023-07-12,253728,5286,12864,268,342,268,0,74,0,0,2809,2809,93,-155.3,820.18,{'DF': 253728},{'DF': 12864}
+2023-07-19,253920,5290,12864,268,342,268,0,74,0,0,3641,3641,144,-155.7,814.9,{'DF': 253920},{'DF': 12864}
+2023-07-26,253392,5279,12864,268,342,268,0,74,0,0,3298,3298,139,-155.3,812.9,{'DF': 253392},{'DF': 12864}

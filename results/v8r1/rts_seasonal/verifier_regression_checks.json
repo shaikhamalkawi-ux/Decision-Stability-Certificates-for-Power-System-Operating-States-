@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "case": "feasible_control",
+      "expected_pass": true,
+      "actual_pass": true
+    },
+    {
+      "case": "integer_status_2",
+      "expected_pass": false,
+      "actual_pass": false
+    },
+    {
+      "case": "rounded_off_has_output",
+      "expected_pass": false,
+      "actual_pass": false
+    },
+    {
+      "case": "nonfinite_dispatch",
+      "expected_pass": false,
+      "actual_pass": false
+    }
+  ]
+}
