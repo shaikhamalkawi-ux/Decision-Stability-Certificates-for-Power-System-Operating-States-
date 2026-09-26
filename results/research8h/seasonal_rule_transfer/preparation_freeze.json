@@ -1,0 +1,39 @@
+{
+  "utc": "2026-09-26T21:42:47.479838+00:00",
+  "script_sha256": "b5c544a6dcefff1d1bbb7f31178041ed9a5748ebef41b595d15d8d1d5925eaa0",
+  "protocol_sha256": "1d23f7f7b9c1a9e818edc49be0194641cc13fe98190ad432872abf0c65464c8b",
+  "case_order": [
+    {
+      "seed": 26093100,
+      "rule": "two_cc"
+    },
+    {
+      "seed": 26093100,
+      "rule": "locality48"
+    },
+    {
+      "seed": 26093101,
+      "rule": "two_cc"
+    },
+    {
+      "seed": 26093101,
+      "rule": "locality48"
+    }
+  ],
+  "two_units": [
+    "107_CC_1",
+    "118_CC_1"
+  ],
+  "window": [
+    60,
+    107
+  ],
+  "LP_seconds": 30,
+  "threads": 1,
+  "seed": 0,
+  "presolve": "off",
+  "solver": "simplex",
+  "coverage_denominator": 2,
+  "full_January_labels_already_known": true,
+  "scope": "Fixed-rule out-of-week evaluation; January adds DC+cap and removes July's named means; not blind or new-network."
+}

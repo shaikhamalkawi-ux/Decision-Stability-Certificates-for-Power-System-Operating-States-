@@ -1,0 +1,61 @@
+Running HiGHS 1.12.0 (git hash: 755a8e0): Copyright (c) 2025 HiGHS under MIT licence terms
+MIP has 34680 rows; 23016 cols; 141724 nonzeros; 4032 integer variables (4032 binary)
+Coefficient ranges:
+  Matrix  [1e+00, 2e+04]
+  Cost    [1e+00, 1e+00]
+  Bound   [9e-01, 7e+02]
+  RHS     [1e+00, 1e+03]
+Presolving model
+34680 rows, 20739 cols, 136426 nonzeros  0s
+29630 rows, 17666 cols, 132893 nonzeros  2s
+Presolve reductions: rows 29630(-5050); columns 17666(-5350); nonzeros 132893(-8831) 
+
+Solving MIP model with:
+   29630 rows
+   17666 cols (4032 binary, 0 integer, 0 implied int., 13634 continuous, 0 domain fixed)
+   132893 nonzeros
+
+Src: B => Branching; C => Central rounding; F => Feasibility pump; H => Heuristic;
+     I => Shifting; J => Feasibility jump; L => Sub-MIP; P => Empty MIP; R => Randomized rounding;
+     S => Solve LP; T => Evaluate node; U => Unbounded; X => User solution; Y => HiGHS solution;
+     Z => ZI Round; l => Trivial lower; p => Trivial point; u => Trivial upper; z => Trivial zero
+
+        Nodes      |    B&B Tree     |            Objective Bounds              |  Dynamic Constraints |       Work      
+Src  Proc. InQueue |  Leaves   Expl. | BestBound       BestSol              Gap |   Cuts   InLp Confl. | LpIters     Time
+
+         0       0         0   0.00%   -13075515.25895 inf                  inf        0      0      0         0    12.5s
+         0       0         0   0.00%   24509.560575    inf                  inf        0      0      0     14690    33.8s
+         0       0         0   0.00%   24509.560575    inf                  inf       27      3      0     14726    41.7s
+         0       0         0   0.00%   24509.560575    inf                  inf       27      4      0     14749    47.4s
+ C       0       0         0   0.00%   24509.560575    95883.118564      74.44%       29      6      2     14751   158.0s
+ L       0       0         0   0.00%   24509.560575    25162.618973       2.60%       29      6      2     14751   266.9s
+         0       0         0   0.00%   24509.560575    25162.618973       2.60%       29      4      2     30506   456.1s
+
+3.4% inactive integer columns, restarting
+Model after restart has 28504 rows, 16851 cols (3893 bin., 0 int., 38 impl., 12920 cont., 0 dom.fix.), and 121139 nonzeros
+
+         0       0         0   0.00%   24509.560575    25162.618973       2.60%        4      0      0     30506   458.3s
+         0       0         0   0.00%   24509.560575    25162.618973       2.60%        4      2      3     34271   463.6s
+         0       0         0   0.00%   24509.560575    25162.618973       2.60%      119     13      3     34641   469.3s
+        91      91         1   0.00%   24509.560575    25162.618973       2.60%      133     13     44     45372   600.2s
+        91      91         1   0.00%   24509.560575    25162.618973       2.60%      133     13     44     45372   600.2s
+
+Solving report
+  Status            Time limit reached
+  Primal bound      25162.6189726
+  Dual bound        24509.5605751
+  Gap               2.6% (tolerance: 0%)
+  P-D integral      89.6973488756
+  Solution status   feasible
+                    25162.6189726 (objective)
+                    0 (bound viol.)
+                    1.37667655054e-14 (int. viol.)
+                    0 (row viol.)
+  Timing            600.19
+  Max sub-MIP depth 5
+  Nodes             91
+  Repair LPs        0
+  LP iterations     45372
+                    7671 (strong br.)
+                    635 (separation)
+                    15755 (heuristics)

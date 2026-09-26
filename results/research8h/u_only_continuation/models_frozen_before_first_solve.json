@@ -1,0 +1,18 @@
+{
+  "frozen_at_utc": "2026-09-26T21:30:56.495561+00:00",
+  "cases": [
+    "seed_26092600",
+    "seed_26092601",
+    "seed_26092602",
+    "seed_26092603"
+  ],
+  "input_manifest_sha256": "fac74ad3290897f4bc69b4d0734e6006b417bbe34590579f396683888b4462be",
+  "seconds_per_case": 600,
+  "threads": 1,
+  "random_seed": 0,
+  "presolve": "on",
+  "mip_rel_gap": 1e-08,
+  "warm_start": false,
+  "objective": "zero",
+  "old_results_preserved": true
+}

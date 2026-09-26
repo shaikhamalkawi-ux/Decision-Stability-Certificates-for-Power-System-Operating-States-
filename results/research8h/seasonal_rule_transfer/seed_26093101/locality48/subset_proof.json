@@ -1,0 +1,26 @@
+{
+  "parent_matrix_sha256": "2f11940f72432a2a2e89e4a88115eba3cf24a8e82a8110e250c6191020c1f0bb",
+  "parent_bounds_sha256": "3f4c56b7b96cddb7195de8a66a1606df507bd00cc86e9ea47a3a514ce685ab82",
+  "exact_row_subset": true,
+  "column_bounds_unchanged": true,
+  "row_bounds_exact_indexed_copy": true,
+  "all_static_network_cap_rows_preserved": true,
+  "rows": 28689,
+  "columns": 23016,
+  "row_family_counts": {
+    "branch_flow": 6384,
+    "thermal_upper": 4032,
+    "thermal_lower": 4032,
+    "nodal_balance": 4032,
+    "transition": 4008,
+    "exclusive_transition": 4008,
+    "minimum_up": 1023,
+    "minimum_down": 1001,
+    "aggregate_balance": 168,
+    "fossil_energy_cap": 1
+  },
+  "zero_named_mean_rows": true,
+  "cap_MWh": 23195,
+  "parent_seed": 26093101,
+  "rule": "locality48"
+}

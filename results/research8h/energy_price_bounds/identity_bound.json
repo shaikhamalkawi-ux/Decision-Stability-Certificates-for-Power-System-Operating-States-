@@ -1,0 +1,4253 @@
+{
+  "point_check": {
+    "exact_binary_UYZ": true,
+    "exact_nominal_pass": false,
+    "exact_expanded_pass": true,
+    "maximum_exact_column_violation": {
+      "numerator": "12133",
+      "denominator": "562949953421312",
+      "approximate": 2.155253753244324e-11,
+      "outward_floor_6dp": 0.0,
+      "outward_ceiling_6dp": 1e-06
+    },
+    "maximum_exact_row_violation": {
+      "numerator": "8080919107015283899",
+      "denominator": "316912650057057350374175801344",
+      "approximate": 2.5498884647111388e-11,
+      "outward_floor_6dp": 0.0,
+      "outward_ceiling_6dp": 1e-06
+    },
+    "tau": {
+      "numerator": "5902958103587057",
+      "denominator": "590295810358705651712",
+      "approximate": 1e-05,
+      "outward_floor_6dp": 1e-05,
+      "outward_ceiling_6dp": 1.1e-05
+    },
+    "evaluated_rows": 34681,
+    "evaluated_columns": 23016
+  },
+  "E_reference_MWh": {
+    "numerator": "1654798412944827657145",
+    "denominator": "72057594037927936",
+    "approximate": 22964.941239556443,
+    "outward_floor_6dp": 22964.941239,
+    "outward_ceiling_6dp": 22964.94124
+  },
+  "lower_bound": {
+    "all_168_actual_row_supports_verified": true,
+    "fossil_count": 23,
+    "nonfossil_count": 18,
+    "native_net_equal_actual_row_bounds": true,
+    "hourly_bounds": [
+      {
+        "hour_0based": 0,
+        "aggregate_row": 0,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "-90539806212491670768099",
+          "denominator": "590295810358705651712",
+          "approximate": -153.38039780000005,
+          "outward_floor_6dp": -153.380398,
+          "outward_ceiling_6dp": -153.380397
+        },
+        "selected_lower_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        }
+      },
+      {
+        "hour_0based": 1,
+        "aggregate_row": 1,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "-88470762433638671895011",
+          "denominator": "590295810358705651712",
+          "approximate": -149.8753013,
+          "outward_floor_6dp": -149.875302,
+          "outward_ceiling_6dp": -149.875301
+        },
+        "selected_lower_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        }
+      },
+      {
+        "hour_0based": 2,
+        "aggregate_row": 2,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "-76508611866952347994595",
+          "denominator": "590295810358705651712",
+          "approximate": -129.61062999999996,
+          "outward_floor_6dp": -129.61063,
+          "outward_ceiling_6dp": -129.610629
+        },
+        "selected_lower_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        }
+      },
+      {
+        "hour_0based": 3,
+        "aggregate_row": 3,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "-58888443078501276371427",
+          "denominator": "590295810358705651712",
+          "approximate": -99.76090300000008,
+          "outward_floor_6dp": -99.760904,
+          "outward_ceiling_6dp": -99.760903
+        },
+        "selected_lower_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        }
+      },
+      {
+        "hour_0based": 4,
+        "aggregate_row": 4,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "9201696964994271229469",
+          "denominator": "590295810358705651712",
+          "approximate": 15.588281000000096,
+          "outward_floor_6dp": 15.588281,
+          "outward_ceiling_6dp": 15.588282
+        },
+        "selected_lower_bound": {
+          "numerator": "9201696964994271229469",
+          "denominator": "590295810358705651712",
+          "approximate": 15.588281000000096,
+          "outward_floor_6dp": 15.588281,
+          "outward_ceiling_6dp": 15.588282
+        }
+      },
+      {
+        "hour_0based": 5,
+        "aggregate_row": 5,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "107139220256038616774173",
+          "denominator": "590295810358705651712",
+          "approximate": 181.50089900000006,
+          "outward_floor_6dp": 181.500899,
+          "outward_ceiling_6dp": 181.5009
+        },
+        "selected_lower_bound": {
+          "numerator": "107139220256038616774173",
+          "denominator": "590295810358705651712",
+          "approximate": 181.50089900000006,
+          "outward_floor_6dp": 181.500899,
+          "outward_ceiling_6dp": 181.5009
+        }
+      },
+      {
+        "hour_0based": 6,
+        "aggregate_row": 6,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "181330991312534405854749",
+          "denominator": "590295810358705651712",
+          "approximate": 307.1866479999999,
+          "outward_floor_6dp": 307.186647,
+          "outward_ceiling_6dp": 307.186648
+        },
+        "selected_lower_bound": {
+          "numerator": "181330991312534405854749",
+          "denominator": "590295810358705651712",
+          "approximate": 307.1866479999999,
+          "outward_floor_6dp": 307.186647,
+          "outward_ceiling_6dp": 307.186648
+        }
+      },
+      {
+        "hour_0based": 7,
+        "aggregate_row": 7,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "98098872976960381728285",
+          "denominator": "590295810358705651712",
+          "approximate": 166.18595499999998,
+          "outward_floor_6dp": 166.185954,
+          "outward_ceiling_6dp": 166.185955
+        },
+        "selected_lower_bound": {
+          "numerator": "98098872976960381728285",
+          "denominator": "590295810358705651712",
+          "approximate": 166.18595499999998,
+          "outward_floor_6dp": 166.185954,
+          "outward_ceiling_6dp": 166.185955
+        }
+      },
+      {
+        "hour_0based": 8,
+        "aggregate_row": 8,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "59270698575231984809501",
+          "denominator": "590295810358705651712",
+          "approximate": 100.40846900000001,
+          "outward_floor_6dp": 100.408469,
+          "outward_ceiling_6dp": 100.40847
+        },
+        "selected_lower_bound": {
+          "numerator": "59270698575231984809501",
+          "denominator": "590295810358705651712",
+          "approximate": 100.40846900000001,
+          "outward_floor_6dp": 100.408469,
+          "outward_ceiling_6dp": 100.40847
+        }
+      },
+      {
+        "hour_0based": 9,
+        "aggregate_row": 9,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "96814038067612692198941",
+          "denominator": "590295810358705651712",
+          "approximate": 164.00936000000002,
+          "outward_floor_6dp": 164.00936,
+          "outward_ceiling_6dp": 164.009361
+        },
+        "selected_lower_bound": {
+          "numerator": "96814038067612692198941",
+          "denominator": "590295810358705651712",
+          "approximate": 164.00936000000002,
+          "outward_floor_6dp": 164.00936,
+          "outward_ceiling_6dp": 164.009361
+        }
+      },
+      {
+        "hour_0based": 10,
+        "aggregate_row": 10,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "171472145765771022120477",
+          "denominator": "590295810358705651712",
+          "approximate": 290.48511400000007,
+          "outward_floor_6dp": 290.485114,
+          "outward_ceiling_6dp": 290.485115
+        },
+        "selected_lower_bound": {
+          "numerator": "171472145765771022120477",
+          "denominator": "590295810358705651712",
+          "approximate": 290.48511400000007,
+          "outward_floor_6dp": 290.485114,
+          "outward_ceiling_6dp": 290.485115
+        }
+      },
+      {
+        "hour_0based": 11,
+        "aggregate_row": 11,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "204190306363696085415453",
+          "denominator": "590295810358705651712",
+          "approximate": 345.911834,
+          "outward_floor_6dp": 345.911834,
+          "outward_ceiling_6dp": 345.911835
+        },
+        "selected_lower_bound": {
+          "numerator": "204190306363696085415453",
+          "denominator": "590295810358705651712",
+          "approximate": 345.911834,
+          "outward_floor_6dp": 345.911834,
+          "outward_ceiling_6dp": 345.911835
+        }
+      },
+      {
+        "hour_0based": 12,
+        "aggregate_row": 12,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "197044514078259848623645",
+          "denominator": "590295810358705651712",
+          "approximate": 333.80639099999985,
+          "outward_floor_6dp": 333.80639,
+          "outward_ceiling_6dp": 333.806391
+        },
+        "selected_lower_bound": {
+          "numerator": "197044514078259848623645",
+          "denominator": "590295810358705651712",
+          "approximate": 333.80639099999985,
+          "outward_floor_6dp": 333.80639,
+          "outward_ceiling_6dp": 333.806391
+        }
+      },
+      {
+        "hour_0based": 13,
+        "aggregate_row": 13,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "204039884233821354931741",
+          "denominator": "590295810358705651712",
+          "approximate": 345.6570089999999,
+          "outward_floor_6dp": 345.657008,
+          "outward_ceiling_6dp": 345.657009
+        },
+        "selected_lower_bound": {
+          "numerator": "204039884233821354931741",
+          "denominator": "590295810358705651712",
+          "approximate": 345.6570089999999,
+          "outward_floor_6dp": 345.657008,
+          "outward_ceiling_6dp": 345.657009
+        }
+      },
+      {
+        "hour_0based": 14,
+        "aggregate_row": 14,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "234413042779065284507165",
+          "denominator": "590295810358705651712",
+          "approximate": 397.1111410000001,
+          "outward_floor_6dp": 397.111141,
+          "outward_ceiling_6dp": 397.111142
+        },
+        "selected_lower_bound": {
+          "numerator": "234413042779065284507165",
+          "denominator": "590295810358705651712",
+          "approximate": 397.1111410000001,
+          "outward_floor_6dp": 397.111141,
+          "outward_ceiling_6dp": 397.111142
+        }
+      },
+      {
+        "hour_0based": 15,
+        "aggregate_row": 15,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "273890864283404851951133",
+          "denominator": "590295810358705651712",
+          "approximate": 463.989172,
+          "outward_floor_6dp": 463.989171,
+          "outward_ceiling_6dp": 463.989172
+        },
+        "selected_lower_bound": {
+          "numerator": "273890864283404851951133",
+          "denominator": "590295810358705651712",
+          "approximate": 463.989172,
+          "outward_floor_6dp": 463.989171,
+          "outward_ceiling_6dp": 463.989172
+        }
+      },
+      {
+        "hour_0based": 16,
+        "aggregate_row": 16,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "409287490083804364813853",
+          "denominator": "590295810358705651712",
+          "approximate": 693.3599780000001,
+          "outward_floor_6dp": 693.359978,
+          "outward_ceiling_6dp": 693.359979
+        },
+        "selected_lower_bound": {
+          "numerator": "409287490083804364813853",
+          "denominator": "590295810358705651712",
+          "approximate": 693.3599780000001,
+          "outward_floor_6dp": 693.359978,
+          "outward_ceiling_6dp": 693.359979
+        }
+      },
+      {
+        "hour_0based": 17,
+        "aggregate_row": 17,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "309670647228378281621021",
+          "denominator": "590295810358705651712",
+          "approximate": 524.602482,
+          "outward_floor_6dp": 524.602481,
+          "outward_ceiling_6dp": 524.602482
+        },
+        "selected_lower_bound": {
+          "numerator": "309670647228378281621021",
+          "denominator": "590295810358705651712",
+          "approximate": 524.602482,
+          "outward_floor_6dp": 524.602481,
+          "outward_ceiling_6dp": 524.602482
+        }
+      },
+      {
+        "hour_0based": 18,
+        "aggregate_row": 18,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "318228797207665516164637",
+          "denominator": "590295810358705651712",
+          "approximate": 539.100552,
+          "outward_floor_6dp": 539.100551,
+          "outward_ceiling_6dp": 539.100552
+        },
+        "selected_lower_bound": {
+          "numerator": "318228797207665516164637",
+          "denominator": "590295810358705651712",
+          "approximate": 539.100552,
+          "outward_floor_6dp": 539.100551,
+          "outward_ceiling_6dp": 539.100552
+        }
+      },
+      {
+        "hour_0based": 19,
+        "aggregate_row": 19,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "280036454035106854549021",
+          "denominator": "590295810358705651712",
+          "approximate": 474.4002059999999,
+          "outward_floor_6dp": 474.400205,
+          "outward_ceiling_6dp": 474.400206
+        },
+        "selected_lower_bound": {
+          "numerator": "280036454035106854549021",
+          "denominator": "590295810358705651712",
+          "approximate": 474.4002059999999,
+          "outward_floor_6dp": 474.400205,
+          "outward_ceiling_6dp": 474.400206
+        }
+      },
+      {
+        "hour_0based": 20,
+        "aggregate_row": 20,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "218502219541685426140701",
+          "denominator": "590295810358705651712",
+          "approximate": 370.157158,
+          "outward_floor_6dp": 370.157157,
+          "outward_ceiling_6dp": 370.157158
+        },
+        "selected_lower_bound": {
+          "numerator": "218502219541685426140701",
+          "denominator": "590295810358705651712",
+          "approximate": 370.157158,
+          "outward_floor_6dp": 370.157157,
+          "outward_ceiling_6dp": 370.157158
+        }
+      },
+      {
+        "hour_0based": 21,
+        "aggregate_row": 21,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "187818988051993113605661",
+          "denominator": "590295810358705651712",
+          "approximate": 318.1777419999999,
+          "outward_floor_6dp": 318.177741,
+          "outward_ceiling_6dp": 318.177742
+        },
+        "selected_lower_bound": {
+          "numerator": "187818988051993113605661",
+          "denominator": "590295810358705651712",
+          "approximate": 318.1777419999999,
+          "outward_floor_6dp": 318.177741,
+          "outward_ceiling_6dp": 318.177742
+        }
+      },
+      {
+        "hour_0based": 22,
+        "aggregate_row": 22,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "27804952660158123554333",
+          "denominator": "590295810358705651712",
+          "approximate": 47.103422000000066,
+          "outward_floor_6dp": 47.103422,
+          "outward_ceiling_6dp": 47.103423
+        },
+        "selected_lower_bound": {
+          "numerator": "27804952660158123554333",
+          "denominator": "590295810358705651712",
+          "approximate": 47.103422000000066,
+          "outward_floor_6dp": 47.103422,
+          "outward_ceiling_6dp": 47.103423
+        }
+      },
+      {
+        "hour_0based": 23,
+        "aggregate_row": 23,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "-110431182521535351267",
+          "denominator": "590295810358705651712",
+          "approximate": -0.18707769999998733,
+          "outward_floor_6dp": -0.187078,
+          "outward_ceiling_6dp": -0.187077
+        },
+        "selected_lower_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        }
+      },
+      {
+        "hour_0based": 24,
+        "aggregate_row": 24,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "-44793020062546781063651",
+          "denominator": "590295810358705651712",
+          "approximate": -75.88232760000001,
+          "outward_floor_6dp": -75.882328,
+          "outward_ceiling_6dp": -75.882327
+        },
+        "selected_lower_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        }
+      },
+      {
+        "hour_0based": 25,
+        "aggregate_row": 25,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "-71219287095675278379491",
+          "denominator": "590295810358705651712",
+          "approximate": -120.65016529999998,
+          "outward_floor_6dp": -120.650166,
+          "outward_ceiling_6dp": -120.650165
+        },
+        "selected_lower_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        }
+      },
+      {
+        "hour_0based": 26,
+        "aggregate_row": 26,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "-59107123887317919517155",
+          "denominator": "590295810358705651712",
+          "approximate": -100.13136269999991,
+          "outward_floor_6dp": -100.131363,
+          "outward_ceiling_6dp": -100.131362
+        },
+        "selected_lower_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        }
+      },
+      {
+        "hour_0based": 27,
+        "aggregate_row": 27,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "-35027728373702127045091",
+          "denominator": "590295810358705651712",
+          "approximate": -59.33927999999999,
+          "outward_floor_6dp": -59.33928,
+          "outward_ceiling_6dp": -59.339279
+        },
+        "selected_lower_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        }
+      },
+      {
+        "hour_0based": 28,
+        "aggregate_row": 28,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "15722552520736500561437",
+          "denominator": "590295810358705651712",
+          "approximate": 26.635039999999933,
+          "outward_floor_6dp": 26.635039,
+          "outward_ceiling_6dp": 26.63504
+        },
+        "selected_lower_bound": {
+          "numerator": "15722552520736500561437",
+          "denominator": "590295810358705651712",
+          "approximate": 26.635039999999933,
+          "outward_floor_6dp": 26.635039,
+          "outward_ceiling_6dp": 26.63504
+        }
+      },
+      {
+        "hour_0based": 29,
+        "aggregate_row": 29,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "81476715544195250468381",
+          "denominator": "590295810358705651712",
+          "approximate": 138.02692499999995,
+          "outward_floor_6dp": 138.026924,
+          "outward_ceiling_6dp": 138.026925
+        },
+        "selected_lower_bound": {
+          "numerator": "81476715544195250468381",
+          "denominator": "590295810358705651712",
+          "approximate": 138.02692499999995,
+          "outward_floor_6dp": 138.026924,
+          "outward_ceiling_6dp": 138.026925
+        }
+      },
+      {
+        "hour_0based": 30,
+        "aggregate_row": 30,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "98938986106333514642973",
+          "denominator": "590295810358705651712",
+          "approximate": 167.6091619999999,
+          "outward_floor_6dp": 167.609161,
+          "outward_ceiling_6dp": 167.609162
+        },
+        "selected_lower_bound": {
+          "numerator": "98938986106333514642973",
+          "denominator": "590295810358705651712",
+          "approximate": 167.6091619999999,
+          "outward_floor_6dp": 167.609161,
+          "outward_ceiling_6dp": 167.609162
+        }
+      },
+      {
+        "hour_0based": 31,
+        "aggregate_row": 31,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "-45657959498934466955747",
+          "denominator": "590295810358705651712",
+          "approximate": -77.34759199999988,
+          "outward_floor_6dp": -77.347592,
+          "outward_ceiling_6dp": -77.347591
+        },
+        "selected_lower_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        }
+      },
+      {
+        "hour_0based": 32,
+        "aggregate_row": 32,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "-127096262133566506322403",
+          "denominator": "590295810358705651712",
+          "approximate": -215.30944299999993,
+          "outward_floor_6dp": -215.309443,
+          "outward_ceiling_6dp": -215.309442
+        },
+        "selected_lower_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        }
+      },
+      {
+        "hour_0based": 33,
+        "aggregate_row": 33,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "-173036522929959561906659",
+          "denominator": "590295810358705651712",
+          "approximate": -293.13527199999993,
+          "outward_floor_6dp": -293.135272,
+          "outward_ceiling_6dp": -293.135271
+        },
+        "selected_lower_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        }
+      },
+      {
+        "hour_0based": 34,
+        "aggregate_row": 34,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "-207544030099246605715939",
+          "denominator": "590295810358705651712",
+          "approximate": -351.59326300000015,
+          "outward_floor_6dp": -351.593264,
+          "outward_ceiling_6dp": -351.593263
+        },
+        "selected_lower_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        }
+      },
+      {
+        "hour_0based": 35,
+        "aggregate_row": 35,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "-213302992033150355425763",
+          "denominator": "590295810358705651712",
+          "approximate": -361.3493239999998,
+          "outward_floor_6dp": -361.349324,
+          "outward_ceiling_6dp": -361.349323
+        },
+        "selected_lower_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        }
+      },
+      {
+        "hour_0based": 36,
+        "aggregate_row": 36,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "-208113471348921091541475",
+          "denominator": "590295810358705651712",
+          "approximate": -352.55793400000005,
+          "outward_floor_6dp": -352.557935,
+          "outward_ceiling_6dp": -352.557934
+        },
+        "selected_lower_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        }
+      },
+      {
+        "hour_0based": 37,
+        "aggregate_row": 37,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "-197977499037772645714403",
+          "denominator": "590295810358705651712",
+          "approximate": -335.38692899999995,
+          "outward_floor_6dp": -335.386929,
+          "outward_ceiling_6dp": -335.386928
+        },
+        "selected_lower_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        }
+      },
+      {
+        "hour_0based": 38,
+        "aggregate_row": 38,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "-161419203282715981957603",
+          "denominator": "590295810358705651712",
+          "approximate": -273.4547669999999,
+          "outward_floor_6dp": -273.454767,
+          "outward_ceiling_6dp": -273.454766
+        },
+        "selected_lower_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        }
+      },
+      {
+        "hour_0based": 39,
+        "aggregate_row": 39,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "-96182490615138675116515",
+          "denominator": "590295810358705651712",
+          "approximate": -162.93947699999998,
+          "outward_floor_6dp": -162.939477,
+          "outward_ceiling_6dp": -162.939476
+        },
+        "selected_lower_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        }
+      },
+      {
+        "hour_0based": 40,
+        "aggregate_row": 40,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "18273471593015990498845",
+          "denominator": "590295810358705651712",
+          "approximate": 30.956465000000136,
+          "outward_floor_6dp": 30.956465,
+          "outward_ceiling_6dp": 30.956466
+        },
+        "selected_lower_bound": {
+          "numerator": "18273471593015990498845",
+          "denominator": "590295810358705651712",
+          "approximate": 30.956465000000136,
+          "outward_floor_6dp": 30.956465,
+          "outward_ceiling_6dp": 30.956466
+        }
+      },
+      {
+        "hour_0based": 41,
+        "aggregate_row": 41,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "78565690054581486040605",
+          "denominator": "590295810358705651712",
+          "approximate": 133.09545600000007,
+          "outward_floor_6dp": 133.095456,
+          "outward_ceiling_6dp": 133.095457
+        },
+        "selected_lower_bound": {
+          "numerator": "78565690054581486040605",
+          "denominator": "590295810358705651712",
+          "approximate": 133.09545600000007,
+          "outward_floor_6dp": 133.095456,
+          "outward_ceiling_6dp": 133.095457
+        }
+      },
+      {
+        "hour_0based": 42,
+        "aggregate_row": 42,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "71502059862397478188573",
+          "denominator": "590295810358705651712",
+          "approximate": 121.1292009999999,
+          "outward_floor_6dp": 121.1292,
+          "outward_ceiling_6dp": 121.129201
+        },
+        "selected_lower_bound": {
+          "numerator": "71502059862397478188573",
+          "denominator": "590295810358705651712",
+          "approximate": 121.1292009999999,
+          "outward_floor_6dp": 121.1292,
+          "outward_ceiling_6dp": 121.129201
+        }
+      },
+      {
+        "hour_0based": 43,
+        "aggregate_row": 43,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "52530227595316357445149",
+          "denominator": "590295810358705651712",
+          "approximate": 88.98966699999998,
+          "outward_floor_6dp": 88.989666,
+          "outward_ceiling_6dp": 88.989667
+        },
+        "selected_lower_bound": {
+          "numerator": "52530227595316357445149",
+          "denominator": "590295810358705651712",
+          "approximate": 88.98966699999998,
+          "outward_floor_6dp": 88.989666,
+          "outward_ceiling_6dp": 88.989667
+        }
+      },
+      {
+        "hour_0based": 44,
+        "aggregate_row": 44,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "23021979325847324014109",
+          "denominator": "590295810358705651712",
+          "approximate": 39.00075000000006,
+          "outward_floor_6dp": 39.00075,
+          "outward_ceiling_6dp": 39.000751
+        },
+        "selected_lower_bound": {
+          "numerator": "23021979325847324014109",
+          "denominator": "590295810358705651712",
+          "approximate": 39.00075000000006,
+          "outward_floor_6dp": 39.00075,
+          "outward_ceiling_6dp": 39.000751
+        }
+      },
+      {
+        "hour_0based": 45,
+        "aggregate_row": 45,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "-17849302142270689036771",
+          "denominator": "590295810358705651712",
+          "approximate": -30.23789400000008,
+          "outward_floor_6dp": -30.237895,
+          "outward_ceiling_6dp": -30.237894
+        },
+        "selected_lower_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        }
+      },
+      {
+        "hour_0based": 46,
+        "aggregate_row": 46,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "-64079307275995024771555",
+          "denominator": "590295810358705651712",
+          "approximate": -108.554569,
+          "outward_floor_6dp": -108.554569,
+          "outward_ceiling_6dp": -108.554568
+        },
+        "selected_lower_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        }
+      },
+      {
+        "hour_0based": 47,
+        "aggregate_row": 47,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "-77289373940191360764387",
+          "denominator": "590295810358705651712",
+          "approximate": -130.9332924,
+          "outward_floor_6dp": -130.933293,
+          "outward_ceiling_6dp": -130.933292
+        },
+        "selected_lower_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        }
+      },
+      {
+        "hour_0based": 48,
+        "aggregate_row": 48,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "-78150954652447699683811",
+          "denominator": "590295810358705651712",
+          "approximate": -132.3928668999999,
+          "outward_floor_6dp": -132.392867,
+          "outward_ceiling_6dp": -132.392866
+        },
+        "selected_lower_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        }
+      },
+      {
+        "hour_0based": 49,
+        "aggregate_row": 49,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "-103571849459194242583011",
+          "denominator": "590295810358705651712",
+          "approximate": -175.4575378,
+          "outward_floor_6dp": -175.457538,
+          "outward_ceiling_6dp": -175.457537
+        },
+        "selected_lower_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        }
+      },
+      {
+        "hour_0based": 50,
+        "aggregate_row": 50,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "-96070010456829789784547",
+          "denominator": "590295810358705651712",
+          "approximate": -162.74892819999997,
+          "outward_floor_6dp": -162.748929,
+          "outward_ceiling_6dp": -162.748928
+        },
+        "selected_lower_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        }
+      },
+      {
+        "hour_0based": 51,
+        "aggregate_row": 51,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "-73599455608051590023651",
+          "denominator": "590295810358705651712",
+          "approximate": -124.68232759999997,
+          "outward_floor_6dp": -124.682328,
+          "outward_ceiling_6dp": -124.682327
+        },
+        "selected_lower_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        }
+      },
+      {
+        "hour_0based": 52,
+        "aggregate_row": 52,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "-29965817247460192471523",
+          "denominator": "590295810358705651712",
+          "approximate": -50.76406899999991,
+          "outward_floor_6dp": -50.764069,
+          "outward_ceiling_6dp": -50.764068
+        },
+        "selected_lower_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        }
+      },
+      {
+        "hour_0based": 53,
+        "aggregate_row": 53,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "46338663835016211936797",
+          "denominator": "590295810358705651712",
+          "approximate": 78.50075000000008,
+          "outward_floor_6dp": 78.50075,
+          "outward_ceiling_6dp": 78.500751
+        },
+        "selected_lower_bound": {
+          "numerator": "46338663835016211936797",
+          "denominator": "590295810358705651712",
+          "approximate": 78.50075000000008,
+          "outward_floor_6dp": 78.50075,
+          "outward_ceiling_6dp": 78.500751
+        }
+      },
+      {
+        "hour_0based": 54,
+        "aggregate_row": 54,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "86067120218067562346013",
+          "denominator": "590295810358705651712",
+          "approximate": 145.8033729999999,
+          "outward_floor_6dp": 145.803372,
+          "outward_ceiling_6dp": 145.803373
+        },
+        "selected_lower_bound": {
+          "numerator": "86067120218067562346013",
+          "denominator": "590295810358705651712",
+          "approximate": 145.8033729999999,
+          "outward_floor_6dp": 145.803372,
+          "outward_ceiling_6dp": 145.803373
+        }
+      },
+      {
+        "hour_0based": 55,
+        "aggregate_row": 55,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "-63457087087620409838051",
+          "denominator": "590295810358705651712",
+          "approximate": -107.50048699999985,
+          "outward_floor_6dp": -107.500487,
+          "outward_ceiling_6dp": -107.500486
+        },
+        "selected_lower_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        }
+      },
+      {
+        "hour_0based": 56,
+        "aggregate_row": 56,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "-133572604662841290574307",
+          "denominator": "590295810358705651712",
+          "approximate": -226.28079399999993,
+          "outward_floor_6dp": -226.280794,
+          "outward_ceiling_6dp": -226.280793
+        },
+        "selected_lower_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        }
+      },
+      {
+        "hour_0based": 57,
+        "aggregate_row": 57,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "-166223118541490897340899",
+          "denominator": "590295810358705651712",
+          "approximate": -281.59291599999995,
+          "outward_floor_6dp": -281.592916,
+          "outward_ceiling_6dp": -281.592915
+        },
+        "selected_lower_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        }
+      },
+      {
+        "hour_0based": 58,
+        "aggregate_row": 58,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "-160039120012296292714979",
+          "denominator": "590295810358705651712",
+          "approximate": -271.11681500000003,
+          "outward_floor_6dp": -271.116816,
+          "outward_ceiling_6dp": -271.116815
+        },
+        "selected_lower_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        }
+      },
+      {
+        "hour_0based": 59,
+        "aggregate_row": 59,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "-199170854624797408676323",
+          "denominator": "590295810358705651712",
+          "approximate": -337.4085519999999,
+          "outward_floor_6dp": -337.408552,
+          "outward_ceiling_6dp": -337.408551
+        },
+        "selected_lower_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        }
+      },
+      {
+        "hour_0based": 60,
+        "aggregate_row": 60,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "-97237867507971227961827",
+          "denominator": "590295810358705651712",
+          "approximate": -164.72735500000007,
+          "outward_floor_6dp": -164.727356,
+          "outward_ceiling_6dp": -164.727355
+        },
+        "selected_lower_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        }
+      },
+      {
+        "hour_0based": 61,
+        "aggregate_row": 61,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "-74333455037489868753379",
+          "denominator": "590295810358705651712",
+          "approximate": -125.92577100000013,
+          "outward_floor_6dp": -125.925772,
+          "outward_ceiling_6dp": -125.925771
+        },
+        "selected_lower_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        }
+      },
+      {
+        "hour_0based": 62,
+        "aggregate_row": 62,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "-37973307418871033022947",
+          "denominator": "590295810358705651712",
+          "approximate": -64.32928499999984,
+          "outward_floor_6dp": -64.329285,
+          "outward_ceiling_6dp": -64.329284
+        },
+        "selected_lower_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        }
+      },
+      {
+        "hour_0based": 63,
+        "aggregate_row": 63,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "22106772895551039944221",
+          "denominator": "590295810358705651712",
+          "approximate": 37.45033000000016,
+          "outward_floor_6dp": 37.45033,
+          "outward_ceiling_6dp": 37.450331
+        },
+        "selected_lower_bound": {
+          "numerator": "22106772895551039944221",
+          "denominator": "590295810358705651712",
+          "approximate": 37.45033000000016,
+          "outward_floor_6dp": 37.45033,
+          "outward_ceiling_6dp": 37.450331
+        }
+      },
+      {
+        "hour_0based": 64,
+        "aggregate_row": 64,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "321269098070043784066589",
+          "denominator": "590295810358705651712",
+          "approximate": 544.251022,
+          "outward_floor_6dp": 544.251022,
+          "outward_ceiling_6dp": 544.251023
+        },
+        "selected_lower_bound": {
+          "numerator": "321269098070043784066589",
+          "denominator": "590295810358705651712",
+          "approximate": 544.251022,
+          "outward_floor_6dp": 544.251022,
+          "outward_ceiling_6dp": 544.251023
+        }
+      },
+      {
+        "hour_0based": 65,
+        "aggregate_row": 65,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "474344718587875685250589",
+          "denominator": "590295810358705651712",
+          "approximate": 803.5712100000001,
+          "outward_floor_6dp": 803.57121,
+          "outward_ceiling_6dp": 803.571211
+        },
+        "selected_lower_bound": {
+          "numerator": "474344718587875685250589",
+          "denominator": "590295810358705651712",
+          "approximate": 803.5712100000001,
+          "outward_floor_6dp": 803.57121,
+          "outward_ceiling_6dp": 803.571211
+        }
+      },
+      {
+        "hour_0based": 66,
+        "aggregate_row": 66,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "444799639401615013656093",
+          "denominator": "590295810358705651712",
+          "approximate": 753.519899,
+          "outward_floor_6dp": 753.519898,
+          "outward_ceiling_6dp": 753.519899
+        },
+        "selected_lower_bound": {
+          "numerator": "444799639401615013656093",
+          "denominator": "590295810358705651712",
+          "approximate": 753.519899,
+          "outward_floor_6dp": 753.519898,
+          "outward_ceiling_6dp": 753.519899
+        }
+      },
+      {
+        "hour_0based": 67,
+        "aggregate_row": 67,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "383622591132154196866589",
+          "denominator": "590295810358705651712",
+          "approximate": 649.881948,
+          "outward_floor_6dp": 649.881947,
+          "outward_ceiling_6dp": 649.881948
+        },
+        "selected_lower_bound": {
+          "numerator": "383622591132154196866589",
+          "denominator": "590295810358705651712",
+          "approximate": 649.881948,
+          "outward_floor_6dp": 649.881947,
+          "outward_ceiling_6dp": 649.881948
+        }
+      },
+      {
+        "hour_0based": 68,
+        "aggregate_row": 68,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "193314960215874550576669",
+          "denominator": "590295810358705651712",
+          "approximate": 327.4882810000001,
+          "outward_floor_6dp": 327.488281,
+          "outward_ceiling_6dp": 327.488282
+        },
+        "selected_lower_bound": {
+          "numerator": "193314960215874550576669",
+          "denominator": "590295810358705651712",
+          "approximate": 327.4882810000001,
+          "outward_floor_6dp": 327.488281,
+          "outward_ceiling_6dp": 327.488282
+        }
+      },
+      {
+        "hour_0based": 69,
+        "aggregate_row": 69,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "150936190161699646420509",
+          "denominator": "590295810358705651712",
+          "approximate": 255.69585199999997,
+          "outward_floor_6dp": 255.695851,
+          "outward_ceiling_6dp": 255.695852
+        },
+        "selected_lower_bound": {
+          "numerator": "150936190161699646420509",
+          "denominator": "590295810358705651712",
+          "approximate": 255.69585199999997,
+          "outward_floor_6dp": 255.695851,
+          "outward_ceiling_6dp": 255.695852
+        }
+      },
+      {
+        "hour_0based": 70,
+        "aggregate_row": 70,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "139979003041546710758941",
+          "denominator": "590295810358705651712",
+          "approximate": 237.13365499999998,
+          "outward_floor_6dp": 237.133654,
+          "outward_ceiling_6dp": 237.133655
+        },
+        "selected_lower_bound": {
+          "numerator": "139979003041546710758941",
+          "denominator": "590295810358705651712",
+          "approximate": 237.13365499999998,
+          "outward_floor_6dp": 237.133654,
+          "outward_ceiling_6dp": 237.133655
+        }
+      },
+      {
+        "hour_0based": 71,
+        "aggregate_row": 71,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "77028993041532174939677",
+          "denominator": "590295810358705651712",
+          "approximate": 130.49219,
+          "outward_floor_6dp": 130.492189,
+          "outward_ceiling_6dp": 130.49219
+        },
+        "selected_lower_bound": {
+          "numerator": "77028993041532174939677",
+          "denominator": "590295810358705651712",
+          "approximate": 130.49219,
+          "outward_floor_6dp": 130.492189,
+          "outward_ceiling_6dp": 130.49219
+        }
+      },
+      {
+        "hour_0based": 72,
+        "aggregate_row": 72,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "192465646972119374837277",
+          "denominator": "590295810358705651712",
+          "approximate": 326.0494884,
+          "outward_floor_6dp": 326.049488,
+          "outward_ceiling_6dp": 326.049489
+        },
+        "selected_lower_bound": {
+          "numerator": "192465646972119374837277",
+          "denominator": "590295810358705651712",
+          "approximate": 326.0494884,
+          "outward_floor_6dp": 326.049488,
+          "outward_ceiling_6dp": 326.049489
+        }
+      },
+      {
+        "hour_0based": 73,
+        "aggregate_row": 73,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "257931321630642486064669",
+          "denominator": "590295810358705651712",
+          "approximate": 436.95265509999996,
+          "outward_floor_6dp": 436.952655,
+          "outward_ceiling_6dp": 436.952656
+        },
+        "selected_lower_bound": {
+          "numerator": "257931321630642486064669",
+          "denominator": "590295810358705651712",
+          "approximate": 436.95265509999996,
+          "outward_floor_6dp": 436.952655,
+          "outward_ceiling_6dp": 436.952656
+        }
+      },
+      {
+        "hour_0based": 74,
+        "aggregate_row": 74,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "288333629632327231419933",
+          "denominator": "590295810358705651712",
+          "approximate": 488.4561682,
+          "outward_floor_6dp": 488.456168,
+          "outward_ceiling_6dp": 488.456169
+        },
+        "selected_lower_bound": {
+          "numerator": "288333629632327231419933",
+          "denominator": "590295810358705651712",
+          "approximate": 488.4561682,
+          "outward_floor_6dp": 488.456168,
+          "outward_ceiling_6dp": 488.456169
+        }
+      },
+      {
+        "hour_0based": 75,
+        "aggregate_row": 75,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "298509850436890824488477",
+          "denominator": "590295810358705651712",
+          "approximate": 505.69535680000007,
+          "outward_floor_6dp": 505.695356,
+          "outward_ceiling_6dp": 505.695357
+        },
+        "selected_lower_bound": {
+          "numerator": "298509850436890824488477",
+          "denominator": "590295810358705651712",
+          "approximate": 505.69535680000007,
+          "outward_floor_6dp": 505.695356,
+          "outward_ceiling_6dp": 505.695357
+        }
+      },
+      {
+        "hour_0based": 76,
+        "aggregate_row": 76,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "304574329353149294261789",
+          "denominator": "590295810358705651712",
+          "approximate": 515.9689837,
+          "outward_floor_6dp": 515.968983,
+          "outward_ceiling_6dp": 515.968984
+        },
+        "selected_lower_bound": {
+          "numerator": "304574329353149294261789",
+          "denominator": "590295810358705651712",
+          "approximate": 515.9689837,
+          "outward_floor_6dp": 515.968983,
+          "outward_ceiling_6dp": 515.968984
+        }
+      },
+      {
+        "hour_0based": 77,
+        "aggregate_row": 77,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "329078235862666289559069",
+          "denominator": "590295810358705651712",
+          "approximate": 557.480216,
+          "outward_floor_6dp": 557.480216,
+          "outward_ceiling_6dp": 557.480217
+        },
+        "selected_lower_bound": {
+          "numerator": "329078235862666289559069",
+          "denominator": "590295810358705651712",
+          "approximate": 557.480216,
+          "outward_floor_6dp": 557.480216,
+          "outward_ceiling_6dp": 557.480217
+        }
+      },
+      {
+        "hour_0based": 78,
+        "aggregate_row": 78,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "365976280503445573547549",
+          "denominator": "590295810358705651712",
+          "approximate": 619.9879350000001,
+          "outward_floor_6dp": 619.987935,
+          "outward_ceiling_6dp": 619.987936
+        },
+        "selected_lower_bound": {
+          "numerator": "365976280503445573547549",
+          "denominator": "590295810358705651712",
+          "approximate": 619.9879350000001,
+          "outward_floor_6dp": 619.987935,
+          "outward_ceiling_6dp": 619.987936
+        }
+      },
+      {
+        "hour_0based": 79,
+        "aggregate_row": 79,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "274995923423116237157917",
+          "denominator": "590295810358705651712",
+          "approximate": 465.8612150000001,
+          "outward_floor_6dp": 465.861215,
+          "outward_ceiling_6dp": 465.861216
+        },
+        "selected_lower_bound": {
+          "numerator": "274995923423116237157917",
+          "denominator": "590295810358705651712",
+          "approximate": 465.8612150000001,
+          "outward_floor_6dp": 465.861215,
+          "outward_ceiling_6dp": 465.861216
+        }
+      },
+      {
+        "hour_0based": 80,
+        "aggregate_row": 80,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "214907753104613173048861",
+          "denominator": "590295810358705651712",
+          "approximate": 364.067895,
+          "outward_floor_6dp": 364.067895,
+          "outward_ceiling_6dp": 364.067896
+        },
+        "selected_lower_bound": {
+          "numerator": "214907753104613173048861",
+          "denominator": "590295810358705651712",
+          "approximate": 364.067895,
+          "outward_floor_6dp": 364.067895,
+          "outward_ceiling_6dp": 364.067896
+        }
+      },
+      {
+        "hour_0based": 81,
+        "aggregate_row": 81,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "177627929335822195570205",
+          "denominator": "590295810358705651712",
+          "approximate": 300.91341700000015,
+          "outward_floor_6dp": 300.913417,
+          "outward_ceiling_6dp": 300.913418
+        },
+        "selected_lower_bound": {
+          "numerator": "177627929335822195570205",
+          "denominator": "590295810358705651712",
+          "approximate": 300.91341700000015,
+          "outward_floor_6dp": 300.913417,
+          "outward_ceiling_6dp": 300.913418
+        }
+      },
+      {
+        "hour_0based": 82,
+        "aggregate_row": 82,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "195413679640853673358877",
+          "denominator": "590295810358705651712",
+          "approximate": 331.0436499999999,
+          "outward_floor_6dp": 331.043649,
+          "outward_ceiling_6dp": 331.04365
+        },
+        "selected_lower_bound": {
+          "numerator": "195413679640853673358877",
+          "denominator": "590295810358705651712",
+          "approximate": 331.0436499999999,
+          "outward_floor_6dp": 331.043649,
+          "outward_ceiling_6dp": 331.04365
+        }
+      },
+      {
+        "hour_0based": 83,
+        "aggregate_row": 83,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "140656017438517804086813",
+          "denominator": "590295810358705651712",
+          "approximate": 238.280562,
+          "outward_floor_6dp": 238.280561,
+          "outward_ceiling_6dp": 238.280562
+        },
+        "selected_lower_bound": {
+          "numerator": "140656017438517804086813",
+          "denominator": "590295810358705651712",
+          "approximate": 238.280562,
+          "outward_floor_6dp": 238.280561,
+          "outward_ceiling_6dp": 238.280562
+        }
+      },
+      {
+        "hour_0based": 84,
+        "aggregate_row": 84,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "66331553786811459253789",
+          "denominator": "590295810358705651712",
+          "approximate": 112.37002300000012,
+          "outward_floor_6dp": 112.370023,
+          "outward_ceiling_6dp": 112.370024
+        },
+        "selected_lower_bound": {
+          "numerator": "66331553786811459253789",
+          "denominator": "590295810358705651712",
+          "approximate": 112.37002300000012,
+          "outward_floor_6dp": 112.370023,
+          "outward_ceiling_6dp": 112.370024
+        }
+      },
+      {
+        "hour_0based": 85,
+        "aggregate_row": 85,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "54370337835481628620317",
+          "denominator": "590295810358705651712",
+          "approximate": 92.10693500000001,
+          "outward_floor_6dp": 92.106935,
+          "outward_ceiling_6dp": 92.106936
+        },
+        "selected_lower_bound": {
+          "numerator": "54370337835481628620317",
+          "denominator": "590295810358705651712",
+          "approximate": 92.10693500000001,
+          "outward_floor_6dp": 92.106935,
+          "outward_ceiling_6dp": 92.106936
+        }
+      },
+      {
+        "hour_0based": 86,
+        "aggregate_row": 86,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "-52578294202562272348643",
+          "denominator": "590295810358705651712",
+          "approximate": -89.07109500000003,
+          "outward_floor_6dp": -89.071096,
+          "outward_ceiling_6dp": -89.071095
+        },
+        "selected_lower_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        }
+      },
+      {
+        "hour_0based": 87,
+        "aggregate_row": 87,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "18007181479117550728733",
+          "denominator": "590295810358705651712",
+          "approximate": 30.50535199999998,
+          "outward_floor_6dp": 30.505351,
+          "outward_ceiling_6dp": 30.505352
+        },
+        "selected_lower_bound": {
+          "numerator": "18007181479117550728733",
+          "denominator": "590295810358705651712",
+          "approximate": 30.50535199999998,
+          "outward_floor_6dp": 30.505351,
+          "outward_ceiling_6dp": 30.505352
+        }
+      },
+      {
+        "hour_0based": 88,
+        "aggregate_row": 88,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "171331684287400387753501",
+          "denominator": "590295810358705651712",
+          "approximate": 290.2471630000001,
+          "outward_floor_6dp": 290.247163,
+          "outward_ceiling_6dp": 290.247164
+        },
+        "selected_lower_bound": {
+          "numerator": "171331684287400387753501",
+          "denominator": "590295810358705651712",
+          "approximate": 290.2471630000001,
+          "outward_floor_6dp": 290.247163,
+          "outward_ceiling_6dp": 290.247164
+        }
+      },
+      {
+        "hour_0based": 89,
+        "aggregate_row": 89,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "413840128222025734895133",
+          "denominator": "590295810358705651712",
+          "approximate": 701.072447,
+          "outward_floor_6dp": 701.072447,
+          "outward_ceiling_6dp": 701.072448
+        },
+        "selected_lower_bound": {
+          "numerator": "413840128222025734895133",
+          "denominator": "590295810358705651712",
+          "approximate": 701.072447,
+          "outward_floor_6dp": 701.072447,
+          "outward_ceiling_6dp": 701.072448
+        }
+      },
+      {
+        "hour_0based": 90,
+        "aggregate_row": 90,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "118969116049916921067037",
+          "denominator": "590295810358705651712",
+          "approximate": 201.54152200000004,
+          "outward_floor_6dp": 201.541522,
+          "outward_ceiling_6dp": 201.541523
+        },
+        "selected_lower_bound": {
+          "numerator": "118969116049916921067037",
+          "denominator": "590295810358705651712",
+          "approximate": 201.54152200000004,
+          "outward_floor_6dp": 201.541522,
+          "outward_ceiling_6dp": 201.541523
+        }
+      },
+      {
+        "hour_0based": 91,
+        "aggregate_row": 91,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "83931277089574969357853",
+          "denominator": "590295810358705651712",
+          "approximate": 142.18511400000006,
+          "outward_floor_6dp": 142.185114,
+          "outward_ceiling_6dp": 142.185115
+        },
+        "selected_lower_bound": {
+          "numerator": "83931277089574969357853",
+          "denominator": "590295810358705651712",
+          "approximate": 142.18511400000006,
+          "outward_floor_6dp": 142.185114,
+          "outward_ceiling_6dp": 142.185115
+        }
+      },
+      {
+        "hour_0based": 92,
+        "aggregate_row": 92,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "69648718141643098633757",
+          "denominator": "590295810358705651712",
+          "approximate": 117.98951800000002,
+          "outward_floor_6dp": 117.989518,
+          "outward_ceiling_6dp": 117.989519
+        },
+        "selected_lower_bound": {
+          "numerator": "69648718141643098633757",
+          "denominator": "590295810358705651712",
+          "approximate": 117.98951800000002,
+          "outward_floor_6dp": 117.989518,
+          "outward_ceiling_6dp": 117.989519
+        }
+      },
+      {
+        "hour_0based": 93,
+        "aggregate_row": 93,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "-41539558306504143587811",
+          "denominator": "590295810358705651712",
+          "approximate": -70.37074900000012,
+          "outward_floor_6dp": -70.37075,
+          "outward_ceiling_6dp": -70.370749
+        },
+        "selected_lower_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        }
+      },
+      {
+        "hour_0based": 94,
+        "aggregate_row": 94,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "-80869849540144007268835",
+          "denominator": "590295810358705651712",
+          "approximate": -136.998854,
+          "outward_floor_6dp": -136.998855,
+          "outward_ceiling_6dp": -136.998854
+        },
+        "selected_lower_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        }
+      },
+      {
+        "hour_0based": 95,
+        "aggregate_row": 95,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "-29891628810984782612963",
+          "denominator": "590295810358705651712",
+          "approximate": -50.638388899999995,
+          "outward_floor_6dp": -50.638389,
+          "outward_ceiling_6dp": -50.638388
+        },
+        "selected_lower_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        }
+      },
+      {
+        "hour_0based": 96,
+        "aggregate_row": 96,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "-35093387921161620343267",
+          "denominator": "590295810358705651712",
+          "approximate": -59.450511599999984,
+          "outward_floor_6dp": -59.450512,
+          "outward_ceiling_6dp": -59.450511
+        },
+        "selected_lower_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        }
+      },
+      {
+        "hour_0based": 97,
+        "aggregate_row": 97,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "-62361111301779797101027",
+          "denominator": "590295810358705651712",
+          "approximate": -105.6438318,
+          "outward_floor_6dp": -105.643832,
+          "outward_ceiling_6dp": -105.643831
+        },
+        "selected_lower_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        }
+      },
+      {
+        "hour_0based": 98,
+        "aggregate_row": 98,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "-46402065382941838592483",
+          "denominator": "590295810358705651712",
+          "approximate": -78.60815639999994,
+          "outward_floor_6dp": -78.608157,
+          "outward_ceiling_6dp": -78.608156
+        },
+        "selected_lower_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        }
+      },
+      {
+        "hour_0based": 99,
+        "aggregate_row": 99,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "-38354852612653290932707",
+          "denominator": "590295810358705651712",
+          "approximate": -64.97564770000004,
+          "outward_floor_6dp": -64.975648,
+          "outward_ceiling_6dp": -64.975647
+        },
+        "selected_lower_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        }
+      },
+      {
+        "hour_0based": 100,
+        "aggregate_row": 100,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "-9665132656926215162339",
+          "denominator": "590295810358705651712",
+          "approximate": -16.3733716,
+          "outward_floor_6dp": -16.373372,
+          "outward_ceiling_6dp": -16.373371
+        },
+        "selected_lower_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        }
+      },
+      {
+        "hour_0based": 101,
+        "aggregate_row": 101,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "9703199889262979790365",
+          "denominator": "590295810358705651712",
+          "approximate": 16.437860000000043,
+          "outward_floor_6dp": 16.43786,
+          "outward_ceiling_6dp": 16.437861
+        },
+        "selected_lower_bound": {
+          "numerator": "9703199889262979790365",
+          "denominator": "590295810358705651712",
+          "approximate": 16.437860000000043,
+          "outward_floor_6dp": 16.43786,
+          "outward_ceiling_6dp": 16.437861
+        }
+      },
+      {
+        "hour_0based": 102,
+        "aggregate_row": 102,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "4947419712047918560797",
+          "denominator": "590295810358705651712",
+          "approximate": 8.38125499999994,
+          "outward_floor_6dp": 8.381254,
+          "outward_ceiling_6dp": 8.381255
+        },
+        "selected_lower_bound": {
+          "numerator": "4947419712047918560797",
+          "denominator": "590295810358705651712",
+          "approximate": 8.38125499999994,
+          "outward_floor_6dp": 8.381254,
+          "outward_ceiling_6dp": 8.381255
+        }
+      },
+      {
+        "hour_0based": 103,
+        "aggregate_row": 103,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "-84926417246439396657635",
+          "denominator": "590295810358705651712",
+          "approximate": -143.870947,
+          "outward_floor_6dp": -143.870948,
+          "outward_ceiling_6dp": -143.870947
+        },
+        "selected_lower_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        }
+      },
+      {
+        "hour_0based": 104,
+        "aggregate_row": 104,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "-140930651973991334463971",
+          "denominator": "590295810358705651712",
+          "approximate": -238.74581099999992,
+          "outward_floor_6dp": -238.745811,
+          "outward_ceiling_6dp": -238.74581
+        },
+        "selected_lower_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        }
+      },
+      {
+        "hour_0based": 105,
+        "aggregate_row": 105,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "-202731819413448663550435",
+          "denominator": "590295810358705651712",
+          "approximate": -343.441061,
+          "outward_floor_6dp": -343.441062,
+          "outward_ceiling_6dp": -343.441061
+        },
+        "selected_lower_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        }
+      },
+      {
+        "hour_0based": 106,
+        "aggregate_row": 106,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "-202637097596239486175715",
+          "denominator": "590295810358705651712",
+          "approximate": -343.28059600000006,
+          "outward_floor_6dp": -343.280597,
+          "outward_ceiling_6dp": -343.280596
+        },
+        "selected_lower_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        }
+      },
+      {
+        "hour_0based": 107,
+        "aggregate_row": 107,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "-205796888497733785143779",
+          "denominator": "590295810358705651712",
+          "approximate": -348.63349000000017,
+          "outward_floor_6dp": -348.633491,
+          "outward_ceiling_6dp": -348.63349
+        },
+        "selected_lower_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        }
+      },
+      {
+        "hour_0based": 108,
+        "aggregate_row": 108,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "-195472933534297465342435",
+          "denominator": "590295810358705651712",
+          "approximate": -331.1440299999999,
+          "outward_floor_6dp": -331.14403,
+          "outward_ceiling_6dp": -331.144029
+        },
+        "selected_lower_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        }
+      },
+      {
+        "hour_0based": 109,
+        "aggregate_row": 109,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "-143537066526289995811299",
+          "denominator": "590295810358705651712",
+          "approximate": -243.161249,
+          "outward_floor_6dp": -243.161249,
+          "outward_ceiling_6dp": -243.161248
+        },
+        "selected_lower_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        }
+      },
+      {
+        "hour_0based": 110,
+        "aggregate_row": 110,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "-153482046857109383989731",
+          "denominator": "590295810358705651712",
+          "approximate": -260.008701,
+          "outward_floor_6dp": -260.008701,
+          "outward_ceiling_6dp": -260.0087
+        },
+        "selected_lower_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        }
+      },
+      {
+        "hour_0based": 111,
+        "aggregate_row": 111,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "4458183725014239360541",
+          "denominator": "590295810358705651712",
+          "approximate": 7.552456999999933,
+          "outward_floor_6dp": 7.552456,
+          "outward_ceiling_6dp": 7.552457
+        },
+        "selected_lower_bound": {
+          "numerator": "4458183725014239360541",
+          "denominator": "590295810358705651712",
+          "approximate": 7.552456999999933,
+          "outward_floor_6dp": 7.552456,
+          "outward_ceiling_6dp": 7.552457
+        }
+      },
+      {
+        "hour_0based": 112,
+        "aggregate_row": 112,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "237616821343755864847901",
+          "denominator": "590295810358705651712",
+          "approximate": 402.53855300000015,
+          "outward_floor_6dp": 402.538553,
+          "outward_ceiling_6dp": 402.538554
+        },
+        "selected_lower_bound": {
+          "numerator": "237616821343755864847901",
+          "denominator": "590295810358705651712",
+          "approximate": 402.53855300000015,
+          "outward_floor_6dp": 402.538553,
+          "outward_ceiling_6dp": 402.538554
+        }
+      },
+      {
+        "hour_0based": 113,
+        "aggregate_row": 113,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "469058927740526418408989",
+          "denominator": "590295810358705651712",
+          "approximate": 794.616732,
+          "outward_floor_6dp": 794.616731,
+          "outward_ceiling_6dp": 794.616732
+        },
+        "selected_lower_bound": {
+          "numerator": "469058927740526418408989",
+          "denominator": "590295810358705651712",
+          "approximate": 794.616732,
+          "outward_floor_6dp": 794.616731,
+          "outward_ceiling_6dp": 794.616732
+        }
+      },
+      {
+        "hour_0based": 114,
+        "aggregate_row": 114,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "464883804433382811842077",
+          "denominator": "590295810358705651712",
+          "approximate": 787.543798,
+          "outward_floor_6dp": 787.543798,
+          "outward_ceiling_6dp": 787.543799
+        },
+        "selected_lower_bound": {
+          "numerator": "464883804433382811842077",
+          "denominator": "590295810358705651712",
+          "approximate": 787.543798,
+          "outward_floor_6dp": 787.543798,
+          "outward_ceiling_6dp": 787.543799
+        }
+      },
+      {
+        "hour_0based": 115,
+        "aggregate_row": 115,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "438569375257691954296349",
+          "denominator": "590295810358705651712",
+          "approximate": 742.9654210000001,
+          "outward_floor_6dp": 742.965421,
+          "outward_ceiling_6dp": 742.965422
+        },
+        "selected_lower_bound": {
+          "numerator": "438569375257691954296349",
+          "denominator": "590295810358705651712",
+          "approximate": 742.9654210000001,
+          "outward_floor_6dp": 742.965421,
+          "outward_ceiling_6dp": 742.965422
+        }
+      },
+      {
+        "hour_0based": 116,
+        "aggregate_row": 116,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "174220394824495115744797",
+          "denominator": "590295810358705651712",
+          "approximate": 295.1408289999999,
+          "outward_floor_6dp": 295.140828,
+          "outward_ceiling_6dp": 295.140829
+        },
+        "selected_lower_bound": {
+          "numerator": "174220394824495115744797",
+          "denominator": "590295810358705651712",
+          "approximate": 295.1408289999999,
+          "outward_floor_6dp": 295.140828,
+          "outward_ceiling_6dp": 295.140829
+        }
+      },
+      {
+        "hour_0based": 117,
+        "aggregate_row": 117,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "37108902436310124279325",
+          "denominator": "590295810358705651712",
+          "approximate": 62.864926000000104,
+          "outward_floor_6dp": 62.864926,
+          "outward_ceiling_6dp": 62.864927
+        },
+        "selected_lower_bound": {
+          "numerator": "37108902436310124279325",
+          "denominator": "590295810358705651712",
+          "approximate": 62.864926000000104,
+          "outward_floor_6dp": 62.864926,
+          "outward_ceiling_6dp": 62.864927
+        }
+      },
+      {
+        "hour_0based": 118,
+        "aggregate_row": 118,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "14809010665595813705245",
+          "denominator": "590295810358705651712",
+          "approximate": 25.08743989999998,
+          "outward_floor_6dp": 25.087439,
+          "outward_ceiling_6dp": 25.08744
+        },
+        "selected_lower_bound": {
+          "numerator": "14809010665595813705245",
+          "denominator": "590295810358705651712",
+          "approximate": 25.08743989999998,
+          "outward_floor_6dp": 25.087439,
+          "outward_ceiling_6dp": 25.08744
+        }
+      },
+      {
+        "hour_0based": 119,
+        "aggregate_row": 119,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "-79221373286031032371683",
+          "denominator": "590295810358705651712",
+          "approximate": -134.20622659999992,
+          "outward_floor_6dp": -134.206227,
+          "outward_ceiling_6dp": -134.206226
+        },
+        "selected_lower_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        }
+      },
+      {
+        "hour_0based": 120,
+        "aggregate_row": 120,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "-71704696549147898071523",
+          "denominator": "590295810358705651712",
+          "approximate": -121.47248090000001,
+          "outward_floor_6dp": -121.472481,
+          "outward_ceiling_6dp": -121.47248
+        },
+        "selected_lower_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        }
+      },
+      {
+        "hour_0based": 121,
+        "aggregate_row": 121,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "-71285472655731376310755",
+          "denominator": "590295810358705651712",
+          "approximate": -120.76228799999997,
+          "outward_floor_6dp": -120.762288,
+          "outward_ceiling_6dp": -120.762287
+        },
+        "selected_lower_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        }
+      },
+      {
+        "hour_0based": 122,
+        "aggregate_row": 122,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "-70710014520861899409891",
+          "denominator": "590295810358705651712",
+          "approximate": -119.78742400000006,
+          "outward_floor_6dp": -119.787425,
+          "outward_ceiling_6dp": -119.787424
+        },
+        "selected_lower_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        }
+      },
+      {
+        "hour_0based": 123,
+        "aggregate_row": 123,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "-42611524872790944565731",
+          "denominator": "590295810358705651712",
+          "approximate": -72.18673100000008,
+          "outward_floor_6dp": -72.186732,
+          "outward_ceiling_6dp": -72.186731
+        },
+        "selected_lower_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        }
+      },
+      {
+        "hour_0based": 124,
+        "aggregate_row": 124,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "32917481061842418611741",
+          "denominator": "590295810358705651712",
+          "approximate": 55.764382,
+          "outward_floor_6dp": 55.764381,
+          "outward_ceiling_6dp": 55.764382
+        },
+        "selected_lower_bound": {
+          "numerator": "32917481061842418611741",
+          "denominator": "590295810358705651712",
+          "approximate": 55.764382,
+          "outward_floor_6dp": 55.764381,
+          "outward_ceiling_6dp": 55.764382
+        }
+      },
+      {
+        "hour_0based": 125,
+        "aggregate_row": 125,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "134617124835129641874973",
+          "denominator": "590295810358705651712",
+          "approximate": 228.05027999999987,
+          "outward_floor_6dp": 228.050279,
+          "outward_ceiling_6dp": 228.05028
+        },
+        "selected_lower_bound": {
+          "numerator": "134617124835129641874973",
+          "denominator": "590295810358705651712",
+          "approximate": 228.05027999999987,
+          "outward_floor_6dp": 228.050279,
+          "outward_ceiling_6dp": 228.05028
+        }
+      },
+      {
+        "hour_0based": 126,
+        "aggregate_row": 126,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "149144097534228001928733",
+          "denominator": "590295810358705651712",
+          "approximate": 252.65992899999995,
+          "outward_floor_6dp": 252.659928,
+          "outward_ceiling_6dp": 252.659929
+        },
+        "selected_lower_bound": {
+          "numerator": "149144097534228001928733",
+          "denominator": "590295810358705651712",
+          "approximate": 252.65992899999995,
+          "outward_floor_6dp": 252.659928,
+          "outward_ceiling_6dp": 252.659929
+        }
+      },
+      {
+        "hour_0based": 127,
+        "aggregate_row": 127,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "-15414076326455141255651",
+          "denominator": "590295810358705651712",
+          "approximate": -26.112461000000074,
+          "outward_floor_6dp": -26.112462,
+          "outward_ceiling_6dp": -26.112461
+        },
+        "selected_lower_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        }
+      },
+      {
+        "hour_0based": 128,
+        "aggregate_row": 128,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "-131060795049181479750115",
+          "denominator": "590295810358705651712",
+          "approximate": -222.025623,
+          "outward_floor_6dp": -222.025624,
+          "outward_ceiling_6dp": -222.025623
+        },
+        "selected_lower_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        }
+      },
+      {
+        "hour_0based": 129,
+        "aggregate_row": 129,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "-195832630876635419167203",
+          "denominator": "590295810358705651712",
+          "approximate": -331.753381,
+          "outward_floor_6dp": -331.753381,
+          "outward_ceiling_6dp": -331.75338
+        },
+        "selected_lower_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        }
+      },
+      {
+        "hour_0based": 130,
+        "aggregate_row": 130,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "-229043561562610822334947",
+          "denominator": "590295810358705651712",
+          "approximate": -388.01488600000005,
+          "outward_floor_6dp": -388.014887,
+          "outward_ceiling_6dp": -388.014886
+        },
+        "selected_lower_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        }
+      },
+      {
+        "hour_0based": 131,
+        "aggregate_row": 131,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "-246348458671411753437667",
+          "denominator": "590295810358705651712",
+          "approximate": -417.3305220000002,
+          "outward_floor_6dp": -417.330523,
+          "outward_ceiling_6dp": -417.330522
+        },
+        "selected_lower_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        }
+      },
+      {
+        "hour_0based": 132,
+        "aggregate_row": 132,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "-246562787406307433433571",
+          "denominator": "590295810358705651712",
+          "approximate": -417.69360900000015,
+          "outward_floor_6dp": -417.69361,
+          "outward_ceiling_6dp": -417.693609
+        },
+        "selected_lower_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        }
+      },
+      {
+        "hour_0based": 133,
+        "aggregate_row": 133,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "-237842590601751918856675",
+          "denominator": "590295810358705651712",
+          "approximate": -402.92102099999977,
+          "outward_floor_6dp": -402.921021,
+          "outward_ceiling_6dp": -402.92102
+        },
+        "selected_lower_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        }
+      },
+      {
+        "hour_0based": 134,
+        "aggregate_row": 134,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "-200106711373427616303587",
+          "denominator": "590295810358705651712",
+          "approximate": -338.993955,
+          "outward_floor_6dp": -338.993956,
+          "outward_ceiling_6dp": -338.993955
+        },
+        "selected_lower_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        }
+      },
+      {
+        "hour_0based": 135,
+        "aggregate_row": 135,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "-123872446567889101703651",
+          "denominator": "590295810358705651712",
+          "approximate": -209.8480869999999,
+          "outward_floor_6dp": -209.848087,
+          "outward_ceiling_6dp": -209.848086
+        },
+        "selected_lower_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        }
+      },
+      {
+        "hour_0based": 136,
+        "aggregate_row": 136,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "12074431145981647992349",
+          "denominator": "590295810358705651712",
+          "approximate": 20.45488199999991,
+          "outward_floor_6dp": 20.454881,
+          "outward_ceiling_6dp": 20.454882
+        },
+        "selected_lower_bound": {
+          "numerator": "12074431145981647992349",
+          "denominator": "590295810358705651712",
+          "approximate": 20.45488199999991,
+          "outward_floor_6dp": 20.454881,
+          "outward_ceiling_6dp": 20.454882
+        }
+      },
+      {
+        "hour_0based": 137,
+        "aggregate_row": 137,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "47459378800209816401437",
+          "denominator": "590295810358705651712",
+          "approximate": 80.39931499999996,
+          "outward_floor_6dp": 80.399314,
+          "outward_ceiling_6dp": 80.399315
+        },
+        "selected_lower_bound": {
+          "numerator": "47459378800209816401437",
+          "denominator": "590295810358705651712",
+          "approximate": 80.39931499999996,
+          "outward_floor_6dp": 80.399314,
+          "outward_ceiling_6dp": 80.399315
+        }
+      },
+      {
+        "hour_0based": 138,
+        "aggregate_row": 138,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "49969640067959145575965",
+          "denominator": "590295810358705651712",
+          "approximate": 84.65186300000002,
+          "outward_floor_6dp": 84.651863,
+          "outward_ceiling_6dp": 84.651864
+        },
+        "selected_lower_bound": {
+          "numerator": "49969640067959145575965",
+          "denominator": "590295810358705651712",
+          "approximate": 84.65186300000002,
+          "outward_floor_6dp": 84.651863,
+          "outward_ceiling_6dp": 84.651864
+        }
+      },
+      {
+        "hour_0based": 139,
+        "aggregate_row": 139,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "30319536664126609634845",
+          "denominator": "590295810358705651712",
+          "approximate": 51.363292999999956,
+          "outward_floor_6dp": 51.363292,
+          "outward_ceiling_6dp": 51.363293
+        },
+        "selected_lower_bound": {
+          "numerator": "30319536664126609634845",
+          "denominator": "590295810358705651712",
+          "approximate": 51.363292999999956,
+          "outward_floor_6dp": 51.363292,
+          "outward_ceiling_6dp": 51.363293
+        }
+      },
+      {
+        "hour_0based": 140,
+        "aggregate_row": 140,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "-391296467362136508899",
+          "denominator": "590295810358705651712",
+          "approximate": -0.6628819999998933,
+          "outward_floor_6dp": -0.662882,
+          "outward_ceiling_6dp": -0.662881
+        },
+        "selected_lower_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        }
+      },
+      {
+        "hour_0based": 141,
+        "aggregate_row": 141,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "-63788014592753156540899",
+          "denominator": "590295810358705651712",
+          "approximate": -108.06110000000005,
+          "outward_floor_6dp": -108.061101,
+          "outward_ceiling_6dp": -108.0611
+        },
+        "selected_lower_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        }
+      },
+      {
+        "hour_0based": 142,
+        "aggregate_row": 142,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "-124403186843644944501219",
+          "denominator": "590295810358705651712",
+          "approximate": -210.74719599999995,
+          "outward_floor_6dp": -210.747196,
+          "outward_ceiling_6dp": -210.747195
+        },
+        "selected_lower_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        }
+      },
+      {
+        "hour_0based": 143,
+        "aggregate_row": 143,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "-133547164094006560868835",
+          "denominator": "590295810358705651712",
+          "approximate": -226.2376960000001,
+          "outward_floor_6dp": -226.237697,
+          "outward_ceiling_6dp": -226.237696
+        },
+        "selected_lower_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        }
+      },
+      {
+        "hour_0based": 144,
+        "aggregate_row": 144,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "-79479076602894439467491",
+          "denominator": "590295810358705651712",
+          "approximate": -134.64279299999995,
+          "outward_floor_6dp": -134.642793,
+          "outward_ceiling_6dp": -134.642792
+        },
+        "selected_lower_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        }
+      },
+      {
+        "hour_0based": 145,
+        "aggregate_row": 145,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "-78872803846132623002083",
+          "denominator": "590295810358705651712",
+          "approximate": -133.61572700000005,
+          "outward_floor_6dp": -133.615728,
+          "outward_ceiling_6dp": -133.615727
+        },
+        "selected_lower_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        }
+      },
+      {
+        "hour_0based": 146,
+        "aggregate_row": 146,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "-70331360418870076688867",
+          "denominator": "590295810358705651712",
+          "approximate": -119.14595899999993,
+          "outward_floor_6dp": -119.145959,
+          "outward_ceiling_6dp": -119.145958
+        },
+        "selected_lower_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        }
+      },
+      {
+        "hour_0based": 147,
+        "aggregate_row": 147,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "-42643069690600718649827",
+          "denominator": "590295810358705651712",
+          "approximate": -72.2401700000001,
+          "outward_floor_6dp": -72.240171,
+          "outward_ceiling_6dp": -72.24017
+        },
+        "selected_lower_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        }
+      },
+      {
+        "hour_0based": 148,
+        "aggregate_row": 148,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "27818417897888161936925",
+          "denominator": "590295810358705651712",
+          "approximate": 47.12623299999998,
+          "outward_floor_6dp": 47.126232,
+          "outward_ceiling_6dp": 47.126233
+        },
+        "selected_lower_bound": {
+          "numerator": "27818417897888161936925",
+          "denominator": "590295810358705651712",
+          "approximate": 47.12623299999998,
+          "outward_floor_6dp": 47.126232,
+          "outward_ceiling_6dp": 47.126233
+        }
+      },
+      {
+        "hour_0based": 149,
+        "aggregate_row": 149,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "131105843473948955588125",
+          "denominator": "590295810358705651712",
+          "approximate": 222.10193799999993,
+          "outward_floor_6dp": 222.101937,
+          "outward_ceiling_6dp": 222.101938
+        },
+        "selected_lower_bound": {
+          "numerator": "131105843473948955588125",
+          "denominator": "590295810358705651712",
+          "approximate": 222.10193799999993,
+          "outward_floor_6dp": 222.101937,
+          "outward_ceiling_6dp": 222.101938
+        }
+      },
+      {
+        "hour_0based": 150,
+        "aggregate_row": 150,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "130501118472801969190429",
+          "denominator": "590295810358705651712",
+          "approximate": 221.07749400000014,
+          "outward_floor_6dp": 221.077494,
+          "outward_ceiling_6dp": 221.077495
+        },
+        "selected_lower_bound": {
+          "numerator": "130501118472801969190429",
+          "denominator": "590295810358705651712",
+          "approximate": 221.07749400000014,
+          "outward_floor_6dp": 221.077494,
+          "outward_ceiling_6dp": 221.077495
+        }
+      },
+      {
+        "hour_0based": 151,
+        "aggregate_row": 151,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "-28328177289656393583075",
+          "denominator": "590295810358705651712",
+          "approximate": -47.989798999999984,
+          "outward_floor_6dp": -47.989799,
+          "outward_ceiling_6dp": -47.989798
+        },
+        "selected_lower_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        }
+      },
+      {
+        "hour_0based": 152,
+        "aggregate_row": 152,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "-138796474069979727186403",
+          "denominator": "590295810358705651712",
+          "approximate": -235.13037300000002,
+          "outward_floor_6dp": -235.130374,
+          "outward_ceiling_6dp": -235.130373
+        },
+        "selected_lower_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        }
+      },
+      {
+        "hour_0based": 153,
+        "aggregate_row": 153,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "-189178265165985271040483",
+          "denominator": "590295810358705651712",
+          "approximate": -320.4804470000001,
+          "outward_floor_6dp": -320.480448,
+          "outward_ceiling_6dp": -320.480447
+        },
+        "selected_lower_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        }
+      },
+      {
+        "hour_0based": 154,
+        "aggregate_row": 154,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "-231418852283617300761059",
+          "denominator": "590295810358705651712",
+          "approximate": -392.03878499999985,
+          "outward_floor_6dp": -392.038785,
+          "outward_ceiling_6dp": -392.038784
+        },
+        "selected_lower_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        }
+      },
+      {
+        "hour_0based": 155,
+        "aggregate_row": 155,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "-248462628498931177277923",
+          "denominator": "590295810358705651712",
+          "approximate": -420.912065,
+          "outward_floor_6dp": -420.912065,
+          "outward_ceiling_6dp": -420.912064
+        },
+        "selected_lower_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        }
+      },
+      {
+        "hour_0based": 156,
+        "aggregate_row": 156,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "-248107516574448083847651",
+          "denominator": "590295810358705651712",
+          "approximate": -420.31048199999987,
+          "outward_floor_6dp": -420.310482,
+          "outward_ceiling_6dp": -420.310481
+        },
+        "selected_lower_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        }
+      },
+      {
+        "hour_0based": 157,
+        "aggregate_row": 157,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "-251229337288236949621219",
+          "denominator": "590295810358705651712",
+          "approximate": -425.5990520000001,
+          "outward_floor_6dp": -425.599053,
+          "outward_ceiling_6dp": -425.599052
+        },
+        "selected_lower_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        }
+      },
+      {
+        "hour_0based": 158,
+        "aggregate_row": 158,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "-227619578583070461184483",
+          "denominator": "590295810358705651712",
+          "approximate": -385.60256499999997,
+          "outward_floor_6dp": -385.602565,
+          "outward_ceiling_6dp": -385.602564
+        },
+        "selected_lower_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        }
+      },
+      {
+        "hour_0based": 159,
+        "aggregate_row": 159,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "-155592390387186192665059",
+          "denominator": "590295810358705651712",
+          "approximate": -263.583762,
+          "outward_floor_6dp": -263.583762,
+          "outward_ceiling_6dp": -263.583761
+        },
+        "selected_lower_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        }
+      },
+      {
+        "hour_0based": 160,
+        "aggregate_row": 160,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "-58698093340014002883043",
+          "denominator": "590295810358705651712",
+          "approximate": -99.43843800000016,
+          "outward_floor_6dp": -99.438439,
+          "outward_ceiling_6dp": -99.438438
+        },
+        "selected_lower_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        }
+      },
+      {
+        "hour_0based": 161,
+        "aggregate_row": 161,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "6612778190218809259549",
+          "denominator": "590295810358705651712",
+          "approximate": 11.202481999999993,
+          "outward_floor_6dp": 11.202481,
+          "outward_ceiling_6dp": 11.202482
+        },
+        "selected_lower_bound": {
+          "numerator": "6612778190218809259549",
+          "denominator": "590295810358705651712",
+          "approximate": 11.202481999999993,
+          "outward_floor_6dp": 11.202481,
+          "outward_ceiling_6dp": 11.202482
+        }
+      },
+      {
+        "hour_0based": 162,
+        "aggregate_row": 162,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "5948410880984661046813",
+          "denominator": "590295810358705651712",
+          "approximate": 10.076999999999973,
+          "outward_floor_6dp": 10.076999,
+          "outward_ceiling_6dp": 10.077
+        },
+        "selected_lower_bound": {
+          "numerator": "5948410880984661046813",
+          "denominator": "590295810358705651712",
+          "approximate": 10.076999999999973,
+          "outward_floor_6dp": 10.076999,
+          "outward_ceiling_6dp": 10.077
+        }
+      },
+      {
+        "hour_0based": 163,
+        "aggregate_row": 163,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "15519088770526293734941",
+          "denominator": "590295810358705651712",
+          "approximate": 26.290359000000006,
+          "outward_floor_6dp": 26.290359,
+          "outward_ceiling_6dp": 26.29036
+        },
+        "selected_lower_bound": {
+          "numerator": "15519088770526293734941",
+          "denominator": "590295810358705651712",
+          "approximate": 26.290359000000006,
+          "outward_floor_6dp": 26.290359,
+          "outward_ceiling_6dp": 26.29036
+        }
+      },
+      {
+        "hour_0based": 164,
+        "aggregate_row": 164,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "19484556714704908531229",
+          "denominator": "590295810358705651712",
+          "approximate": 33.00812300000013,
+          "outward_floor_6dp": 33.008123,
+          "outward_ceiling_6dp": 33.008124
+        },
+        "selected_lower_bound": {
+          "numerator": "19484556714704908531229",
+          "denominator": "590295810358705651712",
+          "approximate": 33.00812300000013,
+          "outward_floor_6dp": 33.008123,
+          "outward_ceiling_6dp": 33.008124
+        }
+      },
+      {
+        "hour_0based": 165,
+        "aggregate_row": 165,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "-1704872289420476205539",
+          "denominator": "590295810358705651712",
+          "approximate": -2.888166000000025,
+          "outward_floor_6dp": -2.888167,
+          "outward_ceiling_6dp": -2.888166
+        },
+        "selected_lower_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        }
+      },
+      {
+        "hour_0based": 166,
+        "aggregate_row": 166,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "-54785317561051196213731",
+          "denominator": "590295810358705651712",
+          "approximate": -92.80993799999995,
+          "outward_floor_6dp": -92.809938,
+          "outward_ceiling_6dp": -92.809937
+        },
+        "selected_lower_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        }
+      },
+      {
+        "hour_0based": 167,
+        "aggregate_row": 167,
+        "fossil_box_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        },
+        "balance_nonfossil_box_bound": {
+          "numerator": "-69389895860041571944931",
+          "denominator": "590295810358705651712",
+          "approximate": -117.55105599999997,
+          "outward_floor_6dp": -117.551056,
+          "outward_ceiling_6dp": -117.551055
+        },
+        "selected_lower_bound": {
+          "numerator": "-135768036382502311",
+          "denominator": "590295810358705651712",
+          "approximate": -0.00023,
+          "outward_floor_6dp": -0.000231,
+          "outward_ceiling_6dp": -0.00023
+        }
+      }
+    ],
+    "total_lower_bound_MWh": {
+      "numerator": "815865757523951515867123",
+      "denominator": "36893488147419103232",
+      "approximate": 22114.0856691,
+      "outward_floor_6dp": 22114.085669,
+      "outward_ceiling_6dp": 22114.08567
+    }
+  },
+  "cap_deletion_preserves_reference": true
+}

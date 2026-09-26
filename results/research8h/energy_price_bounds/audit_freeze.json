@@ -1,0 +1,256 @@
+{
+  "utc": "2026-09-26T22:02:54.316730+00:00",
+  "before_numeric_classification": true,
+  "optimization_calls": 0,
+  "available_completed_case_files": {
+    "seed_26093100": true,
+    "seed_26093101": true
+  },
+  "inputs": [
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\src\\research8h_energy_price_bounds.py",
+      "sha256": "676603d119d62b56721e15c0f4def7491246643d7f641efa5c4ea79795a289be",
+      "bytes": 14943
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\docs\\research8h\\ENERGY_PRICE_BOUNDS.md",
+      "sha256": "01a4aa80f2e681033c2603f5eb3897e4f38705c3b321dcc7e7c9248fbf3c1617",
+      "bytes": 4389
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\seasonal_uncapped\\prepared_freeze.json",
+      "sha256": "11f3f5943965fa61a9b7ab3590c36732d60f40e7049fa485561553040fb50555",
+      "bytes": 856
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\seasonal_uncapped\\input_manifest.csv",
+      "sha256": "59ad33b7ef6c6854d9acb3bcca837a521b10dd695711124e204c5c6f4e3a5352",
+      "bytes": 10530
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\seasonal_transfer\\independent_review.json",
+      "sha256": "7204f041a321df07205e3bc2ed3550fa94bd2f7e213f0fcc9464aa5403d82631",
+      "bytes": 24206
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-v8r1-evidence\\3\\.work\\v8r1_rts_inputs\\raw\\RTS-GMLC_v0.2.3\\gen.csv",
+      "sha256": "988466f29132b73739de60c9204dd4a2a9ceb0adf572e5966c086611272f4068",
+      "bytes": 32451
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\seasonal_transfer\\january_identity\\matrix.npz",
+      "sha256": "2f11940f72432a2a2e89e4a88115eba3cf24a8e82a8110e250c6191020c1f0bb",
+      "bytes": 199281
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\seasonal_transfer\\january_identity\\bounds.npz",
+      "sha256": "44ddedc6dd4b06028b9c7d10180cac4889dd51658a560d49f66ef8f3e31ab2d2",
+      "bytes": 52283
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\seasonal_transfer\\january_identity\\model_metadata.json",
+      "sha256": "1d8281f53cc1c08f73d1fdc8d66a7825d2f34377ba933c13d0e5e0be8b223fa4",
+      "bytes": 2474
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\seasonal_transfer\\january_identity\\native_inputs.npz",
+      "sha256": "5f917f58e4fd50ae1e0d9198fd84e81f57adb1f24b530d1ed5bb71d99714a960",
+      "bytes": 26497
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\seasonal_transfer\\january_identity\\row_metadata.csv.gz",
+      "sha256": "701beb5ad11c4e278be8183aec69f58eac61b6e4be53e997e9d500be77c457fe",
+      "bytes": 147013
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\seasonal_transfer\\january_identity\\constructive_vector.npz",
+      "sha256": "7c534f8691c761815224ac43773259da5a8e1d3eb2aa892dcb64dc46541672db",
+      "bytes": 41271
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\seasonal_transfer\\january_identity\\integrality.npz",
+      "sha256": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d",
+      "bytes": 282
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\seasonal_uncapped\\seed_26093100\\matrix.npz",
+      "sha256": "43eadfdf239a339757187fa4d52e786d1be7277bb93009d5ded1973523bf1386",
+      "bytes": 193396
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\seasonal_uncapped\\seed_26093100\\bounds.npz",
+      "sha256": "e7707c7d9aa9268621a619a79789558a78d1962b5d4c05faf5dc9ec6960039e1",
+      "bytes": 52822
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\seasonal_uncapped\\seed_26093100\\original_integrality.npz",
+      "sha256": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d",
+      "bytes": 282
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\seasonal_uncapped\\seed_26093100\\objective.npz",
+      "sha256": "4a11881191004d9f39ed53d3cd18a5861829593b48c4e97d67e2af2d01b17632",
+      "bytes": 864
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\seasonal_uncapped\\seed_26093100\\model_metadata.json",
+      "sha256": "2581f842804ecb5d936c383cce674a1dae0c2603744055cb56781f7f4a24e453",
+      "bytes": 2582
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\seasonal_uncapped\\seed_26093100\\native_inputs.npz",
+      "sha256": "985674007c604f18e7f58fc6a1151950cbe32de5be5acd631d8cacd341067b70",
+      "bytes": 26612
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\seasonal_uncapped\\seed_26093100\\row_metadata.csv.gz",
+      "sha256": "d99fbedb0df7f581f887aa2a87a5a3d27adcabbec8674fdd1f2eaa4e54ef5d40",
+      "bytes": 146951
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\seasonal_uncapped\\seed_26093100\\result.json",
+      "sha256": "aa5cbbf0fd0979d8453fb311faed7e0749ee2bf4cb39ca655d4887a0decf8d99",
+      "bytes": 1818
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\seasonal_uncapped\\seed_26093100\\recovered_vector.npz",
+      "sha256": "a04c939390345bb4bad9a0ef7c98ee72c3e6c691c390799730031bfb2f75b8f2",
+      "bytes": 42064
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\seasonal_uncapped\\seed_26093100\\exact_point_check.json",
+      "sha256": "ce3bb603e3bd3417dbd05c94d907de3770545272551899e5ca7e1bc3f3130845",
+      "bytes": 850
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\seasonal_uncapped\\seed_26093100\\native_no_cap_check.json",
+      "sha256": "50e7edb08942b268557e3c3b559e83f9b6b507d9d12333cf4583d07a75bccb7d",
+      "bytes": 1492
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\seasonal_transfer\\seed_26093100\\matrix.npz",
+      "sha256": "2f11940f72432a2a2e89e4a88115eba3cf24a8e82a8110e250c6191020c1f0bb",
+      "bytes": 199281
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\seasonal_transfer\\seed_26093100\\bounds.npz",
+      "sha256": "3e6709c70daa02750b99056cb67bb7b7e4b4358570d978df471c9d473dbe4601",
+      "bytes": 52826
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\seasonal_transfer\\seed_26093100\\integrality.npz",
+      "sha256": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d",
+      "bytes": 282
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\seasonal_transfer\\seed_26093100\\native_inputs.npz",
+      "sha256": "985674007c604f18e7f58fc6a1151950cbe32de5be5acd631d8cacd341067b70",
+      "bytes": 26612
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\seasonal_transfer\\seed_26093100\\row_metadata.csv.gz",
+      "sha256": "eec854219b5eaa56be70e1f8cd24770b545c3bd8e055ba3bbcdcfd05849945e9",
+      "bytes": 147013
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\seasonal_transfer\\seed_26093100\\model_metadata.json",
+      "sha256": "1d8281f53cc1c08f73d1fdc8d66a7825d2f34377ba933c13d0e5e0be8b223fa4",
+      "bytes": 2474
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\seasonal_transfer\\seed_26093100\\lp\\dual_certificate.json",
+      "sha256": "7a5a5b3489233df4fbb7b6a56889f76e8d71b5cf72ca9ba1db09909feba3d063",
+      "bytes": 140466
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\seasonal_uncapped\\seed_26093101\\matrix.npz",
+      "sha256": "43eadfdf239a339757187fa4d52e786d1be7277bb93009d5ded1973523bf1386",
+      "bytes": 193396
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\seasonal_uncapped\\seed_26093101\\bounds.npz",
+      "sha256": "2a77d68411187266dc8599741c602de61abeb86c06afbd8004a21ba88934823a",
+      "bytes": 53102
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\seasonal_uncapped\\seed_26093101\\original_integrality.npz",
+      "sha256": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d",
+      "bytes": 282
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\seasonal_uncapped\\seed_26093101\\objective.npz",
+      "sha256": "4a11881191004d9f39ed53d3cd18a5861829593b48c4e97d67e2af2d01b17632",
+      "bytes": 864
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\seasonal_uncapped\\seed_26093101\\model_metadata.json",
+      "sha256": "2581f842804ecb5d936c383cce674a1dae0c2603744055cb56781f7f4a24e453",
+      "bytes": 2582
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\seasonal_uncapped\\seed_26093101\\native_inputs.npz",
+      "sha256": "0714685f35f07c78279ee7879e9b7278cc79e9177b8680df54fac6ef18f1fc1b",
+      "bytes": 26594
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\seasonal_uncapped\\seed_26093101\\row_metadata.csv.gz",
+      "sha256": "b18444e0cec8e32fcc2c8133e8b89e505f21c3bf803c7ec16c1eea1937e43895",
+      "bytes": 146951
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\seasonal_uncapped\\seed_26093101\\result.json",
+      "sha256": "520b4add713ed5ccad0dc08327cf098a81e998263018ac2e942ed112f1fd3545",
+      "bytes": 1845
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\seasonal_uncapped\\seed_26093101\\recovered_vector.npz",
+      "sha256": "60952e52d7457b056db6dd7eddc81862846ac55b5d819051f1a196ded3244302",
+      "bytes": 42277
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\seasonal_uncapped\\seed_26093101\\exact_point_check.json",
+      "sha256": "16f1d15c28b6caa3596c7627e7a1a28b8d80a7e184ab61af3ff1fe2eeb0e200b",
+      "bytes": 849
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\seasonal_uncapped\\seed_26093101\\native_no_cap_check.json",
+      "sha256": "a1822ab3544e5bbc22232c864718d087b1b08179c66b4af1cd89a10774a1f94f",
+      "bytes": 1477
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\seasonal_transfer\\seed_26093101\\matrix.npz",
+      "sha256": "2f11940f72432a2a2e89e4a88115eba3cf24a8e82a8110e250c6191020c1f0bb",
+      "bytes": 199281
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\seasonal_transfer\\seed_26093101\\bounds.npz",
+      "sha256": "3f4c56b7b96cddb7195de8a66a1606df507bd00cc86e9ea47a3a514ce685ab82",
+      "bytes": 53105
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\seasonal_transfer\\seed_26093101\\integrality.npz",
+      "sha256": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d",
+      "bytes": 282
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\seasonal_transfer\\seed_26093101\\native_inputs.npz",
+      "sha256": "0714685f35f07c78279ee7879e9b7278cc79e9177b8680df54fac6ef18f1fc1b",
+      "bytes": 26594
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\seasonal_transfer\\seed_26093101\\row_metadata.csv.gz",
+      "sha256": "dd00e59cfe37d9b80ae09b085c6a9236f83556d4803b11b16123ebb8eaaf1f0f",
+      "bytes": 147013
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\seasonal_transfer\\seed_26093101\\model_metadata.json",
+      "sha256": "1d8281f53cc1c08f73d1fdc8d66a7825d2f34377ba933c13d0e5e0be8b223fa4",
+      "bytes": 2474
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\seasonal_transfer\\seed_26093101\\lp\\dual_certificate.json",
+      "sha256": "041ec0c98bab38c60e8f466082381791a1ce4560e101ccc8e9bc04123d1cb000",
+      "bytes": 103533
+    }
+  ]
+}

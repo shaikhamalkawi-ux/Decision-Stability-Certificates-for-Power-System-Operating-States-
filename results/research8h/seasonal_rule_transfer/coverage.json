@@ -1,0 +1,29 @@
+{
+  "rules": {
+    "two_cc": {
+      "exact_robust_rejections": 0,
+      "known_full_negative_denominator": 2,
+      "coverage": 0.0,
+      "rejected_seeds": [],
+      "continuous_subset_admissions": [
+        26093100,
+        26093101
+      ],
+      "unknown_seeds": []
+    },
+    "locality48": {
+      "exact_robust_rejections": 1,
+      "known_full_negative_denominator": 2,
+      "coverage": 0.5,
+      "rejected_seeds": [
+        26093101
+      ],
+      "continuous_subset_admissions": [
+        26093100
+      ],
+      "unknown_seeds": []
+    }
+  },
+  "full_labels_previously_known": true,
+  "scope": "Two known January negatives; not blind, not new-network; no units/window/background constraints retuned."
+}

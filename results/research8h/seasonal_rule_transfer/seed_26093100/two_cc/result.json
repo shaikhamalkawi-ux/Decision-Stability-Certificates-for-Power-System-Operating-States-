@@ -1,0 +1,45 @@
+{
+  "model_status": "Optimal",
+  "solver_version": "1.12.0",
+  "elapsed_s": 1.2360272000078112,
+  "time_limit_s": 30,
+  "verdict": "ADMITTED_CONTINUOUS_RELAXATION",
+  "presolve": "off",
+  "solver": "simplex",
+  "continuous_witness_verification": {
+    "pass": true,
+    "tolerance": 1e-05,
+    "residuals": {
+      "column_lower": 2.5082158572331537e-12,
+      "column_upper": 3.410605131648481e-13,
+      "row_lower": 8.697043085703626e-12,
+      "row_upper": 1.0913936421275139e-11
+    }
+  },
+  "seed": 26093100,
+  "rule": "two_cc",
+  "rows": 19985,
+  "columns": 23016,
+  "optimization_calls": 1,
+  "matrix_sha256": "5b0366ab7faa2d876be6d098f78a76ecd5edc91b91d0a5d1f07c10566c52d6ca",
+  "bounds_sha256": "8bf0f7ed7cdcd627410e7b9da29982741d90b63dce4df570bfeca8a54cd7a4ec",
+  "full_January_label_known_before_this_run": "CERTIFIED_INFEASIBLE",
+  "scope": "Fixed prior July rule on January DC+cap/no-mean model; subset admission is not full UC admission.",
+  "legacy_helper_fractional_tail_count_including_angles": 4074,
+  "fractional_UYZ_coordinates": 210,
+  "archive_replay": {
+    "kind": "continuous_subset_witness",
+    "check": {
+      "pass": true,
+      "tolerance": 1e-05,
+      "residuals": {
+        "column_lower": 2.5082158572331537e-12,
+        "column_upper": 3.410605131648481e-13,
+        "row_lower": 8.697043085703626e-12,
+        "row_upper": 1.0913936421275139e-11
+      }
+    },
+    "full_model_status": "Already certified infeasible; this subset admission does not change that.",
+    "binary_admission_claim": false
+  }
+}

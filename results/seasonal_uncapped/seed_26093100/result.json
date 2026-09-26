@@ -1,0 +1,55 @@
+{
+  "case": "seed_26093100",
+  "model_status": "Time limit reached",
+  "run_status": "HighsStatus.kWarning",
+  "verdict": "VERIFIED_UNCAPPED_BINARY_WITNESS_EXPANDED_MODEL",
+  "time_limit_s": 600,
+  "elapsed_s": 600.2440443999949,
+  "optimization_calls": 1,
+  "solver_version": "1.12.0",
+  "solver_options": {
+    "time_limit": 600.0,
+    "threads": 1,
+    "random_seed": 0,
+    "presolve": "on",
+    "mip_rel_gap": 1e-08,
+    "log_to_console": false,
+    "log_file": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\seasonal_uncapped\\seed_26093100\\solver.log"
+  },
+  "solution_value_valid": true,
+  "solver_objective_MWh": 25162.61897255671,
+  "solver_reported_numerical_lower_bound_MWh": 24509.560575070558,
+  "mip_relative_gap": 0.02595351454466591,
+  "mip_node_count": 91,
+  "exact_optimality_claim": false,
+  "raw_matrix_check": {
+    "pass": true,
+    "tolerance": 1e-05,
+    "residuals": {
+      "column_lower": 9.350742402602918e-12,
+      "column_upper": 7.617018127348274e-12,
+      "row_lower": 1.5006662579253316e-11,
+      "row_upper": 1.1550227441148309e-10
+    }
+  },
+  "eligible_for_recovery": true,
+  "recovered_matrix_check": {
+    "pass": true,
+    "tolerance": 1e-05,
+    "residuals": {
+      "column_lower": 9.350742402602918e-12,
+      "column_upper": 7.617018127348274e-12,
+      "row_lower": 1.5006662579253316e-11,
+      "row_upper": 1.1550227441148309e-10
+    }
+  },
+  "native_no_cap_pass": true,
+  "recovered_fossil_energy": {
+    "numerator": "906578891427777312835",
+    "denominator": "36028797018963968",
+    "float": 25162.61897255671
+  },
+  "exact_strict_model_pass": false,
+  "exact_expanded_model_pass": true,
+  "rigorous_energy_upper_bound_scope": "uniformly_1e-5_expanded_binary64_model_only"
+}

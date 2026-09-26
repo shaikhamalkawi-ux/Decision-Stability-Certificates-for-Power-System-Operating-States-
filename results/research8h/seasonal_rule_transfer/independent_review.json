@@ -1,0 +1,217 @@
+{
+  "status": "PASS_COMPLETE",
+  "utc": "2026-09-26T21:54:41.711767+00:00",
+  "optimization_calls": 0,
+  "native_control_replays": 0,
+  "full_model_replays": 0,
+  "preflight": {
+    "status": "PASS_COMPLETED_BEFORE_SOLVE",
+    "four_masks_independently_decoded": true,
+    "exact_parent_row_subsets_and_bounds": true,
+    "two_cc_shape": [
+      19985,
+      23016
+    ],
+    "locality48_shape": [
+      28689,
+      23016
+    ],
+    "zero_mean_rows": true,
+    "zero_objective": true,
+    "all_static_network_cap_rows_preserved": true,
+    "four_expanded_positive_inheritance_hash_bindings_pass": true
+  },
+  "frozen_manifest": {
+    "files": 59,
+    "all_hashes_and_sizes_pass": true,
+    "sha256": "a0898f56326a489622d812f685b2f4d816646874ef8528baa4902c6dac42144c",
+    "all_models_freeze_binding_pass": true,
+    "final_recheck_all_59_pass": true
+  },
+  "cases": [
+    {
+      "seed": 26093100,
+      "rule": "two_cc",
+      "matrix_sha256": "5b0366ab7faa2d876be6d098f78a76ecd5edc91b91d0a5d1f07c10566c52d6ca",
+      "bounds_sha256": "8bf0f7ed7cdcd627410e7b9da29982741d90b63dce4df570bfeca8a54cd7a4ec",
+      "row_metadata_sha256": "27dc796ab023309738ba512b0115af1947d763b3b552ee0e1cd1d95c0055f94f",
+      "zero_mean_rows": true,
+      "kind": "CONTINUOUS_SUBSET_WITNESS",
+      "vector_sha256": "d4d8ea4ccd8d847ed296c92ee505f59e4da777e1f1147ebea99419225dc41e77",
+      "numerical_matrix_replay_pass": true,
+      "numerical_residuals": {
+        "column_lower": 2.5082158572331537e-12,
+        "column_upper": 3.410605131648481e-13,
+        "row_lower": 8.697043085703626e-12,
+        "row_upper": 1.0913936421275139e-11
+      },
+      "numerical_residual_max": 1.0913936421275139e-11,
+      "exact_expanded_feasibility_pass": true,
+      "exact_max_row_violation": {
+        "numerator": "669385098779827807",
+        "denominator": "79228162514264337593543950336",
+        "approximate": 8.448827759438582e-12
+      },
+      "exact_max_box_violation": {
+        "numerator": "353",
+        "denominator": "140737488355328",
+        "approximate": 2.5082158572331537e-12
+      },
+      "nominal_exact_row_violation_count": 4485,
+      "nominal_exact_box_violation_count": 49,
+      "fractional_UYZ_coordinates": 210,
+      "binary_admission_claim": false,
+      "scope": "Saved vector is exactly feasible only for the explicit outward-expanded subset model; full model remains previously certified infeasible.",
+      "final_result_sha256": "17e450a9a3d77c94725fd7996e243ccb43cbe2b0d472d5b4ca3dbf0c2a6fc3e3"
+    },
+    {
+      "seed": 26093100,
+      "rule": "locality48",
+      "matrix_sha256": "b08efd464b4ae09a85495cfe73fe677e7e8b8d695987d28605ad6417c568aebc",
+      "bounds_sha256": "ed025aca69dcf2840c6913a7b8791091e8b833dfb310e41325b536b92416b6fe",
+      "row_metadata_sha256": "d864f231da76462be33af55ddd6f7307a80f503d0c7b57052e46e98d340c5d76",
+      "zero_mean_rows": true,
+      "kind": "CONTINUOUS_SUBSET_WITNESS",
+      "vector_sha256": "f57a582bef6879ef806f2cc3f4466acbd3939f421f1626f9681ebde1994fb673",
+      "numerical_matrix_replay_pass": true,
+      "numerical_residuals": {
+        "column_lower": 1.3903291216723617e-12,
+        "column_upper": 9.691802915767767e-12,
+        "row_lower": 2.034994395216927e-11,
+        "row_upper": 1.4878764886816498e-11
+      },
+      "numerical_residual_max": 2.034994395216927e-11,
+      "exact_expanded_feasibility_pass": true,
+      "exact_max_row_violation": {
+        "numerator": "201393518162478063",
+        "denominator": "9903520314283042199192993792",
+        "approximate": 2.033554854954198e-11
+      },
+      "exact_max_box_violation": {
+        "numerator": "341",
+        "denominator": "35184372088832",
+        "approximate": 9.691802915767767e-12
+      },
+      "nominal_exact_row_violation_count": 4552,
+      "nominal_exact_box_violation_count": 105,
+      "fractional_UYZ_coordinates": 294,
+      "binary_admission_claim": false,
+      "scope": "Saved vector is exactly feasible only for the explicit outward-expanded subset model; full model remains previously certified infeasible.",
+      "final_result_sha256": "cce40ef1d6b0ef9f57a0aefc7048f4d8f799cefba22ad5138c9f3d354ff4b749"
+    },
+    {
+      "seed": 26093101,
+      "rule": "two_cc",
+      "matrix_sha256": "5b0366ab7faa2d876be6d098f78a76ecd5edc91b91d0a5d1f07c10566c52d6ca",
+      "bounds_sha256": "e3c2ce6e72e32e0b15aa1e741ad540054558a948b8f11db0c2d11103c12e311f",
+      "row_metadata_sha256": "c9e4147e8bde6e53bc7a25fa68f9bd1fd9c6090fec7e89ae240a52a5e69aabd8",
+      "zero_mean_rows": true,
+      "kind": "CONTINUOUS_SUBSET_WITNESS",
+      "vector_sha256": "39cdd95fbd2aeddfab92fbbe3482123dc1c8c6d230c5ea23a81090b19f3f0b60",
+      "numerical_matrix_replay_pass": true,
+      "numerical_residuals": {
+        "column_lower": 4.845901457883883e-12,
+        "column_upper": 1.4210854715202004e-14,
+        "row_lower": 4.760636329592671e-12,
+        "row_upper": 8.242295734817162e-12
+      },
+      "numerical_residual_max": 8.242295734817162e-12,
+      "exact_expanded_feasibility_pass": true,
+      "exact_max_row_violation": {
+        "numerator": "165801026255152165",
+        "denominator": "19807040628566084398385987584",
+        "approximate": 8.370812650125573e-12
+      },
+      "exact_max_box_violation": {
+        "numerator": "341",
+        "denominator": "70368744177664",
+        "approximate": 4.845901457883883e-12
+      },
+      "nominal_exact_row_violation_count": 4459,
+      "nominal_exact_box_violation_count": 51,
+      "fractional_UYZ_coordinates": 208,
+      "binary_admission_claim": false,
+      "scope": "Saved vector is exactly feasible only for the explicit outward-expanded subset model; full model remains previously certified infeasible.",
+      "final_result_sha256": "3c8b30e1490bd59faeb502c91a26d91fb60a83aa48b7d19d03d8dd3e6d5469a3"
+    },
+    {
+      "seed": 26093101,
+      "rule": "locality48",
+      "matrix_sha256": "b08efd464b4ae09a85495cfe73fe677e7e8b8d695987d28605ad6417c568aebc",
+      "bounds_sha256": "a03a998e4c3366a10a30a3ea72367a3f038d0a4b9e27224185211036ab3e0efc",
+      "row_metadata_sha256": "43e1de930614f7b4376e195c9651a5cd6d6868bcc0add288f619a4b4a227690a",
+      "zero_mean_rows": true,
+      "kind": "EXACT_OUTWARD_ROBUST_REJECTION",
+      "certificate_sha256": "e9aa26ad7371ae06118783450ae0ce42335f2e52708c750d8a8e351e053a02c0",
+      "raw_ray_provenance_pass": true,
+      "projected_row_count": 23,
+      "row_multiplier_nonzeros": 1268,
+      "combined_column_nonzeros": 4975,
+      "exact_gap": {
+        "numerator": "929716880375282829791130403807048144167898838726698926369377617",
+        "denominator": "392318858461667547739736838950479151006397215279002157056",
+        "approximate": 2369799.1068306575
+      },
+      "exact_outward_gap": {
+        "numerator": "1946420638371530874702399417987623266453579590417750453040990790306875",
+        "denominator": "822752278660603021077484591278675252491367932816789931674304512",
+        "approximate": 2365743.236275444
+      },
+      "exact_certificate_replay_pass": true,
+      "temporal_support_unit_names": [
+        "101_CT_2",
+        "101_STEAM_3",
+        "101_STEAM_4",
+        "102_STEAM_3",
+        "102_STEAM_4",
+        "107_CC_1",
+        "113_CT_1",
+        "113_CT_2",
+        "113_CT_3",
+        "113_CT_4",
+        "115_STEAM_3",
+        "116_STEAM_1",
+        "118_CC_1",
+        "121_NUCLEAR_1",
+        "123_CT_1",
+        "123_CT_4",
+        "123_CT_5",
+        "123_STEAM_2",
+        "123_STEAM_3"
+      ],
+      "temporal_support_unit_count": 19,
+      "scope": "Exact rational separation for archived binary64 row-subset model and every finite row/column bound expanded by exact binary64 tau=1e-5.",
+      "final_result_sha256": "a5965ebbc0760d2a3b863285d40e1e4f228620e8ba63c18cbe72c90d2374caed"
+    }
+  ],
+  "coverage": {
+    "two_cc": {
+      "robust_rejections": 0,
+      "denominator": 2,
+      "continuous_subset_admissions": 2,
+      "unknown": 0
+    },
+    "locality48": {
+      "robust_rejections": 1,
+      "denominator": 2,
+      "continuous_subset_admissions": 1,
+      "unknown": 0
+    }
+  },
+  "interpretation": "Fixed July rules on two already-labelled January negatives with changed DC/cap/no-mean background. Subset admissions do not contradict the known full-model negatives. No new-network, blind-prediction or binary-admission claim.",
+  "summary_metadata_binding": {
+    "status": "PASS",
+    "correction_exactly_limited_to_certificate_support": true,
+    "original_before_hashes_reconstructed_and_match": true,
+    "original_serialization_line_endings": "CRLF",
+    "corrected_support_matches_exactly_replayed_certificate": true,
+    "final_artifact_sha256": {
+      "results.json": "9c2d4f9937dd427bf8df9af6f15944331d59b8dc37eb3bda40414d810233ba47",
+      "summary.csv": "5721fc8f03821474e9b2ee0587ed2217bc05554b7e0640b98551b5b846b2fa28",
+      "coverage.json": "7270b2d365df0179dce7eccd1fd8672c30822aeb66600c7f4adbf7b6a4af45df",
+      "completion.json": "30f7b3d502bb070347f00e1475a7fe0a95c8f632864a2d316d04303b91478ff0",
+      "support_metadata_annotation.json": "9db34729d21eec7188fda9aa187ed18e49dd635e6f557aa02ef12c1b632e78b5"
+    }
+  },
+  "finalized_utc": "2026-09-26T21:58:45.442720+00:00"
+}

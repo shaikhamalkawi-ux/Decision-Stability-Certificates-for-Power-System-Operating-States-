@@ -1,0 +1,70 @@
+{
+  "exact_audit_sha256": "7204f041a321df07205e3bc2ed3550fa94bd2f7e213f0fcc9464aa5403d82631",
+  "controls": [
+    {
+      "case": "january_identity",
+      "rule": "two_cc",
+      "rows": 19985,
+      "full_matrix_sha256": "2f11940f72432a2a2e89e4a88115eba3cf24a8e82a8110e250c6191020c1f0bb",
+      "full_bounds_sha256": "44ddedc6dd4b06028b9c7d10180cac4889dd51658a560d49f66ef8f3e31ab2d2",
+      "constructive_vector_sha256": "7c534f8691c761815224ac43773259da5a8e1d3eb2aa892dcb64dc46541672db",
+      "full_exact_expanded_feasibility_bound_to_completed_audit": true,
+      "binary_UYZ_exact_from_bound_audit": true,
+      "exact_row_subset_and_unchanged_column_bounds": true,
+      "inherited_expanded_feasibility": true,
+      "proof": "Deleting rows with their corresponding bounds preserves every feasible vector; unchanged column bounds and identical tau expansion commute with row deletion.",
+      "witness_matrix_evaluations": 0,
+      "native_control_replays": 0,
+      "optimization_calls": 0
+    },
+    {
+      "case": "january_identity",
+      "rule": "locality48",
+      "rows": 28689,
+      "full_matrix_sha256": "2f11940f72432a2a2e89e4a88115eba3cf24a8e82a8110e250c6191020c1f0bb",
+      "full_bounds_sha256": "44ddedc6dd4b06028b9c7d10180cac4889dd51658a560d49f66ef8f3e31ab2d2",
+      "constructive_vector_sha256": "7c534f8691c761815224ac43773259da5a8e1d3eb2aa892dcb64dc46541672db",
+      "full_exact_expanded_feasibility_bound_to_completed_audit": true,
+      "binary_UYZ_exact_from_bound_audit": true,
+      "exact_row_subset_and_unchanged_column_bounds": true,
+      "inherited_expanded_feasibility": true,
+      "proof": "Deleting rows with their corresponding bounds preserves every feasible vector; unchanged column bounds and identical tau expansion commute with row deletion.",
+      "witness_matrix_evaluations": 0,
+      "native_control_replays": 0,
+      "optimization_calls": 0
+    },
+    {
+      "case": "seed_26100100",
+      "rule": "two_cc",
+      "rows": 19985,
+      "full_matrix_sha256": "2f11940f72432a2a2e89e4a88115eba3cf24a8e82a8110e250c6191020c1f0bb",
+      "full_bounds_sha256": "67172084585fe23ed9e3a5677d5a90ad90bb5f213546b132a8c1fecfff417d30",
+      "constructive_vector_sha256": "3c87e8d63674ac51e09b7a67e9d954c5957ebdda2cb3ee7b21b3e9f352d4d978",
+      "full_exact_expanded_feasibility_bound_to_completed_audit": true,
+      "binary_UYZ_exact_from_bound_audit": true,
+      "exact_row_subset_and_unchanged_column_bounds": true,
+      "inherited_expanded_feasibility": true,
+      "proof": "Deleting rows with their corresponding bounds preserves every feasible vector; unchanged column bounds and identical tau expansion commute with row deletion.",
+      "witness_matrix_evaluations": 0,
+      "native_control_replays": 0,
+      "optimization_calls": 0
+    },
+    {
+      "case": "seed_26100100",
+      "rule": "locality48",
+      "rows": 28689,
+      "full_matrix_sha256": "2f11940f72432a2a2e89e4a88115eba3cf24a8e82a8110e250c6191020c1f0bb",
+      "full_bounds_sha256": "67172084585fe23ed9e3a5677d5a90ad90bb5f213546b132a8c1fecfff417d30",
+      "constructive_vector_sha256": "3c87e8d63674ac51e09b7a67e9d954c5957ebdda2cb3ee7b21b3e9f352d4d978",
+      "full_exact_expanded_feasibility_bound_to_completed_audit": true,
+      "binary_UYZ_exact_from_bound_audit": true,
+      "exact_row_subset_and_unchanged_column_bounds": true,
+      "inherited_expanded_feasibility": true,
+      "proof": "Deleting rows with their corresponding bounds preserves every feasible vector; unchanged column bounds and identical tau expansion commute with row deletion.",
+      "witness_matrix_evaluations": 0,
+      "native_control_replays": 0,
+      "optimization_calls": 0
+    }
+  ],
+  "expansion": "Every finite bound expanded by exact binary64 tau=1e-5, cap to23195+tau; original nominal exact feasibility not asserted."
+}

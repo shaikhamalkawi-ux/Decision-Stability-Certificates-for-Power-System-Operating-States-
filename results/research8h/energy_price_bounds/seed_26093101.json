@@ -1,0 +1,143 @@
+{
+  "case": "seed_26093101",
+  "status": "EXACT_EXPANDED_BINARY_ENERGY_BRACKETS_VERIFIED",
+  "point_check": {
+    "exact_binary_UYZ": true,
+    "exact_nominal_pass": false,
+    "exact_expanded_pass": true,
+    "maximum_exact_column_violation": {
+      "numerator": "18043",
+      "denominator": "562949953421312",
+      "approximate": 3.205080645329872e-11,
+      "outward_floor_6dp": 0.0,
+      "outward_ceiling_6dp": 1e-06
+    },
+    "maximum_exact_row_violation": {
+      "numerator": "2801",
+      "denominator": "70368744177664",
+      "approximate": 3.980460405728081e-11,
+      "outward_floor_6dp": 0.0,
+      "outward_ceiling_6dp": 1e-06
+    },
+    "tau": {
+      "numerator": "5902958103587057",
+      "denominator": "590295810358705651712",
+      "approximate": 1e-05,
+      "outward_floor_6dp": 1e-05,
+      "outward_ceiling_6dp": 1.1e-05
+    },
+    "evaluated_rows": 34680,
+    "evaluated_columns": 23016
+  },
+  "native_arrays_exactly_match_capped_source": true,
+  "original_integrality_exactly_matches": true,
+  "exact_cap_row_deletion_and_other_bounds_unchanged": true,
+  "ray_objective_bound": {
+    "gamma": {
+      "numerator": "3095101013871647",
+      "denominator": "8796093022208",
+      "approximate": 351.8722466960352,
+      "outward_floor_6dp": 351.872246,
+      "outward_ceiling_6dp": 351.872247
+    },
+    "noncap_row_term": {
+      "numerator": "1310378480935174341658204322730274785",
+      "denominator": "13939095772746393800311058726912",
+      "approximate": 94007.42360183905,
+      "outward_floor_6dp": 94007.423601,
+      "outward_ceiling_6dp": 94007.423602
+    },
+    "box_term": {
+      "numerator": "-68915711056329758501246922460307011680188663072765",
+      "denominator": "980876664500348673626491320061500376186093568",
+      "approximate": -70259.30328502097,
+      "outward_floor_6dp": -70259.303286,
+      "outward_ceiling_6dp": -70259.303285
+    },
+    "nominal_lower_bound_MWh": {
+      "numerator": "23293977044513487779134607261956288508682916329475",
+      "denominator": "980876664500348673626491320061500376186093568",
+      "approximate": 23748.120316818087,
+      "outward_floor_6dp": 23748.120316,
+      "outward_ceiling_6dp": 23748.120317
+    },
+    "noncap_expansion_correction_MWh": {
+      "numerator": "577628428228965719507654991188923233558090810933221",
+      "denominator": "748017257712812807852052190854405686152515817570304",
+      "approximate": 0.7722127026790274,
+      "outward_floor_6dp": 0.772212,
+      "outward_ceiling_6dp": 0.772213
+    },
+    "expanded_lower_bound_MWh": {
+      "numerator": "195397688274711681069036215349601539278676442385844355369",
+      "denominator": "8228189834840940886372574099398462547677673993273344",
+      "approximate": 23747.34810411541,
+      "outward_floor_6dp": 23747.348104,
+      "outward_ceiling_6dp": 23747.348105
+    },
+    "cap_removal_identities_exact": true,
+    "bound_valid_for_continuous_and_binary_models": true
+  },
+  "target_lower_MWh": {
+    "numerator": "195397688274711681069036215349601539278676442385844355369",
+    "denominator": "8228189834840940886372574099398462547677673993273344",
+    "approximate": 23747.34810411541,
+    "outward_floor_6dp": 23747.348104,
+    "outward_ceiling_6dp": 23747.348105
+  },
+  "target_upper_MWh": {
+    "numerator": "1017815955397983932811197640867839",
+    "denominator": "39614081257132168796771975168",
+    "approximate": 25693.286909556562,
+    "outward_floor_6dp": 25693.286909,
+    "outward_ceiling_6dp": 25693.28691
+  },
+  "reference_energy_MWh": {
+    "numerator": "1654798412944827657145",
+    "denominator": "72057594037927936",
+    "approximate": 22964.941239556443,
+    "outward_floor_6dp": 22964.941239,
+    "outward_ceiling_6dp": 22964.94124
+  },
+  "identity_lower_MWh": {
+    "numerator": "815865757523951515867123",
+    "denominator": "36893488147419103232",
+    "approximate": 22114.0856691,
+    "outward_floor_6dp": 22114.085669,
+    "outward_ceiling_6dp": 22114.08567
+  },
+  "optimum_to_optimum_difference_MWh": {
+    "lower": {
+      "numerator": "6437792209673848539811440210861971843500331727601877289",
+      "denominator": "8228189834840940886372574099398462547677673993273344",
+      "approximate": 782.406864558965,
+      "outward_floor_6dp": 782.406864,
+      "outward_ceiling_6dp": 782.406865
+    },
+    "upper": {
+      "numerator": "141786768775074508476468049215487",
+      "denominator": "39614081257132168796771975168",
+      "approximate": 3579.201240456562,
+      "outward_floor_6dp": 3579.20124,
+      "outward_ceiling_6dp": 3579.201241
+    }
+  },
+  "target_optimum_excess_over_chosen_reference_MWh": {
+    "lower": {
+      "numerator": "6437792209673848539811440210861971843500331727601877289",
+      "denominator": "8228189834840940886372574099398462547677673993273344",
+      "approximate": 782.406864558965,
+      "outward_floor_6dp": 782.406864,
+      "outward_ceiling_6dp": 782.406865
+    },
+    "upper": {
+      "numerator": "108080907068929489317555947438079",
+      "denominator": "39614081257132168796771975168",
+      "approximate": 2728.3456700001207,
+      "outward_floor_6dp": 2728.34567,
+      "outward_ceiling_6dp": 2728.345671
+    }
+  },
+  "solver_objective_and_bound_not_used_as_exact_proof": true,
+  "optimization_calls": 0
+}

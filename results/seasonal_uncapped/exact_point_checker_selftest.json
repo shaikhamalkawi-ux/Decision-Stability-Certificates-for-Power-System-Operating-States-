@@ -1,0 +1,115 @@
+{
+  "source_sha256": "59b8f8f0d5446ef77e891df2a93bace8a664b5a846bd812cd2af266f2c41dc88",
+  "tests": [
+    {
+      "name": "exact_binary_feasible",
+      "expected_strict_expanded": [
+        true,
+        true
+      ],
+      "observed_strict_expanded": [
+        true,
+        true
+      ],
+      "pass": true
+    },
+    {
+      "name": "column_exact_tau",
+      "expected_strict_expanded": [
+        false,
+        true
+      ],
+      "observed_strict_expanded": [
+        false,
+        true
+      ],
+      "pass": true
+    },
+    {
+      "name": "column_one_ulp_above_tau",
+      "expected_strict_expanded": [
+        false,
+        false
+      ],
+      "observed_strict_expanded": [
+        false,
+        false
+      ],
+      "pass": true
+    },
+    {
+      "name": "row_exact_tau",
+      "expected_strict_expanded": [
+        false,
+        true
+      ],
+      "observed_strict_expanded": [
+        false,
+        true
+      ],
+      "pass": true
+    },
+    {
+      "name": "row_does_not_scale_tolerance_by_coefficient",
+      "expected_strict_expanded": [
+        false,
+        false
+      ],
+      "observed_strict_expanded": [
+        false,
+        false
+      ],
+      "pass": true
+    },
+    {
+      "name": "fractional_declared_binary_not_admitted",
+      "expected_strict_expanded": [
+        false,
+        false
+      ],
+      "observed_strict_expanded": [
+        false,
+        false
+      ],
+      "pass": true
+    },
+    {
+      "name": "infinite_sides_ignored",
+      "expected_strict_expanded": [
+        true,
+        true
+      ],
+      "observed_strict_expanded": [
+        true,
+        true
+      ],
+      "pass": true
+    },
+    {
+      "name": "negative_coefficient_lower_row_violation",
+      "expected_strict_expanded": [
+        false,
+        false
+      ],
+      "observed_strict_expanded": [
+        false,
+        false
+      ],
+      "pass": true
+    },
+    {
+      "name": "nonfinite_point_rejected",
+      "expected_strict_expanded": [
+        false,
+        false
+      ],
+      "observed_strict_expanded": [
+        false,
+        false
+      ],
+      "pass": true
+    }
+  ],
+  "all_pass": true,
+  "optimizer_calls": 0
+}

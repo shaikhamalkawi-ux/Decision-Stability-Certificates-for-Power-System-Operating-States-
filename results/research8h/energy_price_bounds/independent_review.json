@@ -1,0 +1,133 @@
+{
+  "status": "PASS_COMPLETE",
+  "utc": "2026-09-26T22:08:57.316397+00:00",
+  "optimization_calls": 0,
+  "full_point_row_replays": 0,
+  "full_point_feasibility_basis": "The reviewed audit independently evaluated every point row exactly; its frozen point inputs and saved passing exact-expanded checks are bound here. This review recomputed objectives and exact binary coordinates but did not repeat every point-row evaluation.",
+  "pre_execution_source_and_proof_review": "PASS",
+  "audit_frozen_inputs_checked": 49,
+  "uncapped_preparation_manifest_files_checked": 55,
+  "all_bound_hashes_pass": true,
+  "fossil_roster_and_objective_pass": true,
+  "identity_all_168_actual_aggregate_supports_and_bounds_pass": true,
+  "identity_exact_hourly_max_and_sum_pass": true,
+  "identity_lower_MWh": {
+    "numerator": "815865757523951515867123",
+    "denominator": "36893488147419103232",
+    "approximate": 22114.0856691
+  },
+  "reference_energy_MWh": {
+    "numerator": "1654798412944827657145",
+    "denominator": "72057594037927936",
+    "approximate": 22964.941239556443
+  },
+  "cases": [
+    {
+      "case": "seed_26093100",
+      "exact_cap_deletion_and_other_bounds_pass": true,
+      "native_arrays_and_integrality_bindings_pass": true,
+      "exact_binary_coordinates_and_objective_sum_pass": true,
+      "independent_noncap_row_and_box_lower_bound_pass": true,
+      "both_cap_removal_gap_identities_pass": true,
+      "target_lower_MWh": {
+        "numerator": "501134615735264413111413848281894421878455851993288422488358615551687",
+        "denominator": "21192697132509903820492883951411311555913462260006428132876746752",
+        "approximate": 23646.570920249535
+      },
+      "target_upper_MWh": {
+        "numerator": "906578891427777312835",
+        "denominator": "36028797018963968",
+        "approximate": 25162.61897255671
+      },
+      "optimum_to_optimum_difference_MWh": {
+        "lower": {
+          "numerator": "14445571379458169143719492421022879208479870054482202604696976527047",
+          "denominator": "21192697132509903820492883951411311555913462260006428132876746752",
+          "approximate": 681.6296806930937
+        },
+        "upper": {
+          "numerator": "112471027298092452475917",
+          "denominator": "36893488147419103232",
+          "approximate": 3048.533303456708
+        }
+      },
+      "chosen_reference_excess_MWh": {
+        "lower": {
+          "numerator": "14445571379458169143719492421022879208479870054482202604696976527047",
+          "denominator": "21192697132509903820492883951411311555913462260006428132876746752",
+          "approximate": 681.6296806930937
+        },
+        "upper": {
+          "numerator": "158359369910726968525",
+          "denominator": "72057594037927936",
+          "approximate": 2197.6777330002665
+        }
+      },
+      "all_difference_endpoint_signs_and_values_pass": true,
+      "case_output_sha256": "a7813b4ad400f2f7416bf399e9c59deb127b9509c438555a851423b3b9c78c57"
+    },
+    {
+      "case": "seed_26093101",
+      "exact_cap_deletion_and_other_bounds_pass": true,
+      "native_arrays_and_integrality_bindings_pass": true,
+      "exact_binary_coordinates_and_objective_sum_pass": true,
+      "independent_noncap_row_and_box_lower_bound_pass": true,
+      "both_cap_removal_gap_identities_pass": true,
+      "target_lower_MWh": {
+        "numerator": "195397688274711681069036215349601539278676442385844355369",
+        "denominator": "8228189834840940886372574099398462547677673993273344",
+        "approximate": 23747.34810411541
+      },
+      "target_upper_MWh": {
+        "numerator": "1017815955397983932811197640867839",
+        "denominator": "39614081257132168796771975168",
+        "approximate": 25693.286909556562
+      },
+      "optimum_to_optimum_difference_MWh": {
+        "lower": {
+          "numerator": "6437792209673848539811440210861971843500331727601877289",
+          "denominator": "8228189834840940886372574099398462547677673993273344",
+          "approximate": 782.406864558965
+        },
+        "upper": {
+          "numerator": "141786768775074508476468049215487",
+          "denominator": "39614081257132168796771975168",
+          "approximate": 3579.201240456562
+        }
+      },
+      "chosen_reference_excess_MWh": {
+        "lower": {
+          "numerator": "6437792209673848539811440210861971843500331727601877289",
+          "denominator": "8228189834840940886372574099398462547677673993273344",
+          "approximate": 782.406864558965
+        },
+        "upper": {
+          "numerator": "108080907068929489317555947438079",
+          "denominator": "39614081257132168796771975168",
+          "approximate": 2728.3456700001207
+        }
+      },
+      "all_difference_endpoint_signs_and_values_pass": true,
+      "case_output_sha256": "0f4744e263ad5d9ac1876541f92979fae426e529558c0806cdb76f9727482d2d"
+    }
+  ],
+  "outward_decimal_display_records_checked": 543,
+  "outward_decimal_display_bounds_pass": true,
+  "output_bindings": {
+    "audit_freeze.json": "53d531d6817984ed857e60471087eae6099332a43be62b8da37fe85bf7b99e49",
+    "identity_bound.json": "e6fb6dab6681dea8a2403f32c12d1c13367da0b7ba061e90c115f161bc09be43",
+    "results.json": "df51bf6cfe4fae89a515fa48586fdd4adad1038f0e5200b220cd3c8a642b2a91",
+    "completion.json": "0802ae53807c919b7e5e78af0d50853efd152fab028698eef777237d89850c43"
+  },
+  "scope": "Both optima are the original-binary uncapped models after explicit tau=Fraction.from_float(1e-5) outward expansion of every finite row and column bound. January is one week in one RTS network; nominal exact optima, economic cost, carbon impact and multiseason replication are not claimed.",
+  "reporting_labels_and_endpoints": {
+    "status": "PASS",
+    "summary_csv_two_rows_match_exact_outward_displays": true,
+    "readout_three_interval_columns_match_summary": true,
+    "optimum_difference_distinguished_from_chosen_reference_excess": true,
+    "readout_identity_lower_decimal_is_outward_safe": true,
+    "both_targets_complete_at_original_availability_freeze": true,
+    "READOUT.md_sha256": "04c4cc2451e07c2e4a8c97a4109901e662f07c943b28d2f25c13a6d24b6e9932",
+    "summary.csv_sha256": "b4c6f67b1cb401f3cbf3f6bfb66648b6af7449c6c50f9b01aa5954e1c5da59aa"
+  }
+}
