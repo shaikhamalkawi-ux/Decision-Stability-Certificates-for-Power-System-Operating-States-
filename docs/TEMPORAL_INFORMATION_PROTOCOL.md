@@ -3,6 +3,10 @@
 Recorded 2026-09-26 before running the paired-order experiment. This is a
 bounded exploratory pilot, not a claim of novelty or a replacement manuscript.
 Baseline source commit: `1c32c5f65a7aba51c721f61a7fe9bb3b1a280dcd`.
+Pre-execution amendment: an independent audit identified a maximum native dwell
+of 48 hours. Before generating any permutations or inspecting any outcomes,
+the edge buffer was increased from 24 to 48 hours on each side. No other design
+choice changed. This does not claim invariance to other boundary conventions.
 
 ## Question and falsifiable outcomes
 
@@ -19,7 +23,7 @@ summary or a globally minimum certificate.
    balance, branch limits, native on/on ramps and minimum residence times.
    The target is this witness's complete 41-generator mean, not the infeasible
    original static mean. No optimization is used to create the positive case.
-2. Keep hours 0--23 and 144--167 fixed. Permute the interior 120 complete hourly
+2. Keep hours 0--47 and 120--167 fixed. Permute the interior 72 complete hourly
    packages using NumPy PCG64 seeds 26092600 through 26092615. Each package
    contains native row ID, nodal load and embedded PV, generation availability,
    and witness dispatch. Preserve a full permutation map. Use identity as the
@@ -27,7 +31,7 @@ summary or a globally minimum certificate.
    permutation, not merely by comparing rounded descriptive statistics.
 3. All cases retain one-hour steps, native minimum up/down times, and the
    existing free initial history and truncated terminal dwell conventions.
-   Every generator remains a separate physical unit. First and last days being
+   Every generator remains a separate physical unit. First and last two days being
    fixed strengthens boundary control but does not impose a new initial state.
 4. Apply the existing solver-free necessary-condition method: balance/energy
    interval propagation, then individual-unit residence/count reachability.
