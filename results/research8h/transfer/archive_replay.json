@@ -1,0 +1,942 @@
+[
+  {
+    "case": "ordinary_26092700",
+    "model": "full",
+    "type": "exact_certificate",
+    "check": {
+      "pass": true,
+      "robust_pass": true,
+      "arithmetic": "exact rational interpretation of archived binary64 matrix, bounds and ray",
+      "row_multiplier_nonzeros": 1016,
+      "combined_column_nonzeros": 8095,
+      "lower_row_sum": 7632408.068988795,
+      "box_maximum": 7560285.267518922,
+      "separation_gap": 72122.80146987384,
+      "outward_bound_relaxation": 1e-05,
+      "robust_separation_gap": 72096.96606411248,
+      "maximum_uniform_bound_relaxation": 0.027916264267743268,
+      "exact_gap_numerator": "411748407957469839996095812741071379651649562553643",
+      "exact_gap_denominator": "5708990770823839524233143877797980545530986496",
+      "exact_robust_gap_numerator": "431594839856295652603374981149240740427120965379085911515",
+      "exact_robust_gap_denominator": "5986310706507378352962293074805895248510699696029696",
+      "elapsed_s": 0.8168359999835957,
+      "scope": "mathematical model with archived float coefficients; not exact physical measurements"
+    }
+  },
+  {
+    "case": "ordinary_26092700",
+    "model": "two_cc",
+    "type": "exact_certificate",
+    "check": {
+      "pass": true,
+      "robust_pass": true,
+      "arithmetic": "exact rational interpretation of archived binary64 matrix, bounds and ray",
+      "row_multiplier_nonzeros": 384,
+      "combined_column_nonzeros": 6423,
+      "lower_row_sum": 290944.2966555074,
+      "box_maximum": 288824.3183098595,
+      "separation_gap": 2119.978345647875,
+      "outward_bound_relaxation": 1e-05,
+      "robust_separation_gap": 2118.7857145211146,
+      "maximum_uniform_bound_relaxation": 0.017775641588411148,
+      "exact_gap_numerator": "193646988954401761956820402298050065358275431182979",
+      "exact_gap_denominator": "91343852333181432387730302044767688728495783936",
+      "exact_robust_gap_numerator": "6341854803816316570952774146556507481281251223626022013",
+      "exact_robust_gap_denominator": "2993155353253689176481146537402947624255349848014848",
+      "elapsed_s": 0.4558818999794312,
+      "scope": "mathematical model with archived float coefficients; not exact physical measurements"
+    }
+  },
+  {
+    "case": "ordinary_26092700",
+    "model": "locality48",
+    "type": "exact_certificate",
+    "check": {
+      "pass": true,
+      "robust_pass": true,
+      "arithmetic": "exact rational interpretation of archived binary64 matrix, bounds and ray",
+      "row_multiplier_nonzeros": 580,
+      "combined_column_nonzeros": 7200,
+      "lower_row_sum": 150251.3898013209,
+      "box_maximum": 149434.70220370832,
+      "separation_gap": 816.6875976125802,
+      "outward_bound_relaxation": 1e-05,
+      "robust_separation_gap": 816.2937078146074,
+      "maximum_uniform_bound_relaxation": 0.020733910901362274,
+      "exact_gap_numerator": "149198782637328463903773068146686426358235885258799",
+      "exact_gap_denominator": "182687704666362864775460604089535377456991567872",
+      "exact_robust_gap_numerator": "9773175525490379748619079264495295186408056765895361483",
+      "exact_robust_gap_denominator": "11972621413014756705924586149611790497021399392059392",
+      "elapsed_s": 0.8339838999963831,
+      "scope": "mathematical model with archived float coefficients; not exact physical measurements"
+    }
+  },
+  {
+    "case": "ordinary_26092701",
+    "model": "full",
+    "type": "exact_certificate",
+    "check": {
+      "pass": true,
+      "robust_pass": true,
+      "arithmetic": "exact rational interpretation of archived binary64 matrix, bounds and ray",
+      "row_multiplier_nonzeros": 902,
+      "combined_column_nonzeros": 7819,
+      "lower_row_sum": 21573383.57012319,
+      "box_maximum": 21425240.15158617,
+      "separation_gap": 148143.41853701763,
+      "outward_bound_relaxation": 1e-05,
+      "robust_separation_gap": 148060.25756995275,
+      "maximum_uniform_bound_relaxation": 0.017814056734266847,
+      "exact_gap_numerator": "52859338074132928890189188560167357270327660724191",
+      "exact_gap_denominator": "356811923176489970264571492362373784095686656",
+      "exact_robust_gap_numerator": "443167352549624096626592949354500909498610725216423349895",
+      "exact_robust_gap_denominator": "2993155353253689176481146537402947624255349848014848",
+      "elapsed_s": 0.5057403999962844,
+      "scope": "mathematical model with archived float coefficients; not exact physical measurements"
+    }
+  },
+  {
+    "case": "ordinary_26092701",
+    "model": "two_cc",
+    "type": "exact_certificate",
+    "check": {
+      "pass": true,
+      "robust_pass": true,
+      "arithmetic": "exact rational interpretation of archived binary64 matrix, bounds and ray",
+      "row_multiplier_nonzeros": 363,
+      "combined_column_nonzeros": 6365,
+      "lower_row_sum": 615591.110027118,
+      "box_maximum": 610063.2441176474,
+      "separation_gap": 5527.865909470562,
+      "outward_bound_relaxation": 1e-05,
+      "robust_separation_gap": 5524.5948453529145,
+      "maximum_uniform_bound_relaxation": 0.016899289376959267,
+      "exact_gap_numerator": "15779267729759584220117756205324174782346911749655",
+      "exact_gap_denominator": "2854495385411919762116571938898990272765493248",
+      "exact_robust_gap_numerator": "66143882543703257707180120474445908986557105229271511689",
+      "exact_robust_gap_denominator": "11972621413014756705924586149611790497021399392059392",
+      "elapsed_s": 0.24955589999444783,
+      "scope": "mathematical model with archived float coefficients; not exact physical measurements"
+    }
+  },
+  {
+    "case": "ordinary_26092701",
+    "model": "locality48",
+    "type": "exact_certificate",
+    "check": {
+      "pass": true,
+      "robust_pass": true,
+      "arithmetic": "exact rational interpretation of archived binary64 matrix, bounds and ray",
+      "row_multiplier_nonzeros": 848,
+      "combined_column_nonzeros": 6942,
+      "lower_row_sum": 1408673.5876333397,
+      "box_maximum": 1404232.901565758,
+      "separation_gap": 4440.68606758165,
+      "outward_bound_relaxation": 1e-05,
+      "robust_separation_gap": 4436.871233483994,
+      "maximum_uniform_bound_relaxation": 0.011640574541132645,
+      "exact_gap_numerator": "101407343103798579774421672982353029307010329728787",
+      "exact_gap_denominator": "22835963083295358096932575511191922182123945984",
+      "exact_robust_gap_numerator": "13280244884199914368703065100973984434490746240522879507",
+      "exact_robust_gap_denominator": "2993155353253689176481146537402947624255349848014848",
+      "elapsed_s": 0.34786130001884885,
+      "scope": "mathematical model with archived float coefficients; not exact physical measurements"
+    }
+  },
+  {
+    "case": "ordinary_26092702",
+    "model": "full",
+    "type": "exact_certificate",
+    "check": {
+      "pass": true,
+      "robust_pass": true,
+      "arithmetic": "exact rational interpretation of archived binary64 matrix, bounds and ray",
+      "row_multiplier_nonzeros": 848,
+      "combined_column_nonzeros": 7771,
+      "lower_row_sum": 8571533.546660168,
+      "box_maximum": 8524555.436100366,
+      "separation_gap": 46978.11055980285,
+      "outward_bound_relaxation": 1e-05,
+      "robust_separation_gap": 46941.53116162742,
+      "maximum_uniform_bound_relaxation": 0.012842778422569819,
+      "exact_gap_numerator": "67049399904164106090546538305768674087617653370847",
+      "exact_gap_denominator": "1427247692705959881058285969449495136382746624",
+      "exact_robust_gap_numerator": "281006590572699941474550744749030032898577370513006388445",
+      "exact_robust_gap_denominator": "5986310706507378352962293074805895248510699696029696",
+      "elapsed_s": 0.48323049998725764,
+      "scope": "mathematical model with archived float coefficients; not exact physical measurements"
+    }
+  },
+  {
+    "case": "ordinary_26092702",
+    "model": "two_cc",
+    "type": "exact_certificate",
+    "check": {
+      "pass": true,
+      "robust_pass": true,
+      "arithmetic": "exact rational interpretation of archived binary64 matrix, bounds and ray",
+      "row_multiplier_nonzeros": 469,
+      "combined_column_nonzeros": 6829,
+      "lower_row_sum": 303770.56381405913,
+      "box_maximum": 301919.22941176506,
+      "separation_gap": 1851.3344022940855,
+      "outward_bound_relaxation": 1e-05,
+      "robust_separation_gap": 1850.084156999968,
+      "maximum_uniform_bound_relaxation": 0.014807769411366994,
+      "exact_gap_numerator": "84554008131244830510779145131285546841809773727331",
+      "exact_gap_denominator": "45671926166590716193865151022383844364247891968",
+      "exact_robust_gap_numerator": "2768794649247146368851082548670544322779308549326964691",
+      "exact_robust_gap_denominator": "1496577676626844588240573268701473812127674924007424",
+      "elapsed_s": 0.6592728000250645,
+      "scope": "mathematical model with archived float coefficients; not exact physical measurements"
+    }
+  },
+  {
+    "case": "ordinary_26092702",
+    "model": "locality48",
+    "type": "exact_certificate",
+    "check": {
+      "pass": true,
+      "robust_pass": true,
+      "arithmetic": "exact rational interpretation of archived binary64 matrix, bounds and ray",
+      "row_multiplier_nonzeros": 898,
+      "combined_column_nonzeros": 7694,
+      "lower_row_sum": 7373458.135368922,
+      "box_maximum": 7320593.338395137,
+      "separation_gap": 52864.79697378472,
+      "outward_bound_relaxation": 1e-05,
+      "robust_separation_gap": 52839.62702278548,
+      "maximum_uniform_bound_relaxation": 0.021003138613726942,
+      "exact_gap_numerator": "75451159506203255934572638382443547823966517110765",
+      "exact_gap_denominator": "1427247692705959881058285969449495136382746624",
+      "exact_robust_gap_numerator": "632628849948714595434116527011499364881316602456285749741",
+      "exact_robust_gap_denominator": "11972621413014756705924586149611790497021399392059392",
+      "elapsed_s": 0.553668899985496,
+      "scope": "mathematical model with archived float coefficients; not exact physical measurements"
+    }
+  },
+  {
+    "case": "ordinary_26092703",
+    "model": "full",
+    "type": "exact_certificate",
+    "check": {
+      "pass": true,
+      "robust_pass": true,
+      "arithmetic": "exact rational interpretation of archived binary64 matrix, bounds and ray",
+      "row_multiplier_nonzeros": 784,
+      "combined_column_nonzeros": 6980,
+      "lower_row_sum": 126109.24025027084,
+      "box_maximum": 125301.00700290095,
+      "separation_gap": 808.2332473698897,
+      "outward_bound_relaxation": 1e-05,
+      "robust_separation_gap": 807.6091918823525,
+      "maximum_uniform_bound_relaxation": 0.012951304227121952,
+      "exact_gap_numerator": "147654276797045805749741101045038549847741060979887",
+      "exact_gap_denominator": "182687704666362864775460604089535377456991567872",
+      "exact_robust_gap_numerator": "9669199104078196950937416345296975562967452724482959277",
+      "exact_robust_gap_denominator": "11972621413014756705924586149611790497021399392059392",
+      "elapsed_s": 2.760934499994619,
+      "scope": "mathematical model with archived float coefficients; not exact physical measurements"
+    }
+  },
+  {
+    "case": "ordinary_26092703",
+    "model": "two_cc",
+    "type": "exact_certificate",
+    "check": {
+      "pass": true,
+      "robust_pass": true,
+      "arithmetic": "exact rational interpretation of archived binary64 matrix, bounds and ray",
+      "row_multiplier_nonzeros": 373,
+      "combined_column_nonzeros": 6354,
+      "lower_row_sum": 437178.2255813237,
+      "box_maximum": 433976.66338028153,
+      "separation_gap": 3201.5622010422294,
+      "outward_bound_relaxation": 1e-05,
+      "robust_separation_gap": 3199.2510223098348,
+      "maximum_uniform_bound_relaxation": 0.01385250805646447,
+      "exact_gap_numerator": "73110756231874178931761795154332737537832307507163",
+      "exact_gap_denominator": "22835963083295358096932575511191922182123945984",
+      "exact_robust_gap_numerator": "1196981915478627513641451581067538246878177438471101285",
+      "exact_robust_gap_denominator": "374144419156711147060143317175368453031918731001856",
+      "elapsed_s": 1.0516505000123288,
+      "scope": "mathematical model with archived float coefficients; not exact physical measurements"
+    }
+  },
+  {
+    "case": "ordinary_26092703",
+    "model": "locality48",
+    "type": "exact_certificate",
+    "check": {
+      "pass": true,
+      "robust_pass": true,
+      "arithmetic": "exact rational interpretation of archived binary64 matrix, bounds and ray",
+      "row_multiplier_nonzeros": 887,
+      "combined_column_nonzeros": 7601,
+      "lower_row_sum": 28499083.77496341,
+      "box_maximum": 28411691.7060113,
+      "separation_gap": 87392.06895210761,
+      "outward_bound_relaxation": 1e-05,
+      "robust_separation_gap": 87291.42230513967,
+      "maximum_uniform_bound_relaxation": 0.008683058162875967,
+      "exact_gap_numerator": "62365064386347868909066653230274304789537481945249",
+      "exact_gap_denominator": "713623846352979940529142984724747568191373312",
+      "exact_robust_gap_numerator": "16329799247859830313389116354959473073492428691924177929",
+      "exact_robust_gap_denominator": "187072209578355573530071658587684226515959365500928",
+      "elapsed_s": 0.7253567000152543,
+      "scope": "mathematical model with archived float coefficients; not exact physical measurements"
+    }
+  },
+  {
+    "case": "ordinary_26092704",
+    "model": "full",
+    "type": "exact_certificate",
+    "check": {
+      "pass": true,
+      "robust_pass": true,
+      "arithmetic": "exact rational interpretation of archived binary64 matrix, bounds and ray",
+      "row_multiplier_nonzeros": 660,
+      "combined_column_nonzeros": 6975,
+      "lower_row_sum": 58538930.85354393,
+      "box_maximum": 57915129.912845716,
+      "separation_gap": 623800.9406982146,
+      "outward_bound_relaxation": 1e-05,
+      "robust_separation_gap": 623549.166243435,
+      "maximum_uniform_bound_relaxation": 0.024776180778315574,
+      "exact_gap_numerator": "445159226659667069633926107974476595629693216134559",
+      "exact_gap_denominator": "713623846352979940529142984724747568191373312",
+      "exact_robust_gap_numerator": "466594881239603006727720380293673691356624897446079930933",
+      "exact_robust_gap_denominator": "748288838313422294120286634350736906063837462003712",
+      "elapsed_s": 1.6587988999963272,
+      "scope": "mathematical model with archived float coefficients; not exact physical measurements"
+    }
+  },
+  {
+    "case": "ordinary_26092704",
+    "model": "two_cc",
+    "type": "exact_certificate",
+    "check": {
+      "pass": true,
+      "robust_pass": true,
+      "arithmetic": "exact rational interpretation of archived binary64 matrix, bounds and ray",
+      "row_multiplier_nonzeros": 493,
+      "combined_column_nonzeros": 6448,
+      "lower_row_sum": 750607.9831446712,
+      "box_maximum": 744929.0441176316,
+      "separation_gap": 5678.939027039563,
+      "outward_bound_relaxation": 1e-05,
+      "robust_separation_gap": 5676.350854686622,
+      "maximum_uniform_bound_relaxation": 0.021941888918588337,
+      "exact_gap_numerator": "146011250777232142713775037621417946181026457191226710398821720337",
+      "exact_gap_denominator": "25711008708143844408671393477458601640355247900524685364822016",
+      "exact_robust_gap_numerator": "1195579033643642849120845847463115271523589587286250976910724651137263",
+      "exact_robust_gap_denominator": "210624583337114373395836055367340864637790190801098222508621955072",
+      "elapsed_s": 0.8509981000097468,
+      "scope": "mathematical model with archived float coefficients; not exact physical measurements"
+    }
+  },
+  {
+    "case": "ordinary_26092704",
+    "model": "locality48",
+    "type": "exact_certificate",
+    "check": {
+      "pass": true,
+      "robust_pass": true,
+      "arithmetic": "exact rational interpretation of archived binary64 matrix, bounds and ray",
+      "row_multiplier_nonzeros": 600,
+      "combined_column_nonzeros": 6617,
+      "lower_row_sum": 1948506.9979597789,
+      "box_maximum": 1937921.912117029,
+      "separation_gap": 10585.085842749679,
+      "outward_bound_relaxation": 1e-05,
+      "robust_separation_gap": 10578.953031345814,
+      "maximum_uniform_bound_relaxation": 0.01725976089217178,
+      "exact_gap_numerator": "30215078692317999814205976450817679495421772236357",
+      "exact_gap_denominator": "2854495385411919762116571938898990272765493248",
+      "exact_robust_gap_numerator": "63328899795184129462770587434161159170605625280978686367",
+      "exact_robust_gap_denominator": "5986310706507378352962293074805895248510699696029696",
+      "elapsed_s": 2.0283745999913663,
+      "scope": "mathematical model with archived float coefficients; not exact physical measurements"
+    }
+  },
+  {
+    "case": "ordinary_26092705",
+    "model": "full",
+    "type": "exact_certificate",
+    "check": {
+      "pass": true,
+      "robust_pass": true,
+      "arithmetic": "exact rational interpretation of archived binary64 matrix, bounds and ray",
+      "row_multiplier_nonzeros": 660,
+      "combined_column_nonzeros": 7583,
+      "lower_row_sum": 50520.687686063684,
+      "box_maximum": 50114.15183046159,
+      "separation_gap": 406.5358556020982,
+      "outward_bound_relaxation": 1e-05,
+      "robust_separation_gap": 406.3077306761902,
+      "maximum_uniform_bound_relaxation": 0.017820755622559126,
+      "exact_gap_numerator": "148538204649046503650371482068820786373036662383479",
+      "exact_gap_denominator": "365375409332725729550921208179070754913983135744",
+      "exact_robust_gap_numerator": "2432284318283593616952645404210626302238908711576323859",
+      "exact_robust_gap_denominator": "5986310706507378352962293074805895248510699696029696",
+      "elapsed_s": 1.1488037999952212,
+      "scope": "mathematical model with archived float coefficients; not exact physical measurements"
+    }
+  },
+  {
+    "case": "ordinary_26092705",
+    "model": "two_cc",
+    "type": "exact_certificate",
+    "check": {
+      "pass": true,
+      "robust_pass": true,
+      "arithmetic": "exact rational interpretation of archived binary64 matrix, bounds and ray",
+      "row_multiplier_nonzeros": 401,
+      "combined_column_nonzeros": 6473,
+      "lower_row_sum": 906634.9959271471,
+      "box_maximum": 900373.5117647059,
+      "separation_gap": 6261.484162441195,
+      "outward_bound_relaxation": 1e-05,
+      "robust_separation_gap": 6257.661669500018,
+      "maximum_uniform_bound_relaxation": 0.016380629758636155,
+      "exact_gap_numerator": "17873377647518209450573923669888619113726097017423",
+      "exact_gap_denominator": "2854495385411919762116571938898990272765493248",
+      "exact_robust_gap_numerator": "18730153524914397198240281977917092088106661010576982171",
+      "exact_robust_gap_denominator": "2993155353253689176481146537402947624255349848014848",
+      "elapsed_s": 0.24395889998413622,
+      "scope": "mathematical model with archived float coefficients; not exact physical measurements"
+    }
+  },
+  {
+    "case": "ordinary_26092705",
+    "model": "locality48",
+    "type": "exact_certificate",
+    "check": {
+      "pass": true,
+      "robust_pass": true,
+      "arithmetic": "exact rational interpretation of archived binary64 matrix, bounds and ray",
+      "row_multiplier_nonzeros": 807,
+      "combined_column_nonzeros": 7582,
+      "lower_row_sum": 239900907.4469475,
+      "box_maximum": 238570961.2294851,
+      "separation_gap": 1329946.2174624011,
+      "outward_bound_relaxation": 1e-05,
+      "robust_separation_gap": 1329215.7926549525,
+      "maximum_uniform_bound_relaxation": 0.018207845679664728,
+      "exact_gap_numerator": "237270333787028867359180579594771847759437239291831",
+      "exact_gap_denominator": "178405961588244985132285746181186892047843328",
+      "exact_robust_gap_numerator": "3885302114662614312277262232563067046840787771527147445",
+      "exact_robust_gap_denominator": "2923003274661805836407369665432566039311865085952",
+      "elapsed_s": 0.8302996999991592,
+      "scope": "mathematical model with archived float coefficients; not exact physical measurements"
+    }
+  },
+  {
+    "case": "ordinary_26092706",
+    "model": "full",
+    "type": "exact_certificate",
+    "check": {
+      "pass": true,
+      "robust_pass": true,
+      "arithmetic": "exact rational interpretation of archived binary64 matrix, bounds and ray",
+      "row_multiplier_nonzeros": 680,
+      "combined_column_nonzeros": 6959,
+      "lower_row_sum": 296015.3666998868,
+      "box_maximum": 293984.20402967185,
+      "separation_gap": 2031.1626702149579,
+      "outward_bound_relaxation": 1e-05,
+      "robust_separation_gap": 2030.1747525378646,
+      "maximum_uniform_bound_relaxation": 0.020560039741277528,
+      "exact_gap_numerator": "46383555753196403605160976067725711134834214906389",
+      "exact_gap_denominator": "22835963083295358096932575511191922182123945984",
+      "exact_robust_gap_numerator": "3038314214299596571540191072181534252914912722703780611",
+      "exact_robust_gap_denominator": "1496577676626844588240573268701473812127674924007424",
+      "elapsed_s": 1.7765721999749076,
+      "scope": "mathematical model with archived float coefficients; not exact physical measurements"
+    }
+  },
+  {
+    "case": "ordinary_26092706",
+    "model": "two_cc",
+    "type": "exact_certificate",
+    "check": {
+      "pass": true,
+      "robust_pass": true,
+      "arithmetic": "exact rational interpretation of archived binary64 matrix, bounds and ray",
+      "row_multiplier_nonzeros": 510,
+      "combined_column_nonzeros": 6933,
+      "lower_row_sum": 299027.5711345602,
+      "box_maximum": 297217.46176470735,
+      "separation_gap": 1810.1093698528418,
+      "outward_bound_relaxation": 1e-05,
+      "robust_separation_gap": 1809.0242598528419,
+      "maximum_uniform_bound_relaxation": 0.016681344470632745,
+      "exact_gap_numerator": "82671181493373037738762849309802392705966600071407",
+      "exact_gap_denominator": "45671926166590716193865151022383844364247891968",
+      "exact_robust_gap_numerator": "95256245244559130762974577025443317854195251881404424760636754650939",
+      "exact_robust_gap_denominator": "52656145834278593348959013841835216159447547700274555627155488768",
+      "elapsed_s": 0.4599107000103686,
+      "scope": "mathematical model with archived float coefficients; not exact physical measurements"
+    }
+  },
+  {
+    "case": "ordinary_26092706",
+    "model": "locality48",
+    "type": "exact_certificate",
+    "check": {
+      "pass": true,
+      "robust_pass": true,
+      "arithmetic": "exact rational interpretation of archived binary64 matrix, bounds and ray",
+      "row_multiplier_nonzeros": 660,
+      "combined_column_nonzeros": 6645,
+      "lower_row_sum": 81416.26610684095,
+      "box_maximum": 81001.039475106,
+      "separation_gap": 415.2266317349615,
+      "outward_bound_relaxation": 1e-05,
+      "robust_separation_gap": 414.9542782297396,
+      "maximum_uniform_bound_relaxation": 0.015245870670790659,
+      "exact_gap_numerator": "75856800268005257016549209163654486233714436350193",
+      "exact_gap_denominator": "182687704666362864775460604089535377456991567872",
+      "exact_robust_gap_numerator": "4968090476955463162495102052379113371409344412728765437",
+      "exact_robust_gap_denominator": "11972621413014756705924586149611790497021399392059392",
+      "elapsed_s": 1.3277937000093516,
+      "scope": "mathematical model with archived float coefficients; not exact physical measurements"
+    }
+  },
+  {
+    "case": "ordinary_26092707",
+    "model": "full",
+    "type": "exact_certificate",
+    "check": {
+      "pass": true,
+      "robust_pass": true,
+      "arithmetic": "exact rational interpretation of archived binary64 matrix, bounds and ray",
+      "row_multiplier_nonzeros": 704,
+      "combined_column_nonzeros": 7565,
+      "lower_row_sum": 39773222.14710146,
+      "box_maximum": 39555978.71205901,
+      "separation_gap": 217243.4350424502,
+      "outward_bound_relaxation": 1e-05,
+      "robust_separation_gap": 217101.84247571477,
+      "maximum_uniform_bound_relaxation": 0.015342855917597573,
+      "exact_gap_numerator": "77515047854963533764654380846748721474957700533133",
+      "exact_gap_denominator": "356811923176489970264571492362373784095686656",
+      "exact_robust_gap_numerator": "162454885501856215065082293735007816020950207549708702495",
+      "exact_robust_gap_denominator": "748288838313422294120286634350736906063837462003712",
+      "elapsed_s": 0.846253900002921,
+      "scope": "mathematical model with archived float coefficients; not exact physical measurements"
+    }
+  },
+  {
+    "case": "ordinary_26092707",
+    "model": "two_cc",
+    "type": "exact_certificate",
+    "check": {
+      "pass": true,
+      "robust_pass": true,
+      "arithmetic": "exact rational interpretation of archived binary64 matrix, bounds and ray",
+      "row_multiplier_nonzeros": 312,
+      "combined_column_nonzeros": 6330,
+      "lower_row_sum": 305075.55534364714,
+      "box_maximum": 303173.22058823536,
+      "separation_gap": 1902.3347554117859,
+      "outward_bound_relaxation": 1e-05,
+      "robust_separation_gap": 1901.3403551176682,
+      "maximum_uniform_bound_relaxation": 0.019130472573922235,
+      "exact_gap_numerator": "43441646246653245569124073080029185419705488030411",
+      "exact_gap_denominator": "22835963083295358096932575511191922182123945984",
+      "exact_robust_gap_numerator": "22764028249110875695282212769234978160463102977009061107",
+      "exact_robust_gap_denominator": "11972621413014756705924586149611790497021399392059392",
+      "elapsed_s": 0.36839489999692887,
+      "scope": "mathematical model with archived float coefficients; not exact physical measurements"
+    }
+  },
+  {
+    "case": "ordinary_26092707",
+    "model": "locality48",
+    "type": "exact_certificate",
+    "check": {
+      "pass": true,
+      "robust_pass": true,
+      "arithmetic": "exact rational interpretation of archived binary64 matrix, bounds and ray",
+      "row_multiplier_nonzeros": 590,
+      "combined_column_nonzeros": 7227,
+      "lower_row_sum": 22525.19708646925,
+      "box_maximum": 22432.970271088045,
+      "separation_gap": 92.22681538120258,
+      "outward_bound_relaxation": 1e-05,
+      "robust_separation_gap": 92.17172915160998,
+      "maximum_uniform_bound_relaxation": 0.01674226318687449,
+      "exact_gap_numerator": "134789641685442485898511088368269234752928211725209",
+      "exact_gap_denominator": "1461501637330902918203684832716283019655932542976",
+      "exact_robust_gap_numerator": "1103537218115162146682677168021312786911098051415926995",
+      "exact_robust_gap_denominator": "11972621413014756705924586149611790497021399392059392",
+      "elapsed_s": 0.4377704000216909,
+      "scope": "mathematical model with archived float coefficients; not exact physical measurements"
+    }
+  },
+  {
+    "case": "positive_control_26092800",
+    "model": "full",
+    "type": "continuous_witness",
+    "check": {
+      "pass": true,
+      "tolerance": 1e-05,
+      "residuals": {
+        "column_lower": 0.0,
+        "column_upper": 7.034373084024992e-13,
+        "row_lower": 1.9622348190750927e-10,
+        "row_upper": 2.1884716261411086e-10
+      }
+    },
+    "inferred_UC_status": "UNKNOWN"
+  },
+  {
+    "case": "positive_control_26092800",
+    "model": "two_cc",
+    "type": "continuous_witness",
+    "check": {
+      "pass": true,
+      "tolerance": 1e-05,
+      "residuals": {
+        "column_lower": 0.0,
+        "column_upper": 4.654054919228656e-13,
+        "row_lower": 2.078195393551141e-10,
+        "row_upper": 1.3642420526593924e-12
+      }
+    },
+    "inferred_UC_status": "UNKNOWN"
+  },
+  {
+    "case": "positive_control_26092800",
+    "model": "locality48",
+    "type": "continuous_witness",
+    "check": {
+      "pass": true,
+      "tolerance": 1e-05,
+      "residuals": {
+        "column_lower": 4.729550084903167e-13,
+        "column_upper": 4.654054919228656e-13,
+        "row_lower": 1.3642420526593924e-12,
+        "row_upper": 2.3278602085168458e-10
+      }
+    },
+    "inferred_UC_status": "UNKNOWN"
+  },
+  {
+    "case": "positive_control_26092801",
+    "model": "full",
+    "type": "continuous_witness",
+    "check": {
+      "pass": true,
+      "tolerance": 1e-05,
+      "residuals": {
+        "column_lower": 8.044582560036457e-14,
+        "column_upper": 7.034373084024992e-13,
+        "row_lower": 2.212345862062648e-10,
+        "row_upper": 2.277147359563969e-10
+      }
+    },
+    "inferred_UC_status": "UNKNOWN"
+  },
+  {
+    "case": "positive_control_26092801",
+    "model": "two_cc",
+    "type": "continuous_witness",
+    "check": {
+      "pass": true,
+      "tolerance": 1e-05,
+      "residuals": {
+        "column_lower": 0.0,
+        "column_upper": 6.146194664324867e-13,
+        "row_lower": 2.0304469217080623e-10,
+        "row_upper": 9.094947017729282e-13
+      }
+    },
+    "inferred_UC_status": "UNKNOWN"
+  },
+  {
+    "case": "positive_control_26092801",
+    "model": "locality48",
+    "type": "continuous_witness",
+    "check": {
+      "pass": true,
+      "tolerance": 1e-05,
+      "residuals": {
+        "column_lower": 0.0,
+        "column_upper": 6.146194664324867e-13,
+        "row_lower": 2.135038812411949e-10,
+        "row_upper": 1.3642420526593924e-12
+      }
+    },
+    "inferred_UC_status": "UNKNOWN"
+  },
+  {
+    "case": "positive_control_26092802",
+    "model": "full",
+    "type": "continuous_witness",
+    "check": {
+      "pass": true,
+      "tolerance": 1e-05,
+      "residuals": {
+        "column_lower": 1.8962609260597674e-13,
+        "column_upper": 7.034373084024992e-13,
+        "row_lower": 1.7826096154749393e-10,
+        "row_upper": 2.135607246600557e-10
+      }
+    },
+    "inferred_UC_status": "UNKNOWN"
+  },
+  {
+    "case": "positive_control_26092802",
+    "model": "two_cc",
+    "type": "continuous_witness",
+    "check": {
+      "pass": true,
+      "tolerance": 1e-05,
+      "residuals": {
+        "column_lower": 0.0,
+        "column_upper": 7.034373084024992e-13,
+        "row_lower": 2.3442225938197225e-10,
+        "row_upper": 1.3642420526593924e-12
+      }
+    },
+    "inferred_UC_status": "UNKNOWN"
+  },
+  {
+    "case": "positive_control_26092802",
+    "model": "locality48",
+    "type": "continuous_witness",
+    "check": {
+      "pass": true,
+      "tolerance": 1e-05,
+      "residuals": {
+        "column_lower": 0.0,
+        "column_upper": 4.654054919228656e-13,
+        "row_lower": 1.8189894035458565e-12,
+        "row_upper": 2.8053026568386485e-10
+      }
+    },
+    "inferred_UC_status": "UNKNOWN"
+  },
+  {
+    "case": "positive_control_26092803",
+    "model": "full",
+    "type": "no_verified_artifact",
+    "inferred_UC_status": "UNKNOWN"
+  },
+  {
+    "case": "positive_control_26092803",
+    "model": "two_cc",
+    "type": "continuous_witness",
+    "check": {
+      "pass": true,
+      "tolerance": 1e-05,
+      "residuals": {
+        "column_lower": 0.0,
+        "column_upper": 6.146194664324867e-13,
+        "row_lower": 1.9872459233738482e-10,
+        "row_upper": 1.3642420526593924e-12
+      }
+    },
+    "inferred_UC_status": "UNKNOWN"
+  },
+  {
+    "case": "positive_control_26092803",
+    "model": "locality48",
+    "type": "continuous_witness",
+    "check": {
+      "pass": true,
+      "tolerance": 1e-05,
+      "residuals": {
+        "column_lower": 0.0,
+        "column_upper": 6.146194664324867e-13,
+        "row_lower": 1.3642420526593924e-12,
+        "row_upper": 2.3231905288412236e-10
+      }
+    },
+    "inferred_UC_status": "UNKNOWN"
+  },
+  {
+    "case": "positive_control_26092804",
+    "model": "full",
+    "type": "continuous_witness",
+    "check": {
+      "pass": true,
+      "tolerance": 1e-05,
+      "residuals": {
+        "column_lower": 1.497708903446966e-12,
+        "column_upper": 2.1600499167107046e-12,
+        "row_lower": 2.0372681319713593e-10,
+        "row_upper": 2.134470378223341e-10
+      }
+    },
+    "inferred_UC_status": "UNKNOWN"
+  },
+  {
+    "case": "positive_control_26092804",
+    "model": "two_cc",
+    "type": "continuous_witness",
+    "check": {
+      "pass": true,
+      "tolerance": 1e-05,
+      "residuals": {
+        "column_lower": 0.0,
+        "column_upper": 7.709388682997087e-13,
+        "row_lower": 2.31239027925767e-10,
+        "row_upper": 1.3642420526593924e-12
+      }
+    },
+    "inferred_UC_status": "UNKNOWN"
+  },
+  {
+    "case": "positive_control_26092804",
+    "model": "locality48",
+    "type": "continuous_witness",
+    "check": {
+      "pass": true,
+      "tolerance": 1e-05,
+      "residuals": {
+        "column_lower": 1.7969006733177547e-13,
+        "column_upper": 6.146194664324867e-13,
+        "row_lower": 2.526121534174308e-10,
+        "row_upper": 1.3642420526593924e-12
+      }
+    },
+    "inferred_UC_status": "UNKNOWN"
+  },
+  {
+    "case": "positive_control_26092805",
+    "model": "full",
+    "type": "continuous_witness",
+    "check": {
+      "pass": true,
+      "tolerance": 1e-05,
+      "residuals": {
+        "column_lower": 0.0,
+        "column_upper": 7.034373084024992e-13,
+        "row_lower": 1.3642420526593924e-12,
+        "row_upper": 2.2362200979841873e-10
+      }
+    },
+    "inferred_UC_status": "UNKNOWN"
+  },
+  {
+    "case": "positive_control_26092805",
+    "model": "two_cc",
+    "type": "continuous_witness",
+    "check": {
+      "pass": true,
+      "tolerance": 1e-05,
+      "residuals": {
+        "column_lower": 8.348877145181177e-14,
+        "column_upper": 6.146194664324867e-13,
+        "row_lower": 1.8667378753889352e-10,
+        "row_upper": 1.3642420526593924e-12
+      }
+    },
+    "inferred_UC_status": "UNKNOWN"
+  },
+  {
+    "case": "positive_control_26092805",
+    "model": "locality48",
+    "type": "continuous_witness",
+    "check": {
+      "pass": true,
+      "tolerance": 1e-05,
+      "residuals": {
+        "column_lower": 0.0,
+        "column_upper": 6.146194664324867e-13,
+        "row_lower": 2.298747858731076e-10,
+        "row_upper": 2.1884716261411086e-10
+      }
+    },
+    "inferred_UC_status": "UNKNOWN"
+  },
+  {
+    "case": "positive_control_26092806",
+    "model": "full",
+    "type": "no_verified_artifact",
+    "inferred_UC_status": "UNKNOWN"
+  },
+  {
+    "case": "positive_control_26092806",
+    "model": "two_cc",
+    "type": "continuous_witness",
+    "check": {
+      "pass": true,
+      "tolerance": 1e-05,
+      "residuals": {
+        "column_lower": 0.0,
+        "column_upper": 6.217248937900877e-13,
+        "row_lower": 2.269189280923456e-10,
+        "row_upper": 1.3642420526593924e-12
+      }
+    },
+    "inferred_UC_status": "UNKNOWN"
+  },
+  {
+    "case": "positive_control_26092806",
+    "model": "locality48",
+    "type": "continuous_witness",
+    "check": {
+      "pass": true,
+      "tolerance": 1e-05,
+      "residuals": {
+        "column_lower": 2.611244553918368e-13,
+        "column_upper": 6.146194664324867e-13,
+        "row_lower": 2.416982169961557e-10,
+        "row_upper": 1.3642420526593924e-12
+      }
+    },
+    "inferred_UC_status": "UNKNOWN"
+  },
+  {
+    "case": "positive_control_26092807",
+    "model": "full",
+    "type": "continuous_witness",
+    "check": {
+      "pass": true,
+      "tolerance": 1e-05,
+      "residuals": {
+        "column_lower": 0.0,
+        "column_upper": 5.542233338928781e-13,
+        "row_lower": 1.3642420526593924e-12,
+        "row_upper": 2.1884716261411086e-10
+      }
+    },
+    "inferred_UC_status": "UNKNOWN"
+  },
+  {
+    "case": "positive_control_26092807",
+    "model": "two_cc",
+    "type": "continuous_witness",
+    "check": {
+      "pass": true,
+      "tolerance": 1e-05,
+      "residuals": {
+        "column_lower": 0.0,
+        "column_upper": 4.654054919228656e-13,
+        "row_lower": 2.1805135475005955e-10,
+        "row_upper": 1.3642420526593924e-12
+      }
+    },
+    "inferred_UC_status": "UNKNOWN"
+  },
+  {
+    "case": "positive_control_26092807",
+    "model": "locality48",
+    "type": "continuous_witness",
+    "check": {
+      "pass": true,
+      "tolerance": 1e-05,
+      "residuals": {
+        "column_lower": 4.849454171562684e-12,
+        "column_upper": 5.648814749292796e-13,
+        "row_lower": 2.0804691303055733e-10,
+        "row_upper": 4.849454171562684e-12
+      }
+    },
+    "inferred_UC_status": "UNKNOWN"
+  }
+]

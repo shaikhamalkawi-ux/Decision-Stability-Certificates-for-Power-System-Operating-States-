@@ -1,0 +1,17 @@
+{
+  "result": "PASS",
+  "status": "DISPATCHABLE_THEOREM_CANDIDATE_CHECKED_NOT_NOVELTY_ASSESSED",
+  "weighted_DP_vs_exhaustive_words": 9841,
+  "complete_generic_schedules": 87381,
+  "parameter_cases": 256,
+  "exhaustive_examples": 6,
+  "construction_schedules_enumerated": 35328,
+  "example_k3_r1_a_half_minima": [
+    "5",
+    "11/2"
+  ],
+  "example_shared_cap": "21/4",
+  "all_rational_lower_bound_checks_pass": true,
+  "base_source_snapshot_hash_preserved": true,
+  "elapsed_s": 8.111241600010544
+}

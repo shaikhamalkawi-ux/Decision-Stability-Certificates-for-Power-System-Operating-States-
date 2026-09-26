@@ -1,0 +1,14 @@
+{
+  "seeds": [
+    260926100,
+    260926101,
+    260926102,
+    260926103
+  ],
+  "seconds_per_case": 60,
+  "number_of_solves_per_case": 1,
+  "selection": "first four fixed prior Markov cases; post-LP extension",
+  "protocol_sha256": "9ec41a22d72290c50b23e3ff8f1790d893d51982462c1682b5bc0a736c38f2ee",
+  "script_sha256": "681bbcdd6faacc9544ee8422881b2c9cb0bf68b789481267149131258c17d23c",
+  "physical_solver_sha256": "bca0127d7b2771c6da3b6a838c8caa7fb6ce0df4eafd9a512326aabd8daf7dc2"
+}

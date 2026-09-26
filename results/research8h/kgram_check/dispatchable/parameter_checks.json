@@ -1,0 +1,4866 @@
+[
+  {
+    "k": 1,
+    "r": 1,
+    "horizon": 13,
+    "pmin": "1/4",
+    "pmax": 1,
+    "minimum_thermal_x": "9/2",
+    "minimum_thermal_y": "19/4",
+    "shared_cap": "37/8",
+    "integer_scaled_minima": [
+      18,
+      19
+    ],
+    "cost_scale": 4,
+    "exact_bound_separation": "1/8",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 2,
+    "r": 1,
+    "horizon": 16,
+    "pmin": "1/4",
+    "pmax": 1,
+    "minimum_thermal_x": "9/2",
+    "minimum_thermal_y": "19/4",
+    "shared_cap": "37/8",
+    "integer_scaled_minima": [
+      18,
+      19
+    ],
+    "cost_scale": 4,
+    "exact_bound_separation": "1/8",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 3,
+    "r": 1,
+    "horizon": 19,
+    "pmin": "1/4",
+    "pmax": 1,
+    "minimum_thermal_x": "9/2",
+    "minimum_thermal_y": "19/4",
+    "shared_cap": "37/8",
+    "integer_scaled_minima": [
+      18,
+      19
+    ],
+    "cost_scale": 4,
+    "exact_bound_separation": "1/8",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 4,
+    "r": 1,
+    "horizon": 22,
+    "pmin": "1/4",
+    "pmax": 1,
+    "minimum_thermal_x": "9/2",
+    "minimum_thermal_y": "19/4",
+    "shared_cap": "37/8",
+    "integer_scaled_minima": [
+      18,
+      19
+    ],
+    "cost_scale": 4,
+    "exact_bound_separation": "1/8",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 5,
+    "r": 2,
+    "horizon": 33,
+    "pmin": "1/4",
+    "pmax": 1,
+    "minimum_thermal_x": "9",
+    "minimum_thermal_y": "37/4",
+    "shared_cap": "73/8",
+    "integer_scaled_minima": [
+      36,
+      37
+    ],
+    "cost_scale": 4,
+    "exact_bound_separation": "1/8",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 6,
+    "r": 2,
+    "horizon": 36,
+    "pmin": "1/4",
+    "pmax": 1,
+    "minimum_thermal_x": "9",
+    "minimum_thermal_y": "37/4",
+    "shared_cap": "73/8",
+    "integer_scaled_minima": [
+      36,
+      37
+    ],
+    "cost_scale": 4,
+    "exact_bound_separation": "1/8",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 7,
+    "r": 2,
+    "horizon": 39,
+    "pmin": "1/4",
+    "pmax": 1,
+    "minimum_thermal_x": "9",
+    "minimum_thermal_y": "37/4",
+    "shared_cap": "73/8",
+    "integer_scaled_minima": [
+      36,
+      37
+    ],
+    "cost_scale": 4,
+    "exact_bound_separation": "1/8",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 8,
+    "r": 2,
+    "horizon": 42,
+    "pmin": "1/4",
+    "pmax": 1,
+    "minimum_thermal_x": "9",
+    "minimum_thermal_y": "37/4",
+    "shared_cap": "73/8",
+    "integer_scaled_minima": [
+      36,
+      37
+    ],
+    "cost_scale": 4,
+    "exact_bound_separation": "1/8",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 9,
+    "r": 3,
+    "horizon": 53,
+    "pmin": "1/4",
+    "pmax": 1,
+    "minimum_thermal_x": "27/2",
+    "minimum_thermal_y": "55/4",
+    "shared_cap": "109/8",
+    "integer_scaled_minima": [
+      54,
+      55
+    ],
+    "cost_scale": 4,
+    "exact_bound_separation": "1/8",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 10,
+    "r": 3,
+    "horizon": 56,
+    "pmin": "1/4",
+    "pmax": 1,
+    "minimum_thermal_x": "27/2",
+    "minimum_thermal_y": "55/4",
+    "shared_cap": "109/8",
+    "integer_scaled_minima": [
+      54,
+      55
+    ],
+    "cost_scale": 4,
+    "exact_bound_separation": "1/8",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 11,
+    "r": 3,
+    "horizon": 59,
+    "pmin": "1/4",
+    "pmax": 1,
+    "minimum_thermal_x": "27/2",
+    "minimum_thermal_y": "55/4",
+    "shared_cap": "109/8",
+    "integer_scaled_minima": [
+      54,
+      55
+    ],
+    "cost_scale": 4,
+    "exact_bound_separation": "1/8",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 12,
+    "r": 3,
+    "horizon": 62,
+    "pmin": "1/4",
+    "pmax": 1,
+    "minimum_thermal_x": "27/2",
+    "minimum_thermal_y": "55/4",
+    "shared_cap": "109/8",
+    "integer_scaled_minima": [
+      54,
+      55
+    ],
+    "cost_scale": 4,
+    "exact_bound_separation": "1/8",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 13,
+    "r": 4,
+    "horizon": 73,
+    "pmin": "1/4",
+    "pmax": 1,
+    "minimum_thermal_x": "18",
+    "minimum_thermal_y": "73/4",
+    "shared_cap": "145/8",
+    "integer_scaled_minima": [
+      72,
+      73
+    ],
+    "cost_scale": 4,
+    "exact_bound_separation": "1/8",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 14,
+    "r": 4,
+    "horizon": 76,
+    "pmin": "1/4",
+    "pmax": 1,
+    "minimum_thermal_x": "18",
+    "minimum_thermal_y": "73/4",
+    "shared_cap": "145/8",
+    "integer_scaled_minima": [
+      72,
+      73
+    ],
+    "cost_scale": 4,
+    "exact_bound_separation": "1/8",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 15,
+    "r": 4,
+    "horizon": 79,
+    "pmin": "1/4",
+    "pmax": 1,
+    "minimum_thermal_x": "18",
+    "minimum_thermal_y": "73/4",
+    "shared_cap": "145/8",
+    "integer_scaled_minima": [
+      72,
+      73
+    ],
+    "cost_scale": 4,
+    "exact_bound_separation": "1/8",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 16,
+    "r": 4,
+    "horizon": 82,
+    "pmin": "1/4",
+    "pmax": 1,
+    "minimum_thermal_x": "18",
+    "minimum_thermal_y": "73/4",
+    "shared_cap": "145/8",
+    "integer_scaled_minima": [
+      72,
+      73
+    ],
+    "cost_scale": 4,
+    "exact_bound_separation": "1/8",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 17,
+    "r": 5,
+    "horizon": 93,
+    "pmin": "1/4",
+    "pmax": 1,
+    "minimum_thermal_x": "45/2",
+    "minimum_thermal_y": "91/4",
+    "shared_cap": "181/8",
+    "integer_scaled_minima": [
+      90,
+      91
+    ],
+    "cost_scale": 4,
+    "exact_bound_separation": "1/8",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 18,
+    "r": 5,
+    "horizon": 96,
+    "pmin": "1/4",
+    "pmax": 1,
+    "minimum_thermal_x": "45/2",
+    "minimum_thermal_y": "91/4",
+    "shared_cap": "181/8",
+    "integer_scaled_minima": [
+      90,
+      91
+    ],
+    "cost_scale": 4,
+    "exact_bound_separation": "1/8",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 19,
+    "r": 5,
+    "horizon": 99,
+    "pmin": "1/4",
+    "pmax": 1,
+    "minimum_thermal_x": "45/2",
+    "minimum_thermal_y": "91/4",
+    "shared_cap": "181/8",
+    "integer_scaled_minima": [
+      90,
+      91
+    ],
+    "cost_scale": 4,
+    "exact_bound_separation": "1/8",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 20,
+    "r": 5,
+    "horizon": 102,
+    "pmin": "1/4",
+    "pmax": 1,
+    "minimum_thermal_x": "45/2",
+    "minimum_thermal_y": "91/4",
+    "shared_cap": "181/8",
+    "integer_scaled_minima": [
+      90,
+      91
+    ],
+    "cost_scale": 4,
+    "exact_bound_separation": "1/8",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 21,
+    "r": 6,
+    "horizon": 113,
+    "pmin": "1/4",
+    "pmax": 1,
+    "minimum_thermal_x": "27",
+    "minimum_thermal_y": "109/4",
+    "shared_cap": "217/8",
+    "integer_scaled_minima": [
+      108,
+      109
+    ],
+    "cost_scale": 4,
+    "exact_bound_separation": "1/8",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 22,
+    "r": 6,
+    "horizon": 116,
+    "pmin": "1/4",
+    "pmax": 1,
+    "minimum_thermal_x": "27",
+    "minimum_thermal_y": "109/4",
+    "shared_cap": "217/8",
+    "integer_scaled_minima": [
+      108,
+      109
+    ],
+    "cost_scale": 4,
+    "exact_bound_separation": "1/8",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 23,
+    "r": 6,
+    "horizon": 119,
+    "pmin": "1/4",
+    "pmax": 1,
+    "minimum_thermal_x": "27",
+    "minimum_thermal_y": "109/4",
+    "shared_cap": "217/8",
+    "integer_scaled_minima": [
+      108,
+      109
+    ],
+    "cost_scale": 4,
+    "exact_bound_separation": "1/8",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 24,
+    "r": 6,
+    "horizon": 122,
+    "pmin": "1/4",
+    "pmax": 1,
+    "minimum_thermal_x": "27",
+    "minimum_thermal_y": "109/4",
+    "shared_cap": "217/8",
+    "integer_scaled_minima": [
+      108,
+      109
+    ],
+    "cost_scale": 4,
+    "exact_bound_separation": "1/8",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 25,
+    "r": 7,
+    "horizon": 133,
+    "pmin": "1/4",
+    "pmax": 1,
+    "minimum_thermal_x": "63/2",
+    "minimum_thermal_y": "127/4",
+    "shared_cap": "253/8",
+    "integer_scaled_minima": [
+      126,
+      127
+    ],
+    "cost_scale": 4,
+    "exact_bound_separation": "1/8",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 26,
+    "r": 7,
+    "horizon": 136,
+    "pmin": "1/4",
+    "pmax": 1,
+    "minimum_thermal_x": "63/2",
+    "minimum_thermal_y": "127/4",
+    "shared_cap": "253/8",
+    "integer_scaled_minima": [
+      126,
+      127
+    ],
+    "cost_scale": 4,
+    "exact_bound_separation": "1/8",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 27,
+    "r": 7,
+    "horizon": 139,
+    "pmin": "1/4",
+    "pmax": 1,
+    "minimum_thermal_x": "63/2",
+    "minimum_thermal_y": "127/4",
+    "shared_cap": "253/8",
+    "integer_scaled_minima": [
+      126,
+      127
+    ],
+    "cost_scale": 4,
+    "exact_bound_separation": "1/8",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 28,
+    "r": 7,
+    "horizon": 142,
+    "pmin": "1/4",
+    "pmax": 1,
+    "minimum_thermal_x": "63/2",
+    "minimum_thermal_y": "127/4",
+    "shared_cap": "253/8",
+    "integer_scaled_minima": [
+      126,
+      127
+    ],
+    "cost_scale": 4,
+    "exact_bound_separation": "1/8",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 29,
+    "r": 8,
+    "horizon": 153,
+    "pmin": "1/4",
+    "pmax": 1,
+    "minimum_thermal_x": "36",
+    "minimum_thermal_y": "145/4",
+    "shared_cap": "289/8",
+    "integer_scaled_minima": [
+      144,
+      145
+    ],
+    "cost_scale": 4,
+    "exact_bound_separation": "1/8",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 30,
+    "r": 8,
+    "horizon": 156,
+    "pmin": "1/4",
+    "pmax": 1,
+    "minimum_thermal_x": "36",
+    "minimum_thermal_y": "145/4",
+    "shared_cap": "289/8",
+    "integer_scaled_minima": [
+      144,
+      145
+    ],
+    "cost_scale": 4,
+    "exact_bound_separation": "1/8",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 31,
+    "r": 8,
+    "horizon": 159,
+    "pmin": "1/4",
+    "pmax": 1,
+    "minimum_thermal_x": "36",
+    "minimum_thermal_y": "145/4",
+    "shared_cap": "289/8",
+    "integer_scaled_minima": [
+      144,
+      145
+    ],
+    "cost_scale": 4,
+    "exact_bound_separation": "1/8",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 32,
+    "r": 8,
+    "horizon": 162,
+    "pmin": "1/4",
+    "pmax": 1,
+    "minimum_thermal_x": "36",
+    "minimum_thermal_y": "145/4",
+    "shared_cap": "289/8",
+    "integer_scaled_minima": [
+      144,
+      145
+    ],
+    "cost_scale": 4,
+    "exact_bound_separation": "1/8",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 33,
+    "r": 9,
+    "horizon": 173,
+    "pmin": "1/4",
+    "pmax": 1,
+    "minimum_thermal_x": "81/2",
+    "minimum_thermal_y": "163/4",
+    "shared_cap": "325/8",
+    "integer_scaled_minima": [
+      162,
+      163
+    ],
+    "cost_scale": 4,
+    "exact_bound_separation": "1/8",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 34,
+    "r": 9,
+    "horizon": 176,
+    "pmin": "1/4",
+    "pmax": 1,
+    "minimum_thermal_x": "81/2",
+    "minimum_thermal_y": "163/4",
+    "shared_cap": "325/8",
+    "integer_scaled_minima": [
+      162,
+      163
+    ],
+    "cost_scale": 4,
+    "exact_bound_separation": "1/8",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 35,
+    "r": 9,
+    "horizon": 179,
+    "pmin": "1/4",
+    "pmax": 1,
+    "minimum_thermal_x": "81/2",
+    "minimum_thermal_y": "163/4",
+    "shared_cap": "325/8",
+    "integer_scaled_minima": [
+      162,
+      163
+    ],
+    "cost_scale": 4,
+    "exact_bound_separation": "1/8",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 36,
+    "r": 9,
+    "horizon": 182,
+    "pmin": "1/4",
+    "pmax": 1,
+    "minimum_thermal_x": "81/2",
+    "minimum_thermal_y": "163/4",
+    "shared_cap": "325/8",
+    "integer_scaled_minima": [
+      162,
+      163
+    ],
+    "cost_scale": 4,
+    "exact_bound_separation": "1/8",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 37,
+    "r": 10,
+    "horizon": 193,
+    "pmin": "1/4",
+    "pmax": 1,
+    "minimum_thermal_x": "45",
+    "minimum_thermal_y": "181/4",
+    "shared_cap": "361/8",
+    "integer_scaled_minima": [
+      180,
+      181
+    ],
+    "cost_scale": 4,
+    "exact_bound_separation": "1/8",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 38,
+    "r": 10,
+    "horizon": 196,
+    "pmin": "1/4",
+    "pmax": 1,
+    "minimum_thermal_x": "45",
+    "minimum_thermal_y": "181/4",
+    "shared_cap": "361/8",
+    "integer_scaled_minima": [
+      180,
+      181
+    ],
+    "cost_scale": 4,
+    "exact_bound_separation": "1/8",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 39,
+    "r": 10,
+    "horizon": 199,
+    "pmin": "1/4",
+    "pmax": 1,
+    "minimum_thermal_x": "45",
+    "minimum_thermal_y": "181/4",
+    "shared_cap": "361/8",
+    "integer_scaled_minima": [
+      180,
+      181
+    ],
+    "cost_scale": 4,
+    "exact_bound_separation": "1/8",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 40,
+    "r": 10,
+    "horizon": 202,
+    "pmin": "1/4",
+    "pmax": 1,
+    "minimum_thermal_x": "45",
+    "minimum_thermal_y": "181/4",
+    "shared_cap": "361/8",
+    "integer_scaled_minima": [
+      180,
+      181
+    ],
+    "cost_scale": 4,
+    "exact_bound_separation": "1/8",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 41,
+    "r": 11,
+    "horizon": 213,
+    "pmin": "1/4",
+    "pmax": 1,
+    "minimum_thermal_x": "99/2",
+    "minimum_thermal_y": "199/4",
+    "shared_cap": "397/8",
+    "integer_scaled_minima": [
+      198,
+      199
+    ],
+    "cost_scale": 4,
+    "exact_bound_separation": "1/8",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 42,
+    "r": 11,
+    "horizon": 216,
+    "pmin": "1/4",
+    "pmax": 1,
+    "minimum_thermal_x": "99/2",
+    "minimum_thermal_y": "199/4",
+    "shared_cap": "397/8",
+    "integer_scaled_minima": [
+      198,
+      199
+    ],
+    "cost_scale": 4,
+    "exact_bound_separation": "1/8",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 43,
+    "r": 11,
+    "horizon": 219,
+    "pmin": "1/4",
+    "pmax": 1,
+    "minimum_thermal_x": "99/2",
+    "minimum_thermal_y": "199/4",
+    "shared_cap": "397/8",
+    "integer_scaled_minima": [
+      198,
+      199
+    ],
+    "cost_scale": 4,
+    "exact_bound_separation": "1/8",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 44,
+    "r": 11,
+    "horizon": 222,
+    "pmin": "1/4",
+    "pmax": 1,
+    "minimum_thermal_x": "99/2",
+    "minimum_thermal_y": "199/4",
+    "shared_cap": "397/8",
+    "integer_scaled_minima": [
+      198,
+      199
+    ],
+    "cost_scale": 4,
+    "exact_bound_separation": "1/8",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 45,
+    "r": 12,
+    "horizon": 233,
+    "pmin": "1/4",
+    "pmax": 1,
+    "minimum_thermal_x": "54",
+    "minimum_thermal_y": "217/4",
+    "shared_cap": "433/8",
+    "integer_scaled_minima": [
+      216,
+      217
+    ],
+    "cost_scale": 4,
+    "exact_bound_separation": "1/8",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 46,
+    "r": 12,
+    "horizon": 236,
+    "pmin": "1/4",
+    "pmax": 1,
+    "minimum_thermal_x": "54",
+    "minimum_thermal_y": "217/4",
+    "shared_cap": "433/8",
+    "integer_scaled_minima": [
+      216,
+      217
+    ],
+    "cost_scale": 4,
+    "exact_bound_separation": "1/8",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 47,
+    "r": 12,
+    "horizon": 239,
+    "pmin": "1/4",
+    "pmax": 1,
+    "minimum_thermal_x": "54",
+    "minimum_thermal_y": "217/4",
+    "shared_cap": "433/8",
+    "integer_scaled_minima": [
+      216,
+      217
+    ],
+    "cost_scale": 4,
+    "exact_bound_separation": "1/8",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 48,
+    "r": 12,
+    "horizon": 242,
+    "pmin": "1/4",
+    "pmax": 1,
+    "minimum_thermal_x": "54",
+    "minimum_thermal_y": "217/4",
+    "shared_cap": "433/8",
+    "integer_scaled_minima": [
+      216,
+      217
+    ],
+    "cost_scale": 4,
+    "exact_bound_separation": "1/8",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 49,
+    "r": 13,
+    "horizon": 253,
+    "pmin": "1/4",
+    "pmax": 1,
+    "minimum_thermal_x": "117/2",
+    "minimum_thermal_y": "235/4",
+    "shared_cap": "469/8",
+    "integer_scaled_minima": [
+      234,
+      235
+    ],
+    "cost_scale": 4,
+    "exact_bound_separation": "1/8",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 50,
+    "r": 13,
+    "horizon": 256,
+    "pmin": "1/4",
+    "pmax": 1,
+    "minimum_thermal_x": "117/2",
+    "minimum_thermal_y": "235/4",
+    "shared_cap": "469/8",
+    "integer_scaled_minima": [
+      234,
+      235
+    ],
+    "cost_scale": 4,
+    "exact_bound_separation": "1/8",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 51,
+    "r": 13,
+    "horizon": 259,
+    "pmin": "1/4",
+    "pmax": 1,
+    "minimum_thermal_x": "117/2",
+    "minimum_thermal_y": "235/4",
+    "shared_cap": "469/8",
+    "integer_scaled_minima": [
+      234,
+      235
+    ],
+    "cost_scale": 4,
+    "exact_bound_separation": "1/8",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 52,
+    "r": 13,
+    "horizon": 262,
+    "pmin": "1/4",
+    "pmax": 1,
+    "minimum_thermal_x": "117/2",
+    "minimum_thermal_y": "235/4",
+    "shared_cap": "469/8",
+    "integer_scaled_minima": [
+      234,
+      235
+    ],
+    "cost_scale": 4,
+    "exact_bound_separation": "1/8",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 53,
+    "r": 14,
+    "horizon": 273,
+    "pmin": "1/4",
+    "pmax": 1,
+    "minimum_thermal_x": "63",
+    "minimum_thermal_y": "253/4",
+    "shared_cap": "505/8",
+    "integer_scaled_minima": [
+      252,
+      253
+    ],
+    "cost_scale": 4,
+    "exact_bound_separation": "1/8",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 54,
+    "r": 14,
+    "horizon": 276,
+    "pmin": "1/4",
+    "pmax": 1,
+    "minimum_thermal_x": "63",
+    "minimum_thermal_y": "253/4",
+    "shared_cap": "505/8",
+    "integer_scaled_minima": [
+      252,
+      253
+    ],
+    "cost_scale": 4,
+    "exact_bound_separation": "1/8",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 55,
+    "r": 14,
+    "horizon": 279,
+    "pmin": "1/4",
+    "pmax": 1,
+    "minimum_thermal_x": "63",
+    "minimum_thermal_y": "253/4",
+    "shared_cap": "505/8",
+    "integer_scaled_minima": [
+      252,
+      253
+    ],
+    "cost_scale": 4,
+    "exact_bound_separation": "1/8",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 56,
+    "r": 14,
+    "horizon": 282,
+    "pmin": "1/4",
+    "pmax": 1,
+    "minimum_thermal_x": "63",
+    "minimum_thermal_y": "253/4",
+    "shared_cap": "505/8",
+    "integer_scaled_minima": [
+      252,
+      253
+    ],
+    "cost_scale": 4,
+    "exact_bound_separation": "1/8",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 57,
+    "r": 15,
+    "horizon": 293,
+    "pmin": "1/4",
+    "pmax": 1,
+    "minimum_thermal_x": "135/2",
+    "minimum_thermal_y": "271/4",
+    "shared_cap": "541/8",
+    "integer_scaled_minima": [
+      270,
+      271
+    ],
+    "cost_scale": 4,
+    "exact_bound_separation": "1/8",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 58,
+    "r": 15,
+    "horizon": 296,
+    "pmin": "1/4",
+    "pmax": 1,
+    "minimum_thermal_x": "135/2",
+    "minimum_thermal_y": "271/4",
+    "shared_cap": "541/8",
+    "integer_scaled_minima": [
+      270,
+      271
+    ],
+    "cost_scale": 4,
+    "exact_bound_separation": "1/8",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 59,
+    "r": 15,
+    "horizon": 299,
+    "pmin": "1/4",
+    "pmax": 1,
+    "minimum_thermal_x": "135/2",
+    "minimum_thermal_y": "271/4",
+    "shared_cap": "541/8",
+    "integer_scaled_minima": [
+      270,
+      271
+    ],
+    "cost_scale": 4,
+    "exact_bound_separation": "1/8",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 60,
+    "r": 15,
+    "horizon": 302,
+    "pmin": "1/4",
+    "pmax": 1,
+    "minimum_thermal_x": "135/2",
+    "minimum_thermal_y": "271/4",
+    "shared_cap": "541/8",
+    "integer_scaled_minima": [
+      270,
+      271
+    ],
+    "cost_scale": 4,
+    "exact_bound_separation": "1/8",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 61,
+    "r": 16,
+    "horizon": 313,
+    "pmin": "1/4",
+    "pmax": 1,
+    "minimum_thermal_x": "72",
+    "minimum_thermal_y": "289/4",
+    "shared_cap": "577/8",
+    "integer_scaled_minima": [
+      288,
+      289
+    ],
+    "cost_scale": 4,
+    "exact_bound_separation": "1/8",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 62,
+    "r": 16,
+    "horizon": 316,
+    "pmin": "1/4",
+    "pmax": 1,
+    "minimum_thermal_x": "72",
+    "minimum_thermal_y": "289/4",
+    "shared_cap": "577/8",
+    "integer_scaled_minima": [
+      288,
+      289
+    ],
+    "cost_scale": 4,
+    "exact_bound_separation": "1/8",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 63,
+    "r": 16,
+    "horizon": 319,
+    "pmin": "1/4",
+    "pmax": 1,
+    "minimum_thermal_x": "72",
+    "minimum_thermal_y": "289/4",
+    "shared_cap": "577/8",
+    "integer_scaled_minima": [
+      288,
+      289
+    ],
+    "cost_scale": 4,
+    "exact_bound_separation": "1/8",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 64,
+    "r": 16,
+    "horizon": 322,
+    "pmin": "1/4",
+    "pmax": 1,
+    "minimum_thermal_x": "72",
+    "minimum_thermal_y": "289/4",
+    "shared_cap": "577/8",
+    "integer_scaled_minima": [
+      288,
+      289
+    ],
+    "cost_scale": 4,
+    "exact_bound_separation": "1/8",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 1,
+    "r": 1,
+    "horizon": 13,
+    "pmin": "1/2",
+    "pmax": 1,
+    "minimum_thermal_x": "5",
+    "minimum_thermal_y": "11/2",
+    "shared_cap": "21/4",
+    "integer_scaled_minima": [
+      10,
+      11
+    ],
+    "cost_scale": 2,
+    "exact_bound_separation": "1/4",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 2,
+    "r": 1,
+    "horizon": 16,
+    "pmin": "1/2",
+    "pmax": 1,
+    "minimum_thermal_x": "5",
+    "minimum_thermal_y": "11/2",
+    "shared_cap": "21/4",
+    "integer_scaled_minima": [
+      10,
+      11
+    ],
+    "cost_scale": 2,
+    "exact_bound_separation": "1/4",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 3,
+    "r": 1,
+    "horizon": 19,
+    "pmin": "1/2",
+    "pmax": 1,
+    "minimum_thermal_x": "5",
+    "minimum_thermal_y": "11/2",
+    "shared_cap": "21/4",
+    "integer_scaled_minima": [
+      10,
+      11
+    ],
+    "cost_scale": 2,
+    "exact_bound_separation": "1/4",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 4,
+    "r": 1,
+    "horizon": 22,
+    "pmin": "1/2",
+    "pmax": 1,
+    "minimum_thermal_x": "5",
+    "minimum_thermal_y": "11/2",
+    "shared_cap": "21/4",
+    "integer_scaled_minima": [
+      10,
+      11
+    ],
+    "cost_scale": 2,
+    "exact_bound_separation": "1/4",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 5,
+    "r": 2,
+    "horizon": 33,
+    "pmin": "1/2",
+    "pmax": 1,
+    "minimum_thermal_x": "10",
+    "minimum_thermal_y": "21/2",
+    "shared_cap": "41/4",
+    "integer_scaled_minima": [
+      20,
+      21
+    ],
+    "cost_scale": 2,
+    "exact_bound_separation": "1/4",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 6,
+    "r": 2,
+    "horizon": 36,
+    "pmin": "1/2",
+    "pmax": 1,
+    "minimum_thermal_x": "10",
+    "minimum_thermal_y": "21/2",
+    "shared_cap": "41/4",
+    "integer_scaled_minima": [
+      20,
+      21
+    ],
+    "cost_scale": 2,
+    "exact_bound_separation": "1/4",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 7,
+    "r": 2,
+    "horizon": 39,
+    "pmin": "1/2",
+    "pmax": 1,
+    "minimum_thermal_x": "10",
+    "minimum_thermal_y": "21/2",
+    "shared_cap": "41/4",
+    "integer_scaled_minima": [
+      20,
+      21
+    ],
+    "cost_scale": 2,
+    "exact_bound_separation": "1/4",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 8,
+    "r": 2,
+    "horizon": 42,
+    "pmin": "1/2",
+    "pmax": 1,
+    "minimum_thermal_x": "10",
+    "minimum_thermal_y": "21/2",
+    "shared_cap": "41/4",
+    "integer_scaled_minima": [
+      20,
+      21
+    ],
+    "cost_scale": 2,
+    "exact_bound_separation": "1/4",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 9,
+    "r": 3,
+    "horizon": 53,
+    "pmin": "1/2",
+    "pmax": 1,
+    "minimum_thermal_x": "15",
+    "minimum_thermal_y": "31/2",
+    "shared_cap": "61/4",
+    "integer_scaled_minima": [
+      30,
+      31
+    ],
+    "cost_scale": 2,
+    "exact_bound_separation": "1/4",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 10,
+    "r": 3,
+    "horizon": 56,
+    "pmin": "1/2",
+    "pmax": 1,
+    "minimum_thermal_x": "15",
+    "minimum_thermal_y": "31/2",
+    "shared_cap": "61/4",
+    "integer_scaled_minima": [
+      30,
+      31
+    ],
+    "cost_scale": 2,
+    "exact_bound_separation": "1/4",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 11,
+    "r": 3,
+    "horizon": 59,
+    "pmin": "1/2",
+    "pmax": 1,
+    "minimum_thermal_x": "15",
+    "minimum_thermal_y": "31/2",
+    "shared_cap": "61/4",
+    "integer_scaled_minima": [
+      30,
+      31
+    ],
+    "cost_scale": 2,
+    "exact_bound_separation": "1/4",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 12,
+    "r": 3,
+    "horizon": 62,
+    "pmin": "1/2",
+    "pmax": 1,
+    "minimum_thermal_x": "15",
+    "minimum_thermal_y": "31/2",
+    "shared_cap": "61/4",
+    "integer_scaled_minima": [
+      30,
+      31
+    ],
+    "cost_scale": 2,
+    "exact_bound_separation": "1/4",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 13,
+    "r": 4,
+    "horizon": 73,
+    "pmin": "1/2",
+    "pmax": 1,
+    "minimum_thermal_x": "20",
+    "minimum_thermal_y": "41/2",
+    "shared_cap": "81/4",
+    "integer_scaled_minima": [
+      40,
+      41
+    ],
+    "cost_scale": 2,
+    "exact_bound_separation": "1/4",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 14,
+    "r": 4,
+    "horizon": 76,
+    "pmin": "1/2",
+    "pmax": 1,
+    "minimum_thermal_x": "20",
+    "minimum_thermal_y": "41/2",
+    "shared_cap": "81/4",
+    "integer_scaled_minima": [
+      40,
+      41
+    ],
+    "cost_scale": 2,
+    "exact_bound_separation": "1/4",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 15,
+    "r": 4,
+    "horizon": 79,
+    "pmin": "1/2",
+    "pmax": 1,
+    "minimum_thermal_x": "20",
+    "minimum_thermal_y": "41/2",
+    "shared_cap": "81/4",
+    "integer_scaled_minima": [
+      40,
+      41
+    ],
+    "cost_scale": 2,
+    "exact_bound_separation": "1/4",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 16,
+    "r": 4,
+    "horizon": 82,
+    "pmin": "1/2",
+    "pmax": 1,
+    "minimum_thermal_x": "20",
+    "minimum_thermal_y": "41/2",
+    "shared_cap": "81/4",
+    "integer_scaled_minima": [
+      40,
+      41
+    ],
+    "cost_scale": 2,
+    "exact_bound_separation": "1/4",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 17,
+    "r": 5,
+    "horizon": 93,
+    "pmin": "1/2",
+    "pmax": 1,
+    "minimum_thermal_x": "25",
+    "minimum_thermal_y": "51/2",
+    "shared_cap": "101/4",
+    "integer_scaled_minima": [
+      50,
+      51
+    ],
+    "cost_scale": 2,
+    "exact_bound_separation": "1/4",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 18,
+    "r": 5,
+    "horizon": 96,
+    "pmin": "1/2",
+    "pmax": 1,
+    "minimum_thermal_x": "25",
+    "minimum_thermal_y": "51/2",
+    "shared_cap": "101/4",
+    "integer_scaled_minima": [
+      50,
+      51
+    ],
+    "cost_scale": 2,
+    "exact_bound_separation": "1/4",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 19,
+    "r": 5,
+    "horizon": 99,
+    "pmin": "1/2",
+    "pmax": 1,
+    "minimum_thermal_x": "25",
+    "minimum_thermal_y": "51/2",
+    "shared_cap": "101/4",
+    "integer_scaled_minima": [
+      50,
+      51
+    ],
+    "cost_scale": 2,
+    "exact_bound_separation": "1/4",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 20,
+    "r": 5,
+    "horizon": 102,
+    "pmin": "1/2",
+    "pmax": 1,
+    "minimum_thermal_x": "25",
+    "minimum_thermal_y": "51/2",
+    "shared_cap": "101/4",
+    "integer_scaled_minima": [
+      50,
+      51
+    ],
+    "cost_scale": 2,
+    "exact_bound_separation": "1/4",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 21,
+    "r": 6,
+    "horizon": 113,
+    "pmin": "1/2",
+    "pmax": 1,
+    "minimum_thermal_x": "30",
+    "minimum_thermal_y": "61/2",
+    "shared_cap": "121/4",
+    "integer_scaled_minima": [
+      60,
+      61
+    ],
+    "cost_scale": 2,
+    "exact_bound_separation": "1/4",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 22,
+    "r": 6,
+    "horizon": 116,
+    "pmin": "1/2",
+    "pmax": 1,
+    "minimum_thermal_x": "30",
+    "minimum_thermal_y": "61/2",
+    "shared_cap": "121/4",
+    "integer_scaled_minima": [
+      60,
+      61
+    ],
+    "cost_scale": 2,
+    "exact_bound_separation": "1/4",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 23,
+    "r": 6,
+    "horizon": 119,
+    "pmin": "1/2",
+    "pmax": 1,
+    "minimum_thermal_x": "30",
+    "minimum_thermal_y": "61/2",
+    "shared_cap": "121/4",
+    "integer_scaled_minima": [
+      60,
+      61
+    ],
+    "cost_scale": 2,
+    "exact_bound_separation": "1/4",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 24,
+    "r": 6,
+    "horizon": 122,
+    "pmin": "1/2",
+    "pmax": 1,
+    "minimum_thermal_x": "30",
+    "minimum_thermal_y": "61/2",
+    "shared_cap": "121/4",
+    "integer_scaled_minima": [
+      60,
+      61
+    ],
+    "cost_scale": 2,
+    "exact_bound_separation": "1/4",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 25,
+    "r": 7,
+    "horizon": 133,
+    "pmin": "1/2",
+    "pmax": 1,
+    "minimum_thermal_x": "35",
+    "minimum_thermal_y": "71/2",
+    "shared_cap": "141/4",
+    "integer_scaled_minima": [
+      70,
+      71
+    ],
+    "cost_scale": 2,
+    "exact_bound_separation": "1/4",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 26,
+    "r": 7,
+    "horizon": 136,
+    "pmin": "1/2",
+    "pmax": 1,
+    "minimum_thermal_x": "35",
+    "minimum_thermal_y": "71/2",
+    "shared_cap": "141/4",
+    "integer_scaled_minima": [
+      70,
+      71
+    ],
+    "cost_scale": 2,
+    "exact_bound_separation": "1/4",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 27,
+    "r": 7,
+    "horizon": 139,
+    "pmin": "1/2",
+    "pmax": 1,
+    "minimum_thermal_x": "35",
+    "minimum_thermal_y": "71/2",
+    "shared_cap": "141/4",
+    "integer_scaled_minima": [
+      70,
+      71
+    ],
+    "cost_scale": 2,
+    "exact_bound_separation": "1/4",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 28,
+    "r": 7,
+    "horizon": 142,
+    "pmin": "1/2",
+    "pmax": 1,
+    "minimum_thermal_x": "35",
+    "minimum_thermal_y": "71/2",
+    "shared_cap": "141/4",
+    "integer_scaled_minima": [
+      70,
+      71
+    ],
+    "cost_scale": 2,
+    "exact_bound_separation": "1/4",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 29,
+    "r": 8,
+    "horizon": 153,
+    "pmin": "1/2",
+    "pmax": 1,
+    "minimum_thermal_x": "40",
+    "minimum_thermal_y": "81/2",
+    "shared_cap": "161/4",
+    "integer_scaled_minima": [
+      80,
+      81
+    ],
+    "cost_scale": 2,
+    "exact_bound_separation": "1/4",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 30,
+    "r": 8,
+    "horizon": 156,
+    "pmin": "1/2",
+    "pmax": 1,
+    "minimum_thermal_x": "40",
+    "minimum_thermal_y": "81/2",
+    "shared_cap": "161/4",
+    "integer_scaled_minima": [
+      80,
+      81
+    ],
+    "cost_scale": 2,
+    "exact_bound_separation": "1/4",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 31,
+    "r": 8,
+    "horizon": 159,
+    "pmin": "1/2",
+    "pmax": 1,
+    "minimum_thermal_x": "40",
+    "minimum_thermal_y": "81/2",
+    "shared_cap": "161/4",
+    "integer_scaled_minima": [
+      80,
+      81
+    ],
+    "cost_scale": 2,
+    "exact_bound_separation": "1/4",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 32,
+    "r": 8,
+    "horizon": 162,
+    "pmin": "1/2",
+    "pmax": 1,
+    "minimum_thermal_x": "40",
+    "minimum_thermal_y": "81/2",
+    "shared_cap": "161/4",
+    "integer_scaled_minima": [
+      80,
+      81
+    ],
+    "cost_scale": 2,
+    "exact_bound_separation": "1/4",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 33,
+    "r": 9,
+    "horizon": 173,
+    "pmin": "1/2",
+    "pmax": 1,
+    "minimum_thermal_x": "45",
+    "minimum_thermal_y": "91/2",
+    "shared_cap": "181/4",
+    "integer_scaled_minima": [
+      90,
+      91
+    ],
+    "cost_scale": 2,
+    "exact_bound_separation": "1/4",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 34,
+    "r": 9,
+    "horizon": 176,
+    "pmin": "1/2",
+    "pmax": 1,
+    "minimum_thermal_x": "45",
+    "minimum_thermal_y": "91/2",
+    "shared_cap": "181/4",
+    "integer_scaled_minima": [
+      90,
+      91
+    ],
+    "cost_scale": 2,
+    "exact_bound_separation": "1/4",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 35,
+    "r": 9,
+    "horizon": 179,
+    "pmin": "1/2",
+    "pmax": 1,
+    "minimum_thermal_x": "45",
+    "minimum_thermal_y": "91/2",
+    "shared_cap": "181/4",
+    "integer_scaled_minima": [
+      90,
+      91
+    ],
+    "cost_scale": 2,
+    "exact_bound_separation": "1/4",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 36,
+    "r": 9,
+    "horizon": 182,
+    "pmin": "1/2",
+    "pmax": 1,
+    "minimum_thermal_x": "45",
+    "minimum_thermal_y": "91/2",
+    "shared_cap": "181/4",
+    "integer_scaled_minima": [
+      90,
+      91
+    ],
+    "cost_scale": 2,
+    "exact_bound_separation": "1/4",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 37,
+    "r": 10,
+    "horizon": 193,
+    "pmin": "1/2",
+    "pmax": 1,
+    "minimum_thermal_x": "50",
+    "minimum_thermal_y": "101/2",
+    "shared_cap": "201/4",
+    "integer_scaled_minima": [
+      100,
+      101
+    ],
+    "cost_scale": 2,
+    "exact_bound_separation": "1/4",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 38,
+    "r": 10,
+    "horizon": 196,
+    "pmin": "1/2",
+    "pmax": 1,
+    "minimum_thermal_x": "50",
+    "minimum_thermal_y": "101/2",
+    "shared_cap": "201/4",
+    "integer_scaled_minima": [
+      100,
+      101
+    ],
+    "cost_scale": 2,
+    "exact_bound_separation": "1/4",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 39,
+    "r": 10,
+    "horizon": 199,
+    "pmin": "1/2",
+    "pmax": 1,
+    "minimum_thermal_x": "50",
+    "minimum_thermal_y": "101/2",
+    "shared_cap": "201/4",
+    "integer_scaled_minima": [
+      100,
+      101
+    ],
+    "cost_scale": 2,
+    "exact_bound_separation": "1/4",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 40,
+    "r": 10,
+    "horizon": 202,
+    "pmin": "1/2",
+    "pmax": 1,
+    "minimum_thermal_x": "50",
+    "minimum_thermal_y": "101/2",
+    "shared_cap": "201/4",
+    "integer_scaled_minima": [
+      100,
+      101
+    ],
+    "cost_scale": 2,
+    "exact_bound_separation": "1/4",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 41,
+    "r": 11,
+    "horizon": 213,
+    "pmin": "1/2",
+    "pmax": 1,
+    "minimum_thermal_x": "55",
+    "minimum_thermal_y": "111/2",
+    "shared_cap": "221/4",
+    "integer_scaled_minima": [
+      110,
+      111
+    ],
+    "cost_scale": 2,
+    "exact_bound_separation": "1/4",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 42,
+    "r": 11,
+    "horizon": 216,
+    "pmin": "1/2",
+    "pmax": 1,
+    "minimum_thermal_x": "55",
+    "minimum_thermal_y": "111/2",
+    "shared_cap": "221/4",
+    "integer_scaled_minima": [
+      110,
+      111
+    ],
+    "cost_scale": 2,
+    "exact_bound_separation": "1/4",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 43,
+    "r": 11,
+    "horizon": 219,
+    "pmin": "1/2",
+    "pmax": 1,
+    "minimum_thermal_x": "55",
+    "minimum_thermal_y": "111/2",
+    "shared_cap": "221/4",
+    "integer_scaled_minima": [
+      110,
+      111
+    ],
+    "cost_scale": 2,
+    "exact_bound_separation": "1/4",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 44,
+    "r": 11,
+    "horizon": 222,
+    "pmin": "1/2",
+    "pmax": 1,
+    "minimum_thermal_x": "55",
+    "minimum_thermal_y": "111/2",
+    "shared_cap": "221/4",
+    "integer_scaled_minima": [
+      110,
+      111
+    ],
+    "cost_scale": 2,
+    "exact_bound_separation": "1/4",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 45,
+    "r": 12,
+    "horizon": 233,
+    "pmin": "1/2",
+    "pmax": 1,
+    "minimum_thermal_x": "60",
+    "minimum_thermal_y": "121/2",
+    "shared_cap": "241/4",
+    "integer_scaled_minima": [
+      120,
+      121
+    ],
+    "cost_scale": 2,
+    "exact_bound_separation": "1/4",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 46,
+    "r": 12,
+    "horizon": 236,
+    "pmin": "1/2",
+    "pmax": 1,
+    "minimum_thermal_x": "60",
+    "minimum_thermal_y": "121/2",
+    "shared_cap": "241/4",
+    "integer_scaled_minima": [
+      120,
+      121
+    ],
+    "cost_scale": 2,
+    "exact_bound_separation": "1/4",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 47,
+    "r": 12,
+    "horizon": 239,
+    "pmin": "1/2",
+    "pmax": 1,
+    "minimum_thermal_x": "60",
+    "minimum_thermal_y": "121/2",
+    "shared_cap": "241/4",
+    "integer_scaled_minima": [
+      120,
+      121
+    ],
+    "cost_scale": 2,
+    "exact_bound_separation": "1/4",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 48,
+    "r": 12,
+    "horizon": 242,
+    "pmin": "1/2",
+    "pmax": 1,
+    "minimum_thermal_x": "60",
+    "minimum_thermal_y": "121/2",
+    "shared_cap": "241/4",
+    "integer_scaled_minima": [
+      120,
+      121
+    ],
+    "cost_scale": 2,
+    "exact_bound_separation": "1/4",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 49,
+    "r": 13,
+    "horizon": 253,
+    "pmin": "1/2",
+    "pmax": 1,
+    "minimum_thermal_x": "65",
+    "minimum_thermal_y": "131/2",
+    "shared_cap": "261/4",
+    "integer_scaled_minima": [
+      130,
+      131
+    ],
+    "cost_scale": 2,
+    "exact_bound_separation": "1/4",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 50,
+    "r": 13,
+    "horizon": 256,
+    "pmin": "1/2",
+    "pmax": 1,
+    "minimum_thermal_x": "65",
+    "minimum_thermal_y": "131/2",
+    "shared_cap": "261/4",
+    "integer_scaled_minima": [
+      130,
+      131
+    ],
+    "cost_scale": 2,
+    "exact_bound_separation": "1/4",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 51,
+    "r": 13,
+    "horizon": 259,
+    "pmin": "1/2",
+    "pmax": 1,
+    "minimum_thermal_x": "65",
+    "minimum_thermal_y": "131/2",
+    "shared_cap": "261/4",
+    "integer_scaled_minima": [
+      130,
+      131
+    ],
+    "cost_scale": 2,
+    "exact_bound_separation": "1/4",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 52,
+    "r": 13,
+    "horizon": 262,
+    "pmin": "1/2",
+    "pmax": 1,
+    "minimum_thermal_x": "65",
+    "minimum_thermal_y": "131/2",
+    "shared_cap": "261/4",
+    "integer_scaled_minima": [
+      130,
+      131
+    ],
+    "cost_scale": 2,
+    "exact_bound_separation": "1/4",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 53,
+    "r": 14,
+    "horizon": 273,
+    "pmin": "1/2",
+    "pmax": 1,
+    "minimum_thermal_x": "70",
+    "minimum_thermal_y": "141/2",
+    "shared_cap": "281/4",
+    "integer_scaled_minima": [
+      140,
+      141
+    ],
+    "cost_scale": 2,
+    "exact_bound_separation": "1/4",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 54,
+    "r": 14,
+    "horizon": 276,
+    "pmin": "1/2",
+    "pmax": 1,
+    "minimum_thermal_x": "70",
+    "minimum_thermal_y": "141/2",
+    "shared_cap": "281/4",
+    "integer_scaled_minima": [
+      140,
+      141
+    ],
+    "cost_scale": 2,
+    "exact_bound_separation": "1/4",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 55,
+    "r": 14,
+    "horizon": 279,
+    "pmin": "1/2",
+    "pmax": 1,
+    "minimum_thermal_x": "70",
+    "minimum_thermal_y": "141/2",
+    "shared_cap": "281/4",
+    "integer_scaled_minima": [
+      140,
+      141
+    ],
+    "cost_scale": 2,
+    "exact_bound_separation": "1/4",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 56,
+    "r": 14,
+    "horizon": 282,
+    "pmin": "1/2",
+    "pmax": 1,
+    "minimum_thermal_x": "70",
+    "minimum_thermal_y": "141/2",
+    "shared_cap": "281/4",
+    "integer_scaled_minima": [
+      140,
+      141
+    ],
+    "cost_scale": 2,
+    "exact_bound_separation": "1/4",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 57,
+    "r": 15,
+    "horizon": 293,
+    "pmin": "1/2",
+    "pmax": 1,
+    "minimum_thermal_x": "75",
+    "minimum_thermal_y": "151/2",
+    "shared_cap": "301/4",
+    "integer_scaled_minima": [
+      150,
+      151
+    ],
+    "cost_scale": 2,
+    "exact_bound_separation": "1/4",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 58,
+    "r": 15,
+    "horizon": 296,
+    "pmin": "1/2",
+    "pmax": 1,
+    "minimum_thermal_x": "75",
+    "minimum_thermal_y": "151/2",
+    "shared_cap": "301/4",
+    "integer_scaled_minima": [
+      150,
+      151
+    ],
+    "cost_scale": 2,
+    "exact_bound_separation": "1/4",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 59,
+    "r": 15,
+    "horizon": 299,
+    "pmin": "1/2",
+    "pmax": 1,
+    "minimum_thermal_x": "75",
+    "minimum_thermal_y": "151/2",
+    "shared_cap": "301/4",
+    "integer_scaled_minima": [
+      150,
+      151
+    ],
+    "cost_scale": 2,
+    "exact_bound_separation": "1/4",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 60,
+    "r": 15,
+    "horizon": 302,
+    "pmin": "1/2",
+    "pmax": 1,
+    "minimum_thermal_x": "75",
+    "minimum_thermal_y": "151/2",
+    "shared_cap": "301/4",
+    "integer_scaled_minima": [
+      150,
+      151
+    ],
+    "cost_scale": 2,
+    "exact_bound_separation": "1/4",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 61,
+    "r": 16,
+    "horizon": 313,
+    "pmin": "1/2",
+    "pmax": 1,
+    "minimum_thermal_x": "80",
+    "minimum_thermal_y": "161/2",
+    "shared_cap": "321/4",
+    "integer_scaled_minima": [
+      160,
+      161
+    ],
+    "cost_scale": 2,
+    "exact_bound_separation": "1/4",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 62,
+    "r": 16,
+    "horizon": 316,
+    "pmin": "1/2",
+    "pmax": 1,
+    "minimum_thermal_x": "80",
+    "minimum_thermal_y": "161/2",
+    "shared_cap": "321/4",
+    "integer_scaled_minima": [
+      160,
+      161
+    ],
+    "cost_scale": 2,
+    "exact_bound_separation": "1/4",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 63,
+    "r": 16,
+    "horizon": 319,
+    "pmin": "1/2",
+    "pmax": 1,
+    "minimum_thermal_x": "80",
+    "minimum_thermal_y": "161/2",
+    "shared_cap": "321/4",
+    "integer_scaled_minima": [
+      160,
+      161
+    ],
+    "cost_scale": 2,
+    "exact_bound_separation": "1/4",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 64,
+    "r": 16,
+    "horizon": 322,
+    "pmin": "1/2",
+    "pmax": 1,
+    "minimum_thermal_x": "80",
+    "minimum_thermal_y": "161/2",
+    "shared_cap": "321/4",
+    "integer_scaled_minima": [
+      160,
+      161
+    ],
+    "cost_scale": 2,
+    "exact_bound_separation": "1/4",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 1,
+    "r": 1,
+    "horizon": 13,
+    "pmin": "2/3",
+    "pmax": 1,
+    "minimum_thermal_x": "16/3",
+    "minimum_thermal_y": "6",
+    "shared_cap": "17/3",
+    "integer_scaled_minima": [
+      16,
+      18
+    ],
+    "cost_scale": 3,
+    "exact_bound_separation": "1/3",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 2,
+    "r": 1,
+    "horizon": 16,
+    "pmin": "2/3",
+    "pmax": 1,
+    "minimum_thermal_x": "16/3",
+    "minimum_thermal_y": "6",
+    "shared_cap": "17/3",
+    "integer_scaled_minima": [
+      16,
+      18
+    ],
+    "cost_scale": 3,
+    "exact_bound_separation": "1/3",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 3,
+    "r": 1,
+    "horizon": 19,
+    "pmin": "2/3",
+    "pmax": 1,
+    "minimum_thermal_x": "16/3",
+    "minimum_thermal_y": "6",
+    "shared_cap": "17/3",
+    "integer_scaled_minima": [
+      16,
+      18
+    ],
+    "cost_scale": 3,
+    "exact_bound_separation": "1/3",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 4,
+    "r": 1,
+    "horizon": 22,
+    "pmin": "2/3",
+    "pmax": 1,
+    "minimum_thermal_x": "16/3",
+    "minimum_thermal_y": "6",
+    "shared_cap": "17/3",
+    "integer_scaled_minima": [
+      16,
+      18
+    ],
+    "cost_scale": 3,
+    "exact_bound_separation": "1/3",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 5,
+    "r": 2,
+    "horizon": 33,
+    "pmin": "2/3",
+    "pmax": 1,
+    "minimum_thermal_x": "32/3",
+    "minimum_thermal_y": "34/3",
+    "shared_cap": "11",
+    "integer_scaled_minima": [
+      32,
+      34
+    ],
+    "cost_scale": 3,
+    "exact_bound_separation": "1/3",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 6,
+    "r": 2,
+    "horizon": 36,
+    "pmin": "2/3",
+    "pmax": 1,
+    "minimum_thermal_x": "32/3",
+    "minimum_thermal_y": "34/3",
+    "shared_cap": "11",
+    "integer_scaled_minima": [
+      32,
+      34
+    ],
+    "cost_scale": 3,
+    "exact_bound_separation": "1/3",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 7,
+    "r": 2,
+    "horizon": 39,
+    "pmin": "2/3",
+    "pmax": 1,
+    "minimum_thermal_x": "32/3",
+    "minimum_thermal_y": "34/3",
+    "shared_cap": "11",
+    "integer_scaled_minima": [
+      32,
+      34
+    ],
+    "cost_scale": 3,
+    "exact_bound_separation": "1/3",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 8,
+    "r": 2,
+    "horizon": 42,
+    "pmin": "2/3",
+    "pmax": 1,
+    "minimum_thermal_x": "32/3",
+    "minimum_thermal_y": "34/3",
+    "shared_cap": "11",
+    "integer_scaled_minima": [
+      32,
+      34
+    ],
+    "cost_scale": 3,
+    "exact_bound_separation": "1/3",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 9,
+    "r": 3,
+    "horizon": 53,
+    "pmin": "2/3",
+    "pmax": 1,
+    "minimum_thermal_x": "16",
+    "minimum_thermal_y": "50/3",
+    "shared_cap": "49/3",
+    "integer_scaled_minima": [
+      48,
+      50
+    ],
+    "cost_scale": 3,
+    "exact_bound_separation": "1/3",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 10,
+    "r": 3,
+    "horizon": 56,
+    "pmin": "2/3",
+    "pmax": 1,
+    "minimum_thermal_x": "16",
+    "minimum_thermal_y": "50/3",
+    "shared_cap": "49/3",
+    "integer_scaled_minima": [
+      48,
+      50
+    ],
+    "cost_scale": 3,
+    "exact_bound_separation": "1/3",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 11,
+    "r": 3,
+    "horizon": 59,
+    "pmin": "2/3",
+    "pmax": 1,
+    "minimum_thermal_x": "16",
+    "minimum_thermal_y": "50/3",
+    "shared_cap": "49/3",
+    "integer_scaled_minima": [
+      48,
+      50
+    ],
+    "cost_scale": 3,
+    "exact_bound_separation": "1/3",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 12,
+    "r": 3,
+    "horizon": 62,
+    "pmin": "2/3",
+    "pmax": 1,
+    "minimum_thermal_x": "16",
+    "minimum_thermal_y": "50/3",
+    "shared_cap": "49/3",
+    "integer_scaled_minima": [
+      48,
+      50
+    ],
+    "cost_scale": 3,
+    "exact_bound_separation": "1/3",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 13,
+    "r": 4,
+    "horizon": 73,
+    "pmin": "2/3",
+    "pmax": 1,
+    "minimum_thermal_x": "64/3",
+    "minimum_thermal_y": "22",
+    "shared_cap": "65/3",
+    "integer_scaled_minima": [
+      64,
+      66
+    ],
+    "cost_scale": 3,
+    "exact_bound_separation": "1/3",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 14,
+    "r": 4,
+    "horizon": 76,
+    "pmin": "2/3",
+    "pmax": 1,
+    "minimum_thermal_x": "64/3",
+    "minimum_thermal_y": "22",
+    "shared_cap": "65/3",
+    "integer_scaled_minima": [
+      64,
+      66
+    ],
+    "cost_scale": 3,
+    "exact_bound_separation": "1/3",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 15,
+    "r": 4,
+    "horizon": 79,
+    "pmin": "2/3",
+    "pmax": 1,
+    "minimum_thermal_x": "64/3",
+    "minimum_thermal_y": "22",
+    "shared_cap": "65/3",
+    "integer_scaled_minima": [
+      64,
+      66
+    ],
+    "cost_scale": 3,
+    "exact_bound_separation": "1/3",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 16,
+    "r": 4,
+    "horizon": 82,
+    "pmin": "2/3",
+    "pmax": 1,
+    "minimum_thermal_x": "64/3",
+    "minimum_thermal_y": "22",
+    "shared_cap": "65/3",
+    "integer_scaled_minima": [
+      64,
+      66
+    ],
+    "cost_scale": 3,
+    "exact_bound_separation": "1/3",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 17,
+    "r": 5,
+    "horizon": 93,
+    "pmin": "2/3",
+    "pmax": 1,
+    "minimum_thermal_x": "80/3",
+    "minimum_thermal_y": "82/3",
+    "shared_cap": "27",
+    "integer_scaled_minima": [
+      80,
+      82
+    ],
+    "cost_scale": 3,
+    "exact_bound_separation": "1/3",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 18,
+    "r": 5,
+    "horizon": 96,
+    "pmin": "2/3",
+    "pmax": 1,
+    "minimum_thermal_x": "80/3",
+    "minimum_thermal_y": "82/3",
+    "shared_cap": "27",
+    "integer_scaled_minima": [
+      80,
+      82
+    ],
+    "cost_scale": 3,
+    "exact_bound_separation": "1/3",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 19,
+    "r": 5,
+    "horizon": 99,
+    "pmin": "2/3",
+    "pmax": 1,
+    "minimum_thermal_x": "80/3",
+    "minimum_thermal_y": "82/3",
+    "shared_cap": "27",
+    "integer_scaled_minima": [
+      80,
+      82
+    ],
+    "cost_scale": 3,
+    "exact_bound_separation": "1/3",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 20,
+    "r": 5,
+    "horizon": 102,
+    "pmin": "2/3",
+    "pmax": 1,
+    "minimum_thermal_x": "80/3",
+    "minimum_thermal_y": "82/3",
+    "shared_cap": "27",
+    "integer_scaled_minima": [
+      80,
+      82
+    ],
+    "cost_scale": 3,
+    "exact_bound_separation": "1/3",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 21,
+    "r": 6,
+    "horizon": 113,
+    "pmin": "2/3",
+    "pmax": 1,
+    "minimum_thermal_x": "32",
+    "minimum_thermal_y": "98/3",
+    "shared_cap": "97/3",
+    "integer_scaled_minima": [
+      96,
+      98
+    ],
+    "cost_scale": 3,
+    "exact_bound_separation": "1/3",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 22,
+    "r": 6,
+    "horizon": 116,
+    "pmin": "2/3",
+    "pmax": 1,
+    "minimum_thermal_x": "32",
+    "minimum_thermal_y": "98/3",
+    "shared_cap": "97/3",
+    "integer_scaled_minima": [
+      96,
+      98
+    ],
+    "cost_scale": 3,
+    "exact_bound_separation": "1/3",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 23,
+    "r": 6,
+    "horizon": 119,
+    "pmin": "2/3",
+    "pmax": 1,
+    "minimum_thermal_x": "32",
+    "minimum_thermal_y": "98/3",
+    "shared_cap": "97/3",
+    "integer_scaled_minima": [
+      96,
+      98
+    ],
+    "cost_scale": 3,
+    "exact_bound_separation": "1/3",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 24,
+    "r": 6,
+    "horizon": 122,
+    "pmin": "2/3",
+    "pmax": 1,
+    "minimum_thermal_x": "32",
+    "minimum_thermal_y": "98/3",
+    "shared_cap": "97/3",
+    "integer_scaled_minima": [
+      96,
+      98
+    ],
+    "cost_scale": 3,
+    "exact_bound_separation": "1/3",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 25,
+    "r": 7,
+    "horizon": 133,
+    "pmin": "2/3",
+    "pmax": 1,
+    "minimum_thermal_x": "112/3",
+    "minimum_thermal_y": "38",
+    "shared_cap": "113/3",
+    "integer_scaled_minima": [
+      112,
+      114
+    ],
+    "cost_scale": 3,
+    "exact_bound_separation": "1/3",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 26,
+    "r": 7,
+    "horizon": 136,
+    "pmin": "2/3",
+    "pmax": 1,
+    "minimum_thermal_x": "112/3",
+    "minimum_thermal_y": "38",
+    "shared_cap": "113/3",
+    "integer_scaled_minima": [
+      112,
+      114
+    ],
+    "cost_scale": 3,
+    "exact_bound_separation": "1/3",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 27,
+    "r": 7,
+    "horizon": 139,
+    "pmin": "2/3",
+    "pmax": 1,
+    "minimum_thermal_x": "112/3",
+    "minimum_thermal_y": "38",
+    "shared_cap": "113/3",
+    "integer_scaled_minima": [
+      112,
+      114
+    ],
+    "cost_scale": 3,
+    "exact_bound_separation": "1/3",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 28,
+    "r": 7,
+    "horizon": 142,
+    "pmin": "2/3",
+    "pmax": 1,
+    "minimum_thermal_x": "112/3",
+    "minimum_thermal_y": "38",
+    "shared_cap": "113/3",
+    "integer_scaled_minima": [
+      112,
+      114
+    ],
+    "cost_scale": 3,
+    "exact_bound_separation": "1/3",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 29,
+    "r": 8,
+    "horizon": 153,
+    "pmin": "2/3",
+    "pmax": 1,
+    "minimum_thermal_x": "128/3",
+    "minimum_thermal_y": "130/3",
+    "shared_cap": "43",
+    "integer_scaled_minima": [
+      128,
+      130
+    ],
+    "cost_scale": 3,
+    "exact_bound_separation": "1/3",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 30,
+    "r": 8,
+    "horizon": 156,
+    "pmin": "2/3",
+    "pmax": 1,
+    "minimum_thermal_x": "128/3",
+    "minimum_thermal_y": "130/3",
+    "shared_cap": "43",
+    "integer_scaled_minima": [
+      128,
+      130
+    ],
+    "cost_scale": 3,
+    "exact_bound_separation": "1/3",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 31,
+    "r": 8,
+    "horizon": 159,
+    "pmin": "2/3",
+    "pmax": 1,
+    "minimum_thermal_x": "128/3",
+    "minimum_thermal_y": "130/3",
+    "shared_cap": "43",
+    "integer_scaled_minima": [
+      128,
+      130
+    ],
+    "cost_scale": 3,
+    "exact_bound_separation": "1/3",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 32,
+    "r": 8,
+    "horizon": 162,
+    "pmin": "2/3",
+    "pmax": 1,
+    "minimum_thermal_x": "128/3",
+    "minimum_thermal_y": "130/3",
+    "shared_cap": "43",
+    "integer_scaled_minima": [
+      128,
+      130
+    ],
+    "cost_scale": 3,
+    "exact_bound_separation": "1/3",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 33,
+    "r": 9,
+    "horizon": 173,
+    "pmin": "2/3",
+    "pmax": 1,
+    "minimum_thermal_x": "48",
+    "minimum_thermal_y": "146/3",
+    "shared_cap": "145/3",
+    "integer_scaled_minima": [
+      144,
+      146
+    ],
+    "cost_scale": 3,
+    "exact_bound_separation": "1/3",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 34,
+    "r": 9,
+    "horizon": 176,
+    "pmin": "2/3",
+    "pmax": 1,
+    "minimum_thermal_x": "48",
+    "minimum_thermal_y": "146/3",
+    "shared_cap": "145/3",
+    "integer_scaled_minima": [
+      144,
+      146
+    ],
+    "cost_scale": 3,
+    "exact_bound_separation": "1/3",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 35,
+    "r": 9,
+    "horizon": 179,
+    "pmin": "2/3",
+    "pmax": 1,
+    "minimum_thermal_x": "48",
+    "minimum_thermal_y": "146/3",
+    "shared_cap": "145/3",
+    "integer_scaled_minima": [
+      144,
+      146
+    ],
+    "cost_scale": 3,
+    "exact_bound_separation": "1/3",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 36,
+    "r": 9,
+    "horizon": 182,
+    "pmin": "2/3",
+    "pmax": 1,
+    "minimum_thermal_x": "48",
+    "minimum_thermal_y": "146/3",
+    "shared_cap": "145/3",
+    "integer_scaled_minima": [
+      144,
+      146
+    ],
+    "cost_scale": 3,
+    "exact_bound_separation": "1/3",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 37,
+    "r": 10,
+    "horizon": 193,
+    "pmin": "2/3",
+    "pmax": 1,
+    "minimum_thermal_x": "160/3",
+    "minimum_thermal_y": "54",
+    "shared_cap": "161/3",
+    "integer_scaled_minima": [
+      160,
+      162
+    ],
+    "cost_scale": 3,
+    "exact_bound_separation": "1/3",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 38,
+    "r": 10,
+    "horizon": 196,
+    "pmin": "2/3",
+    "pmax": 1,
+    "minimum_thermal_x": "160/3",
+    "minimum_thermal_y": "54",
+    "shared_cap": "161/3",
+    "integer_scaled_minima": [
+      160,
+      162
+    ],
+    "cost_scale": 3,
+    "exact_bound_separation": "1/3",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 39,
+    "r": 10,
+    "horizon": 199,
+    "pmin": "2/3",
+    "pmax": 1,
+    "minimum_thermal_x": "160/3",
+    "minimum_thermal_y": "54",
+    "shared_cap": "161/3",
+    "integer_scaled_minima": [
+      160,
+      162
+    ],
+    "cost_scale": 3,
+    "exact_bound_separation": "1/3",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 40,
+    "r": 10,
+    "horizon": 202,
+    "pmin": "2/3",
+    "pmax": 1,
+    "minimum_thermal_x": "160/3",
+    "minimum_thermal_y": "54",
+    "shared_cap": "161/3",
+    "integer_scaled_minima": [
+      160,
+      162
+    ],
+    "cost_scale": 3,
+    "exact_bound_separation": "1/3",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 41,
+    "r": 11,
+    "horizon": 213,
+    "pmin": "2/3",
+    "pmax": 1,
+    "minimum_thermal_x": "176/3",
+    "minimum_thermal_y": "178/3",
+    "shared_cap": "59",
+    "integer_scaled_minima": [
+      176,
+      178
+    ],
+    "cost_scale": 3,
+    "exact_bound_separation": "1/3",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 42,
+    "r": 11,
+    "horizon": 216,
+    "pmin": "2/3",
+    "pmax": 1,
+    "minimum_thermal_x": "176/3",
+    "minimum_thermal_y": "178/3",
+    "shared_cap": "59",
+    "integer_scaled_minima": [
+      176,
+      178
+    ],
+    "cost_scale": 3,
+    "exact_bound_separation": "1/3",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 43,
+    "r": 11,
+    "horizon": 219,
+    "pmin": "2/3",
+    "pmax": 1,
+    "minimum_thermal_x": "176/3",
+    "minimum_thermal_y": "178/3",
+    "shared_cap": "59",
+    "integer_scaled_minima": [
+      176,
+      178
+    ],
+    "cost_scale": 3,
+    "exact_bound_separation": "1/3",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 44,
+    "r": 11,
+    "horizon": 222,
+    "pmin": "2/3",
+    "pmax": 1,
+    "minimum_thermal_x": "176/3",
+    "minimum_thermal_y": "178/3",
+    "shared_cap": "59",
+    "integer_scaled_minima": [
+      176,
+      178
+    ],
+    "cost_scale": 3,
+    "exact_bound_separation": "1/3",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 45,
+    "r": 12,
+    "horizon": 233,
+    "pmin": "2/3",
+    "pmax": 1,
+    "minimum_thermal_x": "64",
+    "minimum_thermal_y": "194/3",
+    "shared_cap": "193/3",
+    "integer_scaled_minima": [
+      192,
+      194
+    ],
+    "cost_scale": 3,
+    "exact_bound_separation": "1/3",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 46,
+    "r": 12,
+    "horizon": 236,
+    "pmin": "2/3",
+    "pmax": 1,
+    "minimum_thermal_x": "64",
+    "minimum_thermal_y": "194/3",
+    "shared_cap": "193/3",
+    "integer_scaled_minima": [
+      192,
+      194
+    ],
+    "cost_scale": 3,
+    "exact_bound_separation": "1/3",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 47,
+    "r": 12,
+    "horizon": 239,
+    "pmin": "2/3",
+    "pmax": 1,
+    "minimum_thermal_x": "64",
+    "minimum_thermal_y": "194/3",
+    "shared_cap": "193/3",
+    "integer_scaled_minima": [
+      192,
+      194
+    ],
+    "cost_scale": 3,
+    "exact_bound_separation": "1/3",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 48,
+    "r": 12,
+    "horizon": 242,
+    "pmin": "2/3",
+    "pmax": 1,
+    "minimum_thermal_x": "64",
+    "minimum_thermal_y": "194/3",
+    "shared_cap": "193/3",
+    "integer_scaled_minima": [
+      192,
+      194
+    ],
+    "cost_scale": 3,
+    "exact_bound_separation": "1/3",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 49,
+    "r": 13,
+    "horizon": 253,
+    "pmin": "2/3",
+    "pmax": 1,
+    "minimum_thermal_x": "208/3",
+    "minimum_thermal_y": "70",
+    "shared_cap": "209/3",
+    "integer_scaled_minima": [
+      208,
+      210
+    ],
+    "cost_scale": 3,
+    "exact_bound_separation": "1/3",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 50,
+    "r": 13,
+    "horizon": 256,
+    "pmin": "2/3",
+    "pmax": 1,
+    "minimum_thermal_x": "208/3",
+    "minimum_thermal_y": "70",
+    "shared_cap": "209/3",
+    "integer_scaled_minima": [
+      208,
+      210
+    ],
+    "cost_scale": 3,
+    "exact_bound_separation": "1/3",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 51,
+    "r": 13,
+    "horizon": 259,
+    "pmin": "2/3",
+    "pmax": 1,
+    "minimum_thermal_x": "208/3",
+    "minimum_thermal_y": "70",
+    "shared_cap": "209/3",
+    "integer_scaled_minima": [
+      208,
+      210
+    ],
+    "cost_scale": 3,
+    "exact_bound_separation": "1/3",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 52,
+    "r": 13,
+    "horizon": 262,
+    "pmin": "2/3",
+    "pmax": 1,
+    "minimum_thermal_x": "208/3",
+    "minimum_thermal_y": "70",
+    "shared_cap": "209/3",
+    "integer_scaled_minima": [
+      208,
+      210
+    ],
+    "cost_scale": 3,
+    "exact_bound_separation": "1/3",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 53,
+    "r": 14,
+    "horizon": 273,
+    "pmin": "2/3",
+    "pmax": 1,
+    "minimum_thermal_x": "224/3",
+    "minimum_thermal_y": "226/3",
+    "shared_cap": "75",
+    "integer_scaled_minima": [
+      224,
+      226
+    ],
+    "cost_scale": 3,
+    "exact_bound_separation": "1/3",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 54,
+    "r": 14,
+    "horizon": 276,
+    "pmin": "2/3",
+    "pmax": 1,
+    "minimum_thermal_x": "224/3",
+    "minimum_thermal_y": "226/3",
+    "shared_cap": "75",
+    "integer_scaled_minima": [
+      224,
+      226
+    ],
+    "cost_scale": 3,
+    "exact_bound_separation": "1/3",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 55,
+    "r": 14,
+    "horizon": 279,
+    "pmin": "2/3",
+    "pmax": 1,
+    "minimum_thermal_x": "224/3",
+    "minimum_thermal_y": "226/3",
+    "shared_cap": "75",
+    "integer_scaled_minima": [
+      224,
+      226
+    ],
+    "cost_scale": 3,
+    "exact_bound_separation": "1/3",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 56,
+    "r": 14,
+    "horizon": 282,
+    "pmin": "2/3",
+    "pmax": 1,
+    "minimum_thermal_x": "224/3",
+    "minimum_thermal_y": "226/3",
+    "shared_cap": "75",
+    "integer_scaled_minima": [
+      224,
+      226
+    ],
+    "cost_scale": 3,
+    "exact_bound_separation": "1/3",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 57,
+    "r": 15,
+    "horizon": 293,
+    "pmin": "2/3",
+    "pmax": 1,
+    "minimum_thermal_x": "80",
+    "minimum_thermal_y": "242/3",
+    "shared_cap": "241/3",
+    "integer_scaled_minima": [
+      240,
+      242
+    ],
+    "cost_scale": 3,
+    "exact_bound_separation": "1/3",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 58,
+    "r": 15,
+    "horizon": 296,
+    "pmin": "2/3",
+    "pmax": 1,
+    "minimum_thermal_x": "80",
+    "minimum_thermal_y": "242/3",
+    "shared_cap": "241/3",
+    "integer_scaled_minima": [
+      240,
+      242
+    ],
+    "cost_scale": 3,
+    "exact_bound_separation": "1/3",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 59,
+    "r": 15,
+    "horizon": 299,
+    "pmin": "2/3",
+    "pmax": 1,
+    "minimum_thermal_x": "80",
+    "minimum_thermal_y": "242/3",
+    "shared_cap": "241/3",
+    "integer_scaled_minima": [
+      240,
+      242
+    ],
+    "cost_scale": 3,
+    "exact_bound_separation": "1/3",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 60,
+    "r": 15,
+    "horizon": 302,
+    "pmin": "2/3",
+    "pmax": 1,
+    "minimum_thermal_x": "80",
+    "minimum_thermal_y": "242/3",
+    "shared_cap": "241/3",
+    "integer_scaled_minima": [
+      240,
+      242
+    ],
+    "cost_scale": 3,
+    "exact_bound_separation": "1/3",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 61,
+    "r": 16,
+    "horizon": 313,
+    "pmin": "2/3",
+    "pmax": 1,
+    "minimum_thermal_x": "256/3",
+    "minimum_thermal_y": "86",
+    "shared_cap": "257/3",
+    "integer_scaled_minima": [
+      256,
+      258
+    ],
+    "cost_scale": 3,
+    "exact_bound_separation": "1/3",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 62,
+    "r": 16,
+    "horizon": 316,
+    "pmin": "2/3",
+    "pmax": 1,
+    "minimum_thermal_x": "256/3",
+    "minimum_thermal_y": "86",
+    "shared_cap": "257/3",
+    "integer_scaled_minima": [
+      256,
+      258
+    ],
+    "cost_scale": 3,
+    "exact_bound_separation": "1/3",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 63,
+    "r": 16,
+    "horizon": 319,
+    "pmin": "2/3",
+    "pmax": 1,
+    "minimum_thermal_x": "256/3",
+    "minimum_thermal_y": "86",
+    "shared_cap": "257/3",
+    "integer_scaled_minima": [
+      256,
+      258
+    ],
+    "cost_scale": 3,
+    "exact_bound_separation": "1/3",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 64,
+    "r": 16,
+    "horizon": 322,
+    "pmin": "2/3",
+    "pmax": 1,
+    "minimum_thermal_x": "256/3",
+    "minimum_thermal_y": "86",
+    "shared_cap": "257/3",
+    "integer_scaled_minima": [
+      256,
+      258
+    ],
+    "cost_scale": 3,
+    "exact_bound_separation": "1/3",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 1,
+    "r": 1,
+    "horizon": 13,
+    "pmin": "1",
+    "pmax": 1,
+    "minimum_thermal_x": "6",
+    "minimum_thermal_y": "7",
+    "shared_cap": "13/2",
+    "integer_scaled_minima": [
+      6,
+      7
+    ],
+    "cost_scale": 1,
+    "exact_bound_separation": "1/2",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 2,
+    "r": 1,
+    "horizon": 16,
+    "pmin": "1",
+    "pmax": 1,
+    "minimum_thermal_x": "6",
+    "minimum_thermal_y": "7",
+    "shared_cap": "13/2",
+    "integer_scaled_minima": [
+      6,
+      7
+    ],
+    "cost_scale": 1,
+    "exact_bound_separation": "1/2",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 3,
+    "r": 1,
+    "horizon": 19,
+    "pmin": "1",
+    "pmax": 1,
+    "minimum_thermal_x": "6",
+    "minimum_thermal_y": "7",
+    "shared_cap": "13/2",
+    "integer_scaled_minima": [
+      6,
+      7
+    ],
+    "cost_scale": 1,
+    "exact_bound_separation": "1/2",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 4,
+    "r": 1,
+    "horizon": 22,
+    "pmin": "1",
+    "pmax": 1,
+    "minimum_thermal_x": "6",
+    "minimum_thermal_y": "7",
+    "shared_cap": "13/2",
+    "integer_scaled_minima": [
+      6,
+      7
+    ],
+    "cost_scale": 1,
+    "exact_bound_separation": "1/2",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 5,
+    "r": 2,
+    "horizon": 33,
+    "pmin": "1",
+    "pmax": 1,
+    "minimum_thermal_x": "12",
+    "minimum_thermal_y": "13",
+    "shared_cap": "25/2",
+    "integer_scaled_minima": [
+      12,
+      13
+    ],
+    "cost_scale": 1,
+    "exact_bound_separation": "1/2",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 6,
+    "r": 2,
+    "horizon": 36,
+    "pmin": "1",
+    "pmax": 1,
+    "minimum_thermal_x": "12",
+    "minimum_thermal_y": "13",
+    "shared_cap": "25/2",
+    "integer_scaled_minima": [
+      12,
+      13
+    ],
+    "cost_scale": 1,
+    "exact_bound_separation": "1/2",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 7,
+    "r": 2,
+    "horizon": 39,
+    "pmin": "1",
+    "pmax": 1,
+    "minimum_thermal_x": "12",
+    "minimum_thermal_y": "13",
+    "shared_cap": "25/2",
+    "integer_scaled_minima": [
+      12,
+      13
+    ],
+    "cost_scale": 1,
+    "exact_bound_separation": "1/2",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 8,
+    "r": 2,
+    "horizon": 42,
+    "pmin": "1",
+    "pmax": 1,
+    "minimum_thermal_x": "12",
+    "minimum_thermal_y": "13",
+    "shared_cap": "25/2",
+    "integer_scaled_minima": [
+      12,
+      13
+    ],
+    "cost_scale": 1,
+    "exact_bound_separation": "1/2",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 9,
+    "r": 3,
+    "horizon": 53,
+    "pmin": "1",
+    "pmax": 1,
+    "minimum_thermal_x": "18",
+    "minimum_thermal_y": "19",
+    "shared_cap": "37/2",
+    "integer_scaled_minima": [
+      18,
+      19
+    ],
+    "cost_scale": 1,
+    "exact_bound_separation": "1/2",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 10,
+    "r": 3,
+    "horizon": 56,
+    "pmin": "1",
+    "pmax": 1,
+    "minimum_thermal_x": "18",
+    "minimum_thermal_y": "19",
+    "shared_cap": "37/2",
+    "integer_scaled_minima": [
+      18,
+      19
+    ],
+    "cost_scale": 1,
+    "exact_bound_separation": "1/2",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 11,
+    "r": 3,
+    "horizon": 59,
+    "pmin": "1",
+    "pmax": 1,
+    "minimum_thermal_x": "18",
+    "minimum_thermal_y": "19",
+    "shared_cap": "37/2",
+    "integer_scaled_minima": [
+      18,
+      19
+    ],
+    "cost_scale": 1,
+    "exact_bound_separation": "1/2",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 12,
+    "r": 3,
+    "horizon": 62,
+    "pmin": "1",
+    "pmax": 1,
+    "minimum_thermal_x": "18",
+    "minimum_thermal_y": "19",
+    "shared_cap": "37/2",
+    "integer_scaled_minima": [
+      18,
+      19
+    ],
+    "cost_scale": 1,
+    "exact_bound_separation": "1/2",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 13,
+    "r": 4,
+    "horizon": 73,
+    "pmin": "1",
+    "pmax": 1,
+    "minimum_thermal_x": "24",
+    "minimum_thermal_y": "25",
+    "shared_cap": "49/2",
+    "integer_scaled_minima": [
+      24,
+      25
+    ],
+    "cost_scale": 1,
+    "exact_bound_separation": "1/2",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 14,
+    "r": 4,
+    "horizon": 76,
+    "pmin": "1",
+    "pmax": 1,
+    "minimum_thermal_x": "24",
+    "minimum_thermal_y": "25",
+    "shared_cap": "49/2",
+    "integer_scaled_minima": [
+      24,
+      25
+    ],
+    "cost_scale": 1,
+    "exact_bound_separation": "1/2",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 15,
+    "r": 4,
+    "horizon": 79,
+    "pmin": "1",
+    "pmax": 1,
+    "minimum_thermal_x": "24",
+    "minimum_thermal_y": "25",
+    "shared_cap": "49/2",
+    "integer_scaled_minima": [
+      24,
+      25
+    ],
+    "cost_scale": 1,
+    "exact_bound_separation": "1/2",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 16,
+    "r": 4,
+    "horizon": 82,
+    "pmin": "1",
+    "pmax": 1,
+    "minimum_thermal_x": "24",
+    "minimum_thermal_y": "25",
+    "shared_cap": "49/2",
+    "integer_scaled_minima": [
+      24,
+      25
+    ],
+    "cost_scale": 1,
+    "exact_bound_separation": "1/2",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 17,
+    "r": 5,
+    "horizon": 93,
+    "pmin": "1",
+    "pmax": 1,
+    "minimum_thermal_x": "30",
+    "minimum_thermal_y": "31",
+    "shared_cap": "61/2",
+    "integer_scaled_minima": [
+      30,
+      31
+    ],
+    "cost_scale": 1,
+    "exact_bound_separation": "1/2",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 18,
+    "r": 5,
+    "horizon": 96,
+    "pmin": "1",
+    "pmax": 1,
+    "minimum_thermal_x": "30",
+    "minimum_thermal_y": "31",
+    "shared_cap": "61/2",
+    "integer_scaled_minima": [
+      30,
+      31
+    ],
+    "cost_scale": 1,
+    "exact_bound_separation": "1/2",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 19,
+    "r": 5,
+    "horizon": 99,
+    "pmin": "1",
+    "pmax": 1,
+    "minimum_thermal_x": "30",
+    "minimum_thermal_y": "31",
+    "shared_cap": "61/2",
+    "integer_scaled_minima": [
+      30,
+      31
+    ],
+    "cost_scale": 1,
+    "exact_bound_separation": "1/2",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 20,
+    "r": 5,
+    "horizon": 102,
+    "pmin": "1",
+    "pmax": 1,
+    "minimum_thermal_x": "30",
+    "minimum_thermal_y": "31",
+    "shared_cap": "61/2",
+    "integer_scaled_minima": [
+      30,
+      31
+    ],
+    "cost_scale": 1,
+    "exact_bound_separation": "1/2",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 21,
+    "r": 6,
+    "horizon": 113,
+    "pmin": "1",
+    "pmax": 1,
+    "minimum_thermal_x": "36",
+    "minimum_thermal_y": "37",
+    "shared_cap": "73/2",
+    "integer_scaled_minima": [
+      36,
+      37
+    ],
+    "cost_scale": 1,
+    "exact_bound_separation": "1/2",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 22,
+    "r": 6,
+    "horizon": 116,
+    "pmin": "1",
+    "pmax": 1,
+    "minimum_thermal_x": "36",
+    "minimum_thermal_y": "37",
+    "shared_cap": "73/2",
+    "integer_scaled_minima": [
+      36,
+      37
+    ],
+    "cost_scale": 1,
+    "exact_bound_separation": "1/2",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 23,
+    "r": 6,
+    "horizon": 119,
+    "pmin": "1",
+    "pmax": 1,
+    "minimum_thermal_x": "36",
+    "minimum_thermal_y": "37",
+    "shared_cap": "73/2",
+    "integer_scaled_minima": [
+      36,
+      37
+    ],
+    "cost_scale": 1,
+    "exact_bound_separation": "1/2",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 24,
+    "r": 6,
+    "horizon": 122,
+    "pmin": "1",
+    "pmax": 1,
+    "minimum_thermal_x": "36",
+    "minimum_thermal_y": "37",
+    "shared_cap": "73/2",
+    "integer_scaled_minima": [
+      36,
+      37
+    ],
+    "cost_scale": 1,
+    "exact_bound_separation": "1/2",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 25,
+    "r": 7,
+    "horizon": 133,
+    "pmin": "1",
+    "pmax": 1,
+    "minimum_thermal_x": "42",
+    "minimum_thermal_y": "43",
+    "shared_cap": "85/2",
+    "integer_scaled_minima": [
+      42,
+      43
+    ],
+    "cost_scale": 1,
+    "exact_bound_separation": "1/2",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 26,
+    "r": 7,
+    "horizon": 136,
+    "pmin": "1",
+    "pmax": 1,
+    "minimum_thermal_x": "42",
+    "minimum_thermal_y": "43",
+    "shared_cap": "85/2",
+    "integer_scaled_minima": [
+      42,
+      43
+    ],
+    "cost_scale": 1,
+    "exact_bound_separation": "1/2",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 27,
+    "r": 7,
+    "horizon": 139,
+    "pmin": "1",
+    "pmax": 1,
+    "minimum_thermal_x": "42",
+    "minimum_thermal_y": "43",
+    "shared_cap": "85/2",
+    "integer_scaled_minima": [
+      42,
+      43
+    ],
+    "cost_scale": 1,
+    "exact_bound_separation": "1/2",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 28,
+    "r": 7,
+    "horizon": 142,
+    "pmin": "1",
+    "pmax": 1,
+    "minimum_thermal_x": "42",
+    "minimum_thermal_y": "43",
+    "shared_cap": "85/2",
+    "integer_scaled_minima": [
+      42,
+      43
+    ],
+    "cost_scale": 1,
+    "exact_bound_separation": "1/2",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 29,
+    "r": 8,
+    "horizon": 153,
+    "pmin": "1",
+    "pmax": 1,
+    "minimum_thermal_x": "48",
+    "minimum_thermal_y": "49",
+    "shared_cap": "97/2",
+    "integer_scaled_minima": [
+      48,
+      49
+    ],
+    "cost_scale": 1,
+    "exact_bound_separation": "1/2",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 30,
+    "r": 8,
+    "horizon": 156,
+    "pmin": "1",
+    "pmax": 1,
+    "minimum_thermal_x": "48",
+    "minimum_thermal_y": "49",
+    "shared_cap": "97/2",
+    "integer_scaled_minima": [
+      48,
+      49
+    ],
+    "cost_scale": 1,
+    "exact_bound_separation": "1/2",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 31,
+    "r": 8,
+    "horizon": 159,
+    "pmin": "1",
+    "pmax": 1,
+    "minimum_thermal_x": "48",
+    "minimum_thermal_y": "49",
+    "shared_cap": "97/2",
+    "integer_scaled_minima": [
+      48,
+      49
+    ],
+    "cost_scale": 1,
+    "exact_bound_separation": "1/2",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 32,
+    "r": 8,
+    "horizon": 162,
+    "pmin": "1",
+    "pmax": 1,
+    "minimum_thermal_x": "48",
+    "minimum_thermal_y": "49",
+    "shared_cap": "97/2",
+    "integer_scaled_minima": [
+      48,
+      49
+    ],
+    "cost_scale": 1,
+    "exact_bound_separation": "1/2",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 33,
+    "r": 9,
+    "horizon": 173,
+    "pmin": "1",
+    "pmax": 1,
+    "minimum_thermal_x": "54",
+    "minimum_thermal_y": "55",
+    "shared_cap": "109/2",
+    "integer_scaled_minima": [
+      54,
+      55
+    ],
+    "cost_scale": 1,
+    "exact_bound_separation": "1/2",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 34,
+    "r": 9,
+    "horizon": 176,
+    "pmin": "1",
+    "pmax": 1,
+    "minimum_thermal_x": "54",
+    "minimum_thermal_y": "55",
+    "shared_cap": "109/2",
+    "integer_scaled_minima": [
+      54,
+      55
+    ],
+    "cost_scale": 1,
+    "exact_bound_separation": "1/2",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 35,
+    "r": 9,
+    "horizon": 179,
+    "pmin": "1",
+    "pmax": 1,
+    "minimum_thermal_x": "54",
+    "minimum_thermal_y": "55",
+    "shared_cap": "109/2",
+    "integer_scaled_minima": [
+      54,
+      55
+    ],
+    "cost_scale": 1,
+    "exact_bound_separation": "1/2",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 36,
+    "r": 9,
+    "horizon": 182,
+    "pmin": "1",
+    "pmax": 1,
+    "minimum_thermal_x": "54",
+    "minimum_thermal_y": "55",
+    "shared_cap": "109/2",
+    "integer_scaled_minima": [
+      54,
+      55
+    ],
+    "cost_scale": 1,
+    "exact_bound_separation": "1/2",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 37,
+    "r": 10,
+    "horizon": 193,
+    "pmin": "1",
+    "pmax": 1,
+    "minimum_thermal_x": "60",
+    "minimum_thermal_y": "61",
+    "shared_cap": "121/2",
+    "integer_scaled_minima": [
+      60,
+      61
+    ],
+    "cost_scale": 1,
+    "exact_bound_separation": "1/2",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 38,
+    "r": 10,
+    "horizon": 196,
+    "pmin": "1",
+    "pmax": 1,
+    "minimum_thermal_x": "60",
+    "minimum_thermal_y": "61",
+    "shared_cap": "121/2",
+    "integer_scaled_minima": [
+      60,
+      61
+    ],
+    "cost_scale": 1,
+    "exact_bound_separation": "1/2",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 39,
+    "r": 10,
+    "horizon": 199,
+    "pmin": "1",
+    "pmax": 1,
+    "minimum_thermal_x": "60",
+    "minimum_thermal_y": "61",
+    "shared_cap": "121/2",
+    "integer_scaled_minima": [
+      60,
+      61
+    ],
+    "cost_scale": 1,
+    "exact_bound_separation": "1/2",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 40,
+    "r": 10,
+    "horizon": 202,
+    "pmin": "1",
+    "pmax": 1,
+    "minimum_thermal_x": "60",
+    "minimum_thermal_y": "61",
+    "shared_cap": "121/2",
+    "integer_scaled_minima": [
+      60,
+      61
+    ],
+    "cost_scale": 1,
+    "exact_bound_separation": "1/2",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 41,
+    "r": 11,
+    "horizon": 213,
+    "pmin": "1",
+    "pmax": 1,
+    "minimum_thermal_x": "66",
+    "minimum_thermal_y": "67",
+    "shared_cap": "133/2",
+    "integer_scaled_minima": [
+      66,
+      67
+    ],
+    "cost_scale": 1,
+    "exact_bound_separation": "1/2",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 42,
+    "r": 11,
+    "horizon": 216,
+    "pmin": "1",
+    "pmax": 1,
+    "minimum_thermal_x": "66",
+    "minimum_thermal_y": "67",
+    "shared_cap": "133/2",
+    "integer_scaled_minima": [
+      66,
+      67
+    ],
+    "cost_scale": 1,
+    "exact_bound_separation": "1/2",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 43,
+    "r": 11,
+    "horizon": 219,
+    "pmin": "1",
+    "pmax": 1,
+    "minimum_thermal_x": "66",
+    "minimum_thermal_y": "67",
+    "shared_cap": "133/2",
+    "integer_scaled_minima": [
+      66,
+      67
+    ],
+    "cost_scale": 1,
+    "exact_bound_separation": "1/2",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 44,
+    "r": 11,
+    "horizon": 222,
+    "pmin": "1",
+    "pmax": 1,
+    "minimum_thermal_x": "66",
+    "minimum_thermal_y": "67",
+    "shared_cap": "133/2",
+    "integer_scaled_minima": [
+      66,
+      67
+    ],
+    "cost_scale": 1,
+    "exact_bound_separation": "1/2",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 45,
+    "r": 12,
+    "horizon": 233,
+    "pmin": "1",
+    "pmax": 1,
+    "minimum_thermal_x": "72",
+    "minimum_thermal_y": "73",
+    "shared_cap": "145/2",
+    "integer_scaled_minima": [
+      72,
+      73
+    ],
+    "cost_scale": 1,
+    "exact_bound_separation": "1/2",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 46,
+    "r": 12,
+    "horizon": 236,
+    "pmin": "1",
+    "pmax": 1,
+    "minimum_thermal_x": "72",
+    "minimum_thermal_y": "73",
+    "shared_cap": "145/2",
+    "integer_scaled_minima": [
+      72,
+      73
+    ],
+    "cost_scale": 1,
+    "exact_bound_separation": "1/2",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 47,
+    "r": 12,
+    "horizon": 239,
+    "pmin": "1",
+    "pmax": 1,
+    "minimum_thermal_x": "72",
+    "minimum_thermal_y": "73",
+    "shared_cap": "145/2",
+    "integer_scaled_minima": [
+      72,
+      73
+    ],
+    "cost_scale": 1,
+    "exact_bound_separation": "1/2",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 48,
+    "r": 12,
+    "horizon": 242,
+    "pmin": "1",
+    "pmax": 1,
+    "minimum_thermal_x": "72",
+    "minimum_thermal_y": "73",
+    "shared_cap": "145/2",
+    "integer_scaled_minima": [
+      72,
+      73
+    ],
+    "cost_scale": 1,
+    "exact_bound_separation": "1/2",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 49,
+    "r": 13,
+    "horizon": 253,
+    "pmin": "1",
+    "pmax": 1,
+    "minimum_thermal_x": "78",
+    "minimum_thermal_y": "79",
+    "shared_cap": "157/2",
+    "integer_scaled_minima": [
+      78,
+      79
+    ],
+    "cost_scale": 1,
+    "exact_bound_separation": "1/2",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 50,
+    "r": 13,
+    "horizon": 256,
+    "pmin": "1",
+    "pmax": 1,
+    "minimum_thermal_x": "78",
+    "minimum_thermal_y": "79",
+    "shared_cap": "157/2",
+    "integer_scaled_minima": [
+      78,
+      79
+    ],
+    "cost_scale": 1,
+    "exact_bound_separation": "1/2",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 51,
+    "r": 13,
+    "horizon": 259,
+    "pmin": "1",
+    "pmax": 1,
+    "minimum_thermal_x": "78",
+    "minimum_thermal_y": "79",
+    "shared_cap": "157/2",
+    "integer_scaled_minima": [
+      78,
+      79
+    ],
+    "cost_scale": 1,
+    "exact_bound_separation": "1/2",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 52,
+    "r": 13,
+    "horizon": 262,
+    "pmin": "1",
+    "pmax": 1,
+    "minimum_thermal_x": "78",
+    "minimum_thermal_y": "79",
+    "shared_cap": "157/2",
+    "integer_scaled_minima": [
+      78,
+      79
+    ],
+    "cost_scale": 1,
+    "exact_bound_separation": "1/2",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 53,
+    "r": 14,
+    "horizon": 273,
+    "pmin": "1",
+    "pmax": 1,
+    "minimum_thermal_x": "84",
+    "minimum_thermal_y": "85",
+    "shared_cap": "169/2",
+    "integer_scaled_minima": [
+      84,
+      85
+    ],
+    "cost_scale": 1,
+    "exact_bound_separation": "1/2",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 54,
+    "r": 14,
+    "horizon": 276,
+    "pmin": "1",
+    "pmax": 1,
+    "minimum_thermal_x": "84",
+    "minimum_thermal_y": "85",
+    "shared_cap": "169/2",
+    "integer_scaled_minima": [
+      84,
+      85
+    ],
+    "cost_scale": 1,
+    "exact_bound_separation": "1/2",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 55,
+    "r": 14,
+    "horizon": 279,
+    "pmin": "1",
+    "pmax": 1,
+    "minimum_thermal_x": "84",
+    "minimum_thermal_y": "85",
+    "shared_cap": "169/2",
+    "integer_scaled_minima": [
+      84,
+      85
+    ],
+    "cost_scale": 1,
+    "exact_bound_separation": "1/2",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 56,
+    "r": 14,
+    "horizon": 282,
+    "pmin": "1",
+    "pmax": 1,
+    "minimum_thermal_x": "84",
+    "minimum_thermal_y": "85",
+    "shared_cap": "169/2",
+    "integer_scaled_minima": [
+      84,
+      85
+    ],
+    "cost_scale": 1,
+    "exact_bound_separation": "1/2",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 57,
+    "r": 15,
+    "horizon": 293,
+    "pmin": "1",
+    "pmax": 1,
+    "minimum_thermal_x": "90",
+    "minimum_thermal_y": "91",
+    "shared_cap": "181/2",
+    "integer_scaled_minima": [
+      90,
+      91
+    ],
+    "cost_scale": 1,
+    "exact_bound_separation": "1/2",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 58,
+    "r": 15,
+    "horizon": 296,
+    "pmin": "1",
+    "pmax": 1,
+    "minimum_thermal_x": "90",
+    "minimum_thermal_y": "91",
+    "shared_cap": "181/2",
+    "integer_scaled_minima": [
+      90,
+      91
+    ],
+    "cost_scale": 1,
+    "exact_bound_separation": "1/2",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 59,
+    "r": 15,
+    "horizon": 299,
+    "pmin": "1",
+    "pmax": 1,
+    "minimum_thermal_x": "90",
+    "minimum_thermal_y": "91",
+    "shared_cap": "181/2",
+    "integer_scaled_minima": [
+      90,
+      91
+    ],
+    "cost_scale": 1,
+    "exact_bound_separation": "1/2",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 60,
+    "r": 15,
+    "horizon": 302,
+    "pmin": "1",
+    "pmax": 1,
+    "minimum_thermal_x": "90",
+    "minimum_thermal_y": "91",
+    "shared_cap": "181/2",
+    "integer_scaled_minima": [
+      90,
+      91
+    ],
+    "cost_scale": 1,
+    "exact_bound_separation": "1/2",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 61,
+    "r": 16,
+    "horizon": 313,
+    "pmin": "1",
+    "pmax": 1,
+    "minimum_thermal_x": "96",
+    "minimum_thermal_y": "97",
+    "shared_cap": "193/2",
+    "integer_scaled_minima": [
+      96,
+      97
+    ],
+    "cost_scale": 1,
+    "exact_bound_separation": "1/2",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 62,
+    "r": 16,
+    "horizon": 316,
+    "pmin": "1",
+    "pmax": 1,
+    "minimum_thermal_x": "96",
+    "minimum_thermal_y": "97",
+    "shared_cap": "193/2",
+    "integer_scaled_minima": [
+      96,
+      97
+    ],
+    "cost_scale": 1,
+    "exact_bound_separation": "1/2",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 63,
+    "r": 16,
+    "horizon": 319,
+    "pmin": "1",
+    "pmax": 1,
+    "minimum_thermal_x": "96",
+    "minimum_thermal_y": "97",
+    "shared_cap": "193/2",
+    "integer_scaled_minima": [
+      96,
+      97
+    ],
+    "cost_scale": 1,
+    "exact_bound_separation": "1/2",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 64,
+    "r": 16,
+    "horizon": 322,
+    "pmin": "1",
+    "pmax": 1,
+    "minimum_thermal_x": "96",
+    "minimum_thermal_y": "97",
+    "shared_cap": "193/2",
+    "integer_scaled_minima": [
+      96,
+      97
+    ],
+    "cost_scale": 1,
+    "exact_bound_separation": "1/2",
+    "exhaustive_schedules": 0,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  }
+]

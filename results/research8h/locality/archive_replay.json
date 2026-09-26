@@ -1,0 +1,177 @@
+[
+  {
+    "width": 0,
+    "type": "continuous_witness_only",
+    "verification": {
+      "pass": true,
+      "tolerance": 1e-05,
+      "residuals": {
+        "column_lower": 0.0,
+        "column_upper": 6.963318810448982e-13,
+        "row_lower": 3.005879989359528e-10,
+        "row_upper": 9.094947017729282e-13
+      }
+    },
+    "UC_verdict": "UNKNOWN"
+  },
+  {
+    "width": 8,
+    "type": "continuous_witness_only",
+    "verification": {
+      "pass": true,
+      "tolerance": 1e-05,
+      "residuals": {
+        "column_lower": 9.663381206337365e-13,
+        "column_upper": 8.274492202531292e-13,
+        "row_lower": 2.376054908381775e-10,
+        "row_upper": 1.5916157281026244e-12
+      }
+    },
+    "UC_verdict": "UNKNOWN"
+  },
+  {
+    "width": 16,
+    "type": "continuous_witness_only",
+    "verification": {
+      "pass": true,
+      "tolerance": 1e-05,
+      "residuals": {
+        "column_lower": 1.3642420526593924e-12,
+        "column_upper": 5.861977570020827e-13,
+        "row_lower": 2.305569068994373e-10,
+        "row_upper": 1.3642420526593924e-12
+      }
+    },
+    "UC_verdict": "UNKNOWN"
+  },
+  {
+    "width": 24,
+    "type": "continuous_witness_only",
+    "verification": {
+      "pass": true,
+      "tolerance": 1e-05,
+      "residuals": {
+        "column_lower": 9.130757598168724e-13,
+        "column_upper": 7.673861546209082e-13,
+        "row_lower": 1.8189894035458565e-12,
+        "row_upper": 5.552891479965183e-12
+      }
+    },
+    "UC_verdict": "UNKNOWN"
+  },
+  {
+    "width": 48,
+    "type": "exact_binary64_certificate",
+    "verification": {
+      "pass": true,
+      "robust_pass": true,
+      "arithmetic": "exact rational interpretation of archived binary64 matrix, bounds and ray",
+      "row_multiplier_nonzeros": 558,
+      "combined_column_nonzeros": 6470,
+      "lower_row_sum": 95672.7129161655,
+      "box_maximum": 95109.3026044279,
+      "separation_gap": 563.4103117376047,
+      "outward_bound_relaxation": 1e-05,
+      "robust_separation_gap": 563.0519941946116,
+      "maximum_uniform_bound_relaxation": 0.01572377135183304,
+      "exact_gap_numerator": "51464068318351486523164779363804772137984259536803",
+      "exact_gap_denominator": "91343852333181432387730302044767688728495783936",
+      "exact_robust_gap_numerator": "421325522645941658754125990815109458015817419658461847",
+      "exact_robust_gap_denominator": "748288838313422294120286634350736906063837462003712",
+      "elapsed_s": 0.1178858999919612,
+      "scope": "mathematical model with archived float coefficients; not exact physical measurements"
+    }
+  },
+  {
+    "width": 72,
+    "type": "exact_binary64_certificate",
+    "verification": {
+      "pass": true,
+      "robust_pass": true,
+      "arithmetic": "exact rational interpretation of archived binary64 matrix, bounds and ray",
+      "row_multiplier_nonzeros": 672,
+      "combined_column_nonzeros": 7385,
+      "lower_row_sum": 587719.3822721827,
+      "box_maximum": 583683.4071377704,
+      "separation_gap": 4035.9751344123106,
+      "outward_bound_relaxation": 1e-05,
+      "robust_separation_gap": 4034.0898948011554,
+      "maximum_uniform_bound_relaxation": 0.021408287363214266,
+      "exact_gap_numerator": "184330758349075098955243114186144105868774252760593",
+      "exact_gap_denominator": "45671926166590716193865151022383844364247891968",
+      "exact_robust_gap_numerator": "48298631056522763349010663907680958930219842689541505269",
+      "exact_robust_gap_denominator": "11972621413014756705924586149611790497021399392059392",
+      "elapsed_s": 0.12252000000444241,
+      "scope": "mathematical model with archived float coefficients; not exact physical measurements"
+    }
+  },
+  {
+    "width": 96,
+    "type": "exact_binary64_certificate",
+    "verification": {
+      "pass": true,
+      "robust_pass": true,
+      "arithmetic": "exact rational interpretation of archived binary64 matrix, bounds and ray",
+      "row_multiplier_nonzeros": 531,
+      "combined_column_nonzeros": 6683,
+      "lower_row_sum": 525730.3838493542,
+      "box_maximum": 520832.80845070584,
+      "separation_gap": 4897.575398648385,
+      "outward_bound_relaxation": 1e-05,
+      "robust_separation_gap": 4895.20702413393,
+      "maximum_uniform_bound_relaxation": 0.020679058015345447,
+      "exact_gap_numerator": "13980106375148758931448914670796691742296081432477",
+      "exact_gap_denominator": "2854495385411919762116571938898990272765493248",
+      "exact_robust_gap_numerator": "58608460438286135905586101486914108432973060088062735799",
+      "exact_robust_gap_denominator": "11972621413014756705924586149611790497021399392059392",
+      "elapsed_s": 0.12554050001199357,
+      "scope": "mathematical model with archived float coefficients; not exact physical measurements"
+    }
+  },
+  {
+    "width": 120,
+    "type": "exact_binary64_certificate",
+    "verification": {
+      "pass": true,
+      "robust_pass": true,
+      "arithmetic": "exact rational interpretation of archived binary64 matrix, bounds and ray",
+      "row_multiplier_nonzeros": 835,
+      "combined_column_nonzeros": 7592,
+      "lower_row_sum": 9809173.37318876,
+      "box_maximum": 9706050.59602221,
+      "separation_gap": 103122.77716655156,
+      "outward_bound_relaxation": 1e-05,
+      "robust_separation_gap": 103085.5576074512,
+      "maximum_uniform_bound_relaxation": 0.027706609013959892,
+      "exact_gap_numerator": "588726983105566210148981158901279455860985794411399",
+      "exact_gap_denominator": "5708990770823839524233143877797980545530986496",
+      "exact_robust_gap_numerator": "38568886074485515851018949955461627572227688498896843753",
+      "exact_robust_gap_denominator": "374144419156711147060143317175368453031918731001856",
+      "elapsed_s": 0.11928239997359924,
+      "scope": "mathematical model with archived float coefficients; not exact physical measurements"
+    }
+  },
+  {
+    "width": 168,
+    "type": "exact_binary64_certificate",
+    "verification": {
+      "pass": true,
+      "robust_pass": true,
+      "arithmetic": "exact rational interpretation of archived binary64 matrix, bounds and ray",
+      "row_multiplier_nonzeros": 949,
+      "combined_column_nonzeros": 8170,
+      "lower_row_sum": 1364474.7331090458,
+      "box_maximum": 1354937.8244270247,
+      "separation_gap": 9536.908682020956,
+      "outward_bound_relaxation": 1e-05,
+      "robust_separation_gap": 9531.940183242696,
+      "maximum_uniform_bound_relaxation": 0.019194748972762812,
+      "exact_gap_numerator": "217784494591389552766779295249588767161853976823109",
+      "exact_gap_denominator": "22835963083295358096932575511191922182123945984",
+      "exact_robust_gap_numerator": "28530577786366823426467287494967297082131565901084927161",
+      "exact_robust_gap_denominator": "2993155353253689176481146537402947624255349848014848",
+      "elapsed_s": 0.13881039997795597,
+      "scope": "mathematical model with archived float coefficients; not exact physical measurements"
+    }
+  }
+]

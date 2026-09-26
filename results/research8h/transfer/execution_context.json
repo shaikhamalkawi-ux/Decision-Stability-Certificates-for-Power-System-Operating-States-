@@ -1,0 +1,11 @@
+{
+  "transfer_solver_processes": 1,
+  "transfer_scheduling": "One LP at a time in frozen case/model order",
+  "highs_threads_option": 1,
+  "highs_solver_option": "simplex",
+  "highs_presolve_option": "off",
+  "thread_configuration_changed_during_run": false,
+  "other_concurrent_work": "Parent reported concurrently running Markov-twin MILP checks on the shared machine",
+  "cpu_utilization_measurement": "Not measured",
+  "timing_scope": "Recorded elapsed times describe this shared-machine execution; they are not an isolated performance benchmark"
+}

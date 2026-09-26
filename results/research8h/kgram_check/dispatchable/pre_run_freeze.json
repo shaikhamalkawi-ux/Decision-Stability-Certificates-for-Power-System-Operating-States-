@@ -1,0 +1,29 @@
+{
+  "script_sha256": "15683454d63ff51279144c70c6e57fb3916ff1436958141fdb9f70aab0df0384",
+  "preserved_base_source": "../base_source_snapshot.py",
+  "base_source_sha256": "ef4f865dd358f88875b7312b68b758f9c2016d56e4dfb13a066b654a120fae9c",
+  "extension": "User-requested genuinely dispatchable thermal; pmin=A/D, pmax=1",
+  "ratios": [
+    [
+      1,
+      4
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      1,
+      1
+    ]
+  ],
+  "compact_family_k_max": 64,
+  "weighted_generic_max_length": 8,
+  "minimum_up": 2,
+  "minimum_down": 1,
+  "status": "theorem candidate, exact rational checks; novelty not assessed"
+}

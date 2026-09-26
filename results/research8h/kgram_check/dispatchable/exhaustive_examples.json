@@ -1,0 +1,116 @@
+[
+  {
+    "k": 1,
+    "r": 1,
+    "horizon": 13,
+    "pmin": "1/2",
+    "pmax": 1,
+    "minimum_thermal_x": "5",
+    "minimum_thermal_y": "11/2",
+    "shared_cap": "21/4",
+    "integer_scaled_minima": [
+      10,
+      11
+    ],
+    "cost_scale": 2,
+    "exact_bound_separation": "1/4",
+    "exhaustive_schedules": 128,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 2,
+    "r": 1,
+    "horizon": 16,
+    "pmin": "1/2",
+    "pmax": 1,
+    "minimum_thermal_x": "5",
+    "minimum_thermal_y": "11/2",
+    "shared_cap": "21/4",
+    "integer_scaled_minima": [
+      10,
+      11
+    ],
+    "cost_scale": 2,
+    "exact_bound_separation": "1/4",
+    "exhaustive_schedules": 128,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 3,
+    "r": 1,
+    "horizon": 19,
+    "pmin": "1/2",
+    "pmax": 1,
+    "minimum_thermal_x": "5",
+    "minimum_thermal_y": "11/2",
+    "shared_cap": "21/4",
+    "integer_scaled_minima": [
+      10,
+      11
+    ],
+    "cost_scale": 2,
+    "exact_bound_separation": "1/4",
+    "exhaustive_schedules": 128,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 4,
+    "r": 1,
+    "horizon": 22,
+    "pmin": "1/2",
+    "pmax": 1,
+    "minimum_thermal_x": "5",
+    "minimum_thermal_y": "11/2",
+    "shared_cap": "21/4",
+    "integer_scaled_minima": [
+      10,
+      11
+    ],
+    "cost_scale": 2,
+    "exact_bound_separation": "1/4",
+    "exhaustive_schedules": 128,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 2,
+    "r": 2,
+    "horizon": 24,
+    "pmin": "1/2",
+    "pmax": 1,
+    "minimum_thermal_x": "10",
+    "minimum_thermal_y": "21/2",
+    "shared_cap": "41/4",
+    "integer_scaled_minima": [
+      20,
+      21
+    ],
+    "cost_scale": 2,
+    "exact_bound_separation": "1/4",
+    "exhaustive_schedules": 2048,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  {
+    "k": 3,
+    "r": 3,
+    "horizon": 35,
+    "pmin": "1/2",
+    "pmax": 1,
+    "minimum_thermal_x": "15",
+    "minimum_thermal_y": "31/2",
+    "shared_cap": "61/4",
+    "integer_scaled_minima": [
+      30,
+      31
+    ],
+    "cost_scale": 2,
+    "exact_bound_separation": "1/4",
+    "exhaustive_schedules": 32768,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  }
+]

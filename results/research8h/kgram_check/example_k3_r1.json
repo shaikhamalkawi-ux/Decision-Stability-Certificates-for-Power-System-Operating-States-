@@ -1,0 +1,176 @@
+{
+  "x": "ZZZOFOFOZZZOFOFOZZZ",
+  "y": "ZZZOFOZZZOFOFOFOZZZ",
+  "k": 3,
+  "r": 1,
+  "payload_mapping": {
+    "Z": {
+      "load": 0,
+      "renewable_upper": 0
+    },
+    "F": {
+      "load": 1,
+      "renewable_upper": 0
+    },
+    "O": {
+      "load": 1,
+      "renewable_upper": 1
+    }
+  },
+  "thermal_min_up": 2,
+  "thermal_min_down": 1,
+  "thermal_pmin": 1,
+  "thermal_pmax": 1,
+  "minimum_thermal_x": 6,
+  "minimum_thermal_y": 7,
+  "x_status_witness": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+  ],
+  "y_minimum_status": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+  ],
+  "x_renewable_dispatch": [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+  ],
+  "shared_cap": "13/2",
+  "shared_trigram_counts": {
+    "FOF": 2,
+    "FOZ": 2,
+    "OFO": 4,
+    "OZZ": 2,
+    "ZOF": 2,
+    "ZZO": 2,
+    "ZZZ": 3
+  },
+  "negative_lower_bound": {
+    "forced_F_hours": [
+      4,
+      10,
+      12,
+      14
+    ],
+    "selected_F_hours": [
+      4,
+      10,
+      14
+    ],
+    "disjoint_neighbor_O_pairs": [
+      [
+        3,
+        5
+      ],
+      [
+        9,
+        11
+      ],
+      [
+        13,
+        15
+      ]
+    ],
+    "forced_energy": 4,
+    "optional_energy_lower_bound": 3,
+    "energy_lower_bound": 7
+  },
+  "negative_exact_algebra": {
+    "local_cover_derivations": [
+      {
+        "forced_hour": 4,
+        "derived_coefficients": {
+          "u4": 1,
+          "u3": -1,
+          "u5": -1
+        },
+        "derived_rhs_after_uF_equals_one": -1
+      },
+      {
+        "forced_hour": 10,
+        "derived_coefficients": {
+          "u10": 1,
+          "u9": -1,
+          "u11": -1
+        },
+        "derived_rhs_after_uF_equals_one": -1
+      },
+      {
+        "forced_hour": 14,
+        "derived_coefficients": {
+          "u14": 1,
+          "u13": -1,
+          "u15": -1
+        },
+        "derived_rhs_after_uF_equals_one": -1
+      }
+    ],
+    "remaining_nonnegativity_hours": [
+      0,
+      1,
+      2,
+      6,
+      7,
+      8,
+      16,
+      17,
+      18
+    ],
+    "summed_variable_coefficients_identically_zero": true,
+    "summed_rhs_numerator": -1,
+    "summed_rhs_denominator": 2,
+    "strict_contradiction": true,
+    "scope": "Exact integer/rational algebra; lower bound also holds in the usual continuous startup/min-up-two relaxation."
+  }
+}

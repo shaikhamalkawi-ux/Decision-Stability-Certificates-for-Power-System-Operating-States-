@@ -1,0 +1,160 @@
+{
+  "full_identity": {
+    "pass": true,
+    "tolerance": 1e-05,
+    "residuals": {
+      "column_lower": 0.0,
+      "column_upper": 0.0,
+      "row_lower": 2.2737367544323206e-12,
+      "row_upper": 6.821210263296962e-12
+    }
+  },
+  "identity_by_window": [
+    {
+      "width": 0,
+      "left": null,
+      "right": null,
+      "identity_witness_check": {
+        "pass": true,
+        "tolerance": 1e-05,
+        "residuals": {
+          "column_lower": 0.0,
+          "column_upper": 0.0,
+          "row_lower": 2.2737367544323206e-12,
+          "row_upper": 6.821210263296962e-12
+        }
+      }
+    },
+    {
+      "width": 8,
+      "left": 80,
+      "right": 87,
+      "identity_witness_check": {
+        "pass": true,
+        "tolerance": 1e-05,
+        "residuals": {
+          "column_lower": 0.0,
+          "column_upper": 0.0,
+          "row_lower": 2.2737367544323206e-12,
+          "row_upper": 6.821210263296962e-12
+        }
+      }
+    },
+    {
+      "width": 16,
+      "left": 76,
+      "right": 91,
+      "identity_witness_check": {
+        "pass": true,
+        "tolerance": 1e-05,
+        "residuals": {
+          "column_lower": 0.0,
+          "column_upper": 0.0,
+          "row_lower": 2.2737367544323206e-12,
+          "row_upper": 6.821210263296962e-12
+        }
+      }
+    },
+    {
+      "width": 24,
+      "left": 72,
+      "right": 95,
+      "identity_witness_check": {
+        "pass": true,
+        "tolerance": 1e-05,
+        "residuals": {
+          "column_lower": 0.0,
+          "column_upper": 0.0,
+          "row_lower": 2.2737367544323206e-12,
+          "row_upper": 6.821210263296962e-12
+        }
+      }
+    },
+    {
+      "width": 48,
+      "left": 60,
+      "right": 107,
+      "identity_witness_check": {
+        "pass": true,
+        "tolerance": 1e-05,
+        "residuals": {
+          "column_lower": 0.0,
+          "column_upper": 0.0,
+          "row_lower": 2.2737367544323206e-12,
+          "row_upper": 6.821210263296962e-12
+        }
+      }
+    },
+    {
+      "width": 72,
+      "left": 48,
+      "right": 119,
+      "identity_witness_check": {
+        "pass": true,
+        "tolerance": 1e-05,
+        "residuals": {
+          "column_lower": 0.0,
+          "column_upper": 0.0,
+          "row_lower": 2.2737367544323206e-12,
+          "row_upper": 6.821210263296962e-12
+        }
+      }
+    },
+    {
+      "width": 96,
+      "left": 36,
+      "right": 131,
+      "identity_witness_check": {
+        "pass": true,
+        "tolerance": 1e-05,
+        "residuals": {
+          "column_lower": 0.0,
+          "column_upper": 0.0,
+          "row_lower": 2.2737367544323206e-12,
+          "row_upper": 6.821210263296962e-12
+        }
+      }
+    },
+    {
+      "width": 120,
+      "left": 24,
+      "right": 143,
+      "identity_witness_check": {
+        "pass": true,
+        "tolerance": 1e-05,
+        "residuals": {
+          "column_lower": 0.0,
+          "column_upper": 0.0,
+          "row_lower": 2.2737367544323206e-12,
+          "row_upper": 6.821210263296962e-12
+        }
+      }
+    },
+    {
+      "width": 168,
+      "left": 0,
+      "right": 167,
+      "identity_witness_check": {
+        "pass": true,
+        "tolerance": 1e-05,
+        "residuals": {
+          "column_lower": 0.0,
+          "column_upper": 0.0,
+          "row_lower": 2.2737367544323206e-12,
+          "row_upper": 6.821210263296962e-12
+        }
+      }
+    }
+  ],
+  "empty_twin_with_recomputed_transitions": {
+    "pass": true,
+    "tolerance": 1e-05,
+    "residuals": {
+      "column_lower": 0.0,
+      "column_upper": 0.0,
+      "row_lower": 2.2737367544323206e-12,
+      "row_upper": 6.821210263296962e-12
+    }
+  },
+  "full_twin_matches_archived_baseline_arrays": true
+}

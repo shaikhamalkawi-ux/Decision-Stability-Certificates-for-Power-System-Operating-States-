@@ -1,0 +1,117 @@
+{
+  "cases": [
+    "seed_26092600",
+    "seed_26092601",
+    "seed_26092602",
+    "seed_26092603"
+  ],
+  "thresholds": [
+    0.0,
+    1e-14,
+    1e-12,
+    1e-10,
+    1e-08,
+    1e-06,
+    0.0001,
+    0.001,
+    0.01
+  ],
+  "wall_seconds": 840,
+  "case_seconds": 195,
+  "max_attempts_per_case": 64,
+  "solve_seconds": 12,
+  "inputs": [
+    {
+      "path": "src\\research8h_sparse_farkas.py",
+      "sha256": "b9e6c24afeac682e972a83c8ad882bf87cdfc794a3abb329c1e9f2ec9faf01e5"
+    },
+    {
+      "path": "docs\\research8h\\SPARSE_FARKAS_PROTOCOL.md",
+      "sha256": "153e0a45577ef893d5154839d5a8760ab225ee432b52834765ec3da3e3248f54"
+    },
+    {
+      "path": "src\\temporal_lp_certificate.py",
+      "sha256": "6191c5760811cab0ec22b2fb1376a5be3aa47cb548e1260c4a17e2563d9802e4"
+    },
+    {
+      "path": "results\\temporal_information\\lp_certificate\\seed_26092600\\matrix.npz",
+      "sha256": "6af039900e02e8d16a419686a8e11a4f33515092d0647af4677bbabda4b8754f"
+    },
+    {
+      "path": "results\\temporal_information\\lp_certificate\\seed_26092600\\bounds.npz",
+      "sha256": "a06a4faeb9573ee0499706eeeb3fc3620651a18ea3f2d4c1f0f9422c923bf1e8"
+    },
+    {
+      "path": "results\\temporal_information\\lp_certificate\\seed_26092600\\dual_certificate.json",
+      "sha256": "e9465df8df521fe36d4eda56d68a33d9e8d63a0c693960f98e72da760c1333c4"
+    },
+    {
+      "path": "results\\temporal_information\\lp_certificate\\seed_26092600\\model_metadata.json",
+      "sha256": "e11ab418c93341678181b5d27eafc0c893770b120f39a5a88f7deca73ddc6341"
+    },
+    {
+      "path": "results\\temporal_information\\lp_certificate\\seed_26092600\\row_metadata.csv.gz",
+      "sha256": "f6e99fffaed8bce1ef5e90d37008ad8d7e747eb469f1d049a42db15bfc743094"
+    },
+    {
+      "path": "results\\temporal_information\\lp_certificate\\seed_26092601\\matrix.npz",
+      "sha256": "6af039900e02e8d16a419686a8e11a4f33515092d0647af4677bbabda4b8754f"
+    },
+    {
+      "path": "results\\temporal_information\\lp_certificate\\seed_26092601\\bounds.npz",
+      "sha256": "3cd3c44f0e789b64ab53f96228617a9b4af02d8492a180999260f17811aa8bd9"
+    },
+    {
+      "path": "results\\temporal_information\\lp_certificate\\seed_26092601\\dual_certificate.json",
+      "sha256": "521542de4191e58e6b7b7d33894e766d8a4bef1e6a5c2ddf450ad9c5587ac871"
+    },
+    {
+      "path": "results\\temporal_information\\lp_certificate\\seed_26092601\\model_metadata.json",
+      "sha256": "e11ab418c93341678181b5d27eafc0c893770b120f39a5a88f7deca73ddc6341"
+    },
+    {
+      "path": "results\\temporal_information\\lp_certificate\\seed_26092601\\row_metadata.csv.gz",
+      "sha256": "e4e47f67b0565630a3f7a7e2b8839b5ac15617912e23039ddca7d1615d9e9094"
+    },
+    {
+      "path": "results\\temporal_information\\lp_certificate\\seed_26092602\\matrix.npz",
+      "sha256": "6af039900e02e8d16a419686a8e11a4f33515092d0647af4677bbabda4b8754f"
+    },
+    {
+      "path": "results\\temporal_information\\lp_certificate\\seed_26092602\\bounds.npz",
+      "sha256": "7c68893a7f3ec0abab56c78eec768bbe468de57418e5a32b740bf1efbccfff29"
+    },
+    {
+      "path": "results\\temporal_information\\lp_certificate\\seed_26092602\\dual_certificate.json",
+      "sha256": "0d0f5cef332ff3d1770ebc07ae32dcffc2b4346289088e27b8c1c2446eb8e969"
+    },
+    {
+      "path": "results\\temporal_information\\lp_certificate\\seed_26092602\\model_metadata.json",
+      "sha256": "e11ab418c93341678181b5d27eafc0c893770b120f39a5a88f7deca73ddc6341"
+    },
+    {
+      "path": "results\\temporal_information\\lp_certificate\\seed_26092602\\row_metadata.csv.gz",
+      "sha256": "65422989abe78b6c14c36f0c701e270dd078c521dc45475869fc84717c323374"
+    },
+    {
+      "path": "results\\temporal_information\\lp_certificate\\seed_26092603\\matrix.npz",
+      "sha256": "6af039900e02e8d16a419686a8e11a4f33515092d0647af4677bbabda4b8754f"
+    },
+    {
+      "path": "results\\temporal_information\\lp_certificate\\seed_26092603\\bounds.npz",
+      "sha256": "5bce2635214f9860f0b554e9683394fd4c37253cfc3234bb3e6b9675c2fc8b3b"
+    },
+    {
+      "path": "results\\temporal_information\\lp_certificate\\seed_26092603\\dual_certificate.json",
+      "sha256": "25dc9fc38a6e8fe82ac3b85a87d965bc402130774487624ae73068f6b76b9e11"
+    },
+    {
+      "path": "results\\temporal_information\\lp_certificate\\seed_26092603\\model_metadata.json",
+      "sha256": "e11ab418c93341678181b5d27eafc0c893770b120f39a5a88f7deca73ddc6341"
+    },
+    {
+      "path": "results\\temporal_information\\lp_certificate\\seed_26092603\\row_metadata.csv.gz",
+      "sha256": "098b1dc13e73d670539c1b317c52fb5094a1f7807f2916e46f9dca4e1c94b66e"
+    }
+  ]
+}

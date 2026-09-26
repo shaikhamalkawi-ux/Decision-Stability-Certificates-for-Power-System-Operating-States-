@@ -1,0 +1,2122 @@
+{
+  "case": "seed_26092600",
+  "method": {
+    "group": "unit",
+    "value": "115_STEAM_3",
+    "selected_candidate": {
+      "orientation": 1,
+      "relative_threshold": 1e-10,
+      "explicit_sign_projected_entries": 19,
+      "pruned_entries": 14,
+      "check": {
+        "pass": true,
+        "robust_pass": true,
+        "arithmetic": "exact rational interpretation of archived binary64 matrix, bounds and ray",
+        "row_multiplier_nonzeros": 385,
+        "combined_column_nonzeros": 6397,
+        "lower_row_sum": 1498960.270066471,
+        "box_maximum": 1493282.627992954,
+        "separation_gap": 5677.64207351692,
+        "outward_bound_relaxation": 1e-05,
+        "robust_separation_gap": 5673.153496791568,
+        "maximum_uniform_bound_relaxation": 0.012649092175363325,
+        "exact_gap_numerator": "64827212395498448439988771701982040423598957824795",
+        "exact_gap_denominator": "11417981541647679048466287755595961091061972992",
+        "exact_robust_gap_numerator": "2122578719843945963827851899152432767127126004260534845",
+        "exact_robust_gap_denominator": "374144419156711147060143317175368453031918731001856",
+        "elapsed_s": 0.16200199999730103,
+        "scope": "mathematical model with archived float coefficients; not exact physical measurements"
+      },
+      "support": {
+        "total_rows": 385,
+        "chronological_rows": 108,
+        "chronological_row_anchor_hours": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          25,
+          26,
+          27,
+          28,
+          32,
+          48,
+          49,
+          50,
+          51,
+          52,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          63,
+          67,
+          70,
+          71,
+          73,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          88,
+          90,
+          91,
+          92,
+          95,
+          96,
+          98,
+          99,
+          100,
+          103,
+          105,
+          107,
+          108,
+          109,
+          110,
+          111,
+          112,
+          114,
+          115,
+          146,
+          153
+        ],
+        "chronological_variable_reference_hours": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90,
+          91,
+          92,
+          93,
+          94,
+          95,
+          96,
+          97,
+          98,
+          99,
+          100,
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107,
+          108,
+          109,
+          110,
+          111,
+          112,
+          113,
+          114,
+          115,
+          145,
+          146,
+          147,
+          148,
+          149,
+          150,
+          151,
+          152,
+          153
+        ],
+        "chronological_variable_reference_hour_count": 116,
+        "chronological_unit_count": 4,
+        "chronological_units": [
+          "107_CC_1",
+          "116_STEAM_1",
+          "118_CC_1",
+          "123_STEAM_3"
+        ],
+        "row_family_counts": {
+          "aggregate_balance": 84,
+          "thermal_upper": 86,
+          "thermal_lower": 76,
+          "transition": 79,
+          "minimum_up": 18,
+          "minimum_down": 11,
+          "target_mean": 31
+        },
+        "target_mean_rows_in_proof": 31,
+        "all_target_mean_rows_retained_in_search": 41,
+        "all_static_rows_retained_in_search": 8273,
+        "all_variable_bounds_retained_in_search": 37968,
+        "global_energy_dependency_hours": 168,
+        "interpretation": "Proof support only; every full-week target mean and variable bound remains available. Chronological row anchors alone undercount their preceding-hour dependencies."
+      }
+    }
+  },
+  "model_artifacts": {
+    "matrix.npz": "6af039900e02e8d16a419686a8e11a4f33515092d0647af4677bbabda4b8754f",
+    "bounds.npz": "a06a4faeb9573ee0499706eeeb3fc3620651a18ea3f2d4c1f0f9422c923bf1e8"
+  },
+  "multipliers": [
+    {
+      "row": 0,
+      "value_hex": "-0x1.fffffffffffeap+0"
+    },
+    {
+      "row": 1,
+      "value_hex": "-0x1.bffffffffffecp+2"
+    },
+    {
+      "row": 2,
+      "value_hex": "-0x1.bffffffffffecp+2"
+    },
+    {
+      "row": 3,
+      "value_hex": "-0x1.43ffffffffff2p+3"
+    },
+    {
+      "row": 4,
+      "value_hex": "-0x1.43ffffffffff2p+3"
+    },
+    {
+      "row": 5,
+      "value_hex": "-0x1.43ffffffffff2p+3"
+    },
+    {
+      "row": 6,
+      "value_hex": "-0x1.43ffffffffff2p+3"
+    },
+    {
+      "row": 7,
+      "value_hex": "-0x1.bffffffffffecp+2"
+    },
+    {
+      "row": 8,
+      "value_hex": "-0x1.bffffffffffecp+2"
+    },
+    {
+      "row": 9,
+      "value_hex": "-0x1.fffffffffffe9p+0"
+    },
+    {
+      "row": 24,
+      "value_hex": "-0x1.9ffffffffffecp+1"
+    },
+    {
+      "row": 25,
+      "value_hex": "-0x1.bffffffffffecp+2"
+    },
+    {
+      "row": 26,
+      "value_hex": "-0x1.43ffffffffff2p+3"
+    },
+    {
+      "row": 27,
+      "value_hex": "-0x1.43ffffffffff2p+3"
+    },
+    {
+      "row": 28,
+      "value_hex": "-0x1.43ffffffffff2p+3"
+    },
+    {
+      "row": 29,
+      "value_hex": "-0x1.bffffffffffecp+2"
+    },
+    {
+      "row": 30,
+      "value_hex": "-0x1.bffffffffffecp+2"
+    },
+    {
+      "row": 31,
+      "value_hex": "-0x1.fffffffffffe9p+0"
+    },
+    {
+      "row": 32,
+      "value_hex": "-0x1.fffffffffffe8p+0"
+    },
+    {
+      "row": 48,
+      "value_hex": "-0x1.bffffffffffecp+2"
+    },
+    {
+      "row": 50,
+      "value_hex": "0x1.ad12073615a12p+1"
+    },
+    {
+      "row": 51,
+      "value_hex": "-0x1.bffffffffffedp+2"
+    },
+    {
+      "row": 52,
+      "value_hex": "0x1.ad12073615a12p+1"
+    },
+    {
+      "row": 55,
+      "value_hex": "-0x1.fffffffffffe8p+0"
+    },
+    {
+      "row": 56,
+      "value_hex": "-0x1.bffffffffffeap+2"
+    },
+    {
+      "row": 58,
+      "value_hex": "-0x1.3fffffffffff2p+2"
+    },
+    {
+      "row": 60,
+      "value_hex": "0x1.ad12073615a0fp+1"
+    },
+    {
+      "row": 61,
+      "value_hex": "-0x1.bffffffffffecp+2"
+    },
+    {
+      "row": 62,
+      "value_hex": "-0x1.bffffffffffecp+2"
+    },
+    {
+      "row": 67,
+      "value_hex": "-0x1.bffffffffffecp+2"
+    },
+    {
+      "row": 68,
+      "value_hex": "-0x1.bffffffffffecp+2"
+    },
+    {
+      "row": 69,
+      "value_hex": "-0x1.bffffffffffeep+2"
+    },
+    {
+      "row": 71,
+      "value_hex": "0x1.ad12073615a13p+1"
+    },
+    {
+      "row": 73,
+      "value_hex": "-0x1.bffffffffffeep+2"
+    },
+    {
+      "row": 74,
+      "value_hex": "-0x1.bffffffffffecp+2"
+    },
+    {
+      "row": 76,
+      "value_hex": "-0x1.bffffffffffecp+2"
+    },
+    {
+      "row": 78,
+      "value_hex": "0x1.ad12073615a0fp+1"
+    },
+    {
+      "row": 79,
+      "value_hex": "0x1.ad12073615a12p+1"
+    },
+    {
+      "row": 80,
+      "value_hex": "-0x1.bffffffffffe9p+2"
+    },
+    {
+      "row": 81,
+      "value_hex": "0x1.ad12073615a0fp+1"
+    },
+    {
+      "row": 82,
+      "value_hex": "-0x1.bffffffffffecp+2"
+    },
+    {
+      "row": 83,
+      "value_hex": "-0x1.bffffffffffe9p+2"
+    },
+    {
+      "row": 87,
+      "value_hex": "-0x1.bffffffffffecp+2"
+    },
+    {
+      "row": 88,
+      "value_hex": "0x1.ad12073615a10p+1"
+    },
+    {
+      "row": 90,
+      "value_hex": "-0x1.bffffffffffecp+2"
+    },
+    {
+      "row": 91,
+      "value_hex": "-0x1.fffffffffffe9p+0"
+    },
+    {
+      "row": 92,
+      "value_hex": "-0x1.bffffffffffebp+2"
+    },
+    {
+      "row": 93,
+      "value_hex": "-0x1.fffffffffffe9p+0"
+    },
+    {
+      "row": 95,
+      "value_hex": "-0x1.bffffffffffebp+2"
+    },
+    {
+      "row": 96,
+      "value_hex": "0x1.ad12073615a10p+1"
+    },
+    {
+      "row": 97,
+      "value_hex": "-0x1.7fffffffffff4p+1"
+    },
+    {
+      "row": 98,
+      "value_hex": "-0x1.fffffffffffe9p+0"
+    },
+    {
+      "row": 99,
+      "value_hex": "-0x1.fffffffffffe9p+0"
+    },
+    {
+      "row": 100,
+      "value_hex": "0x1.ad12073615a12p+1"
+    },
+    {
+      "row": 103,
+      "value_hex": "-0x1.bffffffffffecp+2"
+    },
+    {
+      "row": 105,
+      "value_hex": "-0x1.bffffffffffecp+2"
+    },
+    {
+      "row": 107,
+      "value_hex": "-0x1.bffffffffffecp+2"
+    },
+    {
+      "row": 108,
+      "value_hex": "0x1.ad12073615a12p+1"
+    },
+    {
+      "row": 109,
+      "value_hex": "-0x1.bffffffffffecp+2"
+    },
+    {
+      "row": 110,
+      "value_hex": "0x1.ad12073615a12p+1"
+    },
+    {
+      "row": 111,
+      "value_hex": "-0x1.bffffffffffecp+2"
+    },
+    {
+      "row": 112,
+      "value_hex": "0x1.ad12073615a12p+1"
+    },
+    {
+      "row": 114,
+      "value_hex": "-0x1.bffffffffffecp+2"
+    },
+    {
+      "row": 120,
+      "value_hex": "-0x1.fffffffffffe9p+0"
+    },
+    {
+      "row": 121,
+      "value_hex": "-0x1.bffffffffffecp+2"
+    },
+    {
+      "row": 122,
+      "value_hex": "-0x1.bffffffffffecp+2"
+    },
+    {
+      "row": 123,
+      "value_hex": "-0x1.bffffffffffecp+2"
+    },
+    {
+      "row": 124,
+      "value_hex": "-0x1.bffffffffffecp+2"
+    },
+    {
+      "row": 125,
+      "value_hex": "-0x1.bffffffffffecp+2"
+    },
+    {
+      "row": 126,
+      "value_hex": "-0x1.bffffffffffecp+2"
+    },
+    {
+      "row": 127,
+      "value_hex": "-0x1.bffffffffffecp+2"
+    },
+    {
+      "row": 128,
+      "value_hex": "-0x1.fffffffffffe9p+0"
+    },
+    {
+      "row": 129,
+      "value_hex": "-0x1.fffffffffffe9p+0"
+    },
+    {
+      "row": 144,
+      "value_hex": "-0x1.fffffffffffe9p+0"
+    },
+    {
+      "row": 146,
+      "value_hex": "-0x1.bffffffffffebp+2"
+    },
+    {
+      "row": 147,
+      "value_hex": "-0x1.bffffffffffecp+2"
+    },
+    {
+      "row": 148,
+      "value_hex": "-0x1.bffffffffffecp+2"
+    },
+    {
+      "row": 149,
+      "value_hex": "-0x1.bffffffffffecp+2"
+    },
+    {
+      "row": 150,
+      "value_hex": "-0x1.bffffffffffecp+2"
+    },
+    {
+      "row": 151,
+      "value_hex": "-0x1.bffffffffffecp+2"
+    },
+    {
+      "row": 152,
+      "value_hex": "-0x1.bffffffffffecp+2"
+    },
+    {
+      "row": 165,
+      "value_hex": "-0x1.fffffffffffe9p+0"
+    },
+    {
+      "row": 166,
+      "value_hex": "-0x1.fffffffffffe9p+0"
+    },
+    {
+      "row": 167,
+      "value_hex": "-0x1.bffffffffffecp+2"
+    },
+    {
+      "row": 3650,
+      "value_hex": "-0x1.ad12073615a12p+1"
+    },
+    {
+      "row": 6192,
+      "value_hex": "-0x1.3fffffffffff2p+2"
+    },
+    {
+      "row": 7246,
+      "value_hex": "-0x1.3fffffffffff2p+2"
+    },
+    {
+      "row": 8485,
+      "value_hex": "-0x1.bffffffffffecp+2"
+    },
+    {
+      "row": 8492,
+      "value_hex": "-0x1.297fffffffff3p+10"
+    },
+    {
+      "row": 8496,
+      "value_hex": "-0x1.ad12073615a12p+1"
+    },
+    {
+      "row": 8498,
+      "value_hex": "-0x1.297fffffffff3p+10"
+    },
+    {
+      "row": 8503,
+      "value_hex": "-0x1.bffffffffffecp+2"
+    },
+    {
+      "row": 8508,
+      "value_hex": "-0x1.ad12073615a12p+1"
+    },
+    {
+      "row": 8510,
+      "value_hex": "-0x1.297fffffffff3p+10"
+    },
+    {
+      "row": 8527,
+      "value_hex": "-0x1.fffffffffffe8p+0"
+    },
+    {
+      "row": 8533,
+      "value_hex": "-0x1.bffffffffffeap+2"
+    },
+    {
+      "row": 8534,
+      "value_hex": "-0x1.53ffffffffff0p+8"
+    },
+    {
+      "row": 8536,
+      "value_hex": "-0x1.297fffffffff3p+10"
+    },
+    {
+      "row": 8540,
+      "value_hex": "-0x1.53fffffffffeap+8"
+    },
+    {
+      "row": 8545,
+      "value_hex": "-0x1.3fffffffffff2p+2"
+    },
+    {
+      "row": 8546,
+      "value_hex": "-0x1.53fffffffffeap+8"
+    },
+    {
+      "row": 8552,
+      "value_hex": "-0x1.297fffffffff1p+10"
+    },
+    {
+      "row": 8556,
+      "value_hex": "-0x1.ad12073615a0fp+1"
+    },
+    {
+      "row": 8558,
+      "value_hex": "-0x1.297fffffffff1p+10"
+    },
+    {
+      "row": 8563,
+      "value_hex": "-0x1.bffffffffffe9p+2"
+    },
+    {
+      "row": 8566,
+      "value_hex": "-0x1.297fffffffff1p+10"
+    },
+    {
+      "row": 8611,
+      "value_hex": "-0x1.bffffffffffeep+2"
+    },
+    {
+      "row": 8618,
+      "value_hex": "-0x1.297fffffffff4p+10"
+    },
+    {
+      "row": 8622,
+      "value_hex": "-0x1.ad12073615a13p+1"
+    },
+    {
+      "row": 8624,
+      "value_hex": "-0x1.297fffffffff4p+10"
+    },
+    {
+      "row": 8635,
+      "value_hex": "-0x1.bffffffffffeep+2"
+    },
+    {
+      "row": 8638,
+      "value_hex": "-0x1.297fffffffff4p+10"
+    },
+    {
+      "row": 8641,
+      "value_hex": "-0x1.bffffffffffecp+2"
+    },
+    {
+      "row": 8648,
+      "value_hex": "-0x1.297fffffffff3p+10"
+    },
+    {
+      "row": 8653,
+      "value_hex": "-0x1.bffffffffffecp+2"
+    },
+    {
+      "row": 8654,
+      "value_hex": "-0x1.297fffffffff1p+10"
+    },
+    {
+      "row": 8660,
+      "value_hex": "-0x1.297fffffffff2p+11"
+    },
+    {
+      "row": 8664,
+      "value_hex": "-0x1.ad12073615a0fp+1"
+    },
+    {
+      "row": 8666,
+      "value_hex": "-0x1.297fffffffff2p+11"
+    },
+    {
+      "row": 8670,
+      "value_hex": "-0x1.ad12073615a12p+1"
+    },
+    {
+      "row": 8672,
+      "value_hex": "-0x1.297fffffffff3p+10"
+    },
+    {
+      "row": 8677,
+      "value_hex": "-0x1.bffffffffffe9p+2"
+    },
+    {
+      "row": 8682,
+      "value_hex": "-0x1.ad12073615a0fp+1"
+    },
+    {
+      "row": 8684,
+      "value_hex": "-0x1.297fffffffff1p+10"
+    },
+    {
+      "row": 8689,
+      "value_hex": "-0x1.bffffffffffecp+2"
+    },
+    {
+      "row": 8692,
+      "value_hex": "-0x1.297fffffffff3p+10"
+    },
+    {
+      "row": 8695,
+      "value_hex": "-0x1.bffffffffffe9p+2"
+    },
+    {
+      "row": 8698,
+      "value_hex": "-0x1.297fffffffff1p+10"
+    },
+    {
+      "row": 8719,
+      "value_hex": "-0x1.bffffffffffebp+2"
+    },
+    {
+      "row": 8724,
+      "value_hex": "-0x1.ad12073615a10p+1"
+    },
+    {
+      "row": 8726,
+      "value_hex": "-0x1.297fffffffff2p+10"
+    },
+    {
+      "row": 8749,
+      "value_hex": "-0x1.bffffffffffebp+2"
+    },
+    {
+      "row": 8752,
+      "value_hex": "-0x1.297fffffffff2p+10"
+    },
+    {
+      "row": 8767,
+      "value_hex": "-0x1.bffffffffffebp+2"
+    },
+    {
+      "row": 8772,
+      "value_hex": "-0x1.ad12073615a10p+1"
+    },
+    {
+      "row": 8774,
+      "value_hex": "-0x1.297fffffffff2p+10"
+    },
+    {
+      "row": 8779,
+      "value_hex": "-0x1.7fffffffffff5p+1"
+    },
+    {
+      "row": 8785,
+      "value_hex": "-0x1.fffffffffffe9p+0"
+    },
+    {
+      "row": 8786,
+      "value_hex": "-0x1.fdfffffffffebp+8"
+    },
+    {
+      "row": 8791,
+      "value_hex": "-0x1.fffffffffffe9p+0"
+    },
+    {
+      "row": 8792,
+      "value_hex": "-0x1.a8fffffffffeep+9"
+    },
+    {
+      "row": 8796,
+      "value_hex": "-0x1.ad12073615a12p+1"
+    },
+    {
+      "row": 8798,
+      "value_hex": "-0x1.297fffffffff3p+10"
+    },
+    {
+      "row": 8815,
+      "value_hex": "-0x1.bffffffffffecp+2"
+    },
+    {
+      "row": 8818,
+      "value_hex": "-0x1.297fffffffff3p+10"
+    },
+    {
+      "row": 8839,
+      "value_hex": "-0x1.bffffffffffecp+2"
+    },
+    {
+      "row": 8844,
+      "value_hex": "-0x1.ad12073615a12p+1"
+    },
+    {
+      "row": 8846,
+      "value_hex": "-0x1.297fffffffff3p+10"
+    },
+    {
+      "row": 8851,
+      "value_hex": "-0x1.bffffffffffecp+2"
+    },
+    {
+      "row": 8856,
+      "value_hex": "-0x1.ad12073615a12p+1"
+    },
+    {
+      "row": 8858,
+      "value_hex": "-0x1.297fffffffff3p+10"
+    },
+    {
+      "row": 8863,
+      "value_hex": "-0x1.bffffffffffecp+2"
+    },
+    {
+      "row": 8868,
+      "value_hex": "-0x1.ad12073615a12p+1"
+    },
+    {
+      "row": 8870,
+      "value_hex": "-0x1.297fffffffff3p+10"
+    },
+    {
+      "row": 8881,
+      "value_hex": "-0x1.bffffffffffecp+2"
+    },
+    {
+      "row": 8884,
+      "value_hex": "-0x1.297fffffffff3p+10"
+    },
+    {
+      "row": 15230,
+      "value_hex": "-0x1.8fffffffffff0p+1"
+    },
+    {
+      "row": 15266,
+      "value_hex": "-0x1.8fffffffffff0p+1"
+    },
+    {
+      "row": 16300,
+      "value_hex": "-0x1.fffffffffffe9p+0"
+    },
+    {
+      "row": 16492,
+      "value_hex": "-0x1.fffffffffffe9p+0"
+    },
+    {
+      "row": 16504,
+      "value_hex": "-0x1.fffffffffffe9p+0"
+    },
+    {
+      "row": 16510,
+      "value_hex": "-0x1.fffffffffffe9p+0"
+    },
+    {
+      "row": 16517,
+      "value_hex": "-0x1.3fffffffffff2p+2"
+    },
+    {
+      "row": 16518,
+      "value_hex": "0x1.35ffffffffff2p+8"
+    },
+    {
+      "row": 16522,
+      "value_hex": "-0x1.fffffffffffe9p+0"
+    },
+    {
+      "row": 16527,
+      "value_hex": "-0x1.35ffffffffff2p+8"
+    },
+    {
+      "row": 16528,
+      "value_hex": "-0x1.fffffffffffebp+0"
+    },
+    {
+      "row": 16535,
+      "value_hex": "-0x1.3fffffffffff3p+2"
+    },
+    {
+      "row": 16536,
+      "value_hex": "0x1.35ffffffffff3p+8"
+    },
+    {
+      "row": 16552,
+      "value_hex": "-0x1.fffffffffffe6p+0"
+    },
+    {
+      "row": 16560,
+      "value_hex": "0x1.35ffffffffff0p+8"
+    },
+    {
+      "row": 16565,
+      "value_hex": "-0x1.3fffffffffff0p+2"
+    },
+    {
+      "row": 16566,
+      "value_hex": "0x1.35ffffffffff0p+8"
+    },
+    {
+      "row": 16570,
+      "value_hex": "-0x1.fffffffffffebp+0"
+    },
+    {
+      "row": 16575,
+      "value_hex": "-0x1.35ffffffffff3p+8"
+    },
+    {
+      "row": 16588,
+      "value_hex": "-0x1.fffffffffffe9p+0"
+    },
+    {
+      "row": 16595,
+      "value_hex": "-0x1.3fffffffffff2p+2"
+    },
+    {
+      "row": 16596,
+      "value_hex": "0x1.35ffffffffff2p+8"
+    },
+    {
+      "row": 16606,
+      "value_hex": "-0x1.fffffffffffe9p+0"
+    },
+    {
+      "row": 16611,
+      "value_hex": "-0x1.35ffffffffff2p+8"
+    },
+    {
+      "row": 16624,
+      "value_hex": "-0x1.fffffffffffe9p+0"
+    },
+    {
+      "row": 16631,
+      "value_hex": "-0x1.3fffffffffff2p+2"
+    },
+    {
+      "row": 16632,
+      "value_hex": "0x1.35ffffffffff2p+8"
+    },
+    {
+      "row": 16654,
+      "value_hex": "-0x1.fffffffffffe9p+0"
+    },
+    {
+      "row": 16659,
+      "value_hex": "-0x1.35ffffffffff2p+8"
+    },
+    {
+      "row": 16660,
+      "value_hex": "-0x1.fffffffffffe9p+0"
+    },
+    {
+      "row": 16667,
+      "value_hex": "-0x1.3fffffffffff4p+2"
+    },
+    {
+      "row": 16668,
+      "value_hex": "0x1.35ffffffffff2p+8"
+    },
+    {
+      "row": 16678,
+      "value_hex": "-0x1.fffffffffffe9p+0"
+    },
+    {
+      "row": 16685,
+      "value_hex": "-0x1.3fffffffffff2p+2"
+    },
+    {
+      "row": 16686,
+      "value_hex": "0x1.35ffffffffff2p+8"
+    },
+    {
+      "row": 16690,
+      "value_hex": "-0x1.fffffffffffe9p+0"
+    },
+    {
+      "row": 16695,
+      "value_hex": "-0x1.35ffffffffff2p+8"
+    },
+    {
+      "row": 16696,
+      "value_hex": "-0x1.5689039b0ad02p+2"
+    },
+    {
+      "row": 16702,
+      "value_hex": "-0x1.fffffffffffecp+0"
+    },
+    {
+      "row": 16709,
+      "value_hex": "-0x1.3fffffffffff4p+2"
+    },
+    {
+      "row": 16710,
+      "value_hex": "0x1.35ffffffffff4p+8"
+    },
+    {
+      "row": 16714,
+      "value_hex": "-0x1.fffffffffffe9p+0"
+    },
+    {
+      "row": 16721,
+      "value_hex": "-0x1.3fffffffffff2p+2"
+    },
+    {
+      "row": 16722,
+      "value_hex": "0x1.35ffffffffff2p+8"
+    },
+    {
+      "row": 16727,
+      "value_hex": "-0x1.3ffffffffffefp+2"
+    },
+    {
+      "row": 16732,
+      "value_hex": "-0x1.fffffffffffe6p+0"
+    },
+    {
+      "row": 16734,
+      "value_hex": "-0x1.35ffffffffff0p+8"
+    },
+    {
+      "row": 16738,
+      "value_hex": "-0x1.fffffffffffe9p+0"
+    },
+    {
+      "row": 16743,
+      "value_hex": "-0x1.35ffffffffff2p+8"
+    },
+    {
+      "row": 16751,
+      "value_hex": "-0x1.3fffffffffff2p+2"
+    },
+    {
+      "row": 16756,
+      "value_hex": "-0x1.fffffffffffe9p+0"
+    },
+    {
+      "row": 16758,
+      "value_hex": "-0x1.35ffffffffff2p+8"
+    },
+    {
+      "row": 16762,
+      "value_hex": "-0x1.fffffffffffe9p+0"
+    },
+    {
+      "row": 16769,
+      "value_hex": "-0x1.3fffffffffff2p+2"
+    },
+    {
+      "row": 16770,
+      "value_hex": "0x1.35ffffffffff2p+8"
+    },
+    {
+      "row": 16778,
+      "value_hex": "-0x1.35ffffffffff2p+8"
+    },
+    {
+      "row": 16781,
+      "value_hex": "-0x1.3fffffffffff1p+2"
+    },
+    {
+      "row": 16782,
+      "value_hex": "0x1.35ffffffffff2p+8"
+    },
+    {
+      "row": 16792,
+      "value_hex": "-0x1.fffffffffffe9p+0"
+    },
+    {
+      "row": 16799,
+      "value_hex": "-0x1.3fffffffffff1p+2"
+    },
+    {
+      "row": 16800,
+      "value_hex": "0x1.35ffffffffff2p+8"
+    },
+    {
+      "row": 16804,
+      "value_hex": "-0x1.fffffffffffe9p+0"
+    },
+    {
+      "row": 16809,
+      "value_hex": "-0x1.35ffffffffff2p+8"
+    },
+    {
+      "row": 16840,
+      "value_hex": "-0x1.fffffffffffe9p+0"
+    },
+    {
+      "row": 16847,
+      "value_hex": "-0x1.3fffffffffff2p+2"
+    },
+    {
+      "row": 16848,
+      "value_hex": "0x1.35ffffffffff2p+8"
+    },
+    {
+      "row": 16852,
+      "value_hex": "-0x1.fffffffffffe9p+0"
+    },
+    {
+      "row": 16859,
+      "value_hex": "-0x1.3fffffffffff1p+2"
+    },
+    {
+      "row": 16860,
+      "value_hex": "0x1.35ffffffffff2p+8"
+    },
+    {
+      "row": 16864,
+      "value_hex": "-0x1.fffffffffffe9p+0"
+    },
+    {
+      "row": 16871,
+      "value_hex": "-0x1.3fffffffffff1p+2"
+    },
+    {
+      "row": 16872,
+      "value_hex": "0x1.35ffffffffff2p+8"
+    },
+    {
+      "row": 16876,
+      "value_hex": "-0x1.fffffffffffe9p+1"
+    },
+    {
+      "row": 16881,
+      "value_hex": "-0x1.35ffffffffff2p+8"
+    },
+    {
+      "row": 16883,
+      "value_hex": "-0x1.3fffffffffff2p+2"
+    },
+    {
+      "row": 16884,
+      "value_hex": "0x1.35ffffffffff2p+8"
+    },
+    {
+      "row": 16888,
+      "value_hex": "-0x1.fffffffffffe9p+0"
+    },
+    {
+      "row": 16895,
+      "value_hex": "-0x1.3fffffffffff2p+2"
+    },
+    {
+      "row": 16896,
+      "value_hex": "0x1.35ffffffffff2p+8"
+    },
+    {
+      "row": 16900,
+      "value_hex": "-0x1.5689039b0ad03p+2"
+    },
+    {
+      "row": 16906,
+      "value_hex": "-0x1.fffffffffffe9p+0"
+    },
+    {
+      "row": 16913,
+      "value_hex": "-0x1.3fffffffffff2p+2"
+    },
+    {
+      "row": 16914,
+      "value_hex": "0x1.35ffffffffff2p+8"
+    },
+    {
+      "row": 16918,
+      "value_hex": "-0x1.fffffffffffe9p+0"
+    },
+    {
+      "row": 16923,
+      "value_hex": "-0x1.35ffffffffff2p+8"
+    },
+    {
+      "row": 17014,
+      "value_hex": "-0x1.fffffffffffe9p+0"
+    },
+    {
+      "row": 17098,
+      "value_hex": "-0x1.fffffffffffe9p+0"
+    },
+    {
+      "row": 17105,
+      "value_hex": "-0x1.3fffffffffff1p+2"
+    },
+    {
+      "row": 17106,
+      "value_hex": "0x1.35ffffffffff2p+8"
+    },
+    {
+      "row": 17146,
+      "value_hex": "-0x1.fffffffffffe9p+0"
+    },
+    {
+      "row": 17151,
+      "value_hex": "-0x1.35ffffffffff2p+8"
+    },
+    {
+      "row": 17212,
+      "value_hex": "-0x1.fffffffffffe9p+0"
+    },
+    {
+      "row": 17521,
+      "value_hex": "-0x1.bffffffffffecp+2"
+    },
+    {
+      "row": 17528,
+      "value_hex": "-0x1.297fffffffff3p+10"
+    },
+    {
+      "row": 17532,
+      "value_hex": "-0x1.ad12073615a12p+1"
+    },
+    {
+      "row": 17534,
+      "value_hex": "-0x1.297fffffffff3p+10"
+    },
+    {
+      "row": 17539,
+      "value_hex": "-0x1.bffffffffffecp+2"
+    },
+    {
+      "row": 17544,
+      "value_hex": "-0x1.ad12073615a12p+1"
+    },
+    {
+      "row": 17546,
+      "value_hex": "-0x1.297fffffffff3p+10"
+    },
+    {
+      "row": 17563,
+      "value_hex": "-0x1.fffffffffffe8p+0"
+    },
+    {
+      "row": 17566,
+      "value_hex": "-0x1.53ffffffffff0p+8"
+    },
+    {
+      "row": 17569,
+      "value_hex": "-0x1.bffffffffffeap+2"
+    },
+    {
+      "row": 17572,
+      "value_hex": "-0x1.a8fffffffffeep+9"
+    },
+    {
+      "row": 17576,
+      "value_hex": "-0x1.53fffffffffeap+8"
+    },
+    {
+      "row": 17581,
+      "value_hex": "-0x1.3fffffffffff2p+2"
+    },
+    {
+      "row": 17582,
+      "value_hex": "-0x1.53fffffffffeap+8"
+    },
+    {
+      "row": 17588,
+      "value_hex": "-0x1.297fffffffff1p+10"
+    },
+    {
+      "row": 17592,
+      "value_hex": "-0x1.ad12073615a0fp+1"
+    },
+    {
+      "row": 17594,
+      "value_hex": "-0x1.297fffffffff1p+10"
+    },
+    {
+      "row": 17599,
+      "value_hex": "-0x1.bffffffffffe9p+2"
+    },
+    {
+      "row": 17602,
+      "value_hex": "-0x1.297fffffffff1p+10"
+    },
+    {
+      "row": 17647,
+      "value_hex": "-0x1.bffffffffffeep+2"
+    },
+    {
+      "row": 17654,
+      "value_hex": "-0x1.297fffffffff4p+10"
+    },
+    {
+      "row": 17658,
+      "value_hex": "-0x1.ad12073615a13p+1"
+    },
+    {
+      "row": 17660,
+      "value_hex": "-0x1.297fffffffff4p+10"
+    },
+    {
+      "row": 17671,
+      "value_hex": "-0x1.bffffffffffeep+2"
+    },
+    {
+      "row": 17674,
+      "value_hex": "-0x1.297fffffffff4p+10"
+    },
+    {
+      "row": 17677,
+      "value_hex": "-0x1.bffffffffffecp+2"
+    },
+    {
+      "row": 17684,
+      "value_hex": "-0x1.297fffffffff3p+10"
+    },
+    {
+      "row": 17689,
+      "value_hex": "-0x1.bffffffffffedp+2"
+    },
+    {
+      "row": 17690,
+      "value_hex": "-0x1.297fffffffff1p+10"
+    },
+    {
+      "row": 17696,
+      "value_hex": "-0x1.297fffffffff2p+11"
+    },
+    {
+      "row": 17700,
+      "value_hex": "-0x1.ad12073615a0fp+1"
+    },
+    {
+      "row": 17702,
+      "value_hex": "-0x1.297fffffffff2p+11"
+    },
+    {
+      "row": 17706,
+      "value_hex": "-0x1.ad12073615a12p+1"
+    },
+    {
+      "row": 17708,
+      "value_hex": "-0x1.297fffffffff3p+10"
+    },
+    {
+      "row": 17713,
+      "value_hex": "-0x1.bffffffffffe9p+2"
+    },
+    {
+      "row": 17718,
+      "value_hex": "-0x1.ad12073615a0fp+1"
+    },
+    {
+      "row": 17720,
+      "value_hex": "-0x1.297fffffffff1p+10"
+    },
+    {
+      "row": 17725,
+      "value_hex": "-0x1.bffffffffffecp+2"
+    },
+    {
+      "row": 17728,
+      "value_hex": "-0x1.297fffffffff3p+10"
+    },
+    {
+      "row": 17731,
+      "value_hex": "-0x1.bffffffffffe9p+2"
+    },
+    {
+      "row": 17734,
+      "value_hex": "-0x1.297fffffffff1p+10"
+    },
+    {
+      "row": 17755,
+      "value_hex": "-0x1.bffffffffffebp+2"
+    },
+    {
+      "row": 17760,
+      "value_hex": "-0x1.ad12073615a10p+1"
+    },
+    {
+      "row": 17762,
+      "value_hex": "-0x1.297fffffffff2p+10"
+    },
+    {
+      "row": 17785,
+      "value_hex": "-0x1.bffffffffffebp+2"
+    },
+    {
+      "row": 17788,
+      "value_hex": "-0x1.297fffffffff2p+10"
+    },
+    {
+      "row": 17803,
+      "value_hex": "-0x1.bffffffffffebp+2"
+    },
+    {
+      "row": 17808,
+      "value_hex": "-0x1.ad12073615a10p+1"
+    },
+    {
+      "row": 17810,
+      "value_hex": "-0x1.297fffffffff2p+10"
+    },
+    {
+      "row": 17815,
+      "value_hex": "-0x1.7fffffffffff5p+1"
+    },
+    {
+      "row": 17821,
+      "value_hex": "-0x1.fffffffffffdep+0"
+    },
+    {
+      "row": 17822,
+      "value_hex": "-0x1.fdffffffffff1p+8"
+    },
+    {
+      "row": 17827,
+      "value_hex": "-0x1.fffffffffffe9p+0"
+    },
+    {
+      "row": 17828,
+      "value_hex": "-0x1.a8fffffffffeep+9"
+    },
+    {
+      "row": 17832,
+      "value_hex": "-0x1.ad12073615a12p+1"
+    },
+    {
+      "row": 17834,
+      "value_hex": "-0x1.297fffffffff3p+10"
+    },
+    {
+      "row": 17851,
+      "value_hex": "-0x1.bffffffffffecp+2"
+    },
+    {
+      "row": 17854,
+      "value_hex": "-0x1.297fffffffff3p+10"
+    },
+    {
+      "row": 17875,
+      "value_hex": "-0x1.bffffffffffecp+2"
+    },
+    {
+      "row": 17880,
+      "value_hex": "-0x1.ad12073615a12p+1"
+    },
+    {
+      "row": 17882,
+      "value_hex": "-0x1.297fffffffff3p+10"
+    },
+    {
+      "row": 17887,
+      "value_hex": "-0x1.bffffffffffecp+2"
+    },
+    {
+      "row": 17892,
+      "value_hex": "-0x1.ad12073615a12p+1"
+    },
+    {
+      "row": 17894,
+      "value_hex": "-0x1.297fffffffff3p+10"
+    },
+    {
+      "row": 17899,
+      "value_hex": "-0x1.bffffffffffecp+2"
+    },
+    {
+      "row": 17904,
+      "value_hex": "-0x1.ad12073615a12p+1"
+    },
+    {
+      "row": 17906,
+      "value_hex": "-0x1.297fffffffff3p+10"
+    },
+    {
+      "row": 17917,
+      "value_hex": "-0x1.bffffffffffecp+2"
+    },
+    {
+      "row": 17920,
+      "value_hex": "-0x1.297fffffffff3p+10"
+    },
+    {
+      "row": 18248,
+      "value_hex": "-0x1.8fffffffffff0p+1"
+    },
+    {
+      "row": 19010,
+      "value_hex": "-0x1.03ffffffffff5p+3"
+    },
+    {
+      "row": 19244,
+      "value_hex": "-0x1.3fffffffffff1p+2"
+    },
+    {
+      "row": 19248,
+      "value_hex": "0x1.b57ffffffffecp+10"
+    },
+    {
+      "row": 19254,
+      "value_hex": "0x1.b57ffffffffecp+10"
+    },
+    {
+      "row": 19259,
+      "value_hex": "-0x1.8fffffffffff0p+1"
+    },
+    {
+      "row": 19260,
+      "value_hex": "0x1.b57ffffffffecp+10"
+    },
+    {
+      "row": 19265,
+      "value_hex": "-0x1.8ffffffffffeep+1"
+    },
+    {
+      "row": 19266,
+      "value_hex": "0x1.481fffffffff1p+10"
+    },
+    {
+      "row": 19271,
+      "value_hex": "-0x1.8ffffffffffeep+1"
+    },
+    {
+      "row": 19272,
+      "value_hex": "0x1.b57ffffffffeep+9"
+    },
+    {
+      "row": 19277,
+      "value_hex": "-0x1.8ffffffffffefp+1"
+    },
+    {
+      "row": 19278,
+      "value_hex": "0x1.b57ffffffffeep+8"
+    },
+    {
+      "row": 19360,
+      "value_hex": "-0x1.bffffffffffecp+2"
+    },
+    {
+      "row": 19384,
+      "value_hex": "-0x1.dffffffffffecp+1"
+    },
+    {
+      "row": 19392,
+      "value_hex": "0x1.481fffffffff2p+10"
+    },
+    {
+      "row": 19397,
+      "value_hex": "-0x1.8fffffffffff0p+1"
+    },
+    {
+      "row": 19398,
+      "value_hex": "0x1.481fffffffff2p+10"
+    },
+    {
+      "row": 19403,
+      "value_hex": "-0x1.8fffffffffff0p+1"
+    },
+    {
+      "row": 19404,
+      "value_hex": "0x1.b57ffffffffeep+9"
+    },
+    {
+      "row": 19409,
+      "value_hex": "-0x1.8fffffffffff0p+1"
+    },
+    {
+      "row": 19410,
+      "value_hex": "0x1.b57ffffffffeep+8"
+    },
+    {
+      "row": 19432,
+      "value_hex": "-0x1.3fffffffffff1p+2"
+    },
+    {
+      "row": 19437,
+      "value_hex": "-0x1.b57ffffffffecp+10"
+    },
+    {
+      "row": 19468,
+      "value_hex": "-0x1.bffffffffffecp+2"
+    },
+    {
+      "row": 19474,
+      "value_hex": "-0x1.bffffffffffecp+2"
+    },
+    {
+      "row": 19510,
+      "value_hex": "-0x1.bffffffffffecp+2"
+    },
+    {
+      "row": 19534,
+      "value_hex": "-0x1.bffffffffffecp+2"
+    },
+    {
+      "row": 19594,
+      "value_hex": "-0x1.bffffffffffecp+2"
+    },
+    {
+      "row": 19618,
+      "value_hex": "-0x1.bffffffffffecp+2"
+    },
+    {
+      "row": 19660,
+      "value_hex": "-0x1.bffffffffffecp+2"
+    },
+    {
+      "row": 19672,
+      "value_hex": "-0x1.bffffffffffecp+2"
+    },
+    {
+      "row": 19816,
+      "value_hex": "-0x1.4b4481cd8567ap+3"
+    },
+    {
+      "row": 19948,
+      "value_hex": "-0x1.bffffffffffecp+2"
+    },
+    {
+      "row": 20050,
+      "value_hex": "-0x1.bffffffffffecp+2"
+    },
+    {
+      "row": 23406,
+      "value_hex": "-0x1.8fffffffffff0p+1"
+    },
+    {
+      "row": 24252,
+      "value_hex": "-0x1.03ffffffffff5p+3"
+    },
+    {
+      "row": 24264,
+      "value_hex": "-0x1.1993d4bb7e31cp+9"
+    },
+    {
+      "row": 24265,
+      "value_hex": "-0x1.1993d4bb7e31cp+9"
+    },
+    {
+      "row": 24268,
+      "value_hex": "-0x1.1993d4bb7e31ap+9"
+    },
+    {
+      "row": 24269,
+      "value_hex": "-0x1.1993d4bb7e31cp+9"
+    },
+    {
+      "row": 24270,
+      "value_hex": "0x1.25ffffffffff3p+10"
+    },
+    {
+      "row": 24271,
+      "value_hex": "0x1.25ffffffffff3p+10"
+    },
+    {
+      "row": 24273,
+      "value_hex": "-0x1.1993d4bb7e31cp+9"
+    },
+    {
+      "row": 24274,
+      "value_hex": "-0x1.1993d4bb7e31cp+9"
+    },
+    {
+      "row": 24275,
+      "value_hex": "-0x1.1993d4bb7e31ap+9"
+    },
+    {
+      "row": 24276,
+      "value_hex": "-0x1.1993d4bb7e31cp+9"
+    },
+    {
+      "row": 24277,
+      "value_hex": "-0x1.1993d4bb7e31cp+9"
+    },
+    {
+      "row": 24278,
+      "value_hex": "-0x1.1993d4bb7e31cp+9"
+    },
+    {
+      "row": 24279,
+      "value_hex": "0x1.a93ffffffffeep+10"
+    },
+    {
+      "row": 24280,
+      "value_hex": "0x1.4fffffffffff1p+8"
+    },
+    {
+      "row": 24282,
+      "value_hex": "0x1.a93ffffffffeep+10"
+    },
+    {
+      "row": 24283,
+      "value_hex": "0x1.25ffffffffff3p+10"
+    },
+    {
+      "row": 24284,
+      "value_hex": "-0x1.1993d4bb7e31cp+9"
+    },
+    {
+      "row": 24285,
+      "value_hex": "-0x1.1993d4bb7e31cp+9"
+    },
+    {
+      "row": 24286,
+      "value_hex": "-0x1.1993d4bb7e31cp+9"
+    },
+    {
+      "row": 24287,
+      "value_hex": "0x1.a93ffffffffeep+10"
+    },
+    {
+      "row": 24294,
+      "value_hex": "0x1.a93ffffffffeep+10"
+    },
+    {
+      "row": 24295,
+      "value_hex": "0x1.a93ffffffffeep+10"
+    },
+    {
+      "row": 24296,
+      "value_hex": "0x1.a93ffffffffeep+10"
+    },
+    {
+      "row": 24297,
+      "value_hex": "0x1.a93ffffffffeep+10"
+    },
+    {
+      "row": 24298,
+      "value_hex": "0x1.a93ffffffffeep+10"
+    },
+    {
+      "row": 24299,
+      "value_hex": "0x1.a93ffffffffeep+10"
+    },
+    {
+      "row": 24300,
+      "value_hex": "0x1.a93ffffffffeep+10"
+    },
+    {
+      "row": 24301,
+      "value_hex": "0x1.a93ffffffffeep+10"
+    },
+    {
+      "row": 24302,
+      "value_hex": "0x1.a93ffffffffeep+10"
+    },
+    {
+      "row": 24303,
+      "value_hex": "0x1.a93ffffffffeep+10"
+    },
+    {
+      "row": 24304,
+      "value_hex": "0x1.a93ffffffffeep+10"
+    }
+  ],
+  "retained_chronological_rows": [
+    8492,
+    8498,
+    8510,
+    8534,
+    8536,
+    8540,
+    8546,
+    8552,
+    8558,
+    8566,
+    8618,
+    8624,
+    8638,
+    8648,
+    8654,
+    8660,
+    8666,
+    8672,
+    8684,
+    8692,
+    8698,
+    8726,
+    8752,
+    8774,
+    8786,
+    8792,
+    8798,
+    8818,
+    8846,
+    8858,
+    8870,
+    8884,
+    16518,
+    16527,
+    16536,
+    16560,
+    16566,
+    16575,
+    16596,
+    16611,
+    16632,
+    16659,
+    16668,
+    16686,
+    16695,
+    16710,
+    16722,
+    16734,
+    16743,
+    16758,
+    16770,
+    16778,
+    16782,
+    16800,
+    16809,
+    16848,
+    16860,
+    16872,
+    16881,
+    16884,
+    16896,
+    16914,
+    16923,
+    17106,
+    17151,
+    17528,
+    17534,
+    17546,
+    17566,
+    17572,
+    17576,
+    17582,
+    17588,
+    17594,
+    17602,
+    17654,
+    17660,
+    17674,
+    17684,
+    17690,
+    17696,
+    17702,
+    17708,
+    17720,
+    17728,
+    17734,
+    17762,
+    17788,
+    17810,
+    17822,
+    17828,
+    17834,
+    17854,
+    17882,
+    17894,
+    17906,
+    17920,
+    19248,
+    19254,
+    19260,
+    19266,
+    19272,
+    19278,
+    19392,
+    19398,
+    19404,
+    19410,
+    19437
+  ],
+  "check": {
+    "pass": true,
+    "robust_pass": true,
+    "arithmetic": "exact rational interpretation of archived binary64 matrix, bounds and ray",
+    "row_multiplier_nonzeros": 385,
+    "combined_column_nonzeros": 6397,
+    "lower_row_sum": 1498960.270066471,
+    "box_maximum": 1493282.627992954,
+    "separation_gap": 5677.64207351692,
+    "outward_bound_relaxation": 1e-05,
+    "robust_separation_gap": 5673.153496791568,
+    "maximum_uniform_bound_relaxation": 0.012649092175363325,
+    "exact_gap_numerator": "64827212395498448439988771701982040423598957824795",
+    "exact_gap_denominator": "11417981541647679048466287755595961091061972992",
+    "exact_robust_gap_numerator": "2122578719843945963827851899152432767127126004260534845",
+    "exact_robust_gap_denominator": "374144419156711147060143317175368453031918731001856",
+    "elapsed_s": 0.16200199999730103,
+    "scope": "mathematical model with archived float coefficients; not exact physical measurements"
+  },
+  "support": {
+    "total_rows": 385,
+    "chronological_rows": 108,
+    "chronological_row_anchor_hours": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      25,
+      26,
+      27,
+      28,
+      32,
+      48,
+      49,
+      50,
+      51,
+      52,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      63,
+      67,
+      70,
+      71,
+      73,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      88,
+      90,
+      91,
+      92,
+      95,
+      96,
+      98,
+      99,
+      100,
+      103,
+      105,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      114,
+      115,
+      146,
+      153
+    ],
+    "chronological_variable_reference_hours": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      145,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153
+    ],
+    "chronological_variable_reference_hour_count": 116,
+    "chronological_unit_count": 4,
+    "chronological_units": [
+      "107_CC_1",
+      "116_STEAM_1",
+      "118_CC_1",
+      "123_STEAM_3"
+    ],
+    "row_family_counts": {
+      "aggregate_balance": 84,
+      "thermal_upper": 86,
+      "thermal_lower": 76,
+      "transition": 79,
+      "minimum_up": 18,
+      "minimum_down": 11,
+      "target_mean": 31
+    },
+    "target_mean_rows_in_proof": 31,
+    "all_target_mean_rows_retained_in_search": 41,
+    "all_static_rows_retained_in_search": 8273,
+    "all_variable_bounds_retained_in_search": 37968,
+    "global_energy_dependency_hours": 168,
+    "interpretation": "Proof support only; every full-week target mean and variable bound remains available. Chronological row anchors alone undercount their preceding-hour dependencies."
+  },
+  "scope": "Exact archived binary64 model; all 41 target means, every static row and all variable bounds remain retained."
+}

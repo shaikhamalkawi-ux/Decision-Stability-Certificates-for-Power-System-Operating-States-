@@ -1,0 +1,42 @@
+{
+  "model_status": "Optimal",
+  "solver_version": "1.12.0",
+  "elapsed_s": 12.256715099996654,
+  "time_limit_s": 30,
+  "verdict": "ADMITTED_CONTINUOUS_RELAXATION",
+  "presolve": "off",
+  "solver": "simplex",
+  "continuous_witness_verification": {
+    "pass": true,
+    "tolerance": 1e-05,
+    "residuals": {
+      "column_lower": 0.0,
+      "column_upper": 6.146194664324867e-13,
+      "row_lower": 2.298747858731076e-10,
+      "row_upper": 2.1884716261411086e-10
+    }
+  },
+  "fractional_state_coordinate_count": 646,
+  "case": "positive_control_26092805",
+  "kind": "positive_control",
+  "seed": 26092805,
+  "model": "locality48",
+  "rows": 18313,
+  "columns": 18984,
+  "matrix_sha256": "bf7905b7d669b83c36191900631c68a053204a85981099102b5d2a0a7f02957b",
+  "bounds_sha256": "ea88ea9049d50136c973445f818e11888fa2edb3b5104022c96d5cd778f00894",
+  "archive_replay": {
+    "type": "continuous_witness",
+    "check": {
+      "pass": true,
+      "tolerance": 1e-05,
+      "residuals": {
+        "column_lower": 0.0,
+        "column_upper": 6.146194664324867e-13,
+        "row_lower": 2.298747858731076e-10,
+        "row_upper": 2.1884716261411086e-10
+      }
+    },
+    "inferred_UC_status": "UNKNOWN"
+  }
+}

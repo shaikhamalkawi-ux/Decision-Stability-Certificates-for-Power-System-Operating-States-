@@ -1,0 +1,15 @@
+{
+  "result": "PASS",
+  "status": "THEOREM_CANDIDATE_CHECKED_NOT_NOVELTY_ASSESSED",
+  "generic_DP_vs_exhaustive_words": 9841,
+  "generic_complete_candidate_schedules": 87381,
+  "block_formula_cases": 41,
+  "block_exhaustive_schedules": 16382,
+  "exhaustive_construction_examples": 6,
+  "construction_schedules_enumerated": 35328,
+  "safe_family_cases": 64,
+  "tighter_parameter_cases": 132,
+  "sharpness_cases": 16,
+  "elapsed_s": 25.479052599985152,
+  "interpretation": "Fixed finite unordered exogenous k-gram histograms are insufficient over unbounded horizons. This does not rule out finite-state sequential sufficient summaries."
+}

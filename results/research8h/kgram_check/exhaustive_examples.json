@@ -1,0 +1,98 @@
+[
+  {
+    "k": 1,
+    "r": 1,
+    "horizon": 13,
+    "all_orders_1_through_k_equal": true,
+    "minimum_thermal_x": 6,
+    "minimum_thermal_y": 7,
+    "shared_cap_numerator": 13,
+    "shared_cap_denominator": 2,
+    "complete_candidate_schedules_enumerated": 128,
+    "minimum_up_one_control": [
+      4,
+      4
+    ],
+    "exact_continuous_relaxation_lower_bound_verified": true
+  },
+  {
+    "k": 2,
+    "r": 1,
+    "horizon": 16,
+    "all_orders_1_through_k_equal": true,
+    "minimum_thermal_x": 6,
+    "minimum_thermal_y": 7,
+    "shared_cap_numerator": 13,
+    "shared_cap_denominator": 2,
+    "complete_candidate_schedules_enumerated": 128,
+    "minimum_up_one_control": [
+      4,
+      4
+    ],
+    "exact_continuous_relaxation_lower_bound_verified": true
+  },
+  {
+    "k": 3,
+    "r": 1,
+    "horizon": 19,
+    "all_orders_1_through_k_equal": true,
+    "minimum_thermal_x": 6,
+    "minimum_thermal_y": 7,
+    "shared_cap_numerator": 13,
+    "shared_cap_denominator": 2,
+    "complete_candidate_schedules_enumerated": 128,
+    "minimum_up_one_control": [
+      4,
+      4
+    ],
+    "exact_continuous_relaxation_lower_bound_verified": true
+  },
+  {
+    "k": 4,
+    "r": 1,
+    "horizon": 22,
+    "all_orders_1_through_k_equal": true,
+    "minimum_thermal_x": 6,
+    "minimum_thermal_y": 7,
+    "shared_cap_numerator": 13,
+    "shared_cap_denominator": 2,
+    "complete_candidate_schedules_enumerated": 128,
+    "minimum_up_one_control": [
+      4,
+      4
+    ],
+    "exact_continuous_relaxation_lower_bound_verified": true
+  },
+  {
+    "k": 2,
+    "r": 2,
+    "horizon": 24,
+    "all_orders_1_through_k_equal": true,
+    "minimum_thermal_x": 12,
+    "minimum_thermal_y": 13,
+    "shared_cap_numerator": 25,
+    "shared_cap_denominator": 2,
+    "complete_candidate_schedules_enumerated": 2048,
+    "minimum_up_one_control": [
+      8,
+      8
+    ],
+    "exact_continuous_relaxation_lower_bound_verified": true
+  },
+  {
+    "k": 3,
+    "r": 3,
+    "horizon": 35,
+    "all_orders_1_through_k_equal": true,
+    "minimum_thermal_x": 18,
+    "minimum_thermal_y": 19,
+    "shared_cap_numerator": 37,
+    "shared_cap_denominator": 2,
+    "complete_candidate_schedules_enumerated": 32768,
+    "minimum_up_one_control": [
+      12,
+      12
+    ],
+    "exact_continuous_relaxation_lower_bound_verified": true
+  }
+]

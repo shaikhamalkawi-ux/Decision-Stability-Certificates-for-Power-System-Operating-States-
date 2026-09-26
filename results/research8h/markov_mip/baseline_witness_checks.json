@@ -1,0 +1,46 @@
+{
+  "physical_chronology": {
+    "pass": true,
+    "tolerance": 1e-05,
+    "residuals": {
+      "negative_dispatch_MW": 0.0,
+      "availability_MW": 0.0,
+      "balance_MW": 6.821210263296962e-12,
+      "mean_MW": 0.0,
+      "hydro_fixed_MW": 0.0,
+      "binary": 0.0,
+      "status_lower": 0.0,
+      "status_upper": 0.0,
+      "commit_upper_MW": 0.0,
+      "commit_lower_MW": 0.0,
+      "commit_upper_rounded_MW": 0.0,
+      "commit_lower_rounded_MW": 0.0,
+      "transition_lower": 0.0,
+      "transition_upper": 0.0,
+      "transition_binary": 0.0,
+      "transition_identity": 0.0,
+      "no_simultaneous_transition": 0.0,
+      "initial_transition": 0.0,
+      "residence_violations": 0
+    }
+  },
+  "native_on_on_ramp": {
+    "pass": true,
+    "tolerance": 1e-05,
+    "residuals": {
+      "negative_dispatch_MW": 0.0,
+      "availability_MW": 0.0,
+      "balance_MW": 6.821210263296962e-12,
+      "mean_MW": 0.0,
+      "hydro_fixed_MW": 0.0,
+      "binary": 0.0,
+      "status_lower": 0.0,
+      "status_upper": 0.0,
+      "commit_upper_MW": 0.0,
+      "commit_lower_MW": 0.0,
+      "commit_upper_rounded_MW": 0.0,
+      "commit_lower_rounded_MW": 0.0,
+      "online_ramp_MW": 0.0
+    }
+  }
+}

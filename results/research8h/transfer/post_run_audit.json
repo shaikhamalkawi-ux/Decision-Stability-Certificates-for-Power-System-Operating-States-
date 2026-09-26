@@ -1,0 +1,173 @@
+{
+  "all_pass": true,
+  "scheduled_and_completed_LPs": 48,
+  "frozen_cases": 16,
+  "source_and_frozen_case_hashes_match": true,
+  "restricted_model_structural_checks": [
+    {
+      "case": "ordinary_26092700",
+      "model": "two_cc",
+      "exact_row_subset_and_unchanged_column_bounds": true
+    },
+    {
+      "case": "ordinary_26092700",
+      "model": "locality48",
+      "exact_row_subset_and_unchanged_column_bounds": true
+    },
+    {
+      "case": "ordinary_26092701",
+      "model": "two_cc",
+      "exact_row_subset_and_unchanged_column_bounds": true
+    },
+    {
+      "case": "ordinary_26092701",
+      "model": "locality48",
+      "exact_row_subset_and_unchanged_column_bounds": true
+    },
+    {
+      "case": "ordinary_26092702",
+      "model": "two_cc",
+      "exact_row_subset_and_unchanged_column_bounds": true
+    },
+    {
+      "case": "ordinary_26092702",
+      "model": "locality48",
+      "exact_row_subset_and_unchanged_column_bounds": true
+    },
+    {
+      "case": "ordinary_26092703",
+      "model": "two_cc",
+      "exact_row_subset_and_unchanged_column_bounds": true
+    },
+    {
+      "case": "ordinary_26092703",
+      "model": "locality48",
+      "exact_row_subset_and_unchanged_column_bounds": true
+    },
+    {
+      "case": "ordinary_26092704",
+      "model": "two_cc",
+      "exact_row_subset_and_unchanged_column_bounds": true
+    },
+    {
+      "case": "ordinary_26092704",
+      "model": "locality48",
+      "exact_row_subset_and_unchanged_column_bounds": true
+    },
+    {
+      "case": "ordinary_26092705",
+      "model": "two_cc",
+      "exact_row_subset_and_unchanged_column_bounds": true
+    },
+    {
+      "case": "ordinary_26092705",
+      "model": "locality48",
+      "exact_row_subset_and_unchanged_column_bounds": true
+    },
+    {
+      "case": "ordinary_26092706",
+      "model": "two_cc",
+      "exact_row_subset_and_unchanged_column_bounds": true
+    },
+    {
+      "case": "ordinary_26092706",
+      "model": "locality48",
+      "exact_row_subset_and_unchanged_column_bounds": true
+    },
+    {
+      "case": "ordinary_26092707",
+      "model": "two_cc",
+      "exact_row_subset_and_unchanged_column_bounds": true
+    },
+    {
+      "case": "ordinary_26092707",
+      "model": "locality48",
+      "exact_row_subset_and_unchanged_column_bounds": true
+    },
+    {
+      "case": "positive_control_26092800",
+      "model": "two_cc",
+      "exact_row_subset_and_unchanged_column_bounds": true
+    },
+    {
+      "case": "positive_control_26092800",
+      "model": "locality48",
+      "exact_row_subset_and_unchanged_column_bounds": true
+    },
+    {
+      "case": "positive_control_26092801",
+      "model": "two_cc",
+      "exact_row_subset_and_unchanged_column_bounds": true
+    },
+    {
+      "case": "positive_control_26092801",
+      "model": "locality48",
+      "exact_row_subset_and_unchanged_column_bounds": true
+    },
+    {
+      "case": "positive_control_26092802",
+      "model": "two_cc",
+      "exact_row_subset_and_unchanged_column_bounds": true
+    },
+    {
+      "case": "positive_control_26092802",
+      "model": "locality48",
+      "exact_row_subset_and_unchanged_column_bounds": true
+    },
+    {
+      "case": "positive_control_26092803",
+      "model": "two_cc",
+      "exact_row_subset_and_unchanged_column_bounds": true
+    },
+    {
+      "case": "positive_control_26092803",
+      "model": "locality48",
+      "exact_row_subset_and_unchanged_column_bounds": true
+    },
+    {
+      "case": "positive_control_26092804",
+      "model": "two_cc",
+      "exact_row_subset_and_unchanged_column_bounds": true
+    },
+    {
+      "case": "positive_control_26092804",
+      "model": "locality48",
+      "exact_row_subset_and_unchanged_column_bounds": true
+    },
+    {
+      "case": "positive_control_26092805",
+      "model": "two_cc",
+      "exact_row_subset_and_unchanged_column_bounds": true
+    },
+    {
+      "case": "positive_control_26092805",
+      "model": "locality48",
+      "exact_row_subset_and_unchanged_column_bounds": true
+    },
+    {
+      "case": "positive_control_26092806",
+      "model": "two_cc",
+      "exact_row_subset_and_unchanged_column_bounds": true
+    },
+    {
+      "case": "positive_control_26092806",
+      "model": "locality48",
+      "exact_row_subset_and_unchanged_column_bounds": true
+    },
+    {
+      "case": "positive_control_26092807",
+      "model": "two_cc",
+      "exact_row_subset_and_unchanged_column_bounds": true
+    },
+    {
+      "case": "positive_control_26092807",
+      "model": "locality48",
+      "exact_row_subset_and_unchanged_column_bounds": true
+    }
+  ],
+  "positive_control_contradictions": 0,
+  "restricted_negative_full_admission_contradictions": 0,
+  "restricted_negatives_with_other_full_statuses": [],
+  "replay_count": 48,
+  "scope": "solver-free exact certificate/continuous-witness replay plus model-row and hash audits"
+}

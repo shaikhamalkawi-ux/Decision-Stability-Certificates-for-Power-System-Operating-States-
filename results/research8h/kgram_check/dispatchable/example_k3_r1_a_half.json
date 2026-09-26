@@ -1,0 +1,176 @@
+{
+  "result": {
+    "k": 3,
+    "r": 1,
+    "horizon": 19,
+    "pmin": "1/2",
+    "pmax": 1,
+    "minimum_thermal_x": "5",
+    "minimum_thermal_y": "11/2",
+    "shared_cap": "21/4",
+    "integer_scaled_minima": [
+      10,
+      11
+    ],
+    "cost_scale": 2,
+    "exact_bound_separation": "1/4",
+    "exhaustive_schedules": 128,
+    "positive_dispatch_constraints_pass": true,
+    "negative_exact_algebra_pass": true
+  },
+  "x": "ZZZOFOFOZZZOFOFOZZZ",
+  "y": "ZZZOFOZZZOFOFOFOZZZ",
+  "x_status": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+  ],
+  "x_thermal_dispatch": [
+    "0",
+    "0",
+    "0",
+    "0",
+    "1",
+    "1/2",
+    "1",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "1",
+    "1/2",
+    "1",
+    "0",
+    "0",
+    "0",
+    "0"
+  ],
+  "x_renewable_dispatch": [
+    "0",
+    "0",
+    "0",
+    "1",
+    "0",
+    "1/2",
+    "0",
+    "1",
+    "0",
+    "0",
+    "0",
+    "1",
+    "0",
+    "1/2",
+    "0",
+    "1",
+    "0",
+    "0",
+    "0"
+  ],
+  "negative_lower_bound": {
+    "forced_F_hours": [
+      4,
+      10,
+      12,
+      14
+    ],
+    "selected_F_hours": [
+      4,
+      10,
+      14
+    ],
+    "disjoint_neighbor_O_pairs": [
+      [
+        3,
+        5
+      ],
+      [
+        9,
+        11
+      ],
+      [
+        13,
+        15
+      ]
+    ],
+    "forced_energy": 4,
+    "optional_energy_lower_bound": 3,
+    "energy_lower_bound": 7
+  },
+  "negative_exact_algebra": {
+    "local_cover_derivations": [
+      {
+        "forced_hour": 4,
+        "derived_coefficients": {
+          "u4": 1,
+          "u3": -1,
+          "u5": -1
+        },
+        "derived_rhs_after_uF_equals_one": -1
+      },
+      {
+        "forced_hour": 10,
+        "derived_coefficients": {
+          "u10": 1,
+          "u9": -1,
+          "u11": -1
+        },
+        "derived_rhs_after_uF_equals_one": -1
+      },
+      {
+        "forced_hour": 14,
+        "derived_coefficients": {
+          "u14": 1,
+          "u13": -1,
+          "u15": -1
+        },
+        "derived_rhs_after_uF_equals_one": -1
+      }
+    ],
+    "output_coupling": "1*u_O - 2*p_O <= 0",
+    "remaining_nonnegativity_variables": [
+      "p0",
+      "p1",
+      "p2",
+      "p6",
+      "p7",
+      "p8",
+      "p16",
+      "p17",
+      "p18"
+    ],
+    "all_coefficients_cancel_exactly": true,
+    "scaled_rhs_numerator": -1,
+    "scaled_rhs_denominator": 2,
+    "strict_contradiction": true,
+    "thermal_energy_lower_bound": "11/2",
+    "cap": "21/4",
+    "physical_energy_separation": "1/4",
+    "scope": "Exact rational lower-bound proof for the continuous startup/min-up relaxation with dispatchable pmin=a,pmax=1."
+  },
+  "shared_trigram_counts": {
+    "FOF": 2,
+    "FOZ": 2,
+    "OFO": 4,
+    "OZZ": 2,
+    "ZOF": 2,
+    "ZZO": 2,
+    "ZZZ": 3
+  }
+}

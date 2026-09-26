@@ -1,0 +1,25 @@
+{
+  "utc": "2026-09-26T19:46:48.562282+00:00",
+  "baseline": "7300129",
+  "protocol_sha256": "aef9bcab5a150085297e03a3c23ed41092e6e35e58e7520d7dace56293beb8b8",
+  "script_sha256": "7ba6f82a0c5d7dc0211129b35bdc7fbe6f8b98824bf340a90f774309260828e1",
+  "bound_source_sha256": {
+    "temporal_lp_certificate.py": "6191c5760811cab0ec22b2fb1376a5be3aa47cb548e1260c4a17e2563d9802e4",
+    "v8r1_rts_seasonal.py": "bca0127d7b2771c6da3b6a838c8caa7fb6ce0df4eafd9a512326aabd8daf7dc2"
+  },
+  "case": "seed_26092600",
+  "widths": [
+    0,
+    8,
+    16,
+    24,
+    48,
+    72,
+    96,
+    120,
+    168
+  ],
+  "seconds_per_LP": 30,
+  "phase_wall_budget_s": 900,
+  "selection": "fixed centered nested windows; no adaptive window or support selection"
+}

@@ -1,0 +1,1026 @@
+[
+  {
+    "k": 1,
+    "r": 1,
+    "horizon": 13,
+    "all_orders_1_through_k_equal": true,
+    "minimum_thermal_x": 6,
+    "minimum_thermal_y": 7,
+    "shared_cap_numerator": 13,
+    "shared_cap_denominator": 2,
+    "complete_candidate_schedules_enumerated": 0,
+    "minimum_up_one_control": [
+      4,
+      4
+    ],
+    "exact_continuous_relaxation_lower_bound_verified": true
+  },
+  {
+    "k": 2,
+    "r": 2,
+    "horizon": 24,
+    "all_orders_1_through_k_equal": true,
+    "minimum_thermal_x": 12,
+    "minimum_thermal_y": 13,
+    "shared_cap_numerator": 25,
+    "shared_cap_denominator": 2,
+    "complete_candidate_schedules_enumerated": 0,
+    "minimum_up_one_control": [
+      8,
+      8
+    ],
+    "exact_continuous_relaxation_lower_bound_verified": true
+  },
+  {
+    "k": 3,
+    "r": 3,
+    "horizon": 35,
+    "all_orders_1_through_k_equal": true,
+    "minimum_thermal_x": 18,
+    "minimum_thermal_y": 19,
+    "shared_cap_numerator": 37,
+    "shared_cap_denominator": 2,
+    "complete_candidate_schedules_enumerated": 0,
+    "minimum_up_one_control": [
+      12,
+      12
+    ],
+    "exact_continuous_relaxation_lower_bound_verified": true
+  },
+  {
+    "k": 4,
+    "r": 4,
+    "horizon": 46,
+    "all_orders_1_through_k_equal": true,
+    "minimum_thermal_x": 24,
+    "minimum_thermal_y": 25,
+    "shared_cap_numerator": 49,
+    "shared_cap_denominator": 2,
+    "complete_candidate_schedules_enumerated": 0,
+    "minimum_up_one_control": [
+      16,
+      16
+    ],
+    "exact_continuous_relaxation_lower_bound_verified": true
+  },
+  {
+    "k": 5,
+    "r": 5,
+    "horizon": 57,
+    "all_orders_1_through_k_equal": true,
+    "minimum_thermal_x": 30,
+    "minimum_thermal_y": 31,
+    "shared_cap_numerator": 61,
+    "shared_cap_denominator": 2,
+    "complete_candidate_schedules_enumerated": 0,
+    "minimum_up_one_control": [
+      20,
+      20
+    ],
+    "exact_continuous_relaxation_lower_bound_verified": true
+  },
+  {
+    "k": 6,
+    "r": 6,
+    "horizon": 68,
+    "all_orders_1_through_k_equal": true,
+    "minimum_thermal_x": 36,
+    "minimum_thermal_y": 37,
+    "shared_cap_numerator": 73,
+    "shared_cap_denominator": 2,
+    "complete_candidate_schedules_enumerated": 0,
+    "minimum_up_one_control": [
+      24,
+      24
+    ],
+    "exact_continuous_relaxation_lower_bound_verified": true
+  },
+  {
+    "k": 7,
+    "r": 7,
+    "horizon": 79,
+    "all_orders_1_through_k_equal": true,
+    "minimum_thermal_x": 42,
+    "minimum_thermal_y": 43,
+    "shared_cap_numerator": 85,
+    "shared_cap_denominator": 2,
+    "complete_candidate_schedules_enumerated": 0,
+    "minimum_up_one_control": [
+      28,
+      28
+    ],
+    "exact_continuous_relaxation_lower_bound_verified": true
+  },
+  {
+    "k": 8,
+    "r": 8,
+    "horizon": 90,
+    "all_orders_1_through_k_equal": true,
+    "minimum_thermal_x": 48,
+    "minimum_thermal_y": 49,
+    "shared_cap_numerator": 97,
+    "shared_cap_denominator": 2,
+    "complete_candidate_schedules_enumerated": 0,
+    "minimum_up_one_control": [
+      32,
+      32
+    ],
+    "exact_continuous_relaxation_lower_bound_verified": true
+  },
+  {
+    "k": 9,
+    "r": 9,
+    "horizon": 101,
+    "all_orders_1_through_k_equal": true,
+    "minimum_thermal_x": 54,
+    "minimum_thermal_y": 55,
+    "shared_cap_numerator": 109,
+    "shared_cap_denominator": 2,
+    "complete_candidate_schedules_enumerated": 0,
+    "minimum_up_one_control": [
+      36,
+      36
+    ],
+    "exact_continuous_relaxation_lower_bound_verified": true
+  },
+  {
+    "k": 10,
+    "r": 10,
+    "horizon": 112,
+    "all_orders_1_through_k_equal": true,
+    "minimum_thermal_x": 60,
+    "minimum_thermal_y": 61,
+    "shared_cap_numerator": 121,
+    "shared_cap_denominator": 2,
+    "complete_candidate_schedules_enumerated": 0,
+    "minimum_up_one_control": [
+      40,
+      40
+    ],
+    "exact_continuous_relaxation_lower_bound_verified": true
+  },
+  {
+    "k": 11,
+    "r": 11,
+    "horizon": 123,
+    "all_orders_1_through_k_equal": true,
+    "minimum_thermal_x": 66,
+    "minimum_thermal_y": 67,
+    "shared_cap_numerator": 133,
+    "shared_cap_denominator": 2,
+    "complete_candidate_schedules_enumerated": 0,
+    "minimum_up_one_control": [
+      44,
+      44
+    ],
+    "exact_continuous_relaxation_lower_bound_verified": true
+  },
+  {
+    "k": 12,
+    "r": 12,
+    "horizon": 134,
+    "all_orders_1_through_k_equal": true,
+    "minimum_thermal_x": 72,
+    "minimum_thermal_y": 73,
+    "shared_cap_numerator": 145,
+    "shared_cap_denominator": 2,
+    "complete_candidate_schedules_enumerated": 0,
+    "minimum_up_one_control": [
+      48,
+      48
+    ],
+    "exact_continuous_relaxation_lower_bound_verified": true
+  },
+  {
+    "k": 13,
+    "r": 13,
+    "horizon": 145,
+    "all_orders_1_through_k_equal": true,
+    "minimum_thermal_x": 78,
+    "minimum_thermal_y": 79,
+    "shared_cap_numerator": 157,
+    "shared_cap_denominator": 2,
+    "complete_candidate_schedules_enumerated": 0,
+    "minimum_up_one_control": [
+      52,
+      52
+    ],
+    "exact_continuous_relaxation_lower_bound_verified": true
+  },
+  {
+    "k": 14,
+    "r": 14,
+    "horizon": 156,
+    "all_orders_1_through_k_equal": true,
+    "minimum_thermal_x": 84,
+    "minimum_thermal_y": 85,
+    "shared_cap_numerator": 169,
+    "shared_cap_denominator": 2,
+    "complete_candidate_schedules_enumerated": 0,
+    "minimum_up_one_control": [
+      56,
+      56
+    ],
+    "exact_continuous_relaxation_lower_bound_verified": true
+  },
+  {
+    "k": 15,
+    "r": 15,
+    "horizon": 167,
+    "all_orders_1_through_k_equal": true,
+    "minimum_thermal_x": 90,
+    "minimum_thermal_y": 91,
+    "shared_cap_numerator": 181,
+    "shared_cap_denominator": 2,
+    "complete_candidate_schedules_enumerated": 0,
+    "minimum_up_one_control": [
+      60,
+      60
+    ],
+    "exact_continuous_relaxation_lower_bound_verified": true
+  },
+  {
+    "k": 16,
+    "r": 16,
+    "horizon": 178,
+    "all_orders_1_through_k_equal": true,
+    "minimum_thermal_x": 96,
+    "minimum_thermal_y": 97,
+    "shared_cap_numerator": 193,
+    "shared_cap_denominator": 2,
+    "complete_candidate_schedules_enumerated": 0,
+    "minimum_up_one_control": [
+      64,
+      64
+    ],
+    "exact_continuous_relaxation_lower_bound_verified": true
+  },
+  {
+    "k": 17,
+    "r": 17,
+    "horizon": 189,
+    "all_orders_1_through_k_equal": true,
+    "minimum_thermal_x": 102,
+    "minimum_thermal_y": 103,
+    "shared_cap_numerator": 205,
+    "shared_cap_denominator": 2,
+    "complete_candidate_schedules_enumerated": 0,
+    "minimum_up_one_control": [
+      68,
+      68
+    ],
+    "exact_continuous_relaxation_lower_bound_verified": true
+  },
+  {
+    "k": 18,
+    "r": 18,
+    "horizon": 200,
+    "all_orders_1_through_k_equal": true,
+    "minimum_thermal_x": 108,
+    "minimum_thermal_y": 109,
+    "shared_cap_numerator": 217,
+    "shared_cap_denominator": 2,
+    "complete_candidate_schedules_enumerated": 0,
+    "minimum_up_one_control": [
+      72,
+      72
+    ],
+    "exact_continuous_relaxation_lower_bound_verified": true
+  },
+  {
+    "k": 19,
+    "r": 19,
+    "horizon": 211,
+    "all_orders_1_through_k_equal": true,
+    "minimum_thermal_x": 114,
+    "minimum_thermal_y": 115,
+    "shared_cap_numerator": 229,
+    "shared_cap_denominator": 2,
+    "complete_candidate_schedules_enumerated": 0,
+    "minimum_up_one_control": [
+      76,
+      76
+    ],
+    "exact_continuous_relaxation_lower_bound_verified": true
+  },
+  {
+    "k": 20,
+    "r": 20,
+    "horizon": 222,
+    "all_orders_1_through_k_equal": true,
+    "minimum_thermal_x": 120,
+    "minimum_thermal_y": 121,
+    "shared_cap_numerator": 241,
+    "shared_cap_denominator": 2,
+    "complete_candidate_schedules_enumerated": 0,
+    "minimum_up_one_control": [
+      80,
+      80
+    ],
+    "exact_continuous_relaxation_lower_bound_verified": true
+  },
+  {
+    "k": 21,
+    "r": 21,
+    "horizon": 233,
+    "all_orders_1_through_k_equal": true,
+    "minimum_thermal_x": 126,
+    "minimum_thermal_y": 127,
+    "shared_cap_numerator": 253,
+    "shared_cap_denominator": 2,
+    "complete_candidate_schedules_enumerated": 0,
+    "minimum_up_one_control": [
+      84,
+      84
+    ],
+    "exact_continuous_relaxation_lower_bound_verified": true
+  },
+  {
+    "k": 22,
+    "r": 22,
+    "horizon": 244,
+    "all_orders_1_through_k_equal": true,
+    "minimum_thermal_x": 132,
+    "minimum_thermal_y": 133,
+    "shared_cap_numerator": 265,
+    "shared_cap_denominator": 2,
+    "complete_candidate_schedules_enumerated": 0,
+    "minimum_up_one_control": [
+      88,
+      88
+    ],
+    "exact_continuous_relaxation_lower_bound_verified": true
+  },
+  {
+    "k": 23,
+    "r": 23,
+    "horizon": 255,
+    "all_orders_1_through_k_equal": true,
+    "minimum_thermal_x": 138,
+    "minimum_thermal_y": 139,
+    "shared_cap_numerator": 277,
+    "shared_cap_denominator": 2,
+    "complete_candidate_schedules_enumerated": 0,
+    "minimum_up_one_control": [
+      92,
+      92
+    ],
+    "exact_continuous_relaxation_lower_bound_verified": true
+  },
+  {
+    "k": 24,
+    "r": 24,
+    "horizon": 266,
+    "all_orders_1_through_k_equal": true,
+    "minimum_thermal_x": 144,
+    "minimum_thermal_y": 145,
+    "shared_cap_numerator": 289,
+    "shared_cap_denominator": 2,
+    "complete_candidate_schedules_enumerated": 0,
+    "minimum_up_one_control": [
+      96,
+      96
+    ],
+    "exact_continuous_relaxation_lower_bound_verified": true
+  },
+  {
+    "k": 25,
+    "r": 25,
+    "horizon": 277,
+    "all_orders_1_through_k_equal": true,
+    "minimum_thermal_x": 150,
+    "minimum_thermal_y": 151,
+    "shared_cap_numerator": 301,
+    "shared_cap_denominator": 2,
+    "complete_candidate_schedules_enumerated": 0,
+    "minimum_up_one_control": [
+      100,
+      100
+    ],
+    "exact_continuous_relaxation_lower_bound_verified": true
+  },
+  {
+    "k": 26,
+    "r": 26,
+    "horizon": 288,
+    "all_orders_1_through_k_equal": true,
+    "minimum_thermal_x": 156,
+    "minimum_thermal_y": 157,
+    "shared_cap_numerator": 313,
+    "shared_cap_denominator": 2,
+    "complete_candidate_schedules_enumerated": 0,
+    "minimum_up_one_control": [
+      104,
+      104
+    ],
+    "exact_continuous_relaxation_lower_bound_verified": true
+  },
+  {
+    "k": 27,
+    "r": 27,
+    "horizon": 299,
+    "all_orders_1_through_k_equal": true,
+    "minimum_thermal_x": 162,
+    "minimum_thermal_y": 163,
+    "shared_cap_numerator": 325,
+    "shared_cap_denominator": 2,
+    "complete_candidate_schedules_enumerated": 0,
+    "minimum_up_one_control": [
+      108,
+      108
+    ],
+    "exact_continuous_relaxation_lower_bound_verified": true
+  },
+  {
+    "k": 28,
+    "r": 28,
+    "horizon": 310,
+    "all_orders_1_through_k_equal": true,
+    "minimum_thermal_x": 168,
+    "minimum_thermal_y": 169,
+    "shared_cap_numerator": 337,
+    "shared_cap_denominator": 2,
+    "complete_candidate_schedules_enumerated": 0,
+    "minimum_up_one_control": [
+      112,
+      112
+    ],
+    "exact_continuous_relaxation_lower_bound_verified": true
+  },
+  {
+    "k": 29,
+    "r": 29,
+    "horizon": 321,
+    "all_orders_1_through_k_equal": true,
+    "minimum_thermal_x": 174,
+    "minimum_thermal_y": 175,
+    "shared_cap_numerator": 349,
+    "shared_cap_denominator": 2,
+    "complete_candidate_schedules_enumerated": 0,
+    "minimum_up_one_control": [
+      116,
+      116
+    ],
+    "exact_continuous_relaxation_lower_bound_verified": true
+  },
+  {
+    "k": 30,
+    "r": 30,
+    "horizon": 332,
+    "all_orders_1_through_k_equal": true,
+    "minimum_thermal_x": 180,
+    "minimum_thermal_y": 181,
+    "shared_cap_numerator": 361,
+    "shared_cap_denominator": 2,
+    "complete_candidate_schedules_enumerated": 0,
+    "minimum_up_one_control": [
+      120,
+      120
+    ],
+    "exact_continuous_relaxation_lower_bound_verified": true
+  },
+  {
+    "k": 31,
+    "r": 31,
+    "horizon": 343,
+    "all_orders_1_through_k_equal": true,
+    "minimum_thermal_x": 186,
+    "minimum_thermal_y": 187,
+    "shared_cap_numerator": 373,
+    "shared_cap_denominator": 2,
+    "complete_candidate_schedules_enumerated": 0,
+    "minimum_up_one_control": [
+      124,
+      124
+    ],
+    "exact_continuous_relaxation_lower_bound_verified": true
+  },
+  {
+    "k": 32,
+    "r": 32,
+    "horizon": 354,
+    "all_orders_1_through_k_equal": true,
+    "minimum_thermal_x": 192,
+    "minimum_thermal_y": 193,
+    "shared_cap_numerator": 385,
+    "shared_cap_denominator": 2,
+    "complete_candidate_schedules_enumerated": 0,
+    "minimum_up_one_control": [
+      128,
+      128
+    ],
+    "exact_continuous_relaxation_lower_bound_verified": true
+  },
+  {
+    "k": 33,
+    "r": 33,
+    "horizon": 365,
+    "all_orders_1_through_k_equal": true,
+    "minimum_thermal_x": 198,
+    "minimum_thermal_y": 199,
+    "shared_cap_numerator": 397,
+    "shared_cap_denominator": 2,
+    "complete_candidate_schedules_enumerated": 0,
+    "minimum_up_one_control": [
+      132,
+      132
+    ],
+    "exact_continuous_relaxation_lower_bound_verified": true
+  },
+  {
+    "k": 34,
+    "r": 34,
+    "horizon": 376,
+    "all_orders_1_through_k_equal": true,
+    "minimum_thermal_x": 204,
+    "minimum_thermal_y": 205,
+    "shared_cap_numerator": 409,
+    "shared_cap_denominator": 2,
+    "complete_candidate_schedules_enumerated": 0,
+    "minimum_up_one_control": [
+      136,
+      136
+    ],
+    "exact_continuous_relaxation_lower_bound_verified": true
+  },
+  {
+    "k": 35,
+    "r": 35,
+    "horizon": 387,
+    "all_orders_1_through_k_equal": true,
+    "minimum_thermal_x": 210,
+    "minimum_thermal_y": 211,
+    "shared_cap_numerator": 421,
+    "shared_cap_denominator": 2,
+    "complete_candidate_schedules_enumerated": 0,
+    "minimum_up_one_control": [
+      140,
+      140
+    ],
+    "exact_continuous_relaxation_lower_bound_verified": true
+  },
+  {
+    "k": 36,
+    "r": 36,
+    "horizon": 398,
+    "all_orders_1_through_k_equal": true,
+    "minimum_thermal_x": 216,
+    "minimum_thermal_y": 217,
+    "shared_cap_numerator": 433,
+    "shared_cap_denominator": 2,
+    "complete_candidate_schedules_enumerated": 0,
+    "minimum_up_one_control": [
+      144,
+      144
+    ],
+    "exact_continuous_relaxation_lower_bound_verified": true
+  },
+  {
+    "k": 37,
+    "r": 37,
+    "horizon": 409,
+    "all_orders_1_through_k_equal": true,
+    "minimum_thermal_x": 222,
+    "minimum_thermal_y": 223,
+    "shared_cap_numerator": 445,
+    "shared_cap_denominator": 2,
+    "complete_candidate_schedules_enumerated": 0,
+    "minimum_up_one_control": [
+      148,
+      148
+    ],
+    "exact_continuous_relaxation_lower_bound_verified": true
+  },
+  {
+    "k": 38,
+    "r": 38,
+    "horizon": 420,
+    "all_orders_1_through_k_equal": true,
+    "minimum_thermal_x": 228,
+    "minimum_thermal_y": 229,
+    "shared_cap_numerator": 457,
+    "shared_cap_denominator": 2,
+    "complete_candidate_schedules_enumerated": 0,
+    "minimum_up_one_control": [
+      152,
+      152
+    ],
+    "exact_continuous_relaxation_lower_bound_verified": true
+  },
+  {
+    "k": 39,
+    "r": 39,
+    "horizon": 431,
+    "all_orders_1_through_k_equal": true,
+    "minimum_thermal_x": 234,
+    "minimum_thermal_y": 235,
+    "shared_cap_numerator": 469,
+    "shared_cap_denominator": 2,
+    "complete_candidate_schedules_enumerated": 0,
+    "minimum_up_one_control": [
+      156,
+      156
+    ],
+    "exact_continuous_relaxation_lower_bound_verified": true
+  },
+  {
+    "k": 40,
+    "r": 40,
+    "horizon": 442,
+    "all_orders_1_through_k_equal": true,
+    "minimum_thermal_x": 240,
+    "minimum_thermal_y": 241,
+    "shared_cap_numerator": 481,
+    "shared_cap_denominator": 2,
+    "complete_candidate_schedules_enumerated": 0,
+    "minimum_up_one_control": [
+      160,
+      160
+    ],
+    "exact_continuous_relaxation_lower_bound_verified": true
+  },
+  {
+    "k": 41,
+    "r": 41,
+    "horizon": 453,
+    "all_orders_1_through_k_equal": true,
+    "minimum_thermal_x": 246,
+    "minimum_thermal_y": 247,
+    "shared_cap_numerator": 493,
+    "shared_cap_denominator": 2,
+    "complete_candidate_schedules_enumerated": 0,
+    "minimum_up_one_control": [
+      164,
+      164
+    ],
+    "exact_continuous_relaxation_lower_bound_verified": true
+  },
+  {
+    "k": 42,
+    "r": 42,
+    "horizon": 464,
+    "all_orders_1_through_k_equal": true,
+    "minimum_thermal_x": 252,
+    "minimum_thermal_y": 253,
+    "shared_cap_numerator": 505,
+    "shared_cap_denominator": 2,
+    "complete_candidate_schedules_enumerated": 0,
+    "minimum_up_one_control": [
+      168,
+      168
+    ],
+    "exact_continuous_relaxation_lower_bound_verified": true
+  },
+  {
+    "k": 43,
+    "r": 43,
+    "horizon": 475,
+    "all_orders_1_through_k_equal": true,
+    "minimum_thermal_x": 258,
+    "minimum_thermal_y": 259,
+    "shared_cap_numerator": 517,
+    "shared_cap_denominator": 2,
+    "complete_candidate_schedules_enumerated": 0,
+    "minimum_up_one_control": [
+      172,
+      172
+    ],
+    "exact_continuous_relaxation_lower_bound_verified": true
+  },
+  {
+    "k": 44,
+    "r": 44,
+    "horizon": 486,
+    "all_orders_1_through_k_equal": true,
+    "minimum_thermal_x": 264,
+    "minimum_thermal_y": 265,
+    "shared_cap_numerator": 529,
+    "shared_cap_denominator": 2,
+    "complete_candidate_schedules_enumerated": 0,
+    "minimum_up_one_control": [
+      176,
+      176
+    ],
+    "exact_continuous_relaxation_lower_bound_verified": true
+  },
+  {
+    "k": 45,
+    "r": 45,
+    "horizon": 497,
+    "all_orders_1_through_k_equal": true,
+    "minimum_thermal_x": 270,
+    "minimum_thermal_y": 271,
+    "shared_cap_numerator": 541,
+    "shared_cap_denominator": 2,
+    "complete_candidate_schedules_enumerated": 0,
+    "minimum_up_one_control": [
+      180,
+      180
+    ],
+    "exact_continuous_relaxation_lower_bound_verified": true
+  },
+  {
+    "k": 46,
+    "r": 46,
+    "horizon": 508,
+    "all_orders_1_through_k_equal": true,
+    "minimum_thermal_x": 276,
+    "minimum_thermal_y": 277,
+    "shared_cap_numerator": 553,
+    "shared_cap_denominator": 2,
+    "complete_candidate_schedules_enumerated": 0,
+    "minimum_up_one_control": [
+      184,
+      184
+    ],
+    "exact_continuous_relaxation_lower_bound_verified": true
+  },
+  {
+    "k": 47,
+    "r": 47,
+    "horizon": 519,
+    "all_orders_1_through_k_equal": true,
+    "minimum_thermal_x": 282,
+    "minimum_thermal_y": 283,
+    "shared_cap_numerator": 565,
+    "shared_cap_denominator": 2,
+    "complete_candidate_schedules_enumerated": 0,
+    "minimum_up_one_control": [
+      188,
+      188
+    ],
+    "exact_continuous_relaxation_lower_bound_verified": true
+  },
+  {
+    "k": 48,
+    "r": 48,
+    "horizon": 530,
+    "all_orders_1_through_k_equal": true,
+    "minimum_thermal_x": 288,
+    "minimum_thermal_y": 289,
+    "shared_cap_numerator": 577,
+    "shared_cap_denominator": 2,
+    "complete_candidate_schedules_enumerated": 0,
+    "minimum_up_one_control": [
+      192,
+      192
+    ],
+    "exact_continuous_relaxation_lower_bound_verified": true
+  },
+  {
+    "k": 49,
+    "r": 49,
+    "horizon": 541,
+    "all_orders_1_through_k_equal": true,
+    "minimum_thermal_x": 294,
+    "minimum_thermal_y": 295,
+    "shared_cap_numerator": 589,
+    "shared_cap_denominator": 2,
+    "complete_candidate_schedules_enumerated": 0,
+    "minimum_up_one_control": [
+      196,
+      196
+    ],
+    "exact_continuous_relaxation_lower_bound_verified": true
+  },
+  {
+    "k": 50,
+    "r": 50,
+    "horizon": 552,
+    "all_orders_1_through_k_equal": true,
+    "minimum_thermal_x": 300,
+    "minimum_thermal_y": 301,
+    "shared_cap_numerator": 601,
+    "shared_cap_denominator": 2,
+    "complete_candidate_schedules_enumerated": 0,
+    "minimum_up_one_control": [
+      200,
+      200
+    ],
+    "exact_continuous_relaxation_lower_bound_verified": true
+  },
+  {
+    "k": 51,
+    "r": 51,
+    "horizon": 563,
+    "all_orders_1_through_k_equal": true,
+    "minimum_thermal_x": 306,
+    "minimum_thermal_y": 307,
+    "shared_cap_numerator": 613,
+    "shared_cap_denominator": 2,
+    "complete_candidate_schedules_enumerated": 0,
+    "minimum_up_one_control": [
+      204,
+      204
+    ],
+    "exact_continuous_relaxation_lower_bound_verified": true
+  },
+  {
+    "k": 52,
+    "r": 52,
+    "horizon": 574,
+    "all_orders_1_through_k_equal": true,
+    "minimum_thermal_x": 312,
+    "minimum_thermal_y": 313,
+    "shared_cap_numerator": 625,
+    "shared_cap_denominator": 2,
+    "complete_candidate_schedules_enumerated": 0,
+    "minimum_up_one_control": [
+      208,
+      208
+    ],
+    "exact_continuous_relaxation_lower_bound_verified": true
+  },
+  {
+    "k": 53,
+    "r": 53,
+    "horizon": 585,
+    "all_orders_1_through_k_equal": true,
+    "minimum_thermal_x": 318,
+    "minimum_thermal_y": 319,
+    "shared_cap_numerator": 637,
+    "shared_cap_denominator": 2,
+    "complete_candidate_schedules_enumerated": 0,
+    "minimum_up_one_control": [
+      212,
+      212
+    ],
+    "exact_continuous_relaxation_lower_bound_verified": true
+  },
+  {
+    "k": 54,
+    "r": 54,
+    "horizon": 596,
+    "all_orders_1_through_k_equal": true,
+    "minimum_thermal_x": 324,
+    "minimum_thermal_y": 325,
+    "shared_cap_numerator": 649,
+    "shared_cap_denominator": 2,
+    "complete_candidate_schedules_enumerated": 0,
+    "minimum_up_one_control": [
+      216,
+      216
+    ],
+    "exact_continuous_relaxation_lower_bound_verified": true
+  },
+  {
+    "k": 55,
+    "r": 55,
+    "horizon": 607,
+    "all_orders_1_through_k_equal": true,
+    "minimum_thermal_x": 330,
+    "minimum_thermal_y": 331,
+    "shared_cap_numerator": 661,
+    "shared_cap_denominator": 2,
+    "complete_candidate_schedules_enumerated": 0,
+    "minimum_up_one_control": [
+      220,
+      220
+    ],
+    "exact_continuous_relaxation_lower_bound_verified": true
+  },
+  {
+    "k": 56,
+    "r": 56,
+    "horizon": 618,
+    "all_orders_1_through_k_equal": true,
+    "minimum_thermal_x": 336,
+    "minimum_thermal_y": 337,
+    "shared_cap_numerator": 673,
+    "shared_cap_denominator": 2,
+    "complete_candidate_schedules_enumerated": 0,
+    "minimum_up_one_control": [
+      224,
+      224
+    ],
+    "exact_continuous_relaxation_lower_bound_verified": true
+  },
+  {
+    "k": 57,
+    "r": 57,
+    "horizon": 629,
+    "all_orders_1_through_k_equal": true,
+    "minimum_thermal_x": 342,
+    "minimum_thermal_y": 343,
+    "shared_cap_numerator": 685,
+    "shared_cap_denominator": 2,
+    "complete_candidate_schedules_enumerated": 0,
+    "minimum_up_one_control": [
+      228,
+      228
+    ],
+    "exact_continuous_relaxation_lower_bound_verified": true
+  },
+  {
+    "k": 58,
+    "r": 58,
+    "horizon": 640,
+    "all_orders_1_through_k_equal": true,
+    "minimum_thermal_x": 348,
+    "minimum_thermal_y": 349,
+    "shared_cap_numerator": 697,
+    "shared_cap_denominator": 2,
+    "complete_candidate_schedules_enumerated": 0,
+    "minimum_up_one_control": [
+      232,
+      232
+    ],
+    "exact_continuous_relaxation_lower_bound_verified": true
+  },
+  {
+    "k": 59,
+    "r": 59,
+    "horizon": 651,
+    "all_orders_1_through_k_equal": true,
+    "minimum_thermal_x": 354,
+    "minimum_thermal_y": 355,
+    "shared_cap_numerator": 709,
+    "shared_cap_denominator": 2,
+    "complete_candidate_schedules_enumerated": 0,
+    "minimum_up_one_control": [
+      236,
+      236
+    ],
+    "exact_continuous_relaxation_lower_bound_verified": true
+  },
+  {
+    "k": 60,
+    "r": 60,
+    "horizon": 662,
+    "all_orders_1_through_k_equal": true,
+    "minimum_thermal_x": 360,
+    "minimum_thermal_y": 361,
+    "shared_cap_numerator": 721,
+    "shared_cap_denominator": 2,
+    "complete_candidate_schedules_enumerated": 0,
+    "minimum_up_one_control": [
+      240,
+      240
+    ],
+    "exact_continuous_relaxation_lower_bound_verified": true
+  },
+  {
+    "k": 61,
+    "r": 61,
+    "horizon": 673,
+    "all_orders_1_through_k_equal": true,
+    "minimum_thermal_x": 366,
+    "minimum_thermal_y": 367,
+    "shared_cap_numerator": 733,
+    "shared_cap_denominator": 2,
+    "complete_candidate_schedules_enumerated": 0,
+    "minimum_up_one_control": [
+      244,
+      244
+    ],
+    "exact_continuous_relaxation_lower_bound_verified": true
+  },
+  {
+    "k": 62,
+    "r": 62,
+    "horizon": 684,
+    "all_orders_1_through_k_equal": true,
+    "minimum_thermal_x": 372,
+    "minimum_thermal_y": 373,
+    "shared_cap_numerator": 745,
+    "shared_cap_denominator": 2,
+    "complete_candidate_schedules_enumerated": 0,
+    "minimum_up_one_control": [
+      248,
+      248
+    ],
+    "exact_continuous_relaxation_lower_bound_verified": true
+  },
+  {
+    "k": 63,
+    "r": 63,
+    "horizon": 695,
+    "all_orders_1_through_k_equal": true,
+    "minimum_thermal_x": 378,
+    "minimum_thermal_y": 379,
+    "shared_cap_numerator": 757,
+    "shared_cap_denominator": 2,
+    "complete_candidate_schedules_enumerated": 0,
+    "minimum_up_one_control": [
+      252,
+      252
+    ],
+    "exact_continuous_relaxation_lower_bound_verified": true
+  },
+  {
+    "k": 64,
+    "r": 64,
+    "horizon": 706,
+    "all_orders_1_through_k_equal": true,
+    "minimum_thermal_x": 384,
+    "minimum_thermal_y": 385,
+    "shared_cap_numerator": 769,
+    "shared_cap_denominator": 2,
+    "complete_candidate_schedules_enumerated": 0,
+    "minimum_up_one_control": [
+      256,
+      256
+    ],
+    "exact_continuous_relaxation_lower_bound_verified": true
+  }
+]

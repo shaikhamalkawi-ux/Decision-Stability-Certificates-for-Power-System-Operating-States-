@@ -1,0 +1,11 @@
+{
+  "script_sha256": "ef4f865dd358f88875b7312b68b758f9c2016d56e4dfb13a066b654a120fae9c",
+  "generic_words_max_length": 8,
+  "block_formula_m_max": 40,
+  "block_exhaustive_m_max": 12,
+  "safe_family_k_max": 64,
+  "tighter_grid_k_max": 24,
+  "tighter_grid_r_max": 8,
+  "first_distinguishing_order_r_max": 16,
+  "status": "theorem candidate; independent computational and algebraic checks only, no novelty claim"
+}

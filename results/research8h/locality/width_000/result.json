@@ -1,0 +1,45 @@
+{
+  "model_status": "Optimal",
+  "solver_version": "1.12.0",
+  "elapsed_s": 1.2005269000073895,
+  "time_limit_s": 30,
+  "verdict": "ADMITTED_CONTINUOUS_RELAXATION",
+  "presolve": "off",
+  "solver": "simplex",
+  "continuous_witness_verification": {
+    "pass": true,
+    "tolerance": 1e-05,
+    "residuals": {
+      "column_lower": 0.0,
+      "column_upper": 6.963318810448982e-13,
+      "row_lower": 3.005879989359528e-10,
+      "row_upper": 9.094947017729282e-13
+    }
+  },
+  "fractional_state_coordinate_count": 588,
+  "case": "seed_26092600",
+  "width": 0,
+  "left_hour_0based": null,
+  "right_hour_0based": null,
+  "retained_dwell_rows": 0,
+  "rows": 16289,
+  "columns": 18984,
+  "matrix_sha256": "85165a75fd81b8574d9dad8858a65b7eed7304b1bd20498e4e762aaed6aa857c",
+  "bounds_sha256": "0a257da355ac452401f2220eccc62d02bd5bac172e815e2ed5e2117090554adb",
+  "global_transition_and_exclusivity_rows_retained": true,
+  "complete_weekly_means_retained": true,
+  "archive_replay": {
+    "type": "continuous_witness_only",
+    "verification": {
+      "pass": true,
+      "tolerance": 1e-05,
+      "residuals": {
+        "column_lower": 0.0,
+        "column_upper": 6.963318810448982e-13,
+        "row_lower": 3.005879989359528e-10,
+        "row_upper": 9.094947017729282e-13
+      }
+    },
+    "UC_verdict": "UNKNOWN"
+  }
+}

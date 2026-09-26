@@ -9,3 +9,8 @@ src/temporal*.py -text
 src/check_temporal_core.py -text
 src/plot_temporal_information.py -text
 src/verify_temporal_information.py -text
+
+# Preserve research-session protocol, source and evidence hashes on Windows.
+docs/research8h/** -text
+results/research8h/** -text
+src/research8h_*.py -text

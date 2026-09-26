@@ -1,0 +1,15 @@
+# Independent transfer design and generation review
+
+A separate read-only reviewer examined the protocol/code and reconstructed the generated sample without editing files or running optimization. No generation, indexing or model-mask defect was found.
+
+All 16 PCG64 orders were independently recreated from the published full 24-bit commitment witness, frozen seed list and prescribed class iteration. Every array-order hash, permutation CSV hash, case-array hash and moved-hour count matches `sample_freeze.json`. All 16 orders are distinct, with no duplicates against the identity and 16 development orders. Ordinary moved-hour counts are 72, 72, 71, 72, 71, 71, 72, 72. Positive-control counts are 55, 50, 52, 55, 56, 49, 50, 47.
+
+The interior contains 21 complete commitment-vector classes; 62 hours belong to nonsingleton classes and 10 cannot move under the positive-control rule. Every positive case preserves U pointwise. Its archived U/Y/Z blocks agree exactly with independent reconstruction. Independent decimal CSV parsing differs from the archived P coordinates by at most `5.69e-14 MW`, without an indexing discrepancy.
+
+The independently derived row counts are 24,305 for the full LP, 9,609 for the two-CC rule and 18,313 for the locality rule. Each retains 18,984 columns and the original column bounds. The two-CC filter removes only the four specified temporal families of the other units; it preserves their output coupling and all means. The locality mask uses complete direct variable support, not merely row endpoint labels.
+
+Positive generation is mathematically valid under the modeled conventions: complete packages move within equal U classes, so the U/Y/Z sequence and residence constraints are unchanged while P, availability and nodal demand move together. The native on/on ramp inequalities are redundant over each unit's whole output range; the smallest margin is 30 MW. The archived native witness checker also tests the ramps explicitly. Network verification reconstructs DC nodal balances and branch flows; this scope does not include unmodeled AC constraints.
+
+The reviewer confirms that every sample and positive witness/matrix check exists before the first transfer LP freeze. The new seeds test the transfer of fixed learned rules within the same repaired July week. Positive controls use a deliberately different constrained sampling mechanism; their success does not estimate population specificity.
+
+The suggested post-run structural audit was subsequently completed by the implementing agent, without optimization. It passed all 32 restricted/full model-row comparisons and unchanged-column-bound checks, all frozen sample/source hashes, and the cross-model contradiction guard. There were zero positive-control contradictions and zero restricted exact negatives paired with a verified full-LP continuous witness. Separate archive replay verified 24 exact robust certificates and 22 continuous vectors while retaining the two unresolved outcomes as such. This automated post-run audit is distinct from the reviewer's independent sample reconstruction.

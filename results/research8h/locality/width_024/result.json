@@ -1,0 +1,45 @@
+{
+  "model_status": "Optimal",
+  "solver_version": "1.12.0",
+  "elapsed_s": 1.1999750999966636,
+  "time_limit_s": 30,
+  "verdict": "ADMITTED_CONTINUOUS_RELAXATION",
+  "presolve": "off",
+  "solver": "simplex",
+  "continuous_witness_verification": {
+    "pass": true,
+    "tolerance": 1e-05,
+    "residuals": {
+      "column_lower": 9.130757598168724e-13,
+      "column_upper": 7.673861546209082e-13,
+      "row_lower": 1.8189894035458565e-12,
+      "row_upper": 5.552891479965183e-12
+    }
+  },
+  "fractional_state_coordinate_count": 602,
+  "case": "seed_26092600",
+  "width": 24,
+  "left_hour_0based": 72,
+  "right_hour_0based": 95,
+  "retained_dwell_rows": 918,
+  "rows": 17207,
+  "columns": 18984,
+  "matrix_sha256": "7e40f41e195136c636b558c6c0e5d258702b2b4eb17293099586b440e1feb040",
+  "bounds_sha256": "b224a6121a68f30ee480331bcfdd4b2eee41e26f4c4a8becbda478ea95401965",
+  "global_transition_and_exclusivity_rows_retained": true,
+  "complete_weekly_means_retained": true,
+  "archive_replay": {
+    "type": "continuous_witness_only",
+    "verification": {
+      "pass": true,
+      "tolerance": 1e-05,
+      "residuals": {
+        "column_lower": 9.130757598168724e-13,
+        "column_upper": 7.673861546209082e-13,
+        "row_lower": 1.8189894035458565e-12,
+        "row_upper": 5.552891479965183e-12
+      }
+    },
+    "UC_verdict": "UNKNOWN"
+  }
+}

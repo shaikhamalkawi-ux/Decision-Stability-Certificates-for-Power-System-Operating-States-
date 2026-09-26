@@ -1,0 +1,115 @@
+{
+  "case": "positive_control_26092802",
+  "kind": "positive_control",
+  "seed": 26092802,
+  "permutation_sha256": "5dc2e3c8bdba7e6708e8b7ed0c2ae92d6c455d188a4168ab56a9bb51495b5f63",
+  "permutation_file_sha256": "58bd59532d9b74a251fa3e26522872dbef60a2f3446da573fb214038cf4e3b7d",
+  "arrays_sha256": "9f6fa2e2d39d5d08bfb59ca200c9d694854eb397975c5904a874f68515aa4707",
+  "changed_hours": 52,
+  "duplicate_of_current_case": null,
+  "duplicate_of_development_case": null,
+  "commitment_sequence_unchanged": true,
+  "static": {
+    "pass": true,
+    "tolerance": 1e-05,
+    "residuals": {
+      "negative_dispatch_MW": 0.0,
+      "availability_MW": 0.0,
+      "balance_MW": 6.366462912410498e-12,
+      "mean_MW": 5.684341886080802e-14,
+      "hydro_fixed_MW": 0.0,
+      "binary": 0.0,
+      "status_lower": 0.0,
+      "status_upper": 0.0,
+      "commit_upper_MW": 0.0,
+      "commit_lower_MW": 0.0,
+      "commit_upper_rounded_MW": 0.0,
+      "commit_lower_rounded_MW": 0.0
+    }
+  },
+  "network": {
+    "balance_MW": 6.59383658785373e-12,
+    "nodal_balance_MW": 7.958078640513122e-12,
+    "branch_excess_MW": 2.842170943040401e-14,
+    "max_branch_loading": 1.0000000000000002,
+    "pass": true
+  },
+  "positive_matrix_checks_before_first_LP": {
+    "full": {
+      "pass": true,
+      "tolerance": 1e-05,
+      "residuals": {
+        "column_lower": 0.0,
+        "column_upper": 0.0,
+        "row_lower": 2.2737367544323206e-12,
+        "row_upper": 6.821210263296962e-12
+      }
+    },
+    "two_cc": {
+      "pass": true,
+      "tolerance": 1e-05,
+      "residuals": {
+        "column_lower": 0.0,
+        "column_upper": 0.0,
+        "row_lower": 2.2737367544323206e-12,
+        "row_upper": 6.821210263296962e-12
+      }
+    },
+    "locality48": {
+      "pass": true,
+      "tolerance": 1e-05,
+      "residuals": {
+        "column_lower": 0.0,
+        "column_upper": 0.0,
+        "row_lower": 2.2737367544323206e-12,
+        "row_upper": 6.821210263296962e-12
+      }
+    }
+  },
+  "chronology_seed_replay": {
+    "pass": true,
+    "tolerance": 1e-05,
+    "residuals": {
+      "negative_dispatch_MW": 0.0,
+      "availability_MW": 0.0,
+      "balance_MW": 6.366462912410498e-12,
+      "mean_MW": 5.684341886080802e-14,
+      "hydro_fixed_MW": 0.0,
+      "binary": 0.0,
+      "status_lower": 0.0,
+      "status_upper": 0.0,
+      "commit_upper_MW": 0.0,
+      "commit_lower_MW": 0.0,
+      "commit_upper_rounded_MW": 0.0,
+      "commit_lower_rounded_MW": 0.0,
+      "transition_lower": 0.0,
+      "transition_upper": 0.0,
+      "transition_binary": 0.0,
+      "transition_identity": 0.0,
+      "no_simultaneous_transition": 0.0,
+      "initial_transition": 0.0,
+      "residence_violations": 0
+    }
+  },
+  "on_on_ramp_seed_replay": {
+    "pass": true,
+    "tolerance": 1e-05,
+    "residuals": {
+      "negative_dispatch_MW": 0.0,
+      "availability_MW": 0.0,
+      "balance_MW": 6.366462912410498e-12,
+      "mean_MW": 5.684341886080802e-14,
+      "hydro_fixed_MW": 0.0,
+      "binary": 0.0,
+      "status_lower": 0.0,
+      "status_upper": 0.0,
+      "commit_upper_MW": 0.0,
+      "commit_lower_MW": 0.0,
+      "commit_upper_rounded_MW": 0.0,
+      "commit_lower_rounded_MW": 0.0,
+      "online_ramp_MW": 0.0
+    }
+  },
+  "full_package_inverse_restoration_sha256": "ca7488809f548b8bdcddb7756b132844b5bf1a125e450f8a2dbff235de032909",
+  "individual_mean_max_error_MW": 5.684341886080802e-14
+}

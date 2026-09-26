@@ -1,0 +1,42 @@
+{
+  "model_status": "Optimal",
+  "solver_version": "1.12.0",
+  "elapsed_s": 24.23439800000051,
+  "time_limit_s": 30,
+  "verdict": "ADMITTED_CONTINUOUS_RELAXATION",
+  "presolve": "off",
+  "solver": "simplex",
+  "continuous_witness_verification": {
+    "pass": true,
+    "tolerance": 1e-05,
+    "residuals": {
+      "column_lower": 0.0,
+      "column_upper": 4.654054919228656e-13,
+      "row_lower": 1.8189894035458565e-12,
+      "row_upper": 2.8053026568386485e-10
+    }
+  },
+  "fractional_state_coordinate_count": 579,
+  "case": "positive_control_26092802",
+  "kind": "positive_control",
+  "seed": 26092802,
+  "model": "locality48",
+  "rows": 18313,
+  "columns": 18984,
+  "matrix_sha256": "bf7905b7d669b83c36191900631c68a053204a85981099102b5d2a0a7f02957b",
+  "bounds_sha256": "766870e9d09dbfc8a732b1f6e51038ca01de0feda4cb96d85572e0bbad6a91aa",
+  "archive_replay": {
+    "type": "continuous_witness",
+    "check": {
+      "pass": true,
+      "tolerance": 1e-05,
+      "residuals": {
+        "column_lower": 0.0,
+        "column_upper": 4.654054919228656e-13,
+        "row_lower": 1.8189894035458565e-12,
+        "row_upper": 2.8053026568386485e-10
+      }
+    },
+    "inferred_UC_status": "UNKNOWN"
+  }
+}

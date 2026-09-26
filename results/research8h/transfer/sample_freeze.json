@@ -1,0 +1,1631 @@
+{
+  "frozen_before_first_transfer_LP_utc": "2026-09-26T19:57:05.605902+00:00",
+  "protocol_sha256": "4284f5ee16ae0ac5a2cbad0db7bfecaf3062c5453aec866d4bb173866b6a4d32",
+  "script_sha256": "393aeae51af8020c89f6b012b2137fc4c84c44d5d106e6b911fa07e79861cba2",
+  "cases": [
+    {
+      "case": "ordinary_26092700",
+      "kind": "ordinary",
+      "seed": 26092700,
+      "permutation_sha256": "93ece0330651cf2d7b5e05c65b5a98ad78fc3abb4119b3ce816768c4c1b1daa0",
+      "permutation_file_sha256": "39efa38650cad0b4e313d0e9d8b40f1e6a2c4134f08360b53d6c239f2f77ad38",
+      "arrays_sha256": "27eac3b2cb5692fce183d979bf9799f7acc2f9a5fa10d8aae6ad6a2fc9864290",
+      "changed_hours": 72,
+      "duplicate_of_current_case": null,
+      "duplicate_of_development_case": null,
+      "commitment_sequence_unchanged": false,
+      "static": {
+        "pass": true,
+        "tolerance": 1e-05,
+        "residuals": {
+          "negative_dispatch_MW": 0.0,
+          "availability_MW": 0.0,
+          "balance_MW": 6.366462912410498e-12,
+          "mean_MW": 5.684341886080802e-14,
+          "hydro_fixed_MW": 0.0,
+          "binary": 0.0,
+          "status_lower": 0.0,
+          "status_upper": 0.0,
+          "commit_upper_MW": 0.0,
+          "commit_lower_MW": 0.0,
+          "commit_upper_rounded_MW": 0.0,
+          "commit_lower_rounded_MW": 0.0
+        }
+      },
+      "network": {
+        "balance_MW": 6.59383658785373e-12,
+        "nodal_balance_MW": 7.958078640513122e-12,
+        "branch_excess_MW": 2.842170943040401e-14,
+        "max_branch_loading": 1.0000000000000002,
+        "pass": true
+      },
+      "positive_matrix_checks_before_first_LP": {},
+      "chronology_seed_replay": {
+        "pass": false,
+        "tolerance": 1e-05,
+        "residuals": {
+          "negative_dispatch_MW": 0.0,
+          "availability_MW": 0.0,
+          "balance_MW": 6.366462912410498e-12,
+          "mean_MW": 5.684341886080802e-14,
+          "hydro_fixed_MW": 0.0,
+          "binary": 0.0,
+          "status_lower": 0.0,
+          "status_upper": 0.0,
+          "commit_upper_MW": 0.0,
+          "commit_lower_MW": 0.0,
+          "commit_upper_rounded_MW": 0.0,
+          "commit_lower_rounded_MW": 0.0,
+          "transition_lower": 0.0,
+          "transition_upper": 0.0,
+          "transition_binary": 0.0,
+          "transition_identity": 0.0,
+          "no_simultaneous_transition": 0.0,
+          "initial_transition": 0.0,
+          "residence_violations": 171
+        }
+      },
+      "on_on_ramp_seed_replay": {
+        "pass": true,
+        "tolerance": 1e-05,
+        "residuals": {
+          "negative_dispatch_MW": 0.0,
+          "availability_MW": 0.0,
+          "balance_MW": 6.366462912410498e-12,
+          "mean_MW": 5.684341886080802e-14,
+          "hydro_fixed_MW": 0.0,
+          "binary": 0.0,
+          "status_lower": 0.0,
+          "status_upper": 0.0,
+          "commit_upper_MW": 0.0,
+          "commit_lower_MW": 0.0,
+          "commit_upper_rounded_MW": 0.0,
+          "commit_lower_rounded_MW": 0.0,
+          "online_ramp_MW": 0.0
+        }
+      },
+      "full_package_inverse_restoration_sha256": "ca7488809f548b8bdcddb7756b132844b5bf1a125e450f8a2dbff235de032909",
+      "individual_mean_max_error_MW": 5.684341886080802e-14
+    },
+    {
+      "case": "ordinary_26092701",
+      "kind": "ordinary",
+      "seed": 26092701,
+      "permutation_sha256": "9e2ac2de0494229d09c145bbb6fc85aa19f6b1bdff5367130770b27410c7fda5",
+      "permutation_file_sha256": "46e5b964fb1c72147432f7c08ce2d3cc25d9aa590cb5adb24d941c4c42796227",
+      "arrays_sha256": "a4cae91f90ebd7f226c927d3062adc076983b15732edcdae04af94e23acc36e0",
+      "changed_hours": 72,
+      "duplicate_of_current_case": null,
+      "duplicate_of_development_case": null,
+      "commitment_sequence_unchanged": false,
+      "static": {
+        "pass": true,
+        "tolerance": 1e-05,
+        "residuals": {
+          "negative_dispatch_MW": 0.0,
+          "availability_MW": 0.0,
+          "balance_MW": 6.366462912410498e-12,
+          "mean_MW": 5.684341886080802e-14,
+          "hydro_fixed_MW": 0.0,
+          "binary": 0.0,
+          "status_lower": 0.0,
+          "status_upper": 0.0,
+          "commit_upper_MW": 0.0,
+          "commit_lower_MW": 0.0,
+          "commit_upper_rounded_MW": 0.0,
+          "commit_lower_rounded_MW": 0.0
+        }
+      },
+      "network": {
+        "balance_MW": 6.59383658785373e-12,
+        "nodal_balance_MW": 7.958078640513122e-12,
+        "branch_excess_MW": 2.842170943040401e-14,
+        "max_branch_loading": 1.0000000000000002,
+        "pass": true
+      },
+      "positive_matrix_checks_before_first_LP": {},
+      "chronology_seed_replay": {
+        "pass": false,
+        "tolerance": 1e-05,
+        "residuals": {
+          "negative_dispatch_MW": 0.0,
+          "availability_MW": 0.0,
+          "balance_MW": 6.366462912410498e-12,
+          "mean_MW": 5.684341886080802e-14,
+          "hydro_fixed_MW": 0.0,
+          "binary": 0.0,
+          "status_lower": 0.0,
+          "status_upper": 0.0,
+          "commit_upper_MW": 0.0,
+          "commit_lower_MW": 0.0,
+          "commit_upper_rounded_MW": 0.0,
+          "commit_lower_rounded_MW": 0.0,
+          "transition_lower": 0.0,
+          "transition_upper": 0.0,
+          "transition_binary": 0.0,
+          "transition_identity": 0.0,
+          "no_simultaneous_transition": 0.0,
+          "initial_transition": 0.0,
+          "residence_violations": 142
+        }
+      },
+      "on_on_ramp_seed_replay": {
+        "pass": true,
+        "tolerance": 1e-05,
+        "residuals": {
+          "negative_dispatch_MW": 0.0,
+          "availability_MW": 0.0,
+          "balance_MW": 6.366462912410498e-12,
+          "mean_MW": 5.684341886080802e-14,
+          "hydro_fixed_MW": 0.0,
+          "binary": 0.0,
+          "status_lower": 0.0,
+          "status_upper": 0.0,
+          "commit_upper_MW": 0.0,
+          "commit_lower_MW": 0.0,
+          "commit_upper_rounded_MW": 0.0,
+          "commit_lower_rounded_MW": 0.0,
+          "online_ramp_MW": 0.0
+        }
+      },
+      "full_package_inverse_restoration_sha256": "ca7488809f548b8bdcddb7756b132844b5bf1a125e450f8a2dbff235de032909",
+      "individual_mean_max_error_MW": 5.684341886080802e-14
+    },
+    {
+      "case": "ordinary_26092702",
+      "kind": "ordinary",
+      "seed": 26092702,
+      "permutation_sha256": "dd9d27dcbcd50b7d28d40d1a48c56c91b0e1110719e72dc029adbf7cf873db53",
+      "permutation_file_sha256": "08aee82e3e012e131721d294ec93c2cb294f12732cf776612fcc4d377342cd63",
+      "arrays_sha256": "7a07b700c6eb594522252a4609318647a9e7782a9de387892ba525260a5a019a",
+      "changed_hours": 71,
+      "duplicate_of_current_case": null,
+      "duplicate_of_development_case": null,
+      "commitment_sequence_unchanged": false,
+      "static": {
+        "pass": true,
+        "tolerance": 1e-05,
+        "residuals": {
+          "negative_dispatch_MW": 0.0,
+          "availability_MW": 0.0,
+          "balance_MW": 6.366462912410498e-12,
+          "mean_MW": 5.684341886080802e-14,
+          "hydro_fixed_MW": 0.0,
+          "binary": 0.0,
+          "status_lower": 0.0,
+          "status_upper": 0.0,
+          "commit_upper_MW": 0.0,
+          "commit_lower_MW": 0.0,
+          "commit_upper_rounded_MW": 0.0,
+          "commit_lower_rounded_MW": 0.0
+        }
+      },
+      "network": {
+        "balance_MW": 6.59383658785373e-12,
+        "nodal_balance_MW": 7.958078640513122e-12,
+        "branch_excess_MW": 2.842170943040401e-14,
+        "max_branch_loading": 1.0000000000000002,
+        "pass": true
+      },
+      "positive_matrix_checks_before_first_LP": {},
+      "chronology_seed_replay": {
+        "pass": false,
+        "tolerance": 1e-05,
+        "residuals": {
+          "negative_dispatch_MW": 0.0,
+          "availability_MW": 0.0,
+          "balance_MW": 6.366462912410498e-12,
+          "mean_MW": 5.684341886080802e-14,
+          "hydro_fixed_MW": 0.0,
+          "binary": 0.0,
+          "status_lower": 0.0,
+          "status_upper": 0.0,
+          "commit_upper_MW": 0.0,
+          "commit_lower_MW": 0.0,
+          "commit_upper_rounded_MW": 0.0,
+          "commit_lower_rounded_MW": 0.0,
+          "transition_lower": 0.0,
+          "transition_upper": 0.0,
+          "transition_binary": 0.0,
+          "transition_identity": 0.0,
+          "no_simultaneous_transition": 0.0,
+          "initial_transition": 0.0,
+          "residence_violations": 145
+        }
+      },
+      "on_on_ramp_seed_replay": {
+        "pass": true,
+        "tolerance": 1e-05,
+        "residuals": {
+          "negative_dispatch_MW": 0.0,
+          "availability_MW": 0.0,
+          "balance_MW": 6.366462912410498e-12,
+          "mean_MW": 5.684341886080802e-14,
+          "hydro_fixed_MW": 0.0,
+          "binary": 0.0,
+          "status_lower": 0.0,
+          "status_upper": 0.0,
+          "commit_upper_MW": 0.0,
+          "commit_lower_MW": 0.0,
+          "commit_upper_rounded_MW": 0.0,
+          "commit_lower_rounded_MW": 0.0,
+          "online_ramp_MW": 0.0
+        }
+      },
+      "full_package_inverse_restoration_sha256": "ca7488809f548b8bdcddb7756b132844b5bf1a125e450f8a2dbff235de032909",
+      "individual_mean_max_error_MW": 5.684341886080802e-14
+    },
+    {
+      "case": "ordinary_26092703",
+      "kind": "ordinary",
+      "seed": 26092703,
+      "permutation_sha256": "d96dcc3fde74c02f9557aadf88d51253669b751597f3f8c852ff15fcaa08186e",
+      "permutation_file_sha256": "729ed26f30a4690b48afb9d74491d9844a4b748cdea06d2018b6e9f9fce87d60",
+      "arrays_sha256": "9e67a90f98022596b50642fba504f7d6fa3170948b8294f4fe6ea62582c963bb",
+      "changed_hours": 72,
+      "duplicate_of_current_case": null,
+      "duplicate_of_development_case": null,
+      "commitment_sequence_unchanged": false,
+      "static": {
+        "pass": true,
+        "tolerance": 1e-05,
+        "residuals": {
+          "negative_dispatch_MW": 0.0,
+          "availability_MW": 0.0,
+          "balance_MW": 6.366462912410498e-12,
+          "mean_MW": 5.684341886080802e-14,
+          "hydro_fixed_MW": 0.0,
+          "binary": 0.0,
+          "status_lower": 0.0,
+          "status_upper": 0.0,
+          "commit_upper_MW": 0.0,
+          "commit_lower_MW": 0.0,
+          "commit_upper_rounded_MW": 0.0,
+          "commit_lower_rounded_MW": 0.0
+        }
+      },
+      "network": {
+        "balance_MW": 6.59383658785373e-12,
+        "nodal_balance_MW": 7.958078640513122e-12,
+        "branch_excess_MW": 2.842170943040401e-14,
+        "max_branch_loading": 1.0000000000000002,
+        "pass": true
+      },
+      "positive_matrix_checks_before_first_LP": {},
+      "chronology_seed_replay": {
+        "pass": false,
+        "tolerance": 1e-05,
+        "residuals": {
+          "negative_dispatch_MW": 0.0,
+          "availability_MW": 0.0,
+          "balance_MW": 6.366462912410498e-12,
+          "mean_MW": 5.684341886080802e-14,
+          "hydro_fixed_MW": 0.0,
+          "binary": 0.0,
+          "status_lower": 0.0,
+          "status_upper": 0.0,
+          "commit_upper_MW": 0.0,
+          "commit_lower_MW": 0.0,
+          "commit_upper_rounded_MW": 0.0,
+          "commit_lower_rounded_MW": 0.0,
+          "transition_lower": 0.0,
+          "transition_upper": 0.0,
+          "transition_binary": 0.0,
+          "transition_identity": 0.0,
+          "no_simultaneous_transition": 0.0,
+          "initial_transition": 0.0,
+          "residence_violations": 110
+        }
+      },
+      "on_on_ramp_seed_replay": {
+        "pass": true,
+        "tolerance": 1e-05,
+        "residuals": {
+          "negative_dispatch_MW": 0.0,
+          "availability_MW": 0.0,
+          "balance_MW": 6.366462912410498e-12,
+          "mean_MW": 5.684341886080802e-14,
+          "hydro_fixed_MW": 0.0,
+          "binary": 0.0,
+          "status_lower": 0.0,
+          "status_upper": 0.0,
+          "commit_upper_MW": 0.0,
+          "commit_lower_MW": 0.0,
+          "commit_upper_rounded_MW": 0.0,
+          "commit_lower_rounded_MW": 0.0,
+          "online_ramp_MW": 0.0
+        }
+      },
+      "full_package_inverse_restoration_sha256": "ca7488809f548b8bdcddb7756b132844b5bf1a125e450f8a2dbff235de032909",
+      "individual_mean_max_error_MW": 5.684341886080802e-14
+    },
+    {
+      "case": "ordinary_26092704",
+      "kind": "ordinary",
+      "seed": 26092704,
+      "permutation_sha256": "75fd7f5711201d09e6f1bd0f51bd6dc1ba710bf2cac96b7c81d0c734ffa49ff1",
+      "permutation_file_sha256": "d2481e480a4e8a8b96d1d2bb5e5d3bb64208985c820470b561e7c2faee1410e9",
+      "arrays_sha256": "1493c0abaf7973d8c5768d7595b6f8f7a2fe4b25be1c9ae3121e088f132eb3a0",
+      "changed_hours": 71,
+      "duplicate_of_current_case": null,
+      "duplicate_of_development_case": null,
+      "commitment_sequence_unchanged": false,
+      "static": {
+        "pass": true,
+        "tolerance": 1e-05,
+        "residuals": {
+          "negative_dispatch_MW": 0.0,
+          "availability_MW": 0.0,
+          "balance_MW": 6.366462912410498e-12,
+          "mean_MW": 5.684341886080802e-14,
+          "hydro_fixed_MW": 0.0,
+          "binary": 0.0,
+          "status_lower": 0.0,
+          "status_upper": 0.0,
+          "commit_upper_MW": 0.0,
+          "commit_lower_MW": 0.0,
+          "commit_upper_rounded_MW": 0.0,
+          "commit_lower_rounded_MW": 0.0
+        }
+      },
+      "network": {
+        "balance_MW": 6.59383658785373e-12,
+        "nodal_balance_MW": 7.958078640513122e-12,
+        "branch_excess_MW": 2.842170943040401e-14,
+        "max_branch_loading": 1.0000000000000002,
+        "pass": true
+      },
+      "positive_matrix_checks_before_first_LP": {},
+      "chronology_seed_replay": {
+        "pass": false,
+        "tolerance": 1e-05,
+        "residuals": {
+          "negative_dispatch_MW": 0.0,
+          "availability_MW": 0.0,
+          "balance_MW": 6.366462912410498e-12,
+          "mean_MW": 5.684341886080802e-14,
+          "hydro_fixed_MW": 0.0,
+          "binary": 0.0,
+          "status_lower": 0.0,
+          "status_upper": 0.0,
+          "commit_upper_MW": 0.0,
+          "commit_lower_MW": 0.0,
+          "commit_upper_rounded_MW": 0.0,
+          "commit_lower_rounded_MW": 0.0,
+          "transition_lower": 0.0,
+          "transition_upper": 0.0,
+          "transition_binary": 0.0,
+          "transition_identity": 0.0,
+          "no_simultaneous_transition": 0.0,
+          "initial_transition": 0.0,
+          "residence_violations": 144
+        }
+      },
+      "on_on_ramp_seed_replay": {
+        "pass": true,
+        "tolerance": 1e-05,
+        "residuals": {
+          "negative_dispatch_MW": 0.0,
+          "availability_MW": 0.0,
+          "balance_MW": 6.366462912410498e-12,
+          "mean_MW": 5.684341886080802e-14,
+          "hydro_fixed_MW": 0.0,
+          "binary": 0.0,
+          "status_lower": 0.0,
+          "status_upper": 0.0,
+          "commit_upper_MW": 0.0,
+          "commit_lower_MW": 0.0,
+          "commit_upper_rounded_MW": 0.0,
+          "commit_lower_rounded_MW": 0.0,
+          "online_ramp_MW": 0.0
+        }
+      },
+      "full_package_inverse_restoration_sha256": "ca7488809f548b8bdcddb7756b132844b5bf1a125e450f8a2dbff235de032909",
+      "individual_mean_max_error_MW": 5.684341886080802e-14
+    },
+    {
+      "case": "ordinary_26092705",
+      "kind": "ordinary",
+      "seed": 26092705,
+      "permutation_sha256": "b0c6a243714c5141e1e605658a016d03b39710885422a5e0e1f27421ced473f2",
+      "permutation_file_sha256": "c6f93fb354dc6c3cb342b6d15685d2e6b2c973a767efd21a2f066662f9d4950c",
+      "arrays_sha256": "e185f713f6eb930787e4512eefb6db069d3b95541918c7727fa58d565b8d452d",
+      "changed_hours": 71,
+      "duplicate_of_current_case": null,
+      "duplicate_of_development_case": null,
+      "commitment_sequence_unchanged": false,
+      "static": {
+        "pass": true,
+        "tolerance": 1e-05,
+        "residuals": {
+          "negative_dispatch_MW": 0.0,
+          "availability_MW": 0.0,
+          "balance_MW": 6.366462912410498e-12,
+          "mean_MW": 5.684341886080802e-14,
+          "hydro_fixed_MW": 0.0,
+          "binary": 0.0,
+          "status_lower": 0.0,
+          "status_upper": 0.0,
+          "commit_upper_MW": 0.0,
+          "commit_lower_MW": 0.0,
+          "commit_upper_rounded_MW": 0.0,
+          "commit_lower_rounded_MW": 0.0
+        }
+      },
+      "network": {
+        "balance_MW": 6.59383658785373e-12,
+        "nodal_balance_MW": 7.958078640513122e-12,
+        "branch_excess_MW": 2.842170943040401e-14,
+        "max_branch_loading": 1.0000000000000002,
+        "pass": true
+      },
+      "positive_matrix_checks_before_first_LP": {},
+      "chronology_seed_replay": {
+        "pass": false,
+        "tolerance": 1e-05,
+        "residuals": {
+          "negative_dispatch_MW": 0.0,
+          "availability_MW": 0.0,
+          "balance_MW": 6.366462912410498e-12,
+          "mean_MW": 5.684341886080802e-14,
+          "hydro_fixed_MW": 0.0,
+          "binary": 0.0,
+          "status_lower": 0.0,
+          "status_upper": 0.0,
+          "commit_upper_MW": 0.0,
+          "commit_lower_MW": 0.0,
+          "commit_upper_rounded_MW": 0.0,
+          "commit_lower_rounded_MW": 0.0,
+          "transition_lower": 0.0,
+          "transition_upper": 0.0,
+          "transition_binary": 0.0,
+          "transition_identity": 0.0,
+          "no_simultaneous_transition": 0.0,
+          "initial_transition": 0.0,
+          "residence_violations": 147
+        }
+      },
+      "on_on_ramp_seed_replay": {
+        "pass": true,
+        "tolerance": 1e-05,
+        "residuals": {
+          "negative_dispatch_MW": 0.0,
+          "availability_MW": 0.0,
+          "balance_MW": 6.366462912410498e-12,
+          "mean_MW": 5.684341886080802e-14,
+          "hydro_fixed_MW": 0.0,
+          "binary": 0.0,
+          "status_lower": 0.0,
+          "status_upper": 0.0,
+          "commit_upper_MW": 0.0,
+          "commit_lower_MW": 0.0,
+          "commit_upper_rounded_MW": 0.0,
+          "commit_lower_rounded_MW": 0.0,
+          "online_ramp_MW": 0.0
+        }
+      },
+      "full_package_inverse_restoration_sha256": "ca7488809f548b8bdcddb7756b132844b5bf1a125e450f8a2dbff235de032909",
+      "individual_mean_max_error_MW": 5.684341886080802e-14
+    },
+    {
+      "case": "ordinary_26092706",
+      "kind": "ordinary",
+      "seed": 26092706,
+      "permutation_sha256": "70d9b83010fa0def0df0382b822106edc11100a86af87ae9e3828c4c03985fc6",
+      "permutation_file_sha256": "83b3e143a3200fc0d2b1533c3705294665b973013345c502011bd311f92c1973",
+      "arrays_sha256": "88d8337dbe8381e788fb8cc98e8fbe674396e522ebb7cde2783c2467e2de76a3",
+      "changed_hours": 72,
+      "duplicate_of_current_case": null,
+      "duplicate_of_development_case": null,
+      "commitment_sequence_unchanged": false,
+      "static": {
+        "pass": true,
+        "tolerance": 1e-05,
+        "residuals": {
+          "negative_dispatch_MW": 0.0,
+          "availability_MW": 0.0,
+          "balance_MW": 6.366462912410498e-12,
+          "mean_MW": 5.684341886080802e-14,
+          "hydro_fixed_MW": 0.0,
+          "binary": 0.0,
+          "status_lower": 0.0,
+          "status_upper": 0.0,
+          "commit_upper_MW": 0.0,
+          "commit_lower_MW": 0.0,
+          "commit_upper_rounded_MW": 0.0,
+          "commit_lower_rounded_MW": 0.0
+        }
+      },
+      "network": {
+        "balance_MW": 6.59383658785373e-12,
+        "nodal_balance_MW": 7.958078640513122e-12,
+        "branch_excess_MW": 2.842170943040401e-14,
+        "max_branch_loading": 1.0000000000000002,
+        "pass": true
+      },
+      "positive_matrix_checks_before_first_LP": {},
+      "chronology_seed_replay": {
+        "pass": false,
+        "tolerance": 1e-05,
+        "residuals": {
+          "negative_dispatch_MW": 0.0,
+          "availability_MW": 0.0,
+          "balance_MW": 6.366462912410498e-12,
+          "mean_MW": 5.684341886080802e-14,
+          "hydro_fixed_MW": 0.0,
+          "binary": 0.0,
+          "status_lower": 0.0,
+          "status_upper": 0.0,
+          "commit_upper_MW": 0.0,
+          "commit_lower_MW": 0.0,
+          "commit_upper_rounded_MW": 0.0,
+          "commit_lower_rounded_MW": 0.0,
+          "transition_lower": 0.0,
+          "transition_upper": 0.0,
+          "transition_binary": 0.0,
+          "transition_identity": 0.0,
+          "no_simultaneous_transition": 0.0,
+          "initial_transition": 0.0,
+          "residence_violations": 152
+        }
+      },
+      "on_on_ramp_seed_replay": {
+        "pass": true,
+        "tolerance": 1e-05,
+        "residuals": {
+          "negative_dispatch_MW": 0.0,
+          "availability_MW": 0.0,
+          "balance_MW": 6.366462912410498e-12,
+          "mean_MW": 5.684341886080802e-14,
+          "hydro_fixed_MW": 0.0,
+          "binary": 0.0,
+          "status_lower": 0.0,
+          "status_upper": 0.0,
+          "commit_upper_MW": 0.0,
+          "commit_lower_MW": 0.0,
+          "commit_upper_rounded_MW": 0.0,
+          "commit_lower_rounded_MW": 0.0,
+          "online_ramp_MW": 0.0
+        }
+      },
+      "full_package_inverse_restoration_sha256": "ca7488809f548b8bdcddb7756b132844b5bf1a125e450f8a2dbff235de032909",
+      "individual_mean_max_error_MW": 5.684341886080802e-14
+    },
+    {
+      "case": "ordinary_26092707",
+      "kind": "ordinary",
+      "seed": 26092707,
+      "permutation_sha256": "2b5c420220294e27290e4b55e815ae3c5fe3515047f98208ef5e62c2b2475213",
+      "permutation_file_sha256": "09eb71d2a55b2426443ba55a4f3db6050e0ccd1c8ec053623387374a5b91c1d0",
+      "arrays_sha256": "71588b024240ce2972353ab20ce7a48e7d7e59faa93a7fc964f39ba4b60aa748",
+      "changed_hours": 72,
+      "duplicate_of_current_case": null,
+      "duplicate_of_development_case": null,
+      "commitment_sequence_unchanged": false,
+      "static": {
+        "pass": true,
+        "tolerance": 1e-05,
+        "residuals": {
+          "negative_dispatch_MW": 0.0,
+          "availability_MW": 0.0,
+          "balance_MW": 6.366462912410498e-12,
+          "mean_MW": 5.684341886080802e-14,
+          "hydro_fixed_MW": 0.0,
+          "binary": 0.0,
+          "status_lower": 0.0,
+          "status_upper": 0.0,
+          "commit_upper_MW": 0.0,
+          "commit_lower_MW": 0.0,
+          "commit_upper_rounded_MW": 0.0,
+          "commit_lower_rounded_MW": 0.0
+        }
+      },
+      "network": {
+        "balance_MW": 6.59383658785373e-12,
+        "nodal_balance_MW": 7.958078640513122e-12,
+        "branch_excess_MW": 2.842170943040401e-14,
+        "max_branch_loading": 1.0000000000000002,
+        "pass": true
+      },
+      "positive_matrix_checks_before_first_LP": {},
+      "chronology_seed_replay": {
+        "pass": false,
+        "tolerance": 1e-05,
+        "residuals": {
+          "negative_dispatch_MW": 0.0,
+          "availability_MW": 0.0,
+          "balance_MW": 6.366462912410498e-12,
+          "mean_MW": 5.684341886080802e-14,
+          "hydro_fixed_MW": 0.0,
+          "binary": 0.0,
+          "status_lower": 0.0,
+          "status_upper": 0.0,
+          "commit_upper_MW": 0.0,
+          "commit_lower_MW": 0.0,
+          "commit_upper_rounded_MW": 0.0,
+          "commit_lower_rounded_MW": 0.0,
+          "transition_lower": 0.0,
+          "transition_upper": 0.0,
+          "transition_binary": 0.0,
+          "transition_identity": 0.0,
+          "no_simultaneous_transition": 0.0,
+          "initial_transition": 0.0,
+          "residence_violations": 166
+        }
+      },
+      "on_on_ramp_seed_replay": {
+        "pass": true,
+        "tolerance": 1e-05,
+        "residuals": {
+          "negative_dispatch_MW": 0.0,
+          "availability_MW": 0.0,
+          "balance_MW": 6.366462912410498e-12,
+          "mean_MW": 5.684341886080802e-14,
+          "hydro_fixed_MW": 0.0,
+          "binary": 0.0,
+          "status_lower": 0.0,
+          "status_upper": 0.0,
+          "commit_upper_MW": 0.0,
+          "commit_lower_MW": 0.0,
+          "commit_upper_rounded_MW": 0.0,
+          "commit_lower_rounded_MW": 0.0,
+          "online_ramp_MW": 0.0
+        }
+      },
+      "full_package_inverse_restoration_sha256": "ca7488809f548b8bdcddb7756b132844b5bf1a125e450f8a2dbff235de032909",
+      "individual_mean_max_error_MW": 5.684341886080802e-14
+    },
+    {
+      "case": "positive_control_26092800",
+      "kind": "positive_control",
+      "seed": 26092800,
+      "permutation_sha256": "f5b2d1f0c4ea97bccfa355442603e61dc1751b1b25d362f0fd12d7d4bde7379a",
+      "permutation_file_sha256": "1b0bf2bc766a1144bf7017d816089f9ed41df938c8dc020b79875686db7d936f",
+      "arrays_sha256": "efc488d6eb6bb75d4bda7bf8c44e14c3390cc08daa1890ff6bfa6bef6636c9a5",
+      "changed_hours": 55,
+      "duplicate_of_current_case": null,
+      "duplicate_of_development_case": null,
+      "commitment_sequence_unchanged": true,
+      "static": {
+        "pass": true,
+        "tolerance": 1e-05,
+        "residuals": {
+          "negative_dispatch_MW": 0.0,
+          "availability_MW": 0.0,
+          "balance_MW": 6.366462912410498e-12,
+          "mean_MW": 5.684341886080802e-14,
+          "hydro_fixed_MW": 0.0,
+          "binary": 0.0,
+          "status_lower": 0.0,
+          "status_upper": 0.0,
+          "commit_upper_MW": 0.0,
+          "commit_lower_MW": 0.0,
+          "commit_upper_rounded_MW": 0.0,
+          "commit_lower_rounded_MW": 0.0
+        }
+      },
+      "network": {
+        "balance_MW": 6.59383658785373e-12,
+        "nodal_balance_MW": 7.958078640513122e-12,
+        "branch_excess_MW": 2.842170943040401e-14,
+        "max_branch_loading": 1.0000000000000002,
+        "pass": true
+      },
+      "positive_matrix_checks_before_first_LP": {
+        "full": {
+          "pass": true,
+          "tolerance": 1e-05,
+          "residuals": {
+            "column_lower": 0.0,
+            "column_upper": 0.0,
+            "row_lower": 2.2737367544323206e-12,
+            "row_upper": 6.821210263296962e-12
+          }
+        },
+        "two_cc": {
+          "pass": true,
+          "tolerance": 1e-05,
+          "residuals": {
+            "column_lower": 0.0,
+            "column_upper": 0.0,
+            "row_lower": 2.2737367544323206e-12,
+            "row_upper": 6.821210263296962e-12
+          }
+        },
+        "locality48": {
+          "pass": true,
+          "tolerance": 1e-05,
+          "residuals": {
+            "column_lower": 0.0,
+            "column_upper": 0.0,
+            "row_lower": 2.2737367544323206e-12,
+            "row_upper": 6.821210263296962e-12
+          }
+        }
+      },
+      "chronology_seed_replay": {
+        "pass": true,
+        "tolerance": 1e-05,
+        "residuals": {
+          "negative_dispatch_MW": 0.0,
+          "availability_MW": 0.0,
+          "balance_MW": 6.366462912410498e-12,
+          "mean_MW": 5.684341886080802e-14,
+          "hydro_fixed_MW": 0.0,
+          "binary": 0.0,
+          "status_lower": 0.0,
+          "status_upper": 0.0,
+          "commit_upper_MW": 0.0,
+          "commit_lower_MW": 0.0,
+          "commit_upper_rounded_MW": 0.0,
+          "commit_lower_rounded_MW": 0.0,
+          "transition_lower": 0.0,
+          "transition_upper": 0.0,
+          "transition_binary": 0.0,
+          "transition_identity": 0.0,
+          "no_simultaneous_transition": 0.0,
+          "initial_transition": 0.0,
+          "residence_violations": 0
+        }
+      },
+      "on_on_ramp_seed_replay": {
+        "pass": true,
+        "tolerance": 1e-05,
+        "residuals": {
+          "negative_dispatch_MW": 0.0,
+          "availability_MW": 0.0,
+          "balance_MW": 6.366462912410498e-12,
+          "mean_MW": 5.684341886080802e-14,
+          "hydro_fixed_MW": 0.0,
+          "binary": 0.0,
+          "status_lower": 0.0,
+          "status_upper": 0.0,
+          "commit_upper_MW": 0.0,
+          "commit_lower_MW": 0.0,
+          "commit_upper_rounded_MW": 0.0,
+          "commit_lower_rounded_MW": 0.0,
+          "online_ramp_MW": 0.0
+        }
+      },
+      "full_package_inverse_restoration_sha256": "ca7488809f548b8bdcddb7756b132844b5bf1a125e450f8a2dbff235de032909",
+      "individual_mean_max_error_MW": 5.684341886080802e-14
+    },
+    {
+      "case": "positive_control_26092801",
+      "kind": "positive_control",
+      "seed": 26092801,
+      "permutation_sha256": "154a181cafe972035faec64b6d78f6932e026fee154aa4fe0908c0d2d468d43d",
+      "permutation_file_sha256": "4ab17e4518069ec8f8a01702b96f5456c42ad341a199796b699ee256ac5c435a",
+      "arrays_sha256": "74d6f9b86798db8ea3d6ffddcb0c2c092ce7d16cf134ccad0942e7220c918f21",
+      "changed_hours": 50,
+      "duplicate_of_current_case": null,
+      "duplicate_of_development_case": null,
+      "commitment_sequence_unchanged": true,
+      "static": {
+        "pass": true,
+        "tolerance": 1e-05,
+        "residuals": {
+          "negative_dispatch_MW": 0.0,
+          "availability_MW": 0.0,
+          "balance_MW": 6.366462912410498e-12,
+          "mean_MW": 5.684341886080802e-14,
+          "hydro_fixed_MW": 0.0,
+          "binary": 0.0,
+          "status_lower": 0.0,
+          "status_upper": 0.0,
+          "commit_upper_MW": 0.0,
+          "commit_lower_MW": 0.0,
+          "commit_upper_rounded_MW": 0.0,
+          "commit_lower_rounded_MW": 0.0
+        }
+      },
+      "network": {
+        "balance_MW": 6.59383658785373e-12,
+        "nodal_balance_MW": 7.958078640513122e-12,
+        "branch_excess_MW": 2.842170943040401e-14,
+        "max_branch_loading": 1.0000000000000002,
+        "pass": true
+      },
+      "positive_matrix_checks_before_first_LP": {
+        "full": {
+          "pass": true,
+          "tolerance": 1e-05,
+          "residuals": {
+            "column_lower": 0.0,
+            "column_upper": 0.0,
+            "row_lower": 2.2737367544323206e-12,
+            "row_upper": 6.821210263296962e-12
+          }
+        },
+        "two_cc": {
+          "pass": true,
+          "tolerance": 1e-05,
+          "residuals": {
+            "column_lower": 0.0,
+            "column_upper": 0.0,
+            "row_lower": 2.2737367544323206e-12,
+            "row_upper": 6.821210263296962e-12
+          }
+        },
+        "locality48": {
+          "pass": true,
+          "tolerance": 1e-05,
+          "residuals": {
+            "column_lower": 0.0,
+            "column_upper": 0.0,
+            "row_lower": 2.2737367544323206e-12,
+            "row_upper": 6.821210263296962e-12
+          }
+        }
+      },
+      "chronology_seed_replay": {
+        "pass": true,
+        "tolerance": 1e-05,
+        "residuals": {
+          "negative_dispatch_MW": 0.0,
+          "availability_MW": 0.0,
+          "balance_MW": 6.366462912410498e-12,
+          "mean_MW": 5.684341886080802e-14,
+          "hydro_fixed_MW": 0.0,
+          "binary": 0.0,
+          "status_lower": 0.0,
+          "status_upper": 0.0,
+          "commit_upper_MW": 0.0,
+          "commit_lower_MW": 0.0,
+          "commit_upper_rounded_MW": 0.0,
+          "commit_lower_rounded_MW": 0.0,
+          "transition_lower": 0.0,
+          "transition_upper": 0.0,
+          "transition_binary": 0.0,
+          "transition_identity": 0.0,
+          "no_simultaneous_transition": 0.0,
+          "initial_transition": 0.0,
+          "residence_violations": 0
+        }
+      },
+      "on_on_ramp_seed_replay": {
+        "pass": true,
+        "tolerance": 1e-05,
+        "residuals": {
+          "negative_dispatch_MW": 0.0,
+          "availability_MW": 0.0,
+          "balance_MW": 6.366462912410498e-12,
+          "mean_MW": 5.684341886080802e-14,
+          "hydro_fixed_MW": 0.0,
+          "binary": 0.0,
+          "status_lower": 0.0,
+          "status_upper": 0.0,
+          "commit_upper_MW": 0.0,
+          "commit_lower_MW": 0.0,
+          "commit_upper_rounded_MW": 0.0,
+          "commit_lower_rounded_MW": 0.0,
+          "online_ramp_MW": 0.0
+        }
+      },
+      "full_package_inverse_restoration_sha256": "ca7488809f548b8bdcddb7756b132844b5bf1a125e450f8a2dbff235de032909",
+      "individual_mean_max_error_MW": 5.684341886080802e-14
+    },
+    {
+      "case": "positive_control_26092802",
+      "kind": "positive_control",
+      "seed": 26092802,
+      "permutation_sha256": "5dc2e3c8bdba7e6708e8b7ed0c2ae92d6c455d188a4168ab56a9bb51495b5f63",
+      "permutation_file_sha256": "58bd59532d9b74a251fa3e26522872dbef60a2f3446da573fb214038cf4e3b7d",
+      "arrays_sha256": "9f6fa2e2d39d5d08bfb59ca200c9d694854eb397975c5904a874f68515aa4707",
+      "changed_hours": 52,
+      "duplicate_of_current_case": null,
+      "duplicate_of_development_case": null,
+      "commitment_sequence_unchanged": true,
+      "static": {
+        "pass": true,
+        "tolerance": 1e-05,
+        "residuals": {
+          "negative_dispatch_MW": 0.0,
+          "availability_MW": 0.0,
+          "balance_MW": 6.366462912410498e-12,
+          "mean_MW": 5.684341886080802e-14,
+          "hydro_fixed_MW": 0.0,
+          "binary": 0.0,
+          "status_lower": 0.0,
+          "status_upper": 0.0,
+          "commit_upper_MW": 0.0,
+          "commit_lower_MW": 0.0,
+          "commit_upper_rounded_MW": 0.0,
+          "commit_lower_rounded_MW": 0.0
+        }
+      },
+      "network": {
+        "balance_MW": 6.59383658785373e-12,
+        "nodal_balance_MW": 7.958078640513122e-12,
+        "branch_excess_MW": 2.842170943040401e-14,
+        "max_branch_loading": 1.0000000000000002,
+        "pass": true
+      },
+      "positive_matrix_checks_before_first_LP": {
+        "full": {
+          "pass": true,
+          "tolerance": 1e-05,
+          "residuals": {
+            "column_lower": 0.0,
+            "column_upper": 0.0,
+            "row_lower": 2.2737367544323206e-12,
+            "row_upper": 6.821210263296962e-12
+          }
+        },
+        "two_cc": {
+          "pass": true,
+          "tolerance": 1e-05,
+          "residuals": {
+            "column_lower": 0.0,
+            "column_upper": 0.0,
+            "row_lower": 2.2737367544323206e-12,
+            "row_upper": 6.821210263296962e-12
+          }
+        },
+        "locality48": {
+          "pass": true,
+          "tolerance": 1e-05,
+          "residuals": {
+            "column_lower": 0.0,
+            "column_upper": 0.0,
+            "row_lower": 2.2737367544323206e-12,
+            "row_upper": 6.821210263296962e-12
+          }
+        }
+      },
+      "chronology_seed_replay": {
+        "pass": true,
+        "tolerance": 1e-05,
+        "residuals": {
+          "negative_dispatch_MW": 0.0,
+          "availability_MW": 0.0,
+          "balance_MW": 6.366462912410498e-12,
+          "mean_MW": 5.684341886080802e-14,
+          "hydro_fixed_MW": 0.0,
+          "binary": 0.0,
+          "status_lower": 0.0,
+          "status_upper": 0.0,
+          "commit_upper_MW": 0.0,
+          "commit_lower_MW": 0.0,
+          "commit_upper_rounded_MW": 0.0,
+          "commit_lower_rounded_MW": 0.0,
+          "transition_lower": 0.0,
+          "transition_upper": 0.0,
+          "transition_binary": 0.0,
+          "transition_identity": 0.0,
+          "no_simultaneous_transition": 0.0,
+          "initial_transition": 0.0,
+          "residence_violations": 0
+        }
+      },
+      "on_on_ramp_seed_replay": {
+        "pass": true,
+        "tolerance": 1e-05,
+        "residuals": {
+          "negative_dispatch_MW": 0.0,
+          "availability_MW": 0.0,
+          "balance_MW": 6.366462912410498e-12,
+          "mean_MW": 5.684341886080802e-14,
+          "hydro_fixed_MW": 0.0,
+          "binary": 0.0,
+          "status_lower": 0.0,
+          "status_upper": 0.0,
+          "commit_upper_MW": 0.0,
+          "commit_lower_MW": 0.0,
+          "commit_upper_rounded_MW": 0.0,
+          "commit_lower_rounded_MW": 0.0,
+          "online_ramp_MW": 0.0
+        }
+      },
+      "full_package_inverse_restoration_sha256": "ca7488809f548b8bdcddb7756b132844b5bf1a125e450f8a2dbff235de032909",
+      "individual_mean_max_error_MW": 5.684341886080802e-14
+    },
+    {
+      "case": "positive_control_26092803",
+      "kind": "positive_control",
+      "seed": 26092803,
+      "permutation_sha256": "d43400a0df84c7e0eaf71e891dd795578b686c40b48a489023732347e6eada2f",
+      "permutation_file_sha256": "d3eb68013a4cec144ea18205c61efd3913af741487fcd135f80595e309b15897",
+      "arrays_sha256": "9107ebedb9fe3af4c52ccc7315fea19d25fd5f4e0ea26774da3e47d0338dd40b",
+      "changed_hours": 55,
+      "duplicate_of_current_case": null,
+      "duplicate_of_development_case": null,
+      "commitment_sequence_unchanged": true,
+      "static": {
+        "pass": true,
+        "tolerance": 1e-05,
+        "residuals": {
+          "negative_dispatch_MW": 0.0,
+          "availability_MW": 0.0,
+          "balance_MW": 6.366462912410498e-12,
+          "mean_MW": 5.684341886080802e-14,
+          "hydro_fixed_MW": 0.0,
+          "binary": 0.0,
+          "status_lower": 0.0,
+          "status_upper": 0.0,
+          "commit_upper_MW": 0.0,
+          "commit_lower_MW": 0.0,
+          "commit_upper_rounded_MW": 0.0,
+          "commit_lower_rounded_MW": 0.0
+        }
+      },
+      "network": {
+        "balance_MW": 6.59383658785373e-12,
+        "nodal_balance_MW": 7.958078640513122e-12,
+        "branch_excess_MW": 2.842170943040401e-14,
+        "max_branch_loading": 1.0000000000000002,
+        "pass": true
+      },
+      "positive_matrix_checks_before_first_LP": {
+        "full": {
+          "pass": true,
+          "tolerance": 1e-05,
+          "residuals": {
+            "column_lower": 0.0,
+            "column_upper": 0.0,
+            "row_lower": 2.2737367544323206e-12,
+            "row_upper": 6.821210263296962e-12
+          }
+        },
+        "two_cc": {
+          "pass": true,
+          "tolerance": 1e-05,
+          "residuals": {
+            "column_lower": 0.0,
+            "column_upper": 0.0,
+            "row_lower": 2.2737367544323206e-12,
+            "row_upper": 6.821210263296962e-12
+          }
+        },
+        "locality48": {
+          "pass": true,
+          "tolerance": 1e-05,
+          "residuals": {
+            "column_lower": 0.0,
+            "column_upper": 0.0,
+            "row_lower": 2.2737367544323206e-12,
+            "row_upper": 6.821210263296962e-12
+          }
+        }
+      },
+      "chronology_seed_replay": {
+        "pass": true,
+        "tolerance": 1e-05,
+        "residuals": {
+          "negative_dispatch_MW": 0.0,
+          "availability_MW": 0.0,
+          "balance_MW": 6.366462912410498e-12,
+          "mean_MW": 5.684341886080802e-14,
+          "hydro_fixed_MW": 0.0,
+          "binary": 0.0,
+          "status_lower": 0.0,
+          "status_upper": 0.0,
+          "commit_upper_MW": 0.0,
+          "commit_lower_MW": 0.0,
+          "commit_upper_rounded_MW": 0.0,
+          "commit_lower_rounded_MW": 0.0,
+          "transition_lower": 0.0,
+          "transition_upper": 0.0,
+          "transition_binary": 0.0,
+          "transition_identity": 0.0,
+          "no_simultaneous_transition": 0.0,
+          "initial_transition": 0.0,
+          "residence_violations": 0
+        }
+      },
+      "on_on_ramp_seed_replay": {
+        "pass": true,
+        "tolerance": 1e-05,
+        "residuals": {
+          "negative_dispatch_MW": 0.0,
+          "availability_MW": 0.0,
+          "balance_MW": 6.366462912410498e-12,
+          "mean_MW": 5.684341886080802e-14,
+          "hydro_fixed_MW": 0.0,
+          "binary": 0.0,
+          "status_lower": 0.0,
+          "status_upper": 0.0,
+          "commit_upper_MW": 0.0,
+          "commit_lower_MW": 0.0,
+          "commit_upper_rounded_MW": 0.0,
+          "commit_lower_rounded_MW": 0.0,
+          "online_ramp_MW": 0.0
+        }
+      },
+      "full_package_inverse_restoration_sha256": "ca7488809f548b8bdcddb7756b132844b5bf1a125e450f8a2dbff235de032909",
+      "individual_mean_max_error_MW": 5.684341886080802e-14
+    },
+    {
+      "case": "positive_control_26092804",
+      "kind": "positive_control",
+      "seed": 26092804,
+      "permutation_sha256": "8f1af544db2a58248f344d3c030d2bed0866de2641e8b88d3c9e164ebf773a3d",
+      "permutation_file_sha256": "04fc7c24e5b0df70e073fb932ac00ae0888763f4b9de1a1ad5d80b33a2c69a24",
+      "arrays_sha256": "2eff6dd8033f9e13e96df8672cb0f4f43dab0a6cd24562d4db85874ad2b02e9a",
+      "changed_hours": 56,
+      "duplicate_of_current_case": null,
+      "duplicate_of_development_case": null,
+      "commitment_sequence_unchanged": true,
+      "static": {
+        "pass": true,
+        "tolerance": 1e-05,
+        "residuals": {
+          "negative_dispatch_MW": 0.0,
+          "availability_MW": 0.0,
+          "balance_MW": 6.366462912410498e-12,
+          "mean_MW": 5.684341886080802e-14,
+          "hydro_fixed_MW": 0.0,
+          "binary": 0.0,
+          "status_lower": 0.0,
+          "status_upper": 0.0,
+          "commit_upper_MW": 0.0,
+          "commit_lower_MW": 0.0,
+          "commit_upper_rounded_MW": 0.0,
+          "commit_lower_rounded_MW": 0.0
+        }
+      },
+      "network": {
+        "balance_MW": 6.59383658785373e-12,
+        "nodal_balance_MW": 7.958078640513122e-12,
+        "branch_excess_MW": 2.842170943040401e-14,
+        "max_branch_loading": 1.0000000000000002,
+        "pass": true
+      },
+      "positive_matrix_checks_before_first_LP": {
+        "full": {
+          "pass": true,
+          "tolerance": 1e-05,
+          "residuals": {
+            "column_lower": 0.0,
+            "column_upper": 0.0,
+            "row_lower": 2.2737367544323206e-12,
+            "row_upper": 6.821210263296962e-12
+          }
+        },
+        "two_cc": {
+          "pass": true,
+          "tolerance": 1e-05,
+          "residuals": {
+            "column_lower": 0.0,
+            "column_upper": 0.0,
+            "row_lower": 2.2737367544323206e-12,
+            "row_upper": 6.821210263296962e-12
+          }
+        },
+        "locality48": {
+          "pass": true,
+          "tolerance": 1e-05,
+          "residuals": {
+            "column_lower": 0.0,
+            "column_upper": 0.0,
+            "row_lower": 2.2737367544323206e-12,
+            "row_upper": 6.821210263296962e-12
+          }
+        }
+      },
+      "chronology_seed_replay": {
+        "pass": true,
+        "tolerance": 1e-05,
+        "residuals": {
+          "negative_dispatch_MW": 0.0,
+          "availability_MW": 0.0,
+          "balance_MW": 6.366462912410498e-12,
+          "mean_MW": 5.684341886080802e-14,
+          "hydro_fixed_MW": 0.0,
+          "binary": 0.0,
+          "status_lower": 0.0,
+          "status_upper": 0.0,
+          "commit_upper_MW": 0.0,
+          "commit_lower_MW": 0.0,
+          "commit_upper_rounded_MW": 0.0,
+          "commit_lower_rounded_MW": 0.0,
+          "transition_lower": 0.0,
+          "transition_upper": 0.0,
+          "transition_binary": 0.0,
+          "transition_identity": 0.0,
+          "no_simultaneous_transition": 0.0,
+          "initial_transition": 0.0,
+          "residence_violations": 0
+        }
+      },
+      "on_on_ramp_seed_replay": {
+        "pass": true,
+        "tolerance": 1e-05,
+        "residuals": {
+          "negative_dispatch_MW": 0.0,
+          "availability_MW": 0.0,
+          "balance_MW": 6.366462912410498e-12,
+          "mean_MW": 5.684341886080802e-14,
+          "hydro_fixed_MW": 0.0,
+          "binary": 0.0,
+          "status_lower": 0.0,
+          "status_upper": 0.0,
+          "commit_upper_MW": 0.0,
+          "commit_lower_MW": 0.0,
+          "commit_upper_rounded_MW": 0.0,
+          "commit_lower_rounded_MW": 0.0,
+          "online_ramp_MW": 0.0
+        }
+      },
+      "full_package_inverse_restoration_sha256": "ca7488809f548b8bdcddb7756b132844b5bf1a125e450f8a2dbff235de032909",
+      "individual_mean_max_error_MW": 5.684341886080802e-14
+    },
+    {
+      "case": "positive_control_26092805",
+      "kind": "positive_control",
+      "seed": 26092805,
+      "permutation_sha256": "8a747ebbcf8f5033ae8fd0eb036f31d1573680b78e68cb0d7355b90752d8b72b",
+      "permutation_file_sha256": "229bd35af1fb3c1227fefcb4620e8c2f9517353c13ec8a6f1a21b734bed14aa2",
+      "arrays_sha256": "6a425cab13a8bb8b38d12004c8b3bb03b625c11df29e560aef9e4c6d1195608e",
+      "changed_hours": 49,
+      "duplicate_of_current_case": null,
+      "duplicate_of_development_case": null,
+      "commitment_sequence_unchanged": true,
+      "static": {
+        "pass": true,
+        "tolerance": 1e-05,
+        "residuals": {
+          "negative_dispatch_MW": 0.0,
+          "availability_MW": 0.0,
+          "balance_MW": 6.366462912410498e-12,
+          "mean_MW": 5.684341886080802e-14,
+          "hydro_fixed_MW": 0.0,
+          "binary": 0.0,
+          "status_lower": 0.0,
+          "status_upper": 0.0,
+          "commit_upper_MW": 0.0,
+          "commit_lower_MW": 0.0,
+          "commit_upper_rounded_MW": 0.0,
+          "commit_lower_rounded_MW": 0.0
+        }
+      },
+      "network": {
+        "balance_MW": 6.59383658785373e-12,
+        "nodal_balance_MW": 7.958078640513122e-12,
+        "branch_excess_MW": 2.842170943040401e-14,
+        "max_branch_loading": 1.0000000000000002,
+        "pass": true
+      },
+      "positive_matrix_checks_before_first_LP": {
+        "full": {
+          "pass": true,
+          "tolerance": 1e-05,
+          "residuals": {
+            "column_lower": 0.0,
+            "column_upper": 0.0,
+            "row_lower": 2.2737367544323206e-12,
+            "row_upper": 6.821210263296962e-12
+          }
+        },
+        "two_cc": {
+          "pass": true,
+          "tolerance": 1e-05,
+          "residuals": {
+            "column_lower": 0.0,
+            "column_upper": 0.0,
+            "row_lower": 2.2737367544323206e-12,
+            "row_upper": 6.821210263296962e-12
+          }
+        },
+        "locality48": {
+          "pass": true,
+          "tolerance": 1e-05,
+          "residuals": {
+            "column_lower": 0.0,
+            "column_upper": 0.0,
+            "row_lower": 2.2737367544323206e-12,
+            "row_upper": 6.821210263296962e-12
+          }
+        }
+      },
+      "chronology_seed_replay": {
+        "pass": true,
+        "tolerance": 1e-05,
+        "residuals": {
+          "negative_dispatch_MW": 0.0,
+          "availability_MW": 0.0,
+          "balance_MW": 6.366462912410498e-12,
+          "mean_MW": 5.684341886080802e-14,
+          "hydro_fixed_MW": 0.0,
+          "binary": 0.0,
+          "status_lower": 0.0,
+          "status_upper": 0.0,
+          "commit_upper_MW": 0.0,
+          "commit_lower_MW": 0.0,
+          "commit_upper_rounded_MW": 0.0,
+          "commit_lower_rounded_MW": 0.0,
+          "transition_lower": 0.0,
+          "transition_upper": 0.0,
+          "transition_binary": 0.0,
+          "transition_identity": 0.0,
+          "no_simultaneous_transition": 0.0,
+          "initial_transition": 0.0,
+          "residence_violations": 0
+        }
+      },
+      "on_on_ramp_seed_replay": {
+        "pass": true,
+        "tolerance": 1e-05,
+        "residuals": {
+          "negative_dispatch_MW": 0.0,
+          "availability_MW": 0.0,
+          "balance_MW": 6.366462912410498e-12,
+          "mean_MW": 5.684341886080802e-14,
+          "hydro_fixed_MW": 0.0,
+          "binary": 0.0,
+          "status_lower": 0.0,
+          "status_upper": 0.0,
+          "commit_upper_MW": 0.0,
+          "commit_lower_MW": 0.0,
+          "commit_upper_rounded_MW": 0.0,
+          "commit_lower_rounded_MW": 0.0,
+          "online_ramp_MW": 0.0
+        }
+      },
+      "full_package_inverse_restoration_sha256": "ca7488809f548b8bdcddb7756b132844b5bf1a125e450f8a2dbff235de032909",
+      "individual_mean_max_error_MW": 5.684341886080802e-14
+    },
+    {
+      "case": "positive_control_26092806",
+      "kind": "positive_control",
+      "seed": 26092806,
+      "permutation_sha256": "9329887dbca463803487e663dca2d64b08db093476a4a03247e56bcf070d72f9",
+      "permutation_file_sha256": "a642440d8046f47ac4e13fa3607dba4557103cbb21eda28ba8c52da8d28a6b28",
+      "arrays_sha256": "b1b0fb971e2c5ff676ca0897224fe3225034551e795cb4750860e5feac57cb47",
+      "changed_hours": 50,
+      "duplicate_of_current_case": null,
+      "duplicate_of_development_case": null,
+      "commitment_sequence_unchanged": true,
+      "static": {
+        "pass": true,
+        "tolerance": 1e-05,
+        "residuals": {
+          "negative_dispatch_MW": 0.0,
+          "availability_MW": 0.0,
+          "balance_MW": 6.366462912410498e-12,
+          "mean_MW": 5.684341886080802e-14,
+          "hydro_fixed_MW": 0.0,
+          "binary": 0.0,
+          "status_lower": 0.0,
+          "status_upper": 0.0,
+          "commit_upper_MW": 0.0,
+          "commit_lower_MW": 0.0,
+          "commit_upper_rounded_MW": 0.0,
+          "commit_lower_rounded_MW": 0.0
+        }
+      },
+      "network": {
+        "balance_MW": 6.59383658785373e-12,
+        "nodal_balance_MW": 7.958078640513122e-12,
+        "branch_excess_MW": 2.842170943040401e-14,
+        "max_branch_loading": 1.0000000000000002,
+        "pass": true
+      },
+      "positive_matrix_checks_before_first_LP": {
+        "full": {
+          "pass": true,
+          "tolerance": 1e-05,
+          "residuals": {
+            "column_lower": 0.0,
+            "column_upper": 0.0,
+            "row_lower": 2.2737367544323206e-12,
+            "row_upper": 6.821210263296962e-12
+          }
+        },
+        "two_cc": {
+          "pass": true,
+          "tolerance": 1e-05,
+          "residuals": {
+            "column_lower": 0.0,
+            "column_upper": 0.0,
+            "row_lower": 2.2737367544323206e-12,
+            "row_upper": 6.821210263296962e-12
+          }
+        },
+        "locality48": {
+          "pass": true,
+          "tolerance": 1e-05,
+          "residuals": {
+            "column_lower": 0.0,
+            "column_upper": 0.0,
+            "row_lower": 2.2737367544323206e-12,
+            "row_upper": 6.821210263296962e-12
+          }
+        }
+      },
+      "chronology_seed_replay": {
+        "pass": true,
+        "tolerance": 1e-05,
+        "residuals": {
+          "negative_dispatch_MW": 0.0,
+          "availability_MW": 0.0,
+          "balance_MW": 6.366462912410498e-12,
+          "mean_MW": 5.684341886080802e-14,
+          "hydro_fixed_MW": 0.0,
+          "binary": 0.0,
+          "status_lower": 0.0,
+          "status_upper": 0.0,
+          "commit_upper_MW": 0.0,
+          "commit_lower_MW": 0.0,
+          "commit_upper_rounded_MW": 0.0,
+          "commit_lower_rounded_MW": 0.0,
+          "transition_lower": 0.0,
+          "transition_upper": 0.0,
+          "transition_binary": 0.0,
+          "transition_identity": 0.0,
+          "no_simultaneous_transition": 0.0,
+          "initial_transition": 0.0,
+          "residence_violations": 0
+        }
+      },
+      "on_on_ramp_seed_replay": {
+        "pass": true,
+        "tolerance": 1e-05,
+        "residuals": {
+          "negative_dispatch_MW": 0.0,
+          "availability_MW": 0.0,
+          "balance_MW": 6.366462912410498e-12,
+          "mean_MW": 5.684341886080802e-14,
+          "hydro_fixed_MW": 0.0,
+          "binary": 0.0,
+          "status_lower": 0.0,
+          "status_upper": 0.0,
+          "commit_upper_MW": 0.0,
+          "commit_lower_MW": 0.0,
+          "commit_upper_rounded_MW": 0.0,
+          "commit_lower_rounded_MW": 0.0,
+          "online_ramp_MW": 0.0
+        }
+      },
+      "full_package_inverse_restoration_sha256": "ca7488809f548b8bdcddb7756b132844b5bf1a125e450f8a2dbff235de032909",
+      "individual_mean_max_error_MW": 5.684341886080802e-14
+    },
+    {
+      "case": "positive_control_26092807",
+      "kind": "positive_control",
+      "seed": 26092807,
+      "permutation_sha256": "38d831cbdfd4aa0fe37a32d40e4dfa43bb9ff68ff7acdc59d2395560baf9d8bb",
+      "permutation_file_sha256": "58ac5c6bd4a083b86c579a7dac0878680789b4041a9f3dd853dcca00e8f0b5ff",
+      "arrays_sha256": "f43f526a4f0615526bade9a52cf7181c9a0728a8c3dcd44acc10a8b0ffe3e9c8",
+      "changed_hours": 47,
+      "duplicate_of_current_case": null,
+      "duplicate_of_development_case": null,
+      "commitment_sequence_unchanged": true,
+      "static": {
+        "pass": true,
+        "tolerance": 1e-05,
+        "residuals": {
+          "negative_dispatch_MW": 0.0,
+          "availability_MW": 0.0,
+          "balance_MW": 6.366462912410498e-12,
+          "mean_MW": 5.684341886080802e-14,
+          "hydro_fixed_MW": 0.0,
+          "binary": 0.0,
+          "status_lower": 0.0,
+          "status_upper": 0.0,
+          "commit_upper_MW": 0.0,
+          "commit_lower_MW": 0.0,
+          "commit_upper_rounded_MW": 0.0,
+          "commit_lower_rounded_MW": 0.0
+        }
+      },
+      "network": {
+        "balance_MW": 6.59383658785373e-12,
+        "nodal_balance_MW": 7.958078640513122e-12,
+        "branch_excess_MW": 2.842170943040401e-14,
+        "max_branch_loading": 1.0000000000000002,
+        "pass": true
+      },
+      "positive_matrix_checks_before_first_LP": {
+        "full": {
+          "pass": true,
+          "tolerance": 1e-05,
+          "residuals": {
+            "column_lower": 0.0,
+            "column_upper": 0.0,
+            "row_lower": 2.2737367544323206e-12,
+            "row_upper": 6.821210263296962e-12
+          }
+        },
+        "two_cc": {
+          "pass": true,
+          "tolerance": 1e-05,
+          "residuals": {
+            "column_lower": 0.0,
+            "column_upper": 0.0,
+            "row_lower": 2.2737367544323206e-12,
+            "row_upper": 6.821210263296962e-12
+          }
+        },
+        "locality48": {
+          "pass": true,
+          "tolerance": 1e-05,
+          "residuals": {
+            "column_lower": 0.0,
+            "column_upper": 0.0,
+            "row_lower": 2.2737367544323206e-12,
+            "row_upper": 6.821210263296962e-12
+          }
+        }
+      },
+      "chronology_seed_replay": {
+        "pass": true,
+        "tolerance": 1e-05,
+        "residuals": {
+          "negative_dispatch_MW": 0.0,
+          "availability_MW": 0.0,
+          "balance_MW": 6.366462912410498e-12,
+          "mean_MW": 5.684341886080802e-14,
+          "hydro_fixed_MW": 0.0,
+          "binary": 0.0,
+          "status_lower": 0.0,
+          "status_upper": 0.0,
+          "commit_upper_MW": 0.0,
+          "commit_lower_MW": 0.0,
+          "commit_upper_rounded_MW": 0.0,
+          "commit_lower_rounded_MW": 0.0,
+          "transition_lower": 0.0,
+          "transition_upper": 0.0,
+          "transition_binary": 0.0,
+          "transition_identity": 0.0,
+          "no_simultaneous_transition": 0.0,
+          "initial_transition": 0.0,
+          "residence_violations": 0
+        }
+      },
+      "on_on_ramp_seed_replay": {
+        "pass": true,
+        "tolerance": 1e-05,
+        "residuals": {
+          "negative_dispatch_MW": 0.0,
+          "availability_MW": 0.0,
+          "balance_MW": 6.366462912410498e-12,
+          "mean_MW": 5.684341886080802e-14,
+          "hydro_fixed_MW": 0.0,
+          "binary": 0.0,
+          "status_lower": 0.0,
+          "status_upper": 0.0,
+          "commit_upper_MW": 0.0,
+          "commit_lower_MW": 0.0,
+          "commit_upper_rounded_MW": 0.0,
+          "commit_lower_rounded_MW": 0.0,
+          "online_ramp_MW": 0.0
+        }
+      },
+      "full_package_inverse_restoration_sha256": "ca7488809f548b8bdcddb7756b132844b5bf1a125e450f8a2dbff235de032909",
+      "individual_mean_max_error_MW": 5.684341886080802e-14
+    }
+  ],
+  "models": [
+    "full",
+    "two_cc",
+    "locality48"
+  ],
+  "fixed_two_units": [
+    "107_CC_1",
+    "118_CC_1"
+  ],
+  "fixed_locality_window": [
+    60,
+    107
+  ],
+  "per_LP_limit_s": 30,
+  "phase_budget_s": 1200,
+  "model_rows": {
+    "full": 24305,
+    "two_cc": 9609,
+    "locality48": 18313
+  },
+  "original_identity_matrix_check": {
+    "pass": true,
+    "tolerance": 1e-05,
+    "residuals": {
+      "column_lower": 0.0,
+      "column_upper": 0.0,
+      "row_lower": 2.2737367544323206e-12,
+      "row_upper": 6.821210263296962e-12
+    }
+  },
+  "all_positive_network_chronology_controls_pass": true,
+  "generation": "PCG64; all16 orders saved before solving"
+}

@@ -1,0 +1,44 @@
+{
+  "ordinary_cases": 8,
+  "full_exact_rejections": 8,
+  "rules": {
+    "two_cc": {
+      "numerator": 8,
+      "denominator": 8,
+      "coverage": 1.0,
+      "covered_cases": [
+        "ordinary_26092700",
+        "ordinary_26092701",
+        "ordinary_26092702",
+        "ordinary_26092703",
+        "ordinary_26092704",
+        "ordinary_26092705",
+        "ordinary_26092706",
+        "ordinary_26092707"
+      ],
+      "not_covered_cases": []
+    },
+    "locality48": {
+      "numerator": 8,
+      "denominator": 8,
+      "coverage": 1.0,
+      "covered_cases": [
+        "ordinary_26092700",
+        "ordinary_26092701",
+        "ordinary_26092702",
+        "ordinary_26092703",
+        "ordinary_26092704",
+        "ordinary_26092705",
+        "ordinary_26092706",
+        "ordinary_26092707"
+      ],
+      "not_covered_cases": []
+    }
+  },
+  "verified_positive_controls": 8,
+  "positive_control_infeasible_solver_statuses": 0,
+  "scheduled_LPs": 48,
+  "completed_LPs": 48,
+  "not_run_cases": [],
+  "scope": "prospective fixed-rule transfer on new seeds from the same repaired July week; not external validation"
+}
