@@ -35,6 +35,11 @@ editorial corrections. See [the decision report](CODEX_DECISION_REPORT_V8R1.md),
 The existing V8 GitHub/Zenodo release is an unchanged historical baseline;
 the new results are under `results/v8r1/` and are not in that old archive.
 
+The [candidate review ZIP](releases/DSC_Grid_V8R1_Candidate_Review.zip)
+contains both PDFs, source, derived results and audits from source commit
+`2f024760ba6d5e5a521565c9d8e605feba6a554a`. Its fresh-extraction check verifies
+all 340 manifest entries; the checksum and verification JSON are beside it.
+
 **V8 is a pre-submission candidate with scientific and editorial corrections
 pending. V7 remains the last independently accepted scientific baseline.**
 The reproducibility snapshot preserves inspectable V8 outputs; it does not
