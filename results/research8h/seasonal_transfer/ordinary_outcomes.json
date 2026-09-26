@@ -1,0 +1,20 @@
+[
+  {
+    "seed": 26093100,
+    "verdict": "CERTIFIED_INFEASIBLE",
+    "mip": "NOT_RUN_EXACT_LP_REJECTION",
+    "month": 1,
+    "lp_verdict": "REJECTED_EXACT_BINARY64_CERTIFICATE",
+    "lp_elapsed_s": 4.252975499985041,
+    "static_network_control_pass": true
+  },
+  {
+    "seed": 26093101,
+    "verdict": "CERTIFIED_INFEASIBLE",
+    "mip": "NOT_RUN_EXACT_LP_REJECTION",
+    "month": 1,
+    "lp_verdict": "REJECTED_EXACT_BINARY64_CERTIFICATE",
+    "lp_elapsed_s": 3.8980970999982674,
+    "static_network_control_pass": true
+  }
+]

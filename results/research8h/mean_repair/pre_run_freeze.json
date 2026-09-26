@@ -1,0 +1,33 @@
+{
+  "utc": "2026-09-26T21:10:27.747239+00:00",
+  "cases": [
+    "identity",
+    "seed_26092600",
+    "seed_26092601",
+    "seed_26092602",
+    "seed_26092603"
+  ],
+  "protocol_sha256": "46a5de8ce4654442230010ace68c204c03904e30709b2ee97be1b2ac670a4755",
+  "script_sha256": "1d3ab964494177c09110ae348e01ed10d69def9ea890555665548851b46c9328",
+  "bound_sources": {
+    "temporal_lp_certificate.py": "6191c5760811cab0ec22b2fb1376a5be3aa47cb548e1260c4a17e2563d9802e4",
+    "research8h_service_cap.py": "28852854da72e6ad7218aa2af18ec41a61c0e2e6438f992bc3481bb520adb40e",
+    "v8r1_rts_seasonal.py": "bca0127d7b2771c6da3b6a838c8caa7fb6ce0df4eafd9a512326aabd8daf7dc2"
+  },
+  "seconds_per_case": 60,
+  "threads": 1,
+  "random_seed": 0,
+  "solver": "simplex",
+  "presolve": "off",
+  "objective": "epsilon",
+  "epsilon_box": [
+    0,
+    1
+  ],
+  "same_budget_MWh": 180555.9189139999,
+  "nameplates_positive": true,
+  "min_scale_MW": 12.0,
+  "max_scale_MW": 713.5,
+  "source_hourly_max_excess_above_nameplate_MW": 0.0,
+  "interpretation": "Continuous named-unit mean-repair radius normalized by native nameplate; no DC/binary inference."
+}

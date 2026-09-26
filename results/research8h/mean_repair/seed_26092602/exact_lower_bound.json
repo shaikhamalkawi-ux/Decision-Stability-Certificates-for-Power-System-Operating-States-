@@ -1,0 +1,52 @@
+{
+  "arithmetic": "exact rational interpretation of archived binary64 coefficients, bounds, objective and multiplier",
+  "raw_lower_bound": {
+    "numerator": "647709985821853718523567596927364061",
+    "denominator": "42535295865117307932921825928971026432",
+    "approximate": 0.015227588586095459,
+    "binary64_rounded_down": 0.015227588586095459
+  },
+  "nominal_lower_bound_with_epsilon_nonnegativity": {
+    "numerator": "647709985821853718523567596927364061",
+    "denominator": "42535295865117307932921825928971026432",
+    "approximate": 0.015227588586095459,
+    "binary64_rounded_down": 0.015227588586095459
+  },
+  "outward_tolerance_lower_bound": {
+    "numerator": "5971859601291008359666725544321891880462724338715639313",
+    "denominator": "392318858461667547739736838950479151006397215279002157056",
+    "approximate": 0.015221953960376603,
+    "binary64_rounded_down": 0.015221953960376603
+  },
+  "row_term": {
+    "numerator": "333963756053014848938412970363476545",
+    "denominator": "332306998946228968225951765070086144",
+    "approximate": 1.0049856220664615,
+    "binary64_rounded_down": 1.0049856220664612
+  },
+  "box_term": {
+    "numerator": "-42099650788964046945593292609597633699",
+    "denominator": "42535295865117307932921825928971026432",
+    "approximate": -0.989758033480366,
+    "binary64_rounded_down": -0.989758033480366
+  },
+  "projected_entries": 0,
+  "largest_projected_magnitude": 0.0,
+  "row_multiplier_nonzeros": 1570,
+  "stationarity_residual_nonzeros": 6953,
+  "row_multiplier_l1": {
+    "numerator": "16338405588571216473333",
+    "denominator": "75557863725914323419136",
+    "approximate": 0.2162369974863064,
+    "binary64_rounded_down": 0.21623699748630637
+  },
+  "stationarity_residual_l1": {
+    "numerator": "230770977172052300534161516515186911",
+    "denominator": "664613997892457936451903530140172288",
+    "approximate": 0.34722557439934276,
+    "binary64_rounded_down": 0.34722557439934276
+  },
+  "outward_tolerance": 1e-05,
+  "outward_model": "Every finite row and column bound expanded by tau, including epsilon box to [-tau,1+tau]; mixed-units numerical robustness, not physical uncertainty.",
+  "scope": "Objective lower bound, not an exact optimum and not a binary/DC-network certificate."
+}

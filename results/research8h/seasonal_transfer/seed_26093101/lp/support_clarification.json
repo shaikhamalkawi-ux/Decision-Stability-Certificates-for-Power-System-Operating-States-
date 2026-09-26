@@ -1,0 +1,51 @@
+{
+  "row_family_counts": {
+    "aggregate_balance": 81,
+    "branch_flow": 2,
+    "fossil_energy_cap": 1,
+    "minimum_down": 12,
+    "minimum_up": 195,
+    "nodal_balance": 46,
+    "thermal_lower": 389,
+    "thermal_upper": 198,
+    "transition": 329
+  },
+  "thermal_generator_labels_count": 22,
+  "thermal_generator_labels": [
+    "101_CT_1",
+    "101_CT_2",
+    "101_STEAM_3",
+    "101_STEAM_4",
+    "102_CT_1",
+    "102_CT_2",
+    "102_STEAM_3",
+    "102_STEAM_4",
+    "107_CC_1",
+    "113_CT_1",
+    "113_CT_2",
+    "113_CT_3",
+    "113_CT_4",
+    "115_STEAM_1",
+    "115_STEAM_3",
+    "116_STEAM_1",
+    "118_CC_1",
+    "123_CT_1",
+    "123_CT_4",
+    "123_CT_5",
+    "123_STEAM_2",
+    "123_STEAM_3"
+  ],
+  "labeled_row_hours_count": 114,
+  "global_cap_dependency_hours": 168,
+  "global_cap_fossil_units": 23,
+  "individual_mean_rows": 0,
+  "exact_combined_bound_columns": 5138,
+  "exact_combined_bound_columns_by_block": {
+    "P": 3499,
+    "U": 572,
+    "Y": 696,
+    "Z": 325,
+    "theta": 46
+  },
+  "interpretation": "The inherited individual_units_in_nonzero_rows counts mixed generator/bus/branch labels. Use the classified thermal count here. The all-hour fossil cap and selected variable bounds remain dependencies; no minimum-memory or information claim."
+}

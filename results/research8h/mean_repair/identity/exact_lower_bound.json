@@ -1,0 +1,52 @@
+{
+  "arithmetic": "exact rational interpretation of archived binary64 coefficients, bounds, objective and multiplier",
+  "raw_lower_bound": {
+    "numerator": "0",
+    "denominator": "1",
+    "approximate": 0.0,
+    "binary64_rounded_down": 0.0
+  },
+  "nominal_lower_bound_with_epsilon_nonnegativity": {
+    "numerator": "0",
+    "denominator": "1",
+    "approximate": 0.0,
+    "binary64_rounded_down": 0.0
+  },
+  "outward_tolerance_lower_bound": {
+    "numerator": "-5902958103587057",
+    "denominator": "590295810358705651712",
+    "approximate": -1e-05,
+    "binary64_rounded_down": -1e-05
+  },
+  "row_term": {
+    "numerator": "0",
+    "denominator": "1",
+    "approximate": 0.0,
+    "binary64_rounded_down": 0.0
+  },
+  "box_term": {
+    "numerator": "0",
+    "denominator": "1",
+    "approximate": 0.0,
+    "binary64_rounded_down": 0.0
+  },
+  "projected_entries": 0,
+  "largest_projected_magnitude": 0.0,
+  "row_multiplier_nonzeros": 0,
+  "stationarity_residual_nonzeros": 1,
+  "row_multiplier_l1": {
+    "numerator": "0",
+    "denominator": "1",
+    "approximate": 0.0,
+    "binary64_rounded_down": 0.0
+  },
+  "stationarity_residual_l1": {
+    "numerator": "1",
+    "denominator": "1",
+    "approximate": 1.0,
+    "binary64_rounded_down": 1.0
+  },
+  "outward_tolerance": 1e-05,
+  "outward_model": "Every finite row and column bound expanded by tau, including epsilon box to [-tau,1+tau]; mixed-units numerical robustness, not physical uncertainty.",
+  "scope": "Objective lower bound, not an exact optimum and not a binary/DC-network certificate."
+}

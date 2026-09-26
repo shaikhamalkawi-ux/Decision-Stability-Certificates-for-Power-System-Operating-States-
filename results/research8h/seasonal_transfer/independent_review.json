@@ -1,0 +1,586 @@
+{
+  "status": "PASS_COMPLETE",
+  "optimization_calls": 0,
+  "reference_exact_fossil_energy_MWh": {
+    "numerator": "1654798412944827657145",
+    "denominator": "72057594037927936",
+    "approximate": 22964.941239556443,
+    "floor_6dp": 22964.941239
+  },
+  "cap_MWh": 23195,
+  "tau_binary64": {
+    "numerator": "5902958103587057",
+    "denominator": "590295810358705651712",
+    "approximate": 1e-05,
+    "floor_6dp": 1e-05
+  },
+  "cases": [
+    {
+      "seed": 26093100,
+      "certificate_sha256": "7a5a5b3489233df4fbb7b6a56889f76e8d71b5cf72ca9ba1db09909feba3d063",
+      "matrix_sha256": "2f11940f72432a2a2e89e4a88115eba3cf24a8e82a8110e250c6191020c1f0bb",
+      "bounds_sha256": "3e6709c70daa02750b99056cb67bb7b7e4b4358570d978df471c9d473dbe4601",
+      "rows": 34681,
+      "columns": 23016,
+      "zero_named_mean_rows": true,
+      "sole_cap_row": 24264,
+      "source_cap_multiplier": {
+        "numerator": "-7250315904952901",
+        "denominator": "70368744177664",
+        "approximate": -103.03318596460402,
+        "floor_6dp": -103.033186
+      },
+      "gamma": {
+        "numerator": "7250315904952901",
+        "denominator": "70368744177664",
+        "approximate": 103.03318596460402,
+        "floor_6dp": 103.033185
+      },
+      "projected_raw_entries": 48,
+      "certificate_nonzero_rows": 1715,
+      "certificate_thermal_unit_uids_only": [
+        "101_CT_1",
+        "101_CT_2",
+        "101_STEAM_3",
+        "101_STEAM_4",
+        "102_CT_1",
+        "102_CT_2",
+        "102_STEAM_3",
+        "102_STEAM_4",
+        "107_CC_1",
+        "113_CT_1",
+        "113_CT_2",
+        "113_CT_3",
+        "113_CT_4",
+        "115_STEAM_1",
+        "115_STEAM_2",
+        "115_STEAM_3",
+        "116_STEAM_1",
+        "118_CC_1",
+        "123_CT_1",
+        "123_CT_4",
+        "123_CT_5",
+        "123_STEAM_2",
+        "123_STEAM_3"
+      ],
+      "exact_gap_ray_units": {
+        "numerator": "9145002621386790254733641911894629951694645325491485316327905",
+        "denominator": "196159429230833773869868419475239575503198607639501078528",
+        "approximate": 46620.25505093238,
+        "floor_6dp": 46620.25505
+      },
+      "exact_full_bound_expansion_gap_ray_units": {
+        "numerator": "9570005534770222669982349487706749680485998417800604674604904255175",
+        "denominator": "205688069665150755269371147819668813122841983204197482918576128",
+        "approximate": 46526.78957194592,
+        "floor_6dp": 46526.789571
+      },
+      "robust_Farkas_replay_pass": true,
+      "uncapped_objective_row_term_MWh": {
+        "numerator": "1470227003063388459256067091197172879",
+        "denominator": "16326260003932132718844678504448",
+        "approximate": 90052.89654270411,
+        "floor_6dp": 90052.896542
+      },
+      "uncapped_objective_box_term_MWh": {
+        "numerator": "-1342115327908979491448571415041589460222326125196706328629368351",
+        "denominator": "20210930950651077099316486312304793888009512195593288548352",
+        "approximate": -66405.41849289453,
+        "floor_6dp": -66405.418493
+      },
+      "uncapped_energy_necessary_lower_bound_MWh": {
+        "numerator": "477937546021738523573379541925804324184075280702277813195352545",
+        "denominator": "20210930950651077099316486312304793888009512195593288548352",
+        "approximate": 23647.478049809586,
+        "floor_6dp": 23647.478049
+      },
+      "uncapped_NONCAP_and_box_expanded_energy_lower_bound_MWh": {
+        "numerator": "501134615735264413111413848281894421878455851993288422488358615551687",
+        "denominator": "21192697132509903820492883951411311555913462260006428132876746752",
+        "approximate": 23646.570920249535,
+        "floor_6dp": 23646.57092
+      },
+      "normalized_formula_B_plus_gap_over_gamma_exact": true,
+      "noncap_expansion_direct_formula_exact": true,
+      "nominal_necessary_excess_above_cap_MWh": {
+        "numerator": "9145002621386790254733641911894629951694645325491485316327905",
+        "denominator": "20210930950651077099316486312304793888009512195593288548352",
+        "approximate": 452.47804980958546,
+        "floor_6dp": 452.478049
+      },
+      "nominal_necessary_excess_above_reference_MWh": {
+        "numerator": "13794704343303918959413214391251232495942058180680694928615905",
+        "denominator": "20210930950651077099316486312304793888009512195593288548352",
+        "approximate": 682.5368102531435,
+        "floor_6dp": 682.53681
+      },
+      "noncap_expanded_necessary_excess_above_cap_MWh": {
+        "numerator": "9570005746697193995081405028909050339043094872439321946282474639047",
+        "denominator": "21192697132509903820492883951411311555913462260006428132876746752",
+        "approximate": 451.57092024953573,
+        "floor_6dp": 451.57092
+      },
+      "noncap_expanded_necessary_excess_above_reference_MWh": {
+        "numerator": "14445571379458169143719492421022879208479870054482202604696976527047",
+        "denominator": "21192697132509903820492883951411311555913462260006428132876746752",
+        "approximate": 681.6296806930937,
+        "floor_6dp": 681.62968
+      },
+      "noncap_expanded_necessary_fraction_above_reference": {
+        "numerator": "14445571379458169143719492421022879208479870054482202604696976527047",
+        "denominator": "486689044355806243967694355860871542669975981938806219883661639024640",
+        "approximate": 0.02968131612368363,
+        "floor_6dp": 0.029681
+      },
+      "uncapped_feasible_witness_established": false,
+      "scope": "Necessary fossil-energy lower bound; no uncapped feasible witness, finite energy penalty or minimum-energy optimum established."
+    },
+    {
+      "seed": 26093101,
+      "certificate_sha256": "041ec0c98bab38c60e8f466082381791a1ce4560e101ccc8e9bc04123d1cb000",
+      "matrix_sha256": "2f11940f72432a2a2e89e4a88115eba3cf24a8e82a8110e250c6191020c1f0bb",
+      "bounds_sha256": "3f4c56b7b96cddb7195de8a66a1606df507bd00cc86e9ea47a3a514ce685ab82",
+      "rows": 34681,
+      "columns": 23016,
+      "zero_named_mean_rows": true,
+      "sole_cap_row": 24264,
+      "source_cap_multiplier": {
+        "numerator": "-3095101013871647",
+        "denominator": "8796093022208",
+        "approximate": -351.8722466960352,
+        "floor_6dp": -351.872247
+      },
+      "gamma": {
+        "numerator": "3095101013871647",
+        "denominator": "8796093022208",
+        "approximate": 351.8722466960352,
+        "floor_6dp": 351.872246
+      },
+      "projected_raw_entries": 24,
+      "certificate_nonzero_rows": 1253,
+      "certificate_thermal_unit_uids_only": [
+        "101_CT_1",
+        "101_CT_2",
+        "101_STEAM_3",
+        "101_STEAM_4",
+        "102_CT_1",
+        "102_CT_2",
+        "102_STEAM_3",
+        "102_STEAM_4",
+        "107_CC_1",
+        "113_CT_1",
+        "113_CT_2",
+        "113_CT_3",
+        "113_CT_4",
+        "115_STEAM_1",
+        "115_STEAM_3",
+        "116_STEAM_1",
+        "118_CC_1",
+        "123_CT_1",
+        "123_CT_4",
+        "123_CT_5",
+        "123_STEAM_2",
+        "123_STEAM_3"
+      ],
+      "exact_gap_ray_units": {
+        "numerator": "542542811427900294368141093129787283046476019715",
+        "denominator": "2787593149816327892691964784081045188247552",
+        "approximate": 194627.6885720027,
+        "floor_6dp": 194627.688572
+      },
+      "exact_full_bound_expansion_gap_ray_units": {
+        "numerator": "4544824973294158861214943519417892747529530340888363305",
+        "denominator": "23384026197294446691258957323460528314494920687616",
+        "approximate": 194355.96483466134,
+        "floor_6dp": 194355.964834
+      },
+      "robust_Farkas_replay_pass": true,
+      "uncapped_objective_row_term_MWh": {
+        "numerator": "1310378480935174341658204322730274785",
+        "denominator": "13939095772746393800311058726912",
+        "approximate": 94007.42360183905,
+        "floor_6dp": 94007.423601
+      },
+      "uncapped_objective_box_term_MWh": {
+        "numerator": "-68915711056329758501246922460307011680188663072765",
+        "denominator": "980876664500348673626491320061500376186093568",
+        "approximate": -70259.30328502097,
+        "floor_6dp": -70259.303286
+      },
+      "uncapped_energy_necessary_lower_bound_MWh": {
+        "numerator": "23293977044513487779134607261956288508682916329475",
+        "denominator": "980876664500348673626491320061500376186093568",
+        "approximate": 23748.120316818087,
+        "floor_6dp": 23748.120316
+      },
+      "uncapped_NONCAP_and_box_expanded_energy_lower_bound_MWh": {
+        "numerator": "195397688274711681069036215349601539278676442385844355369",
+        "denominator": "8228189834840940886372574099398462547677673993273344",
+        "approximate": 23747.34810411541,
+        "floor_6dp": 23747.348104
+      },
+      "normalized_formula_B_plus_gap_over_gamma_exact": true,
+      "noncap_expansion_direct_formula_exact": true,
+      "nominal_necessary_excess_above_cap_MWh": {
+        "numerator": "542542811427900294368141093129787283046476019715",
+        "denominator": "980876664500348673626491320061500376186093568",
+        "approximate": 553.1203168180859,
+        "floor_6dp": 553.120316
+      },
+      "nominal_necessary_excess_above_reference_MWh": {
+        "numerator": "768202081010862250653031398745185136684116211715",
+        "denominator": "980876664500348673626491320061500376186093568",
+        "approximate": 783.179077261644,
+        "floor_6dp": 783.179077
+      },
+      "noncap_expanded_necessary_excess_above_cap_MWh": {
+        "numerator": "4544825055576057209624359114054200485292794111869141289",
+        "denominator": "8228189834840940886372574099398462547677673993273344",
+        "approximate": 552.348104115407,
+        "floor_6dp": 552.348104
+      },
+      "noncap_expanded_necessary_excess_above_reference_MWh": {
+        "numerator": "6437792209673848539811440210861971843500331727601877289",
+        "denominator": "8228189834840940886372574099398462547677673993273344",
+        "approximate": 782.406864558965,
+        "floor_6dp": 782.406864
+      },
+      "noncap_expanded_necessary_fraction_above_reference": {
+        "numerator": "6437792209673848539811440210861971843500331727601877289",
+        "denominator": "188959896065037832529224775138739567435176110658242478080",
+        "approximate": 0.03406962188134372,
+        "floor_6dp": 0.034069
+      },
+      "uncapped_feasible_witness_established": false,
+      "scope": "Necessary fossil-energy lower bound; no uncapped feasible witness, finite energy penalty or minimum-energy optimum established."
+    }
+  ],
+  "utc": "2026-09-26T21:29:38.339684+00:00",
+  "source_manifest": {
+    "files": 136,
+    "all_hashes_and_sizes_match": true,
+    "manifest_sha256": "9362c181d3aad078f9ff21fc35b3043ca923b70d8484e72565a4b39d7967eb87"
+  },
+  "exact_expanded_positive_and_static_replay": [
+    {
+      "case": "january_identity",
+      "matrix_sha256": "2f11940f72432a2a2e89e4a88115eba3cf24a8e82a8110e250c6191020c1f0bb",
+      "bounds_sha256": "44ddedc6dd4b06028b9c7d10180cac4889dd51658a560d49f66ef8f3e31ab2d2",
+      "constructive_vector_sha256": "7c534f8691c761815224ac43773259da5a8e1d3eb2aa892dcb64dc46541672db",
+      "binary_UYZ_exact": true,
+      "integer_columns": 12096,
+      "row_dot_products": "Exact Fraction sum of individual archived binary64 products, no floating matrix multiplication",
+      "retained_rows": 34681,
+      "removed_rows": 0,
+      "removed_families": [],
+      "max_nominal_violation": {
+        "column_lower": {
+          "numerator": "12133",
+          "denominator": "562949953421312",
+          "approximate": 2.155253753244324e-11,
+          "floor_6dp": 0.0
+        },
+        "column_upper": {
+          "numerator": "21",
+          "denominator": "4398046511104",
+          "approximate": 4.774847184307873e-12,
+          "floor_6dp": 0.0
+        },
+        "retained_row_lower": {
+          "numerator": "8080919107015283899",
+          "denominator": "316912650057057350374175801344",
+          "approximate": 2.5498884647111388e-11,
+          "floor_6dp": 0.0
+        },
+        "retained_row_upper": {
+          "numerator": "12133",
+          "denominator": "562949953421312",
+          "approximate": 2.155253753244324e-11,
+          "floor_6dp": 0.0
+        },
+        "full_row_lower": {
+          "numerator": "8080919107015283899",
+          "denominator": "316912650057057350374175801344",
+          "approximate": 2.5498884647111388e-11,
+          "floor_6dp": 0.0
+        },
+        "full_row_upper": {
+          "numerator": "12133",
+          "denominator": "562949953421312",
+          "approximate": 2.155253753244324e-11,
+          "floor_6dp": 0.0
+        }
+      },
+      "retained_bound_expansion_exact_pass": true,
+      "full_bound_expansion_exact_pass": true,
+      "full_expanded_violations_by_family": {},
+      "fossil_energy_exactly_preserved": true,
+      "fossil_energy_MWh": {
+        "numerator": "1654798412944827657145",
+        "denominator": "72057594037927936",
+        "approximate": 22964.941239556443,
+        "floor_6dp": 22964.941239
+      },
+      "cap_nominally_exactly_satisfied": true,
+      "nominal_retained_feasibility_exact": false,
+      "scope": "full binary DC-network chronological control"
+    },
+    {
+      "case": "seed_26100100",
+      "matrix_sha256": "2f11940f72432a2a2e89e4a88115eba3cf24a8e82a8110e250c6191020c1f0bb",
+      "bounds_sha256": "67172084585fe23ed9e3a5677d5a90ad90bb5f213546b132a8c1fecfff417d30",
+      "constructive_vector_sha256": "3c87e8d63674ac51e09b7a67e9d954c5957ebdda2cb3ee7b21b3e9f352d4d978",
+      "binary_UYZ_exact": true,
+      "integer_columns": 12096,
+      "row_dot_products": "Exact Fraction sum of individual archived binary64 products, no floating matrix multiplication",
+      "retained_rows": 34681,
+      "removed_rows": 0,
+      "removed_families": [],
+      "max_nominal_violation": {
+        "column_lower": {
+          "numerator": "12133",
+          "denominator": "562949953421312",
+          "approximate": 2.155253753244324e-11,
+          "floor_6dp": 0.0
+        },
+        "column_upper": {
+          "numerator": "21",
+          "denominator": "4398046511104",
+          "approximate": 4.774847184307873e-12,
+          "floor_6dp": 0.0
+        },
+        "retained_row_lower": {
+          "numerator": "8080919107015283899",
+          "denominator": "316912650057057350374175801344",
+          "approximate": 2.5498884647111388e-11,
+          "floor_6dp": 0.0
+        },
+        "retained_row_upper": {
+          "numerator": "12133",
+          "denominator": "562949953421312",
+          "approximate": 2.155253753244324e-11,
+          "floor_6dp": 0.0
+        },
+        "full_row_lower": {
+          "numerator": "8080919107015283899",
+          "denominator": "316912650057057350374175801344",
+          "approximate": 2.5498884647111388e-11,
+          "floor_6dp": 0.0
+        },
+        "full_row_upper": {
+          "numerator": "12133",
+          "denominator": "562949953421312",
+          "approximate": 2.155253753244324e-11,
+          "floor_6dp": 0.0
+        }
+      },
+      "retained_bound_expansion_exact_pass": true,
+      "full_bound_expansion_exact_pass": true,
+      "full_expanded_violations_by_family": {},
+      "fossil_energy_exactly_preserved": true,
+      "fossil_energy_MWh": {
+        "numerator": "1654798412944827657145",
+        "denominator": "72057594037927936",
+        "approximate": 22964.941239556443,
+        "floor_6dp": 22964.941239
+      },
+      "cap_nominally_exactly_satisfied": true,
+      "nominal_retained_feasibility_exact": false,
+      "scope": "full binary DC-network chronological control"
+    },
+    {
+      "case": "seed_26093100",
+      "matrix_sha256": "2f11940f72432a2a2e89e4a88115eba3cf24a8e82a8110e250c6191020c1f0bb",
+      "bounds_sha256": "3e6709c70daa02750b99056cb67bb7b7e4b4358570d978df471c9d473dbe4601",
+      "constructive_vector_sha256": "c8149b9c95fca6d6f26b4f932117309799cd072e404d8565abf7cd1b7666db19",
+      "binary_UYZ_exact": true,
+      "integer_columns": 12096,
+      "row_dot_products": "Exact Fraction sum of individual archived binary64 products, no floating matrix multiplication",
+      "retained_rows": 26665,
+      "removed_rows": 8016,
+      "removed_families": [
+        "minimum_up",
+        "minimum_down"
+      ],
+      "max_nominal_violation": {
+        "column_lower": {
+          "numerator": "12133",
+          "denominator": "562949953421312",
+          "approximate": 2.155253753244324e-11,
+          "floor_6dp": 0.0
+        },
+        "column_upper": {
+          "numerator": "21",
+          "denominator": "4398046511104",
+          "approximate": 4.774847184307873e-12,
+          "floor_6dp": 0.0
+        },
+        "retained_row_lower": {
+          "numerator": "8080919107015283899",
+          "denominator": "316912650057057350374175801344",
+          "approximate": 2.5498884647111388e-11,
+          "floor_6dp": 0.0
+        },
+        "retained_row_upper": {
+          "numerator": "12133",
+          "denominator": "562949953421312",
+          "approximate": 2.155253753244324e-11,
+          "floor_6dp": 0.0
+        },
+        "full_row_lower": {
+          "numerator": "8080919107015283899",
+          "denominator": "316912650057057350374175801344",
+          "approximate": 2.5498884647111388e-11,
+          "floor_6dp": 0.0
+        },
+        "full_row_upper": {
+          "numerator": "3",
+          "denominator": "1",
+          "approximate": 3.0,
+          "floor_6dp": 3.0
+        }
+      },
+      "retained_bound_expansion_exact_pass": true,
+      "full_bound_expansion_exact_pass": false,
+      "full_expanded_violations_by_family": {
+        "minimum_up": 565,
+        "minimum_down": 186
+      },
+      "fossil_energy_exactly_preserved": true,
+      "fossil_energy_MWh": {
+        "numerator": "1654798412944827657145",
+        "denominator": "72057594037927936",
+        "approximate": 22964.941239556443,
+        "floor_6dp": 22964.941239
+      },
+      "cap_nominally_exactly_satisfied": true,
+      "nominal_retained_feasibility_exact": false,
+      "scope": "static network + cap with exact transitions"
+    },
+    {
+      "case": "seed_26093101",
+      "matrix_sha256": "2f11940f72432a2a2e89e4a88115eba3cf24a8e82a8110e250c6191020c1f0bb",
+      "bounds_sha256": "3f4c56b7b96cddb7195de8a66a1606df507bd00cc86e9ea47a3a514ce685ab82",
+      "constructive_vector_sha256": "9b84c98f721296c909468527476e84b6ca454af62b664c54a11e5889957c82d6",
+      "binary_UYZ_exact": true,
+      "integer_columns": 12096,
+      "row_dot_products": "Exact Fraction sum of individual archived binary64 products, no floating matrix multiplication",
+      "retained_rows": 26665,
+      "removed_rows": 8016,
+      "removed_families": [
+        "minimum_up",
+        "minimum_down"
+      ],
+      "max_nominal_violation": {
+        "column_lower": {
+          "numerator": "12133",
+          "denominator": "562949953421312",
+          "approximate": 2.155253753244324e-11,
+          "floor_6dp": 0.0
+        },
+        "column_upper": {
+          "numerator": "21",
+          "denominator": "4398046511104",
+          "approximate": 4.774847184307873e-12,
+          "floor_6dp": 0.0
+        },
+        "retained_row_lower": {
+          "numerator": "8080919107015283899",
+          "denominator": "316912650057057350374175801344",
+          "approximate": 2.5498884647111388e-11,
+          "floor_6dp": 0.0
+        },
+        "retained_row_upper": {
+          "numerator": "12133",
+          "denominator": "562949953421312",
+          "approximate": 2.155253753244324e-11,
+          "floor_6dp": 0.0
+        },
+        "full_row_lower": {
+          "numerator": "8080919107015283899",
+          "denominator": "316912650057057350374175801344",
+          "approximate": 2.5498884647111388e-11,
+          "floor_6dp": 0.0
+        },
+        "full_row_upper": {
+          "numerator": "4",
+          "denominator": "1",
+          "approximate": 4.0,
+          "floor_6dp": 4.0
+        }
+      },
+      "retained_bound_expansion_exact_pass": true,
+      "full_bound_expansion_exact_pass": false,
+      "full_expanded_violations_by_family": {
+        "minimum_up": 598,
+        "minimum_down": 179
+      },
+      "fossil_energy_exactly_preserved": true,
+      "fossil_energy_MWh": {
+        "numerator": "1654798412944827657145",
+        "denominator": "72057594037927936",
+        "approximate": 22964.941239556443,
+        "floor_6dp": 22964.941239
+      },
+      "cap_nominally_exactly_satisfied": true,
+      "nominal_retained_feasibility_exact": false,
+      "scope": "static network + cap with exact transitions"
+    }
+  ],
+  "expansion_semantics": "Every finite row and column bound is expanded by exact binary64 tau=1e-5, including cap upper B+tau. Identity and positivecontrol use all rows; ordinary static checks omit only minimum_up/down. U/Y/Z remain exactly 0/1.",
+  "uncapped_lower_bound_expansion_semantics": "Cap row is entirely removed before normalizing other multipliers. Every remaining finite row/column bound is expanded; there is no cap contribution to this objective bound.",
+  "no_solver_calls": true,
+  "completed_at_utc": "2026-09-26T21:33:42.271016+00:00",
+  "independent_native_and_permutation_review": {
+    "pass": true,
+    "source": "Separate reviewing agent independently loaded native source arrays and all archived constructive vectors; no solver calls or edits.",
+    "all_136_manifest_hashes_and_sizes_match": true,
+    "runner_and_protocol_hashes_match": true,
+    "zero_named_mean_rows_all_models": true,
+    "zero_feasibility_objective_all_models": true,
+    "LP_and_MIP_matrices_and_bounds_match_parent_models": true,
+    "permutations_regenerated_exactly_from_declared_PCG64_seeds": true,
+    "native_pmin_pmax_net_nodal_and_row_mappings_exact": true,
+    "exact_energy_preserved_all_cases": true,
+    "native_ramps_redundant_and_directly_pass": true,
+    "maximum_float_static_physical_residual": 2.5510009800139894e-11,
+    "cases": [
+      {
+        "case": "january_identity",
+        "changed_hours": 0,
+        "static_network_cap_pass": true,
+        "binary_chronology_network_pass": true,
+        "dwell_run_violations": 0
+      },
+      {
+        "case": "seed_26093100",
+        "changed_hours": 72,
+        "static_network_cap_pass": true,
+        "binary_chronology_network_pass": false,
+        "dwell_run_violations": 278
+      },
+      {
+        "case": "seed_26093101",
+        "changed_hours": 71,
+        "static_network_cap_pass": true,
+        "binary_chronology_network_pass": false,
+        "dwell_run_violations": 286
+      },
+      {
+        "case": "seed_26100100",
+        "changed_hours": 33,
+        "static_network_cap_pass": true,
+        "binary_chronology_network_pass": true,
+        "pointwise_U_unchanged": true,
+        "dwell_run_violations": 0
+      }
+    ]
+  },
+  "interpretation_limits": [
+    "Exact paired feasibility/rejection statement refers to the uniformly tolerance-expanded encoded binary64 model, with all finite bounds expanded by exact binary64 tau=1e-5 and U/Y/Z binary in positive witnesses.",
+    "Nominal constructive witnesses have tiny exact violations; nominal exact feasibility is not asserted.",
+    "Uncapped energy bounds are necessary only; no uncapped feasible witness or finite energy penalty is established.",
+    "One eligible January week, two predeclared ordinary draws; April/October not run, broader replication gate not met.",
+    "Inherited generic certificate support labels can count buses/branches as units and mention absent means; this review uses actual row families and does not repeat those interpretations."
+  ]
+}

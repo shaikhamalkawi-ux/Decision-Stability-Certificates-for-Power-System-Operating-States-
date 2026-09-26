@@ -1,0 +1,41 @@
+{
+  "utc": "2026-09-26T21:13:52.696265+00:00",
+  "source_sha256": "ee0cdf2c5852483d17d6485ef2efc7f6ee807a1f1844dd670c8d1f6acd5c219f",
+  "protocol_sha256": "0cec867e58d48a1f4ee4ff07e127e6bff5173817e0cc5faa8f30771baba92b40",
+  "eligible_heldout_months": [
+    1
+  ],
+  "no_reference_months": [
+    4,
+    10
+  ],
+  "schedule": {
+    "1": [
+      [
+        26093100,
+        26093101
+      ],
+      26100100
+    ],
+    "4": [
+      [
+        26093400,
+        26093401
+      ],
+      26100400
+    ],
+    "10": [
+      [
+        26094000,
+        26094001
+      ],
+      26101000
+    ]
+  },
+  "ordinary_lp_seconds": 30,
+  "conditional_mip_seconds": 120,
+  "phase_limit_seconds": 1200,
+  "minimum_seconds_to_start_mip": 125,
+  "cap_formula": "ceil(101*exact_stored_fossil_MWh/100)",
+  "replication_gate_at_least_two_heldout_weeks": "unattainable in this eligible sample"
+}

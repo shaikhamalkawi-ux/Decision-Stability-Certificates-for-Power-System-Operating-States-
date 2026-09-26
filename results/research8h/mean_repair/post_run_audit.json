@@ -1,0 +1,141 @@
+{
+  "utc": "2026-09-26T21:15:34.825865+00:00",
+  "audit_script_sha256": "64077201e9d1d769d228d41a9fefd4cf7db965ff0a427d7627c2e922dfd7e35e",
+  "frozen_input_manifest_sha256": "08061747e18efd70ffaf18ad8b69e2ef1ca7a417348251c2e8a0ee7ce1f7753f",
+  "all_source_model_hashes_match": true,
+  "manifest_files": 100,
+  "cases": [
+    {
+      "case": "identity",
+      "model_status": "Optimal",
+      "cap_row": 24264,
+      "fossil_dispatch_coordinates": 3864,
+      "cap_MWh": {
+        "numerator": "6203854134678859",
+        "denominator": "34359738368",
+        "approximate": 180555.9189139999
+      },
+      "primal_exists": true,
+      "exact_binary64_fossil_energy_MWh": {
+        "numerator": "406575784568062194969",
+        "denominator": "2251799813685248",
+        "approximate": 180555.91891300003
+      },
+      "exact_binary64_fossil_cap_excess_MWh": {
+        "numerator": "0",
+        "denominator": "1",
+        "approximate": 0.0
+      },
+      "fossil_cap_exactly_satisfied": true,
+      "fossil_cap_within_declared_tolerance": true,
+      "raw_primal_epsilon": 0.0,
+      "reported_float_sum_difference_MWh": 5.820766091346741e-11
+    },
+    {
+      "case": "seed_26092600",
+      "model_status": "Optimal",
+      "cap_row": 24264,
+      "fossil_dispatch_coordinates": 3864,
+      "cap_MWh": {
+        "numerator": "6203854134678859",
+        "denominator": "34359738368",
+        "approximate": 180555.9189139999
+      },
+      "primal_exists": true,
+      "exact_binary64_fossil_energy_MWh": {
+        "numerator": "28610227373261439771649715024012709",
+        "denominator": "158456325028528675187087900672",
+        "approximate": 180555.91891399992
+      },
+      "exact_binary64_fossil_cap_excess_MWh": {
+        "numerator": "4585814121762891173",
+        "denominator": "158456325028528675187087900672",
+        "approximate": 2.894055583415339e-11
+      },
+      "fossil_cap_exactly_satisfied": false,
+      "fossil_cap_within_declared_tolerance": true,
+      "raw_primal_epsilon": 0.015220960506995387,
+      "reported_float_sum_difference_MWh": 1.1641532182693481e-10
+    },
+    {
+      "case": "seed_26092601",
+      "model_status": "Optimal",
+      "cap_row": 24264,
+      "fossil_dispatch_coordinates": 3864,
+      "cap_MWh": {
+        "numerator": "6203854134678859",
+        "denominator": "34359738368",
+        "approximate": 180555.9189139999
+      },
+      "primal_exists": true,
+      "exact_binary64_fossil_energy_MWh": {
+        "numerator": "3576278421657679776628821208117425",
+        "denominator": "19807040628566084398385987584",
+        "approximate": 180555.91891399992
+      },
+      "exact_binary64_fossil_cap_excess_MWh": {
+        "numerator": "378399372050477233",
+        "denominator": "19807040628566084398385987584",
+        "approximate": 1.9104286154931323e-11
+      },
+      "fossil_cap_exactly_satisfied": false,
+      "fossil_cap_within_declared_tolerance": true,
+      "raw_primal_epsilon": 0.02004803257459428,
+      "reported_float_sum_difference_MWh": -2.0372681319713593e-10
+    },
+    {
+      "case": "seed_26092602",
+      "model_status": "Optimal",
+      "cap_row": 24264,
+      "fossil_dispatch_coordinates": 3864,
+      "cap_MWh": {
+        "numerator": "6203854134678859",
+        "denominator": "34359738368",
+        "approximate": 180555.9189139999
+      },
+      "primal_exists": true,
+      "exact_binary64_fossil_energy_MWh": {
+        "numerator": "1788139210828839826455030253573461",
+        "denominator": "9903520314283042199192993792",
+        "approximate": 180555.9189139999
+      },
+      "exact_binary64_fossil_cap_excess_MWh": {
+        "numerator": "127340305674753365",
+        "denominator": "9903520314283042199192993792",
+        "approximate": 1.2858084967130404e-11
+      },
+      "fossil_cap_exactly_satisfied": false,
+      "fossil_cap_within_declared_tolerance": true,
+      "raw_primal_epsilon": 0.015227588586094961,
+      "reported_float_sum_difference_MWh": 5.820766091346741e-11
+    },
+    {
+      "case": "seed_26092603",
+      "model_status": "Optimal",
+      "cap_row": 24264,
+      "fossil_dispatch_coordinates": 3864,
+      "cap_MWh": {
+        "numerator": "6203854134678859",
+        "denominator": "34359738368",
+        "approximate": 180555.9189139999
+      },
+      "primal_exists": true,
+      "exact_binary64_fossil_energy_MWh": {
+        "numerator": "57220454746522880973695398085235557",
+        "denominator": "316912650057057350374175801344",
+        "approximate": 180555.91891399992
+      },
+      "exact_binary64_fossil_cap_excess_MWh": {
+        "numerator": "10602024211562992485",
+        "denominator": "316912650057057350374175801344",
+        "approximate": 3.345408966683466e-11
+      },
+      "fossil_cap_exactly_satisfied": false,
+      "fossil_cap_within_declared_tolerance": true,
+      "raw_primal_epsilon": 0.018081508385971966,
+      "reported_float_sum_difference_MWh": -1.1641532182693481e-10
+    }
+  ],
+  "optimization_calls": 0,
+  "qualification": "Exact binary64 fossil sum/cap residual supplements the existing tolerance matrix check; it does not assert exact feasibility of other rows or a rigorous primal upper bound."
+}
