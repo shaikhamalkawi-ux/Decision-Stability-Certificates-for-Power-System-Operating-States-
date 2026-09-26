@@ -1,0 +1,14 @@
+{
+  "execution_date": "2026-09-20",
+  "timezone": "Asia/Dubai",
+  "operating_system": "Windows 11 10.0.22631 SP0",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "pandas": "3.0.1",
+  "scipy": "1.18.1",
+  "highspy": "1.12.0",
+  "requests": "2.34.2",
+  "mip_time_limit_seconds": 600,
+  "available_mip_engine": "HiGHS 1.12.0",
+  "unavailable_command_line_engines": ["SCIP", "Gurobi", "CBC", "GLPK"]
+}

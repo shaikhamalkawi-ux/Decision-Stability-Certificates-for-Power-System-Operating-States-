@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "Please cite this reproducibility snapshot when using its code or generated outputs."
+type: software
+title: "DSC-Grid: reproducibility software and derived data for Static Feasibility Can Overstate Chronological Admissibility in Distributional Power-System Operating States"
+version: v8-reproducibility.20260926
+date-released: 2026-09-26
+url: "https://github.com/shaikhamalkawi-ux/Decision-Stability-Certificates-for-Power-System-Operating-States-/releases/tag/v8-reproducibility.20260926"
+repository-code: "https://github.com/shaikhamalkawi-ux/Decision-Stability-Certificates-for-Power-System-Operating-States-"
+authors:
+  - family-names: Malkawi
+    given-names: Ghassan
+    affiliation: "Higher Colleges of Technology, Al Ain, Abu Dhabi, United Arab Emirates"
+  - family-names: Elsayed
+    given-names: Ahmed Abdelaziz
+    affiliation: "Canadian University Dubai, Dubai, United Arab Emirates"
+license:
+  - MIT
+  - CC-BY-4.0
+abstract: >-
+  Selected frozen author-generated outputs, derived Elexon summaries, source
+  hashes, acquisition code, and an executable 26-claim arithmetic audit for
+  DSC-Grid V8. Pre-submission reproducibility snapshot with scientific and
+  editorial corrections pending. The audit checks saved-output arithmetic;
+  it does not validate all scientific claims or regenerate upstream models.
+  Zenodo DOI 10.5281/zenodo.22976152 is reserved, awaiting file deposit and
+  record publication; use the versioned GitHub release URL for this snapshot.
+keywords:
+  - power systems
+  - reproducibility
+  - distributional operating states
+  - chronological admissibility

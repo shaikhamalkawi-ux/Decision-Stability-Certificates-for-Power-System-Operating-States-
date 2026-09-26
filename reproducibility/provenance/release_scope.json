@@ -1,0 +1,28 @@
+{
+  "version": "v8-reproducibility.20260926",
+  "status": "pre-submission; scientific and editorial corrections pending",
+  "authors": [
+    {
+      "name": "Ghassan Malkawi",
+      "affiliation": "Faculty of Computer Information Science, Higher Colleges of Technology, Al Ain, Abu Dhabi, United Arab Emirates"
+    },
+    {
+      "name": "Ahmed Abdelaziz Elsayed",
+      "affiliation": "Department of Computer Engineering and Computational Sciences, Canadian University Dubai, Dubai, United Arab Emirates"
+    }
+  ],
+  "source_title": "Static Feasibility Can Overstate Chronological Admissibility in Distributional Power-System Operating States",
+  "included": "selected author-generated outputs, derived classification, portable arithmetic audit, original research computation scripts, public-source acquisition code, and hashes",
+  "excluded": [
+    "manuscript and supplement",
+    "internal scientific/editorial audits",
+    "author-side declarations and handoff documents",
+    "all upstream raw datasets",
+    "original generator metadata",
+    "legacy package archives"
+  ],
+  "verification_scope": "26 saved-output arithmetic checks; not end-to-end regeneration or validation of theoretical/model claims",
+  "original_full_package_sha256": "1db590a301f6dbefd7ead8b9a2c7eeeaeccd3e06481671a1738e43d8a1d90451",
+  "common_gb_coordinates": 2692,
+  "internal_gb_coordinates": 2685
+}

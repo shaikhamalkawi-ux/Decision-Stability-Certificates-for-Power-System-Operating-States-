@@ -1,77 +1,94 @@
 # DSC-Grid — Decision Stability Certificates for Power-System Operating States
 
-Research repository for the DSC-Grid project.
+DSC-Grid studies how a distributional power-system operating-state target changes
+when static feasibility, clock-hour conditioning, commitment, chronology,
+network constraints, and AC restoration are considered. These questions concern
+different quantities and must be interpreted separately.
 
-## Scientific focus
+## Reproducibility snapshot
 
-DSC-Grid studies whether the same distributional power-system operating-state target remains admissible as progressively richer operational information is restored:
+Version **`v8-reproducibility.20260926`** contains selected generated outputs,
+a portable arithmetic verifier, original research computation scripts, Elexon
+acquisition/analysis code, and source provenance. The package is in
+[`reproducibility/`](reproducibility/README.md).
 
-1. static support / feasibility,
-2. clock-hour conditioning,
-3. commitment restrictions,
-4. chronological constraints such as ramping and minimum up/down times,
-5. network-constrained repair,
-6. AC restoration.
+Release and deposit status:
 
-The core scientific distinction is between **static feasibility**, **chronological admissibility**, and **AC feasibility**. These are not interchangeable.
+- [GitHub release](https://github.com/shaikhamalkawi-ux/Decision-Stability-Certificates-for-Power-System-Operating-States-/releases/tag/v8-reproducibility.20260926)
+- Planned Zenodo record: [22976152](https://zenodo.org/records/22976152).
+- Reserved Zenodo DOI: **10.5281/zenodo.22976152**.
 
-## Current active baseline
+**The Zenodo DOI is reserved; file deposit and record publication are pending.**
+The reserved DOI is not yet registered as a published archive. Use the versioned
+GitHub release URL when citing or accessing this snapshot until the Zenodo
+deposit is completed.
 
-**DSC-Grid V8 — Operational Evidence and Chronology Audit**
+## Research status
 
-Current journal target: **IEEE Transactions on Power Systems (TPWRS)**.
+**V8 is a pre-submission candidate with scientific and editorial corrections
+pending. V7 remains the last independently accepted scientific baseline.**
+The reproducibility snapshot preserves inspectable V8 outputs; it does not
+promote V8 to the accepted baseline or represent the manuscript as ready for
+submission. The journal target is IEEE Transactions on Power Systems.
 
-Current headline evidence includes:
+The independent review identified a necessary correction to the PyPSA-GB
+chronology interpretation: the pinned upstream repository contains chronology
+parameters. Inactive or absent attributes in the frozen solved LP extracts do
+not establish that suitable parameters are absent upstream. The admissibility
+of source-provided parameters for the specific experiment remains to be resolved.
 
-- the locked RTS-GMLC static/conditional operating-state results;
-- native chronology showing that ramping alone preserves admission while minimum up/down chronology can reject the same exact target mean;
-- a certified July network-constrained chronological repair bracket;
-- an independent PyPSA-GB January/July replication of the distributional information effect;
-- a frozen Elexon matched-day operational-outturn comparison, explicitly limited to observational evidence;
-- a parameter-level audit placing the PyPSA-GB chronology workstream on HOLD rather than imputing missing constraints;
-- a warm-started 600-second HiGHS run that retains the certified July repair bracket without calling the incumbent optimal;
-- a clean-room reproduction in which 26 of 26 central numerical claims pass;
-- AC-restoration evidence handled separately from chronology.
+The saved-output verifier passes **26 of 26 arithmetic checks**. This establishes
+consistency of the selected archived calculations, not end-to-end regeneration,
+feasibility of every solver witness, or validation of every scientific claim.
+The July network-repair upper endpoint remains a witness bound, not an optimum;
+Elexon results are observational, and AC restoration is separate from chronology.
 
-V8 is the candidate successor to V7, pending the project owner's independent ChatGPT audit before the active Google Drive baseline is changed.
+## Run the portable verification
 
-## Repository policy
+From this repository root, with Python 3.12 or later:
 
-This repository is being prepared as a reproducibility and manuscript-development repository.
-
-- Numerical claims must trace to admitted source data or verified derivations.
-- Solver non-convergence is **not** treated as infeasibility.
-- Incumbents are **not** reported as optima.
-- PGLib-UC stress semantics are kept separate from native RTS-GMLC semantics.
-- New methods are admitted only when they answer a defined scientific question.
-- Every substantive scientific revision must include provenance, reproducibility checks, and a change log.
-
-## Project structure
-
-```text
-manuscript/          Journal manuscript source and release-ready copies
-supplement/          Scientific supplementary material
-src/                 Reproducible analysis and verification code
-data/                Admitted data or acquisition instructions
-results/             Locked numerical outputs and machine-readable results
-external_validation/ Independent RTS / PyPSA-GB / Elexon-NESO evidence
-solver_logs/         Optimization and solver audit logs
-provenance/          Source, environment, commit, and hash records
-docs/                Scientific status, handoff, and workflow documentation
-releases/             Versioned research packages
+```bash
+python -m pip install -r reproducibility/requirements.txt
+python reproducibility/code/verify_manifest.py reproducibility
+python reproducibility/code/verify_26_claims.py reproducibility verification/26_claims
 ```
 
-## Current development workflow
+The manifest checks the immutable package files. The arithmetic command reads
+frozen generated outputs and writes its own report outside the package. It
+recomputes RTS and PyPSA-GB mean/transport quantities, repair-output sums, and
+AC-output counts/medians. The original research scripts under
+[`reproducibility/code/research/`](reproducibility/code/research/README.md)
+need upstream inputs, additional dependencies, and the legacy research layout;
+they are outside this portable verification.
 
-The active research workflow is coordinated between ChatGPT, Codex, Google Drive, and this GitHub repository.
+## Data, code, and reuse
 
-Codex may update the research package and manuscript when new evidence or verified corrections justify a new version. The active baseline must not be overwritten silently; changes must be versioned and documented.
+[`DATA_AVAILABILITY.md`](DATA_AVAILABILITY.md) distinguishes included outputs
+from omitted upstream inputs. Raw third-party datasets, original generator
+metadata, manuscripts, author-side drafts, and internal reviews are excluded
+from the versioned companion package. Upstream source commits, acquisition
+instructions, and hashes are retained. Fresh Elexon responses may differ from
+the original acquisition because the provider can revise public data.
 
-## Publication status
+Author-owned code is MIT-licensed. Author-owned documentation and generated
+data are CC BY 4.0 only to the extent the authors own the relevant rights.
+Third-party terms remain effective. See
+[`LICENSE_SCOPE.md`](reproducibility/LICENSE_SCOPE.md) and
+[`THIRD_PARTY_NOTICES.md`](reproducibility/THIRD_PARTY_NOTICES.md).
+Use [`CITATION.cff`](CITATION.cff) to cite this snapshot.
 
-**Pre-submission research repository.**  
-No journal submission is represented as accepted or published here.
+## Repository layout
 
----
+```text
+reproducibility/      Versioned public companion package and portable verification
+releases/             Package ZIP and checksum
+src/                  Research development source
+results/              Research result records
+manuscript/           Manuscript development source
+supplement/           Supplement development source
+provenance/            Source, environment, and hash records
+```
 
-Repository maintained for the DSC-Grid research project.
+Development files outside `reproducibility/` are not all included in the
+versioned companion archive. Numerical changes and scientific revisions must
+be versioned, traceable to source evidence, and reviewed before baseline promotion.

@@ -1,0 +1,23 @@
+{
+  "source_baseline": "DSC_Grid_V8_OperationalEvidenceAndChronologyAudit",
+  "snapshot_version": "v8-reproducibility.20260926",
+  "changes": [
+    "Copied generated numerical output bytes unchanged from the V8 package or its locked V4 computational lineage.",
+    "Extracted minimal GB name/carrier/inclusion classification from the frozen Jan/Jul generator metadata; kept original coordinate names.",
+    "Adapted arithmetic audit input paths from nested full-package ZIP and original metadata to published generated CSVs and the derived classification.",
+    "Excluded all raw upstream data, original generator metadata, manuscripts, internal audits, author declarations, and handoff documents.",
+    "Added explicit pending-corrections scope and source attribution/license separation.",
+    "Added optional --reference-file to Elexon analysis so fresh registry files can be identified by their actual acquisition date; numerical analysis unchanged.",
+    "Included original author research scripts from src under code/research without duplicating the portable verifier, manifest verifier, or Elexon scripts; documented their legacy layout and dependency requirements."
+  ],
+  "unmodified_scientific_values": true,
+  "original_arithmetic_audit_sha256": "a4c86bbc94cdfedb59f11fef1f314f8ad72805141933162384140f5a8a9d1e6e",
+  "gb_metadata_selection": "concatenate Jan then July metadata; retain last carrier for duplicate name; common dispatch coordinates only; exclude carrier EU_import",
+  "limitations": [
+    "Saved-output arithmetic verification only.",
+    "Does not independently regenerate or verify derived carrier labels from upstream sources.",
+    "No end-to-end optimization or solver witness feasibility validation in this public snapshot.",
+    "Elexon raw responses are omitted; historical output reproduction depends on reacquiring matching bytes.",
+    "Pinned upstream PyPSA-GB contains chronology parameters; blanket absence claims require correction."
+  ]
+}
