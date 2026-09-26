@@ -1,0 +1,119 @@
+{
+  "status": "INDEPENDENT_INTEGER_DYADIC_REPLAY_PASS",
+  "months": [
+    {
+      "month": 1,
+      "hours": 168,
+      "exact_redundancy_hours": 0,
+      "strict_separation_hours": 0,
+      "expanded_separation_hours": 0,
+      "maximum_absolute_rhs_difference": {
+        "numerator": "37",
+        "denominator": "281474976710656"
+      },
+      "integer_scale_exponent": 69,
+      "every_record_and_both_ray_gaps_match": true,
+      "strict_separation_hour_indices": [],
+      "maximum_strict_gap": {
+        "numerator": "-30787062444213577",
+        "denominator": "1237940039285380274899124224"
+      },
+      "maximum_expanded_gap": {
+        "numerator": "-649037171882209689200546502899",
+        "denominator": "2596148429267413814265248164610048"
+      },
+      "distinct_nonzero_coefficient_counts": [
+        15
+      ],
+      "archived_month_sha256": "e5355dc288937e6f9e97bf0e608851067c1e9420eba34dfe3ad6dbd7beaac230"
+    },
+    {
+      "month": 4,
+      "hours": 168,
+      "exact_redundancy_hours": 0,
+      "strict_separation_hours": 0,
+      "expanded_separation_hours": 0,
+      "maximum_absolute_rhs_difference": {
+        "numerator": "9",
+        "denominator": "70368744177664"
+      },
+      "integer_scale_exponent": 69,
+      "every_record_and_both_ray_gaps_match": true,
+      "strict_separation_hour_indices": [],
+      "maximum_strict_gap": {
+        "numerator": "-30791460490724681",
+        "denominator": "1237940039285380274899124224"
+      },
+      "maximum_expanded_gap": {
+        "numerator": "-649037171891433061237401278707",
+        "denominator": "2596148429267413814265248164610048"
+      },
+      "distinct_nonzero_coefficient_counts": [
+        15
+      ],
+      "archived_month_sha256": "41e503e6eeac9e8759f0d5f9123a1660c2ede38d446e572711d5494c68087a50"
+    },
+    {
+      "month": 7,
+      "hours": 168,
+      "exact_redundancy_hours": 0,
+      "strict_separation_hours": 0,
+      "expanded_separation_hours": 0,
+      "maximum_absolute_rhs_difference": {
+        "numerator": "35",
+        "denominator": "140737488355328"
+      },
+      "integer_scale_exponent": 69,
+      "every_record_and_both_ray_gaps_match": true,
+      "strict_separation_hour_indices": [],
+      "maximum_strict_gap": {
+        "numerator": "-30641926909347145",
+        "denominator": "1237940039285380274899124224"
+      },
+      "maximum_expanded_gap": {
+        "numerator": "-649037171577838411984338901235",
+        "denominator": "2596148429267413814265248164610048"
+      },
+      "distinct_nonzero_coefficient_counts": [
+        15
+      ],
+      "archived_month_sha256": "cfcf82c1e8ee43dc45212eb66306696e3dcbe416813b1ffbc4db2ab4568bfbcb"
+    },
+    {
+      "month": 10,
+      "hours": 168,
+      "exact_redundancy_hours": 0,
+      "strict_separation_hours": 0,
+      "expanded_separation_hours": 0,
+      "maximum_absolute_rhs_difference": {
+        "numerator": "21",
+        "denominator": "140737488355328"
+      },
+      "integer_scale_exponent": 69,
+      "every_record_and_both_ray_gaps_match": true,
+      "strict_separation_hour_indices": [],
+      "maximum_strict_gap": {
+        "numerator": "-30765072211658057",
+        "denominator": "1237940039285380274899124224"
+      },
+      "maximum_expanded_gap": {
+        "numerator": "-649037171836092829016272623859",
+        "denominator": "2596148429267413814265248164610048"
+      },
+      "distinct_nonzero_coefficient_counts": [
+        15
+      ],
+      "archived_month_sha256": "6aaf1a7fff028ccdb6f83ede0e763de80a8327fe943be21dc9d08b83bacc91cd"
+    }
+  ],
+  "hours_checked": 672,
+  "ray_orientations_checked": 1344,
+  "optimization_calls": 0,
+  "all_input_freeze_hashes_match": true,
+  "replay_source_sha256": "852614e1d77ee4f2b4c88b97edb04e6296e3984663f372750aecc453f9ce567d",
+  "original_summary_sha256": "4f318fbe5510721ba68c9cd057a7efa441fa0f29e3b06f71283e6a64b3ac3328",
+  "original_freeze_sha256": "fff9aedad3f9b29df7b4cfdb67ff1c906653d9c152e385419966263fc522bd4f",
+  "python_version": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "elapsed_s": 1.9328493000066373,
+  "scope": "Independently decoded CSR/NPY inputs and integer dyadic interval/separation arithmetic; no optimizer, Fraction checker, or native-model reconstruction."
+}

@@ -1,0 +1,21 @@
+{
+  "utc": "2026-09-26T23:38:27.480187+00:00",
+  "source_sha256": "b617d41ab09d18d57c003147b52ae80f369225bc6029121109cee3d53e71d60e",
+  "protocol_sha256": "09b3a45af4224c65b03dd4d3972750ba417f0f26ccc153e51fa9ca3ae4d9829b",
+  "manifest_sha256": "078082667f83322d3540ad3ac215ebcc996d0d31b04fd52bfa75c1d2fd814fcc",
+  "source_v3": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-v8r1-evidence\\3\\.work\\v8r1_rts_inputs",
+  "ordinary_cases": [
+    "seed_26093200",
+    "seed_26093201"
+  ],
+  "control_seed": 26100200,
+  "LP_seconds": 30,
+  "MIP_seconds": 300,
+  "phase_seconds": 1200,
+  "minimum_MIP_remaining_seconds": 305,
+  "optimizations_started": 0,
+  "cap_MWh": 23195,
+  "individual_means": 0,
+  "bound_files": 125,
+  "requires_independent_prepared_PASS_and_root_GO": true
+}

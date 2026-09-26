@@ -1,0 +1,845 @@
+{
+  "status": "PASS_COMPLETE",
+  "utc": "2026-09-26T23:18:15.635036+00:00",
+  "optimization_calls": 0,
+  "preparation_calls": 0,
+  "native_control_replays": 0,
+  "preflight": {
+    "status": "PREFLIGHT_PASS",
+    "utc": "2026-09-26T23:02:31.518247+00:00",
+    "optimization_calls": 0,
+    "preparation_calls": 0,
+    "full_point_replays": 0,
+    "native_control_replays": 0,
+    "prepared_manifest_files": 200,
+    "prepared_manifest_sha256": "6158935e240ac3e20918c40964d9f86ae9b6eb6a1cb6dc8c01ba2c16c1125f60",
+    "prepared_freeze_sha256": "69d3068cf1509d128f6dba8b3226c9309accb050b20afe17deae525723a0b8a7",
+    "source_sha256": "819ddb376d2d9401c958a1ed91a84d540748d6212e8ee4601d7694174ac70800",
+    "protocol_sha256": "fce6d2d69e76ca98081a68f138ee6591408fb61c305288ba482d17896d320e30",
+    "all_frozen_hashes_and_byte_counts_pass": true,
+    "execution_started_absent_before_and_after": true,
+    "source_review": {
+      "bounds_only_state_restriction": true,
+      "all_five_no_routing": true,
+      "exact_anchor_recovery_and_P_theta_bytes": true,
+      "fixed_and_unfixed_original_binary_exact_checks": true,
+      "native_full_DC_cap_check": true,
+      "fixed_only_negative_scope": true,
+      "both_ray_orientations_and_sign_projection": true,
+      "positive_ray_contradiction_guard": true,
+      "raw_solver_ray_filename_and_extra_bindings_corrected_before_freeze": true
+    },
+    "anchor": {
+      "source_vector_sha256": "7c534f8691c761815224ac43773259da5a8e1d3eb2aa892dcb64dc46541672db",
+      "anchor_sha256": "63a9a79ebd01cf594b5fbc7bac1d5af809563defbc9b8ce369c175ba98acbb16",
+      "12096_exact_binary_coordinates": true,
+      "unpermuted_identity_bits_exact": true,
+      "canonical_Y_Z_and_zero_initial_auxiliaries": true,
+      "existing_identity_control_reports_bound_and_pass": true,
+      "control_rows_not_replayed": true
+    },
+    "cases": [
+      {
+        "case": "days_132",
+        "shape": [
+          34681,
+          23016
+        ],
+        "matrix_and_row_metadata_exact_parent_copy": true,
+        "row_bounds_bitwise_unchanged": true,
+        "P_theta_bounds_bitwise_unchanged": true,
+        "identity_UYZ_fixed_exactly": true,
+        "original_binary_mask_exact": true,
+        "fixed_state_coordinates": 12096,
+        "actually_changed_column_bounds": 12048,
+        "objective_native_23_fossil_hourly_coordinates": 3864,
+        "cap_row_exactly_matches_objective": true,
+        "cap_MWh": 23195,
+        "mean_rows": 0,
+        "native_arrays_exact_identity_package_permutation": true,
+        "row_and_unit_order_pass": true,
+        "permutation_hour_of_day_and_fixed_edges_pass": true,
+        "old_constructive_full_positive": false,
+        "old_constructive_states_equal_anchor": false,
+        "known_fixed_positive": false,
+        "included_regardless": true
+      },
+      {
+        "case": "days_213",
+        "shape": [
+          34681,
+          23016
+        ],
+        "matrix_and_row_metadata_exact_parent_copy": true,
+        "row_bounds_bitwise_unchanged": true,
+        "P_theta_bounds_bitwise_unchanged": true,
+        "identity_UYZ_fixed_exactly": true,
+        "original_binary_mask_exact": true,
+        "fixed_state_coordinates": 12096,
+        "actually_changed_column_bounds": 12048,
+        "objective_native_23_fossil_hourly_coordinates": 3864,
+        "cap_row_exactly_matches_objective": true,
+        "cap_MWh": 23195,
+        "mean_rows": 0,
+        "native_arrays_exact_identity_package_permutation": true,
+        "row_and_unit_order_pass": true,
+        "permutation_hour_of_day_and_fixed_edges_pass": true,
+        "old_constructive_full_positive": false,
+        "old_constructive_states_equal_anchor": false,
+        "known_fixed_positive": false,
+        "included_regardless": true
+      },
+      {
+        "case": "days_231",
+        "shape": [
+          34681,
+          23016
+        ],
+        "matrix_and_row_metadata_exact_parent_copy": true,
+        "row_bounds_bitwise_unchanged": true,
+        "P_theta_bounds_bitwise_unchanged": true,
+        "identity_UYZ_fixed_exactly": true,
+        "original_binary_mask_exact": true,
+        "fixed_state_coordinates": 12096,
+        "actually_changed_column_bounds": 12048,
+        "objective_native_23_fossil_hourly_coordinates": 3864,
+        "cap_row_exactly_matches_objective": true,
+        "cap_MWh": 23195,
+        "mean_rows": 0,
+        "native_arrays_exact_identity_package_permutation": true,
+        "row_and_unit_order_pass": true,
+        "permutation_hour_of_day_and_fixed_edges_pass": true,
+        "old_constructive_full_positive": false,
+        "old_constructive_states_equal_anchor": false,
+        "known_fixed_positive": false,
+        "included_regardless": true
+      },
+      {
+        "case": "days_312",
+        "shape": [
+          34681,
+          23016
+        ],
+        "matrix_and_row_metadata_exact_parent_copy": true,
+        "row_bounds_bitwise_unchanged": true,
+        "P_theta_bounds_bitwise_unchanged": true,
+        "identity_UYZ_fixed_exactly": true,
+        "original_binary_mask_exact": true,
+        "fixed_state_coordinates": 12096,
+        "actually_changed_column_bounds": 12048,
+        "objective_native_23_fossil_hourly_coordinates": 3864,
+        "cap_row_exactly_matches_objective": true,
+        "cap_MWh": 23195,
+        "mean_rows": 0,
+        "native_arrays_exact_identity_package_permutation": true,
+        "row_and_unit_order_pass": true,
+        "permutation_hour_of_day_and_fixed_edges_pass": true,
+        "old_constructive_full_positive": true,
+        "old_constructive_states_equal_anchor": false,
+        "known_fixed_positive": false,
+        "included_regardless": true
+      },
+      {
+        "case": "days_321",
+        "shape": [
+          34681,
+          23016
+        ],
+        "matrix_and_row_metadata_exact_parent_copy": true,
+        "row_bounds_bitwise_unchanged": true,
+        "P_theta_bounds_bitwise_unchanged": true,
+        "identity_UYZ_fixed_exactly": true,
+        "original_binary_mask_exact": true,
+        "fixed_state_coordinates": 12096,
+        "actually_changed_column_bounds": 12048,
+        "objective_native_23_fossil_hourly_coordinates": 3864,
+        "cap_row_exactly_matches_objective": true,
+        "cap_MWh": 23195,
+        "mean_rows": 0,
+        "native_arrays_exact_identity_package_permutation": true,
+        "row_and_unit_order_pass": true,
+        "permutation_hour_of_day_and_fixed_edges_pass": true,
+        "old_constructive_full_positive": false,
+        "old_constructive_states_equal_anchor": false,
+        "known_fixed_positive": false,
+        "included_regardless": true
+      }
+    ],
+    "metadata_notes": [
+      "Copied model_metadata.json intentionally retains parent objective/binary-column descriptions. The new objective.npz, frozen protocol, and LP construction define fossil-energy minimization with continuous LP variables fixed by equality bounds; this is preserved parent metadata, not current solver configuration."
+    ],
+    "scope": "Preflight only; no new outcomes. Accepted anchored point must pass both fixed and unfixed expanded binary models plus native checks. A robust negative excludes only the fixed identity schedule. No new data/network/season or replication."
+  },
+  "all_200_frozen_hashes_and_byte_counts_pass": true,
+  "prepared_manifest_sha256": "6158935e240ac3e20918c40964d9f86ae9b6eb6a1cb6dc8c01ba2c16c1125f60",
+  "source_sha256": "819ddb376d2d9401c958a1ed91a84d540748d6212e8ee4601d7694174ac70800",
+  "denominator": 5,
+  "fixed_schedule_robust_negatives": 5,
+  "verified_binary_redispatch_witnesses": 0,
+  "unknown": 0,
+  "anchored_diagnostic_points_exactly_replayed": 5,
+  "all_native_checks_replayed_without_optimization": true,
+  "cases": [
+    {
+      "case": "days_132",
+      "verdict": "REJECTED_FIXED_IDENTITY_SCHEDULE_EXACT_EXPANDED_CERTIFICATE",
+      "solver_status": "Infeasible",
+      "optimization_calls_by_reviewer": 0,
+      "anchored_diagnostic_replay": {
+        "raw_P_theta_bitwise_preserved": true,
+        "exact_identity_UYZ_and_original_binary_mask": true,
+        "exact_CSC_row_activities_recomputed": true,
+        "fixed_expanded_pass": false,
+        "unfixed_expanded_pass": false,
+        "fixed_strict_pass": false,
+        "unfixed_strict_pass": false,
+        "fixed_maximum_column_violation": {
+          "numerator": "413758629639745",
+          "denominator": "2199023255552",
+          "approximate": 188.15564073508767
+        },
+        "unfixed_maximum_column_violation": {
+          "numerator": "413758629639745",
+          "denominator": "2199023255552",
+          "approximate": 188.15564073508767
+        },
+        "maximum_row_violation": {
+          "numerator": "334562020939811153",
+          "denominator": "562949953421312",
+          "approximate": 594.3015341000033
+        },
+        "native_source_arrays_reconstructed_exactly": true,
+        "native_residuals_recomputed_and_match": true,
+        "native_pass": false,
+        "native_residuals": {
+          "negative_dispatch_MW": 132.97954929976234,
+          "availability_MW": 188.15564073508767,
+          "balance_MW": 4.547473508864641e-13,
+          "hydro_fixed_MW": 0.0,
+          "binary_UYZ": 0.0,
+          "state_lower": 0.0,
+          "state_upper": 0.0,
+          "raw_commitment_upper_MW": 431.9656110000003,
+          "raw_commitment_lower_MW": 194.97954929976234,
+          "rounded_commitment_upper_MW": 431.9656110000003,
+          "rounded_commitment_lower_MW": 194.97954929976234,
+          "transition_identity": 0.0,
+          "exclusive_transition": 0.0,
+          "initial_transition": 0.0,
+          "startup_matches_observed": 0.0,
+          "shutdown_matches_observed": 0.0,
+          "observed_residence_violations": 0,
+          "native_on_on_ramp_MW": 92.17111200561828,
+          "provided_nodal_balance_MW": 159.14683116825876,
+          "provided_branch_excess_MW": 97.48609601403507,
+          "angle_bound_rad": 0.0,
+          "slack_angle_rad": 0.0,
+          "fossil_cap_excess_MWh": 594.3015341000033
+        },
+        "reconstructed_network": {
+          "balance_MW": 4.689582056016661e-13,
+          "nodal_balance_MW": 1.8189894035458565e-12,
+          "branch_excess_MW": 97.48609601403501,
+          "max_branch_loading": 1.5570634057944859
+        },
+        "exact_fossil_energy_MWh": {
+          "numerator": "13392186190547142993",
+          "denominator": "562949953421312",
+          "approximate": 23789.301534100003
+        },
+        "exact_signed_cap_excess_MWh": {
+          "numerator": "334562020939811153",
+          "denominator": "562949953421312",
+          "approximate": 594.3015341000033
+        },
+        "is_verified_witness": false
+      },
+      "independent_certificate_replay": {
+        "raw_orientation_projection_and_hex_multipliers_match": true,
+        "independent_CSC_fraction_sum_pass": true,
+        "nominal_gap": {
+          "numerator": "1506733392836843419181867532560765",
+          "denominator": "2535301200456458802993406410752",
+          "approximate": 594.3015340999993
+        },
+        "robust_gap": {
+          "numerator": "789892519055264043712414127872181087409",
+          "denominator": "1329227995784915872903807060280344576",
+          "approximate": 594.2490840999993
+        },
+        "row_term": {
+          "numerator": "1363011627720441868307473685723219",
+          "denominator": "19807040628566084398385987584",
+          "approximate": 68814.5015341
+        },
+        "finite_box_maximum": {
+          "numerator": "172958754955379715724174764240011267",
+          "denominator": "2535301200456458802993406410752",
+          "approximate": 68220.2
+        },
+        "row_multiplier_l1": {
+          "numerator": "409827566090715139",
+          "denominator": "4503599627370496",
+          "approximate": 91.0
+        },
+        "combined_column_l1": {
+          "numerator": "23211552479467536507",
+          "denominator": "4503599627370496",
+          "approximate": 5154.0
+        },
+        "row_multiplier_nonzeros": 91,
+        "combined_column_nonzeros": 3487,
+        "raw_filename_and_all_certificate_bindings_pass": true,
+        "scope_fixed_identity_only": true,
+        "does_not_infer_unfixed_UC_infeasibility": true,
+        "positive_ray_contradiction_absent": true
+      },
+      "output_artifact_sha256": {
+        "anchored_vector.npz": "5ae5a052b490d005af0d5f8d606c86fa460d3ebbb5de93492d5e22694a6588bd",
+        "fixed_exact_point_check.json": "60792ee5b8d588d7909ea378f0d9bb16b33d784ee4a27f5bf0cd135795f90710",
+        "fixed_schedule_certificate.json": "a63efd33ddcd26210bda57909b9c656167545afd2f26f358fac6e47d0bd95569",
+        "native_full_check.json": "5407554dd90d312e4899bf6c685f7464d15bb3f4a95c36976bfe3a223f4fd3c1",
+        "raw_duals.npz": "72d156c1d4111941232779d62248f3c807d542b7e216d1a7123cbf8ce3c5c379",
+        "raw_solver_ray.npz": "d366808f096fe1ab064b44acbd2a9ffb5e4b544f92d3caea4812a80d76d66795",
+        "raw_vector.npz": "5ae5a052b490d005af0d5f8d606c86fa460d3ebbb5de93492d5e22694a6588bd",
+        "result.json": "39a07b60f015d22764aacef273e545f385b0ef49238d05f8b3eba9dbb9d78fed",
+        "solver.log": "a445074321347882deb5ba86d4fe1be638e122a3c350c0c1aad7aed18de66f08",
+        "unfixed_exact_point_check.json": "60792ee5b8d588d7909ea378f0d9bb16b33d784ee4a27f5bf0cd135795f90710"
+      }
+    },
+    {
+      "case": "days_213",
+      "verdict": "REJECTED_FIXED_IDENTITY_SCHEDULE_EXACT_EXPANDED_CERTIFICATE",
+      "solver_status": "Infeasible",
+      "optimization_calls_by_reviewer": 0,
+      "anchored_diagnostic_replay": {
+        "raw_P_theta_bitwise_preserved": true,
+        "exact_identity_UYZ_and_original_binary_mask": true,
+        "exact_CSC_row_activities_recomputed": true,
+        "fixed_expanded_pass": false,
+        "unfixed_expanded_pass": false,
+        "fixed_strict_pass": false,
+        "unfixed_strict_pass": false,
+        "fixed_maximum_column_violation": {
+          "numerator": "271545478185381",
+          "denominator": "1099511627776",
+          "approximate": 246.96917370000028
+        },
+        "unfixed_maximum_column_violation": {
+          "numerator": "271545478185381",
+          "denominator": "1099511627776",
+          "approximate": 246.96917370000028
+        },
+        "maximum_row_violation": {
+          "numerator": "58727097300532636509182596675971",
+          "denominator": "158456325028528675187087900672",
+          "approximate": 370.6200891000049
+        },
+        "native_source_arrays_reconstructed_exactly": true,
+        "native_residuals_recomputed_and_match": true,
+        "native_pass": false,
+        "native_residuals": {
+          "negative_dispatch_MW": 75.52996377520395,
+          "availability_MW": 246.96917370000028,
+          "balance_MW": 2.0463630789890885e-12,
+          "hydro_fixed_MW": 0.0,
+          "binary_UYZ": 0.0,
+          "state_lower": 0.0,
+          "state_upper": 0.0,
+          "raw_commitment_upper_MW": 276.69554680000033,
+          "raw_commitment_lower_MW": 75.52996377520395,
+          "rounded_commitment_upper_MW": 276.69554680000033,
+          "rounded_commitment_lower_MW": 75.52996377520395,
+          "transition_identity": 0.0,
+          "exclusive_transition": 0.0,
+          "initial_transition": 0.0,
+          "startup_matches_observed": 0.0,
+          "shutdown_matches_observed": 0.0,
+          "observed_residence_violations": 0,
+          "native_on_on_ramp_MW": 115.1410190000002,
+          "provided_nodal_balance_MW": 104.98157881176706,
+          "provided_branch_excess_MW": 0.0,
+          "angle_bound_rad": 0.0,
+          "slack_angle_rad": 0.0,
+          "fossil_cap_excess_MWh": 370.6200891000049
+        },
+        "reconstructed_network": {
+          "balance_MW": 2.0463630789890885e-12,
+          "nodal_balance_MW": 3.197442310920451e-12,
+          "branch_excess_MW": 25.34622003392576,
+          "max_branch_loading": 1.0506924400678515
+        },
+        "exact_fossil_energy_MWh": {
+          "numerator": "3734121556337255257473686452763011",
+          "denominator": "158456325028528675187087900672",
+          "approximate": 23565.620089100004
+        },
+        "exact_signed_cap_excess_MWh": {
+          "numerator": "58727097300532636509182596675971",
+          "denominator": "158456325028528675187087900672",
+          "approximate": 370.6200891000049
+        },
+        "is_verified_witness": false
+      },
+      "independent_certificate_replay": {
+        "raw_orientation_projection_and_hex_multipliers_match": true,
+        "independent_CSC_fraction_sum_pass": true,
+        "nominal_gap": {
+          "numerator": "1879267113617016465033874447884363",
+          "denominator": "5070602400912917605986812821504",
+          "approximate": 370.6200890999994
+        },
+        "robust_gap": {
+          "numerator": "492571193080352911120133644923465087937",
+          "denominator": "1329227995784915872903807060280344576",
+          "approximate": 370.5693790999994
+        },
+        "row_term": {
+          "numerator": "2766133247753007748058263178898931",
+          "denominator": "39614081257132168796771975168",
+          "approximate": 69827.0200891
+        },
+        "finite_box_maximum": {
+          "numerator": "352185788598767975286423812451178805",
+          "denominator": "5070602400912917605986812821504",
+          "approximate": 69456.4
+        },
+        "row_multiplier_l1": {
+          "numerator": "819655132181430271",
+          "denominator": "9007199254740992",
+          "approximate": 91.0
+        },
+        "combined_column_l1": {
+          "numerator": "44855852288610140349",
+          "denominator": "9007199254740992",
+          "approximate": 4980.0
+        },
+        "row_multiplier_nonzeros": 91,
+        "combined_column_nonzeros": 3574,
+        "raw_filename_and_all_certificate_bindings_pass": true,
+        "scope_fixed_identity_only": true,
+        "does_not_infer_unfixed_UC_infeasibility": true,
+        "positive_ray_contradiction_absent": true
+      },
+      "output_artifact_sha256": {
+        "anchored_vector.npz": "ee66e05257bd830c41752801774e5a566ff249026dbae6d85ccc4faa16161459",
+        "fixed_exact_point_check.json": "2a801cba2357b1ce9cd24910851952a752879a4a5963f94a4f725194fccb8e9f",
+        "fixed_schedule_certificate.json": "093cb76713f7f37007bc5b79b0e7ba46ff5d28c0d800b5772b5c400b8c8cd341",
+        "native_full_check.json": "aaf58d4e40b911a153e6d1307b4cd414dc0d9984678b6b104609b5e6aefac8bd",
+        "raw_duals.npz": "3342d6669da8463fd22eac78bf7d20763091e087b01d76935840ecefb5b3d185",
+        "raw_solver_ray.npz": "2aecc6e37311880c012cfbe0537677d87dd6e949a8d9e0968a93aa18f7f344a3",
+        "raw_vector.npz": "ee66e05257bd830c41752801774e5a566ff249026dbae6d85ccc4faa16161459",
+        "result.json": "a2894ab664510a5dfecbf9be1b0926f5c46f85716ee4b30d794b5ff2879fb08c",
+        "solver.log": "9d91d2d148135a57900bff1a3f8bb30de9c392e9e76ff86be39fbff4a749a34f",
+        "unfixed_exact_point_check.json": "2a801cba2357b1ce9cd24910851952a752879a4a5963f94a4f725194fccb8e9f"
+      }
+    },
+    {
+      "case": "days_231",
+      "verdict": "REJECTED_FIXED_IDENTITY_SCHEDULE_EXACT_EXPANDED_CERTIFICATE",
+      "solver_status": "Infeasible",
+      "optimization_calls_by_reviewer": 0,
+      "anchored_diagnostic_replay": {
+        "raw_P_theta_bitwise_preserved": true,
+        "exact_identity_UYZ_and_original_binary_mask": true,
+        "exact_CSC_row_activities_recomputed": true,
+        "fixed_expanded_pass": false,
+        "unfixed_expanded_pass": false,
+        "fixed_strict_pass": false,
+        "unfixed_strict_pass": false,
+        "fixed_maximum_column_violation": {
+          "numerator": "800418351619769",
+          "denominator": "2199023255552",
+          "approximate": 363.9881250000003
+        },
+        "unfixed_maximum_column_violation": {
+          "numerator": "800418351619769",
+          "denominator": "2199023255552",
+          "approximate": 363.9881250000003
+        },
+        "maximum_row_violation": {
+          "numerator": "334562020939810993",
+          "denominator": "562949953421312",
+          "approximate": 594.3015341000031
+        },
+        "native_source_arrays_reconstructed_exactly": true,
+        "native_residuals_recomputed_and_match": true,
+        "native_pass": false,
+        "native_residuals": {
+          "negative_dispatch_MW": 123.1837535661012,
+          "availability_MW": 363.9881250000003,
+          "balance_MW": 4.547473508864641e-13,
+          "hydro_fixed_MW": 0.0,
+          "binary_UYZ": 0.0,
+          "state_lower": 0.0,
+          "state_upper": 0.0,
+          "raw_commitment_upper_MW": 431.9656110000003,
+          "raw_commitment_lower_MW": 123.1837535661012,
+          "rounded_commitment_upper_MW": 431.9656110000003,
+          "rounded_commitment_lower_MW": 123.1837535661012,
+          "transition_identity": 0.0,
+          "exclusive_transition": 0.0,
+          "initial_transition": 0.0,
+          "startup_matches_observed": 0.0,
+          "shutdown_matches_observed": 0.0,
+          "observed_residence_violations": 0,
+          "native_on_on_ramp_MW": 258.5714000000004,
+          "provided_nodal_balance_MW": 159.14683116825876,
+          "provided_branch_excess_MW": 189.1635081868422,
+          "angle_bound_rad": 0.0,
+          "slack_angle_rad": 0.0,
+          "fossil_cap_excess_MWh": 594.3015341000031
+        },
+        "reconstructed_network": {
+          "balance_MW": 4.831690603168681e-13,
+          "nodal_balance_MW": 1.8189894035458565e-12,
+          "branch_excess_MW": 189.16350818684236,
+          "max_branch_loading": 2.080934332496242
+        },
+        "exact_fossil_energy_MWh": {
+          "numerator": "13392186190547142833",
+          "denominator": "562949953421312",
+          "approximate": 23789.301534100003
+        },
+        "exact_signed_cap_excess_MWh": {
+          "numerator": "334562020939810993",
+          "denominator": "562949953421312",
+          "approximate": 594.3015341000031
+        },
+        "is_verified_witness": false
+      },
+      "independent_certificate_replay": {
+        "raw_orientation_projection_and_hex_multipliers_match": true,
+        "independent_CSC_fraction_sum_pass": true,
+        "nominal_gap": {
+          "numerator": "1506733392836844914233155705412395",
+          "denominator": "2535301200456458802993406410752",
+          "approximate": 594.3015340999999
+        },
+        "robust_gap": {
+          "numerator": "789892519055264827550100019764359959129",
+          "denominator": "1329227995784915872903807060280344576",
+          "approximate": 594.2490840999999
+        },
+        "row_term": {
+          "numerator": "2726023255440883707913687978604755",
+          "denominator": "39614081257132168796771975168",
+          "approximate": 68814.5015341
+        },
+        "finite_box_maximum": {
+          "numerator": "172958754955379712392242874925291925",
+          "denominator": "2535301200456458802993406410752",
+          "approximate": 68220.2
+        },
+        "row_multiplier_l1": {
+          "numerator": "91",
+          "denominator": "1",
+          "approximate": 91.0
+        },
+        "combined_column_l1": {
+          "numerator": "11605776239733768215",
+          "denominator": "2251799813685248",
+          "approximate": 5154.0
+        },
+        "row_multiplier_nonzeros": 91,
+        "combined_column_nonzeros": 3510,
+        "raw_filename_and_all_certificate_bindings_pass": true,
+        "scope_fixed_identity_only": true,
+        "does_not_infer_unfixed_UC_infeasibility": true,
+        "positive_ray_contradiction_absent": true
+      },
+      "output_artifact_sha256": {
+        "anchored_vector.npz": "df015b4f7f76da52bdf0a14166ca24749a5b339b3759a8c7646b3b2d81f5d237",
+        "fixed_exact_point_check.json": "22eab63587e712282729fb59f0406f3f203a2535273dacb6b21fb0d21b2ba663",
+        "fixed_schedule_certificate.json": "082522719d702d843bf80a4807c05bc99f71f4a905031f4505b0dae18b1bd222",
+        "native_full_check.json": "e191e8eb1ed6a2bdb6c22efd6cf437492a591c2d333f03d69fd3ce23e3d03122",
+        "raw_duals.npz": "adee91b98739c59a6cfb365a4235ce61dc72ab4b85880b573ee2e13ffd4c32bb",
+        "raw_solver_ray.npz": "8a8a332aa865babf4b0e5ec061e37ab115948edb3563c5b5aefed64471eade4b",
+        "raw_vector.npz": "df015b4f7f76da52bdf0a14166ca24749a5b339b3759a8c7646b3b2d81f5d237",
+        "result.json": "a6e250ed36d564d3bb9a72e5fb22edb574d9f63b55d051350f0aece8c3f34ac7",
+        "solver.log": "6212f9b63269a6f77104666719c32279007ac4676610901fd86d796a8261d50b",
+        "unfixed_exact_point_check.json": "22eab63587e712282729fb59f0406f3f203a2535273dacb6b21fb0d21b2ba663"
+      }
+    },
+    {
+      "case": "days_312",
+      "verdict": "REJECTED_FIXED_IDENTITY_SCHEDULE_EXACT_EXPANDED_CERTIFICATE",
+      "solver_status": "Infeasible",
+      "optimization_calls_by_reviewer": 0,
+      "anchored_diagnostic_replay": {
+        "raw_P_theta_bitwise_preserved": true,
+        "exact_identity_UYZ_and_original_binary_mask": true,
+        "exact_CSC_row_activities_recomputed": true,
+        "fixed_expanded_pass": false,
+        "unfixed_expanded_pass": false,
+        "fixed_strict_pass": false,
+        "unfixed_strict_pass": false,
+        "fixed_maximum_column_violation": {
+          "numerator": "1114818615241527",
+          "denominator": "4398046511104",
+          "approximate": 253.48040600000036
+        },
+        "unfixed_maximum_column_violation": {
+          "numerator": "1114818615241527",
+          "denominator": "4398046511104",
+          "approximate": 253.48040600000036
+        },
+        "maximum_row_violation": {
+          "numerator": "58727097300532322320222581035279",
+          "denominator": "158456325028528675187087900672",
+          "approximate": 370.62008910000293
+        },
+        "native_source_arrays_reconstructed_exactly": true,
+        "native_residuals_recomputed_and_match": true,
+        "native_pass": false,
+        "native_residuals": {
+          "negative_dispatch_MW": 75.52996377520395,
+          "availability_MW": 253.48040600000036,
+          "balance_MW": 2.6147972675971687e-12,
+          "hydro_fixed_MW": 0.0,
+          "binary_UYZ": 0.0,
+          "state_lower": 0.0,
+          "state_upper": 0.0,
+          "raw_commitment_upper_MW": 308.48040600000036,
+          "raw_commitment_lower_MW": 75.52996377520395,
+          "rounded_commitment_upper_MW": 308.48040600000036,
+          "rounded_commitment_lower_MW": 75.52996377520395,
+          "transition_identity": 0.0,
+          "exclusive_transition": 0.0,
+          "initial_transition": 0.0,
+          "startup_matches_observed": 0.0,
+          "shutdown_matches_observed": 0.0,
+          "observed_residence_violations": 0,
+          "native_on_on_ramp_MW": 20.141018999999687,
+          "provided_nodal_balance_MW": 104.98157881176706,
+          "provided_branch_excess_MW": 46.9768431219301,
+          "angle_bound_rad": 0.0,
+          "slack_angle_rad": 0.0,
+          "fossil_cap_excess_MWh": 370.62008910000293
+        },
+        "reconstructed_network": {
+          "balance_MW": 2.5579538487363607e-12,
+          "nodal_balance_MW": 1.8189894035458565e-12,
+          "branch_excess_MW": 46.976843121930074,
+          "max_branch_loading": 1.2684391035538862
+        },
+        "exact_fossil_energy_MWh": {
+          "numerator": "3734121556337254943284726437122319",
+          "denominator": "158456325028528675187087900672",
+          "approximate": 23565.620089100004
+        },
+        "exact_signed_cap_excess_MWh": {
+          "numerator": "58727097300532322320222581035279",
+          "denominator": "158456325028528675187087900672",
+          "approximate": 370.62008910000293
+        },
+        "is_verified_witness": false
+      },
+      "independent_certificate_replay": {
+        "raw_orientation_projection_and_hex_multipliers_match": true,
+        "independent_CSC_fraction_sum_pass": true,
+        "nominal_gap": {
+          "numerator": "1879267113617013390052400599297669",
+          "denominator": "5070602400912917605986812821504",
+          "approximate": 370.6200890999988
+        },
+        "robust_gap": {
+          "numerator": "492571193080352105031954046035411293721",
+          "denominator": "1329227995784915872903807060280344576",
+          "approximate": 370.5693790999988
+        },
+        "row_term": {
+          "numerator": "2766133247753007777164691682546499",
+          "denominator": "39614081257132168796771975168",
+          "approximate": 69827.0200891
+        },
+        "finite_box_maximum": {
+          "numerator": "352185788598767982087028134766654203",
+          "denominator": "5070602400912917605986812821504",
+          "approximate": 69456.40000000001
+        },
+        "row_multiplier_l1": {
+          "numerator": "819655132181430277",
+          "denominator": "9007199254740992",
+          "approximate": 91.0
+        },
+        "combined_column_l1": {
+          "numerator": "44855852288610140503",
+          "denominator": "9007199254740992",
+          "approximate": 4980.0
+        },
+        "row_multiplier_nonzeros": 91,
+        "combined_column_nonzeros": 3528,
+        "raw_filename_and_all_certificate_bindings_pass": true,
+        "scope_fixed_identity_only": true,
+        "does_not_infer_unfixed_UC_infeasibility": true,
+        "positive_ray_contradiction_absent": true
+      },
+      "output_artifact_sha256": {
+        "anchored_vector.npz": "6f57fbffd299a95d97a542bf6e8d5d9af2de1743a584b1beba9e4935dbdfa74c",
+        "fixed_exact_point_check.json": "fc098e335a769de37555a0f216a358bdb23ab18bede44b4c098f84920b469e5f",
+        "fixed_schedule_certificate.json": "6840837062d4e67aa8cdb707f05f6fa36dbb7263f218e32fce984b94719a9bac",
+        "native_full_check.json": "838c863826b33e8fb5f5ed404da4b16e76bd281eedef58d9a1ec5ab096b72145",
+        "raw_duals.npz": "56fc24ea66f6c20fd7393576c08e9cd00d83a2262d17b1584df384156b8efd0a",
+        "raw_solver_ray.npz": "c88be33ebce0e195312097679a0b91cd355d65e6476f9215b62d8f58bb03521d",
+        "raw_vector.npz": "6f57fbffd299a95d97a542bf6e8d5d9af2de1743a584b1beba9e4935dbdfa74c",
+        "result.json": "e144624b45d773b2cdea22637ddb82dcd54f780af388feabfef05f883f0e1280",
+        "solver.log": "31a075e27434e06ca48478910ddab19244430df3b1b1d5382ade767406adb4a9",
+        "unfixed_exact_point_check.json": "fc098e335a769de37555a0f216a358bdb23ab18bede44b4c098f84920b469e5f"
+      }
+    },
+    {
+      "case": "days_321",
+      "verdict": "REJECTED_FIXED_IDENTITY_SCHEDULE_EXACT_EXPANDED_CERTIFICATE",
+      "solver_status": "Infeasible",
+      "optimization_calls_by_reviewer": 0,
+      "anchored_diagnostic_replay": {
+        "raw_P_theta_bitwise_preserved": true,
+        "exact_identity_UYZ_and_original_binary_mask": true,
+        "exact_CSC_row_activities_recomputed": true,
+        "fixed_expanded_pass": false,
+        "unfixed_expanded_pass": false,
+        "fixed_strict_pass": false,
+        "unfixed_strict_pass": false,
+        "fixed_maximum_column_violation": {
+          "numerator": "183858909429633",
+          "denominator": "2199023255552",
+          "approximate": 83.60935199999994
+        },
+        "unfixed_maximum_column_violation": {
+          "numerator": "183858909429633",
+          "denominator": "2199023255552",
+          "approximate": 83.60935199999994
+        },
+        "maximum_row_violation": {
+          "numerator": "485950626362577",
+          "denominator": "4398046511104",
+          "approximate": 110.49237999999991
+        },
+        "native_source_arrays_reconstructed_exactly": true,
+        "native_residuals_recomputed_and_match": true,
+        "native_pass": false,
+        "native_residuals": {
+          "negative_dispatch_MW": 40.479910999999674,
+          "availability_MW": 83.60935199999994,
+          "balance_MW": 4.547473508864641e-13,
+          "hydro_fixed_MW": 0.0,
+          "binary_UYZ": 0.0,
+          "state_lower": 0.0,
+          "state_upper": 0.0,
+          "raw_commitment_upper_MW": 110.49237999999991,
+          "raw_commitment_lower_MW": 62.479910999999674,
+          "rounded_commitment_upper_MW": 110.49237999999991,
+          "rounded_commitment_lower_MW": 62.479910999999674,
+          "transition_identity": 0.0,
+          "exclusive_transition": 0.0,
+          "initial_transition": 0.0,
+          "startup_matches_observed": 0.0,
+          "shutdown_matches_observed": 0.0,
+          "observed_residence_violations": 0,
+          "native_on_on_ramp_MW": 0.0,
+          "provided_nodal_balance_MW": 25.395751858964104,
+          "provided_branch_excess_MW": 0.0,
+          "angle_bound_rad": 0.0,
+          "slack_angle_rad": 0.0,
+          "fossil_cap_excess_MWh": 18.6224142000018
+        },
+        "reconstructed_network": {
+          "balance_MW": 3.979039320256561e-13,
+          "nodal_balance_MW": 1.8189894035458565e-12,
+          "branch_excess_MW": 8.767819198293978,
+          "max_branch_loading": 1.017535638396588
+        },
+        "exact_fossil_energy_MWh": {
+          "numerator": "204189182137715863",
+          "denominator": "8796093022208",
+          "approximate": 23213.622414200003
+        },
+        "exact_signed_cap_excess_MWh": {
+          "numerator": "163804487601303",
+          "denominator": "8796093022208",
+          "approximate": 18.6224142000018
+        },
+        "is_verified_witness": false
+      },
+      "independent_certificate_replay": {
+        "raw_orientation_projection_and_hex_multipliers_match": true,
+        "independent_CSC_fraction_sum_pass": true,
+        "nominal_gap": {
+          "numerator": "62201680174409895",
+          "denominator": "562949953421312",
+          "approximate": 110.49237999999998
+        },
+        "robust_gap": {
+          "numerator": "16302344017149909086535",
+          "denominator": "147573952589676412928",
+          "approximate": 110.46897999999999
+        },
+        "row_term": {
+          "numerator": "4254636681727595",
+          "denominator": "4398046511104",
+          "approximate": 967.39238
+        },
+        "finite_box_maximum": {
+          "numerator": "482391815086722265",
+          "denominator": "562949953421312",
+          "approximate": 856.9
+        },
+        "row_multiplier_l1": {
+          "numerator": "23",
+          "denominator": "1",
+          "approximate": 23.0
+        },
+        "combined_column_l1": {
+          "numerator": "2317",
+          "denominator": "1",
+          "approximate": 2317.0
+        },
+        "row_multiplier_nonzeros": 23,
+        "combined_column_nonzeros": 41,
+        "raw_filename_and_all_certificate_bindings_pass": true,
+        "scope_fixed_identity_only": true,
+        "does_not_infer_unfixed_UC_infeasibility": true,
+        "positive_ray_contradiction_absent": true
+      },
+      "output_artifact_sha256": {
+        "anchored_vector.npz": "447be6a76c48a7105290245bff20f131760d039fab12a1eb691ff8c4de08b0ab",
+        "fixed_exact_point_check.json": "a7f6d46dc674cb3e24e68414cb5697fb2299070aac83f25ad7ce657483f1d21e",
+        "fixed_schedule_certificate.json": "2f75862a60be6226a6ffc3a52646fdaffb3e57e2fc6266cb595cbcc42aae85e0",
+        "native_full_check.json": "3ca319862a10ca650bc34c535a28aeeb932651c8d4b1ee37470e1e30e18e2d9c",
+        "raw_duals.npz": "70137311ff5a59d9c34433cb82451a98f60d497f8d515f424af95beb296d16a6",
+        "raw_solver_ray.npz": "6af12d15cdf9a1f6ad761cbec13d3c90db248314ecddd99f2eab7c5123987e59",
+        "raw_vector.npz": "447be6a76c48a7105290245bff20f131760d039fab12a1eb691ff8c4de08b0ab",
+        "result.json": "3a405450e490f230b74929162c90812be678f86c2cb526d303602eea6a1b260f",
+        "solver.log": "486ee1f55858ce80f91fb21c331bb9fb156ff1f67a1a2b9a0efcf081ec35b3f6",
+        "unfixed_exact_point_check.json": "a7f6d46dc674cb3e24e68414cb5697fb2299070aac83f25ad7ce657483f1d21e"
+      }
+    }
+  ],
+  "output_summary_bindings": {
+    "results.json": "8150c7155713dd36994e448c068a8de301e083c9d9ae1ceb95afc667e4cd6696",
+    "completion.json": "445ff2d5db05e4e1233c730603b62e806557a7c78e083593adcbcc2cf48de460",
+    "execution_started.json": "ab09380d32b6f943192321a35a7cf7e061d9e20683e63be73b02bae55d913d3f",
+    "PREPARED_MODEL_INTERPRETATION.md": "2148ed02bea7383cdb1d4364b8b148486b072099a754c5c7eb3d15dcf9847e81",
+    "summary.json": "b1b5e935870c6b297b2c56ba6f1e6ebe5d6dedefb72b3c5e0e49ceb2d0f20c7d",
+    "summary.csv": "516cbde29baa6ce6b4d9754f223929b5f9a57363c87e374041a67f53e167db4d",
+    "READOUT.md": "d6dc17e60c77e27bae86a0fc2680da44fb40e6fd21b70328087a3c994bd061b2"
+  },
+  "interpretation": "All five certificates reject only the fixed unpermuted January identity schedule under the23195MWh cap after uniform finite-bound expansion. They do not establish infeasibility of any unfixed day model; previously verified days312 uses a different schedule. Infeasible-run points marked value_valid are failed diagnostics, not feasible witnesses. No exact optimality, nominal physical feasibility, new data or replication claim.",
+  "final_reporting_review": {
+    "utc": "2026-09-26T23:18:15.635036+00:00",
+    "all_five_summary_records_match_exact_replay": true,
+    "CSV_JSON_fields_and_readout_table_match": true,
+    "cap_multiplier_support_verified_from_hex_and_row_metadata": true,
+    "ray_gap_units_and_fixed_only_scope_explicit": true,
+    "previous_days312_positive_preserved": true,
+    "all_diagnostics_explicitly_not_witnesses_or_uppers": true,
+    "parent_metadata_caveat_explicit": true,
+    "all_frozen_and_prior_mathematical_output_hashes_unchanged": true,
+    "artifact_sha256": {
+      "summary.json": "b1b5e935870c6b297b2c56ba6f1e6ebe5d6dedefb72b3c5e0e49ceb2d0f20c7d",
+      "summary.csv": "516cbde29baa6ce6b4d9754f223929b5f9a57363c87e374041a67f53e167db4d",
+      "READOUT.md": "d6dc17e60c77e27bae86a0fc2680da44fb40e6fd21b70328087a3c994bd061b2"
+    }
+  }
+}

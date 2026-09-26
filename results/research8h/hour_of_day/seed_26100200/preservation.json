@@ -1,0 +1,117 @@
+{
+  "bijection": true,
+  "fixed_edges_48": true,
+  "hour_of_day_exact": true,
+  "joint_package_roundtrips_bitwise": true,
+  "nodal_native_reconstruction_bitwise": true,
+  "exact_fossil_energy_preserved": true,
+  "commitment_sequence_unchanged": true,
+  "within_day_adjacency_preserved": false,
+  "weather_continuity_claim": false,
+  "changed_hours": 14,
+  "changed_adjacent_pair_count": 16,
+  "changed_adjacent_pairs_after_hours": [
+    47,
+    48,
+    49,
+    52,
+    56,
+    57,
+    58,
+    60,
+    95,
+    96,
+    97,
+    100,
+    104,
+    105,
+    106,
+    108
+  ],
+  "changed_adjacent_source_pairs": [
+    {
+      "after_destination_hour": 47,
+      "left_source_hour": 47,
+      "right_source_hour": 96
+    },
+    {
+      "after_destination_hour": 48,
+      "left_source_hour": 96,
+      "right_source_hour": 49
+    },
+    {
+      "after_destination_hour": 49,
+      "left_source_hour": 49,
+      "right_source_hour": 98
+    },
+    {
+      "after_destination_hour": 52,
+      "left_source_hour": 100,
+      "right_source_hour": 53
+    },
+    {
+      "after_destination_hour": 56,
+      "left_source_hour": 56,
+      "right_source_hour": 105
+    },
+    {
+      "after_destination_hour": 57,
+      "left_source_hour": 105,
+      "right_source_hour": 58
+    },
+    {
+      "after_destination_hour": 58,
+      "left_source_hour": 58,
+      "right_source_hour": 107
+    },
+    {
+      "after_destination_hour": 60,
+      "left_source_hour": 108,
+      "right_source_hour": 61
+    },
+    {
+      "after_destination_hour": 95,
+      "left_source_hour": 95,
+      "right_source_hour": 48
+    },
+    {
+      "after_destination_hour": 96,
+      "left_source_hour": 48,
+      "right_source_hour": 97
+    },
+    {
+      "after_destination_hour": 97,
+      "left_source_hour": 97,
+      "right_source_hour": 50
+    },
+    {
+      "after_destination_hour": 100,
+      "left_source_hour": 52,
+      "right_source_hour": 101
+    },
+    {
+      "after_destination_hour": 104,
+      "left_source_hour": 104,
+      "right_source_hour": 57
+    },
+    {
+      "after_destination_hour": 105,
+      "left_source_hour": 57,
+      "right_source_hour": 106
+    },
+    {
+      "after_destination_hour": 106,
+      "left_source_hour": 106,
+      "right_source_hour": 59
+    },
+    {
+      "after_destination_hour": 108,
+      "left_source_hour": 60,
+      "right_source_hour": 109
+    }
+  ],
+  "cap_row_0based": 24264,
+  "mean_rows": 0,
+  "seed": 26100200,
+  "role": "positive_control"
+}

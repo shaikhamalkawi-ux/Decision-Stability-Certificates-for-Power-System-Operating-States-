@@ -1,0 +1,52 @@
+{
+  "utc": "2026-09-26T23:16:23.539573+00:00",
+  "source_sha256": "fe7253d9d6217a26ad3162422e91cc90dba83350526faed1443d54c8500b29ab",
+  "protocol_sha256": "14349e3ea185f0cd4089ab5d2745afbbd4c7d5240064893b5f3ffe0065b6bbb2",
+  "input_manifest_sha256": "d5ae06005d333ee20b6ef5a466c72fd7c5530462ada923fc83a07e26b14e8055",
+  "reference_manifest_sha256": "cc7ff078ea7e99ac177b3d22be3208cf454ca0726015e4a10c3b65329630758b",
+  "source_v3": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-v8r1-evidence\\3\\.work\\v8r1_rts_inputs",
+  "cases": [
+    "seed_26093400",
+    "seed_26093401",
+    "seed_26094000",
+    "seed_26094001"
+  ],
+  "schedule": {
+    "4": [
+      [
+        26093400,
+        26093401
+      ],
+      26100400
+    ],
+    "10": [
+      [
+        26094000,
+        26094001
+      ],
+      26101000
+    ]
+  },
+  "eligibility": [
+    {
+      "month": 4,
+      "eligible": true,
+      "reference_verdict": "VERIFIED_REFERENCE_BINARY_WITNESS_EXPANDED_MODEL",
+      "reference_result_sha256": "7e7938c818de64d11af2050a7f5daeec870aeabae1066122e4ac9342492305d2"
+    },
+    {
+      "month": 10,
+      "eligible": true,
+      "reference_verdict": "VERIFIED_REFERENCE_BINARY_WITNESS_EXPANDED_MODEL",
+      "reference_result_sha256": "49f6e720a0e8aef25d1d518aa941c9e5585de8b43ec7dcdfe06c574c74116829"
+    }
+  ],
+  "LP_seconds": 30,
+  "MIP_seconds": 300,
+  "phase_seconds": 2400,
+  "minimum_MIP_remaining_seconds": 305,
+  "optimizations_started": 0,
+  "all_controls_pass": true,
+  "original_failed_replication_gate_unchanged": true,
+  "requires_parent_go": true
+}

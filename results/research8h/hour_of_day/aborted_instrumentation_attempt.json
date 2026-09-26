@@ -1,0 +1,19 @@
+{
+  "status": "ABORTED_INSTRUMENTATION_BEFORE_OPTIMIZATION",
+  "observed_after_termination_utc": "2026-09-26T23:47:58.971007+00:00",
+  "terminated_session": 7637,
+  "known_wrapper_python_pids_absent_after_termination": [
+    13484,
+    34112
+  ],
+  "frozen_execution_marker_absent": true,
+  "solver_logs_and_result_files_absent": true,
+  "optimization_calls": 0,
+  "reason": "Optional tracing slowed imports; root authorized stopping only this wrapper and direct execution after confirming no frozen execution marker. This is not a solver retry.",
+  "preserved_attempt_files": [
+    "execute_with_timing.py",
+    "timed_execution_started.json"
+  ],
+  "frozen_source_unchanged": true,
+  "frozen_manifest_sha256": "078082667f83322d3540ad3ac215ebcc996d0d31b04fd52bfa75c1d2fd814fcc"
+}

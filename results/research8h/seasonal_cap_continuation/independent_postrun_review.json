@@ -1,0 +1,287 @@
+{
+  "status": "INDEPENDENT_POSTRUN_REVIEW_PASS",
+  "optimization_calls": 0,
+  "manifest_sha256": "d5ae06005d333ee20b6ef5a466c72fd7c5530462ada923fc83a07e26b14e8055",
+  "manifest_files_checked": 271,
+  "all_frozen_hashes_match_before_and_after": true,
+  "cases": [
+    {
+      "case": "seed_26093400",
+      "producer_outcome": {
+        "verdict": "UNKNOWN",
+        "route": "MIP",
+        "MIP_calls": 1,
+        "MIP_elapsed_s": 306.8590213000134,
+        "case": "seed_26093400",
+        "month": 4,
+        "seed": 26093400,
+        "budget_MWh": 43131,
+        "LP_calls": 1,
+        "LP_verdict": "NUMERICAL_CONTINUOUS_FEASIBLE_BINARY_UNKNOWN",
+        "LP_elapsed_s": 22.286296500009485,
+        "static_control_exact_expanded_pass": true
+      },
+      "LP_elapsed_s": 22.286296500009485,
+      "LP_point_scope": "Continuous relaxation only; original binary mask is retained separately.",
+      "independent_continuous_point": {
+        "binary_exact": true,
+        "binary_count": 0,
+        "full_expanded_pass": true,
+        "full_strict_pass": false,
+        "static_expanded_pass": true,
+        "maximum_column_violation": {
+          "numerator": "87",
+          "denominator": "4503599627370496",
+          "float": 1.9317880628477724e-14
+        },
+        "maximum_row_violation": {
+          "numerator": "85363",
+          "denominator": "4503599627370496",
+          "float": 1.8954393610215448e-11
+        },
+        "static_maximum_row_violation": {
+          "numerator": "85363",
+          "denominator": "4503599627370496",
+          "float": 1.8954393610215448e-11
+        },
+        "failed_expanded_rows": [],
+        "integer_scale_exponent": 69
+      },
+      "original_binary_coordinates_not_exact_0_or_1": 538,
+      "original_binary_coordinates_fractional_beyond_tolerance": 537,
+      "LP_point_sha256": "10bc6f6f6a4584f181599fdb0c1224539717aca743d31f8496e3745bca2b9b45",
+      "MIP_elapsed_s": 306.8590213000134,
+      "MIP_soft_limit_overrun_s": 6.85902130001341,
+      "no_recovered_binary_point": true,
+      "no_solver_incumbent": true
+    },
+    {
+      "case": "seed_26093401",
+      "producer_outcome": {
+        "verdict": "UNKNOWN",
+        "route": "MIP",
+        "MIP_calls": 1,
+        "MIP_elapsed_s": 300.0917306999909,
+        "case": "seed_26093401",
+        "month": 4,
+        "seed": 26093401,
+        "budget_MWh": 43131,
+        "LP_calls": 1,
+        "LP_verdict": "NUMERICAL_CONTINUOUS_FEASIBLE_BINARY_UNKNOWN",
+        "LP_elapsed_s": 29.77691319998121,
+        "static_control_exact_expanded_pass": true
+      },
+      "LP_elapsed_s": 29.77691319998121,
+      "LP_point_scope": "Continuous relaxation only; original binary mask is retained separately.",
+      "independent_continuous_point": {
+        "binary_exact": true,
+        "binary_count": 0,
+        "full_expanded_pass": true,
+        "full_strict_pass": false,
+        "static_expanded_pass": true,
+        "maximum_column_violation": {
+          "numerator": "1631",
+          "denominator": "140737488355328",
+          "float": 1.1588952020247234e-11
+        },
+        "maximum_row_violation": {
+          "numerator": "687907823446784479",
+          "denominator": "79228162514264337593543950336",
+          "float": 8.682617413005542e-12
+        },
+        "static_maximum_row_violation": {
+          "numerator": "687907823446784479",
+          "denominator": "79228162514264337593543950336",
+          "float": 8.682617413005542e-12
+        },
+        "failed_expanded_rows": [],
+        "integer_scale_exponent": 103
+      },
+      "original_binary_coordinates_not_exact_0_or_1": 650,
+      "original_binary_coordinates_fractional_beyond_tolerance": 604,
+      "LP_point_sha256": "3c8fa3b132bafe60a0c069fbb9a0a41f1800e606805ac0e42a18e8fd7f4ee800",
+      "MIP_elapsed_s": 300.0917306999909,
+      "MIP_soft_limit_overrun_s": 0.09173069999087602,
+      "no_recovered_binary_point": true,
+      "no_solver_incumbent": true
+    },
+    {
+      "case": "seed_26094000",
+      "producer_outcome": {
+        "verdict": "UNKNOWN",
+        "route": "MIP",
+        "MIP_calls": 1,
+        "MIP_elapsed_s": 301.527557399997,
+        "case": "seed_26094000",
+        "month": 10,
+        "seed": 26094000,
+        "budget_MWh": 125172,
+        "LP_calls": 1,
+        "LP_verdict": "NUMERICAL_CONTINUOUS_FEASIBLE_BINARY_UNKNOWN",
+        "LP_elapsed_s": 27.97123309999006,
+        "static_control_exact_expanded_pass": true
+      },
+      "LP_elapsed_s": 27.97123309999006,
+      "LP_point_scope": "Continuous relaxation only; original binary mask is retained separately.",
+      "independent_continuous_point": {
+        "binary_exact": true,
+        "binary_count": 0,
+        "full_expanded_pass": true,
+        "full_strict_pass": false,
+        "static_expanded_pass": true,
+        "maximum_column_violation": {
+          "numerator": "415254990342379",
+          "denominator": "77371252455336267181195264",
+          "float": 5.367044957454854e-12
+        },
+        "maximum_row_violation": {
+          "numerator": "2253606572624896733",
+          "denominator": "158456325028528675187087900672",
+          "float": 1.4222256967143184e-11
+        },
+        "static_maximum_row_violation": {
+          "numerator": "2253606572624896733",
+          "denominator": "158456325028528675187087900672",
+          "float": 1.4222256967143184e-11
+        },
+        "failed_expanded_rows": [],
+        "integer_scale_exponent": 103
+      },
+      "original_binary_coordinates_not_exact_0_or_1": 792,
+      "original_binary_coordinates_fractional_beyond_tolerance": 658,
+      "LP_point_sha256": "f28f53db258bc8a86f82b24a681368d062f2fba67fd1c714b01555c1f6592a46",
+      "MIP_elapsed_s": 301.527557399997,
+      "MIP_soft_limit_overrun_s": 1.527557399997022,
+      "no_recovered_binary_point": true,
+      "no_solver_incumbent": true
+    },
+    {
+      "case": "seed_26094001",
+      "producer_outcome": {
+        "verdict": "UNKNOWN",
+        "route": "MIP",
+        "MIP_calls": 1,
+        "MIP_elapsed_s": 300.1689936000039,
+        "case": "seed_26094001",
+        "month": 10,
+        "seed": 26094001,
+        "budget_MWh": 125172,
+        "LP_calls": 1,
+        "LP_verdict": "NUMERICAL_CONTINUOUS_FEASIBLE_BINARY_UNKNOWN",
+        "LP_elapsed_s": 26.100279000005685,
+        "static_control_exact_expanded_pass": true
+      },
+      "LP_elapsed_s": 26.100279000005685,
+      "LP_point_scope": "Continuous relaxation only; original binary mask is retained separately.",
+      "independent_continuous_point": {
+        "binary_exact": true,
+        "binary_count": 0,
+        "full_expanded_pass": true,
+        "full_strict_pass": false,
+        "static_expanded_pass": true,
+        "maximum_column_violation": {
+          "numerator": "6980579422424269",
+          "denominator": "9903520314283042199192993792",
+          "float": 7.048583938740194e-13
+        },
+        "maximum_row_violation": {
+          "numerator": "54647485082633281",
+          "denominator": "4951760157141521099596496896",
+          "float": 1.1035971724886484e-11
+        },
+        "static_maximum_row_violation": {
+          "numerator": "54647485082633281",
+          "denominator": "4951760157141521099596496896",
+          "float": 1.1035971724886484e-11
+        },
+        "failed_expanded_rows": [],
+        "integer_scale_exponent": 103
+      },
+      "original_binary_coordinates_not_exact_0_or_1": 976,
+      "original_binary_coordinates_fractional_beyond_tolerance": 911,
+      "LP_point_sha256": "626f1edf7d150c5cd9e10c718837b8e9071304055c9fb3c88cf14817bcc22b21",
+      "MIP_elapsed_s": 300.1689936000039,
+      "MIP_soft_limit_overrun_s": 0.16899360000388697,
+      "no_recovered_binary_point": true,
+      "no_solver_incumbent": true
+    }
+  ],
+  "LP_log_timestamps": [
+    {
+      "case": "seed_26093400",
+      "birth_s": 1790464816.655224,
+      "last_write_s": 1790464838.971296
+    },
+    {
+      "case": "seed_26093401",
+      "birth_s": 1790464839.6190472,
+      "last_write_s": 1790464869.4313726
+    },
+    {
+      "case": "seed_26094000",
+      "birth_s": 1790464875.1801853,
+      "last_write_s": 1790464903.1937127
+    },
+    {
+      "case": "seed_26094001",
+      "birth_s": 1790464904.3102303,
+      "last_write_s": 1790464930.4741347
+    }
+  ],
+  "MIP_log_timestamps": [
+    {
+      "case": "seed_26093400",
+      "birth_s": 1790464932.9036627,
+      "last_write_s": 1790465239.7641826
+    },
+    {
+      "case": "seed_26093401",
+      "birth_s": 1790465240.9363966,
+      "last_write_s": 1790465541.037758
+    },
+    {
+      "case": "seed_26094000",
+      "birth_s": 1790465541.1907048,
+      "last_write_s": 1790465842.6658707
+    },
+    {
+      "case": "seed_26094001",
+      "birth_s": 1790465843.2513387,
+      "last_write_s": 1790466143.4028676
+    }
+  ],
+  "all_LPs_before_any_MIP": true,
+  "MIPs_sequential_in_fixed_order": true,
+  "actual_LP_seconds": 106.13472179998644,
+  "actual_MIP_seconds": 1208.6473030000052,
+  "actual_solver_seconds": 1314.7820247999916,
+  "total_MIP_soft_limit_overrun_s": 8.647303000005195,
+  "completion": {
+    "eligible_ordinary_cases": 4,
+    "intended_ordinary_cases": 4,
+    "intended_class_controls": 2,
+    "LP_calls": 4,
+    "MIP_calls": 4,
+    "actual_LP_seconds": 106.13472179998644,
+    "actual_MIP_seconds": 1208.6473030000052,
+    "phase_elapsed_s": 1344.2543089999817,
+    "phase_allocation_s": 2400,
+    "phase_overrun_s": 0.0,
+    "all_cases_retained": true,
+    "original_failed_replication_gate_unchanged": true,
+    "original_replication_gate": "NOT_MET_INSUFFICIENT_ELIGIBLE_WEEKS",
+    "new_continuation_weeks_with_certified_negative_and_controls": [],
+    "augmented_weeks_with_certified_negative_and_controls": [
+      1
+    ],
+    "augmented_at_least_two_weeks": false,
+    "augmented_evidence_includes_previously_known_January_success": true,
+    "exact_unwidened_positive_claim": false,
+    "scope": "later stronger-reference April/October continuation"
+  },
+  "review_elapsed_s": 14.882431299978634,
+  "review_script_sha256": "3b975cfd52a8cb58c78e94318c79b9f028b2985f7b3e3c8fa3b82226730b6282",
+  "helper_sha256": "3de77675460d103298ac17dc7851144362a3ecb87a1e77ec80f522622259433a",
+  "prepared_review_sha256": "fce0cdef3977caa3244d2f43b78def3bcd8e498d4942d3b3ccfb48bf335b35d0",
+  "scope": "Read-only archived-matrix classification; native physical reports checked for consistency, not independently reassembled from CSVs. LP replay does not impose binary integrality and cannot prove binary feasibility."
+}

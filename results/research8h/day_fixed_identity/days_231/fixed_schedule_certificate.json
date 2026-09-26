@@ -1,0 +1,398 @@
+{
+  "orientation": 1,
+  "candidate": "raw",
+  "projected_entries": 0,
+  "verification": {
+    "pass": true,
+    "robust_pass": true,
+    "arithmetic": "exact rational interpretation of archived binary64 matrix, bounds and ray",
+    "row_multiplier_nonzeros": 91,
+    "combined_column_nonzeros": 3510,
+    "lower_row_sum": 68814.5015341,
+    "box_maximum": 68220.2,
+    "separation_gap": 594.3015340999999,
+    "outward_bound_relaxation": 1e-05,
+    "robust_separation_gap": 594.2490840999999,
+    "maximum_uniform_bound_relaxation": 0.11330820478551,
+    "exact_gap_numerator": "1506733392836844914233155705412395",
+    "exact_gap_denominator": "2535301200456458802993406410752",
+    "exact_robust_gap_numerator": "789892519055264827550100019764359959129",
+    "exact_robust_gap_denominator": "1329227995784915872903807060280344576",
+    "elapsed_s": 0.29636149998987094,
+    "scope": "mathematical model with archived float coefficients; not exact physical measurements"
+  },
+  "multipliers": [
+    {
+      "row": 4,
+      "value_hex": "0x1.0000000000000p+0"
+    },
+    {
+      "row": 5,
+      "value_hex": "0x1.0000000000000p+0"
+    },
+    {
+      "row": 6,
+      "value_hex": "0x1.0000000000000p+0"
+    },
+    {
+      "row": 7,
+      "value_hex": "0x1.0000000000000p+0"
+    },
+    {
+      "row": 8,
+      "value_hex": "0x1.0000000000000p+0"
+    },
+    {
+      "row": 9,
+      "value_hex": "0x1.0000000000000p+0"
+    },
+    {
+      "row": 10,
+      "value_hex": "0x1.0000000000000p+0"
+    },
+    {
+      "row": 11,
+      "value_hex": "0x1.0000000000000p+0"
+    },
+    {
+      "row": 12,
+      "value_hex": "0x1.0000000000000p+0"
+    },
+    {
+      "row": 13,
+      "value_hex": "0x1.0000000000000p+0"
+    },
+    {
+      "row": 14,
+      "value_hex": "0x1.0000000000000p+0"
+    },
+    {
+      "row": 15,
+      "value_hex": "0x1.0000000000000p+0"
+    },
+    {
+      "row": 16,
+      "value_hex": "0x1.0000000000000p+0"
+    },
+    {
+      "row": 17,
+      "value_hex": "0x1.0000000000000p+0"
+    },
+    {
+      "row": 18,
+      "value_hex": "0x1.0000000000000p+0"
+    },
+    {
+      "row": 19,
+      "value_hex": "0x1.0000000000000p+0"
+    },
+    {
+      "row": 20,
+      "value_hex": "0x1.0000000000000p+0"
+    },
+    {
+      "row": 21,
+      "value_hex": "0x1.0000000000000p+0"
+    },
+    {
+      "row": 22,
+      "value_hex": "0x1.0000000000000p+0"
+    },
+    {
+      "row": 28,
+      "value_hex": "0x1.0000000000000p+0"
+    },
+    {
+      "row": 29,
+      "value_hex": "0x1.0000000000000p+0"
+    },
+    {
+      "row": 30,
+      "value_hex": "0x1.0000000000000p+0"
+    },
+    {
+      "row": 40,
+      "value_hex": "0x1.0000000000000p+0"
+    },
+    {
+      "row": 41,
+      "value_hex": "0x1.0000000000000p+0"
+    },
+    {
+      "row": 42,
+      "value_hex": "0x1.0000000000000p+0"
+    },
+    {
+      "row": 43,
+      "value_hex": "0x1.0000000000000p+0"
+    },
+    {
+      "row": 44,
+      "value_hex": "0x1.0000000000000p+0"
+    },
+    {
+      "row": 48,
+      "value_hex": "0x1.0000000000000p+0"
+    },
+    {
+      "row": 49,
+      "value_hex": "0x1.0000000000000p+0"
+    },
+    {
+      "row": 50,
+      "value_hex": "0x1.0000000000000p+0"
+    },
+    {
+      "row": 51,
+      "value_hex": "0x1.0000000000000p+0"
+    },
+    {
+      "row": 52,
+      "value_hex": "0x1.0000000000000p+0"
+    },
+    {
+      "row": 53,
+      "value_hex": "0x1.0000000000000p+0"
+    },
+    {
+      "row": 54,
+      "value_hex": "0x1.0000000000000p+0"
+    },
+    {
+      "row": 55,
+      "value_hex": "0x1.0000000000000p+0"
+    },
+    {
+      "row": 56,
+      "value_hex": "0x1.0000000000000p+0"
+    },
+    {
+      "row": 57,
+      "value_hex": "0x1.0000000000000p+0"
+    },
+    {
+      "row": 58,
+      "value_hex": "0x1.0000000000000p+0"
+    },
+    {
+      "row": 59,
+      "value_hex": "0x1.ffffffffffffep-1"
+    },
+    {
+      "row": 60,
+      "value_hex": "0x1.0000000000000p+0"
+    },
+    {
+      "row": 61,
+      "value_hex": "0x1.0000000000000p+0"
+    },
+    {
+      "row": 63,
+      "value_hex": "0x1.0000000000000p+0"
+    },
+    {
+      "row": 64,
+      "value_hex": "0x1.0000000000000p+0"
+    },
+    {
+      "row": 65,
+      "value_hex": "0x1.0000000000000p+0"
+    },
+    {
+      "row": 66,
+      "value_hex": "0x1.0000000000000p+0"
+    },
+    {
+      "row": 67,
+      "value_hex": "0x1.0000000000000p+0"
+    },
+    {
+      "row": 68,
+      "value_hex": "0x1.0000000000001p+0"
+    },
+    {
+      "row": 87,
+      "value_hex": "0x1.0000000000000p+0"
+    },
+    {
+      "row": 88,
+      "value_hex": "0x1.0000000000000p+0"
+    },
+    {
+      "row": 89,
+      "value_hex": "0x1.0000000000000p+0"
+    },
+    {
+      "row": 90,
+      "value_hex": "0x1.0000000000000p+0"
+    },
+    {
+      "row": 91,
+      "value_hex": "0x1.0000000000000p+0"
+    },
+    {
+      "row": 92,
+      "value_hex": "0x1.0000000000000p+0"
+    },
+    {
+      "row": 93,
+      "value_hex": "0x1.0000000000000p+0"
+    },
+    {
+      "row": 94,
+      "value_hex": "0x1.0000000000000p+0"
+    },
+    {
+      "row": 101,
+      "value_hex": "0x1.0000000000000p+0"
+    },
+    {
+      "row": 102,
+      "value_hex": "0x1.0000000000000p+0"
+    },
+    {
+      "row": 111,
+      "value_hex": "0x1.0000000000000p+0"
+    },
+    {
+      "row": 112,
+      "value_hex": "0x1.0000000000000p+0"
+    },
+    {
+      "row": 113,
+      "value_hex": "0x1.0000000000000p+0"
+    },
+    {
+      "row": 114,
+      "value_hex": "0x1.0000000000000p+0"
+    },
+    {
+      "row": 115,
+      "value_hex": "0x1.0000000000000p+0"
+    },
+    {
+      "row": 116,
+      "value_hex": "0x1.0000000000000p+0"
+    },
+    {
+      "row": 117,
+      "value_hex": "0x1.0000000000000p+0"
+    },
+    {
+      "row": 118,
+      "value_hex": "0x1.0000000000000p+0"
+    },
+    {
+      "row": 119,
+      "value_hex": "0x1.0000000000000p+0"
+    },
+    {
+      "row": 124,
+      "value_hex": "0x1.0000000000000p+0"
+    },
+    {
+      "row": 125,
+      "value_hex": "0x1.0000000000000p+0"
+    },
+    {
+      "row": 126,
+      "value_hex": "0x1.0000000000000p+0"
+    },
+    {
+      "row": 136,
+      "value_hex": "0x1.0000000000000p+0"
+    },
+    {
+      "row": 137,
+      "value_hex": "0x1.0000000000000p+0"
+    },
+    {
+      "row": 138,
+      "value_hex": "0x1.0000000000000p+0"
+    },
+    {
+      "row": 139,
+      "value_hex": "0x1.0000000000000p+0"
+    },
+    {
+      "row": 148,
+      "value_hex": "0x1.0000000000000p+0"
+    },
+    {
+      "row": 149,
+      "value_hex": "0x1.0000000000000p+0"
+    },
+    {
+      "row": 150,
+      "value_hex": "0x1.0000000000000p+0"
+    },
+    {
+      "row": 161,
+      "value_hex": "0x1.0000000000000p+0"
+    },
+    {
+      "row": 162,
+      "value_hex": "0x1.0000000000000p+0"
+    },
+    {
+      "row": 163,
+      "value_hex": "0x1.0000000000000p+0"
+    },
+    {
+      "row": 164,
+      "value_hex": "0x1.0000000000000p+0"
+    },
+    {
+      "row": 17665,
+      "value_hex": "-0x1.0000000000000p+0"
+    },
+    {
+      "row": 17671,
+      "value_hex": "-0x1.0000000000000p+0"
+    },
+    {
+      "row": 17677,
+      "value_hex": "-0x1.0000000000000p+0"
+    },
+    {
+      "row": 17683,
+      "value_hex": "-0x1.0000000000000p+0"
+    },
+    {
+      "row": 17689,
+      "value_hex": "-0x1.0000000000000p+0"
+    },
+    {
+      "row": 17695,
+      "value_hex": "-0x1.0000000000000p+0"
+    },
+    {
+      "row": 17701,
+      "value_hex": "-0x1.0000000000000p+0"
+    },
+    {
+      "row": 17707,
+      "value_hex": "-0x1.0000000000000p+0"
+    },
+    {
+      "row": 17713,
+      "value_hex": "-0x1.0000000000000p+0"
+    },
+    {
+      "row": 17719,
+      "value_hex": "-0x1.0000000000000p+0"
+    },
+    {
+      "row": 24264,
+      "value_hex": "-0x1.0000000000000p+0"
+    }
+  ],
+  "model_artifacts": {
+    "matrix.npz": "2f11940f72432a2a2e89e4a88115eba3cf24a8e82a8110e250c6191020c1f0bb",
+    "bounds.npz": "9820ad1ad487a384806898d6a2b69602c60c1f666c9977e8b2ef2532ab844338"
+  },
+  "raw_solver_ray_sha256": "8a8a332aa865babf4b0e5ec061e37ab115948edb3563c5b5aefed64471eade4b",
+  "row_metadata_sha256": "2675e532cbb7ad00f2efb12f1fcc5dceb36fa672225205242577240820ecbb54",
+  "experiment_manifest_sha256": "6158935e240ac3e20918c40964d9f86ae9b6eb6a1cb6dc8c01ba2c16c1125f60",
+  "scope": "Rejects only the fixed identity U/Y/Z restriction; does not reject the full unfixed UC model."
+}

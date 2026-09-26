@@ -1,0 +1,55 @@
+{
+  "status": "INDEPENDENT_CAP_BAND_ARITHMETIC_PASS",
+  "optimizer_calls": 0,
+  "full_matrix_or_point_replays": 0,
+  "bindings": 4,
+  "all_hashes_unchanged": true,
+  "manifest_sha256": "686d407ff94eb2e198656a5edc43aef115492e5ef618a7be1c4f0a0128c92806",
+  "review_source_sha256": "bff145ec85dfdfb19788e4a1111c7c70e9d103e9769adc7b4ff13cf7aadef0de",
+  "arithmetic_results": [
+    {
+      "case": "seed_26093100",
+      "pass_all": true,
+      "exact_bound_and_upper_inheritance_match": true,
+      "closed_decimal_band": [
+        "22964.941230",
+        "24507.776959"
+      ],
+      "binary64_display_endpoints_also_inside": true,
+      "integer_cap_range": [
+        22965,
+        24507
+      ],
+      "integer_cap_count": 1543,
+      "half_gap_MWh": {
+        "numerator": "2538743225332781507118549784362889884355124626290726193109324376411",
+        "denominator": "3291009114642412084309938365114701009965471731267159726697218048",
+        "approximate": 771.4178651275571
+      },
+      "original_cap_in_band": true
+    },
+    {
+      "case": "seed_26093101",
+      "pass_all": true,
+      "exact_bound_and_upper_inheritance_match": true,
+      "closed_decimal_band": [
+        "22964.941230",
+        "25104.092367"
+      ],
+      "binary64_display_endpoints_also_inside": true,
+      "integer_cap_range": [
+        22965,
+        25104
+      ],
+      "integer_cap_count": 2140,
+      "half_gap_MWh": {
+        "numerator": "3201405839519772115393250917834982495579473579849072221",
+        "denominator": "2993155353253689176481146537402947624255349848014848",
+        "approximate": 1069.5755688189408
+      },
+      "original_cap_in_band": true
+    }
+  ],
+  "scope": "Derived consequences conditional on separately completed original-model lower-bound and binary-upper-point audits; no new empirical cases",
+  "elapsed_seconds": 0.22439489999669604
+}

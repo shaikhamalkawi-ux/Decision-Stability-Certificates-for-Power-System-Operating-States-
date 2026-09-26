@@ -1,0 +1,22 @@
+Running HiGHS 1.12.0 (git hash: 755a8e0): Copyright (c) 2025 HiGHS under MIT licence terms
+LP has 34681 rows; 23016 cols; 145588 nonzeros
+Coefficient ranges:
+  Matrix  [1e+00, 2e+04]
+  Cost    [0e+00, 0e+00]
+  Bound   [1e-01, 6e+02]
+  RHS     [1e+00, 1e+05]
+Solving LP without presolve or useful basis
+Using EKK dual simplex solver - serial
+  Iteration        Objective     Infeasibilities num(sum)
+          0    -4.5393232195e+00 Pr: 4200(8.99738e+06) 1s
+       9843    -1.5510430989e-01 Pr: 1547(617261); Du: 0(4.94842e-06) 9s
+      10781    -1.5148047782e-01 Pr: 1288(31984.8); Du: 0(5.01519e-06) 15s
+      11875    -1.4793508904e-01 Pr: 881(14889.9); Du: 0(4.45672e-06) 20s
+      12972    -1.4639880041e-01 Pr: 466(1550.97); Du: 0(4.31672e-06) 26s
+      13210     0.0000000000e+00 Pr: 0(0) 28s
+
+Model status        : Optimal
+Simplex   iterations: 13210
+Objective value     :  0.0000000000e+00
+P-D objective error :  0.0000000000e+00
+HiGHS run time      :         27.87

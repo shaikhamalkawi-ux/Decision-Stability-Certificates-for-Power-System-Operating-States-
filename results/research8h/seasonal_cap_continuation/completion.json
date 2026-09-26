@@ -1,0 +1,23 @@
+{
+  "eligible_ordinary_cases": 4,
+  "intended_ordinary_cases": 4,
+  "intended_class_controls": 2,
+  "LP_calls": 4,
+  "MIP_calls": 4,
+  "actual_LP_seconds": 106.13472179998644,
+  "actual_MIP_seconds": 1208.6473030000052,
+  "phase_elapsed_s": 1344.2543089999817,
+  "phase_allocation_s": 2400,
+  "phase_overrun_s": 0.0,
+  "all_cases_retained": true,
+  "original_failed_replication_gate_unchanged": true,
+  "original_replication_gate": "NOT_MET_INSUFFICIENT_ELIGIBLE_WEEKS",
+  "new_continuation_weeks_with_certified_negative_and_controls": [],
+  "augmented_weeks_with_certified_negative_and_controls": [
+    1
+  ],
+  "augmented_at_least_two_weeks": false,
+  "augmented_evidence_includes_previously_known_January_success": true,
+  "exact_unwidened_positive_claim": false,
+  "scope": "later stronger-reference April/October continuation"
+}

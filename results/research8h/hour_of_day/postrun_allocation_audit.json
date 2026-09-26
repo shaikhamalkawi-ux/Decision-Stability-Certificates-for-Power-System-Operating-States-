@@ -1,0 +1,31 @@
+{
+  "status": "COMPLETED_DIRECT_INVOCATION_WITH_NO_SOLVER_RETRY",
+  "optimization_calls": 2,
+  "LP_calls": 2,
+  "MIP_calls": 0,
+  "frozen_inputs_checked": 125,
+  "frozen_manifest_sha256": "078082667f83322d3540ad3ac215ebcc996d0d31b04fd52bfa75c1d2fd814fcc",
+  "execution_marker_utc_before_native_loading": "2026-09-26T23:48:12.606562+00:00",
+  "completion_file_modified_utc": "2026-09-26T23:48:22.877794+00:00",
+  "allocation_start_utc": null,
+  "allocation_start_not_instrumented": true,
+  "reported_phase_elapsed_s": 8.390226399991661,
+  "configured_soft_allocation_s": 1200,
+  "reported_phase_overrun_s": 0.0,
+  "actual_LP_seconds": 5.857389999990119,
+  "actual_MIP_seconds": 0,
+  "each_LP_requested_s": 30,
+  "maximum_LP_requested_limit_overrun_s": 0.0,
+  "hard_wall_time_cap_claim": false,
+  "solver_performance_benchmark_claim": false,
+  "timing_scope": "Frozen phase excludes entry validation/native loading. Completion mtime is not an exact allocation timestamp.",
+  "aborted_optional_instrumentation": {
+    "optimization_calls": 0,
+    "termination_confirmed_without_execution_marker": true,
+    "invocation_to_termination_confirmation_s": 167.930762,
+    "record_sha256": "da263de53e3c4581d2dc9725e5b94013c43d91666324fa03ec9d5e1b89286b92",
+    "excluded_from_solver_allocation": true
+  },
+  "summary_source_sha256": "e0a0382c2fbfc7eaefc1785f52edc195de01d7620f9f151377412d5a8eb0bfd0",
+  "created_utc": "2026-09-26T23:50:11.522263+00:00"
+}

@@ -1,0 +1,56 @@
+{
+  "months": [
+    {
+      "month": 1,
+      "hours": 168,
+      "exact_redundancy_hours": 0,
+      "strict_separation_hours": 0,
+      "expanded_separation_hours": 0,
+      "maximum_absolute_rhs_difference": {
+        "numerator": "37",
+        "denominator": "281474976710656",
+        "float": 1.3145040611561853e-13
+      }
+    },
+    {
+      "month": 4,
+      "hours": 168,
+      "exact_redundancy_hours": 0,
+      "strict_separation_hours": 0,
+      "expanded_separation_hours": 0,
+      "maximum_absolute_rhs_difference": {
+        "numerator": "9",
+        "denominator": "70368744177664",
+        "float": 1.2789769243681803e-13
+      }
+    },
+    {
+      "month": 7,
+      "hours": 168,
+      "exact_redundancy_hours": 0,
+      "strict_separation_hours": 0,
+      "expanded_separation_hours": 0,
+      "maximum_absolute_rhs_difference": {
+        "numerator": "35",
+        "denominator": "140737488355328",
+        "float": 2.4868995751603507e-13
+      }
+    },
+    {
+      "month": 10,
+      "hours": 168,
+      "exact_redundancy_hours": 0,
+      "strict_separation_hours": 0,
+      "expanded_separation_hours": 0,
+      "maximum_absolute_rhs_difference": {
+        "numerator": "21",
+        "denominator": "140737488355328",
+        "float": 1.4921397450962104e-13
+      }
+    }
+  ],
+  "all_frozen_inputs_unchanged": true,
+  "optimization_calls": 0,
+  "elapsed_s": 614.499874000001,
+  "scope": "Selected equality redundancy and box tests only; nonseparation is not feasibility."
+}

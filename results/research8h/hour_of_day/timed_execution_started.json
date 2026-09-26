@@ -1,0 +1,9 @@
+{
+  "observed_process_invocation_utc": "2026-09-26T23:45:11.040245+00:00",
+  "root_GO_received": true,
+  "frozen_source_sha256": "b617d41ab09d18d57c003147b52ae80f369225bc6029121109cee3d53e71d60e",
+  "frozen_manifest_sha256": "078082667f83322d3540ad3ac215ebcc996d0d31b04fd52bfa75c1d2fd814fcc",
+  "timing_wrapper_sha256": "f448eb9f9b87e1249dccd6ef2d82ac7fdfbb78fd288eca74d3214987efbe5b75",
+  "instrumentation": "read phase_started from original running frame; no model or runner mutation",
+  "additional_optimization_calls": 0
+}

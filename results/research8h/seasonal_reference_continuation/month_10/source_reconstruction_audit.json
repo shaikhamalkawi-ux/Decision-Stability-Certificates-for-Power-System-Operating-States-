@@ -1,0 +1,23 @@
+{
+  "pass": true,
+  "optimization_calls": 0,
+  "month": 10,
+  "all_csr_entries_exact": true,
+  "all_bounds_exact": true,
+  "objective_and_original_integrality_exact": true,
+  "metadata_and_labels_exact": true,
+  "all_native_arrays_exact": true,
+  "source_hour_mapping_exact": true,
+  "roster": {
+    "generators": 41,
+    "thermal": 24,
+    "fossil": 23,
+    "buses": 24,
+    "branches": 38
+  },
+  "shape": [
+    34680,
+    23016
+  ],
+  "nonzeros": 141724
+}

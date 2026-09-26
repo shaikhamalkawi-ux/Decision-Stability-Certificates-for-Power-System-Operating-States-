@@ -1,0 +1,126 @@
+{
+  "orientation": 1,
+  "candidate": "raw",
+  "projected_entries": 0,
+  "verification": {
+    "pass": true,
+    "robust_pass": true,
+    "arithmetic": "exact rational interpretation of archived binary64 matrix, bounds and ray",
+    "row_multiplier_nonzeros": 23,
+    "combined_column_nonzeros": 41,
+    "lower_row_sum": 967.39238,
+    "box_maximum": 856.9,
+    "separation_gap": 110.49237999999998,
+    "outward_bound_relaxation": 1e-05,
+    "robust_separation_gap": 110.46897999999999,
+    "maximum_uniform_bound_relaxation": 0.0472189658119658,
+    "exact_gap_numerator": "62201680174409895",
+    "exact_gap_denominator": "562949953421312",
+    "exact_robust_gap_numerator": "16302344017149909086535",
+    "exact_robust_gap_denominator": "147573952589676412928",
+    "elapsed_s": 0.003285399987362325,
+    "scope": "mathematical model with archived float coefficients; not exact physical measurements"
+  },
+  "multipliers": [
+    {
+      "row": 119,
+      "value_hex": "0x1.0000000000000p+0"
+    },
+    {
+      "row": 878,
+      "value_hex": "-0x1.0000000000000p+0"
+    },
+    {
+      "row": 1882,
+      "value_hex": "-0x1.0000000000000p+0"
+    },
+    {
+      "row": 2886,
+      "value_hex": "-0x1.0000000000000p+0"
+    },
+    {
+      "row": 3890,
+      "value_hex": "-0x1.0000000000000p+0"
+    },
+    {
+      "row": 5898,
+      "value_hex": "-0x1.0000000000000p+0"
+    },
+    {
+      "row": 6902,
+      "value_hex": "-0x1.0000000000000p+0"
+    },
+    {
+      "row": 7906,
+      "value_hex": "-0x1.0000000000000p+0"
+    },
+    {
+      "row": 8910,
+      "value_hex": "-0x1.0000000000000p+0"
+    },
+    {
+      "row": 9914,
+      "value_hex": "-0x1.0000000000000p+0"
+    },
+    {
+      "row": 10918,
+      "value_hex": "-0x1.0000000000000p+0"
+    },
+    {
+      "row": 11922,
+      "value_hex": "-0x1.0000000000000p+0"
+    },
+    {
+      "row": 12926,
+      "value_hex": "-0x1.0000000000000p+0"
+    },
+    {
+      "row": 13930,
+      "value_hex": "-0x1.0000000000000p+0"
+    },
+    {
+      "row": 14934,
+      "value_hex": "-0x1.0000000000000p+0"
+    },
+    {
+      "row": 15938,
+      "value_hex": "-0x1.0000000000000p+0"
+    },
+    {
+      "row": 16942,
+      "value_hex": "-0x1.0000000000000p+0"
+    },
+    {
+      "row": 17946,
+      "value_hex": "-0x1.0000000000000p+0"
+    },
+    {
+      "row": 18950,
+      "value_hex": "-0x1.0000000000000p+0"
+    },
+    {
+      "row": 19954,
+      "value_hex": "-0x1.0000000000000p+0"
+    },
+    {
+      "row": 20958,
+      "value_hex": "-0x1.0000000000000p+0"
+    },
+    {
+      "row": 21962,
+      "value_hex": "-0x1.0000000000000p+0"
+    },
+    {
+      "row": 22966,
+      "value_hex": "-0x1.0000000000000p+0"
+    }
+  ],
+  "model_artifacts": {
+    "matrix.npz": "2f11940f72432a2a2e89e4a88115eba3cf24a8e82a8110e250c6191020c1f0bb",
+    "bounds.npz": "3fe14a3193e58b6faad5b26f98cad3d9eb31ff629c40de99654cb561fd980c0a"
+  },
+  "raw_solver_ray_sha256": "6af12d15cdf9a1f6ad761cbec13d3c90db248314ecddd99f2eab7c5123987e59",
+  "row_metadata_sha256": "eb73c440b322d0218299b5811de3db39e8335eac7dd014247ab4224be92f1efe",
+  "experiment_manifest_sha256": "6158935e240ac3e20918c40964d9f86ae9b6eb6a1cb6dc8c01ba2c16c1125f60",
+  "scope": "Rejects only the fixed identity U/Y/Z restriction; does not reject the full unfixed UC model."
+}

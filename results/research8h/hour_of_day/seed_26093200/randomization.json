@@ -1,0 +1,340 @@
+{
+  "seed": 26093200,
+  "generator": "numpy.random.Generator(PCG64)",
+  "numpy_version": "2.3.5",
+  "state_before": {
+    "bit_generator": "PCG64",
+    "state": {
+      "state": 303075216865841772280957595385671566761,
+      "inc": 171890025924326110451432733225450095885
+    },
+    "has_uint32": 0,
+    "uinteger": 0
+  },
+  "state_after": {
+    "bit_generator": "PCG64",
+    "state": {
+      "state": 272896122303383220437869949147683342702,
+      "inc": 171890025924326110451432733225450095885
+    },
+    "has_uint32": 1,
+    "uinteger": 2507605106
+  },
+  "group_order": "hour 0 through 23",
+  "groups": [
+    {
+      "hour_of_day_0based": 0,
+      "destination_hours": [
+        48,
+        72,
+        96
+      ],
+      "source_hours": [
+        48,
+        96,
+        72
+      ]
+    },
+    {
+      "hour_of_day_0based": 1,
+      "destination_hours": [
+        49,
+        73,
+        97
+      ],
+      "source_hours": [
+        73,
+        49,
+        97
+      ]
+    },
+    {
+      "hour_of_day_0based": 2,
+      "destination_hours": [
+        50,
+        74,
+        98
+      ],
+      "source_hours": [
+        98,
+        50,
+        74
+      ]
+    },
+    {
+      "hour_of_day_0based": 3,
+      "destination_hours": [
+        51,
+        75,
+        99
+      ],
+      "source_hours": [
+        75,
+        51,
+        99
+      ]
+    },
+    {
+      "hour_of_day_0based": 4,
+      "destination_hours": [
+        52,
+        76,
+        100
+      ],
+      "source_hours": [
+        100,
+        76,
+        52
+      ]
+    },
+    {
+      "hour_of_day_0based": 5,
+      "destination_hours": [
+        53,
+        77,
+        101
+      ],
+      "source_hours": [
+        77,
+        53,
+        101
+      ]
+    },
+    {
+      "hour_of_day_0based": 6,
+      "destination_hours": [
+        54,
+        78,
+        102
+      ],
+      "source_hours": [
+        54,
+        78,
+        102
+      ]
+    },
+    {
+      "hour_of_day_0based": 7,
+      "destination_hours": [
+        55,
+        79,
+        103
+      ],
+      "source_hours": [
+        103,
+        79,
+        55
+      ]
+    },
+    {
+      "hour_of_day_0based": 8,
+      "destination_hours": [
+        56,
+        80,
+        104
+      ],
+      "source_hours": [
+        56,
+        80,
+        104
+      ]
+    },
+    {
+      "hour_of_day_0based": 9,
+      "destination_hours": [
+        57,
+        81,
+        105
+      ],
+      "source_hours": [
+        57,
+        81,
+        105
+      ]
+    },
+    {
+      "hour_of_day_0based": 10,
+      "destination_hours": [
+        58,
+        82,
+        106
+      ],
+      "source_hours": [
+        58,
+        82,
+        106
+      ]
+    },
+    {
+      "hour_of_day_0based": 11,
+      "destination_hours": [
+        59,
+        83,
+        107
+      ],
+      "source_hours": [
+        83,
+        107,
+        59
+      ]
+    },
+    {
+      "hour_of_day_0based": 12,
+      "destination_hours": [
+        60,
+        84,
+        108
+      ],
+      "source_hours": [
+        84,
+        60,
+        108
+      ]
+    },
+    {
+      "hour_of_day_0based": 13,
+      "destination_hours": [
+        61,
+        85,
+        109
+      ],
+      "source_hours": [
+        109,
+        61,
+        85
+      ]
+    },
+    {
+      "hour_of_day_0based": 14,
+      "destination_hours": [
+        62,
+        86,
+        110
+      ],
+      "source_hours": [
+        62,
+        110,
+        86
+      ]
+    },
+    {
+      "hour_of_day_0based": 15,
+      "destination_hours": [
+        63,
+        87,
+        111
+      ],
+      "source_hours": [
+        111,
+        87,
+        63
+      ]
+    },
+    {
+      "hour_of_day_0based": 16,
+      "destination_hours": [
+        64,
+        88,
+        112
+      ],
+      "source_hours": [
+        88,
+        112,
+        64
+      ]
+    },
+    {
+      "hour_of_day_0based": 17,
+      "destination_hours": [
+        65,
+        89,
+        113
+      ],
+      "source_hours": [
+        65,
+        113,
+        89
+      ]
+    },
+    {
+      "hour_of_day_0based": 18,
+      "destination_hours": [
+        66,
+        90,
+        114
+      ],
+      "source_hours": [
+        66,
+        114,
+        90
+      ]
+    },
+    {
+      "hour_of_day_0based": 19,
+      "destination_hours": [
+        67,
+        91,
+        115
+      ],
+      "source_hours": [
+        91,
+        67,
+        115
+      ]
+    },
+    {
+      "hour_of_day_0based": 20,
+      "destination_hours": [
+        68,
+        92,
+        116
+      ],
+      "source_hours": [
+        116,
+        68,
+        92
+      ]
+    },
+    {
+      "hour_of_day_0based": 21,
+      "destination_hours": [
+        69,
+        93,
+        117
+      ],
+      "source_hours": [
+        69,
+        117,
+        93
+      ]
+    },
+    {
+      "hour_of_day_0based": 22,
+      "destination_hours": [
+        70,
+        94,
+        118
+      ],
+      "source_hours": [
+        70,
+        118,
+        94
+      ]
+    },
+    {
+      "hour_of_day_0based": 23,
+      "destination_hours": [
+        71,
+        95,
+        119
+      ],
+      "source_hours": [
+        95,
+        119,
+        71
+      ]
+    }
+  ],
+  "redraws": 0,
+  "identity_draw_retained": false
+}

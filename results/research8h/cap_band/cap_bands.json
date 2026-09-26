@@ -1,0 +1,94 @@
+{
+  "tau": {
+    "numerator": "5902958103587057",
+    "denominator": "590295810358705651712",
+    "approximate": 1e-05,
+    "floor6": "0.000010",
+    "ceiling6": "0.000011"
+  },
+  "optimizer_calls": 0,
+  "all_input_hashes_unchanged": true,
+  "results": [
+    {
+      "case": "seed_26093100",
+      "band_left_included_MWh": {
+        "numerator": "13556108592941070063744783",
+        "denominator": "590295810358705651712",
+        "approximate": 22964.941229556443,
+        "floor6": "22964.941229",
+        "ceiling6": "22964.941230"
+      },
+      "band_right_excluded_MWh": {
+        "numerator": "40327658677181567738321519720509310060949751916649713891783676897627",
+        "denominator": "1645504557321206042154969182557350504982735865633579863348609024",
+        "approximate": 24507.776959811556,
+        "floor6": "24507.776959",
+        "ceiling6": "24507.776960"
+      },
+      "band_width_MWh": {
+        "numerator": "2538743225332781507118549784362889884355124626290726193109324376411",
+        "denominator": "1645504557321206042154969182557350504982735865633579863348609024",
+        "approximate": 1542.8357302551142,
+        "floor6": "1542.835730",
+        "ceiling6": "1542.835731"
+      },
+      "safe_closed_decimal_subinterval_MWh": [
+        "22964.941230",
+        "24507.776959"
+      ],
+      "first_integer_cap_MWh": 22965,
+      "last_integer_cap_MWh": 24507,
+      "integer_cap_count": 1543,
+      "original_cap23195_inside": true,
+      "order_blind_worst_case_absolute_error_lower_bound_MWh": {
+        "numerator": "2538743225332781507118549784362889884355124626290726193109324376411",
+        "denominator": "3291009114642412084309938365114701009965471731267159726697218048",
+        "approximate": 771.4178651275571,
+        "floor6": "771.417865",
+        "ceiling6": "771.417866"
+      },
+      "endpoint_assertions_pass": true
+    },
+    {
+      "case": "seed_26093101",
+      "band_left_included_MWh": {
+        "numerator": "13556108592941070063744783",
+        "denominator": "590295810358705651712",
+        "approximate": 22964.941229556443,
+        "floor6": "22964.941229",
+        "ceiling6": "22964.941230"
+      },
+      "band_right_excluded_MWh": {
+        "numerator": "37570224228721383678871987430447523192984300304044179037",
+        "denominator": "1496577676626844588240573268701473812127674924007424",
+        "approximate": 25104.092367194324,
+        "floor6": "25104.092367",
+        "ceiling6": "25104.092368"
+      },
+      "band_width_MWh": {
+        "numerator": "3201405839519772115393250917834982495579473579849072221",
+        "denominator": "1496577676626844588240573268701473812127674924007424",
+        "approximate": 2139.1511376378817,
+        "floor6": "2139.151137",
+        "ceiling6": "2139.151138"
+      },
+      "safe_closed_decimal_subinterval_MWh": [
+        "22964.941230",
+        "25104.092367"
+      ],
+      "first_integer_cap_MWh": 22965,
+      "last_integer_cap_MWh": 25104,
+      "integer_cap_count": 2140,
+      "original_cap23195_inside": true,
+      "order_blind_worst_case_absolute_error_lower_bound_MWh": {
+        "numerator": "3201405839519772115393250917834982495579473579849072221",
+        "denominator": "2993155353253689176481146537402947624255349848014848",
+        "approximate": 1069.5755688189408,
+        "floor6": "1069.575568",
+        "ceiling6": "1069.575569"
+      },
+      "endpoint_assertions_pass": true
+    }
+  ],
+  "scope": "derived consequences for the same two January expanded original-binary cases; no additional empirical replication"
+}

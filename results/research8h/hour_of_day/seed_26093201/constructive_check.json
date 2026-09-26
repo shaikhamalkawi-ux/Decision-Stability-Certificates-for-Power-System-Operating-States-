@@ -1,0 +1,532 @@
+{
+  "numerical": {
+    "static_network_cap_pass": true,
+    "binary_network_pass": false,
+    "matrix": {
+      "pass": false,
+      "tolerance": 1e-05,
+      "residuals": {
+        "column_lower": 2.155253753244324e-11,
+        "column_upper": 4.774847184307873e-12,
+        "row_lower": 2.5494273359072395e-11,
+        "row_upper": 3.0
+      }
+    },
+    "physical": {
+      "pass": false,
+      "tolerance": 1e-05,
+      "residuals": {
+        "negative_dispatch_MW": 2.155253753244324e-11,
+        "availability_MW": 4.774847184307873e-12,
+        "balance_MW": 1.4779288903810084e-11,
+        "hydro_fixed_MW": 0.0,
+        "binary_UYZ": 0.0,
+        "state_lower": 0.0,
+        "state_upper": 0.0,
+        "raw_commitment_upper_MW": 9.448442028769932e-12,
+        "raw_commitment_lower_MW": 2.155253753244324e-11,
+        "rounded_commitment_upper_MW": 9.448442028769932e-12,
+        "rounded_commitment_lower_MW": 2.155253753244324e-11,
+        "transition_identity": 0.0,
+        "exclusive_transition": 0.0,
+        "initial_transition": 0.0,
+        "startup_matches_observed": 0.0,
+        "shutdown_matches_observed": 0.0,
+        "observed_residence_violations": 101,
+        "native_on_on_ramp_MW": 0.0,
+        "provided_nodal_balance_MW": 2.5494273359072395e-11,
+        "provided_branch_excess_MW": 0.0,
+        "angle_bound_rad": 0.0,
+        "slack_angle_rad": 0.0,
+        "fossil_cap_excess_MWh": 0.0
+      },
+      "dispatch_reconstructed_network": {
+        "balance_MW": 1.4779288903810084e-11,
+        "nodal_balance_MW": 1.3713474800169934e-11,
+        "branch_excess_MW": 0.0,
+        "max_branch_loading": 1.0,
+        "pass": true
+      },
+      "residence_violations": [
+        {
+          "thermal_index": 2,
+          "hour_0based": 48
+        },
+        {
+          "thermal_index": 2,
+          "hour_0based": 60
+        },
+        {
+          "thermal_index": 2,
+          "hour_0based": 63
+        },
+        {
+          "thermal_index": 2,
+          "hour_0based": 64
+        },
+        {
+          "thermal_index": 2,
+          "hour_0based": 73
+        },
+        {
+          "thermal_index": 2,
+          "hour_0based": 111
+        },
+        {
+          "thermal_index": 3,
+          "hour_0based": 65
+        },
+        {
+          "thermal_index": 3,
+          "hour_0based": 85
+        },
+        {
+          "thermal_index": 3,
+          "hour_0based": 111
+        },
+        {
+          "thermal_index": 3,
+          "hour_0based": 113
+        },
+        {
+          "thermal_index": 3,
+          "hour_0based": 116
+        },
+        {
+          "thermal_index": 6,
+          "hour_0based": 58
+        },
+        {
+          "thermal_index": 6,
+          "hour_0based": 59
+        },
+        {
+          "thermal_index": 6,
+          "hour_0based": 86
+        },
+        {
+          "thermal_index": 6,
+          "hour_0based": 90
+        },
+        {
+          "thermal_index": 6,
+          "hour_0based": 91
+        },
+        {
+          "thermal_index": 6,
+          "hour_0based": 107
+        },
+        {
+          "thermal_index": 6,
+          "hour_0based": 108
+        },
+        {
+          "thermal_index": 6,
+          "hour_0based": 111
+        },
+        {
+          "thermal_index": 6,
+          "hour_0based": 115
+        },
+        {
+          "thermal_index": 6,
+          "hour_0based": 116
+        },
+        {
+          "thermal_index": 7,
+          "hour_0based": 57
+        },
+        {
+          "thermal_index": 7,
+          "hour_0based": 59
+        },
+        {
+          "thermal_index": 7,
+          "hour_0based": 60
+        },
+        {
+          "thermal_index": 7,
+          "hour_0based": 63
+        },
+        {
+          "thermal_index": 7,
+          "hour_0based": 64
+        },
+        {
+          "thermal_index": 7,
+          "hour_0based": 87
+        },
+        {
+          "thermal_index": 7,
+          "hour_0based": 90
+        },
+        {
+          "thermal_index": 7,
+          "hour_0based": 91
+        },
+        {
+          "thermal_index": 7,
+          "hour_0based": 107
+        },
+        {
+          "thermal_index": 7,
+          "hour_0based": 108
+        },
+        {
+          "thermal_index": 7,
+          "hour_0based": 111
+        },
+        {
+          "thermal_index": 7,
+          "hour_0based": 115
+        },
+        {
+          "thermal_index": 7,
+          "hour_0based": 116
+        },
+        {
+          "thermal_index": 9,
+          "hour_0based": 58
+        },
+        {
+          "thermal_index": 9,
+          "hour_0based": 59
+        },
+        {
+          "thermal_index": 9,
+          "hour_0based": 60
+        },
+        {
+          "thermal_index": 9,
+          "hour_0based": 77
+        },
+        {
+          "thermal_index": 9,
+          "hour_0based": 102
+        },
+        {
+          "thermal_index": 9,
+          "hour_0based": 107
+        },
+        {
+          "thermal_index": 9,
+          "hour_0based": 115
+        },
+        {
+          "thermal_index": 9,
+          "hour_0based": 117
+        },
+        {
+          "thermal_index": 10,
+          "hour_0based": 67
+        },
+        {
+          "thermal_index": 10,
+          "hour_0based": 68
+        },
+        {
+          "thermal_index": 10,
+          "hour_0based": 77
+        },
+        {
+          "thermal_index": 10,
+          "hour_0based": 103
+        },
+        {
+          "thermal_index": 11,
+          "hour_0based": 51
+        },
+        {
+          "thermal_index": 11,
+          "hour_0based": 74
+        },
+        {
+          "thermal_index": 11,
+          "hour_0based": 75
+        },
+        {
+          "thermal_index": 11,
+          "hour_0based": 77
+        },
+        {
+          "thermal_index": 11,
+          "hour_0based": 102
+        },
+        {
+          "thermal_index": 11,
+          "hour_0based": 115
+        },
+        {
+          "thermal_index": 11,
+          "hour_0based": 117
+        },
+        {
+          "thermal_index": 12,
+          "hour_0based": 52
+        },
+        {
+          "thermal_index": 12,
+          "hour_0based": 77
+        },
+        {
+          "thermal_index": 12,
+          "hour_0based": 102
+        },
+        {
+          "thermal_index": 13,
+          "hour_0based": 55
+        },
+        {
+          "thermal_index": 13,
+          "hour_0based": 56
+        },
+        {
+          "thermal_index": 13,
+          "hour_0based": 57
+        },
+        {
+          "thermal_index": 13,
+          "hour_0based": 102
+        },
+        {
+          "thermal_index": 13,
+          "hour_0based": 103
+        },
+        {
+          "thermal_index": 13,
+          "hour_0based": 104
+        },
+        {
+          "thermal_index": 14,
+          "hour_0based": 51
+        },
+        {
+          "thermal_index": 14,
+          "hour_0based": 55
+        },
+        {
+          "thermal_index": 14,
+          "hour_0based": 73
+        },
+        {
+          "thermal_index": 14,
+          "hour_0based": 77
+        },
+        {
+          "thermal_index": 14,
+          "hour_0based": 102
+        },
+        {
+          "thermal_index": 14,
+          "hour_0based": 103
+        },
+        {
+          "thermal_index": 14,
+          "hour_0based": 104
+        },
+        {
+          "thermal_index": 15,
+          "hour_0based": 65
+        },
+        {
+          "thermal_index": 15,
+          "hour_0based": 88
+        },
+        {
+          "thermal_index": 15,
+          "hour_0based": 89
+        },
+        {
+          "thermal_index": 15,
+          "hour_0based": 91
+        },
+        {
+          "thermal_index": 15,
+          "hour_0based": 111
+        },
+        {
+          "thermal_index": 15,
+          "hour_0based": 115
+        },
+        {
+          "thermal_index": 15,
+          "hour_0based": 116
+        },
+        {
+          "thermal_index": 17,
+          "hour_0based": 48
+        },
+        {
+          "thermal_index": 17,
+          "hour_0based": 49
+        },
+        {
+          "thermal_index": 17,
+          "hour_0based": 51
+        },
+        {
+          "thermal_index": 17,
+          "hour_0based": 53
+        },
+        {
+          "thermal_index": 17,
+          "hour_0based": 55
+        },
+        {
+          "thermal_index": 17,
+          "hour_0based": 56
+        },
+        {
+          "thermal_index": 17,
+          "hour_0based": 57
+        },
+        {
+          "thermal_index": 17,
+          "hour_0based": 73
+        },
+        {
+          "thermal_index": 17,
+          "hour_0based": 75
+        },
+        {
+          "thermal_index": 17,
+          "hour_0based": 77
+        },
+        {
+          "thermal_index": 17,
+          "hour_0based": 102
+        },
+        {
+          "thermal_index": 17,
+          "hour_0based": 103
+        },
+        {
+          "thermal_index": 17,
+          "hour_0based": 104
+        },
+        {
+          "thermal_index": 20,
+          "hour_0based": 51
+        },
+        {
+          "thermal_index": 20,
+          "hour_0based": 77
+        },
+        {
+          "thermal_index": 20,
+          "hour_0based": 113
+        },
+        {
+          "thermal_index": 21,
+          "hour_0based": 58
+        },
+        {
+          "thermal_index": 21,
+          "hour_0based": 59
+        },
+        {
+          "thermal_index": 21,
+          "hour_0based": 60
+        },
+        {
+          "thermal_index": 21,
+          "hour_0based": 107
+        },
+        {
+          "thermal_index": 22,
+          "hour_0based": 52
+        },
+        {
+          "thermal_index": 22,
+          "hour_0based": 53
+        },
+        {
+          "thermal_index": 22,
+          "hour_0based": 55
+        },
+        {
+          "thermal_index": 22,
+          "hour_0based": 77
+        },
+        {
+          "thermal_index": 22,
+          "hour_0based": 102
+        }
+      ],
+      "fossil_energy_MWh": 22964.941239556443,
+      "budget_MWh": 23195,
+      "exact_binary64_fossil_energy_numerator": "1654798412944827657145",
+      "exact_binary64_fossil_energy_denominator": "72057594037927936",
+      "exact_binary64_fossil_cap_excess_numerator": "0",
+      "exact_binary64_fossil_cap_excess_denominator": "1",
+      "individual_mean_target": "none; no mean equality used in verification"
+    }
+  },
+  "static_exact": {
+    "strict_pass": false,
+    "expanded_pass": true,
+    "original_binary_coordinates_exact": true,
+    "tau": {
+      "numerator": "5902958103587057",
+      "denominator": "590295810358705651712",
+      "float": 1e-05
+    },
+    "maximum_column_violation": {
+      "numerator": "12133",
+      "denominator": "562949953421312",
+      "float": 2.155253753244324e-11
+    },
+    "worst_column": {
+      "column": 4920,
+      "side": "lower"
+    },
+    "maximum_row_violation": {
+      "numerator": "8080919107015283899",
+      "denominator": "316912650057057350374175801344",
+      "float": 2.5498884647111388e-11
+    },
+    "worst_row": {
+      "row": 21405,
+      "side": "lower"
+    },
+    "arithmetic": "exact rational interpretation of every archived binary64 matrix/bound/vector coefficient",
+    "expanded_model": "every finite row/column bound expanded outward by exactly Fraction.from_float(1e-5)"
+  },
+  "full_exact": {
+    "strict_pass": false,
+    "expanded_pass": false,
+    "original_binary_coordinates_exact": true,
+    "tau": {
+      "numerator": "5902958103587057",
+      "denominator": "590295810358705651712",
+      "float": 1e-05
+    },
+    "maximum_column_violation": {
+      "numerator": "12133",
+      "denominator": "562949953421312",
+      "float": 2.155253753244324e-11
+    },
+    "worst_column": {
+      "column": 4920,
+      "side": "lower"
+    },
+    "maximum_row_violation": {
+      "numerator": "3",
+      "denominator": "1",
+      "float": 3.0
+    },
+    "worst_row": {
+      "row": 17584,
+      "side": "upper"
+    },
+    "arithmetic": "exact rational interpretation of every archived binary64 matrix/bound/vector coefficient",
+    "expanded_model": "every finite row/column bound expanded outward by exactly Fraction.from_float(1e-5)"
+  },
+  "constructive_expanded_pass": false,
+  "exact_fossil_MWh": {
+    "numerator": "1654798412944827657145",
+    "denominator": "72057594037927936",
+    "float": 22964.941239556443
+  },
+  "failed_reference_is_not_model_infeasibility": true
+}

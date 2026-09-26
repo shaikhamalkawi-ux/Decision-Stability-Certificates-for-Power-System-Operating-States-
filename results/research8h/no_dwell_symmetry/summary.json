@@ -1,0 +1,105 @@
+{
+  "pass": true,
+  "cases": [
+    {
+      "case": "results\\research8h\\seasonal_transfer\\seed_26093100",
+      "pass": true,
+      "retained_rows": 18649,
+      "retained_columns": 14952,
+      "row_and_column_maps_bijective": true,
+      "binary64_coefficients_and_bounds_exactly_match": true,
+      "transition_templates_pass": true,
+      "archived_zero_feasibility_objectives_checked": true,
+      "cap_and_cap_defined_fossil_energy_functional_invariant": true,
+      "changed_hours": 72
+    },
+    {
+      "case": "results\\research8h\\seasonal_transfer\\seed_26093101",
+      "pass": true,
+      "retained_rows": 18649,
+      "retained_columns": 14952,
+      "row_and_column_maps_bijective": true,
+      "binary64_coefficients_and_bounds_exactly_match": true,
+      "transition_templates_pass": true,
+      "archived_zero_feasibility_objectives_checked": true,
+      "cap_and_cap_defined_fossil_energy_functional_invariant": true,
+      "changed_hours": 71
+    },
+    {
+      "case": "results\\research8h\\seasonal_transfer\\seed_26100100",
+      "pass": true,
+      "retained_rows": 18649,
+      "retained_columns": 14952,
+      "row_and_column_maps_bijective": true,
+      "binary64_coefficients_and_bounds_exactly_match": true,
+      "transition_templates_pass": true,
+      "archived_zero_feasibility_objectives_checked": true,
+      "cap_and_cap_defined_fossil_energy_functional_invariant": true,
+      "changed_hours": 33
+    },
+    {
+      "case": "results\\research8h\\day_blocks\\days_132",
+      "pass": true,
+      "retained_rows": 18649,
+      "retained_columns": 14952,
+      "row_and_column_maps_bijective": true,
+      "binary64_coefficients_and_bounds_exactly_match": true,
+      "transition_templates_pass": true,
+      "archived_zero_feasibility_objectives_checked": true,
+      "cap_and_cap_defined_fossil_energy_functional_invariant": true,
+      "changed_hours": 48
+    },
+    {
+      "case": "results\\research8h\\day_blocks\\days_213",
+      "pass": true,
+      "retained_rows": 18649,
+      "retained_columns": 14952,
+      "row_and_column_maps_bijective": true,
+      "binary64_coefficients_and_bounds_exactly_match": true,
+      "transition_templates_pass": true,
+      "archived_zero_feasibility_objectives_checked": true,
+      "cap_and_cap_defined_fossil_energy_functional_invariant": true,
+      "changed_hours": 48
+    },
+    {
+      "case": "results\\research8h\\day_blocks\\days_231",
+      "pass": true,
+      "retained_rows": 18649,
+      "retained_columns": 14952,
+      "row_and_column_maps_bijective": true,
+      "binary64_coefficients_and_bounds_exactly_match": true,
+      "transition_templates_pass": true,
+      "archived_zero_feasibility_objectives_checked": true,
+      "cap_and_cap_defined_fossil_energy_functional_invariant": true,
+      "changed_hours": 72
+    },
+    {
+      "case": "results\\research8h\\day_blocks\\days_312",
+      "pass": true,
+      "retained_rows": 18649,
+      "retained_columns": 14952,
+      "row_and_column_maps_bijective": true,
+      "binary64_coefficients_and_bounds_exactly_match": true,
+      "transition_templates_pass": true,
+      "archived_zero_feasibility_objectives_checked": true,
+      "cap_and_cap_defined_fossil_energy_functional_invariant": true,
+      "changed_hours": 72
+    },
+    {
+      "case": "results\\research8h\\day_blocks\\days_321",
+      "pass": true,
+      "retained_rows": 18649,
+      "retained_columns": 14952,
+      "row_and_column_maps_bijective": true,
+      "binary64_coefficients_and_bounds_exactly_match": true,
+      "transition_templates_pass": true,
+      "archived_zero_feasibility_objectives_checked": true,
+      "cap_and_cap_defined_fossil_energy_functional_invariant": true,
+      "changed_hours": 48
+    }
+  ],
+  "frozen_bindings": 65,
+  "all_hashes_unchanged": true,
+  "optimizer_calls": 0,
+  "tau_domain": "uniform finite-bound expansion 0 <= tau < 1; original U/Y/Z integers"
+}

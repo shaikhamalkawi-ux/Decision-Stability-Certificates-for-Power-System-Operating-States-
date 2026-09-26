@@ -1,0 +1,19 @@
+{
+  "bijection": true,
+  "fixed_edges_48": true,
+  "hour_of_day_exact": true,
+  "joint_package_roundtrips_bitwise": true,
+  "nodal_native_reconstruction_bitwise": true,
+  "exact_fossil_energy_preserved": true,
+  "commitment_sequence_unchanged": true,
+  "within_day_adjacency_preserved": true,
+  "weather_continuity_claim": false,
+  "changed_hours": 0,
+  "changed_adjacent_pair_count": 0,
+  "changed_adjacent_pairs_after_hours": [],
+  "changed_adjacent_source_pairs": [],
+  "cap_row_0based": 24264,
+  "mean_rows": 0,
+  "seed": null,
+  "role": "identity"
+}

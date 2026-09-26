@@ -1,0 +1,18 @@
+{
+  "source_directory": "results/research8h/seasonal_reference/month_10",
+  "original_result_sha256": "b27cb68d0638ac63c66b81cbcc43f5c16ba745661864702fdfc1937c3b4badb7",
+  "byte_identical_artifacts": {
+    "matrix.npz": "43eadfdf239a339757187fa4d52e786d1be7277bb93009d5ded1973523bf1386",
+    "bounds.npz": "c088b6e549a0bc282cec2d957fbd13093fd8cff8edd4bf698812395e9fc42ca6",
+    "objective.npz": "4a11881191004d9f39ed53d3cd18a5861829593b48c4e97d67e2af2d01b17632",
+    "native_inputs.npz": "16d4fe879e11d804cf25d28fe25556f43c3d3856795c66e01e2062eb51e015e2",
+    "row_metadata.csv.gz": "9828d75e35f0f057196d9b2df52a75c2eb8f1493347c6c7f4725cfd625595099",
+    "source_hours.csv": "f69ee75a080bf31a169a204bceabe1d40bb4f53c429963f2f83065ad5173b7b0"
+  },
+  "original_integrality_sha256": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d",
+  "projected_integrality_sha256": "3dce3436c853f1dcf296fce09408a6a3d1049e6c2a89568469af8a1c4ae6d73b",
+  "changed_rows_or_bounds": 0,
+  "changed_objective_coefficients": 0,
+  "individual_mean_constraints": 0,
+  "energy_cap_constraints": 0
+}

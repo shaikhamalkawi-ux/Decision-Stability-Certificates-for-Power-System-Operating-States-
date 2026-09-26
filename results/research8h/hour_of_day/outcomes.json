@@ -1,0 +1,16 @@
+[
+  {
+    "case": "seed_26093200",
+    "verdict": "CERTIFIED_INFEASIBLE_EXPANDED_MODEL",
+    "route": "EXACT_ROBUST_LP_RAY",
+    "LP_calls": 1,
+    "MIP_calls": 0
+  },
+  {
+    "case": "seed_26093201",
+    "verdict": "CERTIFIED_INFEASIBLE_EXPANDED_MODEL",
+    "route": "EXACT_ROBUST_LP_RAY",
+    "LP_calls": 1,
+    "MIP_calls": 0
+  }
+]

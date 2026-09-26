@@ -1,0 +1,18 @@
+{
+  "method": "Independent Node crypto/fs SHA256 and byte counts",
+  "checks": [
+    {
+      "manifest": "input_manifest.csv",
+      "manifest_sha256": "cc7ff078ea7e99ac177b3d22be3208cf454ca0726015e4a10c3b65329630758b",
+      "entries": 105,
+      "all_hashes_sizes_pass": true
+    },
+    {
+      "manifest": "post_run_artifact_manifest.csv",
+      "manifest_sha256": "a0c316f13ca4e632a128e66d0f8abbe4df2f916dca4c5a734634e2a4fd514934",
+      "entries": 86,
+      "all_hashes_sizes_pass": true
+    }
+  ],
+  "optimization_calls": 0
+}

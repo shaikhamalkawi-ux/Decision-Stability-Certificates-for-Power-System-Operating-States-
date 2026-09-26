@@ -1,0 +1,22 @@
+{
+  "utc": "2026-09-26T22:58:04.268703+00:00",
+  "cases": [
+    "days_132",
+    "days_213",
+    "days_231",
+    "days_312",
+    "days_321"
+  ],
+  "source_sha256": "819ddb376d2d9401c958a1ed91a84d540748d6212e8ee4601d7694174ac70800",
+  "protocol_sha256": "fce6d2d69e76ca98081a68f138ee6591408fb61c305288ba482d17896d320e30",
+  "manifest_sha256": "6158935e240ac3e20918c40964d9f86ae9b6eb6a1cb6dc8c01ba2c16c1125f60",
+  "source_v3": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-v8r1-evidence\\3\\.work\\v8r1_rts_inputs",
+  "LP_seconds": 60,
+  "threads": 1,
+  "random_seed": 0,
+  "presolve": "off",
+  "solver": "simplex",
+  "optimization_calls": 0,
+  "all_five_models_frozen_before_solve": true,
+  "requires_parent_review_and_GO": true
+}

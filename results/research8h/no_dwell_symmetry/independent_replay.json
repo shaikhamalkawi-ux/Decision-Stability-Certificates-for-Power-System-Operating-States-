@@ -1,0 +1,93 @@
+{
+  "status": "INDEPENDENT_NO_DWELL_REPLAY_PASS",
+  "optimizer_calls": 0,
+  "frozen_bindings": 65,
+  "all_hashes_match_before_after": true,
+  "manifest_sha256": "4c68ec26e416fd6aeafd550d7cb382a8f705db0c167807d84b9bd391efa6c9a5",
+  "review_source_sha256": "3e94cc2f0331da907272973cd98acb01790ffdf412988b7968f05ea6ae49ab79",
+  "reader_sha256": "708c3843425eea494a0561e83a275f7059f22bcd546a036705323d056bcf906f",
+  "cases": [
+    {
+      "case": "seed_26093100",
+      "pass_all": true,
+      "retained_rows": 18649,
+      "retained_columns": 14952,
+      "changed_hours": 72,
+      "exact_row_column_bijections": true,
+      "canonical_integer_auxiliary_lift_templates": true,
+      "zero_objective_and_fossil_functional_checked": true
+    },
+    {
+      "case": "seed_26093101",
+      "pass_all": true,
+      "retained_rows": 18649,
+      "retained_columns": 14952,
+      "changed_hours": 71,
+      "exact_row_column_bijections": true,
+      "canonical_integer_auxiliary_lift_templates": true,
+      "zero_objective_and_fossil_functional_checked": true
+    },
+    {
+      "case": "seed_26100100",
+      "pass_all": true,
+      "retained_rows": 18649,
+      "retained_columns": 14952,
+      "changed_hours": 33,
+      "exact_row_column_bijections": true,
+      "canonical_integer_auxiliary_lift_templates": true,
+      "zero_objective_and_fossil_functional_checked": true
+    },
+    {
+      "case": "days_132",
+      "pass_all": true,
+      "retained_rows": 18649,
+      "retained_columns": 14952,
+      "changed_hours": 48,
+      "exact_row_column_bijections": true,
+      "canonical_integer_auxiliary_lift_templates": true,
+      "zero_objective_and_fossil_functional_checked": true
+    },
+    {
+      "case": "days_213",
+      "pass_all": true,
+      "retained_rows": 18649,
+      "retained_columns": 14952,
+      "changed_hours": 48,
+      "exact_row_column_bijections": true,
+      "canonical_integer_auxiliary_lift_templates": true,
+      "zero_objective_and_fossil_functional_checked": true
+    },
+    {
+      "case": "days_231",
+      "pass_all": true,
+      "retained_rows": 18649,
+      "retained_columns": 14952,
+      "changed_hours": 72,
+      "exact_row_column_bijections": true,
+      "canonical_integer_auxiliary_lift_templates": true,
+      "zero_objective_and_fossil_functional_checked": true
+    },
+    {
+      "case": "days_312",
+      "pass_all": true,
+      "retained_rows": 18649,
+      "retained_columns": 14952,
+      "changed_hours": 72,
+      "exact_row_column_bijections": true,
+      "canonical_integer_auxiliary_lift_templates": true,
+      "zero_objective_and_fossil_functional_checked": true
+    },
+    {
+      "case": "days_321",
+      "pass_all": true,
+      "retained_rows": 18649,
+      "retained_columns": 14952,
+      "changed_hours": 48,
+      "exact_row_column_bijections": true,
+      "canonical_integer_auxiliary_lift_templates": true,
+      "zero_objective_and_fossil_functional_checked": true
+    }
+  ],
+  "elapsed_seconds": 82.26887550001265,
+  "scope": "Exact supplied-matrix no-dwell projection symmetry; no native source reconstruction or new feasibility verdict"
+}

@@ -1,0 +1,32 @@
+{
+  "model_status": "Optimal",
+  "run_status": "HighsStatus.kOk",
+  "elapsed_s": 26.100279000005685,
+  "time_limit_s": 30,
+  "verdict": "NUMERICAL_CONTINUOUS_FEASIBLE_BINARY_UNKNOWN",
+  "solver_version": "1.12.0",
+  "solver_options": {
+    "time_limit": 30.0,
+    "threads": 1,
+    "random_seed": 0,
+    "presolve": "off",
+    "log_to_console": false,
+    "log_file": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\seasonal_cap_continuation\\seed_26094001\\lp\\solver.log",
+    "solver": "simplex"
+  },
+  "optimization_calls": 1,
+  "solution_value_valid": true,
+  "returned_vector_check": {
+    "pass": true,
+    "tolerance": 1e-05,
+    "residuals": {
+      "column_lower": 7.048583938740194e-13,
+      "column_upper": 8.815170815523743e-14,
+      "row_lower": 1.1368683772161603e-11,
+      "row_upper": 1.0089706847793423e-11
+    }
+  },
+  "fractional_state_coordinates": 911,
+  "matrix_sha256": "2f11940f72432a2a2e89e4a88115eba3cf24a8e82a8110e250c6191020c1f0bb",
+  "bounds_sha256": "b464f15d2f0221172eef8979cff59dc53d7286bee39a0af28cdb05723e338ea4"
+}

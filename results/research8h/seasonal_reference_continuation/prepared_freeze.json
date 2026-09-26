@@ -1,0 +1,25 @@
+{
+  "utc": "2026-09-26T22:21:49.365848+00:00",
+  "source_sha256": "8a5cff279e48569056f0217d003f8a43f1d7f026c541f8d9671e8d68e8897d4a",
+  "protocol_sha256": "b0100c2cae77bb1c38c206a10107ad3c9488a3b466386c02118f371df317d505",
+  "input_manifest_sha256": "cc7ff078ea7e99ac177b3d22be3208cf454ca0726015e4a10c3b65329630758b",
+  "months": [
+    4,
+    7,
+    10
+  ],
+  "seconds_per_case": 600,
+  "total_configured_solver_seconds": 1800,
+  "threads": 1,
+  "random_seed": 0,
+  "presolve": "on",
+  "mip_rel_gap": 1e-08,
+  "warm_start": false,
+  "optimization_calls_per_case": 1,
+  "energy_caps": 0,
+  "individual_mean_constraints": 0,
+  "solver_execution_started": false,
+  "requires_parent_go_before_run_prepared": true,
+  "source_v3": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-v8r1-evidence\\3\\.work\\v8r1_rts_inputs",
+  "historical_unknowns_preserved": true
+}

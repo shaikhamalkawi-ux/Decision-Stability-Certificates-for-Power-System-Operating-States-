@@ -1,0 +1,47 @@
+{
+  "status": "CERTIFIED_EXPANDED_ONLY_POINT",
+  "strict_pass": false,
+  "expanded_pass": true,
+  "original_binary_coordinates_exact": true,
+  "binary_coordinates": 12096,
+  "tau": {
+    "numerator": "5902958103587057",
+    "denominator": "590295810358705651712",
+    "float": 1e-05
+  },
+  "maximum_column_violation": {
+    "numerator": "7",
+    "denominator": "4398046511104",
+    "float": 1.5916157281026244e-12
+  },
+  "worst_column": {
+    "column": 1083,
+    "side": "lower"
+  },
+  "maximum_row_violation": {
+    "numerator": "8985582560927642445",
+    "denominator": "316912650057057350374175801344",
+    "float": 2.835349917180607e-11
+  },
+  "worst_row": {
+    "row": 28798,
+    "side": "lower"
+  },
+  "manifest": null,
+  "dimensions": {
+    "rows": 34680,
+    "columns": 23016,
+    "nonzeros": 141724
+  },
+  "input_hashes": {
+    "results\\research8h\\seasonal_reference_continuation\\month_07\\matrix.npz": "43eadfdf239a339757187fa4d52e786d1be7277bb93009d5ded1973523bf1386",
+    "results\\research8h\\seasonal_reference_continuation\\month_07\\bounds.npz": "cb893dc789acc8217d5a1ece77513e24cbfa126a4535be8ad9f51cde2eb082b0",
+    "results\\research8h\\seasonal_reference_continuation\\month_07\\recovered_vector.npz": "1c14357d46fe30928e411572f7d23d30fe3f15b8649db28a51214f82d4a89eb5",
+    "results\\research8h\\seasonal_reference_continuation\\month_07\\original_integrality.npz": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d"
+  },
+  "scope": "Exact archived binary64 linear model; uniform outward expansion of every finite row/column bound. Binary coordinates remain exact. No native physical-data or field validation.",
+  "elapsed_s": 3.589032699994277,
+  "verifier_sha256": "708c3843425eea494a0561e83a275f7059f22bcd546a036705323d056bcf906f",
+  "python_version": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "optimization_calls": 0
+}

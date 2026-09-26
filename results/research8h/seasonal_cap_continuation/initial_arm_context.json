@@ -1,0 +1,179 @@
+{
+  "original_replication_gate": "NOT_MET_INSUFFICIENT_ELIGIBLE_WEEKS",
+  "known_success_month": 1,
+  "certificate_replays": [
+    {
+      "seed": 26093100,
+      "certificate_sha256": "7a5a5b3489233df4fbb7b6a56889f76e8d71b5cf72ca9ba1db09909feba3d063",
+      "replay": {
+        "pass": true,
+        "robust_pass": true,
+        "arithmetic": "exact rational interpretation of archived binary64 matrix, bounds and ray",
+        "row_multiplier_nonzeros": 1715,
+        "combined_column_nonzeros": 5667,
+        "lower_row_sum": 6888582.08768669,
+        "box_maximum": 6841961.832635757,
+        "separation_gap": 46620.25505093238,
+        "outward_bound_relaxation": 1e-05,
+        "robust_separation_gap": 46526.78957194592,
+        "maximum_uniform_bound_relaxation": 0.004987965134987366,
+        "exact_gap_numerator": "9145002621386790254733641911894629951694645325491485316327905",
+        "exact_gap_denominator": "196159429230833773869868419475239575503198607639501078528",
+        "exact_robust_gap_numerator": "9570005534770222669982349487706749680485998417800604674604904255175",
+        "exact_robust_gap_denominator": "205688069665150755269371147819668813122841983204197482918576128",
+        "elapsed_s": 1.0324500999995507,
+        "scope": "mathematical model with archived float coefficients; not exact physical measurements"
+      },
+      "ordinary_static_exact_expanded_replay": {
+        "strict_pass": false,
+        "expanded_pass": true,
+        "original_binary_coordinates_exact": true,
+        "tau": {
+          "numerator": "5902958103587057",
+          "denominator": "590295810358705651712",
+          "float": 1e-05
+        },
+        "maximum_column_violation": {
+          "numerator": "12133",
+          "denominator": "562949953421312",
+          "float": 2.155253753244324e-11
+        },
+        "worst_column": {
+          "column": 4920,
+          "side": "lower"
+        },
+        "maximum_row_violation": {
+          "numerator": "8080919107015283899",
+          "denominator": "316912650057057350374175801344",
+          "float": 2.5498884647111388e-11
+        },
+        "worst_row": {
+          "row": 23327,
+          "side": "lower"
+        },
+        "arithmetic": "exact rational interpretation of every archived binary64 matrix/bound/vector coefficient",
+        "expanded_model": "every finite row/column bound expanded outward by exactly Fraction.from_float(1e-5)"
+      }
+    },
+    {
+      "seed": 26093101,
+      "certificate_sha256": "041ec0c98bab38c60e8f466082381791a1ce4560e101ccc8e9bc04123d1cb000",
+      "replay": {
+        "pass": true,
+        "robust_pass": true,
+        "arithmetic": "exact rational interpretation of archived binary64 matrix, bounds and ray",
+        "row_multiplier_nonzeros": 1253,
+        "combined_column_nonzeros": 5138,
+        "lower_row_sum": 24916926.586770456,
+        "box_maximum": 24722298.89819845,
+        "separation_gap": 194627.6885720027,
+        "outward_bound_relaxation": 1e-05,
+        "robust_separation_gap": 194355.96483466134,
+        "maximum_uniform_bound_relaxation": 0.007162704682200845,
+        "exact_gap_numerator": "542542811427900294368141093129787283046476019715",
+        "exact_gap_denominator": "2787593149816327892691964784081045188247552",
+        "exact_robust_gap_numerator": "4544824973294158861214943519417892747529530340888363305",
+        "exact_robust_gap_denominator": "23384026197294446691258957323460528314494920687616",
+        "elapsed_s": 0.7916697000036947,
+        "scope": "mathematical model with archived float coefficients; not exact physical measurements"
+      },
+      "ordinary_static_exact_expanded_replay": {
+        "strict_pass": false,
+        "expanded_pass": true,
+        "original_binary_coordinates_exact": true,
+        "tau": {
+          "numerator": "5902958103587057",
+          "denominator": "590295810358705651712",
+          "float": 1e-05
+        },
+        "maximum_column_violation": {
+          "numerator": "12133",
+          "denominator": "562949953421312",
+          "float": 2.155253753244324e-11
+        },
+        "worst_column": {
+          "column": 4920,
+          "side": "lower"
+        },
+        "maximum_row_violation": {
+          "numerator": "8080919107015283899",
+          "denominator": "316912650057057350374175801344",
+          "float": 2.5498884647111388e-11
+        },
+        "worst_row": {
+          "row": 22831,
+          "side": "lower"
+        },
+        "arithmetic": "exact rational interpretation of every archived binary64 matrix/bound/vector coefficient",
+        "expanded_model": "every finite row/column bound expanded outward by exactly Fraction.from_float(1e-5)"
+      }
+    }
+  ],
+  "optimization_calls": 0,
+  "january_identity": {
+    "exact_expanded_replay": {
+      "strict_pass": false,
+      "expanded_pass": true,
+      "original_binary_coordinates_exact": true,
+      "tau": {
+        "numerator": "5902958103587057",
+        "denominator": "590295810358705651712",
+        "float": 1e-05
+      },
+      "maximum_column_violation": {
+        "numerator": "12133",
+        "denominator": "562949953421312",
+        "float": 2.155253753244324e-11
+      },
+      "worst_column": {
+        "column": 4920,
+        "side": "lower"
+      },
+      "maximum_row_violation": {
+        "numerator": "8080919107015283899",
+        "denominator": "316912650057057350374175801344",
+        "float": 2.5498884647111388e-11
+      },
+      "worst_row": {
+        "row": 30909,
+        "side": "lower"
+      },
+      "arithmetic": "exact rational interpretation of every archived binary64 matrix/bound/vector coefficient",
+      "expanded_model": "every finite row/column bound expanded outward by exactly Fraction.from_float(1e-5)"
+    },
+    "vector_sha256": "7c534f8691c761815224ac43773259da5a8e1d3eb2aa892dcb64dc46541672db"
+  },
+  "seed_26100100": {
+    "exact_expanded_replay": {
+      "strict_pass": false,
+      "expanded_pass": true,
+      "original_binary_coordinates_exact": true,
+      "tau": {
+        "numerator": "5902958103587057",
+        "denominator": "590295810358705651712",
+        "float": 1e-05
+      },
+      "maximum_column_violation": {
+        "numerator": "12133",
+        "denominator": "562949953421312",
+        "float": 2.155253753244324e-11
+      },
+      "worst_column": {
+        "column": 4920,
+        "side": "lower"
+      },
+      "maximum_row_violation": {
+        "numerator": "8080919107015283899",
+        "denominator": "316912650057057350374175801344",
+        "float": 2.5498884647111388e-11
+      },
+      "worst_row": {
+        "row": 30165,
+        "side": "lower"
+      },
+      "arithmetic": "exact rational interpretation of every archived binary64 matrix/bound/vector coefficient",
+      "expanded_model": "every finite row/column bound expanded outward by exactly Fraction.from_float(1e-5)"
+    },
+    "vector_sha256": "3c87e8d63674ac51e09b7a67e9d954c5957ebdda2cb3ee7b21b3e9f352d4d978"
+  }
+}

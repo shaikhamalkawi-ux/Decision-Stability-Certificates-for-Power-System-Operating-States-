@@ -1,0 +1,141 @@
+{
+  "case": "days_132",
+  "verdict": "REJECTED_FIXED_IDENTITY_SCHEDULE_EXACT_EXPANDED_CERTIFICATE",
+  "model_status": "Infeasible",
+  "run_status": "HighsStatus.kOk",
+  "elapsed_s": 2.0509009000088554,
+  "options": {
+    "time_limit": 60.0,
+    "threads": 1,
+    "random_seed": 0,
+    "solver": "simplex",
+    "presolve": "off",
+    "log_to_console": false,
+    "log_file": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\day_fixed_identity\\days_132\\solver.log"
+  },
+  "optimization_calls": 1,
+  "solver_version": "1.12.0",
+  "numerical_objective_MWh": 23789.301534099992,
+  "simplex_iterations": 6102,
+  "solution_value_valid": true,
+  "solution_dual_valid": true,
+  "exact_optimality_claim": false,
+  "fixed_schedule_negative_is_not_full_UC_negative": true,
+  "raw_matrix_check": {
+    "pass": false,
+    "tolerance": 1e-05,
+    "residuals": {
+      "column_lower": 132.97954929976234,
+      "column_upper": 188.15564073508767,
+      "row_lower": 159.14683116825387,
+      "row_upper": 594.3015340999918
+    }
+  },
+  "eligible_for_identity_anchoring": true,
+  "P_theta_bitwise_unchanged": true,
+  "UYZ_exactly_identity": true,
+  "exact_fixed_expanded_pass": false,
+  "exact_unfixed_expanded_pass": false,
+  "exact_fixed_strict_pass": false,
+  "exact_unfixed_strict_pass": false,
+  "native_full_check_pass": false,
+  "fossil_energy_MWh": {
+    "numerator": "13392186190547142993",
+    "denominator": "562949953421312",
+    "float": 23789.301534100003
+  },
+  "cap_excess_MWh": {
+    "numerator": "334562020939811153",
+    "denominator": "562949953421312",
+    "float": 594.3015341000033
+  },
+  "ray_diagnostics": {
+    "retrieval_status": "HighsStatus.kOk",
+    "exists": true,
+    "candidates": [
+      {
+        "orientation": 1,
+        "candidate": "raw",
+        "projected_entries": 0,
+        "verification": {
+          "pass": true,
+          "robust_pass": true,
+          "arithmetic": "exact rational interpretation of archived binary64 matrix, bounds and ray",
+          "row_multiplier_nonzeros": 91,
+          "combined_column_nonzeros": 3487,
+          "lower_row_sum": 68814.5015341,
+          "box_maximum": 68220.2,
+          "separation_gap": 594.3015340999993,
+          "outward_bound_relaxation": 1e-05,
+          "robust_separation_gap": 594.2490840999993,
+          "maximum_uniform_bound_relaxation": 0.11330820478550989,
+          "exact_gap_numerator": "1506733392836843419181867532560765",
+          "exact_gap_denominator": "2535301200456458802993406410752",
+          "exact_robust_gap_numerator": "789892519055264043712414127872181087409",
+          "exact_robust_gap_denominator": "1329227995784915872903807060280344576",
+          "elapsed_s": 0.5428067999891937,
+          "scope": "mathematical model with archived float coefficients; not exact physical measurements"
+        }
+      },
+      {
+        "orientation": 1,
+        "candidate": "projected_to_row_sign_cone",
+        "projected_entries": 0,
+        "verification": {
+          "pass": true,
+          "robust_pass": true,
+          "arithmetic": "exact rational interpretation of archived binary64 matrix, bounds and ray",
+          "row_multiplier_nonzeros": 91,
+          "combined_column_nonzeros": 3487,
+          "lower_row_sum": 68814.5015341,
+          "box_maximum": 68220.2,
+          "separation_gap": 594.3015340999993,
+          "outward_bound_relaxation": 1e-05,
+          "robust_separation_gap": 594.2490840999993,
+          "maximum_uniform_bound_relaxation": 0.11330820478550989,
+          "exact_gap_numerator": "1506733392836843419181867532560765",
+          "exact_gap_denominator": "2535301200456458802993406410752",
+          "exact_robust_gap_numerator": "789892519055264043712414127872181087409",
+          "exact_robust_gap_denominator": "1329227995784915872903807060280344576",
+          "elapsed_s": 0.2274512000149116,
+          "scope": "mathematical model with archived float coefficients; not exact physical measurements"
+        }
+      },
+      {
+        "orientation": -1,
+        "candidate": "raw",
+        "projected_entries": 11,
+        "verification": {
+          "pass": false,
+          "reason": "nonzero multiplier selects an infinite row bound",
+          "row": 17665
+        }
+      },
+      {
+        "orientation": -1,
+        "candidate": "projected_to_row_sign_cone",
+        "projected_entries": 11,
+        "verification": {
+          "pass": false,
+          "robust_pass": false,
+          "arithmetic": "exact rational interpretation of archived binary64 matrix, bounds and ray",
+          "row_multiplier_nonzeros": 80,
+          "combined_column_nonzeros": 3280,
+          "lower_row_sum": -92009.5015341,
+          "box_maximum": -2928.6,
+          "separation_gap": -89080.9015341,
+          "outward_bound_relaxation": 1e-05,
+          "robust_separation_gap": -89080.9351341,
+          "maximum_uniform_bound_relaxation": -26.512173075625,
+          "exact_gap_numerator": "-225846916597147336021546627469630645",
+          "exact_gap_denominator": "2535301200456458802993406410752",
+          "exact_robust_gap_numerator": "-118408872870945840881241993170031411647311",
+          "exact_robust_gap_denominator": "1329227995784915872903807060280344576",
+          "elapsed_s": 0.5041055000037886,
+          "scope": "mathematical model with archived float coefficients; not exact physical measurements"
+        }
+      }
+    ]
+  },
+  "full_unfixed_infeasibility_claim": false
+}

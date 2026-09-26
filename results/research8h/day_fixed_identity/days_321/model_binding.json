@@ -1,0 +1,21 @@
+{
+  "case": "days_321",
+  "rows": 34681,
+  "columns": 23016,
+  "matrix_exact_parent_copy": true,
+  "all_row_bounds_unchanged": true,
+  "P_theta_bounds_bitwise_unchanged": true,
+  "fixed_state_columns": 12096,
+  "actually_changed_column_bounds": 12048,
+  "cap_MWh": 23195,
+  "mean_rows": 0,
+  "native_inputs_sha256": "65de9acfa3dc685ed9de1d3883fcca08addf2507d75632114984f269c7693622",
+  "parent_matrix_sha256": "2f11940f72432a2a2e89e4a88115eba3cf24a8e82a8110e250c6191020c1f0bb",
+  "parent_bounds_sha256": "5a5f697b0be8cac253c9ca5c607586ab440fcd8276ede98648c6ce179bca1e6d",
+  "anchor_sha256": "63a9a79ebd01cf594b5fbc7bac1d5af809563defbc9b8ce369c175ba98acbb16",
+  "old_constructive_full_positive": false,
+  "old_constructive_states_equal_identity": false,
+  "known_exact_fixed_model_positive": false,
+  "included_in_five_LPs_regardless": true,
+  "negative_scope": "Fixed identity U/Y/Z only; no infeasibility inference for unfixed UC."
+}

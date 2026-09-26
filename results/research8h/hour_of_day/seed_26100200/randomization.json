@@ -1,0 +1,2185 @@
+{
+  "seed": 26100200,
+  "generator": "numpy.random.Generator(PCG64)",
+  "numpy_version": "2.3.5",
+  "state_before": {
+    "bit_generator": "PCG64",
+    "state": {
+      "state": 41575072969733408818282323520936190134,
+      "inc": 113131666111323958953895330301384312425
+    },
+    "has_uint32": 0,
+    "uinteger": 0
+  },
+  "state_after": {
+    "bit_generator": "PCG64",
+    "state": {
+      "state": 96067847144522673262134955077028630328,
+      "inc": 113131666111323958953895330301384312425
+    },
+    "has_uint32": 1,
+    "uinteger": 1786841188
+  },
+  "group_order": "lexicographic (hour,U bits)",
+  "groups": [
+    {
+      "hour_of_day_0based": 0,
+      "identity_U_signature": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "destination_hours": [
+        48,
+        96
+      ],
+      "source_hours": [
+        96,
+        48
+      ]
+    },
+    {
+      "hour_of_day_0based": 0,
+      "identity_U_signature": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "destination_hours": [
+        72
+      ],
+      "source_hours": [
+        72
+      ]
+    },
+    {
+      "hour_of_day_0based": 1,
+      "identity_U_signature": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "destination_hours": [
+        49,
+        97
+      ],
+      "source_hours": [
+        49,
+        97
+      ]
+    },
+    {
+      "hour_of_day_0based": 1,
+      "identity_U_signature": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "destination_hours": [
+        73
+      ],
+      "source_hours": [
+        73
+      ]
+    },
+    {
+      "hour_of_day_0based": 2,
+      "identity_U_signature": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "destination_hours": [
+        50,
+        98
+      ],
+      "source_hours": [
+        98,
+        50
+      ]
+    },
+    {
+      "hour_of_day_0based": 2,
+      "identity_U_signature": [
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "destination_hours": [
+        74
+      ],
+      "source_hours": [
+        74
+      ]
+    },
+    {
+      "hour_of_day_0based": 3,
+      "identity_U_signature": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "destination_hours": [
+        51,
+        99
+      ],
+      "source_hours": [
+        99,
+        51
+      ]
+    },
+    {
+      "hour_of_day_0based": 3,
+      "identity_U_signature": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "destination_hours": [
+        75
+      ],
+      "source_hours": [
+        75
+      ]
+    },
+    {
+      "hour_of_day_0based": 4,
+      "identity_U_signature": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "destination_hours": [
+        52,
+        100
+      ],
+      "source_hours": [
+        100,
+        52
+      ]
+    },
+    {
+      "hour_of_day_0based": 4,
+      "identity_U_signature": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1
+      ],
+      "destination_hours": [
+        76
+      ],
+      "source_hours": [
+        76
+      ]
+    },
+    {
+      "hour_of_day_0based": 5,
+      "identity_U_signature": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "destination_hours": [
+        101
+      ],
+      "source_hours": [
+        101
+      ]
+    },
+    {
+      "hour_of_day_0based": 5,
+      "identity_U_signature": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "destination_hours": [
+        53
+      ],
+      "source_hours": [
+        53
+      ]
+    },
+    {
+      "hour_of_day_0based": 5,
+      "identity_U_signature": [
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1
+      ],
+      "destination_hours": [
+        77
+      ],
+      "source_hours": [
+        77
+      ]
+    },
+    {
+      "hour_of_day_0based": 6,
+      "identity_U_signature": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "destination_hours": [
+        102
+      ],
+      "source_hours": [
+        102
+      ]
+    },
+    {
+      "hour_of_day_0based": 6,
+      "identity_U_signature": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "destination_hours": [
+        78
+      ],
+      "source_hours": [
+        78
+      ]
+    },
+    {
+      "hour_of_day_0based": 6,
+      "identity_U_signature": [
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "destination_hours": [
+        54
+      ],
+      "source_hours": [
+        54
+      ]
+    },
+    {
+      "hour_of_day_0based": 7,
+      "identity_U_signature": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "destination_hours": [
+        103
+      ],
+      "source_hours": [
+        103
+      ]
+    },
+    {
+      "hour_of_day_0based": 7,
+      "identity_U_signature": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "destination_hours": [
+        55
+      ],
+      "source_hours": [
+        55
+      ]
+    },
+    {
+      "hour_of_day_0based": 7,
+      "identity_U_signature": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "destination_hours": [
+        79
+      ],
+      "source_hours": [
+        79
+      ]
+    },
+    {
+      "hour_of_day_0based": 8,
+      "identity_U_signature": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "destination_hours": [
+        56,
+        104
+      ],
+      "source_hours": [
+        56,
+        104
+      ]
+    },
+    {
+      "hour_of_day_0based": 8,
+      "identity_U_signature": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "destination_hours": [
+        80
+      ],
+      "source_hours": [
+        80
+      ]
+    },
+    {
+      "hour_of_day_0based": 9,
+      "identity_U_signature": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "destination_hours": [
+        57,
+        105
+      ],
+      "source_hours": [
+        105,
+        57
+      ]
+    },
+    {
+      "hour_of_day_0based": 9,
+      "identity_U_signature": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "destination_hours": [
+        81
+      ],
+      "source_hours": [
+        81
+      ]
+    },
+    {
+      "hour_of_day_0based": 10,
+      "identity_U_signature": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "destination_hours": [
+        58,
+        106
+      ],
+      "source_hours": [
+        58,
+        106
+      ]
+    },
+    {
+      "hour_of_day_0based": 10,
+      "identity_U_signature": [
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "destination_hours": [
+        82
+      ],
+      "source_hours": [
+        82
+      ]
+    },
+    {
+      "hour_of_day_0based": 11,
+      "identity_U_signature": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "destination_hours": [
+        59,
+        107
+      ],
+      "source_hours": [
+        107,
+        59
+      ]
+    },
+    {
+      "hour_of_day_0based": 11,
+      "identity_U_signature": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "destination_hours": [
+        83
+      ],
+      "source_hours": [
+        83
+      ]
+    },
+    {
+      "hour_of_day_0based": 12,
+      "identity_U_signature": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "destination_hours": [
+        60,
+        108
+      ],
+      "source_hours": [
+        108,
+        60
+      ]
+    },
+    {
+      "hour_of_day_0based": 12,
+      "identity_U_signature": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "destination_hours": [
+        84
+      ],
+      "source_hours": [
+        84
+      ]
+    },
+    {
+      "hour_of_day_0based": 13,
+      "identity_U_signature": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "destination_hours": [
+        61
+      ],
+      "source_hours": [
+        61
+      ]
+    },
+    {
+      "hour_of_day_0based": 13,
+      "identity_U_signature": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "destination_hours": [
+        109
+      ],
+      "source_hours": [
+        109
+      ]
+    },
+    {
+      "hour_of_day_0based": 13,
+      "identity_U_signature": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "destination_hours": [
+        85
+      ],
+      "source_hours": [
+        85
+      ]
+    },
+    {
+      "hour_of_day_0based": 14,
+      "identity_U_signature": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "destination_hours": [
+        62
+      ],
+      "source_hours": [
+        62
+      ]
+    },
+    {
+      "hour_of_day_0based": 14,
+      "identity_U_signature": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "destination_hours": [
+        86
+      ],
+      "source_hours": [
+        86
+      ]
+    },
+    {
+      "hour_of_day_0based": 14,
+      "identity_U_signature": [
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "destination_hours": [
+        110
+      ],
+      "source_hours": [
+        110
+      ]
+    },
+    {
+      "hour_of_day_0based": 15,
+      "identity_U_signature": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "destination_hours": [
+        63
+      ],
+      "source_hours": [
+        63
+      ]
+    },
+    {
+      "hour_of_day_0based": 15,
+      "identity_U_signature": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "destination_hours": [
+        87
+      ],
+      "source_hours": [
+        87
+      ]
+    },
+    {
+      "hour_of_day_0based": 15,
+      "identity_U_signature": [
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "destination_hours": [
+        111
+      ],
+      "source_hours": [
+        111
+      ]
+    },
+    {
+      "hour_of_day_0based": 16,
+      "identity_U_signature": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "destination_hours": [
+        88
+      ],
+      "source_hours": [
+        88
+      ]
+    },
+    {
+      "hour_of_day_0based": 16,
+      "identity_U_signature": [
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "destination_hours": [
+        112
+      ],
+      "source_hours": [
+        112
+      ]
+    },
+    {
+      "hour_of_day_0based": 16,
+      "identity_U_signature": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1
+      ],
+      "destination_hours": [
+        64
+      ],
+      "source_hours": [
+        64
+      ]
+    },
+    {
+      "hour_of_day_0based": 17,
+      "identity_U_signature": [
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "destination_hours": [
+        89
+      ],
+      "source_hours": [
+        89
+      ]
+    },
+    {
+      "hour_of_day_0based": 17,
+      "identity_U_signature": [
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "destination_hours": [
+        65
+      ],
+      "source_hours": [
+        65
+      ]
+    },
+    {
+      "hour_of_day_0based": 17,
+      "identity_U_signature": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "destination_hours": [
+        113
+      ],
+      "source_hours": [
+        113
+      ]
+    },
+    {
+      "hour_of_day_0based": 18,
+      "identity_U_signature": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "destination_hours": [
+        90
+      ],
+      "source_hours": [
+        90
+      ]
+    },
+    {
+      "hour_of_day_0based": 18,
+      "identity_U_signature": [
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "destination_hours": [
+        66
+      ],
+      "source_hours": [
+        66
+      ]
+    },
+    {
+      "hour_of_day_0based": 18,
+      "identity_U_signature": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "destination_hours": [
+        114
+      ],
+      "source_hours": [
+        114
+      ]
+    },
+    {
+      "hour_of_day_0based": 19,
+      "identity_U_signature": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "destination_hours": [
+        91
+      ],
+      "source_hours": [
+        91
+      ]
+    },
+    {
+      "hour_of_day_0based": 19,
+      "identity_U_signature": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "destination_hours": [
+        115
+      ],
+      "source_hours": [
+        115
+      ]
+    },
+    {
+      "hour_of_day_0based": 19,
+      "identity_U_signature": [
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "destination_hours": [
+        67
+      ],
+      "source_hours": [
+        67
+      ]
+    },
+    {
+      "hour_of_day_0based": 20,
+      "identity_U_signature": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "destination_hours": [
+        92
+      ],
+      "source_hours": [
+        92
+      ]
+    },
+    {
+      "hour_of_day_0based": 20,
+      "identity_U_signature": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "destination_hours": [
+        68
+      ],
+      "source_hours": [
+        68
+      ]
+    },
+    {
+      "hour_of_day_0based": 20,
+      "identity_U_signature": [
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "destination_hours": [
+        116
+      ],
+      "source_hours": [
+        116
+      ]
+    },
+    {
+      "hour_of_day_0based": 21,
+      "identity_U_signature": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "destination_hours": [
+        93
+      ],
+      "source_hours": [
+        93
+      ]
+    },
+    {
+      "hour_of_day_0based": 21,
+      "identity_U_signature": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "destination_hours": [
+        117
+      ],
+      "source_hours": [
+        117
+      ]
+    },
+    {
+      "hour_of_day_0based": 21,
+      "identity_U_signature": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "destination_hours": [
+        69
+      ],
+      "source_hours": [
+        69
+      ]
+    },
+    {
+      "hour_of_day_0based": 22,
+      "identity_U_signature": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "destination_hours": [
+        94
+      ],
+      "source_hours": [
+        94
+      ]
+    },
+    {
+      "hour_of_day_0based": 22,
+      "identity_U_signature": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "destination_hours": [
+        118
+      ],
+      "source_hours": [
+        118
+      ]
+    },
+    {
+      "hour_of_day_0based": 22,
+      "identity_U_signature": [
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "destination_hours": [
+        70
+      ],
+      "source_hours": [
+        70
+      ]
+    },
+    {
+      "hour_of_day_0based": 23,
+      "identity_U_signature": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "destination_hours": [
+        95,
+        119
+      ],
+      "source_hours": [
+        95,
+        119
+      ]
+    },
+    {
+      "hour_of_day_0based": 23,
+      "identity_U_signature": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "destination_hours": [
+        71
+      ],
+      "source_hours": [
+        71
+      ]
+    }
+  ],
+  "redraws": 0,
+  "identity_draw_retained": false
+}
