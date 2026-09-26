@@ -1,0 +1,173 @@
+{
+  "status": "SELF_TESTS_PASS",
+  "tests": 35,
+  "results": [
+    {
+      "name": "lower_only_separation_and_widening",
+      "pass": true
+    },
+    {
+      "name": "wrong_sign_cannot_select_infinite_upper",
+      "pass": true,
+      "expected": "INVALID_INPUT"
+    },
+    {
+      "name": "upper_only_negative_multiplier",
+      "pass": true
+    },
+    {
+      "name": "valid_nonseparating_ray_is_not_infeasibility",
+      "pass": true
+    },
+    {
+      "name": "zero_ray_is_valid_but_nonseparating",
+      "pass": true
+    },
+    {
+      "name": "strict_gap_but_expanded_exact_boundary_zero",
+      "pass": true
+    },
+    {
+      "name": "one_binary64_below_ray_tau_boundary",
+      "pass": true
+    },
+    {
+      "name": "column_cancellation_still_retains_row_widening",
+      "pass": true
+    },
+    {
+      "name": "point_at_exact_binary64_tau_boundary",
+      "pass": true
+    },
+    {
+      "name": "point_one_binary64_above_tau_boundary",
+      "pass": true
+    },
+    {
+      "name": "fractional_binary_rejected_despite_linear_feasibility",
+      "pass": true
+    },
+    {
+      "name": "strict_binary_point",
+      "pass": true
+    },
+    {
+      "name": "invalid_binary_mask_value",
+      "pass": true,
+      "expected": "INVALID_INPUT"
+    },
+    {
+      "name": "invalid_binary_mask_shape",
+      "pass": true,
+      "expected": "INVALID_INPUT"
+    },
+    {
+      "name": "nonfinite_point",
+      "pass": true,
+      "expected": "INVALID_INPUT"
+    },
+    {
+      "name": "infinite_column_box_unsupported_scope",
+      "pass": true,
+      "expected": "INVALID_INPUT"
+    },
+    {
+      "name": "nonfinite_matrix",
+      "pass": true,
+      "expected": "INVALID_INPUT"
+    },
+    {
+      "name": "inverted_bounds",
+      "pass": true,
+      "expected": "INVALID_INPUT"
+    },
+    {
+      "name": "duplicate_multiplier_rows",
+      "pass": true,
+      "expected": "INVALID_INPUT"
+    },
+    {
+      "name": "overflowing_multiplier_hex",
+      "pass": true,
+      "expected": "INVALID_INPUT"
+    },
+    {
+      "name": "duplicate_CSR_indices",
+      "pass": true,
+      "expected": "INVALID_INPUT"
+    },
+    {
+      "name": "out_of_range_CSR_column",
+      "pass": true,
+      "expected": "INVALID_INPUT"
+    },
+    {
+      "name": "corrupt_CSR_pointer_end",
+      "pass": true,
+      "expected": "INVALID_INPUT"
+    },
+    {
+      "name": "nonmonotone_CSR_pointers",
+      "pass": true,
+      "expected": "INVALID_INPUT"
+    },
+    {
+      "name": "object_NPY_forbidden",
+      "pass": true,
+      "expected": "UNSUPPORTED_FORMAT"
+    },
+    {
+      "name": "Fortran_NPY_forbidden",
+      "pass": true,
+      "expected": "UNSUPPORTED_FORMAT"
+    },
+    {
+      "name": "NPY_shape_payload_disagreement",
+      "pass": true,
+      "expected": "INVALID_INPUT"
+    },
+    {
+      "name": "binary64_not_decimal_rational",
+      "pass": true
+    },
+    {
+      "name": "negative_tau",
+      "pass": true,
+      "expected": "INVALID_INPUT"
+    },
+    {
+      "name": "nonfinite_tau",
+      "pass": true,
+      "expected": "INVALID_INPUT"
+    },
+    {
+      "name": "unsafe_NPZ_member",
+      "pass": true,
+      "expected": "INVALID_INPUT"
+    },
+    {
+      "name": "duplicate_NPZ_member",
+      "pass": true,
+      "expected": "INVALID_INPUT"
+    },
+    {
+      "name": "supplied_hash_mismatch",
+      "pass": true,
+      "expected": "INVALID_INPUT"
+    },
+    {
+      "name": "valid_unrelated_manifest_does_not_bind_input",
+      "pass": true,
+      "expected": "INVALID_INPUT"
+    },
+    {
+      "name": "duplicate_JSON_key",
+      "pass": true,
+      "expected": "INVALID_INPUT"
+    }
+  ],
+  "elapsed_s": 11.812107600009767,
+  "verifier_sha256": "708c3843425eea494a0561e83a275f7059f22bcd546a036705323d056bcf906f",
+  "python_version": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "optimization_calls": 0
+}

@@ -1,0 +1,52 @@
+{
+  "status": "CERTIFIED_EXPANDED_ONLY_POINT",
+  "strict_pass": false,
+  "expanded_pass": true,
+  "original_binary_coordinates_exact": true,
+  "binary_coordinates": 12096,
+  "tau": {
+    "numerator": "5902958103587057",
+    "denominator": "590295810358705651712",
+    "float": 1e-05
+  },
+  "maximum_column_violation": {
+    "numerator": "12133",
+    "denominator": "562949953421312",
+    "float": 2.155253753244324e-11
+  },
+  "worst_column": {
+    "column": 4920,
+    "side": "lower"
+  },
+  "maximum_row_violation": {
+    "numerator": "8080919107015283899",
+    "denominator": "316912650057057350374175801344",
+    "float": 2.5498884647111388e-11
+  },
+  "worst_row": {
+    "row": 27933,
+    "side": "lower"
+  },
+  "manifest": {
+    "path": "results\\research8h\\day_blocks\\input_manifest.csv",
+    "sha256": "5f15b13ce9b15abb1ff6256a4e10fc568ab5384e01a324160b0e522b31c8927d",
+    "entries_checked": 148,
+    "required_input_digests_covered": 4
+  },
+  "dimensions": {
+    "rows": 34681,
+    "columns": 23016,
+    "nonzeros": 145588
+  },
+  "input_hashes": {
+    "results\\research8h\\day_blocks\\days_312\\matrix.npz": "2f11940f72432a2a2e89e4a88115eba3cf24a8e82a8110e250c6191020c1f0bb",
+    "results\\research8h\\day_blocks\\days_312\\bounds.npz": "9be8aa03d19c0677a48fe9cfc7dd767e28b9269c4fc8198a54e37436439e9282",
+    "results\\research8h\\day_blocks\\days_312\\constructive_vector.npz": "9beca0a4c6d31be407097a6d77e1ce99925b493dfd2ee064cc89ba02698bd7b2",
+    "results\\research8h\\day_blocks\\days_312\\integrality.npz": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d"
+  },
+  "scope": "Exact archived binary64 linear model; uniform outward expansion of every finite row/column bound. Binary coordinates remain exact. No native physical-data or field validation.",
+  "elapsed_s": 46.0738246999972,
+  "verifier_sha256": "708c3843425eea494a0561e83a275f7059f22bcd546a036705323d056bcf906f",
+  "python_version": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "optimization_calls": 0
+}

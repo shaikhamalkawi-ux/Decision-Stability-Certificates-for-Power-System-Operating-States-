@@ -1,0 +1,4 @@
+case,prior_lower_floor6_MWh,new_lower_floor6_MWh,binary_upper_ceiling6_MWh,optimum_difference_lower_floor6_MWh,optimum_difference_upper_ceiling6_MWh,target_excess_over_reference_lower_floor6_MWh,target_excess_over_reference_upper_ceiling6_MWh,solver_status,LP_seconds,scope
+january_identity,22114.085669,22615.822769,22964.941240,,,,,Optimal,5.224546999990707,uncapped uniformly expanded original-binary energy bounds
+seed_26093100,23646.570920,24507.776969,25162.618973,1542.835730,2546.796204,1542.835730,2197.677734,Optimal,6.989780900010373,uncapped uniformly expanded original-binary energy bounds
+seed_26093101,23747.348104,25104.092377,25693.286910,2139.151137,3077.464141,2139.151137,2728.345671,Optimal,16.246818199986592,uncapped uniformly expanded original-binary energy bounds

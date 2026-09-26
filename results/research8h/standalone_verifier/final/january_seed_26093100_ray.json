@@ -1,0 +1,108 @@
+{
+  "status": "CERTIFIED_EXPANDED_INFEASIBLE",
+  "strict_pass": true,
+  "expanded_pass": true,
+  "tau": {
+    "numerator": "5902958103587057",
+    "denominator": "590295810358705651712",
+    "float": 1e-05
+  },
+  "row_multiplier_nonzeros": 1715,
+  "combined_column_nonzeros": 5667,
+  "beta": {
+    "numerator": "1091539402272182640842464773286501519",
+    "denominator": "158456325028528675187087900672",
+    "float": 6888582.08768669
+  },
+  "box_maximum": {
+    "numerator": "1342115327908979491448571415041589460222326125196706328629368351",
+    "denominator": "196159429230833773869868419475239575503198607639501078528",
+    "float": 6841961.832635757
+  },
+  "separation_gap": {
+    "numerator": "9145002621386790254733641911894629951694645325491485316327905",
+    "denominator": "196159429230833773869868419475239575503198607639501078528",
+    "float": 46620.25505093238
+  },
+  "expanded_beta": {
+    "numerator": "1288657478037455986670703844312942172574819494064729519197",
+    "denominator": "187072209578355573530071658587684226515959365500928",
+    "float": 6888556.461389842
+  },
+  "expanded_box_maximum": {
+    "numerator": "1407323875787907979132279393264437178831011688650686919686846406160697",
+    "denominator": "205688069665150755269371147819668813122841983204197482918576128",
+    "float": 6842029.671817896
+  },
+  "expanded_separation_gap": {
+    "numerator": "9570005534770222669982349487706749680485998417800604674604904255175",
+    "denominator": "205688069665150755269371147819668813122841983204197482918576128",
+    "float": 46526.78957194592
+  },
+  "norm_formula_gap": {
+    "numerator": "9570005534770222669982349487706749680485998417800604674604904255175",
+    "denominator": "205688069665150755269371147819668813122841983204197482918576128",
+    "float": 46526.78957194592
+  },
+  "row_multiplier_l1": {
+    "numerator": "812129764497292359838094469972024787",
+    "denominator": "316912650057057350374175801344",
+    "float": 2562629.6847130447
+  },
+  "combined_column_l1": {
+    "numerator": "2363850492758984795295870398370161214981878500553",
+    "denominator": "348449143727040986586495598010130648530944",
+    "float": 6783918.2139322935
+  },
+  "independent_widened_endpoint_identity": true,
+  "bindings": {
+    "verified_files": [
+      {
+        "path": "results\\research8h\\seasonal_transfer\\seed_26093100\\lp\\matrix.npz",
+        "sha256": "2f11940f72432a2a2e89e4a88115eba3cf24a8e82a8110e250c6191020c1f0bb",
+        "bytes": 199281
+      },
+      {
+        "path": "results\\research8h\\seasonal_transfer\\seed_26093100\\lp\\bounds.npz",
+        "sha256": "3e6709c70daa02750b99056cb67bb7b7e4b4358570d978df471c9d473dbe4601",
+        "bytes": 52826
+      },
+      {
+        "path": "results\\research8h\\seasonal_transfer\\seed_26093100\\lp\\row_metadata.csv.gz",
+        "sha256": "57e1f84d646676a2965239ff21bce487c7fec161087059713b411655807e8277",
+        "bytes": 147013
+      },
+      {
+        "path": "results\\research8h\\seasonal_transfer\\seed_26093100\\lp\\raw_solver_ray.npz",
+        "sha256": "271d8568655737f88c4aad295bcf1fd7a5852097ccf85d47b01c96d15220a017",
+        "bytes": 7072
+      }
+    ],
+    "manifest": {
+      "path": "results\\research8h\\seasonal_transfer\\input_manifest.csv",
+      "sha256": "9362c181d3aad078f9ff21fc35b3043ca923b70d8484e72565a4b39d7967eb87",
+      "entries_checked": 136,
+      "required_input_digests_covered": 2
+    },
+    "unverified_manifest_digest_without_supplied_manifest": null
+  },
+  "archived_gap_claim_comparison": {
+    "exact_gap": true,
+    "exact_robust_gap": true
+  },
+  "dimensions": {
+    "rows": 34681,
+    "columns": 23016,
+    "nonzeros": 145588
+  },
+  "input_hashes": {
+    "results\\research8h\\seasonal_transfer\\seed_26093100\\lp\\matrix.npz": "2f11940f72432a2a2e89e4a88115eba3cf24a8e82a8110e250c6191020c1f0bb",
+    "results\\research8h\\seasonal_transfer\\seed_26093100\\lp\\bounds.npz": "3e6709c70daa02750b99056cb67bb7b7e4b4358570d978df471c9d473dbe4601",
+    "results\\research8h\\seasonal_transfer\\seed_26093100\\lp\\dual_certificate.json": "7a5a5b3489233df4fbb7b6a56889f76e8d71b5cf72ca9ba1db09909feba3d063"
+  },
+  "scope": "Exact archived binary64 linear model; uniform outward expansion of every finite row/column bound. Binary coordinates remain exact. No native physical-data or field validation.",
+  "elapsed_s": 30.70885980001185,
+  "verifier_sha256": "708c3843425eea494a0561e83a275f7059f22bcd546a036705323d056bcf906f",
+  "python_version": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "optimization_calls": 0
+}

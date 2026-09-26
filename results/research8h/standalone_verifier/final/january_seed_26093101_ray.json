@@ -1,0 +1,103 @@
+{
+  "status": "CERTIFIED_EXPANDED_INFEASIBLE",
+  "strict_pass": true,
+  "expanded_pass": true,
+  "tau": {
+    "numerator": "5902958103587057",
+    "denominator": "590295810358705651712",
+    "float": 1e-05
+  },
+  "row_multiplier_nonzeros": 1253,
+  "combined_column_nonzeros": 5138,
+  "beta": {
+    "numerator": "987061154486321737459989315559550945",
+    "denominator": "39614081257132168796771975168",
+    "float": 24916926.586770456
+  },
+  "box_maximum": {
+    "numerator": "68915711056329758501246922460307011680188663072765",
+    "denominator": "2787593149816327892691964784081045188247552",
+    "float": 24722298.89819845
+  },
+  "separation_gap": {
+    "numerator": "542542811427900294368141093129787283046476019715",
+    "denominator": "2787593149816327892691964784081045188247552",
+    "float": 194627.6885720027
+  },
+  "expanded_beta": {
+    "numerator": "2330625470667603764305063369872630195256647086282489417831",
+    "denominator": "93536104789177786765035829293842113257979682750464",
+    "float": 24916854.04176954
+  },
+  "expanded_box_maximum": {
+    "numerator": "2312446170774427128860203595794958624266528964918935964611",
+    "denominator": "93536104789177786765035829293842113257979682750464",
+    "float": 24722498.076934878
+  },
+  "expanded_separation_gap": {
+    "numerator": "4544824973294158861214943519417892747529530340888363305",
+    "denominator": "23384026197294446691258957323460528314494920687616",
+    "float": 194355.96483466134
+  },
+  "norm_formula_gap": {
+    "numerator": "4544824973294158861214943519417892747529530340888363305",
+    "denominator": "23384026197294446691258957323460528314494920687616",
+    "float": 194355.96483466134
+  },
+  "row_multiplier_l1": {
+    "numerator": "1149521424430715971374442942956237097",
+    "denominator": "158456325028528675187087900672",
+    "float": 7254500.091578892
+  },
+  "combined_column_l1": {
+    "numerator": "3156113059782094039925188087262519283",
+    "denominator": "158456325028528675187087900672",
+    "float": 19917873.64255648
+  },
+  "independent_widened_endpoint_identity": true,
+  "bindings": {
+    "verified_files": [
+      {
+        "path": "results\\research8h\\seasonal_transfer\\seed_26093101\\lp\\matrix.npz",
+        "sha256": "2f11940f72432a2a2e89e4a88115eba3cf24a8e82a8110e250c6191020c1f0bb",
+        "bytes": 199281
+      },
+      {
+        "path": "results\\research8h\\seasonal_transfer\\seed_26093101\\lp\\bounds.npz",
+        "sha256": "3f4c56b7b96cddb7195de8a66a1606df507bd00cc86e9ea47a3a514ce685ab82",
+        "bytes": 53105
+      },
+      {
+        "path": "results\\research8h\\seasonal_transfer\\seed_26093101\\lp\\row_metadata.csv.gz",
+        "sha256": "16f6ec599febbd8ff7add80557a36c82934732799209054e1d8e0860059aa0d8",
+        "bytes": 147013
+      },
+      {
+        "path": "results\\research8h\\seasonal_transfer\\seed_26093101\\lp\\raw_solver_ray.npz",
+        "sha256": "1ab1a10921068c14464c3f1fd71f28d1b5a6cccc4eef28015b18f824922caf59",
+        "bytes": 4943
+      }
+    ],
+    "manifest": null,
+    "unverified_manifest_digest_without_supplied_manifest": "9362c181d3aad078f9ff21fc35b3043ca923b70d8484e72565a4b39d7967eb87"
+  },
+  "archived_gap_claim_comparison": {
+    "exact_gap": true,
+    "exact_robust_gap": true
+  },
+  "dimensions": {
+    "rows": 34681,
+    "columns": 23016,
+    "nonzeros": 145588
+  },
+  "input_hashes": {
+    "results\\research8h\\seasonal_transfer\\seed_26093101\\lp\\matrix.npz": "2f11940f72432a2a2e89e4a88115eba3cf24a8e82a8110e250c6191020c1f0bb",
+    "results\\research8h\\seasonal_transfer\\seed_26093101\\lp\\bounds.npz": "3f4c56b7b96cddb7195de8a66a1606df507bd00cc86e9ea47a3a514ce685ab82",
+    "results\\research8h\\seasonal_transfer\\seed_26093101\\lp\\dual_certificate.json": "041ec0c98bab38c60e8f466082381791a1ce4560e101ccc8e9bc04123d1cb000"
+  },
+  "scope": "Exact archived binary64 linear model; uniform outward expansion of every finite row/column bound. Binary coordinates remain exact. No native physical-data or field validation.",
+  "elapsed_s": 15.381531499995617,
+  "verifier_sha256": "708c3843425eea494a0561e83a275f7059f22bcd546a036705323d056bcf906f",
+  "python_version": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "optimization_calls": 0
+}

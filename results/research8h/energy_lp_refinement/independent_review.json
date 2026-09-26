@@ -1,0 +1,431 @@
+{
+  "status": "PASS_COMPLETE",
+  "finalized_utc": "2026-09-26T22:45:01.646256+00:00",
+  "optimization_calls": 0,
+  "full_point_replays": 0,
+  "native_control_replays": 0,
+  "preflight": {
+    "status": "PREFLIGHT_PASS",
+    "utc": "2026-09-26T22:28:40.934713+00:00",
+    "optimization_calls": 0,
+    "preparation_calls": 0,
+    "native_control_replays": 0,
+    "full_point_replays": 0,
+    "prepared_manifest_files": 59,
+    "prepared_manifest_sha256": "b85b1260ded4d4f0a2576c921a4d84581360bfe7adddac361d5ad8826fd6e32d",
+    "all_hashes_and_byte_counts_pass": true,
+    "source_and_protocol_hashes_pass": true,
+    "original_energy_audit_bindings_pass": true,
+    "execution_started_absent_at_preflight": true,
+    "cases": [
+      {
+        "case": "january_identity",
+        "shape": [
+          34680,
+          23016
+        ],
+        "exact_parent_row_subset_and_bounds_pass": true,
+        "deleted_cap_rows": 1,
+        "zero_cap_and_mean_rows": true,
+        "objective_matches_native_23_fossil_units": true,
+        "objective_nonzeros": 3864,
+        "original_binary_mask_bound_but_LP_continuous": true,
+        "unchanged_exact_binary_upper_bound": {
+          "numerator": "1654798412944827657145",
+          "denominator": "72057594037927936",
+          "approximate": 22964.941239556443,
+          "outward_floor_6dp": 22964.941239,
+          "outward_ceiling_6dp": 22964.94124
+        },
+        "prior_lower_bound": {
+          "numerator": "815865757523951515867123",
+          "denominator": "36893488147419103232",
+          "approximate": 22114.0856691,
+          "outward_floor_6dp": 22114.085669,
+          "outward_ceiling_6dp": 22114.08567
+        },
+        "upper_point_sha256": "7c534f8691c761815224ac43773259da5a8e1d3eb2aa892dcb64dc46541672db",
+        "upper_point_inheritance_binding_pass": true,
+        "zero_dual_expanded_lower_correct": true,
+        "row_map_and_labels_pass": true
+      },
+      {
+        "case": "seed_26093100",
+        "shape": [
+          34680,
+          23016
+        ],
+        "exact_parent_row_subset_and_bounds_pass": true,
+        "deleted_cap_rows": 0,
+        "zero_cap_and_mean_rows": true,
+        "objective_matches_native_23_fossil_units": true,
+        "objective_nonzeros": 3864,
+        "original_binary_mask_bound_but_LP_continuous": true,
+        "unchanged_exact_binary_upper_bound": {
+          "numerator": "906578891427777312835",
+          "denominator": "36028797018963968",
+          "approximate": 25162.61897255671,
+          "outward_floor_6dp": 25162.618972,
+          "outward_ceiling_6dp": 25162.618973
+        },
+        "prior_lower_bound": {
+          "numerator": "501134615735264413111413848281894421878455851993288422488358615551687",
+          "denominator": "21192697132509903820492883951411311555913462260006428132876746752",
+          "approximate": 23646.570920249535,
+          "outward_floor_6dp": 23646.57092,
+          "outward_ceiling_6dp": 23646.570921
+        },
+        "upper_point_sha256": "a04c939390345bb4bad9a0ef7c98ee72c3e6c691c390799730031bfb2f75b8f2",
+        "upper_point_inheritance_binding_pass": true,
+        "zero_dual_expanded_lower_correct": true,
+        "row_map_and_labels_pass": true
+      },
+      {
+        "case": "seed_26093101",
+        "shape": [
+          34680,
+          23016
+        ],
+        "exact_parent_row_subset_and_bounds_pass": true,
+        "deleted_cap_rows": 0,
+        "zero_cap_and_mean_rows": true,
+        "objective_matches_native_23_fossil_units": true,
+        "objective_nonzeros": 3864,
+        "original_binary_mask_bound_but_LP_continuous": true,
+        "unchanged_exact_binary_upper_bound": {
+          "numerator": "1017815955397983932811197640867839",
+          "denominator": "39614081257132168796771975168",
+          "approximate": 25693.286909556562,
+          "outward_floor_6dp": 25693.286909,
+          "outward_ceiling_6dp": 25693.28691
+        },
+        "prior_lower_bound": {
+          "numerator": "195397688274711681069036215349601539278676442385844355369",
+          "denominator": "8228189834840940886372574099398462547677673993273344",
+          "approximate": 23747.34810411541,
+          "outward_floor_6dp": 23747.348104,
+          "outward_ceiling_6dp": 23747.348105
+        },
+        "upper_point_sha256": "60952e52d7457b056db6dd7eddc81862846ac55b5d819051f1a196ded3244302",
+        "upper_point_inheritance_binding_pass": true,
+        "zero_dual_expanded_lower_correct": true,
+        "row_map_and_labels_pass": true
+      }
+    ],
+    "metadata_notes": [],
+    "independent_synthetic_checker_tests": [
+      {
+        "matrix_sign": 1,
+        "multiplier": 1,
+        "pass": true
+      },
+      {
+        "matrix_sign": 1,
+        "multiplier": 0.5,
+        "pass": true
+      },
+      {
+        "matrix_sign": 1,
+        "multiplier": 2,
+        "pass": true
+      },
+      {
+        "matrix_sign": 1,
+        "multiplier": 0,
+        "pass": true
+      },
+      {
+        "matrix_sign": 1,
+        "forbidden_sign_projection": true,
+        "pass": true
+      },
+      {
+        "matrix_sign": -1,
+        "multiplier": -1,
+        "pass": true
+      },
+      {
+        "matrix_sign": -1,
+        "multiplier": -0.5,
+        "pass": true
+      },
+      {
+        "matrix_sign": -1,
+        "multiplier": -2,
+        "pass": true
+      },
+      {
+        "matrix_sign": -1,
+        "multiplier": 0,
+        "pass": true
+      },
+      {
+        "matrix_sign": -1,
+        "forbidden_sign_projection": true,
+        "pass": true
+      }
+    ],
+    "mathematical_review": {
+      "signed_row_and_finite_box_lower_bound": "PASS",
+      "stationarity_residual_signs": "PASS",
+      "uniform_outward_tau_deduction": "PASS",
+      "expanded_bound_not_clipped": true,
+      "best_lower_is_max_of_valid_old_and_new": true,
+      "LP_primals_do_not_replace_binary_uppers": true,
+      "both_difference_interval_formulas": "PASS"
+    },
+    "final_manifest_recheck_pass": true
+  },
+  "all_59_frozen_hashes_and_byte_counts_pass": true,
+  "prepared_manifest_sha256": "b85b1260ded4d4f0a2576c921a4d84581360bfe7adddac361d5ad8826fd6e32d",
+  "cases": [
+    {
+      "case": "january_identity",
+      "model_status": "Optimal",
+      "independent_CSC_column_fraction_replay_pass": true,
+      "raw_to_projected_dual_provenance_pass": true,
+      "projected_entries": 0,
+      "row_dual_nonzeros": 944,
+      "stationarity_residual_nonzeros": 4540,
+      "all_saved_exact_residuals_match": true,
+      "nominal_lower_bound_MWh": {
+        "numerator": "32279819456887346891868639494962420442876905711531",
+        "denominator": "1427247692705959881058285969449495136382746624",
+        "approximate": 22616.830716809294
+      },
+      "expanded_lower_bound_MWh": {
+        "numerator": "67692670989541805824312031500944438452884092390539984097",
+        "denominator": "2993155353253689176481146537402947624255349848014848",
+        "approximate": 22615.822769091137
+      },
+      "prior_lower_bound_MWh": {
+        "numerator": "815865757523951515867123",
+        "denominator": "36893488147419103232",
+        "approximate": 22114.0856691
+      },
+      "best_lower_bound_MWh": {
+        "numerator": "67692670989541805824312031500944438452884092390539984097",
+        "denominator": "2993155353253689176481146537402947624255349848014848",
+        "approximate": 22615.822769091137
+      },
+      "unchanged_binary_upper_MWh": {
+        "numerator": "1654798412944827657145",
+        "denominator": "72057594037927936",
+        "approximate": 22964.941239556443
+      },
+      "active_bound": "new",
+      "max_old_new_exact_pass": true,
+      "binary_upper_point_hash_and_energy_binding_pass": true,
+      "no_lower_upper_contradiction": true,
+      "output_artifact_sha256": {
+        "raw_duals.npz": "f907f56786b9a4a38e4a158f5182029984223bbd51d5bc6462a6b3ba4db6381d",
+        "projected_row_dual.npz": "ebadef5a5e38bb53600f56a291158ff3d7840bdfbd6c887a4138360f9407e19f",
+        "exact_lower_bound.json": "58713e006bdd643134e35199efc4bb9058520dc9e5c19864c857fc3518c5e66c",
+        "exact_stationarity_residual.json": "b3ee9babfb6b90674d17474bb6d22ce5886f4f8bdf1c4e7083992c8397b5905a",
+        "result.json": "aec726baa226134db6066213731236e21cbd88caf048217f6426e655a4fec34e"
+      }
+    },
+    {
+      "case": "seed_26093100",
+      "model_status": "Optimal",
+      "independent_CSC_column_fraction_replay_pass": true,
+      "raw_to_projected_dual_provenance_pass": true,
+      "projected_entries": 22,
+      "row_dual_nonzeros": 2604,
+      "stationarity_residual_nonzeros": 6534,
+      "all_saved_exact_residuals_match": true,
+      "nominal_lower_bound_MWh": {
+        "numerator": "19231125652417540084448539873192649272819301767469720116585217",
+        "denominator": "784637716923335095479473677900958302012794430558004314112",
+        "approximate": 24509.56057507055
+      },
+      "expanded_lower_bound_MWh": {
+        "numerator": "40327658693636613311533581488131982069831669789573027485174576032091",
+        "denominator": "1645504557321206042154969182557350504982735865633579863348609024",
+        "approximate": 24507.776969811555
+      },
+      "prior_lower_bound_MWh": {
+        "numerator": "501134615735264413111413848281894421878455851993288422488358615551687",
+        "denominator": "21192697132509903820492883951411311555913462260006428132876746752",
+        "approximate": 23646.570920249535
+      },
+      "best_lower_bound_MWh": {
+        "numerator": "40327658693636613311533581488131982069831669789573027485174576032091",
+        "denominator": "1645504557321206042154969182557350504982735865633579863348609024",
+        "approximate": 24507.776969811555
+      },
+      "unchanged_binary_upper_MWh": {
+        "numerator": "906578891427777312835",
+        "denominator": "36028797018963968",
+        "approximate": 25162.61897255671
+      },
+      "active_bound": "new",
+      "max_old_new_exact_pass": true,
+      "binary_upper_point_hash_and_energy_binding_pass": true,
+      "no_lower_upper_contradiction": true,
+      "output_artifact_sha256": {
+        "raw_duals.npz": "25fa64ddb35e0f691f612c78c92b60e8d7302617f3dbea1e2e31e55bc8861581",
+        "projected_row_dual.npz": "7c42aa7cd696bbae3b41bd92493a8e23608ed95958f57a5387d56d27259e6a44",
+        "exact_lower_bound.json": "4e1c76af2db08dc3acf73a7174447991b9561a4be969afae18729394f0b0f6af",
+        "exact_stationarity_residual.json": "8966ef3a0fb600a6e8a14040ea013ccf2552651d970f012918968062b9ca3204",
+        "result.json": "6dbc8a3acd89592d17b28d45bc3d8ab65a9bb01231fffa4c6b28398e9bfb7345"
+      }
+    },
+    {
+      "case": "seed_26093101",
+      "model_status": "Optimal",
+      "independent_CSC_column_fraction_replay_pass": true,
+      "raw_to_projected_dual_provenance_pass": true,
+      "projected_entries": 1,
+      "row_dual_nonzeros": 2466,
+      "stationarity_residual_nonzeros": 5643,
+      "all_saved_exact_residuals_match": true,
+      "nominal_lower_bound_MWh": {
+        "numerator": "17916306634983928634437302528705218379145868274535",
+        "denominator": "713623846352979940529142984724747568191373312",
+        "approximate": 25106.09297397551
+      },
+      "expanded_lower_bound_MWh": {
+        "numerator": "37570224243687160445140434537099499556413865214777015901",
+        "denominator": "1496577676626844588240573268701473812127674924007424",
+        "approximate": 25104.092377194323
+      },
+      "prior_lower_bound_MWh": {
+        "numerator": "195397688274711681069036215349601539278676442385844355369",
+        "denominator": "8228189834840940886372574099398462547677673993273344",
+        "approximate": 23747.34810411541
+      },
+      "best_lower_bound_MWh": {
+        "numerator": "37570224243687160445140434537099499556413865214777015901",
+        "denominator": "1496577676626844588240573268701473812127674924007424",
+        "approximate": 25104.092377194323
+      },
+      "unchanged_binary_upper_MWh": {
+        "numerator": "1017815955397983932811197640867839",
+        "denominator": "39614081257132168796771975168",
+        "approximate": 25693.286909556562
+      },
+      "active_bound": "new",
+      "max_old_new_exact_pass": true,
+      "binary_upper_point_hash_and_energy_binding_pass": true,
+      "no_lower_upper_contradiction": true,
+      "output_artifact_sha256": {
+        "raw_duals.npz": "1e063db0a3dc60dd43dbee375fbf5172ae0d771c7217841ad647fd6b33cc2b95",
+        "projected_row_dual.npz": "b2c3c8f8ef4f87c38008653d0a17ca03a94854bc1543dc56ae34f28ae0416859",
+        "exact_lower_bound.json": "4a7d5681997540f44b8f81687e4202c1d75fb45416d9acfca82d0dd14c2d2197",
+        "exact_stationarity_residual.json": "be7122265f11528205d2c4ef8b1ba2ae18a169b9ce0cbd5a22e2d59b0a286140",
+        "result.json": "216fc971bb17f2d1d12652fba52c03b23164d7c95cb4426b07b808acad7b57da"
+      }
+    }
+  ],
+  "refined_interval_checks": [
+    {
+      "case": "seed_26093100",
+      "exact_interval_arithmetic_pass": true,
+      "optimum_difference_MWh": {
+        "lower": {
+          "numerator": "2538743225332781507118549784362889884355124626290726193109324376411",
+          "denominator": "1645504557321206042154969182557350504982735865633579863348609024",
+          "approximate": 1542.8357302551142
+        },
+        "upper": {
+          "numerator": "7622956690049149598647616819321430765614150140031730463",
+          "denominator": "2993155353253689176481146537402947624255349848014848",
+          "approximate": 2546.7962034655725
+        }
+      },
+      "chosen_reference_excess_MWh": {
+        "lower": {
+          "numerator": "2538743225332781507118549784362889884355124626290726193109324376411",
+          "denominator": "1645504557321206042154969182557350504982735865633579863348609024",
+          "approximate": 1542.8357302551142
+        },
+        "upper": {
+          "numerator": "158359369910726968525",
+          "denominator": "72057594037927936",
+          "approximate": 2197.6777330002665
+        }
+      }
+    },
+    {
+      "case": "seed_26093101",
+      "exact_interval_arithmetic_pass": true,
+      "optimum_difference_MWh": {
+        "lower": {
+          "numerator": "3201405839519772115393250917834982495579473579849072221",
+          "denominator": "1496577676626844588240573268701473812127674924007424",
+          "approximate": 2139.1511376378817
+        },
+        "upper": {
+          "numerator": "9211328266480355275166655146878357767701522170239583007",
+          "denominator": "2993155353253689176481146537402947624255349848014848",
+          "approximate": 3077.4641404654267
+        }
+      },
+      "chosen_reference_excess_MWh": {
+        "lower": {
+          "numerator": "3201405839519772115393250917834982495579473579849072221",
+          "denominator": "1496577676626844588240573268701473812127674924007424",
+          "approximate": 2139.1511376378817
+        },
+        "upper": {
+          "numerator": "108080907068929489317555947438079",
+          "denominator": "39614081257132168796771975168",
+          "approximate": 2728.3456700001207
+        }
+      }
+    }
+  ],
+  "outward_decimal_records_checked": 49,
+  "outward_decimal_bounds_pass": true,
+  "output_summary_bindings": {
+    "results.json": "f20c956c06b1a6b968222053a4e85baa90e46fe527c88c9ed4e415ee5c9df654",
+    "refined_brackets.json": "bd1e8e061a26f82bdb8e0697e03ea4b3f97664b6ee19c21d4886950e85fd1cfd",
+    "completion.json": "60083b9e4b4c05460ac8cd42b6da95cbb7ea11519e29f4ad3efe06b32a09d05d",
+    "execution_started.json": "a8c836b1b88afaf1150fcdbfeafcada41d7de74b783bbdb873fe0becfccf3f21",
+    "relative_penalty_addendum.py": "952fb16dd8a5976bfb9c7e00c862c473751e9a91445386e768c1bae2c937af8b",
+    "relative_penalty_bounds.json": "5dff4825a3cb8509564fb2c44cd27160b43c2cf0d79e01cd0c2e557f38fdfccd",
+    "relative_penalty_bounds.csv": "c9bc5d5ec56ae0fce697f0fa9459ce44c9c815e3b8c06ca35c26bf9980f9b7c3",
+    "summary.csv": "70411c2751301e187feb1fc38faef57071796aa42e1bb323f1c697b3d758390f",
+    "READOUT.md": "50f6583617f49a97a5717a86b4501a4d61403dad228231a07c2439e09a7ff92c"
+  },
+  "scope": "All optima remain the same uncapped uniformly tau-expanded original-binary models. New continuous LPs provide only lower bounds; prior exact binary upper witnesses remain unchanged. No new data, season, network or replication.",
+  "final_manifest_recheck_pass": true,
+  "reporting_addendum_review": {
+    "utc": "2026-09-26T22:45:01.526092+00:00",
+    "optimization_calls": 0,
+    "extra_matrix_or_full_point_replays": 0,
+    "absolute_report_summary_csv_and_readout_pass": true,
+    "distinct_optimum_difference_and_chosen_reference_excess_labels_pass": true,
+    "relative_optimum_ratio_formula_monotonicity_pass": true,
+    "ratio_record_count": 8,
+    "ratio_outward_decimal_string_checks": 16,
+    "cases": [
+      {
+        "case": "seed_26093100",
+        "ratio_endpoints_exact_pass": true,
+        "strictly_positive_denominator_grounding_pass": true,
+        "absolute_brackets_unchanged": true,
+        "all_ratio_percentage_outward_strings_pass": true,
+        "relative_percent_outward": "[6.718221%,11.261126%]"
+      },
+      {
+        "case": "seed_26093101",
+        "ratio_endpoints_exact_pass": true,
+        "strictly_positive_denominator_grounding_pass": true,
+        "absolute_brackets_unchanged": true,
+        "all_ratio_percentage_outward_strings_pass": true,
+        "relative_percent_outward": "[9.314855%,13.607571%]"
+      }
+    ],
+    "frozen_manifest_hash_still_matches": true,
+    "all_previously_bound_mathematical_outputs_unchanged": true,
+    "report_artifact_sha256": {
+      "relative_penalty_addendum.py": "952fb16dd8a5976bfb9c7e00c862c473751e9a91445386e768c1bae2c937af8b",
+      "relative_penalty_bounds.json": "5dff4825a3cb8509564fb2c44cd27160b43c2cf0d79e01cd0c2e557f38fdfccd",
+      "relative_penalty_bounds.csv": "c9bc5d5ec56ae0fce697f0fa9459ce44c9c815e3b8c06ca35c26bf9980f9b7c3",
+      "summary.csv": "70411c2751301e187feb1fc38faef57071796aa42e1bb323f1c697b3d758390f",
+      "READOUT.md": "50f6583617f49a97a5717a86b4501a4d61403dad228231a07c2439e09a7ff92c"
+    }
+  }
+}

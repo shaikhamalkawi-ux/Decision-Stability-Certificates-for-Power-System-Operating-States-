@@ -1,0 +1,122 @@
+{
+  "case": "january_identity",
+  "model_status": "Optimal",
+  "run_status": "HighsStatus.kOk",
+  "solver_version": "1.12.0",
+  "elapsed_s": 5.224546999990707,
+  "options": {
+    "time_limit": 60.0,
+    "threads": 1,
+    "random_seed": 0,
+    "solver": "simplex",
+    "presolve": "off",
+    "log_to_console": false,
+    "log_file": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\energy_lp_refinement\\january_identity\\solver.log"
+  },
+  "optimization_calls": 1,
+  "primal_valid": true,
+  "dual_valid": true,
+  "numerical_objective_MWh": 22616.830716809363,
+  "simplex_iterations": 10686,
+  "exact_optimality_claim": false,
+  "new_lower_bound_status": "EXACT_EXPANDED_OBJECTIVE_LOWER_BOUND",
+  "numerical_primal_check": {
+    "pass": true,
+    "tolerance": 1e-05,
+    "residuals": {
+      "column_lower": 1.1368683772161603e-13,
+      "column_upper": 0.0,
+      "row_lower": 6.600942015211331e-12,
+      "row_upper": 5.4569682106375694e-12
+    }
+  },
+  "continuous_primal_not_a_binary_upper_bound": true,
+  "exact_bound": {
+    "arithmetic": "exact Fraction arithmetic on archived binary64 inputs",
+    "nominal_lower_bound_MWh": {
+      "numerator": "32279819456887346891868639494962420442876905711531",
+      "denominator": "1427247692705959881058285969449495136382746624",
+      "approximate": 22616.830716809294,
+      "outward_floor_6dp": 22616.830716,
+      "outward_ceiling_6dp": 22616.830717
+    },
+    "expanded_lower_bound_MWh": {
+      "numerator": "67692670989541805824312031500944438452884092390539984097",
+      "denominator": "2993155353253689176481146537402947624255349848014848",
+      "approximate": 22615.822769091137,
+      "outward_floor_6dp": 22615.822769,
+      "outward_ceiling_6dp": 22615.82277
+    },
+    "row_term": {
+      "numerator": "3600095608817529789139596896759321857",
+      "denominator": "40564819207303340847894502572032",
+      "approximate": 88749.20877668707,
+      "outward_floor_6dp": 88749.208776,
+      "outward_ceiling_6dp": 88749.208777
+    },
+    "finite_box_term": {
+      "numerator": "-94387283999118794452779303879511825774465977489493",
+      "denominator": "1427247692705959881058285969449495136382746624",
+      "approximate": -66132.37805987777,
+      "outward_floor_6dp": -66132.37806,
+      "outward_ceiling_6dp": -66132.378059
+    },
+    "row_dual_l1": {
+      "numerator": "28491910024479688324863",
+      "denominator": "1152921504606846976",
+      "approximate": 24712.79259744192,
+      "outward_floor_6dp": 24712.792597,
+      "outward_ceiling_6dp": 24712.792598
+    },
+    "stationarity_residual_l1": {
+      "numerator": "385781466491325806037650780429724943",
+      "denominator": "5070602400912917605986812821504",
+      "approximate": 76081.97921845918,
+      "outward_floor_6dp": 76081.979218,
+      "outward_ceiling_6dp": 76081.979219
+    },
+    "tau": {
+      "numerator": "5902958103587057",
+      "denominator": "590295810358705651712",
+      "approximate": 1e-05,
+      "outward_floor_6dp": 1e-05,
+      "outward_ceiling_6dp": 1.1e-05
+    },
+    "projected_entries": 0,
+    "raw_dual_is_projected_dual": true,
+    "projected_row_dual_nonzeros": 944,
+    "exact_residual_nonzeros": 4540,
+    "solver_optimality_or_exact_stationarity_required": false,
+    "expanded_model": "Every finite row and column bound widened by the exact binary64 value1e-5; no clipping."
+  },
+  "saved_projected_dual_replay": true,
+  "previous_lower_MWh": {
+    "numerator": "815865757523951515867123",
+    "denominator": "36893488147419103232",
+    "approximate": 22114.0856691,
+    "outward_floor_6dp": 22114.085669,
+    "outward_ceiling_6dp": 22114.08567
+  },
+  "best_lower_MWh": {
+    "numerator": "67692670989541805824312031500944438452884092390539984097",
+    "denominator": "2993155353253689176481146537402947624255349848014848",
+    "approximate": 22615.822769091137,
+    "outward_floor_6dp": 22615.822769,
+    "outward_ceiling_6dp": 22615.82277
+  },
+  "unchanged_binary_upper_MWh": {
+    "numerator": "1654798412944827657145",
+    "denominator": "72057594037927936",
+    "approximate": 22964.941239556443,
+    "outward_floor_6dp": 22964.941239,
+    "outward_ceiling_6dp": 22964.94124
+  },
+  "improved_lower_bound": true,
+  "new_lower_MWh": {
+    "numerator": "67692670989541805824312031500944438452884092390539984097",
+    "denominator": "2993155353253689176481146537402947624255349848014848",
+    "approximate": 22615.822769091137,
+    "outward_floor_6dp": 22615.822769,
+    "outward_ceiling_6dp": 22615.82277
+  }
+}

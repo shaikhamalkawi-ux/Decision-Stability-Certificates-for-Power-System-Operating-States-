@@ -1,0 +1,41 @@
+[
+  {
+    "case": "days_312",
+    "verdict": "VERIFIED_FEASIBLE_EXPANDED_MODEL",
+    "route": "CONSTRUCTIVE_REFERENCE",
+    "LP_calls": 0,
+    "MIP_calls": 0
+  },
+  {
+    "case": "days_132",
+    "verdict": "UNKNOWN",
+    "route": "MIP",
+    "LP_calls": 1,
+    "MIP_calls": 1,
+    "MIP_elapsed_s": 505.4242418000067
+  },
+  {
+    "case": "days_213",
+    "verdict": "UNKNOWN",
+    "route": "MIP",
+    "LP_calls": 1,
+    "MIP_calls": 1,
+    "MIP_elapsed_s": 303.7663046999951
+  },
+  {
+    "case": "days_231",
+    "verdict": "UNKNOWN",
+    "route": "MIP",
+    "LP_calls": 1,
+    "MIP_calls": 1,
+    "MIP_elapsed_s": 417.48933749998105
+  },
+  {
+    "case": "days_321",
+    "verdict": "UNKNOWN",
+    "route": "MIP",
+    "LP_calls": 1,
+    "MIP_calls": 1,
+    "MIP_elapsed_s": 306.9437764000031
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "lower_MWh": {
+    "numerator": "815865757523951515867123",
+    "denominator": "36893488147419103232",
+    "approximate": 22114.0856691,
+    "outward_floor_6dp": 22114.085669,
+    "outward_ceiling_6dp": 22114.08567
+  },
+  "binary_upper_MWh": {
+    "numerator": "1654798412944827657145",
+    "denominator": "72057594037927936",
+    "approximate": 22964.941239556443,
+    "outward_floor_6dp": 22964.941239,
+    "outward_ceiling_6dp": 22964.94124
+  },
+  "prior_case": "january_identity",
+  "scope": "uncapped uniformly expanded original-binary model"
+}

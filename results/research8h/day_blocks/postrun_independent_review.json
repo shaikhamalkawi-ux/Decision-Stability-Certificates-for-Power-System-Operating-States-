@@ -1,0 +1,114 @@
+{
+  "status": "PASS",
+  "observed_utc": "2026-09-26T22:53:20.439Z",
+  "optimization_calls_by_reviewer": 0,
+  "frozen_manifest": {
+    "sha256": "5f15b13ce9b15abb1ff6256a4e10fc568ab5384e01a324160b0e522b31c8927d",
+    "entries_checked": 148,
+    "mismatches": []
+  },
+  "outcome_counts": {
+    "certified_expanded_feasible": 1,
+    "certified_infeasible": 0,
+    "unknown": 4,
+    "denominator": 5
+  },
+  "cases": [
+    {
+      "case": "days_132",
+      "verdict": "UNKNOWN",
+      "route": "MIP",
+      "LP_calls": 1,
+      "MIP_calls": 1,
+      "MIP_elapsed_s": 505.4242418000067
+    },
+    {
+      "case": "days_213",
+      "verdict": "UNKNOWN",
+      "route": "MIP",
+      "LP_calls": 1,
+      "MIP_calls": 1,
+      "MIP_elapsed_s": 303.7663046999951
+    },
+    {
+      "case": "days_231",
+      "verdict": "UNKNOWN",
+      "route": "MIP",
+      "LP_calls": 1,
+      "MIP_calls": 1,
+      "MIP_elapsed_s": 417.48933749998105
+    },
+    {
+      "case": "days_312",
+      "verdict": "VERIFIED_FEASIBLE_EXPANDED_MODEL",
+      "route": "CONSTRUCTIVE_REFERENCE",
+      "LP_calls": 0,
+      "MIP_calls": 0
+    },
+    {
+      "case": "days_321",
+      "verdict": "UNKNOWN",
+      "route": "MIP",
+      "LP_calls": 1,
+      "MIP_calls": 1,
+      "MIP_elapsed_s": 306.9437764000031
+    }
+  ],
+  "LP_calls": 4,
+  "MIP_calls": 4,
+  "configured_seconds_actual_calls": {
+    "LP": 120,
+    "MIP": 1200,
+    "total": 1320
+  },
+  "actual_seconds": {
+    "LP": 28.144544899987523,
+    "MIP": 1533.623660399986,
+    "solver_total": 1561.7682052999735,
+    "phase": 1595.668305899977,
+    "non_solver_phase": 33.9001006000035
+  },
+  "MIP_limit_overshoot_seconds": 333.62366039998597,
+  "phase_limit_seconds": 2100,
+  "phase_within_limit": true,
+  "exact_inherited_witness": {
+    "status": "CERTIFIED_EXPANDED_ONLY_POINT",
+    "report_sha256": "fba3deb96b97d89dd31fbe3d8c7f7fa160ad79261afc9569df3256ad04607077",
+    "verifier_sha256": "708c3843425eea494a0561e83a275f7059f22bcd546a036705323d056bcf906f",
+    "input_hashes_still_match": true,
+    "original_binary_coordinates": 12096,
+    "strict_pass": false,
+    "expanded_pass": true
+  },
+  "log_order": [
+    {
+      "case": "days_132",
+      "LP_start_UTC": "2026-09-26T22:12:26.549Z",
+      "LP_end_UTC": "2026-09-26T22:12:34.062Z",
+      "MIP_start_UTC": "2026-09-26T22:13:03.117Z",
+      "MIP_end_UTC": "2026-09-26T22:21:28.469Z"
+    },
+    {
+      "case": "days_213",
+      "LP_start_UTC": "2026-09-26T22:12:35.648Z",
+      "LP_end_UTC": "2026-09-26T22:12:43.373Z",
+      "MIP_start_UTC": "2026-09-26T22:21:33.566Z",
+      "MIP_end_UTC": "2026-09-26T22:26:36.902Z"
+    },
+    {
+      "case": "days_231",
+      "LP_start_UTC": "2026-09-26T22:12:47.185Z",
+      "LP_end_UTC": "2026-09-26T22:12:53.146Z",
+      "MIP_start_UTC": "2026-09-26T22:26:44.571Z",
+      "MIP_end_UTC": "2026-09-26T22:33:42.210Z"
+    },
+    {
+      "case": "days_321",
+      "LP_start_UTC": "2026-09-26T22:12:55.229Z",
+      "LP_end_UTC": "2026-09-26T22:13:02.377Z",
+      "MIP_start_UTC": "2026-09-26T22:33:45.830Z",
+      "MIP_end_UTC": "2026-09-26T22:38:52.742Z"
+    }
+  ],
+  "scope": "LP points are numerically admitted fractional solutions, not certified binary positives. Four MIP timeouts remain UNKNOWN. No new infeasibility result."
+}

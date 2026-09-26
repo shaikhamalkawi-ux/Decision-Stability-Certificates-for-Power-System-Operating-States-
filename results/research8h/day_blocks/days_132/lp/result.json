@@ -1,0 +1,23 @@
+{
+  "model_status": "Optimal",
+  "elapsed_s": 7.485980600002222,
+  "time_limit_s": 30,
+  "verdict": "ADMITTED_CONTINUOUS_RELAXATION",
+  "solver_version": "1.12.0",
+  "presolve": "off",
+  "solver": "simplex",
+  "returned_vector_check": {
+    "pass": true,
+    "tolerance": 1e-05,
+    "residuals": {
+      "column_lower": 0.0,
+      "column_upper": 2.220446049250313e-16,
+      "row_lower": 3.034017481695628e-11,
+      "row_upper": 2.9331204132176936e-11
+    }
+  },
+  "fractional_state_coordinate_count": 263,
+  "matrix_sha256": "2f11940f72432a2a2e89e4a88115eba3cf24a8e82a8110e250c6191020c1f0bb",
+  "bounds_sha256": "409779449608b84b9640204f4cc60595709ae7b4e32246cf4f1f8c10e5671ef8",
+  "case": "days_132"
+}

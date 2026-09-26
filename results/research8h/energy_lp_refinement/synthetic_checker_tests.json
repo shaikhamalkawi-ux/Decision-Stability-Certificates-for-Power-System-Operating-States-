@@ -1,0 +1,374 @@
+[
+  {
+    "case": "positive_lower",
+    "pass": true,
+    "report": {
+      "arithmetic": "exact Fraction arithmetic on archived binary64 inputs",
+      "nominal_lower_bound_MWh": {
+        "numerator": "3602879701896397",
+        "denominator": "18014398509481984",
+        "approximate": 0.2,
+        "outward_floor_6dp": 0.2,
+        "outward_ceiling_6dp": 0.200001
+      },
+      "expanded_lower_bound_MWh": {
+        "numerator": "118053259113637549839",
+        "denominator": "590295810358705651712",
+        "approximate": 0.19999,
+        "outward_floor_6dp": 0.19999,
+        "outward_ceiling_6dp": 0.199991
+      },
+      "row_term": {
+        "numerator": "3602879701896397",
+        "denominator": "18014398509481984",
+        "approximate": 0.2,
+        "outward_floor_6dp": 0.2,
+        "outward_ceiling_6dp": 0.200001
+      },
+      "finite_box_term": {
+        "numerator": "0",
+        "denominator": "1",
+        "approximate": 0.0,
+        "outward_floor_6dp": 0.0,
+        "outward_ceiling_6dp": 0.0
+      },
+      "row_dual_l1": {
+        "numerator": "1",
+        "denominator": "1",
+        "approximate": 1.0,
+        "outward_floor_6dp": 1.0,
+        "outward_ceiling_6dp": 1.0
+      },
+      "stationarity_residual_l1": {
+        "numerator": "0",
+        "denominator": "1",
+        "approximate": 0.0,
+        "outward_floor_6dp": 0.0,
+        "outward_ceiling_6dp": 0.0
+      },
+      "tau": {
+        "numerator": "5902958103587057",
+        "denominator": "590295810358705651712",
+        "approximate": 1e-05,
+        "outward_floor_6dp": 1e-05,
+        "outward_ceiling_6dp": 1.1e-05
+      },
+      "projected_entries": 0,
+      "raw_dual_is_projected_dual": true,
+      "projected_row_dual_nonzeros": 1,
+      "exact_residual_nonzeros": 0,
+      "solver_optimality_or_exact_stationarity_required": false,
+      "expanded_model": "Every finite row and column bound widened by the exact binary64 value1e-5; no clipping."
+    }
+  },
+  {
+    "case": "negative_upper",
+    "pass": true,
+    "report": {
+      "arithmetic": "exact Fraction arithmetic on archived binary64 inputs",
+      "nominal_lower_bound_MWh": {
+        "numerator": "3602879701896397",
+        "denominator": "18014398509481984",
+        "approximate": 0.2,
+        "outward_floor_6dp": 0.2,
+        "outward_ceiling_6dp": 0.200001
+      },
+      "expanded_lower_bound_MWh": {
+        "numerator": "118053259113637549839",
+        "denominator": "590295810358705651712",
+        "approximate": 0.19999,
+        "outward_floor_6dp": 0.19999,
+        "outward_ceiling_6dp": 0.199991
+      },
+      "row_term": {
+        "numerator": "3602879701896397",
+        "denominator": "18014398509481984",
+        "approximate": 0.2,
+        "outward_floor_6dp": 0.2,
+        "outward_ceiling_6dp": 0.200001
+      },
+      "finite_box_term": {
+        "numerator": "0",
+        "denominator": "1",
+        "approximate": 0.0,
+        "outward_floor_6dp": 0.0,
+        "outward_ceiling_6dp": 0.0
+      },
+      "row_dual_l1": {
+        "numerator": "1",
+        "denominator": "1",
+        "approximate": 1.0,
+        "outward_floor_6dp": 1.0,
+        "outward_ceiling_6dp": 1.0
+      },
+      "stationarity_residual_l1": {
+        "numerator": "0",
+        "denominator": "1",
+        "approximate": 0.0,
+        "outward_floor_6dp": 0.0,
+        "outward_ceiling_6dp": 0.0
+      },
+      "tau": {
+        "numerator": "5902958103587057",
+        "denominator": "590295810358705651712",
+        "approximate": 1e-05,
+        "outward_floor_6dp": 1e-05,
+        "outward_ceiling_6dp": 1.1e-05
+      },
+      "projected_entries": 0,
+      "raw_dual_is_projected_dual": true,
+      "projected_row_dual_nonzeros": 1,
+      "exact_residual_nonzeros": 0,
+      "solver_optimality_or_exact_stationarity_required": false,
+      "expanded_model": "Every finite row and column bound widened by the exact binary64 value1e-5; no clipping."
+    }
+  },
+  {
+    "case": "zero_dual",
+    "pass": true,
+    "report": {
+      "arithmetic": "exact Fraction arithmetic on archived binary64 inputs",
+      "nominal_lower_bound_MWh": {
+        "numerator": "0",
+        "denominator": "1",
+        "approximate": 0.0,
+        "outward_floor_6dp": 0.0,
+        "outward_ceiling_6dp": 0.0
+      },
+      "expanded_lower_bound_MWh": {
+        "numerator": "-5902958103587057",
+        "denominator": "590295810358705651712",
+        "approximate": -1e-05,
+        "outward_floor_6dp": -1.1e-05,
+        "outward_ceiling_6dp": -1e-05
+      },
+      "row_term": {
+        "numerator": "0",
+        "denominator": "1",
+        "approximate": 0.0,
+        "outward_floor_6dp": 0.0,
+        "outward_ceiling_6dp": 0.0
+      },
+      "finite_box_term": {
+        "numerator": "0",
+        "denominator": "1",
+        "approximate": 0.0,
+        "outward_floor_6dp": 0.0,
+        "outward_ceiling_6dp": 0.0
+      },
+      "row_dual_l1": {
+        "numerator": "0",
+        "denominator": "1",
+        "approximate": 0.0,
+        "outward_floor_6dp": 0.0,
+        "outward_ceiling_6dp": 0.0
+      },
+      "stationarity_residual_l1": {
+        "numerator": "1",
+        "denominator": "1",
+        "approximate": 1.0,
+        "outward_floor_6dp": 1.0,
+        "outward_ceiling_6dp": 1.0
+      },
+      "tau": {
+        "numerator": "5902958103587057",
+        "denominator": "590295810358705651712",
+        "approximate": 1e-05,
+        "outward_floor_6dp": 1e-05,
+        "outward_ceiling_6dp": 1.1e-05
+      },
+      "projected_entries": 0,
+      "raw_dual_is_projected_dual": true,
+      "projected_row_dual_nonzeros": 0,
+      "exact_residual_nonzeros": 1,
+      "solver_optimality_or_exact_stationarity_required": false,
+      "expanded_model": "Every finite row and column bound widened by the exact binary64 value1e-5; no clipping."
+    }
+  },
+  {
+    "case": "imperfect_positive_q",
+    "pass": true,
+    "report": {
+      "arithmetic": "exact Fraction arithmetic on archived binary64 inputs",
+      "nominal_lower_bound_MWh": {
+        "numerator": "3602879701896397",
+        "denominator": "36028797018963968",
+        "approximate": 0.1,
+        "outward_floor_6dp": 0.1,
+        "outward_ceiling_6dp": 0.100001
+      },
+      "expanded_lower_bound_MWh": {
+        "numerator": "59023678077766981391",
+        "denominator": "590295810358705651712",
+        "approximate": 0.09999000000000001,
+        "outward_floor_6dp": 0.09999,
+        "outward_ceiling_6dp": 0.099991
+      },
+      "row_term": {
+        "numerator": "3602879701896397",
+        "denominator": "36028797018963968",
+        "approximate": 0.1,
+        "outward_floor_6dp": 0.1,
+        "outward_ceiling_6dp": 0.100001
+      },
+      "finite_box_term": {
+        "numerator": "0",
+        "denominator": "1",
+        "approximate": 0.0,
+        "outward_floor_6dp": 0.0,
+        "outward_ceiling_6dp": 0.0
+      },
+      "row_dual_l1": {
+        "numerator": "1",
+        "denominator": "2",
+        "approximate": 0.5,
+        "outward_floor_6dp": 0.5,
+        "outward_ceiling_6dp": 0.5
+      },
+      "stationarity_residual_l1": {
+        "numerator": "1",
+        "denominator": "2",
+        "approximate": 0.5,
+        "outward_floor_6dp": 0.5,
+        "outward_ceiling_6dp": 0.5
+      },
+      "tau": {
+        "numerator": "5902958103587057",
+        "denominator": "590295810358705651712",
+        "approximate": 1e-05,
+        "outward_floor_6dp": 1e-05,
+        "outward_ceiling_6dp": 1.1e-05
+      },
+      "projected_entries": 0,
+      "raw_dual_is_projected_dual": true,
+      "projected_row_dual_nonzeros": 1,
+      "exact_residual_nonzeros": 1,
+      "solver_optimality_or_exact_stationarity_required": false,
+      "expanded_model": "Every finite row and column bound widened by the exact binary64 value1e-5; no clipping."
+    }
+  },
+  {
+    "case": "imperfect_negative_q",
+    "pass": true,
+    "report": {
+      "arithmetic": "exact Fraction arithmetic on archived binary64 inputs",
+      "nominal_lower_bound_MWh": {
+        "numerator": "-5404319552844595",
+        "denominator": "9007199254740992",
+        "approximate": -0.6,
+        "outward_floor_6dp": -0.6,
+        "outward_ceiling_6dp": -0.599999
+      },
+      "expanded_lower_bound_MWh": {
+        "numerator": "-354195195089534139091",
+        "denominator": "590295810358705651712",
+        "approximate": -0.60003,
+        "outward_floor_6dp": -0.60003,
+        "outward_ceiling_6dp": -0.600029
+      },
+      "row_term": {
+        "numerator": "3602879701896397",
+        "denominator": "9007199254740992",
+        "approximate": 0.4,
+        "outward_floor_6dp": 0.4,
+        "outward_ceiling_6dp": 0.400001
+      },
+      "finite_box_term": {
+        "numerator": "-1",
+        "denominator": "1",
+        "approximate": -1.0,
+        "outward_floor_6dp": -1.0,
+        "outward_ceiling_6dp": -1.0
+      },
+      "row_dual_l1": {
+        "numerator": "2",
+        "denominator": "1",
+        "approximate": 2.0,
+        "outward_floor_6dp": 2.0,
+        "outward_ceiling_6dp": 2.0
+      },
+      "stationarity_residual_l1": {
+        "numerator": "1",
+        "denominator": "1",
+        "approximate": 1.0,
+        "outward_floor_6dp": 1.0,
+        "outward_ceiling_6dp": 1.0
+      },
+      "tau": {
+        "numerator": "5902958103587057",
+        "denominator": "590295810358705651712",
+        "approximate": 1e-05,
+        "outward_floor_6dp": 1e-05,
+        "outward_ceiling_6dp": 1.1e-05
+      },
+      "projected_entries": 0,
+      "raw_dual_is_projected_dual": true,
+      "projected_row_dual_nonzeros": 1,
+      "exact_residual_nonzeros": 1,
+      "solver_optimality_or_exact_stationarity_required": false,
+      "expanded_model": "Every finite row and column bound widened by the exact binary64 value1e-5; no clipping."
+    }
+  },
+  {
+    "case": "inadmissible_sign_projected",
+    "pass": true,
+    "report": {
+      "arithmetic": "exact Fraction arithmetic on archived binary64 inputs",
+      "nominal_lower_bound_MWh": {
+        "numerator": "0",
+        "denominator": "1",
+        "approximate": 0.0,
+        "outward_floor_6dp": 0.0,
+        "outward_ceiling_6dp": 0.0
+      },
+      "expanded_lower_bound_MWh": {
+        "numerator": "-5902958103587057",
+        "denominator": "590295810358705651712",
+        "approximate": -1e-05,
+        "outward_floor_6dp": -1.1e-05,
+        "outward_ceiling_6dp": -1e-05
+      },
+      "row_term": {
+        "numerator": "0",
+        "denominator": "1",
+        "approximate": 0.0,
+        "outward_floor_6dp": 0.0,
+        "outward_ceiling_6dp": 0.0
+      },
+      "finite_box_term": {
+        "numerator": "0",
+        "denominator": "1",
+        "approximate": 0.0,
+        "outward_floor_6dp": 0.0,
+        "outward_ceiling_6dp": 0.0
+      },
+      "row_dual_l1": {
+        "numerator": "0",
+        "denominator": "1",
+        "approximate": 0.0,
+        "outward_floor_6dp": 0.0,
+        "outward_ceiling_6dp": 0.0
+      },
+      "stationarity_residual_l1": {
+        "numerator": "1",
+        "denominator": "1",
+        "approximate": 1.0,
+        "outward_floor_6dp": 1.0,
+        "outward_ceiling_6dp": 1.0
+      },
+      "tau": {
+        "numerator": "5902958103587057",
+        "denominator": "590295810358705651712",
+        "approximate": 1e-05,
+        "outward_floor_6dp": 1e-05,
+        "outward_ceiling_6dp": 1.1e-05
+      },
+      "projected_entries": 1,
+      "raw_dual_is_projected_dual": false,
+      "projected_row_dual_nonzeros": 0,
+      "exact_residual_nonzeros": 1,
+      "solver_optimality_or_exact_stationarity_required": false,
+      "expanded_model": "Every finite row and column bound widened by the exact binary64 value1e-5; no clipping."
+    }
+  }
+]

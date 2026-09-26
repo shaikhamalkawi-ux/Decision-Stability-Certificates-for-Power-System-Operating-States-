@@ -1,0 +1,22 @@
+{
+  "case": "seed_26093101",
+  "parent_matrix_sha256": "43eadfdf239a339757187fa4d52e786d1be7277bb93009d5ded1973523bf1386",
+  "parent_bounds_sha256": "2a77d68411187266dc8599741c602de61abeb86c06afbd8004a21ba88934823a",
+  "exact_row_subset_and_bounds_match": true,
+  "deleted_cap_rows": 0,
+  "caps_remaining": 0,
+  "mean_rows": 0,
+  "positive_vector_path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\seasonal_uncapped\\seed_26093101\\recovered_vector.npz",
+  "positive_vector_sha256": "60952e52d7457b056db6dd7eddc81862846ac55b5d819051f1a196ded3244302",
+  "binary_upper_MWh": {
+    "numerator": "1017815955397983932811197640867839",
+    "denominator": "39614081257132168796771975168",
+    "approximate": 25693.286909556562,
+    "outward_floor_6dp": 25693.286909,
+    "outward_ceiling_6dp": 25693.28691
+  },
+  "prior_exact_expanded_point_audit": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\energy_price_bounds\\results.json",
+  "expanded_witness_inherited": true,
+  "all_LP_variables_continuous": true,
+  "control_optimizations": 0
+}

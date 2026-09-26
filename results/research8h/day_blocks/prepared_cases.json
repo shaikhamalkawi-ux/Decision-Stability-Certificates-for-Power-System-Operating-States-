@@ -1,0 +1,118 @@
+[
+  {
+    "case": "days_132",
+    "constructive_expanded_pass": false,
+    "bijection": true,
+    "fixed_edges": true,
+    "hour_of_day_exact": true,
+    "within_day_order_exact": true,
+    "package_roundtrips_exact": true,
+    "nodal_reconstruction_exact": true,
+    "fossil_energy_exactly_preserved": true,
+    "changed_hours": 48,
+    "changed_adjacent_pairs_after_hours": [
+      71,
+      95,
+      119
+    ],
+    "changed_adjacent_pair_count": 3,
+    "day_order_1based": [
+      1,
+      3,
+      2
+    ]
+  },
+  {
+    "case": "days_213",
+    "constructive_expanded_pass": false,
+    "bijection": true,
+    "fixed_edges": true,
+    "hour_of_day_exact": true,
+    "within_day_order_exact": true,
+    "package_roundtrips_exact": true,
+    "nodal_reconstruction_exact": true,
+    "fossil_energy_exactly_preserved": true,
+    "changed_hours": 48,
+    "changed_adjacent_pairs_after_hours": [
+      47,
+      71,
+      95
+    ],
+    "changed_adjacent_pair_count": 3,
+    "day_order_1based": [
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "case": "days_231",
+    "constructive_expanded_pass": false,
+    "bijection": true,
+    "fixed_edges": true,
+    "hour_of_day_exact": true,
+    "within_day_order_exact": true,
+    "package_roundtrips_exact": true,
+    "nodal_reconstruction_exact": true,
+    "fossil_energy_exactly_preserved": true,
+    "changed_hours": 72,
+    "changed_adjacent_pairs_after_hours": [
+      47,
+      95,
+      119
+    ],
+    "changed_adjacent_pair_count": 3,
+    "day_order_1based": [
+      2,
+      3,
+      1
+    ]
+  },
+  {
+    "case": "days_312",
+    "constructive_expanded_pass": true,
+    "bijection": true,
+    "fixed_edges": true,
+    "hour_of_day_exact": true,
+    "within_day_order_exact": true,
+    "package_roundtrips_exact": true,
+    "nodal_reconstruction_exact": true,
+    "fossil_energy_exactly_preserved": true,
+    "changed_hours": 72,
+    "changed_adjacent_pairs_after_hours": [
+      47,
+      71,
+      119
+    ],
+    "changed_adjacent_pair_count": 3,
+    "day_order_1based": [
+      3,
+      1,
+      2
+    ]
+  },
+  {
+    "case": "days_321",
+    "constructive_expanded_pass": false,
+    "bijection": true,
+    "fixed_edges": true,
+    "hour_of_day_exact": true,
+    "within_day_order_exact": true,
+    "package_roundtrips_exact": true,
+    "nodal_reconstruction_exact": true,
+    "fossil_energy_exactly_preserved": true,
+    "changed_hours": 48,
+    "changed_adjacent_pairs_after_hours": [
+      47,
+      71,
+      95,
+      119
+    ],
+    "changed_adjacent_pair_count": 4,
+    "day_order_1based": [
+      3,
+      2,
+      1
+    ]
+  }
+]

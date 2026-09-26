@@ -1,0 +1,61 @@
+{
+  "status": "SELECTED_FIXTURES_MATCH",
+  "fixtures": [
+    {
+      "fixture": "january_seed_26093100",
+      "kind": "ray",
+      "pass": true,
+      "nominal_and_expanded_fractions_exactly_match": true,
+      "result_sha256": "e9d1211153a577cfa41cc9255002847584e75be0b154a5b41b54c4fd1bd830cc",
+      "old_certificate_sha256": "7a5a5b3489233df4fbb7b6a56889f76e8d71b5cf72ca9ba1db09909feba3d063"
+    },
+    {
+      "fixture": "january_seed_26093101",
+      "kind": "ray",
+      "pass": true,
+      "nominal_and_expanded_fractions_exactly_match": true,
+      "result_sha256": "bfe8a0a3bfbe05e7c8031d828ea05bf67a140ddc70bcced48cc895733097e73b",
+      "old_certificate_sha256": "041ec0c98bab38c60e8f466082381791a1ce4560e101ccc8e9bc04123d1cb000"
+    },
+    {
+      "fixture": "january_identity",
+      "kind": "point",
+      "pass": true,
+      "exact_maximum_residuals_and_locations_match": true,
+      "result_sha256": "23c886f0a6e0ed83f76cbd4760db0348565d227ad446e1e1f3f266bc6799a38b",
+      "old_check_sha256": "13f73eda589776259af7db41c066ef945f19f8f5b6356b5f4743ce0a6363801e"
+    },
+    {
+      "fixture": "day_312",
+      "kind": "point",
+      "pass": true,
+      "exact_maximum_residuals_and_locations_match": true,
+      "result_sha256": "fba3deb96b97d89dd31fbe3d8c7f7fa160ad79261afc9569df3256ad04607077",
+      "old_check_sha256": "1fd23ee42579179d7fe947b0973239d4365b62a52741dbde0b0a1749a8431b92"
+    }
+  ],
+  "self_tests": 35,
+  "all_imports_standard_library": true,
+  "imported_modules": [
+    "__future__",
+    "argparse",
+    "ast",
+    "csv",
+    "dataclasses",
+    "fractions",
+    "hashlib",
+    "io",
+    "json",
+    "math",
+    "pathlib",
+    "struct",
+    "sys",
+    "tempfile",
+    "time",
+    "warnings",
+    "zipfile"
+  ],
+  "verifier_sha256": "708c3843425eea494a0561e83a275f7059f22bcd546a036705323d056bcf906f",
+  "optimization_calls": 0,
+  "scope": "Four preselected fixtures; no new native model reconstruction, corpus expansion, or optimization."
+}

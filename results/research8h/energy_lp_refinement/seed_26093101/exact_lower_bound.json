@@ -1,0 +1,58 @@
+{
+  "arithmetic": "exact Fraction arithmetic on archived binary64 inputs",
+  "nominal_lower_bound_MWh": {
+    "numerator": "17916306634983928634437302528705218379145868274535",
+    "denominator": "713623846352979940529142984724747568191373312",
+    "approximate": 25106.09297397551,
+    "outward_floor_6dp": 25106.092973,
+    "outward_ceiling_6dp": 25106.092974
+  },
+  "expanded_lower_bound_MWh": {
+    "numerator": "37570224243687160445140434537099499556413865214777015901",
+    "denominator": "1496577676626844588240573268701473812127674924007424",
+    "approximate": 25104.092377194323,
+    "outward_floor_6dp": 25104.092377,
+    "outward_ceiling_6dp": 25104.092378
+  },
+  "row_term": {
+    "numerator": "1791745074095292727294840542376507545",
+    "denominator": "20282409603651670423947251286016",
+    "approximate": 88339.85256725634,
+    "outward_floor_6dp": 88339.852567,
+    "outward_ceiling_6dp": 88339.852568
+  },
+  "finite_box_term": {
+    "numerator": "-45125118740316712553631964346006862205330789962905",
+    "denominator": "713623846352979940529142984724747568191373312",
+    "approximate": -63233.75959328083,
+    "outward_floor_6dp": -63233.759594,
+    "outward_ceiling_6dp": -63233.759593
+  },
+  "row_dual_l1": {
+    "numerator": "69134940067290237122227",
+    "denominator": "1152921504606846976",
+    "approximate": 59965.00177248898,
+    "outward_floor_6dp": 59965.001772,
+    "outward_ceiling_6dp": 59965.001773
+  },
+  "stationarity_residual_l1": {
+    "numerator": "355182201118018751605929205031236563",
+    "denominator": "2535301200456458802993406410752",
+    "approximate": 140094.67634617587,
+    "outward_floor_6dp": 140094.676346,
+    "outward_ceiling_6dp": 140094.676347
+  },
+  "tau": {
+    "numerator": "5902958103587057",
+    "denominator": "590295810358705651712",
+    "approximate": 1e-05,
+    "outward_floor_6dp": 1e-05,
+    "outward_ceiling_6dp": 1.1e-05
+  },
+  "projected_entries": 1,
+  "raw_dual_is_projected_dual": false,
+  "projected_row_dual_nonzeros": 2466,
+  "exact_residual_nonzeros": 5643,
+  "solver_optimality_or_exact_stationarity_required": false,
+  "expanded_model": "Every finite row and column bound widened by the exact binary64 value1e-5; no clipping."
+}

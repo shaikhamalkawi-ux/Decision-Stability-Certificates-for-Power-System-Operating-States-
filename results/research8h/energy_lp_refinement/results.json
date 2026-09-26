@@ -1,0 +1,368 @@
+[
+  {
+    "case": "january_identity",
+    "model_status": "Optimal",
+    "run_status": "HighsStatus.kOk",
+    "solver_version": "1.12.0",
+    "elapsed_s": 5.224546999990707,
+    "options": {
+      "time_limit": 60.0,
+      "threads": 1,
+      "random_seed": 0,
+      "solver": "simplex",
+      "presolve": "off",
+      "log_to_console": false,
+      "log_file": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\energy_lp_refinement\\january_identity\\solver.log"
+    },
+    "optimization_calls": 1,
+    "primal_valid": true,
+    "dual_valid": true,
+    "numerical_objective_MWh": 22616.830716809363,
+    "simplex_iterations": 10686,
+    "exact_optimality_claim": false,
+    "new_lower_bound_status": "EXACT_EXPANDED_OBJECTIVE_LOWER_BOUND",
+    "numerical_primal_check": {
+      "pass": true,
+      "tolerance": 1e-05,
+      "residuals": {
+        "column_lower": 1.1368683772161603e-13,
+        "column_upper": 0.0,
+        "row_lower": 6.600942015211331e-12,
+        "row_upper": 5.4569682106375694e-12
+      }
+    },
+    "continuous_primal_not_a_binary_upper_bound": true,
+    "exact_bound": {
+      "arithmetic": "exact Fraction arithmetic on archived binary64 inputs",
+      "nominal_lower_bound_MWh": {
+        "numerator": "32279819456887346891868639494962420442876905711531",
+        "denominator": "1427247692705959881058285969449495136382746624",
+        "approximate": 22616.830716809294,
+        "outward_floor_6dp": 22616.830716,
+        "outward_ceiling_6dp": 22616.830717
+      },
+      "expanded_lower_bound_MWh": {
+        "numerator": "67692670989541805824312031500944438452884092390539984097",
+        "denominator": "2993155353253689176481146537402947624255349848014848",
+        "approximate": 22615.822769091137,
+        "outward_floor_6dp": 22615.822769,
+        "outward_ceiling_6dp": 22615.82277
+      },
+      "row_term": {
+        "numerator": "3600095608817529789139596896759321857",
+        "denominator": "40564819207303340847894502572032",
+        "approximate": 88749.20877668707,
+        "outward_floor_6dp": 88749.208776,
+        "outward_ceiling_6dp": 88749.208777
+      },
+      "finite_box_term": {
+        "numerator": "-94387283999118794452779303879511825774465977489493",
+        "denominator": "1427247692705959881058285969449495136382746624",
+        "approximate": -66132.37805987777,
+        "outward_floor_6dp": -66132.37806,
+        "outward_ceiling_6dp": -66132.378059
+      },
+      "row_dual_l1": {
+        "numerator": "28491910024479688324863",
+        "denominator": "1152921504606846976",
+        "approximate": 24712.79259744192,
+        "outward_floor_6dp": 24712.792597,
+        "outward_ceiling_6dp": 24712.792598
+      },
+      "stationarity_residual_l1": {
+        "numerator": "385781466491325806037650780429724943",
+        "denominator": "5070602400912917605986812821504",
+        "approximate": 76081.97921845918,
+        "outward_floor_6dp": 76081.979218,
+        "outward_ceiling_6dp": 76081.979219
+      },
+      "tau": {
+        "numerator": "5902958103587057",
+        "denominator": "590295810358705651712",
+        "approximate": 1e-05,
+        "outward_floor_6dp": 1e-05,
+        "outward_ceiling_6dp": 1.1e-05
+      },
+      "projected_entries": 0,
+      "raw_dual_is_projected_dual": true,
+      "projected_row_dual_nonzeros": 944,
+      "exact_residual_nonzeros": 4540,
+      "solver_optimality_or_exact_stationarity_required": false,
+      "expanded_model": "Every finite row and column bound widened by the exact binary64 value1e-5; no clipping."
+    },
+    "saved_projected_dual_replay": true,
+    "previous_lower_MWh": {
+      "numerator": "815865757523951515867123",
+      "denominator": "36893488147419103232",
+      "approximate": 22114.0856691,
+      "outward_floor_6dp": 22114.085669,
+      "outward_ceiling_6dp": 22114.08567
+    },
+    "best_lower_MWh": {
+      "numerator": "67692670989541805824312031500944438452884092390539984097",
+      "denominator": "2993155353253689176481146537402947624255349848014848",
+      "approximate": 22615.822769091137,
+      "outward_floor_6dp": 22615.822769,
+      "outward_ceiling_6dp": 22615.82277
+    },
+    "unchanged_binary_upper_MWh": {
+      "numerator": "1654798412944827657145",
+      "denominator": "72057594037927936",
+      "approximate": 22964.941239556443,
+      "outward_floor_6dp": 22964.941239,
+      "outward_ceiling_6dp": 22964.94124
+    },
+    "improved_lower_bound": true,
+    "new_lower_MWh": {
+      "numerator": "67692670989541805824312031500944438452884092390539984097",
+      "denominator": "2993155353253689176481146537402947624255349848014848",
+      "approximate": 22615.822769091137,
+      "outward_floor_6dp": 22615.822769,
+      "outward_ceiling_6dp": 22615.82277
+    }
+  },
+  {
+    "case": "seed_26093100",
+    "model_status": "Optimal",
+    "run_status": "HighsStatus.kOk",
+    "solver_version": "1.12.0",
+    "elapsed_s": 6.989780900010373,
+    "options": {
+      "time_limit": 60.0,
+      "threads": 1,
+      "random_seed": 0,
+      "solver": "simplex",
+      "presolve": "off",
+      "log_to_console": false,
+      "log_file": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\energy_lp_refinement\\seed_26093100\\solver.log"
+    },
+    "optimization_calls": 1,
+    "primal_valid": true,
+    "dual_valid": true,
+    "numerical_objective_MWh": 24509.560575070976,
+    "simplex_iterations": 12927,
+    "exact_optimality_claim": false,
+    "new_lower_bound_status": "EXACT_EXPANDED_OBJECTIVE_LOWER_BOUND",
+    "numerical_primal_check": {
+      "pass": true,
+      "tolerance": 1e-05,
+      "residuals": {
+        "column_lower": 1.6679990721968352e-12,
+        "column_upper": 1.1368683772161603e-12,
+        "row_lower": 1.7678303265711293e-11,
+        "row_upper": 9.094947017729282e-12
+      }
+    },
+    "continuous_primal_not_a_binary_upper_bound": true,
+    "exact_bound": {
+      "arithmetic": "exact Fraction arithmetic on archived binary64 inputs",
+      "nominal_lower_bound_MWh": {
+        "numerator": "19231125652417540084448539873192649272819301767469720116585217",
+        "denominator": "784637716923335095479473677900958302012794430558004314112",
+        "approximate": 24509.56057507055,
+        "outward_floor_6dp": 24509.560575,
+        "outward_ceiling_6dp": 24509.560576
+      },
+      "expanded_lower_bound_MWh": {
+        "numerator": "40327658693636613311533581488131982069831669789573027485174576032091",
+        "denominator": "1645504557321206042154969182557350504982735865633579863348609024",
+        "approximate": 24507.776969811555,
+        "outward_floor_6dp": 24507.776969,
+        "outward_ceiling_6dp": 24507.77697
+      },
+      "row_term": {
+        "numerator": "3777923856774691163511905203630814639",
+        "denominator": "40564819207303340847894502572032",
+        "approximate": 93133.01354722935,
+        "outward_floor_6dp": 93133.013547,
+        "outward_ceiling_6dp": 93133.013548
+      },
+      "finite_box_term": {
+        "numerator": "-53844549467470530883757777022261589169554408834048237395582207",
+        "denominator": "784637716923335095479473677900958302012794430558004314112",
+        "approximate": -68623.45297215879,
+        "outward_floor_6dp": -68623.452973,
+        "outward_ceiling_6dp": -68623.452972
+      },
+      "row_dual_l1": {
+        "numerator": "33169759237637464301425262754911185",
+        "denominator": "633825300114114700748351602688",
+        "approximate": 52332.65259633142,
+        "outward_floor_6dp": 52332.652596,
+        "outward_ceiling_6dp": 52332.652597
+      },
+      "stationarity_residual_l1": {
+        "numerator": "351314436305387081252040036839660449941747493109",
+        "denominator": "2787593149816327892691964784081045188247552",
+        "approximate": 126027.87330300869,
+        "outward_floor_6dp": 126027.873303,
+        "outward_ceiling_6dp": 126027.873304
+      },
+      "tau": {
+        "numerator": "5902958103587057",
+        "denominator": "590295810358705651712",
+        "approximate": 1e-05,
+        "outward_floor_6dp": 1e-05,
+        "outward_ceiling_6dp": 1.1e-05
+      },
+      "projected_entries": 22,
+      "raw_dual_is_projected_dual": false,
+      "projected_row_dual_nonzeros": 2604,
+      "exact_residual_nonzeros": 6534,
+      "solver_optimality_or_exact_stationarity_required": false,
+      "expanded_model": "Every finite row and column bound widened by the exact binary64 value1e-5; no clipping."
+    },
+    "saved_projected_dual_replay": true,
+    "previous_lower_MWh": {
+      "numerator": "501134615735264413111413848281894421878455851993288422488358615551687",
+      "denominator": "21192697132509903820492883951411311555913462260006428132876746752",
+      "approximate": 23646.570920249535,
+      "outward_floor_6dp": 23646.57092,
+      "outward_ceiling_6dp": 23646.570921
+    },
+    "best_lower_MWh": {
+      "numerator": "40327658693636613311533581488131982069831669789573027485174576032091",
+      "denominator": "1645504557321206042154969182557350504982735865633579863348609024",
+      "approximate": 24507.776969811555,
+      "outward_floor_6dp": 24507.776969,
+      "outward_ceiling_6dp": 24507.77697
+    },
+    "unchanged_binary_upper_MWh": {
+      "numerator": "906578891427777312835",
+      "denominator": "36028797018963968",
+      "approximate": 25162.61897255671,
+      "outward_floor_6dp": 25162.618972,
+      "outward_ceiling_6dp": 25162.618973
+    },
+    "improved_lower_bound": true,
+    "new_lower_MWh": {
+      "numerator": "40327658693636613311533581488131982069831669789573027485174576032091",
+      "denominator": "1645504557321206042154969182557350504982735865633579863348609024",
+      "approximate": 24507.776969811555,
+      "outward_floor_6dp": 24507.776969,
+      "outward_ceiling_6dp": 24507.77697
+    }
+  },
+  {
+    "case": "seed_26093101",
+    "model_status": "Optimal",
+    "run_status": "HighsStatus.kOk",
+    "solver_version": "1.12.0",
+    "elapsed_s": 16.246818199986592,
+    "options": {
+      "time_limit": 60.0,
+      "threads": 1,
+      "random_seed": 0,
+      "solver": "simplex",
+      "presolve": "off",
+      "log_to_console": false,
+      "log_file": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\energy_lp_refinement\\seed_26093101\\solver.log"
+    },
+    "optimization_calls": 1,
+    "primal_valid": true,
+    "dual_valid": true,
+    "numerical_objective_MWh": 25106.09297397558,
+    "simplex_iterations": 12923,
+    "exact_optimality_claim": false,
+    "new_lower_bound_status": "EXACT_EXPANDED_OBJECTIVE_LOWER_BOUND",
+    "numerical_primal_check": {
+      "pass": true,
+      "tolerance": 1e-05,
+      "residuals": {
+        "column_lower": 0.0,
+        "column_upper": 1.4210854715202004e-14,
+        "row_lower": 5.6701310313655995e-12,
+        "row_upper": 5.5138116294983774e-12
+      }
+    },
+    "continuous_primal_not_a_binary_upper_bound": true,
+    "exact_bound": {
+      "arithmetic": "exact Fraction arithmetic on archived binary64 inputs",
+      "nominal_lower_bound_MWh": {
+        "numerator": "17916306634983928634437302528705218379145868274535",
+        "denominator": "713623846352979940529142984724747568191373312",
+        "approximate": 25106.09297397551,
+        "outward_floor_6dp": 25106.092973,
+        "outward_ceiling_6dp": 25106.092974
+      },
+      "expanded_lower_bound_MWh": {
+        "numerator": "37570224243687160445140434537099499556413865214777015901",
+        "denominator": "1496577676626844588240573268701473812127674924007424",
+        "approximate": 25104.092377194323,
+        "outward_floor_6dp": 25104.092377,
+        "outward_ceiling_6dp": 25104.092378
+      },
+      "row_term": {
+        "numerator": "1791745074095292727294840542376507545",
+        "denominator": "20282409603651670423947251286016",
+        "approximate": 88339.85256725634,
+        "outward_floor_6dp": 88339.852567,
+        "outward_ceiling_6dp": 88339.852568
+      },
+      "finite_box_term": {
+        "numerator": "-45125118740316712553631964346006862205330789962905",
+        "denominator": "713623846352979940529142984724747568191373312",
+        "approximate": -63233.75959328083,
+        "outward_floor_6dp": -63233.759594,
+        "outward_ceiling_6dp": -63233.759593
+      },
+      "row_dual_l1": {
+        "numerator": "69134940067290237122227",
+        "denominator": "1152921504606846976",
+        "approximate": 59965.00177248898,
+        "outward_floor_6dp": 59965.001772,
+        "outward_ceiling_6dp": 59965.001773
+      },
+      "stationarity_residual_l1": {
+        "numerator": "355182201118018751605929205031236563",
+        "denominator": "2535301200456458802993406410752",
+        "approximate": 140094.67634617587,
+        "outward_floor_6dp": 140094.676346,
+        "outward_ceiling_6dp": 140094.676347
+      },
+      "tau": {
+        "numerator": "5902958103587057",
+        "denominator": "590295810358705651712",
+        "approximate": 1e-05,
+        "outward_floor_6dp": 1e-05,
+        "outward_ceiling_6dp": 1.1e-05
+      },
+      "projected_entries": 1,
+      "raw_dual_is_projected_dual": false,
+      "projected_row_dual_nonzeros": 2466,
+      "exact_residual_nonzeros": 5643,
+      "solver_optimality_or_exact_stationarity_required": false,
+      "expanded_model": "Every finite row and column bound widened by the exact binary64 value1e-5; no clipping."
+    },
+    "saved_projected_dual_replay": true,
+    "previous_lower_MWh": {
+      "numerator": "195397688274711681069036215349601539278676442385844355369",
+      "denominator": "8228189834840940886372574099398462547677673993273344",
+      "approximate": 23747.34810411541,
+      "outward_floor_6dp": 23747.348104,
+      "outward_ceiling_6dp": 23747.348105
+    },
+    "best_lower_MWh": {
+      "numerator": "37570224243687160445140434537099499556413865214777015901",
+      "denominator": "1496577676626844588240573268701473812127674924007424",
+      "approximate": 25104.092377194323,
+      "outward_floor_6dp": 25104.092377,
+      "outward_ceiling_6dp": 25104.092378
+    },
+    "unchanged_binary_upper_MWh": {
+      "numerator": "1017815955397983932811197640867839",
+      "denominator": "39614081257132168796771975168",
+      "approximate": 25693.286909556562,
+      "outward_floor_6dp": 25693.286909,
+      "outward_ceiling_6dp": 25693.28691
+    },
+    "improved_lower_bound": true,
+    "new_lower_MWh": {
+      "numerator": "37570224243687160445140434537099499556413865214777015901",
+      "denominator": "1496577676626844588240573268701473812127674924007424",
+      "approximate": 25104.092377194323,
+      "outward_floor_6dp": 25104.092377,
+      "outward_ceiling_6dp": 25104.092378
+    }
+  }
+]
