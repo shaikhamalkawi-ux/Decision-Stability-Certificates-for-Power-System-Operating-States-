@@ -1,0 +1,201 @@
+{
+  "executable": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\auer_projection_env\\Scripts\\python.exe",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "isolated": 1,
+  "no_site": 0,
+  "packages": {
+    "gurobipy": {
+      "installed_version": "13.0.0",
+      "author_pin": "13.0.0"
+    },
+    "highspy": {
+      "installed_version": "1.15.1",
+      "author_pin": null
+    },
+    "matplotlib": {
+      "installed_version": "3.10.3",
+      "author_pin": "3.10.3"
+    },
+    "numpy": {
+      "installed_version": "2.5.3",
+      "author_pin": null
+    },
+    "openpyxl": {
+      "installed_version": "3.1.5",
+      "author_pin": "3.1.5"
+    },
+    "pandas": {
+      "installed_version": "2.2.3",
+      "author_pin": "2.2.3"
+    },
+    "pyomo": {
+      "installed_version": "6.9.2",
+      "author_pin": "6.9.2"
+    },
+    "rich": {
+      "installed_version": "14.0.0",
+      "author_pin": "14.0.0"
+    },
+    "scipy": {
+      "installed_version": "1.18.1",
+      "author_pin": null
+    },
+    "tsam": {
+      "installed_version": "2.3.9",
+      "author_pin": "2.3.9"
+    }
+  },
+  "author_package_pins_match": true,
+  "gurobi_python_package_available": true,
+  "gurobi_license": "NOT_CHECKED; package presence does not establish a license",
+  "solver_calls": 0,
+  "network_calls": 0,
+  "license_environment_values_recorded": false,
+  "installed_distributions": [
+    {
+      "name": "cloudpickle",
+      "version": "3.1.2"
+    },
+    {
+      "name": "colorama",
+      "version": "0.4.6"
+    },
+    {
+      "name": "contourpy",
+      "version": "1.4.0"
+    },
+    {
+      "name": "cycler",
+      "version": "0.12.1"
+    },
+    {
+      "name": "et_xmlfile",
+      "version": "2.0.0"
+    },
+    {
+      "name": "fonttools",
+      "version": "4.66.0"
+    },
+    {
+      "name": "gurobipy",
+      "version": "13.0.0"
+    },
+    {
+      "name": "highspy",
+      "version": "1.15.1"
+    },
+    {
+      "name": "joblib",
+      "version": "1.6.0"
+    },
+    {
+      "name": "kiwisolver",
+      "version": "1.5.1"
+    },
+    {
+      "name": "markdown-it-py",
+      "version": "4.2.0"
+    },
+    {
+      "name": "matplotlib",
+      "version": "3.10.3"
+    },
+    {
+      "name": "mdurl",
+      "version": "0.1.2"
+    },
+    {
+      "name": "narwhals",
+      "version": "2.26.0"
+    },
+    {
+      "name": "networkx",
+      "version": "3.7"
+    },
+    {
+      "name": "numpy",
+      "version": "2.5.3"
+    },
+    {
+      "name": "openpyxl",
+      "version": "3.1.5"
+    },
+    {
+      "name": "packaging",
+      "version": "26.3"
+    },
+    {
+      "name": "pandas",
+      "version": "2.2.3"
+    },
+    {
+      "name": "pillow",
+      "version": "12.3.0"
+    },
+    {
+      "name": "pip",
+      "version": "25.0.1"
+    },
+    {
+      "name": "ply",
+      "version": "3.11"
+    },
+    {
+      "name": "Pygments",
+      "version": "2.21.0"
+    },
+    {
+      "name": "pyomo",
+      "version": "6.9.2"
+    },
+    {
+      "name": "pyparsing",
+      "version": "3.3.3"
+    },
+    {
+      "name": "python-dateutil",
+      "version": "2.9.0.post0"
+    },
+    {
+      "name": "pytz",
+      "version": "2026.4"
+    },
+    {
+      "name": "rich",
+      "version": "14.0.0"
+    },
+    {
+      "name": "scikit-learn",
+      "version": "1.9.1"
+    },
+    {
+      "name": "scipy",
+      "version": "1.18.1"
+    },
+    {
+      "name": "six",
+      "version": "1.17.0"
+    },
+    {
+      "name": "threadpoolctl",
+      "version": "3.7.0"
+    },
+    {
+      "name": "tqdm",
+      "version": "4.70.1"
+    },
+    {
+      "name": "tsam",
+      "version": "2.3.9"
+    },
+    {
+      "name": "tzdata",
+      "version": "2026.4"
+    }
+  ],
+  "probe_source_sha256": "edc440ef175727bf261bd1d9ba69606161564ab581bc13b4a2bfd811da1a2187",
+  "python_patch_difference": {
+    "author": "3.12.11",
+    "local": "3.12.14"
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "elapsed_before_write_seconds": 2.7349857999943197,
+  "fixed": "A, ray, q, finite boxes, tau, data family and assignment extremizers; only the cap RHS varies algebraically.",
+  "formula": "G(C) = G(C0) + d_cap * (C-C0); C_star = C0 - G(C0)/d_cap, d_cap < 0",
+  "full_model_replays": 0,
+  "input_sha256": {
+    "results/research_next/hod_ray_stress/run01/completion.json": "ac6b1da871bed6d24c229c6855acc447f37fbdfe0836a0ba1b3f75ad992be64b",
+    "results/research_next/hod_ray_stress/run01/week_1_family.json": "ddd71b5be2e08361e8ad5fb5b1ee84ce93e9ba54cfacf835aed96ee667dc331b",
+    "results/research_next/hod_ray_stress/run01/week_1_maximum/row_metadata.csv.gz": "e749fc61f6807729b78154a3cce4a3f9cfa345fd9da946745e74e101b295107a",
+    "results/research_next/hod_ray_stress/run01/week_2_family.json": "34fd2c95918dbe2b68b32558e1573b82345a0d8e3b863329433ceedd72fa73fc",
+    "results/research_next/hod_ray_stress/run01/week_2_maximum/row_metadata.csv.gz": "59cf22447d09e5b4ece431d555645cc55ecbfa29dc04fbcffef849a6872d1adc",
+    "results/research_next/hod_ray_stress/run01/week_3_family.json": "71668901686a79ff660c283003b17271c058bd71e317c56177706646c94bee7b",
+    "results/research_next/hod_ray_stress/run01/week_3_maximum/row_metadata.csv.gz": "2ae2feaf9bfb3b834fbac43d33223bfdc55701af4cf38c1475bb1d2e24a4e592",
+    "src/researchnext_hod_cap_diagnostic.py": "1ca6e7bca9cc5bc92bc08c8d10a251d2fa8cccd7bcde7288fac9d8f09923739e"
+  },
+  "new_models": 0,
+  "optimizer_calls": 0,
+  "prospective": false,
+  "results": [
+    {
+      "cap_multiplier": {
+        "denominator": "35184372088832",
+        "display": -75.00000000001168,
+        "numerator": "-2638827906662811"
+      },
+      "cap_row": 24264,
+      "expanded_margin_maximum": {
+        "denominator": "748288838313422294120286634350736906063837462003712",
+        "display": 17651.75749732912,
+        "numerator": "13208613111866649912228518373674133679809458718987393619"
+      },
+      "expanded_margin_minimum": {
+        "denominator": "748288838313422294120286634350736906063837462003712",
+        "display": -823781.153960281,
+        "numerator": "-616426242721429168570644409407521423680238519992789624237"
+      },
+      "recorded_cap_MWh": {
+        "denominator": "1",
+        "display": 23195.0,
+        "numerator": "23195"
+      },
+      "strict_budget_threshold_MWh": {
+        "all_orders": {
+          "denominator": "56121662873515413062321779183085483390016213196210176",
+          "display": 12211.251280531296,
+          "numerator": "685315727629760837409909258744146363551187545093305408083"
+        },
+        "some_order": {
+          "denominator": "56121662873515413062321779183085483390016213196210176",
+          "display": 23430.35676663102,
+          "numerator": "1314950583463056655892782186525341920911235523805082425939"
+        }
+      },
+      "week": 1
+    },
+    {
+      "cap_multiplier": {
+        "denominator": "35184372088832",
+        "display": -75.00000000001168,
+        "numerator": "-2638827906662811"
+      },
+      "cap_row": 24264,
+      "expanded_margin_maximum": {
+        "denominator": "748288838313422294120286634350736906063837462003712",
+        "display": -958310.6033940823,
+        "numerator": "-717093128157192585850877842743531671262617016499182626221"
+      },
+      "expanded_margin_minimum": {
+        "denominator": "748288838313422294120286634350736906063837462003712",
+        "display": -1578152.2924085485,
+        "numerator": "-1180913745568057075450126711018991203800786347158603163053"
+      },
+      "recorded_cap_MWh": {
+        "denominator": "1",
+        "display": 26532.0,
+        "numerator": "26532"
+      },
+      "strict_budget_threshold_MWh": {
+        "all_orders": {
+          "denominator": "56121662873515413062321779183085483390016213196210176",
+          "display": 5489.969434555965,
+          "numerator": "308106213792053863919394734266632841503123821363245226579"
+        },
+        "some_order": {
+          "denominator": "56121662873515413062321779183085483390016213196210176",
+          "display": 13754.525288080893,
+          "numerator": "771926831202918353518643602542092374041293152022665763411"
+        }
+      },
+      "week": 2
+    },
+    {
+      "cap_multiplier": {
+        "denominator": "35184372088832",
+        "display": -75.00000000001168,
+        "numerator": "-2638827906662811"
+      },
+      "cap_row": 24264,
+      "expanded_margin_maximum": {
+        "denominator": "748288838313422294120286634350736906063837462003712",
+        "display": -936589.4576603328,
+        "numerator": "-700839437249248662946414761309235633846207901295589582253"
+      },
+      "expanded_margin_minimum": {
+        "denominator": "748288838313422294120286634350736906063837462003712",
+        "display": -1858581.4415148974,
+        "numerator": "-1390755747782068381132300508293912209957207972809204950445"
+      },
+      "recorded_cap_MWh": {
+        "denominator": "1",
+        "display": 48319.0,
+        "numerator": "48319"
+      },
+      "strict_budget_threshold_MWh": {
+        "all_orders": {
+          "denominator": "56121662873515413062321779183085483390016213196210176",
+          "display": 23537.914113138562,
+          "numerator": "1320986880603322862626025540053595261964985432618474543699"
+        },
+        "some_order": {
+          "denominator": "56121662873515413062321779183085483390016213196210176",
+          "display": 35831.14056453084,
+          "numerator": "2010903191136142580811911287038271838075985504132089911891"
+        }
+      },
+      "week": 3
+    }
+  ],
+  "rule": "For nonnegative C strictly below all_orders threshold every family member is separated; below some_order threshold at least one is separated. Equality has zero margin. No feasibility converse.",
+  "scope": "Post-hoc arithmetic on a closed fixed-ray experiment, not new optimization or independent proof replay.",
+  "status": "PASS_RECORD_CONSISTENCY_AND_AFFINE_DIAGNOSTIC",
+  "utc": "2026-09-27T07:11:01.573024+00:00"
+}

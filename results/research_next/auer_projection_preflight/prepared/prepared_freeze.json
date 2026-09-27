@@ -1,0 +1,103 @@
+{
+  "utc": "2026-09-27T06:49:37.229614+00:00",
+  "source_sha256": "9d1f036568935d62ac665e22cf0f4440e39ea3bf02b4b42488a2c1b47ce980b4",
+  "protocol_sha256": "fdd6d1527586fde9def72ea0984c155cc3b2b9887f0b136e122d87c6e721ad81",
+  "author_closure": {
+    "files": [
+      {
+        "path": "InOutModule/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      {
+        "path": "InOutModule/Utilities.py",
+        "sha256": "f9d6b69fc319ccd51c1e2cffa6ddc6f120e5eab457e451849331f914ce5984f2",
+        "bytes": 31155
+      },
+      {
+        "path": "InOutModule/CaseStudy.py",
+        "sha256": "dccce27eaa9db4dbeda6e71224e7019da503d654c9613ed481ed7a6220f26663",
+        "bytes": 75574
+      },
+      {
+        "path": "InOutModule/ExcelReader.py",
+        "sha256": "8b1e2aa76b767afaf95ca849593887b0dcaa4fa17a7c340c05863a0c7b258960",
+        "bytes": 34105
+      },
+      {
+        "path": "InOutModule/printer.py",
+        "sha256": "1f03b1fcf2210a1e8e526f6bda0899aa025a823df95b29c292cf21beee92c6ad",
+        "bytes": 13643
+      },
+      {
+        "path": "InOutModule/LICENSE",
+        "sha256": "b5f75f2e1c80f1fa9d731275c324ecf63c1bf3f1aa77630c04062f35db35a2f1",
+        "bytes": 1067
+      },
+      {
+        "path": "LEGO_LICENSE",
+        "sha256": "30b265e3d9342fe74130c5b82388fb7c39b2144d0e9cb09f706074c5b21df309",
+        "bytes": 1067
+      },
+      {
+        "path": "environment.yml",
+        "sha256": "de49e8bd5a46a5a7de7cb859ab983caa3688e17b0bd408ad091e635e30233a34",
+        "bytes": 770
+      }
+    ],
+    "provenance_sha256": "3d462947a2d4366d834c0f5a3ed28b51fc7ecbbf41b1136a5bca2a018addfad9",
+    "imports_static": {
+      "InOutModule/__init__.py": [],
+      "InOutModule/Utilities.py": [
+        "InOutModule.CaseStudy",
+        "InOutModule.printer",
+        "__future__",
+        "matplotlib.pyplot",
+        "numpy",
+        "os",
+        "pandas",
+        "tsam.timeseriesaggregation",
+        "typing"
+      ],
+      "InOutModule/CaseStudy.py": [
+        "ExcelReader",
+        "InOutModule",
+        "InOutModule.printer",
+        "concurrent.futures",
+        "copy",
+        "numpy",
+        "os",
+        "pandas",
+        "pathlib",
+        "tsam.timeseriesaggregation",
+        "typing",
+        "warnings"
+      ],
+      "InOutModule/ExcelReader.py": [
+        "InOutModule.printer",
+        "openpyxl",
+        "openpyxl.utils.cell",
+        "pandas",
+        "time"
+      ],
+      "InOutModule/printer.py": [
+        "__future__",
+        "datetime",
+        "pyomo",
+        "rich.console",
+        "rich.markup"
+      ]
+    },
+    "source_execution": false
+  },
+  "case_count": 12,
+  "target_count": 6,
+  "future_invocations": 15,
+  "bindings_sha256": "ca10b778d4135925fc5d25493b0b3333ff106f0d8f2bbaeda003c5ce8c3e3fcd",
+  "cases_sha256": "b7ef56d295d919dbaad18696ad6260b58cc69740e9c16fe1f3ec60fd3be82570",
+  "initial_guard_sha256": "dbb09dadbbec6064ce44cc9b353e8e90aefba49f22de72557244607194c4a203",
+  "close_check_sha256": "3559ae11a3ca2cc022771a21f1116e723300a4f7efd89de117138ad3b898bf61",
+  "author_imports": 0,
+  "clustering_calls": 0,
+  "scientific_execution_enabled": false
+}

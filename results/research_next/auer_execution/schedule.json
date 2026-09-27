@@ -1,0 +1,139 @@
+{
+  "invocations": [
+    {
+      "week": 1,
+      "case": "january_identity",
+      "role": "identity",
+      "projection_file": "january_identity.json",
+      "projection_sha256": "0eef8af90d4b6f17507f4f254c49ec995393e3c18b29fbf89e31eed552f814a5",
+      "invocation": 1,
+      "comparison_role": "identity"
+    },
+    {
+      "week": 1,
+      "case": "seed_26093200",
+      "role": "target",
+      "projection_file": "seed_26093200.json",
+      "projection_sha256": "9beba615c70bc85aa613c8bde528ab287b00d8b29f51ecf3419ef467d95a44a1",
+      "invocation": 2,
+      "comparison_role": "target"
+    },
+    {
+      "week": 1,
+      "case": "seed_26093201",
+      "role": "target",
+      "projection_file": "seed_26093201.json",
+      "projection_sha256": "042bfee2e0bd3061e8a42d671de8f8bbe5f4fddbaa48c1c549df3c10d97286d3",
+      "invocation": 3,
+      "comparison_role": "target"
+    },
+    {
+      "week": 1,
+      "case": "seed_26100200",
+      "role": "positive_control",
+      "projection_file": "seed_26100200.json",
+      "projection_sha256": "24f1588804b8937a44c8ed529fa4af62f5b9be5debe267ea83ca2424b3d19e39",
+      "invocation": 4,
+      "comparison_role": "positive_control"
+    },
+    {
+      "week": 1,
+      "case": "january_identity",
+      "role": "identity",
+      "projection_file": "january_identity.json",
+      "projection_sha256": "0eef8af90d4b6f17507f4f254c49ec995393e3c18b29fbf89e31eed552f814a5",
+      "invocation": 5,
+      "comparison_role": "identity_repeat"
+    },
+    {
+      "week": 2,
+      "case": "week_2_identity",
+      "role": "identity",
+      "projection_file": "week_2_identity.json",
+      "projection_sha256": "03627b72c436a6bb7158e36e8e8eb818aee7bcaaf5fd7b48f6e7cadd957279a5",
+      "invocation": 6,
+      "comparison_role": "identity"
+    },
+    {
+      "week": 2,
+      "case": "seed_26093210",
+      "role": "target",
+      "projection_file": "seed_26093210.json",
+      "projection_sha256": "33a3320e5d4d9e95d2fe0335ce6fbb19dcc7a78dab9ff609f6072380e9b06c47",
+      "invocation": 7,
+      "comparison_role": "target"
+    },
+    {
+      "week": 2,
+      "case": "seed_26093211",
+      "role": "target",
+      "projection_file": "seed_26093211.json",
+      "projection_sha256": "240e02a732385dc2c669012305873287d1750e56cf6f93945a869bdb9aec144b",
+      "invocation": 8,
+      "comparison_role": "target"
+    },
+    {
+      "week": 2,
+      "case": "seed_26100210",
+      "role": "positive_control",
+      "projection_file": "seed_26100210.json",
+      "projection_sha256": "bc0bcb06756dfe2ce6d261bf4def5a2e1750f2d21e19da292e36e3b1f09a90ba",
+      "invocation": 9,
+      "comparison_role": "positive_control"
+    },
+    {
+      "week": 2,
+      "case": "week_2_identity",
+      "role": "identity",
+      "projection_file": "week_2_identity.json",
+      "projection_sha256": "03627b72c436a6bb7158e36e8e8eb818aee7bcaaf5fd7b48f6e7cadd957279a5",
+      "invocation": 10,
+      "comparison_role": "identity_repeat"
+    },
+    {
+      "week": 3,
+      "case": "week_3_identity",
+      "role": "identity",
+      "projection_file": "week_3_identity.json",
+      "projection_sha256": "e17cff72943c35810354c725fed7697be8e08a1af83241bca5cab8d4cd21e70b",
+      "invocation": 11,
+      "comparison_role": "identity"
+    },
+    {
+      "week": 3,
+      "case": "seed_26093220",
+      "role": "target",
+      "projection_file": "seed_26093220.json",
+      "projection_sha256": "993164fff56d9be663e4a1adb460a4aa024dafbfcb2e91b5839213a9d0d6a547",
+      "invocation": 12,
+      "comparison_role": "target"
+    },
+    {
+      "week": 3,
+      "case": "seed_26093221",
+      "role": "target",
+      "projection_file": "seed_26093221.json",
+      "projection_sha256": "011007042b5566526c0b99a2cc8eecaaaf246fc28cfe8f50f29d19af8f0aae52",
+      "invocation": 13,
+      "comparison_role": "target"
+    },
+    {
+      "week": 3,
+      "case": "seed_26100220",
+      "role": "positive_control",
+      "projection_file": "seed_26100220.json",
+      "projection_sha256": "ac5a906c35c3815bfa491bdddc4b2580eac5d0866bbd5de87525e0a66512a410",
+      "invocation": 14,
+      "comparison_role": "positive_control"
+    },
+    {
+      "week": 3,
+      "case": "week_3_identity",
+      "role": "identity",
+      "projection_file": "week_3_identity.json",
+      "projection_sha256": "e17cff72943c35810354c725fed7697be8e08a1af83241bca5cab8d4cd21e70b",
+      "invocation": 15,
+      "comparison_role": "identity_repeat"
+    }
+  ]
+}

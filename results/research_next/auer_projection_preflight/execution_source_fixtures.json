@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "source_exercised_sha256": "42acdd6199bac2c4b2509649841a57a3b37cce31c459124cded019cb908c58fd",
+  "session": 70138,
+  "exit_code": 0,
+  "command": ".work/auer_projection_env/Scripts/python.exe -I src/researchnext_auer_execution.py --self-test",
+  "invented_fixtures": 5,
+  "cases": [
+    "simultaneous representative-period table and matrix relabeling",
+    "tiny nonzero finite difference remains distinct",
+    "signed-zero normalization",
+    "inconsistent matrix relabeling remains distinct",
+    "nonfinite rejection"
+  ],
+  "scientific_input_reads": 0,
+  "author_imports": 0,
+  "solver_calls": 0,
+  "later_source_sha256": "d974627b8b9a6e9f41de330d3af51e115e777251fffd89ba893cf5db0fd4b049",
+  "later_change": "Caller-owned attempted-solve ledger only; original fixture output is not relabeled or silently repeated."
+}

@@ -1,0 +1,77 @@
+{
+  "purpose": "Redistributable pinned MIT source closure and official MIT TSAM wheel; original execution bindings are unchanged. No Gurobi binaries, license files, credentials or subscription articles.",
+  "files": [
+    {
+      "original": ".work/auer_projection_author_ce97428/AUTHOR_CLOSURE.json",
+      "copy": "results/research_next/auer_replay_sources/author/AUTHOR_CLOSURE.json",
+      "bytes": 2574,
+      "sha256": "3d462947a2d4366d834c0f5a3ed28b51fc7ecbbf41b1136a5bca2a018addfad9"
+    },
+    {
+      "original": ".work/auer_projection_author_ce97428/environment.yml",
+      "copy": "results/research_next/auer_replay_sources/author/environment.yml",
+      "bytes": 770,
+      "sha256": "de49e8bd5a46a5a7de7cb859ab983caa3688e17b0bd408ad091e635e30233a34"
+    },
+    {
+      "original": ".work/auer_projection_author_ce97428/InOutModule/CaseStudy.py",
+      "copy": "results/research_next/auer_replay_sources/author/InOutModule/CaseStudy.py",
+      "bytes": 75574,
+      "sha256": "dccce27eaa9db4dbeda6e71224e7019da503d654c9613ed481ed7a6220f26663"
+    },
+    {
+      "original": ".work/auer_projection_author_ce97428/InOutModule/ExcelReader.py",
+      "copy": "results/research_next/auer_replay_sources/author/InOutModule/ExcelReader.py",
+      "bytes": 34105,
+      "sha256": "8b1e2aa76b767afaf95ca849593887b0dcaa4fa17a7c340c05863a0c7b258960"
+    },
+    {
+      "original": ".work/auer_projection_author_ce97428/InOutModule/LICENSE",
+      "copy": "results/research_next/auer_replay_sources/author/InOutModule/LICENSE",
+      "bytes": 1067,
+      "sha256": "b5f75f2e1c80f1fa9d731275c324ecf63c1bf3f1aa77630c04062f35db35a2f1"
+    },
+    {
+      "original": ".work/auer_projection_author_ce97428/InOutModule/printer.py",
+      "copy": "results/research_next/auer_replay_sources/author/InOutModule/printer.py",
+      "bytes": 13643,
+      "sha256": "1f03b1fcf2210a1e8e526f6bda0899aa025a823df95b29c292cf21beee92c6ad"
+    },
+    {
+      "original": ".work/auer_projection_author_ce97428/InOutModule/Utilities.py",
+      "copy": "results/research_next/auer_replay_sources/author/InOutModule/Utilities.py",
+      "bytes": 31155,
+      "sha256": "f9d6b69fc319ccd51c1e2cffa6ddc6f120e5eab457e451849331f914ce5984f2"
+    },
+    {
+      "original": ".work/auer_projection_author_ce97428/InOutModule/__init__.py",
+      "copy": "results/research_next/auer_replay_sources/author/InOutModule/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "original": ".work/auer_projection_author_ce97428/LEGO_LICENSE",
+      "copy": "results/research_next/auer_replay_sources/author/LEGO_LICENSE",
+      "bytes": 1067,
+      "sha256": "30b265e3d9342fe74130c5b82388fb7c39b2144d0e9cb09f706074c5b21df309"
+    },
+    {
+      "original": ".work/auer_projection_tsam_2_3_9/tsam-2.3.9-py3-none-any.whl",
+      "copy": "results/research_next/auer_replay_sources/tsam/tsam-2.3.9-py3-none-any.whl",
+      "bytes": 36816,
+      "sha256": "edcc4febb9e1dacc028bc819d710974ede8f563467c3d235a250f46416f93a1b"
+    },
+    {
+      "original": ".work/auer_projection_tsam_2_3_9/tsam-2.3.9.dist-info__licenses__LICENSE.txt",
+      "copy": "results/research_next/auer_replay_sources/tsam/tsam-2.3.9.dist-info__licenses__LICENSE.txt",
+      "bytes": 1221,
+      "sha256": "e2a2981bc72cb1a5fc9cbed50fc8d06d38f91b27110d6e94c4325e8c0ced1a77"
+    },
+    {
+      "original": ".work/auer_projection_tsam_2_3_9/WHEEL_PROVENANCE.json",
+      "copy": "results/research_next/auer_replay_sources/tsam/WHEEL_PROVENANCE.json",
+      "bytes": 299,
+      "sha256": "22fd6b2f9f16a1b89035ce6aabdf15dc7f9541fd8242f6e938b9c9be15cfcf52"
+    }
+  ]
+}

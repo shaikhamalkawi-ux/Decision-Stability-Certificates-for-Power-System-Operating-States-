@@ -1,0 +1,77 @@
+{
+  "distances_hex": [
+    [
+      "0x0.0p+0",
+      "0x1.85dba986f95bcp+1",
+      "0x1.59a62a4cd3ea4p+1",
+      "0x1.7cd988269a8acp+1",
+      "0x1.2de039a253a12p+1",
+      "0x1.deb3446707a62p+1",
+      "0x1.b76bbb32fc601p+1"
+    ],
+    [
+      "0x1.85dba986f95bcp+1",
+      "0x0.0p+0",
+      "0x1.780d2eb31f42bp+1",
+      "0x1.30bf10a9fbcd1p+1",
+      "0x1.2d94ec2576e4fp+1",
+      "0x1.6600f88e3261ep+1",
+      "0x1.2c27a98648aeap+1"
+    ],
+    [
+      "0x1.59a62a4cd3ea4p+1",
+      "0x1.780d2eb31f42bp+1",
+      "0x0.0p+0",
+      "0x1.5f1061d63c68ap+1",
+      "0x1.65ea8c2fae3d1p+1",
+      "0x1.ffc5c57278576p+1",
+      "0x1.ec2ff714cfad5p+1"
+    ],
+    [
+      "0x1.7cd988269a8acp+1",
+      "0x1.30bf10a9fbcd1p+1",
+      "0x1.5f1061d63c68ap+1",
+      "0x0.0p+0",
+      "0x1.2ea51657cd13ep+1",
+      "0x1.d27704ffcbc88p+1",
+      "0x1.bc9d6614ddef5p+1"
+    ],
+    [
+      "0x1.2de039a253a12p+1",
+      "0x1.2d94ec2576e4fp+1",
+      "0x1.65ea8c2fae3d1p+1",
+      "0x1.2ea51657cd13ep+1",
+      "0x0.0p+0",
+      "0x1.cc6b54a2b4d10p+1",
+      "0x1.b31f1da734156p+1"
+    ],
+    [
+      "0x1.deb3446707a62p+1",
+      "0x1.6600f88e3261ep+1",
+      "0x1.ffc5c57278576p+1",
+      "0x1.d27704ffcbc88p+1",
+      "0x1.cc6b54a2b4d10p+1",
+      "0x0.0p+0",
+      "0x1.c1b188bbc5d68p+0"
+    ],
+    [
+      "0x1.b76bbb32fc601p+1",
+      "0x1.2c27a98648aeap+1",
+      "0x1.ec2ff714cfad5p+1",
+      "0x1.bc9d6614ddef5p+1",
+      "0x1.b31f1da734156p+1",
+      "0x1.c1b188bbc5d68p+0",
+      "0x0.0p+0"
+    ]
+  ],
+  "binary_variables": 49,
+  "constraints": 57,
+  "options": {
+    "TimeLimit": 30,
+    "Threads": 1,
+    "Seed": 0,
+    "MIPGap": 0.0
+  },
+  "remaining_phase_seconds": 867.9966119999881,
+  "utc": "2026-09-27T07:15:56.862188+00:00"
+}

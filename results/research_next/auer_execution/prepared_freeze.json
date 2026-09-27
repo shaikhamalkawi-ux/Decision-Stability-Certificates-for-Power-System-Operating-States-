@@ -1,0 +1,19 @@
+{
+  "utc": "2026-09-27T07:13:35.358619+00:00",
+  "input_manifest_sha256": "abd3c49c3f5c3ab41bff76afc9648c380717d8892a4aeeb9c5fd6ff68bb9398a",
+  "schedule_sha256": "bbbea500e6ea4e16cd6aee3fc69971f62be320893c91985737630ff3cc5c9342",
+  "source_sha256": "a18058186dde3dfe0dbd6717c27636e76ef59debbbcfbd36f7bb887c7a232d9c",
+  "protocol_sha256": "86313ffced10a4e384da01c60a50b7bd8bb62a46c544b96ef4e5653b29c8daf2",
+  "bindings": 85,
+  "invocations": 15,
+  "scientific_clustering_calls": 0,
+  "uc_calls": 0,
+  "solver_options": {
+    "TimeLimit": 30,
+    "Threads": 1,
+    "Seed": 0,
+    "MIPGap": 0.0
+  },
+  "environment_match_to_readiness": true,
+  "same_as_full_author_environment": false
+}

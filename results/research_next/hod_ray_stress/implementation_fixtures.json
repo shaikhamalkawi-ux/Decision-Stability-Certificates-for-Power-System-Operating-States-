@@ -1,0 +1,17 @@
+{
+  "checks": [
+    "signed_row_endpoint",
+    "upper_box_support",
+    "negative_q_lower_box",
+    "full_tau_formula",
+    "fixed_cap_constant",
+    "zero_nonseparation",
+    "lossless_NPZ"
+  ],
+  "old_fixture_suites_repeated": 0,
+  "optimizer_calls": 0,
+  "scientific_arrays_read": 0,
+  "source_sha256": "f89dd091519bf6d6ce43c5f4d33366cdb809d49637bb83d0574e4e8ff090be95",
+  "status": "PASS",
+  "utc": "2026-09-27T06:59:56.414561+00:00"
+}

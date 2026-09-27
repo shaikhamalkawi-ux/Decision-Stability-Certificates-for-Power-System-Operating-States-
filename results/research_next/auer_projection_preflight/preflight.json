@@ -1,0 +1,199 @@
+{
+  "utc": "2026-09-27T06:47:12.678054+00:00",
+  "status": "SOURCE_AND_ENVIRONMENT_PREFLIGHT_ONLY",
+  "environment": {
+    "executable": "C:\\Users\\gmalkawi\\OneDrive - Higher Colleges of Technology\\Documents 1\\ChatGPT\\3\\.work\\solver_env\\Scripts\\python.exe",
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "isolated": 1,
+    "no_site": 0,
+    "packages": {
+      "gurobipy": {
+        "installed_version": null,
+        "author_pin": "13.0.0"
+      },
+      "highspy": {
+        "installed_version": "1.12.0",
+        "author_pin": null
+      },
+      "matplotlib": {
+        "installed_version": "3.11.2",
+        "author_pin": "3.10.3"
+      },
+      "numpy": {
+        "installed_version": "2.3.5",
+        "author_pin": null
+      },
+      "openpyxl": {
+        "installed_version": "3.1.5",
+        "author_pin": "3.1.5"
+      },
+      "pandas": {
+        "installed_version": "3.0.1",
+        "author_pin": "2.2.3"
+      },
+      "pyomo": {
+        "installed_version": null,
+        "author_pin": "6.9.2"
+      },
+      "rich": {
+        "installed_version": null,
+        "author_pin": "14.0.0"
+      },
+      "scipy": {
+        "installed_version": "1.18.1",
+        "author_pin": null
+      },
+      "tsam": {
+        "installed_version": null,
+        "author_pin": "2.3.9"
+      }
+    },
+    "author_package_pins_match": false,
+    "gurobi_python_package_available": false,
+    "gurobi_license": "NOT_CHECKED; package presence does not establish a license",
+    "solver_calls": 0,
+    "network_calls": 0,
+    "license_environment_values_recorded": false
+  },
+  "author_source_closure": {
+    "files": [
+      {
+        "path": "InOutModule/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      {
+        "path": "InOutModule/Utilities.py",
+        "sha256": "f9d6b69fc319ccd51c1e2cffa6ddc6f120e5eab457e451849331f914ce5984f2",
+        "bytes": 31155
+      },
+      {
+        "path": "InOutModule/CaseStudy.py",
+        "sha256": "dccce27eaa9db4dbeda6e71224e7019da503d654c9613ed481ed7a6220f26663",
+        "bytes": 75574
+      },
+      {
+        "path": "InOutModule/ExcelReader.py",
+        "sha256": "8b1e2aa76b767afaf95ca849593887b0dcaa4fa17a7c340c05863a0c7b258960",
+        "bytes": 34105
+      },
+      {
+        "path": "InOutModule/printer.py",
+        "sha256": "1f03b1fcf2210a1e8e526f6bda0899aa025a823df95b29c292cf21beee92c6ad",
+        "bytes": 13643
+      },
+      {
+        "path": "InOutModule/LICENSE",
+        "sha256": "b5f75f2e1c80f1fa9d731275c324ecf63c1bf3f1aa77630c04062f35db35a2f1",
+        "bytes": 1067
+      },
+      {
+        "path": "LEGO_LICENSE",
+        "sha256": "30b265e3d9342fe74130c5b82388fb7c39b2144d0e9cb09f706074c5b21df309",
+        "bytes": 1067
+      },
+      {
+        "path": "environment.yml",
+        "sha256": "de49e8bd5a46a5a7de7cb859ab983caa3688e17b0bd408ad091e635e30233a34",
+        "bytes": 770
+      }
+    ],
+    "provenance_sha256": "3d462947a2d4366d834c0f5a3ed28b51fc7ecbbf41b1136a5bca2a018addfad9",
+    "imports_static": {
+      "InOutModule/__init__.py": [],
+      "InOutModule/Utilities.py": [
+        "InOutModule.CaseStudy",
+        "InOutModule.printer",
+        "__future__",
+        "matplotlib.pyplot",
+        "numpy",
+        "os",
+        "pandas",
+        "tsam.timeseriesaggregation",
+        "typing"
+      ],
+      "InOutModule/CaseStudy.py": [
+        "ExcelReader",
+        "InOutModule",
+        "InOutModule.printer",
+        "concurrent.futures",
+        "copy",
+        "numpy",
+        "os",
+        "pandas",
+        "pathlib",
+        "tsam.timeseriesaggregation",
+        "typing",
+        "warnings"
+      ],
+      "InOutModule/ExcelReader.py": [
+        "InOutModule.printer",
+        "openpyxl",
+        "openpyxl.utils.cell",
+        "pandas",
+        "time"
+      ],
+      "InOutModule/printer.py": [
+        "__future__",
+        "datetime",
+        "pyomo",
+        "rich.console",
+        "rich.markup"
+      ]
+    },
+    "source_execution": false
+  },
+  "static_native_bindings": [
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-v8r1-evidence\\3\\.work\\v8r1_rts_inputs\\raw\\RTS-GMLC_v0.2.3\\gen.csv",
+      "sha256": "988466f29132b73739de60c9204dd4a2a9ceb0adf572e5966c086611272f4068",
+      "bytes": 32451
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-v8r1-evidence\\3\\.work\\v8r1_rts_inputs\\code\\dscgrid_model.py",
+      "sha256": "01d3e67440b1380b62ed68da07e61ac6895b930ada583ffa8af09a370850be78",
+      "bytes": 5694
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\hour_of_day\\january_identity\\model_metadata.json",
+      "sha256": "1d8281f53cc1c08f73d1fdc8d66a7825d2f34377ba933c13d0e5e0be8b223fa4",
+      "bytes": 2474
+    }
+  ],
+  "native_unit_count": 41,
+  "projected_signal_unit_count": 17,
+  "predicted_author_demand_row_multiplicity": {
+    "101": 4,
+    "102": 2,
+    "103": 1,
+    "104": 1,
+    "105": 1,
+    "106": 1,
+    "107": 1,
+    "108": 1,
+    "109": 1,
+    "110": 1,
+    "111": 1,
+    "112": 1,
+    "113": 1,
+    "114": 1,
+    "115": 1,
+    "116": 1,
+    "117": 1,
+    "118": 1,
+    "119": 1,
+    "120": 1,
+    "121": 1,
+    "122": 7,
+    "123": 1,
+    "124": 1
+  },
+  "multiplicity_is_not_physical_load_scaling": true,
+  "native_demand_semantics": "gross nodal load minus fixed rooftop PV, as source-inspected; utility PV/wind not subtracted",
+  "scientific_array_reads": 0,
+  "author_imports": 0,
+  "clustering_calls": 0,
+  "initial_probe_correction": "An earlier -I -S metadata probe hid site packages; -I with no_site=0 is authoritative.",
+  "source_sha256": "e1dd8523a3b5de763e1967c868d7578cbad53bfe262fa50545a6da340306ea9e",
+  "protocol_sha256": "7f9063330cf0320d583c9664060f57fbf9894e68312968f3a890ce8b61a585aa"
+}

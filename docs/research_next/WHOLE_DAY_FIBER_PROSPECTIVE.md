@@ -1,0 +1,33 @@
+# Next discriminating question: preserve complete days before testing chronology
+
+Drafted 27 September 2026 after the generic observation audit and fixed-ray stress test, while the first authentic Auer-helper comparison was running. **Design only; no preparation, candidate clustering or new UC optimization under this document.** A separate implementation/source gate remains necessary. This preserves a falsifiable next step if the current six pairs are easily distinguished.
+
+Historical-artifact inspection before implementation found that all five week1 whole-day orders already exist in `results/research8h/day_blocks/`. Reuse their native inputs/permutations and verified bindings rather than regenerate their models or repeat their UC solves. Order312 has an expanded-model positive witness; the other four remain UNKNOWN after their earlier fractional LP points and MIP timeouts. The separate `day_fixed_identity/` result rejects the original fixed U/Y/Z schedule in all five cases, not the unfixed UC models and not every possible common commitment. These prior outcomes must remain visible in the next denominator. This is a new authentic-observation test on partly old cases, not fifteen new operational experiments.
+
+## Why this step
+
+All six old HOD pairs changed the multiset of complete interior days. A method that retains selected complete day profiles can therefore distinguish them without using transitions. That was an observation-level weakness of the proposed comparator challenge, not evidence that the published method is inaccurate.
+
+The next question should hold the complete-day multiset fixed as well. This does not assume that the actual configured algorithm is permutation-invariant: finite precision, clustering ties, source ordering and medoid recomputation can change the selected representation. Run the real configured helper and retain that outcome.
+
+## Fixed candidates and observations
+
+Use the same three native January 168-hour inputs. Treat hours48–119 as three intact24-hour day blocks. Enumerate the six lexicographic permutations of block labels0,1,2: one identity and five nonidentity orders per week. Keep each block's internal order and all107physical coordinates together. First/last48hours stay fixed. This creates15 prospective nonidentity targets, retaining even duplicates if a future equality check finds any. No candidate is chosen using UC cost, a feasibility label, a fitted ray or the comparator output.
+
+This preserves the full day multiset, HOD marginals, total input energy and complete fixed endpoints. It need not preserve day-boundary ramps, multi-day weather plausibility or operating feasibility. These are synthetic rearrangements of recorded input, not new weather realizations.
+
+The proposed authentic preprocessing configuration is the previously reviewed projection, unchanged author/TSAM sources and documented environment variant: three representative days of24hours, with identical execution controls. Per week run identity, the five lexicographic nonidentity cases, then identity repeat:21 invocations total, no adaptive repeat or parameter sweep. These identities repeat in the new prospective execution order to expose within-run tie/state effects; the prior completed15-call experiment is not rerun. Preserve all outcomes and repeat instability. The exact budget and hashes must be frozen in its execution amendment before preparation.
+
+Primary observation: the same complete supported no-storage observation as the first Auer experiment, modulo simultaneous RP label permutations. Preserve source-day IDs separately. Also report whether the entire chronological Hindex is equal after the **same** relabeling that makes the primary observations equal. Do not choose a second incompatible label alignment for this secondary comparison. If a primary collision has distinct Hindex, it cannot support a claim about a downstream method that consumes that chronological sequence. If Hindex is also equal, this still does not imply full operational-model equivalence or a published-method error.
+
+Retain every relative RP map that establishes complete primary equality. The secondary equality question is whether **any one of those same compatible maps** also aligns Hindex. Choosing only an arbitrary canonical minimizer could produce a false Hindex difference when the primary observation has symmetries. No incompatible independent mapping is allowed.
+
+Denominator:15 targets, three self-repeat controls. Classification: DIFFERENT, EQUAL, UNKNOWN. Label/weight/transition equality alone is insufficient; selected full demand, VRES and hydro tables are mandatory. Report the complete table, including an all-DIFFERENT or all-UNKNOWN outcome.
+
+## Operational question comes afterward
+
+An observed collision alone is a loss of input distinction, not proof of a wrong operating decision. Preserve the existing native model and weekly caps as the first operational context. The closed fixed-ray whole-HOD-family maxima already imply that the unchanged week1 ray cannot separate any candidate in the week2/week3 whole-day subsets at their old caps. Do not recompute those subset scores as if they were new transfer evidence. A week1 fixed-ray score could be calculated from the saved assignment table without a new optimizer, but nonseparation remains inconclusive and its old four UNKNOWN labels stay unchanged. Any claimed feasible/infeasible contrast also needs the existing identity witness binding and an accepted full model negative certificate for the candidate. Any cost-gap claim needs separate finite bounds and a verified feasible upper schedule; a ray score is not a cost gap. Failure of one fixed identity schedule is not proof that no shared schedule exists.
+
+Do not assume the original48-hour dwell matches the published method's supported operational reference. The author runner's dwell clipping and medoid-reconstructed reference are different estimands. This prospective test concerns the stated observation's sufficiency for our declared native model. An actual published operational benchmark would require a separate faithful design, not a relabeling of these results.
+
+If no primary collision occurs, retain that negative result and reassess the question instead of weakening the observation. If collisions occur but no operational distinction is established, report only collisions. Even a certified contrast would not establish priority: representative-period information loss and chronology errors already have extensive prior art. The unresolved contribution is whether exact, auditable stress construction adds a useful and distinct capability under a precisely stated observation contract.

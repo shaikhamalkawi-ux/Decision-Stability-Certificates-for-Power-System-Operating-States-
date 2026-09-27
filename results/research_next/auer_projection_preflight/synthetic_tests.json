@@ -1,0 +1,47 @@
+{
+  "synthetic_only": true,
+  "positive_schema_checks": 3,
+  "adversarial_cases": [
+    {
+      "case": "rooftop_double_count",
+      "rejected": true
+    },
+    {
+      "case": "hydro_not_fixed",
+      "rejected": true
+    },
+    {
+      "case": "varying_thermal_bound",
+      "rejected": true
+    },
+    {
+      "case": "nonfinite_demand",
+      "rejected": true
+    },
+    {
+      "case": "zero_rating",
+      "rejected": true
+    },
+    {
+      "case": "duplicate_identity",
+      "rejected": true
+    },
+    {
+      "case": "renewable_minimum",
+      "rejected": true
+    },
+    {
+      "case": "wrong_width",
+      "rejected": true
+    },
+    {
+      "case": "scientific_execution_disabled",
+      "rejected": true
+    }
+  ],
+  "author_imports": 0,
+  "archived_array_reads": 0,
+  "clustering_calls": 0,
+  "source_sha256": "e1dd8523a3b5de763e1967c868d7578cbad53bfe262fa50545a6da340306ea9e",
+  "protocol_sha256": "7f9063330cf0320d583c9664060f57fbf9894e68312968f3a890ce8b61a585aa"
+}

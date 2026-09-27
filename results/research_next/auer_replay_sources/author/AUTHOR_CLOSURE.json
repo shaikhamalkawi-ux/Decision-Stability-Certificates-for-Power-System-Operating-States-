@@ -1,0 +1,57 @@
+{
+  "schema": "auer_author_projection_closure_v1",
+  "utc": "2026-09-27T06:39:57.5914762Z",
+  "main_commit": "ce97428aa225037dcbcd848889ef55f3b67c17ba",
+  "submodule_commit": "8b1f53a75d152645e5ff8c7d5f417befaf316da5",
+  "files": [
+    {
+      "path": "InOutModule/__init__.py",
+      "url": "https://raw.githubusercontent.com/IEE-TUGraz/InOutModule/8b1f53a75d152645e5ff8c7d5f417befaf316da5/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "InOutModule/Utilities.py",
+      "url": "https://raw.githubusercontent.com/IEE-TUGraz/InOutModule/8b1f53a75d152645e5ff8c7d5f417befaf316da5/Utilities.py",
+      "bytes": 31155,
+      "sha256": "f9d6b69fc319ccd51c1e2cffa6ddc6f120e5eab457e451849331f914ce5984f2"
+    },
+    {
+      "path": "InOutModule/CaseStudy.py",
+      "url": "https://raw.githubusercontent.com/IEE-TUGraz/InOutModule/8b1f53a75d152645e5ff8c7d5f417befaf316da5/CaseStudy.py",
+      "bytes": 75574,
+      "sha256": "dccce27eaa9db4dbeda6e71224e7019da503d654c9613ed481ed7a6220f26663"
+    },
+    {
+      "path": "InOutModule/ExcelReader.py",
+      "url": "https://raw.githubusercontent.com/IEE-TUGraz/InOutModule/8b1f53a75d152645e5ff8c7d5f417befaf316da5/ExcelReader.py",
+      "bytes": 34105,
+      "sha256": "8b1e2aa76b767afaf95ca849593887b0dcaa4fa17a7c340c05863a0c7b258960"
+    },
+    {
+      "path": "InOutModule/printer.py",
+      "url": "https://raw.githubusercontent.com/IEE-TUGraz/InOutModule/8b1f53a75d152645e5ff8c7d5f417befaf316da5/printer.py",
+      "bytes": 13643,
+      "sha256": "1f03b1fcf2210a1e8e526f6bda0899aa025a823df95b29c292cf21beee92c6ad"
+    },
+    {
+      "path": "InOutModule/LICENSE",
+      "url": "https://raw.githubusercontent.com/IEE-TUGraz/InOutModule/8b1f53a75d152645e5ff8c7d5f417befaf316da5/LICENSE",
+      "bytes": 1067,
+      "sha256": "b5f75f2e1c80f1fa9d731275c324ecf63c1bf3f1aa77630c04062f35db35a2f1"
+    },
+    {
+      "path": "LEGO_LICENSE",
+      "url": "https://raw.githubusercontent.com/IEE-TUGraz/LEGO-Pyomo/ce97428aa225037dcbcd848889ef55f3b67c17ba/LICENSE",
+      "bytes": 1067,
+      "sha256": "30b265e3d9342fe74130c5b82388fb7c39b2144d0e9cb09f706074c5b21df309"
+    },
+    {
+      "path": "environment.yml",
+      "url": "https://raw.githubusercontent.com/IEE-TUGraz/LEGO-Pyomo/ce97428aa225037dcbcd848889ef55f3b67c17ba/environment.yml",
+      "bytes": 770,
+      "sha256": "de49e8bd5a46a5a7de7cb859ab983caa3688e17b0bd408ad091e635e30233a34"
+    }
+  ],
+  "source_execution": false
+}
