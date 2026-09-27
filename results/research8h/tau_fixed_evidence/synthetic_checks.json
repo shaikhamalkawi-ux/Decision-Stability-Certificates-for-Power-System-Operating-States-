@@ -1,0 +1,15 @@
+{
+  "status": "TAU_SYNTHETIC_ENDPOINT_CHECKS_PASS",
+  "tests": [
+    "zero_slope_positive",
+    "zero_slope_zero",
+    "zero_slope_negative",
+    "positive_slope_nonpositive",
+    "negative_slope_rejected",
+    "closed_lower_and_tied_limits",
+    "open_upper_at_tau0",
+    "equal_endpoint_empty",
+    "inward_display_can_collapse_nonempty_exact_range"
+  ],
+  "optimizer_calls": 0
+}

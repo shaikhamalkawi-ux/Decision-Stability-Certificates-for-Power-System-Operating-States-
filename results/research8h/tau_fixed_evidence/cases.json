@@ -1,0 +1,223 @@
+{
+  "points": [
+    {
+      "role": "cap_identity_w1",
+      "week": 1,
+      "model": "results/research8h/hour_of_day/january_identity",
+      "mask": "results/research8h/hour_of_day/january_identity/integrality.npz",
+      "vector": "results/research8h/hour_of_day/january_identity/constructive_vector.npz",
+      "metadata": "results/research8h/hour_of_day/january_identity/model_metadata.json"
+    },
+    {
+      "role": "cap_control_w1",
+      "week": 1,
+      "model": "results/research8h/hour_of_day/seed_26100200",
+      "mask": "results/research8h/hour_of_day/seed_26100200/integrality.npz",
+      "vector": "results/research8h/hour_of_day/seed_26100200/constructive_vector.npz",
+      "metadata": "results/research8h/hour_of_day/seed_26100200/model_metadata.json"
+    },
+    {
+      "role": "energy_identity_w1",
+      "week": 1,
+      "model": "results/research8h/energy_lp_refinement/january_identity",
+      "mask": "results/research8h/energy_lp_refinement/january_identity/original_integrality.npz",
+      "vector": "results/research8h/hour_of_day/january_identity/constructive_vector.npz",
+      "metadata": "results/research8h/hour_of_day/january_identity/model_metadata.json"
+    },
+    {
+      "role": "cap_identity_w2",
+      "week": 2,
+      "model": "results/research8h/fresh_january_weeks/targets/week_2_identity",
+      "mask": "results/research8h/fresh_january_weeks/targets/week_2_identity/integrality.npz",
+      "vector": "results/research8h/fresh_january_weeks/targets/week_2_identity/constructive_vector.npz",
+      "metadata": "results/research8h/fresh_january_weeks/targets/week_2_identity/model_metadata.json"
+    },
+    {
+      "role": "cap_control_w2",
+      "week": 2,
+      "model": "results/research8h/fresh_january_weeks/targets/seed_26100210",
+      "mask": "results/research8h/fresh_january_weeks/targets/seed_26100210/integrality.npz",
+      "vector": "results/research8h/fresh_january_weeks/targets/seed_26100210/constructive_vector.npz",
+      "metadata": "results/research8h/fresh_january_weeks/targets/seed_26100210/model_metadata.json"
+    },
+    {
+      "role": "energy_identity_w2",
+      "week": 2,
+      "model": "results/research8h/fresh_january_energy/week_2_identity",
+      "mask": "results/research8h/fresh_january_energy/week_2_identity/original_integrality.npz",
+      "vector": "results/research8h/fresh_january_energy/week_2_identity/reference_upper_vector.npz",
+      "metadata": "results/research8h/fresh_january_energy/week_2_identity/model_metadata.json"
+    },
+    {
+      "role": "cap_identity_w3",
+      "week": 3,
+      "model": "results/research8h/fresh_january_weeks/targets/week_3_identity",
+      "mask": "results/research8h/fresh_january_weeks/targets/week_3_identity/integrality.npz",
+      "vector": "results/research8h/fresh_january_weeks/targets/week_3_identity/constructive_vector.npz",
+      "metadata": "results/research8h/fresh_january_weeks/targets/week_3_identity/model_metadata.json"
+    },
+    {
+      "role": "cap_control_w3",
+      "week": 3,
+      "model": "results/research8h/fresh_january_weeks/targets/seed_26100220",
+      "mask": "results/research8h/fresh_january_weeks/targets/seed_26100220/integrality.npz",
+      "vector": "results/research8h/fresh_january_weeks/targets/seed_26100220/constructive_vector.npz",
+      "metadata": "results/research8h/fresh_january_weeks/targets/seed_26100220/model_metadata.json"
+    },
+    {
+      "role": "energy_identity_w3",
+      "week": 3,
+      "model": "results/research8h/fresh_january_energy/week_3_identity",
+      "mask": "results/research8h/fresh_january_energy/week_3_identity/original_integrality.npz",
+      "vector": "results/research8h/fresh_january_energy/week_3_identity/reference_upper_vector.npz",
+      "metadata": "results/research8h/fresh_january_energy/week_3_identity/model_metadata.json"
+    },
+    {
+      "role": "energy_seed_26093200",
+      "week": 1,
+      "model": "results/research8h/hour_of_day_uncapped/seed_26093200",
+      "mask": "results/research8h/hour_of_day_uncapped/seed_26093200/original_integrality.npz",
+      "vector": "results/research8h/hour_of_day_uncapped/seed_26093200/mip/recovered_vector.npz",
+      "metadata": "results/research8h/hour_of_day_uncapped/seed_26093200/model_metadata.json"
+    },
+    {
+      "role": "energy_seed_26093201",
+      "week": 1,
+      "model": "results/research8h/hour_of_day_uncapped/seed_26093201",
+      "mask": "results/research8h/hour_of_day_uncapped/seed_26093201/original_integrality.npz",
+      "vector": "results/research8h/hour_of_day_uncapped/seed_26093201/mip/recovered_vector.npz",
+      "metadata": "results/research8h/hour_of_day_uncapped/seed_26093201/model_metadata.json"
+    },
+    {
+      "role": "energy_seed_26093210",
+      "week": 2,
+      "model": "results/research8h/fresh_january_energy/seed_26093210",
+      "mask": "results/research8h/fresh_january_energy/seed_26093210/original_integrality.npz",
+      "vector": "results/research8h/fresh_january_energy/seed_26093210/mip/recovered_vector.npz",
+      "metadata": "results/research8h/fresh_january_energy/seed_26093210/model_metadata.json"
+    },
+    {
+      "role": "energy_seed_26093211",
+      "week": 2,
+      "model": "results/research8h/fresh_january_energy/seed_26093211",
+      "mask": "results/research8h/fresh_january_energy/seed_26093211/original_integrality.npz",
+      "vector": "results/research8h/fresh_january_energy/seed_26093211/mip/recovered_vector.npz",
+      "metadata": "results/research8h/fresh_january_energy/seed_26093211/model_metadata.json"
+    },
+    {
+      "role": "energy_seed_26093220",
+      "week": 3,
+      "model": "results/research8h/fresh_january_energy/seed_26093220",
+      "mask": "results/research8h/fresh_january_energy/seed_26093220/original_integrality.npz",
+      "vector": "results/research8h/fresh_january_energy/seed_26093220/mip/recovered_vector.npz",
+      "metadata": "results/research8h/fresh_january_energy/seed_26093220/model_metadata.json"
+    },
+    {
+      "role": "energy_seed_26093221",
+      "week": 3,
+      "model": "results/research8h/fresh_january_energy/seed_26093221",
+      "mask": "results/research8h/fresh_january_energy/seed_26093221/original_integrality.npz",
+      "vector": "results/research8h/fresh_january_energy/seed_26093221/mip/recovered_vector.npz",
+      "metadata": "results/research8h/fresh_january_energy/seed_26093221/model_metadata.json"
+    }
+  ],
+  "energy": [
+    {
+      "case": "seed_26093200",
+      "week": 1,
+      "model": "results/research8h/hour_of_day_uncapped/seed_26093200",
+      "parent": "results/research8h/hour_of_day/seed_26093200",
+      "identity_role": "energy_identity_w1",
+      "target_role": "energy_seed_26093200"
+    },
+    {
+      "case": "seed_26093201",
+      "week": 1,
+      "model": "results/research8h/hour_of_day_uncapped/seed_26093201",
+      "parent": "results/research8h/hour_of_day/seed_26093201",
+      "identity_role": "energy_identity_w1",
+      "target_role": "energy_seed_26093201"
+    },
+    {
+      "case": "seed_26093210",
+      "week": 2,
+      "model": "results/research8h/fresh_january_energy/seed_26093210",
+      "parent": "results/research8h/fresh_january_weeks/targets/seed_26093210",
+      "identity_role": "energy_identity_w2",
+      "target_role": "energy_seed_26093210"
+    },
+    {
+      "case": "seed_26093211",
+      "week": 2,
+      "model": "results/research8h/fresh_january_energy/seed_26093211",
+      "parent": "results/research8h/fresh_january_weeks/targets/seed_26093211",
+      "identity_role": "energy_identity_w2",
+      "target_role": "energy_seed_26093211"
+    },
+    {
+      "case": "seed_26093220",
+      "week": 3,
+      "model": "results/research8h/fresh_january_energy/seed_26093220",
+      "parent": "results/research8h/fresh_january_weeks/targets/seed_26093220",
+      "identity_role": "energy_identity_w3",
+      "target_role": "energy_seed_26093220"
+    },
+    {
+      "case": "seed_26093221",
+      "week": 3,
+      "model": "results/research8h/fresh_january_energy/seed_26093221",
+      "parent": "results/research8h/fresh_january_weeks/targets/seed_26093221",
+      "identity_role": "energy_identity_w3",
+      "target_role": "energy_seed_26093221"
+    }
+  ],
+  "negatives": [
+    {
+      "case": "seed_26093200",
+      "week": 1,
+      "parent": "results/research8h/hour_of_day/seed_26093200",
+      "model": "results/research8h/hour_of_day/seed_26093200/lp",
+      "identity_role": "cap_identity_w1",
+      "control_role": "cap_control_w1"
+    },
+    {
+      "case": "seed_26093201",
+      "week": 1,
+      "parent": "results/research8h/hour_of_day/seed_26093201",
+      "model": "results/research8h/hour_of_day/seed_26093201/lp",
+      "identity_role": "cap_identity_w1",
+      "control_role": "cap_control_w1"
+    },
+    {
+      "case": "seed_26093210",
+      "week": 2,
+      "parent": "results/research8h/fresh_january_weeks/targets/seed_26093210",
+      "model": "results/research8h/fresh_january_weeks/targets/seed_26093210/lp",
+      "identity_role": "cap_identity_w2",
+      "control_role": "cap_control_w2"
+    },
+    {
+      "case": "seed_26093220",
+      "week": 3,
+      "parent": "results/research8h/fresh_january_weeks/targets/seed_26093220",
+      "model": "results/research8h/fresh_january_weeks/targets/seed_26093220/lp",
+      "identity_role": "cap_identity_w3",
+      "control_role": "cap_control_w3"
+    },
+    {
+      "case": "seed_26093221",
+      "week": 3,
+      "parent": "results/research8h/fresh_january_weeks/targets/seed_26093221",
+      "model": "results/research8h/fresh_january_weeks/targets/seed_26093221/lp",
+      "identity_role": "cap_identity_w3",
+      "control_role": "cap_control_w3"
+    }
+  ],
+  "capped_ordinary_denominator": 6,
+  "capped_certificate_denominator": 5,
+  "capped_unknown": "seed_26093211",
+  "energy_denominator": 6,
+  "capped_point_roles": 6,
+  "uncapped_point_roles": 9,
+  "multiplier_selection": "one fixed archived vector per claim"
+}

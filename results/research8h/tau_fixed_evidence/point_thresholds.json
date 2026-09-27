@@ -1,0 +1,778 @@
+{
+  "status": "FIFTEEN_FIXED_POINT_ROLES_SCANNED",
+  "capped_roles": 6,
+  "uncapped_roles": 9,
+  "records": [
+    {
+      "role": "cap_identity_w1",
+      "week": 1,
+      "tau_min": {
+        "numerator": "8080919107015283899",
+        "denominator": "316912650057057350374175801344",
+        "approximate": 2.5498884647111388e-11
+      },
+      "threshold_included": true,
+      "original_binary_coordinates": 12096,
+      "strict_nominal_membership": false,
+      "exact_point_scan": {
+        "status": "POINT_NOT_FEASIBLE",
+        "strict_pass": false,
+        "expanded_pass": false,
+        "original_binary_coordinates_exact": true,
+        "binary_coordinates": 12096,
+        "tau": {
+          "numerator": "0",
+          "denominator": "1",
+          "float": 0.0
+        },
+        "maximum_column_violation": {
+          "numerator": "12133",
+          "denominator": "562949953421312",
+          "float": 2.155253753244324e-11
+        },
+        "worst_column": {
+          "column": 4920,
+          "side": "lower"
+        },
+        "maximum_row_violation": {
+          "numerator": "8080919107015283899",
+          "denominator": "316912650057057350374175801344",
+          "float": 2.5498884647111388e-11
+        },
+        "worst_row": {
+          "row": 30909,
+          "side": "lower"
+        }
+      },
+      "fixed_fossil_MWh": {
+        "numerator": "1654798412944827657145",
+        "denominator": "72057594037927936",
+        "approximate": 22964.941239556443
+      },
+      "model": "results/research8h/hour_of_day/january_identity",
+      "matrix_sha256": "2f11940f72432a2a2e89e4a88115eba3cf24a8e82a8110e250c6191020c1f0bb",
+      "bounds_sha256": "44ddedc6dd4b06028b9c7d10180cac4889dd51658a560d49f66ef8f3e31ab2d2",
+      "mask_sha256": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d",
+      "vector_sha256": "7c534f8691c761815224ac43773259da5a8e1d3eb2aa892dcb64dc46541672db"
+    },
+    {
+      "role": "cap_control_w1",
+      "week": 1,
+      "tau_min": {
+        "numerator": "8080919107015283899",
+        "denominator": "316912650057057350374175801344",
+        "approximate": 2.5498884647111388e-11
+      },
+      "threshold_included": true,
+      "original_binary_coordinates": 12096,
+      "strict_nominal_membership": false,
+      "exact_point_scan": {
+        "status": "POINT_NOT_FEASIBLE",
+        "strict_pass": false,
+        "expanded_pass": false,
+        "original_binary_coordinates_exact": true,
+        "binary_coordinates": 12096,
+        "tau": {
+          "numerator": "0",
+          "denominator": "1",
+          "float": 0.0
+        },
+        "maximum_column_violation": {
+          "numerator": "12133",
+          "denominator": "562949953421312",
+          "float": 2.155253753244324e-11
+        },
+        "worst_column": {
+          "column": 4920,
+          "side": "lower"
+        },
+        "maximum_row_violation": {
+          "numerator": "8080919107015283899",
+          "denominator": "316912650057057350374175801344",
+          "float": 2.5498884647111388e-11
+        },
+        "worst_row": {
+          "row": 27933,
+          "side": "lower"
+        }
+      },
+      "fixed_fossil_MWh": {
+        "numerator": "1654798412944827657145",
+        "denominator": "72057594037927936",
+        "approximate": 22964.941239556443
+      },
+      "model": "results/research8h/hour_of_day/seed_26100200",
+      "matrix_sha256": "2f11940f72432a2a2e89e4a88115eba3cf24a8e82a8110e250c6191020c1f0bb",
+      "bounds_sha256": "209fc8c9d031438b6cdc17b3bbeb155389d946399a356ebd12c85f02511e8a48",
+      "mask_sha256": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d",
+      "vector_sha256": "3315c482b738df85a053ae5ee1b2a8bbfd3e109083a32985a249ef61934a7ff6"
+    },
+    {
+      "role": "energy_identity_w1",
+      "week": 1,
+      "tau_min": {
+        "numerator": "8080919107015283899",
+        "denominator": "316912650057057350374175801344",
+        "approximate": 2.5498884647111388e-11
+      },
+      "threshold_included": true,
+      "original_binary_coordinates": 12096,
+      "strict_nominal_membership": false,
+      "exact_point_scan": {
+        "status": "POINT_NOT_FEASIBLE",
+        "strict_pass": false,
+        "expanded_pass": false,
+        "original_binary_coordinates_exact": true,
+        "binary_coordinates": 12096,
+        "tau": {
+          "numerator": "0",
+          "denominator": "1",
+          "float": 0.0
+        },
+        "maximum_column_violation": {
+          "numerator": "12133",
+          "denominator": "562949953421312",
+          "float": 2.155253753244324e-11
+        },
+        "worst_column": {
+          "column": 4920,
+          "side": "lower"
+        },
+        "maximum_row_violation": {
+          "numerator": "8080919107015283899",
+          "denominator": "316912650057057350374175801344",
+          "float": 2.5498884647111388e-11
+        },
+        "worst_row": {
+          "row": 30908,
+          "side": "lower"
+        }
+      },
+      "fixed_fossil_MWh": {
+        "numerator": "1654798412944827657145",
+        "denominator": "72057594037927936",
+        "approximate": 22964.941239556443
+      },
+      "model": "results/research8h/energy_lp_refinement/january_identity",
+      "matrix_sha256": "43eadfdf239a339757187fa4d52e786d1be7277bb93009d5ded1973523bf1386",
+      "bounds_sha256": "ea8158050cefbaa9c8bdf5fd387ead50cbd9b803d378fe706a1c2522f5552518",
+      "mask_sha256": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d",
+      "vector_sha256": "7c534f8691c761815224ac43773259da5a8e1d3eb2aa892dcb64dc46541672db"
+    },
+    {
+      "role": "cap_identity_w2",
+      "week": 2,
+      "tau_min": {
+        "numerator": "21705",
+        "denominator": "281474976710656",
+        "approximate": 7.711165039836487e-11
+      },
+      "threshold_included": true,
+      "original_binary_coordinates": 12096,
+      "strict_nominal_membership": false,
+      "exact_point_scan": {
+        "status": "POINT_NOT_FEASIBLE",
+        "strict_pass": false,
+        "expanded_pass": false,
+        "original_binary_coordinates_exact": true,
+        "binary_coordinates": 12096,
+        "tau": {
+          "numerator": "0",
+          "denominator": "1",
+          "float": 0.0
+        },
+        "maximum_column_violation": {
+          "numerator": "4335",
+          "denominator": "70368744177664",
+          "float": 6.160405519040069e-11
+        },
+        "worst_column": {
+          "column": 3297,
+          "side": "lower"
+        },
+        "maximum_row_violation": {
+          "numerator": "21705",
+          "denominator": "281474976710656",
+          "float": 7.711165039836487e-11
+        },
+        "worst_row": {
+          "row": 18710,
+          "side": "upper"
+        }
+      },
+      "fixed_fossil_MWh": {
+        "numerator": "16259756583482128080663775801439",
+        "denominator": "618970019642690137449562112",
+        "approximate": 26269.05353649975
+      },
+      "model": "results/research8h/fresh_january_weeks/targets/week_2_identity",
+      "matrix_sha256": "2f11940f72432a2a2e89e4a88115eba3cf24a8e82a8110e250c6191020c1f0bb",
+      "bounds_sha256": "44e9954495a05ae7d80c370dae21b42e1a4fa0a48befe30ce66801ead0a569f1",
+      "mask_sha256": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d",
+      "vector_sha256": "26e67eb484a57a566b8e08c120523918adca648b918e29b9431a68ceb81711ee"
+    },
+    {
+      "role": "cap_control_w2",
+      "week": 2,
+      "tau_min": {
+        "numerator": "21705",
+        "denominator": "281474976710656",
+        "approximate": 7.711165039836487e-11
+      },
+      "threshold_included": true,
+      "original_binary_coordinates": 12096,
+      "strict_nominal_membership": false,
+      "exact_point_scan": {
+        "status": "POINT_NOT_FEASIBLE",
+        "strict_pass": false,
+        "expanded_pass": false,
+        "original_binary_coordinates_exact": true,
+        "binary_coordinates": 12096,
+        "tau": {
+          "numerator": "0",
+          "denominator": "1",
+          "float": 0.0
+        },
+        "maximum_column_violation": {
+          "numerator": "4335",
+          "denominator": "70368744177664",
+          "float": 6.160405519040069e-11
+        },
+        "worst_column": {
+          "column": 3297,
+          "side": "lower"
+        },
+        "maximum_row_violation": {
+          "numerator": "21705",
+          "denominator": "281474976710656",
+          "float": 7.711165039836487e-11
+        },
+        "worst_row": {
+          "row": 18710,
+          "side": "upper"
+        }
+      },
+      "fixed_fossil_MWh": {
+        "numerator": "16259756583482128080663775801439",
+        "denominator": "618970019642690137449562112",
+        "approximate": 26269.05353649975
+      },
+      "model": "results/research8h/fresh_january_weeks/targets/seed_26100210",
+      "matrix_sha256": "2f11940f72432a2a2e89e4a88115eba3cf24a8e82a8110e250c6191020c1f0bb",
+      "bounds_sha256": "977648e16e34225ff42bb8c857cb0d1cd42e924f113199735a3c8ba3bc17c902",
+      "mask_sha256": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d",
+      "vector_sha256": "26ea75595a4d39416d273dabb1ea12fb28f5ea6833f69fc57b2c7a6fd70a398c"
+    },
+    {
+      "role": "energy_identity_w2",
+      "week": 2,
+      "tau_min": {
+        "numerator": "21705",
+        "denominator": "281474976710656",
+        "approximate": 7.711165039836487e-11
+      },
+      "threshold_included": true,
+      "original_binary_coordinates": 12096,
+      "strict_nominal_membership": false,
+      "exact_point_scan": {
+        "status": "POINT_NOT_FEASIBLE",
+        "strict_pass": false,
+        "expanded_pass": false,
+        "original_binary_coordinates_exact": true,
+        "binary_coordinates": 12096,
+        "tau": {
+          "numerator": "0",
+          "denominator": "1",
+          "float": 0.0
+        },
+        "maximum_column_violation": {
+          "numerator": "4335",
+          "denominator": "70368744177664",
+          "float": 6.160405519040069e-11
+        },
+        "worst_column": {
+          "column": 3297,
+          "side": "lower"
+        },
+        "maximum_row_violation": {
+          "numerator": "21705",
+          "denominator": "281474976710656",
+          "float": 7.711165039836487e-11
+        },
+        "worst_row": {
+          "row": 18710,
+          "side": "upper"
+        }
+      },
+      "fixed_fossil_MWh": {
+        "numerator": "16259756583482128080663775801439",
+        "denominator": "618970019642690137449562112",
+        "approximate": 26269.05353649975
+      },
+      "model": "results/research8h/fresh_january_energy/week_2_identity",
+      "matrix_sha256": "43eadfdf239a339757187fa4d52e786d1be7277bb93009d5ded1973523bf1386",
+      "bounds_sha256": "848e31f86de748453227910e6412fb8e8229ac68f6c2b25e11ce960f0f1319c0",
+      "mask_sha256": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d",
+      "vector_sha256": "26e67eb484a57a566b8e08c120523918adca648b918e29b9431a68ceb81711ee"
+    },
+    {
+      "role": "cap_identity_w3",
+      "week": 3,
+      "tau_min": {
+        "numerator": "21374331876572903777",
+        "denominator": "5070602400912917605986812821504",
+        "approximate": 4.2153436981619075e-12
+      },
+      "threshold_included": true,
+      "original_binary_coordinates": 12096,
+      "strict_nominal_membership": false,
+      "exact_point_scan": {
+        "status": "POINT_NOT_FEASIBLE",
+        "strict_pass": false,
+        "expanded_pass": false,
+        "original_binary_coordinates_exact": true,
+        "binary_coordinates": 12096,
+        "tau": {
+          "numerator": "0",
+          "denominator": "1",
+          "float": 0.0
+        },
+        "maximum_column_violation": {
+          "numerator": "0",
+          "denominator": "1",
+          "float": 0.0
+        },
+        "worst_column": null,
+        "maximum_row_violation": {
+          "numerator": "21374331876572903777",
+          "denominator": "5070602400912917605986812821504",
+          "float": 4.2153436981619075e-12
+        },
+        "worst_row": {
+          "row": 28738,
+          "side": "upper"
+        }
+      },
+      "fixed_fossil_MWh": {
+        "numerator": "1683230331936304381",
+        "denominator": "35184372088832",
+        "approximate": 47840.28339873613
+      },
+      "model": "results/research8h/fresh_january_weeks/targets/week_3_identity",
+      "matrix_sha256": "2f11940f72432a2a2e89e4a88115eba3cf24a8e82a8110e250c6191020c1f0bb",
+      "bounds_sha256": "db5bc8333e2193f8e5d7b1bd1ddf11b4085db9ac8cdcd19e9cccb1f72a1d6c5e",
+      "mask_sha256": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d",
+      "vector_sha256": "7481a3fe6e2da571da8f8a3db0ba835d90b2f628df11daf4b3fff9f593468093"
+    },
+    {
+      "role": "cap_control_w3",
+      "week": 3,
+      "tau_min": {
+        "numerator": "21374331876572903777",
+        "denominator": "5070602400912917605986812821504",
+        "approximate": 4.2153436981619075e-12
+      },
+      "threshold_included": true,
+      "original_binary_coordinates": 12096,
+      "strict_nominal_membership": false,
+      "exact_point_scan": {
+        "status": "POINT_NOT_FEASIBLE",
+        "strict_pass": false,
+        "expanded_pass": false,
+        "original_binary_coordinates_exact": true,
+        "binary_coordinates": 12096,
+        "tau": {
+          "numerator": "0",
+          "denominator": "1",
+          "float": 0.0
+        },
+        "maximum_column_violation": {
+          "numerator": "0",
+          "denominator": "1",
+          "float": 0.0
+        },
+        "worst_column": null,
+        "maximum_row_violation": {
+          "numerator": "21374331876572903777",
+          "denominator": "5070602400912917605986812821504",
+          "float": 4.2153436981619075e-12
+        },
+        "worst_row": {
+          "row": 28738,
+          "side": "upper"
+        }
+      },
+      "fixed_fossil_MWh": {
+        "numerator": "1683230331936304381",
+        "denominator": "35184372088832",
+        "approximate": 47840.28339873613
+      },
+      "model": "results/research8h/fresh_january_weeks/targets/seed_26100220",
+      "matrix_sha256": "2f11940f72432a2a2e89e4a88115eba3cf24a8e82a8110e250c6191020c1f0bb",
+      "bounds_sha256": "830a42e9699498331be1d2f637d7cf9180fa84501349fb551d96c74ee4d860f9",
+      "mask_sha256": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d",
+      "vector_sha256": "9e933007e9654736858fe61379211e0e7f565675b628ca5d44ed1f44ae32600f"
+    },
+    {
+      "role": "energy_identity_w3",
+      "week": 3,
+      "tau_min": {
+        "numerator": "21374331876572903777",
+        "denominator": "5070602400912917605986812821504",
+        "approximate": 4.2153436981619075e-12
+      },
+      "threshold_included": true,
+      "original_binary_coordinates": 12096,
+      "strict_nominal_membership": false,
+      "exact_point_scan": {
+        "status": "POINT_NOT_FEASIBLE",
+        "strict_pass": false,
+        "expanded_pass": false,
+        "original_binary_coordinates_exact": true,
+        "binary_coordinates": 12096,
+        "tau": {
+          "numerator": "0",
+          "denominator": "1",
+          "float": 0.0
+        },
+        "maximum_column_violation": {
+          "numerator": "0",
+          "denominator": "1",
+          "float": 0.0
+        },
+        "worst_column": null,
+        "maximum_row_violation": {
+          "numerator": "21374331876572903777",
+          "denominator": "5070602400912917605986812821504",
+          "float": 4.2153436981619075e-12
+        },
+        "worst_row": {
+          "row": 28737,
+          "side": "upper"
+        }
+      },
+      "fixed_fossil_MWh": {
+        "numerator": "1683230331936304381",
+        "denominator": "35184372088832",
+        "approximate": 47840.28339873613
+      },
+      "model": "results/research8h/fresh_january_energy/week_3_identity",
+      "matrix_sha256": "43eadfdf239a339757187fa4d52e786d1be7277bb93009d5ded1973523bf1386",
+      "bounds_sha256": "d04ec3d429a8ab43fbbc7cf91a04bda985cef562596303029abeb30ba8b4fe3e",
+      "mask_sha256": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d",
+      "vector_sha256": "7481a3fe6e2da571da8f8a3db0ba835d90b2f628df11daf4b3fff9f593468093"
+    },
+    {
+      "role": "energy_seed_26093200",
+      "week": 1,
+      "tau_min": {
+        "numerator": "373915156003952800473",
+        "denominator": "5070602400912917605986812821504",
+        "approximate": 7.374176211028351e-11
+      },
+      "threshold_included": true,
+      "original_binary_coordinates": 12096,
+      "strict_nominal_membership": false,
+      "exact_point_scan": {
+        "status": "POINT_NOT_FEASIBLE",
+        "strict_pass": false,
+        "expanded_pass": false,
+        "original_binary_coordinates_exact": true,
+        "binary_coordinates": 12096,
+        "tau": {
+          "numerator": "0",
+          "denominator": "1",
+          "float": 0.0
+        },
+        "maximum_column_violation": {
+          "numerator": "24295",
+          "denominator": "562949953421312",
+          "float": 4.3156589413229085e-11
+        },
+        "worst_column": {
+          "column": 1858,
+          "side": "lower"
+        },
+        "maximum_row_violation": {
+          "numerator": "373915156003952800473",
+          "denominator": "5070602400912917605986812821504",
+          "float": 7.374176211028351e-11
+        },
+        "worst_row": {
+          "row": 25947,
+          "side": "lower"
+        }
+      },
+      "fixed_fossil_MWh": {
+        "numerator": "862968066750134879659",
+        "denominator": "36028797018963968",
+        "approximate": 23952.17543055647
+      },
+      "model": "results/research8h/hour_of_day_uncapped/seed_26093200",
+      "matrix_sha256": "43eadfdf239a339757187fa4d52e786d1be7277bb93009d5ded1973523bf1386",
+      "bounds_sha256": "eeed1da86ce32cb8a89e4dede73f7e05447ca29e5e23555c6e50613964b2d01f",
+      "mask_sha256": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d",
+      "vector_sha256": "d4d2f68f002e8ac37139e8a6fa3add916022418cb42cdcdbff9286f24ca898ca"
+    },
+    {
+      "role": "energy_seed_26093201",
+      "week": 1,
+      "tau_min": {
+        "numerator": "32387",
+        "denominator": "281474976710656",
+        "approximate": 1.1506173791531182e-10
+      },
+      "threshold_included": true,
+      "original_binary_coordinates": 12096,
+      "strict_nominal_membership": false,
+      "exact_point_scan": {
+        "status": "POINT_NOT_FEASIBLE",
+        "strict_pass": false,
+        "expanded_pass": false,
+        "original_binary_coordinates_exact": true,
+        "binary_coordinates": 12096,
+        "tau": {
+          "numerator": "0",
+          "denominator": "1",
+          "float": 0.0
+        },
+        "maximum_column_violation": {
+          "numerator": "32387",
+          "denominator": "281474976710656",
+          "float": 1.1506173791531182e-10
+        },
+        "worst_column": {
+          "column": 3091,
+          "side": "lower"
+        },
+        "maximum_row_violation": {
+          "numerator": "32387",
+          "denominator": "281474976710656",
+          "float": 1.1506173791531182e-10
+        },
+        "worst_row": {
+          "row": 16679,
+          "side": "upper"
+        }
+      },
+      "fixed_fossil_MWh": {
+        "numerator": "432792302999982809161",
+        "denominator": "18014398509481984",
+        "approximate": 24024.798983556408
+      },
+      "model": "results/research8h/hour_of_day_uncapped/seed_26093201",
+      "matrix_sha256": "43eadfdf239a339757187fa4d52e786d1be7277bb93009d5ded1973523bf1386",
+      "bounds_sha256": "842876a152e73d9b47ac767f8497a81e8644973d949c0c942e1c22cfd034f0db",
+      "mask_sha256": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d",
+      "vector_sha256": "7a6f6f3757c1206ebcf0c03c275022e34f0ea2af0696c1f9c869d1c17d6e3aa3"
+    },
+    {
+      "role": "energy_seed_26093210",
+      "week": 2,
+      "tau_min": {
+        "numerator": "956037",
+        "denominator": "281474976710656",
+        "approximate": 3.3965257273393945e-09
+      },
+      "threshold_included": true,
+      "original_binary_coordinates": 12096,
+      "strict_nominal_membership": false,
+      "exact_point_scan": {
+        "status": "POINT_NOT_FEASIBLE",
+        "strict_pass": false,
+        "expanded_pass": false,
+        "original_binary_coordinates_exact": true,
+        "binary_coordinates": 12096,
+        "tau": {
+          "numerator": "0",
+          "denominator": "1",
+          "float": 0.0
+        },
+        "maximum_column_violation": {
+          "numerator": "956037",
+          "denominator": "281474976710656",
+          "float": 3.3965257273393945e-09
+        },
+        "worst_column": {
+          "column": 3977,
+          "side": "lower"
+        },
+        "maximum_row_violation": {
+          "numerator": "956037",
+          "denominator": "281474976710656",
+          "float": 3.3965257273393945e-09
+        },
+        "worst_row": {
+          "row": 747,
+          "side": "upper"
+        }
+      },
+      "fixed_fossil_MWh": {
+        "numerator": "62358939592901681319",
+        "denominator": "2251799813685248",
+        "approximate": 27692.932210899493
+      },
+      "model": "results/research8h/fresh_january_energy/seed_26093210",
+      "matrix_sha256": "43eadfdf239a339757187fa4d52e786d1be7277bb93009d5ded1973523bf1386",
+      "bounds_sha256": "460256f48c1cd1f06db5fcd06ebe51c752065196ee71adba39bcfc80de9a6e23",
+      "mask_sha256": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d",
+      "vector_sha256": "e7fce362ad6bc15813a61cfe0cd5cbb243c98e0796d156b73c443e961f68407c"
+    },
+    {
+      "role": "energy_seed_26093211",
+      "week": 2,
+      "tau_min": {
+        "numerator": "9653",
+        "denominator": "281474976710656",
+        "approximate": 3.4294345141461235e-11
+      },
+      "threshold_included": true,
+      "original_binary_coordinates": 12096,
+      "strict_nominal_membership": false,
+      "exact_point_scan": {
+        "status": "POINT_NOT_FEASIBLE",
+        "strict_pass": false,
+        "expanded_pass": false,
+        "original_binary_coordinates_exact": true,
+        "binary_coordinates": 12096,
+        "tau": {
+          "numerator": "0",
+          "denominator": "1",
+          "float": 0.0
+        },
+        "maximum_column_violation": {
+          "numerator": "28203",
+          "denominator": "1125899906842624",
+          "float": 2.5049295970802632e-11
+        },
+        "worst_column": {
+          "column": 6573,
+          "side": "lower"
+        },
+        "maximum_row_violation": {
+          "numerator": "9653",
+          "denominator": "281474976710656",
+          "float": 3.4294345141461235e-11
+        },
+        "worst_row": {
+          "row": 17188,
+          "side": "upper"
+        }
+      },
+      "fixed_fossil_MWh": {
+        "numerator": "139547039243864944018083235965575",
+        "denominator": "4951760157141521099596496896",
+        "approximate": 28181.300146899805
+      },
+      "model": "results/research8h/fresh_january_energy/seed_26093211",
+      "matrix_sha256": "43eadfdf239a339757187fa4d52e786d1be7277bb93009d5ded1973523bf1386",
+      "bounds_sha256": "c3ce048491371d8f0151e18fa1d657c0239b0dba3f77bfa1a744a94d6b5f0576",
+      "mask_sha256": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d",
+      "vector_sha256": "2a7bcf367329f86401011d00e82840fc56dceac33ad6a2f4622e08a7b0c7ee51"
+    },
+    {
+      "role": "energy_seed_26093220",
+      "week": 3,
+      "tau_min": {
+        "numerator": "1329",
+        "denominator": "8796093022208",
+        "approximate": 1.510898073320277e-10
+      },
+      "threshold_included": true,
+      "original_binary_coordinates": 12096,
+      "strict_nominal_membership": false,
+      "exact_point_scan": {
+        "status": "POINT_NOT_FEASIBLE",
+        "strict_pass": false,
+        "expanded_pass": false,
+        "original_binary_coordinates_exact": true,
+        "binary_coordinates": 12096,
+        "tau": {
+          "numerator": "0",
+          "denominator": "1",
+          "float": 0.0
+        },
+        "maximum_column_violation": {
+          "numerator": "1329",
+          "denominator": "8796093022208",
+          "float": 1.510898073320277e-10
+        },
+        "worst_column": {
+          "column": 6829,
+          "side": "upper"
+        },
+        "maximum_row_violation": {
+          "numerator": "1329",
+          "denominator": "8796093022208",
+          "float": 1.510898073320277e-10
+        },
+        "worst_row": {
+          "row": 24252,
+          "side": "upper"
+        }
+      },
+      "fixed_fossil_MWh": {
+        "numerator": "14216855286323246732599",
+        "denominator": "288230376151711744",
+        "approximate": 49324.625239499816
+      },
+      "model": "results/research8h/fresh_january_energy/seed_26093220",
+      "matrix_sha256": "43eadfdf239a339757187fa4d52e786d1be7277bb93009d5ded1973523bf1386",
+      "bounds_sha256": "5fce0509bdb795ea868ab89d83860c05eda9e81d267757f762662bda027112b0",
+      "mask_sha256": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d",
+      "vector_sha256": "cb0dd439ff5543e9eb536b3a1f0c033a79df862b6fa145cc9e68e62ef6b7ead0"
+    },
+    {
+      "role": "energy_seed_26093221",
+      "week": 3,
+      "tau_min": {
+        "numerator": "106745",
+        "denominator": "2251799813685248",
+        "approximate": 4.7404302705444934e-11
+      },
+      "threshold_included": true,
+      "original_binary_coordinates": 12096,
+      "strict_nominal_membership": false,
+      "exact_point_scan": {
+        "status": "POINT_NOT_FEASIBLE",
+        "strict_pass": false,
+        "expanded_pass": false,
+        "original_binary_coordinates_exact": true,
+        "binary_coordinates": 12096,
+        "tau": {
+          "numerator": "0",
+          "denominator": "1",
+          "float": 0.0
+        },
+        "maximum_column_violation": {
+          "numerator": "7257",
+          "denominator": "281474976710656",
+          "float": 2.5782043167055235e-11
+        },
+        "worst_column": {
+          "column": 6084,
+          "side": "lower"
+        },
+        "maximum_row_violation": {
+          "numerator": "106745",
+          "denominator": "2251799813685248",
+          "float": 4.7404302705444934e-11
+        },
+        "worst_row": {
+          "row": 66,
+          "side": "lower"
+        }
+      },
+      "fixed_fossil_MWh": {
+        "numerator": "3597602850735793619653",
+        "denominator": "72057594037927936",
+        "approximate": 49926.768979299726
+      },
+      "model": "results/research8h/fresh_january_energy/seed_26093221",
+      "matrix_sha256": "43eadfdf239a339757187fa4d52e786d1be7277bb93009d5ded1973523bf1386",
+      "bounds_sha256": "4d553b230230942c7ae50bc9a33b0ab34bc245beb93b1b36bedeac801c5ba57f",
+      "mask_sha256": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d",
+      "vector_sha256": "24c67f3140b5c9a9253ef645c9ab7b3c707b40b703519d34588c76ee171500b3"
+    }
+  ]
+}

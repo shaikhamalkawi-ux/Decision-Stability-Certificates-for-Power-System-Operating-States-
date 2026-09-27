@@ -1,0 +1,709 @@
+{
+  "status": "SIX_FIXED_POSITIVE_ENERGY_PROOF_RANGES",
+  "records": [
+    {
+      "case": "seed_26093200",
+      "week": 1,
+      "nominal_target_lower": {
+        "numerator": "33587392341022158880700646578105145513011881981381",
+        "denominator": "1427247692705959881058285969449495136382746624",
+        "approximate": 23532.980654074738
+      },
+      "slope": {
+        "numerator": "848208766260580769567100663545665217",
+        "denominator": "5070602400912917605986812821504",
+        "approximate": 167279.68379217983
+      },
+      "fixed_identity_upper": {
+        "numerator": "1654798412944827657145",
+        "denominator": "72057594037927936",
+        "approximate": 22964.941239556443
+      },
+      "fixed_target_upper": {
+        "numerator": "862968066750134879659",
+        "denominator": "36028797018963968",
+        "approximate": 23952.17543055647
+      },
+      "energy_numerator": {
+        "numerator": "810732943737280789129617278116859436624103093701",
+        "denominator": "1427247692705959881058285969449495136382746624",
+        "approximate": 568.039414518295
+      },
+      "fixed_gap_lower_at_tau0": {
+        "numerator": "1695223273614194406327858403608394686617656520224943183",
+        "denominator": "2993155353253689176481146537402947624255349848014848",
+        "approximate": 566.3666176803731
+      },
+      "strict_upper": {
+        "numerator": "810732943737280789129617278116859436624103093701",
+        "denominator": "238749542728971230855640477038577681011818052452352",
+        "approximate": 0.003395746582256812
+      },
+      "degenerate_kind": "finite",
+      "pair_range": {
+        "kind": "finite",
+        "lower": {
+          "numerator": "373915156003952800473",
+          "denominator": "5070602400912917605986812821504",
+          "approximate": 7.374176211028351e-11
+        },
+        "upper": {
+          "numerator": "810732943737280789129617278116859436624103093701",
+          "denominator": "238749542728971230855640477038577681011818052452352",
+          "approximate": 0.003395746582256812
+        },
+        "lower_included": true,
+        "upper_included": false,
+        "active_lower_roles": [
+          "energy_seed_26093200"
+        ],
+        "active_upper_proofs": [
+          "seed_26093200"
+        ],
+        "empty_proof_conditions": [],
+        "exact_tau0_membership": true,
+        "certified_values_strictly_below_tau0": true,
+        "certified_values_strictly_above_tau0": true,
+        "safe_decimal_subset": {
+          "lower": "0.000000000073741763",
+          "upper": "0.003395746582256812",
+          "lower_included": true,
+          "upper_included": false,
+          "nonempty": true,
+          "rounding": "lower upward, upper downward; upper remains open"
+        },
+        "lower_over_tau0": {
+          "numerator": "373915156003952800473",
+          "denominator": "50706024009129180207775744",
+          "approximate": 7.374176211028351e-06
+        },
+        "upper_over_tau0": {
+          "numerator": "1700230214424525881484755134037328001235111051161239552",
+          "denominator": "5006940810331475156896730428933314617454530936296369",
+          "approximate": 339.57465822568116
+        }
+      },
+      "identity_lower_bound_not_required": true,
+      "objective_dual_at_tau0": {
+        "nominal_lower_bound_MWh": {
+          "numerator": "33587392341022158880700646578105145513011881981381",
+          "denominator": "1427247692705959881058285969449495136382746624",
+          "float": 23532.980654074738
+        },
+        "expanded_lower_bound_MWh": {
+          "numerator": "70432860081948971065822225642137428808286439790080830543",
+          "denominator": "2993155353253689176481146537402947624255349848014848",
+          "float": 23531.307857236814
+        },
+        "row_term": {
+          "numerator": "3606445937057360253438013037102868185",
+          "denominator": "40564819207303340847894502572032",
+          "float": 88905.75645430342
+        },
+        "finite_box_term": {
+          "numerator": "-93303143426660395094956109093577545086914924628539",
+          "denominator": "1427247692705959881058285969449495136382746624",
+          "float": -65372.77580022868
+        },
+        "row_dual_l1": {
+          "numerator": "52204801020770645549371",
+          "denominator": "1152921504606846976",
+          "float": 45280.44694471441
+        },
+        "stationarity_residual_l1": {
+          "numerator": "618609623268301894071311711613949633",
+          "denominator": "5070602400912917605986812821504",
+          "float": 121999.23684746544
+        }
+      },
+      "no_alternative_dual_or_zero_baseline_selection": true
+    },
+    {
+      "case": "seed_26093201",
+      "week": 1,
+      "nominal_target_lower": {
+        "numerator": "4250500893595632727583631909746773728751301957791",
+        "denominator": "178405961588244985132285746181186892047843328",
+        "approximate": 23824.881499227293
+      },
+      "slope": {
+        "numerator": "14406966574123084637238831991701771",
+        "denominator": "79228162514264337593543950336",
+        "approximate": 181841.48309042552
+      },
+      "fixed_identity_upper": {
+        "numerator": "1654798412944827657145",
+        "denominator": "72057594037927936",
+        "approximate": 22964.941239556443
+      },
+      "fixed_target_upper": {
+        "numerator": "432792302999982809161",
+        "denominator": "18014398509481984",
+        "approximate": 24024.798983556408
+      },
+      "energy_numerator": {
+        "numerator": "153418468935022966137253247248237969202829596831",
+        "denominator": "178405961588244985132285746181186892047843328",
+        "approximate": 859.9402596708494
+      },
+      "fixed_gap_lower_at_tau0": {
+        "numerator": "40132687400415832711929266492092539083830108952087717",
+        "denominator": "46768052394588893382517914646921056628989841375232",
+        "approximate": 858.1218448399451
+      },
+      "strict_upper": {
+        "numerator": "153418468935022966137253247248237969202829596831",
+        "denominator": "32441604647379957656102270216751100634218478174208",
+        "approximate": 0.004729065365372219
+      },
+      "degenerate_kind": "finite",
+      "pair_range": {
+        "kind": "finite",
+        "lower": {
+          "numerator": "32387",
+          "denominator": "281474976710656",
+          "approximate": 1.1506173791531182e-10
+        },
+        "upper": {
+          "numerator": "153418468935022966137253247248237969202829596831",
+          "denominator": "32441604647379957656102270216751100634218478174208",
+          "approximate": 0.004729065365372219
+        },
+        "lower_included": true,
+        "upper_included": false,
+        "active_lower_roles": [
+          "energy_seed_26093201"
+        ],
+        "active_upper_proofs": [
+          "seed_26093201"
+        ],
+        "empty_proof_conditions": [],
+        "exact_tau0_membership": true,
+        "certified_values_strictly_below_tau0": true,
+        "certified_values_strictly_above_tau0": true,
+        "safe_decimal_subset": {
+          "lower": "0.000000000115061738",
+          "upper": "0.004729065365372218",
+          "lower_included": true,
+          "upper_included": false,
+          "nonempty": true,
+          "rounding": "lower upward, upper downward; upper remains open"
+        },
+        "lower_over_tau0": {
+          "numerator": "67920461824",
+          "denominator": "5902958103587057",
+          "approximate": 1.150617379153118e-05
+        },
+        "upper_over_tau0": {
+          "numerator": "40217731120502660435084115246642094198706561831665664",
+          "denominator": "85043720086827723154848754549555114876452879577947",
+          "approximate": 472.9065365372218
+        }
+      },
+      "identity_lower_bound_not_required": true,
+      "objective_dual_at_tau0": {
+        "nominal_lower_bound_MWh": {
+          "numerator": "4250500893595632727583631909746773728751301957791",
+          "denominator": "178405961588244985132285746181186892047843328",
+          "float": 23824.881499227293
+        },
+        "expanded_lower_bound_MWh": {
+          "numerator": "1114158262530646718016528754594108697234904847543585957",
+          "denominator": "46768052394588893382517914646921056628989841375232",
+          "float": 23823.063084396388
+        },
+        "row_term": {
+          "numerator": "1789582628677569225539351403908049659",
+          "denominator": "20282409603651670423947251286016",
+          "float": 88233.23577664907
+        },
+        "finite_box_term": {
+          "numerator": "-11490834379179784211869935559486910498420951869281",
+          "denominator": "178405961588244985132285746181186892047843328",
+          "float": -64408.35427742178
+        },
+        "row_dual_l1": {
+          "numerator": "4188021851331131411028362777329665",
+          "denominator": "79228162514264337593543950336",
+          "float": 52860.267339623264
+        },
+        "stationarity_residual_l1": {
+          "numerator": "5109472361395976613105234607186053",
+          "denominator": "39614081257132168796771975168",
+          "float": 128981.21575080226
+        }
+      },
+      "no_alternative_dual_or_zero_baseline_selection": true
+    },
+    {
+      "case": "seed_26093210",
+      "week": 2,
+      "nominal_target_lower": {
+        "numerator": "136117835470971901645057708151581403",
+        "denominator": "5070602400912917605986812821504",
+        "approximate": 26844.509726588913
+      },
+      "slope": {
+        "numerator": "182312729899813466473620516901037331",
+        "denominator": "1267650600228229401496703205376",
+        "approximate": 143819.3851420807
+      },
+      "fixed_identity_upper": {
+        "numerator": "16259756583482128080663775801439",
+        "denominator": "618970019642690137449562112",
+        "approximate": 26269.05353649975
+      },
+      "fixed_target_upper": {
+        "numerator": "62358939592901681319",
+        "denominator": "2251799813685248",
+        "approximate": 27692.932210899493
+      },
+      "energy_numerator": {
+        "numerator": "2917909539086308408260056786193115",
+        "denominator": "5070602400912917605986812821504",
+        "approximate": 575.4561900891626
+      },
+      "fixed_gap_lower_at_tau0": {
+        "numerator": "429531259575738248910188404603077036202497574525165853",
+        "denominator": "748288838313422294120286634350736906063837462003712",
+        "approximate": 574.0179962377418
+      },
+      "strict_upper": {
+        "numerator": "2917909539086308408260056786193115",
+        "denominator": "729250919599253865894482067604149324",
+        "approximate": 0.004001242179701043
+      },
+      "degenerate_kind": "finite",
+      "pair_range": {
+        "kind": "finite",
+        "lower": {
+          "numerator": "956037",
+          "denominator": "281474976710656",
+          "approximate": 3.3965257273393945e-09
+        },
+        "upper": {
+          "numerator": "2917909539086308408260056786193115",
+          "denominator": "729250919599253865894482067604149324",
+          "approximate": 0.004001242179701043
+        },
+        "lower_included": true,
+        "upper_included": false,
+        "active_lower_roles": [
+          "energy_seed_26093210"
+        ],
+        "active_upper_proofs": [
+          "seed_26093210"
+        ],
+        "empty_proof_conditions": [],
+        "exact_tau0_membership": true,
+        "certified_values_strictly_below_tau0": true,
+        "certified_values_strictly_above_tau0": true,
+        "safe_decimal_subset": {
+          "lower": "0.000000003396525728",
+          "upper": "0.004001242179701042",
+          "lower_included": true,
+          "upper_included": false,
+          "nonempty": true,
+          "rounding": "lower upward, upper downward; upper remains open"
+        },
+        "lower_over_tau0": {
+          "numerator": "2004954906624",
+          "denominator": "5902958103587057",
+          "approximate": 0.0003396525727339394
+        },
+        "upper_over_tau0": {
+          "numerator": "7059138425935859527124166827266437167285571965419520",
+          "denominator": "17642367317199708924356915740584114785611727302047",
+          "approximate": 400.12421797010427
+        }
+      },
+      "identity_lower_bound_not_required": true,
+      "objective_dual_at_tau0": {
+        "nominal_lower_bound_MWh": {
+          "numerator": "136117835470971901645057708151581403",
+          "denominator": "5070602400912917605986812821504",
+          "float": 26844.509726588913
+        },
+        "expanded_lower_bound_MWh": {
+          "numerator": "20086370813996232580518473920067758661793960696268153117",
+          "denominator": "748288838313422294120286634350736906063837462003712",
+          "float": 26843.07153273749
+        },
+        "row_term": {
+          "numerator": "2342540355804099927137367477971261",
+          "denominator": "19807040628566084398385987584",
+          "float": 118268.06435816789
+        },
+        "finite_box_term": {
+          "numerator": "-463572495614877679702108366209061413",
+          "denominator": "5070602400912917605986812821504",
+          "float": -91423.55463157898
+        },
+        "row_dual_l1": {
+          "numerator": "12759109502446351281886101098853733",
+          "denominator": "316912650057057350374175801344",
+          "float": 40260.65068765537
+        },
+        "stationarity_residual_l1": {
+          "numerator": "131276291890028061346076112505622399",
+          "denominator": "1267650600228229401496703205376",
+          "float": 103558.73445442531
+        }
+      },
+      "no_alternative_dual_or_zero_baseline_selection": true
+    },
+    {
+      "case": "seed_26093211",
+      "week": 2,
+      "nominal_target_lower": {
+        "numerator": "133657715281914086254912277028887617",
+        "denominator": "5070602400912917605986812821504",
+        "approximate": 26359.336566765753
+      },
+      "slope": {
+        "numerator": "19428182397171405200612413149884321",
+        "denominator": "158456325028528675187087900672",
+        "approximate": 122609.06842105249
+      },
+      "fixed_identity_upper": {
+        "numerator": "16259756583482128080663775801439",
+        "denominator": "618970019642690137449562112",
+        "approximate": 26269.05353649975
+      },
+      "fixed_target_upper": {
+        "numerator": "139547039243864944018083235965575",
+        "denominator": "4951760157141521099596496896",
+        "approximate": 28181.300146899805
+      },
+      "energy_numerator": {
+        "numerator": "457789350028493018114625663499329",
+        "denominator": "5070602400912917605986812821504",
+        "approximate": 90.2830302660039
+      },
+      "fixed_gap_lower_at_tau0": {
+        "numerator": "8330039232926100775045771821429540255411903404032367",
+        "denominator": "93536104789177786765035829293842113257979682750464",
+        "approximate": 89.05693958179339
+      },
+      "strict_upper": {
+        "numerator": "457789350028493018114625663499329",
+        "denominator": "621701836709484966419597220796298272",
+        "approximate": 0.0007363487173392627
+      },
+      "degenerate_kind": "finite",
+      "pair_range": {
+        "kind": "finite",
+        "lower": {
+          "numerator": "21705",
+          "denominator": "281474976710656",
+          "approximate": 7.711165039836487e-11
+        },
+        "upper": {
+          "numerator": "457789350028493018114625663499329",
+          "denominator": "621701836709484966419597220796298272",
+          "approximate": 0.0007363487173392627
+        },
+        "lower_included": true,
+        "upper_included": false,
+        "active_lower_roles": [
+          "energy_identity_w2"
+        ],
+        "active_upper_proofs": [
+          "seed_26093211"
+        ],
+        "empty_proof_conditions": [],
+        "exact_tau0_membership": true,
+        "certified_values_strictly_below_tau0": true,
+        "certified_values_strictly_above_tau0": true,
+        "safe_decimal_subset": {
+          "lower": "0.000000000077111651",
+          "upper": "0.000736348717339262",
+          "lower_included": true,
+          "upper_included": false,
+          "nonempty": true,
+          "rounding": "lower upward, upper downward; upper remains open"
+        },
+        "lower_over_tau0": {
+          "numerator": "45518684160",
+          "denominator": "5902958103587057",
+          "approximate": 7.711165039836487e-06
+        },
+        "upper_over_tau0": {
+          "numerator": "8444722979645451136128159459817889582998038106865664",
+          "denominator": "114683746719350361082387638388349327586134702833297",
+          "approximate": 73.63487173392626
+        }
+      },
+      "identity_lower_bound_not_required": true,
+      "objective_dual_at_tau0": {
+        "nominal_lower_bound_MWh": {
+          "numerator": "133657715281914086254912277028887617",
+          "denominator": "5070602400912917605986812821504",
+          "float": 26359.336566765753
+        },
+        "expanded_lower_bound_MWh": {
+          "numerator": "2465434983535487892226081461254514743454344793621905775",
+          "denominator": "93536104789177786765035829293842113257979682750464",
+          "float": 26358.110476081543
+        },
+        "row_term": {
+          "numerator": "2352199396735232850817956774196213",
+          "denominator": "19807040628566084398385987584",
+          "float": 118755.72130360792
+        },
+        "finite_box_term": {
+          "numerator": "-468505330282305523554484657165342911",
+          "denominator": "5070602400912917605986812821504",
+          "float": -92396.38473684216
+        },
+        "row_dual_l1": {
+          "numerator": "11349009764390319619473592871450155",
+          "denominator": "316912650057057350374175801344",
+          "float": 35811.1604643962
+        },
+        "stationarity_residual_l1": {
+          "numerator": "27507355029952490781751233428318487",
+          "denominator": "316912650057057350374175801344",
+          "float": 86797.9079566563
+        }
+      },
+      "no_alternative_dual_or_zero_baseline_selection": true
+    },
+    {
+      "case": "seed_26093220",
+      "week": 3,
+      "nominal_target_lower": {
+        "numerator": "153550452557083484021482269379730592394880883865276164119492247",
+        "denominator": "3138550867693340381917894711603833208051177722232017256448",
+        "approximate": 48923.99678388341
+      },
+      "slope": {
+        "numerator": "1825189606513413035753018751278101793769418173827",
+        "denominator": "11150372599265311570767859136324180752990208",
+        "approximate": 163688.66513336723
+      },
+      "fixed_identity_upper": {
+        "numerator": "1683230331936304381",
+        "denominator": "35184372088832",
+        "approximate": 47840.28339873613
+      },
+      "fixed_target_upper": {
+        "numerator": "14216855286323246732599",
+        "denominator": "288230376151711744",
+        "approximate": 49324.625239499816
+      },
+      "energy_numerator": {
+        "numerator": "3401289585284896289032812873840488910954934050400495315482263",
+        "denominator": "3138550867693340381917894711603833208051177722232017256448",
+        "approximate": 1083.7133851472843
+      },
+      "fixed_gap_lower_at_tau0": {
+        "numerator": "7122247238581039598945326528539230928067902763137967106359205457837",
+        "denominator": "6582018229284824168619876730229402019930943462534319453394436096",
+        "approximate": 1082.0764984959505
+      },
+      "strict_upper": {
+        "numerator": "3401289585284896289032812873840488910954934050400495315482263",
+        "denominator": "513745201985894322923064149279650965435094638364918294891200512",
+        "approximate": 0.006620576838746387
+      },
+      "degenerate_kind": "finite",
+      "pair_range": {
+        "kind": "finite",
+        "lower": {
+          "numerator": "1329",
+          "denominator": "8796093022208",
+          "approximate": 1.510898073320277e-10
+        },
+        "upper": {
+          "numerator": "3401289585284896289032812873840488910954934050400495315482263",
+          "denominator": "513745201985894322923064149279650965435094638364918294891200512",
+          "approximate": 0.006620576838746387
+        },
+        "lower_included": true,
+        "upper_included": false,
+        "active_lower_roles": [
+          "energy_seed_26093220"
+        ],
+        "active_upper_proofs": [
+          "seed_26093220"
+        ],
+        "empty_proof_conditions": [],
+        "exact_tau0_membership": true,
+        "certified_values_strictly_below_tau0": true,
+        "certified_values_strictly_above_tau0": true,
+        "safe_decimal_subset": {
+          "lower": "0.000000000151089808",
+          "upper": "0.006620576838746386",
+          "lower_included": true,
+          "upper_included": false,
+          "nonempty": true,
+          "rounding": "lower upward, upper downward; upper remains open"
+        },
+        "lower_over_tau0": {
+          "numerator": "89187680256",
+          "denominator": "5902958103587057",
+          "approximate": 1.5108980733202769e-05
+        },
+        "upper_over_tau0": {
+          "numerator": "7133021256359390822337741584000329000586961853665499551854258814976",
+          "denominator": "10774017778351223392415055461098072519059090527532445495053357139",
+          "approximate": 662.0576838746387
+        }
+      },
+      "identity_lower_bound_not_required": true,
+      "objective_dual_at_tau0": {
+        "nominal_lower_bound_MWh": {
+          "numerator": "153550452557083484021482269379730592394880883865276164119492247",
+          "denominator": "3138550867693340381917894711603833208051177722232017256448",
+          "float": 48923.99678388341
+        },
+        "expanded_lower_bound_MWh": {
+          "numerator": "322007864663214391459227169138779673229590176269304105690026351423405",
+          "denominator": "6582018229284824168619876730229402019930943462534319453394436096",
+          "float": 48922.35989723208
+        },
+        "row_term": {
+          "numerator": "829450201394538322795598011980194273549860310245",
+          "denominator": "5575186299632655785383929568162090376495104",
+          "float": 148775.33356135382
+        },
+        "finite_box_term": {
+          "numerator": "-313388499683269722502934189925072200454281730721550751395449193",
+          "denominator": "3138550867693340381917894711603833208051177722232017256448",
+          "float": -99851.33677747041
+        },
+        "row_dual_l1": {
+          "numerator": "60615186365931889465137649347039171",
+          "denominator": "1267650600228229401496703205376",
+          "float": 47816.95078676936
+        },
+        "stationarity_residual_l1": {
+          "numerator": "1292012788680202045537332328578379054311469264259",
+          "denominator": "11150372599265311570767859136324180752990208",
+          "float": 115871.71434659786
+        }
+      },
+      "no_alternative_dual_or_zero_baseline_selection": true
+    },
+    {
+      "case": "seed_26093221",
+      "week": 3,
+      "nominal_target_lower": {
+        "numerator": "68143327191335464519675381367142514711876509541",
+        "denominator": "1393796574908163946345982392040522594123776",
+        "approximate": 48890.43955056739
+      },
+      "slope": {
+        "numerator": "21107573214120157585670898801105847",
+        "denominator": "158456325028528675187087900672",
+        "approximate": 133207.51450167687
+      },
+      "fixed_identity_upper": {
+        "numerator": "1683230331936304381",
+        "denominator": "35184372088832",
+        "approximate": 47840.28339873613
+      },
+      "fixed_target_upper": {
+        "numerator": "3597602850735793619653",
+        "denominator": "72057594037927936",
+        "approximate": 49926.768979299726
+      },
+      "energy_numerator": {
+        "numerator": "1463704047541150094794180733136995096054898533",
+        "denominator": "1393796574908163946345982392040522594123776",
+        "approximate": 1050.1561518312615
+      },
+      "fixed_gap_lower_at_tau0": {
+        "numerator": "98102918742337228428285448125389845324068313148674233",
+        "denominator": "93536104789177786765035829293842113257979682750464",
+        "approximate": 1048.8240766862448
+      },
+      "strict_upper": {
+        "numerator": "1463704047541150094794180733136995096054898533",
+        "denominator": "185664177464466805237397152910694853630729650176",
+        "approximate": 0.007883610438644148
+      },
+      "degenerate_kind": "finite",
+      "pair_range": {
+        "kind": "finite",
+        "lower": {
+          "numerator": "106745",
+          "denominator": "2251799813685248",
+          "approximate": 4.7404302705444934e-11
+        },
+        "upper": {
+          "numerator": "1463704047541150094794180733136995096054898533",
+          "denominator": "185664177464466805237397152910694853630729650176",
+          "approximate": 0.007883610438644148
+        },
+        "lower_included": true,
+        "upper_included": false,
+        "active_lower_roles": [
+          "energy_seed_26093221"
+        ],
+        "active_upper_proofs": [
+          "seed_26093221"
+        ],
+        "empty_proof_conditions": [],
+        "exact_tau0_membership": true,
+        "certified_values_strictly_below_tau0": true,
+        "certified_values_strictly_above_tau0": true,
+        "safe_decimal_subset": {
+          "lower": "0.000000000047404303",
+          "upper": "0.007883610438644148",
+          "lower_included": true,
+          "upper_included": false,
+          "nonempty": true,
+          "rounding": "lower upward, upper downward; upper remains open"
+        },
+        "lower_over_tau0": {
+          "numerator": "27982561280",
+          "denominator": "5902958103587057",
+          "approximate": 4.740430270544493e-06
+        },
+        "upper_over_tau0": {
+          "numerator": "98227515862688576115129782811510897269815122184896512",
+          "denominator": "124597120351347686844334686121051945746809036222279",
+          "approximate": 788.3610438644147
+        }
+      },
+      "identity_lower_bound_not_required": true,
+      "objective_dual_at_tau0": {
+        "nominal_lower_bound_MWh": {
+          "numerator": "68143327191335464519675381367142514711876509541",
+          "denominator": "1393796574908163946345982392040522594123776",
+          "float": 48890.43955056739
+        },
+        "expanded_lower_bound_MWh": {
+          "numerator": "4572896679870482319140876157629580036471573054545449145",
+          "denominator": "93536104789177786765035829293842113257979682750464",
+          "float": 48889.107475422374
+        },
+        "row_term": {
+          "numerator": "46800100274078694605115376933831645",
+          "denominator": "316912650057057350374175801344",
+          "float": 147675.07786657536
+        },
+        "finite_box_term": {
+          "numerator": "-137685690538393692456291009148077628642882576539",
+          "denominator": "1393796574908163946345982392040522594123776",
+          "float": -98784.63831600797
+        },
+        "row_dual_l1": {
+          "numerator": "12204851794563884374732070327078823",
+          "denominator": "316912650057057350374175801344",
+          "float": 38511.72173899182
+        },
+        "stationarity_residual_l1": {
+          "numerator": "30010294633676430796609727275132871",
+          "denominator": "316912650057057350374175801344",
+          "float": 94695.79276268504
+        }
+      },
+      "no_alternative_dual_or_zero_baseline_selection": true
+    }
+  ],
+  "denominator": 6,
+  "capped_26093211_still_unknown": true
+}

@@ -1,0 +1,20 @@
+{
+  "status": "TAU_FIXED_EVIDENCE_PREPARED_ONLY",
+  "prepared_utc": "2026-09-27T02:55:30.038529+00:00",
+  "source_sha256": "e87c56855235cd083dcee07267ea76077e949359684eb10c6a9cc21647c61288",
+  "protocol_sha256": "2c2e5094d5a0baf1e0e7b518348ba05b87f8b517f48dc6a392904149a5339217",
+  "descriptor_sha256": "94a51babcf2429f5cd28c0c6d95205c72728841e1626ed6396e785fb981e745e",
+  "manifest_sha256": "79c39fd85153e05b261ebf64ed7bd9e1041ae2311fcd527035339bab6230c4df",
+  "selected_input_files": 211,
+  "selected_input_bytes": 18787507,
+  "tau0": {
+    "numerator": "5902958103587057",
+    "denominator": "590295810358705651712",
+    "approximate": 1e-05
+  },
+  "safe_display_decimal_places": 18,
+  "optimizer_calls": 0,
+  "arithmetic_calls": 0,
+  "independent_prepared_gate_required": true,
+  "path_scope": "explicit repository-relative exact-computation closure; historical manifests pinned, no host prefix fallback"
+}

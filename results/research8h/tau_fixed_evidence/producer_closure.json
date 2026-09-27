@@ -1,0 +1,82 @@
+{
+  "status": "TAU_FIXED_EVIDENCE_PRODUCER_CLOSURE",
+  "recorded_utc": "2026-09-27T02:59:12.024916+00:00",
+  "session_id": 17122,
+  "exit_code": 0,
+  "invocation_count": 1,
+  "elapsed_s": 34.671718199999304,
+  "all_211_frozen_bindings_rehashed_unchanged": true,
+  "core_files": [
+    {
+      "path": "results/research8h/tau_fixed_evidence/capped_ray_ranges.json",
+      "bytes": 32570,
+      "sha256": "0440f2f35c1349847b300c3cc2c88f8aadf49646a732e61e9a1ddfcd8c362cf4"
+    },
+    {
+      "path": "results/research8h/tau_fixed_evidence/cases.json",
+      "bytes": 10181,
+      "sha256": "94a51babcf2429f5cd28c0c6d95205c72728841e1626ed6396e785fb981e745e"
+    },
+    {
+      "path": "results/research8h/tau_fixed_evidence/common_ranges.json",
+      "bytes": 4720,
+      "sha256": "7fe79eea430d558636e71af2efc6619f2fd681e94bab95f422c6063050e9735c"
+    },
+    {
+      "path": "results/research8h/tau_fixed_evidence/completion.json",
+      "bytes": 504,
+      "sha256": "c30960dd348e34ca9ba95231079ffd641ea88f9374e49679f0058bd421a4de0f"
+    },
+    {
+      "path": "results/research8h/tau_fixed_evidence/energy_ranges.json",
+      "bytes": 28229,
+      "sha256": "aec14f90644d0157d6c981f3f0708b961d50bafcee7f375635b918f790951e21"
+    },
+    {
+      "path": "results/research8h/tau_fixed_evidence/execution_started.json",
+      "bytes": 172,
+      "sha256": "db357a60ed38d450405f976643fdb9e0be4ef3179de8fa86473d847f4957818d"
+    },
+    {
+      "path": "results/research8h/tau_fixed_evidence/input_manifest.csv",
+      "bytes": 30237,
+      "sha256": "79c39fd85153e05b261ebf64ed7bd9e1041ae2311fcd527035339bab6230c4df"
+    },
+    {
+      "path": "results/research8h/tau_fixed_evidence/point_thresholds.json",
+      "bytes": 27676,
+      "sha256": "2e81019137b768eae354610ad5d079b02c401b7bee045b48a53aeccda9e77963"
+    },
+    {
+      "path": "results/research8h/tau_fixed_evidence/prepared_freeze.json",
+      "bytes": 931,
+      "sha256": "2d66e1cb58571a60fd4a03a773547cf574e9b9487611f264ba3dd4bb67ab54f7"
+    },
+    {
+      "path": "results/research8h/tau_fixed_evidence/synthetic_checks.json",
+      "bytes": 397,
+      "sha256": "822dae607f9bb6ef4acca7185f474365240980a698609cc965a00f806e9438ce"
+    }
+  ],
+  "core_file_count": 10,
+  "optimizer_calls": 0,
+  "network_calls": 0,
+  "new_witness_or_multiplier_selection": false,
+  "independent_postrun_review_required": true,
+  "synthetic_checks": {
+    "status": "TAU_SYNTHETIC_ENDPOINT_CHECKS_PASS",
+    "tests": [
+      "zero_slope_positive",
+      "zero_slope_zero",
+      "zero_slope_negative",
+      "positive_slope_nonpositive",
+      "negative_slope_rejected",
+      "closed_lower_and_tied_limits",
+      "open_upper_at_tau0",
+      "equal_endpoint_empty",
+      "inward_display_can_collapse_nonempty_exact_range"
+    ],
+    "optimizer_calls": 0
+  },
+  "scope": "Fixed-evidence exact numerical mixed-unit tau intervals; no physical uncertainty, new theorem, or changed historical capped verdict."
+}

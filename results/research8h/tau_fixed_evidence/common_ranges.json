@@ -1,0 +1,141 @@
+{
+  "status": "EXACT_FIXED_EVIDENCE_COMMON_TAU_RANGES",
+  "tau0": {
+    "numerator": "5902958103587057",
+    "denominator": "590295810358705651712",
+    "approximate": 1e-05
+  },
+  "capped": {
+    "kind": "finite",
+    "lower": {
+      "numerator": "21705",
+      "denominator": "281474976710656",
+      "approximate": 7.711165039836487e-11
+    },
+    "upper": {
+      "numerator": "2492379768657912937223539632714337",
+      "denominator": "1370919491694646724217109087977258307",
+      "approximate": 0.0018180351098349224
+    },
+    "lower_included": true,
+    "upper_included": false,
+    "active_lower_roles": [
+      "cap_identity_w2",
+      "cap_control_w2"
+    ],
+    "active_upper_proofs": [
+      "ray_seed_26093210"
+    ],
+    "empty_proof_conditions": [],
+    "exact_tau0_membership": true,
+    "certified_values_strictly_below_tau0": true,
+    "certified_values_strictly_above_tau0": true,
+    "safe_decimal_subset": {
+      "lower": "0.000000000077111651",
+      "upper": "0.001818035109834922",
+      "lower_included": true,
+      "upper_included": false,
+      "nonempty": true,
+      "rounding": "lower upward, upper downward; upper remains open"
+    },
+    "lower_over_tau0": {
+      "numerator": "45518684160",
+      "denominator": "5902958103587057",
+      "approximate": 7.711165039836487e-06
+    },
+    "upper_over_tau0": {
+      "numerator": "1471241335261566039418088930292737985808227369110994944",
+      "denominator": "8092480322864363966475574644089020212890376950932499",
+      "approximate": 181.80351098349223
+    }
+  },
+  "energy": {
+    "kind": "finite",
+    "lower": {
+      "numerator": "956037",
+      "denominator": "281474976710656",
+      "approximate": 3.3965257273393945e-09
+    },
+    "upper": {
+      "numerator": "457789350028493018114625663499329",
+      "denominator": "621701836709484966419597220796298272",
+      "approximate": 0.0007363487173392627
+    },
+    "lower_included": true,
+    "upper_included": false,
+    "active_lower_roles": [
+      "energy_seed_26093210"
+    ],
+    "active_upper_proofs": [
+      "energy_seed_26093211"
+    ],
+    "empty_proof_conditions": [],
+    "exact_tau0_membership": true,
+    "certified_values_strictly_below_tau0": true,
+    "certified_values_strictly_above_tau0": true,
+    "safe_decimal_subset": {
+      "lower": "0.000000003396525728",
+      "upper": "0.000736348717339262",
+      "lower_included": true,
+      "upper_included": false,
+      "nonempty": true,
+      "rounding": "lower upward, upper downward; upper remains open"
+    },
+    "lower_over_tau0": {
+      "numerator": "2004954906624",
+      "denominator": "5902958103587057",
+      "approximate": 0.0003396525727339394
+    },
+    "upper_over_tau0": {
+      "numerator": "8444722979645451136128159459817889582998038106865664",
+      "denominator": "114683746719350361082387638388349327586134702833297",
+      "approximate": 73.63487173392626
+    }
+  },
+  "joint": {
+    "kind": "finite",
+    "lower": {
+      "numerator": "956037",
+      "denominator": "281474976710656",
+      "approximate": 3.3965257273393945e-09
+    },
+    "upper": {
+      "numerator": "457789350028493018114625663499329",
+      "denominator": "621701836709484966419597220796298272",
+      "approximate": 0.0007363487173392627
+    },
+    "lower_included": true,
+    "upper_included": false,
+    "active_lower_roles": [
+      "energy_seed_26093210"
+    ],
+    "active_upper_proofs": [
+      "energy_seed_26093211"
+    ],
+    "empty_proof_conditions": [],
+    "exact_tau0_membership": true,
+    "certified_values_strictly_below_tau0": true,
+    "certified_values_strictly_above_tau0": true,
+    "safe_decimal_subset": {
+      "lower": "0.000000003396525728",
+      "upper": "0.000736348717339262",
+      "lower_included": true,
+      "upper_included": false,
+      "nonempty": true,
+      "rounding": "lower upward, upper downward; upper remains open"
+    },
+    "lower_over_tau0": {
+      "numerator": "2004954906624",
+      "denominator": "5902958103587057",
+      "approximate": 0.0003396525727339394
+    },
+    "upper_over_tau0": {
+      "numerator": "8444722979645451136128159459817889582998038106865664",
+      "denominator": "114683746719350361082387638388349327586134702833297",
+      "approximate": 73.63487173392626
+    }
+  },
+  "numerical_mixed_unit_convention": true,
+  "normalization_caveat": "Ranges depend on row/column units and normalization. Fixed-ray positive rescaling invariance is not model-row rescaling invariance.",
+  "outside_range": "This fixed evidence stops certifying; no reversal or absence of other proofs is established."
+}

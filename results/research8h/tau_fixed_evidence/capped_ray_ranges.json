@@ -1,0 +1,843 @@
+{
+  "status": "FIVE_FIXED_RAY_RANGES",
+  "records": [
+    {
+      "case": "seed_26093200",
+      "week": 1,
+      "delta0": {
+        "numerator": "383437547021500770698147211052966462181501536567",
+        "denominator": "22300745198530623141535718272648361505980416",
+        "approximate": 17193.934265782525
+      },
+      "slope": {
+        "numerator": "10497241618321400774537534039450855549",
+        "denominator": "1267650600228229401496703205376",
+        "approximate": 8280863.525352699
+      },
+      "strict_upper": {
+        "numerator": "383437547021500770698147211052966462181501536567",
+        "denominator": "184669427502696573925571699605209900573389314064384",
+        "approximate": 0.0020763455662735604
+      },
+      "degenerate_kind": "finite",
+      "pair_range": {
+        "kind": "finite",
+        "lower": {
+          "numerator": "8080919107015283899",
+          "denominator": "316912650057057350374175801344",
+          "approximate": 2.5498884647111388e-11
+        },
+        "upper": {
+          "numerator": "383437547021500770698147211052966462181501536567",
+          "denominator": "184669427502696573925571699605209900573389314064384",
+          "approximate": 0.0020763455662735604
+        },
+        "lower_included": true,
+        "upper_included": false,
+        "active_lower_roles": [
+          "cap_identity_w1"
+        ],
+        "active_upper_proofs": [
+          "seed_26093200"
+        ],
+        "empty_proof_conditions": [],
+        "exact_tau0_membership": true,
+        "certified_values_strictly_below_tau0": true,
+        "certified_values_strictly_above_tau0": true,
+        "safe_decimal_subset": {
+          "lower": "0.000000000025498885",
+          "upper": "0.002076345566273560",
+          "lower_included": true,
+          "upper_included": false,
+          "nonempty": true,
+          "rounding": "lower upward, upper downward; upper remains open"
+        },
+        "lower_over_tau0": {
+          "numerator": "8080919107015283899",
+          "denominator": "3169126500570573762985984",
+          "approximate": 2.549888464711139e-06
+        },
+        "upper_over_tau0": {
+          "numerator": "12866029097779750148338573119266411553549764966632914944",
+          "denominator": "61964777476181625133093719210312430553849964453029293",
+          "approximate": 207.63455662735603
+        }
+      },
+      "with_class_control_range": {
+        "kind": "finite",
+        "lower": {
+          "numerator": "8080919107015283899",
+          "denominator": "316912650057057350374175801344",
+          "approximate": 2.5498884647111388e-11
+        },
+        "upper": {
+          "numerator": "383437547021500770698147211052966462181501536567",
+          "denominator": "184669427502696573925571699605209900573389314064384",
+          "approximate": 0.0020763455662735604
+        },
+        "lower_included": true,
+        "upper_included": false,
+        "active_lower_roles": [
+          "cap_identity_w1",
+          "cap_control_w1"
+        ],
+        "active_upper_proofs": [
+          "seed_26093200"
+        ],
+        "empty_proof_conditions": [],
+        "exact_tau0_membership": true,
+        "certified_values_strictly_below_tau0": true,
+        "certified_values_strictly_above_tau0": true,
+        "safe_decimal_subset": {
+          "lower": "0.000000000025498885",
+          "upper": "0.002076345566273560",
+          "lower_included": true,
+          "upper_included": false,
+          "nonempty": true,
+          "rounding": "lower upward, upper downward; upper remains open"
+        },
+        "lower_over_tau0": {
+          "numerator": "8080919107015283899",
+          "denominator": "3169126500570573762985984",
+          "approximate": 2.549888464711139e-06
+        },
+        "upper_over_tau0": {
+          "numerator": "12866029097779750148338573119266411553549764966632914944",
+          "denominator": "61964777476181625133093719210312430553849964453029293",
+          "approximate": 207.63455662735603
+        }
+      },
+      "exact_ray_at_tau0": {
+        "status": "CERTIFIED_EXPANDED_INFEASIBLE",
+        "strict_pass": true,
+        "expanded_pass": true,
+        "tau": {
+          "numerator": "5902958103587057",
+          "denominator": "590295810358705651712",
+          "float": 1e-05
+        },
+        "row_multiplier_nonzeros": 1442,
+        "combined_column_nonzeros": 5301,
+        "beta": {
+          "numerator": "26547773800476718466710658767350540816286708767",
+          "denominator": "5444517870735015415413993718908291383296",
+          "float": 4876055.957713799
+        },
+        "box_maximum": {
+          "numerator": "108356243939731138068948711100014848721328857573065",
+          "denominator": "22300745198530623141535718272648361505980416",
+          "float": 4858862.0234480165
+        },
+        "separation_gap": {
+          "numerator": "383437547021500770698147211052966462181501536567",
+          "denominator": "22300745198530623141535718272648361505980416",
+          "float": 17193.934265782525
+        },
+        "expanded_beta": {
+          "numerator": "3648680815959623347498920040745390363577168181991263877947",
+          "denominator": "748288838313422294120286634350736906063837462003712",
+          "float": 4876032.661643639
+        },
+        "expanded_box_maximum": {
+          "numerator": "454484593954914972371964320168166783056771533373635499037",
+          "denominator": "93536104789177786765035829293842113257979682750464",
+          "float": 4858921.536013111
+        },
+        "expanded_separation_gap": {
+          "numerator": "12804064320303568523205479400056099122995915002179885651",
+          "denominator": "748288838313422294120286634350736906063837462003712",
+          "float": 17111.125630528997
+        },
+        "norm_formula_gap": {
+          "numerator": "12804064320303568523205479400056099122995915002179885651",
+          "denominator": "748288838313422294120286634350736906063837462003712",
+          "float": 17111.125630528997
+        },
+        "row_multiplier_l1": {
+          "numerator": "2953127732073895131686717701774915861",
+          "denominator": "1267650600228229401496703205376",
+          "float": 2329607.0159570863
+        },
+        "combined_column_l1": {
+          "numerator": "943014235780938205356352042209492461",
+          "denominator": "158456325028528675187087900672",
+          "float": 5951256.509395612
+        },
+        "independent_widened_endpoint_identity": true
+      },
+      "existing_floating_ray_threshold": 0.0020763455662735604,
+      "existing_diagnostic_is_not_the_exact_endpoint": true
+    },
+    {
+      "case": "seed_26093201",
+      "week": 1,
+      "delta0": {
+        "numerator": "142477095787084583985004789156757138522536530935",
+        "denominator": "5575186299632655785383929568162090376495104",
+        "approximate": 25555.57574757139
+      },
+      "slope": {
+        "numerator": "6164549931984115595030492564219321199",
+        "denominator": "633825300114114700748351602688",
+        "approximate": 9725944.879250232
+      },
+      "strict_upper": {
+        "numerator": "142477095787084583985004789156757138522536530935",
+        "denominator": "54223954641778280186141789565118800529458192187392",
+        "approximate": 0.0026275674050027574
+      },
+      "degenerate_kind": "finite",
+      "pair_range": {
+        "kind": "finite",
+        "lower": {
+          "numerator": "8080919107015283899",
+          "denominator": "316912650057057350374175801344",
+          "approximate": 2.5498884647111388e-11
+        },
+        "upper": {
+          "numerator": "142477095787084583985004789156757138522536530935",
+          "denominator": "54223954641778280186141789565118800529458192187392",
+          "approximate": 0.0026275674050027574
+        },
+        "lower_included": true,
+        "upper_included": false,
+        "active_lower_roles": [
+          "cap_identity_w1"
+        ],
+        "active_upper_proofs": [
+          "seed_26093201"
+        ],
+        "empty_proof_conditions": [],
+        "exact_tau0_membership": true,
+        "certified_values_strictly_below_tau0": true,
+        "certified_values_strictly_above_tau0": true,
+        "safe_decimal_subset": {
+          "lower": "0.000000000025498885",
+          "upper": "0.002627567405002757",
+          "lower_included": true,
+          "upper_included": false,
+          "nonempty": true,
+          "rounding": "lower upward, upper downward; upper remains open"
+        },
+        "lower_over_tau0": {
+          "numerator": "8080919107015283899",
+          "denominator": "3169126500570573762985984",
+          "approximate": 2.549888464711139e-06
+        },
+        "upper_over_tau0": {
+          "numerator": "9561476044290432303146264434869489490138064989548707840",
+          "denominator": "36389079975972676208394711562911505814069627542121343",
+          "approximate": 262.7567405002757
+        }
+      },
+      "with_class_control_range": {
+        "kind": "finite",
+        "lower": {
+          "numerator": "8080919107015283899",
+          "denominator": "316912650057057350374175801344",
+          "approximate": 2.5498884647111388e-11
+        },
+        "upper": {
+          "numerator": "142477095787084583985004789156757138522536530935",
+          "denominator": "54223954641778280186141789565118800529458192187392",
+          "approximate": 0.0026275674050027574
+        },
+        "lower_included": true,
+        "upper_included": false,
+        "active_lower_roles": [
+          "cap_identity_w1",
+          "cap_control_w1"
+        ],
+        "active_upper_proofs": [
+          "seed_26093201"
+        ],
+        "empty_proof_conditions": [],
+        "exact_tau0_membership": true,
+        "certified_values_strictly_below_tau0": true,
+        "certified_values_strictly_above_tau0": true,
+        "safe_decimal_subset": {
+          "lower": "0.000000000025498885",
+          "upper": "0.002627567405002757",
+          "lower_included": true,
+          "upper_included": false,
+          "nonempty": true,
+          "rounding": "lower upward, upper downward; upper remains open"
+        },
+        "lower_over_tau0": {
+          "numerator": "8080919107015283899",
+          "denominator": "3169126500570573762985984",
+          "approximate": 2.549888464711139e-06
+        },
+        "upper_over_tau0": {
+          "numerator": "9561476044290432303146264434869489490138064989548707840",
+          "denominator": "36389079975972676208394711562911505814069627542121343",
+          "approximate": 262.7567405002757
+        }
+      },
+      "exact_ray_at_tau0": {
+        "status": "CERTIFIED_EXPANDED_INFEASIBLE",
+        "strict_pass": true,
+        "expanded_pass": true,
+        "tau": {
+          "numerator": "5902958103587057",
+          "denominator": "590295810358705651712",
+          "float": 1e-05
+        },
+        "row_multiplier_nonzeros": 1706,
+        "combined_column_nonzeros": 5576,
+        "beta": {
+          "numerator": "12534835661613196330148305988786363695",
+          "denominator": "2535301200456458802993406410752",
+          "float": 4944120.9034084035
+        },
+        "box_maximum": {
+          "numerator": "27421918028622874246102262053282090759480263453705",
+          "denominator": "5575186299632655785383929568162090376495104",
+          "float": 4918565.327660832
+        },
+        "separation_gap": {
+          "numerator": "142477095787084583985004789156757138522536530935",
+          "denominator": "5575186299632655785383929568162090376495104",
+          "float": 25555.57574757139
+        },
+        "expanded_beta": {
+          "numerator": "1849805548230260565153353875118385505272021319023716300301",
+          "denominator": "374144419156711147060143317175368453031918731001856",
+          "float": 4944094.989842587
+        },
+        "expanded_box_maximum": {
+          "numerator": "460070115316486526381604001348769731821924330915427428451",
+          "denominator": "93536104789177786765035829293842113257979682750464",
+          "float": 4918636.673543809
+        },
+        "expanded_separation_gap": {
+          "numerator": "9525086964314459626937869723306577984323995362006586497",
+          "denominator": "374144419156711147060143317175368453031918731001856",
+          "float": 25458.31629877889
+        },
+        "norm_formula_gap": {
+          "numerator": "9525086964314459626937869723306577984323995362006586497",
+          "denominator": "374144419156711147060143317175368453031918731001856",
+          "float": 25458.31629877889
+        },
+        "row_multiplier_l1": {
+          "numerator": "1642467363024412543232397730974417187",
+          "denominator": "633825300114114700748351602688",
+          "float": 2591356.5815828126
+        },
+        "combined_column_l1": {
+          "numerator": "1130520642239925762949523708311226003",
+          "denominator": "158456325028528675187087900672",
+          "float": 7134588.29766742
+        },
+        "independent_widened_endpoint_identity": true
+      },
+      "existing_floating_ray_threshold": 0.0026275674050027574,
+      "existing_diagnostic_is_not_the_exact_endpoint": true
+    },
+    {
+      "case": "seed_26093210",
+      "week": 2,
+      "delta0": {
+        "numerator": "7477139305973738811670618898143011",
+        "denominator": "1267650600228229401496703205376",
+        "approximate": 5898.422881374052
+      },
+      "slope": {
+        "numerator": "4112758475083940172651327263931774921",
+        "denominator": "1267650600228229401496703205376",
+        "approximate": 3244394.3736101054
+      },
+      "strict_upper": {
+        "numerator": "2492379768657912937223539632714337",
+        "denominator": "1370919491694646724217109087977258307",
+        "approximate": 0.0018180351098349224
+      },
+      "degenerate_kind": "finite",
+      "pair_range": {
+        "kind": "finite",
+        "lower": {
+          "numerator": "21705",
+          "denominator": "281474976710656",
+          "approximate": 7.711165039836487e-11
+        },
+        "upper": {
+          "numerator": "2492379768657912937223539632714337",
+          "denominator": "1370919491694646724217109087977258307",
+          "approximate": 0.0018180351098349224
+        },
+        "lower_included": true,
+        "upper_included": false,
+        "active_lower_roles": [
+          "cap_identity_w2"
+        ],
+        "active_upper_proofs": [
+          "seed_26093210"
+        ],
+        "empty_proof_conditions": [],
+        "exact_tau0_membership": true,
+        "certified_values_strictly_below_tau0": true,
+        "certified_values_strictly_above_tau0": true,
+        "safe_decimal_subset": {
+          "lower": "0.000000000077111651",
+          "upper": "0.001818035109834922",
+          "lower_included": true,
+          "upper_included": false,
+          "nonempty": true,
+          "rounding": "lower upward, upper downward; upper remains open"
+        },
+        "lower_over_tau0": {
+          "numerator": "45518684160",
+          "denominator": "5902958103587057",
+          "approximate": 7.711165039836487e-06
+        },
+        "upper_over_tau0": {
+          "numerator": "1471241335261566039418088930292737985808227369110994944",
+          "denominator": "8092480322864363966475574644089020212890376950932499",
+          "approximate": 181.80351098349223
+        }
+      },
+      "with_class_control_range": {
+        "kind": "finite",
+        "lower": {
+          "numerator": "21705",
+          "denominator": "281474976710656",
+          "approximate": 7.711165039836487e-11
+        },
+        "upper": {
+          "numerator": "2492379768657912937223539632714337",
+          "denominator": "1370919491694646724217109087977258307",
+          "approximate": 0.0018180351098349224
+        },
+        "lower_included": true,
+        "upper_included": false,
+        "active_lower_roles": [
+          "cap_identity_w2",
+          "cap_control_w2"
+        ],
+        "active_upper_proofs": [
+          "seed_26093210"
+        ],
+        "empty_proof_conditions": [],
+        "exact_tau0_membership": true,
+        "certified_values_strictly_below_tau0": true,
+        "certified_values_strictly_above_tau0": true,
+        "safe_decimal_subset": {
+          "lower": "0.000000000077111651",
+          "upper": "0.001818035109834922",
+          "lower_included": true,
+          "upper_included": false,
+          "nonempty": true,
+          "rounding": "lower upward, upper downward; upper remains open"
+        },
+        "lower_over_tau0": {
+          "numerator": "45518684160",
+          "denominator": "5902958103587057",
+          "approximate": 7.711165039836487e-06
+        },
+        "upper_over_tau0": {
+          "numerator": "1471241335261566039418088930292737985808227369110994944",
+          "denominator": "8092480322864363966475574644089020212890376950932499",
+          "approximate": 181.80351098349223
+        }
+      },
+      "exact_ray_at_tau0": {
+        "status": "CERTIFIED_EXPANDED_INFEASIBLE",
+        "strict_pass": true,
+        "expanded_pass": true,
+        "tau": {
+          "numerator": "5902958103587057",
+          "denominator": "590295810358705651712",
+          "float": 1e-05
+        },
+        "row_multiplier_nonzeros": 1701,
+        "combined_column_nonzeros": 5442,
+        "beta": {
+          "numerator": "180551272028803625872611171558716691",
+          "denominator": "79228162514264337593543950336",
+          "float": 2278877.438263155
+        },
+        "box_maximum": {
+          "numerator": "2881343213154884275150108126041324045",
+          "denominator": "1267650600228229401496703205376",
+          "float": 2272979.015381781
+        },
+        "separation_gap": {
+          "numerator": "7477139305973738811670618898143011",
+          "denominator": "1267650600228229401496703205376",
+          "float": 5898.422881374052
+        },
+        "expanded_beta": {
+          "numerator": "1705251479524439546835266074579699940700359491787588974069",
+          "denominator": "748288838313422294120286634350736906063837462003712",
+          "float": 2278867.988152713
+        },
+        "expanded_box_maximum": {
+          "numerator": "850431016479811720904455617256376996901786740405554393367",
+          "denominator": "374144419156711147060143317175368453031918731001856",
+          "float": 2273002.009215075
+        },
+        "expanded_separation_gap": {
+          "numerator": "4389446564816105026354840066945946896786010976480187335",
+          "denominator": "748288838313422294120286634350736906063837462003712",
+          "float": 5865.97893763795
+        },
+        "norm_formula_gap": {
+          "numerator": "4389446564816105026354840066945946896786010976480187335",
+          "denominator": "748288838313422294120286634350736906063837462003712",
+          "float": 5865.97893763795
+        },
+        "row_multiplier_l1": {
+          "numerator": "1197943817357932271173512399684321979",
+          "denominator": "1267650600228229401496703205376",
+          "float": 945011.0441648929
+        },
+        "combined_column_l1": {
+          "numerator": "1457407328863003950738907432123726471",
+          "denominator": "633825300114114700748351602688",
+          "float": 2299383.329445212
+        },
+        "independent_widened_endpoint_identity": true
+      },
+      "existing_floating_ray_threshold": 0.0018180351098349224,
+      "existing_diagnostic_is_not_the_exact_endpoint": true
+    },
+    {
+      "case": "seed_26093220",
+      "week": 3,
+      "delta0": {
+        "numerator": "626983354332539711671178543750469",
+        "denominator": "633825300114114700748351602688",
+        "approximate": 989.2053129145473
+      },
+      "slope": {
+        "numerator": "10241366827256324344241",
+        "denominator": "36028797018963968",
+        "approximate": 284255.0313813065
+      },
+      "strict_upper": {
+        "numerator": "626983354332539711671178543750469",
+        "denominator": "180168030574203676539632602899808256",
+        "approximate": 0.0034799922735144263
+      },
+      "degenerate_kind": "finite",
+      "pair_range": {
+        "kind": "finite",
+        "lower": {
+          "numerator": "21374331876572903777",
+          "denominator": "5070602400912917605986812821504",
+          "approximate": 4.2153436981619075e-12
+        },
+        "upper": {
+          "numerator": "626983354332539711671178543750469",
+          "denominator": "180168030574203676539632602899808256",
+          "approximate": 0.0034799922735144263
+        },
+        "lower_included": true,
+        "upper_included": false,
+        "active_lower_roles": [
+          "cap_identity_w3"
+        ],
+        "active_upper_proofs": [
+          "seed_26093220"
+        ],
+        "empty_proof_conditions": [],
+        "exact_tau0_membership": true,
+        "certified_values_strictly_below_tau0": true,
+        "certified_values_strictly_above_tau0": true,
+        "safe_decimal_subset": {
+          "lower": "0.000000000004215344",
+          "upper": "0.003479992273514426",
+          "lower_included": true,
+          "upper_included": false,
+          "nonempty": true,
+          "rounding": "lower upward, upper downward; upper remains open"
+        },
+        "lower_over_tau0": {
+          "numerator": "21374331876572903777",
+          "denominator": "50706024009129180207775744",
+          "approximate": 4.215343698161907e-07
+        },
+        "upper_over_tau0": {
+          "numerator": "21038070328083109142570166806134137028608",
+          "denominator": "60454359304760387131342188335380088737",
+          "approximate": 347.9992273514426
+        }
+      },
+      "with_class_control_range": {
+        "kind": "finite",
+        "lower": {
+          "numerator": "21374331876572903777",
+          "denominator": "5070602400912917605986812821504",
+          "approximate": 4.2153436981619075e-12
+        },
+        "upper": {
+          "numerator": "626983354332539711671178543750469",
+          "denominator": "180168030574203676539632602899808256",
+          "approximate": 0.0034799922735144263
+        },
+        "lower_included": true,
+        "upper_included": false,
+        "active_lower_roles": [
+          "cap_identity_w3",
+          "cap_control_w3"
+        ],
+        "active_upper_proofs": [
+          "seed_26093220"
+        ],
+        "empty_proof_conditions": [],
+        "exact_tau0_membership": true,
+        "certified_values_strictly_below_tau0": true,
+        "certified_values_strictly_above_tau0": true,
+        "safe_decimal_subset": {
+          "lower": "0.000000000004215344",
+          "upper": "0.003479992273514426",
+          "lower_included": true,
+          "upper_included": false,
+          "nonempty": true,
+          "rounding": "lower upward, upper downward; upper remains open"
+        },
+        "lower_over_tau0": {
+          "numerator": "21374331876572903777",
+          "denominator": "50706024009129180207775744",
+          "approximate": 4.215343698161907e-07
+        },
+        "upper_over_tau0": {
+          "numerator": "21038070328083109142570166806134137028608",
+          "denominator": "60454359304760387131342188335380088737",
+          "approximate": 347.9992273514426
+        }
+      },
+      "exact_ray_at_tau0": {
+        "status": "CERTIFIED_EXPANDED_INFEASIBLE",
+        "strict_pass": true,
+        "expanded_pass": true,
+        "tau": {
+          "numerator": "5902958103587057",
+          "denominator": "590295810358705651712",
+          "float": 1e-05
+        },
+        "row_multiplier_nonzeros": 1365,
+        "combined_column_nonzeros": 4691,
+        "beta": {
+          "numerator": "2630259304765142828512172290888547",
+          "denominator": "9903520314283042199192993792",
+          "float": 265588.31822374655
+        },
+        "box_maximum": {
+          "numerator": "167709612150636601313107848073116539",
+          "denominator": "633825300114114700748351602688",
+          "float": 264599.112910832
+        },
+        "separation_gap": {
+          "numerator": "626983354332539711671178543750469",
+          "denominator": "633825300114114700748351602688",
+          "float": 989.2053129145473
+        },
+        "expanded_beta": {
+          "numerator": "5648421855381703291845308390619465072105871",
+          "denominator": "21267647932558653966460912964485513216",
+          "float": 265587.51928249345
+        },
+        "expanded_box_maximum": {
+          "numerator": "351715264963307808943116847875104144697875",
+          "denominator": "1329227995784915872903807060280344576",
+          "float": 264601.1565198927
+        },
+        "expanded_separation_gap": {
+          "numerator": "20977615968778348755438824617798756939871",
+          "denominator": "21267647932558653966460912964485513216",
+          "float": 986.3627626007343
+        },
+        "norm_formula_gap": {
+          "numerator": "20977615968778348755438824617798756939871",
+          "denominator": "21267647932558653966460912964485513216",
+          "float": 986.3627626007343
+        },
+        "row_multiplier_l1": {
+          "numerator": "2878489223748253291905",
+          "denominator": "36028797018963968",
+          "float": 79894.12530851761
+        },
+        "combined_column_l1": {
+          "numerator": "460179850219254440771",
+          "denominator": "2251799813685248",
+          "float": 204360.90607278887
+        },
+        "independent_widened_endpoint_identity": true
+      },
+      "existing_floating_ray_threshold": 0.0034799922735144263,
+      "existing_diagnostic_is_not_the_exact_endpoint": true
+    },
+    {
+      "case": "seed_26093221",
+      "week": 3,
+      "delta0": {
+        "numerator": "379863799237089722969340305322401",
+        "denominator": "316912650057057350374175801344",
+        "approximate": 1198.638802107453
+      },
+      "slope": {
+        "numerator": "6066034669165008964479",
+        "denominator": "18014398509481984",
+        "approximate": 336732.56789407186
+      },
+      "strict_upper": {
+        "numerator": "379863799237089722969340305322401",
+        "denominator": "106714810451828298260414999260299264",
+        "approximate": 0.0035596164921134587
+      },
+      "degenerate_kind": "finite",
+      "pair_range": {
+        "kind": "finite",
+        "lower": {
+          "numerator": "21374331876572903777",
+          "denominator": "5070602400912917605986812821504",
+          "approximate": 4.2153436981619075e-12
+        },
+        "upper": {
+          "numerator": "379863799237089722969340305322401",
+          "denominator": "106714810451828298260414999260299264",
+          "approximate": 0.0035596164921134587
+        },
+        "lower_included": true,
+        "upper_included": false,
+        "active_lower_roles": [
+          "cap_identity_w3"
+        ],
+        "active_upper_proofs": [
+          "seed_26093221"
+        ],
+        "empty_proof_conditions": [],
+        "exact_tau0_membership": true,
+        "certified_values_strictly_below_tau0": true,
+        "certified_values_strictly_above_tau0": true,
+        "safe_decimal_subset": {
+          "lower": "0.000000000004215344",
+          "upper": "0.003559616492113458",
+          "lower_included": true,
+          "upper_included": false,
+          "nonempty": true,
+          "rounding": "lower upward, upper downward; upper remains open"
+        },
+        "lower_over_tau0": {
+          "numerator": "21374331876572903777",
+          "denominator": "50706024009129180207775744",
+          "approximate": 4.215343698161907e-07
+        },
+        "upper_over_tau0": {
+          "numerator": "12746114020762578987273567359799742431232",
+          "denominator": "35807548506987622025714954890997148303",
+          "approximate": 355.96164921134584
+        }
+      },
+      "with_class_control_range": {
+        "kind": "finite",
+        "lower": {
+          "numerator": "21374331876572903777",
+          "denominator": "5070602400912917605986812821504",
+          "approximate": 4.2153436981619075e-12
+        },
+        "upper": {
+          "numerator": "379863799237089722969340305322401",
+          "denominator": "106714810451828298260414999260299264",
+          "approximate": 0.0035596164921134587
+        },
+        "lower_included": true,
+        "upper_included": false,
+        "active_lower_roles": [
+          "cap_identity_w3",
+          "cap_control_w3"
+        ],
+        "active_upper_proofs": [
+          "seed_26093221"
+        ],
+        "empty_proof_conditions": [],
+        "exact_tau0_membership": true,
+        "certified_values_strictly_below_tau0": true,
+        "certified_values_strictly_above_tau0": true,
+        "safe_decimal_subset": {
+          "lower": "0.000000000004215344",
+          "upper": "0.003559616492113458",
+          "lower_included": true,
+          "upper_included": false,
+          "nonempty": true,
+          "rounding": "lower upward, upper downward; upper remains open"
+        },
+        "lower_over_tau0": {
+          "numerator": "21374331876572903777",
+          "denominator": "50706024009129180207775744",
+          "approximate": 4.215343698161907e-07
+        },
+        "upper_over_tau0": {
+          "numerator": "12746114020762578987273567359799742431232",
+          "denominator": "35807548506987622025714954890997148303",
+          "approximate": 355.96164921134584
+        }
+      },
+      "exact_ray_at_tau0": {
+        "status": "CERTIFIED_EXPANDED_INFEASIBLE",
+        "strict_pass": true,
+        "expanded_pass": true,
+        "tau": {
+          "numerator": "5902958103587057",
+          "denominator": "590295810358705651712",
+          "float": 1e-05
+        },
+        "row_multiplier_nonzeros": 1450,
+        "combined_column_nonzeros": 4935,
+        "beta": {
+          "numerator": "229096893782758366609092522192131",
+          "denominator": "618970019642690137449562112",
+          "float": 370125.99401019135
+        },
+        "box_maximum": {
+          "numerator": "116917745817535193980886031057048671",
+          "denominator": "316912650057057350374175801344",
+          "float": 368927.3552080839
+        },
+        "separation_gap": {
+          "numerator": "379863799237089722969340305322401",
+          "denominator": "316912650057057350374175801344",
+          "float": 1198.638802107453
+        },
+        "expanded_beta": {
+          "numerator": "7871688789286122837313222798722245971824661",
+          "denominator": "21267647932558653966460912964485513216",
+          "float": 370125.0281294788
+        },
+        "expanded_box_maximum": {
+          "numerator": "7846268176341611654582727093912428481258803",
+          "denominator": "21267647932558653966460912964485513216",
+          "float": 368929.75665305025
+        },
+        "expanded_separation_gap": {
+          "numerator": "12710306472255591365247852404908745282929",
+          "denominator": "10633823966279326983230456482242756608",
+          "float": 1195.2714764285124
+        },
+        "norm_formula_gap": {
+          "numerator": "12710306472255591365247852404908745282929",
+          "denominator": "10633823966279326983230456482242756608",
+          "float": 1195.2714764285124
+        },
+        "row_multiplier_l1": {
+          "numerator": "3479952013887063164571",
+          "denominator": "36028797018963968",
+          "float": 96588.0712602025
+        },
+        "combined_column_l1": {
+          "numerator": "8652117324442954764387",
+          "denominator": "36028797018963968",
+          "float": 240144.49663386936
+        },
+        "independent_widened_endpoint_identity": true
+      },
+      "existing_floating_ray_threshold": 0.0035596164921134587,
+      "existing_diagnostic_is_not_the_exact_endpoint": true
+    }
+  ],
+  "capped_denominator": 6,
+  "certified_negative_denominator": 5,
+  "unchanged_unknown": "seed_26093211"
+}

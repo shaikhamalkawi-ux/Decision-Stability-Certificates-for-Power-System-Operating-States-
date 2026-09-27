@@ -1,0 +1,219 @@
+{
+  "status": "INDEPENDENT_TAU_FIXED_EVIDENCE_PREPARED_PASS",
+  "selected_bindings": 211,
+  "manifest_sha256": "79c39fd85153e05b261ebf64ed7bd9e1041ae2311fcd527035339bab6230c4df",
+  "descriptor_sha256": "94a51babcf2429f5cd28c0c6d95205c72728841e1626ed6396e785fb981e745e",
+  "source_sha256": "e87c56855235cd083dcee07267ea76077e949359684eb10c6a9cc21647c61288",
+  "protocol_sha256": "2c2e5094d5a0baf1e0e7b518348ba05b87f8b517f48dc6a392904149a5339217",
+  "point_roles": [
+    {
+      "role": "cap_identity_w1",
+      "rows": 34681,
+      "columns": 23016,
+      "exact_binary_coordinates": 12096,
+      "mask_sha256": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d",
+      "vector_sha256": "7c534f8691c761815224ac43773259da5a8e1d3eb2aa892dcb64dc46541672db"
+    },
+    {
+      "role": "cap_control_w1",
+      "rows": 34681,
+      "columns": 23016,
+      "exact_binary_coordinates": 12096,
+      "mask_sha256": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d",
+      "vector_sha256": "3315c482b738df85a053ae5ee1b2a8bbfd3e109083a32985a249ef61934a7ff6"
+    },
+    {
+      "role": "energy_identity_w1",
+      "rows": 34680,
+      "columns": 23016,
+      "exact_binary_coordinates": 12096,
+      "mask_sha256": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d",
+      "vector_sha256": "7c534f8691c761815224ac43773259da5a8e1d3eb2aa892dcb64dc46541672db"
+    },
+    {
+      "role": "cap_identity_w2",
+      "rows": 34681,
+      "columns": 23016,
+      "exact_binary_coordinates": 12096,
+      "mask_sha256": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d",
+      "vector_sha256": "26e67eb484a57a566b8e08c120523918adca648b918e29b9431a68ceb81711ee"
+    },
+    {
+      "role": "cap_control_w2",
+      "rows": 34681,
+      "columns": 23016,
+      "exact_binary_coordinates": 12096,
+      "mask_sha256": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d",
+      "vector_sha256": "26ea75595a4d39416d273dabb1ea12fb28f5ea6833f69fc57b2c7a6fd70a398c"
+    },
+    {
+      "role": "energy_identity_w2",
+      "rows": 34680,
+      "columns": 23016,
+      "exact_binary_coordinates": 12096,
+      "mask_sha256": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d",
+      "vector_sha256": "26e67eb484a57a566b8e08c120523918adca648b918e29b9431a68ceb81711ee"
+    },
+    {
+      "role": "cap_identity_w3",
+      "rows": 34681,
+      "columns": 23016,
+      "exact_binary_coordinates": 12096,
+      "mask_sha256": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d",
+      "vector_sha256": "7481a3fe6e2da571da8f8a3db0ba835d90b2f628df11daf4b3fff9f593468093"
+    },
+    {
+      "role": "cap_control_w3",
+      "rows": 34681,
+      "columns": 23016,
+      "exact_binary_coordinates": 12096,
+      "mask_sha256": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d",
+      "vector_sha256": "9e933007e9654736858fe61379211e0e7f565675b628ca5d44ed1f44ae32600f"
+    },
+    {
+      "role": "energy_identity_w3",
+      "rows": 34680,
+      "columns": 23016,
+      "exact_binary_coordinates": 12096,
+      "mask_sha256": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d",
+      "vector_sha256": "7481a3fe6e2da571da8f8a3db0ba835d90b2f628df11daf4b3fff9f593468093"
+    },
+    {
+      "role": "energy_seed_26093200",
+      "rows": 34680,
+      "columns": 23016,
+      "exact_binary_coordinates": 12096,
+      "mask_sha256": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d",
+      "vector_sha256": "d4d2f68f002e8ac37139e8a6fa3add916022418cb42cdcdbff9286f24ca898ca"
+    },
+    {
+      "role": "energy_seed_26093201",
+      "rows": 34680,
+      "columns": 23016,
+      "exact_binary_coordinates": 12096,
+      "mask_sha256": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d",
+      "vector_sha256": "7a6f6f3757c1206ebcf0c03c275022e34f0ea2af0696c1f9c869d1c17d6e3aa3"
+    },
+    {
+      "role": "energy_seed_26093210",
+      "rows": 34680,
+      "columns": 23016,
+      "exact_binary_coordinates": 12096,
+      "mask_sha256": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d",
+      "vector_sha256": "e7fce362ad6bc15813a61cfe0cd5cbb243c98e0796d156b73c443e961f68407c"
+    },
+    {
+      "role": "energy_seed_26093211",
+      "rows": 34680,
+      "columns": 23016,
+      "exact_binary_coordinates": 12096,
+      "mask_sha256": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d",
+      "vector_sha256": "2a7bcf367329f86401011d00e82840fc56dceac33ad6a2f4622e08a7b0c7ee51"
+    },
+    {
+      "role": "energy_seed_26093220",
+      "rows": 34680,
+      "columns": 23016,
+      "exact_binary_coordinates": 12096,
+      "mask_sha256": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d",
+      "vector_sha256": "cb0dd439ff5543e9eb536b3a1f0c033a79df862b6fa145cc9e68e62ef6b7ead0"
+    },
+    {
+      "role": "energy_seed_26093221",
+      "rows": 34680,
+      "columns": 23016,
+      "exact_binary_coordinates": 12096,
+      "mask_sha256": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d",
+      "vector_sha256": "24c67f3140b5c9a9253ef645c9ab7b3c707b40b703519d34588c76ee171500b3"
+    }
+  ],
+  "actual_cap_only_relationships": [
+    {
+      "uncapped": "results/research8h/energy_lp_refinement/january_identity",
+      "parent": "results/research8h/hour_of_day/january_identity",
+      "week": 1,
+      "cap": 23195,
+      "deleted_row": 24264,
+      "retained_rows": 34680,
+      "identical_columns_boxes_and_coefficients": true
+    },
+    {
+      "uncapped": "results/research8h/fresh_january_energy/week_2_identity",
+      "parent": "results/research8h/fresh_january_weeks/targets/week_2_identity",
+      "week": 2,
+      "cap": 26532,
+      "deleted_row": 24264,
+      "retained_rows": 34680,
+      "identical_columns_boxes_and_coefficients": true
+    },
+    {
+      "uncapped": "results/research8h/fresh_january_energy/week_3_identity",
+      "parent": "results/research8h/fresh_january_weeks/targets/week_3_identity",
+      "week": 3,
+      "cap": 48319,
+      "deleted_row": 24264,
+      "retained_rows": 34680,
+      "identical_columns_boxes_and_coefficients": true
+    },
+    {
+      "uncapped": "results/research8h/hour_of_day_uncapped/seed_26093200",
+      "parent": "results/research8h/hour_of_day/seed_26093200",
+      "week": 1,
+      "cap": 23195,
+      "deleted_row": 24264,
+      "retained_rows": 34680,
+      "identical_columns_boxes_and_coefficients": true
+    },
+    {
+      "uncapped": "results/research8h/hour_of_day_uncapped/seed_26093201",
+      "parent": "results/research8h/hour_of_day/seed_26093201",
+      "week": 1,
+      "cap": 23195,
+      "deleted_row": 24264,
+      "retained_rows": 34680,
+      "identical_columns_boxes_and_coefficients": true
+    },
+    {
+      "uncapped": "results/research8h/fresh_january_energy/seed_26093210",
+      "parent": "results/research8h/fresh_january_weeks/targets/seed_26093210",
+      "week": 2,
+      "cap": 26532,
+      "deleted_row": 24264,
+      "retained_rows": 34680,
+      "identical_columns_boxes_and_coefficients": true
+    },
+    {
+      "uncapped": "results/research8h/fresh_january_energy/seed_26093211",
+      "parent": "results/research8h/fresh_january_weeks/targets/seed_26093211",
+      "week": 2,
+      "cap": 26532,
+      "deleted_row": 24264,
+      "retained_rows": 34680,
+      "identical_columns_boxes_and_coefficients": true
+    },
+    {
+      "uncapped": "results/research8h/fresh_january_energy/seed_26093220",
+      "parent": "results/research8h/fresh_january_weeks/targets/seed_26093220",
+      "week": 3,
+      "cap": 48319,
+      "deleted_row": 24264,
+      "retained_rows": 34680,
+      "identical_columns_boxes_and_coefficients": true
+    },
+    {
+      "uncapped": "results/research8h/fresh_january_energy/seed_26093221",
+      "parent": "results/research8h/fresh_january_weeks/targets/seed_26093221",
+      "week": 3,
+      "cap": 48319,
+      "deleted_row": 24264,
+      "retained_rows": 34680,
+      "identical_columns_boxes_and_coefficients": true
+    }
+  ],
+  "five_ray_model_bindings_checked": true,
+  "threshold_evaluations": 0,
+  "ray_or_dual_sensitivity_evaluations": 0,
+  "optimizer_calls": 0,
+  "producer_imports": 0,
+  "elapsed_s": 10.605593899992527
+}
