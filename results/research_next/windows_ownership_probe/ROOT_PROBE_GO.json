@@ -1,0 +1,18 @@
+{
+  "utc": "2026-09-27T14:22:57.582Z",
+  "action": "GO_ONE_HARMLESS_TWO_ARM_WINDOWS_PROBE",
+  "source_sha256": "82745c0c6ec3b772264d754443cc849532a59191793848d9d8ab56990aa152c5",
+  "protocol_sha256": "e3dbb3ebe093a9ec09fd170fa995a60b7e0cf3e96a0cf9ab3ee1352869cffe83",
+  "frozen_batch_sha256": "f7f79ecca154169832c8739d9c17889c5c5993aa460f6d528d6f115c60018371",
+  "parent_review": "Full draft source/protocol and final delta read; captured-source loading, exact owned handles, no breakaway and explicit incomplete cleanup accepted.",
+  "maximum_seconds": 120,
+  "arms": [
+    "shared_job_launcher_then_actual",
+    "separate_job_per_process"
+  ],
+  "scientific_reads_allowed": 0,
+  "backend_imports_allowed": 0,
+  "optimizer_calls_allowed": 0,
+  "no_scientific_resume_authorized": true,
+  "no_retry": true
+}

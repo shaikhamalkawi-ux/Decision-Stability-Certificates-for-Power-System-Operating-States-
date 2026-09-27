@@ -1,0 +1,618 @@
+{
+  "status": "PASS_INDEPENDENT_POSTRUN",
+  "utc": "2026-09-27T13:32:24.856626+00:00",
+  "reviewer_sha256": "ea0e0439bca77a3eb2961e6337343f17a8bccc1d6c201170310a4ce43eab1b70",
+  "elapsed_seconds": 23.47140410001157,
+  "input_bindings": 292,
+  "producer_outputs": 12,
+  "run_files": 10,
+  "all_files_unchanged": true,
+  "inventory_sha256": "17e0c3649d538d82e70c47a5e1183c5e6d4fd48db825343ecfcebe885f3dee92",
+  "completion_sha256": "c5920a87bf20cfdf226b53d4aa89c5998301d27a097caf21275272410c944547",
+  "backend_rows": 98546,
+  "backend_columns": 33937,
+  "backend_coefficient_uses": 505786,
+  "complete_backend_readback": true,
+  "exact_proof": {
+    "eligible_complete_dual": true,
+    "mathematically_separating": true,
+    "old_full_point_replayed": false,
+    "row_support": 24,
+    "state_support": 21,
+    "continuous_support": 19,
+    "original_rows": 69362,
+    "original_columns": 33936,
+    "original_coefficients": 291176,
+    "candidate_margin": [
+      "450876382487823762278891047947239219241",
+      "85070591730234615865843651857942052864"
+    ],
+    "candidate_margin_float": 5.300026405336258,
+    "cut_rhs": [
+      "450876382487823762278891047947239219241",
+      "85070591730234615865843651857942052864"
+    ],
+    "nominee_value": [
+      "0",
+      "1"
+    ],
+    "control_value": [
+      "24219835069594288446557719279817175",
+      "1298074214633706907132624082305024"
+    ],
+    "control_slack": [
+      "1136394728633107525354715642774859161559",
+      "85070591730234615865843651857942052864"
+    ],
+    "canonical_gain": [
+      "0",
+      "1"
+    ],
+    "all_coefficients_and_scalars_exact": true,
+    "nominee_rejected_only": true,
+    "support_rows": [
+      {
+        "joint_row": 80,
+        "world": "identity",
+        "original_row": 80,
+        "family": "aggregate_balance",
+        "hour_0based": 80,
+        "uid": "ALL",
+        "multiplier": [
+          "6004799503160661",
+          "144115188075855872"
+        ]
+      },
+      {
+        "joint_row": 644,
+        "world": "identity",
+        "original_row": 644,
+        "family": "thermal_upper",
+        "hour_0based": 80,
+        "uid": "101_CT_1",
+        "multiplier": [
+          "-6004799503160661",
+          "144115188075855872"
+        ]
+      },
+      {
+        "joint_row": 1648,
+        "world": "identity",
+        "original_row": 1648,
+        "family": "thermal_upper",
+        "hour_0based": 80,
+        "uid": "101_CT_2",
+        "multiplier": [
+          "-6004799503160661",
+          "144115188075855872"
+        ]
+      },
+      {
+        "joint_row": 2652,
+        "world": "identity",
+        "original_row": 2652,
+        "family": "thermal_upper",
+        "hour_0based": 80,
+        "uid": "101_STEAM_3",
+        "multiplier": [
+          "-6004799503160661",
+          "144115188075855872"
+        ]
+      },
+      {
+        "joint_row": 3656,
+        "world": "identity",
+        "original_row": 3656,
+        "family": "thermal_upper",
+        "hour_0based": 80,
+        "uid": "101_STEAM_4",
+        "multiplier": [
+          "-6004799503160661",
+          "144115188075855872"
+        ]
+      },
+      {
+        "joint_row": 4660,
+        "world": "identity",
+        "original_row": 4660,
+        "family": "thermal_upper",
+        "hour_0based": 80,
+        "uid": "102_CT_1",
+        "multiplier": [
+          "-6004799503160661",
+          "144115188075855872"
+        ]
+      },
+      {
+        "joint_row": 5664,
+        "world": "identity",
+        "original_row": 5664,
+        "family": "thermal_upper",
+        "hour_0based": 80,
+        "uid": "102_CT_2",
+        "multiplier": [
+          "-6004799503160661",
+          "144115188075855872"
+        ]
+      },
+      {
+        "joint_row": 6668,
+        "world": "identity",
+        "original_row": 6668,
+        "family": "thermal_upper",
+        "hour_0based": 80,
+        "uid": "102_STEAM_3",
+        "multiplier": [
+          "-6004799503160661",
+          "144115188075855872"
+        ]
+      },
+      {
+        "joint_row": 7672,
+        "world": "identity",
+        "original_row": 7672,
+        "family": "thermal_upper",
+        "hour_0based": 80,
+        "uid": "102_STEAM_4",
+        "multiplier": [
+          "-6004799503160661",
+          "144115188075855872"
+        ]
+      },
+      {
+        "joint_row": 9680,
+        "world": "identity",
+        "original_row": 9680,
+        "family": "thermal_upper",
+        "hour_0based": 80,
+        "uid": "113_CT_1",
+        "multiplier": [
+          "-6004799503160661",
+          "144115188075855872"
+        ]
+      },
+      {
+        "joint_row": 10684,
+        "world": "identity",
+        "original_row": 10684,
+        "family": "thermal_upper",
+        "hour_0based": 80,
+        "uid": "113_CT_2",
+        "multiplier": [
+          "-6004799503160661",
+          "144115188075855872"
+        ]
+      },
+      {
+        "joint_row": 11688,
+        "world": "identity",
+        "original_row": 11688,
+        "family": "thermal_upper",
+        "hour_0based": 80,
+        "uid": "113_CT_3",
+        "multiplier": [
+          "-6004799503160661",
+          "144115188075855872"
+        ]
+      },
+      {
+        "joint_row": 12692,
+        "world": "identity",
+        "original_row": 12692,
+        "family": "thermal_upper",
+        "hour_0based": 80,
+        "uid": "113_CT_4",
+        "multiplier": [
+          "-6004799503160661",
+          "144115188075855872"
+        ]
+      },
+      {
+        "joint_row": 13696,
+        "world": "identity",
+        "original_row": 13696,
+        "family": "thermal_upper",
+        "hour_0based": 80,
+        "uid": "115_STEAM_1",
+        "multiplier": [
+          "-6004799503160661",
+          "144115188075855872"
+        ]
+      },
+      {
+        "joint_row": 15704,
+        "world": "identity",
+        "original_row": 15704,
+        "family": "thermal_upper",
+        "hour_0based": 80,
+        "uid": "115_STEAM_3",
+        "multiplier": [
+          "-6004799503160661",
+          "144115188075855872"
+        ]
+      },
+      {
+        "joint_row": 16708,
+        "world": "identity",
+        "original_row": 16708,
+        "family": "thermal_upper",
+        "hour_0based": 80,
+        "uid": "116_STEAM_1",
+        "multiplier": [
+          "-6004799503160661",
+          "144115188075855872"
+        ]
+      },
+      {
+        "joint_row": 17712,
+        "world": "identity",
+        "original_row": 17712,
+        "family": "thermal_upper",
+        "hour_0based": 80,
+        "uid": "118_CC_1",
+        "multiplier": [
+          "-6004799503160661",
+          "144115188075855872"
+        ]
+      },
+      {
+        "joint_row": 18716,
+        "world": "identity",
+        "original_row": 18716,
+        "family": "thermal_upper",
+        "hour_0based": 80,
+        "uid": "123_STEAM_2",
+        "multiplier": [
+          "-6004799503160661",
+          "144115188075855872"
+        ]
+      },
+      {
+        "joint_row": 19720,
+        "world": "identity",
+        "original_row": 19720,
+        "family": "thermal_upper",
+        "hour_0based": 80,
+        "uid": "123_STEAM_3",
+        "multiplier": [
+          "-6004799503160661",
+          "144115188075855872"
+        ]
+      },
+      {
+        "joint_row": 20724,
+        "world": "identity",
+        "original_row": 20724,
+        "family": "thermal_upper",
+        "hour_0based": 80,
+        "uid": "123_CT_1",
+        "multiplier": [
+          "-6004799503160661",
+          "144115188075855872"
+        ]
+      },
+      {
+        "joint_row": 21728,
+        "world": "identity",
+        "original_row": 21728,
+        "family": "thermal_upper",
+        "hour_0based": 80,
+        "uid": "123_CT_4",
+        "multiplier": [
+          "-6004799503160661",
+          "144115188075855872"
+        ]
+      },
+      {
+        "joint_row": 22732,
+        "world": "identity",
+        "original_row": 22732,
+        "family": "thermal_upper",
+        "hour_0based": 80,
+        "uid": "123_CT_5",
+        "multiplier": [
+          "-6004799503160661",
+          "144115188075855872"
+        ]
+      },
+      {
+        "joint_row": 29231,
+        "world": "identity",
+        "original_row": 29231,
+        "family": "nodal_balance",
+        "hour_0based": 80,
+        "uid": "107",
+        "multiplier": [
+          "-6004799503160661",
+          "144115188075855872"
+        ]
+      },
+      {
+        "joint_row": 29259,
+        "world": "identity",
+        "original_row": 29259,
+        "family": "branch_flow",
+        "hour_0based": 80,
+        "uid": "10",
+        "multiplier": [
+          "-6004799503160661",
+          "144115188075855872"
+        ]
+      }
+    ],
+    "support_family_counts": {
+      "aggregate_balance": 1,
+      "thermal_upper": 21,
+      "nodal_balance": 1,
+      "branch_flow": 1
+    },
+    "support_hours": [
+      80
+    ],
+    "support_worlds": [
+      "identity"
+    ],
+    "state_columns": [
+      {
+        "joint_column": 8808,
+        "state_type": "U",
+        "hour_0based": 80,
+        "uid": "101_CT_1",
+        "coefficient": [
+          "30023997515803305",
+          "36028797018963968"
+        ],
+        "nominee_bit": 0
+      },
+      {
+        "joint_column": 8809,
+        "state_type": "U",
+        "hour_0based": 80,
+        "uid": "101_CT_2",
+        "coefficient": [
+          "30023997515803305",
+          "36028797018963968"
+        ],
+        "nominee_bit": 0
+      },
+      {
+        "joint_column": 8810,
+        "state_type": "U",
+        "hour_0based": 80,
+        "uid": "101_STEAM_3",
+        "coefficient": [
+          "114091190560052559",
+          "36028797018963968"
+        ],
+        "nominee_bit": 0
+      },
+      {
+        "joint_column": 8811,
+        "state_type": "U",
+        "hour_0based": 80,
+        "uid": "101_STEAM_4",
+        "coefficient": [
+          "114091190560052559",
+          "36028797018963968"
+        ],
+        "nominee_bit": 0
+      },
+      {
+        "joint_column": 8812,
+        "state_type": "U",
+        "hour_0based": 80,
+        "uid": "102_CT_1",
+        "coefficient": [
+          "30023997515803305",
+          "36028797018963968"
+        ],
+        "nominee_bit": 0
+      },
+      {
+        "joint_column": 8813,
+        "state_type": "U",
+        "hour_0based": 80,
+        "uid": "102_CT_2",
+        "coefficient": [
+          "30023997515803305",
+          "36028797018963968"
+        ],
+        "nominee_bit": 0
+      },
+      {
+        "joint_column": 8814,
+        "state_type": "U",
+        "hour_0based": 80,
+        "uid": "102_STEAM_3",
+        "coefficient": [
+          "114091190560052559",
+          "36028797018963968"
+        ],
+        "nominee_bit": 0
+      },
+      {
+        "joint_column": 8815,
+        "state_type": "U",
+        "hour_0based": 80,
+        "uid": "102_STEAM_4",
+        "coefficient": [
+          "114091190560052559",
+          "36028797018963968"
+        ],
+        "nominee_bit": 0
+      },
+      {
+        "joint_column": 8817,
+        "state_type": "U",
+        "hour_0based": 80,
+        "uid": "113_CT_1",
+        "coefficient": [
+          "330263972673836355",
+          "144115188075855872"
+        ],
+        "nominee_bit": 0
+      },
+      {
+        "joint_column": 8818,
+        "state_type": "U",
+        "hour_0based": 80,
+        "uid": "113_CT_2",
+        "coefficient": [
+          "330263972673836355",
+          "144115188075855872"
+        ],
+        "nominee_bit": 0
+      },
+      {
+        "joint_column": 8819,
+        "state_type": "U",
+        "hour_0based": 80,
+        "uid": "113_CT_3",
+        "coefficient": [
+          "330263972673836355",
+          "144115188075855872"
+        ],
+        "nominee_bit": 0
+      },
+      {
+        "joint_column": 8820,
+        "state_type": "U",
+        "hour_0based": 80,
+        "uid": "113_CT_4",
+        "coefficient": [
+          "330263972673836355",
+          "144115188075855872"
+        ],
+        "nominee_bit": 0
+      },
+      {
+        "joint_column": 8821,
+        "state_type": "U",
+        "hour_0based": 80,
+        "uid": "115_STEAM_1",
+        "coefficient": [
+          "18014398509481983",
+          "36028797018963968"
+        ],
+        "nominee_bit": 0
+      },
+      {
+        "joint_column": 8823,
+        "state_type": "U",
+        "hour_0based": 80,
+        "uid": "115_STEAM_3",
+        "coefficient": [
+          "930743922989902455",
+          "144115188075855872"
+        ],
+        "nominee_bit": 0
+      },
+      {
+        "joint_column": 8824,
+        "state_type": "U",
+        "hour_0based": 80,
+        "uid": "116_STEAM_1",
+        "coefficient": [
+          "930743922989902455",
+          "144115188075855872"
+        ],
+        "nominee_bit": 0
+      },
+      {
+        "joint_column": 8825,
+        "state_type": "U",
+        "hour_0based": 80,
+        "uid": "118_CC_1",
+        "coefficient": [
+          "2131703823622034655",
+          "144115188075855872"
+        ],
+        "nominee_bit": 0
+      },
+      {
+        "joint_column": 8826,
+        "state_type": "U",
+        "hour_0based": 80,
+        "uid": "123_STEAM_2",
+        "coefficient": [
+          "930743922989902455",
+          "144115188075855872"
+        ],
+        "nominee_bit": 0
+      },
+      {
+        "joint_column": 8827,
+        "state_type": "U",
+        "hour_0based": 80,
+        "uid": "123_STEAM_3",
+        "coefficient": [
+          "1050839913053115675",
+          "72057594037927936"
+        ],
+        "nominee_bit": 0
+      },
+      {
+        "joint_column": 8828,
+        "state_type": "U",
+        "hour_0based": 80,
+        "uid": "123_CT_1",
+        "coefficient": [
+          "330263972673836355",
+          "144115188075855872"
+        ],
+        "nominee_bit": 0
+      },
+      {
+        "joint_column": 8829,
+        "state_type": "U",
+        "hour_0based": 80,
+        "uid": "123_CT_4",
+        "coefficient": [
+          "330263972673836355",
+          "144115188075855872"
+        ],
+        "nominee_bit": 0
+      },
+      {
+        "joint_column": 8830,
+        "state_type": "U",
+        "hour_0based": 80,
+        "uid": "123_CT_5",
+        "coefficient": [
+          "330263972673836355",
+          "144115188075855872"
+        ],
+        "nominee_bit": 0
+      }
+    ],
+    "state_type_counts": {
+      "U": 21
+    },
+    "state_hours": [
+      80
+    ],
+    "temporal_mechanism_claim": false
+  },
+  "phase1_calls": 1,
+  "solver_seconds": 3.635906200041063,
+  "phase_seconds": 20.919138900004327,
+  "solver_soft_overrun": 0,
+  "phase_soft_overrun": 0,
+  "final_admission": {
+    "accepted_nominee_rejection": true,
+    "status": "EXACT_CUT_REJECTS_FIXED_NOMINEE",
+    "common_verdict": "UNKNOWN",
+    "phase_deadline_met": true
+  },
+  "common_verdict": "UNKNOWN",
+  "no_unrestricted_negative": true,
+  "solver_imports": 0,
+  "producer_imports": 0,
+  "optimizer_calls_by_reviewer": 0,
+  "old_point_membership_replays": 0,
+  "new_multiplier_candidates": 0,
+  "private_logs_read": false,
+  "decoder_reuse": "708c3843425eea494a0561e83a275f7059f22bcd546a036705323d056bcf906f",
+  "process_scope": "Entry records actual Python and parent PID; this mathematical audit does not establish descendant timeout termination.",
+  "note": "The exact signed endpoint proof is independent of numerical optimality or the positive phase-I objective. Completion final admission is authoritative."
+}

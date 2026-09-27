@@ -1,0 +1,43 @@
+{
+  "runtime": {
+    "master": {
+      "python": [
+        3,
+        12,
+        14
+      ],
+      "packages": {
+        "pyscipopt": "6.2.1",
+        "numpy": "2.3.5"
+      }
+    },
+    "redispatch": {
+      "python": [
+        3,
+        12,
+        14
+      ],
+      "packages": {
+        "numpy": "2.3.5",
+        "scipy": "1.18.1",
+        "highspy": "1.12.0"
+      }
+    },
+    "master_executable": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\scip_capability_env01\\Scripts\\python.exe",
+    "LP_executable": "C:\\Users\\gmalkawi\\OneDrive - Higher Colleges of Technology\\Documents 1\\ChatGPT\\3\\.work\\solver_env\\Scripts\\python.exe"
+  },
+  "phase_seconds": 2400.0,
+  "rounds": 8,
+  "maximum_optimizer_calls": 24,
+  "limits": {
+    "master": 120.0,
+    "recourse": 60.0,
+    "phase1": 60.0,
+    "transport_only": 0.0
+  },
+  "closure_margin": 5.0,
+  "initial_master_inherited_without_reassembly": true,
+  "scientific_cut_evaluations": 0,
+  "old_witness_replays": 0,
+  "helper_rebinding": "new PRE plus unique worker RUN/PRIVATE only"
+}

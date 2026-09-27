@@ -1,0 +1,54 @@
+{
+  "utc": "2026-09-27T13:44:17.218874+00:00",
+  "source_sha256": "7db2f213addb4c2255f263688c6e7183da116214b9112eaba498d1cb2025b48e",
+  "inputs": [
+    {
+      "path": "results/research_next/auer_execution/outcomes.json",
+      "sha256": "40dbf5db70cfc96f9397e1212941e153ab53ec6672e408efb4d35ed0cf96f0b3",
+      "bytes": 7594
+    },
+    {
+      "path": "results/research_next/auer_execution/completion.json",
+      "sha256": "4db94155b74e24d27036689be5fb387ca9e05264805e046e5f7572c9ef484e9c",
+      "bytes": 405
+    },
+    {
+      "path": "results/research_next/auer_projection_preflight/INDEPENDENT_EXECUTION_RESULT_REVIEW.json",
+      "sha256": "faa6b7e8a1a9804349a03c552190ca04cabf7483bbbd055421451db477204e44",
+      "bytes": 23815
+    },
+    {
+      "path": "results/research_next/whole_day_observation_preflight/run01/outcomes.json",
+      "sha256": "094a603e382a2f4d4b0fd6dd38f2a889ac664e46fea16389d3b226e0339f0bce",
+      "bytes": 16320
+    },
+    {
+      "path": "results/research_next/whole_day_observation_preflight/run01/completion.json",
+      "sha256": "716683064c992b12b600edf91dea3a42131b9d6241e7b1e5e5d742bb30dfcb8b",
+      "bytes": 1754
+    },
+    {
+      "path": "results/research_next/whole_day_observation_preflight/INDEPENDENT_RESULT_REVIEW.json",
+      "sha256": "67ec0ae2a75e5c1b239143b5f63f3bca317f4d6f2ec2e0ac4e1b30143a3a441d",
+      "bytes": 44738
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "results/research_next/observation_case_index/census.json",
+      "bytes": 908,
+      "sha256": "81f4cf8da2d26192ec8e93af81462e6d4c959ac55bbd8075cbe3ad9e8634799a"
+    },
+    {
+      "path": "results/research_next/observation_case_index/comparisons.csv",
+      "bytes": 6106,
+      "sha256": "61a500855020711e93e7b414973e5ce9d21ed9fa927524b6987cba1bc52681a5"
+    },
+    {
+      "path": "results/research_next/observation_case_index/invocation_index.json",
+      "bytes": 18024,
+      "sha256": "526362e959f34b5f0f69d8632b8c4410b4a824d58f66931271286c83c5767834"
+    }
+  ],
+  "meaning": "Machine-readable navigation and denominator preservation only; historical outcomes unchanged"
+}

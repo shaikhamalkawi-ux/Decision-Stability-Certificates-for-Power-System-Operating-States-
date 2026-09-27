@@ -1,0 +1,32 @@
+{
+  "status": "PASS_INVENTED_STALE_CACHE_CONTROL",
+  "source_sha256": "8a1774b6ab342abf60e2b21f673f56905cc07d66c5eb283ce350703c0976e625",
+  "control_source_sha256": "9021cc53ce447e5a1adb841705fa5d060179b07131e901adcd6cf5063812e5c8",
+  "preserved_source_sha256": "c8d79c7e477f1d8f8ae9f3f41193a936cdbf869177199e4dbf866878554618b6",
+  "mathematical_reconstruct_ast_unchanged": true,
+  "legacy_loader_read_cached_marker": true,
+  "verified_loader_read_source_marker": true,
+  "wrong_source_digest_rejected_before_module_execution": true,
+  "source_and_fixture_bytes_unchanged": true,
+  "scientific_files_read": 0,
+  "scientific_replays": 0,
+  "optimizer_calls": 0,
+  "scope": "One invented source/cache substitution plus digest rejection; no scientific certificate or decoder executed.",
+  "fixtures": [
+    {
+      "path": ".work/portable_state_cut_invented_control01/invented_decoder.py",
+      "sha256": "6ef841c2b7bd7d8dbd2242032c5e5b996c7902c271ba505edc48f4dac6049504",
+      "bytes": 18
+    },
+    {
+      "path": ".work/portable_state_cut_invented_control01/invented_alternate.py",
+      "sha256": "7f8b752f782ef1e424f5fb1e3bd5d4d696f390528ed63e1aa660780385213e9b",
+      "bytes": 18
+    },
+    {
+      "path": ".work/portable_state_cut_invented_control01/__pycache__/invented_decoder.cpython-312.pyc",
+      "sha256": "b076b6800d927b08942b942fd774f488bcf8702d99c45bf3291d671baf306069",
+      "bytes": 244
+    }
+  ]
+}

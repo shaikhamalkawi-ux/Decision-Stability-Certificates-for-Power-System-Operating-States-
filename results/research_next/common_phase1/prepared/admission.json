@@ -1,0 +1,57 @@
+{
+  "original_rows": 69362,
+  "original_columns": 33936,
+  "original_coefficients": 291176,
+  "full_original_bits": 12096,
+  "phase_rows": 98546,
+  "phase_columns": 33937,
+  "phase_coefficients": 505786,
+  "finite_original_boxes": true,
+  "original_intervals_ordered": true,
+  "caps": [
+    {
+      "world": "identity",
+      "joint_row": 24264,
+      "source_row": 24264,
+      "coefficient_count": 3864,
+      "original_upper_hex": "0x1.6a6c000000000p+14",
+      "expanded_upper": {
+        "exact": [
+          "13691911327173135695046897",
+          "590295810358705651712"
+        ],
+        "binary64_hex": "0x1.6a6c00029f16bp+14",
+        "rounding_error": [
+          "-149121265",
+          "590295810358705651712"
+        ]
+      }
+    },
+    {
+      "world": "days_321",
+      "joint_row": 58945,
+      "source_row": 24264,
+      "coefficient_count": 3864,
+      "original_upper_hex": "0x1.6a6c000000000p+14",
+      "expanded_upper": {
+        "exact": [
+          "13691911327173135695046897",
+          "590295810358705651712"
+        ],
+        "binary64_hex": "0x1.6a6c00029f16bp+14",
+        "rounding_error": [
+          "-149121265",
+          "590295810358705651712"
+        ]
+      }
+    }
+  ],
+  "uniform_tau": [
+    "5902958103587057",
+    "590295810358705651712"
+  ],
+  "binary_tau": 0,
+  "new_nominees": 0,
+  "multiplier_evaluations": 0,
+  "control_evaluations": 0
+}

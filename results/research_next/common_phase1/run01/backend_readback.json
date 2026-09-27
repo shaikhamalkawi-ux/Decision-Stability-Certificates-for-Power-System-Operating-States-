@@ -1,0 +1,21 @@
+{
+  "rows": 98546,
+  "columns": 33937,
+  "coefficient_uses": 505786,
+  "all_numeric_coefficients_endpoints_boxes_objective_verified": true,
+  "phase_model_sha256": "23c455179fa51153b921a101633193ccf25ed0559345ed7008c1fe0508e01b23",
+  "readback_sha256": "23bf398196cf9b1f9e0a1d6773fd3515cd013e95a57a6f96518868f2da6dbdfd",
+  "options": {
+    "time_limit": 60.0,
+    "threads": 1,
+    "random_seed": 0,
+    "presolve": "on",
+    "solver": "simplex"
+  },
+  "array_materializations": {
+    "start": 1,
+    "indices": 1,
+    "values": 1
+  },
+  "optimizer_calls": 0
+}

@@ -1,0 +1,15 @@
+{
+  "utc": "2026-09-27T14:23:17.382669+00:00",
+  "pid": 57028,
+  "parent_pid": 30548,
+  "source_sha256": "82745c0c6ec3b772264d754443cc849532a59191793848d9d8ab56990aa152c5",
+  "protocol_sha256": "e3dbb3ebe093a9ec09fd170fa995a60b7e0cf3e96a0cf9ab3ee1352869cffe83",
+  "frozen_class_sha256": "f7f79ecca154169832c8739d9c17889c5c5993aa460f6d528d6f115c60018371",
+  "arms": [
+    "shared_job_launcher_then_actual",
+    "separate_job_per_process"
+  ],
+  "phase_seconds": 120.0,
+  "scientific_reads": 0,
+  "optimizer_calls": 0
+}

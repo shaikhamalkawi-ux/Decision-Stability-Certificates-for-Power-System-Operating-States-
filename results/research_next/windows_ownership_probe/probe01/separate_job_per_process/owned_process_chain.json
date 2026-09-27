@@ -1,0 +1,27 @@
+{
+  "launcher_pid": 37504,
+  "actual_pid": 85140,
+  "actual_parent_pid": 37504,
+  "processes": [
+    {
+      "role": "launcher",
+      "pid": 37504,
+      "creation_filetime": 134349925976964737,
+      "any_job_before": {
+        "api_succeeded": true,
+        "win32_last_error": 0,
+        "in_job": true
+      }
+    },
+    {
+      "role": "actual_python",
+      "pid": 85140,
+      "creation_filetime": 134349925977324570,
+      "any_job_before": {
+        "api_succeeded": true,
+        "win32_last_error": 0,
+        "in_job": true
+      }
+    }
+  ]
+}

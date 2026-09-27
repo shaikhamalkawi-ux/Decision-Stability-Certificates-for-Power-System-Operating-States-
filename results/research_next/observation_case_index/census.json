@@ -1,0 +1,35 @@
+{
+  "families": [
+    {
+      "family": "HOD",
+      "invocations": 15,
+      "comparisons": 12,
+      "roles": {
+        "target": 6,
+        "positive_control": 3,
+        "identity_repeat": 3
+      },
+      "target_primary_equal": 0,
+      "target_primary_plus_hindex_equal": null,
+      "optimizer_calls_replayed": 0
+    },
+    {
+      "family": "WHOLE_DAY",
+      "invocations": 21,
+      "comparisons": 18,
+      "roles": {
+        "target": 15,
+        "identity_repeat": 3
+      },
+      "target_primary_equal": 5,
+      "target_primary_plus_hindex_equal": 3,
+      "optimizer_calls_replayed": 0
+    }
+  ],
+  "source_comparisons": 30,
+  "source_invocations": 36,
+  "stage_uc_calls": 0,
+  "new_optimizer_calls": 0,
+  "new_observation_comparisons": 0,
+  "scope": "Index of previously independently checked records, not new comparison or cross-platform replication"
+}

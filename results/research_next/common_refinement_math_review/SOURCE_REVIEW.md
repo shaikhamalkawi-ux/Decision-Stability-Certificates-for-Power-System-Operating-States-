@@ -1,0 +1,19 @@
+# Independent source review: closed seed-only mathematical checker
+
+**SOURCE_REVIEW_PASS for the explicitly gated seed-only closure.** Reviewer: `/root/find_deposit/gb_docs`, 27 September 2026. No material blocker was found for that fixed scope. This is source review, not a mathematical replay result or execution authorization.
+
+Final reviewed source: `src/researchnext_common_refinement_math_review.py`, SHA256 `84929d1f73feabf8425c55ca0e5ec955fd1fa129f75b78a9fc7ed0852bac7d26`.
+
+The reviewer read the full earlier source, SHA256 `d4629b26de7615bb1995615c53baf570bede0299327404bb8c72a6878be646ee`, the producer protocol and relevant producer/helper output-schema definitions, then inspected the complete additive diff to the final source. The earlier source is preserved at `source_before_seed_only_closure.py`. The exact-cut, endpoint-projection/cancellation, master-admission, nomination and full-point functions are unchanged in that text diff.
+
+The independent signed-row reconstruction has the correct endpoint signs, complete exact coefficient accumulation, continuous-box support, and both tau norm losses. Sparse omission is restricted to exact zeros. The anchor comparison checks the complete inherited multiplier/residual vectors and exact scalar identities. The descriptive U/Y/Z and P/theta census uses the reconstructed nonzero support and does not change the cuts. The mathematical formulas were assessed from source only; no scientific values were evaluated.
+
+The final delta binds an externally supplied SHA256 for the parent's `producer_output_inventory.csv`, checks its 688 unique confined payload descriptors, requires its run subset to cover the complete closed run snapshot, and rechecks the CSV and all declared payload bindings at closure. It also compares the saved initial duplicate set against the inherited complete state vector and its independently reconstructed digest. These are requirements implemented by the checker, not claims that this source reviewer replayed those bindings.
+
+Scientific CLI execution now requires `--seed-only-closure`. Successful admission additionally requires the full 336-seed family, the identity/hour80 anchor, absence of the specified optimizer/readback/raw-vector/nomination/phase-proof artifacts, exactly one unresolved first-master record, no mathematical positive, and final UNKNOWN. The broader trajectory path cannot be admitted under this gate. Its future use remains disabled for admission and unapproved; it needs a separate source gate.
+
+The earlier full-path review identified missing-dependent-file hazards after interrupted sequential writes: a raw master vector can precede its admission JSON, a recourse candidate can precede projected world vectors and exact checks, and a full phase proof can precede its compact cut. Those findings remain limitations of the unapproved future full path. They do not affect the declared closure with no saved master vector. The separate backend/encoding/lifecycle gate remains explicitly required; absence of a completed backend readback is not itself proof that no backend code ever began.
+
+The existing invented receipt `INVENTED_CONTROLS.json`, SHA256 `148e004d630412297cbb1ad7025e93ea43d035c4e8a132da489003a097016e5e`, records five groups passing on **d4629b26**, with zero scientific inputs, replays, optimizer, backend, producer and helper imports. This reviewer read and hashed that receipt but did not execute its tests. It is not a test-execution claim for the later delta or final source.
+
+No checker, producer or scientific helper was imported or executed during this review. No coefficient, point, cut, bound or nomination replay was performed; no solver was called. No existing source or evidence file was changed. This new memo is the only output written by the final source-review task.

@@ -1,0 +1,10 @@
+{
+  "producer_imports": 0,
+  "scientific_evaluations": 0,
+  "optimizer_calls": 0,
+  "initial_source_sha256": "aa77e715e0c5305064f8702a05708b9e2aaa74b0889bdca7f1f4c8b5df935287",
+  "root_expression": "parents[4]",
+  "required_root_expression": "parents[3]",
+  "status": "REVIEWER_ONLY_PATH_FAILURE",
+  "exception": "FileNotFoundError before first source/input hash"
+}

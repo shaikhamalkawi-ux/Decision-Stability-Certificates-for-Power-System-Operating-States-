@@ -1,0 +1,126 @@
+{
+  "arm": "separate_job_per_process",
+  "assignment_attempts": [
+    {
+      "order": 1,
+      "role": "launcher",
+      "pid": 37504,
+      "creation_filetime": 134349925976964737,
+      "job_index": 0,
+      "before_any": {
+        "api_succeeded": true,
+        "win32_last_error": 0,
+        "in_job": true
+      },
+      "before_selected": {
+        "api_succeeded": true,
+        "win32_last_error": 0,
+        "in_job": false
+      },
+      "assignment_succeeded": true,
+      "win32_last_error": 0,
+      "after_any": {
+        "api_succeeded": true,
+        "win32_last_error": 0,
+        "in_job": true
+      },
+      "after_selected": {
+        "api_succeeded": true,
+        "win32_last_error": 0,
+        "in_job": true
+      }
+    },
+    {
+      "order": 2,
+      "role": "actual_python",
+      "pid": 85140,
+      "creation_filetime": 134349925977324570,
+      "job_index": 1,
+      "before_any": {
+        "api_succeeded": true,
+        "win32_last_error": 0,
+        "in_job": true
+      },
+      "before_selected": {
+        "api_succeeded": true,
+        "win32_last_error": 0,
+        "in_job": false
+      },
+      "assignment_succeeded": true,
+      "win32_last_error": 0,
+      "after_any": {
+        "api_succeeded": true,
+        "win32_last_error": 0,
+        "in_job": true
+      },
+      "after_selected": {
+        "api_succeeded": true,
+        "win32_last_error": 0,
+        "in_job": true
+      }
+    }
+  ],
+  "processes": [
+    {
+      "role": "launcher",
+      "pid": 37504,
+      "creation_filetime": 134349925976964737,
+      "any_job_before": {
+        "api_succeeded": true,
+        "win32_last_error": 0,
+        "in_job": true
+      }
+    },
+    {
+      "role": "actual_python",
+      "pid": 85140,
+      "creation_filetime": 134349925977324570,
+      "any_job_before": {
+        "api_succeeded": true,
+        "win32_last_error": 0,
+        "in_job": true
+      }
+    }
+  ],
+  "scientific_reads": 0,
+  "backend_imports": 0,
+  "optimizer_calls": 0,
+  "status": "PASS_HARMLESS_ASSIGNMENT_AND_CLEANUP",
+  "assignments_passed": true,
+  "launcher_exit_code": 73,
+  "cleanup": [
+    {
+      "action": "TerminateJobObject",
+      "job_index": 1,
+      "succeeded": true,
+      "win32_last_error": 0
+    },
+    {
+      "action": "TerminateJobObject",
+      "job_index": 0,
+      "succeeded": true,
+      "win32_last_error": 0
+    },
+    {
+      "action": "reap",
+      "pid": 85140,
+      "wait_result": 0,
+      "reaped": true,
+      "exit_code": 73
+    },
+    {
+      "action": "reap",
+      "pid": 37504,
+      "wait_result": 0,
+      "reaped": true,
+      "exit_code": 73
+    }
+  ],
+  "captured_process_count": 2,
+  "all_captured_handles_reaped": true,
+  "child_closure_unverified_without_handles": false,
+  "unobserved_child_selfexit_required": false,
+  "elapsed_seconds": 0.27205500000854954,
+  "no_outer_job_reconfiguration": true,
+  "no_breakaway_flags": true
+}

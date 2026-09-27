@@ -1,0 +1,12 @@
+{
+  "utc": "2026-09-27T13:26:00.112Z",
+  "decision": "GO_ONE_FROZEN_PHASE1_ATTEMPT",
+  "source_sha256": "8af88d286e85f5807ab0bc11cc2450d10596f667e62f4b45c5279c8ebbc2eacb",
+  "protocol_sha256": "6617c67b1c93339487a41c306217c8770142665b9e35e33f23a09225f1e00583",
+  "freeze_sha256": "9d2a0768eb785277d9b8ddf04483e0e83ed97ba628fff23e2a32b146649e1496",
+  "independent_prepared_sha256": "989c84f8e1ede00370d406f811f1ed6123cf3efb3a62615815ddf5f35b38f74d",
+  "parent_review": "Full source324lines and protocol/theory read. Independent all-endpoint/coefficient/box/encoding gate PASS read and accepted. No mathematical or scope blocker.",
+  "owner": "/root/temporal_checker",
+  "scope": "One60s HiGHS min-s LP,180s phase,65s call-start guard; one exact signed endpoint multiplier recipe and unrounded control only. No retry, ray, new nominee or next master. Observe actual Python PID/owned process chain before any termination. Final completion authoritative; independent postrun before publication.",
+  "common_verdict": "UNKNOWN"
+}

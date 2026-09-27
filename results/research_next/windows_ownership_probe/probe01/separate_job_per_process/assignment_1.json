@@ -1,0 +1,29 @@
+{
+  "order": 1,
+  "role": "launcher",
+  "pid": 37504,
+  "creation_filetime": 134349925976964737,
+  "job_index": 0,
+  "before_any": {
+    "api_succeeded": true,
+    "win32_last_error": 0,
+    "in_job": true
+  },
+  "before_selected": {
+    "api_succeeded": true,
+    "win32_last_error": 0,
+    "in_job": false
+  },
+  "assignment_succeeded": true,
+  "win32_last_error": 0,
+  "after_any": {
+    "api_succeeded": true,
+    "win32_last_error": 0,
+    "in_job": true
+  },
+  "after_selected": {
+    "api_succeeded": true,
+    "win32_last_error": 0,
+    "in_job": true
+  }
+}

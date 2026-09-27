@@ -1,0 +1,39 @@
+# Independent review of the Cycle10 working evidence note
+
+27 September 2026. Reviewed the complete `INFORMATION_TO_DECISIONS_EVIDENCE_NOTE_DRAFT.md`, SHA256 **`955c7d2195e98d40f39a478310076a706033bc81f78cd6f5323d60ff23e24a24`**. This is an editorial/scientific claim review for release as a **working note**, not journal-readiness approval. No old proof, optimization, clustering, physical assembly or literature search was repeated. Reference metadata already rechecked by the parent was inherited, not independently revalidated online.
+
+**Disposition: two material scope clarifications and a short notation/copyediting pass are needed before release.** The reported outcomes, finite denominators, no-optimizer batch closure and limited contribution otherwise agree with the closed evidence.
+
+## Necessary scope corrections
+
+1. Section2's “supported17-signal projection” understates the complete input projection. `AUER_PROJECTION_PROTOCOL.md` specifies **24 nodal-demand signals, 11 utility PV/wind profiles and 6 hydro inflows**. Seventeen counts the named signal generators, not all projected signals. State those roles explicitly. At the same first use, define the raw107-coordinate package as **41 lower bounds +41 upper bounds +1 independently archived aggregate net value +24 nodal values**. The supported projection does not preserve every physical constraint; this distinction is central to the observer claim.
+2. Section4's “unchanged joint continuous relaxation has an exact feasible witness” must identify the **same tau-expanded joint continuous relaxation**. The inherited point is an exact membership result for the expanded encoding, not established strict nominal feasibility. The subsequent Farkas impossibility statement must refer to that same expanded relaxation.
+
+## Notation and reproducible interpretation
+
+- Define `A=[A_B A_C]` before `q=A^T d`; define `q_B`, `q_C` and index meanings before or at their first displayed use. Define Hindex as the complete chronological index output returned by the pinned preprocessing. The coefficient/endpoint expansion, finite continuous support, both L1 losses and absence of an extra binary/derived-row tau in Eq.(1) are correct.
+- For the illustrative regret formula, specify that z ranges over the common admissible binary action space, `C_i(z)=+infinity` when recourse is infeasible, and `C_i*=min_z C_i(z)`. This is a conceptual uncapped fossil-output criterion, not the OR-LIB monetary-cost quantity or a computed regret result.
+- Identify “branch10” as the **zero-based filtered branch index10, upstream A11**; the source assessment distinguishes those identifiers. Do not imply upstream UID10.
+- Explain that each observation family has three **initial identity reference calls**, in addition to its listed comparison roles. This accounts for 36 calls versus 30 comparisons. The inherited term “positive control” does not mean observation equality; those three HOD controls are DISTINCT.
+- Make the **declared expanded native models** explicit in the abstract's OR-LIB optimum-cost claim and the interval sentence. The existing final limitations already deny strict nominal optimality; stating the positive claim's model directly avoids relying on a later disclaimer.
+- Prefer including the actual preprocessing setting (TSAM2.3.9, R=3, 24-hour periods), or a direct evidence link carrying it, beside the version-bound observer definition. This is a working-note completeness improvement, not a new requirement to rerun the author pipeline.
+
+## Claims and cross-references that pass
+
+- The abstract separates equal observations, particular-policy failures, common-action feasibility and separately informed cost differences. It does not claim general novelty, an information lower bound, field validation or regret.
+- Table1's 15/21 invocation and 6/15 target denominators, HOD0/6 primary equality, whole-day5/15 primary and3/15 full-Hindex equality match the independently reviewed case index. All adverse targets and repeats remain visible. The first-week identity/day321 pair is properly selected from the stronger set. Same-system, sequential-family and author's-reference limitations are retained.
+- Individual identity/repaired-day321 expanded witnesses, approximately22,964.941240/23,024.941240MWh and the exact60MWh local increment match the closed readout scope. Neither is labeled an optimum. Opposite known-schedule failures do not imply empty common-feasibility intersection.
+- The initial phase-I cut is correctly identified as a one-hour static network obstruction:24 source rows,21 U coefficients and19 continuous residuals at zero-based hour80. The positive proof margin is appropriately called weighted, not MWh. The note does not claim minimum support or an intertemporal/cap mechanism.
+- The sole seeded batch is correctly closed as an infrastructure failure before the first optimizer. All336 original-cut proofs and requested numerical encodings have separate independent closure; no actual backend, new nominee or adaptive cut exists. Producer97.2533605s, mathematical review10.1994726s and encoding/lifecycle review4.8754401s match their closed receipts. The future-tense/protocol description is acceptable alongside the explicit actual0-call outcome; it is not a claim that eight rounds ran.
+- The native OR-LIB interval `[9972.898506,63039.576470]`, original two-target-times-two-service denominator and post-hoc one-case fidelity scope match the closed native-expanded reverse readout. No regret, fossil-MWh, strict nominal, expanded-set equality or independent-transmission-network claim is made. The separate nominal identity reconstruction failed during construction; the note does not claim a full nominal witness.
+- The portable-folder run's2.4184489s checker time and same-host/no-optimizer scope match `portable_phase1_certificate_development/FINAL_READOUT.md`. This is packaging verification of an existing matrix certificate, not a second-machine replication or fresh scientific result.
+- Table1 is called out before its appearance. Eq.(1) is numbered and explained and has its explicit callout. No figure is included, so there is no missing figure callout. References first occur in the order **[1],[2],[3],[4],[5]**, then reuse [2,3]; all five listed references are cited. No uncited table, equation or reference was found.
+- The45-record reading ledger and39/6 distinction are retained without claiming45 complete readings. Bahl/VIPR bibliographic metadata were taken from the parent's already grounded audit, with no extra paper-count claim.
+
+## Copyediting and release boundary
+
+Numerous missing spaces join ordinary words and numerals: for example `of15`, `native48-hour`, `original107-coordinate`, `shares12,096`, `nominal23,195MWh`, `from23`, `in2.4184489seconds`, `UnitCommitment.jl0.4.0`, `revision4f...`, `interval[...]` and `The45-work`. Correct these systematically while preserving code tokens, hashes, mathematical symbols and numeric values. No unrelated pasted instruction, abandoned draft fragment or unexplained extra experimental result was found.
+
+The final availability paragraph is deliberately still a draft instruction. Actual commit and verified delivery links are known pending parent edits, not forgotten evidence. Fill that paragraph before public working-note release, without inventing a remote hash or a new DOI. The title and opening accurately identify a working note and preserve the frozen manuscript. After the corrections and a bounded final-delta read, the note can be released in that stated scope; this review supplies no journal-readiness judgment.
+
+Grounding consisted of the already closed observation case index/projection/whole-day protocols, common phase-I readout, day321 repair readout, native-expanded reverse and nominal-identity readouts, portable-certificate readout, and the two just-closed seed mathematical/encoding reviews. No numerical claim was promoted beyond those records.

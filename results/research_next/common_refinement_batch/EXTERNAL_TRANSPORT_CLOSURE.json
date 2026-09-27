@@ -1,0 +1,27 @@
+{
+  "utc": "2026-09-27T14:15:58.072412+00:00",
+  "status": "PASS_EXTERNAL_TRUSTED_TRANSPORT_REHASH",
+  "checks": [
+    {
+      "path": "prepared/prepared_freeze.json",
+      "expected_sha256": "7642265df13848db01ad0627381c6e294ddea30569a5dbc2b344e2e952372b85",
+      "actual_sha256": "7642265df13848db01ad0627381c6e294ddea30569a5dbc2b344e2e952372b85",
+      "bytes": 557
+    },
+    {
+      "path": "prepared/input_manifest.json",
+      "expected_sha256": "34311c0d425e453a24781079a007eef2369bb8cbf2e3e75eab13f523498916ef",
+      "actual_sha256": "34311c0d425e453a24781079a007eef2369bb8cbf2e3e75eab13f523498916ef",
+      "bytes": 100796
+    },
+    {
+      "path": "ROOT_EXECUTION_GO.json",
+      "expected_sha256": "e63f49851b1260c63b80a6a9855a4061bde5a87e2aff2aa4826462c02bf2dc2c",
+      "actual_sha256": "e63f49851b1260c63b80a6a9855a4061bde5a87e2aff2aa4826462c02bf2dc2c",
+      "bytes": 1612
+    }
+  ],
+  "not_a_mathematical_replay": true,
+  "controller_session": 88649,
+  "controller_exit_code": 0
+}

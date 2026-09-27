@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "utc": "2026-09-27T13:13:21.459040+00:00",
+  "source_sha256": "8af88d286e85f5807ab0bc11cc2450d10596f667e62f4b45c5279c8ebbc2eacb",
+  "protocol_sha256": "6617c67b1c93339487a41c306217c8770142665b9e35e33f23a09225f1e00583",
+  "checks": [
+    "exact positive nominee separation, signed endpoint overlap, full q and continuous support",
+    "nonseparating/equality-zero and one fixed sign-projection recipe",
+    "unrounded fractional-control consistency hard stop",
+    "inverted intervals and duplicate endpoint metadata rejected",
+    "correct tau components, no binary tau, exact numeric rounding and bit guard"
+  ],
+  "scientific_inputs_read": 0,
+  "optimizer_calls": 0
+}

@@ -1,0 +1,37 @@
+{
+  "stop_reason": "STOPPED_ValueError",
+  "completed_rounds": 0,
+  "new_cut_count": 0,
+  "seed_count": 336,
+  "cuts_with_completed_actual_transport": 0,
+  "total_cut_records": 336,
+  "terminal_cut_numeric_transport": "NOT_ADMITTED",
+  "one_adaptive_trajectory": true,
+  "no_global_infeasibility_claim": true,
+  "all_frozen_bytes_unchanged": true,
+  "error": {
+    "stage": "round_1_master",
+    "error_type": "ValueError",
+    "message": "Assign exact process to owned job"
+  },
+  "ledger": {
+    "worker_launch_attempts": 1,
+    "optimizer_attempt_records": 0,
+    "optimizer_returned": 0,
+    "attempts_cancelled_before_optimizer": 0,
+    "entered_calls_from_return_or_error": 0,
+    "calls": [],
+    "worker_closures": [
+      {
+        "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_refinement_batch\\run01\\round_01\\master\\worker_closed.json",
+        "bytes": 315,
+        "sha256": "3bede654a6aba1d526454d26d249003ee6c8cbac8f870fc14d1492c29b8294e1"
+      }
+    ]
+  },
+  "provisional_until_completion": true,
+  "accepted_common": false,
+  "common_verdict": "UNKNOWN",
+  "phase_deadline_met": true,
+  "admission_monotonic": 280914.9803087
+}

@@ -1,0 +1,69 @@
+--- preserved draft7171e259
++++ revised source
+@@ -3,13 +3,13 @@
+ import argparse
+ from datetime import datetime,timezone
+ import hashlib
+-import importlib.util
+ import json
+ import os
+ from pathlib import Path
+ import subprocess
+ import sys
+ import time
++import types
+ import uuid
+ 
+ sys.dont_write_bytecode=True
+@@ -52,9 +52,9 @@
+     save(path/'self_exit.json',dict(utc=utc(),pid=os.getpid(),elapsed=time.perf_counter()-started,backend_imports=0,optimizer_calls=0))
+ 
+ def load_frozen_class():
+-    need(sha(FROZEN)==FROZEN_SHA,'Frozen ownership source unchanged')
+-    spec=importlib.util.spec_from_file_location('ownership_frozen_source_only',FROZEN);obj=importlib.util.module_from_spec(spec)
+-    sys.modules[spec.name]=obj;spec.loader.exec_module(obj)
++    captured=FROZEN.read_bytes();need(hashlib.sha256(captured).hexdigest()==FROZEN_SHA,'Captured frozen ownership source unchanged')
++    name='ownership_frozen_source_only';obj=types.ModuleType(name);obj.__file__=str(FROZEN)
++    sys.modules[name]=obj;exec(compile(captured,str(FROZEN),'exec'),obj.__dict__)
+     need(no_backend(),'Importing definitions must not import a backend')
+     return obj.OwnedWindowsJob
+ 
+@@ -130,7 +130,11 @@
+                 child.kill();report['unhandshaken_launcher_terminated']=True
+             try:child.wait(timeout=5.);report['launcher_exit_code']=child.returncode
+             except subprocess.TimeoutExpired:report['launcher_reap_failed']=True
+-        report['cleanup']=cleanup;report['all_captured_handles_reaped']=all(x['reaped'] for x in cleanup if x['action']=='reap')
++        report['cleanup']=cleanup
++        report['captured_process_count']=len(handles)
++        report['all_captured_handles_reaped']=bool(handles) and all(x['reaped'] for x in cleanup if x['action']=='reap')
++        report['child_closure_unverified_without_handles']=not handles
++        report['unobserved_child_selfexit_required']=bool(child is not None and not handles)
+         report['elapsed_seconds']=time.perf_counter()-started
+         report['no_outer_job_reconfiguration']=True;report['no_breakaway_flags']=True
+         if report['status']=='ASSIGNMENT_PASSED_HARMLESS_CLEANUP_PENDING' and report['all_captured_handles_reaped']:report['status']='PASS_HARMLESS_ASSIGNMENT_AND_CLEANUP'
+@@ -140,7 +144,8 @@
+     return report
+ 
+ def run(expected_source,expected_protocol):
+-    need(os.name=='nt' and sha(__file__)==expected_source and sha(PROTOCOL)==expected_protocol,'Externally approved probe bytes')
++    pins=[(Path(__file__).resolve(),expected_source),(PROTOCOL,expected_protocol),(FROZEN,FROZEN_SHA)]
++    need(os.name=='nt' and all(hashlib.sha256(p.read_bytes()).hexdigest()==digest for p,digest in pins),'Externally approved probe bytes')
+     need(not RUN.exists() and no_backend(),'One fresh harmless probe');RUN.mkdir(parents=True);started=time.perf_counter();deadline=started+PHASE
+     save(RUN/'started.json',dict(utc=utc(),pid=os.getpid(),parent_pid=os.getppid(),source_sha256=expected_source,protocol_sha256=expected_protocol,
+         frozen_class_sha256=FROZEN_SHA,arms=list(ARMS),phase_seconds=PHASE,scientific_reads=0,optimizer_calls=0))
+@@ -158,8 +163,14 @@
+             need(result['all_captured_handles_reaped'] and not result.get('launcher_reap_failed'),'Stop if owned cleanup is unresolved')
+     finally:
+         need(no_backend(),'No backend imported during capability test')
++        final_bindings=[]
++        for path,expected in pins:
++            actual=sha(path) if path.is_file() else None
++            final_bindings.append(dict(path=str(path),expected_sha256=expected,actual_sha256=actual,unchanged=actual==expected))
++        unchanged=all(x['unchanged'] for x in final_bindings)
+         save(RUN/'completion.json',dict(utc=utc(),arms=results,elapsed_seconds=time.perf_counter()-started,scientific_reads=0,backend_imports=0,optimizer_calls=0,
+-            no_scientific_resume_authorized=True,no_frozen_source_changed=True,original_failure_which_assignment_remains_unrecorded=True))
++            no_scientific_resume_authorized=True,no_frozen_source_changed=unchanged,final_source_bindings=final_bindings,original_failure_which_assignment_remains_unrecorded=True))
++        need(unchanged,'Closing probe/source/protocol/helper pin changed')
+ 
+ if __name__=='__main__':
+     p=argparse.ArgumentParser(description=__doc__);g=p.add_mutually_exclusive_group(required=True);g.add_argument('--run-probe',action='store_true');g.add_argument('--harmless-worker',action='store_true')

@@ -1,0 +1,27 @@
+{
+  "launcher_pid": 17092,
+  "actual_pid": 76328,
+  "actual_parent_pid": 17092,
+  "processes": [
+    {
+      "role": "launcher",
+      "pid": 17092,
+      "creation_filetime": 134349925974446084,
+      "any_job_before": {
+        "api_succeeded": true,
+        "win32_last_error": 0,
+        "in_job": true
+      }
+    },
+    {
+      "role": "actual_python",
+      "pid": 76328,
+      "creation_filetime": 134349925974879367,
+      "any_job_before": {
+        "api_succeeded": true,
+        "win32_last_error": 0,
+        "in_job": true
+      }
+    }
+  ]
+}

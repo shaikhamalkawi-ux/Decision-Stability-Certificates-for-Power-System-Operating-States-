@@ -1,0 +1,394 @@
+{
+  "status": "PASS_SYNTHETIC_ONLY",
+  "groups": [
+    "integer-comparison smallest dyadic scale: signed support, positive/negative/extreme exponents and constant scale",
+    "both coefficient signs, complete zero entries, exact residual support and exhaustive binary implication",
+    "positive endpoint rounding above/below target; no extra step or tolerance",
+    "actual omitted coefficient counterexample; recomputed implication versus strict progress",
+    "constant nonrestricting and contradictory rows remain separate non-insertion dispositions",
+    "explicit seed/refinement modes; optional seed origin and required strict refinement origin",
+    "explicit out-of-box fractional counterexample despite valid/progressing binary transport; no fractional-control inference",
+    "noncontiguous exact maps, expected zero omission, duplicate/unexpected coordinates and finite/upper-infinity gates",
+    "sparse gap/full-dimension zero completion, full origin scope, outside-support actual nonzero rejection and empty constant support",
+    "frozen overflow/underflow/bit/type policy, while finite nonzero subnormal survives",
+    "finite strict original exclusion lost by outward rounding becomes explicit nonprogress, not a rescale",
+    "tampered exact record rejection and independent exhaustive mixed-sign binary implication families"
+  ],
+  "assertions": 122,
+  "enumerated_binary_states": 132,
+  "scientific_inputs_read": 0,
+  "optimizer_calls": 0,
+  "backend_imports": 0,
+  "scientific_cut_evaluations": 0,
+  "selected_invented_records": {
+    "signed_rounding": {
+      "schema": "exact_binary_cut_transport_v1",
+      "coordinate_count": 4,
+      "full_dimension": 4,
+      "require_exclusion": true,
+      "implicit_exact_zeros": {
+        "count": 0,
+        "coordinates": "range(full_dimension) minus explicit coordinates",
+        "source_completeness": "caller must prove every omitted original coefficient exactly zero; helper does not reconstruct original model"
+      },
+      "origin_scope": "complete full_dimension binary state vector",
+      "origin": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "source_rhs": [
+        "1",
+        "7"
+      ],
+      "scale_exponent_2": 0,
+      "scale": [
+        "1",
+        "1"
+      ],
+      "scaled_rhs": [
+        "1",
+        "7"
+      ],
+      "coefficients": [
+        {
+          "coordinate": 0,
+          "source": [
+            "1",
+            "1"
+          ],
+          "scaled": [
+            "1",
+            "1"
+          ],
+          "encoded_hex": "0x1.0000000000000p+0",
+          "error": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "coordinate": 1,
+          "source": [
+            "1",
+            "3"
+          ],
+          "scaled": [
+            "1",
+            "3"
+          ],
+          "encoded_hex": "0x1.5555555555555p-2",
+          "error": [
+            "-1",
+            "54043195528445952"
+          ]
+        },
+        {
+          "coordinate": 2,
+          "source": [
+            "-1",
+            "3"
+          ],
+          "scaled": [
+            "-1",
+            "3"
+          ],
+          "encoded_hex": "-0x1.5555555555555p-2",
+          "error": [
+            "1",
+            "54043195528445952"
+          ]
+        },
+        {
+          "coordinate": 3,
+          "source": [
+            "0",
+            "1"
+          ],
+          "scaled": [
+            "0",
+            "1"
+          ],
+          "encoded_hex": "0x0.0p+0",
+          "error": [
+            "0",
+            "1"
+          ]
+        }
+      ],
+      "residual_box_lower": [
+        "-1",
+        "54043195528445952"
+      ],
+      "requested_endpoint_target": [
+        "54043195528445945",
+        "378302368699121664"
+      ],
+      "lower": {
+        "nearest_hex": "0x1.2492492492492p-3",
+        "nextafter_negative_infinity": true,
+        "encoded_hex": "0x1.2492492492491p-3",
+        "error": [
+          "-13",
+          "756604737398243328"
+        ]
+      },
+      "upper": "positive_infinity",
+      "original_origin_gap": [
+        "1",
+        "7"
+      ],
+      "scaled_origin_gap": [
+        "1",
+        "7"
+      ],
+      "requested_origin_gap": [
+        "5146971002709137",
+        "36028797018963968"
+      ],
+      "constant_row": false,
+      "disposition": "READY_FOR_BACKEND_READBACK",
+      "eligible_for_backend": true,
+      "extra_binary_tau": 0,
+      "alternative_scales": 0,
+      "policy": {
+        "max_rational_bits": 8192,
+        "max_coordinates": 12096,
+        "nonzero_to_zero": "reject",
+        "finite_nonzero_subnormals": "allow",
+        "overflow": "reject",
+        "endpoint_rounding": "nearest_then_at_most_one_downward_nextafter"
+      }
+    },
+    "omission_failure": {
+      "schema": "exact_binary_cut_transport_v1",
+      "status": "REJECTED_ACTUAL_OUTWARD_IMPLICATION",
+      "admitted": false,
+      "require_exclusion": true,
+      "full_dimension": 1,
+      "actual_lower_hex": "0x1.0000000000000p+0",
+      "actual_upper": "positive_infinity",
+      "actual_coefficients": [
+        {
+          "coordinate": 0,
+          "actual_hex": "0x0.0p+0",
+          "omitted": true,
+          "error": [
+            "-1",
+            "1"
+          ]
+        }
+      ],
+      "actual_residual_box_lower": [
+        "-1",
+        "1"
+      ],
+      "actual_outward_lower_limit": [
+        "0",
+        "1"
+      ],
+      "outward_slack": [
+        "-1",
+        "1"
+      ],
+      "outward_valid": false,
+      "original_origin_gap": [
+        "1",
+        "1"
+      ],
+      "actual_origin_gap": [
+        "1",
+        "1"
+      ],
+      "original_strict_exclusion": true,
+      "actual_strict_exclusion": true,
+      "omitted_coordinate_count": 1,
+      "implicit_exact_zero_count": 0,
+      "explicit_backend_zeros_on_implicit_source": [],
+      "extra_binary_tau": 0,
+      "changed_backend_row_repaired": false,
+      "validity_domain": "full declared [0,1]^n box conditional on caller-proved exact source-zero completion; hence exact binary states",
+      "fractional_control_evaluated": false
+    },
+    "out_of_box_transport": {
+      "schema": "exact_binary_cut_transport_v1",
+      "status": "ADMITTED_ACTUAL_BINARY_ROW",
+      "admitted": true,
+      "require_exclusion": true,
+      "full_dimension": 5,
+      "actual_lower_hex": "0x1.0000000000000p+0",
+      "actual_upper": "positive_infinity",
+      "actual_coefficients": [
+        {
+          "coordinate": 0,
+          "actual_hex": "-0x1.0000000000000p+0",
+          "omitted": false,
+          "error": [
+            "-2",
+            "1"
+          ]
+        },
+        {
+          "coordinate": 1,
+          "actual_hex": "0x1.0000000000000p+0",
+          "omitted": false,
+          "error": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "coordinate": 2,
+          "actual_hex": "0x1.0000000000000p+0",
+          "omitted": false,
+          "error": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "coordinate": 3,
+          "actual_hex": "0x1.0000000000000p+0",
+          "omitted": false,
+          "error": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "coordinate": 4,
+          "actual_hex": "0x1.0000000000000p+0",
+          "omitted": false,
+          "error": [
+            "0",
+            "1"
+          ]
+        }
+      ],
+      "actual_residual_box_lower": [
+        "-2",
+        "1"
+      ],
+      "actual_outward_lower_limit": [
+        "1",
+        "1"
+      ],
+      "outward_slack": [
+        "0",
+        "1"
+      ],
+      "outward_valid": true,
+      "original_origin_gap": [
+        "3",
+        "1"
+      ],
+      "actual_origin_gap": [
+        "1",
+        "1"
+      ],
+      "original_strict_exclusion": true,
+      "actual_strict_exclusion": true,
+      "omitted_coordinate_count": 0,
+      "implicit_exact_zero_count": 0,
+      "explicit_backend_zeros_on_implicit_source": [],
+      "extra_binary_tau": 0,
+      "changed_backend_row_repaired": false,
+      "validity_domain": "full declared [0,1]^n box conditional on caller-proved exact source-zero completion; hence exact binary states",
+      "fractional_control_evaluated": false
+    },
+    "nonprogress": {
+      "schema": "exact_binary_cut_transport_v1",
+      "coordinate_count": 1,
+      "full_dimension": 1,
+      "require_exclusion": true,
+      "implicit_exact_zeros": {
+        "count": 0,
+        "coordinates": "range(full_dimension) minus explicit coordinates",
+        "source_completeness": "caller must prove every omitted original coefficient exactly zero; helper does not reconstruct original model"
+      },
+      "origin_scope": "complete full_dimension binary state vector",
+      "origin": [
+        1
+      ],
+      "source_rhs": [
+        "18014398509481985",
+        "18014398509481984"
+      ],
+      "scale_exponent_2": 0,
+      "scale": [
+        "1",
+        "1"
+      ],
+      "scaled_rhs": [
+        "18014398509481985",
+        "18014398509481984"
+      ],
+      "coefficients": [
+        {
+          "coordinate": 0,
+          "source": [
+            "1",
+            "1"
+          ],
+          "scaled": [
+            "1",
+            "1"
+          ],
+          "encoded_hex": "0x1.0000000000000p+0",
+          "error": [
+            "0",
+            "1"
+          ]
+        }
+      ],
+      "residual_box_lower": [
+        "0",
+        "1"
+      ],
+      "requested_endpoint_target": [
+        "18014398509481985",
+        "18014398509481984"
+      ],
+      "lower": {
+        "nearest_hex": "0x1.0000000000000p+0",
+        "nextafter_negative_infinity": false,
+        "encoded_hex": "0x1.0000000000000p+0",
+        "error": [
+          "-1",
+          "18014398509481984"
+        ]
+      },
+      "upper": "positive_infinity",
+      "original_origin_gap": [
+        "1",
+        "18014398509481984"
+      ],
+      "scaled_origin_gap": [
+        "1",
+        "18014398509481984"
+      ],
+      "requested_origin_gap": [
+        "0",
+        "1"
+      ],
+      "constant_row": false,
+      "disposition": "NONPROGRESSING_ENCODING",
+      "eligible_for_backend": false,
+      "extra_binary_tau": 0,
+      "alternative_scales": 0,
+      "policy": {
+        "max_rational_bits": 8192,
+        "max_coordinates": 12096,
+        "nonzero_to_zero": "reject",
+        "finite_nonzero_subnormals": "allow",
+        "overflow": "reject",
+        "endpoint_rounding": "nearest_then_at_most_one_downward_nextafter"
+      }
+    }
+  },
+  "utc": "2026-09-27T13:49:48.999881+00:00",
+  "source_sha256": "286620b092dcf6088f7973c5b3e4569f598d125a20562abe52989e9aaf8af22d",
+  "protocol_sha256": "bf36b2495741888638963a4eda747f213815282da1cbaec96972470d4b945118",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]"
+}

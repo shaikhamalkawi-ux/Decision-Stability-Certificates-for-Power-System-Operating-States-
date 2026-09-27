@@ -1,0 +1,13 @@
+{
+  "common_verdict": "UNKNOWN",
+  "accepted_nominee_rejection": true,
+  "no_unrestricted_negative_claim": true,
+  "model_status": "HighsModelStatus.kOptimal",
+  "run_status": "HighsStatus.kOk",
+  "value_valid": true,
+  "dual_valid": true,
+  "simplex_iterations": 19325,
+  "numerical_phase1_objective": 5.300026405336286,
+  "candidate_status": "VERIFIED_GLOBAL_NECESSARY_CUT_REJECTS_NOMINEE",
+  "provisional_until_completion": true
+}

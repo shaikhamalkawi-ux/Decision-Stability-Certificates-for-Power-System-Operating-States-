@@ -1,0 +1,9 @@
+# Portable phase-I certificate: closed packaging check
+
+The standalone folder contains ten required payloads and one manifest. Its externally published manifest SHA256 is **d67b8c7733b3cdfbf2beef8350be2526fa8ebc7e161eb024481618e02fa02272**. The distribution ZIP has11 members,911,343bytes and SHA256 **eae6f417bb4c6b274e6fcbcbf4bd547f315fe84398151969849284ef3ceb41c4**. Every extracted member byte equals the frozen folder; ZIP CRC/readback passed.
+
+A single Python3.12.14 standard-library run from a fresh copied folder used -I -S, returned exit0 and PASS_EXACT_FIXED_STATE_REJECTION, and took2.4184488999890164seconds inside the checker (tool wall3.4815082seconds). It checked69,362 original rows/33,936 columns/12,096 exact binary coordinates and reproduced the existing weighted positive margin450876382487823762278891047947239219241/85070591730234615865843651857942052864. It performed zero optimization. Scratch payload hashes were checked unchanged afterward.
+
+The math/source reviewf719241293105a5e6c4a0ee5b9b82bc524d3c9a51c84af32d80ba45160aeb9bf and separate parent loader review61bf3d28f8be7a4302f7536b6a6b5617b8c279fb02c650c18ddbd8b00a3e5ae4 document the division of authorship. The stale bytecode-loader defect and earlier wrong toy expectation are preserved additively. No archived scientific result was changed by either development correction.
+
+This is a same-host portability smoke test of an already admitted one-schedule matrix certificate. It is not second-machine replication, a new scientific discovery, proof that no common schedule exists, physical-model reconstruction, or a new solver/certificate method. The declared exact expansion remains Fraction.from_float(1e-5). Runtime/standard-library I/O is not an instrumented external-access audit; the bundle has no external evidence dependency under its intended command.

@@ -1,0 +1,35 @@
+{
+  "status": "PASS_EXACT_FIXED_STATE_REJECTION",
+  "manifest_sha256": "d67b8c7733b3cdfbf2beef8350be2526fa8ebc7e161eb024481618e02fa02272",
+  "rows": 69362,
+  "columns": 33936,
+  "binary_coordinates": 12096,
+  "exact_margin": [
+    "450876382487823762278891047947239219241",
+    "85070591730234615865843651857942052864"
+  ],
+  "tau": [
+    "5902958103587057",
+    "590295810358705651712"
+  ],
+  "solver_calls": 0,
+  "external_paths_read": 0,
+  "elapsed_seconds": 2.4184488999890164,
+  "exec_wall_seconds": 3.4815082,
+  "exit_code": 0,
+  "command": [
+    "python",
+    "-I",
+    "-S",
+    "verify.py",
+    "--bundle",
+    ".",
+    "--manifest-sha256",
+    "d67b8c7733b3cdfbf2beef8350be2526fa8ebc7e161eb024481618e02fa02272"
+  ],
+  "same_host_only": true,
+  "scratch_layout": ".work/portable_state_cut_smoke01/certificate",
+  "not_second_machine_replication": true,
+  "source_sha256": "8a1774b6ab342abf60e2b21f673f56905cc07d66c5eb283ce350703c0976e625",
+  "source_review_sha256": "f719241293105a5e6c4a0ee5b9b82bc524d3c9a51c84af32d80ba45160aeb9bf"
+}

@@ -1,0 +1,24 @@
+{
+  "utc": "2026-09-27T14:10:40.288Z",
+  "authorization": "GO_ONE_FROZEN_FINITE_BATCH",
+  "source_and_transport": {
+    "src/researchnext_common_refinement_batch.py": "f7f79ecca154169832c8739d9c17889c5c5993aa460f6d528d6f115c60018371",
+    "docs/research_next/COMMON_REFINEMENT_BATCH_PROTOCOL.md": "bc47f198b8a6f711c80ce315418749ef4b1b2b9b1afea38568901bd8e2fd6e0d",
+    "results/research_next/common_refinement_batch/prepared/prepared_freeze.json": "7642265df13848db01ad0627381c6e294ddea30569a5dbc2b344e2e952372b85",
+    "results/research_next/common_refinement_batch/prepared/input_manifest.json": "34311c0d425e453a24781079a007eef2369bb8cbf2e3e75eab13f523498916ef"
+  },
+  "independent_prepared_review_sha256": "7971a2bfe6c64e183941b6612aa5bec7202e9596dad6867ad330db9cabda0bf3",
+  "parent_source_review_sha256": "1d4220b4179f5e7168cbda6623366fc851af633f2948cb6f40d5acee75423416",
+  "maximum_seed_cases": 336,
+  "maximum_new_nominations": 8,
+  "maximum_optimizer_attempts": 24,
+  "maximum_worker_launches": 25,
+  "phase_seconds": 2400,
+  "sole_owner": "/root/temporal_checker",
+  "no_retry_or_ninth_nomination": true,
+  "producer_acceptance_provisional_until_independent_final_checks": true,
+  "final_transport_rehash_required_against_this_record": true,
+  "os_ownership_reviewed_not_pretested": true,
+  "nominal_recourse_failure_not_expanded_infeasibility": true,
+  "scientific_scope": "One adaptive conventional feasibility refinement on fixed original expanded RTS identity/days321 pair and fossil-electricity cap; no regret, new-method, temporal-mechanism, or global-negative inference from numeric status."
+}

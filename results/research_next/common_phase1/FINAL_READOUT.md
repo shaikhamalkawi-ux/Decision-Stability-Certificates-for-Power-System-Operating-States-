@@ -1,0 +1,11 @@
+# Closed phase-I result: exact one-hour network rejection
+
+The sole fixed nominee from the necessary common master is exactly infeasible in the original expanded joint model. The independently checked globally necessary state cut has positive margin450876382487823762278891047947239219241/85070591730234615865843651857942052864. This weighted certificate margin is not an operating-cost or energy-loss estimate. The original unrounded continuous control satisfies the same cut with exact slack1136394728633107525354715642774859161559/85070591730234615865843651857942052864.
+
+Independent postrun8d16937fb7493b314d439dad48123c6c12dd94c69062b346d9bf8da56858e526, sourceea0e0439bca77a3eb2961e6337343f17a8bccc1d6c201170310a4ce43eab1b70, took23.4714041s with no optimizer or producer mathematics import. It verified all292 inputbindings and12producer artifacts, the complete98546-row/33937-column/505786-coefficient backend readback, every raw-dual projection and exact original-coordinate proof term. The sole solver call took3.6359062s; producer phase20.9191389s, no overruns or retries.
+
+All24 supporting original rows are in identity at zero-based hour80: aggregate_balance1, thermal_upper21, nodal_balance at bus107, and branch_flow metadata uid10. All21 state terms are U at that hour. No ramp, dwell, transition, startup/shutdown-state or weekly fossil-cap row occurs in this proof. This is a static network-deliverability obstruction for the nominated schedule, not a demonstrated intertemporal cause. It also does not assert minimum support or minimum raw information.
+
+**Unrestricted common binary feasibility remains UNKNOWN.** Both separately feasible worlds and the existing fractional common point are preserved. One excluded nominee and a valid necessary cut do not exclude another common schedule. The pending prospective finite-refinement design is a separate arm; no subsequent nominee or optimizer has been evaluated by this result.
+
+Producer completionc5920a87bf20cfdf226b53d4aa89c5998301d27a097caf21275272410c944547 and exact_candidate427dba0e4a75fd7bce5dff278c958fb73dafa2fbf41cf0a1cdc3c08f391a178b remain immutable. Producer inventory17e0c3649d538d82e70c47a5e1183c5e6d4fd48db825343ecfcebe885f3dee92. Normal process exit was observed; no forced descendant-termination path was tested.

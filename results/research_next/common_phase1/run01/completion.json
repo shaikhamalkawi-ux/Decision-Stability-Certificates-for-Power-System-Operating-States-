@@ -1,0 +1,23 @@
+{
+  "utc": "2026-09-27T13:26:44.521279+00:00",
+  "call_ledger": {
+    "attempted": 1,
+    "returned": 1,
+    "started_utc": "2026-09-27T13:26:28.709270+00:00",
+    "actual_seconds": 3.635906200041063
+  },
+  "phase_seconds": 20.919138900004327,
+  "solver_soft_overrun": 0,
+  "phase_soft_overrun": 0,
+  "all_frozen_bytes_unchanged": true,
+  "no_retry": true,
+  "no_ray_recovery": true,
+  "alternative_multiplier_candidates": 0,
+  "final_write_cleanup_outside_sample": true,
+  "final_admission": {
+    "accepted_nominee_rejection": true,
+    "status": "EXACT_CUT_REJECTS_FIXED_NOMINEE",
+    "common_verdict": "UNKNOWN",
+    "phase_deadline_met": true
+  }
+}

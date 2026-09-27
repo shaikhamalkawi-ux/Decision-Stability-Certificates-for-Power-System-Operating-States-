@@ -1,0 +1,17 @@
+{
+  "utc": "2026-09-27T14:23:17.437941+00:00",
+  "command": [
+    "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\scip_capability_env01\\Scripts\\python.exe",
+    "-I",
+    "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\src\\researchnext_windows_ownership_probe.py",
+    "--harmless-worker",
+    "--folder",
+    "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\windows_ownership_probe\\probe01\\shared_job_launcher_then_actual",
+    "--token",
+    "2a2250ed1b0b4cb6acc78a1044cd1893",
+    "--expected-source-sha256",
+    "82745c0c6ec3b772264d754443cc849532a59191793848d9d8ab56990aa152c5"
+  ],
+  "worker_launches": 1,
+  "optimizer_calls": 0
+}

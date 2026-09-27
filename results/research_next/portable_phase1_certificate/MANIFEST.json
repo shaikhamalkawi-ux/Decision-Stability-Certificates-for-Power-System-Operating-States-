@@ -1,0 +1,59 @@
+{
+  "schema": "portable_state_cut_v1",
+  "tau": [
+    "5902958103587057",
+    "590295810358705651712"
+  ],
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 2264,
+      "sha256": "0c5ab11a4aa2aa8823e03085f4b5f31033403687fe84ec531482b4c4e23aa72d"
+    },
+    {
+      "path": "certificate.json.gz",
+      "bytes": 622888,
+      "sha256": "427dba0e4a75fd7bce5dff278c958fb73dafa2fbf41cf0a1cdc3c08f391a178b"
+    },
+    {
+      "path": "decoder.py",
+      "bytes": 28861,
+      "sha256": "708c3843425eea494a0561e83a275f7059f22bcd546a036705323d056bcf906f"
+    },
+    {
+      "path": "fixed_schedule.json",
+      "bytes": 686490,
+      "sha256": "26362ddab6b43aaa3ce2b605997a0c3460d9615492c13e177f7822c508ebf14a"
+    },
+    {
+      "path": "model/bounds.npz",
+      "bytes": 103580,
+      "sha256": "a518cdf095baee03ea4480c15f80fe9e55aa9aff230e31987623e38b5a94c4cc"
+    },
+    {
+      "path": "model/column_maps.json",
+      "bytes": 772421,
+      "sha256": "ced46514e0a6525a21f24aab86dea4b6e3ce0f27440f6dee53a47093dbc0f4bb"
+    },
+    {
+      "path": "model/integrality.npz",
+      "bytes": 291,
+      "sha256": "047eaf6164b000c7cac99b630d0067a8e3936528d321877b83c2261fb8257be6"
+    },
+    {
+      "path": "model/matrix.npz",
+      "bytes": 400050,
+      "sha256": "1266104d52944d29d2ac2bfbd1ce89b12b1da4e58c0a2590b33a98e29eb66074"
+    },
+    {
+      "path": "model/row_origins.json",
+      "bytes": 2613562,
+      "sha256": "b2845b979bac228548d6b3557da24d3c6bfea500c4284299a97fe1a20dd253fe"
+    },
+    {
+      "path": "verify.py",
+      "bytes": 6784,
+      "sha256": "8a1774b6ab342abf60e2b21f673f56905cc07d66c5eb283ce350703c0976e625"
+    }
+  ]
+}

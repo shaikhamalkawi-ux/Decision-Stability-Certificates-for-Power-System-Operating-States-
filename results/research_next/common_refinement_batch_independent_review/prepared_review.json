@@ -1,0 +1,54 @@
+{
+  "status": "PASS_SOURCE_AND_PREPARED_WITH_EXPLICIT_FINAL_TRANSPORT_GATE",
+  "utc": "2026-09-27T14:08:40.178268+00:00",
+  "reviewer_sha256": "52bb4fe0bbfae2c352fe092e0a15614fb082110a3a041092502ae82e342becd2",
+  "elapsed_seconds": 11.595177600043826,
+  "pins": {
+    "src/researchnext_common_refinement_batch.py": "f7f79ecca154169832c8739d9c17889c5c5993aa460f6d528d6f115c60018371",
+    "docs/research_next/COMMON_REFINEMENT_BATCH_PROTOCOL.md": "bc47f198b8a6f711c80ce315418749ef4b1b2b9b1afea38568901bd8e2fd6e0d",
+    "results/research_next/common_refinement_batch/synthetic_tests.json": "98d51d0f4cb3c0a8ab6dd2eec44ffba39f745271ea63c78a5aabb0d5ad87c9ab",
+    "results/research_next/common_refinement_batch/prepared/prepared_freeze.json": "7642265df13848db01ad0627381c6e294ddea30569a5dbc2b344e2e952372b85",
+    "results/research_next/common_refinement_batch/prepared/input_manifest.json": "34311c0d425e453a24781079a007eef2369bb8cbf2e3e75eab13f523498916ef",
+    "src/researchnext_cut_encoding.py": "286620b092dcf6088f7973c5b3e4569f598d125a20562abe52989e9aaf8af22d",
+    "results/research_next/common_master_bounded/INDEPENDENT_POSTRUN_REVIEW.json": "d5b2c4baac6605ef98f6cc025757c5f36c372166931ba7afe870d5509fdc9ad2",
+    "results/research_next/common_phase1_independent_review/postrun_review.json": "8d16937fb7493b314d439dad48123c6c12dd94c69062b346d9bf8da56858e526"
+  },
+  "input_bindings": 355,
+  "byte_identical_copies": 32,
+  "historical_input_denominators": {
+    "common_master_bounded": 239,
+    "common_phase1": 292
+  },
+  "closed_phase_outputs_bound": 12,
+  "joint_row_origins": 69362,
+  "symbolic_seed_cases": 336,
+  "selected_symbolic_rows_per_case": 24,
+  "symbolic_row_uses": 8064,
+  "seed_weight": [
+    "6004799503160661",
+    "144115188075855872"
+  ],
+  "original_model_master_phase_and_masks": "Identical copied bytes and closed independent admission inherited; no old full mathematics replay.",
+  "all_inputs_and_pinned_transport_unchanged": true,
+  "run_absent_entry_and_close": true,
+  "full_source_and_pinned_helper_integration_read": true,
+  "reviewer_authored_encoding_helper": true,
+  "independence_scope": "Independent caller/provenance/map review; no claim of independent encoding-helper implementation.",
+  "scientific_cut_evaluations": 0,
+  "control_evaluations": 0,
+  "optimizer_calls": 0,
+  "producer_or_helper_imports": 0,
+  "old_witness_replays": 0,
+  "source_limitations": [
+    "Controller closing validate(items) excludes freeze and manifest transport files; parent has required independent final rehash against the exact external GO constants before scientific admission/publication.",
+    "Windows Job and authenticated handshake are source-reviewed only. Four invented groups do not exercise operating-system ownership or termination.",
+    "A failed pre-GO process assignment may leave an unassigned actual worker awaiting its30-second self-exit; it has no optimizer authority.",
+    "Nominal recourse proposal can miss an expanded-model witness; failure is UNKNOWN, not an expanded-model infeasibility proof."
+  ],
+  "execution_authorization": "Not issued by this review; root separate GO required.",
+  "final_independent_transport_gate": {
+    "prepared_freeze_sha256": "7642265df13848db01ad0627381c6e294ddea30569a5dbc2b344e2e952372b85",
+    "input_manifest_sha256": "34311c0d425e453a24781079a007eef2369bb8cbf2e3e75eab13f523498916ef",
+    "required_before_any_scientific_admission_or_publication": true
+  }
+}

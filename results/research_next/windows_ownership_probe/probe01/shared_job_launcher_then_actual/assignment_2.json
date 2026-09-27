@@ -1,0 +1,29 @@
+{
+  "order": 2,
+  "role": "actual_python",
+  "pid": 76328,
+  "creation_filetime": 134349925974879367,
+  "job_index": 0,
+  "before_any": {
+    "api_succeeded": true,
+    "win32_last_error": 0,
+    "in_job": true
+  },
+  "before_selected": {
+    "api_succeeded": true,
+    "win32_last_error": 0,
+    "in_job": false
+  },
+  "assignment_succeeded": false,
+  "win32_last_error": 5,
+  "after_any": {
+    "api_succeeded": true,
+    "win32_last_error": 0,
+    "in_job": true
+  },
+  "after_selected": {
+    "api_succeeded": true,
+    "win32_last_error": 0,
+    "in_job": false
+  }
+}

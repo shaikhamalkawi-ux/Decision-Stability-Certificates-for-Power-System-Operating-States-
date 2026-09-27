@@ -1,0 +1,13 @@
+{
+  "utc": "2026-09-27T14:19:34.050Z",
+  "action": "GO_ONE_SEED_ONLY_INDEPENDENT_MATH_REVIEW",
+  "source_sha256": "84929d1f73feabf8425c55ca0e5ec955fd1fa129f75b78a9fc7ed0852bac7d26",
+  "completion_sha256": "b445ba6868a2ee044a9dbe1c019bcf2e17dd7ed0d947ef6b08e1b117a0f3886f",
+  "inventory_sha256": "8c0faa1048a6b5d232feb58a75d921fb287abc87c607d71f492d7824739b7f83",
+  "freeze_sha256": "7642265df13848db01ad0627381c6e294ddea30569a5dbc2b344e2e952372b85",
+  "required_mode": "--seed-only-closure",
+  "parent_review_scope": "Executed exact_cut/maps/compare/anchor/appended_master/provenance/full closed seed-only path read. Future positive/PhaseI/new-nomination execution not admitted.",
+  "condition": "Child final delta review completed with source unchanged",
+  "optimizer_calls_allowed": 0,
+  "no_automatic_retry": true
+}

@@ -1,0 +1,7785 @@
+{
+  "status": "PASS_INDEPENDENT_NEW_MATHEMATICS",
+  "source_sha256": "84929d1f73feabf8425c55ca0e5ec955fd1fa129f75b78a9fc7ed0852bac7d26",
+  "freeze_sha256": "7642265df13848db01ad0627381c6e294ddea30569a5dbc2b344e2e952372b85",
+  "manifest_sha256": "34311c0d425e453a24781079a007eef2369bb8cbf2e3e75eab13f523498916ef",
+  "completion_sha256": "b445ba6868a2ee044a9dbe1c019bcf2e17dd7ed0d947ef6b08e1b117a0f3886f",
+  "producer_inventory_sha256": "8c0faa1048a6b5d232feb58a75d921fb287abc87c607d71f492d7824739b7f83",
+  "input_bindings": 355,
+  "closed_public_files": 688,
+  "closed_run_payloads": 684,
+  "actual_saved_seed_proof_count": 336,
+  "complete_seed_family_independently_verified": true,
+  "anchor_matched": true,
+  "seed_records": [
+    {
+      "world": "identity",
+      "hour": 0,
+      "rhs": [
+        "-1359652288689528440404708885902458298327",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 1,
+      "rhs": [
+        "-1347337713646830872059159626118900686807",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 2,
+      "rhs": [
+        "-1277973803158006680609168122983437246423",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 3,
+      "rhs": [
+        "-1177539504754564363892707677056284958679",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 4,
+      "rhs": [
+        "-784785713266805287951553715698629812183",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "30441520906577017491854035705047723",
+        "41538374868278621028243970633760768"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 5,
+      "rhs": [
+        "-219545877340381486763170792529094189015",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "36670832163872342923022831578999401",
+        "5192296858534827628530496329220096"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 6,
+      "rhs": [
+        "216588492835038569569185622620895240233",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "63862403817842840230038863867388051",
+        "5192296858534827628530496329220096"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 7,
+      "rhs": [
+        "-276736227329138732334649527310602936279",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "49322330394168254490664516868197851",
+        "5192296858534827628530496329220096"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 8,
+      "rhs": [
+        "-498546165655658669988726516997848768471",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "46726181964900840820514456779443675",
+        "5192296858534827628530496329220096"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 9,
+      "rhs": [
+        "-265597105657653205426419812399400820695",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "46726181964900840820514456779443675",
+        "5192296858534827628530496329220096"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 10,
+      "rhs": [
+        "187533054908533600236513690590684176425",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "67812226561652966312807915786954475",
+        "5192296858534827628530496329220096"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 11,
+      "rhs": [
+        "387726061683424004924642598801925267497",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "79803559233940060597119213455230815",
+        "5192296858534827628530496329220096"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 12,
+      "rhs": [
+        "348160361062867302553914481997532160041",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "79803559233940060597119213455230815",
+        "5192296858534827628530496329220096"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 13,
+      "rhs": [
+        "392303707581518032130654886477843718185",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "12121598815696646165865039393340305",
+        "649037107316853453566312041152512"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 14,
+      "rhs": [
+        "575674996958875529001670043422410465321",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "25599909001625959352290337497909545",
+        "1298074214633706907132624082305024"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 15,
+      "rhs": [
+        "812128500805961406303602403463918575657",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "4065677748898925134752269954443773",
+        "162259276829213363391578010288128"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 16,
+      "rhs": [
+        "1612880875044181276166107357542378102825",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "4606542004996302982700199139600893",
+        "162259276829213363391578010288128"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 17,
+      "rhs": [
+        "997656105875887474245228651731408183337",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "31462984744033712479522708300499169",
+        "1298074214633706907132624082305024"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 18,
+      "rhs": [
+        "1051238440871017952355469850321387315241",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "31462984744033712479522708300499169",
+        "1298074214633706907132624082305024"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 19,
+      "rhs": [
+        "825134808818307112832787881236216471593",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "29806810125715912640891329867428225",
+        "1298074214633706907132624082305024"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 20,
+      "rhs": [
+        "461937103711394240058389461410026414121",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "13192082643527607362877130532269275",
+        "649037107316853453566312041152512"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 21,
+      "rhs": [
+        "291228274787872600197744277133308518441",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "10498699888294315195648733534814555",
+        "649037107316853453566312041152512"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 22,
+      "rhs": [
+        "-656195719085448247028073772538839113687",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "6276475882248588308190307115452095",
+        "1298074214633706907132624082305024"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 23,
+      "rhs": [
+        "-817573775522016019964263368944219267031",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 24,
+      "rhs": [
+        "-1082759649724703331101186458357357027287",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 25,
+      "rhs": [
+        "-1241060421839379425119200396455849172951",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 26,
+      "rhs": [
+        "-1169809153370098707062713791858809446359",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 27,
+      "rhs": [
+        "-1030424066587679663076803765476343619543",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 28,
+      "rhs": [
+        "-739107011433792931914834817725340000215",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "3601510964983121934312475792616115",
+        "1298074214633706907132624082305024"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 29,
+      "rhs": [
+        "-363449597792025153066704597948009750487",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "4532695374222175857501233656626525",
+        "649037107316853453566312041152512"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 30,
+      "rhs": [
+        "-266813515061952900613497420454932979671",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "4532695374222175857501233656626525",
+        "649037107316853453566312041152512"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 31,
+      "rhs": [
+        "-1127415921466118243880925000709468266455",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "2273931469364413003421198057250885",
+        "2596148429267413814265248164610048"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 32,
+      "rhs": [
+        "-1608653721849598060157337311261356924887",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 33,
+      "rhs": [
+        "-1880733955659823746882350498184619827159",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 34,
+      "rhs": [
+        "-2084546459253129448185420115472602308567",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 35,
+      "rhs": [
+        "-2117922072951945878306089890164569481175",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 36,
+      "rhs": [
+        "-2085499434542146773760679561343935651799",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 37,
+      "rhs": [
+        "-2022935873965773959157854305143740112855",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 38,
+      "rhs": [
+        "-1803026974696524763496651451658081869783",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 39,
+      "rhs": [
+        "-1411622448997884200465273401604788133847",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 40,
+      "rhs": [
+        "-733928919824970266714921568881122156503",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "500633647688952002197455933933",
+        "633825300114114700748351602688"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 41,
+      "rhs": [
+        "-387780847952917310614320901120344399831",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "6549630649042140220233873491672409",
+        "1298074214633706907132624082305024"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 42,
+      "rhs": [
+        "-428771496780226001095771345336529788887",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "6549630649042140220233873491672409",
+        "1298074214633706907132624082305024"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 43,
+      "rhs": [
+        "-537541499393739674734781364219789909975",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "5108313869102609830854075923343909",
+        "1298074214633706907132624082305024"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 44,
+      "rhs": [
+        "-707443016143910952342488844808983879639",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "2920768665406000508612616310651563",
+        "2596148429267413814265248164610048"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 45,
+      "rhs": [
+        "-940205986616672029889764753371226382295",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 46,
+      "rhs": [
+        "-1204544119186203639262249213995161427927",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 47,
+      "rhs": [
+        "-1276797559249043555723208318473746718679",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 48,
+      "rhs": [
+        "-1279614391450402565925892151221543706583",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 49,
+      "rhs": [
+        "-1429795362727292879955044223805032439767",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 50,
+      "rhs": [
+        "-1386008930734414705911450342743106068439",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 51,
+      "rhs": [
+        "-1255736519576180212569480753349679587287",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 52,
+      "rhs": [
+        "-1005947677850915278915410399532901408727",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 53,
+      "rhs": [
+        "-567431000587899733351341657282372902871",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "16983341006417984486794190231237985",
+        "5192296858534827628530496329220096"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 54,
+      "rhs": [
+        "-337529408353432004908691849138824749015",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "31543974255336852996670817268853425",
+        "5192296858534827628530496329220096"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 55,
+      "rhs": [
+        "-1231007573590054701419192604306615246807",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "14236318060220761862337083343825585",
+        "5192296858534827628530496329220096"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 56,
+      "rhs": [
+        "-1646008208075613103698811922994989834199",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 57,
+      "rhs": [
+        "-1839656401470848497048467054737131249623",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 58,
+      "rhs": [
+        "-1800933269031700021827643425818958307287",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 59,
+      "rhs": [
+        "-2033938365364282720497407717045966938071",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 60,
+      "rhs": [
+        "-1420371371760832337471874026582220677079",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 61,
+      "rhs": [
+        "-1281793596135020244763364104124476891095",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 62,
+      "rhs": [
+        "-1062307210531236301988494792513159110615",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 63,
+      "rhs": [
+        "-701099902214500890864187334382349918167",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "37372380333570462025191096091966905",
+        "10384593717069655257060992658440192"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 64,
+      "rhs": [
+        "1088842416848859545952561308798736719913",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "57575131167062329862852033330168943",
+        "2596148429267413814265248164610048"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 65,
+      "rhs": [
+        "1993616058498587290965697304502062866473",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "85626535281792025098820919980634793",
+        "2596148429267413814265248164610048"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 66,
+      "rhs": [
+        "1820533693060263734258372864084094804009",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "85626535281792025098820919980634793",
+        "2596148429267413814265248164610048"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 67,
+      "rhs": [
+        "1459371201523216153162423786910907424809",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "85626535281792025098820919980634793",
+        "2596148429267413814265248164610048"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 68,
+      "rhs": [
+        "320777518427368598772163685303170687017",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "225108227809714481872924860254240415",
+        "10384593717069655257060992658440192"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 69,
+      "rhs": [
+        "74742087796699829364067481389553999913",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "14069264238107154593514347084069895",
+        "649037107316853453566312041152512"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 70,
+      "rhs": [
+        "19962986091184140665130815672023048233",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "225108227809714481872924860254240415",
+        "10384593717069655257060992658440192"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 71,
+      "rhs": [
+        "-350694795915961986236382992189976682455",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "23466980934518001948040764614775525",
+        "1298074214633706907132624082305024"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 72,
+      "rhs": [
+        "345548470542915989216917991096783527977",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "23466980934518001948040764614775525",
+        "1298074214633706907132624082305024"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 73,
+      "rhs": [
+        "740739463414355444492622563633612775465",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "52106380717080328464655510489233495",
+        "2596148429267413814265248164610048"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 74,
+      "rhs": [
+        "922148238289074831895141481136835846185",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "53404454931714022509507598801402653",
+        "2596148429267413814265248164610048"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 75,
+      "rhs": [
+        "981336088723600710437434150153361612841",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "53404454931714035299730540533610583",
+        "2596148429267413814265248164610048"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 76,
+      "rhs": [
+        "1010791325040409047487460199161894330409",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "30819323592305278155941538744085239",
+        "1298074214633706907132624082305024"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 77,
+      "rhs": [
+        "1148011940683761367362036702676841979945",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "15409661796152639543342730866993847",
+        "649037107316853453566312041152512"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 78,
+      "rhs": [
+        "1360807859959649684809232977480065802281",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "16441952247208236407472667351367037",
+        "649037107316853453566312041152512"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 79,
+      "rhs": [
+        "810762044694169315234132470897969258537",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "26748503880393731146509839427633645",
+        "1298074214633706907132624082305024"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 80,
+      "rhs": [
+        "450876382487823762278891047947239219241",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "24219835069594288446557719279817175",
+        "1298074214633706907132624082305024"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 81,
+      "rhs": [
+        "229265684462024735993647779018979729449",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "1305121627791920269678969231731135",
+        "81129638414606681695789005144064"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 82,
+      "rhs": [
+        "338641572235968597522910219898933272617",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "1305121627791920269678969231731135",
+        "81129638414606681695789005144064"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 83,
+      "rhs": [
+        "13340565851594146720182997180885295145",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "123943142079915431282600458240485",
+        "10141204801825835211973625643008"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 84,
+      "rhs": [
+        "-429509969277290668591970893193817300951",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "9951300472546385158168552577821785",
+        "1298074214633706907132624082305024"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 85,
+      "rhs": [
+        "-497826896476582075104640045908828299223",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "12479969283345827858120672725638255",
+        "1298074214633706907132624082305024"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 86,
+      "rhs": [
+        "-1139429090049768068060711549098385678295",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "24959938566691653584537521829241855",
+        "2596148429267413814265248164610048"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 87,
+      "rhs": [
+        "-717221730856974592364458261264492077015",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "24959938566691653584537521829241855",
+        "2596148429267413814265248164610048"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 88,
+      "rhs": [
+        "192883029409246910449983423619266568233",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "13564433305263237211308697372709505",
+        "649037107316853453566312041152512"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 89,
+      "rhs": [
+        "1634573226743547113137530175227139514409",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "37269475920806345842549142843657649",
+        "1298074214633706907132624082305024"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 90,
+      "rhs": [
+        "-132176641314142633097534777369508650967",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "51092319877008943146061270945735683",
+        "2596148429267413814265248164610048"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 91,
+      "rhs": [
+        "-338132309824541128825439015618083758039",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "5448631305661911355849051747067127",
+        "649037107316853453566312041152512"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 92,
+      "rhs": [
+        "-417538368124967534847873224232662933463",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "5732604457139826592167378425241969",
+        "1298074214633706907132624082305024"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 93,
+      "rhs": [
+        "-1076377425480007312316366991189776211927",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 94,
+      "rhs": [
+        "-1303340025837962670300901520303674302423",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 95,
+      "rhs": [
+        "-992073984833671654298865366830660132823",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 96,
+      "rhs": [
+        "-1020897909123977250787547433339549851607",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 97,
+      "rhs": [
+        "-1183703367833107776489540521255250108375",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 98,
+      "rhs": [
+        "-1088639822901241126811756659117479894999",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 99,
+      "rhs": [
+        "-1043167991936736429102211177816136818647",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 100,
+      "rhs": [
+        "-876318067322257413149873983700737138647",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 101,
+      "rhs": [
+        "-769935543553515006566033391140428783575",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "16983341006417984486794190231237985",
+        "5192296858534827628530496329220096"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 102,
+      "rhs": [
+        "-808029817015229171604614696173733617623",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "31543974255336852996670817268853425",
+        "5192296858534827628530496329220096"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 103,
+      "rhs": [
+        "-1350883110817684938963930016711781064663",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "14236318060220761862337083343825585",
+        "5192296858534827628530496329220096"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 104,
+      "rhs": [
+        "-1684491670415321386619167787531798257623",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 105,
+      "rhs": [
+        "-2052471176630956681732259564698168401879",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 106,
+      "rhs": [
+        "-2046750344596672810042905871362876710871",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 107,
+      "rhs": [
+        "-2062435715210224513516811298479785582551",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 108,
+      "rhs": [
+        "-1996989468140099767312123638551947452375",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 109,
+      "rhs": [
+        "-1682603785522669095480396647911099670487",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 110,
+      "rhs": [
+        "-1742376207439537893929216602493591429079",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 111,
+      "rhs": [
+        "-795292205461840936679045534308841234391",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "11927926711399774544361684581073165",
+        "1298074214633706907132624082305024"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 112,
+      "rhs": [
+        "592172594655683845954708494154786201641",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "14393782791765387707547122695453527",
+        "649037107316853453566312041152512"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 113,
+      "rhs": [
+        "1964123113463567330452418615039177580585",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "342506141127168100245163692343522647",
+        "10384593717069655257060992658440192"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 114,
+      "rhs": [
+        "1939545616120925300255978532752570245161",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "42813267640896012084038498495366169",
+        "1298074214633706907132624082305024"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 115,
+      "rhs": [
+        "1785369375243228902433107972249473835049",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "42813267640896012084038498495366169",
+        "1298074214633706907132624082305024"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 116,
+      "rhs": [
+        "206063672684722650977650343129743679529",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "14069264238106960998778365184359255",
+        "649037107316853453566312041152512"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 117,
+      "rhs": [
+        "-604876513497509057292416422340032667607",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "225108227809711376911197765939650535",
+        "10384593717069655257060992658440192"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 118,
+      "rhs": [
+        "-727437428477670092281336014742969327575",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "14069264238106960998778365184359255",
+        "649037107316853453566312041152512"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 119,
+      "rhs": [
+        "-1287905546912226875142058112843017822167",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "129684814118513172029488994802926595",
+        "10384593717069655257060992658440192"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 120,
+      "rhs": [
+        "-1241344376044768936375844319295562522583",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 121,
+      "rhs": [
+        "-1239046256627475021662387953520311476183",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 122,
+      "rhs": [
+        "-1238276387174381491365302335132244320215",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 123,
+      "rhs": [
+        "-1076018053160367011303338317014395461591",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 124,
+      "rhs": [
+        "-640787723561491572110113561254622601175",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "13674284809831100920111799279160663",
+        "2596148429267413814265248164610048"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 125,
+      "rhs": [
+        "-56684120704604436630861973931872427991",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "6508222811762062191682491725131107",
+        "649037107316853453566312041152512"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 126,
+      "rhs": [
+        "19585636639174794104655297928796102697",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "13016445623524124713628956124098569",
+        "1298074214633706907132624082305024"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 127,
+      "rhs": [
+        "-957317357905710735576263494818375606231",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "2501426277146404392131179014695289",
+        "1298074214633706907132624082305024"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 128,
+      "rhs": [
+        "-1639639926838715501702613902374843916247",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 129,
+      "rhs": [
+        "-2022607632943121513446228169210110877655",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 130,
+      "rhs": [
+        "-2217483465464974411198724805775640698839",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 131,
+      "rhs": [
+        "-2317833317656275277457160248207824854999",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 132,
+      "rhs": [
+        "-2315612542490103867577129036468710219735",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 133,
+      "rhs": [
+        "-2260509058813963299663236156113401356247",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 134,
+      "rhs": [
+        "-2033419388954662400539145685988107296727",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 135,
+      "rhs": [
+        "-1576634475562003277093782962432482680791",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 136,
+      "rhs": [
+        "-772194285979738948473223872999272161239",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "18014398509481983",
+        "36028797018963968"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 137,
+      "rhs": [
+        "-578952730665928065653533943980597649367",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "462435592365674048936070961379073",
+        "162259276829213363391578010288128"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 138,
+      "rhs": [
+        "-563933924019965433059484566285565501399",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "1918696220692982485201004088573",
+        "633825300114114700748351602688"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 139,
+      "rhs": [
+        "-677872988788752965443527741469889601495",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "681606702070448273760673351050921",
+        "324518553658426726783156020576256"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 140,
+      "rhs": [
+        "-855269831668929204559873610190636916695",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 141,
+      "rhs": [
+        "-1220936745835962158490941099620304887767",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 142,
+      "rhs": [
+        "-1572312630839003569246139614885426700247",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 143,
+      "rhs": [
+        "-1620972154249753626421641063913520832471",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 144,
+      "rhs": [
+        "-1296194511255967188351444649226291584983",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 145,
+      "rhs": [
+        "-1292060683889655569025427158101370281943",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 146,
+      "rhs": [
+        "-1243347051975771047368743896554040926167",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 147,
+      "rhs": [
+        "-1083661498166422190938025775209207766999",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 148,
+      "rhs": [
+        "-679189454330195124132709856599468875735",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "5684368579376902486304121684141129",
+        "1298074214633706907132624082305024"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 149,
+      "rhs": [
+        "-85332304067732512501761101807856066519",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "11363673116519581073196902153276079",
+        "1298074214633706907132624082305024"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 150,
+      "rhs": [
+        "-98116660232250981885623076820486135767",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "11363673116519581073196902153276079",
+        "1298074214633706907132624082305024"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 151,
+      "rhs": [
+        "-1040728508509557579246587353748161372119",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "3271206421897152556864600177853103",
+        "2596148429267413814265248164610048"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 152,
+      "rhs": [
+        "-1689215241698982035849518348875678556119",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 153,
+      "rhs": [
+        "-1983142782047688559470414399274539229143",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 154,
+      "rhs": [
+        "-2230157148862841811294985785106559344599",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 155,
+      "rhs": [
+        "-2328774595540400823925546979024721354711",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 156,
+      "rhs": [
+        "-2325600848474354247940636214841532424151",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 157,
+      "rhs": [
+        "-2340290889557868596229002107606411452375",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 158,
+      "rhs": [
+        "-2197368033122153749793891570937348693975",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 159,
+      "rhs": [
+        "-1766339052438098941950760341174964133847",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 160,
+      "rhs": [
+        "-1196237352782636524224047612363476508631",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 161,
+      "rhs": [
+        "-822145635553381193723220389206074269655",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "61994149964981566256478720411403409629906760169",
+        "45671926166590716193865151022383844364247891968"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 162,
+      "rhs": [
+        "-825586938056636207538847465290452639703",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "56101695103898452069010855398246708389768622569",
+        "45671926166590716193865151022383844364247891968"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 163,
+      "rhs": [
+        "-766253429929070999647118368237620764631",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "56101695103898453336661455626476039517727650281",
+        "45671926166590716193865151022383844364247891968"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 164,
+      "rhs": [
+        "-734220239278020384434385416315877662679",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "568132279130300893665655408336899",
+        "649037107316853453566312041152512"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 165,
+      "rhs": [
+        "-848633204795985858995747397071640928215",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 166,
+      "rhs": [
+        "-1153997238811740327933040099092040982487",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "identity",
+      "hour": 167,
+      "rhs": [
+        "-1237584127970365024438962604366058430423",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 0,
+      "rhs": [
+        "-1359652288689528440404708885902458298327",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 1,
+      "rhs": [
+        "-1347337713646830872059159626118900686807",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 2,
+      "rhs": [
+        "-1277973803158006680609168122983437246423",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 3,
+      "rhs": [
+        "-1177539504754564363892707677056284958679",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 4,
+      "rhs": [
+        "-784785713266805287951553715698629812183",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "30441520906577017491854035705047723",
+        "41538374868278621028243970633760768"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 5,
+      "rhs": [
+        "-219545877340381486763170792529094189015",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "36670832163872342923022831578999401",
+        "5192296858534827628530496329220096"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 6,
+      "rhs": [
+        "216588492835038569569185622620895240233",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "63862403817842840230038863867388051",
+        "5192296858534827628530496329220096"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 7,
+      "rhs": [
+        "-276736227329138732334649527310602936279",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "49322330394168254490664516868197851",
+        "5192296858534827628530496329220096"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 8,
+      "rhs": [
+        "-498546165655658669988726516997848768471",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "46726181964900840820514456779443675",
+        "5192296858534827628530496329220096"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 9,
+      "rhs": [
+        "-265597105657653205426419812399400820695",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "46726181964900840820514456779443675",
+        "5192296858534827628530496329220096"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 10,
+      "rhs": [
+        "187533054908533600236513690590684176425",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "67812226561652966312807915786954475",
+        "5192296858534827628530496329220096"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 11,
+      "rhs": [
+        "387726061683424004924642598801925267497",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "79803559233940060597119213455230815",
+        "5192296858534827628530496329220096"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 12,
+      "rhs": [
+        "348160361062867302553914481997532160041",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "79803559233940060597119213455230815",
+        "5192296858534827628530496329220096"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 13,
+      "rhs": [
+        "392303707581518032130654886477843718185",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "12121598815696646165865039393340305",
+        "649037107316853453566312041152512"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 14,
+      "rhs": [
+        "575674996958875529001670043422410465321",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "25599909001625959352290337497909545",
+        "1298074214633706907132624082305024"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 15,
+      "rhs": [
+        "812128500805961406303602403463918575657",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "4065677748898925134752269954443773",
+        "162259276829213363391578010288128"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 16,
+      "rhs": [
+        "1612880875044181276166107357542378102825",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "4606542004996302982700199139600893",
+        "162259276829213363391578010288128"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 17,
+      "rhs": [
+        "997656105875887474245228651731408183337",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "31462984744033712479522708300499169",
+        "1298074214633706907132624082305024"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 18,
+      "rhs": [
+        "1051238440871017952355469850321387315241",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "31462984744033712479522708300499169",
+        "1298074214633706907132624082305024"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 19,
+      "rhs": [
+        "825134808818307112832787881236216471593",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "29806810125715912640891329867428225",
+        "1298074214633706907132624082305024"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 20,
+      "rhs": [
+        "461937103711394240058389461410026414121",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "13192082643527607362877130532269275",
+        "649037107316853453566312041152512"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 21,
+      "rhs": [
+        "291228274787872600197744277133308518441",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "10498699888294315195648733534814555",
+        "649037107316853453566312041152512"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 22,
+      "rhs": [
+        "-656195719085448247028073772538839113687",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "6276475882248588308190307115452095",
+        "1298074214633706907132624082305024"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 23,
+      "rhs": [
+        "-817573775522016019964263368944219267031",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 24,
+      "rhs": [
+        "-1082759649724703331101186458357357027287",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 25,
+      "rhs": [
+        "-1241060421839379425119200396455849172951",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 26,
+      "rhs": [
+        "-1169809153370098707062713791858809446359",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 27,
+      "rhs": [
+        "-1030424066587679663076803765476343619543",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 28,
+      "rhs": [
+        "-739107011433792931914834817725340000215",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "3601510964983121934312475792616115",
+        "1298074214633706907132624082305024"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 29,
+      "rhs": [
+        "-363449597792025153066704597948009750487",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "4532695374222175857501233656626525",
+        "649037107316853453566312041152512"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 30,
+      "rhs": [
+        "-266813515061952900613497420454932979671",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "4532695374222175857501233656626525",
+        "649037107316853453566312041152512"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 31,
+      "rhs": [
+        "-1127415921466118243880925000709468266455",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "2273931469364413003421198057250885",
+        "2596148429267413814265248164610048"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 32,
+      "rhs": [
+        "-1608653721849598060157337311261356924887",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 33,
+      "rhs": [
+        "-1880733955659823746882350498184619827159",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 34,
+      "rhs": [
+        "-2084546459253129448185420115472602308567",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 35,
+      "rhs": [
+        "-2117922072951945878306089890164569481175",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 36,
+      "rhs": [
+        "-2085499434542146773760679561343935651799",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 37,
+      "rhs": [
+        "-2022935873965773959157854305143740112855",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 38,
+      "rhs": [
+        "-1803026974696524763496651451658081869783",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 39,
+      "rhs": [
+        "-1411622448997884200465273401604788133847",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 40,
+      "rhs": [
+        "-733928919824970266714921568881122156503",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "500633647688952002197455933933",
+        "633825300114114700748351602688"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 41,
+      "rhs": [
+        "-387780847952917310614320901120344399831",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "6549630649042140220233873491672409",
+        "1298074214633706907132624082305024"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 42,
+      "rhs": [
+        "-428771496780226001095771345336529788887",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "6549630649042140220233873491672409",
+        "1298074214633706907132624082305024"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 43,
+      "rhs": [
+        "-537541499393739674734781364219789909975",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "5108313869102609830854075923343909",
+        "1298074214633706907132624082305024"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 44,
+      "rhs": [
+        "-707443016143910952342488844808983879639",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "2920768665406000508612616310651563",
+        "2596148429267413814265248164610048"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 45,
+      "rhs": [
+        "-940205986616672029889764753371226382295",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 46,
+      "rhs": [
+        "-1204544119186203639262249213995161427927",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 47,
+      "rhs": [
+        "-1276797559249043555723208318473746718679",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 48,
+      "rhs": [
+        "-1020897909123977250787547433339549851607",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 49,
+      "rhs": [
+        "-1183703367833107776489540521255250108375",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 50,
+      "rhs": [
+        "-1088639822901241126811756659117479894999",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 51,
+      "rhs": [
+        "-1043167991936736429102211177816136818647",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 52,
+      "rhs": [
+        "-876318067322257413149873983700737138647",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 53,
+      "rhs": [
+        "-769935543553515006566033391140428783575",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "16983341006417984486794190231237985",
+        "5192296858534827628530496329220096"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 54,
+      "rhs": [
+        "-808029817015229171604614696173733617623",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "31543974255336852996670817268853425",
+        "5192296858534827628530496329220096"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 55,
+      "rhs": [
+        "-1350883110817684938963930016711781064663",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "14236318060220761862337083343825585",
+        "5192296858534827628530496329220096"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 56,
+      "rhs": [
+        "-1684491670415321386619167787531798257623",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 57,
+      "rhs": [
+        "-2052471176630956681732259564698168401879",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 58,
+      "rhs": [
+        "-2046750344596672810042905871362876710871",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 59,
+      "rhs": [
+        "-2062435715210224513516811298479785582551",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 60,
+      "rhs": [
+        "-1996989468140099767312123638551947452375",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 61,
+      "rhs": [
+        "-1682603785522669095480396647911099670487",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 62,
+      "rhs": [
+        "-1742376207439537893929216602493591429079",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 63,
+      "rhs": [
+        "-795292205461840936679045534308841234391",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "37372380333570462025191096091966905",
+        "10384593717069655257060992658440192"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 64,
+      "rhs": [
+        "592172594655683845954708494154786201641",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "57575131167062329862852033330168943",
+        "2596148429267413814265248164610048"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 65,
+      "rhs": [
+        "1964123113463567330452418615039177580585",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "85626535281792025098820919980634793",
+        "2596148429267413814265248164610048"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 66,
+      "rhs": [
+        "1939545616120925300255978532752570245161",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "85626535281792025098820919980634793",
+        "2596148429267413814265248164610048"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 67,
+      "rhs": [
+        "1785369375243228902433107972249473835049",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "85626535281792025098820919980634793",
+        "2596148429267413814265248164610048"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 68,
+      "rhs": [
+        "206063672684722650977650343129743679529",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "225108227809714481872924860254240415",
+        "10384593717069655257060992658440192"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 69,
+      "rhs": [
+        "-604876513497509057292416422340032667607",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "14069264238107154593514347084069895",
+        "649037107316853453566312041152512"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 70,
+      "rhs": [
+        "-727437428477670092281336014742969327575",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "225108227809714481872924860254240415",
+        "10384593717069655257060992658440192"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 71,
+      "rhs": [
+        "-1287905546912226875142058112843017822167",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "23466980934518001948040764614775525",
+        "1298074214633706907132624082305024"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 72,
+      "rhs": [
+        "345548470542915989216917991096783527977",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "23466980934518001948040764614775525",
+        "1298074214633706907132624082305024"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 73,
+      "rhs": [
+        "740739463414355444492622563633612775465",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "52106380717080328464655510489233495",
+        "2596148429267413814265248164610048"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 74,
+      "rhs": [
+        "922148238289074831895141481136835846185",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "53404454931714022509507598801402653",
+        "2596148429267413814265248164610048"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 75,
+      "rhs": [
+        "981336088723600710437434150153361612841",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "53404454931714035299730540533610583",
+        "2596148429267413814265248164610048"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 76,
+      "rhs": [
+        "1010791325040409047487460199161894330409",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "30819323592305278155941538744085239",
+        "1298074214633706907132624082305024"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 77,
+      "rhs": [
+        "1148011940683761367362036702676841979945",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "15409661796152639543342730866993847",
+        "649037107316853453566312041152512"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 78,
+      "rhs": [
+        "1360807859959649684809232977480065802281",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "16441952247208236407472667351367037",
+        "649037107316853453566312041152512"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 79,
+      "rhs": [
+        "810762044694169315234132470897969258537",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "26748503880393731146509839427633645",
+        "1298074214633706907132624082305024"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 80,
+      "rhs": [
+        "450876382487823762278891047947239219241",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "24219835069594288446557719279817175",
+        "1298074214633706907132624082305024"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 81,
+      "rhs": [
+        "229265684462024735993647779018979729449",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "1305121627791920269678969231731135",
+        "81129638414606681695789005144064"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 82,
+      "rhs": [
+        "338641572235968597522910219898933272617",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "1305121627791920269678969231731135",
+        "81129638414606681695789005144064"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 83,
+      "rhs": [
+        "13340565851594146720182997180885295145",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "123943142079915431282600458240485",
+        "10141204801825835211973625643008"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 84,
+      "rhs": [
+        "-429509969277290668591970893193817300951",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "9951300472546385158168552577821785",
+        "1298074214633706907132624082305024"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 85,
+      "rhs": [
+        "-497826896476582075104640045908828299223",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "12479969283345827858120672725638255",
+        "1298074214633706907132624082305024"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 86,
+      "rhs": [
+        "-1139429090049768068060711549098385678295",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "24959938566691653584537521829241855",
+        "2596148429267413814265248164610048"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 87,
+      "rhs": [
+        "-717221730856974592364458261264492077015",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "24959938566691653584537521829241855",
+        "2596148429267413814265248164610048"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 88,
+      "rhs": [
+        "192883029409246910449983423619266568233",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "13564433305263237211308697372709505",
+        "649037107316853453566312041152512"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 89,
+      "rhs": [
+        "1634573226743547113137530175227139514409",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "37269475920806345842549142843657649",
+        "1298074214633706907132624082305024"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 90,
+      "rhs": [
+        "-132176641314142633097534777369508650967",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "51092319877008943146061270945735683",
+        "2596148429267413814265248164610048"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 91,
+      "rhs": [
+        "-338132309824541128825439015618083758039",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "5448631305661911355849051747067127",
+        "649037107316853453566312041152512"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 92,
+      "rhs": [
+        "-417538368124967534847873224232662933463",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "5732604457139826592167378425241969",
+        "1298074214633706907132624082305024"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 93,
+      "rhs": [
+        "-1076377425480007312316366991189776211927",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 94,
+      "rhs": [
+        "-1303340025837962670300901520303674302423",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 95,
+      "rhs": [
+        "-992073984833671654298865366830660132823",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 96,
+      "rhs": [
+        "-1279614391450402565925892151221543706583",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 97,
+      "rhs": [
+        "-1429795362727292879955044223805032439767",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 98,
+      "rhs": [
+        "-1386008930734414705911450342743106068439",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 99,
+      "rhs": [
+        "-1255736519576180212569480753349679587287",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 100,
+      "rhs": [
+        "-1005947677850915278915410399532901408727",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 101,
+      "rhs": [
+        "-567431000587899733351341657282372902871",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "16983341006417984486794190231237985",
+        "5192296858534827628530496329220096"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 102,
+      "rhs": [
+        "-337529408353432004908691849138824749015",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "31543974255336852996670817268853425",
+        "5192296858534827628530496329220096"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 103,
+      "rhs": [
+        "-1231007573590054701419192604306615246807",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "14236318060220761862337083343825585",
+        "5192296858534827628530496329220096"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 104,
+      "rhs": [
+        "-1646008208075613103698811922994989834199",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 105,
+      "rhs": [
+        "-1839656401470848497048467054737131249623",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 106,
+      "rhs": [
+        "-1800933269031700021827643425818958307287",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 107,
+      "rhs": [
+        "-2033938365364282720497407717045966938071",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 108,
+      "rhs": [
+        "-1420371371760832337471874026582220677079",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 109,
+      "rhs": [
+        "-1281793596135020244763364104124476891095",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 110,
+      "rhs": [
+        "-1062307210531236301988494792513159110615",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 111,
+      "rhs": [
+        "-701099902214500890864187334382349918167",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "11927926711399774544361684581073165",
+        "1298074214633706907132624082305024"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 112,
+      "rhs": [
+        "1088842416848859545952561308798736719913",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "14393782791765387707547122695453527",
+        "649037107316853453566312041152512"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 113,
+      "rhs": [
+        "1993616058498587290965697304502062866473",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "342506141127168100245163692343522647",
+        "10384593717069655257060992658440192"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 114,
+      "rhs": [
+        "1820533693060263734258372864084094804009",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "42813267640896012084038498495366169",
+        "1298074214633706907132624082305024"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 115,
+      "rhs": [
+        "1459371201523216153162423786910907424809",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "42813267640896012084038498495366169",
+        "1298074214633706907132624082305024"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 116,
+      "rhs": [
+        "320777518427368598772163685303170687017",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "14069264238106960998778365184359255",
+        "649037107316853453566312041152512"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 117,
+      "rhs": [
+        "74742087796699829364067481389553999913",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "225108227809711376911197765939650535",
+        "10384593717069655257060992658440192"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 118,
+      "rhs": [
+        "19962986091184140665130815672023048233",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "14069264238106960998778365184359255",
+        "649037107316853453566312041152512"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 119,
+      "rhs": [
+        "-350694795915961986236382992189976682455",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "129684814118513172029488994802926595",
+        "10384593717069655257060992658440192"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 120,
+      "rhs": [
+        "-1241344376044768936375844319295562522583",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 121,
+      "rhs": [
+        "-1239046256627475021662387953520311476183",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 122,
+      "rhs": [
+        "-1238276387174381491365302335132244320215",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 123,
+      "rhs": [
+        "-1076018053160367011303338317014395461591",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 124,
+      "rhs": [
+        "-640787723561491572110113561254622601175",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "13674284809831100920111799279160663",
+        "2596148429267413814265248164610048"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 125,
+      "rhs": [
+        "-56684120704604436630861973931872427991",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "6508222811762062191682491725131107",
+        "649037107316853453566312041152512"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 126,
+      "rhs": [
+        "19585636639174794104655297928796102697",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "13016445623524124713628956124098569",
+        "1298074214633706907132624082305024"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 127,
+      "rhs": [
+        "-957317357905710735576263494818375606231",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "2501426277146404392131179014695289",
+        "1298074214633706907132624082305024"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 128,
+      "rhs": [
+        "-1639639926838715501702613902374843916247",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 129,
+      "rhs": [
+        "-2022607632943121513446228169210110877655",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 130,
+      "rhs": [
+        "-2217483465464974411198724805775640698839",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 131,
+      "rhs": [
+        "-2317833317656275277457160248207824854999",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 132,
+      "rhs": [
+        "-2315612542490103867577129036468710219735",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 133,
+      "rhs": [
+        "-2260509058813963299663236156113401356247",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 134,
+      "rhs": [
+        "-2033419388954662400539145685988107296727",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 135,
+      "rhs": [
+        "-1576634475562003277093782962432482680791",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 136,
+      "rhs": [
+        "-772194285979738948473223872999272161239",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "18014398509481983",
+        "36028797018963968"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 137,
+      "rhs": [
+        "-578952730665928065653533943980597649367",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "462435592365674048936070961379073",
+        "162259276829213363391578010288128"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 138,
+      "rhs": [
+        "-563933924019965433059484566285565501399",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "1918696220692982485201004088573",
+        "633825300114114700748351602688"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 139,
+      "rhs": [
+        "-677872988788752965443527741469889601495",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "681606702070448273760673351050921",
+        "324518553658426726783156020576256"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 140,
+      "rhs": [
+        "-855269831668929204559873610190636916695",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 141,
+      "rhs": [
+        "-1220936745835962158490941099620304887767",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 142,
+      "rhs": [
+        "-1572312630839003569246139614885426700247",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 143,
+      "rhs": [
+        "-1620972154249753626421641063913520832471",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 144,
+      "rhs": [
+        "-1296194511255967188351444649226291584983",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 145,
+      "rhs": [
+        "-1292060683889655569025427158101370281943",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 146,
+      "rhs": [
+        "-1243347051975771047368743896554040926167",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 147,
+      "rhs": [
+        "-1083661498166422190938025775209207766999",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 148,
+      "rhs": [
+        "-679189454330195124132709856599468875735",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "5684368579376902486304121684141129",
+        "1298074214633706907132624082305024"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 149,
+      "rhs": [
+        "-85332304067732512501761101807856066519",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "11363673116519581073196902153276079",
+        "1298074214633706907132624082305024"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 150,
+      "rhs": [
+        "-98116660232250981885623076820486135767",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "11363673116519581073196902153276079",
+        "1298074214633706907132624082305024"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 151,
+      "rhs": [
+        "-1040728508509557579246587353748161372119",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "3271206421897152556864600177853103",
+        "2596148429267413814265248164610048"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 152,
+      "rhs": [
+        "-1689215241698982035849518348875678556119",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 153,
+      "rhs": [
+        "-1983142782047688559470414399274539229143",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 154,
+      "rhs": [
+        "-2230157148862841811294985785106559344599",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 155,
+      "rhs": [
+        "-2328774595540400823925546979024721354711",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 156,
+      "rhs": [
+        "-2325600848474354247940636214841532424151",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 157,
+      "rhs": [
+        "-2340290889557868596229002107606411452375",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 158,
+      "rhs": [
+        "-2197368033122153749793891570937348693975",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 159,
+      "rhs": [
+        "-1766339052438098941950760341174964133847",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 160,
+      "rhs": [
+        "-1196237352782636524224047612363476508631",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 161,
+      "rhs": [
+        "-822145635553381193723220389206074269655",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "61994149964981566256478720411403409629906760169",
+        "45671926166590716193865151022383844364247891968"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 162,
+      "rhs": [
+        "-825586938056636207538847465290452639703",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "56101695103898452069010855398246708389768622569",
+        "45671926166590716193865151022383844364247891968"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 163,
+      "rhs": [
+        "-766253429929070999647118368237620764631",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "56101695103898453336661455626476039517727650281",
+        "45671926166590716193865151022383844364247891968"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 164,
+      "rhs": [
+        "-734220239278020384434385416315877662679",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "568132279130300893665655408336899",
+        "649037107316853453566312041152512"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 165,
+      "rhs": [
+        "-848633204795985858995747397071640928215",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 166,
+      "rhs": [
+        "-1153997238811740327933040099092040982487",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    },
+    {
+      "world": "days_321",
+      "hour": 167,
+      "rhs": [
+        "-1237584127970365024438962604366058430423",
+        "85070591730234615865843651857942052864"
+      ],
+      "control_activity": [
+        "0",
+        "1"
+      ],
+      "row_support": 24,
+      "residual_support": 40,
+      "state_blocks": {
+        "U": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "continuous_classes": {
+        "P": 19,
+        "theta": 0
+      }
+    }
+  ],
+  "rounds": [
+    {
+      "round": 1,
+      "nominee_accepted": false,
+      "status": "NO_SAVED_MASTER_VECTOR"
+    }
+  ],
+  "new_phase1_proofs": 0,
+  "new_exact_nominees": 0,
+  "positive": null,
+  "producer_final_common_verdict": "UNKNOWN",
+  "mathematical_positive_exists": false,
+  "backend_encoding_lifecycle_review": "SEPARATE_REQUIRED_GATE",
+  "seed_only_closure": true,
+  "support_census": [
+    {
+      "signature": {
+        "continuous_classes": {
+          "P": 19,
+          "theta": 0
+        },
+        "residual_support": 40,
+        "row_support": 24,
+        "state_blocks": {
+          "U": 21,
+          "Y": 0,
+          "Z": 0
+        }
+      },
+      "count": 336
+    }
+  ],
+  "reused_decoder_sha256": "708c3843425eea494a0561e83a275f7059f22bcd546a036705323d056bcf906f",
+  "reused_historical_independent_native_source_sha256": null,
+  "old_full_point_or_proof_replays": 0,
+  "producer_arithmetic_imports": 0,
+  "encoding_helper_imports": 0,
+  "optimizer_calls": 0,
+  "all_input_output_bytes_unchanged": true,
+  "elapsed_seconds": 10.199472599953879,
+  "scope": "Only new exact seed/cut/nomination/point mathematics; fixed expanded pair. Full publication additionally requires separate backend/encoding/lifecycle gate. No new case, discovery, integer-infeasibility or regret claim."
+}

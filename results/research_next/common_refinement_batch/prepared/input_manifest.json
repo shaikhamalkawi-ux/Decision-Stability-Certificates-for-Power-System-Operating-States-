@@ -1,0 +1,1779 @@
+{
+  "files": [
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\docs\\research_next\\FINITE_COMMON_REFINEMENT_BATCH_PROPOSAL.md",
+      "bytes": 6464,
+      "sha256": "ee165cf64fe72d39d5daa8a9ff7e725b5930587a4a0218b156c36d8a05482cbf"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\docs\\research_next\\FINITE_COMMON_BATCH_REVIEW_RESOLUTIONS.md",
+      "bytes": 3279,
+      "sha256": "a6ccc51946bede93639c2a8c92965db551f7f216202230e326c318d678b2d47c"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\docs\\research_next\\FINITE_COMMON_NETWORK_SEED_AMENDMENT.md",
+      "bytes": 6473,
+      "sha256": "035cafc23e92bd78a727b12734c0cdd57b00769ae0d7bcf353231c6deb3b88f7"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\docs\\research_next\\PHASE1_NETWORK_TEMPLATE_FEASIBILITY.md",
+      "bytes": 6712,
+      "sha256": "a6255c7a62cd10bfdf6d4846cdb9b4a87be17b7cd7ef76b8cb5a0f9c9806d2cd"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\docs\\research_next\\FINITE_COMMON_NETWORK_SEED_THEORY_REVIEW.md",
+      "bytes": 10824,
+      "sha256": "1a7dc4a886563f5db3e34958796e35c1313e748c1fecada6698af89dc010e673"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\docs\\research_next\\BINARY_CUT_ENCODING_PROTOCOL.md",
+      "bytes": 9615,
+      "sha256": "bf36b2495741888638963a4eda747f213815282da1cbaec96972470d4b945118"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\cut_encoding_controls\\synthetic_receipt.json",
+      "bytes": 11186,
+      "sha256": "a3003a79f0c84f4db9b9eca60035d06351016650f78bb1470ecf34a5ca6f7136"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master_bounded\\prepared\\prepared_freeze.json",
+      "bytes": 809,
+      "sha256": "75e9e276c356290129c85fefa9fdc5fb36f175174efb5b2e131bb96fdbef80d5"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master_bounded\\prepared\\input_manifest.json",
+      "bytes": 68173,
+      "sha256": "7bc0949abcd5aebb0d7ce4f2e68a3efa1105e9d1e25e54fd429dc04f4b33a19d"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master_bounded\\INDEPENDENT_POSTRUN_REVIEW.json",
+      "bytes": 1861,
+      "sha256": "d5b2c4baac6605ef98f6cc025757c5f36c372166931ba7afe870d5509fdc9ad2"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_phase1\\prepared\\prepared_freeze.json",
+      "bytes": 601,
+      "sha256": "9d2a0768eb785277d9b8ddf04483e0e83ed97ba628fff23e2a32b146649e1496"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_phase1\\prepared\\input_manifest.json",
+      "bytes": 83000,
+      "sha256": "9e4640c4bea127601201e3323f43471e2582eb9aab26ed6cb045f566c4f00d70"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_phase1\\producer_output_inventory.csv",
+      "bytes": 1591,
+      "sha256": "17e0c3649d538d82e70c47a5e1183c5e6d4fd48db825343ecfcebe885f3dee92"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_phase1_independent_review\\postrun_review.json",
+      "bytes": 15927,
+      "sha256": "8d16937fb7493b314d439dad48123c6c12dd94c69062b346d9bf8da56858e526"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\src\\researchnext_common_master_bounded.py",
+      "bytes": 41648,
+      "sha256": "62a2755aa289dc353893d3bf23ccf46ff839dffdf1937d5cdbc4320ce9526c18"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\src\\researchnext_common_phase1.py",
+      "bytes": 30653,
+      "sha256": "8af88d286e85f5807ab0bc11cc2450d10596f667e62f4b45c5279c8ebbc2eacb"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\src\\research8h_standalone_verify.py",
+      "bytes": 28861,
+      "sha256": "708c3843425eea494a0561e83a275f7059f22bcd546a036705323d056bcf906f"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\src\\researchnext_repaired_crossworld_schema2.py",
+      "bytes": 33024,
+      "sha256": "cf951d0dc5ac69df003b919df1e7d6400b71b25fc7e7e7ec7137b2480fc5b32d"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\src\\researchnext_common_scip.py",
+      "bytes": 23701,
+      "sha256": "e80a8e80b1a25def3f94564b3a33527a367fc21e4bd87ea52bcdbc2f3e16d8d5"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\src\\researchnext_common_commitment.py",
+      "bytes": 30198,
+      "sha256": "039af59750b4c165d877b9878ac14af02a202700b46739ba96a8914075ae3284"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\src\\researchnext_cut_encoding.py",
+      "bytes": 25884,
+      "sha256": "286620b092dcf6088f7973c5b3e4569f598d125a20562abe52989e9aaf8af22d"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master\\prepared\\prepared_freeze.json",
+      "bytes": 592,
+      "sha256": "39fe78153d0ecbb408035d074f35bc7566e4fd1c93dd3d80e118fedb6f90405c"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master\\prepared\\input_manifest.json",
+      "bytes": 57023,
+      "sha256": "c446c30eee6edc9b361b55bcb306bfdc8862916095d49a0ae26244753e265562"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\src\\researchnext_common_master.py",
+      "bytes": 38374,
+      "sha256": "0eea17f50b859db72cf6de5ad337263f6c984f7c30830861b5feb7500c39b76e"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\docs\\research_next\\COMMON_MASTER_PROTOCOL.md",
+      "bytes": 10317,
+      "sha256": "7d28d1aff986a0cac5e2ff6179712abce7baf14ba3e3a6c3f02bd04372d9c3d2"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\docs\\research_next\\CUT_CONSTRAINED_COMMITMENT_MASTER_PROPOSAL.md",
+      "bytes": 10906,
+      "sha256": "4abcf46f04bfdb9c58dac29ec357984af8e2e618e89d49b9956700d0ed7f7849"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_commitment\\prepared\\input_manifest.json",
+      "bytes": 13365,
+      "sha256": "8ff99b1f4450ac15e91b26a261a85c98d574bbbdac3f7fe149efd9fd07204a5c"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_commitment\\prepared\\prepared_freeze.json",
+      "bytes": 507,
+      "sha256": "4f21891d7d1f1793dd92e5b830edf5b5cf62474e5521d788c9aec17929ea9a59"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_commitment\\INDEPENDENT_PREPARED_REVIEW.json",
+      "bytes": 4110,
+      "sha256": "956b37cbcdd49571a6a79611da197a5be840a5c2747ffbd60576c90805d58e6b"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\union_affine_cut_schema2\\prepared\\input_manifest.json",
+      "bytes": 20577,
+      "sha256": "65235741d7860d9e99b0650c45ac209ba38ac028b758e4f12f1505ad2800f53c"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\union_affine_cut_schema2\\run01\\identity_cut.json",
+      "bytes": 1634164,
+      "sha256": "8ba409f8702486dcdebc7611a98609696348c41d46af8fa38d7e77b5614621cb"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\union_affine_cut_schema2\\run01\\days_321_cut.json",
+      "bytes": 1634176,
+      "sha256": "7fe192f2acd9ebd1e14eeecde3ece0e3d5d24ede8408e6047b1cb9dd597f30dd"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\union_affine_cut_schema2\\independent_postrun_review.json",
+      "bytes": 3208,
+      "sha256": "04b94ab9ca268615e1980066e6654fec58e01b92b96def0049a3dc94cff9a3f8"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\scip_capability\\setup01\\capability.json",
+      "bytes": 1025,
+      "sha256": "c21670a55e870f5abef24efb74d52b2de17d9e235a82eec0da0bfd7a4e74ebed"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\scip_capability\\setup01\\installed_payload_hashes.json",
+      "bytes": 10186,
+      "sha256": "a188acdf861190c3f77fc1122ab9bb08cf9ac1594d164c0daeb033e6e11ffe33"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\docs\\research_next\\COMMON_COMMITMENT_PROTOCOL.md",
+      "bytes": 10038,
+      "sha256": "08838becbd0d679f6131421c566534f19c93f535e7baa3b4b00d30b985ccab21"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\src\\research8h_rational_witness_check.py",
+      "bytes": 10706,
+      "sha256": "9cb836d420308a2ffc5b6e50e78cb565a823d5b65d1223c0f53d98910de5680d"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\reproducibility\\native_sources\\rts_inputs\\raw\\RTS-GMLC_v0.2.3\\gen.csv",
+      "bytes": 32451,
+      "sha256": "988466f29132b73739de60c9204dd4a2a9ceb0adf572e5966c086611272f4068"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\whole_day_observation_preflight\\run01\\outcomes.json",
+      "bytes": 16320,
+      "sha256": "094a603e382a2f4d4b0fd6dd38f2a889ac664e46fea16389d3b226e0339f0bce"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\whole_day_observation_preflight\\INDEPENDENT_RESULT_REVIEW.json",
+      "bytes": 44738,
+      "sha256": "67ec0ae2a75e5c1b239143b5f63f3bca317f4d6f2ec2e0ac4e1b30143a3a441d"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\hour_of_day\\input_manifest.csv",
+      "bytes": 24458,
+      "sha256": "078082667f83322d3540ad3ac215ebcc996d0d31b04fd52bfa75c1d2fd814fcc"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\hour_of_day\\january_identity\\matrix.npz",
+      "bytes": 199281,
+      "sha256": "2f11940f72432a2a2e89e4a88115eba3cf24a8e82a8110e250c6191020c1f0bb"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\hour_of_day\\january_identity\\bounds.npz",
+      "bytes": 52283,
+      "sha256": "44ddedc6dd4b06028b9c7d10180cac4889dd51658a560d49f66ef8f3e31ab2d2"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\hour_of_day\\january_identity\\integrality.npz",
+      "bytes": 282,
+      "sha256": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\hour_of_day\\january_identity\\model_metadata.json",
+      "bytes": 2474,
+      "sha256": "1d8281f53cc1c08f73d1fdc8d66a7825d2f34377ba933c13d0e5e0be8b223fa4"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\hour_of_day\\january_identity\\native_inputs.npz",
+      "bytes": 26497,
+      "sha256": "5f917f58e4fd50ae1e0d9198fd84e81f57adb1f24b530d1ed5bb71d99714a960"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\hour_of_day\\january_identity\\permutation.csv",
+      "bytes": 2361,
+      "sha256": "94352d5ec4282e9757c259bd336faae046eecbba3231b57b96e7a60257252580"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\hour_of_day\\january_identity\\row_metadata.csv.gz",
+      "bytes": 147013,
+      "sha256": "e749fc61f6807729b78154a3cce4a3f9cfa345fd9da946745e74e101b295107a"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\day_blocks\\input_manifest.csv",
+      "bytes": 28426,
+      "sha256": "5f15b13ce9b15abb1ff6256a4e10fc568ab5384e01a324160b0e522b31c8927d"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\day_blocks\\days_321\\matrix.npz",
+      "bytes": 199281,
+      "sha256": "2f11940f72432a2a2e89e4a88115eba3cf24a8e82a8110e250c6191020c1f0bb"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\day_blocks\\days_321\\bounds.npz",
+      "bytes": 52776,
+      "sha256": "5a5f697b0be8cac253c9ca5c607586ab440fcd8276ede98648c6ce179bca1e6d"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\day_blocks\\days_321\\integrality.npz",
+      "bytes": 282,
+      "sha256": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\day_blocks\\days_321\\model_metadata.json",
+      "bytes": 2474,
+      "sha256": "1d8281f53cc1c08f73d1fdc8d66a7825d2f34377ba933c13d0e5e0be8b223fa4"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\day_blocks\\days_321\\native_inputs.npz",
+      "bytes": 26526,
+      "sha256": "65de9acfa3dc685ed9de1d3883fcca08addf2507d75632114984f269c7693622"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\day_blocks\\days_321\\permutation.csv",
+      "bytes": 1908,
+      "sha256": "6d2136284699f1a6075a2497c9d071936ae63cfb89f5136c1e1af3fc7c3af275"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\day_blocks\\days_321\\row_metadata.csv.gz",
+      "bytes": 147013,
+      "sha256": "eb73c440b322d0218299b5811de3db39e8335eac7dd014247ab4224be92f1efe"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_commitment\\prepared\\assembly_checks.json",
+      "bytes": 3651,
+      "sha256": "abcc1f31ff41c40caeccaebda7ddd515bc9e612d59828c9934f66be9a1736a51"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_commitment\\prepared\\gen.csv",
+      "bytes": 32451,
+      "sha256": "988466f29132b73739de60c9204dd4a2a9ceb0adf572e5966c086611272f4068"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_commitment\\prepared\\plan.json",
+      "bytes": 1314,
+      "sha256": "0fa3248558e8150c135d22e616f10710017cf0735ed09d96b73c04c35c4c1c83"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_commitment\\prepared\\preparation_started.json",
+      "bytes": 254,
+      "sha256": "2f14358bc8378e16613d1d5daf76be1b74eb51aa864bf0d713ced3c2a0bdc8a7"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_commitment\\prepared\\days_321\\bounds.npz",
+      "bytes": 52776,
+      "sha256": "5a5f697b0be8cac253c9ca5c607586ab440fcd8276ede98648c6ce179bca1e6d"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_commitment\\prepared\\days_321\\integrality.npz",
+      "bytes": 282,
+      "sha256": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_commitment\\prepared\\days_321\\matrix.npz",
+      "bytes": 199281,
+      "sha256": "2f11940f72432a2a2e89e4a88115eba3cf24a8e82a8110e250c6191020c1f0bb"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_commitment\\prepared\\days_321\\model_metadata.json",
+      "bytes": 2474,
+      "sha256": "1d8281f53cc1c08f73d1fdc8d66a7825d2f34377ba933c13d0e5e0be8b223fa4"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_commitment\\prepared\\days_321\\native_inputs.npz",
+      "bytes": 26526,
+      "sha256": "65de9acfa3dc685ed9de1d3883fcca08addf2507d75632114984f269c7693622"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_commitment\\prepared\\days_321\\native_spec.json",
+      "bytes": 18523,
+      "sha256": "9a2c78233792adb44a3a50ba7510769185457660551f92892941eeda1bacffd3"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_commitment\\prepared\\days_321\\permutation.csv",
+      "bytes": 1908,
+      "sha256": "6d2136284699f1a6075a2497c9d071936ae63cfb89f5136c1e1af3fc7c3af275"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_commitment\\prepared\\days_321\\row_metadata.csv.gz",
+      "bytes": 147013,
+      "sha256": "eb73c440b322d0218299b5811de3db39e8335eac7dd014247ab4224be92f1efe"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_commitment\\prepared\\identity\\bounds.npz",
+      "bytes": 52283,
+      "sha256": "44ddedc6dd4b06028b9c7d10180cac4889dd51658a560d49f66ef8f3e31ab2d2"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_commitment\\prepared\\identity\\integrality.npz",
+      "bytes": 282,
+      "sha256": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_commitment\\prepared\\identity\\matrix.npz",
+      "bytes": 199281,
+      "sha256": "2f11940f72432a2a2e89e4a88115eba3cf24a8e82a8110e250c6191020c1f0bb"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_commitment\\prepared\\identity\\model_metadata.json",
+      "bytes": 2474,
+      "sha256": "1d8281f53cc1c08f73d1fdc8d66a7825d2f34377ba933c13d0e5e0be8b223fa4"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_commitment\\prepared\\identity\\native_inputs.npz",
+      "bytes": 26497,
+      "sha256": "5f917f58e4fd50ae1e0d9198fd84e81f57adb1f24b530d1ed5bb71d99714a960"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_commitment\\prepared\\identity\\native_spec.json",
+      "bytes": 18523,
+      "sha256": "9a2c78233792adb44a3a50ba7510769185457660551f92892941eeda1bacffd3"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_commitment\\prepared\\identity\\permutation.csv",
+      "bytes": 2361,
+      "sha256": "94352d5ec4282e9757c259bd336faae046eecbba3231b57b96e7a60257252580"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_commitment\\prepared\\identity\\row_metadata.csv.gz",
+      "bytes": 147013,
+      "sha256": "e749fc61f6807729b78154a3cce4a3f9cfa345fd9da946745e74e101b295107a"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_commitment\\prepared\\joint\\bounds.npz",
+      "bytes": 103580,
+      "sha256": "a518cdf095baee03ea4480c15f80fe9e55aa9aff230e31987623e38b5a94c4cc"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_commitment\\prepared\\joint\\column_maps.json",
+      "bytes": 772421,
+      "sha256": "ced46514e0a6525a21f24aab86dea4b6e3ce0f27440f6dee53a47093dbc0f4bb"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_commitment\\prepared\\joint\\integrality.npz",
+      "bytes": 291,
+      "sha256": "047eaf6164b000c7cac99b630d0067a8e3936528d321877b83c2261fb8257be6"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_commitment\\prepared\\joint\\matrix.npz",
+      "bytes": 400050,
+      "sha256": "1266104d52944d29d2ac2bfbd1ce89b12b1da4e58c0a2590b33a98e29eb66074"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_commitment\\prepared\\joint\\row_origins.json",
+      "bytes": 2613562,
+      "sha256": "b2845b979bac228548d6b3557da24d3c6bfea500c4284299a97fe1a20dd253fe"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\src\\researchnext_union_affine_cut.py",
+      "bytes": 19422,
+      "sha256": "746022d4ef39c7a5bc97969c32b644cc268b1a5c3a4ddf79d64082537bb7f541"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\docs\\research_next\\UNION_AFFINE_CUT_PROTOCOL.md",
+      "bytes": 6907,
+      "sha256": "2ab0739a10463712d1d31b19433e97a085c50086035661c14246e4da0d66e036"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\union_affine_cut\\prepared\\prepared_freeze.json",
+      "bytes": 447,
+      "sha256": "5c3199380ed8e6502384f5a3790104291f7723b8a086911aa6c53606de99b7dc"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\union_affine_cut\\prepared\\input_manifest.json",
+      "bytes": 14815,
+      "sha256": "21402d45b3d1796c99ff8e5c51e14953a1f2bb4eae51a4eed70facdd91d1696a"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\union_affine_cut\\run01\\failure.json",
+      "bytes": 352,
+      "sha256": "e5934c8fc7d1bad2e93746170113379f072a642024ee6e0a57bbae2f83eaee7b"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\union_affine_cut\\CONTROL_SCHEMA_DIAGNOSIS.json",
+      "bytes": 564,
+      "sha256": "55b27d44a5dff0206c5ba179290068fbae393b92b2fa40475ee5155b09f38b01"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\docs\\research_next\\UNION_AFFINE_CUT_PROPOSAL.md",
+      "bytes": 9246,
+      "sha256": "83feed5e953c0a5897d0754465815f1b30992f226f6743c379eb74461c487092"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\src\\researchnext_union_energy_floor.py",
+      "bytes": 8470,
+      "sha256": "dfb8069926c180edd266a5b8bc92a0154737627ab437a83d7f6fa80eb8bb53ee"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\docs\\research_next\\UNION_ENERGY_FLOOR_PROTOCOL.md",
+      "bytes": 2842,
+      "sha256": "b743544e02be563c750abf3f73ebcca13ee7c10b8cb9a3fea7d91774997e61ec"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_union\\prepared\\prepared_freeze.json",
+      "bytes": 488,
+      "sha256": "8d5e348d91db8ae082a1a036d2359ac382891b25849e9e682fb833e9ae52d0a2"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_union\\prepared\\input_manifest.json",
+      "bytes": 26165,
+      "sha256": "1337e9674d15fc52023733b8c72b1140c20d01a472a287fd43a90cd5719d3a2d"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\union_energy_floor\\started.json",
+      "bytes": 4112,
+      "sha256": "6f8b0150abc8ecad2e53a4c727dca85c6fa68374f2298787f0755a2ecd81ac95"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\union_energy_floor\\result.json",
+      "bytes": 2147,
+      "sha256": "3d6577baf7f63c538fd1a7717a369dad625714d3f2edf3d731b4f1f72be39d49"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\union_energy_floor\\identity_derivations.json",
+      "bytes": 3723435,
+      "sha256": "ddb42e1a8f6fddbd3091cfda0f1105a4f50223f9109ff985c7783f9881b07260"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\union_energy_floor\\days_321_derivations.json",
+      "bytes": 3723435,
+      "sha256": "d8c767688bf12b30efcc850ddd6f0cd01b49671a1952dcc361cef296e7fa6671"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\union_energy_floor\\INDEPENDENT_REVIEW.json",
+      "bytes": 3381,
+      "sha256": "4ce224e7242bbad68ccfd5a9a5220b63e0b66d1db97848dda3098fa56743da9e"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_commitment\\INDEPENDENT_POSTRUN_REVIEW.json",
+      "bytes": 5391,
+      "sha256": "f442edeb3f90c5d602a1b60cdef1b96b4d560ebbe97fae28c4ca21c6077eadba"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_commitment\\INDEPENDENT_LP_NONBINARY_STATES.json",
+      "bytes": 153265,
+      "sha256": "bc371fa53ae5f94d3f1536eefc526871b60d4de2f7bae4b027a088d9d2ba4282"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_commitment\\run01\\lp\\raw_solution.npz",
+      "bytes": 215207,
+      "sha256": "90c8b308a6ce8e7671adbe3059887d6ce27489fa3d68aa601c2474b32d2d462a"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_union\\prepared\\candidate_schedule.json",
+      "bytes": 1014994,
+      "sha256": "2731f18658aace866976ab2a524ab33f68fea81f9d136cc4bc627506b7cbd4d6"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_union\\prepared\\joint\\column_maps.json",
+      "bytes": 772421,
+      "sha256": "ced46514e0a6525a21f24aab86dea4b6e3ce0f27440f6dee53a47093dbc0f4bb"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_union\\prepared\\identity\\matrix.npz",
+      "bytes": 199281,
+      "sha256": "2f11940f72432a2a2e89e4a88115eba3cf24a8e82a8110e250c6191020c1f0bb"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_union\\prepared\\identity\\bounds.npz",
+      "bytes": 52283,
+      "sha256": "44ddedc6dd4b06028b9c7d10180cac4889dd51658a560d49f66ef8f3e31ab2d2"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_union\\prepared\\identity\\integrality.npz",
+      "bytes": 282,
+      "sha256": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_union\\prepared\\identity\\model_metadata.json",
+      "bytes": 2474,
+      "sha256": "1d8281f53cc1c08f73d1fdc8d66a7825d2f34377ba933c13d0e5e0be8b223fa4"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_union\\prepared\\days_321\\matrix.npz",
+      "bytes": 199281,
+      "sha256": "2f11940f72432a2a2e89e4a88115eba3cf24a8e82a8110e250c6191020c1f0bb"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_union\\prepared\\days_321\\bounds.npz",
+      "bytes": 52776,
+      "sha256": "5a5f697b0be8cac253c9ca5c607586ab440fcd8276ede98648c6ce179bca1e6d"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_union\\prepared\\days_321\\integrality.npz",
+      "bytes": 282,
+      "sha256": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_union\\prepared\\days_321\\model_metadata.json",
+      "bytes": 2474,
+      "sha256": "1d8281f53cc1c08f73d1fdc8d66a7825d2f34377ba933c13d0e5e0be8b223fa4"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\union_affine_cut\\prepared\\candidate_schedule.json",
+      "bytes": 1014994,
+      "sha256": "2731f18658aace866976ab2a524ab33f68fea81f9d136cc4bc627506b7cbd4d6"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\union_affine_cut\\prepared\\joint\\column_maps.json",
+      "bytes": 772421,
+      "sha256": "ced46514e0a6525a21f24aab86dea4b6e3ce0f27440f6dee53a47093dbc0f4bb"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\union_affine_cut\\prepared\\identity\\matrix.npz",
+      "bytes": 199281,
+      "sha256": "2f11940f72432a2a2e89e4a88115eba3cf24a8e82a8110e250c6191020c1f0bb"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\union_affine_cut\\prepared\\identity\\bounds.npz",
+      "bytes": 52283,
+      "sha256": "44ddedc6dd4b06028b9c7d10180cac4889dd51658a560d49f66ef8f3e31ab2d2"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\union_affine_cut\\prepared\\identity\\integrality.npz",
+      "bytes": 282,
+      "sha256": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\union_affine_cut\\prepared\\identity\\model_metadata.json",
+      "bytes": 2474,
+      "sha256": "1d8281f53cc1c08f73d1fdc8d66a7825d2f34377ba933c13d0e5e0be8b223fa4"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\union_affine_cut\\prepared\\days_321\\matrix.npz",
+      "bytes": 199281,
+      "sha256": "2f11940f72432a2a2e89e4a88115eba3cf24a8e82a8110e250c6191020c1f0bb"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\union_affine_cut\\prepared\\days_321\\bounds.npz",
+      "bytes": 52776,
+      "sha256": "5a5f697b0be8cac253c9ca5c607586ab440fcd8276ede98648c6ce179bca1e6d"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\union_affine_cut\\prepared\\days_321\\integrality.npz",
+      "bytes": 282,
+      "sha256": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\union_affine_cut\\prepared\\days_321\\model_metadata.json",
+      "bytes": 2474,
+      "sha256": "1d8281f53cc1c08f73d1fdc8d66a7825d2f34377ba933c13d0e5e0be8b223fa4"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\union_affine_cut\\prepared\\identity\\derivations.json",
+      "bytes": 3723435,
+      "sha256": "ddb42e1a8f6fddbd3091cfda0f1105a4f50223f9109ff985c7783f9881b07260"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\union_affine_cut\\prepared\\days_321\\derivations.json",
+      "bytes": 3723435,
+      "sha256": "d8c767688bf12b30efcc850ddd6f0cd01b49671a1952dcc361cef296e7fa6671"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\union_affine_cut\\prepared\\floor_result.json",
+      "bytes": 2147,
+      "sha256": "3d6577baf7f63c538fd1a7717a369dad625714d3f2edf3d731b4f1f72be39d49"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\union_affine_cut\\prepared\\continuous_control.npz",
+      "bytes": 215207,
+      "sha256": "90c8b308a6ce8e7671adbe3059887d6ce27489fa3d68aa601c2474b32d2d462a"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\src\\researchnext_union_affine_cut_schema2.py",
+      "bytes": 21134,
+      "sha256": "03f02661cbe33757d1ee7a9255a144b643b2cb541c986785f8eeeb7038b92ff6"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\docs\\research_next\\UNION_AFFINE_CUT_SCHEMA2_PROTOCOL.md",
+      "bytes": 8476,
+      "sha256": "83380d167530d8b040fe353cb9a91af058e150f5b3cf00629bab787fc0deefaa"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\union_affine_cut_schema2\\prepared\\candidate_schedule.json",
+      "bytes": 1014994,
+      "sha256": "2731f18658aace866976ab2a524ab33f68fea81f9d136cc4bc627506b7cbd4d6"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\union_affine_cut_schema2\\prepared\\continuous_control.npz",
+      "bytes": 215207,
+      "sha256": "90c8b308a6ce8e7671adbe3059887d6ce27489fa3d68aa601c2474b32d2d462a"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\union_affine_cut_schema2\\prepared\\copy_provenance.json",
+      "bytes": 8833,
+      "sha256": "6f0e0b1425248b2a941748cbb0e4bcb82799c635658c3e122c0c81d8c0128997"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\union_affine_cut_schema2\\prepared\\floor_result.json",
+      "bytes": 2147,
+      "sha256": "3d6577baf7f63c538fd1a7717a369dad625714d3f2edf3d731b4f1f72be39d49"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\union_affine_cut_schema2\\prepared\\plan.json",
+      "bytes": 605,
+      "sha256": "f9d93626b1f450a413ead7cc5ea2efa233d5aa62479a9ec53082502ad6ca7790"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\union_affine_cut_schema2\\prepared\\preparation_started.json",
+      "bytes": 100,
+      "sha256": "b165bc0f24bcbaf3c3eea6bd9e2ce0c6a796dd45e3ce32a50556f04e8419be1c"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\union_affine_cut_schema2\\prepared\\days_321\\bounds.npz",
+      "bytes": 52776,
+      "sha256": "5a5f697b0be8cac253c9ca5c607586ab440fcd8276ede98648c6ce179bca1e6d"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\union_affine_cut_schema2\\prepared\\days_321\\derivations.json",
+      "bytes": 3723435,
+      "sha256": "d8c767688bf12b30efcc850ddd6f0cd01b49671a1952dcc361cef296e7fa6671"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\union_affine_cut_schema2\\prepared\\days_321\\integrality.npz",
+      "bytes": 282,
+      "sha256": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\union_affine_cut_schema2\\prepared\\days_321\\matrix.npz",
+      "bytes": 199281,
+      "sha256": "2f11940f72432a2a2e89e4a88115eba3cf24a8e82a8110e250c6191020c1f0bb"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\union_affine_cut_schema2\\prepared\\days_321\\model_metadata.json",
+      "bytes": 2474,
+      "sha256": "1d8281f53cc1c08f73d1fdc8d66a7825d2f34377ba933c13d0e5e0be8b223fa4"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\union_affine_cut_schema2\\prepared\\identity\\bounds.npz",
+      "bytes": 52283,
+      "sha256": "44ddedc6dd4b06028b9c7d10180cac4889dd51658a560d49f66ef8f3e31ab2d2"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\union_affine_cut_schema2\\prepared\\identity\\derivations.json",
+      "bytes": 3723435,
+      "sha256": "ddb42e1a8f6fddbd3091cfda0f1105a4f50223f9109ff985c7783f9881b07260"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\union_affine_cut_schema2\\prepared\\identity\\integrality.npz",
+      "bytes": 282,
+      "sha256": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\union_affine_cut_schema2\\prepared\\identity\\matrix.npz",
+      "bytes": 199281,
+      "sha256": "2f11940f72432a2a2e89e4a88115eba3cf24a8e82a8110e250c6191020c1f0bb"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\union_affine_cut_schema2\\prepared\\identity\\model_metadata.json",
+      "bytes": 2474,
+      "sha256": "1d8281f53cc1c08f73d1fdc8d66a7825d2f34377ba933c13d0e5e0be8b223fa4"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\union_affine_cut_schema2\\prepared\\joint\\column_maps.json",
+      "bytes": 772421,
+      "sha256": "ced46514e0a6525a21f24aab86dea4b6e3ce0f27440f6dee53a47093dbc0f4bb"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\scip_capability_env01\\Lib\\site-packages\\numpy-2.3.5.dist-info\\direct_url.json",
+      "bytes": 339,
+      "sha256": "555423ff3fa7ca3a39be890dd08dc51e414b48660e4f6b30bb5f10bd620a5992"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\scip_capability_env01\\Lib\\site-packages\\numpy-2.3.5.dist-info\\INSTALLER",
+      "bytes": 4,
+      "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\scip_capability_env01\\Lib\\site-packages\\numpy-2.3.5.dist-info\\METADATA",
+      "bytes": 60935,
+      "sha256": "7f8a1bfc2b82fee89e1ceef1038aa174ee814832b54c39b4b1b93028ce3f27b1"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\scip_capability_env01\\Lib\\site-packages\\numpy-2.3.5.dist-info\\RECORD",
+      "bytes": 110665,
+      "sha256": "d33f1b8d22f9976e961ce4a221e00e04ebffe08f0edaed369d4c306133da3d40"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\scip_capability_env01\\Lib\\site-packages\\numpy-2.3.5.dist-info\\WHEEL",
+      "bytes": 85,
+      "sha256": "e743de01ba6503a3e4234858398a1e69c07d512d51e8482ec9f3a7b1c707d165"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\scip_capability_env01\\Lib\\site-packages\\numpy.libs\\libscipy_openblas64_-9e3e5a4229c1ca39f10dc82bba9e2b2b.dll",
+      "bytes": 20403712,
+      "sha256": "9e3e5a4229c1ca39f10dc82bba9e2b2bf48037790932566f37aff1a7ccf3588f"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\scip_capability_env01\\Lib\\site-packages\\numpy.libs\\msvcp140-a4c2229bdc2a2a630acdc095b4d86008.dll",
+      "bytes": 575056,
+      "sha256": "a4c2229bdc2a2a630acdc095b4d86008e5c3e3bc7773174354f3da4f5beb9cde"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\scip_capability_env01\\Lib\\site-packages\\pip-25.0.1.dist-info\\INSTALLER",
+      "bytes": 4,
+      "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\scip_capability_env01\\Lib\\site-packages\\pip-25.0.1.dist-info\\METADATA",
+      "bytes": 3677,
+      "sha256": "4fa7318cf30f979db7cec45c12cbbc2b4f88a15f12eefbf59a6291d0a03af926"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\scip_capability_env01\\Lib\\site-packages\\pip-25.0.1.dist-info\\RECORD",
+      "bytes": 65740,
+      "sha256": "b3e1f50f6ab2f065f85695fc9732fdedf0a39e8d115a0d2f922224be6c233c13"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\scip_capability_env01\\Lib\\site-packages\\pip-25.0.1.dist-info\\WHEEL",
+      "bytes": 91,
+      "sha256": "227f454cdc5e3fad0a9d3906c3bc24ea624f61dfdd4128c46665dd05d30223ef"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\scip_capability_env01\\Lib\\site-packages\\pyscipopt\\scip.cp312-win_amd64.pyd",
+      "bytes": 3134976,
+      "sha256": "16d0b837405f79b2b9650dd4c18e7c72e0d5e7222623a51c83e0b65bcb701897"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\scip_capability_env01\\Lib\\site-packages\\pyscipopt-6.2.1.dist-info\\direct_url.json",
+      "bytes": 343,
+      "sha256": "d46627ef3fc60c1cfa5ab61b341918d0eaaeae423cf3a48201238b47881df989"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\scip_capability_env01\\Lib\\site-packages\\pyscipopt-6.2.1.dist-info\\INSTALLER",
+      "bytes": 4,
+      "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\scip_capability_env01\\Lib\\site-packages\\pyscipopt-6.2.1.dist-info\\METADATA",
+      "bytes": 7633,
+      "sha256": "9394980d8f0b328aac781ccb278dda8e6151f241a33e3688ec7f12a3dd13ccce"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\scip_capability_env01\\Lib\\site-packages\\pyscipopt-6.2.1.dist-info\\RECORD",
+      "bytes": 5148,
+      "sha256": "fa11b097481db320fe6bca53f1f1e4c51b613ba47fdcea9e5550ce51602b5a82"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\scip_capability_env01\\Lib\\site-packages\\pyscipopt-6.2.1.dist-info\\WHEEL",
+      "bytes": 101,
+      "sha256": "ad1e507ec59c665de6adae409920fb15dd1dcd0c59de51c2a43a3bd0891f0cae"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\scip_capability_env01\\Lib\\site-packages\\pyscipopt.libs\\coinmumps-3-179ba8bf43f95bbadacde7fbc058c4df.dll",
+      "bytes": 13915136,
+      "sha256": "81c4bf11e65768928aa141f81054688fa492a570b20d7532daa88902bd7d72b2"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\scip_capability_env01\\Lib\\site-packages\\pyscipopt.libs\\ipopt-3-9948be002064791f542b117490eb329a.dll",
+      "bytes": 88645632,
+      "sha256": "e3acf4ff81319f2174e836f37f2bf7990f2810e25e060b90ff026db255ebfeb1"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\scip_capability_env01\\Lib\\site-packages\\pyscipopt.libs\\libifcoremd-0f996d3c2ff10fe7dd667dc6228dd4f0.dll",
+      "bytes": 1270272,
+      "sha256": "ff9842aa45eff7b6c19ab03fb529c37f7343648ee95066c2f995ee0fcef9904a"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\scip_capability_env01\\Lib\\site-packages\\pyscipopt.libs\\libiomp5md-999e2141f7e6c20e7b5fc78b0e0a47aa.dll",
+      "bytes": 1247360,
+      "sha256": "999e2141f7e6c20e7b5fc78b0e0a47aaf40e219f611e77d2423bbd4f0aaabd7e"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\scip_capability_env01\\Lib\\site-packages\\pyscipopt.libs\\libmmd-d69808fff3d92cab6246b30c6fe90bd3.dll",
+      "bytes": 4146304,
+      "sha256": "d69808fff3d92cab6246b30c6fe90bd3f521a095e2d8bb9417f83f6fbde574d7"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\scip_capability_env01\\Lib\\site-packages\\pyscipopt.libs\\libscip-124f84127289e961b10d4c9def2be268.dll",
+      "bytes": 12396032,
+      "sha256": "b6869b8681ddf252b9da93170fc689c67051fa4ed2f60bf6795e4bc8b5a9b5c2"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\scip_capability_env01\\Lib\\site-packages\\pyscipopt.libs\\msvcp140-a4c2229bdc2a2a630acdc095b4d86008.dll",
+      "bytes": 575056,
+      "sha256": "a4c2229bdc2a2a630acdc095b4d86008e5c3e3bc7773174354f3da4f5beb9cde"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\scip_capability_env01\\Lib\\site-packages\\pyscipopt.libs\\svml_dispmd-df5493fc29b0d98f8c0b06b852908b2b.dll",
+      "bytes": 18271360,
+      "sha256": "df5493fc29b0d98f8c0b06b852908b2bacb7130c5e634b4a9a53b97c6c970f27"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\scip_capability_env01\\Lib\\site-packages\\numpy\\fft\\_pocketfft_umath.cp312-win_amd64.pyd",
+      "bytes": 276480,
+      "sha256": "a29b6a1f92268e1ff21e125e713d3221ac8f69cbf212183ec31827ba67a7534b"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\scip_capability_env01\\Lib\\site-packages\\numpy\\linalg\\lapack_lite.cp312-win_amd64.pyd",
+      "bytes": 18432,
+      "sha256": "82fae8d4523a23cb48d665bf5a22d064731470d8ef620bda4cba392c1a395a87"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\scip_capability_env01\\Lib\\site-packages\\numpy\\linalg\\_umath_linalg.cp312-win_amd64.pyd",
+      "bytes": 112128,
+      "sha256": "bb838944cd6ded87f6ce9c084a29741256e966269cf0246691bbefbcbf5d4f7a"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\scip_capability_env01\\Lib\\site-packages\\numpy\\random\\bit_generator.cp312-win_amd64.pyd",
+      "bytes": 158208,
+      "sha256": "279e489c370c2a57bb27ae853e65e94f7cf351ed354357007231ef86df6d197b"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\scip_capability_env01\\Lib\\site-packages\\numpy\\random\\mtrand.cp312-win_amd64.pyd",
+      "bytes": 482304,
+      "sha256": "9350e651ecb23b7a385bcdd45861adfe5f4dc4aef7795a756e59ce3ef12708ea"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\scip_capability_env01\\Lib\\site-packages\\numpy\\random\\_bounded_integers.cp312-win_amd64.pyd",
+      "bytes": 207360,
+      "sha256": "d7b5737c3435a4e7864e82b6f3ab3b36c10486da97b8825ef3d7c9925e22c890"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\scip_capability_env01\\Lib\\site-packages\\numpy\\random\\_common.cp312-win_amd64.pyd",
+      "bytes": 160256,
+      "sha256": "bafdc0de4991d7038841c62db6103ca7c62033cbf0627dbf7421a21b38d25e59"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\scip_capability_env01\\Lib\\site-packages\\numpy\\random\\_generator.cp312-win_amd64.pyd",
+      "bytes": 585216,
+      "sha256": "12147b0cd934fba08e7f45b475ff3992cbf1295ac9e6237613481c4bf48edcfc"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\scip_capability_env01\\Lib\\site-packages\\numpy\\random\\_mt19937.cp312-win_amd64.pyd",
+      "bytes": 83968,
+      "sha256": "e001ba24c2f762dc2ee7e3b15f528d19c718b04e4d53c0b6d36b1e98adc9e4eb"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\scip_capability_env01\\Lib\\site-packages\\numpy\\random\\_pcg64.cp312-win_amd64.pyd",
+      "bytes": 94720,
+      "sha256": "a17ecfee39793ec0fc6800f2767a5d306a9711ad92049a9d143dabc21e4e9e7d"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\scip_capability_env01\\Lib\\site-packages\\numpy\\random\\_philox.cp312-win_amd64.pyd",
+      "bytes": 78336,
+      "sha256": "946b51b025904e98aadfcec25e2af773866a4509039021068bb87e2bd4181bed"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\scip_capability_env01\\Lib\\site-packages\\numpy\\random\\_sfc64.cp312-win_amd64.pyd",
+      "bytes": 59904,
+      "sha256": "35286675f95992f2e3ced5a37c2d08ff9d7289320fb6bdeb7ee9d1b9bc6f57b3"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\scip_capability_env01\\Lib\\site-packages\\numpy\\_core\\_multiarray_tests.cp312-win_amd64.pyd",
+      "bytes": 63488,
+      "sha256": "8a74123fcebe612181d5d73d36dbbdeb2acf3dfcb9a5d05a82a5aa76a8dfc4a9"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\scip_capability_env01\\Lib\\site-packages\\numpy\\_core\\_multiarray_umath.cp312-win_amd64.pyd",
+      "bytes": 4529152,
+      "sha256": "f3864a0c1d52317877a9d5b48262f89360f7d67854ae68c41bce535f6582209e"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\scip_capability_env01\\Lib\\site-packages\\numpy\\_core\\_operand_flag_tests.cp312-win_amd64.pyd",
+      "bytes": 12288,
+      "sha256": "1b7e2535a5267db853e81dab4e6039ccae39f2259315474d44b366190f0b9d4e"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\scip_capability_env01\\Lib\\site-packages\\numpy\\_core\\_rational_tests.cp312-win_amd64.pyd",
+      "bytes": 39936,
+      "sha256": "3b6c6d846ed326297a4e637fb8cb9a60021a50dc2f68394beee47955a3d05a37"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\scip_capability_env01\\Lib\\site-packages\\numpy\\_core\\_simd.cp312-win_amd64.pyd",
+      "bytes": 2410496,
+      "sha256": "1707f6b7e6362539b0ac006a9495ea37fab86b699fb72574625348f330eb18fb"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\scip_capability_env01\\Lib\\site-packages\\numpy\\_core\\_struct_ufunc_tests.cp312-win_amd64.pyd",
+      "bytes": 14336,
+      "sha256": "105f86641ef9364c912d7903f436a33e020db0053ae307192e4277375adccc2c"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\scip_capability_env01\\Lib\\site-packages\\numpy\\_core\\_umath_tests.cp312-win_amd64.pyd",
+      "bytes": 34304,
+      "sha256": "aa8a6d0c6d30dd06934d3158c36aca4daa10acd306703d08bb21db7cc3843200"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master\\synthetic_tests.json",
+      "bytes": 632,
+      "sha256": "772e1345f69654fdccf23e61cb1429c10067b5557147982e1ec655a7179340b5"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\scip_capability_env01\\Scripts\\python.exe",
+      "bytes": 277808,
+      "sha256": "5fc3c5244b5eef01a82fbefd1932d1382b79c72fe6e64ffe8df1e3ce3643f02f"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\OneDrive - Higher Colleges of Technology\\Documents 1\\ChatGPT\\3\\.work\\solver_env\\Scripts\\python.exe",
+      "bytes": 277808,
+      "sha256": "5fc3c5244b5eef01a82fbefd1932d1382b79c72fe6e64ffe8df1e3ce3643f02f"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master\\prepared\\copy_provenance.json",
+      "bytes": 14953,
+      "sha256": "b7779f869a44323dbc650e06bf3e708bb0ce82e7f6ed81b7320db86e524986c2"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master\\prepared\\days_321_cut.json",
+      "bytes": 1634176,
+      "sha256": "7fe192f2acd9ebd1e14eeecde3ece0e3d5d24ede8408e6047b1cb9dd597f30dd"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master\\prepared\\gen.csv",
+      "bytes": 32451,
+      "sha256": "988466f29132b73739de60c9204dd4a2a9ceb0adf572e5966c086611272f4068"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master\\prepared\\identity_cut.json",
+      "bytes": 1634164,
+      "sha256": "8ba409f8702486dcdebc7611a98609696348c41d46af8fa38d7e77b5614621cb"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master\\prepared\\master.json.gz",
+      "bytes": 328558,
+      "sha256": "c873e64e591a2362bf503fcfe25fb6af358e622b7e43e6902935ad13a94a25ab"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master\\prepared\\plan.json",
+      "bytes": 1483,
+      "sha256": "2b402adc41943733575e296c294b4927765bcc40020b9a1cfd1a5b217fe2db42"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master\\prepared\\premises.json",
+      "bytes": 3303559,
+      "sha256": "712b21a575101a0394b55d8d55e00b5a68e2bb2c20e9b653425e86b1eef3a5f1"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master\\prepared\\preparation_started.json",
+      "bytes": 164,
+      "sha256": "879f9a59685c3ff38d82a5885fc07091a02017fab016ef6cf8a442ad58ffd8a5"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master\\prepared\\days_321\\bounds.npz",
+      "bytes": 52776,
+      "sha256": "5a5f697b0be8cac253c9ca5c607586ab440fcd8276ede98648c6ce179bca1e6d"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master\\prepared\\days_321\\integrality.npz",
+      "bytes": 282,
+      "sha256": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master\\prepared\\days_321\\matrix.npz",
+      "bytes": 199281,
+      "sha256": "2f11940f72432a2a2e89e4a88115eba3cf24a8e82a8110e250c6191020c1f0bb"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master\\prepared\\days_321\\model_metadata.json",
+      "bytes": 2474,
+      "sha256": "1d8281f53cc1c08f73d1fdc8d66a7825d2f34377ba933c13d0e5e0be8b223fa4"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master\\prepared\\days_321\\native_inputs.npz",
+      "bytes": 26526,
+      "sha256": "65de9acfa3dc685ed9de1d3883fcca08addf2507d75632114984f269c7693622"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master\\prepared\\days_321\\native_spec.json",
+      "bytes": 18523,
+      "sha256": "9a2c78233792adb44a3a50ba7510769185457660551f92892941eeda1bacffd3"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master\\prepared\\days_321\\permutation.csv",
+      "bytes": 1908,
+      "sha256": "6d2136284699f1a6075a2497c9d071936ae63cfb89f5136c1e1af3fc7c3af275"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master\\prepared\\days_321\\row_metadata.csv.gz",
+      "bytes": 147013,
+      "sha256": "eb73c440b322d0218299b5811de3db39e8335eac7dd014247ab4224be92f1efe"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master\\prepared\\identity\\bounds.npz",
+      "bytes": 52283,
+      "sha256": "44ddedc6dd4b06028b9c7d10180cac4889dd51658a560d49f66ef8f3e31ab2d2"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master\\prepared\\identity\\integrality.npz",
+      "bytes": 282,
+      "sha256": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master\\prepared\\identity\\matrix.npz",
+      "bytes": 199281,
+      "sha256": "2f11940f72432a2a2e89e4a88115eba3cf24a8e82a8110e250c6191020c1f0bb"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master\\prepared\\identity\\model_metadata.json",
+      "bytes": 2474,
+      "sha256": "1d8281f53cc1c08f73d1fdc8d66a7825d2f34377ba933c13d0e5e0be8b223fa4"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master\\prepared\\identity\\native_inputs.npz",
+      "bytes": 26497,
+      "sha256": "5f917f58e4fd50ae1e0d9198fd84e81f57adb1f24b530d1ed5bb71d99714a960"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master\\prepared\\identity\\native_spec.json",
+      "bytes": 18523,
+      "sha256": "9a2c78233792adb44a3a50ba7510769185457660551f92892941eeda1bacffd3"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master\\prepared\\identity\\permutation.csv",
+      "bytes": 2361,
+      "sha256": "94352d5ec4282e9757c259bd336faae046eecbba3231b57b96e7a60257252580"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master\\prepared\\identity\\row_metadata.csv.gz",
+      "bytes": 147013,
+      "sha256": "e749fc61f6807729b78154a3cce4a3f9cfa345fd9da946745e74e101b295107a"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master\\prepared\\joint\\bounds.npz",
+      "bytes": 103580,
+      "sha256": "a518cdf095baee03ea4480c15f80fe9e55aa9aff230e31987623e38b5a94c4cc"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master\\prepared\\joint\\column_maps.json",
+      "bytes": 772421,
+      "sha256": "ced46514e0a6525a21f24aab86dea4b6e3ce0f27440f6dee53a47093dbc0f4bb"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master\\prepared\\joint\\integrality.npz",
+      "bytes": 291,
+      "sha256": "047eaf6164b000c7cac99b630d0067a8e3936528d321877b83c2261fb8257be6"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master\\prepared\\joint\\matrix.npz",
+      "bytes": 400050,
+      "sha256": "1266104d52944d29d2ac2bfbd1ce89b12b1da4e58c0a2590b33a98e29eb66074"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master\\prepared\\joint\\row_origins.json",
+      "bytes": 2613562,
+      "sha256": "b2845b979bac228548d6b3557da24d3c6bfea500c4284299a97fe1a20dd253fe"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\docs\\research_next\\COMMON_MASTER_BOUNDED_PROTOCOL.md",
+      "bytes": 12036,
+      "sha256": "ff502793f1fa52c6a10a228e2fe5f0d8a5caba5ff77380006c897c3f3e243553"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master_bounded\\synthetic_tests.json",
+      "bytes": 551,
+      "sha256": "3ef07ae1ac2a9b3e77c05e16b533dd201a7fad65eaf2e0995b2fd8e51531efbe"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master_bounded\\SOURCE_DIFF.patch",
+      "bytes": 19101,
+      "sha256": "3347836c0d2420c0f1478d9d0ae462bf1d0aec873ee4d63f79381ce34e86f725"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master_bounded\\PROTOCOL_DIFF.patch",
+      "bytes": 9428,
+      "sha256": "42d8b6a8d026a87b05a38e4726239f282e5b5fee7942419f3a61e50e196158f1"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master_bounded\\prepared\\copy_provenance.json",
+      "bytes": 14953,
+      "sha256": "b7779f869a44323dbc650e06bf3e708bb0ce82e7f6ed81b7320db86e524986c2"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master_bounded\\prepared\\days_321_cut.json",
+      "bytes": 1634176,
+      "sha256": "7fe192f2acd9ebd1e14eeecde3ece0e3d5d24ede8408e6047b1cb9dd597f30dd"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master_bounded\\prepared\\execution_controls.json",
+      "bytes": 471,
+      "sha256": "954ec29c1dfd5abb20b5fd91689fb6196e558d0758418ddff3df7e92e18bf57f"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master_bounded\\prepared\\gen.csv",
+      "bytes": 32451,
+      "sha256": "988466f29132b73739de60c9204dd4a2a9ceb0adf572e5966c086611272f4068"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master_bounded\\prepared\\identity_cut.json",
+      "bytes": 1634164,
+      "sha256": "8ba409f8702486dcdebc7611a98609696348c41d46af8fa38d7e77b5614621cb"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master_bounded\\prepared\\master.json.gz",
+      "bytes": 328558,
+      "sha256": "c873e64e591a2362bf503fcfe25fb6af358e622b7e43e6902935ad13a94a25ab"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master_bounded\\prepared\\plan.json",
+      "bytes": 1483,
+      "sha256": "2b402adc41943733575e296c294b4927765bcc40020b9a1cfd1a5b217fe2db42"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master_bounded\\prepared\\premises.json",
+      "bytes": 3303559,
+      "sha256": "712b21a575101a0394b55d8d55e00b5a68e2bb2c20e9b653425e86b1eef3a5f1"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master_bounded\\prepared\\preparation_started.json",
+      "bytes": 164,
+      "sha256": "879f9a59685c3ff38d82a5885fc07091a02017fab016ef6cf8a442ad58ffd8a5"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master_bounded\\prepared\\successor_copy_provenance.json",
+      "bytes": 18171,
+      "sha256": "e189ec6d79efdca836cc851618197d29d5536ecf24c1ce8207056e9265f9107b"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master_bounded\\prepared\\successor_preparation_started.json",
+      "bytes": 199,
+      "sha256": "6308c0a16de6f4c79dfda4635f71bd31173778de8c61eb81bf51182cdaec5d44"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master_bounded\\prepared\\days_321\\bounds.npz",
+      "bytes": 52776,
+      "sha256": "5a5f697b0be8cac253c9ca5c607586ab440fcd8276ede98648c6ce179bca1e6d"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master_bounded\\prepared\\days_321\\integrality.npz",
+      "bytes": 282,
+      "sha256": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master_bounded\\prepared\\days_321\\matrix.npz",
+      "bytes": 199281,
+      "sha256": "2f11940f72432a2a2e89e4a88115eba3cf24a8e82a8110e250c6191020c1f0bb"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master_bounded\\prepared\\days_321\\model_metadata.json",
+      "bytes": 2474,
+      "sha256": "1d8281f53cc1c08f73d1fdc8d66a7825d2f34377ba933c13d0e5e0be8b223fa4"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master_bounded\\prepared\\days_321\\native_inputs.npz",
+      "bytes": 26526,
+      "sha256": "65de9acfa3dc685ed9de1d3883fcca08addf2507d75632114984f269c7693622"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master_bounded\\prepared\\days_321\\native_spec.json",
+      "bytes": 18523,
+      "sha256": "9a2c78233792adb44a3a50ba7510769185457660551f92892941eeda1bacffd3"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master_bounded\\prepared\\days_321\\permutation.csv",
+      "bytes": 1908,
+      "sha256": "6d2136284699f1a6075a2497c9d071936ae63cfb89f5136c1e1af3fc7c3af275"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master_bounded\\prepared\\days_321\\row_metadata.csv.gz",
+      "bytes": 147013,
+      "sha256": "eb73c440b322d0218299b5811de3db39e8335eac7dd014247ab4224be92f1efe"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master_bounded\\prepared\\identity\\bounds.npz",
+      "bytes": 52283,
+      "sha256": "44ddedc6dd4b06028b9c7d10180cac4889dd51658a560d49f66ef8f3e31ab2d2"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master_bounded\\prepared\\identity\\integrality.npz",
+      "bytes": 282,
+      "sha256": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master_bounded\\prepared\\identity\\matrix.npz",
+      "bytes": 199281,
+      "sha256": "2f11940f72432a2a2e89e4a88115eba3cf24a8e82a8110e250c6191020c1f0bb"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master_bounded\\prepared\\identity\\model_metadata.json",
+      "bytes": 2474,
+      "sha256": "1d8281f53cc1c08f73d1fdc8d66a7825d2f34377ba933c13d0e5e0be8b223fa4"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master_bounded\\prepared\\identity\\native_inputs.npz",
+      "bytes": 26497,
+      "sha256": "5f917f58e4fd50ae1e0d9198fd84e81f57adb1f24b530d1ed5bb71d99714a960"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master_bounded\\prepared\\identity\\native_spec.json",
+      "bytes": 18523,
+      "sha256": "9a2c78233792adb44a3a50ba7510769185457660551f92892941eeda1bacffd3"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master_bounded\\prepared\\identity\\permutation.csv",
+      "bytes": 2361,
+      "sha256": "94352d5ec4282e9757c259bd336faae046eecbba3231b57b96e7a60257252580"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master_bounded\\prepared\\identity\\row_metadata.csv.gz",
+      "bytes": 147013,
+      "sha256": "e749fc61f6807729b78154a3cce4a3f9cfa345fd9da946745e74e101b295107a"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master_bounded\\prepared\\joint\\bounds.npz",
+      "bytes": 103580,
+      "sha256": "a518cdf095baee03ea4480c15f80fe9e55aa9aff230e31987623e38b5a94c4cc"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master_bounded\\prepared\\joint\\column_maps.json",
+      "bytes": 772421,
+      "sha256": "ced46514e0a6525a21f24aab86dea4b6e3ce0f27440f6dee53a47093dbc0f4bb"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master_bounded\\prepared\\joint\\integrality.npz",
+      "bytes": 291,
+      "sha256": "047eaf6164b000c7cac99b630d0067a8e3936528d321877b83c2261fb8257be6"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master_bounded\\prepared\\joint\\matrix.npz",
+      "bytes": 400050,
+      "sha256": "1266104d52944d29d2ac2bfbd1ce89b12b1da4e58c0a2590b33a98e29eb66074"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master_bounded\\prepared\\joint\\row_origins.json",
+      "bytes": 2613562,
+      "sha256": "b2845b979bac228548d6b3557da24d3c6bfea500c4284299a97fe1a20dd253fe"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\docs\\research_next\\COMMON_NOMINEE_PHASE1_PROPOSAL.md",
+      "bytes": 10070,
+      "sha256": "7ee2190eb6fd240b9e07924899cea0e7d22f67afba8260f4cd38b84a44cc21db"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\docs\\research_next\\COMMON_NOMINEE_PHASE1_THEORY_REVIEW.md",
+      "bytes": 3471,
+      "sha256": "86f2774978fbe4d1b80670b5cc288fda03d7a2ac8f3d9cacc17c8f16d3c74806"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master_bounded\\producer_output_inventory.csv",
+      "bytes": 3578,
+      "sha256": "a7201af2fc77e7a556c5b0fc2ee0634f812808f0e4f092b64656baf24d668428"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master_bounded\\run01\\master_exact_admission.json",
+      "bytes": 123345,
+      "sha256": "983c62c4aaec8969ecc02ee774a55aa1fe2b95edf74d884dbae6f69e28b5a87a"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master_bounded\\run01\\lp\\fixed_schedule.json",
+      "bytes": 686490,
+      "sha256": "26362ddab6b43aaa3ce2b605997a0c3460d9615492c13e177f7822c508ebf14a"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master_bounded\\PROCESS_CLOSURE.json",
+      "bytes": 1552,
+      "sha256": "93470407e2e65184df9ee7fee5ac6f062a053552ed90e2a6054dcef000e63239"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master_bounded\\READOUT.md",
+      "bytes": 3726,
+      "sha256": "ee2ad1ff2d80fd0546900c5e7792cddfcc83a41991f2ca51df9ec14be2e7868e"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master_bounded\\run01\\completion.json",
+      "bytes": 1067,
+      "sha256": "3488a998b8d01cf279cddb20c9f6e22f04afd1ff3fdaf2d98260909c2d395883"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master_bounded\\run01\\execution_started.json",
+      "bytes": 254,
+      "sha256": "220060f4b302f9197da5266792abcb788ca2cfd40e9537e8530e5c1d1493ee24"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master_bounded\\run01\\lp\\backend_readback.json",
+      "bytes": 551,
+      "sha256": "77e40069dc7f883310f1ade96856d576a0e98e9a3f5d4cf5dd9341ca1b572037"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master_bounded\\run01\\lp\\backend_readback.npz",
+      "bytes": 545260,
+      "sha256": "ea55a27c30ccb529c3d08748f8101aba001153079b6a00594e86884defe14c0c"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master_bounded\\run01\\lp\\call_ready.json",
+      "bytes": 114,
+      "sha256": "0beffb91011adf421fdd636a59f4d9afc3fc1a9bef3816d221447a20eee55a32"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master_bounded\\run01\\lp\\completion.json",
+      "bytes": 586,
+      "sha256": "ab79c29693e901d5b61c50f0083c21b3cde702391f61e877b42b54a9b44022f4"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master_bounded\\run01\\lp\\fixed_bounds.npz",
+      "bytes": 10611,
+      "sha256": "1f6d740339b773ccc2c57060b8eea0a48aed6230c139cb59ee119e7269e0aeb0"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master_bounded\\run01\\lp\\invocation_boundary.json",
+      "bytes": 154,
+      "sha256": "d7bf6073285c2af90262a4847bbf1bbfe8542859b90c8d41bea4f0d4837da7e0"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master_bounded\\run01\\lp\\result.json",
+      "bytes": 330,
+      "sha256": "f9b23525386b4ca5109b86aa1b9a577ae915b472c66389b1a9cd4a9c36cb2bf0"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master_bounded\\run01\\lp\\solver_returned.json",
+      "bytes": 175,
+      "sha256": "e843fa9ea5fa86519fba0f5d4fd92dc5b14f56fd936278899c5824d463c20541"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master_bounded\\run01\\lp\\stage_timings.json",
+      "bytes": 178,
+      "sha256": "e1e15ebd02c51f4c7ab536f664396e580962d84ce7fae82eb5a2926b0e6ac488"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master_bounded\\run01\\LP_launch_ready.json",
+      "bytes": 117,
+      "sha256": "11136cfe32e0e3be2fa8764b7f096682a80d2d0ca976f0433a4108fce20e28b1"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master_bounded\\run01\\LP_request.json",
+      "bytes": 97249,
+      "sha256": "6efabed8a4911d9f3466ef9d246072994b52d3bda4643d4219e47b1a11661661"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master_bounded\\run01\\LP_worker_closed.json",
+      "bytes": 117,
+      "sha256": "963dc0f1162e1774079f5bda1cf2981fa1e4ad441e9b30c852c769735f6439f9"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master_bounded\\run01\\master_backend_readback.json.gz",
+      "bytes": 281319,
+      "sha256": "5d5367169f0c3c03a384a77b99717eabe8532d8f3e361e3787a186112eccbc45"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master_bounded\\run01\\master_call_ready.json",
+      "bytes": 118,
+      "sha256": "4b82e8a35a5a19dba8d89dfa865e104cef7852b44df02ba7774009c861815e80"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master_bounded\\run01\\master_parameters.json",
+      "bytes": 284546,
+      "sha256": "b2a12a5b93864635d66e81a8b97f1b5df0a03f57064929573bcc74e2cd7bdadd"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master_bounded\\run01\\master_raw_solution.npz",
+      "bytes": 2180,
+      "sha256": "bafbeac74b5fb11fc1acc750f3c3756b0552843027f25f1a7cdddd09c33c6bae"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master_bounded\\run01\\master_solver_returned.json",
+      "bytes": 138224,
+      "sha256": "76a3166d26a2e083cab8aa866e6a1e3a98ac285aa2ff4ff6573d4f1e6a7e25a7"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master_bounded\\run01\\private_log_receipt.json",
+      "bytes": 1131,
+      "sha256": "a9113e2a42bbfb77c07c67aa2cfb559686b9aba78ad98e5a707fc3ba24ed6ae1"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_master_bounded\\run01\\result.json",
+      "bytes": 394,
+      "sha256": "8f20710b8533aa6d946e89c3639c99973495ac6ccadba6c484565601f835846f"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\docs\\research_next\\COMMON_PHASE1_PROTOCOL.md",
+      "bytes": 10056,
+      "sha256": "6617c67b1c93339487a41c306217c8770142665b9e35e33f23a09225f1e00583"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_phase1\\synthetic_tests.json",
+      "bytes": 709,
+      "sha256": "b5c8549bb1a2fbefcd3f536fd0830874c7d6ac9313a897ac08c72482c08e8bb1"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_phase1\\prepared\\admission.json",
+      "bytes": 1448,
+      "sha256": "e56ec9a290f256026089129fa6c3f64d5c5188df40257112c3de9562c0ebe218"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_phase1\\prepared\\column_encoding.json.gz",
+      "bytes": 169808,
+      "sha256": "0c2b09814a24a09400ed3426d2e1b734ebe8e4b2f4dc1c35280b5eec1a644118"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_phase1\\prepared\\control_raw_solution.npz",
+      "bytes": 215207,
+      "sha256": "90c8b308a6ce8e7671adbe3059887d6ce27489fa3d68aa601c2474b32d2d462a"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_phase1\\prepared\\copy_provenance.json",
+      "bytes": 7477,
+      "sha256": "8ad492683195b41c69da40b9aafed625af9a81183b935500878d5007d785f505"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_phase1\\prepared\\days_321_metadata.json",
+      "bytes": 2474,
+      "sha256": "1d8281f53cc1c08f73d1fdc8d66a7825d2f34377ba933c13d0e5e0be8b223fa4"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_phase1\\prepared\\endpoint_map.json.gz",
+      "bytes": 1019970,
+      "sha256": "64af797621e376b1885a9ab1971881decbf211ce3c6ec5889ef1896f8720641d"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_phase1\\prepared\\fixed_schedule.json",
+      "bytes": 686490,
+      "sha256": "26362ddab6b43aaa3ce2b605997a0c3460d9615492c13e177f7822c508ebf14a"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_phase1\\prepared\\gen.csv",
+      "bytes": 32451,
+      "sha256": "988466f29132b73739de60c9204dd4a2a9ceb0adf572e5966c086611272f4068"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_phase1\\prepared\\identity_metadata.json",
+      "bytes": 2474,
+      "sha256": "1d8281f53cc1c08f73d1fdc8d66a7825d2f34377ba933c13d0e5e0be8b223fa4"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_phase1\\prepared\\master_exact_admission.json",
+      "bytes": 123345,
+      "sha256": "983c62c4aaec8969ecc02ee774a55aa1fe2b95edf74d884dbae6f69e28b5a87a"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_phase1\\prepared\\master_premises.json",
+      "bytes": 3303559,
+      "sha256": "712b21a575101a0394b55d8d55e00b5a68e2bb2c20e9b653425e86b1eef3a5f1"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_phase1\\prepared\\phase_model.npz",
+      "bytes": 709740,
+      "sha256": "23c455179fa51153b921a101633193ccf25ed0559345ed7008c1fe0508e01b23"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_phase1\\prepared\\plan.json",
+      "bytes": 801,
+      "sha256": "86853e2dfa3721fe5ed0f7688eb312a863ab89986878f0b117c73a127af4eb93"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_phase1\\prepared\\preparation_started.json",
+      "bytes": 164,
+      "sha256": "3482fcddacb534e83d557107c73755f0711450184c406ea1ebfe216e15a3ab36"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_phase1\\prepared\\joint\\bounds.npz",
+      "bytes": 103580,
+      "sha256": "a518cdf095baee03ea4480c15f80fe9e55aa9aff230e31987623e38b5a94c4cc"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_phase1\\prepared\\joint\\column_maps.json",
+      "bytes": 772421,
+      "sha256": "ced46514e0a6525a21f24aab86dea4b6e3ce0f27440f6dee53a47093dbc0f4bb"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_phase1\\prepared\\joint\\integrality.npz",
+      "bytes": 291,
+      "sha256": "047eaf6164b000c7cac99b630d0067a8e3936528d321877b83c2261fb8257be6"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_phase1\\prepared\\joint\\matrix.npz",
+      "bytes": 400050,
+      "sha256": "1266104d52944d29d2ac2bfbd1ce89b12b1da4e58c0a2590b33a98e29eb66074"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_phase1\\prepared\\joint\\row_origins.json",
+      "bytes": 2613562,
+      "sha256": "b2845b979bac228548d6b3557da24d3c6bfea500c4284299a97fe1a20dd253fe"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_phase1\\PROCESS_CLOSURE.json",
+      "bytes": 1416,
+      "sha256": "adbccf3d8cb85f642706e7ca2718534cd6921bf029069ea23539e43fda24dea1"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_phase1\\READOUT.md",
+      "bytes": 3785,
+      "sha256": "a801e7afaba192e6cd3c22b9f2f2d48539f3130935e67c1074b0811a7e872037"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_phase1\\run01\\backend_readback.json",
+      "bytes": 582,
+      "sha256": "41a3902dd96c7a8acec9d574e9f215db18d0a89bc85872209697c29376714f81"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_phase1\\run01\\backend_readback.npz",
+      "bytes": 709740,
+      "sha256": "23bf398196cf9b1f9e0a1d6773fd3515cd013e95a57a6f96518868f2da6dbdfd"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_phase1\\run01\\call_ready.json",
+      "bytes": 113,
+      "sha256": "bfbc70054f96591e35a8e6590694c5b861c8391f3d77cebe420e8c8402304699"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_phase1\\run01\\completion.json",
+      "bytes": 677,
+      "sha256": "c5920a87bf20cfdf226b53d4aa89c5998301d27a097caf21275272410c944547"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_phase1\\run01\\exact_candidate.json.gz",
+      "bytes": 622888,
+      "sha256": "427dba0e4a75fd7bce5dff278c958fb73dafa2fbf41cf0a1cdc3c08f391a178b"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_phase1\\run01\\execution_started.json",
+      "bytes": 295,
+      "sha256": "5c157b674db0f438fc5f8f9239e6807ee616d6b8677cb21ea973aa409502a108"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_phase1\\run01\\private_log_receipt.json",
+      "bytes": 314,
+      "sha256": "5ac6bb065a1ccec66cbb441c4cdc9153cba72d65522386c2479b40d56d02c0cf"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_phase1\\run01\\raw_solution.npz",
+      "bytes": 357826,
+      "sha256": "5d10000e4f667b58aeb82af6e7939aa75cd0be4ea79934d4eabfc725bfde87af"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_phase1\\run01\\result.json",
+      "bytes": 447,
+      "sha256": "aab7cc714187fd71c680a84e7118578556f02ae778ded0bd1c6daba342998877"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_phase1\\run01\\solver_returned.json",
+      "bytes": 335,
+      "sha256": "f13458186fc3c5c18c644a9fddc2ed5fbb5967518b053248917365de6f7916c9"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\src\\researchnext_common_refinement_batch.py",
+      "bytes": 49267,
+      "sha256": "f7f79ecca154169832c8739d9c17889c5c5993aa460f6d528d6f115c60018371"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\docs\\research_next\\COMMON_REFINEMENT_BATCH_PROTOCOL.md",
+      "bytes": 12524,
+      "sha256": "bc47f198b8a6f711c80ce315418749ef4b1b2b9b1afea38568901bd8e2fd6e0d"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_refinement_batch\\synthetic_tests.json",
+      "bytes": 746,
+      "sha256": "98d51d0f4cb3c0a8ab6dd2eec44ffba39f745271ea63c78a5aabb0d5ad87c9ab"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_refinement_batch\\prepared\\anchor_certificate.json.gz",
+      "bytes": 622888,
+      "sha256": "427dba0e4a75fd7bce5dff278c958fb73dafa2fbf41cf0a1cdc3c08f391a178b"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_refinement_batch\\prepared\\column_encoding.json.gz",
+      "bytes": 169808,
+      "sha256": "0c2b09814a24a09400ed3426d2e1b734ebe8e4b2f4dc1c35280b5eec1a644118"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_refinement_batch\\prepared\\control_raw_solution.npz",
+      "bytes": 215207,
+      "sha256": "90c8b308a6ce8e7671adbe3059887d6ce27489fa3d68aa601c2474b32d2d462a"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_refinement_batch\\prepared\\copy_provenance.json",
+      "bytes": 20285,
+      "sha256": "270775ce774efb5e264550c2af5bc0a0bb6e186b3b078c925841029e839174f2"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_refinement_batch\\prepared\\days_321_cut.json",
+      "bytes": 1634176,
+      "sha256": "7fe192f2acd9ebd1e14eeecde3ece0e3d5d24ede8408e6047b1cb9dd597f30dd"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_refinement_batch\\prepared\\endpoint_map.json.gz",
+      "bytes": 1019970,
+      "sha256": "64af797621e376b1885a9ab1971881decbf211ce3c6ec5889ef1896f8720641d"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_refinement_batch\\prepared\\gen.csv",
+      "bytes": 32451,
+      "sha256": "988466f29132b73739de60c9204dd4a2a9ceb0adf572e5966c086611272f4068"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_refinement_batch\\prepared\\identity_cut.json",
+      "bytes": 1634164,
+      "sha256": "8ba409f8702486dcdebc7611a98609696348c41d46af8fa38d7e77b5614621cb"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_refinement_batch\\prepared\\inherited_fixed_schedule.json",
+      "bytes": 686490,
+      "sha256": "26362ddab6b43aaa3ce2b605997a0c3460d9615492c13e177f7822c508ebf14a"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_refinement_batch\\prepared\\master.json.gz",
+      "bytes": 328558,
+      "sha256": "c873e64e591a2362bf503fcfe25fb6af358e622b7e43e6902935ad13a94a25ab"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_refinement_batch\\prepared\\phase_model.npz",
+      "bytes": 709740,
+      "sha256": "23c455179fa51153b921a101633193ccf25ed0559345ed7008c1fe0508e01b23"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_refinement_batch\\prepared\\plan.json",
+      "bytes": 1122,
+      "sha256": "25362f916ec331621323bde4e463b84926b677ea6d1374fe7396e93a8c370a45"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_refinement_batch\\prepared\\premises.json",
+      "bytes": 3303559,
+      "sha256": "712b21a575101a0394b55d8d55e00b5a68e2bb2c20e9b653425e86b1eef3a5f1"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_refinement_batch\\prepared\\preparation_started.json",
+      "bytes": 112,
+      "sha256": "3b1ffc990977c2d1313585774fec5a94584dbadfeb3de9a13012de4b7efdff48"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_refinement_batch\\prepared\\symbolic_seed_maps.json",
+      "bytes": 1696926,
+      "sha256": "001aacc4bbe5bea9b7f3ad6d94e0154f52d3efbf4315753bfea838b46205538e"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_refinement_batch\\prepared\\days_321\\bounds.npz",
+      "bytes": 52776,
+      "sha256": "5a5f697b0be8cac253c9ca5c607586ab440fcd8276ede98648c6ce179bca1e6d"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_refinement_batch\\prepared\\days_321\\integrality.npz",
+      "bytes": 282,
+      "sha256": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_refinement_batch\\prepared\\days_321\\matrix.npz",
+      "bytes": 199281,
+      "sha256": "2f11940f72432a2a2e89e4a88115eba3cf24a8e82a8110e250c6191020c1f0bb"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_refinement_batch\\prepared\\days_321\\model_metadata.json",
+      "bytes": 2474,
+      "sha256": "1d8281f53cc1c08f73d1fdc8d66a7825d2f34377ba933c13d0e5e0be8b223fa4"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_refinement_batch\\prepared\\days_321\\native_inputs.npz",
+      "bytes": 26526,
+      "sha256": "65de9acfa3dc685ed9de1d3883fcca08addf2507d75632114984f269c7693622"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_refinement_batch\\prepared\\days_321\\native_spec.json",
+      "bytes": 18523,
+      "sha256": "9a2c78233792adb44a3a50ba7510769185457660551f92892941eeda1bacffd3"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_refinement_batch\\prepared\\days_321\\permutation.csv",
+      "bytes": 1908,
+      "sha256": "6d2136284699f1a6075a2497c9d071936ae63cfb89f5136c1e1af3fc7c3af275"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_refinement_batch\\prepared\\days_321\\row_metadata.csv.gz",
+      "bytes": 147013,
+      "sha256": "eb73c440b322d0218299b5811de3db39e8335eac7dd014247ab4224be92f1efe"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_refinement_batch\\prepared\\identity\\bounds.npz",
+      "bytes": 52283,
+      "sha256": "44ddedc6dd4b06028b9c7d10180cac4889dd51658a560d49f66ef8f3e31ab2d2"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_refinement_batch\\prepared\\identity\\integrality.npz",
+      "bytes": 282,
+      "sha256": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_refinement_batch\\prepared\\identity\\matrix.npz",
+      "bytes": 199281,
+      "sha256": "2f11940f72432a2a2e89e4a88115eba3cf24a8e82a8110e250c6191020c1f0bb"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_refinement_batch\\prepared\\identity\\model_metadata.json",
+      "bytes": 2474,
+      "sha256": "1d8281f53cc1c08f73d1fdc8d66a7825d2f34377ba933c13d0e5e0be8b223fa4"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_refinement_batch\\prepared\\identity\\native_inputs.npz",
+      "bytes": 26497,
+      "sha256": "5f917f58e4fd50ae1e0d9198fd84e81f57adb1f24b530d1ed5bb71d99714a960"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_refinement_batch\\prepared\\identity\\native_spec.json",
+      "bytes": 18523,
+      "sha256": "9a2c78233792adb44a3a50ba7510769185457660551f92892941eeda1bacffd3"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_refinement_batch\\prepared\\identity\\permutation.csv",
+      "bytes": 2361,
+      "sha256": "94352d5ec4282e9757c259bd336faae046eecbba3231b57b96e7a60257252580"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_refinement_batch\\prepared\\identity\\row_metadata.csv.gz",
+      "bytes": 147013,
+      "sha256": "e749fc61f6807729b78154a3cce4a3f9cfa345fd9da946745e74e101b295107a"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_refinement_batch\\prepared\\joint\\bounds.npz",
+      "bytes": 103580,
+      "sha256": "a518cdf095baee03ea4480c15f80fe9e55aa9aff230e31987623e38b5a94c4cc"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_refinement_batch\\prepared\\joint\\column_maps.json",
+      "bytes": 772421,
+      "sha256": "ced46514e0a6525a21f24aab86dea4b6e3ce0f27440f6dee53a47093dbc0f4bb"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_refinement_batch\\prepared\\joint\\integrality.npz",
+      "bytes": 291,
+      "sha256": "047eaf6164b000c7cac99b630d0067a8e3936528d321877b83c2261fb8257be6"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_refinement_batch\\prepared\\joint\\matrix.npz",
+      "bytes": 400050,
+      "sha256": "1266104d52944d29d2ac2bfbd1ce89b12b1da4e58c0a2590b33a98e29eb66074"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_refinement_batch\\prepared\\joint\\row_origins.json",
+      "bytes": 2613562,
+      "sha256": "b2845b979bac228548d6b3557da24d3c6bfea500c4284299a97fe1a20dd253fe"
+    }
+  ]
+}

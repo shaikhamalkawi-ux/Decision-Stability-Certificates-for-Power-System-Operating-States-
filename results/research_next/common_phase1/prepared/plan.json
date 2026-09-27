@@ -1,0 +1,25 @@
+{
+  "options": {
+    "time_limit": 60.0,
+    "threads": 1,
+    "random_seed": 0,
+    "presolve": "on",
+    "solver": "simplex"
+  },
+  "runtime": {
+    "executable": "C:\\Users\\gmalkawi\\OneDrive - Higher Colleges of Technology\\Documents 1\\ChatGPT\\3\\.work\\solver_env\\Scripts\\python.exe",
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "packages": {
+      "numpy": "2.3.5",
+      "scipy": "1.18.1",
+      "highspy": "1.12.0"
+    }
+  },
+  "phase_seconds": 180.0,
+  "start_guard": 65.0,
+  "maximum_rational_bits": 8192,
+  "calls": 1,
+  "recipe": "lower max(raw,0); upper max(-raw,0); d=lambda-mu; canonical original endpoint",
+  "alternative_candidates": 0,
+  "control": "one saved unrounded common LP state, no old point replay"
+}

@@ -1,0 +1,13 @@
+# Single batch producer closure — no optimizer entered
+
+The sole authorized controller run (session88649, exit0) ended with **UNKNOWN** after a Windows process-ownership assignment failure. The exception was `Assign exact process to owned job`; the frozen source did not retain the Windows error code or identify which assignment failed. This is an infrastructure failure, not evidence of solver/model incompatibility or common binary infeasibility. No retry, alternate worker or ninth nomination was attempted.
+
+All336 prospective seed proof files and336 requested-encoding files were saved. The producer checked all336 original-cut fractional controls and the full identity/hour80 anchor. These producer mathematical checks remain provisional until independent review. No actual SCIP row transport, master candidate, recourse, phase-I solve or new adaptive cut was produced. Requested binary64 encodings are not actual backend readbacks.
+
+The ledger contains one worker-launch attempt and zero optimizer-attempt records/returns. The controller started at14:11:19.591438UTC, actual PythonPID40488 with parent67748. Its first worker authenticated launcher20732 → actual Python4940, then ownership assignment failed before a `worker_go.json` was issued. The controller reported owned handles reaped. A separate exact-PID query found all four recorded processes absent at14:14:59.9053615UTC; no external termination was performed. This observed error cleanup does not validate a running optimizer timeout/descendant cleanup path.
+
+Measured overall phase97.25336050003534seconds, zero phase overrun; worker attempt1.1868410999886692seconds. Final completion is authoritative: accepted_common=false, common_verdict=UNKNOWN, phase_deadline_met=true. Final serialization/private-log inventory is outside the sampled admission instant, as frozen.
+
+External transport closure independently rehashed the prepared freeze and manifest against the exact GO constants, plus the GO file itself. Original run files, source/protocol and prepared files remain unchanged. `EXTERNAL_PROCESS_CLOSURE.json` records the read-only process query; `EXTERNAL_TRANSPORT_CLOSURE.json` records trusted-hash checks. `producer_output_inventory.csv` lists the complete closed run files plus this readout and the two external closure receipts. The original source-readiness note remains a historical pre-execution checkpoint.
+
+Pending split independent review: certificate/seed/control/anchor mathematics, and backend/transport/ledger/process/immutability. The future source-only harmless ownership probe is a separate infrastructure proposal; this batch will not silently resume.

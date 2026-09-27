@@ -1,0 +1,42 @@
+{
+  "utc": "2026-09-27T14:23:18.004743+00:00",
+  "arms": [
+    {
+      "arm": "shared_job_launcher_then_actual",
+      "status": "ASSIGNMENT_FAILED_RECORDED",
+      "result_sha256": "5d0be082cd7d8f13bcfd6611d7db3f37ad000f7443ad8789f721776ec303c5f4"
+    },
+    {
+      "arm": "separate_job_per_process",
+      "status": "PASS_HARMLESS_ASSIGNMENT_AND_CLEANUP",
+      "result_sha256": "44817634528e172ab8179bcfa0f3bfadc0ea65f4838722ed3dd439fc946d87f9"
+    }
+  ],
+  "elapsed_seconds": 0.622127200011164,
+  "scientific_reads": 0,
+  "backend_imports": 0,
+  "optimizer_calls": 0,
+  "no_scientific_resume_authorized": true,
+  "no_frozen_source_changed": true,
+  "final_source_bindings": [
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\src\\researchnext_windows_ownership_probe.py",
+      "expected_sha256": "82745c0c6ec3b772264d754443cc849532a59191793848d9d8ab56990aa152c5",
+      "actual_sha256": "82745c0c6ec3b772264d754443cc849532a59191793848d9d8ab56990aa152c5",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\docs\\research_next\\WINDOWS_OWNERSHIP_PROBE_PROTOCOL.md",
+      "expected_sha256": "e3dbb3ebe093a9ec09fd170fa995a60b7e0cf3e96a0cf9ab3ee1352869cffe83",
+      "actual_sha256": "e3dbb3ebe093a9ec09fd170fa995a60b7e0cf3e96a0cf9ab3ee1352869cffe83",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\src\\researchnext_common_refinement_batch.py",
+      "expected_sha256": "f7f79ecca154169832c8739d9c17889c5c5993aa460f6d528d6f115c60018371",
+      "actual_sha256": "f7f79ecca154169832c8739d9c17889c5c5993aa460f6d528d6f115c60018371",
+      "unchanged": true
+    }
+  ],
+  "original_failure_which_assignment_remains_unrecorded": true
+}
