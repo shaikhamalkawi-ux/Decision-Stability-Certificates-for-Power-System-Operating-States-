@@ -1,0 +1,16 @@
+{
+  "utc": "2026-09-27T10:25:23.131Z",
+  "status": "ROOT_SOURCE_PROTOCOL_AND_INDEPENDENT_PREPARED_PASS",
+  "source_sha256": "92089c0301bd6a7399728abdf0a9a8964bd570199bc2490ea22e947adfedc1a1",
+  "protocol_sha256": "fdf6ff12aa5afbea4547583d1cdd2d12d774e18905eb2fdb1a6cf12c64b7e06c",
+  "freeze_sha256": "8d5e348d91db8ae082a1a036d2359ac382891b25849e9e682fb833e9ae52d0a2",
+  "independent_review_sha256": "b7b856c9f7395a46e51569a13d844f53d7bb883bb97d8f76a627b0049cc2c05e",
+  "authorized_calls": 1,
+  "LP_seconds": 60,
+  "phase_seconds": 240,
+  "readback_required": true,
+  "exact_original_acceptance_required": true,
+  "no_retry": true,
+  "common_scip_unchanged": true,
+  "scope": "One fixed deterministic union candidate; full common negative remains UNKNOWN for failed restricted LP"
+}

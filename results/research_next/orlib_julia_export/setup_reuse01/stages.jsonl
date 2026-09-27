@@ -1,0 +1,5 @@
+{"stage": "verify_runtime_reuse_and_prior_bindings", "utc": "2026-09-27T10:54:49.547037+00:00", "elapsed_seconds": 0.002450199972372502}
+{"stage": "reuse_inherited_registry_selected_metadata_only", "utc": "2026-09-27T10:54:49.720814+00:00", "elapsed_seconds": 0.17631769995205104}
+{"stage": "one_pkg_resolution_direct_official_routes", "utc": "2026-09-27T10:54:50.069877+00:00", "elapsed_seconds": 0.5247094999649562}
+{"stage": "verify_and_archive_resolved_metadata", "utc": "2026-09-27T10:58:14.704788+00:00", "elapsed_seconds": 205.1600948999985}
+{"stage": "final_selected_bindings_and_provenance_checks", "utc": "2026-09-27T10:58:19.073282+00:00", "elapsed_seconds": 209.52910399995744}

@@ -1,0 +1,11 @@
+# Source-only filesystem-work assessment
+
+Reviewer: child agent `/root/find_deposit/gb_docs`, reactivated for this bounded read-only task during the separately authorized setup. Final review returned on 2026-09-27. This is a real returned source review, not a planned independent check. Source SHA256 `926d2022f2df0b61624a455054ee4dd519290974f67fcff1145f2d4337c5e6c5`; protocol SHA256 `f0a860e2942cb4cad192dfbbb6cabc1d5636c452273668df6417af2f03a517b6`.
+
+`require_plain` walks each path and every ancestor, issuing `exists`, `lstat` and `is_symlink` metadata operations. Extraction calls it for each target and parent, resolves both the target and invariant root, and repeats `mkdir(...exist_ok=True)` per file. Readback again walks every ancestor and calls `is_dir`/`is_file`. Thus metadata work scales with entry count times path depth, beyond the required creation and content verification of 61,167 files. This is a credible avoidable cost; source review cannot measure its share of elapsed time or establish antivirus, synchronization or storage effects.
+
+A prospective efficient implementation could verify root/ancestors once, cache verified directories, create each directory once under an already verified parent, and use a single `lstat` result per entry for type and reparse checks. Every lexical path, case-collision, tar type/link/sparse, size, mode, inventory, payload hash and exclusive-creation check would remain. Complete traversal without following links would still verify every directory and file, reject extras/missing entries, reread every payload and reconstruct the exact Git tree before and after Pkg.
+
+That design preserves the checks under the explicit assumption that other processes do not replace verified directories concurrently. It is not race-proof against adversarial concurrent path replacement; the existing repeated pathname checks are not race-proof either. The current frozen setup source and its single live attempt were not changed.
+
+The reviewer performed no live-process observation, directory enumeration, source execution, instrumentation, network request, Julia invocation or edit. This note is prospective performance reasoning only, not setup completion, a new execution authorization, package incompatibility evidence or scientific model evidence.

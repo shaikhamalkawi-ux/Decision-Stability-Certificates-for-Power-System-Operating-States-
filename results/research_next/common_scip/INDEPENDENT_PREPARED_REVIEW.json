@@ -1,0 +1,42 @@
+{
+  "status": "INDEPENDENT_PREPARED_PASS",
+  "utc": "2026-09-27T09:58:40.277318+00:00",
+  "reviewer_sha256": "9e6bace2d57633cc1bab40c0143e0a2456ad3cd2790ce212f8402645338558c6",
+  "freeze_sha256": "b1d7d8553daf3b4a6373d91520cf52adce898008fc961d090d75b599a16d3b50",
+  "manifest_sha256": "7e380d9d9469132088aca75bc2191d0567cedb49ec2f1db662d66d690d79d074",
+  "source_sha256": "e80a8e80b1a25def3f94564b3a33527a367fc21e4bd87ea52bcdbc2f3e16d8d5",
+  "protocol_sha256": "07b17a4105f9f9c026f26350593814e92b79dd528eff3cb9ad7b0c20e5221597",
+  "bindings": 134,
+  "inherited_bindings": 48,
+  "exact_byte_copies": 22,
+  "rows": 69362,
+  "cols": 33936,
+  "original_binaries": 12096,
+  "stored_coefficients": 291176,
+  "backend_rows": 82130,
+  "backend_senses": {
+    "=": 16416,
+    "<": 52946,
+    ">": 12768
+  },
+  "options": {
+    "limits/time": 1800.0,
+    "limits/solutions": 1,
+    "parallel/maxnthreads": 1,
+    "lp/threads": 1,
+    "randomization/randomseedshift": 0,
+    "randomization/permutationseed": 0,
+    "randomization/lpseed": 0,
+    "numerics/feastol": 1e-08
+  },
+  "phase_seconds": 2400.0,
+  "run_absent_start_end": true,
+  "no_producer_import": true,
+  "no_scip_import": true,
+  "no_optimizer": true,
+  "no_old_assembly_or_witness_replay": true,
+  "old_joint_assembly_review_inherited_by_hash": "956b37cbcdd49571a6a79611da197a5be840a5c2747ffbd60576c90805d58e6b",
+  "exact_proof_capability": "ABSENT in the pinned installed capability record; numerical-only arm",
+  "backend_API_readback": "pending authorized execution before optimize",
+  "elapsed_seconds": 2.9000791999860667
+}

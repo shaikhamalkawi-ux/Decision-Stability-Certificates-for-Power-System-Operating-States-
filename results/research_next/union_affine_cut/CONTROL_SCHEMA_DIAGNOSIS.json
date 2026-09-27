@@ -1,0 +1,25 @@
+{
+  "kind": "read_only_npz_member_metadata",
+  "sha256": "90c8b308a6ce8e7671adbe3059887d6ce27489fa3d68aa601c2474b32d2d462a",
+  "members": [
+    {
+      "name": "vector.npy",
+      "uncompressed_bytes": 271616
+    },
+    {
+      "name": "row_value.npy",
+      "uncompressed_bytes": 555024
+    },
+    {
+      "name": "row_dual.npy",
+      "uncompressed_bytes": 555024
+    },
+    {
+      "name": "col_dual.npy",
+      "uncompressed_bytes": 271616
+    }
+  ],
+  "vector_values_decoded": false,
+  "optimizer_calls": 0,
+  "cut_calculations": 0
+}

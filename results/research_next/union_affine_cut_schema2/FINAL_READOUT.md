@@ -1,0 +1,11 @@
+# Two affine cuts — independently verified closure
+
+Independent exact post-run review passed for both distinct cuts. Each is a globally valid necessary inequality in the original uniformly expanded model, reconstructed from nonnegative original row/box endpoint multipliers with exact cancellation of every non-U column. The original selected proof sources and hourly branches were unchanged. No optimizer, bound reselection, old point-membership replay or alternative scientific case was used.
+
+Each cut has 82 positive U coefficients and no negative coefficients, spread over 24 U hours. Each rejects the frozen union by exactly 242967941527088396181895/590295810358705651712 MWh, approximately 411.6037032 MWh. Consequently every binary commitment componentwise above that union also violates the necessary cap inequality: adding on-hours to both accepted individual schedules cannot repair this particular obstruction. A possible common commitment must remove or rearrange at least one union on-bit. The unrestricted common-binary question remains UNKNOWN.
+
+The unchanged unrounded continuous control satisfies both cuts, with positive slacks approximately 1525.7268000381637 and 1520.6478492381636 MWh. This is a check of the new inequalities only; that fractional point is not a binary witness. Each proof also uses 151 row endpoints, 3442 box endpoints, 168 selected hours and the original global fossil cap. Its 82-term U support is not a claim of minimal raw information or memory.
+
+The one schema-successor arithmetic run took 1.2298320999834687 seconds, with zero overrun. All 73 inputs and 33 initial producer artifacts remained unchanged through independent review. The first affine attempt's zero-cut NPZ-schema failure is preserved separately. This source change declared the four-member archive schema; saved row values/duals were not used as proof evidence. Exact source/protocol diffs and focused invented schema controls are retained.
+
+No strict nominal feasibility, optimum, regret, universal common-commitment impossibility, dwell attribution or algorithmic novelty is claimed. The standard affine implication and binary monotonicity conclusion are the complete scientific scope of this closure.

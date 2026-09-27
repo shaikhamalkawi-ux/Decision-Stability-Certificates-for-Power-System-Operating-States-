@@ -1,0 +1,47 @@
+{
+  "inputs": [
+    {
+      "path": "results/research8h/hour_of_day/january_identity/constructive_check.json",
+      "bytes": 4361,
+      "sha256": "4bc4a850eb640021e2566224e0566012be0d7f9ea82b205054b63a11544ae800"
+    },
+    {
+      "path": "results/research_next/day321_local_repair/run01/result.json",
+      "bytes": 971,
+      "sha256": "ec7bb3be2d79c5c3b878a7d674da5ca6c625173d07cffa440261018d9f452091"
+    },
+    {
+      "path": "results/research_next/union_energy_floor/INDEPENDENT_REVIEW.json",
+      "bytes": 3381,
+      "sha256": "4ce224e7242bbad68ccfd5a9a5220b63e0b66d1db97848dda3098fa56743da9e"
+    },
+    {
+      "path": "results\\research_next\\union_energy_floor\\result.json",
+      "bytes": 2147,
+      "sha256": "3d6577baf7f63c538fd1a7717a369dad625714d3f2edf3d731b4f1f72be39d49"
+    }
+  ],
+  "source_sha256": "c37364fcdf8004db474ae3fbe4972b4f0123ff130c5dfafe5ab7be60a83d1f5d",
+  "data_operation": "Visualize already verified results; no scientific replay",
+  "identity_MWh": "1654798412944827657145/72057594037927936",
+  "repaired_MWh": "1659121868587103333305/72057594037927936",
+  "union_lower_bound_MWh": "1741859908587528011403599/73786976294838206464",
+  "expanded_cap_MWh": "13691911327173135695046897/590295810358705651712",
+  "outputs": [
+    {
+      "name": "CAPTION.md",
+      "bytes": 470,
+      "sha256": "8883e28c92956029cbe90cb06bd1cab4959ce3e11cd40b93e34f56c39ca1dfe9"
+    },
+    {
+      "name": "fixed_union_energy.png",
+      "bytes": 129222,
+      "sha256": "c5389b6bd95bf7facf11459cda52c32f61fe6970d5429a7a936e37323f9c83b9"
+    },
+    {
+      "name": "fixed_union_energy.svg",
+      "bytes": 11723,
+      "sha256": "fbc158256018eabd32a7fc8fa3bf68efd34c31b29f2972b28641e27163a10885"
+    }
+  ]
+}

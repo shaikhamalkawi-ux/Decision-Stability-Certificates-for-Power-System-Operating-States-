@@ -1,0 +1,65 @@
+{
+  "status": "CLOSED_PENDING_INDEPENDENT_REVIEW",
+  "worlds": [
+    {
+      "world": "identity",
+      "single_generation_rows": 8064,
+      "empty_generation_intervals": [],
+      "disjoint_hourly_aggregate_intervals": [],
+      "necessary_fossil_energy_floor": {
+        "numerator": "1741859908587528011403599",
+        "denominator": "73786976294838206464",
+        "approximate": 23606.603713200002
+      },
+      "cap_row": 24264,
+      "expanded_cap": {
+        "numerator": "13691911327173135695046897",
+        "denominator": "590295810358705651712",
+        "approximate": 23195.00001
+      },
+      "floor_minus_cap": {
+        "numerator": "242967941527088396181895",
+        "denominator": "590295810358705651712",
+        "approximate": 411.6037032000004
+      },
+      "strict_floor_excess": true,
+      "fixed_schedule_obstruction_pending_independent_review": true
+    },
+    {
+      "world": "days_321",
+      "single_generation_rows": 8064,
+      "empty_generation_intervals": [],
+      "disjoint_hourly_aggregate_intervals": [],
+      "necessary_fossil_energy_floor": {
+        "numerator": "1741859908587528011403599",
+        "denominator": "73786976294838206464",
+        "approximate": 23606.603713200002
+      },
+      "cap_row": 24264,
+      "expanded_cap": {
+        "numerator": "13691911327173135695046897",
+        "denominator": "590295810358705651712",
+        "approximate": 23195.00001
+      },
+      "floor_minus_cap": {
+        "numerator": "242967941527088396181895",
+        "denominator": "590295810358705651712",
+        "approximate": 411.6037032000004
+      },
+      "strict_floor_excess": true,
+      "fixed_schedule_obstruction_pending_independent_review": true
+    }
+  ],
+  "optimizer_calls": 0,
+  "scientific_candidates": 1,
+  "new_candidates_generated": 0,
+  "all_inputs_unchanged": true,
+  "elapsed_seconds": 3.3088053000392392,
+  "not_complete_dispatch_test": true,
+  "unrestricted_common_verdict": "UNKNOWN",
+  "tau": {
+    "numerator": "5902958103587057",
+    "denominator": "590295810358705651712",
+    "approximate": 1e-05
+  }
+}

@@ -1,0 +1,4 @@
+{"stage": "verify_runtime_reuse_and_prior_bindings", "utc": "2026-09-27T10:01:59.413938+00:00", "elapsed_seconds": 0.04810449999058619}
+{"stage": "bind_admitted_registry_without_network", "utc": "2026-09-27T10:02:00.360452+00:00", "elapsed_seconds": 0.9948079999885522}
+{"stage": "extract_pinned_plain_registry_cached_directories", "utc": "2026-09-27T10:02:01.427870+00:00", "elapsed_seconds": 2.062735999992583}
+{"stage": "full_registry_content_tree_readback_before_Julia", "utc": "2026-09-27T10:11:29.091633+00:00", "elapsed_seconds": 569.7261301999679}

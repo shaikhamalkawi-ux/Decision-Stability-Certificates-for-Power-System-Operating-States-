@@ -1,0 +1,11 @@
+{
+  "status": "RUNNING_NOT_COMPLETION",
+  "session_id": 53223,
+  "julia_pid": 75556,
+  "julia_started_utc": "2026-09-27T10:54:50.092884+00:00",
+  "prepared_sha256": "6113f906703d29da0177e666f1fc66eda0854efb4432ff2017197997186cc4d2",
+  "source_sha256": "2e1add47952cbeb1f2a26800619277623c4b8975118fe19e933b7680eea61a3a",
+  "allocation_seconds": 1800,
+  "automatic_retry": false,
+  "completion_receipt": "setup_reuse01/ENVIRONMENT_ACQUISITION.json"
+}

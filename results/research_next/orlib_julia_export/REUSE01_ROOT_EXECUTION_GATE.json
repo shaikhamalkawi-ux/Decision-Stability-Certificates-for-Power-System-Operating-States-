@@ -1,0 +1,13 @@
+{
+  "status": "ROOT_SOURCE_AND_PREPARED_PASS_ONE_SETUP_GO",
+  "utc": "2026-09-27T10:54:30.066Z",
+  "source_sha256": "2e1add47952cbeb1f2a26800619277623c4b8975118fe19e933b7680eea61a3a",
+  "protocol_sha256": "eb1f8a857ca8228bcf33b7bb85fdddf4c157d49295883c3fc52fa0b0b7b51a2b",
+  "prepared_sha256": "6113f906703d29da0177e666f1fc66eda0854efb4432ff2017197997186cc4d2",
+  "bindings_rehashed": 36,
+  "all_match": true,
+  "independent_review_sha256": "4d69e25dea5ed4709b852825b73352f6be17aadaaa968b972cf9790794a950a5",
+  "interpretation_note_sha256": "f891fc5d9bf1570afe7b7543d4b548aeadfe2041b4fc83cca9c26f116f49f48e",
+  "scope": "One 1800-second setup_reuse01 run only. One Pkg.add; no scientific native import/build/export or optimizer. Root read full source in prior context and execution closure again; accepts explicit nonadversarial storage trust and no second transitive metadata reread. Preserve failures and no retry.",
+  "scientific_fidelity": "NOT_TESTED"
+}

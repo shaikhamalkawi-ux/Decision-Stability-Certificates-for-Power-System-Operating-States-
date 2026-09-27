@@ -1,0 +1,56 @@
+{
+  "status": "NO_REJECTION_FROM_THIS_BOUND",
+  "no_capacity_cover_hours": [],
+  "worlds": [
+    {
+      "world": "identity",
+      "expanded_cap": {
+        "numerator": "13691911327173135695046897",
+        "denominator": "590295810358705651712",
+        "approximate": 23195.00001
+      },
+      "energy_floor": {
+        "numerator": "3298242508400627619418903",
+        "denominator": "147573952589676412928",
+        "approximate": 22349.7605812
+      },
+      "floor_minus_cap": {
+        "numerator": "-498941293570625217371285",
+        "denominator": "590295810358705651712",
+        "approximate": -845.2394287999996
+      },
+      "cap_rejected": false
+    },
+    {
+      "world": "days_321",
+      "expanded_cap": {
+        "numerator": "13691911327173135695046897",
+        "denominator": "590295810358705651712",
+        "approximate": 23195.00001
+      },
+      "energy_floor": {
+        "numerator": "3298242508400627619418903",
+        "denominator": "147573952589676412928",
+        "approximate": 22349.7605812
+      },
+      "floor_minus_cap": {
+        "numerator": "-498941293570625217371285",
+        "denominator": "590295810358705651712",
+        "approximate": -845.2394287999996
+      },
+      "cap_rejected": false
+    }
+  ],
+  "optimizer_calls": 0,
+  "tau": {
+    "numerator": "5902958103587057",
+    "denominator": "590295810358705651712",
+    "approximate": 1e-05
+  },
+  "new_schedule_candidates": 0,
+  "scientific_dp_tables": 1,
+  "scientific_threshold_queries": 168,
+  "not_dwell_or_network_attribution": true,
+  "original_question": "UNKNOWN",
+  "requires_successful_completion_record": true
+}

@@ -1,0 +1,88 @@
+{
+  "status": "INDEPENDENT_EXACT_FIXED_SCHEDULE_OBSTRUCTION_PASS",
+  "worlds": [
+    {
+      "world": "identity",
+      "variables": 6888,
+      "singleton_rows": 8064,
+      "hours": 168,
+      "binary_mask": 12096,
+      "source_rows_used_in_interval_records": 4032,
+      "necessary_floor": {
+        "numerator": "1741859908587528011403599",
+        "denominator": "73786976294838206464",
+        "approximate": 23606.603713200002
+      },
+      "expanded_cap": {
+        "numerator": "13691911327173135695046897",
+        "denominator": "590295810358705651712",
+        "approximate": 23195.00001
+      },
+      "excess": {
+        "numerator": "242967941527088396181895",
+        "denominator": "590295810358705651712",
+        "approximate": 411.6037032000004
+      },
+      "fixed_schedule_rejected": true,
+      "empty_intervals": 0,
+      "disjoint_hour_intervals": 0
+    },
+    {
+      "world": "days_321",
+      "variables": 6888,
+      "singleton_rows": 8064,
+      "hours": 168,
+      "binary_mask": 12096,
+      "source_rows_used_in_interval_records": 4032,
+      "necessary_floor": {
+        "numerator": "1741859908587528011403599",
+        "denominator": "73786976294838206464",
+        "approximate": 23606.603713200002
+      },
+      "expanded_cap": {
+        "numerator": "13691911327173135695046897",
+        "denominator": "590295810358705651712",
+        "approximate": 23195.00001
+      },
+      "excess": {
+        "numerator": "242967941527088396181895",
+        "denominator": "590295810358705651712",
+        "approximate": 411.6037032000004
+      },
+      "fixed_schedule_rejected": true,
+      "empty_intervals": 0,
+      "disjoint_hour_intervals": 0
+    }
+  ],
+  "inputs_verified": 15,
+  "producer_outputs_unchanged": [
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\union_energy_floor\\started.json",
+      "bytes": 4112,
+      "sha256": "6f8b0150abc8ecad2e53a4c727dca85c6fa68374f2298787f0755a2ecd81ac95"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\union_energy_floor\\result.json",
+      "bytes": 2147,
+      "sha256": "3d6577baf7f63c538fd1a7717a369dad625714d3f2edf3d731b4f1f72be39d49"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\union_energy_floor\\identity_derivations.json",
+      "bytes": 3723435,
+      "sha256": "ddb42e1a8f6fddbd3091cfda0f1105a4f50223f9109ff985c7783f9881b07260"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\union_energy_floor\\days_321_derivations.json",
+      "bytes": 3723435,
+      "sha256": "d8c767688bf12b30efcc850ddd6f0cd01b49671a1952dcc361cef296e7fa6671"
+    }
+  ],
+  "optimizer_calls": 0,
+  "producer_imports": 0,
+  "no_new_schedule": true,
+  "unrestricted_common_verdict": "UNKNOWN",
+  "not_an_individual_full_uc_negative": true,
+  "scope": "Exact implication from original expanded boxes/singleton-P rows/aggregate/cap after prescribed state substitution; unused network rows need not be feasible.",
+  "elapsed_seconds": 2.4992963999975473,
+  "source_sha256": "a0e366713590317ba6f14f09b8009c35f4230be20b35d03a462e0cba374ac005"
+}

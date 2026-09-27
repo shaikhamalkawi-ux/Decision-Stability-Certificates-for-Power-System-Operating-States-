@@ -1,0 +1,21 @@
+{
+  "worlds": [
+    "identity",
+    "days_321"
+  ],
+  "cut_count": 2,
+  "phase_seconds": 120.0,
+  "selection": "exact archived variable sources and hourly active label; no reselection",
+  "arithmetic": "exact binary64 rationals",
+  "tau": {
+    "numerator": "5902958103587057",
+    "denominator": "590295810358705651712",
+    "approximate": 1e-05
+  },
+  "optimizer_calls": 0,
+  "union_recomputations": 0,
+  "control_point_rounded": false,
+  "no_old_full_point_replay": true,
+  "negative_control": "saved accepted expanded continuous joint point",
+  "full_common_verdict": "UNKNOWN"
+}

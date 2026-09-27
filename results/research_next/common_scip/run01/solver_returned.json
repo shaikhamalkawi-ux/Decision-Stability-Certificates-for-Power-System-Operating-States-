@@ -1,0 +1,23 @@
+{
+  "verdict": "UNKNOWN",
+  "accepted_common_witness": false,
+  "no_exact_negative_claim": true,
+  "solver_version": "10.0.2",
+  "status": "timelimit",
+  "solution_count": 0,
+  "actual_seconds": 1800.18060349999,
+  "soft_overrun_seconds": 0.18060349998995662,
+  "solver_runtime": 1800.0,
+  "node_count": 208,
+  "lp_iterations": 204823,
+  "options": {
+    "limits/time": 1800.0,
+    "limits/solutions": 1,
+    "parallel/maxnthreads": 1,
+    "lp/threads": 1,
+    "randomization/randomseedshift": 0,
+    "randomization/permutationseed": 0,
+    "randomization/lpseed": 0,
+    "numerics/feastol": 1e-08
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "options": {
+    "limits/time": 1800.0,
+    "limits/solutions": 1,
+    "parallel/maxnthreads": 1,
+    "lp/threads": 1,
+    "randomization/randomseedshift": 0,
+    "randomization/permutationseed": 0,
+    "randomization/lpseed": 0,
+    "numerics/feastol": 1e-08
+  },
+  "phase_seconds": 2400.0,
+  "start_guard_seconds": 1805.0,
+  "calls": 1,
+  "emphasis": "SCIP_PARAMEMPHASIS.FEASIBILITY before explicit options; record full parameter diff",
+  "objective": "zero feasibility",
+  "full_original_binaries": 12096,
+  "numeric_proposal": "nominal original model",
+  "acceptance": "original uniformly expanded joint and both world models plus native checks",
+  "runtime": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "executable": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\scip_capability_env01\\Scripts\\python.exe",
+    "packages": {
+      "pyscipopt": "6.2.1",
+      "numpy": "2.3.5"
+    },
+    "capability": "empty-model import/version only; no exact/proof parameters",
+    "scip_imported_for_preparation": false
+  },
+  "no_warm_start": true,
+  "no_lp": true,
+  "no_ray": true,
+  "no_iis": true,
+  "no_retry": true,
+  "no_install_or_license_change": true,
+  "numerical_backend_only": true,
+  "source_sha256": "e80a8e80b1a25def3f94564b3a33527a367fc21e4bd87ea52bcdbc2f3e16d8d5",
+  "protocol_sha256": "07b17a4105f9f9c026f26350593814e92b79dd528eff3cb9ad7b0c20e5221597"
+}

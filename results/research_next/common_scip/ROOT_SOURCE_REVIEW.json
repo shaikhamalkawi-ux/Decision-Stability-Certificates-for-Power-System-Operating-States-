@@ -1,0 +1,19 @@
+{
+  "status": "ROOT_SOURCE_AND_INDEPENDENT_PREPARED_PASS",
+  "utc": "2026-09-27T09:58:54.390Z",
+  "source_sha256": "e80a8e80b1a25def3f94564b3a33527a367fc21e4bd87ea52bcdbc2f3e16d8d5",
+  "protocol_sha256": "07b17a4105f9f9c026f26350593814e92b79dd528eff3cb9ad7b0c20e5221597",
+  "freeze_sha256": "b1d7d8553daf3b4a6373d91520cf52adce898008fc961d090d75b599a16d3b50",
+  "independent_report_sha256": "ca8582e085c35905673b49a3b4acea615bce46397e7015370ea273502247cac3",
+  "full_source_read": true,
+  "full_protocol_read": true,
+  "full_original_model_preserved": true,
+  "numeric_backend_only": true,
+  "scientific_optimize_calls_authorized": 1,
+  "time_limit_seconds": 1800,
+  "phase_limit_seconds": 2400,
+  "readback_before_optimize_required": true,
+  "original_exact_point_gate_required": true,
+  "protocol_clarification": "The final sentence denying individual-feasibility inference concerns no accepted point, timeout or numerical status. An accepted common witness does imply individual feasibility for both projected worlds in the exact expanded encoding.",
+  "negative_status_alone": "UNKNOWN"
+}

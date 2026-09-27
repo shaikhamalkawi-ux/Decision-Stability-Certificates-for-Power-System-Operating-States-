@@ -1,0 +1,45 @@
+{
+  "tables": [
+    {
+      "group": 0,
+      "layers": 24,
+      "states_per_layer": 2319,
+      "finite_states_per_layer": [
+        1,
+        2,
+        3,
+        6,
+        9,
+        12,
+        15,
+        20,
+        25,
+        50,
+        100,
+        150,
+        200,
+        250,
+        462,
+        654,
+        897,
+        1052,
+        1407,
+        1562,
+        1912,
+        1967,
+        2022,
+        2077
+      ],
+      "recurrence": {
+        "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_capacity_cover\\run01\\dp_group_0.jsonl.gz",
+        "bytes": 9964,
+        "sha256": "04e734c3a76dff128a4776be5a11b13ca051f51f7cc751ffbc028c8d96b99873"
+      },
+      "terminal": {
+        "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_capacity_cover\\run01\\terminal_group_0.json",
+        "bytes": 46784,
+        "sha256": "a4ab7b3ea2fb1ddb9b8b4daca2d4a26180f2fdfa2c03c5bfc0f6ef6a518f0d1f"
+      }
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "status": "PRECALL_INTERRUPTED_READBACK_IMPLEMENTATION_FAILURE",
+  "scientific_verdict": "UNKNOWN",
+  "optimizer_calls": 0,
+  "session_id": 79040,
+  "process_exit_code": 1,
+  "execution_marker_to_interruption_seconds": 347.722767,
+  "phase_stopwatch_unavailable_after_forced_interruption": true,
+  "phase_guard_was_after_readback_not_an_interrupting_wall_limit": true,
+  "backend_readback_complete": false,
+  "call_ready_present": false,
+  "no_candidate_or_certificate": true,
+  "source_and_freeze_unchanged": true,
+  "private_logs_public": false,
+  "private_log_contents_not_inspected": true,
+  "private_log_hashes": [
+    {
+      "path": ".work/researchnext_common_union/run01/solver.log",
+      "bytes": 92,
+      "sha256": "b12fd511161ac4098192149e29ee6f3ceeb267160bedda4a3454b81473254b10"
+    }
+  ],
+  "no_retry": true
+}

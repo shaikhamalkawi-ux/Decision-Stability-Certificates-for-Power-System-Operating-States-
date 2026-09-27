@@ -1,0 +1,41 @@
+{
+  "status": "INTERRUPTED_INFRASTRUCTURE_BEFORE_JULIA",
+  "root_authorization": "Explicit root interruption GO after measured 16052-of-61167 extraction progress and ~56min extraction-only projection",
+  "execution_session": 62310,
+  "owned_processes": [
+    {
+      "ProcessId": 55652,
+      "ParentProcessId": 30604,
+      "ExecutablePath": "C:\\Users\\gmalkawi\\OneDrive - Higher Colleges of Technology\\Documents 1\\ChatGPT\\3\\.work\\solver_env\\Scripts\\python.exe",
+      "CommandLine": "\"C:\\Users\\gmalkawi\\OneDrive - Higher Colleges of Technology\\Documents 1\\ChatGPT\\3\\.work\\solver_env\\Scripts\\python.exe\" -I -S src/researchnext_julia_setup_after_registry.py --setup-once",
+      "CreationDate": "2026-09-27T13:37:50.233603+04:00"
+    },
+    {
+      "ProcessId": 4208,
+      "ParentProcessId": 55652,
+      "ExecutablePath": "C:\\Users\\gmalkawi\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "CommandLine": "\"C:\\Users\\gmalkawi\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe\" -I -S src/researchnext_julia_setup_after_registry.py --setup-once",
+      "CreationDate": "2026-09-27T13:37:50.334164+04:00"
+    }
+  ],
+  "initial_identity_guard": "First guard expected one python process and found two; it failed before termination. Read-only identity check established the venv launcher and its sole base-Python child running the same command.",
+  "phase_started_utc": "2026-09-27T13:37:50.758473+04:00",
+  "interruption_requested_utc": "2026-09-27T09:55:48.5122566Z",
+  "observed_closed_utc": "2026-09-27T09:55:50.5284168Z",
+  "elapsed_seconds": 1080.5329559,
+  "last_stage": "extract_pinned_plain_registry_and_readback",
+  "verified_python_descendant_count": 1,
+  "Julia_descendant_count": 0,
+  "taskkill_exit_code": 0,
+  "owned_processes_alive_after": 0,
+  "Julia_invocations": 0,
+  "Pkg_add_calls": 0,
+  "model_builds": 0,
+  "optimizer_calls": 0,
+  "call_count_evidence": "No Julia launch record, no Pkg marker, only verified venv launcher and base-Python driver with no further descendants; last stage remained extraction/readback before sole Julia call site",
+  "source_sha256": "926d2022f2df0b61624a455054ee4dd519290974f67fcff1145f2d4337c5e6c5",
+  "protocol_sha256": "f0a860e2942cb4cad192dfbbb6cabc1d5636c452273668df6417af2f03a517b6",
+  "partial_files_preserved": true,
+  "restart_performed": false,
+  "reason": "Observed local metadata overhead projects insufficient setup allocation; infrastructure interruption, not package incompatibility or scientific evidence"
+}

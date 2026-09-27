@@ -1,0 +1,22 @@
+--- UNION_AFFINE_CUT_PROTOCOL.md
++++ UNION_AFFINE_CUT_SCHEMA2_PROTOCOL.md
+@@ -1,10 +1,18 @@
++# Schema-only successor after the preserved zero-cut failure
++
++The original affine run failed before either cut was constructed because the strict NPZ decoder was asked to accept a single vector member. The unchanged saved control archive actually contains exactly four members: vector, row_value, row_dual and col_dual. This separate successor declares that full expected schema, still selects only the unrounded vector and never uses the saved row values or duals as proof inputs. The trusted whole-NPZ SHA remains 90c8b308a6ce8e7671adbe3059887d6ce27489fa3d68aa601c2474b32d2d462a.
++
++The old source/protocol, freeze, manifest, failure and schema diagnosis are bound by this successor. All 14 new preparation copies must additionally match the failed arm's frozen copies byte for byte. No source, bound choice, hourly branch, model coefficient, control coordinate, multiplier calculation, tau convention or scientific denominator is changed. Exact source/protocol diffs are retained. No old artifact is edited, and the first failure remains a zero-cut result.
++
++Focused invented four-member NPZ controls check complete-schema admission, old single-member expectation rejection, missing-member rejection and unchanged selected vector. They replace no old arithmetic test and contain no historical point. One solver-free hash preparation and a separately gated single 120-second arithmetic run are the only authorized phases. The substantive prospective protocol below is inherited unchanged apart from the new runner path.
++
+ # Two inherited-proof affine cuts: prospective execution protocol
+ 
+ This arm lifts the two independently accepted fixed-union energy-floor derivations into affine necessary inequalities in original shared U. It uses only the exact archived source choices and hourly branches; it performs no bound reselection, optimization, schedule search, source minimization or adaptive repair. It is a standard linear implication, not an algorithmic or minimum-information novelty claim. The original common binary question remains UNKNOWN.
+ 
+ ## Inputs and preparation
+ 
+-The source `src/researchnext_union_affine_cut.py` hardcodes the accepted union freeze/manifest, proposal, floor source/protocol/results and independent review, original common manifests/review and saved unrounded LP point. Each input is captured once, verified against its hardcoded hash or its pinned historical descriptor, and the same captured bytes are used for any copy. The two cases are exactly `identity` and `days_321`, retained in that order and in the denominator even on failure.
++The source `src/researchnext_union_affine_cut_schema2.py` hardcodes the accepted union freeze/manifest, proposal, floor source/protocol/results and independent review, original common manifests/review and saved unrounded LP point. Each input is captured once, verified against its hardcoded hash or its pinned historical descriptor, and the same captured bytes are used for any copy. The two cases are exactly `identity` and `days_321`, retained in that order and in the denominator even on failure.
+ 
+ The solver-free preparation copies 14 payloads: each world's unchanged original matrix, bounds, integrality mask and metadata; the original joint column maps; the frozen union schedule; the two archived selected derivation records; the exact floor summary; and the saved continuous control vector. It verifies byte equality of the copied world models/maps to those bound to the original common-point review. It validates inherited admission flags and point hash, without replaying full point membership or computing cuts. A new manifest binds selected historical records, copied files, code and this protocol before the new freeze. This preparation invokes no decoder or optimizer and performs no new scientific cut arithmetic. A separately authorized run requires the external freeze digest, unchanged source/protocol/inputs and a fresh run directory.
+ 

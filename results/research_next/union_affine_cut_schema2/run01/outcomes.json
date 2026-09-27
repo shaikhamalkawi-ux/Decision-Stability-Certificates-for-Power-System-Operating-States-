@@ -1,0 +1,68 @@
+{
+  "cases": [
+    {
+      "world": "identity",
+      "status": "VERIFIED_GLOBAL_EXPANDED_AFFINE_NECESSARY_CUT",
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\union_affine_cut_schema2\\run01\\identity_cut.json",
+      "sha256": "8ba409f8702486dcdebc7611a98609696348c41d46af8fa38d7e77b5614621cb",
+      "union_violation": {
+        "numerator": "242967941527088396181895",
+        "denominator": "590295810358705651712",
+        "approximate": 411.6037032000004
+      },
+      "continuous_control_slack": {
+        "numerator": "900630137814522709270137",
+        "denominator": "590295810358705651712",
+        "approximate": 1525.7268000381637
+      },
+      "binary_superset_corollary": true,
+      "support": {
+        "U_coefficients": 82,
+        "positive_U_coefficients": 82,
+        "negative_U_coefficients": 0,
+        "row_endpoints": 151,
+        "box_endpoints": 3442,
+        "unique_rows": 151,
+        "U_hours": 24,
+        "selected_hours": 168,
+        "unmerged_selected_endpoint_uses": 3593,
+        "global_cap_dependencies": 1
+      }
+    },
+    {
+      "world": "days_321",
+      "status": "VERIFIED_GLOBAL_EXPANDED_AFFINE_NECESSARY_CUT",
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\union_affine_cut_schema2\\run01\\days_321_cut.json",
+      "sha256": "7fe192f2acd9ebd1e14eeecde3ece0e3d5d24ede8408e6047b1cb9dd597f30dd",
+      "union_violation": {
+        "numerator": "242967941527088396181895",
+        "denominator": "590295810358705651712",
+        "approximate": 411.6037032000004
+      },
+      "continuous_control_slack": {
+        "numerator": "897632054436264684936825",
+        "denominator": "590295810358705651712",
+        "approximate": 1520.6478492381636
+      },
+      "binary_superset_corollary": true,
+      "support": {
+        "U_coefficients": 82,
+        "positive_U_coefficients": 82,
+        "negative_U_coefficients": 0,
+        "row_endpoints": 151,
+        "box_endpoints": 3442,
+        "unique_rows": 151,
+        "U_hours": 24,
+        "selected_hours": 168,
+        "unmerged_selected_endpoint_uses": 3593,
+        "global_cap_dependencies": 1
+      }
+    }
+  ],
+  "denominator": 2,
+  "both_cuts_identical": false,
+  "optimizer_calls": 0,
+  "selection_changes": 0,
+  "unrestricted_common_verdict": "UNKNOWN",
+  "claims": "necessary affine cuts and conditional binary-superset exclusion only"
+}

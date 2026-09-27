@@ -1,0 +1,12 @@
+{
+  "schema": "setup_after_registry01.single_progress_measure.v1",
+  "measured_utc_start": "2026-09-27T09:52:23.166340+00:00",
+  "measured_utc_end": "2026-09-27T09:52:38.789085+00:00",
+  "count_elapsed_seconds": 15.623072399990633,
+  "regular_filename_count_during_active_extraction": 16052,
+  "visited_directories": 3751,
+  "expected_files": 61167,
+  "phase_started_utc": "2026-09-27T09:37:50.759+00:00",
+  "Julia_launch_record_present": false,
+  "measurement_scope": "One filename count only; no contents, hashing, process inspection or repeated inventory. Active extraction can advance during traversal; no timing share or deterministic completion-time inference."
+}

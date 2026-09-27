@@ -1,0 +1,62 @@
+{
+  "status": "SETUP_FAILED_PRESERVED_NO_RETRY",
+  "started_utc": "2026-09-27T10:01:59.364875+00:00",
+  "limit_seconds": 1800,
+  "source_sha256": "b3ed859e6d7a8416ea8fc76b8184e8362c121e81952c854b748b0972e323fd00",
+  "protocol_sha256": "6879b4d3a03110931a060a18f9d00aaf107d5bb66ac5ddf6a92fe1c9e850b670",
+  "parent_source_sha256": "926d2022f2df0b61624a455054ee4dd519290974f67fcff1145f2d4337c5e6c5",
+  "Julia_invocations": 0,
+  "Pkg_add_calls": 0,
+  "scientific_model_builds": 0,
+  "optimizer_calls": 0,
+  "package_cache_copied": false,
+  "runtime_reused_read_only": true,
+  "automatic_retry": false,
+  "TLS_bypass": false,
+  "certificate_injection": false,
+  "global_settings_changed": false,
+  "concurrent_path_replacement_assumption": "No external process replaces paths in this fresh private workspace; pathname checks are not adversarial race-proof",
+  "stage": "full_registry_content_tree_readback_before_Julia",
+  "runtime_executable": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\researchnext_julia_export\\attempt01\\runtime\\julia-1.6.7\\bin\\julia.exe",
+  "runtime_executable_sha256": "29ebe4b29362a2e380848dd4803e67343fe1779207b4970390418a1d495da67f",
+  "runtime_archive_sha256": "63e14aa2e056f76f4a8f79eb8b4ed6698e3817eb3584e12b030f26f36e70cce6",
+  "prior_source_bindings_sha256": "6038d94eca340f7f0bf759330aa57f30d3930834fb4e1eccd8ff824c61fbd927",
+  "registry_archive_sha256": "53e48326acc56f53ac4527a41e7362a29622d3bf9d406234c5ddc05566869211",
+  "registry_receipt_sha256": "86eeaf107b46baaabd4abc88b54507b934822956d18d0d917e4ccda2682788d5",
+  "registry_inventory_sha256": "cc8d9ce6757ffc70a1347ab3bf9e74a2bbaba87f4131bb3737746a52c19f0f42",
+  "registry_commit": "416a13c3e4888af4b245812d8f4ab040a042c38f",
+  "registry_expected_git_tree": "f39bab42a09b8a82574435c6e402e598b3200dc3",
+  "registry_network_requests": 0,
+  "local_pkg_source_sha256": {
+    "Pkg.jl": "c5fb5ff466afecdeafd9aec8c1579a907625a2a10c014992243884936018ab6b",
+    "Types.jl": "8c3933c01dfdd1cc8af575594064eeb6433e5b777b586edc59cf2e9ed36dcada",
+    "API.jl": "ed80ac79c48fc6a33b28ab9a6ad639a517ff605cecebcf9601228f7392e2c172"
+  },
+  "registry_extraction": {
+    "files_written": 61167,
+    "directories_created_including_root": 14474
+  },
+  "exception_type": "TimeoutError",
+  "message": "Efficient setup 1800-second allocation expired",
+  "Pkg_add_attempt_count_evidence": "Durable pre-call marker; one source call site; a marker records attempted entry, not successful completion",
+  "ended_utc": "2026-09-27T10:31:59.535445+00:00",
+  "elapsed_seconds": 1800.1696560999844,
+  "allocation_overrun_seconds": 0.1696593999513425,
+  "source_unchanged_at_closure": true,
+  "protocol_unchanged_at_closure": true,
+  "admitted_archive_unchanged_at_closure": true,
+  "artifacts": [
+    {
+      "path": "stages.jsonl",
+      "bytes": 560,
+      "sha256": "d74926fe15767e2a5faa06327aeed5fd1eb3dc7cd0cf226541cb82a80f561294"
+    },
+    {
+      "path": "started.json",
+      "bytes": 849,
+      "sha256": "352cb4e23090ea0b8cb75616abbfb10f554c6acac0514d365a9acc7ba2314d79"
+    }
+  ],
+  "private_log_artifacts": [],
+  "private_logs_publication_status": "NOT_SELECTED_PENDING_ENTERPRISE_TLS_REVIEW"
+}

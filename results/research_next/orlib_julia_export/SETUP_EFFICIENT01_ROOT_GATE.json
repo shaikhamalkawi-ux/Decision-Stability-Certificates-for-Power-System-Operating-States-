@@ -1,0 +1,19 @@
+{
+  "status": "ROOT_FULL_SOURCE_PROTOCOL_PASS",
+  "utc": "2026-09-27T10:01:38.333Z",
+  "source_sha256": "b3ed859e6d7a8416ea8fc76b8184e8362c121e81952c854b748b0972e323fd00",
+  "protocol_sha256": "6879b4d3a03110931a060a18f9d00aaf107d5bb66ac5ddf6a92fe1c9e850b670",
+  "prior_source_unchanged_sha256": "926d2022f2df0b61624a455054ee4dd519290974f67fcff1145f2d4337c5e6c5",
+  "full_source_read": true,
+  "full_protocol_read": true,
+  "fresh_paths": true,
+  "setup_attempts_authorized": 1,
+  "phase_soft_seconds": 1800,
+  "normal_tls": true,
+  "unchanged_package_pins": true,
+  "registry_payload_and_tree_checks_preserved": true,
+  "owned_process_cleanup_reviewed": true,
+  "scientific_imports_builds_or_optimizers_authorized": 0,
+  "path_race_assumption": "No external replacement in fresh private directory; no adversarial race-proof claim",
+  "performance_claim": "Metadata redundancy removed by source design; no completed timing result yet"
+}

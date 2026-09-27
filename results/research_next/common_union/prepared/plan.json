@@ -1,0 +1,33 @@
+{
+  "options": {
+    "time_limit": 60.0,
+    "threads": 1,
+    "random_seed": 0,
+    "presolve": "on",
+    "solver": "simplex"
+  },
+  "phase_seconds": 240.0,
+  "start_guard_seconds": 65.0,
+  "calls": 1,
+  "candidates": 1,
+  "objective": "zero feasibility",
+  "all_original_binary_columns_fixed": true,
+  "numeric_solver_type": "continuous LP with no free integer",
+  "original_matrix_rows_retained": 69362,
+  "original_columns_retained": 33936,
+  "runtime": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "executable": "C:\\Users\\gmalkawi\\OneDrive - Higher Colleges of Technology\\Documents 1\\ChatGPT\\3\\.work\\solver_env\\Scripts\\python.exe",
+    "packages": {
+      "numpy": "2.3.5",
+      "scipy": "1.18.1",
+      "highspy": "1.12.0"
+    },
+    "highspy_imported_for_preparation": false
+  },
+  "source_sha256": "92089c0301bd6a7399728abdf0a9a8964bd570199bc2490ea22e947adfedc1a1",
+  "protocol_sha256": "fdf6ff12aa5afbea4547583d1cdd2d12d774e18905eb2fdb1a6cf12c64b7e06c",
+  "no_warm_start": true,
+  "no_retry": true,
+  "no_ray": true
+}

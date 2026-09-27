@@ -1,0 +1,224 @@
+{
+  "status": "INDEPENDENT_SOURCE_AND_PREPARED_PASS",
+  "source_sha256": "92089c0301bd6a7399728abdf0a9a8964bd570199bc2490ea22e947adfedc1a1",
+  "protocol_sha256": "fdf6ff12aa5afbea4547583d1cdd2d12d774e18905eb2fdb1a6cf12c64b7e06c",
+  "prepared_freeze_sha256": "8d5e348d91db8ae082a1a036d2359ac382891b25849e9e682fb833e9ae52d0a2",
+  "input_manifest_sha256": "1337e9674d15fc52023733b8c72b1140c20d01a472a287fd43a90cd5719d3a2d",
+  "input_bindings": 94,
+  "inherited_original_bindings": 48,
+  "exact_copies": 24,
+  "original_rows": 69362,
+  "original_columns": 33936,
+  "original_coefficients": 291176,
+  "full_original_binary_mask": 12096,
+  "exact_fixed_state_coordinates": 12096,
+  "nominal_state_only_rows_checked": 32064,
+  "unchanged_continuous_boxes": 21840,
+  "union_additions_vs_identity": 45,
+  "union_additions_vs_day321": 43,
+  "closure_added_hours": 0,
+  "units": [
+    {
+      "unit": "101_CT_1",
+      "minimum_up": 1,
+      "minimum_down": 1,
+      "union_additions_vs_identity": 4,
+      "union_additions_vs_day321": 4,
+      "closure_added_hours": 0
+    },
+    {
+      "unit": "101_CT_2",
+      "minimum_up": 1,
+      "minimum_down": 1,
+      "union_additions_vs_identity": 2,
+      "union_additions_vs_day321": 2,
+      "closure_added_hours": 0
+    },
+    {
+      "unit": "101_STEAM_3",
+      "minimum_up": 8,
+      "minimum_down": 4,
+      "union_additions_vs_identity": 4,
+      "union_additions_vs_day321": 2,
+      "closure_added_hours": 0
+    },
+    {
+      "unit": "101_STEAM_4",
+      "minimum_up": 8,
+      "minimum_down": 4,
+      "union_additions_vs_identity": 8,
+      "union_additions_vs_day321": 8,
+      "closure_added_hours": 0
+    },
+    {
+      "unit": "102_CT_1",
+      "minimum_up": 1,
+      "minimum_down": 1,
+      "union_additions_vs_identity": 1,
+      "union_additions_vs_day321": 1,
+      "closure_added_hours": 0
+    },
+    {
+      "unit": "102_CT_2",
+      "minimum_up": 1,
+      "minimum_down": 1,
+      "union_additions_vs_identity": 2,
+      "union_additions_vs_day321": 2,
+      "closure_added_hours": 0
+    },
+    {
+      "unit": "102_STEAM_3",
+      "minimum_up": 8,
+      "minimum_down": 4,
+      "union_additions_vs_identity": 2,
+      "union_additions_vs_day321": 2,
+      "closure_added_hours": 0
+    },
+    {
+      "unit": "102_STEAM_4",
+      "minimum_up": 8,
+      "minimum_down": 4,
+      "union_additions_vs_identity": 2,
+      "union_additions_vs_day321": 2,
+      "closure_added_hours": 0
+    },
+    {
+      "unit": "107_CC_1",
+      "minimum_up": 8,
+      "minimum_down": 5,
+      "union_additions_vs_identity": 0,
+      "union_additions_vs_day321": 0,
+      "closure_added_hours": 0
+    },
+    {
+      "unit": "113_CT_1",
+      "minimum_up": 3,
+      "minimum_down": 3,
+      "union_additions_vs_identity": 7,
+      "union_additions_vs_day321": 7,
+      "closure_added_hours": 0
+    },
+    {
+      "unit": "113_CT_2",
+      "minimum_up": 3,
+      "minimum_down": 3,
+      "union_additions_vs_identity": 3,
+      "union_additions_vs_day321": 3,
+      "closure_added_hours": 0
+    },
+    {
+      "unit": "113_CT_3",
+      "minimum_up": 3,
+      "minimum_down": 3,
+      "union_additions_vs_identity": 2,
+      "union_additions_vs_day321": 2,
+      "closure_added_hours": 0
+    },
+    {
+      "unit": "113_CT_4",
+      "minimum_up": 3,
+      "minimum_down": 3,
+      "union_additions_vs_identity": 0,
+      "union_additions_vs_day321": 0,
+      "closure_added_hours": 0
+    },
+    {
+      "unit": "115_STEAM_1",
+      "minimum_up": 4,
+      "minimum_down": 2,
+      "union_additions_vs_identity": 0,
+      "union_additions_vs_day321": 0,
+      "closure_added_hours": 0
+    },
+    {
+      "unit": "115_STEAM_2",
+      "minimum_up": 4,
+      "minimum_down": 2,
+      "union_additions_vs_identity": 2,
+      "union_additions_vs_day321": 2,
+      "closure_added_hours": 0
+    },
+    {
+      "unit": "115_STEAM_3",
+      "minimum_up": 8,
+      "minimum_down": 8,
+      "union_additions_vs_identity": 2,
+      "union_additions_vs_day321": 2,
+      "closure_added_hours": 0
+    },
+    {
+      "unit": "116_STEAM_1",
+      "minimum_up": 8,
+      "minimum_down": 8,
+      "union_additions_vs_identity": 0,
+      "union_additions_vs_day321": 0,
+      "closure_added_hours": 0
+    },
+    {
+      "unit": "118_CC_1",
+      "minimum_up": 8,
+      "minimum_down": 5,
+      "union_additions_vs_identity": 0,
+      "union_additions_vs_day321": 0,
+      "closure_added_hours": 0
+    },
+    {
+      "unit": "123_STEAM_2",
+      "minimum_up": 8,
+      "minimum_down": 8,
+      "union_additions_vs_identity": 0,
+      "union_additions_vs_day321": 0,
+      "closure_added_hours": 0
+    },
+    {
+      "unit": "123_STEAM_3",
+      "minimum_up": 24,
+      "minimum_down": 48,
+      "union_additions_vs_identity": 0,
+      "union_additions_vs_day321": 0,
+      "closure_added_hours": 0
+    },
+    {
+      "unit": "123_CT_1",
+      "minimum_up": 3,
+      "minimum_down": 3,
+      "union_additions_vs_identity": 1,
+      "union_additions_vs_day321": 1,
+      "closure_added_hours": 0
+    },
+    {
+      "unit": "123_CT_4",
+      "minimum_up": 3,
+      "minimum_down": 3,
+      "union_additions_vs_identity": 1,
+      "union_additions_vs_day321": 1,
+      "closure_added_hours": 0
+    },
+    {
+      "unit": "123_CT_5",
+      "minimum_up": 3,
+      "minimum_down": 3,
+      "union_additions_vs_identity": 2,
+      "union_additions_vs_day321": 2,
+      "closure_added_hours": 0
+    },
+    {
+      "unit": "121_NUCLEAR_1",
+      "minimum_up": 24,
+      "minimum_down": 48,
+      "union_additions_vs_identity": 0,
+      "union_additions_vs_day321": 0,
+      "closure_added_hours": 0
+    }
+  ],
+  "original_positive_proofs_inherited_not_replayed": true,
+  "pinned_stdlib_decoder_reused": true,
+  "producer_imports": 0,
+  "optimizer_imports": 0,
+  "optimizer_calls": 0,
+  "model_regeneration": false,
+  "run_absent_at_entry_and_close": true,
+  "all_inputs_and_transport_unchanged": true,
+  "elapsed_seconds": 3.0736593999899924,
+  "scope": "One fixed schedule passes discrete admission only; no dispatch or common feasibility result; root execution GO still required"
+}

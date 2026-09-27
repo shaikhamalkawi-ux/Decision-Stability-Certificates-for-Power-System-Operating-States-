@@ -1,0 +1,14 @@
+{
+  "status": "PASS_INVENTED_SCHEMA_ONLY",
+  "checks": [
+    "complete four-member schema and unchanged signed-zero vector",
+    "old single-member expectation rejects four-member archive",
+    "missing member rejected",
+    "unexpected member rejected"
+  ],
+  "source_sha256": "03f02661cbe33757d1ee7a9255a144b643b2cb541c986785f8eeeb7038b92ff6",
+  "fixture_sha256": "e83a87302806baa78bc144747953f5d0c93565328704b71fc7f7907efc7b9681",
+  "historical_arrays_read": 0,
+  "cut_arithmetic": 0,
+  "optimizer_calls": 0
+}

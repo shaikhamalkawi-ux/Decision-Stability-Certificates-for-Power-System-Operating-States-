@@ -1,0 +1,10 @@
+{
+  "status": "LAUNCHED_NOT_A_COMPLETION_RECEIPT",
+  "execution_session": 64083,
+  "phase_started_utc": "2026-09-27T14:01:59.364875+04:00",
+  "source_sha256": "b3ed859e6d7a8416ea8fc76b8184e8362c121e81952c854b748b0972e323fd00",
+  "protocol_sha256": "6879b4d3a03110931a060a18f9d00aaf107d5bb66ac5ddf6a92fe1c9e850b670",
+  "limit_seconds": 1800,
+  "eventual_authoritative_receipt": "results/research_next/orlib_julia_export/setup_efficient01/ENVIRONMENT_ACQUISITION.json",
+  "instruction": "Observe this session and durable stages only; never relaunch. Eventual closure supersedes this initial receipt. No scientific import/build/export/optimizer authorization."
+}

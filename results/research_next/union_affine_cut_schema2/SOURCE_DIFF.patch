@@ -1,0 +1,57 @@
+--- researchnext_union_affine_cut.py
++++ researchnext_union_affine_cut_schema2.py
+@@ -12,14 +12,21 @@
+ import time
+ sys.dont_write_bytecode=True
+ ROOT=Path(__file__).resolve().parents[1]
+-ARM=ROOT/'results/research_next/union_affine_cut';PRE=ARM/'prepared';RUN=ARM/'run01'
++ARM=ROOT/'results/research_next/union_affine_cut_schema2';PRE=ARM/'prepared';RUN=ARM/'run01'
+ OLD=ROOT/'results/research_next/common_union/prepared'
+ FLOOR=ROOT/'results/research_next/union_energy_floor'
+ COMMON=ROOT/'results/research_next/common_commitment'
+-PROTOCOL=ROOT/'docs/research_next/UNION_AFFINE_CUT_PROTOCOL.md'
++PROTOCOL=ROOT/'docs/research_next/UNION_AFFINE_CUT_SCHEMA2_PROTOCOL.md'
++FAILED_PRE=ROOT/'results/research_next/union_affine_cut/prepared'
+ KERNEL=ROOT/'src/research8h_standalone_verify.py'
+ TAU=Q.from_float(1e-5);BUDGET=120.0;WORLDS=('identity','days_321')
+ PINS={
++ 'src/researchnext_union_affine_cut.py':'746022d4ef39c7a5bc97969c32b644cc268b1a5c3a4ddf79d64082537bb7f541',
++ 'docs/research_next/UNION_AFFINE_CUT_PROTOCOL.md':'2ab0739a10463712d1d31b19433e97a085c50086035661c14246e4da0d66e036',
++ 'results/research_next/union_affine_cut/prepared/prepared_freeze.json':'5c3199380ed8e6502384f5a3790104291f7723b8a086911aa6c53606de99b7dc',
++ 'results/research_next/union_affine_cut/prepared/input_manifest.json':'21402d45b3d1796c99ff8e5c51e14953a1f2bb4eae51a4eed70facdd91d1696a',
++ 'results/research_next/union_affine_cut/run01/failure.json':'e5934c8fc7d1bad2e93746170113379f072a642024ee6e0a57bbae2f83eaee7b',
++ 'results/research_next/union_affine_cut/CONTROL_SCHEMA_DIAGNOSIS.json':'55b27d44a5dff0206c5ba179290068fbae393b92b2fa40475ee5155b09f38b01',
+  'src/research8h_standalone_verify.py':'708c3843425eea494a0561e83a275f7059f22bcd546a036705323d056bcf906f',
+  'docs/research_next/UNION_AFFINE_CUT_PROPOSAL.md':'83feed5e953c0a5897d0754465815f1b30992f226f6743c379eb74461c487092',
+  'src/researchnext_union_energy_floor.py':'dfb8069926c180edd266a5b8bc92a0154737627ab437a83d7f6fa80eb8bb53ee',
+@@ -75,6 +82,10 @@
+     for name in ['joint/column_maps.json']+[f'{w}/{n}' for w in WORLDS for n in ('matrix.npz','bounds.npz','integrality.npz','model_metadata.json')]:
+         p=COMMON/'prepared'/name;data=capture(p,old_map[str(p.resolve()).casefold()])
+         need(data==captured[str((OLD/name).resolve()).casefold()][0],'Accepted control world/model relation')
++    failed_manifest=json.loads(captured[str((FAILED_PRE/'input_manifest.json').resolve()).casefold()][0])['files']
++    failed_lookup={x['path'].casefold():x for x in failed_manifest}
++    inherited_copy_names=names+[f'{w}/derivations.json' for w in WORLDS]+['floor_result.json','continuous_control.npz']
++    for name in inherited_copy_names:capture(FAILED_PRE/name,failed_lookup[str((FAILED_PRE/name).resolve()).casefold()])
+     for p in (Path(__file__),PROTOCOL):capture(p)
+     initial=[x[1] for x in captured.values()];PRE.mkdir(parents=True)
+     save(PRE/'preparation_started.json',dict(utc=utc(),optimizer_calls=0,cut_arithmetic=0))
+@@ -82,7 +93,9 @@
+     copy_pairs=[(OLD/n,n) for n in names]+[(FLOOR/f'{w}_derivations.json',f'{w}/derivations.json') for w in WORLDS]
+     copy_pairs +=[(FLOOR/'result.json','floor_result.json'),(COMMON/'run01/lp/raw_solution.npz','continuous_control.npz')]
+     for src,name in copy_pairs:
+-        data,item=captured[str(src.resolve()).casefold()];dest=PRE/name;dest.parent.mkdir(parents=True,exist_ok=True);dest.write_bytes(data)
++        data,item=captured[str(src.resolve()).casefold()]
++        need(data==captured[str((FAILED_PRE/name).resolve()).casefold()][0],'Schema successor must inherit identical model/selection/control bytes')
++        dest=PRE/name;dest.parent.mkdir(parents=True,exist_ok=True);dest.write_bytes(data)
+         need(sha(dest)==item['sha256'],'Byte copy changed');copies.append(dict(source=item,copy=desc(dest)))
+     need(len(copies)==14,'Copy count')
+     proof=json.loads(captured[str((COMMON/'INDEPENDENT_POSTRUN_REVIEW.json').resolve()).casefold()][0])
+@@ -129,7 +142,7 @@
+     try:
+         budget();v=decoder();fixed={x['column']:Q(x['value']) for x in read(PRE/'candidate_schedule.json')['fixed_columns']}
+         U=set(range(6888,10920));need(set(fixed)==set(range(6888,18984)) and set(fixed.values())<={Q(0),Q(1)},'Complete union states')
+-        control=v.vector(v.read_npz(PRE/'continuous_control.npz',('vector',))['vector'],('<f8',),33936,'unrounded control')
++        control=v.vector(v.read_npz(PRE/'continuous_control.npz',('vector','row_value','row_dual','col_dual'))['vector'],('<f8',),33936,'unrounded control')
+         need(all(math.isfinite(x) for x in control),'Finite control');control=tuple(map(Q,control))
+         mappings=read(PRE/'joint/column_maps.json')['original_to_joint'];need(len(mappings)==2,'Two worlds')
+         floor=read(PRE/'floor_result.json');need(unrat(floor['tau'])==TAU,'Same original expansion')

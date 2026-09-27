@@ -1,0 +1,38 @@
+{
+  "status": "PASS_PREPARED_CAPACITY_COVER",
+  "source_sha256": "b0e07f9cba7ea91696ef5884f94666592263003f610fd7104a23ff4760f42ab8",
+  "protocol_sha256": "157b910ec99e5f0f42a9f80bb5eee42a25382cf16555722d52949c3022b3060f",
+  "freeze_sha256": "06a487622eabdf54e254307d9a9c684e95338f08331c0363d15399a0ce188988",
+  "bindings": 71,
+  "byte_identical_copies": 13,
+  "worlds": [
+    {
+      "world": "identity",
+      "thermal_rows": 8064,
+      "aggregate_rows": 168,
+      "cap_terms": 3864,
+      "generation_boxes": 6888,
+      "original_binary_columns": 12096
+    },
+    {
+      "world": "days_321",
+      "thermal_rows": 8064,
+      "aggregate_rows": 168,
+      "cap_terms": 3864,
+      "generation_boxes": 6888,
+      "original_binary_columns": 12096
+    }
+  ],
+  "distinct_tuples": 1,
+  "original_common_assembly_inherited": true,
+  "scientific_dp_tables": 0,
+  "scientific_threshold_queries": 0,
+  "optimizer_calls": 0,
+  "producer_imports": 0,
+  "all_inputs_unchanged": true,
+  "exact_row_box_and_binary_premises": true,
+  "source_bound_direction_review": true,
+  "readiness_scope": "No scientific bound, threshold or verdict computed",
+  "elapsed_seconds": 2.5772188999690115,
+  "review_source_sha256": "34dfb1253f59c297fd1cdbcd356a32cc0c76945b44a1e3abf898ca6afde702f5"
+}

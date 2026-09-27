@@ -1,0 +1,19 @@
+{
+  "status": "STARTED",
+  "started_utc": "2026-09-27T10:01:59.364875+00:00",
+  "limit_seconds": 1800,
+  "source_sha256": "b3ed859e6d7a8416ea8fc76b8184e8362c121e81952c854b748b0972e323fd00",
+  "protocol_sha256": "6879b4d3a03110931a060a18f9d00aaf107d5bb66ac5ddf6a92fe1c9e850b670",
+  "parent_source_sha256": "926d2022f2df0b61624a455054ee4dd519290974f67fcff1145f2d4337c5e6c5",
+  "Julia_invocations": 0,
+  "Pkg_add_calls": 0,
+  "scientific_model_builds": 0,
+  "optimizer_calls": 0,
+  "package_cache_copied": false,
+  "runtime_reused_read_only": true,
+  "automatic_retry": false,
+  "TLS_bypass": false,
+  "certificate_injection": false,
+  "global_settings_changed": false,
+  "concurrent_path_replacement_assumption": "No external process replaces paths in this fresh private workspace; pathname checks are not adversarial race-proof"
+}

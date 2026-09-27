@@ -1,0 +1,18 @@
+{
+  "status": "STARTED",
+  "started_utc": "2026-09-27T09:37:50.758473+00:00",
+  "limit_seconds": 3600,
+  "source_sha256": "926d2022f2df0b61624a455054ee4dd519290974f67fcff1145f2d4337c5e6c5",
+  "protocol_sha256": "f0a860e2942cb4cad192dfbbb6cabc1d5636c452273668df6417af2f03a517b6",
+  "parent_source_sha256": "962722972cf97e811a44fb9630058cb768a48ec95413acda49f469d873df5352",
+  "Julia_invocations": 0,
+  "Pkg_add_calls": 0,
+  "scientific_model_builds": 0,
+  "optimizer_calls": 0,
+  "package_cache_copied": false,
+  "runtime_reused_read_only": true,
+  "automatic_retry": false,
+  "TLS_bypass": false,
+  "certificate_injection": false,
+  "global_settings_changed": false
+}

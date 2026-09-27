@@ -1,0 +1,60 @@
+{
+  "scope": "Closed public setup outputs including readout; this inventory excludes itself and private logs",
+  "files": [
+    {
+      "path": "ENVIRONMENT_ACQUISITION.json",
+      "bytes": 14153,
+      "sha256": "fd3f2db6f0a62ecb0733ef903ff5ac0760b6375f7c723f14e536983ad1839872"
+    },
+    {
+      "path": "FINAL_READOUT.md",
+      "bytes": 2515,
+      "sha256": "822e568d533b0eb0f12c3654e322d4934ffba458bfdb8c1300612e09833ca5d5"
+    },
+    {
+      "path": "instantiate_once.jl",
+      "bytes": 2568,
+      "sha256": "e15592aa51023a30856f194df857ee98d844deb4651dfb5ddc2c60a1ad1f5783"
+    },
+    {
+      "path": "julia_launch.json",
+      "bytes": 1920,
+      "sha256": "8f69bdb0c780378f21bdf8067b82cc70ba7fe1802d708b583d9aab4448a05ada"
+    },
+    {
+      "path": "julia_stages.log",
+      "bytes": 320,
+      "sha256": "748c06d3566145eadab1aec8d89687ef3808c9b829fc74298d52f4adf48dc299"
+    },
+    {
+      "path": "Manifest.toml",
+      "bytes": 17839,
+      "sha256": "2434d5a9878bd443e95e339dd0b71e1632bc61988fd1272af54461f6bad9d831"
+    },
+    {
+      "path": "package_inventory.toml",
+      "bytes": 47882,
+      "sha256": "76f9343b5519f590e25d5d97c6f34e080f146a650dd32478240cdee973f8ea5d"
+    },
+    {
+      "path": "Project.toml",
+      "bytes": 224,
+      "sha256": "02e2d39820e8f8b03404d75ff1970764c68309e6afee996571d229c4cf84690a"
+    },
+    {
+      "path": "selected_registry_and_installed_metadata.json",
+      "bytes": 141739,
+      "sha256": "c90c9c9b43f47a5d2c0235a5792eedefa9eb0ab199f709385e6fa21d48fa293b"
+    },
+    {
+      "path": "stages.jsonl",
+      "bytes": 695,
+      "sha256": "1ff141ca85de12224faadc1d6c5903d2bbe3ef0166bb848d12de01a6abafb53d"
+    },
+    {
+      "path": "started.json",
+      "bytes": 1179,
+      "sha256": "b6758afd2c92070082ade9394a2842336fba6da7ca241e0c42b9ecaaaf157139"
+    }
+  ]
+}

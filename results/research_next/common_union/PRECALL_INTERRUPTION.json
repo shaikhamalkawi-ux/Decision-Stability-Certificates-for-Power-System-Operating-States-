@@ -1,0 +1,17 @@
+{
+  "utc": "2026-09-27T10:31:56.2370062Z",
+  "process_id": 19356,
+  "parent_process_id": 67272,
+  "creation_time": "2026-09-27T10:26:05.2190340Z",
+  "user_mode_time_100ns": 667812500,
+  "kernel_mode_time_100ns": 71718750,
+  "command_line": "\"C:\\Users\\gmalkawi\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe\" src/researchnext_common_union.py --run-prepared --expected-freeze-sha256 8d5e348d91db8ae082a1a036d2359ac382891b25849e9e682fb833e9ae52d0a2",
+  "source_sha256": "92089c0301bd6a7399728abdf0a9a8964bd570199bc2490ea22e947adfedc1a1",
+  "freeze_sha256": "8d5e348d91db8ae082a1a036d2359ac382891b25849e9e682fb833e9ae52d0a2",
+  "call_ready_present": false,
+  "backend_readback_present": false,
+  "reason": "Authorized interruption of accidental quadratic pybind list readback, before sole LP call",
+  "scientific_optimizer_calls": 0,
+  "scientific_verdict": "UNKNOWN",
+  "automatic_retry": false
+}

@@ -1,0 +1,12 @@
+{
+  "kind": "reviewer_only_overstrong_assertion",
+  "source_sha256": "d1977cd8fcb73000c25741eb8a88ec0c9b74510a7a62b7c0d8de3cffce53100f",
+  "tool_wall_seconds": 8.9517727,
+  "exit_code": 1,
+  "assertion": "Exact original state boxes",
+  "explanation": "Reviewer incorrectly required every U/Y/Z upper box to equal one; original initial Y/Z are fixed at zero. Required scientific premise is U in original [0,1], plus the preserved full original binary mask; fixed initial transition bounds are valid.",
+  "producer_files_changed": false,
+  "scientific_dp_tables": 0,
+  "scientific_threshold_queries": 0,
+  "optimizer_calls": 0
+}

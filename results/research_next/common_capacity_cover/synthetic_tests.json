@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "utc": "2026-09-27T10:51:22.963666+00:00",
+  "source_sha256": "b0e07f9cba7ea91696ef5884f94666592263003f610fd7104a23ff4760f42ab8",
+  "protocol_sha256": "157b910ec99e5f0f42a9f80bb5eee42a25382cf16555722d52949c3022b3060f",
+  "checks": [
+    "exhaustive prefix tables and half-integer thresholds [2, 3, 4]",
+    "exhaustive prefix tables and half-integer thresholds [0, 2, 2]",
+    "exhaustive prefix tables and half-integer thresholds [5]",
+    "exhaustive prefix tables and half-integer thresholds []",
+    "exact signed ceiling",
+    "integer-cover strict strengthening",
+    "strict cap equality",
+    "unsupported tuple/roster/guard rejected",
+    "unsupported tuple/roster/guard rejected",
+    "unsupported tuple/roster/guard rejected",
+    "wrong actual thermal coordinate rejected"
+  ],
+  "scientific_inputs_read": 0,
+  "scientific_dp_tables": 0,
+  "optimizer_calls": 0,
+  "elapsed_seconds": 0.0034263000125065446
+}

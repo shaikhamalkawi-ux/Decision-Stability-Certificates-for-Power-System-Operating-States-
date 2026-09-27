@@ -1,0 +1,301 @@
+{
+  "status": "READY_ENVIRONMENT_ONLY_NO_MODEL_BUILD",
+  "started_utc": "2026-09-27T10:54:49.545047+00:00",
+  "limit_seconds": 1800,
+  "source_sha256": "2e1add47952cbeb1f2a26800619277623c4b8975118fe19e933b7680eea61a3a",
+  "protocol_sha256": "eb1f8a857ca8228bcf33b7bb85fdddf4c157d49295883c3fc52fa0b0b7b51a2b",
+  "parent_source_sha256": "b3ed859e6d7a8416ea8fc76b8184e8362c121e81952c854b748b0972e323fd00",
+  "prepared_sha256": "6113f906703d29da0177e666f1fc66eda0854efb4432ff2017197997186cc4d2",
+  "whole_disk_registry_readback_completed": false,
+  "registry_reextractions": 0,
+  "registry_full_content_scans": 0,
+  "Windows_installed_archive_full_tree_verification": "NOT_ESTABLISHED_BY_PKG_INSTALL_ARCHIVE",
+  "Julia_invocations": 1,
+  "Pkg_add_calls": 1,
+  "scientific_model_builds": 0,
+  "optimizer_calls": 0,
+  "package_cache_copied": false,
+  "runtime_reused_read_only": true,
+  "automatic_retry": false,
+  "TLS_bypass": false,
+  "certificate_injection": false,
+  "global_settings_changed": false,
+  "concurrent_path_replacement_assumption": "No external writer or storage fault changes unselected inherited registry bytes; selected pathname checks are not adversarial race-proof",
+  "stage": "final_selected_bindings_and_provenance_checks",
+  "runtime_executable": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\researchnext_julia_export\\attempt01\\runtime\\julia-1.6.7\\bin\\julia.exe",
+  "runtime_executable_sha256": "29ebe4b29362a2e380848dd4803e67343fe1779207b4970390418a1d495da67f",
+  "runtime_archive_sha256": "63e14aa2e056f76f4a8f79eb8b4ed6698e3817eb3584e12b030f26f36e70cce6",
+  "prior_source_bindings_sha256": "6038d94eca340f7f0bf759330aa57f30d3930834fb4e1eccd8ff824c61fbd927",
+  "registry_archive_sha256": "53e48326acc56f53ac4527a41e7362a29622d3bf9d406234c5ddc05566869211",
+  "registry_inventory_sha256": "cc8d9ce6757ffc70a1347ab3bf9e74a2bbaba87f4131bb3737746a52c19f0f42",
+  "inherited_extraction_receipt_sha256": "bdfae531e4721bf617444d1014e6d3917b93468d10e1472056511e42017c5989",
+  "secondary_depot": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\researchnext_julia_export\\setup_efficient01\\depot",
+  "registry_network_requests": 0,
+  "registry_trust": "Inherited archive and controlled complete extraction; no whole on-disk tree readback claim",
+  "command": [
+    "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\researchnext_julia_export\\attempt01\\runtime\\julia-1.6.7\\bin\\julia.exe",
+    "--startup-file=no",
+    "--history-file=no",
+    "--project=C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\researchnext_julia_export\\setup_reuse01\\project",
+    "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\researchnext_julia_export\\setup_reuse01\\instantiate_once.jl",
+    "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\researchnext_julia_export\\setup_reuse01\\depot",
+    "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\researchnext_julia_export\\setup_reuse01\\package_inventory.toml",
+    "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\researchnext_julia_export\\setup_efficient01\\depot"
+  ],
+  "isolated_environment": {
+    "JULIA_DEPOT_PATH": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\researchnext_julia_export\\setup_reuse01\\depot;C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\researchnext_julia_export\\setup_efficient01\\depot",
+    "JULIA_LOAD_PATH": "@;@stdlib",
+    "JULIA_PROJECT": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\researchnext_julia_export\\setup_reuse01\\project",
+    "JULIA_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "JULIA_PKG_PRECOMPILE_AUTO": "0",
+    "JULIA_PKG_SERVER": "",
+    "TEMP": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\researchnext_julia_export\\setup_reuse01\\temporary",
+    "TMP": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\researchnext_julia_export\\setup_reuse01\\temporary"
+  },
+  "julia_pid": 75556,
+  "julia_started_utc": "2026-09-27T10:54:50.092884+00:00",
+  "owned_parent_alive_after_postlaunch_guard": false,
+  "stream_errors": [],
+  "julia_exit_code": 0,
+  "julia_ended_utc": "2026-09-27T10:58:14.704788+00:00",
+  "selected_package": {
+    "tree_hash": "619a6b12e1005425e6ac08c4c45e445bb0a6f134",
+    "name": "UnitCommitment",
+    "version": "0.4.0",
+    "is_tracking_path": "false",
+    "git_revision": "4f04f0dd6641b071fd7556346c3d7190c2ffdfe5",
+    "is_tracking_repo": "true",
+    "direct": true,
+    "source": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\researchnext_julia_export\\setup_reuse01\\depot\\packages\\UnitCommitment\\WvFNB",
+    "uuid": "64606440-39ea-11e9-0f29-3303a1d3d877",
+    "git_source": "https://github.com/ANL-CEEESA/UnitCommitment.jl",
+    "is_stdlib": false
+  },
+  "pinned_native_files_verified": [
+    {
+      "path": "LICENSE.md",
+      "sha256": "8ef60fb573023d991b3a12a03d1a0ac15dbf0aceed06a5c4dc2e34c173c3c30b",
+      "bytes": 1814,
+      "git_blob_sha256": "1c50672dd60074aa0d516c1c61834f47fb6002f4d70e707523d57bda5f0f136c",
+      "raw_blob_equal": false,
+      "CRLF_to_LF_exact_blob_equal": true
+    },
+    {
+      "path": "src/UnitCommitment.jl",
+      "sha256": "fccdd1a9c6d73b5446ad1a0ca341bc10eea10121123d23370ee98422ba77236a",
+      "bytes": 3088,
+      "git_blob_sha256": "7124cd2edfabd93bfc8e76bb7a5aa1d00784f2dc88689e4f8e0d11039462d069",
+      "raw_blob_equal": false,
+      "CRLF_to_LF_exact_blob_equal": true
+    },
+    {
+      "path": "src/instance/migrate.jl",
+      "sha256": "dc567c1a0f052afa20e169be9114b4d5389bdf9d60434a6189669b5b3a076d82",
+      "bytes": 1798,
+      "git_blob_sha256": "cef1c7575185ad4350e00962ce0d4af27514cf287e266439dc8679c99e33cf60",
+      "raw_blob_equal": false,
+      "CRLF_to_LF_exact_blob_equal": true
+    },
+    {
+      "path": "src/instance/read.jl",
+      "sha256": "47a516439cab97d8142e367a21a69648657ad5d954f9982a961a7c270905b76c",
+      "bytes": 17276,
+      "git_blob_sha256": "4ac605833da6c283b20ea536c3da874c6a42b8c2923301abf874f536fa4b6ec2",
+      "raw_blob_equal": false,
+      "CRLF_to_LF_exact_blob_equal": true
+    },
+    {
+      "path": "src/instance/structs.jl",
+      "sha256": "57666b0541eee344e4a427cc5a692487d6bfcf07bccf8f6fe4b8c2ffad5cd564",
+      "bytes": 4487,
+      "git_blob_sha256": "e48bee7382dc5f2a00d459ce6fa154e2e69647c12c3e87c9ef4329563f029a38",
+      "raw_blob_equal": false,
+      "CRLF_to_LF_exact_blob_equal": true
+    },
+    {
+      "path": "src/model/build.jl",
+      "sha256": "d6bef1540c5950b9d99fd5720283ea9c40a443687741259828c836d5271141ff",
+      "bytes": 3767,
+      "git_blob_sha256": "0d36d40b2c156601f40e8fbbab200d29ec278bbeba09009fe085e2f6bb86ae93",
+      "raw_blob_equal": false,
+      "CRLF_to_LF_exact_blob_equal": true
+    },
+    {
+      "path": "src/model/formulations/Gar1962/prod.jl",
+      "sha256": "1d0e39ca1224060fe1441e268156cfd87feb95610e019aed8b67d0838783fcbe",
+      "bytes": 1897,
+      "git_blob_sha256": "278790c87ca41f7bc4ec89d3d9b9ab22ef0d554fa6c8638e5a2726ab76db5d8e",
+      "raw_blob_equal": false,
+      "CRLF_to_LF_exact_blob_equal": true
+    },
+    {
+      "path": "src/model/formulations/Gar1962/status.jl",
+      "sha256": "a4d6f383c9a1f846a293bb40e08b1f9d2b1fd54d4d9c39e98e6d6cfe14e7c4c1",
+      "bytes": 2269,
+      "git_blob_sha256": "59049061a26d8223915061a7dc7b3c08907885bdeb5e9df6db897b6946181e7c",
+      "raw_blob_equal": false,
+      "CRLF_to_LF_exact_blob_equal": true
+    },
+    {
+      "path": "src/model/formulations/KnuOstWat2018/pwlcosts.jl",
+      "sha256": "8ab493c5befdab3c0d202c7ddd45f75aec1e972a297942896086e161b0dbba68",
+      "bytes": 4216,
+      "git_blob_sha256": "53697ddd610c649ad1e1b65b1061146e391f0695d8d65da8670fd00864d5f367",
+      "raw_blob_equal": false,
+      "CRLF_to_LF_exact_blob_equal": true
+    },
+    {
+      "path": "src/model/formulations/MorLatRam2013/ramp.jl",
+      "sha256": "1df6874c64fe5e3d7e68ce8f028d9b196e91cd97e56384b2fb6ca225f5defd5a",
+      "bytes": 5546,
+      "git_blob_sha256": "fd8f6f982993f9b33ecb348178b68c9dc9eee284f0ab2e37b149ca3730952916",
+      "raw_blob_equal": false,
+      "CRLF_to_LF_exact_blob_equal": true
+    },
+    {
+      "path": "src/model/formulations/MorLatRam2013/scosts.jl",
+      "sha256": "fc330284723eb4e282a26ac429300649f2ed9d184a542a083ea7ead5014a436b",
+      "bytes": 1969,
+      "git_blob_sha256": "db8c3c5410aa6a122a6bf61ca6d399c7c93d25f5fcf30a096f02940ab13f92b8",
+      "raw_blob_equal": false,
+      "CRLF_to_LF_exact_blob_equal": true
+    },
+    {
+      "path": "src/model/formulations/base/bus.jl",
+      "sha256": "f96fd730fccd12655ee29b386696ab84b73017b1e5f3bd55f25f413ac20dfaf5",
+      "bytes": 1035,
+      "git_blob_sha256": "a7efa482f3c3b09576015717cfc90fea91c6bb3c5717be6afee7729240cbbb8c",
+      "raw_blob_equal": false,
+      "CRLF_to_LF_exact_blob_equal": true
+    },
+    {
+      "path": "src/model/formulations/base/structs.jl",
+      "sha256": "ebd059a82794257787043f4299944425e856f697a044778416bbe51f2ce5cdf8",
+      "bytes": 3654,
+      "git_blob_sha256": "5a90e3738a898d6a5be31f0cb8f4a809e78ca255f47d033df72717f533667216",
+      "raw_blob_equal": false,
+      "CRLF_to_LF_exact_blob_equal": true
+    },
+    {
+      "path": "src/model/formulations/base/system.jl",
+      "sha256": "2da483a30eb1cdbf078dd9d915c99a1bdc9f7174a1366c969b48fe25c1450219",
+      "bytes": 4608,
+      "git_blob_sha256": "10ca02e32608a359f124115e420dddd15c425963050afa0e0e313cb64c14ae67",
+      "raw_blob_equal": false,
+      "CRLF_to_LF_exact_blob_equal": true
+    },
+    {
+      "path": "src/model/formulations/base/unit.jl",
+      "sha256": "562ede1b0849ec2e3369f4924e1bd9e7cf6d90abb742eae799d02cd4af4b70b1",
+      "bytes": 11115,
+      "git_blob_sha256": "fdfff2b655cef6bfa9fcd7f17a78e5636e5c9c3c41f179b9fe6774d44da4158b",
+      "raw_blob_equal": false,
+      "CRLF_to_LF_exact_blob_equal": true
+    },
+    {
+      "path": "src/model/jumpext.jl",
+      "sha256": "b2fbf853e437ae6522b780b22a88f1f1221bfeb143a420a3faae9c8e3e3f50f7",
+      "bytes": 1443,
+      "git_blob_sha256": "568666fcbc77a3d413f3837bbf8656f6b4b57ed2153791042dd55e935e05ca4f",
+      "raw_blob_equal": false,
+      "CRLF_to_LF_exact_blob_equal": true
+    },
+    {
+      "path": "src/validation/repair.jl",
+      "sha256": "8b9c5c4ff64ece3745807477ef364b99d0c4c54f746cd1fc5a0865d86ec406b8",
+      "bytes": 2828,
+      "git_blob_sha256": "8f918bb6bd9074ba56ad98fcc5e04de397ac6d153a6e498cb79800f32fd02b2f",
+      "raw_blob_equal": false,
+      "CRLF_to_LF_exact_blob_equal": true
+    },
+    {
+      "path": "src/validation/validate.jl",
+      "sha256": "82fc458c480fb8493c289c8f889f558ea9f028f564965391639ebcfd43f7a1ab",
+      "bytes": 26952,
+      "git_blob_sha256": "74fe665dd1e0b64569b8c0000bdd279cfaf524738b15519a2d05cea7c74c1337",
+      "raw_blob_equal": false,
+      "CRLF_to_LF_exact_blob_equal": true
+    }
+  ],
+  "installed_direct_versions": {
+    "JuMP": "1.15.1",
+    "MathOptInterface": "1.20.1",
+    "PackageCompiler": "1.7.7",
+    "UnitCommitment": "0.4.0"
+  },
+  "native_source_binding": "Raw hashes preserved; read-only CRLF-to-LF equality to fixed Git blobs; no source normalization written",
+  "Pkg_add_attempt_count_evidence": "Durable pre-call marker; one source call site; a marker records attempted entry, not successful completion",
+  "Pkg_add_marker_sha256": "5ea44a9b0b60c2adc611d7a85470549098d3f66d05958a3217edfeb68088f093",
+  "ended_utc": "2026-09-27T10:58:20.820932+00:00",
+  "elapsed_seconds": 211.27619279996725,
+  "allocation_overrun_seconds": 0,
+  "source_unchanged_at_closure": true,
+  "protocol_unchanged_at_closure": true,
+  "admitted_archive_unchanged_at_closure": true,
+  "artifacts": [
+    {
+      "path": "instantiate_once.jl",
+      "bytes": 2568,
+      "sha256": "e15592aa51023a30856f194df857ee98d844deb4651dfb5ddc2c60a1ad1f5783"
+    },
+    {
+      "path": "julia_launch.json",
+      "bytes": 1920,
+      "sha256": "8f69bdb0c780378f21bdf8067b82cc70ba7fe1802d708b583d9aab4448a05ada"
+    },
+    {
+      "path": "julia_stages.log",
+      "bytes": 320,
+      "sha256": "748c06d3566145eadab1aec8d89687ef3808c9b829fc74298d52f4adf48dc299"
+    },
+    {
+      "path": "Manifest.toml",
+      "bytes": 17839,
+      "sha256": "2434d5a9878bd443e95e339dd0b71e1632bc61988fd1272af54461f6bad9d831"
+    },
+    {
+      "path": "package_inventory.toml",
+      "bytes": 47882,
+      "sha256": "76f9343b5519f590e25d5d97c6f34e080f146a650dd32478240cdee973f8ea5d"
+    },
+    {
+      "path": "Project.toml",
+      "bytes": 224,
+      "sha256": "02e2d39820e8f8b03404d75ff1970764c68309e6afee996571d229c4cf84690a"
+    },
+    {
+      "path": "selected_registry_and_installed_metadata.json",
+      "bytes": 141739,
+      "sha256": "c90c9c9b43f47a5d2c0235a5792eedefa9eb0ab199f709385e6fa21d48fa293b"
+    },
+    {
+      "path": "stages.jsonl",
+      "bytes": 695,
+      "sha256": "1ff141ca85de12224faadc1d6c5903d2bbe3ef0166bb848d12de01a6abafb53d"
+    },
+    {
+      "path": "started.json",
+      "bytes": 1179,
+      "sha256": "b6758afd2c92070082ade9394a2842336fba6da7ca241e0c42b9ecaaaf157139"
+    }
+  ],
+  "private_log_artifacts": [
+    {
+      "path": "private_logs/julia_stderr.log",
+      "bytes": 9302,
+      "sha256": "890af1fe05b116e785ea344085d406f00519a3ed3bf8c5eb5a83925255d539b9"
+    },
+    {
+      "path": "private_logs/julia_stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "private_logs/owned_process_observations.jsonl",
+      "bytes": 1412,
+      "sha256": "3172ec5d8f5ab85d727abbdaa07e9680b071d36ed49faf7b368c5c9c889d060c"
+    }
+  ],
+  "private_logs_publication_status": "NOT_SELECTED_PENDING_ENTERPRISE_TLS_REVIEW"
+}

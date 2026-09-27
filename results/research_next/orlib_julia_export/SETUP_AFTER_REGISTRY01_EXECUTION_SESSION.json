@@ -1,0 +1,14 @@
+{
+  "schema": "setup_after_registry01.execution_session.v1",
+  "status": "LAUNCHED_NOT_A_COMPLETION_RECEIPT",
+  "execution_session": 62310,
+  "phase_started_utc": "2026-09-27T09:37:50.759+00:00",
+  "initial_observed_stage": "extract_pinned_plain_registry_and_readback",
+  "source_sha256": "926d2022f2df0b61624a455054ee4dd519290974f67fcff1145f2d4337c5e6c5",
+  "protocol_sha256": "f0a860e2942cb4cad192dfbbb6cabc1d5636c452273668df6417af2f03a517b6",
+  "maximum_attempts": 1,
+  "allocation_seconds": 3600,
+  "private_attempt": ".work/researchnext_julia_export/setup_after_registry01",
+  "eventual_authoritative_receipt": "results/research_next/orlib_julia_export/setup_after_registry01/ENVIRONMENT_ACQUISITION.json",
+  "instructions": "Continue observing session 62310 and the durable stage/launch files. Never relaunch this source for this attempt. The eventual closure receipt supersedes this initial session record. No scientific import/build/export/optimizer is authorized."
+}

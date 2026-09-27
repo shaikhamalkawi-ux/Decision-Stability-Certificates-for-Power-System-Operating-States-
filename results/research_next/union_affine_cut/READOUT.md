@@ -1,0 +1,5 @@
+# Affine cut — preserved zero-cut schema failure
+
+The sole authorized run failed before either world cut was constructed. Its saved continuous-control NPZ contains four members (vector, row_value, row_dual, col_dual), while the source asked the pinned strict decoder to accept only vector. The control file hash remains the expected 90c8b308a6ce8e7671adbe3059887d6ce27489fa3d68aa601c2474b32d2d462a. This is a schema-assumption defect, not a failed scientific inequality or an infeasible control point.
+
+Session command exited1 in0.9295622 seconds of tool wall time. No optimizer, cut, control evaluation or source reselection occurred. Failure.json retains both uncompleted worlds and the original UNKNOWN common-binary verdict. A read-only ZIP member inventory confirmed the four-member schema without decoding vector values. The original source, protocol, preparation, failed run and fixture record remain unchanged. Any schema-corrected successor must be separate and pass new gates; there is no automatic retry.

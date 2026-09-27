@@ -1,0 +1,12 @@
+{
+  "status": "PASS_EXPLICIT_SINGLE_SETUP_GO",
+  "recorded_utc": "2026-09-27T09:37:49.8433943Z",
+  "reviewer": "/root",
+  "source_sha256": "926d2022f2df0b61624a455054ee4dd519290974f67fcff1145f2d4337c5e6c5",
+  "protocol_sha256": "f0a860e2942cb4cad192dfbbb6cabc1d5636c452273668df6417af2f03a517b6",
+  "command": "python -I -S src/researchnext_julia_setup_after_registry.py --setup-once",
+  "allocation_seconds": 3600,
+  "maximum_Julia_launches": 1,
+  "maximum_Pkg_add_calls": 1,
+  "scientific_import_build_export_optimizer_authorized": false
+}

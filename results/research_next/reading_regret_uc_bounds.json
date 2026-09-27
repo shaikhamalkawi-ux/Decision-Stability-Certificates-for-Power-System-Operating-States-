@@ -1,0 +1,50 @@
+{
+  "read_utc": "2026-09-27T10:40:19.956Z",
+  "base_distinct_works": 41,
+  "new_distinct_works": 2,
+  "total_distinct_works": 43,
+  "total_selected_or_indexed_body": 37,
+  "total_limited": 6,
+  "complete_paper_claim": false,
+  "items": [
+    {
+      "doi": "10.1007/s10287-023-00451-5",
+      "title": "Simplifying capacity planning for electricity systems with hydroelectric and renewable generation",
+      "authors": [
+        "Kenjiro Yagi",
+        "Ramteen Sioshansi"
+      ],
+      "depth": "selected_body",
+      "sections": [
+        "Introduction",
+        "selected model equations",
+        "3.3",
+        "3.4",
+        "selected5.3/5.4",
+        "Conclusion"
+      ],
+      "source": "https://link.springer.com/article/10.1007/s10287-023-00451-5"
+    },
+    {
+      "doi": "10.1109/TPWRS.2025.3638908",
+      "title": "Solving Storage-Integrated Long-Term Unit Commitment With Guaranteed Bounds on Sub-Optimality",
+      "authors": [
+        "Songjie Feng",
+        "Wei Wei",
+        "Zhongjie Guo",
+        "Zhaoyang Dong",
+        "Shengwei Mei"
+      ],
+      "depth": "indexed_body_excerpt",
+      "sections": [
+        "Abstract",
+        "IntroductionA/C",
+        "initial formulation",
+        "Conclusion"
+      ],
+      "unread": "Full SectionIII derivations and code",
+      "source": "https://doi.org/10.1109/TPWRS.2025.3638908",
+      "metadata_source": "https://scholars.cityu.edu.hk/en/publications/solving-storage-integrated-long-term-unit-commitment-with-guarant/"
+    }
+  ]
+}

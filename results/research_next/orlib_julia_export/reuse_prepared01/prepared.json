@@ -1,0 +1,298 @@
+{
+  "status": "PREPARED_SOURCE_AND_SELECTED_METADATA_ONLY",
+  "created_utc": "2026-09-27T10:48:55.245644+00:00",
+  "source_sha256": "2e1add47952cbeb1f2a26800619277623c4b8975118fe19e933b7680eea61a3a",
+  "protocol_sha256": "eb1f8a857ca8228bcf33b7bb85fdddf4c157d49295883c3fc52fa0b0b7b51a2b",
+  "bindings": [
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\researchnext_julia_export\\attempt01\\julia-1.6.7-win64.zip",
+      "sha256": "63e14aa2e056f76f4a8f79eb8b4ed6698e3817eb3584e12b030f26f36e70cce6"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\researchnext_julia_export\\attempt01\\runtime\\julia-1.6.7\\bin\\julia.exe",
+      "sha256": "29ebe4b29362a2e380848dd4803e67343fe1779207b4970390418a1d495da67f"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\researchnext_julia_export\\attempt01\\runtime\\julia-1.6.7\\share\\julia\\stdlib\\v1.6\\Pkg\\src\\API.jl",
+      "sha256": "ed80ac79c48fc6a33b28ab9a6ad639a517ff605cecebcf9601228f7392e2c172"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\researchnext_julia_export\\attempt01\\runtime\\julia-1.6.7\\share\\julia\\stdlib\\v1.6\\Pkg\\src\\Operations.jl",
+      "sha256": "ef3b6b4d3d349929fb812aac6c81c2bd9ee053f32c859176e7dca812f7a15fa6"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\researchnext_julia_export\\attempt01\\runtime\\julia-1.6.7\\share\\julia\\stdlib\\v1.6\\Pkg\\src\\Pkg.jl",
+      "sha256": "c5fb5ff466afecdeafd9aec8c1579a907625a2a10c014992243884936018ab6b"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\researchnext_julia_export\\attempt01\\runtime\\julia-1.6.7\\share\\julia\\stdlib\\v1.6\\Pkg\\src\\Types.jl",
+      "sha256": "8c3933c01dfdd1cc8af575594064eeb6433e5b777b586edc59cf2e9ed36dcada"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\researchnext_julia_export\\registry_acquire03\\General.tar.gz",
+      "sha256": "53e48326acc56f53ac4527a41e7362a29622d3bf9d406234c5ddc05566869211"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\researchnext_julia_export\\setup_efficient01\\depot\\registries\\General\\J\\JuMP\\Compat.toml",
+      "sha256": "8a9eadba79fdab26d650b4f362001118aeeb280043274e014baaf4e1d6e02481"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\researchnext_julia_export\\setup_efficient01\\depot\\registries\\General\\J\\JuMP\\Deps.toml",
+      "sha256": "6fc25c14bcaaf788c6cd0adf7b49decab3be5b9ed69e5fd86f56b6dfe5ab3cfe"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\researchnext_julia_export\\setup_efficient01\\depot\\registries\\General\\J\\JuMP\\Package.toml",
+      "sha256": "6a08894ce47f2869ec81b85ff0b2fe0d99498d6df3a2615bbbfd638037e4bb4c"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\researchnext_julia_export\\setup_efficient01\\depot\\registries\\General\\J\\JuMP\\Versions.toml",
+      "sha256": "4ef9144e7454795914f92b880689527b45bd4d2505aadb1022fe0073302871a6"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\researchnext_julia_export\\setup_efficient01\\depot\\registries\\General\\J\\JuMP\\WeakCompat.toml",
+      "sha256": "1dd9fbadfaaf44458d46048a0c9ccecf3391abea6787fb6a7835a804e10fb000"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\researchnext_julia_export\\setup_efficient01\\depot\\registries\\General\\J\\JuMP\\WeakDeps.toml",
+      "sha256": "9dc7c251dc0fdabae26248f28c9338eb6c8f0070b51272d0c757a53fe5f61102"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\researchnext_julia_export\\setup_efficient01\\depot\\registries\\General\\M\\MathOptInterface\\Compat.toml",
+      "sha256": "989056731f203d13509de3a34cb4cbb8e1c7bc5c21e3f5ad333e7b8845e39bad"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\researchnext_julia_export\\setup_efficient01\\depot\\registries\\General\\M\\MathOptInterface\\Deps.toml",
+      "sha256": "a891917e5262a1679afc87ef11257fc8dcf8daf28ab508a2a416dc35f758f22d"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\researchnext_julia_export\\setup_efficient01\\depot\\registries\\General\\M\\MathOptInterface\\Package.toml",
+      "sha256": "58cd82388a8e86365f7e40d7349c52aa90c6fc36a92c01e38998bce4b67662c6"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\researchnext_julia_export\\setup_efficient01\\depot\\registries\\General\\M\\MathOptInterface\\Versions.toml",
+      "sha256": "f45903bef43ffb32338e0b306f8febd925c8e81c00d33ae3eb2704016faf9c98"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\researchnext_julia_export\\setup_efficient01\\depot\\registries\\General\\M\\MathOptInterface\\WeakCompat.toml",
+      "sha256": "aca5379b7f25268cbeccfa394ed304d63692220c7ec899d10193adbd353671b5"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\researchnext_julia_export\\setup_efficient01\\depot\\registries\\General\\M\\MathOptInterface\\WeakDeps.toml",
+      "sha256": "e96ca0dce0b0187c44a45b17c5fd9f739eb271060978b9b5464482b0f9360130"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\researchnext_julia_export\\setup_efficient01\\depot\\registries\\General\\P\\PackageCompiler\\Compat.toml",
+      "sha256": "52198fb0072a5beefdb7e23eef83bcdc0c8aa3d7a0921591bba118aef2f3fb66"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\researchnext_julia_export\\setup_efficient01\\depot\\registries\\General\\P\\PackageCompiler\\Deps.toml",
+      "sha256": "2477deabc008a0b6c375103a019d55e43c69e009b26e2e70afc95be684f2b5a4"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\researchnext_julia_export\\setup_efficient01\\depot\\registries\\General\\P\\PackageCompiler\\Package.toml",
+      "sha256": "3ded0e47ead976bb922eb542ac467cf4b48eab485ee1c28c6a0d2f2f4c10d06e"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\researchnext_julia_export\\setup_efficient01\\depot\\registries\\General\\P\\PackageCompiler\\Versions.toml",
+      "sha256": "e19e7b59ec98b9b9157a713d2370c6eb2b74d6e6cacee0b0967aa58932d928da"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\researchnext_julia_export\\setup_efficient01\\depot\\registries\\General\\Registry.toml",
+      "sha256": "8020190e698b32792ca035a909d990d6a0dbdd94719e87a60d7a964c34c91059"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\researchnext_julia_export\\setup_efficient01\\depot\\registries\\General\\U\\UnitCommitment\\Compat.toml",
+      "sha256": "6eb88e997367a19296bfbf20e23b4ee2279024e7d69428f1e82e829aeee9a7c3"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\researchnext_julia_export\\setup_efficient01\\depot\\registries\\General\\U\\UnitCommitment\\Deps.toml",
+      "sha256": "e5d90bd4ca46f0ea305610b51b9dac2ab5f76d7f601ebdda151fb3c8acba8c2d"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\researchnext_julia_export\\setup_efficient01\\depot\\registries\\General\\U\\UnitCommitment\\Package.toml",
+      "sha256": "1b83206f1567a2ff377e4016bd0248046c717cfe8f4d5df27303604deb71375d"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\researchnext_julia_export\\setup_efficient01\\depot\\registries\\General\\U\\UnitCommitment\\Versions.toml",
+      "sha256": "e6476b20874cf4f44b9a3d8fb1883b94cb30f1f32064f5b22a25e6bbf9d8872a"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\docs\\research_next\\JULIA_REGISTRY_REUSE_PROPOSAL.md",
+      "sha256": "fc27147c2ca0fa0d0cbff34d2a7b810b3a09a199f21a702ee947ed4da883d5a6"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\docs\\research_next\\JULIA_REUSE_SETUP_PROTOCOL.md",
+      "sha256": "eb1f8a857ca8228bcf33b7bb85fdddf4c157d49295883c3fc52fa0b0b7b51a2b"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\orlib_julia_export\\SETUP_CLOSURE_AND_LOCAL_SOURCE_BINDINGS.json",
+      "sha256": "6038d94eca340f7f0bf759330aa57f30d3930834fb4e1eccd8ff824c61fbd927"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\orlib_julia_export\\setup_efficient01\\ENVIRONMENT_ACQUISITION.json",
+      "sha256": "bdfae531e4721bf617444d1014e6d3917b93468d10e1472056511e42017c5989"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\registry_acquire03\\run01\\receipt.json",
+      "sha256": "86eeaf107b46baaabd4abc88b54507b934822956d18d0d917e4ccda2682788d5"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\registry_acquire03\\run01\\registry_file_inventory.json",
+      "sha256": "cc8d9ce6757ffc70a1347ab3bf9e74a2bbaba87f4131bb3737746a52c19f0f42"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\src\\researchnext_julia_setup_efficient.py",
+      "sha256": "b3ed859e6d7a8416ea8fc76b8184e8362c121e81952c854b748b0972e323fd00"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\src\\researchnext_julia_setup_reuse.py",
+      "sha256": "2e1add47952cbeb1f2a26800619277623c4b8975118fe19e933b7680eea61a3a"
+    }
+  ],
+  "selected_registry_metadata": [
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\researchnext_julia_export\\setup_efficient01\\depot\\registries\\General\\Registry.toml",
+      "registry_relative_path": "Registry.toml",
+      "bytes": 1332908,
+      "sha256": "8020190e698b32792ca035a909d990d6a0dbdd94719e87a60d7a964c34c91059"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\researchnext_julia_export\\setup_efficient01\\depot\\registries\\General\\U\\UnitCommitment\\Package.toml",
+      "registry_relative_path": "U/UnitCommitment/Package.toml",
+      "bytes": 131,
+      "sha256": "1b83206f1567a2ff377e4016bd0248046c717cfe8f4d5df27303604deb71375d"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\researchnext_julia_export\\setup_efficient01\\depot\\registries\\General\\U\\UnitCommitment\\Versions.toml",
+      "registry_relative_path": "U/UnitCommitment/Versions.toml",
+      "bytes": 629,
+      "sha256": "e6476b20874cf4f44b9a3d8fb1883b94cb30f1f32064f5b22a25e6bbf9d8872a"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\researchnext_julia_export\\setup_efficient01\\depot\\registries\\General\\U\\UnitCommitment\\Deps.toml",
+      "registry_relative_path": "U/UnitCommitment/Deps.toml",
+      "bytes": 921,
+      "sha256": "e5d90bd4ca46f0ea305610b51b9dac2ab5f76d7f601ebdda151fb3c8acba8c2d"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\researchnext_julia_export\\setup_efficient01\\depot\\registries\\General\\U\\UnitCommitment\\Compat.toml",
+      "registry_relative_path": "U/UnitCommitment/Compat.toml",
+      "bytes": 351,
+      "sha256": "6eb88e997367a19296bfbf20e23b4ee2279024e7d69428f1e82e829aeee9a7c3"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\researchnext_julia_export\\setup_efficient01\\depot\\registries\\General\\J\\JuMP\\Package.toml",
+      "registry_relative_path": "J/JuMP/Package.toml",
+      "bytes": 109,
+      "sha256": "6a08894ce47f2869ec81b85ff0b2fe0d99498d6df3a2615bbbfd638037e4bb4c"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\researchnext_julia_export\\setup_efficient01\\depot\\registries\\General\\J\\JuMP\\Versions.toml",
+      "registry_relative_path": "J/JuMP/Versions.toml",
+      "bytes": 5949,
+      "sha256": "4ef9144e7454795914f92b880689527b45bd4d2505aadb1022fe0073302871a6"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\researchnext_julia_export\\setup_efficient01\\depot\\registries\\General\\J\\JuMP\\Deps.toml",
+      "registry_relative_path": "J/JuMP/Deps.toml",
+      "bytes": 1507,
+      "sha256": "6fc25c14bcaaf788c6cd0adf7b49decab3be5b9ed69e5fd86f56b6dfe5ab3cfe"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\researchnext_julia_export\\setup_efficient01\\depot\\registries\\General\\J\\JuMP\\Compat.toml",
+      "registry_relative_path": "J/JuMP/Compat.toml",
+      "bytes": 2885,
+      "sha256": "8a9eadba79fdab26d650b4f362001118aeeb280043274e014baaf4e1d6e02481"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\researchnext_julia_export\\setup_efficient01\\depot\\registries\\General\\J\\JuMP\\WeakDeps.toml",
+      "registry_relative_path": "J/JuMP/WeakDeps.toml",
+      "bytes": 70,
+      "sha256": "9dc7c251dc0fdabae26248f28c9338eb6c8f0070b51272d0c757a53fe5f61102"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\researchnext_julia_export\\setup_efficient01\\depot\\registries\\General\\J\\JuMP\\WeakCompat.toml",
+      "registry_relative_path": "J/JuMP/WeakCompat.toml",
+      "bytes": 518,
+      "sha256": "1dd9fbadfaaf44458d46048a0c9ccecf3391abea6787fb6a7835a804e10fb000"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\researchnext_julia_export\\setup_efficient01\\depot\\registries\\General\\M\\MathOptInterface\\Package.toml",
+      "registry_relative_path": "M/MathOptInterface/Package.toml",
+      "bytes": 133,
+      "sha256": "58cd82388a8e86365f7e40d7349c52aa90c6fc36a92c01e38998bce4b67662c6"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\researchnext_julia_export\\setup_efficient01\\depot\\registries\\General\\M\\MathOptInterface\\Versions.toml",
+      "registry_relative_path": "M/MathOptInterface/Versions.toml",
+      "bytes": 9686,
+      "sha256": "f45903bef43ffb32338e0b306f8febd925c8e81c00d33ae3eb2704016faf9c98"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\researchnext_julia_export\\setup_efficient01\\depot\\registries\\General\\M\\MathOptInterface\\Deps.toml",
+      "registry_relative_path": "M/MathOptInterface/Deps.toml",
+      "bytes": 1335,
+      "sha256": "a891917e5262a1679afc87ef11257fc8dcf8daf28ab508a2a416dc35f758f22d"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\researchnext_julia_export\\setup_efficient01\\depot\\registries\\General\\M\\MathOptInterface\\Compat.toml",
+      "registry_relative_path": "M/MathOptInterface/Compat.toml",
+      "bytes": 2040,
+      "sha256": "989056731f203d13509de3a34cb4cbb8e1c7bc5c21e3f5ad333e7b8845e39bad"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\researchnext_julia_export\\setup_efficient01\\depot\\registries\\General\\M\\MathOptInterface\\WeakDeps.toml",
+      "registry_relative_path": "M/MathOptInterface/WeakDeps.toml",
+      "bytes": 122,
+      "sha256": "e96ca0dce0b0187c44a45b17c5fd9f739eb271060978b9b5464482b0f9360130"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\researchnext_julia_export\\setup_efficient01\\depot\\registries\\General\\M\\MathOptInterface\\WeakCompat.toml",
+      "registry_relative_path": "M/MathOptInterface/WeakCompat.toml",
+      "bytes": 119,
+      "sha256": "aca5379b7f25268cbeccfa394ed304d63692220c7ec899d10193adbd353671b5"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\researchnext_julia_export\\setup_efficient01\\depot\\registries\\General\\P\\PackageCompiler\\Package.toml",
+      "registry_relative_path": "P/PackageCompiler/Package.toml",
+      "bytes": 132,
+      "sha256": "3ded0e47ead976bb922eb542ac467cf4b48eab485ee1c28c6a0d2f2f4c10d06e"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\researchnext_julia_export\\setup_efficient01\\depot\\registries\\General\\P\\PackageCompiler\\Versions.toml",
+      "registry_relative_path": "P/PackageCompiler/Versions.toml",
+      "bytes": 5826,
+      "sha256": "e19e7b59ec98b9b9157a713d2370c6eb2b74d6e6cacee0b0967aa58932d928da"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\researchnext_julia_export\\setup_efficient01\\depot\\registries\\General\\P\\PackageCompiler\\Deps.toml",
+      "registry_relative_path": "P/PackageCompiler/Deps.toml",
+      "bytes": 1067,
+      "sha256": "2477deabc008a0b6c375103a019d55e43c69e009b26e2e70afc95be684f2b5a4"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\researchnext_julia_export\\setup_efficient01\\depot\\registries\\General\\P\\PackageCompiler\\Compat.toml",
+      "registry_relative_path": "P/PackageCompiler/Compat.toml",
+      "bytes": 924,
+      "sha256": "52198fb0072a5beefdb7e23eef83bcdc0c8aa3d7a0921591bba118aef2f3fb66"
+    }
+  ],
+  "secondary_depot": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\researchnext_julia_export\\setup_efficient01\\depot",
+  "prospective_private_attempt": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\researchnext_julia_export\\setup_reuse01",
+  "prospective_output": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\orlib_julia_export\\setup_reuse01",
+  "phase_limit_seconds": 1800,
+  "expected_versions": {
+    "UnitCommitment": "0.4.0",
+    "JuMP": "1.15.1",
+    "MathOptInterface": "1.20.1",
+    "PackageCompiler": "1.7.7"
+  },
+  "whole_disk_registry_readback_completed": false,
+  "registry_reextractions": 0,
+  "Julia_invocations": 0,
+  "Pkg_add_calls": 0,
+  "scientific_model_builds": 0,
+  "optimizer_calls": 0,
+  "Windows_installed_archive_full_tree_verification": "NOT_ESTABLISHED_BY_PKG_INSTALL_ARCHIVE",
+  "trust_contract": "Inherited verified archive and controlled extraction; selected physical metadata checked; assumes no external concurrent mutation or storage fault in unselected materialized registry bytes"
+}

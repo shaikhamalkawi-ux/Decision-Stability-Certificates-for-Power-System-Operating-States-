@@ -1,0 +1,23 @@
+{
+  "status": "PREPARED_NO_SCIENTIFIC_DP",
+  "utc": "2026-09-27T10:51:41.613112+00:00",
+  "source_sha256": "b0e07f9cba7ea91696ef5884f94666592263003f610fd7104a23ff4760f42ab8",
+  "protocol_sha256": "157b910ec99e5f0f42a9f80bb5eee42a25382cf16555722d52949c3022b3060f",
+  "input_manifest": {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_capacity_cover\\prepared\\input_manifest.json",
+    "bytes": 19891,
+    "sha256": "6018b53d796926f5e1ab368958d8a03a3a7e21e67d88702825b057ac672b10e3"
+  },
+  "bindings": 71,
+  "admission": {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_capacity_cover\\prepared\\admission.json",
+    "bytes": 3590296,
+    "sha256": "0a9abd8f40376f54d834763c118ea9c70642c3a9ca966f91111e2fb6ef32d8dd"
+  },
+  "copies": 13,
+  "distinct_tuples": 1,
+  "scientific_dp_tables": 0,
+  "scientific_threshold_queries": 0,
+  "optimizer_calls": 0,
+  "elapsed_seconds": 3.9764745000284165
+}

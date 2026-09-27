@@ -1,0 +1,12 @@
+{
+  "utc": "2026-09-27T10:58:42.2708857Z",
+  "authorization": "Explicit root GO for exactly one frozen affine arithmetic execution",
+  "source_sha256": "746022d4ef39c7a5bc97969c32b644cc268b1a5c3a4ddf79d64082537bb7f541",
+  "protocol_sha256": "2ab0739a10463712d1d31b19433e97a085c50086035661c14246e4da0d66e036",
+  "freeze_sha256": "5c3199380ed8e6502384f5a3790104291f7723b8a086911aa6c53606de99b7dc",
+  "independent_review_sha256": "46d9f2d4fc4ad887e7f03d199863150720cd850e1593409316ac77b5a6b0ca83",
+  "phase_seconds": 120,
+  "optimizer_calls": 0,
+  "bound_reselection": false,
+  "capacity_cover_gate_is_separate": true
+}

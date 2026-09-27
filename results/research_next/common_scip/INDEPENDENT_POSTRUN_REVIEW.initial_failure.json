@@ -1,0 +1,13 @@
+{
+  "kind": "reviewer_only_contract_correction",
+  "initial_source_sha256": "0f4adba735c7eea38dc90059101d785e2352e8a94aa8c97d4b2ea44f9b987d2b",
+  "process_exit_code": 1,
+  "exception": "AssertionError",
+  "location": "all post-call parameters equal pre-call parameters",
+  "cause": "Reviewer imposed equality beyond the producer contract. One solver-internal parameter changed after optimization; the explicit solve options did not change.",
+  "observed_delta": {"propagating/genvbounds/timingmask": {"before": 15, "after": 0}},
+  "backend_arithmetic_or_point_replay_reached": false,
+  "initial_source_preservation": "Retained byte-identical from the untouched common_union reviewer draft after correction; hash independently matched the initial SCIP reviewer.",
+  "optimizer_calls": 0,
+  "producer_changes": 0
+}

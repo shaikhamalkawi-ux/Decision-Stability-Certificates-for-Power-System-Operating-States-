@@ -1,0 +1,56 @@
+{
+  "status": "INDEPENDENT_CLOSED_POSTRUN_PASS",
+  "arm": "common_scip",
+  "reviewer_sha256": "090aba46d707e01c21cc4713073c41b718d98ca9d2bb3192674e274508f21e98",
+  "input_bindings": 134,
+  "producer_outputs": 44,
+  "trusted_result_sha256": "c35a083c4617f8bf4462b8aee5dba252421a814f6d0836fc1d8f82a6a3299aec",
+  "trusted_completion_sha256": "50b140f4d87e49750337538b7b4d186e60d54c2c3755d964c5d3da6c11688d7c",
+  "trusted_inventory_sha256": "09f1b7e3a1f14f63950ac1d6e0a386279f76415c88744c00a6ccfc3393f02e4f",
+  "source_sha256": "e80a8e80b1a25def3f94564b3a33527a367fc21e4bd87ea52bcdbc2f3e16d8d5",
+  "protocol_sha256": "07b17a4105f9f9c026f26350593814e92b79dd528eff3cb9ad7b0c20e5221597",
+  "all_inputs_outputs_unchanged": true,
+  "backend": {
+    "original_rows": 69362,
+    "backend_rows": 82130,
+    "columns": 33936,
+    "original_bits": 12096,
+    "coefficient_uses": 316712,
+    "complete_saved_readback_matches": true
+  },
+  "call_ledger": {
+    "attempted": 1,
+    "returned": 1,
+    "last_admission_remaining_seconds": 2394.6526608000277,
+    "started_utc": "2026-09-27T09:59:31.241609+00:00",
+    "actual_call_remaining_seconds": 2394.6490485999966,
+    "actual_seconds": 1800.18060349999,
+    "ended_utc": "2026-09-27T10:29:31.452384+00:00"
+  },
+  "phase_seconds": 1814.6050426000147,
+  "producer_verdict": "UNKNOWN",
+  "original_question_verdict": "UNKNOWN",
+  "candidate_review": null,
+  "post_call_parameter_changes": {
+    "propagating/genvbounds/timingmask": {
+      "before": 15,
+      "after": 0
+    }
+  },
+  "review_history": [
+    {
+      "source_sha256": "0f4adba735c7eea38dc90059101d785e2352e8a94aa8c97d4b2ea44f9b987d2b",
+      "exit_code": 1,
+      "assertion": "all post-call parameters equal pre-call parameters",
+      "reason": "Overstrong reviewer requirement; producer requires pre-call equality and preserves after-call changes.",
+      "scientific_replay_reached": false
+    }
+  ],
+  "optimizer_calls": 0,
+  "optimizer_imports": 0,
+  "producer_imports": 0,
+  "private_logs_read": false,
+  "old_joint_reassembly": false,
+  "pinned_exact_kernel_reused": true,
+  "elapsed_seconds": 4.005612599954475
+}

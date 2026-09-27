@@ -1,0 +1,23 @@
+{
+  "status": "ONE_READ_ONLY_OWNED_DRIVER_OBSERVATION_NOT_COMPLETION",
+  "observed_utc_approximate": "2026-09-27T10:23Z",
+  "tool_output_chunk": "a2ddfc",
+  "selection": "Win32_Process Name=python.exe and CommandLine containing researchnext_julia_setup_efficient.py; only the matching launcher and its child were returned",
+  "execution_session": 64083,
+  "launcher_pid": 70688,
+  "driver_pid": 35260,
+  "driver_parent_pid": 70688,
+  "driver_creation_time": "2026-09-27T14:01:58.573345+04:00",
+  "Win32_Process_raw_counters": {
+    "UserModeTime": 158593750,
+    "KernelModeTime": 306406250,
+    "ReadOperationCount": 26414,
+    "ReadTransferCount": 181052944,
+    "WriteOperationCount": 60464,
+    "WriteTransferCount": 28435646,
+    "WorkingSetSize": 34988032
+  },
+  "last_durable_stage": "full_registry_content_tree_readback_before_Julia",
+  "Julia_launch_marker_present_at_nearby_stage_read": false,
+  "limits": "Counters are cumulative process counters, not per-stage profiling or a checked-file counter. Timestamp is approximate because this read-only command did not emit an observation timestamp. It does not diagnose antivirus, storage, synchronization, package compatibility or scientific correctness. No intervention or process instrumentation occurred."
+}

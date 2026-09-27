@@ -1,0 +1,54 @@
+{
+  "status": "PASS_INVENTED_ARITHMETIC_ONLY",
+  "checks": [
+    {
+      "name": "positive coefficient upper",
+      "pass_": true
+    },
+    {
+      "name": "positive coefficient lower",
+      "pass_": true
+    },
+    {
+      "name": "negative coefficient upper becomes lower",
+      "pass_": true
+    },
+    {
+      "name": "negative coefficient lower becomes upper",
+      "pass_": true
+    },
+    {
+      "name": "full generation cancellation and summed tolerance",
+      "pass_": true
+    },
+    {
+      "name": "wrong inequality direction",
+      "pass_": true
+    },
+    {
+      "name": "zero generation coefficient",
+      "pass_": true
+    },
+    {
+      "name": "negative endpoint multiplier",
+      "pass_": true
+    },
+    {
+      "name": "out of range original column",
+      "pass_": true
+    },
+    {
+      "name": "wrong tau changes exact certificate endpoint",
+      "pass_": true
+    },
+    {
+      "name": "invalid endpoint side",
+      "pass_": true
+    }
+  ],
+  "count": 11,
+  "scientific_model_reads": 0,
+  "optimizer_calls": 0,
+  "source_sha256": "746022d4ef39c7a5bc97969c32b644cc268b1a5c3a4ddf79d64082537bb7f541",
+  "fixture_sha256": "d9e2a5ff32d7f192bdba4b3b8bca9a45eadaab96a885e4eaea3a90ec9f4d4b89"
+}
