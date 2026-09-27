@@ -1,0 +1,90 @@
+{
+  "status": "CERTIFIED_EXPANDED_INFEASIBLE",
+  "strict_pass": true,
+  "expanded_pass": true,
+  "tau": {
+    "numerator": "5902958103587057",
+    "denominator": "590295810358705651712",
+    "float": 1e-05
+  },
+  "row_multiplier_nonzeros": 1442,
+  "combined_column_nonzeros": 5301,
+  "beta": {
+    "numerator": "26547773800476718466710658767350540816286708767",
+    "denominator": "5444517870735015415413993718908291383296",
+    "float": 4876055.957713799
+  },
+  "box_maximum": {
+    "numerator": "108356243939731138068948711100014848721328857573065",
+    "denominator": "22300745198530623141535718272648361505980416",
+    "float": 4858862.0234480165
+  },
+  "separation_gap": {
+    "numerator": "383437547021500770698147211052966462181501536567",
+    "denominator": "22300745198530623141535718272648361505980416",
+    "float": 17193.934265782525
+  },
+  "expanded_beta": {
+    "numerator": "3648680815959623347498920040745390363577168181991263877947",
+    "denominator": "748288838313422294120286634350736906063837462003712",
+    "float": 4876032.661643639
+  },
+  "expanded_box_maximum": {
+    "numerator": "454484593954914972371964320168166783056771533373635499037",
+    "denominator": "93536104789177786765035829293842113257979682750464",
+    "float": 4858921.536013111
+  },
+  "expanded_separation_gap": {
+    "numerator": "12804064320303568523205479400056099122995915002179885651",
+    "denominator": "748288838313422294120286634350736906063837462003712",
+    "float": 17111.125630528997
+  },
+  "norm_formula_gap": {
+    "numerator": "12804064320303568523205479400056099122995915002179885651",
+    "denominator": "748288838313422294120286634350736906063837462003712",
+    "float": 17111.125630528997
+  },
+  "row_multiplier_l1": {
+    "numerator": "2953127732073895131686717701774915861",
+    "denominator": "1267650600228229401496703205376",
+    "float": 2329607.0159570863
+  },
+  "combined_column_l1": {
+    "numerator": "943014235780938205356352042209492461",
+    "denominator": "158456325028528675187087900672",
+    "float": 5951256.509395612
+  },
+  "independent_widened_endpoint_identity": true,
+  "model": "results/research8h/hour_of_day/seed_26093200/lp",
+  "exact_claim_comparison": {
+    "exact_gap": true,
+    "exact_robust_gap": true
+  },
+  "local_model_bindings": {
+    "verified_files": [
+      {
+        "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\closed_replay_candidate01\\package\\results\\research8h\\hour_of_day\\seed_26093200\\lp\\matrix.npz",
+        "sha256": "2f11940f72432a2a2e89e4a88115eba3cf24a8e82a8110e250c6191020c1f0bb",
+        "bytes": 199281
+      },
+      {
+        "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\closed_replay_candidate01\\package\\results\\research8h\\hour_of_day\\seed_26093200\\lp\\bounds.npz",
+        "sha256": "db1348bc87d18f00c2f597aa028ef1dfbf02b75756b9280ec6618a2c793a3554",
+        "bytes": 52361
+      },
+      {
+        "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\closed_replay_candidate01\\package\\results\\research8h\\hour_of_day\\seed_26093200\\lp\\row_metadata.csv.gz",
+        "sha256": "4660b93a91fb9828471b80f3edf200c6e47454b9a8d95943041b74ed4a840d42",
+        "bytes": 147013
+      },
+      {
+        "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\closed_replay_candidate01\\package\\results\\research8h\\hour_of_day\\seed_26093200\\lp\\raw_solver_ray.npz",
+        "sha256": "703ec5fa329ee3eb332d66722c49e838a118812628c9e5b83f24b47fd9172487",
+        "bytes": 4983
+      }
+    ],
+    "manifest": null,
+    "unverified_manifest_digest_without_supplied_manifest": "078082667f83322d3540ad3ac215ebcc996d0d31b04fd52bfa75c1d2fd814fcc"
+  },
+  "experiment_manifest_verified_by_wrapper": "results/research8h/hour_of_day/input_manifest.csv"
+}

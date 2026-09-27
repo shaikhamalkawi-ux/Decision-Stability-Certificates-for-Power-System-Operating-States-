@@ -1,0 +1,16 @@
+{
+  "status": "REVIEWER_POSTCONDITION_ASSERTION_CORRECTED",
+  "mathematical_replay_failed": false,
+  "condition": "no __pycache__ directories anywhere in candidate",
+  "reason": "The original Checkpoint04 already included a manifest-bound nominal_balance_audit bytecode file. That is not a new wrapper write.",
+  "initial_exception": "AssertionError",
+  "original_failure_wrote_no_artifact": true,
+  "correction": "Require exact final manifest file set and establish every observed bytecode file was already bound in the base manifest.",
+  "bytecode": [
+    {
+      "path": "results/research8h/nominal_balance_audit/__pycache__/independent_replay.cpython-312.pyc",
+      "already_present_in_original_checkpoint04": true,
+      "sha256": "4f8806c05d44b325dea9550cadbf931623a000e23db923b27883309e7d0cd027"
+    }
+  ]
+}

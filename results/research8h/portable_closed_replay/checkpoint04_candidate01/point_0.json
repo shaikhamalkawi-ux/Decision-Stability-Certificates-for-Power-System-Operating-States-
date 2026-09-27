@@ -1,0 +1,34 @@
+{
+  "status": "CERTIFIED_EXPANDED_ONLY_POINT",
+  "strict_pass": false,
+  "expanded_pass": true,
+  "original_binary_coordinates_exact": true,
+  "binary_coordinates": 12096,
+  "tau": {
+    "numerator": "5902958103587057",
+    "denominator": "590295810358705651712",
+    "float": 1e-05
+  },
+  "maximum_column_violation": {
+    "numerator": "12133",
+    "denominator": "562949953421312",
+    "float": 2.155253753244324e-11
+  },
+  "worst_column": {
+    "column": 4920,
+    "side": "lower"
+  },
+  "maximum_row_violation": {
+    "numerator": "8080919107015283899",
+    "denominator": "316912650057057350374175801344",
+    "float": 2.5498884647111388e-11
+  },
+  "worst_row": {
+    "row": 30909,
+    "side": "lower"
+  },
+  "model": "results/research8h/hour_of_day/january_identity",
+  "vector": "constructive_vector.npz",
+  "mask": "integrality.npz",
+  "original_mask_checked": true
+}

@@ -1,0 +1,90 @@
+{
+  "status": "CERTIFIED_EXPANDED_INFEASIBLE",
+  "strict_pass": true,
+  "expanded_pass": true,
+  "tau": {
+    "numerator": "5902958103587057",
+    "denominator": "590295810358705651712",
+    "float": 1e-05
+  },
+  "row_multiplier_nonzeros": 1450,
+  "combined_column_nonzeros": 4935,
+  "beta": {
+    "numerator": "229096893782758366609092522192131",
+    "denominator": "618970019642690137449562112",
+    "float": 370125.99401019135
+  },
+  "box_maximum": {
+    "numerator": "116917745817535193980886031057048671",
+    "denominator": "316912650057057350374175801344",
+    "float": 368927.3552080839
+  },
+  "separation_gap": {
+    "numerator": "379863799237089722969340305322401",
+    "denominator": "316912650057057350374175801344",
+    "float": 1198.638802107453
+  },
+  "expanded_beta": {
+    "numerator": "7871688789286122837313222798722245971824661",
+    "denominator": "21267647932558653966460912964485513216",
+    "float": 370125.0281294788
+  },
+  "expanded_box_maximum": {
+    "numerator": "7846268176341611654582727093912428481258803",
+    "denominator": "21267647932558653966460912964485513216",
+    "float": 368929.75665305025
+  },
+  "expanded_separation_gap": {
+    "numerator": "12710306472255591365247852404908745282929",
+    "denominator": "10633823966279326983230456482242756608",
+    "float": 1195.2714764285124
+  },
+  "norm_formula_gap": {
+    "numerator": "12710306472255591365247852404908745282929",
+    "denominator": "10633823966279326983230456482242756608",
+    "float": 1195.2714764285124
+  },
+  "row_multiplier_l1": {
+    "numerator": "3479952013887063164571",
+    "denominator": "36028797018963968",
+    "float": 96588.0712602025
+  },
+  "combined_column_l1": {
+    "numerator": "8652117324442954764387",
+    "denominator": "36028797018963968",
+    "float": 240144.49663386936
+  },
+  "independent_widened_endpoint_identity": true,
+  "model": "results/research8h/fresh_january_weeks/targets/seed_26093221/lp",
+  "exact_claim_comparison": {
+    "exact_gap": true,
+    "exact_robust_gap": true
+  },
+  "local_model_bindings": {
+    "verified_files": [
+      {
+        "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\closed_replay_candidate01\\package\\results\\research8h\\fresh_january_weeks\\targets\\seed_26093221\\lp\\matrix.npz",
+        "sha256": "2f11940f72432a2a2e89e4a88115eba3cf24a8e82a8110e250c6191020c1f0bb",
+        "bytes": 199281
+      },
+      {
+        "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\closed_replay_candidate01\\package\\results\\research8h\\fresh_january_weeks\\targets\\seed_26093221\\lp\\bounds.npz",
+        "sha256": "d88ce1eaab97089d3fd6075eec13a6ca372ce845442ef11543ba41c4152f60c5",
+        "bytes": 52322
+      },
+      {
+        "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\closed_replay_candidate01\\package\\results\\research8h\\fresh_january_weeks\\targets\\seed_26093221\\lp\\row_metadata.csv.gz",
+        "sha256": "f9f88cf542dcc7bb8d38914d1e70030c4427a7cab82296ff60fc372945859378",
+        "bytes": 147013
+      },
+      {
+        "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\closed_replay_candidate01\\package\\results\\research8h\\fresh_january_weeks\\targets\\seed_26093221\\lp\\raw_solver_ray.npz",
+        "sha256": "5395fbb57108d25edf10321451ab4c80aab448ffb970fbf9cfcbdace4fc53341",
+        "bytes": 5064
+      }
+    ],
+    "manifest": null,
+    "unverified_manifest_digest_without_supplied_manifest": "56c5240486a8274ecb076b3aca49db236db4a7d72b865392016868119f7938dd"
+  },
+  "experiment_manifest_verified_by_wrapper": "results/research8h/fresh_january_weeks/targets/input_manifest.csv"
+}

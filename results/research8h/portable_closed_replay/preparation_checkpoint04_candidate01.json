@@ -1,0 +1,20 @@
+{
+  "status": "CANDIDATE_PACKAGE_PREPARED_NOT_REPLAYED",
+  "base_zip": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\research8h_delivery\\DSC_Temporal_Research_2026-09-27_Checkpoint04.zip",
+  "base_zip_sha256": "27f0ecd3645331d926da10694e995547f132a0e61f7f75420a3012d41384bf03",
+  "base_zip_bytes": 73771852,
+  "base_member_count": 3155,
+  "base_payload_count": 3154,
+  "base_outer_manifest_sha256": "7087b7b42862c8b3723f7e691d00c91abd19c581793f2e5ddab6b45182b82219",
+  "package_root": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\closed_replay_candidate01\\package",
+  "candidate_payload_count": 3156,
+  "candidate_manifest_sha256": "1d71503802a3cd34f5eadbcfe6c697045e26a3a9be5f1c387311257d611b0653",
+  "added_files": {
+    "reproducibility/replay_closed_research.py": "c6cf226ac82ecb5551dee2241e89b2fd1c990fdde3e27878758331b3f998fb85",
+    "docs/research8h/PORTABLE_CLOSED_REPLAY_PROTOCOL.md": "88864255bcd8bb479df79c100e6d67628647c03f97ef6dfade07d4add7544f12"
+  },
+  "original_zip_unchanged": true,
+  "mathematical_replay_started": false,
+  "optimization_calls": 0,
+  "second_machine_execution_claim": false
+}

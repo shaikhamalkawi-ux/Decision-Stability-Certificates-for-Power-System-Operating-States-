@@ -1,0 +1,108 @@
+{
+  "nominal_lower_bound_MWh": {
+    "numerator": "32279819456887346891868639494962420442876905711531",
+    "denominator": "1427247692705959881058285969449495136382746624",
+    "float": 22616.830716809294
+  },
+  "expanded_lower_bound_MWh": {
+    "numerator": "67692670989541805824312031500944438452884092390539984097",
+    "denominator": "2993155353253689176481146537402947624255349848014848",
+    "float": 22615.822769091137
+  },
+  "row_term": {
+    "numerator": "3600095608817529789139596896759321857",
+    "denominator": "40564819207303340847894502572032",
+    "float": 88749.20877668707
+  },
+  "finite_box_term": {
+    "numerator": "-94387283999118794452779303879511825774465977489493",
+    "denominator": "1427247692705959881058285969449495136382746624",
+    "float": -66132.37805987777
+  },
+  "row_dual_l1": {
+    "numerator": "28491910024479688324863",
+    "denominator": "1152921504606846976",
+    "float": 24712.79259744192
+  },
+  "stationarity_residual_l1": {
+    "numerator": "385781466491325806037650780429724943",
+    "denominator": "5070602400912917605986812821504",
+    "float": 76081.97921845918
+  },
+  "status": "EXACT_EXPANDED_OBJECTIVE_LOWER_BOUND",
+  "model": "results/research8h/energy_lp_refinement/january_identity",
+  "selected_lower_MWh": {
+    "numerator": "67692670989541805824312031500944438452884092390539984097",
+    "denominator": "2993155353253689176481146537402947624255349848014848",
+    "float": 22615.822769091137
+  },
+  "sparse_residual_matches": true,
+  "zero_dual_bound": {
+    "nominal_lower_bound_MWh": {
+      "numerator": "0",
+      "denominator": "1",
+      "float": 0.0
+    },
+    "expanded_lower_bound_MWh": {
+      "numerator": "-2851128764032548531",
+      "denominator": "73786976294838206464",
+      "float": -0.03864
+    },
+    "row_term": {
+      "numerator": "0",
+      "denominator": "1",
+      "float": 0.0
+    },
+    "finite_box_term": {
+      "numerator": "0",
+      "denominator": "1",
+      "float": 0.0
+    },
+    "row_dual_l1": {
+      "numerator": "0",
+      "denominator": "1",
+      "float": 0.0
+    },
+    "stationarity_residual_l1": {
+      "numerator": "3864",
+      "denominator": "1",
+      "float": 3864.0
+    }
+  },
+  "exact_optimality_claim": false,
+  "verified_upper_MWh": {
+    "numerator": "1654798412944827657145",
+    "denominator": "72057594037927936",
+    "float": 22964.941239556443
+  },
+  "original_binary_point": {
+    "status": "CERTIFIED_EXPANDED_ONLY_POINT",
+    "strict_pass": false,
+    "expanded_pass": true,
+    "original_binary_coordinates_exact": true,
+    "binary_coordinates": 12096,
+    "tau": {
+      "numerator": "5902958103587057",
+      "denominator": "590295810358705651712",
+      "float": 1e-05
+    },
+    "maximum_column_violation": {
+      "numerator": "12133",
+      "denominator": "562949953421312",
+      "float": 2.155253753244324e-11
+    },
+    "worst_column": {
+      "column": 4920,
+      "side": "lower"
+    },
+    "maximum_row_violation": {
+      "numerator": "8080919107015283899",
+      "denominator": "316912650057057350374175801344",
+      "float": 2.5498884647111388e-11
+    },
+    "worst_row": {
+      "row": 30908,
+      "side": "lower"
+    }
+  }
+}

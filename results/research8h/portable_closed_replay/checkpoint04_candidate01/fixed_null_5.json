@@ -1,0 +1,61 @@
+{
+  "status": "VALID_NONSEPARATING_RAY",
+  "strict_pass": false,
+  "expanded_pass": false,
+  "tau": {
+    "numerator": "5902958103587057",
+    "denominator": "590295810358705651712",
+    "float": 1e-05
+  },
+  "row_multiplier_nonzeros": 1551,
+  "combined_column_nonzeros": 5446,
+  "beta": {
+    "numerator": "12553873745387662859074533003552398639",
+    "denominator": "2535301200456458802993406410752",
+    "float": 4951630.103408403
+  },
+  "box_maximum": {
+    "numerator": "31860406297335989054237345528023570587551784905737",
+    "denominator": "5575186299632655785383929568162090376495104",
+    "float": 5714680.1174043715
+  },
+  "separation_gap": {
+    "numerator": "-4254145983964831129578669776737706151399510912009",
+    "denominator": "5575186299632655785383929568162090376495104",
+    "float": -763050.0139959687
+  },
+  "expanded_beta": {
+    "numerator": "1852616380470477265901690323840527726785121531566161491469",
+    "denominator": "374144419156711147060143317175368453031918731001856",
+    "float": 4951607.683060228
+  },
+  "expanded_box_maximum": {
+    "numerator": "534534205541447809001586664824245941792572653726005302431",
+    "denominator": "93536104789177786765035829293842113257979682750464",
+    "float": 5714736.643633399
+  },
+  "expanded_separation_gap": {
+    "numerator": "-285520441695313970104656335456456040385169083337859718255",
+    "denominator": "374144419156711147060143317175368453031918731001856",
+    "float": -763128.9605731715
+  },
+  "norm_formula_gap": {
+    "numerator": "-285520441695313970104656335456456040385169083337859718255",
+    "denominator": "374144419156711147060143317175368453031918731001856",
+    "float": -763128.9605731715
+  },
+  "row_multiplier_l1": {
+    "numerator": "1421058391055726670658290945535131939",
+    "denominator": "633825300114114700748351602688",
+    "float": 2242034.8174802703
+  },
+  "combined_column_l1": {
+    "numerator": "895693851949103299498710540780394127",
+    "denominator": "158456325028528675187087900672",
+    "float": 5652622.902795716
+  },
+  "independent_widened_endpoint_identity": true,
+  "candidate": "seed_26093201__own_full_to_locality48",
+  "model": "results/research8h/hod_fixed_ray_transfer/models/seed_26093201/locality48",
+  "feasibility_claim": false
+}

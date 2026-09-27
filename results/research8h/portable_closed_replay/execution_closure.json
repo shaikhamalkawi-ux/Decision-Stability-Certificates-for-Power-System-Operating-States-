@@ -1,0 +1,40 @@
+{
+  "status": "POSTRUN_PACKAGE_AND_EXECUTION_CLOSURE_PASS",
+  "recorded_utc": "2026-09-27T01:19:11.019588+00:00",
+  "unified_exec_session": 57877,
+  "observed_exit_code": 0,
+  "full_replay_launches": 1,
+  "failed_full_replays": 0,
+  "source_or_protocol_changes_after_review": false,
+  "command": [
+    "python",
+    "-I",
+    "-S",
+    "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\closed_replay_candidate01\\package\\reproducibility\\replay_closed_research.py",
+    "--package-root",
+    "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\closed_replay_candidate01\\package",
+    "--report-dir",
+    "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\portable_closed_replay\\checkpoint04_candidate01"
+  ],
+  "elapsed_s": 59.566826099995524,
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "mathematical_report_files": 28,
+  "candidate_manifest_sha256": "1d71503802a3cd34f5eadbcfe6c697045e26a3a9be5f1c387311257d611b0653",
+  "declared_candidate_payloads": 3156,
+  "actual_package_files_including_manifest": 3157,
+  "unmanifested_package_files": [],
+  "new_bytecode_files": [],
+  "inherited_bound_bytecode": [
+    {
+      "path": "results/research8h/nominal_balance_audit/__pycache__/independent_replay.cpython-312.pyc",
+      "already_present_in_original_checkpoint04": true,
+      "sha256": "4f8806c05d44b325dea9550cadbf931623a000e23db923b27883309e7d0cd027"
+    }
+  ],
+  "original_checkpoint04_zip_unchanged": true,
+  "original_zip_sha256": "27f0ecd3645331d926da10694e995547f132a0e61f7f75420a3012d41384bf03",
+  "second_machine_execution_claim": false,
+  "optimization_calls": 0,
+  "network_calls_by_wrapper": 0,
+  "reviewer_postcondition_correction": "closure_attempt01.json"
+}

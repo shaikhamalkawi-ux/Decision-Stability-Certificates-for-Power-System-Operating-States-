@@ -1,0 +1,34 @@
+{
+  "status": "CERTIFIED_EXPANDED_ONLY_POINT",
+  "strict_pass": false,
+  "expanded_pass": true,
+  "original_binary_coordinates_exact": true,
+  "binary_coordinates": 12096,
+  "tau": {
+    "numerator": "5902958103587057",
+    "denominator": "590295810358705651712",
+    "float": 1e-05
+  },
+  "maximum_column_violation": {
+    "numerator": "4335",
+    "denominator": "70368744177664",
+    "float": 6.160405519040069e-11
+  },
+  "worst_column": {
+    "column": 3297,
+    "side": "lower"
+  },
+  "maximum_row_violation": {
+    "numerator": "21705",
+    "denominator": "281474976710656",
+    "float": 7.711165039836487e-11
+  },
+  "worst_row": {
+    "row": 18710,
+    "side": "upper"
+  },
+  "model": "results/research8h/fresh_january_weeks/targets/week_2_identity",
+  "vector": "constructive_vector.npz",
+  "mask": "integrality.npz",
+  "original_mask_checked": true
+}

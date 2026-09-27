@@ -1,0 +1,18 @@
+{
+  "status": "FOCUSED_NEW_LOGIC_CHECKS_PASS",
+  "tests": [
+    "row_bound_expansion",
+    "nonstationary_box_residual",
+    "negative_bound_not_clipped",
+    "negative_residual_uses_upper_box",
+    "infinite_selected_row_rejected",
+    "difference_and_relative_endpoints",
+    "nonpositive_identity_interval_rejected",
+    "projected_mask_rejected",
+    "missing_unknown_case_rejected",
+    "package_parent_escape_rejected",
+    "absolute_package_path_rejected"
+  ],
+  "old_kernel_fixture_suite_rerun": false,
+  "optimization_calls": 0
+}

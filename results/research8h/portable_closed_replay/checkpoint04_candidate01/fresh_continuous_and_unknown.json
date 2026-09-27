@@ -1,0 +1,34 @@
+{
+  "status": "CONTINUOUS_POINT_VERIFIED_BINARY_VERDICT_UNKNOWN",
+  "strict_pass": false,
+  "expanded_pass": true,
+  "original_binary_coordinates_exact": true,
+  "binary_coordinates": 0,
+  "tau": {
+    "numerator": "5902958103587057",
+    "denominator": "590295810358705651712",
+    "float": 1e-05
+  },
+  "maximum_column_violation": {
+    "numerator": "11",
+    "denominator": "140737488355328",
+    "float": 7.815970093361102e-14
+  },
+  "worst_column": {
+    "column": 2305,
+    "side": "lower"
+  },
+  "maximum_row_violation": {
+    "numerator": "38094240507634246187",
+    "denominator": "5070602400912917605986812821504",
+    "float": 7.512764262639822e-12
+  },
+  "worst_row": {
+    "row": 27689,
+    "side": "lower"
+  },
+  "exact_nonbinary_original_coordinates": 359,
+  "original_binary_mask_not_applied_to_LP": true,
+  "binary_verdict": "UNKNOWN",
+  "ordinary_denominator": 4
+}

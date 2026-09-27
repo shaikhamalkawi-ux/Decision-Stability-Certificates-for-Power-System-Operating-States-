@@ -1,0 +1,158 @@
+{
+  "nominal_lower_bound_MWh": {
+    "numerator": "4250500893595632727583631909746773728751301957791",
+    "denominator": "178405961588244985132285746181186892047843328",
+    "float": 23824.881499227293
+  },
+  "expanded_lower_bound_MWh": {
+    "numerator": "1114158262530646718016528754594108697234904847543585957",
+    "denominator": "46768052394588893382517914646921056628989841375232",
+    "float": 23823.063084396388
+  },
+  "row_term": {
+    "numerator": "1789582628677569225539351403908049659",
+    "denominator": "20282409603651670423947251286016",
+    "float": 88233.23577664907
+  },
+  "finite_box_term": {
+    "numerator": "-11490834379179784211869935559486910498420951869281",
+    "denominator": "178405961588244985132285746181186892047843328",
+    "float": -64408.35427742178
+  },
+  "row_dual_l1": {
+    "numerator": "4188021851331131411028362777329665",
+    "denominator": "79228162514264337593543950336",
+    "float": 52860.267339623264
+  },
+  "stationarity_residual_l1": {
+    "numerator": "5109472361395976613105234607186053",
+    "denominator": "39614081257132168796771975168",
+    "float": 128981.21575080226
+  },
+  "status": "EXACT_EXPANDED_OBJECTIVE_LOWER_BOUND",
+  "model": "results/research8h/hour_of_day_uncapped/seed_26093201",
+  "selected_lower_MWh": {
+    "numerator": "1114158262530646718016528754594108697234904847543585957",
+    "denominator": "46768052394588893382517914646921056628989841375232",
+    "float": 23823.063084396388
+  },
+  "sparse_residual_matches": true,
+  "zero_dual_bound": {
+    "nominal_lower_bound_MWh": {
+      "numerator": "0",
+      "denominator": "1",
+      "float": 0.0
+    },
+    "expanded_lower_bound_MWh": {
+      "numerator": "-2851128764032548531",
+      "denominator": "73786976294838206464",
+      "float": -0.03864
+    },
+    "row_term": {
+      "numerator": "0",
+      "denominator": "1",
+      "float": 0.0
+    },
+    "finite_box_term": {
+      "numerator": "0",
+      "denominator": "1",
+      "float": 0.0
+    },
+    "row_dual_l1": {
+      "numerator": "0",
+      "denominator": "1",
+      "float": 0.0
+    },
+    "stationarity_residual_l1": {
+      "numerator": "3864",
+      "denominator": "1",
+      "float": 3864.0
+    }
+  },
+  "exact_optimality_claim": false,
+  "verified_upper_MWh": {
+    "numerator": "432792302999982809161",
+    "denominator": "18014398509481984",
+    "float": 24024.798983556408
+  },
+  "original_binary_point": {
+    "status": "CERTIFIED_EXPANDED_ONLY_POINT",
+    "strict_pass": false,
+    "expanded_pass": true,
+    "original_binary_coordinates_exact": true,
+    "binary_coordinates": 12096,
+    "tau": {
+      "numerator": "5902958103587057",
+      "denominator": "590295810358705651712",
+      "float": 1e-05
+    },
+    "maximum_column_violation": {
+      "numerator": "32387",
+      "denominator": "281474976710656",
+      "float": 1.1506173791531182e-10
+    },
+    "worst_column": {
+      "column": 3091,
+      "side": "lower"
+    },
+    "maximum_row_violation": {
+      "numerator": "32387",
+      "denominator": "281474976710656",
+      "float": 1.1506173791531182e-10
+    },
+    "worst_row": {
+      "row": 16679,
+      "side": "upper"
+    }
+  },
+  "intervals": {
+    "optimum_difference_MWh": {
+      "lower": {
+        "numerator": "40132687400415832711929266492092539083830108952087717",
+        "denominator": "46768052394588893382517914646921056628989841375232",
+        "float": 858.1218448399451
+      },
+      "upper": {
+        "numerator": "4217284698933842019540983988929376655983180772151198495",
+        "denominator": "2993155353253689176481146537402947624255349848014848",
+        "float": 1408.9762144652705
+      }
+    },
+    "target_optimum_excess_over_chosen_incumbent_MWh": {
+      "lower": {
+        "numerator": "40132687400415832711929266492092539083830108952087717",
+        "denominator": "46768052394588893382517914646921056628989841375232",
+        "float": 858.1218448399451
+      },
+      "upper": {
+        "numerator": "76370799055103579499",
+        "denominator": "72057594037927936",
+        "float": 1059.8577439999642
+      }
+    },
+    "optimal_relative_penalty": {
+      "lower": {
+        "numerator": "40132687400415832711929266492092539083830108952087717",
+        "denominator": "1074025575130230885304599488102016158151074738591498240",
+        "float": 0.03736660311422244
+      },
+      "upper": {
+        "numerator": "4217284698933842019540983988929376655983180772151198495",
+        "denominator": "67692670989541805824312031500944438452884092390539984097",
+        "float": 0.06230046232900741
+      }
+    },
+    "optimal_relative_penalty_percent": {
+      "lower": {
+        "numerator": "200663437002079163559646332460462695419150544760438585",
+        "denominator": "53701278756511544265229974405100807907553736929574912",
+        "float": 3.736660311422244
+      },
+      "upper": {
+        "numerator": "421728469893384201954098398892937665598318077215119849500",
+        "denominator": "67692670989541805824312031500944438452884092390539984097",
+        "float": 6.230046232900741
+      }
+    }
+  }
+}
