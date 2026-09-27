@@ -1,0 +1,41 @@
+{
+  "utc": "2026-09-27T08:30:35.481764+00:00",
+  "status": "CLOSED_PENDING_INDEPENDENT_REVIEW",
+  "call_ledger": {
+    "attempted": 2,
+    "returned": 2,
+    "calls": [
+      {
+        "kind": "mip",
+        "attempted": true,
+        "returned": true,
+        "started_utc": "2026-09-27T08:19:55.275468+00:00",
+        "ended_utc": "2026-09-27T08:30:02.634351+00:00",
+        "elapsed_seconds": 606.6583649000095
+      },
+      {
+        "kind": "lp",
+        "attempted": true,
+        "returned": true,
+        "started_utc": "2026-09-27T08:30:11.018210+00:00",
+        "ended_utc": "2026-09-27T08:30:27.636081+00:00",
+        "elapsed_seconds": 16.617742100002943
+      }
+    ],
+    "current": {
+      "kind": "lp",
+      "attempted": true,
+      "returned": true,
+      "started_utc": "2026-09-27T08:30:11.018210+00:00",
+      "ended_utc": "2026-09-27T08:30:27.636081+00:00",
+      "elapsed_seconds": 16.617742100002943
+    }
+  },
+  "optimizer_calls": 2,
+  "phase_seconds": 649.75786469999,
+  "phase_soft_overrun": 0,
+  "all_frozen_bytes_unchanged": true,
+  "no_individual_world_solves": true,
+  "no_retries": true,
+  "nominal_feasibility_claim": false
+}

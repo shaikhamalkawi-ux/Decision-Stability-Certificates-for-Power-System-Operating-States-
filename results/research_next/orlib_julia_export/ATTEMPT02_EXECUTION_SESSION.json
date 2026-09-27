@@ -1,0 +1,14 @@
+{
+  "status": "LAUNCHED_ONCE_PENDING_CLOSURE",
+  "tool_session_id": 13513,
+  "first_stage_utc": "2026-09-27T08:51:55.573147+00:00",
+  "allocation_seconds": 3600,
+  "source_path": "src/researchnext_julia_setup_attempt02.py",
+  "source_sha256": "962722972cf97e811a44fb9630058cb768a48ec95413acda49f469d873df5352",
+  "plan_sha256": "5b57a36febeee1544d429b809307916162ac32bd3a5a94d11a6661c8902e1535",
+  "command_suffix": "-I -S src/researchnext_julia_setup_attempt02.py --run-attempt02",
+  "durable_stage_log": "results/research_next/orlib_julia_export/attempt02/stages.jsonl",
+  "completion_receipt": "results/research_next/orlib_julia_export/attempt02/ENVIRONMENT_ACQUISITION.json",
+  "private_logs": ".work/researchnext_julia_export/attempt02/private_logs",
+  "continuation_rule": "Poll the same tool session or inspect the saved receipt; do not relaunch, retry, replace source or start a scientific export."
+}

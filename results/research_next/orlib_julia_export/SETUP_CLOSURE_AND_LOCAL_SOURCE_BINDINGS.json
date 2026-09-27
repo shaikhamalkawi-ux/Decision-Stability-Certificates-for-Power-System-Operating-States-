@@ -1,0 +1,356 @@
+{
+  "status": "READ_ONLY_FAILED_ATTEMPT_CLOSURE_NO_RETRY",
+  "created_utc": "2026-09-27T08:33:43.231768+00:00",
+  "setup_receipt_sha256": "dfa9a45e3b15f57b28fbdfb65cc4edcad1a17a10293e01651ed8656116fc5332",
+  "exact_source_blob_matches": 0,
+  "newline_only_blob_matches": 18,
+  "setup_log_sha256": "9ca94609e6fe05c70e59a2aa83a9f01249eabbd924f4b4a2d26f20ebe02b2415",
+  "source_sha256": "81db6337eb6b84f03647d146e0a9428669a78168bc97485b8ae716a35aaf1080",
+  "setup_elapsed_seconds": 1209.108329300012,
+  "setup_overrun_seconds": 9.108335600001737,
+  "Julia_invocations": 1,
+  "Pkg_add_calls": 1,
+  "additional_Julia_invocations": 0,
+  "scientific_model_builds": 0,
+  "optimizer_calls": 0,
+  "project_toml_exists": false,
+  "manifest_toml_exists": false,
+  "package_inventory_exists": false,
+  "depot_top_level_entries": [
+    "clones",
+    "packages"
+  ],
+  "depot_regular_files_scanned": 167,
+  "depot_scan_truncated_at_50000": false,
+  "depot_bytes_scanned": 79730731,
+  "depot_last_file_timestamps": [
+    {
+      "path": "depot/clones/16781398511943362108/index",
+      "bytes": 14344,
+      "mtime_utc": "2026-09-27T08:18:22.860251+00:00"
+    },
+    {
+      "path": "depot/packages/UnitCommitment/WvFNB/test/src/validation/repair_test.jl",
+      "bytes": 1797,
+      "mtime_utc": "2026-09-27T08:18:22.859249+00:00"
+    },
+    {
+      "path": "depot/packages/UnitCommitment/WvFNB/test/src/usage.jl",
+      "bytes": 2433,
+      "mtime_utc": "2026-09-27T08:18:22.809731+00:00"
+    },
+    {
+      "path": "depot/packages/UnitCommitment/WvFNB/test/src/UnitCommitmentT.jl",
+      "bytes": 2394,
+      "mtime_utc": "2026-09-27T08:18:22.808729+00:00"
+    },
+    {
+      "path": "depot/packages/UnitCommitment/WvFNB/test/src/transform/slice_test.jl",
+      "bytes": 3771,
+      "mtime_utc": "2026-09-27T08:18:22.804732+00:00"
+    },
+    {
+      "path": "depot/packages/UnitCommitment/WvFNB/test/src/transform/randomize/XavQiuAhm2021_test.jl",
+      "bytes": 4452,
+      "mtime_utc": "2026-09-27T08:18:22.793700+00:00"
+    },
+    {
+      "path": "depot/packages/UnitCommitment/WvFNB/test/src/transform/initcond_test.jl",
+      "bytes": 1292,
+      "mtime_utc": "2026-09-27T08:18:22.790700+00:00"
+    },
+    {
+      "path": "depot/packages/UnitCommitment/WvFNB/test/src/solution/methods/XavQiuWanThi19/sensitivity_test.jl",
+      "bytes": 6098,
+      "mtime_utc": "2026-09-27T08:18:22.776701+00:00"
+    },
+    {
+      "path": "depot/packages/UnitCommitment/WvFNB/test/src/solution/methods/XavQiuWanThi19/find_test.jl",
+      "bytes": 1443,
+      "mtime_utc": "2026-09-27T08:18:22.739701+00:00"
+    },
+    {
+      "path": "depot/packages/UnitCommitment/WvFNB/test/src/solution/methods/XavQiuWanThi19/filter_test.jl",
+      "bytes": 2562,
+      "mtime_utc": "2026-09-27T08:18:22.732712+00:00"
+    },
+    {
+      "path": "depot/packages/UnitCommitment/WvFNB/test/src/solution/methods/TimeDecomposition/update_solution_test.jl",
+      "bytes": 2443,
+      "mtime_utc": "2026-09-27T08:18:22.723700+00:00"
+    },
+    {
+      "path": "depot/packages/UnitCommitment/WvFNB/test/src/solution/methods/TimeDecomposition/optimize_test.jl",
+      "bytes": 3426,
+      "mtime_utc": "2026-09-27T08:18:22.426056+00:00"
+    },
+    {
+      "path": "depot/packages/UnitCommitment/WvFNB/test/src/solution/methods/TimeDecomposition/initial_status_test.jl",
+      "bytes": 6417,
+      "mtime_utc": "2026-09-27T08:18:22.425057+00:00"
+    },
+    {
+      "path": "depot/packages/UnitCommitment/WvFNB/test/src/solution/methods/ProgressiveHedging/usage_test.jl",
+      "bytes": 550,
+      "mtime_utc": "2026-09-27T08:18:22.280955+00:00"
+    },
+    {
+      "path": "depot/packages/UnitCommitment/WvFNB/test/src/solution/methods/ProgressiveHedging/ph.jl",
+      "bytes": 886,
+      "mtime_utc": "2026-09-27T08:18:22.276943+00:00"
+    },
+    {
+      "path": "depot/packages/UnitCommitment/WvFNB/test/src/model/formulations_test.jl",
+      "bytes": 2662,
+      "mtime_utc": "2026-09-27T08:18:22.274945+00:00"
+    },
+    {
+      "path": "depot/packages/UnitCommitment/WvFNB/test/src/market/market_test.jl",
+      "bytes": 5575,
+      "mtime_utc": "2026-09-27T08:18:22.272952+00:00"
+    },
+    {
+      "path": "depot/packages/UnitCommitment/WvFNB/test/src/lmp/conventional_test.jl",
+      "bytes": 1860,
+      "mtime_utc": "2026-09-27T08:18:22.268950+00:00"
+    },
+    {
+      "path": "depot/packages/UnitCommitment/WvFNB/test/src/lmp/aelmp_test.jl",
+      "bytes": 1689,
+      "mtime_utc": "2026-09-27T08:18:22.260947+00:00"
+    },
+    {
+      "path": "depot/packages/UnitCommitment/WvFNB/test/src/instance/read_test.jl",
+      "bytes": 10013,
+      "mtime_utc": "2026-09-27T08:18:22.257947+00:00"
+    }
+  ],
+  "native_commit": "4f04f0dd6641b071fd7556346c3d7190c2ffdfe5",
+  "native_source_directory": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\researchnext_julia_export\\attempt01\\depot\\packages\\UnitCommitment\\WvFNB",
+  "native_source_bindings": [
+    {
+      "path": "LICENSE.md",
+      "bytes": 1814,
+      "sha256": "8ef60fb573023d991b3a12a03d1a0ac15dbf0aceed06a5c4dc2e34c173c3c30b",
+      "commit_blob_sha256": "1c50672dd60074aa0d516c1c61834f47fb6002f4d70e707523d57bda5f0f136c",
+      "exact_commit_blob_equal": false,
+      "prior_source_hash": "1c50672dd60074aa0d516c1c61834f47fb6002f4d70e707523d57bda5f0f136c",
+      "prior_hash_equal": false,
+      "CRLF_to_LF_equal_to_commit_blob": true,
+      "working_CRLF_count": 25,
+      "blob_CRLF_count": 0
+    },
+    {
+      "path": "src/UnitCommitment.jl",
+      "bytes": 3088,
+      "sha256": "fccdd1a9c6d73b5446ad1a0ca341bc10eea10121123d23370ee98422ba77236a",
+      "commit_blob_sha256": "7124cd2edfabd93bfc8e76bb7a5aa1d00784f2dc88689e4f8e0d11039462d069",
+      "exact_commit_blob_equal": false,
+      "prior_source_hash": null,
+      "prior_hash_equal": null,
+      "CRLF_to_LF_equal_to_commit_blob": true,
+      "working_CRLF_count": 75,
+      "blob_CRLF_count": 0
+    },
+    {
+      "path": "src/instance/migrate.jl",
+      "bytes": 1798,
+      "sha256": "dc567c1a0f052afa20e169be9114b4d5389bdf9d60434a6189669b5b3a076d82",
+      "commit_blob_sha256": "cef1c7575185ad4350e00962ce0d4af27514cf287e266439dc8679c99e33cf60",
+      "exact_commit_blob_equal": false,
+      "prior_source_hash": "cef1c7575185ad4350e00962ce0d4af27514cf287e266439dc8679c99e33cf60",
+      "prior_hash_equal": false,
+      "CRLF_to_LF_equal_to_commit_blob": true,
+      "working_CRLF_count": 50,
+      "blob_CRLF_count": 0
+    },
+    {
+      "path": "src/instance/read.jl",
+      "bytes": 17276,
+      "sha256": "47a516439cab97d8142e367a21a69648657ad5d954f9982a961a7c270905b76c",
+      "commit_blob_sha256": "4ac605833da6c283b20ea536c3da874c6a42b8c2923301abf874f536fa4b6ec2",
+      "exact_commit_blob_equal": false,
+      "prior_source_hash": "4ac605833da6c283b20ea536c3da874c6a42b8c2923301abf874f536fa4b6ec2",
+      "prior_hash_equal": false,
+      "CRLF_to_LF_equal_to_commit_blob": true,
+      "working_CRLF_count": 484,
+      "blob_CRLF_count": 0
+    },
+    {
+      "path": "src/instance/structs.jl",
+      "bytes": 4487,
+      "sha256": "57666b0541eee344e4a427cc5a692487d6bfcf07bccf8f6fe4b8c2ffad5cd564",
+      "commit_blob_sha256": "e48bee7382dc5f2a00d459ce6fa154e2e69647c12c3e87c9ef4329563f029a38",
+      "exact_commit_blob_equal": false,
+      "prior_source_hash": null,
+      "prior_hash_equal": null,
+      "CRLF_to_LF_equal_to_commit_blob": true,
+      "working_CRLF_count": 152,
+      "blob_CRLF_count": 0
+    },
+    {
+      "path": "src/model/build.jl",
+      "bytes": 3767,
+      "sha256": "d6bef1540c5950b9d99fd5720283ea9c40a443687741259828c836d5271141ff",
+      "commit_blob_sha256": "0d36d40b2c156601f40e8fbbab200d29ec278bbeba09009fe085e2f6bb86ae93",
+      "exact_commit_blob_equal": false,
+      "prior_source_hash": null,
+      "prior_hash_equal": null,
+      "CRLF_to_LF_equal_to_commit_blob": true,
+      "working_CRLF_count": 114,
+      "blob_CRLF_count": 0
+    },
+    {
+      "path": "src/model/formulations/Gar1962/prod.jl",
+      "bytes": 1897,
+      "sha256": "1d0e39ca1224060fe1441e268156cfd87feb95610e019aed8b67d0838783fcbe",
+      "commit_blob_sha256": "278790c87ca41f7bc4ec89d3d9b9ab22ef0d554fa6c8638e5a2726ab76db5d8e",
+      "exact_commit_blob_equal": false,
+      "prior_source_hash": "278790c87ca41f7bc4ec89d3d9b9ab22ef0d554fa6c8638e5a2726ab76db5d8e",
+      "prior_hash_equal": false,
+      "CRLF_to_LF_equal_to_commit_blob": true,
+      "working_CRLF_count": 52,
+      "blob_CRLF_count": 0
+    },
+    {
+      "path": "src/model/formulations/Gar1962/status.jl",
+      "bytes": 2269,
+      "sha256": "a4d6f383c9a1f846a293bb40e08b1f9d2b1fd54d4d9c39e98e6d6cfe14e7c4c1",
+      "commit_blob_sha256": "59049061a26d8223915061a7dc7b3c08907885bdeb5e9df6db897b6946181e7c",
+      "exact_commit_blob_equal": false,
+      "prior_source_hash": "59049061a26d8223915061a7dc7b3c08907885bdeb5e9df6db897b6946181e7c",
+      "prior_hash_equal": false,
+      "CRLF_to_LF_equal_to_commit_blob": true,
+      "working_CRLF_count": 62,
+      "blob_CRLF_count": 0
+    },
+    {
+      "path": "src/model/formulations/KnuOstWat2018/pwlcosts.jl",
+      "bytes": 4216,
+      "sha256": "8ab493c5befdab3c0d202c7ddd45f75aec1e972a297942896086e161b0dbba68",
+      "commit_blob_sha256": "53697ddd610c649ad1e1b65b1061146e391f0695d8d65da8670fd00864d5f367",
+      "exact_commit_blob_equal": false,
+      "prior_source_hash": "53697ddd610c649ad1e1b65b1061146e391f0695d8d65da8670fd00864d5f367",
+      "prior_hash_equal": false,
+      "CRLF_to_LF_equal_to_commit_blob": true,
+      "working_CRLF_count": 113,
+      "blob_CRLF_count": 0
+    },
+    {
+      "path": "src/model/formulations/MorLatRam2013/ramp.jl",
+      "bytes": 5546,
+      "sha256": "1df6874c64fe5e3d7e68ce8f028d9b196e91cd97e56384b2fb6ca225f5defd5a",
+      "commit_blob_sha256": "fd8f6f982993f9b33ecb348178b68c9dc9eee284f0ab2e37b149ca3730952916",
+      "exact_commit_blob_equal": false,
+      "prior_source_hash": "fd8f6f982993f9b33ecb348178b68c9dc9eee284f0ab2e37b149ca3730952916",
+      "prior_hash_equal": false,
+      "CRLF_to_LF_equal_to_commit_blob": true,
+      "working_CRLF_count": 133,
+      "blob_CRLF_count": 0
+    },
+    {
+      "path": "src/model/formulations/MorLatRam2013/scosts.jl",
+      "bytes": 1969,
+      "sha256": "fc330284723eb4e282a26ac429300649f2ed9d184a542a083ea7ead5014a436b",
+      "commit_blob_sha256": "db8c3c5410aa6a122a6bf61ca6d399c7c93d25f5fcf30a096f02940ab13f92b8",
+      "exact_commit_blob_equal": false,
+      "prior_source_hash": "db8c3c5410aa6a122a6bf61ca6d399c7c93d25f5fcf30a096f02940ab13f92b8",
+      "prior_hash_equal": false,
+      "CRLF_to_LF_equal_to_commit_blob": true,
+      "working_CRLF_count": 50,
+      "blob_CRLF_count": 0
+    },
+    {
+      "path": "src/model/formulations/base/bus.jl",
+      "bytes": 1035,
+      "sha256": "f96fd730fccd12655ee29b386696ab84b73017b1e5f3bd55f25f413ac20dfaf5",
+      "commit_blob_sha256": "a7efa482f3c3b09576015717cfc90fea91c6bb3c5717be6afee7729240cbbb8c",
+      "exact_commit_blob_equal": false,
+      "prior_source_hash": "a7efa482f3c3b09576015717cfc90fea91c6bb3c5717be6afee7729240cbbb8c",
+      "prior_hash_equal": false,
+      "CRLF_to_LF_equal_to_commit_blob": true,
+      "working_CRLF_count": 32,
+      "blob_CRLF_count": 0
+    },
+    {
+      "path": "src/model/formulations/base/structs.jl",
+      "bytes": 3654,
+      "sha256": "ebd059a82794257787043f4299944425e856f697a044778416bbe51f2ce5cdf8",
+      "commit_blob_sha256": "5a90e3738a898d6a5be31f0cb8f4a809e78ca255f47d033df72717f533667216",
+      "exact_commit_blob_equal": false,
+      "prior_source_hash": "5a90e3738a898d6a5be31f0cb8f4a809e78ca255f47d033df72717f533667216",
+      "prior_hash_equal": false,
+      "CRLF_to_LF_equal_to_commit_blob": true,
+      "working_CRLF_count": 99,
+      "blob_CRLF_count": 0
+    },
+    {
+      "path": "src/model/formulations/base/system.jl",
+      "bytes": 4608,
+      "sha256": "2da483a30eb1cdbf078dd9d915c99a1bdc9f7174a1366c969b48fe25c1450219",
+      "commit_blob_sha256": "10ca02e32608a359f124115e420dddd15c425963050afa0e0e313cb64c14ae67",
+      "exact_commit_blob_equal": false,
+      "prior_source_hash": "10ca02e32608a359f124115e420dddd15c425963050afa0e0e313cb64c14ae67",
+      "prior_hash_equal": false,
+      "CRLF_to_LF_equal_to_commit_blob": true,
+      "working_CRLF_count": 122,
+      "blob_CRLF_count": 0
+    },
+    {
+      "path": "src/model/formulations/base/unit.jl",
+      "bytes": 11115,
+      "sha256": "562ede1b0849ec2e3369f4924e1bd9e7cf6d90abb742eae799d02cd4af4b70b1",
+      "commit_blob_sha256": "fdfff2b655cef6bfa9fcd7f17a78e5636e5c9c3c41f179b9fe6774d44da4158b",
+      "exact_commit_blob_equal": false,
+      "prior_source_hash": "fdfff2b655cef6bfa9fcd7f17a78e5636e5c9c3c41f179b9fe6774d44da4158b",
+      "prior_hash_equal": false,
+      "CRLF_to_LF_equal_to_commit_blob": true,
+      "working_CRLF_count": 323,
+      "blob_CRLF_count": 0
+    },
+    {
+      "path": "src/model/jumpext.jl",
+      "bytes": 1443,
+      "sha256": "b2fbf853e437ae6522b780b22a88f1f1221bfeb143a420a3faae9c8e3e3f50f7",
+      "commit_blob_sha256": "568666fcbc77a3d413f3837bbf8656f6b4b57ed2153791042dd55e935e05ca4f",
+      "exact_commit_blob_equal": false,
+      "prior_source_hash": null,
+      "prior_hash_equal": null,
+      "CRLF_to_LF_equal_to_commit_blob": true,
+      "working_CRLF_count": 48,
+      "blob_CRLF_count": 0
+    },
+    {
+      "path": "src/validation/repair.jl",
+      "bytes": 2828,
+      "sha256": "8b9c5c4ff64ece3745807477ef364b99d0c4c54f746cd1fc5a0865d86ec406b8",
+      "commit_blob_sha256": "8f918bb6bd9074ba56ad98fcc5e04de397ac6d153a6e498cb79800f32fd02b2f",
+      "exact_commit_blob_equal": false,
+      "prior_source_hash": "8f918bb6bd9074ba56ad98fcc5e04de397ac6d153a6e498cb79800f32fd02b2f",
+      "prior_hash_equal": false,
+      "CRLF_to_LF_equal_to_commit_blob": true,
+      "working_CRLF_count": 69,
+      "blob_CRLF_count": 0
+    },
+    {
+      "path": "src/validation/validate.jl",
+      "bytes": 26952,
+      "sha256": "82fc458c480fb8493c289c8f889f558ea9f028f564965391639ebcfd43f7a1ab",
+      "commit_blob_sha256": "74fe665dd1e0b64569b8c0000bdd279cfaf524738b15519a2d05cea7c74c1337",
+      "exact_commit_blob_equal": false,
+      "prior_source_hash": "74fe665dd1e0b64569b8c0000bdd279cfaf524738b15519a2d05cea7c74c1337",
+      "prior_hash_equal": false,
+      "CRLF_to_LF_equal_to_commit_blob": true,
+      "working_CRLF_count": 659,
+      "blob_CRLF_count": 0
+    }
+  ],
+  "native_struct_properties": "All exporter accesses source-verified; raw checkout bytes and pinned blobs are separately compared below",
+  "native_variable_containers": "Active variable families use _init; its pinned implementation returns OrderedDict and native _set_names! uses AbstractDict filtering.",
+  "container_runtime_introspection": "NOT_RUN; source-only verification",
+  "diagnostic_limits": "No network trace or child-command inventory was captured. CPU samples and partial files do not identify a unique stall cause. No dependency incompatibility is established.",
+  "observed_julia_cpu_seconds_at_082630": 112.1875,
+  "observed_julia_cpu_seconds_at_082113": 38.12,
+  "export_source_sha256": "e7429f67a3d984976c84081acb3845dbd1238f198afb21b49266d87fae3d9088",
+  "export_protocol_sha256": "c1d21f79ed26f53c23e771b627b8291656c8fd9c7c3e8db4a2009b1686dad17b"
+}

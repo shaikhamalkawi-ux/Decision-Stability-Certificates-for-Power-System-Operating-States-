@@ -1,0 +1,79 @@
+{
+  "status": "PREFLIGHT_ONLY_RUNTIME_NOT_DISCOVERED",
+  "date_utc": "2026-09-27",
+  "commands_on_PATH": {
+    "julia": false,
+    "juliaup": false
+  },
+  "Julia_PATH_entries": [],
+  "Julia_environment_variables": [],
+  "Julia_processes": [],
+  "Julia_uninstall_registry_entries": [],
+  "checked_absent_paths": [
+    "C:/Users/gmalkawi/.julia",
+    "C:/Users/gmalkawi/.juliaup",
+    "C:/Users/gmalkawi/AppData/Local/juliaup",
+    "C:/Users/gmalkawi/AppData/Local/Programs/Julia",
+    "C:/Users/gmalkawi/scoop/apps/julia",
+    "C:/ProgramData/chocolatey/lib/julia",
+    "C:/Julia",
+    "C:/tools",
+    "C:/Program Files/Julia",
+    "C:/Program Files (x86)/Julia"
+  ],
+  "parent_directory_filtered_searches_without_Julia_matches": [
+    "C:/Users/gmalkawi/AppData/Local/Programs",
+    "C:/Users/gmalkawi/AppData/Local/Microsoft/WindowsApps",
+    "C:/Program Files",
+    "C:/Program Files (x86)"
+  ],
+  "local_repo_search": "Relevant src/docs/results/research_next/.work had only already archived .jl source excerpts and unrelated Python Julia lexers/date tests; no Project.toml/Manifest.toml environment or Julia runtime found.",
+  "bounded_inventory_limit": "Not an exhaustive full-disk, container or WSL search. No runtime absence beyond the checked locations is asserted.",
+  "official_package_metadata": [
+    {
+      "name": "UnitCommitment",
+      "version": "0.4.0",
+      "project_url": "https://raw.githubusercontent.com/ANL-CEEESA/UnitCommitment.jl/4f04f0dd6641b071fd7556346c3d7190c2ffdfe5/Project.toml",
+      "project_bytes": 1164,
+      "project_sha256": "d9b2b32a0485e5d579d008d8a7816b8f6c070bb9dd680cf85e3f9970a620d951"
+    },
+    {
+      "name": "JuMP",
+      "version": "1.15.1",
+      "project_url": "https://raw.githubusercontent.com/jump-dev/JuMP.jl/v1.15.1/Project.toml",
+      "project_bytes": 1033,
+      "project_sha256": "97e2b736488727466204e8c99e1ac1ae96dd0e98ad413848a39464e2e81ee464"
+    },
+    {
+      "name": "MathOptInterface",
+      "version": "1.20.1",
+      "project_url": "https://raw.githubusercontent.com/jump-dev/MathOptInterface.jl/v1.20.1/Project.toml",
+      "project_bytes": 1367,
+      "project_sha256": "14730f5d2587f5d240ec749b6b1a8f7737b88f280c8f5967dc557624c25ca063"
+    },
+    {
+      "name": "PackageCompiler",
+      "version": "1.7.7",
+      "project_url": "https://raw.githubusercontent.com/JuliaLang/PackageCompiler.jl/v1.7.7/Project.toml",
+      "project_bytes": 596,
+      "project_sha256": "7473382c0ac92efddd50ece79cc739bd662aa30220c1d970bed4fd8fd791387b"
+    }
+  ],
+  "upstream_root_manifest_url": "https://raw.githubusercontent.com/ANL-CEEESA/UnitCommitment.jl/4f04f0dd6641b071fd7556346c3d7190c2ffdfe5/Manifest.toml",
+  "upstream_root_manifest_http": 404,
+  "proposed_stack_not_installed": {
+    "Julia": "1.6.7 Windows x86_64 portable ZIP",
+    "Julia_zip_sha256_from_official_release_page": "63e14aa2e056f76f4a8f79eb8b4ed6698e3817eb3584e12b030f26f36e70cce6",
+    "UnitCommitment_commit": "4f04f0dd6641b071fd7556346c3d7190c2ffdfe5",
+    "JuMP": "1.15.1",
+    "MathOptInterface": "1.20.1",
+    "PackageCompiler": "1.7.7",
+    "dependency_resolution": "NOT_ATTEMPTED; require a complete Manifest with tree hashes before model export"
+  },
+  "runtime_downloads": 0,
+  "installs": 0,
+  "Julia_invocations": 0,
+  "native_model_builds": 0,
+  "optimizer_calls": 0,
+  "frozen_artifact_changes": 0
+}

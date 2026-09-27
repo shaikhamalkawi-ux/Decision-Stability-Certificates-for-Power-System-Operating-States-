@@ -1,0 +1,27 @@
+{
+  "status": "PASS_SOURCE_AND_PROTOCOL_REVIEW",
+  "utc": "2026-09-27T08:11:01.598Z",
+  "source_sha256": "039af59750b4c165d877b9878ac14af02a202700b46739ba96a8914075ae3284",
+  "protocol_sha256": "08838becbd0d679f6131421c566534f19c93f535e7baa3b4b00d30b985ccab21",
+  "full_source_read": true,
+  "original_native_spec_helper_read": true,
+  "read_full_native_check": true,
+  "model_identification": {
+    "rows": 69362,
+    "columns": 33936,
+    "shared_binary_coordinates": 12096
+  },
+  "reviewed": [
+    "common complete state coordinates and distinct continuous dispatch",
+    "row-preserving exact coordinate maps and same-expanded-bound semantics",
+    "nominal numerical proposals with exact expanded-only acceptance",
+    "original-model projections and supplementary native checks",
+    "optional already-returned ray sign/projection recipes and robust kernel",
+    "MIP600/LP60 fixed order and complete attempted/returned ledger",
+    "posthoc321 selection and no individual-world-negative/cost/author claim"
+  ],
+  "preparation_snapshot_fix": "Historical payload/manifest, GEN and selection bytes now captured, verified and bound once before copy; original fixture source binding preserved.",
+  "new_optimizer_calls": 0,
+  "scientific_model_preparation_by_reviewer": 0,
+  "remaining_gate": "One producer preparation, then independent prepared model/mapping audit before solve."
+}

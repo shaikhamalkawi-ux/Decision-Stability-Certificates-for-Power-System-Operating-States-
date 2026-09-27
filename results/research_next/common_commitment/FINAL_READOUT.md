@@ -1,0 +1,11 @@
+# Closed common-commitment arm after independent review
+
+The binary result remains **UNKNOWN**. The one600-second MIP produced no valid incumbent; the following60-second LP produced no existing ray. Actual call times were606.6583649000095s and16.617742100002943s, with a6.658364900009474s MIP soft overrun. All two planned calls returned; no retry or individual-world solve occurred. The phase lasted649.75786469999s. The unchanged producer readout and ledger retain these original outcomes.
+
+The independent post-run review passed once in4.5s and added a separately authorized, post-hoc exact check of the saved LP vector without rounding. That vector satisfies every row and finite box of the uniformly expanded continuous joint model, but fails strict nominal membership. Among all12,096 original state coordinates,286 are exactly nonbinary and260 are farther than the exact tau from either bit. It is not a common binary witness.
+
+This exact continuous admission establishes that the current expanded relaxation is nonempty. A valid linear Farkas certificate using its complete existing rows and box cannot reject it. Nonexistence of a common binary schedule would require integrality-dependent reasoning; existence still requires an accepted full binary witness. Neither was obtained in this arm. Individual-world feasibility, nominal feasibility, optimality and author-method operational failure are not established by this result.
+
+The pair remains the post-hoc first-week identity/day321 observation collision, with private P/theta and all12,096 U/Y/Z shared, native residence/boundary conventions and both23,195MWh caps unchanged. Earlier fixed-anchor rejection is not a proof against every common commitment. No subsequent heuristic is part of this closed arm.
+
+Independent evidence: `INDEPENDENT_POSTRUN_REVIEW.json` SHA `f442edeb3f90c5d602a1b60cdef1b96b4d560ebbe97fae28c4ca21c6077eadba`; memo `b86eb4fb077c46472226fe6d1dbd58babcc36cf94735c0b903d6a1b5453da5b7`; nonbinary-state sidecar `bc371fa53ae5f94d3f1536eefc526871b60d4de2f7bae4b027a088d9d2ba4282`. The review verified all48 frozen inputs and16 producer output bindings before and after. The final artifact inventory adds this closure and the independent review files without changing previously bound records.

@@ -1,0 +1,36 @@
+{
+  "status": "CLOSED_PARTIAL_ARCHIVE_DIAGNOSTIC",
+  "started_utc": "2026-09-27T08:55:54.648168+00:00",
+  "limit_seconds": 30,
+  "source_sha256": "4fc8a36310a0f2dd10592ec90c9c7f2eca42de508f9b171f21e8dc7b8112f9ee",
+  "archive_bytes": 11534336,
+  "archive_sha256": "bcad8b91e05724c484a7f991fe4cca99257ed9ec0ccc6cdf5f246b8ed2991210",
+  "extractions": 0,
+  "Julia_invocations": 0,
+  "optimizer_calls": 0,
+  "network_requests": 0,
+  "recorded_HTTP_metadata": {
+    "final_url": "https://codeload.github.com/JuliaRegistries/General/tar.gz/416a13c3e4888af4b245812d8f4ab040a042c38f",
+    "Content_Length": "NOT_RECORDED",
+    "Transfer_Encoding": "NOT_RECORDED",
+    "expected_total_bytes": "UNKNOWN"
+  },
+  "gzip": {
+    "status": "NOT_ACCEPTED_COMPLETE_GZIP",
+    "decoded_bytes_before_failure": 83689472,
+    "exception_type": "EOFError",
+    "error": "Compressed file ended before the end-of-stream marker was reached"
+  },
+  "tar": {
+    "status": "TAR_READER_DID_NOT_COMPLETE",
+    "members_yielded": 72274,
+    "declared_payload_bytes": 27670356,
+    "last_member": "General-416a13c3e4888af4b245812d8f4ab040a042c38f/jll/O/OpenSSL_jll/Versions.toml",
+    "exception_type": "ReadError",
+    "error": "unexpected end of data"
+  },
+  "ended_utc": "2026-09-27T08:56:00.365386+00:00",
+  "elapsed_seconds": 5.716945699998178,
+  "archive_unchanged": true,
+  "admission": "NOT_ADMITTED_UNLESS_COMPLETE_GZIP_AND_PINNED_GIT_TREE_VERIFIED; no tree verification performed here"
+}

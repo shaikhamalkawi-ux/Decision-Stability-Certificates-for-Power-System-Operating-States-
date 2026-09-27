@@ -1,0 +1,79 @@
+{
+  "original_checks": [
+    {
+      "rows": 34681,
+      "columns": 23016,
+      "binaries": 12096,
+      "cap_rows": 1,
+      "native_nodal_rows": 4032,
+      "aggregate_rows": 168,
+      "native48hour_units": [
+        "123_STEAM_3",
+        "121_NUCLEAR_1"
+      ]
+    },
+    {
+      "rows": 34681,
+      "columns": 23016,
+      "binaries": 12096,
+      "cap_rows": 1,
+      "native_nodal_rows": 4032,
+      "aggregate_rows": 168,
+      "native48hour_units": [
+        "123_STEAM_3",
+        "121_NUCLEAR_1"
+      ]
+    }
+  ],
+  "joint_rows": 69362,
+  "joint_columns": 33936,
+  "original_binary_coordinates": 12096,
+  "new_model_family": "coordinate-identified pair of original angle encodings",
+  "nominal_proposal": true,
+  "original_files_copied_unchanged": [
+    "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_commitment\\prepared\\identity\\matrix.npz",
+    "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_commitment\\prepared\\identity\\bounds.npz",
+    "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_commitment\\prepared\\identity\\integrality.npz",
+    "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_commitment\\prepared\\identity\\model_metadata.json",
+    "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_commitment\\prepared\\identity\\native_inputs.npz",
+    "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_commitment\\prepared\\identity\\permutation.csv",
+    "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_commitment\\prepared\\identity\\row_metadata.csv.gz",
+    "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_commitment\\prepared\\days_321\\matrix.npz",
+    "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_commitment\\prepared\\days_321\\bounds.npz",
+    "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_commitment\\prepared\\days_321\\integrality.npz",
+    "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_commitment\\prepared\\days_321\\model_metadata.json",
+    "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_commitment\\prepared\\days_321\\native_inputs.npz",
+    "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_commitment\\prepared\\days_321\\permutation.csv",
+    "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_commitment\\prepared\\days_321\\row_metadata.csv.gz"
+  ],
+  "posthoc_selected_collision": {
+    "week": 1,
+    "case": "week_1_days_321",
+    "day_order": [
+      3,
+      2,
+      1
+    ],
+    "role": "target",
+    "joint_identity_repeat_stable": true,
+    "primary_outcome": "EQUAL",
+    "primary_plus_hindex_outcome": "EQUAL",
+    "primary_compatible_maps": [
+      {
+        "rp01": "rp02",
+        "rp02": "rp01",
+        "rp03": "rp03"
+      }
+    ],
+    "primary_and_hindex_compatible_maps": [
+      {
+        "rp01": "rp02",
+        "rp02": "rp01",
+        "rp03": "rp03"
+      }
+    ],
+    "primary_equal": true,
+    "primary_and_hindex_equal": true
+  },
+  "optimizer_calls": 0
+}

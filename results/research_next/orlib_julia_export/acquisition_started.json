@@ -1,0 +1,16 @@
+{
+  "status": "STARTED",
+  "started_utc": "2026-09-27T08:09:38.832175+00:00",
+  "setup_limit_seconds": 1200,
+  "runtime_url": "https://julialang-s3.julialang.org/bin/winnt/x64/1.6/julia-1.6.7-win64.zip",
+  "expected_archive_sha256": "63e14aa2e056f76f4a8f79eb8b4ed6698e3817eb3584e12b030f26f36e70cce6",
+  "target_commit": "4f04f0dd6641b071fd7556346c3d7190c2ffdfe5",
+  "Julia_invocations": 0,
+  "Pkg_add_calls": 0,
+  "Pkg_add_calls_configured": 1,
+  "scientific_model_builds": 0,
+  "optimizer_calls": 0,
+  "global_PATH_registry_app_changes": false,
+  "automatic_retry": false,
+  "source_sha256": "50886ac8a0ba87281ebd94915bf29889dd0bcb68aae2184941368eacf8e1e8c5"
+}

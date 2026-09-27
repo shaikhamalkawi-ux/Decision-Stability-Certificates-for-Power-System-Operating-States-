@@ -1,0 +1,69 @@
+{
+  "status": "SETUP_FAILED_PRESERVED_NO_RETRY",
+  "started_utc": "2026-09-27T08:09:38.832175+00:00",
+  "setup_limit_seconds": 1200,
+  "runtime_url": "https://julialang-s3.julialang.org/bin/winnt/x64/1.6/julia-1.6.7-win64.zip",
+  "expected_archive_sha256": "63e14aa2e056f76f4a8f79eb8b4ed6698e3817eb3584e12b030f26f36e70cce6",
+  "target_commit": "4f04f0dd6641b071fd7556346c3d7190c2ffdfe5",
+  "Julia_invocations": 1,
+  "Pkg_add_calls": 1,
+  "Pkg_add_calls_configured": 1,
+  "scientific_model_builds": 0,
+  "optimizer_calls": 0,
+  "global_PATH_registry_app_changes": false,
+  "automatic_retry": false,
+  "source_sha256": "50886ac8a0ba87281ebd94915bf29889dd0bcb68aae2184941368eacf8e1e8c5",
+  "stage": "single_dependency_resolution",
+  "download_final_url": "https://julialang-s3.julialang.org/bin/winnt/x64/1.6/julia-1.6.7-win64.zip",
+  "archive_bytes": 124747774,
+  "archive_sha256": "63e14aa2e056f76f4a8f79eb8b4ed6698e3817eb3584e12b030f26f36e70cce6",
+  "runtime_regular_files": 1760,
+  "runtime_executable": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\researchnext_julia_export\\attempt01\\runtime\\julia-1.6.7\\bin\\julia.exe",
+  "runtime_executable_sha256": "29ebe4b29362a2e380848dd4803e67343fe1779207b4970390418a1d495da67f",
+  "setup_julia_script_sha256": "66c35916c4344b04a6966653e45e2d9b986337132fd769f8afcff58a0d014d1d",
+  "command": [
+    "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\researchnext_julia_export\\attempt01\\runtime\\julia-1.6.7\\bin\\julia.exe",
+    "--startup-file=no",
+    "--history-file=no",
+    "--project=C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\researchnext_julia_export\\attempt01\\project",
+    "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\researchnext_julia_export\\attempt01\\instantiate_once.jl",
+    "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\researchnext_julia_export\\attempt01\\depot",
+    "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\researchnext_julia_export\\attempt01\\package_inventory.toml"
+  ],
+  "isolated_environment": {
+    "JULIA_DEPOT_PATH": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\researchnext_julia_export\\attempt01\\depot",
+    "JULIA_LOAD_PATH": "@;@stdlib",
+    "JULIA_NUM_THREADS": "1",
+    "JULIA_PKG_PRECOMPILE_AUTO": "0",
+    "OPENBLAS_NUM_THREADS": "1"
+  },
+  "julia_started_utc": "2026-09-27T08:17:43.152108+00:00",
+  "julia_pid": 27104,
+  "exception_type": "TimeoutError",
+  "message": "Single Julia setup exceeded remaining allocation; only owned Julia process tree terminated",
+  "ended_utc": "2026-09-27T08:29:47.940165+00:00",
+  "elapsed_seconds": 1209.108329300012,
+  "allocation_overrun_seconds": 9.108335600001737,
+  "artifacts": [
+    {
+      "path": "acquisition_started.json",
+      "bytes": 678,
+      "sha256": "39060a1e59ff23b7261a2fa0b1f26c0dd6f530c7fc41d1f2b2a49104fe0103cf"
+    },
+    {
+      "path": "installation.log",
+      "bytes": 173,
+      "sha256": "9ca94609e6fe05c70e59a2aa83a9f01249eabbd924f4b4a2d26f20ebe02b2415"
+    },
+    {
+      "path": "julia_launch.json",
+      "bytes": 1198,
+      "sha256": "b03e51e2961ed36ed6f49674bd1856b727c2d7cef6b48ed9e5bedd4614e7e2c3"
+    },
+    {
+      "path": "runtime_member_inventory.json",
+      "bytes": 405585,
+      "sha256": "f5aa168153b3b0295ac9f450144d435ccf3fe6b8122d514b49880d982e9f9d99"
+    }
+  ]
+}

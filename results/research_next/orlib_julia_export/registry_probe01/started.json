@@ -1,0 +1,31 @@
+{
+  "status": "STARTED",
+  "started_utc": "2026-09-27T08:36:30.086059+00:00",
+  "command": [
+    "curl.exe",
+    "--location",
+    "--max-redirs",
+    "5",
+    "--connect-timeout",
+    "10",
+    "--max-time",
+    "30",
+    "--max-filesize",
+    "8192",
+    "--silent",
+    "--show-error",
+    "--dump-header",
+    "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\orlib_julia_export\\registry_probe01\\headers.txt",
+    "--output",
+    "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\orlib_julia_export\\registry_probe01\\public_response.txt",
+    "--write-out",
+    "%{json}",
+    "https://pkg.julialang.org/registries"
+  ],
+  "curl_invocations": 1,
+  "Julia_invocations": 0,
+  "optimizer_calls": 0,
+  "TLS_bypass": false,
+  "automatic_retry": false,
+  "source_sha256": "ef7b1a7e92c95861634c22311fd1e86e0f604f3eebe7782276ca4bcb7840b22d"
+}

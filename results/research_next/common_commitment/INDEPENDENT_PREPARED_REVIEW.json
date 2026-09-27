@@ -1,0 +1,128 @@
+{
+  "status": "PASS_INDEPENDENT_PREPARED_REVIEW",
+  "utc": "2026-09-27T08:18:30.251137+00:00",
+  "review_source_sha256": "41f75d9254349021b4d5086064a76cffc830c9b99a7198c768d7587d3d65378e",
+  "producer_source_sha256": "039af59750b4c165d877b9878ac14af02a202700b46739ba96a8914075ae3284",
+  "protocol_sha256": "08838becbd0d679f6131421c566534f19c93f535e7baa3b4b00d30b985ccab21",
+  "trusted_transport": {
+    "prepared/prepared_freeze.json": "4f21891d7d1f1793dd92e5b830edf5b5cf62474e5521d788c9aec17929ea9a59",
+    "prepared/input_manifest.json": "8ff99b1f4450ac15e91b26a261a85c98d574bbbdac3f7fe149efd9fd07204a5c"
+  },
+  "bindings_checked_twice": 48,
+  "saved_rows_independently_checked": 69362,
+  "saved_coefficients_independently_checked": 291176,
+  "joint_columns": 33936,
+  "shared_binary_columns": 12096,
+  "private_continuous_columns_per_world": 10920,
+  "historical_payload_byte_copies": 14,
+  "original_worlds": [
+    {
+      "world": "identity",
+      "rows": 34681,
+      "columns": 23016,
+      "nnz": 145588,
+      "families": {
+        "aggregate_balance": 168,
+        "thermal_upper": 4032,
+        "thermal_lower": 4032,
+        "transition": 4008,
+        "exclusive_transition": 4008,
+        "minimum_up": 4008,
+        "minimum_down": 4008,
+        "fossil_energy_cap": 1,
+        "nodal_balance": 4032,
+        "branch_flow": 6384
+      },
+      "cap_row": 24264,
+      "cap_MWh": 23195,
+      "fossil_units": 23,
+      "native_48h_units": [
+        "123_STEAM_3",
+        "121_NUCLEAR_1"
+      ]
+    },
+    {
+      "world": "days_321",
+      "rows": 34681,
+      "columns": 23016,
+      "nnz": 145588,
+      "families": {
+        "aggregate_balance": 168,
+        "thermal_upper": 4032,
+        "thermal_lower": 4032,
+        "transition": 4008,
+        "exclusive_transition": 4008,
+        "minimum_up": 4008,
+        "minimum_down": 4008,
+        "fossil_energy_cap": 1,
+        "nodal_balance": 4032,
+        "branch_flow": 6384
+      },
+      "cap_row": 24264,
+      "cap_MWh": 23195,
+      "fossil_units": 23,
+      "native_48h_units": [
+        "123_STEAM_3",
+        "121_NUCLEAR_1"
+      ]
+    }
+  ],
+  "full_native_package_permutation": true,
+  "posthoc_selection": true,
+  "plan": {
+    "worlds": [
+      "identity",
+      "days_321"
+    ],
+    "sequence": [
+      "mip",
+      "lp"
+    ],
+    "options": {
+      "mip": {
+        "time_limit": 600.0,
+        "threads": 1,
+        "random_seed": 0,
+        "presolve": "on",
+        "mip_rel_gap": 1e-08
+      },
+      "lp": {
+        "time_limit": 60.0,
+        "threads": 1,
+        "random_seed": 0,
+        "presolve": "off",
+        "solver": "simplex"
+      }
+    },
+    "phase_seconds": 1200.0,
+    "tau": {
+      "numerator": "5902958103587057",
+      "denominator": "590295810358705651712",
+      "approximate": 1e-05
+    },
+    "runtime": {
+      "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+      "executable": "C:\\Users\\gmalkawi\\OneDrive - Higher Colleges of Technology\\Documents 1\\ChatGPT\\3\\.work\\solver_env\\Scripts\\python.exe",
+      "packages": {
+        "numpy": "2.3.5",
+        "scipy": "1.18.1",
+        "highspy": "1.12.0"
+      }
+    },
+    "original_objective": "zero feasibility",
+    "numeric_proposal_bounds": "nominal",
+    "acceptance_bounds": "exact uniform tau expansion",
+    "solver_calls": 0,
+    "warm_starts": 0,
+    "retries": 0,
+    "source_sha256": "039af59750b4c165d877b9878ac14af02a202700b46739ba96a8914075ae3284",
+    "protocol_sha256": "08838becbd0d679f6131421c566534f19c93f535e7baa3b4b00d30b985ccab21"
+  },
+  "zero_optimizer_calls": true,
+  "zero_model_generation": true,
+  "zero_old_witness_or_ray_replay": true,
+  "producer_run01_absent_at_entry_and_exit": true,
+  "kernel_sha256": "708c3843425eea494a0561e83a275f7059f22bcd546a036705323d056bcf906f",
+  "scope": "Saved matrix/box/mask/metadata/native-copy/mapping audit only; no feasibility result or native model reassembly.",
+  "elapsed_seconds": 9.469000000011874
+}

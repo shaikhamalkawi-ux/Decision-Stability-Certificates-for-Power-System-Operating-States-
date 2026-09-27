@@ -1,0 +1,24 @@
+{
+  "status": "PUBLIC_REGISTRY_PROBE_TIMED_OUT_NO_HTTP_RESPONSE",
+  "curl_exit_code": 28,
+  "elapsed_seconds": 29.160737700003665,
+  "redirect_hosts": [],
+  "HTTP_status_lines": [],
+  "TLS_validation_disabled": false,
+  "private_raw_receipt_sha256": "2fc829a9fb4107ee0ba4a9c4aa704083ee30337422ec29df79fafe9e6544fe62",
+  "private_raw_stdout_sha256": "f83639f86d2402a614f6f17ff3e41ecf57290625f56a924b9f98af111caac57a",
+  "transfer": {
+    "http_code": 0,
+    "num_headers": 0,
+    "num_redirects": 0,
+    "num_retries": 0,
+    "size_request": 0,
+    "size_download": 0,
+    "ssl_verify_result": 0,
+    "time_connect": 0.567829,
+    "time_appconnect": 27.671635,
+    "time_total": 27.673513,
+    "errormsg": "Operation timed out after 27672 milliseconds with 0 bytes received"
+  },
+  "limit": "No inference that Julia uses the same trust store; no verified HTTP response; no captured child-process command."
+}

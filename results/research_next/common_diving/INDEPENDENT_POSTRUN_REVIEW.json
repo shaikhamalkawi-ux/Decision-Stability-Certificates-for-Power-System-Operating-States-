@@ -1,0 +1,26 @@
+{
+  "status": "PASS_INDEPENDENT_COMMON_DIVING_POSTRUN",
+  "review_source_sha256": "666c1ced5874718d0f10c29bf2c084ff8006ba8a97abad1ab80180c794b88e45",
+  "trusted_output_inventory_sha256": "b00e1acc6dc5c667eea0668f3d526aef1d5a60c2d833538e1751452adc60ec2a",
+  "result_sha256": "d8ec206535457068e3bf88437bde71676f88a7ff055ca4c4713ed0dc1230adf1",
+  "completion_sha256": "b239144e144d50ccad5263a81adbc1f3d0b9c044ce16a016f940c6b4852d6918",
+  "input_bindings_checked_twice": 66,
+  "output_bindings_checked_twice": 9,
+  "call_ledger": {
+    "attempted": 1,
+    "returned": 1,
+    "last_admission_remaining_seconds": 293.8889097000065,
+    "started_utc": "2026-09-27T08:52:13.311477+00:00",
+    "actual_seconds": 1.975354399997741,
+    "ended_utc": "2026-09-27T08:52:15.286575+00:00"
+  },
+  "producer_verdict": "UNKNOWN",
+  "original_question_verdict": "UNKNOWN",
+  "restricted_failure_proves_full_infeasibility": false,
+  "candidate_review": null,
+  "no_solver_or_producer_import": true,
+  "optimizer_calls": 0,
+  "prepared_matrix_transport_repeated": false,
+  "original_run_unchanged": true,
+  "seconds": 2.447137000010116
+}

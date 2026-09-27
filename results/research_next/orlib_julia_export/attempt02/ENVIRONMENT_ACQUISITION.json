@@ -1,0 +1,41 @@
+{
+  "status": "SETUP_FAILED_PRESERVED_NO_RETRY",
+  "started_utc": "2026-09-27T08:51:55.570139+00:00",
+  "limit_seconds": 3600,
+  "source_sha256": "962722972cf97e811a44fb9630058cb768a48ec95413acda49f469d873df5352",
+  "Julia_invocations": 0,
+  "Pkg_add_calls": 0,
+  "scientific_model_builds": 0,
+  "optimizer_calls": 0,
+  "package_cache_copied": false,
+  "runtime_reused_read_only": true,
+  "automatic_retry": false,
+  "TLS_bypass": false,
+  "certificate_injection": false,
+  "global_settings_changed": false,
+  "stage": "download_pinned_official_registry_archive",
+  "runtime_executable": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\researchnext_julia_export\\attempt01\\runtime\\julia-1.6.7\\bin\\julia.exe",
+  "runtime_executable_sha256": "29ebe4b29362a2e380848dd4803e67343fe1779207b4970390418a1d495da67f",
+  "runtime_archive_sha256": "63e14aa2e056f76f4a8f79eb8b4ed6698e3817eb3584e12b030f26f36e70cce6",
+  "prior_source_bindings_sha256": "6038d94eca340f7f0bf759330aa57f30d3930834fb4e1eccd8ff824c61fbd927",
+  "registry_final_url": "https://codeload.github.com/JuliaRegistries/General/tar.gz/416a13c3e4888af4b245812d8f4ab040a042c38f",
+  "exception_type": "TimeoutError",
+  "message": "The read operation timed out",
+  "ended_utc": "2026-09-27T08:52:42.851813+00:00",
+  "elapsed_seconds": 47.28165399999125,
+  "allocation_overrun_seconds": 0,
+  "artifacts": [
+    {
+      "path": "stages.jsonl",
+      "bytes": 277,
+      "sha256": "0d310e9cd11772a30404bbbf7878cd52dd73cac66f6edd987f33a8bf2e4fbcfb"
+    },
+    {
+      "path": "started.json",
+      "bytes": 501,
+      "sha256": "0cabfd69051d2778b4f0f4488e3acfe3aa97d9248dab260949aaab6d5fb4769d"
+    }
+  ],
+  "private_log_artifacts": [],
+  "private_logs_publication_status": "NOT_SELECTED_PENDING_ENTERPRISE_TLS_REVIEW"
+}

@@ -1,0 +1,60 @@
+{
+  "outcomes": [
+    {
+      "kind": "mip",
+      "verdict": "UNKNOWN",
+      "calls_started": 1,
+      "accepted_common_witness": false,
+      "accepted_joint_negative": false,
+      "options": {
+        "time_limit": 600.0,
+        "threads": 1,
+        "random_seed": 0,
+        "presolve": "on",
+        "mip_rel_gap": 1e-08,
+        "log_to_console": false,
+        "log_file": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_commitment\\run01\\mip\\solver.log"
+      },
+      "solver_version": "1.12.0",
+      "run_status": "HighsStatus.kWarning",
+      "model_status": "Time limit reached",
+      "actual_seconds": 606.6583649000095,
+      "soft_overrun_seconds": 6.658364900009474,
+      "value_valid": false,
+      "dual_valid": false,
+      "mip_node_count": 0,
+      "simplex_iterations": 33523
+    },
+    {
+      "kind": "lp",
+      "verdict": "UNKNOWN",
+      "calls_started": 1,
+      "accepted_common_witness": false,
+      "accepted_joint_negative": false,
+      "options": {
+        "time_limit": 60.0,
+        "threads": 1,
+        "random_seed": 0,
+        "presolve": "off",
+        "solver": "simplex",
+        "log_to_console": false,
+        "log_file": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_commitment\\run01\\lp\\solver.log"
+      },
+      "solver_version": "1.12.0",
+      "run_status": "HighsStatus.kOk",
+      "model_status": "Optimal",
+      "actual_seconds": 16.617742100002943,
+      "soft_overrun_seconds": 0,
+      "value_valid": true,
+      "dual_valid": true,
+      "mip_node_count": -1,
+      "simplex_iterations": 19425,
+      "dual_ray_exist_status": "HighsStatus.kOk",
+      "dual_ray_already_exists": false,
+      "ray_recovery_solves": 0
+    }
+  ],
+  "pair_denominator": 1,
+  "planned_calls": 2,
+  "selection": "posthoc unique first-week joint observation collision"
+}

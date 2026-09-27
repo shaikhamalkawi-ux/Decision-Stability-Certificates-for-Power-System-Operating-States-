@@ -1,0 +1,10 @@
+{
+  "status": "READ_ONLY_DIAGNOSTIC_ASSERTION_FAILED_PRESERVED",
+  "source_sha256": "81db6337eb6b84f03647d146e0a9428669a78168bc97485b8ae716a35aaf1080",
+  "session": 28828,
+  "exit_code": 1,
+  "assertion": "all exact_commit_blob_equal; failed before writing any success receipt",
+  "scientific_model_builds": 0,
+  "optimizer_calls": 0,
+  "followup": "Read-only diagnostic reports raw mismatch and newline-only equality; no source bytes changed."
+}

@@ -1,0 +1,15 @@
+# Root review of the unexecuted official exporter
+
+27 September 2026. Source review only; no Julia import, model build, export or optimizer invocation by this review.
+
+Reviewed the complete `src/researchnext_julia_export.jl` (SHA256 `e7429f67a3d984976c84081acb3845dbd1238f198afb21b49266d87fae3d9088`) and `docs/research_next/ORLIB_JULIA_EXPORT_PROTOCOL.md` (SHA256 `c1d21f79ed26f53c23e771b627b8291656c8fd9c7c3e8db4a2009b1686dad17b`). The intended extraction is suitable for a raw, unnormalized native-model audit, conditional on a successfully acquired and separately bound environment.
+
+The source attempts one native read and one native default build without an optimizer; checks the cached backend state; enumerates every typed backend row, including duplicates; retains variable-in-set bounds and all original binary declarations; and stores Float64 bit patterns rather than decimal approximations. Semantic variable aliases must cover the entire variable inventory exactly once. Unsupported objects stop the export. A successful export remains `NOT_COMPARED` until a separate comparator has actually checked it.
+
+I also read the acquired native `instance/structs.jl` and `model/jumpext.jl`. The referenced fields exist in the pinned structs. `_init` creates OrderedDict variable containers and the native naming routine itself selects AbstractDict containers, supporting the exporter's traversal; the runtime one-to-one check remains necessary. The acquired Julia1.6.7 Pkg source declares PackageInfo.git_revision and provides Pkg.dependencies(), so these reviewed API accesses exist in that runtime. This is source evidence, not executed runtime validation.
+
+The local-source closure records all18 inspected native files as differing from pinned Git blobs solely by Windows CRLF line endings. Their raw hashes are deliberately different and remain recorded. No file has been silently rewritten or called byte-identical. Any later acquisition acceptance must explicitly bind its actual local bytes and disclose the line-ending relationship, rather than apply the original blob hash to the checkout.
+
+The first setup attempt failed its time allocation before writing a Project or Manifest. It cannot satisfy the exporter's READY environment gate. **No export execution is authorized by this source review alone.** A new completed environment receipt, fixed launch arguments, source/protocol hashes and an explicit bounded execution decision are still required. This is an internal evidence gate within the user's already authorized work, not a request for user permission.
+
+The model-level qualifications are correct: projecting unused mfg variables, adding nominally redundant finite boxes, or fixing a one-bus coordinate requires explicit comparison; nominal equivalence does not imply equality after separately expanding finite bounds by tau. Identity-only export will not establish that five other models were independently built in Julia. The failed installation, any later successful installation, raw model extraction, coefficient comparison and operating results must remain separate records.

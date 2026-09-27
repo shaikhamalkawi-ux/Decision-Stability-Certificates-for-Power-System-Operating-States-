@@ -1,0 +1,19 @@
+{
+  "status": "PASS_SYNTHETIC_ONLY",
+  "source_sha256": "90571aa1a450c0bff98887124512aa882e829720ff8baede82b4e41cc4c90d48",
+  "protocol_sha256": "b277379094c1614f55265c4509c2acb12dcfa550e4fadffd568033e99f5255f5",
+  "checks": [
+    "one_shared_binary_two_private_dispatches",
+    "row_origin_and_coefficients",
+    "same_bits_recovered",
+    "private_dispatch_not_accidentally_shared",
+    "shared_box_intersection",
+    "intersection_commutes_with_uniform_expansion",
+    "all_four_fixed_ray_recipes",
+    "opposite_endpoint_projection"
+  ],
+  "fixture_count": 8,
+  "scientific_inputs_read": 0,
+  "model_preparations": 0,
+  "optimizer_calls": 0
+}

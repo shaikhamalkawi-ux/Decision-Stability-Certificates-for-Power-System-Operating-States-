@@ -1,0 +1,20 @@
+{
+  "julia_pid": 27104,
+  "julia_started_utc": "2026-09-27T08:17:43.152108+00:00",
+  "command": [
+    "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\researchnext_julia_export\\attempt01\\runtime\\julia-1.6.7\\bin\\julia.exe",
+    "--startup-file=no",
+    "--history-file=no",
+    "--project=C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\researchnext_julia_export\\attempt01\\project",
+    "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\researchnext_julia_export\\attempt01\\instantiate_once.jl",
+    "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\researchnext_julia_export\\attempt01\\depot",
+    "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\researchnext_julia_export\\attempt01\\package_inventory.toml"
+  ],
+  "isolated_environment": {
+    "JULIA_DEPOT_PATH": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\researchnext_julia_export\\attempt01\\depot",
+    "JULIA_LOAD_PATH": "@;@stdlib",
+    "JULIA_NUM_THREADS": "1",
+    "JULIA_PKG_PRECOMPILE_AUTO": "0",
+    "OPENBLAS_NUM_THREADS": "1"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "status": "PASS_FINAL_REVIEWED_WORDING",
+  "initial_review_path": "docs/research_next/CYCLE04_CLAIM_REVIEW.md",
+  "initial_review_sha256": "91ccf6123358f203fe561b7a58090d4abbfb440a3e55d430db21f7b9b81aa3af",
+  "initial_review_unchanged": true,
+  "source_snapshots": [
+    {
+      "path": "docs/research_next/CYCLE04_README.md",
+      "bytes": 6782,
+      "sha256": "66fd56b36e6b213d2065675bd4b31eac15fe64e3b94d631d91c9bace057894ec"
+    },
+    {
+      "path": "docs/research_next/CYCLE04_DECISION_AR.md",
+      "bytes": 8162,
+      "sha256": "8f5d0b5dc23ec1d20571796ca6a80b2f2094d304a353b954e1455be9e3c9722b"
+    },
+    {
+      "path": "docs/research_next/CYCLE04_SCOPE_DECISION.md",
+      "bytes": 5805,
+      "sha256": "91a7381a640e91b188ce42f951270d0ca1b1fcff887e75c98fbeb9893890c41a"
+    }
+  ],
+  "delta_scope": "Exactly one English quantity clarification and two Arabic quantity/roster wording changes. Reversing those literal edits reproduces each initial reviewed hash; scope note unchanged.",
+  "quantity": "23195MWh of fossil-unit electrical generation; not fuel heat content.",
+  "historical_roster": "Reconstructed35/29 scope; no assertion that an original roster existed and was lost.",
+  "remaining_corrections": [],
+  "new_math_or_solver_runs": 0,
+  "closed_evidence_mutations": 0
+}

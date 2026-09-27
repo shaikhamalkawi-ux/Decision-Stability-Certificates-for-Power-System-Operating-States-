@@ -1,0 +1,49 @@
+{
+  "worlds": [
+    "identity",
+    "days_321"
+  ],
+  "sequence": [
+    "mip",
+    "lp"
+  ],
+  "options": {
+    "mip": {
+      "time_limit": 600.0,
+      "threads": 1,
+      "random_seed": 0,
+      "presolve": "on",
+      "mip_rel_gap": 1e-08
+    },
+    "lp": {
+      "time_limit": 60.0,
+      "threads": 1,
+      "random_seed": 0,
+      "presolve": "off",
+      "solver": "simplex"
+    }
+  },
+  "phase_seconds": 1200.0,
+  "tau": {
+    "numerator": "5902958103587057",
+    "denominator": "590295810358705651712",
+    "approximate": 1e-05
+  },
+  "runtime": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "executable": "C:\\Users\\gmalkawi\\OneDrive - Higher Colleges of Technology\\Documents 1\\ChatGPT\\3\\.work\\solver_env\\Scripts\\python.exe",
+    "packages": {
+      "numpy": "2.3.5",
+      "scipy": "1.18.1",
+      "highspy": "1.12.0"
+    }
+  },
+  "original_objective": "zero feasibility",
+  "numeric_proposal_bounds": "nominal",
+  "acceptance_bounds": "exact uniform tau expansion",
+  "solver_calls": 0,
+  "warm_starts": 0,
+  "retries": 0,
+  "source_sha256": "039af59750b4c165d877b9878ac14af02a202700b46739ba96a8914075ae3284",
+  "protocol_sha256": "08838becbd0d679f6131421c566534f19c93f535e7baa3b4b00d30b985ccab21"
+}

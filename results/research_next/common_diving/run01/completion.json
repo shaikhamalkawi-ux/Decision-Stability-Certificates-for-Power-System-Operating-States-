@@ -1,0 +1,22 @@
+{
+  "utc": "2026-09-27T08:52:16.537795+00:00",
+  "status": "CLOSED_PENDING_INDEPENDENT_REVIEW",
+  "call_ledger": {
+    "attempted": 1,
+    "returned": 1,
+    "last_admission_remaining_seconds": 293.8889097000065,
+    "started_utc": "2026-09-27T08:52:13.311477+00:00",
+    "actual_seconds": 1.975354399997741,
+    "ended_utc": "2026-09-27T08:52:15.286575+00:00"
+  },
+  "planned_calls": 1,
+  "optimizer_calls": 1,
+  "phase_seconds": 9.337347199994838,
+  "phase_soft_overrun": 0,
+  "all_frozen_bytes_unchanged": true,
+  "no_added_lp_or_ray_getter": true,
+  "no_alternative_neighborhood_or_retry": true,
+  "posthoc": true,
+  "parent_initial_run_unchanged": true,
+  "nominal_feasibility_claim": false
+}

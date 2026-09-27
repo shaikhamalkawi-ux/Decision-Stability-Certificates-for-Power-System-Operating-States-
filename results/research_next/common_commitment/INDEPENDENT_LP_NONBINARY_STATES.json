@@ -1,0 +1,5194 @@
+{
+  "scope": "Post-hoc exact census of the saved unrounded LP vector; original binary domains are relaxed only for continuous membership.",
+  "raw_solution_sha256": "90c8b308a6ce8e7671adbe3059887d6ce27489fa3d68aa601c2474b32d2d462a",
+  "original_binary_coordinates": 12096,
+  "tau": {
+    "numerator": "5902958103587057",
+    "denominator": "590295810358705651712",
+    "approximate": 1e-05
+  },
+  "counts": {
+    "exact_zero": 11234,
+    "exact_one": 576,
+    "exact_nonbinary": 286,
+    "strictly_between_zero_and_one": 281,
+    "outside_zero_one_interval": 5,
+    "farther_than_tau_from_either_bit": 260
+  },
+  "by_block": {
+    "U": {
+      "exact_zero": 3439,
+      "exact_one": 420,
+      "exact_nonbinary": 173,
+      "strictly_between_zero_and_one": 170,
+      "outside_zero_one_interval": 3,
+      "farther_than_tau_from_either_bit": 155
+    },
+    "Y": {
+      "exact_zero": 3898,
+      "exact_one": 78,
+      "exact_nonbinary": 56,
+      "strictly_between_zero_and_one": 55,
+      "outside_zero_one_interval": 1,
+      "farther_than_tau_from_either_bit": 52
+    },
+    "Z": {
+      "exact_zero": 3897,
+      "exact_one": 78,
+      "exact_nonbinary": 57,
+      "strictly_between_zero_and_one": 56,
+      "outside_zero_one_interval": 1,
+      "farther_than_tau_from_either_bit": 53
+    }
+  },
+  "all_exact_nonbinary_coordinates": [
+    {
+      "joint_column": 7001,
+      "block": "U",
+      "hour_0based": 4,
+      "thermal_index": 17,
+      "uid": "118_CC_1",
+      "binary64_hex": "0x1.01eb744ba77b5p-6",
+      "exact_value": {
+        "numerator": "4537372108289973",
+        "denominator": "288230376151711744",
+        "approximate": 0.01574217183098599
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "4537372108289973",
+        "denominator": "288230376151711744",
+        "approximate": 0.01574217183098599
+      }
+    },
+    {
+      "joint_column": 7023,
+      "block": "U",
+      "hour_0based": 5,
+      "thermal_index": 15,
+      "uid": "115_STEAM_3",
+      "binary64_hex": "0x1.f994d6e4cde45p-3",
+      "exact_value": {
+        "numerator": "8894282120093253",
+        "denominator": "36028797018963968",
+        "approximate": 0.24686591993098453
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "8894282120093253",
+        "denominator": "36028797018963968",
+        "approximate": 0.24686591993098453
+      }
+    },
+    {
+      "joint_column": 7025,
+      "block": "U",
+      "hour_0based": 5,
+      "thermal_index": 17,
+      "uid": "118_CC_1",
+      "binary64_hex": "0x1.57f08950f8f35p-2",
+      "exact_value": {
+        "numerator": "6050649348214581",
+        "denominator": "18014398509481984",
+        "approximate": 0.3358785110160512
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "6050649348214581",
+        "denominator": "18014398509481984",
+        "approximate": 0.3358785110160512
+      }
+    },
+    {
+      "joint_column": 7032,
+      "block": "U",
+      "hour_0based": 6,
+      "thermal_index": 0,
+      "uid": "101_CT_1",
+      "binary64_hex": "0x1.7107554592cffp-2",
+      "exact_value": {
+        "numerator": "6492020576693503",
+        "denominator": "18014398509481984",
+        "approximate": 0.3603795360292707
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "6492020576693503",
+        "denominator": "18014398509481984",
+        "approximate": 0.3603795360292707
+      }
+    },
+    {
+      "joint_column": 7047,
+      "block": "U",
+      "hour_0based": 6,
+      "thermal_index": 15,
+      "uid": "115_STEAM_3",
+      "binary64_hex": "0x1.f994d6e4cde45p-3",
+      "exact_value": {
+        "numerator": "8894282120093253",
+        "denominator": "36028797018963968",
+        "approximate": 0.24686591993098453
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "8894282120093253",
+        "denominator": "36028797018963968",
+        "approximate": 0.24686591993098453
+      }
+    },
+    {
+      "joint_column": 7049,
+      "block": "U",
+      "hour_0based": 6,
+      "thermal_index": 17,
+      "uid": "118_CC_1",
+      "binary64_hex": "0x1.004f64812a1cep-1",
+      "exact_value": {
+        "numerator": "2254527722508519",
+        "denominator": "4503599627370496",
+        "approximate": 0.5006057174369347
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "2249071904861977",
+        "denominator": "4503599627370496",
+        "approximate": 0.4993942825630653
+      }
+    },
+    {
+      "joint_column": 7071,
+      "block": "U",
+      "hour_0based": 7,
+      "thermal_index": 15,
+      "uid": "115_STEAM_3",
+      "binary64_hex": "0x1.f994d6e4cde45p-3",
+      "exact_value": {
+        "numerator": "8894282120093253",
+        "denominator": "36028797018963968",
+        "approximate": 0.24686591993098453
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "8894282120093253",
+        "denominator": "36028797018963968",
+        "approximate": 0.24686591993098453
+      }
+    },
+    {
+      "joint_column": 7073,
+      "block": "U",
+      "hour_0based": 7,
+      "thermal_index": 17,
+      "uid": "118_CC_1",
+      "binary64_hex": "0x1.004f64812a1cep-1",
+      "exact_value": {
+        "numerator": "2254527722508519",
+        "denominator": "4503599627370496",
+        "approximate": 0.5006057174369347
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "2249071904861977",
+        "denominator": "4503599627370496",
+        "approximate": 0.4993942825630653
+      }
+    },
+    {
+      "joint_column": 7095,
+      "block": "U",
+      "hour_0based": 8,
+      "thermal_index": 15,
+      "uid": "115_STEAM_3",
+      "binary64_hex": "0x1.f994d6e4cde45p-3",
+      "exact_value": {
+        "numerator": "8894282120093253",
+        "denominator": "36028797018963968",
+        "approximate": 0.24686591993098453
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "8894282120093253",
+        "denominator": "36028797018963968",
+        "approximate": 0.24686591993098453
+      }
+    },
+    {
+      "joint_column": 7097,
+      "block": "U",
+      "hour_0based": 8,
+      "thermal_index": 17,
+      "uid": "118_CC_1",
+      "binary64_hex": "0x1.004f64812a1cep-1",
+      "exact_value": {
+        "numerator": "2254527722508519",
+        "denominator": "4503599627370496",
+        "approximate": 0.5006057174369347
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "2249071904861977",
+        "denominator": "4503599627370496",
+        "approximate": 0.4993942825630653
+      }
+    },
+    {
+      "joint_column": 7119,
+      "block": "U",
+      "hour_0based": 9,
+      "thermal_index": 15,
+      "uid": "115_STEAM_3",
+      "binary64_hex": "0x1.f994d6e4cde45p-3",
+      "exact_value": {
+        "numerator": "8894282120093253",
+        "denominator": "36028797018963968",
+        "approximate": 0.24686591993098453
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "8894282120093253",
+        "denominator": "36028797018963968",
+        "approximate": 0.24686591993098453
+      }
+    },
+    {
+      "joint_column": 7121,
+      "block": "U",
+      "hour_0based": 9,
+      "thermal_index": 17,
+      "uid": "118_CC_1",
+      "binary64_hex": "0x1.004f64812a1cep-1",
+      "exact_value": {
+        "numerator": "2254527722508519",
+        "denominator": "4503599627370496",
+        "approximate": 0.5006057174369347
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "2249071904861977",
+        "denominator": "4503599627370496",
+        "approximate": 0.4993942825630653
+      }
+    },
+    {
+      "joint_column": 7143,
+      "block": "U",
+      "hour_0based": 10,
+      "thermal_index": 15,
+      "uid": "115_STEAM_3",
+      "binary64_hex": "0x1.f994d6e4cde45p-3",
+      "exact_value": {
+        "numerator": "8894282120093253",
+        "denominator": "36028797018963968",
+        "approximate": 0.24686591993098453
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "8894282120093253",
+        "denominator": "36028797018963968",
+        "approximate": 0.24686591993098453
+      }
+    },
+    {
+      "joint_column": 7145,
+      "block": "U",
+      "hour_0based": 10,
+      "thermal_index": 17,
+      "uid": "118_CC_1",
+      "binary64_hex": "0x1.8ce0f72b6c00ap-1",
+      "exact_value": {
+        "numerator": "3490982592733189",
+        "denominator": "4503599627370496",
+        "approximate": 0.7751538506036024
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "1012617034637307",
+        "denominator": "4503599627370496",
+        "approximate": 0.22484614939639758
+      }
+    },
+    {
+      "joint_column": 7167,
+      "block": "U",
+      "hour_0based": 11,
+      "thermal_index": 15,
+      "uid": "115_STEAM_3",
+      "binary64_hex": "0x1.f994d6e4cde45p-3",
+      "exact_value": {
+        "numerator": "8894282120093253",
+        "denominator": "36028797018963968",
+        "approximate": 0.24686591993098453
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "8894282120093253",
+        "denominator": "36028797018963968",
+        "approximate": 0.24686591993098453
+      }
+    },
+    {
+      "joint_column": 7169,
+      "block": "U",
+      "hour_0based": 11,
+      "thermal_index": 17,
+      "uid": "118_CC_1",
+      "binary64_hex": "0x1.dcd172838f68dp-1",
+      "exact_value": {
+        "numerator": "8388273667372685",
+        "denominator": "9007199254740992",
+        "approximate": 0.9312854562374057
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "618925587368307",
+        "denominator": "9007199254740992",
+        "approximate": 0.06871454376259434
+      }
+    },
+    {
+      "joint_column": 7191,
+      "block": "U",
+      "hour_0based": 12,
+      "thermal_index": 15,
+      "uid": "115_STEAM_3",
+      "binary64_hex": "0x1.f994d6e4cde45p-3",
+      "exact_value": {
+        "numerator": "8894282120093253",
+        "denominator": "36028797018963968",
+        "approximate": 0.24686591993098453
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "8894282120093253",
+        "denominator": "36028797018963968",
+        "approximate": 0.24686591993098453
+      }
+    },
+    {
+      "joint_column": 7193,
+      "block": "U",
+      "hour_0based": 12,
+      "thermal_index": 17,
+      "uid": "118_CC_1",
+      "binary64_hex": "0x1.dcd172838f68dp-1",
+      "exact_value": {
+        "numerator": "8388273667372685",
+        "denominator": "9007199254740992",
+        "approximate": 0.9312854562374057
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "618925587368307",
+        "denominator": "9007199254740992",
+        "approximate": 0.06871454376259434
+      }
+    },
+    {
+      "joint_column": 7215,
+      "block": "U",
+      "hour_0based": 13,
+      "thermal_index": 15,
+      "uid": "115_STEAM_3",
+      "binary64_hex": "0x1.f994d6e4cde44p-3",
+      "exact_value": {
+        "numerator": "2223570530023313",
+        "denominator": "9007199254740992",
+        "approximate": 0.2468659199309845
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "2223570530023313",
+        "denominator": "9007199254740992",
+        "approximate": 0.2468659199309845
+      }
+    },
+    {
+      "joint_column": 7216,
+      "block": "U",
+      "hour_0based": 13,
+      "thermal_index": 16,
+      "uid": "116_STEAM_1",
+      "binary64_hex": "0x1.0625018d7c158p-1",
+      "exact_value": {
+        "numerator": "576461972633643",
+        "denominator": "1125899906842624",
+        "approximate": 0.5120010838709659
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "549437934208981",
+        "denominator": "1125899906842624",
+        "approximate": 0.4879989161290341
+      }
+    },
+    {
+      "joint_column": 7217,
+      "block": "U",
+      "hour_0based": 13,
+      "thermal_index": 17,
+      "uid": "118_CC_1",
+      "binary64_hex": "0x1.dcd172838f68dp-1",
+      "exact_value": {
+        "numerator": "8388273667372685",
+        "denominator": "9007199254740992",
+        "approximate": 0.9312854562374057
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "618925587368307",
+        "denominator": "9007199254740992",
+        "approximate": 0.06871454376259434
+      }
+    },
+    {
+      "joint_column": 7239,
+      "block": "U",
+      "hour_0based": 14,
+      "thermal_index": 15,
+      "uid": "115_STEAM_3",
+      "binary64_hex": "0x1.3ac4e4588a076p-2",
+      "exact_value": {
+        "numerator": "2768738365755451",
+        "denominator": "9007199254740992",
+        "approximate": 0.307391708282473
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "2768738365755451",
+        "denominator": "9007199254740992",
+        "approximate": 0.307391708282473
+      }
+    },
+    {
+      "joint_column": 7240,
+      "block": "U",
+      "hour_0based": 14,
+      "thermal_index": 16,
+      "uid": "116_STEAM_1",
+      "binary64_hex": "0x1.0625018d7c158p-1",
+      "exact_value": {
+        "numerator": "576461972633643",
+        "denominator": "1125899906842624",
+        "approximate": 0.5120010838709659
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "549437934208981",
+        "denominator": "1125899906842624",
+        "approximate": 0.4879989161290341
+      }
+    },
+    {
+      "joint_column": 7241,
+      "block": "U",
+      "hour_0based": 14,
+      "thermal_index": 17,
+      "uid": "118_CC_1",
+      "binary64_hex": "0x1.f37720b3e86acp-1",
+      "exact_value": {
+        "numerator": "2196671808119211",
+        "denominator": "2251799813685248",
+        "approximate": 0.9755182475675688
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "55128005566037",
+        "denominator": "2251799813685248",
+        "approximate": 0.024481752432431225
+      }
+    },
+    {
+      "joint_column": 7264,
+      "block": "U",
+      "hour_0based": 15,
+      "thermal_index": 16,
+      "uid": "116_STEAM_1",
+      "binary64_hex": "0x1.0625018d7c158p-1",
+      "exact_value": {
+        "numerator": "576461972633643",
+        "denominator": "1125899906842624",
+        "approximate": 0.5120010838709659
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "549437934208981",
+        "denominator": "1125899906842624",
+        "approximate": 0.4879989161290341
+      }
+    },
+    {
+      "joint_column": 7288,
+      "block": "U",
+      "hour_0based": 16,
+      "thermal_index": 16,
+      "uid": "116_STEAM_1",
+      "binary64_hex": "0x1.0625018d7c158p-1",
+      "exact_value": {
+        "numerator": "576461972633643",
+        "denominator": "1125899906842624",
+        "approximate": 0.5120010838709659
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "549437934208981",
+        "denominator": "1125899906842624",
+        "approximate": 0.4879989161290341
+      }
+    },
+    {
+      "joint_column": 7311,
+      "block": "U",
+      "hour_0based": 17,
+      "thermal_index": 15,
+      "uid": "115_STEAM_3",
+      "binary64_hex": "0x1.bf1d18e7c240fp-1",
+      "exact_value": {
+        "numerator": "7865706712146959",
+        "denominator": "9007199254740992",
+        "approximate": 0.8732688696774192
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "1141492542594033",
+        "denominator": "9007199254740992",
+        "approximate": 0.12673113032258077
+      }
+    },
+    {
+      "joint_column": 7312,
+      "block": "U",
+      "hour_0based": 17,
+      "thermal_index": 16,
+      "uid": "116_STEAM_1",
+      "binary64_hex": "0x1.0625018d7c158p-1",
+      "exact_value": {
+        "numerator": "576461972633643",
+        "denominator": "1125899906842624",
+        "approximate": 0.5120010838709659
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "549437934208981",
+        "denominator": "1125899906842624",
+        "approximate": 0.4879989161290341
+      }
+    },
+    {
+      "joint_column": 7335,
+      "block": "U",
+      "hour_0based": 18,
+      "thermal_index": 15,
+      "uid": "115_STEAM_3",
+      "binary64_hex": "0x1.bf1d18e7c240fp-1",
+      "exact_value": {
+        "numerator": "7865706712146959",
+        "denominator": "9007199254740992",
+        "approximate": 0.8732688696774192
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "1141492542594033",
+        "denominator": "9007199254740992",
+        "approximate": 0.12673113032258077
+      }
+    },
+    {
+      "joint_column": 7336,
+      "block": "U",
+      "hour_0based": 18,
+      "thermal_index": 16,
+      "uid": "116_STEAM_1",
+      "binary64_hex": "0x1.0625018d7c158p-1",
+      "exact_value": {
+        "numerator": "576461972633643",
+        "denominator": "1125899906842624",
+        "approximate": 0.5120010838709659
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "549437934208981",
+        "denominator": "1125899906842624",
+        "approximate": 0.4879989161290341
+      }
+    },
+    {
+      "joint_column": 7359,
+      "block": "U",
+      "hour_0based": 19,
+      "thermal_index": 15,
+      "uid": "115_STEAM_3",
+      "binary64_hex": "0x1.819aca46cc86fp-1",
+      "exact_value": {
+        "numerator": "6783628724717679",
+        "denominator": "9007199254740992",
+        "approximate": 0.7531340800690155
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "2223570530023313",
+        "denominator": "9007199254740992",
+        "approximate": 0.2468659199309845
+      }
+    },
+    {
+      "joint_column": 7360,
+      "block": "U",
+      "hour_0based": 19,
+      "thermal_index": 16,
+      "uid": "116_STEAM_1",
+      "binary64_hex": "0x1.0625018d7c158p-1",
+      "exact_value": {
+        "numerator": "576461972633643",
+        "denominator": "1125899906842624",
+        "approximate": 0.5120010838709659
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "549437934208981",
+        "denominator": "1125899906842624",
+        "approximate": 0.4879989161290341
+      }
+    },
+    {
+      "joint_column": 7383,
+      "block": "U",
+      "hour_0based": 20,
+      "thermal_index": 15,
+      "uid": "115_STEAM_3",
+      "binary64_hex": "0x1.819aca46cc86fp-1",
+      "exact_value": {
+        "numerator": "6783628724717679",
+        "denominator": "9007199254740992",
+        "approximate": 0.7531340800690155
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "2223570530023313",
+        "denominator": "9007199254740992",
+        "approximate": 0.2468659199309845
+      }
+    },
+    {
+      "joint_column": 7384,
+      "block": "U",
+      "hour_0based": 20,
+      "thermal_index": 16,
+      "uid": "116_STEAM_1",
+      "binary64_hex": "0x1.0625018d7c158p-1",
+      "exact_value": {
+        "numerator": "576461972633643",
+        "denominator": "1125899906842624",
+        "approximate": 0.5120010838709659
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "549437934208981",
+        "denominator": "1125899906842624",
+        "approximate": 0.4879989161290341
+      }
+    },
+    {
+      "joint_column": 7385,
+      "block": "U",
+      "hour_0based": 20,
+      "thermal_index": 17,
+      "uid": "118_CC_1",
+      "binary64_hex": "0x1.a4bb92c97316bp-1",
+      "exact_value": {
+        "numerator": "7401608083616107",
+        "denominator": "9007199254740992",
+        "approximate": 0.8217435713682283
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "1605591171124885",
+        "denominator": "9007199254740992",
+        "approximate": 0.1782564286317717
+      }
+    },
+    {
+      "joint_column": 7407,
+      "block": "U",
+      "hour_0based": 21,
+      "thermal_index": 15,
+      "uid": "115_STEAM_3",
+      "binary64_hex": "0x1.819aca46cc86fp-1",
+      "exact_value": {
+        "numerator": "6783628724717679",
+        "denominator": "9007199254740992",
+        "approximate": 0.7531340800690155
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "2223570530023313",
+        "denominator": "9007199254740992",
+        "approximate": 0.2468659199309845
+      }
+    },
+    {
+      "joint_column": 7409,
+      "block": "U",
+      "hour_0based": 21,
+      "thermal_index": 17,
+      "uid": "118_CC_1",
+      "binary64_hex": "0x1.878c5731cad83p-1",
+      "exact_value": {
+        "numerator": "6888188876205443",
+        "denominator": "9007199254740992",
+        "approximate": 0.7647425888330165
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "2119010378535549",
+        "denominator": "9007199254740992",
+        "approximate": 0.2352574111669835
+      }
+    },
+    {
+      "joint_column": 7431,
+      "block": "U",
+      "hour_0based": 22,
+      "thermal_index": 15,
+      "uid": "115_STEAM_3",
+      "binary64_hex": "0x1.629d8dd3bafc5p-1",
+      "exact_value": {
+        "numerator": "6238460888985541",
+        "denominator": "9007199254740992",
+        "approximate": 0.692608291717527
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "2768738365755451",
+        "denominator": "9007199254740992",
+        "approximate": 0.307391708282473
+      }
+    },
+    {
+      "joint_column": 7433,
+      "block": "U",
+      "hour_0based": 22,
+      "thermal_index": 17,
+      "uid": "118_CC_1",
+      "binary64_hex": "0x1.911be982f2a80p-6",
+      "exact_value": {
+        "numerator": "55128005566037",
+        "denominator": "2251799813685248",
+        "approximate": 0.024481752432431225
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "55128005566037",
+        "denominator": "2251799813685248",
+        "approximate": 0.024481752432431225
+      }
+    },
+    {
+      "joint_column": 7580,
+      "block": "U",
+      "hour_0based": 28,
+      "thermal_index": 20,
+      "uid": "123_CT_1",
+      "binary64_hex": "0x1.0748ae5d5bf39p-1",
+      "exact_value": {
+        "numerator": "4631739537669945",
+        "denominator": "9007199254740992",
+        "approximate": 0.514226387878785
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "4375459717071047",
+        "denominator": "9007199254740992",
+        "approximate": 0.48577361212121495
+      }
+    },
+    {
+      "joint_column": 7581,
+      "block": "U",
+      "hour_0based": 28,
+      "thermal_index": 21,
+      "uid": "123_CT_4",
+      "binary64_hex": "0x1.64972d2c68698p-1",
+      "exact_value": {
+        "numerator": "784150874869971",
+        "denominator": "1125899906842624",
+        "approximate": 0.6964658848484815
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "341749031972653",
+        "denominator": "1125899906842624",
+        "approximate": 0.3035341151515185
+      }
+    },
+    {
+      "joint_column": 7604,
+      "block": "U",
+      "hour_0based": 29,
+      "thermal_index": 20,
+      "uid": "123_CT_1",
+      "binary64_hex": "0x1.caf90f4474b26p-1",
+      "exact_value": {
+        "numerator": "4037168228181395",
+        "denominator": "4503599627370496",
+        "approximate": 0.8964314242424265
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "466431399189101",
+        "denominator": "4503599627370496",
+        "approximate": 0.1035685757575735
+      }
+    },
+    {
+      "joint_column": 7605,
+      "block": "U",
+      "hour_0based": 29,
+      "thermal_index": 21,
+      "uid": "123_CT_4",
+      "binary64_hex": "0x1.64972d2c68698p-1",
+      "exact_value": {
+        "numerator": "784150874869971",
+        "denominator": "1125899906842624",
+        "approximate": 0.6964658848484815
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "341749031972653",
+        "denominator": "1125899906842624",
+        "approximate": 0.3035341151515185
+      }
+    },
+    {
+      "joint_column": 7628,
+      "block": "U",
+      "hour_0based": 30,
+      "thermal_index": 20,
+      "uid": "123_CT_1",
+      "binary64_hex": "0x1.caf90f4474b26p-1",
+      "exact_value": {
+        "numerator": "4037168228181395",
+        "denominator": "4503599627370496",
+        "approximate": 0.8964314242424265
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "466431399189101",
+        "denominator": "4503599627370496",
+        "approximate": 0.1035685757575735
+      }
+    },
+    {
+      "joint_column": 7629,
+      "block": "U",
+      "hour_0based": 30,
+      "thermal_index": 21,
+      "uid": "123_CT_4",
+      "binary64_hex": "0x1.64972d2c68698p-1",
+      "exact_value": {
+        "numerator": "784150874869971",
+        "denominator": "1125899906842624",
+        "approximate": 0.6964658848484815
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "341749031972653",
+        "denominator": "1125899906842624",
+        "approximate": 0.3035341151515185
+      }
+    },
+    {
+      "joint_column": 7652,
+      "block": "U",
+      "hour_0based": 31,
+      "thermal_index": 20,
+      "uid": "123_CT_1",
+      "binary64_hex": "0x1.8760c1ce317d7p-2",
+      "exact_value": {
+        "numerator": "6885193837385687",
+        "denominator": "18014398509481984",
+        "approximate": 0.3822050363636413
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "6885193837385687",
+        "denominator": "18014398509481984",
+        "approximate": 0.3822050363636413
+      }
+    },
+    {
+      "joint_column": 7853,
+      "block": "U",
+      "hour_0based": 40,
+      "thermal_index": 5,
+      "uid": "102_CT_2",
+      "binary64_hex": "0x1.642e44b6e9400p-2",
+      "exact_value": {
+        "numerator": "6119138450341",
+        "denominator": "17592186044416",
+        "approximate": 0.3478327500000091
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "6119138450341",
+        "denominator": "17592186044416",
+        "approximate": 0.3478327500000091
+      }
+    },
+    {
+      "joint_column": 7894,
+      "block": "U",
+      "hour_0based": 41,
+      "thermal_index": 22,
+      "uid": "123_CT_5",
+      "binary64_hex": "0x1.0edaa0a3dab33p-1",
+      "exact_value": {
+        "numerator": "4764914199407411",
+        "denominator": "9007199254740992",
+        "approximate": 0.5290117454545452
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "4242285055333581",
+        "denominator": "9007199254740992",
+        "approximate": 0.4709882545454548
+      }
+    },
+    {
+      "joint_column": 7918,
+      "block": "U",
+      "hour_0based": 42,
+      "thermal_index": 22,
+      "uid": "123_CT_5",
+      "binary64_hex": "0x1.0edaa0a3dab33p-1",
+      "exact_value": {
+        "numerator": "4764914199407411",
+        "denominator": "9007199254740992",
+        "approximate": 0.5290117454545452
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "4242285055333581",
+        "denominator": "9007199254740992",
+        "approximate": 0.4709882545454548
+      }
+    },
+    {
+      "joint_column": 7925,
+      "block": "U",
+      "hour_0based": 43,
+      "thermal_index": 5,
+      "uid": "102_CT_2",
+      "binary64_hex": "0x1.55cd095da1c7bp-1",
+      "exact_value": {
+        "numerator": "6013025447976059",
+        "denominator": "9007199254740992",
+        "approximate": 0.6675799300000017
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "2994173806764933",
+        "denominator": "9007199254740992",
+        "approximate": 0.3324200699999983
+      }
+    },
+    {
+      "joint_column": 7942,
+      "block": "U",
+      "hour_0based": 43,
+      "thermal_index": 22,
+      "uid": "123_CT_5",
+      "binary64_hex": "0x1.0edaa0a3dab33p-1",
+      "exact_value": {
+        "numerator": "4764914199407411",
+        "denominator": "9007199254740992",
+        "approximate": 0.5290117454545452
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "4242285055333581",
+        "denominator": "9007199254740992",
+        "approximate": 0.4709882545454548
+      }
+    },
+    {
+      "joint_column": 7948,
+      "block": "U",
+      "hour_0based": 44,
+      "thermal_index": 4,
+      "uid": "102_CT_1",
+      "binary64_hex": "0x1.51c8fd8a59f53p-4",
+      "exact_value": {
+        "numerator": "5942378651557715",
+        "denominator": "72057594037927936",
+        "approximate": 0.08246707000000457
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "5942378651557715",
+        "denominator": "72057594037927936",
+        "approximate": 0.08246707000000457
+      }
+    },
+    {
+      "joint_column": 7949,
+      "block": "U",
+      "hour_0based": 44,
+      "thermal_index": 5,
+      "uid": "102_CT_2",
+      "binary64_hex": "0x1.55cd095da1c7cp-1",
+      "exact_value": {
+        "numerator": "1503256361994015",
+        "denominator": "2251799813685248",
+        "approximate": 0.6675799300000018
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "748543451691233",
+        "denominator": "2251799813685248",
+        "approximate": 0.3324200699999982
+      }
+    },
+    {
+      "joint_column": 8160,
+      "block": "U",
+      "hour_0based": 53,
+      "thermal_index": 0,
+      "uid": "101_CT_1",
+      "binary64_hex": "0x1.450d87a7ff933p-1",
+      "exact_value": {
+        "numerator": "5718390232578355",
+        "denominator": "9007199254740992",
+        "approximate": 0.6348688500000094
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "3288809022162637",
+        "denominator": "9007199254740992",
+        "approximate": 0.36513114999999063
+      }
+    },
+    {
+      "joint_column": 8182,
+      "block": "U",
+      "hour_0based": 53,
+      "thermal_index": 22,
+      "uid": "123_CT_5",
+      "binary64_hex": "0x1.92491000c46fbp-3",
+      "exact_value": {
+        "numerator": "7077079607428859",
+        "denominator": "36028797018963968",
+        "approximate": 0.19642841818181708
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "7077079607428859",
+        "denominator": "36028797018963968",
+        "approximate": 0.19642841818181708
+      }
+    },
+    {
+      "joint_column": 8206,
+      "block": "U",
+      "hour_0based": 54,
+      "thermal_index": 22,
+      "uid": "123_CT_5",
+      "binary64_hex": "0x1.92491000c46fbp-3",
+      "exact_value": {
+        "numerator": "7077079607428859",
+        "denominator": "36028797018963968",
+        "approximate": 0.19642841818181708
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "7077079607428859",
+        "denominator": "36028797018963968",
+        "approximate": 0.19642841818181708
+      }
+    },
+    {
+      "joint_column": 8230,
+      "block": "U",
+      "hour_0based": 55,
+      "thermal_index": 22,
+      "uid": "123_CT_5",
+      "binary64_hex": "0x1.92491000c46fbp-3",
+      "exact_value": {
+        "numerator": "7077079607428859",
+        "denominator": "36028797018963968",
+        "approximate": 0.19642841818181708
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "7077079607428859",
+        "denominator": "36028797018963968",
+        "approximate": 0.19642841818181708
+      }
+    },
+    {
+      "joint_column": 8416,
+      "block": "U",
+      "hour_0based": 63,
+      "thermal_index": 16,
+      "uid": "116_STEAM_1",
+      "binary64_hex": "0x1.0ee583ebcef21p-4",
+      "exact_value": {
+        "numerator": "4765662404472609",
+        "denominator": "72057594037927936",
+        "approximate": 0.0661368516129497
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "4765662404472609",
+        "denominator": "72057594037927936",
+        "approximate": 0.0661368516129497
+      }
+    },
+    {
+      "joint_column": 8417,
+      "block": "U",
+      "hour_0based": 63,
+      "thermal_index": 17,
+      "uid": "118_CC_1",
+      "binary64_hex": "0x1.b7242f01c376fp-3",
+      "exact_value": {
+        "numerator": "7725456192976751",
+        "denominator": "36028797018963968",
+        "approximate": 0.2144244835293949
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "7725456192976751",
+        "denominator": "36028797018963968",
+        "approximate": 0.2144244835293949
+      }
+    },
+    {
+      "joint_column": 8440,
+      "block": "U",
+      "hour_0based": 64,
+      "thermal_index": 16,
+      "uid": "116_STEAM_1",
+      "binary64_hex": "0x1.0ee583ebcef24p-4",
+      "exact_value": {
+        "numerator": "1191415601118153",
+        "denominator": "18014398509481984",
+        "approximate": 0.06613685161294974
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "1191415601118153",
+        "denominator": "18014398509481984",
+        "approximate": 0.06613685161294974
+      }
+    },
+    {
+      "joint_column": 8457,
+      "block": "U",
+      "hour_0based": 65,
+      "thermal_index": 9,
+      "uid": "113_CT_1",
+      "binary64_hex": "0x1.0a9da940e983ep-2",
+      "exact_value": {
+        "numerator": "2345177939659807",
+        "denominator": "9007199254740992",
+        "approximate": 0.2603670545453304
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "2345177939659807",
+        "denominator": "9007199254740992",
+        "approximate": 0.2603670545453304
+      }
+    },
+    {
+      "joint_column": 8464,
+      "block": "U",
+      "hour_0based": 65,
+      "thermal_index": 16,
+      "uid": "116_STEAM_1",
+      "binary64_hex": "0x1.0ee583ebcef24p-4",
+      "exact_value": {
+        "numerator": "1191415601118153",
+        "denominator": "18014398509481984",
+        "approximate": 0.06613685161294974
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "1191415601118153",
+        "denominator": "18014398509481984",
+        "approximate": 0.06613685161294974
+      }
+    },
+    {
+      "joint_column": 8481,
+      "block": "U",
+      "hour_0based": 66,
+      "thermal_index": 9,
+      "uid": "113_CT_1",
+      "binary64_hex": "0x1.0a9da940e983ep-2",
+      "exact_value": {
+        "numerator": "2345177939659807",
+        "denominator": "9007199254740992",
+        "approximate": 0.2603670545453304
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "2345177939659807",
+        "denominator": "9007199254740992",
+        "approximate": 0.2603670545453304
+      }
+    },
+    {
+      "joint_column": 8488,
+      "block": "U",
+      "hour_0based": 66,
+      "thermal_index": 16,
+      "uid": "116_STEAM_1",
+      "binary64_hex": "0x1.0ee583ebcef24p-4",
+      "exact_value": {
+        "numerator": "1191415601118153",
+        "denominator": "18014398509481984",
+        "approximate": 0.06613685161294974
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "1191415601118153",
+        "denominator": "18014398509481984",
+        "approximate": 0.06613685161294974
+      }
+    },
+    {
+      "joint_column": 8505,
+      "block": "U",
+      "hour_0based": 67,
+      "thermal_index": 9,
+      "uid": "113_CT_1",
+      "binary64_hex": "0x1.0a9da940e983ep-2",
+      "exact_value": {
+        "numerator": "2345177939659807",
+        "denominator": "9007199254740992",
+        "approximate": 0.2603670545453304
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "2345177939659807",
+        "denominator": "9007199254740992",
+        "approximate": 0.2603670545453304
+      }
+    },
+    {
+      "joint_column": 8512,
+      "block": "U",
+      "hour_0based": 67,
+      "thermal_index": 16,
+      "uid": "116_STEAM_1",
+      "binary64_hex": "0x1.0ee583ebcef24p-4",
+      "exact_value": {
+        "numerator": "1191415601118153",
+        "denominator": "18014398509481984",
+        "approximate": 0.06613685161294974
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "1191415601118153",
+        "denominator": "18014398509481984",
+        "approximate": 0.06613685161294974
+      }
+    },
+    {
+      "joint_column": 8535,
+      "block": "U",
+      "hour_0based": 68,
+      "thermal_index": 15,
+      "uid": "115_STEAM_3",
+      "binary64_hex": "0x1.fffffffffffffp-1",
+      "exact_value": {
+        "numerator": "9007199254740991",
+        "denominator": "9007199254740992",
+        "approximate": 0.9999999999999999
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "1",
+        "denominator": "9007199254740992",
+        "approximate": 1.1102230246251565e-16
+      }
+    },
+    {
+      "joint_column": 8536,
+      "block": "U",
+      "hour_0based": 68,
+      "thermal_index": 16,
+      "uid": "116_STEAM_1",
+      "binary64_hex": "0x1.0ee583ebcef21p-4",
+      "exact_value": {
+        "numerator": "4765662404472609",
+        "denominator": "72057594037927936",
+        "approximate": 0.0661368516129497
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "4765662404472609",
+        "denominator": "72057594037927936",
+        "approximate": 0.0661368516129497
+      }
+    },
+    {
+      "joint_column": 8559,
+      "block": "U",
+      "hour_0based": 69,
+      "thermal_index": 15,
+      "uid": "115_STEAM_3",
+      "binary64_hex": "0x1.fffffffffffffp-1",
+      "exact_value": {
+        "numerator": "9007199254740991",
+        "denominator": "9007199254740992",
+        "approximate": 0.9999999999999999
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "1",
+        "denominator": "9007199254740992",
+        "approximate": 1.1102230246251565e-16
+      }
+    },
+    {
+      "joint_column": 8560,
+      "block": "U",
+      "hour_0based": 69,
+      "thermal_index": 16,
+      "uid": "116_STEAM_1",
+      "binary64_hex": "0x1.0ee583ebcef18p-4",
+      "exact_value": {
+        "numerator": "595707800559075",
+        "denominator": "9007199254740992",
+        "approximate": 0.06613685161294958
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "595707800559075",
+        "denominator": "9007199254740992",
+        "approximate": 0.06613685161294958
+      }
+    },
+    {
+      "joint_column": 8583,
+      "block": "U",
+      "hour_0based": 70,
+      "thermal_index": 15,
+      "uid": "115_STEAM_3",
+      "binary64_hex": "0x1.fffffffffffffp-1",
+      "exact_value": {
+        "numerator": "9007199254740991",
+        "denominator": "9007199254740992",
+        "approximate": 0.9999999999999999
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "1",
+        "denominator": "9007199254740992",
+        "approximate": 1.1102230246251565e-16
+      }
+    },
+    {
+      "joint_column": 8584,
+      "block": "U",
+      "hour_0based": 70,
+      "thermal_index": 16,
+      "uid": "116_STEAM_1",
+      "binary64_hex": "0x1.0ee583ebcef21p-4",
+      "exact_value": {
+        "numerator": "4765662404472609",
+        "denominator": "72057594037927936",
+        "approximate": 0.0661368516129497
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "4765662404472609",
+        "denominator": "72057594037927936",
+        "approximate": 0.0661368516129497
+      }
+    },
+    {
+      "joint_column": 8607,
+      "block": "U",
+      "hour_0based": 71,
+      "thermal_index": 15,
+      "uid": "115_STEAM_3",
+      "binary64_hex": "0x1.fffffffffffffp-1",
+      "exact_value": {
+        "numerator": "9007199254740991",
+        "denominator": "9007199254740992",
+        "approximate": 0.9999999999999999
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "1",
+        "denominator": "9007199254740992",
+        "approximate": 1.1102230246251565e-16
+      }
+    },
+    {
+      "joint_column": 8609,
+      "block": "U",
+      "hour_0based": 71,
+      "thermal_index": 17,
+      "uid": "118_CC_1",
+      "binary64_hex": "0x1.9236f43f8f224p-1",
+      "exact_value": {
+        "numerator": "1768958801624201",
+        "denominator": "2251799813685248",
+        "approximate": 0.7855755164706051
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "482841012061047",
+        "denominator": "2251799813685248",
+        "approximate": 0.21442448352939492
+      }
+    },
+    {
+      "joint_column": 8631,
+      "block": "U",
+      "hour_0based": 72,
+      "thermal_index": 15,
+      "uid": "115_STEAM_3",
+      "binary64_hex": "0x1.fffffffffffffp-1",
+      "exact_value": {
+        "numerator": "9007199254740991",
+        "denominator": "9007199254740992",
+        "approximate": 0.9999999999999999
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "1",
+        "denominator": "9007199254740992",
+        "approximate": 1.1102230246251565e-16
+      }
+    },
+    {
+      "joint_column": 8633,
+      "block": "U",
+      "hour_0based": 72,
+      "thermal_index": 17,
+      "uid": "118_CC_1",
+      "binary64_hex": "0x1.9236f43f8f224p-1",
+      "exact_value": {
+        "numerator": "1768958801624201",
+        "denominator": "2251799813685248",
+        "approximate": 0.7855755164706051
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "482841012061047",
+        "denominator": "2251799813685248",
+        "approximate": 0.21442448352939492
+      }
+    },
+    {
+      "joint_column": 8655,
+      "block": "U",
+      "hour_0based": 73,
+      "thermal_index": 15,
+      "uid": "115_STEAM_3",
+      "binary64_hex": "0x1.fffffffffffffp-1",
+      "exact_value": {
+        "numerator": "9007199254740991",
+        "denominator": "9007199254740992",
+        "approximate": 0.9999999999999999
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "1",
+        "denominator": "9007199254740992",
+        "approximate": 1.1102230246251565e-16
+      }
+    },
+    {
+      "joint_column": 8656,
+      "block": "U",
+      "hour_0based": 73,
+      "thermal_index": 16,
+      "uid": "116_STEAM_1",
+      "binary64_hex": "0x1.3be54a5814705p-2",
+      "exact_value": {
+        "numerator": "5557295320745733",
+        "denominator": "18014398509481984",
+        "approximate": 0.30849186098667786
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "5557295320745733",
+        "denominator": "18014398509481984",
+        "approximate": 0.30849186098667786
+      }
+    },
+    {
+      "joint_column": 8657,
+      "block": "U",
+      "hour_0based": 73,
+      "thermal_index": 17,
+      "uid": "118_CC_1",
+      "binary64_hex": "0x1.9236f43f8f227p-1",
+      "exact_value": {
+        "numerator": "7075835206496807",
+        "denominator": "9007199254740992",
+        "approximate": 0.7855755164706054
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "1931364048244185",
+        "denominator": "9007199254740992",
+        "approximate": 0.21442448352939458
+      }
+    },
+    {
+      "joint_column": 8679,
+      "block": "U",
+      "hour_0based": 74,
+      "thermal_index": 15,
+      "uid": "115_STEAM_3",
+      "binary64_hex": "0x1.fffffffffffffp-1",
+      "exact_value": {
+        "numerator": "9007199254740991",
+        "denominator": "9007199254740992",
+        "approximate": 0.9999999999999999
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "1",
+        "denominator": "9007199254740992",
+        "approximate": 1.1102230246251565e-16
+      }
+    },
+    {
+      "joint_column": 8680,
+      "block": "U",
+      "hour_0based": 74,
+      "thermal_index": 16,
+      "uid": "116_STEAM_1",
+      "binary64_hex": "0x1.3be54a5814705p-2",
+      "exact_value": {
+        "numerator": "5557295320745733",
+        "denominator": "18014398509481984",
+        "approximate": 0.30849186098667786
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "5557295320745733",
+        "denominator": "18014398509481984",
+        "approximate": 0.30849186098667786
+      }
+    },
+    {
+      "joint_column": 8681,
+      "block": "U",
+      "hour_0based": 74,
+      "thermal_index": 17,
+      "uid": "118_CC_1",
+      "binary64_hex": "0x1.9236f43f8f224p-1",
+      "exact_value": {
+        "numerator": "1768958801624201",
+        "denominator": "2251799813685248",
+        "approximate": 0.7855755164706051
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "482841012061047",
+        "denominator": "2251799813685248",
+        "approximate": 0.21442448352939492
+      }
+    },
+    {
+      "joint_column": 8703,
+      "block": "U",
+      "hour_0based": 75,
+      "thermal_index": 15,
+      "uid": "115_STEAM_3",
+      "binary64_hex": "0x1.fffffffffffffp-1",
+      "exact_value": {
+        "numerator": "9007199254740991",
+        "denominator": "9007199254740992",
+        "approximate": 0.9999999999999999
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "1",
+        "denominator": "9007199254740992",
+        "approximate": 1.1102230246251565e-16
+      }
+    },
+    {
+      "joint_column": 8704,
+      "block": "U",
+      "hour_0based": 75,
+      "thermal_index": 16,
+      "uid": "116_STEAM_1",
+      "binary64_hex": "0x1.3be54a5814705p-2",
+      "exact_value": {
+        "numerator": "5557295320745733",
+        "denominator": "18014398509481984",
+        "approximate": 0.30849186098667786
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "5557295320745733",
+        "denominator": "18014398509481984",
+        "approximate": 0.30849186098667786
+      }
+    },
+    {
+      "joint_column": 8705,
+      "block": "U",
+      "hour_0based": 75,
+      "thermal_index": 17,
+      "uid": "118_CC_1",
+      "binary64_hex": "0x1.9236f43f8f227p-1",
+      "exact_value": {
+        "numerator": "7075835206496807",
+        "denominator": "9007199254740992",
+        "approximate": 0.7855755164706054
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "1931364048244185",
+        "denominator": "9007199254740992",
+        "approximate": 0.21442448352939458
+      }
+    },
+    {
+      "joint_column": 8727,
+      "block": "U",
+      "hour_0based": 76,
+      "thermal_index": 15,
+      "uid": "115_STEAM_3",
+      "binary64_hex": "0x1.fffffffffffffp-1",
+      "exact_value": {
+        "numerator": "9007199254740991",
+        "denominator": "9007199254740992",
+        "approximate": 0.9999999999999999
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "1",
+        "denominator": "9007199254740992",
+        "approximate": 1.1102230246251565e-16
+      }
+    },
+    {
+      "joint_column": 8728,
+      "block": "U",
+      "hour_0based": 76,
+      "thermal_index": 16,
+      "uid": "116_STEAM_1",
+      "binary64_hex": "0x1.3be54a5814704p-2",
+      "exact_value": {
+        "numerator": "1389323830186433",
+        "denominator": "4503599627370496",
+        "approximate": 0.3084918609866778
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "1389323830186433",
+        "denominator": "4503599627370496",
+        "approximate": 0.3084918609866778
+      }
+    },
+    {
+      "joint_column": 8752,
+      "block": "U",
+      "hour_0based": 77,
+      "thermal_index": 16,
+      "uid": "116_STEAM_1",
+      "binary64_hex": "0x1.3be54a5814704p-2",
+      "exact_value": {
+        "numerator": "1389323830186433",
+        "denominator": "4503599627370496",
+        "approximate": 0.3084918609866778
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "1389323830186433",
+        "denominator": "4503599627370496",
+        "approximate": 0.3084918609866778
+      }
+    },
+    {
+      "joint_column": 8760,
+      "block": "U",
+      "hour_0based": 78,
+      "thermal_index": 0,
+      "uid": "101_CT_1",
+      "binary64_hex": "0x1.d1334692a072bp-1",
+      "exact_value": {
+        "numerator": "8183890148198187",
+        "denominator": "9007199254740992",
+        "approximate": 0.9085943273532612
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "823309106542805",
+        "denominator": "9007199254740992",
+        "approximate": 0.09140567264673882
+      }
+    },
+    {
+      "joint_column": 8776,
+      "block": "U",
+      "hour_0based": 78,
+      "thermal_index": 16,
+      "uid": "116_STEAM_1",
+      "binary64_hex": "0x1.3be54a5814704p-2",
+      "exact_value": {
+        "numerator": "1389323830186433",
+        "denominator": "4503599627370496",
+        "approximate": 0.3084918609866778
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "1389323830186433",
+        "denominator": "4503599627370496",
+        "approximate": 0.3084918609866778
+      }
+    },
+    {
+      "joint_column": 8799,
+      "block": "U",
+      "hour_0based": 79,
+      "thermal_index": 15,
+      "uid": "115_STEAM_3",
+      "binary64_hex": "0x1.2f05682c50839p-1",
+      "exact_value": {
+        "numerator": "5330803932596281",
+        "denominator": "9007199254740992",
+        "approximate": 0.5918381265730722
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "3676395322144711",
+        "denominator": "9007199254740992",
+        "approximate": 0.4081618734269278
+      }
+    },
+    {
+      "joint_column": 8800,
+      "block": "U",
+      "hour_0based": 79,
+      "thermal_index": 16,
+      "uid": "116_STEAM_1",
+      "binary64_hex": "0x1.3be54a5814704p-2",
+      "exact_value": {
+        "numerator": "1389323830186433",
+        "denominator": "4503599627370496",
+        "approximate": 0.3084918609866778
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "1389323830186433",
+        "denominator": "4503599627370496",
+        "approximate": 0.3084918609866778
+      }
+    },
+    {
+      "joint_column": 8823,
+      "block": "U",
+      "hour_0based": 80,
+      "thermal_index": 15,
+      "uid": "115_STEAM_3",
+      "binary64_hex": "0x1.2f05682c50839p-1",
+      "exact_value": {
+        "numerator": "5330803932596281",
+        "denominator": "9007199254740992",
+        "approximate": 0.5918381265730722
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "3676395322144711",
+        "denominator": "9007199254740992",
+        "approximate": 0.4081618734269278
+      }
+    },
+    {
+      "joint_column": 8824,
+      "block": "U",
+      "hour_0based": 80,
+      "thermal_index": 16,
+      "uid": "116_STEAM_1",
+      "binary64_hex": "0x1.3be54a5814704p-2",
+      "exact_value": {
+        "numerator": "1389323830186433",
+        "denominator": "4503599627370496",
+        "approximate": 0.3084918609866778
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "1389323830186433",
+        "denominator": "4503599627370496",
+        "approximate": 0.3084918609866778
+      }
+    },
+    {
+      "joint_column": 8825,
+      "block": "U",
+      "hour_0based": 80,
+      "thermal_index": 17,
+      "uid": "118_CC_1",
+      "binary64_hex": "0x1.bc923bb685356p-1",
+      "exact_value": {
+        "numerator": "3910489838201259",
+        "denominator": "4503599627370496",
+        "approximate": 0.8683031711867482
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "593109789169237",
+        "denominator": "4503599627370496",
+        "approximate": 0.13169682881325184
+      }
+    },
+    {
+      "joint_column": 8847,
+      "block": "U",
+      "hour_0based": 81,
+      "thermal_index": 15,
+      "uid": "115_STEAM_3",
+      "binary64_hex": "0x1.2f05682c50839p-1",
+      "exact_value": {
+        "numerator": "5330803932596281",
+        "denominator": "9007199254740992",
+        "approximate": 0.5918381265730722
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "3676395322144711",
+        "denominator": "9007199254740992",
+        "approximate": 0.4081618734269278
+      }
+    },
+    {
+      "joint_column": 8849,
+      "block": "U",
+      "hour_0based": 81,
+      "thermal_index": 17,
+      "uid": "118_CC_1",
+      "binary64_hex": "0x1.a886f2fef75afp-1",
+      "exact_value": {
+        "numerator": "7468360521446831",
+        "denominator": "9007199254740992",
+        "approximate": 0.8291545807111812
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "1538838733294161",
+        "denominator": "9007199254740992",
+        "approximate": 0.1708454192888188
+      }
+    },
+    {
+      "joint_column": 8871,
+      "block": "U",
+      "hour_0based": 82,
+      "thermal_index": 15,
+      "uid": "115_STEAM_3",
+      "binary64_hex": "0x1.2f05682c50839p-1",
+      "exact_value": {
+        "numerator": "5330803932596281",
+        "denominator": "9007199254740992",
+        "approximate": 0.5918381265730722
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "3676395322144711",
+        "denominator": "9007199254740992",
+        "approximate": 0.4081618734269278
+      }
+    },
+    {
+      "joint_column": 8873,
+      "block": "U",
+      "hour_0based": 82,
+      "thermal_index": 17,
+      "uid": "118_CC_1",
+      "binary64_hex": "0x1.a886f2fef75afp-1",
+      "exact_value": {
+        "numerator": "7468360521446831",
+        "denominator": "9007199254740992",
+        "approximate": 0.8291545807111812
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "1538838733294161",
+        "denominator": "9007199254740992",
+        "approximate": 0.1708454192888188
+      }
+    },
+    {
+      "joint_column": 8895,
+      "block": "U",
+      "hour_0based": 83,
+      "thermal_index": 15,
+      "uid": "115_STEAM_3",
+      "binary64_hex": "0x1.2f05682c50839p-1",
+      "exact_value": {
+        "numerator": "5330803932596281",
+        "denominator": "9007199254740992",
+        "approximate": 0.5918381265730722
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "3676395322144711",
+        "denominator": "9007199254740992",
+        "approximate": 0.4081618734269278
+      }
+    },
+    {
+      "joint_column": 8897,
+      "block": "U",
+      "hour_0based": 83,
+      "thermal_index": 17,
+      "uid": "118_CC_1",
+      "binary64_hex": "0x1.22bd3fd13e11fp-1",
+      "exact_value": {
+        "numerator": "5114739064824095",
+        "denominator": "9007199254740992",
+        "approximate": 0.5678501074717451
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "3892460189916897",
+        "denominator": "9007199254740992",
+        "approximate": 0.43214989252825486
+      }
+    },
+    {
+      "joint_column": 8919,
+      "block": "U",
+      "hour_0based": 84,
+      "thermal_index": 15,
+      "uid": "115_STEAM_3",
+      "binary64_hex": "0x1.2f05682c50839p-1",
+      "exact_value": {
+        "numerator": "5330803932596281",
+        "denominator": "9007199254740992",
+        "approximate": 0.5918381265730722
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "3676395322144711",
+        "denominator": "9007199254740992",
+        "approximate": 0.4081618734269278
+      }
+    },
+    {
+      "joint_column": 8921,
+      "block": "U",
+      "hour_0based": 84,
+      "thermal_index": 17,
+      "uid": "118_CC_1",
+      "binary64_hex": "0x1.0a1b71d9ee2ccp-2",
+      "exact_value": {
+        "numerator": "1170351868852403",
+        "denominator": "4503599627370496",
+        "approximate": 0.2598703183426039
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "1170351868852403",
+        "denominator": "4503599627370496",
+        "approximate": 0.2598703183426039
+      }
+    },
+    {
+      "joint_column": 8943,
+      "block": "U",
+      "hour_0based": 85,
+      "thermal_index": 15,
+      "uid": "115_STEAM_3",
+      "binary64_hex": "0x1.2f05682c50839p-1",
+      "exact_value": {
+        "numerator": "5330803932596281",
+        "denominator": "9007199254740992",
+        "approximate": 0.5918381265730722
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "3676395322144711",
+        "denominator": "9007199254740992",
+        "approximate": 0.4081618734269278
+      }
+    },
+    {
+      "joint_column": 8945,
+      "block": "U",
+      "hour_0based": 85,
+      "thermal_index": 17,
+      "uid": "118_CC_1",
+      "binary64_hex": "0x1.90f6fa6ce3c20p-2",
+      "exact_value": {
+        "numerator": "220432707252705",
+        "denominator": "562949953421312",
+        "approximate": 0.3915671471558557
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "220432707252705",
+        "denominator": "562949953421312",
+        "approximate": 0.3915671471558557
+      }
+    },
+    {
+      "joint_column": 8967,
+      "block": "U",
+      "hour_0based": 86,
+      "thermal_index": 15,
+      "uid": "115_STEAM_3",
+      "binary64_hex": "0x1.2f05682c50839p-1",
+      "exact_value": {
+        "numerator": "5330803932596281",
+        "denominator": "9007199254740992",
+        "approximate": 0.5918381265730722
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "3676395322144711",
+        "denominator": "9007199254740992",
+        "approximate": 0.4081618734269278
+      }
+    },
+    {
+      "joint_column": 8969,
+      "block": "U",
+      "hour_0based": 86,
+      "thermal_index": 17,
+      "uid": "118_CC_1",
+      "binary64_hex": "0x1.90f6fa6ce3c1fp-2",
+      "exact_value": {
+        "numerator": "7053846632086559",
+        "denominator": "18014398509481984",
+        "approximate": 0.39156714715585567
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "7053846632086559",
+        "denominator": "18014398509481984",
+        "approximate": 0.39156714715585567
+      }
+    },
+    {
+      "joint_column": 8991,
+      "block": "U",
+      "hour_0based": 87,
+      "thermal_index": 15,
+      "uid": "115_STEAM_3",
+      "binary64_hex": "0x1.2f05682c50839p-1",
+      "exact_value": {
+        "numerator": "5330803932596281",
+        "denominator": "9007199254740992",
+        "approximate": 0.5918381265730722
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "3676395322144711",
+        "denominator": "9007199254740992",
+        "approximate": 0.4081618734269278
+      }
+    },
+    {
+      "joint_column": 8993,
+      "block": "U",
+      "hour_0based": 87,
+      "thermal_index": 17,
+      "uid": "118_CC_1",
+      "binary64_hex": "0x1.90f6fa6ce3c1fp-2",
+      "exact_value": {
+        "numerator": "7053846632086559",
+        "denominator": "18014398509481984",
+        "approximate": 0.39156714715585567
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "7053846632086559",
+        "denominator": "18014398509481984",
+        "approximate": 0.39156714715585567
+      }
+    },
+    {
+      "joint_column": 9009,
+      "block": "U",
+      "hour_0based": 88,
+      "thermal_index": 9,
+      "uid": "113_CT_1",
+      "binary64_hex": "0x1.523653a2a8f03p-1",
+      "exact_value": {
+        "numerator": "5949892185460483",
+        "denominator": "9007199254740992",
+        "approximate": 0.660570729833552
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "3057307069280509",
+        "denominator": "9007199254740992",
+        "approximate": 0.33942927016644797
+      }
+    },
+    {
+      "joint_column": 9015,
+      "block": "U",
+      "hour_0based": 88,
+      "thermal_index": 15,
+      "uid": "115_STEAM_3",
+      "binary64_hex": "0x1.2f05682c50839p-1",
+      "exact_value": {
+        "numerator": "5330803932596281",
+        "denominator": "9007199254740992",
+        "approximate": 0.5918381265730722
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "3676395322144711",
+        "denominator": "9007199254740992",
+        "approximate": 0.4081618734269278
+      }
+    },
+    {
+      "joint_column": 9017,
+      "block": "U",
+      "hour_0based": 88,
+      "thermal_index": 17,
+      "uid": "118_CC_1",
+      "binary64_hex": "0x1.90f6fa6ce3c1fp-2",
+      "exact_value": {
+        "numerator": "7053846632086559",
+        "denominator": "18014398509481984",
+        "approximate": 0.39156714715585567
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "7053846632086559",
+        "denominator": "18014398509481984",
+        "approximate": 0.39156714715585567
+      }
+    },
+    {
+      "joint_column": 9020,
+      "block": "U",
+      "hour_0based": 88,
+      "thermal_index": 20,
+      "uid": "123_CT_1",
+      "binary64_hex": "0x1.0e2b2ad8de111p-2",
+      "exact_value": {
+        "numerator": "4752856671183121",
+        "denominator": "18014398509481984",
+        "approximate": 0.2638365454545389
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "4752856671183121",
+        "denominator": "18014398509481984",
+        "approximate": 0.2638365454545389
+      }
+    },
+    {
+      "joint_column": 9033,
+      "block": "U",
+      "hour_0based": 89,
+      "thermal_index": 9,
+      "uid": "113_CT_1",
+      "binary64_hex": "0x1.523653a2a8f03p-1",
+      "exact_value": {
+        "numerator": "5949892185460483",
+        "denominator": "9007199254740992",
+        "approximate": 0.660570729833552
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "3057307069280509",
+        "denominator": "9007199254740992",
+        "approximate": 0.33942927016644797
+      }
+    },
+    {
+      "joint_column": 9039,
+      "block": "U",
+      "hour_0based": 89,
+      "thermal_index": 15,
+      "uid": "115_STEAM_3",
+      "binary64_hex": "0x1.2f05682c50839p-1",
+      "exact_value": {
+        "numerator": "5330803932596281",
+        "denominator": "9007199254740992",
+        "approximate": 0.5918381265730722
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "3676395322144711",
+        "denominator": "9007199254740992",
+        "approximate": 0.4081618734269278
+      }
+    },
+    {
+      "joint_column": 9041,
+      "block": "U",
+      "hour_0based": 89,
+      "thermal_index": 17,
+      "uid": "118_CC_1",
+      "binary64_hex": "0x1.90f6fa6ce3c1ep-2",
+      "exact_value": {
+        "numerator": "3526923316043279",
+        "denominator": "9007199254740992",
+        "approximate": 0.3915671471558556
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "3526923316043279",
+        "denominator": "9007199254740992",
+        "approximate": 0.3915671471558556
+      }
+    },
+    {
+      "joint_column": 9045,
+      "block": "U",
+      "hour_0based": 89,
+      "thermal_index": 21,
+      "uid": "123_CT_4",
+      "binary64_hex": "0x1.fffffffffffc8p-1",
+      "exact_value": {
+        "numerator": "1125899906842617",
+        "denominator": "1125899906842624",
+        "approximate": 0.9999999999999938
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "7",
+        "denominator": "1125899906842624",
+        "approximate": 6.217248937900877e-15
+      }
+    },
+    {
+      "joint_column": 9057,
+      "block": "U",
+      "hour_0based": 90,
+      "thermal_index": 9,
+      "uid": "113_CT_1",
+      "binary64_hex": "0x1.523653a2a8f03p-1",
+      "exact_value": {
+        "numerator": "5949892185460483",
+        "denominator": "9007199254740992",
+        "approximate": 0.660570729833552
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "3057307069280509",
+        "denominator": "9007199254740992",
+        "approximate": 0.33942927016644797
+      }
+    },
+    {
+      "joint_column": 9065,
+      "block": "U",
+      "hour_0based": 90,
+      "thermal_index": 17,
+      "uid": "118_CC_1",
+      "binary64_hex": "0x1.0f1d2d70e875fp-2",
+      "exact_value": {
+        "numerator": "4769487480850271",
+        "denominator": "18014398509481984",
+        "approximate": 0.2647597408450703
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "4769487480850271",
+        "denominator": "18014398509481984",
+        "approximate": 0.2647597408450703
+      }
+    },
+    {
+      "joint_column": 9069,
+      "block": "U",
+      "hour_0based": 90,
+      "thermal_index": 21,
+      "uid": "123_CT_4",
+      "binary64_hex": "0x1.fffffffffffc8p-1",
+      "exact_value": {
+        "numerator": "1125899906842617",
+        "denominator": "1125899906842624",
+        "approximate": 0.9999999999999938
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "7",
+        "denominator": "1125899906842624",
+        "approximate": 6.217248937900877e-15
+      }
+    },
+    {
+      "joint_column": 9089,
+      "block": "U",
+      "hour_0based": 91,
+      "thermal_index": 17,
+      "uid": "118_CC_1",
+      "binary64_hex": "0x1.0f1d2d70e875ep-2",
+      "exact_value": {
+        "numerator": "2384743740425135",
+        "denominator": "9007199254740992",
+        "approximate": 0.26475974084507026
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "2384743740425135",
+        "denominator": "9007199254740992",
+        "approximate": 0.26475974084507026
+      }
+    },
+    {
+      "joint_column": 9092,
+      "block": "U",
+      "hour_0based": 91,
+      "thermal_index": 20,
+      "uid": "123_CT_1",
+      "binary64_hex": "0x1.78ea6a9390f77p-1",
+      "exact_value": {
+        "numerator": "6630770919149431",
+        "denominator": "9007199254740992",
+        "approximate": 0.7361634545454611
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "2376428335591561",
+        "denominator": "9007199254740992",
+        "approximate": 0.26383654545453894
+      }
+    },
+    {
+      "joint_column": 9093,
+      "block": "U",
+      "hour_0based": 91,
+      "thermal_index": 21,
+      "uid": "123_CT_4",
+      "binary64_hex": "0x1.fffffffffffc8p-1",
+      "exact_value": {
+        "numerator": "1125899906842617",
+        "denominator": "1125899906842624",
+        "approximate": 0.9999999999999938
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "7",
+        "denominator": "1125899906842624",
+        "approximate": 6.217248937900877e-15
+      }
+    },
+    {
+      "joint_column": 9113,
+      "block": "U",
+      "hour_0based": 92,
+      "thermal_index": 17,
+      "uid": "118_CC_1",
+      "binary64_hex": "0x1.0f1d2d70e875ep-2",
+      "exact_value": {
+        "numerator": "2384743740425135",
+        "denominator": "9007199254740992",
+        "approximate": 0.26475974084507026
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "2384743740425135",
+        "denominator": "9007199254740992",
+        "approximate": 0.26475974084507026
+      }
+    },
+    {
+      "joint_column": 9316,
+      "block": "U",
+      "hour_0based": 101,
+      "thermal_index": 4,
+      "uid": "102_CT_1",
+      "binary64_hex": "0x1.450d87a7ff933p-1",
+      "exact_value": {
+        "numerator": "5718390232578355",
+        "denominator": "9007199254740992",
+        "approximate": 0.6348688500000094
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "3288809022162637",
+        "denominator": "9007199254740992",
+        "approximate": 0.36513114999999063
+      }
+    },
+    {
+      "joint_column": 9334,
+      "block": "U",
+      "hour_0based": 101,
+      "thermal_index": 22,
+      "uid": "123_CT_5",
+      "binary64_hex": "0x1.92491000c46fbp-3",
+      "exact_value": {
+        "numerator": "7077079607428859",
+        "denominator": "36028797018963968",
+        "approximate": 0.19642841818181708
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "7077079607428859",
+        "denominator": "36028797018963968",
+        "approximate": 0.19642841818181708
+      }
+    },
+    {
+      "joint_column": 9358,
+      "block": "U",
+      "hour_0based": 102,
+      "thermal_index": 22,
+      "uid": "123_CT_5",
+      "binary64_hex": "0x1.92491000c46fbp-3",
+      "exact_value": {
+        "numerator": "7077079607428859",
+        "denominator": "36028797018963968",
+        "approximate": 0.19642841818181708
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "7077079607428859",
+        "denominator": "36028797018963968",
+        "approximate": 0.19642841818181708
+      }
+    },
+    {
+      "joint_column": 9382,
+      "block": "U",
+      "hour_0based": 103,
+      "thermal_index": 22,
+      "uid": "123_CT_5",
+      "binary64_hex": "0x1.92491000c46fbp-3",
+      "exact_value": {
+        "numerator": "7077079607428859",
+        "denominator": "36028797018963968",
+        "approximate": 0.19642841818181708
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "7077079607428859",
+        "denominator": "36028797018963968",
+        "approximate": 0.19642841818181708
+      }
+    },
+    {
+      "joint_column": 9569,
+      "block": "U",
+      "hour_0based": 111,
+      "thermal_index": 17,
+      "uid": "118_CC_1",
+      "binary64_hex": "0x1.3e11175c19b93p-1",
+      "exact_value": {
+        "numerator": "5595489663818643",
+        "denominator": "9007199254740992",
+        "approximate": 0.6212241458823534
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "3411709590922349",
+        "denominator": "9007199254740992",
+        "approximate": 0.3787758541176466
+      }
+    },
+    {
+      "joint_column": 9592,
+      "block": "U",
+      "hour_0based": 112,
+      "thermal_index": 16,
+      "uid": "116_STEAM_1",
+      "binary64_hex": "0x1.0ee583ebce210p-4",
+      "exact_value": {
+        "numerator": "297853900279329",
+        "denominator": "4503599627370496",
+        "approximate": 0.06613685161290328
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "297853900279329",
+        "denominator": "4503599627370496",
+        "approximate": 0.06613685161290328
+      }
+    },
+    {
+      "joint_column": 9610,
+      "block": "U",
+      "hour_0based": 113,
+      "thermal_index": 10,
+      "uid": "113_CT_2",
+      "binary64_hex": "0x1.0a9da940ea174p-2",
+      "exact_value": {
+        "numerator": "1172588969830493",
+        "denominator": "4503599627370496",
+        "approximate": 0.2603670545454613
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "1172588969830493",
+        "denominator": "4503599627370496",
+        "approximate": 0.2603670545454613
+      }
+    },
+    {
+      "joint_column": 9616,
+      "block": "U",
+      "hour_0based": 113,
+      "thermal_index": 16,
+      "uid": "116_STEAM_1",
+      "binary64_hex": "0x1.0ee583ebce211p-4",
+      "exact_value": {
+        "numerator": "4765662404469265",
+        "denominator": "72057594037927936",
+        "approximate": 0.0661368516129033
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "4765662404469265",
+        "denominator": "72057594037927936",
+        "approximate": 0.0661368516129033
+      }
+    },
+    {
+      "joint_column": 9634,
+      "block": "U",
+      "hour_0based": 114,
+      "thermal_index": 10,
+      "uid": "113_CT_2",
+      "binary64_hex": "0x1.0a9da940ea174p-2",
+      "exact_value": {
+        "numerator": "1172588969830493",
+        "denominator": "4503599627370496",
+        "approximate": 0.2603670545454613
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "1172588969830493",
+        "denominator": "4503599627370496",
+        "approximate": 0.2603670545454613
+      }
+    },
+    {
+      "joint_column": 9640,
+      "block": "U",
+      "hour_0based": 114,
+      "thermal_index": 16,
+      "uid": "116_STEAM_1",
+      "binary64_hex": "0x1.0ee583ebce210p-4",
+      "exact_value": {
+        "numerator": "297853900279329",
+        "denominator": "4503599627370496",
+        "approximate": 0.06613685161290328
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "297853900279329",
+        "denominator": "4503599627370496",
+        "approximate": 0.06613685161290328
+      }
+    },
+    {
+      "joint_column": 9644,
+      "block": "U",
+      "hour_0based": 114,
+      "thermal_index": 20,
+      "uid": "123_CT_1",
+      "binary64_hex": "0x1.fffffffffffffp-1",
+      "exact_value": {
+        "numerator": "9007199254740991",
+        "denominator": "9007199254740992",
+        "approximate": 0.9999999999999999
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "1",
+        "denominator": "9007199254740992",
+        "approximate": 1.1102230246251565e-16
+      }
+    },
+    {
+      "joint_column": 9658,
+      "block": "U",
+      "hour_0based": 115,
+      "thermal_index": 10,
+      "uid": "113_CT_2",
+      "binary64_hex": "0x1.0a9da940ea174p-2",
+      "exact_value": {
+        "numerator": "1172588969830493",
+        "denominator": "4503599627370496",
+        "approximate": 0.2603670545454613
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "1172588969830493",
+        "denominator": "4503599627370496",
+        "approximate": 0.2603670545454613
+      }
+    },
+    {
+      "joint_column": 9664,
+      "block": "U",
+      "hour_0based": 115,
+      "thermal_index": 16,
+      "uid": "116_STEAM_1",
+      "binary64_hex": "0x1.0ee583ebce210p-4",
+      "exact_value": {
+        "numerator": "297853900279329",
+        "denominator": "4503599627370496",
+        "approximate": 0.06613685161290328
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "297853900279329",
+        "denominator": "4503599627370496",
+        "approximate": 0.06613685161290328
+      }
+    },
+    {
+      "joint_column": 9668,
+      "block": "U",
+      "hour_0based": 115,
+      "thermal_index": 20,
+      "uid": "123_CT_1",
+      "binary64_hex": "0x1.fffffffffffffp-1",
+      "exact_value": {
+        "numerator": "9007199254740991",
+        "denominator": "9007199254740992",
+        "approximate": 0.9999999999999999
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "1",
+        "denominator": "9007199254740992",
+        "approximate": 1.1102230246251565e-16
+      }
+    },
+    {
+      "joint_column": 9688,
+      "block": "U",
+      "hour_0based": 116,
+      "thermal_index": 16,
+      "uid": "116_STEAM_1",
+      "binary64_hex": "0x1.0ee583ebce210p-4",
+      "exact_value": {
+        "numerator": "297853900279329",
+        "denominator": "4503599627370496",
+        "approximate": 0.06613685161290328
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "297853900279329",
+        "denominator": "4503599627370496",
+        "approximate": 0.06613685161290328
+      }
+    },
+    {
+      "joint_column": 9712,
+      "block": "U",
+      "hour_0based": 117,
+      "thermal_index": 16,
+      "uid": "116_STEAM_1",
+      "binary64_hex": "0x1.0ee583ebce211p-4",
+      "exact_value": {
+        "numerator": "4765662404469265",
+        "denominator": "72057594037927936",
+        "approximate": 0.0661368516129033
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "4765662404469265",
+        "denominator": "72057594037927936",
+        "approximate": 0.0661368516129033
+      }
+    },
+    {
+      "joint_column": 9736,
+      "block": "U",
+      "hour_0based": 118,
+      "thermal_index": 16,
+      "uid": "116_STEAM_1",
+      "binary64_hex": "0x1.0ee583ebce210p-4",
+      "exact_value": {
+        "numerator": "297853900279329",
+        "denominator": "4503599627370496",
+        "approximate": 0.06613685161290328
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "297853900279329",
+        "denominator": "4503599627370496",
+        "approximate": 0.06613685161290328
+      }
+    },
+    {
+      "joint_column": 9760,
+      "block": "U",
+      "hour_0based": 119,
+      "thermal_index": 16,
+      "uid": "116_STEAM_1",
+      "binary64_hex": "0x1.0ee583ebce211p-4",
+      "exact_value": {
+        "numerator": "4765662404469265",
+        "denominator": "72057594037927936",
+        "approximate": 0.0661368516129033
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "4765662404469265",
+        "denominator": "72057594037927936",
+        "approximate": 0.0661368516129033
+      }
+    },
+    {
+      "joint_column": 9761,
+      "block": "U",
+      "hour_0based": 119,
+      "thermal_index": 17,
+      "uid": "118_CC_1",
+      "binary64_hex": "0x1.83ddd147cc8d9p-2",
+      "exact_value": {
+        "numerator": "6823419181844697",
+        "denominator": "18014398509481984",
+        "approximate": 0.3787758541176465
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "6823419181844697",
+        "denominator": "18014398509481984",
+        "approximate": 0.3787758541176465
+      }
+    },
+    {
+      "joint_column": 9886,
+      "block": "U",
+      "hour_0based": 124,
+      "thermal_index": 22,
+      "uid": "123_CT_5",
+      "binary64_hex": "0x1.4887fe3f97174p-4",
+      "exact_value": {
+        "numerator": "1444895600303197",
+        "denominator": "18014398509481984",
+        "approximate": 0.08020781818180983
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "1444895600303197",
+        "denominator": "18014398509481984",
+        "approximate": 0.08020781818180983
+      }
+    },
+    {
+      "joint_column": 9910,
+      "block": "U",
+      "hour_0based": 125,
+      "thermal_index": 22,
+      "uid": "123_CT_5",
+      "binary64_hex": "0x1.67e3fbe486ac2p-1",
+      "exact_value": {
+        "numerator": "3165630864045409",
+        "denominator": "4503599627370496",
+        "approximate": 0.7029112545454483
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "1337968763325087",
+        "denominator": "4503599627370496",
+        "approximate": 0.29708874545455166
+      }
+    },
+    {
+      "joint_column": 9934,
+      "block": "U",
+      "hour_0based": 126,
+      "thermal_index": 22,
+      "uid": "123_CT_5",
+      "binary64_hex": "0x1.67e3fbe486ac3p-1",
+      "exact_value": {
+        "numerator": "6331261728090819",
+        "denominator": "9007199254740992",
+        "approximate": 0.7029112545454484
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "2675937526650173",
+        "denominator": "9007199254740992",
+        "approximate": 0.29708874545455155
+      }
+    },
+    {
+      "joint_column": 9958,
+      "block": "U",
+      "hour_0based": 127,
+      "thermal_index": 22,
+      "uid": "123_CT_5",
+      "binary64_hex": "0x1.3ed2fc1c93c93p-1",
+      "exact_value": {
+        "numerator": "5608813927939219",
+        "denominator": "9007199254740992",
+        "approximate": 0.6227034363636385
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "3398385326801773",
+        "denominator": "9007199254740992",
+        "approximate": 0.37729656363636155
+      }
+    },
+    {
+      "joint_column": 10180,
+      "block": "U",
+      "hour_0based": 137,
+      "thermal_index": 4,
+      "uid": "102_CT_1",
+      "binary64_hex": "0x1.0b14b6706a000p-5",
+      "exact_value": {
+        "numerator": "573551884341",
+        "denominator": "17592186044416",
+        "approximate": 0.032602650000001177
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "573551884341",
+        "denominator": "17592186044416",
+        "approximate": 0.032602650000001177
+      }
+    },
+    {
+      "joint_column": 10181,
+      "block": "U",
+      "hour_0based": 137,
+      "thermal_index": 5,
+      "uid": "102_CT_2",
+      "binary64_hex": "0x1.9322805d88732p-1",
+      "exact_value": {
+        "numerator": "3546010947961753",
+        "denominator": "4503599627370496",
+        "approximate": 0.7873726000000032
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "957588679408743",
+        "denominator": "4503599627370496",
+        "approximate": 0.2126273999999968
+      }
+    },
+    {
+      "joint_column": 10204,
+      "block": "U",
+      "hour_0based": 138,
+      "thermal_index": 4,
+      "uid": "102_CT_1",
+      "binary64_hex": "0x1.0b14b6706a000p-5",
+      "exact_value": {
+        "numerator": "573551884341",
+        "denominator": "17592186044416",
+        "approximate": 0.032602650000001177
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "573551884341",
+        "denominator": "17592186044416",
+        "approximate": 0.032602650000001177
+      }
+    },
+    {
+      "joint_column": 10224,
+      "block": "U",
+      "hour_0based": 139,
+      "thermal_index": 0,
+      "uid": "101_CT_1",
+      "binary64_hex": "0x1.ffffffffffffep-1",
+      "exact_value": {
+        "numerator": "4503599627370495",
+        "denominator": "4503599627370496",
+        "approximate": 0.9999999999999998
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "1",
+        "denominator": "4503599627370496",
+        "approximate": 2.220446049250313e-16
+      }
+    },
+    {
+      "joint_column": 10229,
+      "block": "U",
+      "hour_0based": 139,
+      "thermal_index": 5,
+      "uid": "102_CT_2",
+      "binary64_hex": "0x1.d7434e3369c03p-1",
+      "exact_value": {
+        "numerator": "8290544823737347",
+        "denominator": "9007199254740992",
+        "approximate": 0.9204353750000113
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "716654431003645",
+        "denominator": "9007199254740992",
+        "approximate": 0.07956462499998873
+      }
+    },
+    {
+      "joint_column": 10453,
+      "block": "U",
+      "hour_0based": 148,
+      "thermal_index": 13,
+      "uid": "115_STEAM_1",
+      "binary64_hex": "0x1.bed4b52b38295p-2",
+      "exact_value": {
+        "numerator": "7860732137013909",
+        "denominator": "18014398509481984",
+        "approximate": 0.4363582904461876
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "7860732137013909",
+        "denominator": "18014398509481984",
+        "approximate": 0.4363582904461876
+      }
+    },
+    {
+      "joint_column": 10461,
+      "block": "U",
+      "hour_0based": 148,
+      "thermal_index": 21,
+      "uid": "123_CT_4",
+      "binary64_hex": "0x1.a19eda2350011p-1",
+      "exact_value": {
+        "numerator": "7346857813803025",
+        "denominator": "9007199254740992",
+        "approximate": 0.815665070353136
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "1660341440937967",
+        "denominator": "9007199254740992",
+        "approximate": 0.18433492964686404
+      }
+    },
+    {
+      "joint_column": 10477,
+      "block": "U",
+      "hour_0based": 149,
+      "thermal_index": 13,
+      "uid": "115_STEAM_1",
+      "binary64_hex": "0x1.bed4b52b38295p-2",
+      "exact_value": {
+        "numerator": "7860732137013909",
+        "denominator": "18014398509481984",
+        "approximate": 0.4363582904461876
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "7860732137013909",
+        "denominator": "18014398509481984",
+        "approximate": 0.4363582904461876
+      }
+    },
+    {
+      "joint_column": 10484,
+      "block": "U",
+      "hour_0based": 149,
+      "thermal_index": 20,
+      "uid": "123_CT_1",
+      "binary64_hex": "0x1.14c6529e6cd66p-2",
+      "exact_value": {
+        "numerator": "2434535991240371",
+        "denominator": "9007199254740992",
+        "approximate": 0.27028779117536883
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "2434535991240371",
+        "denominator": "9007199254740992",
+        "approximate": 0.27028779117536883
+      }
+    },
+    {
+      "joint_column": 10501,
+      "block": "U",
+      "hour_0based": 150,
+      "thermal_index": 13,
+      "uid": "115_STEAM_1",
+      "binary64_hex": "0x1.bed4b52b38295p-2",
+      "exact_value": {
+        "numerator": "7860732137013909",
+        "denominator": "18014398509481984",
+        "approximate": 0.4363582904461876
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "7860732137013909",
+        "denominator": "18014398509481984",
+        "approximate": 0.4363582904461876
+      }
+    },
+    {
+      "joint_column": 10508,
+      "block": "U",
+      "hour_0based": 150,
+      "thermal_index": 20,
+      "uid": "123_CT_1",
+      "binary64_hex": "0x1.14c6529e6cd66p-2",
+      "exact_value": {
+        "numerator": "2434535991240371",
+        "denominator": "9007199254740992",
+        "approximate": 0.27028779117536883
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "2434535991240371",
+        "denominator": "9007199254740992",
+        "approximate": 0.27028779117536883
+      }
+    },
+    {
+      "joint_column": 10525,
+      "block": "U",
+      "hour_0based": 151,
+      "thermal_index": 13,
+      "uid": "115_STEAM_1",
+      "binary64_hex": "0x1.bed4b52b38295p-2",
+      "exact_value": {
+        "numerator": "7860732137013909",
+        "denominator": "18014398509481984",
+        "approximate": 0.4363582904461876
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "7860732137013909",
+        "denominator": "18014398509481984",
+        "approximate": 0.4363582904461876
+      }
+    },
+    {
+      "joint_column": 10532,
+      "block": "U",
+      "hour_0based": 151,
+      "thermal_index": 20,
+      "uid": "123_CT_1",
+      "binary64_hex": "0x1.14c6529e6cd66p-2",
+      "exact_value": {
+        "numerator": "2434535991240371",
+        "denominator": "9007199254740992",
+        "approximate": 0.27028779117536883
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "2434535991240371",
+        "denominator": "9007199254740992",
+        "approximate": 0.27028779117536883
+      }
+    },
+    {
+      "joint_column": 10533,
+      "block": "U",
+      "hour_0based": 151,
+      "thermal_index": 21,
+      "uid": "123_CT_4",
+      "binary64_hex": "0x1.79849772bffb6p-3",
+      "exact_value": {
+        "numerator": "3320682881875931",
+        "denominator": "18014398509481984",
+        "approximate": 0.18433492964686388
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "3320682881875931",
+        "denominator": "18014398509481984",
+        "approximate": 0.18433492964686388
+      }
+    },
+    {
+      "joint_column": 10752,
+      "block": "U",
+      "hour_0based": 161,
+      "thermal_index": 0,
+      "uid": "101_CT_1",
+      "binary64_hex": "0x1.3d127a347d35fp-3",
+      "exact_value": {
+        "numerator": "5577992730825567",
+        "denominator": "36028797018963968",
+        "approximate": 0.15482039902385744
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "5577992730825567",
+        "denominator": "36028797018963968",
+        "approximate": 0.15482039902385744
+      }
+    },
+    {
+      "joint_column": 10765,
+      "block": "U",
+      "hour_0based": 161,
+      "thermal_index": 13,
+      "uid": "115_STEAM_1",
+      "binary64_hex": "0x1.634f17f679792p-2",
+      "exact_value": {
+        "numerator": "3125330658446281",
+        "denominator": "9007199254740992",
+        "approximate": 0.3469814056573962
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "3125330658446281",
+        "denominator": "9007199254740992",
+        "approximate": 0.3469814056573962
+      }
+    },
+    {
+      "joint_column": 10772,
+      "block": "U",
+      "hour_0based": 161,
+      "thermal_index": 20,
+      "uid": "123_CT_1",
+      "binary64_hex": "0x1.d75aef2be714cp-2",
+      "exact_value": {
+        "numerator": "2073042145483859",
+        "denominator": "4503599627370496",
+        "approximate": 0.46030782418690275
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "2073042145483859",
+        "denominator": "4503599627370496",
+        "approximate": 0.46030782418690275
+      }
+    },
+    {
+      "joint_column": 10773,
+      "block": "U",
+      "hour_0based": 161,
+      "thermal_index": 21,
+      "uid": "123_CT_4",
+      "binary64_hex": "-0x1.c9b26c9b26c9dp-46",
+      "exact_value": {
+        "numerator": "-8051890242874525",
+        "denominator": "316912650057057350374175801344",
+        "approximate": -2.540728570293692e-14
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "8051890242874525",
+        "denominator": "316912650057057350374175801344",
+        "approximate": 2.540728570293692e-14
+      }
+    },
+    {
+      "joint_column": 10789,
+      "block": "U",
+      "hour_0based": 162,
+      "thermal_index": 13,
+      "uid": "115_STEAM_1",
+      "binary64_hex": "0x1.634f17f679792p-2",
+      "exact_value": {
+        "numerator": "3125330658446281",
+        "denominator": "9007199254740992",
+        "approximate": 0.3469814056573962
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "3125330658446281",
+        "denominator": "9007199254740992",
+        "approximate": 0.3469814056573962
+      }
+    },
+    {
+      "joint_column": 10796,
+      "block": "U",
+      "hour_0based": 162,
+      "thermal_index": 20,
+      "uid": "123_CT_1",
+      "binary64_hex": "0x1.d75aef2be714bp-2",
+      "exact_value": {
+        "numerator": "8292168581935435",
+        "denominator": "18014398509481984",
+        "approximate": 0.4603078241869027
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "8292168581935435",
+        "denominator": "18014398509481984",
+        "approximate": 0.4603078241869027
+      }
+    },
+    {
+      "joint_column": 10797,
+      "block": "U",
+      "hour_0based": 162,
+      "thermal_index": 21,
+      "uid": "123_CT_4",
+      "binary64_hex": "-0x1.c9b26c9b26c9dp-46",
+      "exact_value": {
+        "numerator": "-8051890242874525",
+        "denominator": "316912650057057350374175801344",
+        "approximate": -2.540728570293692e-14
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "8051890242874525",
+        "denominator": "316912650057057350374175801344",
+        "approximate": 2.540728570293692e-14
+      }
+    },
+    {
+      "joint_column": 10813,
+      "block": "U",
+      "hour_0based": 163,
+      "thermal_index": 13,
+      "uid": "115_STEAM_1",
+      "binary64_hex": "0x1.634f17f679793p-2",
+      "exact_value": {
+        "numerator": "6250661316892563",
+        "denominator": "18014398509481984",
+        "approximate": 0.34698140565739627
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "6250661316892563",
+        "denominator": "18014398509481984",
+        "approximate": 0.34698140565739627
+      }
+    },
+    {
+      "joint_column": 10820,
+      "block": "U",
+      "hour_0based": 163,
+      "thermal_index": 20,
+      "uid": "123_CT_1",
+      "binary64_hex": "0x1.d75aef2be714bp-2",
+      "exact_value": {
+        "numerator": "8292168581935435",
+        "denominator": "18014398509481984",
+        "approximate": 0.4603078241869027
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "8292168581935435",
+        "denominator": "18014398509481984",
+        "approximate": 0.4603078241869027
+      }
+    },
+    {
+      "joint_column": 10821,
+      "block": "U",
+      "hour_0based": 163,
+      "thermal_index": 21,
+      "uid": "123_CT_4",
+      "binary64_hex": "-0x1.c9b26c9b26c9dp-46",
+      "exact_value": {
+        "numerator": "-8051890242874525",
+        "denominator": "316912650057057350374175801344",
+        "approximate": -2.540728570293692e-14
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "8051890242874525",
+        "denominator": "316912650057057350374175801344",
+        "approximate": 2.540728570293692e-14
+      }
+    },
+    {
+      "joint_column": 10828,
+      "block": "U",
+      "hour_0based": 164,
+      "thermal_index": 4,
+      "uid": "102_CT_1",
+      "binary64_hex": "0x1.af385a1c5ef53p-1",
+      "exact_value": {
+        "numerator": "7586104664780627",
+        "denominator": "9007199254740992",
+        "approximate": 0.8422268066055757
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "1421094589960365",
+        "denominator": "9007199254740992",
+        "approximate": 0.1577731933944243
+      }
+    },
+    {
+      "joint_column": 10837,
+      "block": "U",
+      "hour_0based": 164,
+      "thermal_index": 13,
+      "uid": "115_STEAM_1",
+      "binary64_hex": "0x1.634f17f679793p-2",
+      "exact_value": {
+        "numerator": "6250661316892563",
+        "denominator": "18014398509481984",
+        "approximate": 0.34698140565739627
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "6250661316892563",
+        "denominator": "18014398509481984",
+        "approximate": 0.34698140565739627
+      }
+    },
+    {
+      "joint_column": 11033,
+      "block": "Y",
+      "hour_0based": 4,
+      "thermal_index": 17,
+      "uid": "118_CC_1",
+      "binary64_hex": "0x1.01eb744ba77b5p-6",
+      "exact_value": {
+        "numerator": "4537372108289973",
+        "denominator": "288230376151711744",
+        "approximate": 0.01574217183098599
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "4537372108289973",
+        "denominator": "288230376151711744",
+        "approximate": 0.01574217183098599
+      }
+    },
+    {
+      "joint_column": 11055,
+      "block": "Y",
+      "hour_0based": 5,
+      "thermal_index": 15,
+      "uid": "115_STEAM_3",
+      "binary64_hex": "0x1.f994d6e4cde45p-3",
+      "exact_value": {
+        "numerator": "8894282120093253",
+        "denominator": "36028797018963968",
+        "approximate": 0.24686591993098453
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "8894282120093253",
+        "denominator": "36028797018963968",
+        "approximate": 0.24686591993098453
+      }
+    },
+    {
+      "joint_column": 11057,
+      "block": "Y",
+      "hour_0based": 5,
+      "thermal_index": 17,
+      "uid": "118_CC_1",
+      "binary64_hex": "0x1.47d1d20c3e7bap-2",
+      "exact_value": {
+        "numerator": "2883531795723229",
+        "denominator": "9007199254740992",
+        "approximate": 0.32013633918506523
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "2883531795723229",
+        "denominator": "9007199254740992",
+        "approximate": 0.32013633918506523
+      }
+    },
+    {
+      "joint_column": 11064,
+      "block": "Y",
+      "hour_0based": 6,
+      "thermal_index": 0,
+      "uid": "101_CT_1",
+      "binary64_hex": "0x1.7107554592cffp-2",
+      "exact_value": {
+        "numerator": "6492020576693503",
+        "denominator": "18014398509481984",
+        "approximate": 0.3603795360292707
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "6492020576693503",
+        "denominator": "18014398509481984",
+        "approximate": 0.3603795360292707
+      }
+    },
+    {
+      "joint_column": 11081,
+      "block": "Y",
+      "hour_0based": 6,
+      "thermal_index": 17,
+      "uid": "118_CC_1",
+      "binary64_hex": "0x1.515c7f62b68cep-3",
+      "exact_value": {
+        "numerator": "2967461541819495",
+        "denominator": "18014398509481984",
+        "approximate": 0.1647272064208835
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "2967461541819495",
+        "denominator": "18014398509481984",
+        "approximate": 0.1647272064208835
+      }
+    },
+    {
+      "joint_column": 11177,
+      "block": "Y",
+      "hour_0based": 10,
+      "thermal_index": 17,
+      "uid": "118_CC_1",
+      "binary64_hex": "0x1.1923255483c78p-2",
+      "exact_value": {
+        "numerator": "618227435112335",
+        "denominator": "2251799813685248",
+        "approximate": 0.2745481331666677
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "618227435112335",
+        "denominator": "2251799813685248",
+        "approximate": 0.2745481331666677
+      }
+    },
+    {
+      "joint_column": 11201,
+      "block": "Y",
+      "hour_0based": 11,
+      "thermal_index": 17,
+      "uid": "118_CC_1",
+      "binary64_hex": "0x1.3fc1ed608da0cp-3",
+      "exact_value": {
+        "numerator": "1406308481906307",
+        "denominator": "9007199254740992",
+        "approximate": 0.15613160563380324
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "1406308481906307",
+        "denominator": "9007199254740992",
+        "approximate": 0.15613160563380324
+      }
+    },
+    {
+      "joint_column": 11248,
+      "block": "Y",
+      "hour_0based": 13,
+      "thermal_index": 16,
+      "uid": "116_STEAM_1",
+      "binary64_hex": "0x1.0625018d7c158p-1",
+      "exact_value": {
+        "numerator": "576461972633643",
+        "denominator": "1125899906842624",
+        "approximate": 0.5120010838709659
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "549437934208981",
+        "denominator": "1125899906842624",
+        "approximate": 0.4879989161290341
+      }
+    },
+    {
+      "joint_column": 11271,
+      "block": "Y",
+      "hour_0based": 14,
+      "thermal_index": 15,
+      "uid": "115_STEAM_3",
+      "binary64_hex": "0x1.efd3c73118aa0p-5",
+      "exact_value": {
+        "numerator": "272583917866069",
+        "denominator": "4503599627370496",
+        "approximate": 0.060525788351488474
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "272583917866069",
+        "denominator": "4503599627370496",
+        "approximate": 0.060525788351488474
+      }
+    },
+    {
+      "joint_column": 11273,
+      "block": "Y",
+      "hour_0based": 14,
+      "thermal_index": 17,
+      "uid": "118_CC_1",
+      "binary64_hex": "0x1.6a5ae305901f0p-5",
+      "exact_value": {
+        "numerator": "398413565104159",
+        "denominator": "9007199254740992",
+        "approximate": 0.04423279133016311
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "398413565104159",
+        "denominator": "9007199254740992",
+        "approximate": 0.04423279133016311
+      }
+    },
+    {
+      "joint_column": 11295,
+      "block": "Y",
+      "hour_0based": 15,
+      "thermal_index": 15,
+      "uid": "115_STEAM_3",
+      "binary64_hex": "0x1.629d8dd3bafc5p-1",
+      "exact_value": {
+        "numerator": "6238460888985541",
+        "denominator": "9007199254740992",
+        "approximate": 0.692608291717527
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "2768738365755451",
+        "denominator": "9007199254740992",
+        "approximate": 0.307391708282473
+      }
+    },
+    {
+      "joint_column": 11297,
+      "block": "Y",
+      "hour_0based": 15,
+      "thermal_index": 17,
+      "uid": "118_CC_1",
+      "binary64_hex": "0x1.911be982f2a80p-6",
+      "exact_value": {
+        "numerator": "55128005566037",
+        "denominator": "2251799813685248",
+        "approximate": 0.024481752432431225
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "55128005566037",
+        "denominator": "2251799813685248",
+        "approximate": 0.024481752432431225
+      }
+    },
+    {
+      "joint_column": 11612,
+      "block": "Y",
+      "hour_0based": 28,
+      "thermal_index": 20,
+      "uid": "123_CT_1",
+      "binary64_hex": "0x1.0748ae5d5bf39p-1",
+      "exact_value": {
+        "numerator": "4631739537669945",
+        "denominator": "9007199254740992",
+        "approximate": 0.514226387878785
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "4375459717071047",
+        "denominator": "9007199254740992",
+        "approximate": 0.48577361212121495
+      }
+    },
+    {
+      "joint_column": 11613,
+      "block": "Y",
+      "hour_0based": 28,
+      "thermal_index": 21,
+      "uid": "123_CT_4",
+      "binary64_hex": "0x1.64972d2c68698p-1",
+      "exact_value": {
+        "numerator": "784150874869971",
+        "denominator": "1125899906842624",
+        "approximate": 0.6964658848484815
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "341749031972653",
+        "denominator": "1125899906842624",
+        "approximate": 0.3035341151515185
+      }
+    },
+    {
+      "joint_column": 11636,
+      "block": "Y",
+      "hour_0based": 29,
+      "thermal_index": 20,
+      "uid": "123_CT_1",
+      "binary64_hex": "0x1.8760c1ce317d7p-2",
+      "exact_value": {
+        "numerator": "6885193837385687",
+        "denominator": "18014398509481984",
+        "approximate": 0.3822050363636413
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "6885193837385687",
+        "denominator": "18014398509481984",
+        "approximate": 0.3822050363636413
+      }
+    },
+    {
+      "joint_column": 11885,
+      "block": "Y",
+      "hour_0based": 40,
+      "thermal_index": 5,
+      "uid": "102_CT_2",
+      "binary64_hex": "0x1.642e44b6e9400p-2",
+      "exact_value": {
+        "numerator": "6119138450341",
+        "denominator": "17592186044416",
+        "approximate": 0.3478327500000091
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "6119138450341",
+        "denominator": "17592186044416",
+        "approximate": 0.3478327500000091
+      }
+    },
+    {
+      "joint_column": 11909,
+      "block": "Y",
+      "hour_0based": 41,
+      "thermal_index": 5,
+      "uid": "102_CT_2",
+      "binary64_hex": "0x1.4de8dda48b600p-1",
+      "exact_value": {
+        "numerator": "11473047594075",
+        "denominator": "17592186044416",
+        "approximate": 0.6521672499999909
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "6119138450341",
+        "denominator": "17592186044416",
+        "approximate": 0.3478327500000091
+      }
+    },
+    {
+      "joint_column": 11926,
+      "block": "Y",
+      "hour_0based": 41,
+      "thermal_index": 22,
+      "uid": "123_CT_5",
+      "binary64_hex": "0x1.0edaa0a3dab33p-1",
+      "exact_value": {
+        "numerator": "4764914199407411",
+        "denominator": "9007199254740992",
+        "approximate": 0.5290117454545452
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "4242285055333581",
+        "denominator": "9007199254740992",
+        "approximate": 0.4709882545454548
+      }
+    },
+    {
+      "joint_column": 12192,
+      "block": "Y",
+      "hour_0based": 53,
+      "thermal_index": 0,
+      "uid": "101_CT_1",
+      "binary64_hex": "0x1.450d87a7ff933p-1",
+      "exact_value": {
+        "numerator": "5718390232578355",
+        "denominator": "9007199254740992",
+        "approximate": 0.6348688500000094
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "3288809022162637",
+        "denominator": "9007199254740992",
+        "approximate": 0.36513114999999063
+      }
+    },
+    {
+      "joint_column": 12214,
+      "block": "Y",
+      "hour_0based": 53,
+      "thermal_index": 22,
+      "uid": "123_CT_5",
+      "binary64_hex": "0x1.92491000c46fbp-3",
+      "exact_value": {
+        "numerator": "7077079607428859",
+        "denominator": "36028797018963968",
+        "approximate": 0.19642841818181708
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "7077079607428859",
+        "denominator": "36028797018963968",
+        "approximate": 0.19642841818181708
+      }
+    },
+    {
+      "joint_column": 12216,
+      "block": "Y",
+      "hour_0based": 54,
+      "thermal_index": 0,
+      "uid": "101_CT_1",
+      "binary64_hex": "0x1.75e4f0b000d9ap-2",
+      "exact_value": {
+        "numerator": "3288809022162637",
+        "denominator": "9007199254740992",
+        "approximate": 0.36513114999999063
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "3288809022162637",
+        "denominator": "9007199254740992",
+        "approximate": 0.36513114999999063
+      }
+    },
+    {
+      "joint_column": 12448,
+      "block": "Y",
+      "hour_0based": 63,
+      "thermal_index": 16,
+      "uid": "116_STEAM_1",
+      "binary64_hex": "0x1.0ee583ebcef21p-4",
+      "exact_value": {
+        "numerator": "4765662404472609",
+        "denominator": "72057594037927936",
+        "approximate": 0.0661368516129497
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "4765662404472609",
+        "denominator": "72057594037927936",
+        "approximate": 0.0661368516129497
+      }
+    },
+    {
+      "joint_column": 12449,
+      "block": "Y",
+      "hour_0based": 63,
+      "thermal_index": 17,
+      "uid": "118_CC_1",
+      "binary64_hex": "0x1.b7242f01c3770p-3",
+      "exact_value": {
+        "numerator": "482841012061047",
+        "denominator": "2251799813685248",
+        "approximate": 0.21442448352939492
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "482841012061047",
+        "denominator": "2251799813685248",
+        "approximate": 0.21442448352939492
+      }
+    },
+    {
+      "joint_column": 12471,
+      "block": "Y",
+      "hour_0based": 64,
+      "thermal_index": 15,
+      "uid": "115_STEAM_3",
+      "binary64_hex": "0x1.fffffffffffffp-1",
+      "exact_value": {
+        "numerator": "9007199254740991",
+        "denominator": "9007199254740992",
+        "approximate": 0.9999999999999999
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "1",
+        "denominator": "9007199254740992",
+        "approximate": 1.1102230246251565e-16
+      }
+    },
+    {
+      "joint_column": 12473,
+      "block": "Y",
+      "hour_0based": 64,
+      "thermal_index": 17,
+      "uid": "118_CC_1",
+      "binary64_hex": "0x1.9236f43f8f224p-1",
+      "exact_value": {
+        "numerator": "1768958801624201",
+        "denominator": "2251799813685248",
+        "approximate": 0.7855755164706051
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "482841012061047",
+        "denominator": "2251799813685248",
+        "approximate": 0.21442448352939492
+      }
+    },
+    {
+      "joint_column": 12489,
+      "block": "Y",
+      "hour_0based": 65,
+      "thermal_index": 9,
+      "uid": "113_CT_1",
+      "binary64_hex": "0x1.0a9da940e983ep-2",
+      "exact_value": {
+        "numerator": "2345177939659807",
+        "denominator": "9007199254740992",
+        "approximate": 0.2603670545453304
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "2345177939659807",
+        "denominator": "9007199254740992",
+        "approximate": 0.2603670545453304
+      }
+    },
+    {
+      "joint_column": 12688,
+      "block": "Y",
+      "hour_0based": 73,
+      "thermal_index": 16,
+      "uid": "116_STEAM_1",
+      "binary64_hex": "0x1.3be54a5814704p-2",
+      "exact_value": {
+        "numerator": "1389323830186433",
+        "denominator": "4503599627370496",
+        "approximate": 0.3084918609866778
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "1389323830186433",
+        "denominator": "4503599627370496",
+        "approximate": 0.3084918609866778
+      }
+    },
+    {
+      "joint_column": 12761,
+      "block": "Y",
+      "hour_0based": 76,
+      "thermal_index": 17,
+      "uid": "118_CC_1",
+      "binary64_hex": "0x1.b7242f01c3764p-3",
+      "exact_value": {
+        "numerator": "1931364048244185",
+        "denominator": "9007199254740992",
+        "approximate": 0.21442448352939458
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "1931364048244185",
+        "denominator": "9007199254740992",
+        "approximate": 0.21442448352939458
+      }
+    },
+    {
+      "joint_column": 12792,
+      "block": "Y",
+      "hour_0based": 78,
+      "thermal_index": 0,
+      "uid": "101_CT_1",
+      "binary64_hex": "0x1.d1334692a072bp-1",
+      "exact_value": {
+        "numerator": "8183890148198187",
+        "denominator": "9007199254740992",
+        "approximate": 0.9085943273532612
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "823309106542805",
+        "denominator": "9007199254740992",
+        "approximate": 0.09140567264673882
+      }
+    },
+    {
+      "joint_column": 12977,
+      "block": "Y",
+      "hour_0based": 85,
+      "thermal_index": 17,
+      "uid": "118_CC_1",
+      "binary64_hex": "0x1.0db71125eb2a8p-3",
+      "exact_value": {
+        "numerator": "593109789169237",
+        "denominator": "4503599627370496",
+        "approximate": 0.13169682881325184
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "593109789169237",
+        "denominator": "4503599627370496",
+        "approximate": 0.13169682881325184
+      }
+    },
+    {
+      "joint_column": 13041,
+      "block": "Y",
+      "hour_0based": 88,
+      "thermal_index": 9,
+      "uid": "113_CT_1",
+      "binary64_hex": "0x1.523653a2a8f03p-1",
+      "exact_value": {
+        "numerator": "5949892185460483",
+        "denominator": "9007199254740992",
+        "approximate": 0.660570729833552
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "3057307069280509",
+        "denominator": "9007199254740992",
+        "approximate": 0.33942927016644797
+      }
+    },
+    {
+      "joint_column": 13052,
+      "block": "Y",
+      "hour_0based": 88,
+      "thermal_index": 20,
+      "uid": "123_CT_1",
+      "binary64_hex": "0x1.0e2b2ad8de111p-2",
+      "exact_value": {
+        "numerator": "4752856671183121",
+        "denominator": "18014398509481984",
+        "approximate": 0.2638365454545389
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "4752856671183121",
+        "denominator": "18014398509481984",
+        "approximate": 0.2638365454545389
+      }
+    },
+    {
+      "joint_column": 13076,
+      "block": "Y",
+      "hour_0based": 89,
+      "thermal_index": 20,
+      "uid": "123_CT_1",
+      "binary64_hex": "0x1.78ea6a9390f77p-1",
+      "exact_value": {
+        "numerator": "6630770919149431",
+        "denominator": "9007199254740992",
+        "approximate": 0.7361634545454611
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "2376428335591561",
+        "denominator": "9007199254740992",
+        "approximate": 0.26383654545453894
+      }
+    },
+    {
+      "joint_column": 13077,
+      "block": "Y",
+      "hour_0based": 89,
+      "thermal_index": 21,
+      "uid": "123_CT_4",
+      "binary64_hex": "0x1.fffffffffffc8p-1",
+      "exact_value": {
+        "numerator": "1125899906842617",
+        "denominator": "1125899906842624",
+        "approximate": 0.9999999999999938
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "7",
+        "denominator": "1125899906842624",
+        "approximate": 6.217248937900877e-15
+      }
+    },
+    {
+      "joint_column": 13348,
+      "block": "Y",
+      "hour_0based": 101,
+      "thermal_index": 4,
+      "uid": "102_CT_1",
+      "binary64_hex": "0x1.450d87a7ff933p-1",
+      "exact_value": {
+        "numerator": "5718390232578355",
+        "denominator": "9007199254740992",
+        "approximate": 0.6348688500000094
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "3288809022162637",
+        "denominator": "9007199254740992",
+        "approximate": 0.36513114999999063
+      }
+    },
+    {
+      "joint_column": 13366,
+      "block": "Y",
+      "hour_0based": 101,
+      "thermal_index": 22,
+      "uid": "123_CT_5",
+      "binary64_hex": "0x1.92491000c46fbp-3",
+      "exact_value": {
+        "numerator": "7077079607428859",
+        "denominator": "36028797018963968",
+        "approximate": 0.19642841818181708
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "7077079607428859",
+        "denominator": "36028797018963968",
+        "approximate": 0.19642841818181708
+      }
+    },
+    {
+      "joint_column": 13372,
+      "block": "Y",
+      "hour_0based": 102,
+      "thermal_index": 4,
+      "uid": "102_CT_1",
+      "binary64_hex": "0x1.75e4f0b000d9ap-2",
+      "exact_value": {
+        "numerator": "3288809022162637",
+        "denominator": "9007199254740992",
+        "approximate": 0.36513114999999063
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "3288809022162637",
+        "denominator": "9007199254740992",
+        "approximate": 0.36513114999999063
+      }
+    },
+    {
+      "joint_column": 13601,
+      "block": "Y",
+      "hour_0based": 111,
+      "thermal_index": 17,
+      "uid": "118_CC_1",
+      "binary64_hex": "0x1.3e11175c19b93p-1",
+      "exact_value": {
+        "numerator": "5595489663818643",
+        "denominator": "9007199254740992",
+        "approximate": 0.6212241458823534
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "3411709590922349",
+        "denominator": "9007199254740992",
+        "approximate": 0.3787758541176466
+      }
+    },
+    {
+      "joint_column": 13624,
+      "block": "Y",
+      "hour_0based": 112,
+      "thermal_index": 16,
+      "uid": "116_STEAM_1",
+      "binary64_hex": "0x1.0ee583ebce210p-4",
+      "exact_value": {
+        "numerator": "297853900279329",
+        "denominator": "4503599627370496",
+        "approximate": 0.06613685161290328
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "297853900279329",
+        "denominator": "4503599627370496",
+        "approximate": 0.06613685161290328
+      }
+    },
+    {
+      "joint_column": 13625,
+      "block": "Y",
+      "hour_0based": 112,
+      "thermal_index": 17,
+      "uid": "118_CC_1",
+      "binary64_hex": "0x1.83ddd147cc8dap-2",
+      "exact_value": {
+        "numerator": "3411709590922349",
+        "denominator": "9007199254740992",
+        "approximate": 0.3787758541176466
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "3411709590922349",
+        "denominator": "9007199254740992",
+        "approximate": 0.3787758541176466
+      }
+    },
+    {
+      "joint_column": 13642,
+      "block": "Y",
+      "hour_0based": 113,
+      "thermal_index": 10,
+      "uid": "113_CT_2",
+      "binary64_hex": "0x1.0a9da940ea174p-2",
+      "exact_value": {
+        "numerator": "1172588969830493",
+        "denominator": "4503599627370496",
+        "approximate": 0.2603670545454613
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "1172588969830493",
+        "denominator": "4503599627370496",
+        "approximate": 0.2603670545454613
+      }
+    },
+    {
+      "joint_column": 13652,
+      "block": "Y",
+      "hour_0based": 113,
+      "thermal_index": 20,
+      "uid": "123_CT_1",
+      "binary64_hex": "0x1.fffffffffffffp-1",
+      "exact_value": {
+        "numerator": "9007199254740991",
+        "denominator": "9007199254740992",
+        "approximate": 0.9999999999999999
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "1",
+        "denominator": "9007199254740992",
+        "approximate": 1.1102230246251565e-16
+      }
+    },
+    {
+      "joint_column": 13918,
+      "block": "Y",
+      "hour_0based": 124,
+      "thermal_index": 22,
+      "uid": "123_CT_5",
+      "binary64_hex": "0x1.4887fe3f97174p-4",
+      "exact_value": {
+        "numerator": "1444895600303197",
+        "denominator": "18014398509481984",
+        "approximate": 0.08020781818180983
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "1444895600303197",
+        "denominator": "18014398509481984",
+        "approximate": 0.08020781818180983
+      }
+    },
+    {
+      "joint_column": 13942,
+      "block": "Y",
+      "hour_0based": 125,
+      "thermal_index": 22,
+      "uid": "123_CT_5",
+      "binary64_hex": "0x1.3ed2fc1c93c93p-1",
+      "exact_value": {
+        "numerator": "5608813927939219",
+        "denominator": "9007199254740992",
+        "approximate": 0.6227034363636385
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "3398385326801773",
+        "denominator": "9007199254740992",
+        "approximate": 0.37729656363636155
+      }
+    },
+    {
+      "joint_column": 14212,
+      "block": "Y",
+      "hour_0based": 137,
+      "thermal_index": 4,
+      "uid": "102_CT_1",
+      "binary64_hex": "0x1.0b14b6706a000p-5",
+      "exact_value": {
+        "numerator": "573551884341",
+        "denominator": "17592186044416",
+        "approximate": 0.032602650000001177
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "573551884341",
+        "denominator": "17592186044416",
+        "approximate": 0.032602650000001177
+      }
+    },
+    {
+      "joint_column": 14213,
+      "block": "Y",
+      "hour_0based": 137,
+      "thermal_index": 5,
+      "uid": "102_CT_2",
+      "binary64_hex": "0x1.9322805d88732p-1",
+      "exact_value": {
+        "numerator": "3546010947961753",
+        "denominator": "4503599627370496",
+        "approximate": 0.7873726000000032
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "957588679408743",
+        "denominator": "4503599627370496",
+        "approximate": 0.2126273999999968
+      }
+    },
+    {
+      "joint_column": 14237,
+      "block": "Y",
+      "hour_0based": 138,
+      "thermal_index": 5,
+      "uid": "102_CT_2",
+      "binary64_hex": "0x1.b375fe89de338p-3",
+      "exact_value": {
+        "numerator": "957588679408743",
+        "denominator": "4503599627370496",
+        "approximate": 0.2126273999999968
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "957588679408743",
+        "denominator": "4503599627370496",
+        "approximate": 0.2126273999999968
+      }
+    },
+    {
+      "joint_column": 14485,
+      "block": "Y",
+      "hour_0based": 148,
+      "thermal_index": 13,
+      "uid": "115_STEAM_1",
+      "binary64_hex": "0x1.bed4b52b38295p-2",
+      "exact_value": {
+        "numerator": "7860732137013909",
+        "denominator": "18014398509481984",
+        "approximate": 0.4363582904461876
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "7860732137013909",
+        "denominator": "18014398509481984",
+        "approximate": 0.4363582904461876
+      }
+    },
+    {
+      "joint_column": 14493,
+      "block": "Y",
+      "hour_0based": 148,
+      "thermal_index": 21,
+      "uid": "123_CT_4",
+      "binary64_hex": "0x1.a19eda2350011p-1",
+      "exact_value": {
+        "numerator": "7346857813803025",
+        "denominator": "9007199254740992",
+        "approximate": 0.815665070353136
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "1660341440937967",
+        "denominator": "9007199254740992",
+        "approximate": 0.18433492964686404
+      }
+    },
+    {
+      "joint_column": 14516,
+      "block": "Y",
+      "hour_0based": 149,
+      "thermal_index": 20,
+      "uid": "123_CT_1",
+      "binary64_hex": "0x1.14c6529e6cd66p-2",
+      "exact_value": {
+        "numerator": "2434535991240371",
+        "denominator": "9007199254740992",
+        "approximate": 0.27028779117536883
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "2434535991240371",
+        "denominator": "9007199254740992",
+        "approximate": 0.27028779117536883
+      }
+    },
+    {
+      "joint_column": 14517,
+      "block": "Y",
+      "hour_0based": 149,
+      "thermal_index": 21,
+      "uid": "123_CT_4",
+      "binary64_hex": "0x1.79849772bffbcp-3",
+      "exact_value": {
+        "numerator": "1660341440937967",
+        "denominator": "9007199254740992",
+        "approximate": 0.18433492964686404
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "1660341440937967",
+        "denominator": "9007199254740992",
+        "approximate": 0.18433492964686404
+      }
+    },
+    {
+      "joint_column": 14784,
+      "block": "Y",
+      "hour_0based": 161,
+      "thermal_index": 0,
+      "uid": "101_CT_1",
+      "binary64_hex": "0x1.3d127a347d35fp-3",
+      "exact_value": {
+        "numerator": "5577992730825567",
+        "denominator": "36028797018963968",
+        "approximate": 0.15482039902385744
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "5577992730825567",
+        "denominator": "36028797018963968",
+        "approximate": 0.15482039902385744
+      }
+    },
+    {
+      "joint_column": 14797,
+      "block": "Y",
+      "hour_0based": 161,
+      "thermal_index": 13,
+      "uid": "115_STEAM_1",
+      "binary64_hex": "0x1.634f17f679792p-2",
+      "exact_value": {
+        "numerator": "3125330658446281",
+        "denominator": "9007199254740992",
+        "approximate": 0.3469814056573962
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "3125330658446281",
+        "denominator": "9007199254740992",
+        "approximate": 0.3469814056573962
+      }
+    },
+    {
+      "joint_column": 14804,
+      "block": "Y",
+      "hour_0based": 161,
+      "thermal_index": 20,
+      "uid": "123_CT_1",
+      "binary64_hex": "0x1.d75aef2be714bp-2",
+      "exact_value": {
+        "numerator": "8292168581935435",
+        "denominator": "18014398509481984",
+        "approximate": 0.4603078241869027
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "8292168581935435",
+        "denominator": "18014398509481984",
+        "approximate": 0.4603078241869027
+      }
+    },
+    {
+      "joint_column": 14805,
+      "block": "Y",
+      "hour_0based": 161,
+      "thermal_index": 21,
+      "uid": "123_CT_4",
+      "binary64_hex": "-0x1.c9b26c9b26c9dp-46",
+      "exact_value": {
+        "numerator": "-8051890242874525",
+        "denominator": "316912650057057350374175801344",
+        "approximate": -2.540728570293692e-14
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "8051890242874525",
+        "denominator": "316912650057057350374175801344",
+        "approximate": 2.540728570293692e-14
+      }
+    },
+    {
+      "joint_column": 14860,
+      "block": "Y",
+      "hour_0based": 164,
+      "thermal_index": 4,
+      "uid": "102_CT_1",
+      "binary64_hex": "0x1.af385a1c5ef53p-1",
+      "exact_value": {
+        "numerator": "7586104664780627",
+        "denominator": "9007199254740992",
+        "approximate": 0.8422268066055757
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "1421094589960365",
+        "denominator": "9007199254740992",
+        "approximate": 0.1577731933944243
+      }
+    },
+    {
+      "joint_column": 15120,
+      "block": "Z",
+      "hour_0based": 7,
+      "thermal_index": 0,
+      "uid": "101_CT_1",
+      "binary64_hex": "0x1.7107554592cffp-2",
+      "exact_value": {
+        "numerator": "6492020576693503",
+        "denominator": "18014398509481984",
+        "approximate": 0.3603795360292707
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "6492020576693503",
+        "denominator": "18014398509481984",
+        "approximate": 0.3603795360292707
+      }
+    },
+    {
+      "joint_column": 15375,
+      "block": "Z",
+      "hour_0based": 17,
+      "thermal_index": 15,
+      "uid": "115_STEAM_3",
+      "binary64_hex": "0x1.038b9c60f6fc4p-3",
+      "exact_value": {
+        "numerator": "1141492542594033",
+        "denominator": "9007199254740992",
+        "approximate": 0.12673113032258077
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "1141492542594033",
+        "denominator": "9007199254740992",
+        "approximate": 0.12673113032258077
+      }
+    },
+    {
+      "joint_column": 15423,
+      "block": "Z",
+      "hour_0based": 19,
+      "thermal_index": 15,
+      "uid": "115_STEAM_3",
+      "binary64_hex": "0x1.ec127507add00p-4",
+      "exact_value": {
+        "numerator": "33814937107165",
+        "denominator": "281474976710656",
+        "approximate": 0.12013478960840374
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "33814937107165",
+        "denominator": "281474976710656",
+        "approximate": 0.12013478960840374
+      }
+    },
+    {
+      "joint_column": 15449,
+      "block": "Z",
+      "hour_0based": 20,
+      "thermal_index": 17,
+      "uid": "118_CC_1",
+      "binary64_hex": "0x1.6d11b4da33a54p-3",
+      "exact_value": {
+        "numerator": "1605591171124885",
+        "denominator": "9007199254740992",
+        "approximate": 0.1782564286317717
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "1605591171124885",
+        "denominator": "9007199254740992",
+        "approximate": 0.1782564286317717
+      }
+    },
+    {
+      "joint_column": 15472,
+      "block": "Z",
+      "hour_0based": 21,
+      "thermal_index": 16,
+      "uid": "116_STEAM_1",
+      "binary64_hex": "0x1.0625018d7c158p-1",
+      "exact_value": {
+        "numerator": "576461972633643",
+        "denominator": "1125899906842624",
+        "approximate": 0.5120010838709659
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "549437934208981",
+        "denominator": "1125899906842624",
+        "approximate": 0.4879989161290341
+      }
+    },
+    {
+      "joint_column": 15473,
+      "block": "Z",
+      "hour_0based": 21,
+      "thermal_index": 17,
+      "uid": "118_CC_1",
+      "binary64_hex": "0x1.d2f3b97a83e80p-5",
+      "exact_value": {
+        "numerator": "64177400926333",
+        "denominator": "1125899906842624",
+        "approximate": 0.0570009825352118
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "64177400926333",
+        "denominator": "1125899906842624",
+        "approximate": 0.0570009825352118
+      }
+    },
+    {
+      "joint_column": 15495,
+      "block": "Z",
+      "hour_0based": 22,
+      "thermal_index": 15,
+      "uid": "115_STEAM_3",
+      "binary64_hex": "0x1.efd3c73118aa0p-5",
+      "exact_value": {
+        "numerator": "272583917866069",
+        "denominator": "4503599627370496",
+        "approximate": 0.060525788351488474
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "272583917866069",
+        "denominator": "4503599627370496",
+        "approximate": 0.060525788351488474
+      }
+    },
+    {
+      "joint_column": 15497,
+      "block": "Z",
+      "hour_0based": 22,
+      "thermal_index": 17,
+      "uid": "118_CC_1",
+      "binary64_hex": "0x1.7b0377e5b342fp-1",
+      "exact_value": {
+        "numerator": "6667676853941295",
+        "denominator": "9007199254740992",
+        "approximate": 0.7402608364005853
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "2339522400799697",
+        "denominator": "9007199254740992",
+        "approximate": 0.25973916359941474
+      }
+    },
+    {
+      "joint_column": 15519,
+      "block": "Z",
+      "hour_0based": 23,
+      "thermal_index": 15,
+      "uid": "115_STEAM_3",
+      "binary64_hex": "0x1.629d8dd3bafc5p-1",
+      "exact_value": {
+        "numerator": "6238460888985541",
+        "denominator": "9007199254740992",
+        "approximate": 0.692608291717527
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "2768738365755451",
+        "denominator": "9007199254740992",
+        "approximate": 0.307391708282473
+      }
+    },
+    {
+      "joint_column": 15521,
+      "block": "Z",
+      "hour_0based": 23,
+      "thermal_index": 17,
+      "uid": "118_CC_1",
+      "binary64_hex": "0x1.911be982f2a80p-6",
+      "exact_value": {
+        "numerator": "55128005566037",
+        "denominator": "2251799813685248",
+        "approximate": 0.024481752432431225
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "55128005566037",
+        "denominator": "2251799813685248",
+        "approximate": 0.024481752432431225
+      }
+    },
+    {
+      "joint_column": 15716,
+      "block": "Z",
+      "hour_0based": 31,
+      "thermal_index": 20,
+      "uid": "123_CT_1",
+      "binary64_hex": "0x1.0748ae5d5bf3ap-1",
+      "exact_value": {
+        "numerator": "2315869768834973",
+        "denominator": "4503599627370496",
+        "approximate": 0.5142263878787852
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "2187729858535523",
+        "denominator": "4503599627370496",
+        "approximate": 0.48577361212121484
+      }
+    },
+    {
+      "joint_column": 15717,
+      "block": "Z",
+      "hour_0based": 31,
+      "thermal_index": 21,
+      "uid": "123_CT_4",
+      "binary64_hex": "0x1.64972d2c68698p-1",
+      "exact_value": {
+        "numerator": "784150874869971",
+        "denominator": "1125899906842624",
+        "approximate": 0.6964658848484815
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "341749031972653",
+        "denominator": "1125899906842624",
+        "approximate": 0.3035341151515185
+      }
+    },
+    {
+      "joint_column": 15740,
+      "block": "Z",
+      "hour_0based": 32,
+      "thermal_index": 20,
+      "uid": "123_CT_1",
+      "binary64_hex": "0x1.8760c1ce317d7p-2",
+      "exact_value": {
+        "numerator": "6885193837385687",
+        "denominator": "18014398509481984",
+        "approximate": 0.3822050363636413
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "6885193837385687",
+        "denominator": "18014398509481984",
+        "approximate": 0.3822050363636413
+      }
+    },
+    {
+      "joint_column": 15989,
+      "block": "Z",
+      "hour_0based": 43,
+      "thermal_index": 5,
+      "uid": "102_CT_2",
+      "binary64_hex": "0x1.5465ed44bc70ap-2",
+      "exact_value": {
+        "numerator": "2994173806764933",
+        "denominator": "9007199254740992",
+        "approximate": 0.3324200699999983
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "2994173806764933",
+        "denominator": "9007199254740992",
+        "approximate": 0.3324200699999983
+      }
+    },
+    {
+      "joint_column": 16012,
+      "block": "Z",
+      "hour_0based": 44,
+      "thermal_index": 4,
+      "uid": "102_CT_1",
+      "binary64_hex": "0x1.d5c6e04eb4c16p-1",
+      "exact_value": {
+        "numerator": "4132200961648139",
+        "denominator": "4503599627370496",
+        "approximate": 0.9175329299999955
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "371398665722357",
+        "denominator": "4503599627370496",
+        "approximate": 0.08246707000000453
+      }
+    },
+    {
+      "joint_column": 16030,
+      "block": "Z",
+      "hour_0based": 44,
+      "thermal_index": 22,
+      "uid": "123_CT_5",
+      "binary64_hex": "0x1.0edaa0a3dab33p-1",
+      "exact_value": {
+        "numerator": "4764914199407411",
+        "denominator": "9007199254740992",
+        "approximate": 0.5290117454545452
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "4242285055333581",
+        "denominator": "9007199254740992",
+        "approximate": 0.4709882545454548
+      }
+    },
+    {
+      "joint_column": 16036,
+      "block": "Z",
+      "hour_0based": 45,
+      "thermal_index": 4,
+      "uid": "102_CT_1",
+      "binary64_hex": "0x1.51c8fd8a59f53p-4",
+      "exact_value": {
+        "numerator": "5942378651557715",
+        "denominator": "72057594037927936",
+        "approximate": 0.08246707000000457
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "5942378651557715",
+        "denominator": "72057594037927936",
+        "approximate": 0.08246707000000457
+      }
+    },
+    {
+      "joint_column": 16037,
+      "block": "Z",
+      "hour_0based": 45,
+      "thermal_index": 5,
+      "uid": "102_CT_2",
+      "binary64_hex": "0x1.55cd095da1c7cp-1",
+      "exact_value": {
+        "numerator": "1503256361994015",
+        "denominator": "2251799813685248",
+        "approximate": 0.6675799300000018
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "748543451691233",
+        "denominator": "2251799813685248",
+        "approximate": 0.3324200699999982
+      }
+    },
+    {
+      "joint_column": 16318,
+      "block": "Z",
+      "hour_0based": 56,
+      "thermal_index": 22,
+      "uid": "123_CT_5",
+      "binary64_hex": "0x1.92491000c46fbp-3",
+      "exact_value": {
+        "numerator": "7077079607428859",
+        "denominator": "36028797018963968",
+        "approximate": 0.19642841818181708
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "7077079607428859",
+        "denominator": "36028797018963968",
+        "approximate": 0.19642841818181708
+      }
+    },
+    {
+      "joint_column": 16593,
+      "block": "Z",
+      "hour_0based": 68,
+      "thermal_index": 9,
+      "uid": "113_CT_1",
+      "binary64_hex": "0x1.0a9da940e983ep-2",
+      "exact_value": {
+        "numerator": "2345177939659807",
+        "denominator": "9007199254740992",
+        "approximate": 0.2603670545453304
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "2345177939659807",
+        "denominator": "9007199254740992",
+        "approximate": 0.2603670545453304
+      }
+    },
+    {
+      "joint_column": 16672,
+      "block": "Z",
+      "hour_0based": 71,
+      "thermal_index": 16,
+      "uid": "116_STEAM_1",
+      "binary64_hex": "0x1.0ee583ebcef21p-4",
+      "exact_value": {
+        "numerator": "4765662404472609",
+        "denominator": "72057594037927936",
+        "approximate": 0.0661368516129497
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "4765662404472609",
+        "denominator": "72057594037927936",
+        "approximate": 0.0661368516129497
+      }
+    },
+    {
+      "joint_column": 16673,
+      "block": "Z",
+      "hour_0based": 71,
+      "thermal_index": 17,
+      "uid": "118_CC_1",
+      "binary64_hex": "0x1.b7242f01c3770p-3",
+      "exact_value": {
+        "numerator": "482841012061047",
+        "denominator": "2251799813685248",
+        "approximate": 0.21442448352939492
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "482841012061047",
+        "denominator": "2251799813685248",
+        "approximate": 0.21442448352939492
+      }
+    },
+    {
+      "joint_column": 16848,
+      "block": "Z",
+      "hour_0based": 79,
+      "thermal_index": 0,
+      "uid": "101_CT_1",
+      "binary64_hex": "0x1.d1334692a072bp-1",
+      "exact_value": {
+        "numerator": "8183890148198187",
+        "denominator": "9007199254740992",
+        "approximate": 0.9085943273532612
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "823309106542805",
+        "denominator": "9007199254740992",
+        "approximate": 0.09140567264673882
+      }
+    },
+    {
+      "joint_column": 16863,
+      "block": "Z",
+      "hour_0based": 79,
+      "thermal_index": 15,
+      "uid": "115_STEAM_3",
+      "binary64_hex": "0x1.a1f52fa75ef8ep-2",
+      "exact_value": {
+        "numerator": "3676395322144711",
+        "denominator": "9007199254740992",
+        "approximate": 0.4081618734269278
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "3676395322144711",
+        "denominator": "9007199254740992",
+        "approximate": 0.4081618734269278
+      }
+    },
+    {
+      "joint_column": 16889,
+      "block": "Z",
+      "hour_0based": 80,
+      "thermal_index": 17,
+      "uid": "118_CC_1",
+      "binary64_hex": "0x1.0db71125eb2a8p-3",
+      "exact_value": {
+        "numerator": "593109789169237",
+        "denominator": "4503599627370496",
+        "approximate": 0.13169682881325184
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "593109789169237",
+        "denominator": "4503599627370496",
+        "approximate": 0.13169682881325184
+      }
+    },
+    {
+      "joint_column": 16912,
+      "block": "Z",
+      "hour_0based": 81,
+      "thermal_index": 16,
+      "uid": "116_STEAM_1",
+      "binary64_hex": "0x1.3be54a5814704p-2",
+      "exact_value": {
+        "numerator": "1389323830186433",
+        "denominator": "4503599627370496",
+        "approximate": 0.3084918609866778
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "1389323830186433",
+        "denominator": "4503599627370496",
+        "approximate": 0.3084918609866778
+      }
+    },
+    {
+      "joint_column": 16913,
+      "block": "Z",
+      "hour_0based": 81,
+      "thermal_index": 17,
+      "uid": "118_CC_1",
+      "binary64_hex": "0x1.40b48b78dda70p-5",
+      "exact_value": {
+        "numerator": "352619154955687",
+        "denominator": "9007199254740992",
+        "approximate": 0.03914859047556696
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "352619154955687",
+        "denominator": "9007199254740992",
+        "approximate": 0.03914859047556696
+      }
+    },
+    {
+      "joint_column": 16961,
+      "block": "Z",
+      "hour_0based": 83,
+      "thermal_index": 17,
+      "uid": "118_CC_1",
+      "binary64_hex": "0x1.0b93665b72920p-2",
+      "exact_value": {
+        "numerator": "147101341038921",
+        "denominator": "562949953421312",
+        "approximate": 0.26130447323943606
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "147101341038921",
+        "denominator": "562949953421312",
+        "approximate": 0.26130447323943606
+      }
+    },
+    {
+      "joint_column": 16985,
+      "block": "Z",
+      "hour_0based": 84,
+      "thermal_index": 17,
+      "uid": "118_CC_1",
+      "binary64_hex": "0x1.3b5f0dc88df72p-2",
+      "exact_value": {
+        "numerator": "2774035327119289",
+        "denominator": "9007199254740992",
+        "approximate": 0.30797978912914126
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "2774035327119289",
+        "denominator": "9007199254740992",
+        "approximate": 0.30797978912914126
+      }
+    },
+    {
+      "joint_column": 17127,
+      "block": "Z",
+      "hour_0based": 90,
+      "thermal_index": 15,
+      "uid": "115_STEAM_3",
+      "binary64_hex": "0x1.2f05682c50839p-1",
+      "exact_value": {
+        "numerator": "5330803932596281",
+        "denominator": "9007199254740992",
+        "approximate": 0.5918381265730722
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "3676395322144711",
+        "denominator": "9007199254740992",
+        "approximate": 0.4081618734269278
+      }
+    },
+    {
+      "joint_column": 17129,
+      "block": "Z",
+      "hour_0based": 90,
+      "thermal_index": 17,
+      "uid": "118_CC_1",
+      "binary64_hex": "0x1.03b399f7f697ep-3",
+      "exact_value": {
+        "numerator": "2284359151236287",
+        "denominator": "18014398509481984",
+        "approximate": 0.1268074063107853
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "2284359151236287",
+        "denominator": "18014398509481984",
+        "approximate": 0.1268074063107853
+      }
+    },
+    {
+      "joint_column": 17145,
+      "block": "Z",
+      "hour_0based": 91,
+      "thermal_index": 9,
+      "uid": "113_CT_1",
+      "binary64_hex": "0x1.523653a2a8f03p-1",
+      "exact_value": {
+        "numerator": "5949892185460483",
+        "denominator": "9007199254740992",
+        "approximate": 0.660570729833552
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "3057307069280509",
+        "denominator": "9007199254740992",
+        "approximate": 0.33942927016644797
+      }
+    },
+    {
+      "joint_column": 17156,
+      "block": "Z",
+      "hour_0based": 91,
+      "thermal_index": 20,
+      "uid": "123_CT_1",
+      "binary64_hex": "0x1.0e2b2ad8de112p-2",
+      "exact_value": {
+        "numerator": "2376428335591561",
+        "denominator": "9007199254740992",
+        "approximate": 0.26383654545453894
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "2376428335591561",
+        "denominator": "9007199254740992",
+        "approximate": 0.26383654545453894
+      }
+    },
+    {
+      "joint_column": 17180,
+      "block": "Z",
+      "hour_0based": 92,
+      "thermal_index": 20,
+      "uid": "123_CT_1",
+      "binary64_hex": "0x1.78ea6a9390f77p-1",
+      "exact_value": {
+        "numerator": "6630770919149431",
+        "denominator": "9007199254740992",
+        "approximate": 0.7361634545454611
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "2376428335591561",
+        "denominator": "9007199254740992",
+        "approximate": 0.26383654545453894
+      }
+    },
+    {
+      "joint_column": 17181,
+      "block": "Z",
+      "hour_0based": 92,
+      "thermal_index": 21,
+      "uid": "123_CT_4",
+      "binary64_hex": "0x1.fffffffffffc8p-1",
+      "exact_value": {
+        "numerator": "1125899906842617",
+        "denominator": "1125899906842624",
+        "approximate": 0.9999999999999938
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "7",
+        "denominator": "1125899906842624",
+        "approximate": 6.217248937900877e-15
+      }
+    },
+    {
+      "joint_column": 17201,
+      "block": "Z",
+      "hour_0based": 93,
+      "thermal_index": 17,
+      "uid": "118_CC_1",
+      "binary64_hex": "0x1.0f1d2d70e875ep-2",
+      "exact_value": {
+        "numerator": "2384743740425135",
+        "denominator": "9007199254740992",
+        "approximate": 0.26475974084507026
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "2384743740425135",
+        "denominator": "9007199254740992",
+        "approximate": 0.26475974084507026
+      }
+    },
+    {
+      "joint_column": 17470,
+      "block": "Z",
+      "hour_0based": 104,
+      "thermal_index": 22,
+      "uid": "123_CT_5",
+      "binary64_hex": "0x1.92491000c46fbp-3",
+      "exact_value": {
+        "numerator": "7077079607428859",
+        "denominator": "36028797018963968",
+        "approximate": 0.19642841818181708
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "7077079607428859",
+        "denominator": "36028797018963968",
+        "approximate": 0.19642841818181708
+      }
+    },
+    {
+      "joint_column": 17746,
+      "block": "Z",
+      "hour_0based": 116,
+      "thermal_index": 10,
+      "uid": "113_CT_2",
+      "binary64_hex": "0x1.0a9da940ea174p-2",
+      "exact_value": {
+        "numerator": "1172588969830493",
+        "denominator": "4503599627370496",
+        "approximate": 0.2603670545454613
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "1172588969830493",
+        "denominator": "4503599627370496",
+        "approximate": 0.2603670545454613
+      }
+    },
+    {
+      "joint_column": 17756,
+      "block": "Z",
+      "hour_0based": 116,
+      "thermal_index": 20,
+      "uid": "123_CT_1",
+      "binary64_hex": "0x1.fffffffffffffp-1",
+      "exact_value": {
+        "numerator": "9007199254740991",
+        "denominator": "9007199254740992",
+        "approximate": 0.9999999999999999
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "1",
+        "denominator": "9007199254740992",
+        "approximate": 1.1102230246251565e-16
+      }
+    },
+    {
+      "joint_column": 17825,
+      "block": "Z",
+      "hour_0based": 119,
+      "thermal_index": 17,
+      "uid": "118_CC_1",
+      "binary64_hex": "0x1.3e11175c19b94p-1",
+      "exact_value": {
+        "numerator": "1398872415954661",
+        "denominator": "2251799813685248",
+        "approximate": 0.6212241458823535
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "852927397730587",
+        "denominator": "2251799813685248",
+        "approximate": 0.37877585411764647
+      }
+    },
+    {
+      "joint_column": 17848,
+      "block": "Z",
+      "hour_0based": 120,
+      "thermal_index": 16,
+      "uid": "116_STEAM_1",
+      "binary64_hex": "0x1.0ee583ebce211p-4",
+      "exact_value": {
+        "numerator": "4765662404469265",
+        "denominator": "72057594037927936",
+        "approximate": 0.0661368516129033
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "4765662404469265",
+        "denominator": "72057594037927936",
+        "approximate": 0.0661368516129033
+      }
+    },
+    {
+      "joint_column": 17849,
+      "block": "Z",
+      "hour_0based": 120,
+      "thermal_index": 17,
+      "uid": "118_CC_1",
+      "binary64_hex": "0x1.83ddd147cc8d9p-2",
+      "exact_value": {
+        "numerator": "6823419181844697",
+        "denominator": "18014398509481984",
+        "approximate": 0.3787758541176465
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "6823419181844697",
+        "denominator": "18014398509481984",
+        "approximate": 0.3787758541176465
+      }
+    },
+    {
+      "joint_column": 18022,
+      "block": "Z",
+      "hour_0based": 127,
+      "thermal_index": 22,
+      "uid": "123_CT_5",
+      "binary64_hex": "0x1.4887fe3f97180p-4",
+      "exact_value": {
+        "numerator": "45152987509475",
+        "denominator": "562949953421312",
+        "approximate": 0.08020781818181
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "45152987509475",
+        "denominator": "562949953421312",
+        "approximate": 0.08020781818181
+      }
+    },
+    {
+      "joint_column": 18046,
+      "block": "Z",
+      "hour_0based": 128,
+      "thermal_index": 22,
+      "uid": "123_CT_5",
+      "binary64_hex": "0x1.3ed2fc1c93c93p-1",
+      "exact_value": {
+        "numerator": "5608813927939219",
+        "denominator": "9007199254740992",
+        "approximate": 0.6227034363636385
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "3398385326801773",
+        "denominator": "9007199254740992",
+        "approximate": 0.37729656363636155
+      }
+    },
+    {
+      "joint_column": 18292,
+      "block": "Z",
+      "hour_0based": 139,
+      "thermal_index": 4,
+      "uid": "102_CT_1",
+      "binary64_hex": "0x1.0b14b6706a000p-5",
+      "exact_value": {
+        "numerator": "573551884341",
+        "denominator": "17592186044416",
+        "approximate": 0.032602650000001177
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "573551884341",
+        "denominator": "17592186044416",
+        "approximate": 0.032602650000001177
+      }
+    },
+    {
+      "joint_column": 18293,
+      "block": "Z",
+      "hour_0based": 139,
+      "thermal_index": 5,
+      "uid": "102_CT_2",
+      "binary64_hex": "0x1.45e58e64b1fe8p-4",
+      "exact_value": {
+        "numerator": "716654431003645",
+        "denominator": "9007199254740992",
+        "approximate": 0.07956462499998873
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "716654431003645",
+        "denominator": "9007199254740992",
+        "approximate": 0.07956462499998873
+      }
+    },
+    {
+      "joint_column": 18312,
+      "block": "Z",
+      "hour_0based": 140,
+      "thermal_index": 0,
+      "uid": "101_CT_1",
+      "binary64_hex": "0x1.ffffffffffffep-1",
+      "exact_value": {
+        "numerator": "4503599627370495",
+        "denominator": "4503599627370496",
+        "approximate": 0.9999999999999998
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "1",
+        "denominator": "4503599627370496",
+        "approximate": 2.220446049250313e-16
+      }
+    },
+    {
+      "joint_column": 18317,
+      "block": "Z",
+      "hour_0based": 140,
+      "thermal_index": 5,
+      "uid": "102_CT_2",
+      "binary64_hex": "0x1.d7434e3369c03p-1",
+      "exact_value": {
+        "numerator": "8290544823737347",
+        "denominator": "9007199254740992",
+        "approximate": 0.9204353750000113
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "716654431003645",
+        "denominator": "9007199254740992",
+        "approximate": 0.07956462499998873
+      }
+    },
+    {
+      "joint_column": 18597,
+      "block": "Z",
+      "hour_0based": 151,
+      "thermal_index": 21,
+      "uid": "123_CT_4",
+      "binary64_hex": "0x1.a19eda2350012p-1",
+      "exact_value": {
+        "numerator": "3673428906901513",
+        "denominator": "4503599627370496",
+        "approximate": 0.8156650703531361
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "830170720468983",
+        "denominator": "4503599627370496",
+        "approximate": 0.18433492964686393
+      }
+    },
+    {
+      "joint_column": 18613,
+      "block": "Z",
+      "hour_0based": 152,
+      "thermal_index": 13,
+      "uid": "115_STEAM_1",
+      "binary64_hex": "0x1.bed4b52b38295p-2",
+      "exact_value": {
+        "numerator": "7860732137013909",
+        "denominator": "18014398509481984",
+        "approximate": 0.4363582904461876
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "7860732137013909",
+        "denominator": "18014398509481984",
+        "approximate": 0.4363582904461876
+      }
+    },
+    {
+      "joint_column": 18620,
+      "block": "Z",
+      "hour_0based": 152,
+      "thermal_index": 20,
+      "uid": "123_CT_1",
+      "binary64_hex": "0x1.14c6529e6cd66p-2",
+      "exact_value": {
+        "numerator": "2434535991240371",
+        "denominator": "9007199254740992",
+        "approximate": 0.27028779117536883
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "2434535991240371",
+        "denominator": "9007199254740992",
+        "approximate": 0.27028779117536883
+      }
+    },
+    {
+      "joint_column": 18621,
+      "block": "Z",
+      "hour_0based": 152,
+      "thermal_index": 21,
+      "uid": "123_CT_4",
+      "binary64_hex": "0x1.79849772bffb6p-3",
+      "exact_value": {
+        "numerator": "3320682881875931",
+        "denominator": "18014398509481984",
+        "approximate": 0.18433492964686388
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "3320682881875931",
+        "denominator": "18014398509481984",
+        "approximate": 0.18433492964686388
+      }
+    },
+    {
+      "joint_column": 18840,
+      "block": "Z",
+      "hour_0based": 162,
+      "thermal_index": 0,
+      "uid": "101_CT_1",
+      "binary64_hex": "0x1.3d127a347d35fp-3",
+      "exact_value": {
+        "numerator": "5577992730825567",
+        "denominator": "36028797018963968",
+        "approximate": 0.15482039902385744
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "5577992730825567",
+        "denominator": "36028797018963968",
+        "approximate": 0.15482039902385744
+      }
+    },
+    {
+      "joint_column": 18908,
+      "block": "Z",
+      "hour_0based": 164,
+      "thermal_index": 20,
+      "uid": "123_CT_1",
+      "binary64_hex": "0x1.d75aef2be714bp-2",
+      "exact_value": {
+        "numerator": "8292168581935435",
+        "denominator": "18014398509481984",
+        "approximate": 0.4603078241869027
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "8292168581935435",
+        "denominator": "18014398509481984",
+        "approximate": 0.4603078241869027
+      }
+    },
+    {
+      "joint_column": 18909,
+      "block": "Z",
+      "hour_0based": 164,
+      "thermal_index": 21,
+      "uid": "123_CT_4",
+      "binary64_hex": "-0x1.c9b26c9b26c9dp-46",
+      "exact_value": {
+        "numerator": "-8051890242874525",
+        "denominator": "316912650057057350374175801344",
+        "approximate": -2.540728570293692e-14
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "8051890242874525",
+        "denominator": "316912650057057350374175801344",
+        "approximate": 2.540728570293692e-14
+      }
+    },
+    {
+      "joint_column": 18916,
+      "block": "Z",
+      "hour_0based": 165,
+      "thermal_index": 4,
+      "uid": "102_CT_1",
+      "binary64_hex": "0x1.af385a1c5ef53p-1",
+      "exact_value": {
+        "numerator": "7586104664780627",
+        "denominator": "9007199254740992",
+        "approximate": 0.8422268066055757
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "1421094589960365",
+        "denominator": "9007199254740992",
+        "approximate": 0.1577731933944243
+      }
+    },
+    {
+      "joint_column": 18925,
+      "block": "Z",
+      "hour_0based": 165,
+      "thermal_index": 13,
+      "uid": "115_STEAM_1",
+      "binary64_hex": "0x1.634f17f679793p-2",
+      "exact_value": {
+        "numerator": "6250661316892563",
+        "denominator": "18014398509481984",
+        "approximate": 0.34698140565739627
+      },
+      "distance_to_nearest_bit": {
+        "numerator": "6250661316892563",
+        "denominator": "18014398509481984",
+        "approximate": 0.34698140565739627
+      }
+    }
+  ]
+}

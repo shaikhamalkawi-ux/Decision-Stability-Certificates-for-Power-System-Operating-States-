@@ -1,0 +1,173 @@
+{
+  "scope": "Existing local reading records only; no web, new paper reading, solver or scientific replay",
+  "original_35_item_roster_found": false,
+  "historical_count_source": "docs/research_next/CYCLE02_README.md",
+  "deduplication": "DOI, arXiv work identity, title, explicit version/reuse statements; one row per work; support sources are not counted again",
+  "counts": {
+    "all_distinct_work_records": 45,
+    "by_type": {
+      "paper_or_preprint": 42,
+      "primary_supplement": 1,
+      "masters_thesis": 1,
+      "doctoral_dissertation": 1
+    },
+    "by_depth": {
+      "selected_body": 30,
+      "indexed_body_excerpt": 6,
+      "metadata_abstract_introduction": 8,
+      "code_and_metadata_no_paper_body": 1
+    },
+    "body_or_excerpt_records": 36,
+    "paper_or_preprint_body_or_excerpt_records": 34,
+    "historical_substantive_paper": {
+      "records": 35,
+      "body_or_excerpts": 29
+    },
+    "continuation_substantive_paper": {
+      "records": 5,
+      "body_or_excerpts": 5
+    },
+    "nonpaper_separate": {
+      "records": 3,
+      "body_or_excerpts": 2
+    },
+    "background_metadata_or_code_only": {
+      "records": 2,
+      "body_or_excerpts": 0
+    },
+    "current_substantive_papers": {
+      "records": 40,
+      "body_or_excerpts": 34,
+      "limited": 6
+    }
+  },
+  "input_bindings": [
+    {
+      "path": "docs/research8h/ADDITIONAL_PRIOR_ART.md",
+      "bytes": 5295,
+      "sha256": "15847753cca1760a9a95f883f5bfe38d84042cd09f64dd86faf71b9d15794091"
+    },
+    {
+      "path": "docs/research8h/CLOCK_CONDITIONED_PRIOR_ART_FINAL.md",
+      "bytes": 9351,
+      "sha256": "54bc87ad2fdb6f1298f07fe736d911b18adf89cfacd7ca1eaa7f14c10bddddf2"
+    },
+    {
+      "path": "docs/research8h/GONZATO_PRIMARY_BODY_ADDENDUM.md",
+      "bytes": 1469,
+      "sha256": "42a49db2544793292cab0e8852c367416ce91a42272704c51012259d3a153e0e"
+    },
+    {
+      "path": "docs/research8h/KEBRICH_2026_PRIOR_ART_ADDENDUM.md",
+      "bytes": 1371,
+      "sha256": "7261753168232e5dad09bc642187ea484243a2dfd6930499f513c512c4dd00f8"
+    },
+    {
+      "path": "docs/research8h/KGRAM_PRIOR_ART.md",
+      "bytes": 15021,
+      "sha256": "db9690ab2e5f9db0f2230d3f843feb07a6f4600289284444fbe8bb1087fb0838"
+    },
+    {
+      "path": "docs/research8h/LIBRARY_ACCESS_READING_LIMIT.md",
+      "bytes": 1309,
+      "sha256": "deb8c13c342588938660a001f1ba6a57a8116dadb0bc99d889a0dcf62212486c"
+    },
+    {
+      "path": "docs/research8h/LITERATURE_CERTIFICATES.md",
+      "bytes": 22700,
+      "sha256": "d2ecc4792ea503c337d0937dbad9962e1b6b6408f01ecabcf328e354e04b0e5c"
+    },
+    {
+      "path": "docs/research8h/MANUSCRIPT_V3_REFERENCE_AUDIT.md",
+      "bytes": 2211,
+      "sha256": "cb5ed6fa3a5dd6effb37236805a949a38f3c75df1e6f7ae5687e043072c8df00"
+    },
+    {
+      "path": "docs/research8h/PGLIB_EXTERNAL_FEASIBILITY_ASSESSMENT.md",
+      "bytes": 10328,
+      "sha256": "d143bd6d4a6374f64639485ca9ea899bad36e55ecfb9e293e81d01ddeaf68205"
+    },
+    {
+      "path": "docs/research8h/PUBLISHED_REPRESENTATION_COMPARATOR_DESIGN.md",
+      "bytes": 14302,
+      "sha256": "9326e0d6e73ee39da0a5875df6d61498776c982c1fc74f019a4113741f06496e"
+    },
+    {
+      "path": "docs/research8h/QUERY_COMPLEXITY_ASSESSMENT.md",
+      "bytes": 13788,
+      "sha256": "473bfb524bbd03d96b837441fb41dcba81d17fdfddd549d0138a49ea781998df"
+    },
+    {
+      "path": "docs/research8h/REFERENCE_PRIMARY_METADATA_AUDIT.md",
+      "bytes": 5241,
+      "sha256": "e087533499ac77bd69e5aaf098de088c50acf705bcba9210c3e679f9feb96a47"
+    },
+    {
+      "path": "docs/research8h/RISES_AUTHOR_CHAPTER_NOTES.md",
+      "bytes": 1694,
+      "sha256": "3266d38cbd91e81bed36136055d0deb203882f8068975ad0440926301e1a0b27"
+    },
+    {
+      "path": "docs/research8h/SAFE_BOUND_PRIOR_ART.md",
+      "bytes": 3653,
+      "sha256": "694f581cd5b6e9f4369e6c0ecb4e6ab1f760a7b265d7ad4a69c4d98747e642fe"
+    },
+    {
+      "path": "docs/research8h/SERVICE_CAP_NOVELTY_ASSESSMENT.md",
+      "bytes": 12955,
+      "sha256": "7584e6ee987d45063c128053ed3bf7f619a8777ea4337c00b4522ae3e5d6f1f5"
+    },
+    {
+      "path": "docs/research_next/CERTIFICATE_ABSTRACTION_PRIOR_ART_PREFLIGHT.md",
+      "bytes": 11235,
+      "sha256": "f541f49c7a366c916ba6eb3d27fd4928d6427d7dba8a94208db5b5ef49d82546"
+    },
+    {
+      "path": "docs/research_next/CERTIFICATE_GUIDED_CHRONOLOGY_PROPOSAL.md",
+      "bytes": 6395,
+      "sha256": "ade6f7ba94e7db87857198dd18a26b67a5dd494106a6d0fba3d229911df337a2"
+    },
+    {
+      "path": "docs/research_next/COMPARATOR_FIDELITY.md",
+      "bytes": 15577,
+      "sha256": "fe3e10be01867fb84622b8edb014d4d9ddb970dbb5aab124ec0eac3e4d59aa6b"
+    },
+    {
+      "path": "docs/research_next/CYCLE01_README.md",
+      "bytes": 3128,
+      "sha256": "098abe1fb2897f61b988c68f4bc9dc7c839c50ff9f3316598da19ee4093be4b0"
+    },
+    {
+      "path": "docs/research_next/CYCLE02_README.md",
+      "bytes": 6341,
+      "sha256": "0c2bfbbddb74c95fddbecbd706084b4c4d9e4d2ceb7e0643aece2fab0befa1ae"
+    },
+    {
+      "path": "docs/research_next/CYCLE03_README.md",
+      "bytes": 8322,
+      "sha256": "5dae687f057fbeb624a2e3b2befa28145383fd4d3b70f0335cfef84fb0e89907"
+    },
+    {
+      "path": "docs/research_next/RECENT_AGGREGATION_BOUNDARY_NOTE.md",
+      "bytes": 1457,
+      "sha256": "38c1d032f2094f50a65881a19156407aac32814d39f2cf94f0e278ca19caddc6"
+    },
+    {
+      "path": "docs/research_next/REFINEMENT_PRIOR_ART_LIMITS.md",
+      "bytes": 5361,
+      "sha256": "b69281658fd78e5e6c09f037283a58173f2daab186b396c884b0ba4158e0ab9f"
+    },
+    {
+      "path": "docs/research_next/WHOLE_DAY_PRIOR_ART_LIMITS.md",
+      "bytes": 4881,
+      "sha256": "0c82ec5e8eac7d1065efa45a949a18a7d7985fa8be0922f8b365caca1f9346ca"
+    },
+    {
+      "path": "results/research8h/literature_certificates.csv",
+      "bytes": 13033,
+      "sha256": "ddcb4b0572096ffaeb22067327e65a3826787b013556101028532d5133291b58"
+    }
+  ],
+  "ledger_sha256": "37a981759fbb9774689a295ffad1274e9ef56f8866d55e5561821ad63ea63990",
+  "historical_35_29_reconstruction": "Exactly reproducible by historical_substantive_paper scope: exclude three non-paper works and two background metadata/code-only papers. This is a transparent reconstructed scope, not recovery of an original itemized35-row file."
+}
