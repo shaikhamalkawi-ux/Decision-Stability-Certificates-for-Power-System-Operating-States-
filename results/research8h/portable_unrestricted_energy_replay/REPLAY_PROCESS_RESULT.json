@@ -1,0 +1,10 @@
+{
+  "exit_code": 0,
+  "stdout": "{\"check\": \"provenance\", \"status\": \"FINAL20_PACKAGE_AND_ORIGINAL_ENERGY_PROVENANCE_PASS\"}\n{\"check\": \"focused_checks\", \"status\": \"NEW_SELECTION_DISPLAY_PATH_FIXTURES_PASS\"}\n{\"check\": \"january_identity\", \"status\": \"EXPANDED_ORIGINAL_BINARY_ENERGY_ENCLOSURE_PASS\"}\n{\"check\": \"seed_26093100\", \"status\": \"EXPANDED_ORIGINAL_BINARY_ENERGY_ENCLOSURE_PASS\"}\n{\"check\": \"seed_26093101\", \"status\": \"EXPANDED_ORIGINAL_BINARY_ENERGY_ENCLOSURE_PASS\"}\n{\"check\": \"intervals\", \"status\": \"TWO_ORIGINAL_UNRESTRICTED_INTERVALS_PASS\"}\n{\"check\": \"summary\", \"status\": \"PORTABLE_ORIGINAL_UNRESTRICTED_ENERGY_PASS\"}\n",
+  "stderr": "",
+  "actual_wall_seconds": 16.314750699995784,
+  "closed_utc": "2026-09-27T05:19:42.476279+00:00",
+  "wrapper_attempts": 1,
+  "source_sha256_after": "7071a450c431c6167787c503833962cda4366d3418aa24c8f0d8371137e24497",
+  "protocol_sha256_after": "e20b3b8b8ca6c2169d9361eabfa6a59e66027e3ac93fe5df85d6ca3a31cbe7f5"
+}

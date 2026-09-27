@@ -1,0 +1,78 @@
+{
+  "status": "EXPANDED_ORIGINAL_BINARY_ENERGY_ENCLOSURE_PASS",
+  "lower": {
+    "numerator": "37570224243687160445140434537099499556413865214777015901",
+    "denominator": "1496577676626844588240573268701473812127674924007424",
+    "approximate": 25104.092377194323
+  },
+  "upper": {
+    "numerator": "1017815955397983932811197640867839",
+    "denominator": "39614081257132168796771975168",
+    "approximate": 25693.286909556562
+  },
+  "point": {
+    "status": "CERTIFIED_EXPANDED_ONLY_POINT",
+    "strict_pass": false,
+    "expanded_pass": true,
+    "original_binary_coordinates_exact": true,
+    "binary_coordinates": 12096,
+    "tau": {
+      "numerator": "5902958103587057",
+      "denominator": "590295810358705651712",
+      "float": 1e-05
+    },
+    "maximum_column_violation": {
+      "numerator": "18043",
+      "denominator": "562949953421312",
+      "float": 3.205080645329872e-11
+    },
+    "worst_column": {
+      "column": 6765,
+      "side": "lower"
+    },
+    "maximum_row_violation": {
+      "numerator": "2801",
+      "denominator": "70368744177664",
+      "float": 3.980460405728081e-11
+    },
+    "worst_row": {
+      "row": 5170,
+      "side": "upper"
+    }
+  },
+  "exact_bound": {
+    "nominal_lower_bound_MWh": {
+      "numerator": "17916306634983928634437302528705218379145868274535",
+      "denominator": "713623846352979940529142984724747568191373312",
+      "float": 25106.09297397551
+    },
+    "expanded_lower_bound_MWh": {
+      "numerator": "37570224243687160445140434537099499556413865214777015901",
+      "denominator": "1496577676626844588240573268701473812127674924007424",
+      "float": 25104.092377194323
+    },
+    "row_term": {
+      "numerator": "1791745074095292727294840542376507545",
+      "denominator": "20282409603651670423947251286016",
+      "float": 88339.85256725634
+    },
+    "finite_box_term": {
+      "numerator": "-45125118740316712553631964346006862205330789962905",
+      "denominator": "713623846352979940529142984724747568191373312",
+      "float": -63233.75959328083
+    },
+    "row_dual_l1": {
+      "numerator": "69134940067290237122227",
+      "denominator": "1152921504606846976",
+      "float": 59965.00177248898
+    },
+    "stationarity_residual_l1": {
+      "numerator": "355182201118018751605929205031236563",
+      "denominator": "2535301200456458802993406410752",
+      "float": 140094.67634617587
+    }
+  },
+  "prior_proof_replayed": false,
+  "prior_used_as_endpoint": false,
+  "native_physical_audit_inherited": true
+}

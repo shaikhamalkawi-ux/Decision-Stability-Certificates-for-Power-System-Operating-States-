@@ -1,0 +1,30 @@
+{
+  "status": "FINAL20_PACKAGE_AND_ORIGINAL_ENERGY_PROVENANCE_PASS",
+  "package_payloads": 4815,
+  "package_manifest_sha256": "4c9f6db4561470775c5e567956c48825de44a6700b0cdcd1607ca50770089409",
+  "package_evidence_commit": "3f51758b521967739131701b106be60036a3fdd4",
+  "historical_manifests": {
+    "reproducibility/native_sources/FILE_MANIFEST.csv": {
+      "sha256": "8b18311c646c0ae68d85765c57b690e2db5b5ffc071d1ab1b734b2db88d866b8",
+      "entries": 24
+    },
+    "results/research8h/energy_lp_refinement/input_manifest.json": {
+      "sha256": "b85b1260ded4d4f0a2576c921a4d84581360bfe7adddac361d5ad8826fd6e32d",
+      "entries": 59
+    },
+    "results/seasonal_uncapped/input_manifest.csv": {
+      "sha256": "59ad33b7ef6c6854d9acb3bcca837a521b10dd695711124e204c5c6f4e3a5352",
+      "entries": 55
+    },
+    "results/research8h/seasonal_transfer/input_manifest.csv": {
+      "sha256": "9362c181d3aad078f9ff21fc35b3043ca923b70d8484e72565a4b39d7967eb87",
+      "entries": 136
+    },
+    "results/research8h/seasonal_reference/input_manifest.csv": {
+      "sha256": "a4cd70b40e26a9c5019df545364adb06124ce4e46e67c713caf4667ae19c02af",
+      "entries": 50
+    }
+  },
+  "native_reconstruction": false,
+  "prior_derivations_replayed": false
+}

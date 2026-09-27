@@ -1,0 +1,93 @@
+{
+  "status": "EXACT_CLOSED_REPLAY_ARTIFACT_COPIES",
+  "files": [
+    {
+      "path": "PORTABLE_UNRESTRICTED_ENERGY_PROTOCOL.md",
+      "source": "C:\\Users\\gmalkawi\\.codex\\research-replays\\unrestricted-energy-final20-20260927\\PORTABLE_UNRESTRICTED_ENERGY_PROTOCOL.md",
+      "sha256": "e20b3b8b8ca6c2169d9361eabfa6a59e66027e3ac93fe5df85d6ca3a31cbe7f5",
+      "bytes": 6906
+    },
+    {
+      "path": "PREPARATION.json",
+      "source": "C:\\Users\\gmalkawi\\.codex\\research-replays\\unrestricted-energy-final20-20260927\\PREPARATION.json",
+      "sha256": "22675d887ccbe78e32b34bccd4baffe5336f25326f23596920889f31d3eb911b",
+      "bytes": 684
+    },
+    {
+      "path": "REPLAY_LAUNCH.json",
+      "source": "C:\\Users\\gmalkawi\\.codex\\research-replays\\unrestricted-energy-final20-20260927\\REPLAY_LAUNCH.json",
+      "sha256": "f25796596699161f21f0a36a2aaff63fa7cf4539e44874c9f5ddfe009155df70",
+      "bytes": 1873
+    },
+    {
+      "path": "REPLAY_PROCESS_RESULT.json",
+      "source": "C:\\Users\\gmalkawi\\.codex\\research-replays\\unrestricted-energy-final20-20260927\\REPLAY_PROCESS_RESULT.json",
+      "sha256": "f61453f0a27dca5b403a9ee35f9b3e129d78b1c23f68a4c031f8ad5c1d6448cd",
+      "bytes": 1025
+    },
+    {
+      "path": "final20_FILE_MANIFEST.csv",
+      "source": "C:\\Users\\gmalkawi\\.codex\\research-replays\\unrestricted-energy-final20-20260927\\package\\FILE_MANIFEST.csv",
+      "sha256": "4c9f6db4561470775c5e567956c48825de44a6700b0cdcd1607ca50770089409",
+      "bytes": 674848
+    },
+    {
+      "path": "prepare_unrestricted_supplement.py",
+      "source": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\research8h_delivery\\prepare_unrestricted_supplement.py",
+      "sha256": "507cd33e67554f2b966de0228d18fd58ebc33e87e346db25f93e77b21a528ffe",
+      "bytes": 4568
+    },
+    {
+      "path": "replay_unrestricted_energy.py",
+      "source": "C:\\Users\\gmalkawi\\.codex\\research-replays\\unrestricted-energy-final20-20260927\\replay_unrestricted_energy.py",
+      "sha256": "7071a450c431c6167787c503833962cda4366d3418aa24c8f0d8371137e24497",
+      "bytes": 23776
+    },
+    {
+      "path": "reports01/focused_checks.json",
+      "source": "C:\\Users\\gmalkawi\\.codex\\research-replays\\unrestricted-energy-final20-20260927\\reports01\\focused_checks.json",
+      "sha256": "c01d56e42a9f095d535f7cbb9c97b7881b682252b7835008f216d6681ecafc82",
+      "bytes": 117
+    },
+    {
+      "path": "reports01/intervals.json",
+      "source": "C:\\Users\\gmalkawi\\.codex\\research-replays\\unrestricted-energy-final20-20260927\\reports01\\intervals.json",
+      "sha256": "8c842947a215ce265d82083af9563be929c3d428ec6a665aa67e4eacec401fab",
+      "bytes": 4664
+    },
+    {
+      "path": "reports01/january_identity.json",
+      "source": "C:\\Users\\gmalkawi\\.codex\\research-replays\\unrestricted-energy-final20-20260927\\reports01\\january_identity.json",
+      "sha256": "a67eca127ac6d00f1b1a51dceb37bd80574f44351484419646dc7e6aaadbf4d6",
+      "bytes": 2582
+    },
+    {
+      "path": "reports01/provenance.json",
+      "source": "C:\\Users\\gmalkawi\\.codex\\research-replays\\unrestricted-energy-final20-20260927\\reports01\\provenance.json",
+      "sha256": "5879eb24c2a27e93a852e85e0deab49454fb2ee313843173cc3877af11d1af06",
+      "bytes": 1271
+    },
+    {
+      "path": "reports01/seed_26093100.json",
+      "source": "C:\\Users\\gmalkawi\\.codex\\research-replays\\unrestricted-energy-final20-20260927\\reports01\\seed_26093100.json",
+      "sha256": "3f2eff992bab51171df23f599dc2545a53b5345132ce9b3feb1b5781ade435ac",
+      "bytes": 2689
+    },
+    {
+      "path": "reports01/seed_26093101.json",
+      "source": "C:\\Users\\gmalkawi\\.codex\\research-replays\\unrestricted-energy-final20-20260927\\reports01\\seed_26093101.json",
+      "sha256": "b359641f9a34c1ffb088dd996e9870a366c5f45c1ebc7341417ddfd3f87fc42e",
+      "bytes": 2571
+    },
+    {
+      "path": "reports01/summary.json",
+      "source": "C:\\Users\\gmalkawi\\.codex\\research-replays\\unrestricted-energy-final20-20260927\\reports01\\summary.json",
+      "sha256": "c5c005a26555b2f96e80e1810b267c7e846a586ed641a3cad2aa6fd1d27f0636",
+      "bytes": 965
+    }
+  ],
+  "external_inputs_unchanged": true,
+  "full_package_files_not_copied": true,
+  "math_replay_attempts": 1,
+  "source_copy_is_same_as_executed": true
+}

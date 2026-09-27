@@ -1,0 +1,24 @@
+{
+  "status": "PORTABLE_ORIGINAL_UNRESTRICTED_ENERGY_PASS",
+  "roles": {
+    "january_identity": "FULL_POINT_AND_NEW_BOUND_VERIFIED",
+    "seed_26093100": "FULL_POINT_AND_NEW_BOUND_VERIFIED",
+    "seed_26093101": "FULL_POINT_AND_NEW_BOUND_VERIFIED"
+  },
+  "intervals": 2,
+  "point_roles": 3,
+  "new_dual_bounds": 3,
+  "prior_proofs_replayed": 0,
+  "optimizer_calls": 0,
+  "network_calls": 0,
+  "native_reconstruction": false,
+  "native_audits_inherited": true,
+  "package_files_unchanged": true,
+  "self_sha256": "7071a450c431c6167787c503833962cda4366d3418aa24c8f0d8371137e24497",
+  "package_manifest_sha256": "4c9f6db4561470775c5e567956c48825de44a6700b0cdcd1607ca50770089409",
+  "package_evidence_commit": "3f51758b521967739131701b106be60036a3fdd4",
+  "math_seconds": 5.458675299974857,
+  "total_seconds": 16.15662510000402,
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "second_machine_claim": false
+}

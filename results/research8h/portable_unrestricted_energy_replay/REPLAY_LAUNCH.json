@@ -1,0 +1,32 @@
+{
+  "utc": "2026-09-27T05:19:26.161956+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "interpreter": "C:\\Users\\gmalkawi\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "command": [
+    "C:\\Users\\gmalkawi\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-I",
+    "-S",
+    "C:\\Users\\gmalkawi\\.codex\\research-replays\\unrestricted-energy-final20-20260927\\replay_unrestricted_energy.py",
+    "--package-root",
+    "C:\\Users\\gmalkawi\\.codex\\research-replays\\unrestricted-energy-final20-20260927\\package",
+    "--report-dir",
+    "C:\\Users\\gmalkawi\\.codex\\research-replays\\unrestricted-energy-final20-20260927\\reports01",
+    "--expected-self-sha256",
+    "7071a450c431c6167787c503833962cda4366d3418aa24c8f0d8371137e24497",
+    "--expected-package-manifest-sha256",
+    "4c9f6db4561470775c5e567956c48825de44a6700b0cdcd1607ca50770089409",
+    "--package-evidence-commit",
+    "3f51758b521967739131701b106be60036a3fdd4",
+    "--initial-run"
+  ],
+  "working_directory": "C:\\Users\\gmalkawi\\.codex\\research-replays\\unrestricted-energy-final20-20260927",
+  "source_sha256": "7071a450c431c6167787c503833962cda4366d3418aa24c8f0d8371137e24497",
+  "protocol_sha256": "e20b3b8b8ca6c2169d9361eabfa6a59e66027e3ac93fe5df85d6ca3a31cbe7f5",
+  "independent_source_hash_checked_before_execution": true,
+  "prepared_receipt_sha256": "22675d887ccbe78e32b34bccd4baffe5336f25326f23596920889f31d3eb911b",
+  "trusted_outer_sha256": "4c9f6db4561470775c5e567956c48825de44a6700b0cdcd1607ca50770089409",
+  "evidence_commit": "3f51758b521967739131701b106be60036a3fdd4",
+  "report_directory_previously_absent": true,
+  "wrapper_attempt": 1,
+  "source_gate": "Root and independent CODE_REVIEW PASS; explicit parent execution GO"
+}

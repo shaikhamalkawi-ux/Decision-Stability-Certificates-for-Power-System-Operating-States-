@@ -1,0 +1,31 @@
+{
+  "status": "CLOSED_ORIGINAL_UNRESTRICTED_ENERGY_SUPPLEMENT",
+  "paths": [
+    "docs/research8h/PORTABLE_ORIGINAL_ENERGY_ASSESSMENT.md",
+    "docs/research8h/PORTABLE_ORIGINAL_ENERGY_PREPARATION_REVIEW.md",
+    "docs/research8h/PORTABLE_UNRESTRICTED_ENERGY_CODE_REVIEW.md",
+    "docs/research8h/PORTABLE_UNRESTRICTED_ENERGY_EXECUTION_REVIEW.md",
+    "docs/research8h/PORTABLE_UNRESTRICTED_ENERGY_PROTOCOL.md",
+    "docs/research8h/PORTABLE_UNRESTRICTED_ENERGY_READOUT.md",
+    "reproducibility/replay_unrestricted_energy.py",
+    "results/research8h/portable_unrestricted_energy_implementation_tests.json",
+    "results/research8h/portable_unrestricted_energy_replay/COPY_PROVENANCE.json",
+    "results/research8h/portable_unrestricted_energy_replay/PORTABLE_UNRESTRICTED_ENERGY_PROTOCOL.md",
+    "results/research8h/portable_unrestricted_energy_replay/PREPARATION.json",
+    "results/research8h/portable_unrestricted_energy_replay/REPLAY_LAUNCH.json",
+    "results/research8h/portable_unrestricted_energy_replay/REPLAY_PROCESS_RESULT.json",
+    "results/research8h/portable_unrestricted_energy_replay/artifact_manifest.csv",
+    "results/research8h/portable_unrestricted_energy_replay/final20_FILE_MANIFEST.csv",
+    "results/research8h/portable_unrestricted_energy_replay/prepare_unrestricted_supplement.py",
+    "results/research8h/portable_unrestricted_energy_replay/publication_allowlist.json",
+    "results/research8h/portable_unrestricted_energy_replay/replay_unrestricted_energy.py",
+    "results/research8h/portable_unrestricted_energy_replay/reports01/focused_checks.json",
+    "results/research8h/portable_unrestricted_energy_replay/reports01/intervals.json",
+    "results/research8h/portable_unrestricted_energy_replay/reports01/january_identity.json",
+    "results/research8h/portable_unrestricted_energy_replay/reports01/provenance.json",
+    "results/research8h/portable_unrestricted_energy_replay/reports01/seed_26093100.json",
+    "results/research8h/portable_unrestricted_energy_replay/reports01/seed_26093101.json",
+    "results/research8h/portable_unrestricted_energy_replay/reports01/summary.json"
+  ],
+  "scope": "Three dependency model roles and two original January intervals; no main-delivery or scientific-artifact changes"
+}
