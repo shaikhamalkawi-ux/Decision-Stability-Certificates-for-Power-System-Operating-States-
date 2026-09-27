@@ -1,0 +1,59 @@
+{
+  "status": "PASS",
+  "science_commit": "8abc5f3df438fe3a54e35aa06c892978adcd0537",
+  "documents": [
+    {
+      "document": "Temporal_Feasibility_Research_Note_v2_DRAFT",
+      "source_sha256": "f989e3ed8ac7bd6261647be3150562a88c8216bfe95107aa25b57c35d8ef7aad",
+      "pages": 10,
+      "native_math_objects": 6,
+      "tables": 3,
+      "embedded_images": 1,
+      "references": 10,
+      "reference_first_appearance_pass": true,
+      "all_reference_links_present": true,
+      "markdown_figure_resolves": true,
+      "archive_equals_visually_reviewed_working_bytes": true,
+      "rendered_page_sha256": {
+        "page-1.png": "ff45033face69d5821b01210758ecf984031f89e4c206a65c0dcc1a0243b9510",
+        "page-2.png": "cf09a691e2c74919b47e2ff18d8f617967aeffd85580ee3f74a41b77d57067a8",
+        "page-3.png": "8d237d186b25e3caafd7fd35c200e3d2babedb7288eb292c206f86a71efecca2",
+        "page-4.png": "9242e88ce39f346110d5a9feb6250395a777a36659d013afb9348e58af8ba1d6",
+        "page-5.png": "e78d3f7a2f9b54d976627d90039eaf4fe6d46aa995cff85cb698ed4625622a6f",
+        "page-6.png": "002f20fe3b996633ee429a99366f2013ffc8ba8051058dbc75eff5cda85d52d7",
+        "page-7.png": "7b493e578e5511ca226e18a416c69d42191af81109b956958ef37727622519dc",
+        "page-8.png": "e6efedb39c5c4ca88c16e54ceb5779df3721b4deb1b8e454d4fa669b33960978",
+        "page-9.png": "f5c8146e305dd0d20333b96e50eac5574746b5de7d30f087a30384bf360fc455",
+        "page-10.png": "717b93fb95fd9ca4f15b3a39f41aec5194cb889a9da7622e1cc5779c62ca8308"
+      }
+    },
+    {
+      "document": "Scientific_Decision_AR_v2_DRAFT",
+      "source_sha256": "40af9a6256b53a86fb3fb13a264dd31eb87c2ebefc8ecc7b7b90fa4a52433891",
+      "pages": 5,
+      "native_math_objects": 0,
+      "tables": 3,
+      "embedded_images": 1,
+      "references": 9,
+      "reference_first_appearance_pass": true,
+      "all_reference_links_present": true,
+      "markdown_figure_resolves": true,
+      "archive_equals_visually_reviewed_working_bytes": true,
+      "rendered_page_sha256": {
+        "page-1.png": "d4cb6e7f4001cb2b59c1a57a18d73b426801cfc9a45681d4fc0175e780d3961d",
+        "page-2.png": "c4efc0b7b5244b9df96bc956ac230047513586faf23e4fc27b24b5085376f99a",
+        "page-3.png": "d260399a71e964133cfdb94baa77036909365e6f7694c19454b5b52651c47c9d",
+        "page-4.png": "0e7acefa327fb3071ac5f2016a1879263538db3abbd13cdfe671cd9a7e7aef44",
+        "page-5.png": "b61ccb65a6757882ee5d01d393386ae216e494f9a3645318981fa8b7eb14942d"
+      }
+    }
+  ],
+  "visual_review": "Root directly inspected all ten final English pages and all five final Arabic pages, plus the standalone eight-case graphic. No clipped text, broken equations, reversed numerical intervals or missing table/figure content observed.",
+  "scientific_review": [
+    "MANUSCRIPT_V2_SCIENTIFIC_REVIEW.md",
+    "MANUSCRIPT_V2_CLAIM_REVIEW.md",
+    "THREE_WEEK_PLOT_CODE_REVIEW.md"
+  ],
+  "scope": "Separate author-review research drafts; not journal-readiness approval. Native-encoding path audit outside this version.",
+  "checker_source_sha256": "377c66c555eda103de5968eca95ef3c9672cbe6e2a931bf9167862c89838761b"
+}

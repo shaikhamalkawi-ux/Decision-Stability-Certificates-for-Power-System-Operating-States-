@@ -1,0 +1,277 @@
+{
+  "input_sha256": {
+    "results/research8h/energy_lp_refinement/refined_brackets.json": "bd1e8e061a26f82bdb8e0697e03ea4b3f97664b6ee19c21d4886950e85fd1cfd",
+    "results/research8h/hour_of_day_uncapped/energy_brackets.json": "4915dfe14d94419cbb6c62a52b2079dc10648a349b93a224630ab1b41e11a1f1",
+    "results/research8h/fresh_january_energy/energy_brackets.json": "ed4e0e6eb4f88b8a660c7b46495a95d30eebce94f715be83cedf4a884930471c",
+    "results/research8h/fresh_energy_review/postrun.json": "e71c1c8c553efcaa952ab4afc728ff6af52a60b21df0343170c9dc05feee9d89",
+    "results/research8h/energy_lp_refinement/independent_review.json": "94c10b498dc600f92d55c77987325a106d7dcbb64f201a284a8295b756528401",
+    "results/research8h/hour_of_day_uncapped/independent_postrun_review.json": "6039f8bbf0dd882cf34f9ada87ec251e95d1e48296291591e6b58914c680c832"
+  },
+  "plot_source_sha256": "9b84a759c5cb6cf8a84d540d2484f5af4fc4c95b4d916f956fe4c3a664f72b01",
+  "optimizer_calls": 0,
+  "prescribed_cases": 8,
+  "records": [
+    {
+      "case": "seed_26093100",
+      "week": 1,
+      "group": "unrestricted",
+      "status": "finite_optimum_difference_enclosure",
+      "lower": {
+        "numerator": "2538743225332781507118549784362889884355124626290726193109324376411",
+        "denominator": "1645504557321206042154969182557350504982735865633579863348609024"
+      },
+      "upper": {
+        "numerator": "7622956690049149598647616819321430765614150140031730463",
+        "denominator": "2993155353253689176481146537402947624255349848014848"
+      },
+      "difference_display_MWh": [
+        "1,542.835730",
+        "2,546.796204"
+      ],
+      "relative_percent": [
+        {
+          "numerator": "12693716126663907535592748921814449421775623131453630965546621882055",
+          "denominator": "1889445773415191590220751585188454609273827258164115064603262582784"
+        },
+        {
+          "numerator": "762295669004914959864761681932143076561415014003173046300",
+          "denominator": "67692670989541805824312031500944438452884092390539984097"
+        }
+      ],
+      "relative_display_percent": [
+        "6.718221",
+        "11.261126"
+      ]
+    },
+    {
+      "case": "seed_26093101",
+      "week": 1,
+      "group": "unrestricted",
+      "status": "finite_optimum_difference_enclosure",
+      "lower": {
+        "numerator": "3201405839519772115393250917834982495579473579849072221",
+        "denominator": "1496577676626844588240573268701473812127674924007424"
+      },
+      "upper": {
+        "numerator": "9211328266480355275166655146878357767701522170239583007",
+        "denominator": "2993155353253689176481146537402947624255349848014848"
+      },
+      "difference_display_MWh": [
+        "2,139.151137",
+        "3,077.464141"
+      ],
+      "relative_percent": [
+        {
+          "numerator": "16007029197598860576966254589174912477897367899245361105",
+          "denominator": "1718440920208369416487359180963225853041719581746397184"
+        },
+        {
+          "numerator": "921132826648035527516665514687835776770152217023958300700",
+          "denominator": "67692670989541805824312031500944438452884092390539984097"
+        }
+      ],
+      "relative_display_percent": [
+        "9.314855",
+        "13.607571"
+      ]
+    },
+    {
+      "case": "seed_26093200",
+      "week": 1,
+      "group": "clock_week1",
+      "status": "finite_optimum_difference_enclosure",
+      "lower": {
+        "numerator": "1695223273614194406327858403608394686617656520224943183",
+        "denominator": "2993155353253689176481146537402947624255349848014848"
+      },
+      "upper": {
+        "numerator": "3999911122499774517562456650018725585282210942010852127",
+        "denominator": "2993155353253689176481146537402947624255349848014848"
+      },
+      "difference_display_MWh": [
+        "566.366617",
+        "1,336.352662"
+      ],
+      "relative_percent": [
+        {
+          "numerator": "8476116368070972031639292018041973433088282601124715915",
+          "denominator": "3436881840416738832974718361926451706083439163492794368"
+        },
+        {
+          "numerator": "399991112249977451756245665001872558528221094201085212700",
+          "denominator": "67692670989541805824312031500944438452884092390539984097"
+        }
+      ],
+      "relative_display_percent": [
+        "2.466222",
+        "5.908928"
+      ]
+    },
+    {
+      "case": "seed_26093201",
+      "week": 1,
+      "group": "clock_week1",
+      "status": "finite_optimum_difference_enclosure",
+      "lower": {
+        "numerator": "40132687400415832711929266492092539083830108952087717",
+        "denominator": "46768052394588893382517914646921056628989841375232"
+      },
+      "upper": {
+        "numerator": "4217284698933842019540983988929376655983180772151198495",
+        "denominator": "2993155353253689176481146537402947624255349848014848"
+      },
+      "difference_display_MWh": [
+        "858.121844",
+        "1,408.976215"
+      ],
+      "relative_percent": [
+        {
+          "numerator": "200663437002079163559646332460462695419150544760438585",
+          "denominator": "53701278756511544265229974405100807907553736929574912"
+        },
+        {
+          "numerator": "421728469893384201954098398892937665598318077215119849500",
+          "denominator": "67692670989541805824312031500944438452884092390539984097"
+        }
+      ],
+      "relative_display_percent": [
+        "3.736660",
+        "6.230047"
+      ]
+    },
+    {
+      "case": "seed_26093210",
+      "week": 2,
+      "group": "clock_fresh",
+      "status": "finite_optimum_difference_enclosure",
+      "lower": {
+        "numerator": "429531259575738248910188404603077036202497574525165853",
+        "denominator": "748288838313422294120286634350736906063837462003712"
+      },
+      "upper": {
+        "numerator": "169826221865308184977605579452035316617344851960952551",
+        "denominator": "93536104789177786765035829293842113257979682750464"
+      },
+      "difference_display_MWh": [
+        "574.017996",
+        "1,815.622131"
+      ],
+      "relative_percent": [
+        {
+          "numerator": "10738281489393456222754710115076925905062439363129146325",
+          "denominator": "4914209888605123582902071378866170406397865780435746816"
+        },
+        {
+          "numerator": "16982622186530818497760557945203531661734485196095255100",
+          "denominator": "2420462787332983677388067029405122530569028479259740441"
+        }
+      ],
+      "relative_display_percent": [
+        "2.185149",
+        "7.016271"
+      ]
+    },
+    {
+      "case": "seed_26093211",
+      "week": 2,
+      "group": "clock_fresh",
+      "status": "finite_optimum_difference_enclosure",
+      "lower": {
+        "numerator": "8330039232926100775045771821429540255411903404032367",
+        "denominator": "93536104789177786765035829293842113257979682750464"
+      },
+      "upper": {
+        "numerator": "215506256302707724730643782224866903377962175838320359",
+        "denominator": "93536104789177786765035829293842113257979682750464"
+      },
+      "difference_display_MWh": [
+        "89.056939",
+        "2,303.990067"
+      ],
+      "relative_percent": [
+        {
+          "numerator": "208250980823152519376144295535738506385297585100809175",
+          "denominator": "614276236075640447862758922358271300799733222554468352"
+        },
+        {
+          "numerator": "21550625630270772473064378222486690337796217583832035900",
+          "denominator": "2420462787332983677388067029405122530569028479259740441"
+        }
+      ],
+      "relative_display_percent": [
+        "0.339018",
+        "8.903515"
+      ]
+    },
+    {
+      "case": "seed_26093220",
+      "week": 3,
+      "group": "clock_fresh",
+      "status": "finite_optimum_difference_enclosure",
+      "lower": {
+        "numerator": "7122247238581039598945326528539230928067902763137967106359205457837",
+        "denominator": "6582018229284824168619876730229402019930943462534319453394436096"
+      },
+      "upper": {
+        "numerator": "2778012997240045970825177259146662000167099605394773021",
+        "denominator": "1496577676626844588240573268701473812127674924007424"
+      },
+      "difference_display_MWh": [
+        "1,082.076498",
+        "1,856.243776"
+      ],
+      "relative_percent": [
+        {
+          "numerator": "178056180964525989973633163213480773201697569078449177658980136445925",
+          "denominator": "78721404356158337965070460652560110575380568376541534645916786491392"
+        },
+        {
+          "numerator": "277801299724004597082517725914666200016709960539477302100",
+          "denominator": "71040120044180405409152889048497810725108515836534336483"
+        }
+      ],
+      "relative_display_percent": [
+        "2.261852",
+        "3.910485"
+      ]
+    },
+    {
+      "case": "seed_26093221",
+      "week": 3,
+      "group": "clock_fresh",
+      "status": "finite_optimum_difference_enclosure",
+      "lower": {
+        "numerator": "98102918742337228428285448125389845324068313148674233",
+        "denominator": "93536104789177786765035829293842113257979682750464"
+      },
+      "upper": {
+        "numerator": "3679167876345200992904297403012747811879820108858250269",
+        "denominator": "1496577676626844588240573268701473812127674924007424"
+      },
+      "difference_display_MWh": [
+        "1,048.824076",
+        "2,458.387516"
+      ],
+      "relative_percent": [
+        {
+          "numerator": "2452572968558430710707136203134746133101707828716855825",
+          "denominator": "1118698440282036272678147677376047547786876185349193728"
+        },
+        {
+          "numerator": "367916787634520099290429740301274781187982010885825026900",
+          "denominator": "71040120044180405409152889048497810725108515836534336483"
+        }
+      ],
+      "relative_display_percent": [
+        "2.192345",
+        "5.179001"
+      ]
+    }
+  ],
+  "display_rounding": "outward exact rational rounding, one decimal in figure and six in tabulated metadata",
+  "limits": "No confidence intervals, statistical independence, seasonal or external-network generalization inferred.",
+  "images": {
+    "optimal_energy_differences.png": "274eafa6b45364bbe6ae2c6a6f9495ccd2e125d2deb8e93ec1e23ca87523357b",
+    "optimal_energy_differences.svg": "dedf215ac701202cf788e6f1a4939a2fd6ec057de6fd08662bc9824e2cfa46c5"
+  }
+}
