@@ -1,0 +1,103 @@
+{
+  "UC_math_replays": 0,
+  "clustering_calls": 0,
+  "control_roles": 6,
+  "failure": null,
+  "initial_validation_seconds": 12.026345000020228,
+  "input_bindings": 117,
+  "ledger": [
+    {
+      "case": "january_identity",
+      "report": "january_identity.json",
+      "role": "identity_self",
+      "status": "AUDITED",
+      "week": 1
+    },
+    {
+      "case": "seed_26093200",
+      "report": "seed_26093200.json",
+      "role": "ordinary",
+      "status": "AUDITED",
+      "week": 1
+    },
+    {
+      "case": "seed_26093201",
+      "report": "seed_26093201.json",
+      "role": "ordinary",
+      "status": "AUDITED",
+      "week": 1
+    },
+    {
+      "case": "seed_26100200",
+      "report": "seed_26100200.json",
+      "role": "class_control",
+      "status": "AUDITED",
+      "week": 1
+    },
+    {
+      "case": "week_2_identity",
+      "report": "week_2_identity.json",
+      "role": "identity_self",
+      "status": "AUDITED",
+      "week": 2
+    },
+    {
+      "case": "seed_26093210",
+      "report": "seed_26093210.json",
+      "role": "ordinary",
+      "status": "AUDITED",
+      "week": 2
+    },
+    {
+      "case": "seed_26093211",
+      "report": "seed_26093211.json",
+      "role": "ordinary",
+      "status": "AUDITED",
+      "week": 2
+    },
+    {
+      "case": "seed_26100210",
+      "report": "seed_26100210.json",
+      "role": "class_control",
+      "status": "AUDITED",
+      "week": 2
+    },
+    {
+      "case": "week_3_identity",
+      "report": "week_3_identity.json",
+      "role": "identity_self",
+      "status": "AUDITED",
+      "week": 3
+    },
+    {
+      "case": "seed_26093220",
+      "report": "seed_26093220.json",
+      "role": "ordinary",
+      "status": "AUDITED",
+      "week": 3
+    },
+    {
+      "case": "seed_26093221",
+      "report": "seed_26093221.json",
+      "role": "ordinary",
+      "status": "AUDITED",
+      "week": 3
+    },
+    {
+      "case": "seed_26100220",
+      "report": "seed_26100220.json",
+      "role": "class_control",
+      "status": "AUDITED",
+      "week": 3
+    }
+  ],
+  "native_CSV_reconstruction": false,
+  "optimizer_calls": 0,
+  "ordinary_denominator": 6,
+  "phase_elapsed_seconds": 55.77552329999162,
+  "phase_soft_limit_seconds": 300,
+  "published_comparator": "PUBLISHED_COMPARATOR_NOT_EXECUTED",
+  "scope": "Post-label exact unclustered information audit; not method performance or general sufficiency.",
+  "status": "COMPLETE",
+  "utc": "2026-09-27T06:46:54.553682+00:00"
+}

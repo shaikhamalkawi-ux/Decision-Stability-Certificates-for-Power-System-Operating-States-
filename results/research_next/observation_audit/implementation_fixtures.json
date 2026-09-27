@@ -1,0 +1,19 @@
+{
+  "optimizer_calls": 0,
+  "scientific_arrays_read": 0,
+  "source_sha256": "7a0bf951b4fc0c500d35c3f4729bf9a6b74bb6bb7f48ece673225c0eea991432",
+  "status": "PASS",
+  "tests": [
+    "signed_zero_numeric_equal_bytes_distinct",
+    "coordinate_107_is_observed",
+    "joint_not_marginal",
+    "whole_day_permutation_retains_hod_days_edges",
+    "whole_day_permutation_changes_raw_transitions",
+    "multiplicity_is_not_set",
+    "noncyclic_edge_count",
+    "unique_path_reconstruction",
+    "incorrect_endpoint_rejected",
+    "duplicate_token_premise_not_claimed"
+  ],
+  "utc": "2026-09-27T06:40:40.841864+00:00"
+}

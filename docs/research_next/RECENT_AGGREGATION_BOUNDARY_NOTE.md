@@ -1,0 +1,7 @@
+# Adjacent recent prior art: unit aggregation
+
+27 September2026. Zixuan Duan and Zhengshuo Li, *A Counterexample to Two Representative Unit Aggregation Formulations for Unit Commitment*, [arXiv2609.11139v1](https://arxiv.org/html/2609.11139v1), was read at SectionsII-A/II-C andIII-A/III-B, with introduction context. This is selected-body reading, not an independent reproduction or a full supplementary-proof audit. The HTML identifies10September2026; it is a preprint, with no journal-publication claim here.
+
+The authors distinguish representing every valid detailed schedule from ensuring that every aggregate trajectory has a detailed realization. They exhibit a two-unit, ten-period counterexample to PCUC and TUA driven by incompatible output allocations across time, and report disaggregation failures on published replication cases. Their tests use a numerical tolerance; we did not recheck their computational outcomes. This is **aggregation across units**, not our compression of input chronology. It nevertheless narrows broad claims that discovering temporal inconsistency or unrealizable aggregate UC schedules is new. A contribution here must identify its different observation map, operational question and verification evidence. The paper does not itself establish whether our particular HOD pairs collide under an actual representative-period method.
+
+This upgrades the same abstract lead to selected-body reading; do not count it twice.

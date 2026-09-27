@@ -1,0 +1,150 @@
+{
+  "utc": "2026-09-27T06:48:59.803Z",
+  "status": "ROOT_SOURCE_AND_RECORD_REVIEW_PASS",
+  "source_sha256": "7a0bf951b4fc0c500d35c3f4729bf9a6b74bb6bb7f48ece673225c0eea991432",
+  "protocol_sha256": "22a5241efa5887fc7720e95b6e965d2e2bf8bbb54dcfeb28f4cec4717a2487f2",
+  "summary_sha256": "86045c0827ae1bb16fe856cd65dccf383f0f12be5d45de17cd26a183ae7fd39f",
+  "checks": {
+    "complete": true,
+    "fixed_denominator": true,
+    "no_optimizers": true,
+    "all_audited": true
+  },
+  "stored_count_conservation": true,
+  "rows": [
+    {
+      "case": "january_identity",
+      "role": "identity_self",
+      "hod_equal": true,
+      "day_equal": true,
+      "transition_equal": true,
+      "changed_day_occurrences": 0,
+      "changed_transition_occurrences": 0,
+      "unique_tokens": 168,
+      "inherited_binary_verdict": null
+    },
+    {
+      "case": "seed_26093200",
+      "role": "ordinary",
+      "hod_equal": true,
+      "day_equal": false,
+      "transition_equal": false,
+      "changed_day_occurrences": 3,
+      "changed_transition_occurrences": 46,
+      "unique_tokens": 168,
+      "inherited_binary_verdict": "CERTIFIED_INFEASIBLE_EXPANDED_MODEL"
+    },
+    {
+      "case": "seed_26093201",
+      "role": "ordinary",
+      "hod_equal": true,
+      "day_equal": false,
+      "transition_equal": false,
+      "changed_day_occurrences": 3,
+      "changed_transition_occurrences": 41,
+      "unique_tokens": 168,
+      "inherited_binary_verdict": "CERTIFIED_INFEASIBLE_EXPANDED_MODEL"
+    },
+    {
+      "case": "seed_26100200",
+      "role": "class_control",
+      "hod_equal": true,
+      "day_equal": false,
+      "transition_equal": false,
+      "changed_day_occurrences": 2,
+      "changed_transition_occurrences": 16,
+      "unique_tokens": 168,
+      "inherited_binary_verdict": null
+    },
+    {
+      "case": "week_2_identity",
+      "role": "identity_self",
+      "hod_equal": true,
+      "day_equal": true,
+      "transition_equal": true,
+      "changed_day_occurrences": 0,
+      "changed_transition_occurrences": 0,
+      "unique_tokens": 168,
+      "inherited_binary_verdict": null
+    },
+    {
+      "case": "seed_26093210",
+      "role": "ordinary",
+      "hod_equal": true,
+      "day_equal": false,
+      "transition_equal": false,
+      "changed_day_occurrences": 3,
+      "changed_transition_occurrences": 57,
+      "unique_tokens": 168,
+      "inherited_binary_verdict": "CERTIFIED_INFEASIBLE_EXPANDED_MODEL"
+    },
+    {
+      "case": "seed_26093211",
+      "role": "ordinary",
+      "hod_equal": true,
+      "day_equal": false,
+      "transition_equal": false,
+      "changed_day_occurrences": 3,
+      "changed_transition_occurrences": 44,
+      "unique_tokens": 168,
+      "inherited_binary_verdict": "UNKNOWN"
+    },
+    {
+      "case": "seed_26100210",
+      "role": "class_control",
+      "hod_equal": true,
+      "day_equal": false,
+      "transition_equal": false,
+      "changed_day_occurrences": 3,
+      "changed_transition_occurrences": 25,
+      "unique_tokens": 168,
+      "inherited_binary_verdict": null
+    },
+    {
+      "case": "week_3_identity",
+      "role": "identity_self",
+      "hod_equal": true,
+      "day_equal": true,
+      "transition_equal": true,
+      "changed_day_occurrences": 0,
+      "changed_transition_occurrences": 0,
+      "unique_tokens": 168,
+      "inherited_binary_verdict": null
+    },
+    {
+      "case": "seed_26093220",
+      "role": "ordinary",
+      "hod_equal": true,
+      "day_equal": false,
+      "transition_equal": false,
+      "changed_day_occurrences": 3,
+      "changed_transition_occurrences": 46,
+      "unique_tokens": 168,
+      "inherited_binary_verdict": "CERTIFIED_INFEASIBLE_EXPANDED_MODEL"
+    },
+    {
+      "case": "seed_26093221",
+      "role": "ordinary",
+      "hod_equal": true,
+      "day_equal": false,
+      "transition_equal": false,
+      "changed_day_occurrences": 3,
+      "changed_transition_occurrences": 44,
+      "unique_tokens": 168,
+      "inherited_binary_verdict": "CERTIFIED_INFEASIBLE_EXPANDED_MODEL"
+    },
+    {
+      "case": "seed_26100220",
+      "role": "class_control",
+      "hod_equal": true,
+      "day_equal": false,
+      "transition_equal": false,
+      "changed_day_occurrences": 2,
+      "changed_transition_occurrences": 4,
+      "unique_tokens": 168,
+      "inherited_binary_verdict": null
+    }
+  ],
+  "scope": "Independent reading of full source/protocol and all12 result records; count conservation and limits reviewed. No repeated physical input observations, optimization, originalUC proof replay or source-array reconstruction.",
+  "limitation": "Preparation currently resolves historical paths at original workspace; no relocated execution claimed."
+}

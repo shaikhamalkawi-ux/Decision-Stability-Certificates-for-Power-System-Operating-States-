@@ -1,0 +1,110 @@
+{
+  "schema": "comparator_fidelity_sources_v1",
+  "created_utc": "2026-09-27T06:35:14.557Z",
+  "scope": "Primary source/code inspection only; no imported author code, clustering, model construction or optimization; no archived-pair computations.",
+  "main_repository_commit": "ce97428aa225037dcbcd848889ef55f3b67c17ba",
+  "inout_gitlink": "8b1f53a75d152645e5ff8c7d5f417befaf316da5",
+  "commit_resolution": "Inherited from closed prior source audit; immutable relevant files re-read and listed hashes recomputed from HTTP response bytes in this continuation.",
+  "sources": [
+    {
+      "id": "auer_v2",
+      "url": "https://arxiv.org/html/2510.18555v2",
+      "version": "arXiv:2510.18555v2, 2026-07-15",
+      "sha256": null,
+      "read_depth": "Body Sections3.1-3.3,4.1; operational/reference definitions4.3.1; not entire paper read this turn."
+    },
+    {
+      "id": "markov_runner",
+      "url": "https://raw.githubusercontent.com/IEE-TUGraz/LEGO-Pyomo/ce97428aa225037dcbcd848889ef55f3b67c17ba/research/MK/Markov.py",
+      "sha256": "955e29e9096f01992a615a2b897c0721243475a14db1df56e30fba84ad137e6e",
+      "bytes": 80363,
+      "read_depth": "Loading/preprocessing path, clipping/reference ordering, k-medoids entry; selected portions, not all report code."
+    },
+    {
+      "id": "utilities",
+      "url": "https://raw.githubusercontent.com/IEE-TUGraz/InOutModule/8b1f53a75d152645e5ff8c7d5f417befaf316da5/Utilities.py",
+      "sha256": "f9d6b69fc319ccd51c1e2cffa6ddc6f120e5eab457e451849331f914ce5984f2",
+      "bytes": 31155,
+      "read_depth": "Data extraction, bus/technology aggregation, k-medoids call, medoid-table copying, weights/Hindex updates, wrapper; physical lines101-623."
+    },
+    {
+      "id": "case_study",
+      "url": "https://raw.githubusercontent.com/IEE-TUGraz/InOutModule/8b1f53a75d152645e5ff8c7d5f417befaf316da5/CaseStudy.py",
+      "sha256": "dccce27eaa9db4dbeda6e71224e7019da503d654c9613ed481ed7a6220f26663",
+      "bytes": 75574,
+      "read_depth": "Constructor transitions/scaling and bus merge, circular transition count routine845-883, preprocessing forwarding1331-1395; selected portions."
+    },
+    {
+      "id": "lego_utilities",
+      "url": "https://raw.githubusercontent.com/IEE-TUGraz/LEGO-Pyomo/ce97428aa225037dcbcd848889ef55f3b67c17ba/LEGO/LEGOUtilities.py",
+      "sha256": "095c6b2dc44dddbf07e516c35193c1cf0eefa78b0acb9ac0ed642ce7177755ad",
+      "bytes": 38971,
+      "read_depth": "Physical lines50-103 predecessor summands and wrapped windows."
+    },
+    {
+      "id": "lego_main",
+      "url": "https://raw.githubusercontent.com/IEE-TUGraz/LEGO-Pyomo/ce97428aa225037dcbcd848889ef55f3b67c17ba/LEGO/LEGO.py",
+      "sha256": "81f5ce97ef790fb49f05f285e8f0a906ab226a157d1e2d9c78f6073bb37968ea",
+      "bytes": 28838,
+      "read_depth": "Module imports, model construction and solver entry; selected lines1-135."
+    },
+    {
+      "id": "thermal",
+      "url": "https://raw.githubusercontent.com/IEE-TUGraz/LEGO-Pyomo/ce97428aa225037dcbcd848889ef55f3b67c17ba/LEGO/modules/thermalGen.py",
+      "sha256": "5b91956d8c8c2ee8e0b524b701bbd41db2ee6bfcdb7b43a25a161d4a382bf871",
+      "hash_status": "Historical exact-URL hash from closed comparator memo; source re-read now but hash not independently recomputed this turn.",
+      "read_depth": "Physical lines43-155, domain relaxation, ramps, UC transitions; selected later row patterns in web view."
+    },
+    {
+      "id": "power",
+      "url": "https://raw.githubusercontent.com/IEE-TUGraz/LEGO-Pyomo/ce97428aa225037dcbcd848889ef55f3b67c17ba/LEGO/modules/power.py",
+      "sha256": "1cc52bb9bf322e9e459489db5c8137dda6c81af5524c280256c59b5eb83b9fad",
+      "bytes": 44432,
+      "read_depth": "Physical lines38-41 and101-102, sets/Hindex/weights; source find plus related module context."
+    },
+    {
+      "id": "storage",
+      "url": "https://raw.githubusercontent.com/IEE-TUGraz/LEGO-Pyomo/ce97428aa225037dcbcd848889ef55f3b67c17ba/LEGO/modules/storage.py",
+      "sha256": "ed92ad9a4c3169f68aa3194a6932f50826d3f48d87e5845b4bc70a6f33735b7b",
+      "bytes": 15315,
+      "read_depth": "Storage sets, intra/inter-day constraints, moving-window Hindex consumption; full web body through constraint section, physical lines153-175 checked."
+    },
+    {
+      "id": "environment",
+      "url": "https://raw.githubusercontent.com/IEE-TUGraz/LEGO-Pyomo/ce97428aa225037dcbcd848889ef55f3b67c17ba/environment.yml",
+      "sha256": "de49e8bd5a46a5a7de7cb859ab983caa3688e17b0bd408ad091e635e30233a34",
+      "bytes": 770,
+      "read_depth": "Entire30-line environment read; no dependency installation."
+    },
+    {
+      "id": "merrick_v2",
+      "url": "https://arxiv.org/html/2105.03707v2",
+      "version": "Author preprint v2, 2021-05-31; journal DOI10.1016/j.eneco.2024.107675 not body-read",
+      "sha256": null,
+      "read_depth": "Section3.4 and relevant AppendixA.4 body/theorem explanation revisited; no whole-paper or journal/preprint equivalence claim."
+    },
+    {
+      "id": "regen_readme",
+      "url": "https://raw.githubusercontent.com/epri-dev/US-REGEN/5f0d2cca8d2eb2a9a20f3bf7c9b19394d75c9284/README.md",
+      "sha256": "edddb8a26bdf770014ba5b31644e3b075acd5d4c5dae6a07b9656adf4eadac20",
+      "bytes": 3878,
+      "read_depth": "Official README setup/code/data conditions; GitHub API main commit confirmed2025-05-27; no paper-specific preprocessing code validated."
+    }
+  ],
+  "limitations": [
+    "No actual adapter or comparator output exists.",
+    "TSAMv2.3.9 internal defaults/tie handling still need pinned-source/environment audit.",
+    "Full Hindex consumption depends on active model modules; UC-only contract remains subject to complete dependency audit.",
+    "No private subscription content or credentials retained."
+  ],
+  "failed_access": [
+    {
+      "method": "Node fetch immutable raw GitHub sources",
+      "result": "fetch failed; no response bytes retained; successful normal PowerShell Invoke-WebRequest and web reads followed."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/FZJ-IEK3-VSA/tsam/v2.3.9/tsam/timeseriesaggregation.py",
+      "result": "web internal error; not treated as inspected TSAM source."
+    }
+  ]
+}

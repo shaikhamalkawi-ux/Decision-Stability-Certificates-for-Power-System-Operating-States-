@@ -14,3 +14,8 @@ src/verify_temporal_information.py -text
 docs/research8h/** -text
 results/research8h/** -text
 src/research8h_*.py -text
+
+# Preserve hashes for the separately authorized open research continuation.
+docs/research_next/** -text
+results/research_next/** -text
+src/researchnext_*.py -text

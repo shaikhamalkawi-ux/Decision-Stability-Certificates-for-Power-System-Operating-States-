@@ -1,0 +1,13 @@
+{
+  "recorded_utc": "2026-09-27T06:43:20.840Z",
+  "source": "src/researchnext_ray_assignment.py",
+  "sha256": "298545b19768bd9c08f70ef303449edb26703f3e465a538204b80daa0f027091",
+  "command": "CPython3.12.14 -I -S src/researchnext_ray_assignment.py --synthetic-fixtures",
+  "exit_code": 0,
+  "status": "SYNTHETIC_KERNEL_FIXTURES_PASS",
+  "scientific_inputs_read": 0,
+  "model_solve_calls": 0,
+  "execution_count": 1,
+  "wall_duration_seconds": null,
+  "scope": "Invented-data exact signed-endpoint and finite-assignment checks only; no power-system results or independent source review."
+}
