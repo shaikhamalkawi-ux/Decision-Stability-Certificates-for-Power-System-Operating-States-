@@ -1,0 +1,83 @@
+{
+  "status": "PASS_SOURCE_RESULT_BINDING_REVIEW",
+  "utc": "2026-09-27T10:02:20.059435+00:00",
+  "elapsed_seconds": 0.1482803999679163,
+  "bound_inputs": 11,
+  "all_inputs_hash_match": true,
+  "same_four_feature_columns": [
+    "Hydro",
+    "Solar PV",
+    "Wind",
+    "demand"
+  ],
+  "saved_medoid_indices": [
+    [
+      2,
+      3,
+      5
+    ],
+    [
+      3,
+      4,
+      5
+    ]
+  ],
+  "changed_positions_reported": 2,
+  "squared_norm_reported": {
+    "numerator": "291780069579417604958810321504063210129",
+    "denominator": "21267647932558653966460912964485513216",
+    "approximate": 13.719432938925575
+  },
+  "all11_saved_tests_true": true,
+  "residual_arithmetic_independently_recomputed": false,
+  "normalization_or_clustering_recomputed": false,
+  "optimizer_calls": 0,
+  "scope": "exact residuals to saved normalized unrescaled medoids in four clustering features; no107-dimensional or final rescaled-profile error claim",
+  "reviewed_files": [
+    {
+      "path": "src/researchnext_residual_order.py",
+      "bytes": 8242,
+      "sha256": "1cfd5ecae0843bddba0c93607450f1e506738a20d0133b21fdf2c33b09f47a98"
+    },
+    {
+      "path": "docs/research_next/RESIDUAL_ORDER_PROTOCOL.md",
+      "bytes": 3128,
+      "sha256": "283d0719a399327db5063e0cfb1fba4a891fc2cceefb788427e4cf0e0cc0732e"
+    },
+    {
+      "path": "results/research_next/residual_order/input_manifest.json",
+      "bytes": 2382,
+      "sha256": "a2fb3e739d4637963492a9145a5cccc7a1c451cc884315c16386c623e7f108de"
+    },
+    {
+      "path": "results/research_next/residual_order/result.json",
+      "bytes": 2274,
+      "sha256": "3e8064a837f302a57719657a497a389890c513473afe5816fb35e34d8eaa2d87"
+    },
+    {
+      "path": "results/research_next/residual_order/exact_residual_vectors.json",
+      "bytes": 193554,
+      "sha256": "dda01e7de795117aae6e0751272704a13ae5b4e760b97442fb03b17ae370220a"
+    },
+    {
+      "path": "src/researchnext_auer_execution.py",
+      "bytes": 23821,
+      "sha256": "a18058186dde3dfe0dbd6717c27636e76ef59debbbcfbd36f7bb887c7a232d9c"
+    },
+    {
+      "path": ".work/auer_projection_env/Lib/site-packages/tsam/timeseriesaggregation.py",
+      "bytes": 57125,
+      "sha256": "51db23b0ff1103099d047ab4c09c01d877d46a2e77f0d6114242b7d5347d7413"
+    },
+    {
+      "path": ".work/auer_projection_env/Lib/site-packages/tsam/periodAggregation.py",
+      "bytes": 5471,
+      "sha256": "87d082d3a8c12cdcb26854cc4729c650c37cedf387dcd75212e83a11c4ec2860"
+    }
+  ],
+  "review_source": {
+    "path": "results/research_next/residual_order/INDEPENDENT_SOURCE_RESULT_REVIEW.py",
+    "bytes": 3524,
+    "sha256": "42304d1f6ec4e4068c729be70ab89467e5ac401dbba1349466fdcffbee656094"
+  }
+}

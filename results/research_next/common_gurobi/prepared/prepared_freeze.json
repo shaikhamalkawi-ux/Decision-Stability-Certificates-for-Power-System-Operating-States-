@@ -1,0 +1,14 @@
+{
+  "utc": "2026-09-27T09:30:00.692768+00:00",
+  "source_sha256": "9f5515fb99ac43cba3756f1e2b5a9f3a0ad9df7c143860922edd9ae99cd000ec",
+  "protocol_sha256": "9fd3bc026acad8ca940b9338c257094fb5f5fefb7de4ecd076f81762fa1ebb71",
+  "manifest_sha256": "a7f5dd3ca95663543460f01c0045c7e62b430aed7a7d1facd6f370aa2f07eb07",
+  "bindings": 86,
+  "original_rows": 69362,
+  "columns": 33936,
+  "binary_columns": 12096,
+  "backend_rows": 82130,
+  "optimizer_calls": 0,
+  "gurobi_imports": 0,
+  "separate_prepared_gate_and_explicit_execution_GO_required": true
+}

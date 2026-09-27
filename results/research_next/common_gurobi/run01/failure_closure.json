@@ -1,0 +1,59 @@
+{
+  "status": "CLOSED_LICENSE_CAPACITY_FAILURE_PENDING_INDEPENDENT_REVIEW",
+  "utc": "2026-09-27T09:36:53.154386+00:00",
+  "scientific_verdict": "UNKNOWN",
+  "scientific_search_established": false,
+  "numeric_solver_status_returned": false,
+  "accepted_points": 0,
+  "exact_negative_certificates": 0,
+  "process_session": 34813,
+  "process_exit_code": 1,
+  "optimizer_invocations_attempted": 1,
+  "optimizer_invocations_returned": 0,
+  "invocation_seconds": 0.002757799986284226,
+  "execution_marker_to_error_timestamp_seconds": 10.552318,
+  "timestamp_span_is_not_complete_perf_counter_phase": true,
+  "all86_frozen_inputs_unchanged": true,
+  "manifest": {
+    "path": "results/research_next/common_gurobi/prepared/input_manifest.json",
+    "bytes": 23973,
+    "sha256": "a7f5dd3ca95663543460f01c0045c7e62b430aed7a7d1facd6f370aa2f07eb07"
+  },
+  "freeze": {
+    "path": "results/research_next/common_gurobi/prepared/prepared_freeze.json",
+    "bytes": 559,
+    "sha256": "c91dac7c583a42493e0eae6f9b3b493140a0997661bb748a08a3d08d168cb926"
+  },
+  "error_code": 10010,
+  "error_name": "SIZE_LIMIT_EXCEEDED",
+  "error_meaning": "Exceeded licensed model size limit",
+  "installed_error_definition": {
+    "path": ".work/auer_projection_env/Lib/site-packages/gurobipy/_errorconst.py",
+    "bytes": 3257,
+    "sha256": "e9dcc242b648873ec3af399ecfb41537c434246808a9200119da6ce8832d0b75"
+  },
+  "error_definition_lines": [
+    16,
+    56
+  ],
+  "raw_log_content_read": false,
+  "raw_logs_public": false,
+  "no_retry": true,
+  "no_fallback": true,
+  "no_license_change": true,
+  "no_new_probe_or_install": true,
+  "command": [
+    ".work/auer_projection_env/Scripts/python.exe",
+    "src/researchnext_common_gurobi.py",
+    "--run-prepared",
+    "--expected-freeze-sha256",
+    "c91dac7c583a42493e0eae6f9b3b493140a0997661bb748a08a3d08d168cb926"
+  ],
+  "closure_source": {
+    "path": "results/research_next/common_gurobi/close_failed_attempt.py",
+    "bytes": 6681,
+    "sha256": "7a169285b8487f9d22bd2315cf4e31ae66957e0bf6ddf746c92eb1c46d3592a1"
+  },
+  "scientific_arithmetic_replays": 0,
+  "solver_imports": 0
+}

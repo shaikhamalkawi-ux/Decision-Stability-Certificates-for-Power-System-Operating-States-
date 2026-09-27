@@ -1,0 +1,34 @@
+{
+  "verdict": "VERIFIED_INDIVIDUAL_DAY321_EXPANDED_MODEL",
+  "accepted": true,
+  "strict_point_pass": false,
+  "expanded_point_pass": true,
+  "native_pass": true,
+  "original_binary_coordinates": 12096,
+  "energy_before": {
+    "numerator": "1654798412944827657145",
+    "denominator": "72057594037927936",
+    "approximate": 22964.941239556443
+  },
+  "energy_after": {
+    "numerator": "1659121868587103333305",
+    "denominator": "72057594037927936",
+    "approximate": 23024.941239556443
+  },
+  "exact_energy_increment": {
+    "numerator": "60",
+    "denominator": "1",
+    "approximate": 60.0
+  },
+  "nominal_cap_MWh": 23195,
+  "actual_expanded_cap": {
+    "numerator": "13691911327173135695046897",
+    "denominator": "590295810358705651712",
+    "approximate": 23195.00001
+  },
+  "individual_only": true,
+  "common_commitment_claim": false,
+  "old_historical_outcomes_unchanged": true,
+  "candidates": 1,
+  "optimizer_calls": 0
+}

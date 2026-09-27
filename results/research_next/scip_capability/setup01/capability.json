@@ -1,0 +1,32 @@
+{
+  "status": "EMPTY_MODEL_CAPABILITY_PROBE_COMPLETE",
+  "utc": "2026-09-27T09:46:52.994249+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "executable": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\scip_capability_env01\\Scripts\\python.exe",
+  "packages": {
+    "pyscipopt": "6.2.1",
+    "numpy": "2.3.5"
+  },
+  "scip_version": [
+    10,
+    0,
+    2
+  ],
+  "initial_stage": "PROBLEM",
+  "empty_variables": 0,
+  "empty_constraints": 0,
+  "selected_parameters_before": {},
+  "exact_mode": {
+    "parameter_present": false,
+    "enable_attempted": false,
+    "enabled": false
+  },
+  "certificate_filename_parameter_present": false,
+  "scientific_model_reads": 0,
+  "synthetic_models": 0,
+  "optimizer_calls": 0,
+  "problem_file_reads": 0,
+  "capability_is_not_certificate_validation": true,
+  "probe_source_sha256": "377c91fab45080957d7ecf7f9f0a22ea858e13880fc3de10724100f60a97c88e",
+  "seconds": 19.111454400001094
+}

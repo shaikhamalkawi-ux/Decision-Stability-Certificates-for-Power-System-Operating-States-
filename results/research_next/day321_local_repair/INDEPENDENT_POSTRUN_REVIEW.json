@@ -1,0 +1,40 @@
+{
+  "status": "INDEPENDENT_ORIGINAL_POINT_NATIVE_LOCALITY_PASS",
+  "utc": "2026-09-27T10:04:59.565043+00:00",
+  "reviewer_sha256": "2d2fd82f18447b53fb3964afa1ead279a607ce4a5b8e6a528b1f8f07239bca5e",
+  "producer_source_sha256": "d77d1f5cd6a0225730cfb2c119e27628e156b45db884e03d75259fc65b888ccc",
+  "input_bindings": 65,
+  "original_rows": 34681,
+  "original_columns": 23016,
+  "original_binary_coordinates": 12096,
+  "expanded_pass": true,
+  "strict_pass": false,
+  "native_pass": true,
+  "actual_changed_coordinates": 54,
+  "allowed_changed_coordinates": 54,
+  "locality_pass": true,
+  "energy_after": {
+    "numerator": "1659121868587103333305",
+    "denominator": "72057594037927936",
+    "approximate": 23024.941239556443
+  },
+  "exact_increment_MWh": 60,
+  "producer_output_hashes": {
+    "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\day321_local_repair\\run01\\candidate_changes.json": "0bee6dd1e640a35cb19e8791169e8cd9df8a0134c8e164b10ca400690ff500b0",
+    "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\day321_local_repair\\run01\\candidate_vector.npz": "fc9276c52baa182b0eba018df548bb0125290cb2413dd469c1899516c03733c3",
+    "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\day321_local_repair\\run01\\completion.json": "dfa93964513047ad2cd49b3324d9b3ca154948bdc9eeac3531f007196452400c",
+    "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\day321_local_repair\\run01\\exact_point_check.json": "cbb93545f1231cc21cdd494715d32158176b26a03fa94dea4070e1205c7aec4e",
+    "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\day321_local_repair\\run01\\execution_started.json": "2bb3f770584c1e4faa4da4a6b08fa98cd847ba63f88535fc2427386b10783676",
+    "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\day321_local_repair\\run01\\native_check.json": "078cb45572b525324db9d56a525d3244bd01663721b4288975eb249b4561bbd0",
+    "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\day321_local_repair\\run01\\result.json": "ec7bb3be2d79c5c3b878a7d674da5ca6c625173d07cffa440261018d9f452091"
+  },
+  "candidate_sha256": "fc9276c52baa182b0eba018df548bb0125290cb2413dd469c1899516c03733c3",
+  "optimizer_calls": 0,
+  "producer_imports": 0,
+  "candidate_regenerations": 0,
+  "nodal_resolves": 0,
+  "checker_kernel_reused_by_pinned_hash": true,
+  "independent_model": "results\\research_next\\common_commitment\\prepared\\days_321",
+  "elapsed_seconds": 4.432442800025456,
+  "scope": "Individual original day321 tau-expanded encoding; no common-action, regret or mechanism claim"
+}

@@ -1,0 +1,108 @@
+{
+  "status": "CLOSED_STRUCTURAL_SCOPE_AUDIT",
+  "utc": "2026-09-27T09:28:26.026447+00:00",
+  "source_sha256": "90306e77708a890cb742e81489240caa3098d09d20b03ccee1b634e87af0964b",
+  "protocol_sha256": "460de8b8c9aa5ff695016ad4495ec084660800f1289ac5a0ed74b7e90449e91b",
+  "old_manifest_sha256": "8ff99b1f4450ac15e91b26a261a85c98d574bbbdac3f7fe149efd9fd07204a5c",
+  "kernel_sha256": "708c3843425eea494a0561e83a275f7059f22bcd546a036705323d056bcf906f",
+  "input_bindings": [
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_commitment\\prepared\\identity\\native_inputs.npz",
+      "bytes": 26497,
+      "sha256": "5f917f58e4fd50ae1e0d9198fd84e81f57adb1f24b530d1ed5bb71d99714a960"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_commitment\\prepared\\identity\\model_metadata.json",
+      "bytes": 2474,
+      "sha256": "1d8281f53cc1c08f73d1fdc8d66a7825d2f34377ba933c13d0e5e0be8b223fa4"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_commitment\\prepared\\identity\\native_spec.json",
+      "bytes": 18523,
+      "sha256": "9a2c78233792adb44a3a50ba7510769185457660551f92892941eeda1bacffd3"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_commitment\\prepared\\identity\\row_metadata.csv.gz",
+      "bytes": 147013,
+      "sha256": "e749fc61f6807729b78154a3cce4a3f9cfa345fd9da946745e74e101b295107a"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_commitment\\prepared\\days_321\\native_inputs.npz",
+      "bytes": 26526,
+      "sha256": "65de9acfa3dc685ed9de1d3883fcca08addf2507d75632114984f269c7693622"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_commitment\\prepared\\days_321\\model_metadata.json",
+      "bytes": 2474,
+      "sha256": "1d8281f53cc1c08f73d1fdc8d66a7825d2f34377ba933c13d0e5e0be8b223fa4"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_commitment\\prepared\\days_321\\native_spec.json",
+      "bytes": 18523,
+      "sha256": "9a2c78233792adb44a3a50ba7510769185457660551f92892941eeda1bacffd3"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_commitment\\prepared\\days_321\\row_metadata.csv.gz",
+      "bytes": 147013,
+      "sha256": "eb73c440b322d0218299b5811de3db39e8335eac7dd014247ab4224be92f1efe"
+    }
+  ],
+  "cases": 8016,
+  "worlds": [
+    {
+      "world": "identity",
+      "adjacent_on_on_cases": 4008,
+      "row_families": {
+        "aggregate_balance": 168,
+        "thermal_upper": 4032,
+        "thermal_lower": 4032,
+        "transition": 4008,
+        "exclusive_transition": 4008,
+        "minimum_up": 4008,
+        "minimum_down": 4008,
+        "fossil_energy_cap": 1,
+        "nodal_balance": 4032,
+        "branch_flow": 6384
+      },
+      "minimum_nominal_margin": {
+        "numerator": "30",
+        "denominator": "1",
+        "approximate": 30.0
+      },
+      "all_expanded_native_ramp_checks_implied": true
+    },
+    {
+      "world": "days_321",
+      "adjacent_on_on_cases": 4008,
+      "row_families": {
+        "aggregate_balance": 168,
+        "thermal_upper": 4032,
+        "thermal_lower": 4032,
+        "transition": 4008,
+        "exclusive_transition": 4008,
+        "minimum_up": 4008,
+        "minimum_down": 4008,
+        "fossil_energy_cap": 1,
+        "nodal_balance": 4032,
+        "branch_flow": 6384
+      },
+      "minimum_nominal_margin": {
+        "numerator": "30",
+        "denominator": "1",
+        "approximate": 30.0
+      },
+      "all_expanded_native_ramp_checks_implied": true
+    }
+  ],
+  "exact_tau": {
+    "numerator": "5902958103587057",
+    "denominator": "590295810358705651712",
+    "approximate": 1e-05
+  },
+  "failures": 0,
+  "all_inputs_unchanged": true,
+  "optimizer_calls": 0,
+  "model_builds": 0,
+  "cases_sha256": "ff8954f0756acd7d18efd0b9492aa3b21d9cc594f8c02735a0cccda14f70ef77",
+  "elapsed_seconds": 18.25429999997141
+}

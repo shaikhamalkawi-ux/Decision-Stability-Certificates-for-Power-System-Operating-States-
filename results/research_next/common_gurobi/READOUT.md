@@ -1,0 +1,13 @@
+# Original common model: Gurobi attempt closed without a search result
+
+The single authorized invocation stopped with Gurobi error **10010, SIZE_LIMIT_EXCEEDED**. The installed Gurobi 13.0 error definitions identify this as exceeding the licensed model-size limit. It is an environment/license-capacity result, not mathematical infeasibility or solver incompatibility. The original common-binary question remains **UNKNOWN**.
+
+The backend construction and exact API readback completed: 69,362 original rows became 82,130 finite-side rows, with 33,936 unchanged columns, all 12,096 original binaries, zero objective, and 316,712 coefficient uses after splitting. No diving restrictions, additional variables or changed scientific coefficients were introduced. This successful translation is not a feasible-point or negative certificate.
+
+The call ledger records one optimize invocation attempted and zero returned. That invocation lasted 0.002757799986284 seconds before the capacity error. No numeric optimization status, incumbent, candidate or certificate was returned, and scientific search was not established. The execution-marker-to-error UTC timestamp span was 10.552318 seconds; it is not a complete perf-counter phase duration. The declared allocation was 1,800 solver seconds within a 2,400-second soft phase. There was no retry, alternate backend, warm start, additional LP, license change, purchase or installation.
+
+All 86 frozen input bindings, the prepared manifest and freeze were rechecked unchanged during this separate hash-only closeout. The prepared freeze remains `c91dac7c583a42493e0eae6f9b3b493140a0997661bb748a08a3d08d168cb926`; source/protocol remain `9f5515fb99ac43cba3756f1e2b5a9f3a0ad9df7c143860922edd9ae99cd000ec` / `9fd3bc026acad8ca940b9338c257094fb5f5fefb7de4ecd076f81762fa1ebb71`.
+
+Raw startup and solver logs stay private under `.work/researchnext_common_gurobi/run01`. Their content was not read for this closure or copied into the public results; the receipt records only path, size and SHA256. Numeric error interpretation came from the installed package's public error definitions. The independent post-run gate remains pending. Existing common/diving results are unchanged.
+
+`run01/failure_closure.json` records the command, process exit/session, input hashes and installed error-definition binding. `run01/backend_readback.npz` and its JSON record preserve the complete pre-call API readback. `run01/execution_failure.json` preserves the original error-stage/call ledger. `producer_output_inventory.csv` binds all current producer files and the source/protocol; independent review files are deliberately excluded until final closure.

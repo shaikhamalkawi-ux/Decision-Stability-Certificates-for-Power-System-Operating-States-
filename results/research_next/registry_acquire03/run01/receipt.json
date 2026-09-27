@@ -1,0 +1,111 @@
+{
+  "status": "READY_PINNED_REGISTRY_ARCHIVE_ONLY",
+  "started_utc": "2026-09-27T09:26:56.016103+00:00",
+  "phase_limit_seconds": 600,
+  "source_sha256": "70ec8af8ebd02f074049176f2e39e07dcf28a3a99e6355cdb24d721d4dd66726",
+  "protocol_sha256": "b586ba2dba3d211eab21941730cceee8baeee5661d15a5657746565da36a3a26",
+  "commit": "416a13c3e4888af4b245812d8f4ab040a042c38f",
+  "expected_git_tree": "f39bab42a09b8a82574435c6e402e598b3200dc3",
+  "curl_invocations": 1,
+  "Julia_invocations": 0,
+  "Pkg_add_calls": 0,
+  "model_builds": 0,
+  "optimizer_calls": 0,
+  "automatic_retry": false,
+  "partial_file_continuation": false,
+  "TLS_bypass": false,
+  "certificate_injection": false,
+  "extractions": 0,
+  "stage": "gzip_tar_and_exact_Git_tree_validation",
+  "preserved_partial_sha256": "bcad8b91e05724c484a7f991fe4cca99257ed9ec0ccc6cdf5f246b8ed2991210",
+  "curl_executable_sha256": "73d24149ff289afc49ec41f08918ef9faa727d39ad993e929757dc2ddafab805",
+  "configured_curl_seconds": 598,
+  "curl_pid": 21108,
+  "curl_started_utc": "2026-09-27T09:26:57.758132+00:00",
+  "curl_exit_code": 0,
+  "curl_ended_utc": "2026-09-27T09:27:29.734188+00:00",
+  "owned_process_cleanup": {
+    "termination_needed": false
+  },
+  "transport": {
+    "response_code": 200,
+    "num_redirects": 0,
+    "ssl_verify_result": 0,
+    "size_download": 11820236.0,
+    "time_total": 6.186718,
+    "time_connect": 0.372114,
+    "time_appconnect": 0.757722,
+    "effective_scheme": "https",
+    "effective_host": "codeload.github.com",
+    "HTTP_statuses": [
+      200
+    ],
+    "redirect_hosts": [],
+    "observed_content_lengths": [],
+    "observed_transfer_encodings": [
+      "chunked"
+    ]
+  },
+  "archive_bytes": 11820236,
+  "archive_sha256": "53e48326acc56f53ac4527a41e7362a29622d3bf9d406234c5ddc05566869211",
+  "validation": {
+    "gzip_CRC_ISIZE_EOF_verified": true,
+    "decoded_bytes": 87080960,
+    "tar_members": 75641,
+    "regular_files": 61167,
+    "payload_bytes": 28433677,
+    "tar_zero_tail_bytes": 8192,
+    "git_tree": "f39bab42a09b8a82574435c6e402e598b3200dc3",
+    "links_special_sparse_members": 0,
+    "filesystem_extractions": 0
+  },
+  "preserved_inputs_unchanged": true,
+  "ended_utc": "2026-09-27T09:28:23.016824+00:00",
+  "elapsed_seconds": 87.00046040001325,
+  "allocation_overrun_seconds": 0,
+  "private_artifacts": [
+    {
+      "path": "curl_stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "General.tar.gz",
+      "bytes": 11820236,
+      "sha256": "53e48326acc56f53ac4527a41e7362a29622d3bf9d406234c5ddc05566869211"
+    },
+    {
+      "path": "headers.txt",
+      "bytes": 742,
+      "sha256": "e84daceda4ebf1dbbacf0b898aa017f86e5e58462e97f54f716c4fcb5054fe98"
+    },
+    {
+      "path": "transfer_metrics.txt",
+      "bytes": 266,
+      "sha256": "ec090f2f3d1755a0f5805ea59d3bc9f63fc9abaa35593ab1b794d053a97cda80"
+    }
+  ],
+  "public_artifacts": [
+    {
+      "path": "curl_launch.json",
+      "bytes": 1284,
+      "sha256": "25501a0985bb840ac8e61372085ab883d2d9c2e96f65e032efbbae56dcea669c"
+    },
+    {
+      "path": "registry_file_inventory.json",
+      "bytes": 11973723,
+      "sha256": "cc8d9ce6757ffc70a1347ab3bf9e74a2bbaba87f4131bb3737746a52c19f0f42"
+    },
+    {
+      "path": "stages.jsonl",
+      "bytes": 390,
+      "sha256": "a29a823cec1d9fc4834e0e8ac3245786ce32a193c64f3ba472743d6eeaa5fd15"
+    },
+    {
+      "path": "started.json",
+      "bytes": 688,
+      "sha256": "74e7eec248f814f4cbb93841f0f500d4fd30b72548319aeecc65cdb1ef71341d"
+    }
+  ],
+  "private_diagnostics_publication": "EXCLUDED_PENDING_SAFETY_REVIEW"
+}

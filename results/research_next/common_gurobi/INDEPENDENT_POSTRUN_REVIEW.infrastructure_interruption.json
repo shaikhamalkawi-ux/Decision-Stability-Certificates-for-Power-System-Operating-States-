@@ -1,0 +1,13 @@
+{
+  "status": "REVIEWER_OUTER_TOOL_TIMEOUT",
+  "reviewer_sha256": "077054ff4a0808c930d21ff9e0b0c2099d660d97b88c540c91d46e374eb2f18b",
+  "tool": "node_repl.js",
+  "default_outer_timeout_seconds": 30,
+  "report_present": false,
+  "process_no_longer_running_confirmed": true,
+  "process_check_session": 94754,
+  "process_check_exit_code": 0,
+  "optimizer_calls": 0,
+  "producer_files_changed": false,
+  "next_attempt": "same corrected reviewer under exec_command session transport"
+}

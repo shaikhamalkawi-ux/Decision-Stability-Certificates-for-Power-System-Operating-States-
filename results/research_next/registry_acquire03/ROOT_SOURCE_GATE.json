@@ -1,0 +1,14 @@
+{
+  "schema": "registry_acquire03.root_source_gate.v1",
+  "recorded_utc": "2026-09-27T09:22:16Z",
+  "reviewer": "/root",
+  "status": "PASS_EXPLICIT_SINGLE_EXECUTION_GO",
+  "source": "src/researchnext_registry_acquire.py",
+  "source_sha256": "70ec8af8ebd02f074049176f2e39e07dcf28a3a99e6355cdb24d721d4dd66726",
+  "protocol": "docs/research_next/REGISTRY_ACQUIRE03_PROTOCOL.md",
+  "protocol_sha256": "b586ba2dba3d211eab21941730cceee8baeee5661d15a5657746565da36a3a26",
+  "authorized_command": "python -I -S src/researchnext_registry_acquire.py --acquire-once",
+  "maximum_attempts": 1,
+  "scope": "Pinned official General registry acquisition and archive integrity only; preserve every outcome and partial. No automatic Julia, Pkg, scientific import, model build, export or optimizer.",
+  "root_review": "Full source/protocol review passed: scope, normal TLS, owned-process cleanup, exact Git tree, gzip tail and zero retries."
+}

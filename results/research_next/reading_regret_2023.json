@@ -1,0 +1,34 @@
+{
+  "record_id": "NEXT_REGRET_2023_01",
+  "authors": [
+    "Ryohei Yokoyama",
+    "Yuji Shinano",
+    "Tetsuya Wakui"
+  ],
+  "title": "An effective approach for deriving and evaluating approximate optimal design solutions of energy supply systems by time series aggregation",
+  "year": 2023,
+  "doi": "10.3389/fenrg.2023.1128681",
+  "publication_date": "2023-07-10",
+  "primary_url": "https://public-pages-files-2025.frontiersin.org/journals/energy-research/articles/10.3389/fenrg.2023.1128681/pdf",
+  "pdf_sha256": "8e9ddff95e9c3f9f86030ab1e4a6788c7746f046411596718a038e0f2e85b299",
+  "reading_date": "2026-09-27",
+  "depth": "selected publisher body sections; not whole paper",
+  "sections": [
+    "2, p.3",
+    "4.1–4.4, pp.4–6",
+    "5.1.1–5.2, pp.6–7",
+    "Figure 3, p.6",
+    "6.1, p.7, implementation context only"
+  ],
+  "visual_check": [
+    "p.5 Eqs.6–14",
+    "p.6 Figure3 and algorithm"
+  ],
+  "not_read": [
+    "supplement",
+    "source code",
+    "referenced2018/2021 papers as new readings"
+  ],
+  "accounting": "isolated new record; closed40 ledger unchanged",
+  "memo": "docs/research_next/REGRET_PRIOR_ART_2023.md"
+}

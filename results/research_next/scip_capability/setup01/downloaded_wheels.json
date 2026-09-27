@@ -1,0 +1,76 @@
+{
+  "wheels": [
+    {
+      "package": "pyscipopt",
+      "version": "6.2.1",
+      "filename": "pyscipopt-6.2.1-cp312-cp312-win_amd64.whl",
+      "url": "https://files.pythonhosted.org/packages/8a/50/9fceeb125674c0e955b2175cbba24f2b32ba5f8b635c3484648eb802d090/pyscipopt-6.2.1-cp312-cp312-win_amd64.whl",
+      "bytes": 48216285,
+      "sha256": "784d8fbee8134c7c1cf590a60972008159033938a5044d9ed28cde9abf4f86be",
+      "metadata": {
+        "path": "results/research_next/scip_capability/setup01/pyscipopt_pypi.json",
+        "bytes": 43728,
+        "sha256": "e55890baa3d82e921fe3df7a833667fceda3eaec6de9d50058ff48c911447616"
+      },
+      "requires_dist": [
+        "numpy>=1.16.0"
+      ]
+    },
+    {
+      "package": "numpy",
+      "version": "2.3.5",
+      "filename": "numpy-2.3.5-cp312-cp312-win_amd64.whl",
+      "url": "https://files.pythonhosted.org/packages/2d/57/8aeaf160312f7f489dea47ab61e430b5cb051f59a98ae68b7133ce8fa06a/numpy-2.3.5-cp312-cp312-win_amd64.whl",
+      "bytes": 12782922,
+      "sha256": "86945f2ee6d10cdfd67bcb4069c1662dd711f7e2a4343db5cecec06b87cf31aa",
+      "metadata": {
+        "path": "results/research_next/scip_capability/setup01/numpy_pypi.json",
+        "bytes": 126913,
+        "sha256": "26add04c77407fa4570d2cd4fe6dc966826b630f26822b9299957ae5fb816667"
+      },
+      "requires_dist": []
+    }
+  ],
+  "downloads": [
+    {
+      "url": "https://pypi.org/pypi/pyscipopt/6.2.1/json",
+      "output": {
+        "path": "results/research_next/scip_capability/setup01/pyscipopt_pypi.json",
+        "bytes": 43728,
+        "sha256": "e55890baa3d82e921fe3df7a833667fceda3eaec6de9d50058ff48c911447616"
+      },
+      "seconds": 2.9600211000069976,
+      "attempts": 1
+    },
+    {
+      "url": "https://pypi.org/pypi/numpy/2.3.5/json",
+      "output": {
+        "path": "results/research_next/scip_capability/setup01/numpy_pypi.json",
+        "bytes": 126913,
+        "sha256": "26add04c77407fa4570d2cd4fe6dc966826b630f26822b9299957ae5fb816667"
+      },
+      "seconds": 1.2779197000199929,
+      "attempts": 1
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/8a/50/9fceeb125674c0e955b2175cbba24f2b32ba5f8b635c3484648eb802d090/pyscipopt-6.2.1-cp312-cp312-win_amd64.whl",
+      "output": {
+        "path": ".work/scip_capability/setup01/pyscipopt-6.2.1-cp312-cp312-win_amd64.whl",
+        "bytes": 48216285,
+        "sha256": "784d8fbee8134c7c1cf590a60972008159033938a5044d9ed28cde9abf4f86be"
+      },
+      "seconds": 13.280996499990579,
+      "attempts": 1
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/2d/57/8aeaf160312f7f489dea47ab61e430b5cb051f59a98ae68b7133ce8fa06a/numpy-2.3.5-cp312-cp312-win_amd64.whl",
+      "output": {
+        "path": ".work/scip_capability/setup01/numpy-2.3.5-cp312-cp312-win_amd64.whl",
+        "bytes": 12782922,
+        "sha256": "86945f2ee6d10cdfd67bcb4069c1662dd711f7e2a4343db5cecec06b87cf31aa"
+      },
+      "seconds": 7.824879899970256,
+      "attempts": 1
+    }
+  ]
+}

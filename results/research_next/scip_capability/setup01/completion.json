@@ -1,0 +1,129 @@
+{
+  "status": "CLOSED_EMPTY_MODEL_CAPABILITY_ONLY",
+  "utc": "2026-09-27T09:47:04.787907+00:00",
+  "calls": [
+    {
+      "name": "venv",
+      "command": [
+        "C:\\Users\\gmalkawi\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-I",
+        "-m",
+        "venv",
+        "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\scip_capability_env01"
+      ],
+      "timeout_seconds": 300.0,
+      "attempted": 1,
+      "returncode": 0,
+      "seconds": 119.55141620000359
+    },
+    {
+      "name": "pip_install",
+      "command": [
+        "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\scip_capability_env01\\Scripts\\python.exe",
+        "-I",
+        "-m",
+        "pip",
+        "--isolated",
+        "--disable-pip-version-check",
+        "--retries",
+        "0",
+        "--timeout",
+        "60",
+        "install",
+        "--no-index",
+        "--no-deps",
+        "--only-binary=:all:",
+        "--require-hashes",
+        "-r",
+        "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\scip_capability\\setup01\\requirements.txt"
+      ],
+      "timeout_seconds": 600.0,
+      "attempted": 1,
+      "returncode": 0,
+      "seconds": 213.46628220001003
+    },
+    {
+      "name": "empty_probe",
+      "command": [
+        "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\scip_capability_env01\\Scripts\\python.exe",
+        "-I",
+        "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\src\\researchnext_scip_probe.py",
+        "--output",
+        "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\scip_capability\\setup01\\capability.json"
+      ],
+      "timeout_seconds": 120.0,
+      "attempted": 1,
+      "returncode": 0,
+      "seconds": 25.59640430001309
+    }
+  ],
+  "downloads": [
+    {
+      "url": "https://pypi.org/pypi/pyscipopt/6.2.1/json",
+      "output": {
+        "path": "results/research_next/scip_capability/setup01/pyscipopt_pypi.json",
+        "bytes": 43728,
+        "sha256": "e55890baa3d82e921fe3df7a833667fceda3eaec6de9d50058ff48c911447616"
+      },
+      "seconds": 2.9600211000069976,
+      "attempts": 1
+    },
+    {
+      "url": "https://pypi.org/pypi/numpy/2.3.5/json",
+      "output": {
+        "path": "results/research_next/scip_capability/setup01/numpy_pypi.json",
+        "bytes": 126913,
+        "sha256": "26add04c77407fa4570d2cd4fe6dc966826b630f26822b9299957ae5fb816667"
+      },
+      "seconds": 1.2779197000199929,
+      "attempts": 1
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/8a/50/9fceeb125674c0e955b2175cbba24f2b32ba5f8b635c3484648eb802d090/pyscipopt-6.2.1-cp312-cp312-win_amd64.whl",
+      "output": {
+        "path": ".work/scip_capability/setup01/pyscipopt-6.2.1-cp312-cp312-win_amd64.whl",
+        "bytes": 48216285,
+        "sha256": "784d8fbee8134c7c1cf590a60972008159033938a5044d9ed28cde9abf4f86be"
+      },
+      "seconds": 13.280996499990579,
+      "attempts": 1
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/2d/57/8aeaf160312f7f489dea47ab61e430b5cb051f59a98ae68b7133ce8fa06a/numpy-2.3.5-cp312-cp312-win_amd64.whl",
+      "output": {
+        "path": ".work/scip_capability/setup01/numpy-2.3.5-cp312-cp312-win_amd64.whl",
+        "bytes": 12782922,
+        "sha256": "86945f2ee6d10cdfd67bcb4069c1662dd711f7e2a4343db5cecec06b87cf31aa"
+      },
+      "seconds": 7.824879899970256,
+      "attempts": 1
+    }
+  ],
+  "phase_seconds": 395.4987560000154,
+  "soft_overrun_seconds": 0,
+  "source": {
+    "path": "src/researchnext_scip_capability.py",
+    "bytes": 7855,
+    "sha256": "a3b16a16066eff5ccf615c060bbdf1b044321a6734a1d591e53741c01e362e26"
+  },
+  "probe": {
+    "path": "src/researchnext_scip_probe.py",
+    "bytes": 2229,
+    "sha256": "377c91fab45080957d7ecf7f9f0a22ea858e13880fc3de10724100f60a97c88e"
+  },
+  "protocol": {
+    "path": "results/research_next/scip_capability/SETUP_PROTOCOL.md",
+    "bytes": 3802,
+    "sha256": "3087ad4637587dae61d766e8bfddd33f2dd63451ddc41a46311e832aae74341a"
+  },
+  "exact_parameter_enabled": false,
+  "certificate_validated": false,
+  "package_manager_attempts": 1,
+  "package_manager_retries": 0,
+  "optimizer_calls": 0,
+  "scientific_model_reads": 0,
+  "synthetic_solves": 0,
+  "global_environment_changes": false,
+  "license_modifications": false,
+  "completion_write_and_private_receipt_outside_elapsed_sample": true
+}

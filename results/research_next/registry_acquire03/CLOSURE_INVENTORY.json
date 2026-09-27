@@ -1,0 +1,45 @@
+{
+  "schema": "registry_acquire03.closure_inventory.v1",
+  "status": "CLOSED_READY_ARCHIVE_ONLY",
+  "execution_session": 61272,
+  "process_exit_code": 0,
+  "receipt_sha256": "86eeaf107b46baaabd4abc88b54507b934822956d18d0d917e4ccda2682788d5",
+  "inventory_excludes_self": true,
+  "files": [
+    {
+      "path": "FINAL_READOUT.md",
+      "bytes": 2035,
+      "sha256": "51bd69f1b216ddff320cd75e7abc78cc0e18393d27e676f4fabae40cfa07fd62"
+    },
+    {
+      "path": "ROOT_SOURCE_GATE.json",
+      "bytes": 926,
+      "sha256": "3871b86aefc854c6155af0da32b8733489454a4ed6b1a6cd763ae582d5cd02ba"
+    },
+    {
+      "path": "run01/curl_launch.json",
+      "bytes": 1284,
+      "sha256": "25501a0985bb840ac8e61372085ab883d2d9c2e96f65e032efbbae56dcea669c"
+    },
+    {
+      "path": "run01/receipt.json",
+      "bytes": 3737,
+      "sha256": "86eeaf107b46baaabd4abc88b54507b934822956d18d0d917e4ccda2682788d5"
+    },
+    {
+      "path": "run01/registry_file_inventory.json",
+      "bytes": 11973723,
+      "sha256": "cc8d9ce6757ffc70a1347ab3bf9e74a2bbaba87f4131bb3737746a52c19f0f42"
+    },
+    {
+      "path": "run01/stages.jsonl",
+      "bytes": 390,
+      "sha256": "a29a823cec1d9fc4834e0e8ac3245786ce32a193c64f3ba472743d6eeaa5fd15"
+    },
+    {
+      "path": "run01/started.json",
+      "bytes": 688,
+      "sha256": "74e7eec248f814f4cbb93841f0f500d4fd30b72548319aeecc65cdb1ef71341d"
+    }
+  ]
+}

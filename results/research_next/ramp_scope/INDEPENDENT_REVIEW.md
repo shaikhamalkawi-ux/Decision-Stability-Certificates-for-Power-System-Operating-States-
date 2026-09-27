@@ -1,0 +1,13 @@
+# Independent ramp-scope review
+
+PASS, 27 September 2026. One independent stdlib-only basis audit completed in 3.251561 seconds. No optimizer, producer import, model generation, witness replay or repeat of the 8,016 adjacent-envelope calculations.
+
+The implication is sound for exact binary on/on states. Verified thermal rows give pmin[t]−tau <= P[t] <= pmax[t]+tau. Both adjacent differences are therefore bounded by D+2tau, with D=max(pmax[t]−pmin[t−1],pmax[t−1]−pmin[t]). If R−D>=tau, this lies below the supplementary native check's R+tau threshold. The tolerance applies to row endpoints; no scaling ambiguity occurs because the inspected P coefficients are exactly +1 or −1.
+
+The producer had inspected row labels/native arrays but did not establish their coefficient correspondence. This review fills that basis gap: all 16,128 actual thermal upper/lower rows across the two archived worlds match the complete native pmin/pmax arrays, correct P/U coordinates and exact one-sided endpoints. All 24 thermal hourly ramp specifications per world match the pinned generator roster's existing binary64(rate_per_minute*60) convention. All 13 newly used native/model payload bindings and the immutable producer source/protocol/result/cases snapshot passed rehash. The already generated 8,016 records have complete declared denominator and reported margins >=tau, with minimum30MW in each world. The envelope arithmetic itself is inherited from the directly reviewed producer, not represented as a second independent full recomputation.
+
+Thus every exact-binary point satisfying these expanded thermal output rows automatically passes the stated **on/on** native ramp check for these two frozen input sequences. This is a structural limitation of the present test cases: on/on ramp limits cannot explain their observed distinction. No claim follows about startup/shutdown ramps, different sequences/bounds/rates, fractional U, minimum-up/down redundancy, or feasibility of any complete UC model. Family labels alone are not used as a mathematical absence proof.
+
+A provenance limitation is retained: the producer records source/protocol hashes at final save rather than capturing and rehashing them at both ends. This reviewer verifies the supplied trusted current source/protocol and unchanged archived data, not an independently witnessed execution-time source history. It does not invalidate the inspected implication, but should not be described as a prospectively frozen executable run with start/end source rehash.
+
+Evidence: INDEPENDENT_REVIEW.py SHA946340a6f35c6f6de3b2465aa4d75c0f6c948a626c78141c5ae4b28c8da9b495; INDEPENDENT_REVIEW.json contains all input and producer hashes and row counts. Original result.json/cases.json remain untouched.

@@ -1,0 +1,26 @@
+{
+  "name": "pip_install",
+  "command": [
+    "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\scip_capability_env01\\Scripts\\python.exe",
+    "-I",
+    "-m",
+    "pip",
+    "--isolated",
+    "--disable-pip-version-check",
+    "--retries",
+    "0",
+    "--timeout",
+    "60",
+    "install",
+    "--no-index",
+    "--no-deps",
+    "--only-binary=:all:",
+    "--require-hashes",
+    "-r",
+    "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\scip_capability\\setup01\\requirements.txt"
+  ],
+  "timeout_seconds": 600.0,
+  "attempted": 1,
+  "returncode": 0,
+  "seconds": 213.46628220001003
+}

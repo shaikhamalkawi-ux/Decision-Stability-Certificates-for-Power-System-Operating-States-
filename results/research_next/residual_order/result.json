@@ -1,0 +1,74 @@
+{
+  "status": "STRUCTURAL_PASS",
+  "utc": "2026-09-27T09:57:07.619744+00:00",
+  "tests": {
+    "canonical_primary_equal": true,
+    "complete_hindex_equal_under_saved_map": true,
+    "identity_labels_invariant_under_day_permutation": true,
+    "actual_four_features_exactly_permuted": true,
+    "normalized_daily_vectors_exactly_permuted": true,
+    "medoid_reconstruction_equal_at_every_day": true,
+    "residual_vectors_exactly_permuted": true,
+    "chronological_residual_sequences_differ": true,
+    "all_cluster_residual_multisets_equal": true,
+    "exact_total_squared_residual_norm_equal": true,
+    "nonzero_approximation_error_both": true
+  },
+  "day_source_indices_0based": [
+    0,
+    1,
+    4,
+    3,
+    2,
+    5,
+    6
+  ],
+  "label_map": {
+    "rp01": "rp02",
+    "rp02": "rp01",
+    "rp03": "rp03"
+  },
+  "clusters": [
+    {
+      "identity_cluster": "rp01",
+      "target_cluster": "rp02",
+      "identity_days": 4,
+      "target_days": 4,
+      "joint_residual_multisets_equal": true
+    },
+    {
+      "identity_cluster": "rp02",
+      "target_cluster": "rp01",
+      "identity_days": 1,
+      "target_days": 1,
+      "joint_residual_multisets_equal": true
+    },
+    {
+      "identity_cluster": "rp03",
+      "target_cluster": "rp03",
+      "identity_days": 2,
+      "target_days": 2,
+      "joint_residual_multisets_equal": true
+    }
+  ],
+  "total_squared_residual_norm": [
+    {
+      "numerator": "291780069579417604958810321504063210129",
+      "denominator": "21267647932558653966460912964485513216",
+      "approximate": 13.719432938925575
+    },
+    {
+      "numerator": "291780069579417604958810321504063210129",
+      "denominator": "21267647932558653966460912964485513216",
+      "approximate": 13.719432938925575
+    }
+  ],
+  "changed_daily_residual_positions": 2,
+  "all_frozen_inputs_unchanged": true,
+  "clustering_calls": 0,
+  "optimizer_calls": 0,
+  "model_builds": 0,
+  "exact_residual_vectors_sha256": "dda01e7de795117aae6e0751272704a13ae5b4e760b97442fb03b17ae370220a",
+  "elapsed_seconds": 2.3253674000152387,
+  "scope": "4 actually consumed clustering features in 7x96 normalized daily vectors; no operating causality/negative/107-dimensional error claim"
+}

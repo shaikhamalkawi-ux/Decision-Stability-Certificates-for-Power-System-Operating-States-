@@ -1,0 +1,23 @@
+{
+  "utc": "2026-09-27T09:40:29.298241+00:00",
+  "source": {
+    "path": "src/researchnext_scip_capability.py",
+    "bytes": 7855,
+    "sha256": "a3b16a16066eff5ccf615c060bbdf1b044321a6734a1d591e53741c01e362e26"
+  },
+  "probe": {
+    "path": "src/researchnext_scip_probe.py",
+    "bytes": 2229,
+    "sha256": "377c91fab45080957d7ecf7f9f0a22ea858e13880fc3de10724100f60a97c88e"
+  },
+  "protocol": {
+    "path": "results/research_next/scip_capability/SETUP_PROTOCOL.md",
+    "bytes": 3802,
+    "sha256": "3087ad4637587dae61d766e8bfddd33f2dd63451ddc41a46311e832aae74341a"
+  },
+  "allocation_seconds": 1800.0,
+  "network": "normal TLS; official PyPI only",
+  "retries": 0,
+  "optimizer_calls": 0,
+  "scientific_model_reads": 0
+}

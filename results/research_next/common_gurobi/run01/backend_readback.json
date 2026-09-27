@@ -1,0 +1,22 @@
+{
+  "all_rows_columns_objective_exact": true,
+  "original_rows": 69362,
+  "backend_rows": 82130,
+  "columns": 33936,
+  "binaries": 12096,
+  "coefficient_uses": 316712,
+  "no_extra_variables": true,
+  "options": {
+    "TimeLimit": 1800.0,
+    "Threads": 1,
+    "Seed": 0,
+    "MIPFocus": 1,
+    "SolutionLimit": 1,
+    "MIPGap": 1e-08,
+    "Presolve": -1,
+    "FeasibilityTol": 1e-08,
+    "IntFeasTol": 1e-09
+  },
+  "backend_readback_sha256": "6b763d43b05b59d749ac654584fdc042237b8cd46fd3cb7c5de85e849fdde9c8",
+  "optimizer_calls": 0
+}

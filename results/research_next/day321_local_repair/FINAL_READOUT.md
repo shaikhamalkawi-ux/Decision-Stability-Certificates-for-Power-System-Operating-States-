@@ -1,0 +1,11 @@
+# Independently verified individual day321 positive
+
+The single local repair is independently verified as an individual binary feasible point for the original day321 model with uniform bound expansion tau = Fraction.from_float(1e-5). The independent audit checked all 34,681 original rows, 23,016 column bounds, 12,096 binary coordinates, supplemental native constraints, all 65 input bindings, and the exact locality of all 54 changed coordinates. Strict nominal membership at tau = 0 remains false.
+
+The repair keeps 101_STEAM_3 on at zero-based hours 70 and 71, supplies an additional 30 MW from that unit in each hour, reduces 122_WIND_1 by the same amount, removes the intervening shutdown/startup, and corrects only those hours' nonreference voltage angles. Exact fossil energy is 1659121868587103333305 / 72057594037927936 MWh, approximately 23,024.941239556443 MWh: exactly 60 MWh above the old point and below the unchanged nominal 23,195 MWh cap.
+
+This establishes the missing individual positive control for day321. The old constructive point's residence violations and the historical MIP timeout remain unchanged. This result does not establish a common commitment for the identity and day321 worlds, an optimal energy value, regret, or a causal attribution to chronology. The repaired schedule is allowed to differ from the identity schedule.
+
+The producer constructed one candidate using two exact reduced nodal correction solves, followed by binary64 angle rounding, with zero optimizers and no retries. Its measured phase was 4.5052226999541745 seconds. The independent replay took 4.432442800025456 seconds, without candidate regeneration, nodal re-solving, producer imports, or optimization. It checked the saved point against the independently located original model and the pinned arithmetic kernel.
+
+The original READOUT.md, completion.json, and seven run files retain their contemporaneous pending-review wording and bytes. The later independent result is INDEPENDENT_POSTRUN_REVIEW.json, with reviewer source SHA256 2d2fd82f18447b53fb3964afa1ead279a607ce4a5b8e6a528b1f8f07239bca5e. The candidate SHA256 is fc9276c52baa182b0eba018df548bb0125290cb2413dd469c1899516c03733c3. The appended artifact_manifest.csv binds the completed producer and review artifacts; it does not replace the original producer inventory.

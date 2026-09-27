@@ -1,0 +1,24 @@
+{
+  "expanded_pass": true,
+  "tau": {
+    "numerator": "5902958103587057",
+    "denominator": "590295810358705651712",
+    "approximate": 1e-05
+  },
+  "maximum_violation": {
+    "numerator": "12133",
+    "denominator": "562949953421312",
+    "approximate": 2.155253753244324e-11
+  },
+  "violations": 0,
+  "first_violations": [],
+  "exact_fossil_energy": {
+    "numerator": "1659121868587103333305",
+    "denominator": "72057594037927936",
+    "approximate": 23024.941239556443
+  },
+  "cap_MWh": 23195,
+  "native_network": "Every unchanged original DC row and theta box checked by separate full exact model replay",
+  "ramp_conversion": "binary64(MW/min * 60.0), then rationalized",
+  "nominal_feasibility_claim": false
+}

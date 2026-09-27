@@ -1,0 +1,29 @@
+{
+  "hours_0based": [
+    70,
+    71
+  ],
+  "steam": "101_STEAM_3",
+  "wind": "122_WIND_1",
+  "steam_MW_increment": 30,
+  "wind_MW_increment": -30,
+  "state_changes": [
+    "U70=1",
+    "U71=1",
+    "Z70=0",
+    "Y72=0"
+  ],
+  "angle_hours_only": [
+    70,
+    71
+  ],
+  "slack_bus": 113,
+  "angle_method": "exact Fraction Gaussian elimination, first nonzero pivot, then one binary64 rounding",
+  "phase_seconds": 120.0,
+  "bit_limit": 8192,
+  "candidate_count": 1,
+  "optimizer_calls": 0,
+  "source_sha256": "d77d1f5cd6a0225730cfb2c119e27628e156b45db884e03d75259fc65b888ccc",
+  "protocol_sha256": "511cc067f45af5a7a93545418a05a37b551d674f7ab8dc53cbc7c4db56b73d35",
+  "no_search_or_fallback": true
+}

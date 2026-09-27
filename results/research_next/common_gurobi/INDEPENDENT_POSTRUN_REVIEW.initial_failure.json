@@ -1,0 +1,9 @@
+{
+  "status": "REVIEWER_FORMAT_UNSUPPORTED",
+  "reviewer_sha256": "491ff4b7ed5f0ab389b81415a5d0a8201f50ec691b0fb41c2d7a411ee51b01d2",
+  "error": "Pinned stdlib NPZ kernel rejects saved row-sense dtype |S1",
+  "stage": "decode_backend_readback",
+  "coefficient_comparison_reached": false,
+  "optimizer_calls": 0,
+  "producer_files_changed": false
+}

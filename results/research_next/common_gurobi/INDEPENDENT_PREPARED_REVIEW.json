@@ -1,0 +1,43 @@
+{
+  "status": "INDEPENDENT_PREPARED_PASS",
+  "utc": "2026-09-27T09:33:23.717047+00:00",
+  "reviewer_sha256": "a852280a4bf23571d8553a0fac0572840781084e00dc960e7fb0987b6659c2e4",
+  "freeze_sha256": "c91dac7c583a42493e0eae6f9b3b493140a0997661bb748a08a3d08d168cb926",
+  "manifest_sha256": "a7f5dd3ca95663543460f01c0045c7e62b430aed7a7d1facd6f370aa2f07eb07",
+  "source_sha256": "9f5515fb99ac43cba3756f1e2b5a9f3a0ad9df7c143860922edd9ae99cd000ec",
+  "protocol_sha256": "9fd3bc026acad8ca940b9338c257094fb5f5fefb7de4ecd076f81762fa1ebb71",
+  "bindings": 86,
+  "inherited_bindings": 48,
+  "exact_byte_copies": 22,
+  "rows": 69362,
+  "cols": 33936,
+  "original_binaries": 12096,
+  "stored_coefficients": 291176,
+  "backend_rows": 82130,
+  "backend_senses": {
+    "=": 16416,
+    "<": 52946,
+    ">": 12768
+  },
+  "options": {
+    "TimeLimit": 1800.0,
+    "Threads": 1,
+    "Seed": 0,
+    "MIPFocus": 1,
+    "SolutionLimit": 1,
+    "MIPGap": 1e-08,
+    "Presolve": -1,
+    "FeasibilityTol": 1e-08,
+    "IntFeasTol": 1e-09
+  },
+  "phase_seconds": 2400.0,
+  "run_absent_start_end": true,
+  "no_producer_import": true,
+  "no_gurobi_import": true,
+  "no_optimizer": true,
+  "no_old_assembly_or_witness_replay": true,
+  "old_joint_assembly_review_inherited_by_hash": "956b37cbcdd49571a6a79611da197a5be840a5c2747ffbd60576c90805d58e6b",
+  "license_capacity": "UNKNOWN; not tested by this review",
+  "backend_API_readback": "pending authorized execution before optimize",
+  "elapsed_seconds": 1.0770889000268653
+}

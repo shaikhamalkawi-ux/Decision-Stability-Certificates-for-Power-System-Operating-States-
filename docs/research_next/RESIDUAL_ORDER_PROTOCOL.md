@@ -1,0 +1,15 @@
+# Fixed-pair residual-order audit
+
+Prospective new audit, 27 September2026. No clustering, optimizer, UC build or replay of prior scientific checks. Exactly one existing week1 identity/days321 pair; no alternative permutation or feature selection after outcome.
+
+Purpose: distinguish an unchanged representative reconstruction plus rearranged within-cluster residuals from a change in the overall amount of representative approximation. This is a saved-output algebraic audit, not proof of operating harm or a new aggregation method. The full observation/Hindex equality was already established independently.
+
+Freeze source/protocol and the saved outcomes, independent observation review, both observations/clustering_details/actual_features, and days321 mapping before arithmetic. Require the historical outcome hash and independent-review hash. Read only the archived168x4 actually consumed feature values and7x96 normalized daily feature profiles, not recomputed normalization. All hex values are exact binary64 rationals.
+
+Test the complete declared day permutation from source_hour_indices for hour-of-day preservation and a seven-day bijection; take the sole saved full-observation-compatible representative-label map. Check complete Hindex correspondence under it and whether the permutation maps only between days with identical identity cluster labels. Check original and target daily normalized vectors and actual four-feature hourly vectors under the recorded permutation. Reconstruct each daily medoid from the saved medoid source day and cluster index; check reconstructed daily vectors equal at each chronological position across the mapped pair. Fail closed on any unexpected dimension or schema.
+
+Form all96-dimensional exact rational residual vectors e_d=F_d-r_cluster(d). Record whether each target e_d equals the source e_pi(d), whether the chronologically ordered residual sequences differ, and equality of complete residual-vector multisets separately within each canonical cluster. Compute sum of squared residual norms exactly over all672coordinates; retain zero/nonzero and equality. Any false test is a retained negative/unresolved structural finding; do not replace the pair.
+
+If all hold, the pair has identical normalized representative-error magnitudes/distributions (including joint within-cluster daily residual vectors), while their chronological placement differs. This strengthens the description of the controlled input contrast. It does not establish equal error under arbitrary order-sensitive metrics, raw107-dimensional approximation error, new observation insufficiency, unrestricted feasibility differences, unavoidable regret or residence causality. The observer consumes4 aggregate clustering features within the author-compatible17-signal projection; the operational model and full raw inputs remain separate scopes. A residence ablation and individual positive controls are still needed for mechanistic attribution.
+
+Preserve exact fractions and input hashes, rehash all inputs/source/protocol after the one audit, and save one result. No solver time is attributable to this audit.

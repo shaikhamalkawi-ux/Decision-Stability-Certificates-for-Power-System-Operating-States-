@@ -1,0 +1,17 @@
+{
+  "status": "PASS_INVENTED_ONLY",
+  "source_sha256": "9f5515fb99ac43cba3756f1e2b5a9f3a0ad9df7c143860922edd9ae99cd000ec",
+  "protocol_sha256": "9fd3bc026acad8ca940b9338c257094fb5f5fefb7de4ecd076f81762fa1ebb71",
+  "checks": [
+    "equality_once",
+    "upper_only",
+    "lower_only",
+    "two_finite_sides",
+    "exact_endpoint_hex_roundtrip",
+    "two_sided_logical_equivalence"
+  ],
+  "scientific_reads": 0,
+  "gurobi_imports": 0,
+  "model_preparations": 0,
+  "optimizer_calls": 0
+}

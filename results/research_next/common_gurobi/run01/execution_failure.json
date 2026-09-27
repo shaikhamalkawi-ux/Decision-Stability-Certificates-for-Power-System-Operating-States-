@@ -1,0 +1,17 @@
+{
+  "utc": "2026-09-27T09:34:53.403650+00:00",
+  "stage": "sole_optimize",
+  "error_type": "GurobiError",
+  "backend_errno": 10010,
+  "call_ledger": {
+    "attempted": 1,
+    "returned": 0,
+    "last_admission_remaining_seconds": 2387.6321837000432,
+    "started_utc": "2026-09-27T09:34:53.401244+00:00",
+    "actual_seconds": 0.002757799986284226
+  },
+  "scientific_verdict": "UNKNOWN",
+  "partial_outputs_preserved": true,
+  "automatic_retry": false,
+  "license_values_recorded": false
+}

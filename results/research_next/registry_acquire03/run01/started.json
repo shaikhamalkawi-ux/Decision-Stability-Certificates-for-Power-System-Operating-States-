@@ -1,0 +1,19 @@
+{
+  "status": "STARTED",
+  "started_utc": "2026-09-27T09:26:56.016103+00:00",
+  "phase_limit_seconds": 600,
+  "source_sha256": "70ec8af8ebd02f074049176f2e39e07dcf28a3a99e6355cdb24d721d4dd66726",
+  "protocol_sha256": "b586ba2dba3d211eab21941730cceee8baeee5661d15a5657746565da36a3a26",
+  "commit": "416a13c3e4888af4b245812d8f4ab040a042c38f",
+  "expected_git_tree": "f39bab42a09b8a82574435c6e402e598b3200dc3",
+  "curl_invocations": 0,
+  "Julia_invocations": 0,
+  "Pkg_add_calls": 0,
+  "model_builds": 0,
+  "optimizer_calls": 0,
+  "automatic_retry": false,
+  "partial_file_continuation": false,
+  "TLS_bypass": false,
+  "certificate_injection": false,
+  "extractions": 0
+}

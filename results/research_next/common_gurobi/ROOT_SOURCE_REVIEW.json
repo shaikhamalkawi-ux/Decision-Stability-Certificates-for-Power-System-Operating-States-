@@ -1,0 +1,9 @@
+{
+  "status": "PASS_SOURCE_PROTOCOL_PREPARATION_AUTHORIZED",
+  "reviewer": "root",
+  "source_sha256": "9f5515fb99ac43cba3756f1e2b5a9f3a0ad9df7c143860922edd9ae99cd000ec",
+  "protocol_sha256": "9fd3bc026acad8ca940b9338c257094fb5f5fefb7de4ecd076f81762fa1ebb71",
+  "scope": "Root read complete source and final protocol; no correctness correction identified. One solver-free preparation is authorized after the invented fixture and syntax check closes.",
+  "execution_authorized": false,
+  "next_gate": "Independent prepared snapshots and backend row-map review, then explicit root execution GO."
+}
