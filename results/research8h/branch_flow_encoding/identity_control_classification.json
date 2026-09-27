@@ -1,0 +1,8 @@
+{
+  "identity_strict_capped": true,
+  "control_strict_capped": true,
+  "hour_denominator": 168,
+  "counts": {
+    "EXACT_HOUR_POINT": 168
+  }
+}

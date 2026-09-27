@@ -1,0 +1,21 @@
+# Branch-flow encoding: independent code review
+
+Verdict: PASS for separately authorized preparation after the final delta review below.
+
+Initial source review completed for runner683df96b2d573af68a61749ce79c457abd548cab6e76a69c6b71952aa1817845, checker41dab33ed8e013d46fd7ae78974d95cab70e9794a906a7c6a12786bb093d4632 and protocol9ce461ae15f5390398b64e399e8e014edd43a7b28b54276dff524bc93f31620f. Both pre-freeze corrections are resolved in the final revision recorded below. No source edits, imports, model preparation, reconstruction or optimization were performed by the reviewer.
+
+The changed-model algebra and full acceptance are sound on inspection. Original unit/cap rows are retained,38 signed branch flows per hour inherit exact original limits, native nodal loads become the only aggregate authority, and all four cases retain their fixed native packages. C_new=−D diag(b)D-transpose is compared exactly with old nodal angle coefficients. The cap-deleted103-column hourly identity proposal is distinct from full capped acceptance. Control mapping keeps chronological U/Y/Z and is directly checked against its own full matrix/native ramps/cap. The helper's original full rational point checks apply to29400 columns because the binary mask and fixed schedule cover only the unchanged12096 state coordinates.
+
+Targets retain unfixed unit states, full rows and boxes; their all-continuous solves do not inherit the identity schedule. Existing-ray retrieval is guarded before the getter. Exactly +raw,+projected,−raw,−projected candidates are checked against the actual new matrix/boxes; first expanded separator otherwise first strict is the prospectively fixed selection. Continuous-point admission is explicitly zero-mask and does not establish binary feasibility. Exact strict and expanded conclusions refer to this new encoding only.
+
+Two pre-freeze corrections were requested: (1) new metadata must replace the inherited old column_order with a flow-inclusive order and derive nonzeros from the exported CSR; (2) an exception escaping final solver-result output must not be relabeled PRECALL_ERROR with optimizer_calls=0 after run() was already attempted. A durable call-start marker or tracked attempted flag preserves truthful failure accounting. Parent separately requested unambiguous protocol spelling tau=0 instead of tau0 for strict checks.
+
+The three-call order, option/matrix/endpoint checks, actual-call guards repeated after launch I/O, shared900-second arithmetic/1800-second phase and04UTC cutoff are appropriate. All168 identity hours and both target cases must remain visible, including resource limits. Solver and arithmetic limits remain soft; post-run verification must inspect actual logs and the final ledger.
+
+Source review is not a prepared-model or result gate. The parent is assigned the separate actual-matrix preparation audit; any accepted point or ray requires independent post-run arithmetic. No original-model equivalence, physical measurement precision, field validation, AC/security or novelty claim is supplied by this source.
+
+## Final pre-freeze delta review
+
+Runner SHA256bb5889f57ef051dffb196457b3bfbb9626e8c2e046a2b0bcc13ea6b5250fbd77; checker unchanged41dab33ed8e013d46fd7ae78974d95cab70e9794a906a7c6a12786bb093d4632; protocol2e96ae15a1b37d10cb12e354e65238f4cd1479e3c2fc39c9717bc9d5ed21c9e7. A complete line-level comparison confirmed only the agreed metadata and call-accounting source changes. Exported metadata now derives rows/columns/nonzeros from the actual CSR; both full and proposal column orders include flows. The caller-owned attempted-call flag is set immediately before h.run, so a later escaped output failure is counted as POSTCALL_ERROR with one attempted optimizer rather than zero. Protocol strict checks now say tau=0 explicitly.
+
+No model/algebra/candidate-selection arithmetic changed. The four synthetic fixture results remain honestly attached to their earlier source hash; they were not silently relabeled or rerun. No actual preparation, optimizer or mathematical replay was performed by this source review. The requested fixes are resolved, so the parent may separately authorize preparation and then inspect its actual matrices before any execution.

@@ -1,0 +1,10 @@
+{
+  "status": "REVIEWER_SCHEMA_ERROR",
+  "source_sha256": "13ced214136a147ab75a38ec2760bd947c357b5bfd92198a80b7589f4e491bf7",
+  "exit_code": 1,
+  "elapsed_s": 7.4496184,
+  "error": "At line124 the reviewer incorrectly requested only source_hour from a six-member native NPZ; the strict kernel correctly rejected the incomplete expected-member schema.",
+  "producer_files_changed": false,
+  "optimizer_calls": 0,
+  "correction": "Read the full six-key native schema and select source_hour."
+}

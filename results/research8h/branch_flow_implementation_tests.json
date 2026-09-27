@@ -1,0 +1,13 @@
+{
+  "status": "SYNTHETIC_ONLY_PASS",
+  "tests": [
+    "two_bus_flow_definition",
+    "signed_incidence_conservation",
+    "old_aggregate_is_distinct",
+    "three_by_three_Bareiss_nonunit_division_and_late_swap"
+  ],
+  "actual_models_read": 0,
+  "optimizer_calls": 0,
+  "source_sha256": "683df96b2d573af68a61749ce79c457abd548cab6e76a69c6b71952aa1817845",
+  "checker_sha256": "41dab33ed8e013d46fd7ae78974d95cab70e9794a906a7c6a12786bb093d4632"
+}

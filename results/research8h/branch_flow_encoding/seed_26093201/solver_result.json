@@ -1,0 +1,15 @@
+{
+  "case": "seed_26093201",
+  "status": "Infeasible",
+  "call_status": "HighsStatus.kOk",
+  "actual_seconds": 1.6502518999914173,
+  "configured_seconds": 30.0,
+  "soft_overrun_seconds": 0.0,
+  "basis_valid": true,
+  "value_valid": true,
+  "has_existing_ray": true,
+  "ray_getter_called_only_after_exists": true,
+  "optimizer_calls": 1,
+  "simplex_iterations": 15010,
+  "numerical_objective": 23540.63309347796
+}

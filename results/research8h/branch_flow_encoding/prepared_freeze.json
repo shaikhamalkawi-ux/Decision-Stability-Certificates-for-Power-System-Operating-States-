@@ -1,0 +1,52 @@
+{
+  "utc": "2026-09-27T03:07:50.006790+00:00",
+  "manifest_sha256": "0981491f326dbd3f34e2825d501cbff54d74bf18e5c3d924edf420a4950532d4",
+  "bindings": 103,
+  "calls": [
+    [
+      "identity_proposal",
+      60.0
+    ],
+    [
+      "seed_26093200",
+      30.0
+    ],
+    [
+      "seed_26093201",
+      30.0
+    ]
+  ],
+  "cases": [
+    "january_identity",
+    "seed_26100200",
+    "seed_26093200",
+    "seed_26093201"
+  ],
+  "options": {
+    "solver": "simplex",
+    "simplex_strategy": 1,
+    "presolve": "off",
+    "threads": 1,
+    "random_seed": 0,
+    "primal_feasibility_tolerance": 1e-07,
+    "dual_feasibility_tolerance": 1e-07,
+    "small_matrix_value": 1e-12,
+    "log_to_console": false,
+    "output_flag": true
+  },
+  "phase_seconds": 1800.0,
+  "arithmetic_seconds": 900.0,
+  "bit_limit": 8192,
+  "cutoff": "2026-09-27T04:00:00+00:00",
+  "optimizer_calls": 0,
+  "separate_root_GO_required": true,
+  "ray_candidates": [
+    "+raw",
+    "+projected",
+    "-raw",
+    "-projected"
+  ],
+  "source_sha256": "bb5889f57ef051dffb196457b3bfbb9626e8c2e046a2b0bcc13ea6b5250fbd77",
+  "checker_sha256": "41dab33ed8e013d46fd7ae78974d95cab70e9794a906a7c6a12786bb093d4632",
+  "protocol_sha256": "2e96ae15a1b37d10cb12e354e65238f4cd1479e3c2fc39c9717bc9d5ed21c9e7"
+}

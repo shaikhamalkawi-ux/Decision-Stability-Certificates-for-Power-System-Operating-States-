@@ -1,0 +1,11 @@
+# Portable new-results replay: independent closure review
+
+Verdict: PASS for the completed report closure. The producer's single relocated execution exited0 in72.1300208 seconds and reported21 focused checks. This independent review checked all16 report sizes/hashes and the exact report inventory, summary/closure digests, current outer-manifest identity and report semantics. It did not run a second mathematical replay or repeat the full3503-payload post-run rehash.
+
+The reports consistently contain six fixed objective lower bounds, two reference and four target original-mask upper points, four fresh interval records, four expanded continuous subset points, and two auxiliary full HOD controls with four inherited memberships. All original-mask positive reports check12096 binary coordinates and remain expanded-only, not strict nominal. The four subset reports explicitly check zero binary coordinates, retain genuine nonbinary original states and make no binary-positive claim. Seed26093211 remains UNKNOWN for its historical capped case. No exact optimum or second-machine execution is asserted.
+
+The source-level arithmetic review and independent candidate-preparation gate preceded this run. The executed summary reports744 accessed payloads, all package hashes and file set unchanged, no optimizer/network/native assembler calls, and the reviewed wrapper/helper/kernel hashes. This is relocation on the same host; it is neither independently rebuilding native models nor proof of a second-host environment.
+
+Summary SHA256 c96879504d6d2aaf44ececb41a7a6f7370c0cc9b7917ef14e8e3ea28bfd1d618; producer closure SHA25600bb3b2893629d03abc60e8535ff8884b9b9e43813f065bc00d56ba18322839d; outer manifest4fbe3109b23ce965c13cc1f26bce12f99e4aad65e52c93ec51bc670d753a9534. Independent sidecar results/research8h/portable_new_results_independent_review/postrun_closure_review.json SHA25624150995803395a9c5e12c3638f76280075a25aad04ed45dfc326b0711ee074f.
+
+The scope does not expand to every historical case or figure row. In particular, this wrapper and its older companion do not numerically replay the two unrestricted first-week energy intervals. All original archives and executable sources remain unchanged.

@@ -1,0 +1,23 @@
+{
+  "elapsed_s": 18.94975080000586,
+  "cases": [
+    "january_identity",
+    "seed_26100200",
+    "seed_26093200",
+    "seed_26093201"
+  ],
+  "ordinary_denominator": 2,
+  "full_model_rows": 34513,
+  "full_model_columns": 29400,
+  "original_binary_columns": 12096,
+  "identity_hour_blocks": 168,
+  "identity_continuous_columns_per_hour": 103,
+  "identity_continuous_rows_per_hour": 110,
+  "constant_rows": 16032,
+  "identity_cap_deleted_for_proposal_only": true,
+  "strict_capped_acceptance_required": true,
+  "all_joint_packages_and_control_U_preserved": true,
+  "optimizer_calls": 0,
+  "actual_basis_reconstructions": 0,
+  "control_changed_hours": 14
+}

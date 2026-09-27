@@ -1,0 +1,430 @@
+{
+  "ordinary_denominator": 2,
+  "targets": [
+    {
+      "case": "seed_26093200",
+      "binary_status": "CERTIFIED_VARIANT_NEGATIVE",
+      "ray_candidates": [
+        {
+          "orientation": 1,
+          "kind": "raw",
+          "rejected_reason": "multiplier sign selects infinite row endpoint at row 165",
+          "certificate_file": "ray_+1_raw.json"
+        },
+        {
+          "orientation": 1,
+          "kind": "projected",
+          "verification": {
+            "status": "CERTIFIED_EXPANDED_INFEASIBLE",
+            "strict_pass": true,
+            "expanded_pass": true,
+            "tau": {
+              "numerator": "5902958103587057",
+              "denominator": "590295810358705651712",
+              "float": 1e-05
+            },
+            "row_multiplier_nonzeros": 3502,
+            "combined_column_nonzeros": 8196,
+            "beta": {
+              "numerator": "1547988716066992528713833814043135596582026061423",
+              "denominator": "22300745198530623141535718272648361505980416",
+              "float": 69414.2147397383
+            },
+            "box_maximum": {
+              "numerator": "49408890216311330302157685109998633815039956227841",
+              "denominator": "713623846352979940529142984724747568191373312",
+              "float": 69236.60198411054
+            },
+            "separation_gap": {
+              "numerator": "126748697832430616684996939381705275584877737695",
+              "denominator": "713623846352979940529142984724747568191373312",
+              "float": 177.6127556277553
+            },
+            "expanded_beta": {
+              "numerator": "103883342727216562616168935704409827600728588056703240537",
+              "denominator": "1496577676626844588240573268701473812127674924007424",
+              "float": 69413.93310192929
+            },
+            "expanded_box_maximum": {
+              "numerator": "103619045989343910298550305876287847461952569919083094449",
+              "denominator": "1496577676626844588240573268701473812127674924007424",
+              "float": 69237.33235343467
+            },
+            "expanded_separation_gap": {
+              "numerator": "33037092234081539702328728515247517347002267202518261",
+              "denominator": "187072209578355573530071658587684226515959365500928",
+              "float": 176.60074849462814
+            },
+            "norm_formula_gap": {
+              "numerator": "33037092234081539702328728515247517347002267202518261",
+              "denominator": "187072209578355573530071658587684226515959365500928",
+              "float": 176.60074849462814
+            },
+            "row_multiplier_l1": {
+              "numerator": "71403667526922354133687869713586455",
+              "denominator": "2535301200456458802993406410752",
+              "float": 28163.780900694066
+            },
+            "combined_column_l1": {
+              "numerator": "185170622421852383190653164199462081",
+              "denominator": "2535301200456458802993406410752",
+              "float": 73036.93241202032
+            },
+            "independent_widened_endpoint_identity": true
+          },
+          "certificate_file": "ray_+1_projected.json"
+        },
+        {
+          "orientation": -1,
+          "kind": "raw",
+          "rejected_reason": "multiplier sign selects infinite row endpoint at row 290",
+          "certificate_file": "ray_-1_raw.json"
+        },
+        {
+          "orientation": -1,
+          "kind": "projected",
+          "verification": {
+            "status": "VALID_NONSEPARATING_RAY",
+            "strict_pass": false,
+            "expanded_pass": false,
+            "tau": {
+              "numerator": "5902958103587057",
+              "denominator": "590295810358705651712",
+              "float": 1e-05
+            },
+            "row_multiplier_nonzeros": 2625,
+            "combined_column_nonzeros": 6746,
+            "beta": {
+              "numerator": "-2070724984503926660815321914753774020223431059055",
+              "denominator": "22300745198530623141535718272648361505980416",
+              "float": -92854.51970638026
+            },
+            "box_maximum": {
+              "numerator": "20436613442288430896182746507141511823987429883889",
+              "denominator": "713623846352979940529142984724747568191373312",
+              "float": 28637.795032678692
+            },
+            "separation_gap": {
+              "numerator": "-86699812946414084042273047779262280471137223773649",
+              "denominator": "713623846352979940529142984724747568191373312",
+              "float": -121492.31473905894
+            },
+            "expanded_beta": {
+              "numerator": "-138964307200531334783430043761995481316295405202835498841",
+              "denominator": "1496577676626844588240573268701473812127674924007424",
+              "float": -92854.72406199774
+            },
+            "expanded_box_maximum": {
+              "numerator": "21429807651846555657523216111304483222783425355267715017",
+              "denominator": "748288838313422294120286634350736906063837462003712",
+              "float": 28638.416817959587
+            },
+            "expanded_separation_gap": {
+              "numerator": "-181823922504224446098476475984604447761862255913370928875",
+              "denominator": "1496577676626844588240573268701473812127674924007424",
+              "float": -121493.14087995733
+            },
+            "norm_formula_gap": {
+              "numerator": "-181823922504224446098476475984604447761862255913370928875",
+              "denominator": "1496577676626844588240573268701473812127674924007424",
+              "float": -121493.14087995733
+            },
+            "row_multiplier_l1": {
+              "numerator": "51810304231566591334994907460510953",
+              "denominator": "2535301200456458802993406410752",
+              "float": 20435.56174794482
+            },
+            "combined_column_l1": {
+              "numerator": "78820648454070505551241681121571929",
+              "denominator": "1267650600228229401496703205376",
+              "float": 62178.528089585205
+            },
+            "independent_widened_endpoint_identity": true
+          },
+          "certificate_file": "ray_-1_projected.json"
+        }
+      ],
+      "selected": {
+        "orientation": 1,
+        "kind": "projected",
+        "verification": {
+          "status": "CERTIFIED_EXPANDED_INFEASIBLE",
+          "strict_pass": true,
+          "expanded_pass": true,
+          "tau": {
+            "numerator": "5902958103587057",
+            "denominator": "590295810358705651712",
+            "float": 1e-05
+          },
+          "row_multiplier_nonzeros": 3502,
+          "combined_column_nonzeros": 8196,
+          "beta": {
+            "numerator": "1547988716066992528713833814043135596582026061423",
+            "denominator": "22300745198530623141535718272648361505980416",
+            "float": 69414.2147397383
+          },
+          "box_maximum": {
+            "numerator": "49408890216311330302157685109998633815039956227841",
+            "denominator": "713623846352979940529142984724747568191373312",
+            "float": 69236.60198411054
+          },
+          "separation_gap": {
+            "numerator": "126748697832430616684996939381705275584877737695",
+            "denominator": "713623846352979940529142984724747568191373312",
+            "float": 177.6127556277553
+          },
+          "expanded_beta": {
+            "numerator": "103883342727216562616168935704409827600728588056703240537",
+            "denominator": "1496577676626844588240573268701473812127674924007424",
+            "float": 69413.93310192929
+          },
+          "expanded_box_maximum": {
+            "numerator": "103619045989343910298550305876287847461952569919083094449",
+            "denominator": "1496577676626844588240573268701473812127674924007424",
+            "float": 69237.33235343467
+          },
+          "expanded_separation_gap": {
+            "numerator": "33037092234081539702328728515247517347002267202518261",
+            "denominator": "187072209578355573530071658587684226515959365500928",
+            "float": 176.60074849462814
+          },
+          "norm_formula_gap": {
+            "numerator": "33037092234081539702328728515247517347002267202518261",
+            "denominator": "187072209578355573530071658587684226515959365500928",
+            "float": 176.60074849462814
+          },
+          "row_multiplier_l1": {
+            "numerator": "71403667526922354133687869713586455",
+            "denominator": "2535301200456458802993406410752",
+            "float": 28163.780900694066
+          },
+          "combined_column_l1": {
+            "numerator": "185170622421852383190653164199462081",
+            "denominator": "2535301200456458802993406410752",
+            "float": 73036.93241202032
+          },
+          "independent_widened_endpoint_identity": true
+        },
+        "certificate_file": "ray_+1_projected.json"
+      },
+      "robust_expanded": true
+    },
+    {
+      "case": "seed_26093201",
+      "binary_status": "CERTIFIED_VARIANT_NEGATIVE",
+      "ray_candidates": [
+        {
+          "orientation": 1,
+          "kind": "raw",
+          "rejected_reason": "multiplier sign selects infinite row endpoint at row 1109",
+          "certificate_file": "ray_+1_raw.json"
+        },
+        {
+          "orientation": 1,
+          "kind": "projected",
+          "verification": {
+            "status": "CERTIFIED_EXPANDED_INFEASIBLE",
+            "strict_pass": true,
+            "expanded_pass": true,
+            "tau": {
+              "numerator": "5902958103587057",
+              "denominator": "590295810358705651712",
+              "float": 1e-05
+            },
+            "row_multiplier_nonzeros": 3492,
+            "combined_column_nonzeros": 8121,
+            "beta": {
+              "numerator": "177269934622321781992460826313658955",
+              "denominator": "2535301200456458802993406410752",
+              "float": 69920.66054731717
+            },
+            "box_maximum": {
+              "numerator": "13647797674065246247125872722746712341979447796871407465715351",
+              "denominator": "196159429230833773869868419475239575503198607639501078528",
+              "float": 69575.02745384205
+            },
+            "separation_gap": {
+              "numerator": "67799190339367486884403658484896085853437317511158691473769",
+              "denominator": "196159429230833773869868419475239575503198607639501078528",
+              "float": 345.6330934751227
+            },
+            "expanded_beta": {
+              "numerator": "209282462624299232667632445932350384114720823272967764557",
+              "denominator": "2993155353253689176481146537402947624255349848014848",
+              "float": 69920.34756792699
+            },
+            "expanded_box_maximum": {
+              "numerator": "28621853781272944260356006205274818925184086899512532467774783000493",
+              "denominator": "411376139330301510538742295639337626245683966408394965837152256",
+              "float": 69575.87240686298
+            },
+            "expanded_separation_gap": {
+              "numerator": "141708861853696994856031971619041176760356240570418880530590691411",
+              "denominator": "411376139330301510538742295639337626245683966408394965837152256",
+              "float": 344.47516106401184
+            },
+            "norm_formula_gap": {
+              "numerator": "141708861853696994856031971619041176760356240570418880530590691411",
+              "denominator": "411376139330301510538742295639337626245683966408394965837152256",
+              "float": 344.47516106401184
+            },
+            "row_multiplier_l1": {
+              "numerator": "158699404729585935941588650263673059",
+              "denominator": "5070602400912917605986812821504",
+              "float": 31297.93901825422
+            },
+            "combined_column_l1": {
+              "numerator": "58884631326409071834028107893886357517339161213",
+              "denominator": "696898287454081973172991196020261297061888",
+              "float": 84495.30209283077
+            },
+            "independent_widened_endpoint_identity": true
+          },
+          "certificate_file": "ray_+1_projected.json"
+        },
+        {
+          "orientation": -1,
+          "kind": "raw",
+          "rejected_reason": "multiplier sign selects infinite row endpoint at row 302",
+          "certificate_file": "ray_-1_raw.json"
+        },
+        {
+          "orientation": -1,
+          "kind": "projected",
+          "verification": {
+            "status": "VALID_NONSEPARATING_RAY",
+            "strict_pass": false,
+            "expanded_pass": false,
+            "tau": {
+              "numerator": "5902958103587057",
+              "denominator": "590295810358705651712",
+              "float": 1e-05
+            },
+            "row_multiplier_nonzeros": 2527,
+            "combined_column_nonzeros": 6494,
+            "beta": {
+              "numerator": "-236482951192270139107381285849305675",
+              "denominator": "2535301200456458802993406410752",
+              "float": -93276.07747343529
+            },
+            "box_maximum": {
+              "numerator": "6104372024870882107083026876508942402336632692119242061174423",
+              "denominator": "196159429230833773869868419475239575503198607639501078528",
+              "float": 31119.4422251681
+            },
+            "separation_gap": {
+              "numerator": "-24401354142950979739916354573547815266953179726658873059497623",
+              "denominator": "196159429230833773869868419475239575503198607639501078528",
+              "float": -124395.51969860338
+            },
+            "expanded_beta": {
+              "numerator": "-69797613560259406522323064089095688850806146844417180897",
+              "denominator": "748288838313422294120286634350736906063837462003712",
+              "float": -93276.29918625692
+            },
+            "expanded_box_maximum": {
+              "numerator": "12802072337096779955490840318657563610395511801725059177034031861677",
+              "denominator": "411376139330301510538742295639337626245683966408394965837152256",
+              "float": 31120.113961733106
+            },
+            "expanded_separation_gap": {
+              "numerator": "-51173716187357295320578412057432349380482452465090869370074792759213",
+              "denominator": "411376139330301510538742295639337626245683966408394965837152256",
+              "float": -124396.41314799002
+            },
+            "norm_formula_gap": {
+              "numerator": "-51173716187357295320578412057432349380482452465090869370074792759213",
+              "denominator": "411376139330301510538742295639337626245683966408394965837152256",
+              "float": -124396.41314799002
+            },
+            "row_multiplier_l1": {
+              "numerator": "28105439141841750244150367392340721",
+              "denominator": "1267650600228229401496703205376",
+              "float": 22171.28216306734
+            },
+            "combined_column_l1": {
+              "numerator": "46813206177404718245456578230945043180726481533",
+              "denominator": "696898287454081973172991196020261297061888",
+              "float": 67173.6565007547
+            },
+            "independent_widened_endpoint_identity": true
+          },
+          "certificate_file": "ray_-1_projected.json"
+        }
+      ],
+      "selected": {
+        "orientation": 1,
+        "kind": "projected",
+        "verification": {
+          "status": "CERTIFIED_EXPANDED_INFEASIBLE",
+          "strict_pass": true,
+          "expanded_pass": true,
+          "tau": {
+            "numerator": "5902958103587057",
+            "denominator": "590295810358705651712",
+            "float": 1e-05
+          },
+          "row_multiplier_nonzeros": 3492,
+          "combined_column_nonzeros": 8121,
+          "beta": {
+            "numerator": "177269934622321781992460826313658955",
+            "denominator": "2535301200456458802993406410752",
+            "float": 69920.66054731717
+          },
+          "box_maximum": {
+            "numerator": "13647797674065246247125872722746712341979447796871407465715351",
+            "denominator": "196159429230833773869868419475239575503198607639501078528",
+            "float": 69575.02745384205
+          },
+          "separation_gap": {
+            "numerator": "67799190339367486884403658484896085853437317511158691473769",
+            "denominator": "196159429230833773869868419475239575503198607639501078528",
+            "float": 345.6330934751227
+          },
+          "expanded_beta": {
+            "numerator": "209282462624299232667632445932350384114720823272967764557",
+            "denominator": "2993155353253689176481146537402947624255349848014848",
+            "float": 69920.34756792699
+          },
+          "expanded_box_maximum": {
+            "numerator": "28621853781272944260356006205274818925184086899512532467774783000493",
+            "denominator": "411376139330301510538742295639337626245683966408394965837152256",
+            "float": 69575.87240686298
+          },
+          "expanded_separation_gap": {
+            "numerator": "141708861853696994856031971619041176760356240570418880530590691411",
+            "denominator": "411376139330301510538742295639337626245683966408394965837152256",
+            "float": 344.47516106401184
+          },
+          "norm_formula_gap": {
+            "numerator": "141708861853696994856031971619041176760356240570418880530590691411",
+            "denominator": "411376139330301510538742295639337626245683966408394965837152256",
+            "float": 344.47516106401184
+          },
+          "row_multiplier_l1": {
+            "numerator": "158699404729585935941588650263673059",
+            "denominator": "5070602400912917605986812821504",
+            "float": 31297.93901825422
+          },
+          "combined_column_l1": {
+            "numerator": "58884631326409071834028107893886357517339161213",
+            "denominator": "696898287454081973172991196020261297061888",
+            "float": 84495.30209283077
+          },
+          "independent_widened_endpoint_identity": true
+        },
+        "certificate_file": "ray_+1_projected.json"
+      },
+      "robust_expanded": true
+    }
+  ],
+  "controls": {
+    "identity_strict_capped": true,
+    "control_strict_capped": true,
+    "hour_denominator": 168,
+    "counts": {
+      "EXACT_HOUR_POINT": 168
+    }
+  },
+  "original_model_claims_unchanged": true
+}

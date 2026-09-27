@@ -1,0 +1,128 @@
+{
+  "status": "INDEPENDENT_BRANCH_FLOW_PREPARED_PASS",
+  "manifest_sha256": "0981491f326dbd3f34e2825d501cbff54d74bf18e5c3d924edf420a4950532d4",
+  "bindings": 103,
+  "cases": [
+    {
+      "case": "january_identity",
+      "rows": 34513,
+      "columns": 29400,
+      "binary_coordinates": 12096,
+      "retained_and_replaced_rows_checked": 34513,
+      "changed_nodal_coefficients": 15,
+      "max_abs_nodal_coefficient_difference": {
+        "numerator": "3",
+        "denominator": "2199023255552"
+      },
+      "max_abs_nodal_sum_minus_old_net": {
+        "numerator": "37",
+        "denominator": "281474976710656"
+      },
+      "families": {
+        "thermal_upper": 4032,
+        "thermal_lower": 4032,
+        "transition": 4008,
+        "exclusive_transition": 4008,
+        "minimum_up": 4008,
+        "minimum_down": 4008,
+        "fossil_energy_cap": 1,
+        "nodal_flow_incidence": 4032,
+        "flow_definition": 6384
+      }
+    },
+    {
+      "case": "seed_26100200",
+      "rows": 34513,
+      "columns": 29400,
+      "binary_coordinates": 12096,
+      "retained_and_replaced_rows_checked": 34513,
+      "changed_nodal_coefficients": 15,
+      "max_abs_nodal_coefficient_difference": {
+        "numerator": "3",
+        "denominator": "2199023255552"
+      },
+      "max_abs_nodal_sum_minus_old_net": {
+        "numerator": "37",
+        "denominator": "281474976710656"
+      },
+      "families": {
+        "thermal_upper": 4032,
+        "thermal_lower": 4032,
+        "transition": 4008,
+        "exclusive_transition": 4008,
+        "minimum_up": 4008,
+        "minimum_down": 4008,
+        "fossil_energy_cap": 1,
+        "nodal_flow_incidence": 4032,
+        "flow_definition": 6384
+      }
+    },
+    {
+      "case": "seed_26093200",
+      "rows": 34513,
+      "columns": 29400,
+      "binary_coordinates": 12096,
+      "retained_and_replaced_rows_checked": 34513,
+      "changed_nodal_coefficients": 15,
+      "max_abs_nodal_coefficient_difference": {
+        "numerator": "3",
+        "denominator": "2199023255552"
+      },
+      "max_abs_nodal_sum_minus_old_net": {
+        "numerator": "37",
+        "denominator": "281474976710656"
+      },
+      "families": {
+        "thermal_upper": 4032,
+        "thermal_lower": 4032,
+        "transition": 4008,
+        "exclusive_transition": 4008,
+        "minimum_up": 4008,
+        "minimum_down": 4008,
+        "fossil_energy_cap": 1,
+        "nodal_flow_incidence": 4032,
+        "flow_definition": 6384
+      }
+    },
+    {
+      "case": "seed_26093201",
+      "rows": 34513,
+      "columns": 29400,
+      "binary_coordinates": 12096,
+      "retained_and_replaced_rows_checked": 34513,
+      "changed_nodal_coefficients": 15,
+      "max_abs_nodal_coefficient_difference": {
+        "numerator": "3",
+        "denominator": "2199023255552"
+      },
+      "max_abs_nodal_sum_minus_old_net": {
+        "numerator": "37",
+        "denominator": "281474976710656"
+      },
+      "families": {
+        "thermal_upper": 4032,
+        "thermal_lower": 4032,
+        "transition": 4008,
+        "exclusive_transition": 4008,
+        "minimum_up": 4008,
+        "minimum_down": 4008,
+        "fossil_energy_cap": 1,
+        "nodal_flow_incidence": 4032,
+        "flow_definition": 6384
+      }
+    }
+  ],
+  "proposal_rows": 18480,
+  "proposal_columns": 17304,
+  "constant_rows": 16032,
+  "proposal_families": {
+    "thermal_upper": 4032,
+    "thermal_lower": 4032,
+    "nodal_flow_incidence": 4032,
+    "flow_definition": 6384
+  },
+  "optimizer_calls": 0,
+  "basis_reconstructions": 0,
+  "elapsed_s": 11.364872300007846,
+  "source_sha256": "54fd65020f351203d4ae43c8a8e71af4c82e27511446865798879d4c1f0aec1b"
+}

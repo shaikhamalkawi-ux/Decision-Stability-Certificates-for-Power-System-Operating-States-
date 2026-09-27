@@ -1,0 +1,15 @@
+{
+  "case": "identity_proposal",
+  "status": "Optimal",
+  "call_status": "HighsStatus.kOk",
+  "actual_seconds": 0.9297020999947563,
+  "configured_seconds": 60.0,
+  "soft_overrun_seconds": 0.0,
+  "basis_valid": true,
+  "value_valid": true,
+  "has_existing_ray": false,
+  "ray_getter_called_only_after_exists": true,
+  "optimizer_calls": 1,
+  "simplex_iterations": 12147,
+  "numerical_objective": 22964.94123955671
+}
