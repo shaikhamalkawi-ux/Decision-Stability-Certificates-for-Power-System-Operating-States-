@@ -1,0 +1,397 @@
+{
+  "status": "INDEPENDENT_POSTHOC_HISTORICAL_CAP_POINT_REPLAY_COMPLETE",
+  "optimizer_calls": 0,
+  "ordinary_denominator": 4,
+  "all_accepted_new_points_checked": true,
+  "cases": [
+    {
+      "case": "seed_26093400",
+      "status": "NEW_UNCAPPED_POINT_FAILS_OLD_CAP",
+      "historical_run_verdict": "UNKNOWN_UNCHANGED",
+      "actual_parent_model_directory": "results\\research8h\\seasonal_cap_continuation\\seed_26093400",
+      "parent_matrix_sha256": "2f11940f72432a2a2e89e4a88115eba3cf24a8e82a8110e250c6191020c1f0bb",
+      "parent_bounds_sha256": "d4b9572f49460f879e174d78be82a605192d9c4609d2673347ffcd84efac6fdc",
+      "parent_original_mask_sha256": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d",
+      "new_point_sha256": "91a83f18a4663305f024dc51a1c18d26c670477db160da17f40c08b51357535f",
+      "old_cap_MWh": 43131,
+      "tau": {
+        "numerator": "5902958103587057",
+        "denominator": "590295810358705651712",
+        "float": 1e-05
+      },
+      "new_point_fossil_MWh": {
+        "numerator": "49132729595291821439",
+        "denominator": "1125899906842624",
+        "float": 43638.63012749986
+      },
+      "strict_cap_margin_MWh": {
+        "numerator": "-571540713262605695",
+        "denominator": "1125899906842624",
+        "float": -507.63012749986353
+      },
+      "exact_parent_point_check": {
+        "binary_exact": true,
+        "binary_count": 12096,
+        "full_expanded_pass": false,
+        "full_strict_pass": false,
+        "static_expanded_pass": false,
+        "maximum_column_violation": {
+          "numerator": "67109",
+          "denominator": "9007199254740992",
+          "float": 7.450595695956963e-12
+        },
+        "maximum_row_violation": {
+          "numerator": "571540713262605695",
+          "denominator": "1125899906842624",
+          "float": 507.63012749986353
+        },
+        "static_maximum_row_violation": {
+          "numerator": "571540713262605695",
+          "denominator": "1125899906842624",
+          "float": 507.63012749986353
+        },
+        "failed_expanded_rows": [
+          {
+            "row": 24264,
+            "family": "fossil_energy_cap",
+            "hour": -1,
+            "uid": "23_fossil_units"
+          }
+        ],
+        "integer_scale_exponent": 69
+      },
+      "direct_native_check": {
+        "pass": true,
+        "maximum_residuals": {
+          "negative_dispatch": {
+            "numerator": "67109",
+            "denominator": "9007199254740992",
+            "float": 7.450595695956963e-12
+          },
+          "availability": {
+            "numerator": "743",
+            "denominator": "140737488355328",
+            "float": 5.279332526697544e-12
+          },
+          "hydro_fixed": {
+            "numerator": "0",
+            "denominator": "1",
+            "float": 0.0
+          },
+          "aggregate_balance": {
+            "numerator": "13667",
+            "denominator": "2251799813685248",
+            "float": 6.069367231020806e-12
+          },
+          "commitment_upper": {
+            "numerator": "2669",
+            "denominator": "281474976710656",
+            "float": 9.482192808718537e-12
+          },
+          "commitment_lower": {
+            "numerator": "67109",
+            "denominator": "9007199254740992",
+            "float": 7.450595695956963e-12
+          },
+          "angle_bound": {
+            "numerator": "0",
+            "denominator": "1",
+            "float": 0.0
+          },
+          "reference_angle": {
+            "numerator": "0",
+            "denominator": "1",
+            "float": 0.0
+          },
+          "branch_limit": {
+            "numerator": "0",
+            "denominator": "1",
+            "float": 0.0
+          },
+          "native_on_on_ramp": {
+            "numerator": "0",
+            "denominator": "1",
+            "float": 0.0
+          },
+          "provided_nodal_balance": {
+            "numerator": "11394192993044625909",
+            "denominator": "1267650600228229401496703205376",
+            "float": 8.988433398756093e-12
+          }
+        },
+        "first_violations": [],
+        "energy_MWh": {
+          "numerator": "49132729595291821439",
+          "denominator": "1125899906842624",
+          "float": 43638.63012749986
+        },
+        "original_binary_coordinates": 12096,
+        "canonical_transitions_and_clipped_residence": true,
+        "native_nodal_rows": 4032,
+        "energy_cap_constraints": 0,
+        "native_rounded_Bbus_coefficients_from_frozen_model": true
+      },
+      "new_posthoc_expanded_cap_admission": false,
+      "scope": "New proof from the later uncapped arm; no relabeling of the historical capped run or retroactive replication-gate success."
+    },
+    {
+      "case": "seed_26093401",
+      "status": "NEW_UNCAPPED_POINT_FAILS_OLD_CAP",
+      "historical_run_verdict": "UNKNOWN_UNCHANGED",
+      "actual_parent_model_directory": "results\\research8h\\seasonal_cap_continuation\\seed_26093401",
+      "parent_matrix_sha256": "2f11940f72432a2a2e89e4a88115eba3cf24a8e82a8110e250c6191020c1f0bb",
+      "parent_bounds_sha256": "679340e427927414358a20728d2223504c43c4180464ca8826238ac926694fac",
+      "parent_original_mask_sha256": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d",
+      "new_point_sha256": "fd5fe5852904941676eddb1157d5b691f654ccc5786f2b921a5e53a7bf6b6dd4",
+      "old_cap_MWh": 43131,
+      "tau": {
+        "numerator": "5902958103587057",
+        "denominator": "590295810358705651712",
+        "float": 1e-05
+      },
+      "new_point_fossil_MWh": {
+        "numerator": "788575218347404671497",
+        "denominator": "18014398509481984",
+        "float": 43774.71820290494
+      },
+      "strict_cap_margin_MWh": {
+        "numerator": "-11596196234937219593",
+        "denominator": "18014398509481984",
+        "float": -643.7182029049426
+      },
+      "exact_parent_point_check": {
+        "binary_exact": true,
+        "binary_count": 12096,
+        "full_expanded_pass": false,
+        "full_strict_pass": false,
+        "static_expanded_pass": false,
+        "maximum_column_violation": {
+          "numerator": "4901",
+          "denominator": "562949953421312",
+          "float": 8.705924869900628e-12
+        },
+        "maximum_row_violation": {
+          "numerator": "11596196234937219593",
+          "denominator": "18014398509481984",
+          "float": 643.7182029049426
+        },
+        "static_maximum_row_violation": {
+          "numerator": "11596196234937219593",
+          "denominator": "18014398509481984",
+          "float": 643.7182029049426
+        },
+        "failed_expanded_rows": [
+          {
+            "row": 24264,
+            "family": "fossil_energy_cap",
+            "hour": -1,
+            "uid": "23_fossil_units"
+          }
+        ],
+        "integer_scale_exponent": 91
+      },
+      "direct_native_check": {
+        "pass": true,
+        "maximum_residuals": {
+          "negative_dispatch": {
+            "numerator": "4901",
+            "denominator": "562949953421312",
+            "float": 8.705924869900628e-12
+          },
+          "availability": {
+            "numerator": "599",
+            "denominator": "140737488355328",
+            "float": 4.256150987203e-12
+          },
+          "hydro_fixed": {
+            "numerator": "0",
+            "denominator": "1",
+            "float": 0.0
+          },
+          "aggregate_balance": {
+            "numerator": "15549",
+            "denominator": "1125899906842624",
+            "float": 1.3810286247917247e-11
+          },
+          "commitment_upper": {
+            "numerator": "1897",
+            "denominator": "140737488355328",
+            "float": 1.34789956973691e-11
+          },
+          "commitment_lower": {
+            "numerator": "4901",
+            "denominator": "562949953421312",
+            "float": 8.705924869900628e-12
+          },
+          "angle_bound": {
+            "numerator": "0",
+            "denominator": "1",
+            "float": 0.0
+          },
+          "reference_angle": {
+            "numerator": "0",
+            "denominator": "1",
+            "float": 0.0
+          },
+          "branch_limit": {
+            "numerator": "10360207938694191",
+            "denominator": "316912650057057350374175801344",
+            "float": 3.269105205118485e-14
+          },
+          "native_on_on_ramp": {
+            "numerator": "0",
+            "denominator": "1",
+            "float": 0.0
+          },
+          "provided_nodal_balance": {
+            "numerator": "64875396829823686751",
+            "denominator": "1267650600228229401496703205376",
+            "float": 5.1177664269747075e-11
+          }
+        },
+        "first_violations": [],
+        "energy_MWh": {
+          "numerator": "788575218347404671497",
+          "denominator": "18014398509481984",
+          "float": 43774.71820290494
+        },
+        "original_binary_coordinates": 12096,
+        "canonical_transitions_and_clipped_residence": true,
+        "native_nodal_rows": 4032,
+        "energy_cap_constraints": 0,
+        "native_rounded_Bbus_coefficients_from_frozen_model": true
+      },
+      "new_posthoc_expanded_cap_admission": false,
+      "scope": "New proof from the later uncapped arm; no relabeling of the historical capped run or retroactive replication-gate success."
+    },
+    {
+      "case": "seed_26094000",
+      "status": "NEW_POSTHOC_EXPANDED_CAPPED_BINARY_WITNESS",
+      "historical_run_verdict": "UNKNOWN_UNCHANGED",
+      "actual_parent_model_directory": "results\\research8h\\seasonal_cap_continuation\\seed_26094000",
+      "parent_matrix_sha256": "2f11940f72432a2a2e89e4a88115eba3cf24a8e82a8110e250c6191020c1f0bb",
+      "parent_bounds_sha256": "bd386ee873d7b2616d619eb36d0b1a3dddfcefeda5e211f4d763642bd5737947",
+      "parent_original_mask_sha256": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d",
+      "new_point_sha256": "e89b514fbf240bd8a313491b7b7f54e4755a27dbfe2b05555d8d13b9d5f39031",
+      "old_cap_MWh": 125172,
+      "tau": {
+        "numerator": "5902958103587057",
+        "denominator": "590295810358705651712",
+        "float": 1e-05
+      },
+      "new_point_fossil_MWh": {
+        "numerator": "140552236920311400771",
+        "denominator": "1125899906842624",
+        "float": 124835.46367319977
+      },
+      "strict_cap_margin_MWh": {
+        "numerator": "378906218993530557",
+        "denominator": "1125899906842624",
+        "float": 336.53632680022355
+      },
+      "exact_parent_point_check": {
+        "binary_exact": true,
+        "binary_count": 12096,
+        "full_expanded_pass": true,
+        "full_strict_pass": false,
+        "static_expanded_pass": true,
+        "maximum_column_violation": {
+          "numerator": "4881",
+          "denominator": "562949953421312",
+          "float": 8.670397733112623e-12
+        },
+        "maximum_row_violation": {
+          "numerator": "6632162149291632031",
+          "denominator": "316912650057057350374175801344",
+          "float": 2.092741374665091e-11
+        },
+        "static_maximum_row_violation": {
+          "numerator": "6632162149291632031",
+          "denominator": "316912650057057350374175801344",
+          "float": 2.092741374665091e-11
+        },
+        "failed_expanded_rows": [],
+        "integer_scale_exponent": 69
+      },
+      "direct_native_check": {
+        "pass": true,
+        "maximum_residuals": {
+          "negative_dispatch": {
+            "numerator": "4881",
+            "denominator": "562949953421312",
+            "float": 8.670397733112623e-12
+          },
+          "availability": {
+            "numerator": "1113",
+            "denominator": "140737488355328",
+            "float": 7.908340649009915e-12
+          },
+          "hydro_fixed": {
+            "numerator": "0",
+            "denominator": "1",
+            "float": 0.0
+          },
+          "aggregate_balance": {
+            "numerator": "1499",
+            "denominator": "140737488355328",
+            "float": 1.0651035609043902e-11
+          },
+          "commitment_upper": {
+            "numerator": "1113",
+            "denominator": "140737488355328",
+            "float": 7.908340649009915e-12
+          },
+          "commitment_lower": {
+            "numerator": "4881",
+            "denominator": "562949953421312",
+            "float": 8.670397733112623e-12
+          },
+          "angle_bound": {
+            "numerator": "0",
+            "denominator": "1",
+            "float": 0.0
+          },
+          "reference_angle": {
+            "numerator": "0",
+            "denominator": "1",
+            "float": 0.0
+          },
+          "branch_limit": {
+            "numerator": "91812716861578467",
+            "denominator": "79228162514264337593543950336",
+            "float": 1.1588394069476039e-12
+          },
+          "native_on_on_ramp": {
+            "numerator": "0",
+            "denominator": "1",
+            "float": 0.0
+          },
+          "provided_nodal_balance": {
+            "numerator": "6632162149291632031",
+            "denominator": "316912650057057350374175801344",
+            "float": 2.092741374665091e-11
+          }
+        },
+        "first_violations": [],
+        "energy_MWh": {
+          "numerator": "140552236920311400771",
+          "denominator": "1125899906842624",
+          "float": 124835.46367319977
+        },
+        "original_binary_coordinates": 12096,
+        "canonical_transitions_and_clipped_residence": true,
+        "native_nodal_rows": 4032,
+        "energy_cap_constraints": 0,
+        "native_rounded_Bbus_coefficients_from_frozen_model": true
+      },
+      "new_posthoc_expanded_cap_admission": true,
+      "scope": "New proof from the later uncapped arm; no relabeling of the historical capped run or retroactive replication-gate success."
+    },
+    {
+      "case": "seed_26094001",
+      "status": "NO_NEW_VERIFIED_UPPER_POINT",
+      "historical_run_verdict": "UNKNOWN_UNCHANGED"
+    }
+  ],
+  "source_sha256": "34494cb749d882ecdd17e34cc7692fa142d153f1bd30b2857eebe3e40b4e01ba"
+}

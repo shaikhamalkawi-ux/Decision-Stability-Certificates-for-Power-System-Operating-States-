@@ -1,0 +1,21 @@
+{
+  "utc": "2026-09-27T03:52:42.597887+00:00",
+  "ordinary_denominator": 4,
+  "identity_LP_calls": 2,
+  "target_LP_calls": 4,
+  "target_MIP_calls": 4,
+  "new_identity_MIP_calls": 0,
+  "phase_elapsed_s": 1397.5052623999945,
+  "soft_allocation_s": 2100,
+  "soft_allocation_overrun_s": 0.0,
+  "UTC_cutoff_overrun_s": 0.0,
+  "actual_MIP_seconds": 1212.990577699995,
+  "actual_LP_seconds": 73.27790429999004,
+  "solver_soft_overrun_s": 12.990577699994901,
+  "accepted_target_uppers": 3,
+  "all_frozen_hashes_unchanged": true,
+  "historical_cap_UNKNOWNs_and_failed_gates_unchanged": true,
+  "permutation_scope": "Phi0 unrestricted interior; not HOD",
+  "exact_optimality_claim": false,
+  "independent_postrun_replay_required": true
+}

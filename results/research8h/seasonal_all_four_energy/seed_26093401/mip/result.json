@@ -1,0 +1,74 @@
+{
+  "case": "seed_26093401",
+  "verdict": "VERIFIED_UNCAPPED_BINARY_WITNESS_EXPANDED_MODEL",
+  "started_utc": "2026-09-27T03:34:41.849777+00:00",
+  "ended_utc": "2026-09-27T03:39:42.117927+00:00",
+  "elapsed_s": 300.26453169999877,
+  "optimization_calls": 1,
+  "model_status": "Time limit reached",
+  "run_status": "HighsStatus.kWarning",
+  "options": {
+    "time_limit": 300.0,
+    "threads": 1,
+    "random_seed": 0,
+    "presolve": "on",
+    "mip_rel_gap": 1e-08,
+    "log_to_console": false,
+    "log_file": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\seasonal_all_four_energy\\seed_26093401\\mip\\solver.log"
+  },
+  "solver_version": "1.12.0",
+  "solution_value_valid": true,
+  "numerical_objective_MWh": 43774.71820290494,
+  "numerical_lower_bound_MWh": 42978.41888293909,
+  "numerical_relative_gap": 0.018190849710895005,
+  "mip_node_count": 162,
+  "exact_optimality_claim": false,
+  "model_artifacts": {
+    "matrix.npz": "43eadfdf239a339757187fa4d52e786d1be7277bb93009d5ded1973523bf1386",
+    "bounds.npz": "8cc04544f58ac4ea311d426ff2b26acdf6829453970dffede80ba83a2c3087bb",
+    "objective.npz": "4a11881191004d9f39ed53d3cd18a5861829593b48c4e97d67e2af2d01b17632",
+    "integrality.npz": "3dce3436c853f1dcf296fce09408a6a3d1049e6c2a89568469af8a1c4ae6d73b",
+    "original_integrality.npz": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d",
+    "native_inputs.npz": "4b235324660abf9eef6b5268ab71f6f48580f130f5b0ebb812a9afa9d610a0ea"
+  },
+  "prepared_manifest_sha256": "7a5a4cde36105325bcf5fd70e19a06d2997ce39240678ddbb82186f9ead4b078",
+  "raw_matrix_check": {
+    "pass": true,
+    "tolerance": 1e-05,
+    "residuals": {
+      "column_lower": 8.705924869900628e-12,
+      "column_upper": 4.256150987203e-12,
+      "row_lower": 5.118749868415762e-11,
+      "row_upper": 1.823252659960417e-11
+    }
+  },
+  "eligible_for_recovery": true,
+  "P_theta_bytes_preserved": true,
+  "recovered_matrix_check": {
+    "pass": true,
+    "tolerance": 1e-05,
+    "residuals": {
+      "column_lower": 8.705924869900628e-12,
+      "column_upper": 4.256150987203e-12,
+      "row_lower": 5.118749868415762e-11,
+      "row_upper": 1.823252659960417e-11
+    }
+  },
+  "native_no_cap_pass": true,
+  "exact_strict_pass": false,
+  "exact_expanded_pass": true,
+  "candidate_fossil_MWh": {
+    "numerator": "788575218347404671497",
+    "denominator": "18014398509481984",
+    "approximate": 43774.71820290494,
+    "outward_floor_6dp": "43774.718202",
+    "outward_ceiling_6dp": "43774.718203"
+  },
+  "verified_upper_MWh": {
+    "numerator": "788575218347404671497",
+    "denominator": "18014398509481984",
+    "approximate": 43774.71820290494,
+    "outward_floor_6dp": "43774.718202",
+    "outward_ceiling_6dp": "43774.718203"
+  }
+}

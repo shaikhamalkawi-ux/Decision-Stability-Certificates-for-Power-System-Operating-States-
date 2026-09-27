@@ -1,0 +1,1544 @@
+{
+  "status": "INDEPENDENT_SEASONAL_ALL_FOUR_ENERGY_POSTRUN_PASS",
+  "optimizer_calls": 0,
+  "ordinary_denominator": 4,
+  "identity_denominator": 2,
+  "manifest_sha256": "7a5a4cde36105325bcf5fd70e19a06d2997ce39240678ddbb82186f9ead4b078",
+  "frozen_bindings": 397,
+  "cases": [
+    {
+      "case": "month_04_identity",
+      "dual_bound": {
+        "zero_dual_lower_MWh": {
+          "numerator": "-2851128764032548531",
+          "denominator": "73786976294838206464",
+          "float": -0.03864
+        },
+        "bound": {
+          "nominal_lower_bound_MWh": {
+            "numerator": "13687726832731365373761911009384552447",
+            "denominator": "324518553658426726783156020576256",
+            "float": 42178.56476439999
+          },
+          "expanded_lower_bound_MWh": {
+            "numerator": "123287987169288955136724868791292526754902805671297847",
+            "denominator": "2923003274661805836407369665432566039311865085952",
+            "float": 42178.53200439999
+          },
+          "row_term": {
+            "numerator": "811582916580925110712015939140929",
+            "denominator": "4951760157141521099596496896",
+            "float": 163897.8647644
+          },
+          "finite_box_term": {
+            "numerator": "-39500171188316142681860765578155370497",
+            "denominator": "324518553658426726783156020576256",
+            "float": -121719.3
+          },
+          "row_dual_l1": {
+            "numerator": "5823269944798637791293040736081",
+            "denominator": "39614081257132168796771975168",
+            "float": 147.0000000000053
+          },
+          "stationarity_residual_l1": {
+            "numerator": "123952460253567291924314593874807",
+            "denominator": "39614081257132168796771975168",
+            "float": 3129.0000000000186
+          }
+        },
+        "projected_entries": 5,
+        "exact_sparse_stationarity_residual_pass": true,
+        "selected_lower_MWh": {
+          "numerator": "123287987169288955136724868791292526754902805671297847",
+          "denominator": "2923003274661805836407369665432566039311865085952",
+          "float": 42178.53200439999
+        }
+      },
+      "LP_continuous_exact_point": {
+        "binary_exact": true,
+        "binary_count": 0,
+        "full_expanded_pass": true,
+        "full_strict_pass": false,
+        "static_expanded_pass": true,
+        "maximum_column_violation": {
+          "numerator": "1",
+          "denominator": "8796093022208",
+          "float": 1.1368683772161603e-13
+        },
+        "maximum_row_violation": {
+          "numerator": "248710908488597217",
+          "denominator": "19807040628566084398385987584",
+          "float": 1.2556691994153922e-11
+        },
+        "static_maximum_row_violation": {
+          "numerator": "248710908488597217",
+          "denominator": "19807040628566084398385987584",
+          "float": 1.2556691994153922e-11
+        },
+        "failed_expanded_rows": [],
+        "integer_scale_exponent": 105
+      },
+      "reference_point": {
+        "binary_exact": true,
+        "binary_count": 12096,
+        "full_expanded_pass": true,
+        "full_strict_pass": false,
+        "static_expanded_pass": true,
+        "maximum_column_violation": {
+          "numerator": "735",
+          "denominator": "70368744177664",
+          "float": 1.0444978215673473e-11
+        },
+        "maximum_row_violation": {
+          "numerator": "92807",
+          "denominator": "2251799813685248",
+          "float": 4.121458729855476e-11
+        },
+        "static_maximum_row_violation": {
+          "numerator": "92807",
+          "denominator": "2251799813685248",
+          "float": 4.121458729855476e-11
+        },
+        "failed_expanded_rows": [],
+        "integer_scale_exponent": 69
+      },
+      "native_direct_check": {
+        "pass": true,
+        "maximum_residuals": {
+          "negative_dispatch": {
+            "numerator": "735",
+            "denominator": "70368744177664",
+            "float": 1.0444978215673473e-11
+          },
+          "availability": {
+            "numerator": "497",
+            "denominator": "70368744177664",
+            "float": 7.062794793455396e-12
+          },
+          "hydro_fixed": {
+            "numerator": "0",
+            "denominator": "1",
+            "float": 0.0
+          },
+          "aggregate_balance": {
+            "numerator": "92807",
+            "denominator": "2251799813685248",
+            "float": 4.121458729855476e-11
+          },
+          "commitment_upper": {
+            "numerator": "497",
+            "denominator": "70368744177664",
+            "float": 7.062794793455396e-12
+          },
+          "commitment_lower": {
+            "numerator": "735",
+            "denominator": "70368744177664",
+            "float": 1.0444978215673473e-11
+          },
+          "angle_bound": {
+            "numerator": "0",
+            "denominator": "1",
+            "float": 0.0
+          },
+          "reference_angle": {
+            "numerator": "0",
+            "denominator": "1",
+            "float": 0.0
+          },
+          "branch_limit": {
+            "numerator": "0",
+            "denominator": "1",
+            "float": 0.0
+          },
+          "native_on_on_ramp": {
+            "numerator": "0",
+            "denominator": "1",
+            "float": 0.0
+          },
+          "provided_nodal_balance": {
+            "numerator": "102350350955375123239",
+            "denominator": "5070602400912917605986812821504",
+            "float": 2.0185047626086366e-11
+          }
+        },
+        "first_violations": [],
+        "energy_MWh": {
+          "numerator": "6154272335876697791701",
+          "denominator": "144115188075855872",
+          "float": 42703.842794399716
+        },
+        "original_binary_coordinates": 12096,
+        "canonical_transitions_and_clipped_residence": true,
+        "native_nodal_rows": 4032,
+        "energy_cap_constraints": 0,
+        "native_rounded_Bbus_coefficients_from_frozen_model": true
+      },
+      "verified_reference_upper_MWh": {
+        "numerator": "6154272335876697791701",
+        "denominator": "144115188075855872",
+        "float": 42703.842794399716
+      }
+    },
+    {
+      "case": "month_10_identity",
+      "dual_bound": {
+        "zero_dual_lower_MWh": {
+          "numerator": "-2851128764032548531",
+          "denominator": "73786976294838206464",
+          "float": -0.03864
+        },
+        "bound": {
+          "nominal_lower_bound_MWh": {
+            "numerator": "10054504595508422692960072337621069185",
+            "denominator": "81129638414606681695789005144064",
+            "float": 123931.33744939996
+          },
+          "expanded_lower_bound_MWh": {
+            "numerator": "46368206307664475930277147868386804893427000472105761371",
+            "denominator": "374144419156711147060143317175368453031918731001856",
+            "float": 123931.30548939997
+          },
+          "row_term": {
+            "numerator": "2403059864580730956655007065163753",
+            "denominator": "9903520314283042199192993792",
+            "float": 242647.0374494
+          },
+          "finite_box_term": {
+            "numerator": "-9631361815136925303957745540200395391",
+            "denominator": "81129638414606681695789005144064",
+            "float": -118715.70000000004
+          },
+          "row_dual_l1": {
+            "numerator": "423395300476306080998882607260239",
+            "denominator": "2535301200456458802993406410752",
+            "float": 167.00000000003055
+          },
+          "stationarity_residual_l1": {
+            "numerator": "7679427336182823701884537873546629",
+            "denominator": "2535301200456458802993406410752",
+            "float": 3029.0000000000828
+          }
+        },
+        "projected_entries": 28,
+        "exact_sparse_stationarity_residual_pass": true,
+        "selected_lower_MWh": {
+          "numerator": "46368206307664475930277147868386804893427000472105761371",
+          "denominator": "374144419156711147060143317175368453031918731001856",
+          "float": 123931.30548939997
+        }
+      },
+      "LP_continuous_exact_point": {
+        "binary_exact": true,
+        "binary_count": 0,
+        "full_expanded_pass": true,
+        "full_strict_pass": false,
+        "static_expanded_pass": true,
+        "maximum_column_violation": {
+          "numerator": "9",
+          "denominator": "8796093022208",
+          "float": 1.0231815394945443e-12
+        },
+        "maximum_row_violation": {
+          "numerator": "1006896587971651549",
+          "denominator": "158456325028528675187087900672",
+          "float": 6.354410830810122e-12
+        },
+        "static_maximum_row_violation": {
+          "numerator": "1006896587971651549",
+          "denominator": "158456325028528675187087900672",
+          "float": 6.354410830810122e-12
+        },
+        "failed_expanded_rows": [],
+        "integer_scale_exponent": 69
+      },
+      "reference_point": {
+        "binary_exact": true,
+        "binary_count": 12096,
+        "full_expanded_pass": true,
+        "full_strict_pass": false,
+        "static_expanded_pass": true,
+        "maximum_column_violation": {
+          "numerator": "9091",
+          "denominator": "281474976710656",
+          "float": 3.2297720053975354e-11
+        },
+        "maximum_row_violation": {
+          "numerator": "9091",
+          "denominator": "281474976710656",
+          "float": 3.2297720053975354e-11
+        },
+        "static_maximum_row_violation": {
+          "numerator": "9091",
+          "denominator": "281474976710656",
+          "float": 3.2297720053975354e-11
+        },
+        "failed_expanded_rows": [],
+        "integer_scale_exponent": 69
+      },
+      "native_direct_check": {
+        "pass": true,
+        "maximum_residuals": {
+          "negative_dispatch": {
+            "numerator": "9091",
+            "denominator": "281474976710656",
+            "float": 3.2297720053975354e-11
+          },
+          "availability": {
+            "numerator": "77",
+            "denominator": "8796093022208",
+            "float": 8.753886504564434e-12
+          },
+          "hydro_fixed": {
+            "numerator": "0",
+            "denominator": "1",
+            "float": 0.0
+          },
+          "aggregate_balance": {
+            "numerator": "27869",
+            "denominator": "2251799813685248",
+            "float": 1.2376322189311395e-11
+          },
+          "commitment_upper": {
+            "numerator": "116269",
+            "denominator": "9007199254740992",
+            "float": 1.2908452085014233e-11
+          },
+          "commitment_lower": {
+            "numerator": "9091",
+            "denominator": "281474976710656",
+            "float": 3.2297720053975354e-11
+          },
+          "angle_bound": {
+            "numerator": "0",
+            "denominator": "1",
+            "float": 0.0
+          },
+          "reference_angle": {
+            "numerator": "0",
+            "denominator": "1",
+            "float": 0.0
+          },
+          "branch_limit": {
+            "numerator": "269917051216963047",
+            "denominator": "316912650057057350374175801344",
+            "float": 8.517080374303987e-13
+          },
+          "native_on_on_ramp": {
+            "numerator": "0",
+            "denominator": "1",
+            "float": 0.0
+          },
+          "provided_nodal_balance": {
+            "numerator": "1105505787649238043",
+            "denominator": "79228162514264337593543950336",
+            "float": 1.3953444741952729e-11
+          }
+        },
+        "first_violations": [],
+        "energy_MWh": {
+          "numerator": "558140738732395069817",
+          "denominator": "4503599627370496",
+          "float": 123932.13982439978
+        },
+        "original_binary_coordinates": 12096,
+        "canonical_transitions_and_clipped_residence": true,
+        "native_nodal_rows": 4032,
+        "energy_cap_constraints": 0,
+        "native_rounded_Bbus_coefficients_from_frozen_model": true
+      },
+      "verified_reference_upper_MWh": {
+        "numerator": "558140738732395069817",
+        "denominator": "4503599627370496",
+        "float": 123932.13982439978
+      }
+    },
+    {
+      "case": "seed_26093400",
+      "dual_bound": {
+        "zero_dual_lower_MWh": {
+          "numerator": "-2851128764032548531",
+          "denominator": "73786976294838206464",
+          "float": -0.03864
+        },
+        "bound": {
+          "nominal_lower_bound_MWh": {
+            "numerator": "3498858168943932113083678619423502273",
+            "denominator": "81129638414606681695789005144064",
+            "float": 43126.75659989128
+          },
+          "expanded_lower_bound_MWh": {
+            "numerator": "3668759313283052172437217990756276413372877",
+            "denominator": "85070591730234615865843651857942052864",
+            "float": 43126.05847290883
+          },
+          "row_term": {
+            "numerator": "12810504446475467545482148513093409",
+            "denominator": "79228162514264337593543950336",
+            "float": 161691.29814375096
+          },
+          "finite_box_term": {
+            "numerator": "-9619098384246946653490041457984148543",
+            "denominator": "81129638414606681695789005144064",
+            "float": -118564.54154385967
+          },
+          "row_dual_l1": {
+            "numerator": "5171788450562965322253",
+            "denominator": "288230376151711744",
+            "float": 17943.245675954586
+          },
+          "stationarity_residual_l1": {
+            "numerator": "14950351824936310048953",
+            "denominator": "288230376151711744",
+            "float": 51869.452569659436
+          }
+        },
+        "projected_entries": 6,
+        "exact_sparse_stationarity_residual_pass": true,
+        "selected_lower_MWh": {
+          "numerator": "3668759313283052172437217990756276413372877",
+          "denominator": "85070591730234615865843651857942052864",
+          "float": 43126.05847290883
+        }
+      },
+      "LP_continuous_exact_point": {
+        "binary_exact": true,
+        "binary_count": 0,
+        "full_expanded_pass": true,
+        "full_strict_pass": false,
+        "static_expanded_pass": true,
+        "maximum_column_violation": {
+          "numerator": "1",
+          "denominator": "8796093022208",
+          "float": 1.1368683772161603e-13
+        },
+        "maximum_row_violation": {
+          "numerator": "2809235626145395953",
+          "denominator": "158456325028528675187087900672",
+          "float": 1.7728769272161382e-11
+        },
+        "static_maximum_row_violation": {
+          "numerator": "2809235626145395953",
+          "denominator": "158456325028528675187087900672",
+          "float": 1.7728769272161382e-11
+        },
+        "failed_expanded_rows": [],
+        "integer_scale_exponent": 105
+      },
+      "native_direct_check": {
+        "pass": true,
+        "maximum_residuals": {
+          "negative_dispatch": {
+            "numerator": "67109",
+            "denominator": "9007199254740992",
+            "float": 7.450595695956963e-12
+          },
+          "availability": {
+            "numerator": "743",
+            "denominator": "140737488355328",
+            "float": 5.279332526697544e-12
+          },
+          "hydro_fixed": {
+            "numerator": "0",
+            "denominator": "1",
+            "float": 0.0
+          },
+          "aggregate_balance": {
+            "numerator": "13667",
+            "denominator": "2251799813685248",
+            "float": 6.069367231020806e-12
+          },
+          "commitment_upper": {
+            "numerator": "2669",
+            "denominator": "281474976710656",
+            "float": 9.482192808718537e-12
+          },
+          "commitment_lower": {
+            "numerator": "67109",
+            "denominator": "9007199254740992",
+            "float": 7.450595695956963e-12
+          },
+          "angle_bound": {
+            "numerator": "0",
+            "denominator": "1",
+            "float": 0.0
+          },
+          "reference_angle": {
+            "numerator": "0",
+            "denominator": "1",
+            "float": 0.0
+          },
+          "branch_limit": {
+            "numerator": "0",
+            "denominator": "1",
+            "float": 0.0
+          },
+          "native_on_on_ramp": {
+            "numerator": "0",
+            "denominator": "1",
+            "float": 0.0
+          },
+          "provided_nodal_balance": {
+            "numerator": "11394192993044625909",
+            "denominator": "1267650600228229401496703205376",
+            "float": 8.988433398756093e-12
+          }
+        },
+        "first_violations": [],
+        "energy_MWh": {
+          "numerator": "49132729595291821439",
+          "denominator": "1125899906842624",
+          "float": 43638.63012749986
+        },
+        "original_binary_coordinates": 12096,
+        "canonical_transitions_and_clipped_residence": true,
+        "native_nodal_rows": 4032,
+        "energy_cap_constraints": 0,
+        "native_rounded_Bbus_coefficients_from_frozen_model": true
+      },
+      "finite_binary_upper_verified": true,
+      "original_binary_coordinates": 12096,
+      "P_theta_bytes_preserved": true,
+      "canonical_YZ_exact": true,
+      "point_check": {
+        "binary_exact": true,
+        "binary_count": 12096,
+        "full_expanded_pass": true,
+        "full_strict_pass": false,
+        "static_expanded_pass": true,
+        "maximum_column_violation": {
+          "numerator": "67109",
+          "denominator": "9007199254740992",
+          "float": 7.450595695956963e-12
+        },
+        "maximum_row_violation": {
+          "numerator": "2669",
+          "denominator": "281474976710656",
+          "float": 9.482192808718537e-12
+        },
+        "static_maximum_row_violation": {
+          "numerator": "2669",
+          "denominator": "281474976710656",
+          "float": 9.482192808718537e-12
+        },
+        "failed_expanded_rows": [],
+        "integer_scale_exponent": 69
+      },
+      "raw_expanded_continuous_point": true,
+      "raw_exact_point_check": {
+        "binary_exact": true,
+        "binary_count": 0,
+        "full_expanded_pass": true,
+        "full_strict_pass": false,
+        "static_expanded_pass": true,
+        "maximum_column_violation": {
+          "numerator": "67109",
+          "denominator": "9007199254740992",
+          "float": 7.450595695956963e-12
+        },
+        "maximum_row_violation": {
+          "numerator": "2669",
+          "denominator": "281474976710656",
+          "float": 9.482192808718537e-12
+        },
+        "static_maximum_row_violation": {
+          "numerator": "2669",
+          "denominator": "281474976710656",
+          "float": 9.482192808718537e-12
+        },
+        "failed_expanded_rows": [],
+        "integer_scale_exponent": 69
+      },
+      "verified_upper_MWh": {
+        "numerator": "49132729595291821439",
+        "denominator": "1125899906842624",
+        "float": 43638.63012749986
+      },
+      "historical_cap_verdict": "UNKNOWN_UNCHANGED",
+      "new_uncapped_bound_excludes_historical_expanded_cap": false,
+      "new_cap_inference_scope": "Separate post-label lower-bound implication only; not a rewrite of the prior experiment or replication gate.",
+      "intervals_exact": true,
+      "intervals": {
+        "optimum_difference_MWh": {
+          "lower": {
+            "numerator": "35918137608552520306081477699697983330765",
+            "denominator": "85070591730234615865843651857942052864",
+            "float": 422.2156785091104
+          },
+          "upper": {
+            "numerator": "4267871595148483515023529301150373696156367409921225",
+            "denominator": "2923003274661805836407369665432566039311865085952",
+            "float": 1460.0981230998725
+          }
+        },
+        "target_optimum_excess_over_chosen_incumbent_MWh": {
+          "lower": {
+            "numerator": "35918137608552520306081477699697983330765",
+            "denominator": "85070591730234615865843651857942052864",
+            "float": 422.2156785091104
+          },
+          "upper": {
+            "numerator": "134717052320655352491",
+            "denominator": "144115188075855872",
+            "float": 934.7873331001466
+          }
+        },
+        "optimal_relative_penalty": {
+          "lower": {
+            "numerator": "35918137608552520306081477699697983330765",
+            "denominator": "3632841175674499652131136513056578430042112",
+            "float": 0.00988706521195045
+          },
+          "upper": {
+            "numerator": "4267871595148483515023529301150373696156367409921225",
+            "denominator": "123287987169288955136724868791292526754902805671297847",
+            "float": 0.03461709200660558
+          }
+        },
+        "optimal_relative_penalty_percent": {
+          "lower": {
+            "numerator": "897953440213813007652036942492449583269125",
+            "denominator": "908210293918624913032784128264144607510528",
+            "float": 0.988706521195045
+          },
+          "upper": {
+            "numerator": "426787159514848351502352930115037369615636740992122500",
+            "denominator": "123287987169288955136724868791292526754902805671297847",
+            "float": 3.4617092006605574
+          }
+        }
+      }
+    },
+    {
+      "case": "seed_26093401",
+      "dual_bound": {
+        "zero_dual_lower_MWh": {
+          "numerator": "-2851128764032548531",
+          "denominator": "73786976294838206464",
+          "float": -0.03864
+        },
+        "bound": {
+          "nominal_lower_bound_MWh": {
+            "numerator": "3486823583604376525655867434385287133",
+            "denominator": "81129638414606681695789005144064",
+            "float": 42978.41888293939
+          },
+          "expanded_lower_bound_MWh": {
+            "numerator": "1828061683785813916604815199349664862814463",
+            "denominator": "42535295865117307932921825928971026432",
+            "float": 42977.523644898065
+          },
+          "row_term": {
+            "numerator": "6269935737749348703968215411246727",
+            "denominator": "39614081257132168796771975168",
+            "float": 158275.42981627275
+          },
+          "finite_box_term": {
+            "numerator": "-9354004807306289620071037727848009763",
+            "denominator": "81129638414606681695789005144064",
+            "float": -115297.01093333337
+          },
+          "row_dual_l1": {
+            "numerator": "7453099628533697845331",
+            "denominator": "288230376151711744",
+            "float": 25858.13378882285
+          },
+          "stationarity_residual_l1": {
+            "numerator": "18350380111092873511921",
+            "denominator": "288230376151711744",
+            "float": 63665.670343621394
+          }
+        },
+        "projected_entries": 0,
+        "exact_sparse_stationarity_residual_pass": true,
+        "selected_lower_MWh": {
+          "numerator": "1828061683785813916604815199349664862814463",
+          "denominator": "42535295865117307932921825928971026432",
+          "float": 42977.523644898065
+        }
+      },
+      "LP_continuous_exact_point": {
+        "binary_exact": true,
+        "binary_count": 0,
+        "full_expanded_pass": true,
+        "full_strict_pass": false,
+        "static_expanded_pass": true,
+        "maximum_column_violation": {
+          "numerator": "2313995521429777",
+          "denominator": "309485009821345068724781056",
+          "float": 7.47692278461424e-12
+        },
+        "maximum_row_violation": {
+          "numerator": "24711658292618443255",
+          "denominator": "1267650600228229401496703205376",
+          "float": 1.949406113022731e-11
+        },
+        "static_maximum_row_violation": {
+          "numerator": "24711658292618443255",
+          "denominator": "1267650600228229401496703205376",
+          "float": 1.949406113022731e-11
+        },
+        "failed_expanded_rows": [],
+        "integer_scale_exponent": 100
+      },
+      "native_direct_check": {
+        "pass": true,
+        "maximum_residuals": {
+          "negative_dispatch": {
+            "numerator": "4901",
+            "denominator": "562949953421312",
+            "float": 8.705924869900628e-12
+          },
+          "availability": {
+            "numerator": "599",
+            "denominator": "140737488355328",
+            "float": 4.256150987203e-12
+          },
+          "hydro_fixed": {
+            "numerator": "0",
+            "denominator": "1",
+            "float": 0.0
+          },
+          "aggregate_balance": {
+            "numerator": "15549",
+            "denominator": "1125899906842624",
+            "float": 1.3810286247917247e-11
+          },
+          "commitment_upper": {
+            "numerator": "1897",
+            "denominator": "140737488355328",
+            "float": 1.34789956973691e-11
+          },
+          "commitment_lower": {
+            "numerator": "4901",
+            "denominator": "562949953421312",
+            "float": 8.705924869900628e-12
+          },
+          "angle_bound": {
+            "numerator": "0",
+            "denominator": "1",
+            "float": 0.0
+          },
+          "reference_angle": {
+            "numerator": "0",
+            "denominator": "1",
+            "float": 0.0
+          },
+          "branch_limit": {
+            "numerator": "10360207938694191",
+            "denominator": "316912650057057350374175801344",
+            "float": 3.269105205118485e-14
+          },
+          "native_on_on_ramp": {
+            "numerator": "0",
+            "denominator": "1",
+            "float": 0.0
+          },
+          "provided_nodal_balance": {
+            "numerator": "64875396829823686751",
+            "denominator": "1267650600228229401496703205376",
+            "float": 5.1177664269747075e-11
+          }
+        },
+        "first_violations": [],
+        "energy_MWh": {
+          "numerator": "788575218347404671497",
+          "denominator": "18014398509481984",
+          "float": 43774.71820290494
+        },
+        "original_binary_coordinates": 12096,
+        "canonical_transitions_and_clipped_residence": true,
+        "native_nodal_rows": 4032,
+        "energy_cap_constraints": 0,
+        "native_rounded_Bbus_coefficients_from_frozen_model": true
+      },
+      "finite_binary_upper_verified": true,
+      "original_binary_coordinates": 12096,
+      "P_theta_bytes_preserved": true,
+      "canonical_YZ_exact": true,
+      "point_check": {
+        "binary_exact": true,
+        "binary_count": 12096,
+        "full_expanded_pass": true,
+        "full_strict_pass": false,
+        "static_expanded_pass": true,
+        "maximum_column_violation": {
+          "numerator": "4901",
+          "denominator": "562949953421312",
+          "float": 8.705924869900628e-12
+        },
+        "maximum_row_violation": {
+          "numerator": "64875396829823686751",
+          "denominator": "1267650600228229401496703205376",
+          "float": 5.1177664269747075e-11
+        },
+        "static_maximum_row_violation": {
+          "numerator": "64875396829823686751",
+          "denominator": "1267650600228229401496703205376",
+          "float": 5.1177664269747075e-11
+        },
+        "failed_expanded_rows": [],
+        "integer_scale_exponent": 91
+      },
+      "raw_expanded_continuous_point": true,
+      "raw_exact_point_check": {
+        "binary_exact": true,
+        "binary_count": 0,
+        "full_expanded_pass": true,
+        "full_strict_pass": false,
+        "static_expanded_pass": true,
+        "maximum_column_violation": {
+          "numerator": "4901",
+          "denominator": "562949953421312",
+          "float": 8.705924869900628e-12
+        },
+        "maximum_row_violation": {
+          "numerator": "64875396829823686751",
+          "denominator": "1267650600228229401496703205376",
+          "float": 5.1177664269747075e-11
+        },
+        "static_maximum_row_violation": {
+          "numerator": "64875396829823686751",
+          "denominator": "1267650600228229401496703205376",
+          "float": 5.1177664269747075e-11
+        },
+        "failed_expanded_rows": [],
+        "integer_scale_exponent": 104
+      },
+      "verified_upper_MWh": {
+        "numerator": "788575218347404671497",
+        "denominator": "18014398509481984",
+        "float": 43774.71820290494
+      },
+      "historical_cap_verdict": "UNKNOWN_UNCHANGED",
+      "new_uncapped_bound_excludes_historical_expanded_cap": false,
+      "new_cap_inference_scope": "Separate post-label lower-bound implication only; not a rewrite of the prior experiment or replication gate.",
+      "intervals_exact": true,
+      "intervals": {
+        "optimum_difference_MWh": {
+          "lower": {
+            "numerator": "11641095948564090539246942821375647793407",
+            "denominator": "42535295865117307932921825928971026432",
+            "float": 273.68085049834616
+          },
+          "upper": {
+            "numerator": "4665657485199952432495632317647898097597188487789769",
+            "denominator": "2923003274661805836407369665432566039311865085952",
+            "float": 1596.1861985049516
+          }
+        },
+        "target_optimum_excess_over_chosen_incumbent_MWh": {
+          "lower": {
+            "numerator": "11641095948564090539246942821375647793407",
+            "denominator": "42535295865117307932921825928971026432",
+            "float": 273.68085049834616
+          },
+          "upper": {
+            "numerator": "154329410902539580275",
+            "denominator": "144115188075855872",
+            "float": 1070.8754085052256
+          }
+        },
+        "optimal_relative_penalty": {
+          "lower": {
+            "numerator": "11641095948564090539246942821375647793407",
+            "denominator": "1816420587837249826065568256528289215021056",
+            "float": 0.006408810837375912
+          },
+          "upper": {
+            "numerator": "4665657485199952432495632317647898097597188487789769",
+            "denominator": "123287987169288955136724868791292526754902805671297847",
+            "float": 0.037843569291089604
+          }
+        },
+        "optimal_relative_penalty_percent": {
+          "lower": {
+            "numerator": "291027398714102263481173570534391194835175",
+            "denominator": "454105146959312456516392064132072303755264",
+            "float": 0.6408810837375911
+          },
+          "upper": {
+            "numerator": "466565748519995243249563231764789809759718848778976900",
+            "denominator": "123287987169288955136724868791292526754902805671297847",
+            "float": 3.7843569291089603
+          }
+        }
+      }
+    },
+    {
+      "case": "seed_26094000",
+      "dual_bound": {
+        "zero_dual_lower_MWh": {
+          "numerator": "-2851128764032548531",
+          "denominator": "73786976294838206464",
+          "float": -0.03864
+        },
+        "bound": {
+          "nominal_lower_bound_MWh": {
+            "numerator": "48891560279765748739360113651945917359751029334736809073031275",
+            "denominator": "392318858461667547739736838950479151006397215279002157056",
+            "float": 124621.99872694322
+          },
+          "expanded_lower_bound_MWh": {
+            "numerator": "102532708251695088435852112178123929143069353150990021760012781893129",
+            "denominator": "822752278660603021077484591278675252491367932816789931674304512",
+            "float": 124621.60350210502
+          },
+          "row_term": {
+            "numerator": "21275643021463315624443624603143401348462465480801",
+            "denominator": "89202980794122492566142873090593446023921664",
+            "float": 238508.20714799644
+          },
+          "finite_box_term": {
+            "numerator": "-44679707282275151531448140675044815532253925927798062872283029",
+            "denominator": "392318858461667547739736838950479151006397215279002157056",
+            "float": -113886.20842105322
+          },
+          "row_dual_l1": {
+            "numerator": "6122817020020074708564404347570993",
+            "denominator": "633825300114114700748351602688",
+            "float": 9660.101953831308
+          },
+          "stationarity_residual_l1": {
+            "numerator": "41622085563453190150533706211148254251404075367",
+            "denominator": "1393796574908163946345982392040522594123776",
+            "float": 29862.381866016305
+          }
+        },
+        "projected_entries": 220,
+        "exact_sparse_stationarity_residual_pass": true,
+        "selected_lower_MWh": {
+          "numerator": "102532708251695088435852112178123929143069353150990021760012781893129",
+          "denominator": "822752278660603021077484591278675252491367932816789931674304512",
+          "float": 124621.60350210502
+        }
+      },
+      "LP_continuous_exact_point": {
+        "binary_exact": true,
+        "binary_count": 0,
+        "full_expanded_pass": true,
+        "full_strict_pass": false,
+        "static_expanded_pass": true,
+        "maximum_column_violation": {
+          "numerator": "5663585103127365",
+          "denominator": "9903520314283042199192993792",
+          "float": 5.718759515199092e-13
+        },
+        "maximum_row_violation": {
+          "numerator": "487152997823435453",
+          "denominator": "19807040628566084398385987584",
+          "float": 2.4594941110023993e-11
+        },
+        "static_maximum_row_violation": {
+          "numerator": "487152997823435453",
+          "denominator": "19807040628566084398385987584",
+          "float": 2.4594941110023993e-11
+        },
+        "failed_expanded_rows": [],
+        "integer_scale_exponent": 104
+      },
+      "native_direct_check": {
+        "pass": true,
+        "maximum_residuals": {
+          "negative_dispatch": {
+            "numerator": "4881",
+            "denominator": "562949953421312",
+            "float": 8.670397733112623e-12
+          },
+          "availability": {
+            "numerator": "1113",
+            "denominator": "140737488355328",
+            "float": 7.908340649009915e-12
+          },
+          "hydro_fixed": {
+            "numerator": "0",
+            "denominator": "1",
+            "float": 0.0
+          },
+          "aggregate_balance": {
+            "numerator": "1499",
+            "denominator": "140737488355328",
+            "float": 1.0651035609043902e-11
+          },
+          "commitment_upper": {
+            "numerator": "1113",
+            "denominator": "140737488355328",
+            "float": 7.908340649009915e-12
+          },
+          "commitment_lower": {
+            "numerator": "4881",
+            "denominator": "562949953421312",
+            "float": 8.670397733112623e-12
+          },
+          "angle_bound": {
+            "numerator": "0",
+            "denominator": "1",
+            "float": 0.0
+          },
+          "reference_angle": {
+            "numerator": "0",
+            "denominator": "1",
+            "float": 0.0
+          },
+          "branch_limit": {
+            "numerator": "91812716861578467",
+            "denominator": "79228162514264337593543950336",
+            "float": 1.1588394069476039e-12
+          },
+          "native_on_on_ramp": {
+            "numerator": "0",
+            "denominator": "1",
+            "float": 0.0
+          },
+          "provided_nodal_balance": {
+            "numerator": "6632162149291632031",
+            "denominator": "316912650057057350374175801344",
+            "float": 2.092741374665091e-11
+          }
+        },
+        "first_violations": [],
+        "energy_MWh": {
+          "numerator": "140552236920311400771",
+          "denominator": "1125899906842624",
+          "float": 124835.46367319977
+        },
+        "original_binary_coordinates": 12096,
+        "canonical_transitions_and_clipped_residence": true,
+        "native_nodal_rows": 4032,
+        "energy_cap_constraints": 0,
+        "native_rounded_Bbus_coefficients_from_frozen_model": true
+      },
+      "finite_binary_upper_verified": true,
+      "original_binary_coordinates": 12096,
+      "P_theta_bytes_preserved": true,
+      "canonical_YZ_exact": true,
+      "point_check": {
+        "binary_exact": true,
+        "binary_count": 12096,
+        "full_expanded_pass": true,
+        "full_strict_pass": false,
+        "static_expanded_pass": true,
+        "maximum_column_violation": {
+          "numerator": "4881",
+          "denominator": "562949953421312",
+          "float": 8.670397733112623e-12
+        },
+        "maximum_row_violation": {
+          "numerator": "6632162149291632031",
+          "denominator": "316912650057057350374175801344",
+          "float": 2.092741374665091e-11
+        },
+        "static_maximum_row_violation": {
+          "numerator": "6632162149291632031",
+          "denominator": "316912650057057350374175801344",
+          "float": 2.092741374665091e-11
+        },
+        "failed_expanded_rows": [],
+        "integer_scale_exponent": 69
+      },
+      "raw_expanded_continuous_point": true,
+      "raw_exact_point_check": {
+        "binary_exact": true,
+        "binary_count": 0,
+        "full_expanded_pass": true,
+        "full_strict_pass": false,
+        "static_expanded_pass": true,
+        "maximum_column_violation": {
+          "numerator": "4881",
+          "denominator": "562949953421312",
+          "float": 8.670397733112623e-12
+        },
+        "maximum_row_violation": {
+          "numerator": "6632162149291632031",
+          "denominator": "316912650057057350374175801344",
+          "float": 2.092741374665091e-11
+        },
+        "static_maximum_row_violation": {
+          "numerator": "6632162149291632031",
+          "denominator": "316912650057057350374175801344",
+          "float": 2.092741374665091e-11
+        },
+        "failed_expanded_rows": [],
+        "integer_scale_exponent": 69
+      },
+      "verified_upper_MWh": {
+        "numerator": "140552236920311400771",
+        "denominator": "1125899906842624",
+        "float": 124835.46367319977
+      },
+      "historical_cap_verdict": "UNKNOWN_UNCHANGED",
+      "new_uncapped_bound_excludes_historical_expanded_cap": false,
+      "new_cap_inference_scope": "Separate post-label lower-bound implication only; not a rewrite of the prior experiment or replication gate.",
+      "intervals_exact": true,
+      "intervals": {
+        "optimum_difference_MWh": {
+          "lower": {
+            "numerator": "567257811885701100454019282985236331627257707430064957619047773705",
+            "denominator": "822752278660603021077484591278675252491367932816789931674304512",
+            "float": 689.4636777052343
+          },
+          "upper": {
+            "numerator": "338285738503569008064528596484219104721871702172255653",
+            "denominator": "374144419156711147060143317175368453031918731001856",
+            "float": 904.1581837998159
+          }
+        },
+        "target_optimum_excess_over_chosen_incumbent_MWh": {
+          "lower": {
+            "numerator": "567257811885701100454019282985236331627257707430064957619047773705",
+            "denominator": "822752278660603021077484591278675252491367932816789931674304512",
+            "float": 689.4636777052343
+          },
+          "upper": {
+            "numerator": "4068208948850533267",
+            "denominator": "4503599627370496",
+            "float": 903.3238487999936
+          }
+        },
+        "optimal_relative_penalty": {
+          "lower": {
+            "numerator": "567257811885701100454019282985236331627257707430064957619047773705",
+            "denominator": "101965450439809387335398092895138692811442095443559956802393734119424",
+            "float": 0.005563235482596683
+          },
+          "upper": {
+            "numerator": "338285738503569008064528596484219104721871702172255653",
+            "denominator": "46368206307664475930277147868386804893427000472105761371",
+            "float": 0.00729563995335424
+          }
+        },
+        "optimal_relative_penalty_percent": {
+          "lower": {
+            "numerator": "14181445297142527511350482074630908290681442685751623940476194342625",
+            "denominator": "25491362609952346833849523223784673202860523860889989200598433529856",
+            "float": 0.5563235482596682
+          },
+          "upper": {
+            "numerator": "33828573850356900806452859648421910472187170217225565300",
+            "denominator": "46368206307664475930277147868386804893427000472105761371",
+            "float": 0.7295639953354239
+          }
+        }
+      }
+    },
+    {
+      "case": "seed_26094001",
+      "dual_bound": {
+        "zero_dual_lower_MWh": {
+          "numerator": "-2851128764032548531",
+          "denominator": "73786976294838206464",
+          "float": -0.03864
+        },
+        "bound": {
+          "nominal_lower_bound_MWh": {
+            "numerator": "86902236654493962051219442350382678936007024849",
+            "denominator": "696898287454081973172991196020261297061888",
+            "float": 124698.59406882223
+          },
+          "expanded_lower_bound_MWh": {
+            "numerator": "46655119178452263769384846765225858538235135630322869209",
+            "denominator": "374144419156711147060143317175368453031918731001856",
+            "float": 124698.1560853128
+          },
+          "row_term": {
+            "numerator": "150402404033607116202172223078561371",
+            "denominator": "633825300114114700748351602688",
+            "float": 237293.15318673535
+          },
+          "finite_box_term": {
+            "numerator": "-78466955425921026493088121753818928020517216047",
+            "denominator": "696898287454081973172991196020261297061888",
+            "float": -112594.5591179131
+          },
+          "row_dual_l1": {
+            "numerator": "13825249055452388099911862498117623",
+            "denominator": "1267650600228229401496703205376",
+            "float": 10906.19848479011
+          },
+          "stationarity_residual_l1": {
+            "numerator": "41695756807339367227769508904002871",
+            "denominator": "1267650600228229401496703205376",
+            "float": 32892.1524589129
+          }
+        },
+        "projected_entries": 94,
+        "exact_sparse_stationarity_residual_pass": true,
+        "selected_lower_MWh": {
+          "numerator": "46655119178452263769384846765225858538235135630322869209",
+          "denominator": "374144419156711147060143317175368453031918731001856",
+          "float": 124698.1560853128
+        }
+      },
+      "LP_continuous_exact_point": {
+        "binary_exact": true,
+        "binary_count": 0,
+        "full_expanded_pass": true,
+        "full_strict_pass": false,
+        "static_expanded_pass": true,
+        "maximum_column_violation": {
+          "numerator": "3159",
+          "denominator": "140737488355328",
+          "float": 2.2446045022661565e-11
+        },
+        "maximum_row_violation": {
+          "numerator": "39042636778932928279",
+          "denominator": "1267650600228229401496703205376",
+          "float": 3.07992097916442e-11
+        },
+        "static_maximum_row_violation": {
+          "numerator": "39042636778932928279",
+          "denominator": "1267650600228229401496703205376",
+          "float": 3.07992097916442e-11
+        },
+        "failed_expanded_rows": [],
+        "integer_scale_exponent": 104
+      },
+      "finite_binary_upper_verified": false,
+      "verdict": "UNKNOWN",
+      "diagnostics": {},
+      "historical_cap_verdict": "UNKNOWN_UNCHANGED",
+      "new_uncapped_bound_excludes_historical_expanded_cap": false,
+      "new_cap_inference_scope": "Separate post-label lower-bound implication only; not a rewrite of the prior experiment or replication gate."
+    }
+  ],
+  "calls": [
+    {
+      "case": "month_04_identity",
+      "kind": "IDENTITY_LP",
+      "started_utc": "2026-09-27T03:29:28.645187+00:00",
+      "ended_utc": "2026-09-27T03:29:31.332133+00:00",
+      "seconds": 2.684776999987662,
+      "limit": 60
+    },
+    {
+      "case": "month_10_identity",
+      "kind": "IDENTITY_LP",
+      "started_utc": "2026-09-27T03:29:31.901858+00:00",
+      "ended_utc": "2026-09-27T03:29:34.755338+00:00",
+      "seconds": 2.8526143000053708,
+      "limit": 60
+    },
+    {
+      "case": "seed_26093400",
+      "kind": "TARGET_MIP",
+      "started_utc": "2026-09-27T03:29:35.476109+00:00",
+      "ended_utc": "2026-09-27T03:34:36.783916+00:00",
+      "seconds": 301.2904288999853,
+      "limit": 300
+    },
+    {
+      "case": "seed_26093401",
+      "kind": "TARGET_MIP",
+      "started_utc": "2026-09-27T03:34:41.849777+00:00",
+      "ended_utc": "2026-09-27T03:39:42.117927+00:00",
+      "seconds": 300.26453169999877,
+      "limit": 300
+    },
+    {
+      "case": "seed_26094000",
+      "kind": "TARGET_MIP",
+      "started_utc": "2026-09-27T03:39:48.862660+00:00",
+      "ended_utc": "2026-09-27T03:44:49.283643+00:00",
+      "seconds": 300.32291490002535,
+      "limit": 300
+    },
+    {
+      "case": "seed_26094001",
+      "kind": "TARGET_MIP",
+      "started_utc": "2026-09-27T03:45:40.903537+00:00",
+      "ended_utc": "2026-09-27T03:50:52.029628+00:00",
+      "seconds": 311.1127021999855,
+      "limit": 300
+    },
+    {
+      "case": "seed_26093400",
+      "kind": "TARGET_LP",
+      "started_utc": "2026-09-27T03:50:52.533712+00:00",
+      "ended_utc": "2026-09-27T03:50:59.525574+00:00",
+      "seconds": 6.99066650000168,
+      "limit": 60
+    },
+    {
+      "case": "seed_26093401",
+      "kind": "TARGET_LP",
+      "started_utc": "2026-09-27T03:51:01.740483+00:00",
+      "ended_utc": "2026-09-27T03:51:09.474324+00:00",
+      "seconds": 7.732645999989472,
+      "limit": 60
+    },
+    {
+      "case": "seed_26094000",
+      "kind": "TARGET_LP",
+      "started_utc": "2026-09-27T03:51:10.461293+00:00",
+      "ended_utc": "2026-09-27T03:51:25.467711+00:00",
+      "seconds": 15.005831499991473,
+      "limit": 60
+    },
+    {
+      "case": "seed_26094001",
+      "kind": "TARGET_LP",
+      "started_utc": "2026-09-27T03:51:26.516647+00:00",
+      "ended_utc": "2026-09-27T03:52:04.528699+00:00",
+      "seconds": 38.01136900001438,
+      "limit": 60
+    }
+  ],
+  "clock_diagnostics": [
+    {
+      "case": "month_04_identity",
+      "kind": "IDENTITY_LP",
+      "decision_to_start_s": 0.0,
+      "actual_UTC_remaining_s": 1831.354813,
+      "wall_adjusted_phase_estimate_s": 2096.447366600012,
+      "observed_consistent": true
+    },
+    {
+      "case": "month_10_identity",
+      "kind": "IDENTITY_LP",
+      "decision_to_start_s": 0.0,
+      "actual_UTC_remaining_s": 1828.098142,
+      "wall_adjusted_phase_estimate_s": 2093.190911200014,
+      "observed_consistent": true
+    },
+    {
+      "case": "seed_26093400",
+      "kind": "TARGET_MIP",
+      "decision_to_start_s": 0.0,
+      "actual_UTC_remaining_s": 1824.523891,
+      "wall_adjusted_phase_estimate_s": 2089.6168892999995,
+      "observed_consistent": true
+    },
+    {
+      "case": "seed_26093401",
+      "kind": "TARGET_MIP",
+      "decision_to_start_s": 0.0,
+      "actual_UTC_remaining_s": 1518.150223,
+      "wall_adjusted_phase_estimate_s": 1783.242524500005,
+      "observed_consistent": true
+    },
+    {
+      "case": "seed_26094000",
+      "kind": "TARGET_MIP",
+      "decision_to_start_s": 0.0,
+      "actual_UTC_remaining_s": 1211.13734,
+      "wall_adjusted_phase_estimate_s": 1476.2297687999962,
+      "observed_consistent": true
+    },
+    {
+      "case": "seed_26094001",
+      "kind": "TARGET_MIP",
+      "decision_to_start_s": 0.008003,
+      "actual_UTC_remaining_s": 859.096463,
+      "wall_adjusted_phase_estimate_s": 1124.188725400013,
+      "observed_consistent": true
+    },
+    {
+      "case": "seed_26093400",
+      "kind": "TARGET_LP",
+      "decision_to_start_s": 0.0,
+      "actual_UTC_remaining_s": 547.466288,
+      "wall_adjusted_phase_estimate_s": 812.5592869000102,
+      "observed_consistent": true
+    },
+    {
+      "case": "seed_26093401",
+      "kind": "TARGET_LP",
+      "decision_to_start_s": 0.0,
+      "actual_UTC_remaining_s": 538.259517,
+      "wall_adjusted_phase_estimate_s": 803.3524943999946,
+      "observed_consistent": true
+    },
+    {
+      "case": "seed_26094000",
+      "kind": "TARGET_LP",
+      "decision_to_start_s": 0.0,
+      "actual_UTC_remaining_s": 529.538707,
+      "wall_adjusted_phase_estimate_s": 794.631031900004,
+      "observed_consistent": true
+    },
+    {
+      "case": "seed_26094001",
+      "kind": "TARGET_LP",
+      "decision_to_start_s": 0.0,
+      "actual_UTC_remaining_s": 513.483353,
+      "wall_adjusted_phase_estimate_s": 778.5758550000028,
+      "observed_consistent": true
+    }
+  ],
+  "clock_scope": "Actual UTC values checked; wall-adjusted phase estimate is not a saved monotonic final-call measurement.",
+  "actual_MIP_seconds": 1212.990577699995,
+  "actual_LP_seconds": 73.27790429999004,
+  "phase_elapsed_s": 1397.5052623999945,
+  "accepted_binary_uppers": 3,
+  "all_hashes_unchanged": true,
+  "input_and_result_hashes": {
+    "results\\research8h\\seasonal_all_four_energy\\allocation_started.json": "cc3eb24761574fd3eff1bd817087ce0606d033e403441d70c6443b7b889d0714",
+    "results\\research8h\\seasonal_all_four_energy\\completion.json": "1e069599bdcc593d86ff6ab4d21aef2d6d57cdbb40c8994e23c368a901600bcc",
+    "results\\research8h\\seasonal_all_four_energy\\energy_brackets.json": "2aa331b8b04e0b1e7ea62880bdfef3440d2fef14d3880249de678b0ca8dd21e0",
+    "results\\research8h\\seasonal_all_four_energy\\execution_started.json": "a60720a7ac1766f14c3e843019edd91958b25524ad15ba9841ee24d0324d3ceb",
+    "results\\research8h\\seasonal_all_four_energy\\final_manifest_check.json": "05d8c4ab17766618ee39cb03c513513e0c774d63d7a4fa46fe405278182dd57a",
+    "results\\research8h\\seasonal_all_four_energy\\freeze_before_preparation.json": "12686dbacf823f9a2a56bf5ca0be4864f6340f617ca8af2bbefe0988bb795e3e",
+    "results\\research8h\\seasonal_all_four_energy\\identity_energy_bounds.json": "c619aa9459fd90544cba3305a4f9f169bc4f38c6f6b92396dd576ce034b1d677",
+    "results\\research8h\\seasonal_all_four_energy\\input_manifest.csv": "7a5a4cde36105325bcf5fd70e19a06d2997ce39240678ddbb82186f9ead4b078",
+    "results\\research8h\\seasonal_all_four_energy\\launch_decisions.json": "8b89e18786e1c1fb157af835b18c29c48d28ff71ab8254aadd51ac084dc87d33",
+    "results\\research8h\\seasonal_all_four_energy\\lp_results.json": "4f40cf791180cada81cd8f19a55c870b346d4606d72bac318a26deddb41ecd9b",
+    "results\\research8h\\seasonal_all_four_energy\\mip_results.json": "a81706274ac98198f822f51b70e787a7397d1eefe1e5bb1aa963f84cc7916745",
+    "results\\research8h\\seasonal_all_four_energy\\parent_manifest_checks.json": "78856308302805d8ca44b3416a8df33a7de0f94be1fe0f6d83479b6204674e22",
+    "results\\research8h\\seasonal_all_four_energy\\parent_outcomes_context.json": "5d866588438d9d5fddcc8bd43d985eae750e9f2155228f1b058e8b8f15ceed28",
+    "results\\research8h\\seasonal_all_four_energy\\prepared_cases.json": "6b43d98101466ecdfcaaef7f3c1f71a5ad93affde2a1a8949db0558572af2a24",
+    "results\\research8h\\seasonal_all_four_energy\\prepared_freeze.json": "ac5df87008d7494f668fe26d9695170ab2bbace14d1166b1fb5a373e851a6dd4",
+    "results\\research8h\\seasonal_all_four_energy\\producer_artifact_manifest.csv": "e9ceb0cc75e9829f438d9cd04799546c4571704382024d18e4ac04b7afface48",
+    "results\\research8h\\seasonal_all_four_energy\\producer_closure.json": "ba515b5eaaf94fc63b8a9f9b534eb6d8d6792cb4ae989364556eee96fb6bb6b7",
+    "results\\research8h\\seasonal_all_four_energy\\producer_summary.csv": "1b86b3c76edb048f2baffbbb22e4d0ca04eb088a047c3d48c832762d93b6f23d",
+    "results\\research8h\\seasonal_all_four_energy\\producer_timing_audit.json": "cc19a5aae739eebccddb199177eb7c624ebf211720248d37cf3c70c85086286e",
+    "results\\research8h\\seasonal_all_four_energy\\reference_bindings.json": "9d627522233abbc69a472954bb8d302ecfbc032667038fe6f67a83318b03d8fe",
+    "results\\research8h\\seasonal_all_four_energy\\month_04_identity\\bounds.npz": "441962fc5ccf02a9478b9efb4b64bf95b878b8737c288b99521df6862535022a",
+    "results\\research8h\\seasonal_all_four_energy\\month_04_identity\\integrality.npz": "3dce3436c853f1dcf296fce09408a6a3d1049e6c2a89568469af8a1c4ae6d73b",
+    "results\\research8h\\seasonal_all_four_energy\\month_04_identity\\matrix.npz": "43eadfdf239a339757187fa4d52e786d1be7277bb93009d5ded1973523bf1386",
+    "results\\research8h\\seasonal_all_four_energy\\month_04_identity\\model_metadata.json": "c46bddc298bfdc96e516af4cf3e55454304170bd6244fb4b544810a587f98f1d",
+    "results\\research8h\\seasonal_all_four_energy\\month_04_identity\\native_adapter_check.json": "535cb90bc69d2c00fa444787c5b79b42b77dcf7b9e60a6125db8076efa1b8d0f",
+    "results\\research8h\\seasonal_all_four_energy\\month_04_identity\\native_inputs.npz": "5aa72a7cab179005bc9c0088f4fd4ec9a62f18f460d48c50e3c7a274493fb6d6",
+    "results\\research8h\\seasonal_all_four_energy\\month_04_identity\\objective.npz": "4a11881191004d9f39ed53d3cd18a5861829593b48c4e97d67e2af2d01b17632",
+    "results\\research8h\\seasonal_all_four_energy\\month_04_identity\\original_integrality.npz": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d",
+    "results\\research8h\\seasonal_all_four_energy\\month_04_identity\\projection_audit.json": "e9648ffe394153363cc189379abca6edf6e2c18e40dcf9206ad9347283524473",
+    "results\\research8h\\seasonal_all_four_energy\\month_04_identity\\reference_binding.json": "ffba9e3a8aaa1fe18d36d3ba8cace468d9407434319d53cd3ce4a136cafd232d",
+    "results\\research8h\\seasonal_all_four_energy\\month_04_identity\\reference_upper_vector.npz": "b932e6f2b53e4672cd810308981632663a61ba204e9b7aee60aa9812afe1bbc6",
+    "results\\research8h\\seasonal_all_four_energy\\month_04_identity\\retained_parent_rows.npz": "b29c85e80d66b2d2887be9ed593a8a5c7f94dd722b6db95f22df29b91c12de8b",
+    "results\\research8h\\seasonal_all_four_energy\\month_04_identity\\row_metadata.csv.gz": "a6d488264e2817f4d6c6f0921a29a07b0b4da470fdd67abfaeabf7a7147555ab",
+    "results\\research8h\\seasonal_all_four_energy\\month_04_identity\\source_hours.csv": "128b91150a0935428b07e78a529cbe351da735a087f6811d49d40dfd0322633b",
+    "results\\research8h\\seasonal_all_four_energy\\month_04_identity\\zero_dual_baseline.json": "73bc024d6c5bfe3e642d374defdbf0d742197c7ba0e21702f8e86bdbfe1e3eaa",
+    "results\\research8h\\seasonal_all_four_energy\\month_10_identity\\bounds.npz": "c088b6e549a0bc282cec2d957fbd13093fd8cff8edd4bf698812395e9fc42ca6",
+    "results\\research8h\\seasonal_all_four_energy\\month_10_identity\\integrality.npz": "3dce3436c853f1dcf296fce09408a6a3d1049e6c2a89568469af8a1c4ae6d73b",
+    "results\\research8h\\seasonal_all_four_energy\\month_10_identity\\matrix.npz": "43eadfdf239a339757187fa4d52e786d1be7277bb93009d5ded1973523bf1386",
+    "results\\research8h\\seasonal_all_four_energy\\month_10_identity\\model_metadata.json": "02187ba3072b787738155ad7b414770c5bdaa5206fbdbf07e8fa94609a25bcdc",
+    "results\\research8h\\seasonal_all_four_energy\\month_10_identity\\native_adapter_check.json": "24c22acc488e646116caaf494ac486fb9e9c76fbbbbd4f0dbbcd5e574bdbf8d2",
+    "results\\research8h\\seasonal_all_four_energy\\month_10_identity\\native_inputs.npz": "16d4fe879e11d804cf25d28fe25556f43c3d3856795c66e01e2062eb51e015e2",
+    "results\\research8h\\seasonal_all_four_energy\\month_10_identity\\objective.npz": "4a11881191004d9f39ed53d3cd18a5861829593b48c4e97d67e2af2d01b17632",
+    "results\\research8h\\seasonal_all_four_energy\\month_10_identity\\original_integrality.npz": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d",
+    "results\\research8h\\seasonal_all_four_energy\\month_10_identity\\projection_audit.json": "e9648ffe394153363cc189379abca6edf6e2c18e40dcf9206ad9347283524473",
+    "results\\research8h\\seasonal_all_four_energy\\month_10_identity\\reference_binding.json": "d4fc4111d0d7cdd98408afd18ac1c41a89c42bb8d569572cef28ded1e41cabde",
+    "results\\research8h\\seasonal_all_four_energy\\month_10_identity\\reference_upper_vector.npz": "4de2dca8c652b56170749bbc15e8a17322aec8678295a43c3545ebd985eec4e5",
+    "results\\research8h\\seasonal_all_four_energy\\month_10_identity\\retained_parent_rows.npz": "b29c85e80d66b2d2887be9ed593a8a5c7f94dd722b6db95f22df29b91c12de8b",
+    "results\\research8h\\seasonal_all_four_energy\\month_10_identity\\row_metadata.csv.gz": "b7ac3bc47667253a54c8f7c7928563816909c3edb123e4511ad3cd2b40d6c3a2",
+    "results\\research8h\\seasonal_all_four_energy\\month_10_identity\\source_hours.csv": "f69ee75a080bf31a169a204bceabe1d40bb4f53c429963f2f83065ad5173b7b0",
+    "results\\research8h\\seasonal_all_four_energy\\month_10_identity\\zero_dual_baseline.json": "73bc024d6c5bfe3e642d374defdbf0d742197c7ba0e21702f8e86bdbfe1e3eaa",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26093400\\bounds.npz": "9f453db17132ca6ecf087d164011d2baedf34d4d56f9e57e229d59a3b81758b7",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26093400\\integrality.npz": "3dce3436c853f1dcf296fce09408a6a3d1049e6c2a89568469af8a1c4ae6d73b",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26093400\\matrix.npz": "43eadfdf239a339757187fa4d52e786d1be7277bb93009d5ded1973523bf1386",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26093400\\model_binding.json": "6b2315a5a3d072792c4837e2638d1c7db0aa8875466d80611566c73e166c2058",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26093400\\model_metadata.json": "76dba14a5c38adb1b0751da9fee93141a88158f049bf8e906eeb6afdb3db880a",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26093400\\native_inputs.npz": "00c730960379da8d5f44e2ce588acb919dea9679490792c4cb662f02c3c2d299",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26093400\\objective.npz": "4a11881191004d9f39ed53d3cd18a5861829593b48c4e97d67e2af2d01b17632",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26093400\\original_integrality.npz": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26093400\\permutation.csv": "34865708880cc2dd78a3be0831c2faf32525bfcb09edbee7a0a1c98c3819e3a7",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26093400\\projection_audit.json": "e9648ffe394153363cc189379abca6edf6e2c18e40dcf9206ad9347283524473",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26093400\\retained_parent_rows.npz": "f716fa7f6865e9a44befa66565a1e2d264781db9ec7077eabe815854588dbcc5",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26093400\\row_metadata.csv.gz": "64ee7de17b8a9088007d7987f431d695e5f7f5412d58b8502c1a8a86a30cd690",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26093400\\zero_dual_baseline.json": "73bc024d6c5bfe3e642d374defdbf0d742197c7ba0e21702f8e86bdbfe1e3eaa",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26093401\\bounds.npz": "8cc04544f58ac4ea311d426ff2b26acdf6829453970dffede80ba83a2c3087bb",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26093401\\integrality.npz": "3dce3436c853f1dcf296fce09408a6a3d1049e6c2a89568469af8a1c4ae6d73b",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26093401\\matrix.npz": "43eadfdf239a339757187fa4d52e786d1be7277bb93009d5ded1973523bf1386",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26093401\\model_binding.json": "1089b1b693550bbdb6f84ba25cde9cef6c2932702dbadda534df4cdea297322d",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26093401\\model_metadata.json": "6b67ca94aa577b1d963e7ff264c7a3074373de99e439b08255f1e26d82003bc5",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26093401\\native_inputs.npz": "4b235324660abf9eef6b5268ab71f6f48580f130f5b0ebb812a9afa9d610a0ea",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26093401\\objective.npz": "4a11881191004d9f39ed53d3cd18a5861829593b48c4e97d67e2af2d01b17632",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26093401\\original_integrality.npz": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26093401\\permutation.csv": "fafa564cae31a9801c0de21d95a82dd774092b3b16bca13edce0351bfe3cda35",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26093401\\projection_audit.json": "e9648ffe394153363cc189379abca6edf6e2c18e40dcf9206ad9347283524473",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26093401\\retained_parent_rows.npz": "f716fa7f6865e9a44befa66565a1e2d264781db9ec7077eabe815854588dbcc5",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26093401\\row_metadata.csv.gz": "9a9c77510914fa5b45afcca985d4e6cda82c71a7258f701a03cb12521580a59f",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26093401\\zero_dual_baseline.json": "73bc024d6c5bfe3e642d374defdbf0d742197c7ba0e21702f8e86bdbfe1e3eaa",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26094000\\bounds.npz": "860ebd25503e3dbf77d64c94a5a66a826a876141babcf7b0a4d31eafddc296af",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26094000\\integrality.npz": "3dce3436c853f1dcf296fce09408a6a3d1049e6c2a89568469af8a1c4ae6d73b",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26094000\\matrix.npz": "43eadfdf239a339757187fa4d52e786d1be7277bb93009d5ded1973523bf1386",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26094000\\model_binding.json": "9073847d18dece717484b7dda5654eac4193a6e2aae7a43190b26ede5dbc2125",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26094000\\model_metadata.json": "11c6ca382d92261dad8f8f2c13ef22a57f9b74b6a9b52faf2523d66d290cf34b",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26094000\\native_inputs.npz": "2535334a92b3825d158b2d5ee065b7228f55b42cdf289cede649830981fada43",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26094000\\objective.npz": "4a11881191004d9f39ed53d3cd18a5861829593b48c4e97d67e2af2d01b17632",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26094000\\original_integrality.npz": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26094000\\permutation.csv": "88908a5aa178544d0186c0c3d07d6d0271ce4d3d530d05e85148e36d4402eac4",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26094000\\projection_audit.json": "e9648ffe394153363cc189379abca6edf6e2c18e40dcf9206ad9347283524473",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26094000\\retained_parent_rows.npz": "f716fa7f6865e9a44befa66565a1e2d264781db9ec7077eabe815854588dbcc5",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26094000\\row_metadata.csv.gz": "bc77b257da3cf3ff08d38cb349d9aef6dbc044da32d7b3ebd27e2675f3c45576",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26094000\\zero_dual_baseline.json": "73bc024d6c5bfe3e642d374defdbf0d742197c7ba0e21702f8e86bdbfe1e3eaa",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26094001\\bounds.npz": "591605199fc1b1e8503c68449904b6035e6c5a00614614b2a7d5c31439068961",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26094001\\integrality.npz": "3dce3436c853f1dcf296fce09408a6a3d1049e6c2a89568469af8a1c4ae6d73b",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26094001\\matrix.npz": "43eadfdf239a339757187fa4d52e786d1be7277bb93009d5ded1973523bf1386",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26094001\\model_binding.json": "6b921edf96b707ee0e40eb7e9b3d22cc181280a38eabdd9426785ca68b9accd1",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26094001\\model_metadata.json": "a42dfff187d40d9883017941a27a8bce466191aeaf3610b6d9f9cf85913fbfe1",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26094001\\native_inputs.npz": "5aad5cfec29c747199bd628ebaf98e4e0a53784f9c77356a739563ad0f8c4c6f",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26094001\\objective.npz": "4a11881191004d9f39ed53d3cd18a5861829593b48c4e97d67e2af2d01b17632",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26094001\\original_integrality.npz": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26094001\\permutation.csv": "1daad151d5c8eb39c306c06b0f6746b159c5dfc4d352d7e661c4bfc328286ee7",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26094001\\projection_audit.json": "e9648ffe394153363cc189379abca6edf6e2c18e40dcf9206ad9347283524473",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26094001\\retained_parent_rows.npz": "f716fa7f6865e9a44befa66565a1e2d264781db9ec7077eabe815854588dbcc5",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26094001\\row_metadata.csv.gz": "387f72544ab37585f44b5e0551d1ff95d544d775ad1c0e8b76ce95d64078ff56",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26094001\\zero_dual_baseline.json": "73bc024d6c5bfe3e642d374defdbf0d742197c7ba0e21702f8e86bdbfe1e3eaa",
+    "results\\research8h\\seasonal_all_four_energy\\month_04_identity\\lp\\exact_lower_bound.json": "e7510d4f39e947fdd9425b8cc6bb49a055a99a5440659849dcc2497656ca6e9b",
+    "results\\research8h\\seasonal_all_four_energy\\month_04_identity\\lp\\exact_stationarity_residual.json": "f36b0cd5d01a370f20ba7571e30a6d579ebd7e4d96e47189188952ca298d8cac",
+    "results\\research8h\\seasonal_all_four_energy\\month_04_identity\\lp\\primal.npz": "373db29c3b68ff7b1481b7e0d3a41910fa55b85d383082faeb7bbbdb711355aa",
+    "results\\research8h\\seasonal_all_four_energy\\month_04_identity\\lp\\projected_row_dual.npz": "9cf431033a58f4b0ba1adfb2500cce23f0e4c32a6288f3f4b85ef1dbc7026713",
+    "results\\research8h\\seasonal_all_four_energy\\month_04_identity\\lp\\raw_duals.npz": "abb52f838f2bcb92544ceb4865c9f4b295fec278f5b6ae9aadd1d4232ebc15fe",
+    "results\\research8h\\seasonal_all_four_energy\\month_04_identity\\lp\\result.json": "364e6d11ca416408d801edb4b1517e5fe435cd92da00194a3b9a5ed43cfdbddf",
+    "results\\research8h\\seasonal_all_four_energy\\month_04_identity\\lp\\solver.log": "3076dc0017973bc0c716a6696f8346f8ac2e8af3b7879a3708d29ecd055e57ed",
+    "results\\research8h\\seasonal_all_four_energy\\month_10_identity\\lp\\exact_lower_bound.json": "284a3c39692c571472d5682739d82ef07e3dcb065cd3b68dab21c3eebcf61e79",
+    "results\\research8h\\seasonal_all_four_energy\\month_10_identity\\lp\\exact_stationarity_residual.json": "89046813e550e6bd58b4ba29e42ceeb0261209ad1371e1cd6a5636805091df18",
+    "results\\research8h\\seasonal_all_four_energy\\month_10_identity\\lp\\primal.npz": "21b2e3d1097275b446bfeff7293b2ef4e1ffbddc1b24da80c964a1ed5d680f45",
+    "results\\research8h\\seasonal_all_four_energy\\month_10_identity\\lp\\projected_row_dual.npz": "dbac73f1a4cd9a92200fb74df412037aeff0e62299afd355726d723e1d5e4993",
+    "results\\research8h\\seasonal_all_four_energy\\month_10_identity\\lp\\raw_duals.npz": "350b2d45c5225d0b8fde87707129a13dba5c0065d9a400d4e636f4bb9709bb71",
+    "results\\research8h\\seasonal_all_four_energy\\month_10_identity\\lp\\result.json": "fe705d185b9b2e2671ecc541d1fa926b9e0d8955a12fc23ece891f80ae269810",
+    "results\\research8h\\seasonal_all_four_energy\\month_10_identity\\lp\\solver.log": "f058db7962dd4fddbc27c2f553bec2ae30b6179a8e75ea26f2768b3e7f5d4435",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26093400\\lp\\exact_lower_bound.json": "1a41f69b6b6244341ec95cf1c0eb88feb6779d105089f449792590e7fc17cfdf",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26093400\\lp\\exact_stationarity_residual.json": "f8a2d2d596027334795ddb1c67e37ab938cf1fc6eb0ac5274e0f573f70aced61",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26093400\\lp\\primal.npz": "cf987d5b2d4ede5d821a22d74dbab1ee8d995431ec8c8bd31166f7069f062f76",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26093400\\lp\\projected_row_dual.npz": "ecf57b0ca03e71b7d7daa258cf57a20075ac8672d94d2e2f1cb4e0f3bf833a13",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26093400\\lp\\raw_duals.npz": "41ea8ea044f93465846ee1cf507f24750bcaa5a5cd72903ee6469e30a002c152",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26093400\\lp\\result.json": "0cd9007a8bc362b45ee521734435a28a9938c16a16ffb8606c5d6e8577519a68",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26093400\\lp\\solver.log": "9180456e9e53fba0d1acf55fd6309602a0bb235431bf77266aa98249e1bcc59f",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26093400\\mip\\exact_point_check.json": "546a7eb6338d4f34deca43cd5190b415b68bfe76aaad689181eab527e0835f89",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26093400\\mip\\native_no_cap_check.json": "f30181b6f594f79b3b1ea395c67ff7d0e59bae04d93d7fa953d1195553eef8e3",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26093400\\mip\\raw_vector.npz": "5dc62da0200d53722881543a7a22b9ec9e1392661b547223f782f29d61889c85",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26093400\\mip\\recovered_vector.npz": "91a83f18a4663305f024dc51a1c18d26c670477db160da17f40c08b51357535f",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26093400\\mip\\result.json": "cf63f4af03c73aa735c0409899a1775ad837dd1762c71991a05844ad3373a1b4",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26093400\\mip\\solver.log": "bb672eec0fefb8a4e7feb1f10b42df94fce892661ecc565b0240d60f1908a6aa",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26093401\\lp\\exact_lower_bound.json": "cdb5893aebe9c065450ca86ae6caa2aa6bf647f86f4f5f8e3aad5b3f44de186a",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26093401\\lp\\exact_stationarity_residual.json": "a22c680f9f1a71b02e56ed3f4a1a7550d70e67492ad680ef5b0105a04ca9e016",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26093401\\lp\\primal.npz": "bad9bd3909c9f16306e2dc5ec5f6fa88f24acb792b9e0b7c269906d4eff10de1",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26093401\\lp\\projected_row_dual.npz": "40bfffa85d036c1bc27407c95a233f9ea96a081fec95274ac735aa7c03dc014c",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26093401\\lp\\raw_duals.npz": "3f24fe6e1728006d2ad1b8de28a62076cb449eaeb3d06db3f6b07187fa147125",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26093401\\lp\\result.json": "cca6c9f234f0c08a69367c8e5871e29e7db3ffb00e37159421b018522925aee8",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26093401\\lp\\solver.log": "a12694d10aae319012e9f0e17cb9d0cb580fd0d4e30191b5cae88b75221a5a5e",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26093401\\mip\\exact_point_check.json": "69822db7250925617f85fa7f65bfda21d629dde891395e2968c54c29e082ad14",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26093401\\mip\\native_no_cap_check.json": "2bc15cfd98fb492abdd28fa038c3a4f5999b7553f951a9c85ea1a8fd2d83941d",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26093401\\mip\\raw_vector.npz": "dfc256b9250dff7d251911afaa4a182824a90dbf7d4413397cf1a0b2c5e4e585",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26093401\\mip\\recovered_vector.npz": "fd5fe5852904941676eddb1157d5b691f654ccc5786f2b921a5e53a7bf6b6dd4",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26093401\\mip\\result.json": "8d4e29eee99ebd1113f3694b679329dca7686938c91d8c0824dabb856736792d",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26093401\\mip\\solver.log": "ebc865b40fcf2d44df66e3155f041a9bba948a099f105d98d5a270d144afd48c",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26094000\\lp\\exact_lower_bound.json": "33a58fa7d3aba4c3097e637ae1af5129809393da963eae86061272d3acfb3188",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26094000\\lp\\exact_stationarity_residual.json": "2891717b6133b0767002557c0ca883c5d54101e88d2eea46f0dfce4017de834f",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26094000\\lp\\primal.npz": "63424ac0eeb5eb5acf0ef5d73ef32e69a2678eb2351694e04bc4fd823db56c23",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26094000\\lp\\projected_row_dual.npz": "2dc07f5c530bdb1f021f37b91ae4e4be0dcad8f5fe2d541d74c8b859fe1b69a4",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26094000\\lp\\raw_duals.npz": "0842df482ad9a35ed6dac8fb22a7571a0096045f5de6e855edfba3c76fc8493c",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26094000\\lp\\result.json": "c3da5e07b346c3ea4be4707c1a1082243ede6f152ce056443a4f739f223e625e",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26094000\\lp\\solver.log": "75a8f7d3f2b619f8d24a2ceb7e32f81718ac4bc19756b558889fdaccc90ac305",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26094000\\mip\\exact_point_check.json": "7814d36860b54735de312a0bb151bc40b8bc3b36bf599851b09b0e9a0c5d7a7f",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26094000\\mip\\native_no_cap_check.json": "ed7041969a02bfe238b1e8cde8857d38c308d796871e846a901dabcffe2aad19",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26094000\\mip\\raw_vector.npz": "dae255a562bdbb3a850e75a8ecebe58ae72160533470f08ee25f3004a3490ca3",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26094000\\mip\\recovered_vector.npz": "e89b514fbf240bd8a313491b7b7f54e4755a27dbfe2b05555d8d13b9d5f39031",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26094000\\mip\\result.json": "77001dfb328bf206acc3fa8565504793fd1c924e0859ce51960f1b98d2e0bfcc",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26094000\\mip\\solver.log": "ce06297c386e1ea7080af2929d9d0ada5fb3682de2a9c1c43f5ea7fdb075a6a3",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26094001\\lp\\exact_lower_bound.json": "420e59db11412af6341543676a1a8b94de8720a1fde6703745b1e18d084c0810",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26094001\\lp\\exact_stationarity_residual.json": "64d219c12ed500ddc1b1414dcaf32200e5e2027eda779096817aaae69d13eb71",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26094001\\lp\\primal.npz": "0868d433c024c91966b05e79050e177176d8386136ac9ee9d3a5c7e661774d00",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26094001\\lp\\projected_row_dual.npz": "7b2da311f170dde4f4f36697acc39a14baef8587562d3c7da1e546457af7d6c7",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26094001\\lp\\raw_duals.npz": "c8c7d935ef7508849b8784c541970ad0cad50e2c16962f66ee75498aff0c630b",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26094001\\lp\\result.json": "065afafef7692056f257066edb37d5a17a848505501cf01f3693da93a830513b",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26094001\\lp\\solver.log": "7b606cf676ddad59ed467830f550235ece10dd0cfbb4272fedff71436a125007",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26094001\\mip\\result.json": "87201ece3ec7509c760299f8c33c98695c5c292bb2c7536692de2a2ef7b533d1",
+    "results\\research8h\\seasonal_all_four_energy\\seed_26094001\\mip\\solver.log": "9b5a28a04142a57c60f0e185fe6902730735bc22ada1d4df2c5eedfd06f9efc3"
+  },
+  "review_source_sha256": "34494cb749d882ecdd17e34cc7692fa142d153f1bd30b2857eebe3e40b4e01ba",
+  "elapsed_s": 40.96791969999322,
+  "posthoc_cap_point_sidecar_sha256": "65c9c6f2d8392b19a10c7433753954238a9e6f219e0e143299b5f0c66573127e",
+  "native_scope": "Direct rational generator/availability/hydro/canonical-state/residence/on-on-ramp/supplied-angle graph checks use raw GEN/branch/bus CSVs and native hourly packages. Nodal operator coefficients are the unchanged archived rounded Bbus encoding, already provenance-audited; no native model import or reconstructed-angle numerical solve.",
+  "exact_optimality_claim": false
+}

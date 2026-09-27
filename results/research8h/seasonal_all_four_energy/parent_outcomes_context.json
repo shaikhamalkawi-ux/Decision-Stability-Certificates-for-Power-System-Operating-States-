@@ -1,0 +1,66 @@
+{
+  "outcomes": [
+    {
+      "verdict": "UNKNOWN",
+      "route": "MIP",
+      "MIP_calls": 1,
+      "MIP_elapsed_s": 306.8590213000134,
+      "case": "seed_26093400",
+      "month": 4,
+      "seed": 26093400,
+      "budget_MWh": 43131,
+      "LP_calls": 1,
+      "LP_verdict": "NUMERICAL_CONTINUOUS_FEASIBLE_BINARY_UNKNOWN",
+      "LP_elapsed_s": 22.286296500009485,
+      "static_control_exact_expanded_pass": true
+    },
+    {
+      "verdict": "UNKNOWN",
+      "route": "MIP",
+      "MIP_calls": 1,
+      "MIP_elapsed_s": 300.0917306999909,
+      "case": "seed_26093401",
+      "month": 4,
+      "seed": 26093401,
+      "budget_MWh": 43131,
+      "LP_calls": 1,
+      "LP_verdict": "NUMERICAL_CONTINUOUS_FEASIBLE_BINARY_UNKNOWN",
+      "LP_elapsed_s": 29.77691319998121,
+      "static_control_exact_expanded_pass": true
+    },
+    {
+      "verdict": "UNKNOWN",
+      "route": "MIP",
+      "MIP_calls": 1,
+      "MIP_elapsed_s": 301.527557399997,
+      "case": "seed_26094000",
+      "month": 10,
+      "seed": 26094000,
+      "budget_MWh": 125172,
+      "LP_calls": 1,
+      "LP_verdict": "NUMERICAL_CONTINUOUS_FEASIBLE_BINARY_UNKNOWN",
+      "LP_elapsed_s": 27.97123309999006,
+      "static_control_exact_expanded_pass": true
+    },
+    {
+      "verdict": "UNKNOWN",
+      "route": "MIP",
+      "MIP_calls": 1,
+      "MIP_elapsed_s": 300.1689936000039,
+      "case": "seed_26094001",
+      "month": 10,
+      "seed": 26094001,
+      "budget_MWh": 125172,
+      "LP_calls": 1,
+      "LP_verdict": "NUMERICAL_CONTINUOUS_FEASIBLE_BINARY_UNKNOWN",
+      "LP_elapsed_s": 26.100279000005685,
+      "static_control_exact_expanded_pass": true
+    }
+  ],
+  "all_four_selected_without_label_filtering": true,
+  "historical_cap_outcomes_unchanged": true,
+  "original_gate_not_met": true,
+  "old_conditional_uncapped_eligible_cases": 0,
+  "new_question_is_postlabel": true,
+  "permutation_scope": "Phi0 unrestricted interior packages; not PhiH hour-of-day preservation"
+}

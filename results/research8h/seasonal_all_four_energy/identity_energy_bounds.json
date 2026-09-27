@@ -1,0 +1,40 @@
+{
+  "4": {
+    "case": "month_04_identity",
+    "lower_MWh": {
+      "numerator": "123287987169288955136724868791292526754902805671297847",
+      "denominator": "2923003274661805836407369665432566039311865085952",
+      "approximate": 42178.53200439999,
+      "outward_floor_6dp": "42178.532004",
+      "outward_ceiling_6dp": "42178.532005"
+    },
+    "upper_MWh": {
+      "numerator": "6154272335876697791701",
+      "denominator": "144115188075855872",
+      "approximate": 42703.842794399716,
+      "outward_floor_6dp": "42703.842794",
+      "outward_ceiling_6dp": "42703.842795"
+    },
+    "LP_lower_bound_status": "EXACT_EXPANDED_OBJECTIVE_LOWER_BOUND",
+    "upper_witness_unchanged": true
+  },
+  "10": {
+    "case": "month_10_identity",
+    "lower_MWh": {
+      "numerator": "46368206307664475930277147868386804893427000472105761371",
+      "denominator": "374144419156711147060143317175368453031918731001856",
+      "approximate": 123931.30548939997,
+      "outward_floor_6dp": "123931.305489",
+      "outward_ceiling_6dp": "123931.305490"
+    },
+    "upper_MWh": {
+      "numerator": "558140738732395069817",
+      "denominator": "4503599627370496",
+      "approximate": 123932.13982439978,
+      "outward_floor_6dp": "123932.139824",
+      "outward_ceiling_6dp": "123932.139825"
+    },
+    "LP_lower_bound_status": "EXACT_EXPANDED_OBJECTIVE_LOWER_BOUND",
+    "upper_witness_unchanged": true
+  }
+}

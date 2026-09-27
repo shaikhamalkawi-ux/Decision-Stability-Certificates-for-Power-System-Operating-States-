@@ -1,0 +1,21 @@
+{
+  "case": "seed_26093401",
+  "month": 4,
+  "role": "target",
+  "parent": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\seasonal_cap_continuation\\seed_26093401",
+  "deleted_row_0based": 24264,
+  "deleted_family": "fossil_energy_cap",
+  "removed_cap_MWh": 43131,
+  "no_other_matrix_or_bound_change": true,
+  "no_mean_rows": true,
+  "complete_107_coordinate_packages_and_native_rows_preserved": true,
+  "native_and_permutation_file_bytes_unchanged": true,
+  "permutation_scope": "Phi0",
+  "objective_equals_native_roster_and_deleted_cap": true,
+  "source_matrix_sha256": "2f11940f72432a2a2e89e4a88115eba3cf24a8e82a8110e250c6191020c1f0bb",
+  "source_bounds_sha256": "679340e427927414358a20728d2223504c43c4180464ca8826238ac926694fac",
+  "source_integrality_sha256": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d",
+  "projected_binary_columns": 4032,
+  "original_binary_columns": 12096,
+  "selected_without_capped_label_filter": true
+}

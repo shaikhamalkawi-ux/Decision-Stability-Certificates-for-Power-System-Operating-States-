@@ -1,0 +1,21 @@
+{
+  "status": "SEASONAL_ALL_FOUR_ENERGY_PRODUCER_CLOSED",
+  "recorded_utc": "2026-09-27T03:54:33.362751+00:00",
+  "session_id": 76176,
+  "invocation_count": 1,
+  "exit_code": 0,
+  "ordinary_denominator": 4,
+  "accepted_target_uppers": 3,
+  "no_upper_cases": [
+    "seed_26094001"
+  ],
+  "producer_files_bound": 162,
+  "producer_artifact_manifest_sha256": "e9ceb0cc75e9829f438d9cd04799546c4571704382024d18e4ac04b7afface48",
+  "input_manifest_sha256": "7a5a4cde36105325bcf5fd70e19a06d2997ce39240678ddbb82186f9ead4b078",
+  "all_397_frozen_bindings_rehashed_unchanged": true,
+  "energy_brackets_sha256": "2aa331b8b04e0b1e7ea62880bdfef3440d2fef14d3880249de678b0ca8dd21e0",
+  "identity_bounds_sha256": "c619aa9459fd90544cba3305a4f9f169bc4f38c6f6b92396dd576ce034b1d677",
+  "completion_sha256": "1e069599bdcc593d86ff6ab4d21aef2d6d57cdbb40c8994e23c368a901600bcc",
+  "historical_records_unchanged": true,
+  "independent_postrun_replay_required": true
+}

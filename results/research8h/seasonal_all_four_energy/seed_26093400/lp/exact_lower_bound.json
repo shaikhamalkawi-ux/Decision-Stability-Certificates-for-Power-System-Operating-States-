@@ -1,0 +1,58 @@
+{
+  "arithmetic": "exact Fraction arithmetic on archived binary64 inputs",
+  "nominal_lower_bound_MWh": {
+    "numerator": "3498858168943932113083678619423502273",
+    "denominator": "81129638414606681695789005144064",
+    "approximate": 43126.75659989128,
+    "outward_floor_6dp": 43126.756599,
+    "outward_ceiling_6dp": 43126.7566
+  },
+  "expanded_lower_bound_MWh": {
+    "numerator": "3668759313283052172437217990756276413372877",
+    "denominator": "85070591730234615865843651857942052864",
+    "approximate": 43126.05847290883,
+    "outward_floor_6dp": 43126.058472,
+    "outward_ceiling_6dp": 43126.058473
+  },
+  "row_term": {
+    "numerator": "12810504446475467545482148513093409",
+    "denominator": "79228162514264337593543950336",
+    "approximate": 161691.29814375096,
+    "outward_floor_6dp": 161691.298143,
+    "outward_ceiling_6dp": 161691.298144
+  },
+  "finite_box_term": {
+    "numerator": "-9619098384246946653490041457984148543",
+    "denominator": "81129638414606681695789005144064",
+    "approximate": -118564.54154385967,
+    "outward_floor_6dp": -118564.541544,
+    "outward_ceiling_6dp": -118564.541543
+  },
+  "row_dual_l1": {
+    "numerator": "5171788450562965322253",
+    "denominator": "288230376151711744",
+    "approximate": 17943.245675954586,
+    "outward_floor_6dp": 17943.245675,
+    "outward_ceiling_6dp": 17943.245676
+  },
+  "stationarity_residual_l1": {
+    "numerator": "14950351824936310048953",
+    "denominator": "288230376151711744",
+    "approximate": 51869.452569659436,
+    "outward_floor_6dp": 51869.452569,
+    "outward_ceiling_6dp": 51869.45257
+  },
+  "tau": {
+    "numerator": "5902958103587057",
+    "denominator": "590295810358705651712",
+    "approximate": 1e-05,
+    "outward_floor_6dp": 1e-05,
+    "outward_ceiling_6dp": 1.1e-05
+  },
+  "projected_entries": 6,
+  "raw_dual_is_projected_dual": false,
+  "projected_row_dual_nonzeros": 1019,
+  "exact_residual_nonzeros": 4358,
+  "solver_optimality_or_exact_stationarity_required": false,
+  "expanded_model": "Every finite row and column bound widened by the exact binary64 value1e-5; no clipping."
+}

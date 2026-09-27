@@ -1,0 +1,34 @@
+{
+  "utc": "2026-09-27T03:26:35.491279+00:00",
+  "target_cases": [
+    "seed_26093400",
+    "seed_26093401",
+    "seed_26094000",
+    "seed_26094001"
+  ],
+  "identity_cases": [
+    "month_04_identity",
+    "month_10_identity"
+  ],
+  "source_sha256": "9b7f7118e232e7c252fadce7dc8c9b45e0f9cbeb1b0d861cc21fcdd0e184541d",
+  "protocol_sha256": "c8b12b01f3cc0a709d80d7c535e51a20bd8ae211b06841e0586ea549416ad6cf",
+  "source_v3": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-v8r1-evidence\\3\\.work\\v8r1_rts_inputs",
+  "manifest_sha256": "7a5a4cde36105325bcf5fd70e19a06d2997ce39240678ddbb82186f9ead4b078",
+  "bound_files": 397,
+  "max_identity_LP_calls": 2,
+  "max_target_MIP_calls": 4,
+  "max_target_LP_calls": 4,
+  "MIP_seconds": 300,
+  "LP_seconds": 60,
+  "MIP_guard_seconds": 305,
+  "LP_guard_seconds": 65,
+  "phase_seconds": 2100,
+  "cutoff_utc": "2026-09-27T04:00:00+00:00",
+  "phase_starts_before_entry_validation": true,
+  "order": "identity LPs; all target MIPs; all target LPs",
+  "new_identity_MIP_calls": 0,
+  "optimization_calls": 0,
+  "historical_all_four_cap_UNKNOWN_unchanged": true,
+  "old_conditional_eligible_cases": 0,
+  "requires_independent_prepared_PASS_and_explicit_root_GO": true
+}

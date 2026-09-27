@@ -1,0 +1,338 @@
+{
+  "month_04_identity": {
+    "case": "month_04_identity",
+    "started_utc": "2026-09-27T03:29:28.645187+00:00",
+    "ended_utc": "2026-09-27T03:29:31.332133+00:00",
+    "elapsed_s": 2.684776999987662,
+    "optimization_calls": 1,
+    "model_status": "Optimal",
+    "run_status": "HighsStatus.kOk",
+    "options": {
+      "time_limit": 60.0,
+      "threads": 1,
+      "random_seed": 0,
+      "solver": "simplex",
+      "presolve": "off",
+      "log_to_console": false,
+      "log_file": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\seasonal_all_four_energy\\month_04_identity\\lp\\solver.log"
+    },
+    "solver_version": "1.12.0",
+    "primal_valid": true,
+    "dual_valid": true,
+    "numerical_objective_MWh": 42178.56476439997,
+    "simplex_iterations": 10972,
+    "exact_optimality_claim": false,
+    "new_lower_bound_status": "EXACT_EXPANDED_OBJECTIVE_LOWER_BOUND",
+    "model_artifacts": {
+      "matrix.npz": "43eadfdf239a339757187fa4d52e786d1be7277bb93009d5ded1973523bf1386",
+      "bounds.npz": "441962fc5ccf02a9478b9efb4b64bf95b878b8737c288b99521df6862535022a",
+      "objective.npz": "4a11881191004d9f39ed53d3cd18a5861829593b48c4e97d67e2af2d01b17632"
+    },
+    "prepared_manifest_sha256": "7a5a4cde36105325bcf5fd70e19a06d2997ce39240678ddbb82186f9ead4b078",
+    "numerical_primal_check": {
+      "pass": true,
+      "tolerance": 1e-05,
+      "residuals": {
+        "column_lower": 1.1368683772161603e-13,
+        "column_upper": 7.105427357601002e-15,
+        "row_lower": 1.0999201549566351e-11,
+        "row_upper": 1.2960299500264227e-11
+      }
+    },
+    "continuous_primal_not_binary_upper": true,
+    "expanded_lower_MWh": {
+      "numerator": "123287987169288955136724868791292526754902805671297847",
+      "denominator": "2923003274661805836407369665432566039311865085952",
+      "approximate": 42178.53200439999,
+      "outward_floor_6dp": 42178.532004,
+      "outward_ceiling_6dp": 42178.532005
+    },
+    "nominal_lower_MWh": {
+      "numerator": "13687726832731365373761911009384552447",
+      "denominator": "324518553658426726783156020576256",
+      "approximate": 42178.56476439999,
+      "outward_floor_6dp": 42178.564764,
+      "outward_ceiling_6dp": 42178.564765
+    }
+  },
+  "month_10_identity": {
+    "case": "month_10_identity",
+    "started_utc": "2026-09-27T03:29:31.901858+00:00",
+    "ended_utc": "2026-09-27T03:29:34.755338+00:00",
+    "elapsed_s": 2.8526143000053708,
+    "optimization_calls": 1,
+    "model_status": "Optimal",
+    "run_status": "HighsStatus.kOk",
+    "options": {
+      "time_limit": 60.0,
+      "threads": 1,
+      "random_seed": 0,
+      "solver": "simplex",
+      "presolve": "off",
+      "log_to_console": false,
+      "log_file": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\seasonal_all_four_energy\\month_10_identity\\lp\\solver.log"
+    },
+    "solver_version": "1.12.0",
+    "primal_valid": true,
+    "dual_valid": true,
+    "numerical_objective_MWh": 123931.33744940013,
+    "simplex_iterations": 11307,
+    "exact_optimality_claim": false,
+    "new_lower_bound_status": "EXACT_EXPANDED_OBJECTIVE_LOWER_BOUND",
+    "model_artifacts": {
+      "matrix.npz": "43eadfdf239a339757187fa4d52e786d1be7277bb93009d5ded1973523bf1386",
+      "bounds.npz": "c088b6e549a0bc282cec2d957fbd13093fd8cff8edd4bf698812395e9fc42ca6",
+      "objective.npz": "4a11881191004d9f39ed53d3cd18a5861829593b48c4e97d67e2af2d01b17632"
+    },
+    "prepared_manifest_sha256": "7a5a4cde36105325bcf5fd70e19a06d2997ce39240678ddbb82186f9ead4b078",
+    "numerical_primal_check": {
+      "pass": true,
+      "tolerance": 1e-05,
+      "residuals": {
+        "column_lower": 2.5923707624997405e-14,
+        "column_upper": 1.0231815394945443e-12,
+        "row_lower": 6.174616373755271e-12,
+        "row_upper": 5.7553961596568115e-12
+      }
+    },
+    "continuous_primal_not_binary_upper": true,
+    "expanded_lower_MWh": {
+      "numerator": "46368206307664475930277147868386804893427000472105761371",
+      "denominator": "374144419156711147060143317175368453031918731001856",
+      "approximate": 123931.30548939997,
+      "outward_floor_6dp": 123931.305489,
+      "outward_ceiling_6dp": 123931.30549
+    },
+    "nominal_lower_MWh": {
+      "numerator": "10054504595508422692960072337621069185",
+      "denominator": "81129638414606681695789005144064",
+      "approximate": 123931.33744939996,
+      "outward_floor_6dp": 123931.337449,
+      "outward_ceiling_6dp": 123931.33745
+    }
+  },
+  "seed_26093400": {
+    "case": "seed_26093400",
+    "started_utc": "2026-09-27T03:50:52.533712+00:00",
+    "ended_utc": "2026-09-27T03:50:59.525574+00:00",
+    "elapsed_s": 6.99066650000168,
+    "optimization_calls": 1,
+    "model_status": "Optimal",
+    "run_status": "HighsStatus.kOk",
+    "options": {
+      "time_limit": 60.0,
+      "threads": 1,
+      "random_seed": 0,
+      "solver": "simplex",
+      "presolve": "off",
+      "log_to_console": false,
+      "log_file": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\seasonal_all_four_energy\\seed_26093400\\lp\\solver.log"
+    },
+    "solver_version": "1.12.0",
+    "primal_valid": true,
+    "dual_valid": true,
+    "numerical_objective_MWh": 43126.756599891225,
+    "simplex_iterations": 13674,
+    "exact_optimality_claim": false,
+    "new_lower_bound_status": "EXACT_EXPANDED_OBJECTIVE_LOWER_BOUND",
+    "model_artifacts": {
+      "matrix.npz": "43eadfdf239a339757187fa4d52e786d1be7277bb93009d5ded1973523bf1386",
+      "bounds.npz": "9f453db17132ca6ecf087d164011d2baedf34d4d56f9e57e229d59a3b81758b7",
+      "objective.npz": "4a11881191004d9f39ed53d3cd18a5861829593b48c4e97d67e2af2d01b17632"
+    },
+    "prepared_manifest_sha256": "7a5a4cde36105325bcf5fd70e19a06d2997ce39240678ddbb82186f9ead4b078",
+    "numerical_primal_check": {
+      "pass": true,
+      "tolerance": 1e-05,
+      "residuals": {
+        "column_lower": 1.1368683772161603e-13,
+        "column_upper": 0.0,
+        "row_lower": 1.1390000054234406e-11,
+        "row_upper": 1.7479351299698465e-11
+      }
+    },
+    "continuous_primal_not_binary_upper": true,
+    "expanded_lower_MWh": {
+      "numerator": "3668759313283052172437217990756276413372877",
+      "denominator": "85070591730234615865843651857942052864",
+      "approximate": 43126.05847290883,
+      "outward_floor_6dp": 43126.058472,
+      "outward_ceiling_6dp": 43126.058473
+    },
+    "nominal_lower_MWh": {
+      "numerator": "3498858168943932113083678619423502273",
+      "denominator": "81129638414606681695789005144064",
+      "approximate": 43126.75659989128,
+      "outward_floor_6dp": 43126.756599,
+      "outward_ceiling_6dp": 43126.7566
+    }
+  },
+  "seed_26093401": {
+    "case": "seed_26093401",
+    "started_utc": "2026-09-27T03:51:01.740483+00:00",
+    "ended_utc": "2026-09-27T03:51:09.474324+00:00",
+    "elapsed_s": 7.732645999989472,
+    "optimization_calls": 1,
+    "model_status": "Optimal",
+    "run_status": "HighsStatus.kOk",
+    "options": {
+      "time_limit": 60.0,
+      "threads": 1,
+      "random_seed": 0,
+      "solver": "simplex",
+      "presolve": "off",
+      "log_to_console": false,
+      "log_file": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\seasonal_all_four_energy\\seed_26093401\\lp\\solver.log"
+    },
+    "solver_version": "1.12.0",
+    "primal_valid": true,
+    "dual_valid": true,
+    "numerical_objective_MWh": 42978.41888293958,
+    "simplex_iterations": 13964,
+    "exact_optimality_claim": false,
+    "new_lower_bound_status": "EXACT_EXPANDED_OBJECTIVE_LOWER_BOUND",
+    "model_artifacts": {
+      "matrix.npz": "43eadfdf239a339757187fa4d52e786d1be7277bb93009d5ded1973523bf1386",
+      "bounds.npz": "8cc04544f58ac4ea311d426ff2b26acdf6829453970dffede80ba83a2c3087bb",
+      "objective.npz": "4a11881191004d9f39ed53d3cd18a5861829593b48c4e97d67e2af2d01b17632"
+    },
+    "prepared_manifest_sha256": "7a5a4cde36105325bcf5fd70e19a06d2997ce39240678ddbb82186f9ead4b078",
+    "numerical_primal_check": {
+      "pass": true,
+      "tolerance": 1e-05,
+      "residuals": {
+        "column_lower": 7.47692278461424e-12,
+        "column_upper": 2.8563817977556027e-12,
+        "row_lower": 1.9483081814541947e-11,
+        "row_upper": 1.801936377887614e-11
+      }
+    },
+    "continuous_primal_not_binary_upper": true,
+    "expanded_lower_MWh": {
+      "numerator": "1828061683785813916604815199349664862814463",
+      "denominator": "42535295865117307932921825928971026432",
+      "approximate": 42977.523644898065,
+      "outward_floor_6dp": 42977.523644,
+      "outward_ceiling_6dp": 42977.523645
+    },
+    "nominal_lower_MWh": {
+      "numerator": "3486823583604376525655867434385287133",
+      "denominator": "81129638414606681695789005144064",
+      "approximate": 42978.41888293939,
+      "outward_floor_6dp": 42978.418882,
+      "outward_ceiling_6dp": 42978.418883
+    }
+  },
+  "seed_26094000": {
+    "case": "seed_26094000",
+    "started_utc": "2026-09-27T03:51:10.461293+00:00",
+    "ended_utc": "2026-09-27T03:51:25.467711+00:00",
+    "elapsed_s": 15.005831499991473,
+    "optimization_calls": 1,
+    "model_status": "Optimal",
+    "run_status": "HighsStatus.kOk",
+    "options": {
+      "time_limit": 60.0,
+      "threads": 1,
+      "random_seed": 0,
+      "solver": "simplex",
+      "presolve": "off",
+      "log_to_console": false,
+      "log_file": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\seasonal_all_four_energy\\seed_26094000\\lp\\solver.log"
+    },
+    "solver_version": "1.12.0",
+    "primal_valid": true,
+    "dual_valid": true,
+    "numerical_objective_MWh": 124621.99872694367,
+    "simplex_iterations": 14546,
+    "exact_optimality_claim": false,
+    "new_lower_bound_status": "EXACT_EXPANDED_OBJECTIVE_LOWER_BOUND",
+    "model_artifacts": {
+      "matrix.npz": "43eadfdf239a339757187fa4d52e786d1be7277bb93009d5ded1973523bf1386",
+      "bounds.npz": "860ebd25503e3dbf77d64c94a5a66a826a876141babcf7b0a4d31eafddc296af",
+      "objective.npz": "4a11881191004d9f39ed53d3cd18a5861829593b48c4e97d67e2af2d01b17632"
+    },
+    "prepared_manifest_sha256": "7a5a4cde36105325bcf5fd70e19a06d2997ce39240678ddbb82186f9ead4b078",
+    "numerical_primal_check": {
+      "pass": true,
+      "tolerance": 1e-05,
+      "residuals": {
+        "column_lower": 5.718759515199092e-13,
+        "column_upper": 3.268496584496461e-13,
+        "row_lower": 2.4769519768597092e-11,
+        "row_upper": 2.4016344468691386e-11
+      }
+    },
+    "continuous_primal_not_binary_upper": true,
+    "expanded_lower_MWh": {
+      "numerator": "102532708251695088435852112178123929143069353150990021760012781893129",
+      "denominator": "822752278660603021077484591278675252491367932816789931674304512",
+      "approximate": 124621.60350210502,
+      "outward_floor_6dp": 124621.603502,
+      "outward_ceiling_6dp": 124621.603503
+    },
+    "nominal_lower_MWh": {
+      "numerator": "48891560279765748739360113651945917359751029334736809073031275",
+      "denominator": "392318858461667547739736838950479151006397215279002157056",
+      "approximate": 124621.99872694322,
+      "outward_floor_6dp": 124621.998726,
+      "outward_ceiling_6dp": 124621.998727
+    }
+  },
+  "seed_26094001": {
+    "case": "seed_26094001",
+    "started_utc": "2026-09-27T03:51:26.516647+00:00",
+    "ended_utc": "2026-09-27T03:52:04.528699+00:00",
+    "elapsed_s": 38.01136900001438,
+    "optimization_calls": 1,
+    "model_status": "Optimal",
+    "run_status": "HighsStatus.kOk",
+    "options": {
+      "time_limit": 60.0,
+      "threads": 1,
+      "random_seed": 0,
+      "solver": "simplex",
+      "presolve": "off",
+      "log_to_console": false,
+      "log_file": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\seasonal_all_four_energy\\seed_26094001\\lp\\solver.log"
+    },
+    "solver_version": "1.12.0",
+    "primal_valid": true,
+    "dual_valid": true,
+    "numerical_objective_MWh": 124698.59406882421,
+    "simplex_iterations": 17992,
+    "exact_optimality_claim": false,
+    "new_lower_bound_status": "EXACT_EXPANDED_OBJECTIVE_LOWER_BOUND",
+    "model_artifacts": {
+      "matrix.npz": "43eadfdf239a339757187fa4d52e786d1be7277bb93009d5ded1973523bf1386",
+      "bounds.npz": "591605199fc1b1e8503c68449904b6035e6c5a00614614b2a7d5c31439068961",
+      "objective.npz": "4a11881191004d9f39ed53d3cd18a5861829593b48c4e97d67e2af2d01b17632"
+    },
+    "prepared_manifest_sha256": "7a5a4cde36105325bcf5fd70e19a06d2997ce39240678ddbb82186f9ead4b078",
+    "numerical_primal_check": {
+      "pass": true,
+      "tolerance": 1e-05,
+      "residuals": {
+        "column_lower": 2.2446045022661565e-11,
+        "column_upper": 1.4217960142559605e-11,
+        "row_lower": 2.800959464366315e-11,
+        "row_upper": 3.084466015934595e-11
+      }
+    },
+    "continuous_primal_not_binary_upper": true,
+    "expanded_lower_MWh": {
+      "numerator": "46655119178452263769384846765225858538235135630322869209",
+      "denominator": "374144419156711147060143317175368453031918731001856",
+      "approximate": 124698.1560853128,
+      "outward_floor_6dp": 124698.156085,
+      "outward_ceiling_6dp": 124698.156086
+    },
+    "nominal_lower_MWh": {
+      "numerator": "86902236654493962051219442350382678936007024849",
+      "denominator": "696898287454081973172991196020261297061888",
+      "approximate": 124698.59406882223,
+      "outward_floor_6dp": 124698.594068,
+      "outward_ceiling_6dp": 124698.594069
+    }
+  }
+}

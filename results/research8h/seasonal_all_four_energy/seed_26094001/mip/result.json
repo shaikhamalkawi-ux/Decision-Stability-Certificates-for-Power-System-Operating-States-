@@ -1,0 +1,35 @@
+{
+  "case": "seed_26094001",
+  "verdict": "UNKNOWN",
+  "started_utc": "2026-09-27T03:45:40.903537+00:00",
+  "ended_utc": "2026-09-27T03:50:52.029628+00:00",
+  "elapsed_s": 311.1127021999855,
+  "optimization_calls": 1,
+  "model_status": "Time limit reached",
+  "run_status": "HighsStatus.kWarning",
+  "options": {
+    "time_limit": 300.0,
+    "threads": 1,
+    "random_seed": 0,
+    "presolve": "on",
+    "mip_rel_gap": 1e-08,
+    "log_to_console": false,
+    "log_file": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\seasonal_all_four_energy\\seed_26094001\\mip\\solver.log"
+  },
+  "solver_version": "1.12.0",
+  "solution_value_valid": false,
+  "numerical_objective_MWh": null,
+  "numerical_lower_bound_MWh": 124698.5940688242,
+  "numerical_relative_gap": null,
+  "mip_node_count": 0,
+  "exact_optimality_claim": false,
+  "model_artifacts": {
+    "matrix.npz": "43eadfdf239a339757187fa4d52e786d1be7277bb93009d5ded1973523bf1386",
+    "bounds.npz": "591605199fc1b1e8503c68449904b6035e6c5a00614614b2a7d5c31439068961",
+    "objective.npz": "4a11881191004d9f39ed53d3cd18a5861829593b48c4e97d67e2af2d01b17632",
+    "integrality.npz": "3dce3436c853f1dcf296fce09408a6a3d1049e6c2a89568469af8a1c4ae6d73b",
+    "original_integrality.npz": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d",
+    "native_inputs.npz": "5aad5cfec29c747199bd628ebaf98e4e0a53784f9c77356a739563ad0f8c4c6f"
+  },
+  "prepared_manifest_sha256": "7a5a4cde36105325bcf5fd70e19a06d2997ce39240678ddbb82186f9ead4b078"
+}

@@ -1,0 +1,58 @@
+{
+  "arithmetic": "exact Fraction arithmetic on archived binary64 inputs",
+  "nominal_lower_bound_MWh": {
+    "numerator": "48891560279765748739360113651945917359751029334736809073031275",
+    "denominator": "392318858461667547739736838950479151006397215279002157056",
+    "approximate": 124621.99872694322,
+    "outward_floor_6dp": 124621.998726,
+    "outward_ceiling_6dp": 124621.998727
+  },
+  "expanded_lower_bound_MWh": {
+    "numerator": "102532708251695088435852112178123929143069353150990021760012781893129",
+    "denominator": "822752278660603021077484591278675252491367932816789931674304512",
+    "approximate": 124621.60350210502,
+    "outward_floor_6dp": 124621.603502,
+    "outward_ceiling_6dp": 124621.603503
+  },
+  "row_term": {
+    "numerator": "21275643021463315624443624603143401348462465480801",
+    "denominator": "89202980794122492566142873090593446023921664",
+    "approximate": 238508.20714799644,
+    "outward_floor_6dp": 238508.207147,
+    "outward_ceiling_6dp": 238508.207148
+  },
+  "finite_box_term": {
+    "numerator": "-44679707282275151531448140675044815532253925927798062872283029",
+    "denominator": "392318858461667547739736838950479151006397215279002157056",
+    "approximate": -113886.20842105322,
+    "outward_floor_6dp": -113886.208422,
+    "outward_ceiling_6dp": -113886.208421
+  },
+  "row_dual_l1": {
+    "numerator": "6122817020020074708564404347570993",
+    "denominator": "633825300114114700748351602688",
+    "approximate": 9660.101953831308,
+    "outward_floor_6dp": 9660.101953,
+    "outward_ceiling_6dp": 9660.101954
+  },
+  "stationarity_residual_l1": {
+    "numerator": "41622085563453190150533706211148254251404075367",
+    "denominator": "1393796574908163946345982392040522594123776",
+    "approximate": 29862.381866016305,
+    "outward_floor_6dp": 29862.381866,
+    "outward_ceiling_6dp": 29862.381867
+  },
+  "tau": {
+    "numerator": "5902958103587057",
+    "denominator": "590295810358705651712",
+    "approximate": 1e-05,
+    "outward_floor_6dp": 1e-05,
+    "outward_ceiling_6dp": 1.1e-05
+  },
+  "projected_entries": 220,
+  "raw_dual_is_projected_dual": false,
+  "projected_row_dual_nonzeros": 1389,
+  "exact_residual_nonzeros": 6050,
+  "solver_optimality_or_exact_stationarity_required": false,
+  "expanded_model": "Every finite row and column bound widened by the exact binary64 value1e-5; no clipping."
+}
