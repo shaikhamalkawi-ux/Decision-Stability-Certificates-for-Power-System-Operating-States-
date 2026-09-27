@@ -1,0 +1,565 @@
+{
+  "checked_utc": "2026-09-27T03:38:04.880Z",
+  "scope": "Nine article/chapter DOI metadata records in the v3 draft, plus two version-specific arXiv primary records; bibliographic check only, not full-text access or novelty certification.",
+  "doi_records": [
+    {
+      "reference": 1,
+      "registry_url": "https://api.crossref.org/works/10.3389/fenrg.2017.00035",
+      "expected_citation": "B. Bahl, T. Söhler, M. Hennen and A. Bardow. Typical Periods for Two-Stage Synthesis by Time-Series Aggregation with Bounded Error in Objective Function. Frontiers in Energy Research 5, article 35, 2018.",
+      "title_and_DOI_match": true,
+      "metadata": {
+        "DOI": "10.3389/fenrg.2017.00035",
+        "title": [
+          "Typical Periods for Two-Stage Synthesis by Time-Series Aggregation with Bounded Error in Objective Function"
+        ],
+        "author": [
+          {
+            "given": "Björn",
+            "family": "Bahl"
+          },
+          {
+            "given": "Theo",
+            "family": "Söhler"
+          },
+          {
+            "given": "Maike",
+            "family": "Hennen"
+          },
+          {
+            "given": "André",
+            "family": "Bardow"
+          }
+        ],
+        "container-title": [
+          "Frontiers in Energy Research"
+        ],
+        "volume": "5",
+        "published": {
+          "date-parts": [
+            [
+              2018,
+              1,
+              8
+            ]
+          ]
+        }
+      },
+      "transcribed_selected_fields_from_successful_first_request": true
+    },
+    {
+      "reference": 2,
+      "registry_url": "https://api.crossref.org/works/10.1016/j.compchemeng.2019.02.006",
+      "expected_citation": "N. Baumgärtner, B. Bahl, M. Hennen and A. Bardow. RiSES3: Rigorous Synthesis of Energy Supply and Storage Systems via time-series relaxation and aggregation. Computers and Chemical Engineering 127, 127–139, 2019.",
+      "title_and_DOI_match": true,
+      "metadata": {
+        "DOI": "10.1016/j.compchemeng.2019.02.006",
+        "title": [
+          "RiSES3: Rigorous Synthesis of Energy Supply and Storage Systems via time-series relaxation and aggregation"
+        ],
+        "author": [
+          {
+            "given": "Nils",
+            "family": "Baumgärtner"
+          },
+          {
+            "given": "Björn",
+            "family": "Bahl"
+          },
+          {
+            "given": "Maike",
+            "family": "Hennen"
+          },
+          {
+            "given": "André",
+            "family": "Bardow"
+          }
+        ],
+        "container-title": [
+          "Computers &amp; Chemical Engineering"
+        ],
+        "volume": "127",
+        "issue": null,
+        "page": "127-139",
+        "article-number": null,
+        "published": {
+          "date-parts": [
+            [
+              2019,
+              8
+            ]
+          ]
+        },
+        "published-online": null,
+        "published-print": {
+          "date-parts": [
+            [
+              2019,
+              8
+            ]
+          ]
+        },
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S009813541831127X"
+          }
+        }
+      }
+    },
+    {
+      "reference": 5,
+      "registry_url": "https://api.crossref.org/works/10.1016/j.apenergy.2021.117168",
+      "expected_citation": "S. Gonzato, K. Bruninx and E. Delarue. Long term storage in generation expansion planning models with a reduced temporal scope. Applied Energy 298, 117168, 2021.",
+      "title_and_DOI_match": true,
+      "metadata": {
+        "DOI": "10.1016/j.apenergy.2021.117168",
+        "title": [
+          "Long term storage in generation expansion planning models with a reduced temporal scope"
+        ],
+        "author": [
+          {
+            "given": "Sebastian",
+            "family": "Gonzato"
+          },
+          {
+            "given": "Kenneth",
+            "family": "Bruninx"
+          },
+          {
+            "given": "Erik",
+            "family": "Delarue"
+          }
+        ],
+        "container-title": [
+          "Applied Energy"
+        ],
+        "volume": "298",
+        "issue": null,
+        "page": "117168",
+        "article-number": "117168",
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              9
+            ]
+          ]
+        },
+        "published-online": null,
+        "published-print": {
+          "date-parts": [
+            [
+              2021,
+              9
+            ]
+          ]
+        },
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0306261921006000"
+          }
+        }
+      }
+    },
+    {
+      "reference": 6,
+      "registry_url": "https://api.crossref.org/works/10.1016/j.isci.2026.114929",
+      "expected_citation": "S. Kebrich, F. Engelhardt, D. Franzmann, C. Büsing, J. Linßen and H. Heinrichs. Robust capacity expansion modeling for renewable energy systems. iScience 29(3), 114929, 2026.",
+      "title_and_DOI_match": true,
+      "metadata": {
+        "DOI": "10.1016/j.isci.2026.114929",
+        "title": [
+          "Robust capacity expansion modeling for renewable energy systems"
+        ],
+        "author": [
+          {
+            "given": "Sebastian",
+            "family": "Kebrich"
+          },
+          {
+            "given": "Felix",
+            "family": "Engelhardt"
+          },
+          {
+            "given": "David",
+            "family": "Franzmann"
+          },
+          {
+            "given": "Christina",
+            "family": "Büsing"
+          },
+          {
+            "given": "Jochen",
+            "family": "Linßen"
+          },
+          {
+            "given": "Heidi",
+            "family": "Heinrichs"
+          }
+        ],
+        "container-title": [
+          "iScience"
+        ],
+        "volume": "29",
+        "issue": "3",
+        "page": "114929",
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              3
+            ]
+          ]
+        }
+      },
+      "transcribed_selected_fields_from_successful_completed_request": true
+    },
+    {
+      "reference": 7,
+      "registry_url": "https://api.crossref.org/works/10.1007/s10107-003-0433-3",
+      "expected_citation": "A. Neumaier and O. Shcherbina. Safe bounds in linear and mixed-integer linear programming. Mathematical Programming 99, 283–296, 2004.",
+      "title_and_DOI_match": true,
+      "metadata": {
+        "DOI": "10.1007/s10107-003-0433-3",
+        "title": [
+          "Safe bounds in linear and mixed-integer linear programming"
+        ],
+        "author": [
+          {
+            "given": "Arnold",
+            "family": "Neumaier"
+          },
+          {
+            "given": "Oleg",
+            "family": "Shcherbina"
+          }
+        ],
+        "container-title": [
+          "Mathematical Programming"
+        ],
+        "volume": "99",
+        "issue": "2",
+        "page": "283-296",
+        "article-number": null,
+        "published": {
+          "date-parts": [
+            [
+              2004,
+              3,
+              1
+            ]
+          ]
+        },
+        "published-online": null,
+        "published-print": {
+          "date-parts": [
+            [
+              2004,
+              3,
+              1
+            ]
+          ]
+        },
+        "resource": {
+          "primary": {
+            "URL": "http://link.springer.com/10.1007/s10107-003-0433-3"
+          }
+        }
+      }
+    },
+    {
+      "reference": 8,
+      "registry_url": "https://api.crossref.org/works/10.1007/978-3-319-59250-3_13",
+      "expected_citation": "K. K. H. Cheung, A. Gleixner and D. E. Steffy. Verifying Integer Programming Results. IPCO 2017, LNCS 10328, 148–160.",
+      "title_and_DOI_match": true,
+      "metadata": {
+        "DOI": "10.1007/978-3-319-59250-3_13",
+        "title": [
+          "Verifying Integer Programming Results"
+        ],
+        "author": [
+          {
+            "given": "Kevin K. H.",
+            "family": "Cheung"
+          },
+          {
+            "given": "Ambros",
+            "family": "Gleixner"
+          },
+          {
+            "given": "Daniel E.",
+            "family": "Steffy"
+          }
+        ],
+        "container-title": [
+          "Lecture Notes in Computer Science",
+          "Integer Programming and Combinatorial Optimization"
+        ],
+        "volume": null,
+        "issue": null,
+        "page": "148-160",
+        "article-number": null,
+        "published": {
+          "date-parts": [
+            [
+              2017
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2017,
+              5,
+              24
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2017
+            ]
+          ]
+        },
+        "resource": {
+          "primary": {
+            "URL": "http://link.springer.com/10.1007/978-3-319-59250-3_13"
+          }
+        }
+      }
+    },
+    {
+      "reference": 9,
+      "registry_url": "https://api.crossref.org/works/10.1109/tpwrs.2019.2925557",
+      "expected_citation": "C. Barrows et al. The IEEE Reliability Test System: A Proposed 2019 Update. IEEE Transactions on Power Systems 35(1), 119–127, 2020.",
+      "title_and_DOI_match": true,
+      "metadata": {
+        "DOI": "10.1109/tpwrs.2019.2925557",
+        "title": [
+          "The IEEE Reliability Test System: A Proposed 2019 Update"
+        ],
+        "author": [
+          {
+            "given": "Clayton",
+            "family": "Barrows"
+          },
+          {
+            "given": "Eugene",
+            "family": "Preston"
+          },
+          {
+            "given": "Andrea",
+            "family": "Staid"
+          },
+          {
+            "given": "Gord",
+            "family": "Stephen"
+          },
+          {
+            "given": "Jean-Paul",
+            "family": "Watson"
+          },
+          {
+            "given": "Aaron",
+            "family": "Bloom"
+          },
+          {
+            "given": "Ali",
+            "family": "Ehlen"
+          },
+          {
+            "given": "Jussi",
+            "family": "Ikaheimo"
+          },
+          {
+            "given": "Jennie",
+            "family": "Jorgenson"
+          },
+          {
+            "given": "Dheepak",
+            "family": "Krishnamurthy"
+          },
+          {
+            "given": "Jessica",
+            "family": "Lau"
+          },
+          {
+            "given": "Brendan",
+            "family": "McBennett"
+          },
+          {
+            "given": "Matthew",
+            "family": "O'Connell"
+          }
+        ],
+        "container-title": [
+          "IEEE Transactions on Power Systems"
+        ],
+        "volume": "35",
+        "issue": "1",
+        "page": "119-127",
+        "article-number": null,
+        "published": {
+          "date-parts": [
+            [
+              2020,
+              1
+            ]
+          ]
+        },
+        "published-online": null,
+        "published-print": {
+          "date-parts": [
+            [
+              2020,
+              1
+            ]
+          ]
+        },
+        "resource": {
+          "primary": {
+            "URL": "https://ieeexplore.ieee.org/document/8753693/"
+          }
+        }
+      }
+    },
+    {
+      "reference": 10,
+      "registry_url": "https://api.crossref.org/works/10.1287/ijoc.2019.0944",
+      "expected_citation": "B. Knueven, J. Ostrowski and J.-P. Watson. On Mixed-Integer Programming Formulations for the Unit Commitment Problem. INFORMS Journal on Computing 32(4), 857–876, 2020.",
+      "title_and_DOI_match": true,
+      "metadata": {
+        "DOI": "10.1287/ijoc.2019.0944",
+        "title": [
+          "On Mixed-Integer Programming Formulations for the Unit Commitment Problem"
+        ],
+        "author": [
+          {
+            "given": "Bernard",
+            "family": "Knueven"
+          },
+          {
+            "given": "James",
+            "family": "Ostrowski"
+          },
+          {
+            "given": "Jean-Paul",
+            "family": "Watson"
+          }
+        ],
+        "container-title": [
+          "INFORMS Journal on Computing"
+        ],
+        "volume": null,
+        "issue": null,
+        "page": null,
+        "article-number": "ijoc.2019.0944",
+        "published": {
+          "date-parts": [
+            [
+              2020,
+              6,
+              25
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2020,
+              6,
+              25
+            ]
+          ]
+        },
+        "published-print": null,
+        "resource": {
+          "primary": {
+            "URL": "http://pubsonline.informs.org/doi/10.1287/ijoc.2019.0944"
+          }
+        }
+      }
+    },
+    {
+      "reference": 11,
+      "registry_url": "https://api.crossref.org/works/10.3233/fi-2021-2047",
+      "expected_citation": "A. Saarela. Separating the Words of a Language by Counting Factors. Fundamenta Informaticae 180(4), 375–393, 2021.",
+      "title_and_DOI_match": true,
+      "metadata": {
+        "DOI": "10.3233/fi-2021-2047",
+        "title": [
+          "Separating the Words of a Language by Counting Factors"
+        ],
+        "author": [
+          {
+            "given": "Aleksi",
+            "family": "Saarela"
+          }
+        ],
+        "container-title": [
+          "Fundamenta Informaticae"
+        ],
+        "volume": "180",
+        "issue": "4",
+        "page": "375-393",
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              6,
+              30
+            ]
+          ]
+        }
+      },
+      "transcribed_selected_fields_from_successful_completed_request": true
+    }
+  ],
+  "preprints": [
+    {
+      "reference": 3,
+      "url": "https://arxiv.org/abs/2510.18555v2",
+      "title": "Connecting Representative Periods in Energy System Optimization Models using Markov Transition Matrices",
+      "version": 2,
+      "revised": "2026-07-15",
+      "authors": [
+        "Felix C. A. Auer",
+        "Robert Gaugl",
+        "Thomas Klatzer",
+        "Diego A. Tejada-Arango",
+        "Sonja Wogrin"
+      ],
+      "status": "Preprint; page says submitted to Applied Energy, no acceptance claim"
+    },
+    {
+      "reference": 4,
+      "url": "https://arxiv.org/abs/2105.03707v2",
+      "title": "On representation of energy storage in electricity planning models",
+      "version": 2,
+      "revised": "2021-05-31",
+      "authors": [
+        "James H. Merrick",
+        "John E.T. Bistline",
+        "Geoffrey J. Blanford"
+      ],
+      "status": "Author preprint, the version read for technical claims"
+    }
+  ],
+  "publisher_supplements": [
+    {
+      "doi": "10.1287/ijoc.2019.0944",
+      "url": "https://pubsonline.informs.org/doi/10.1287/ijoc.2019.0944",
+      "confirmed": "Cite-as: INFORMS Journal on Computing 32(4):857-876 (2020); matches manuscript. Crossref omitted these fields."
+    },
+    {
+      "doi": "10.1007/978-3-319-59250-3_13",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-319-59250-3_13",
+      "confirmed": "Publisher page confirms IPCO2017, LNCS10328, pp148–160 and Cheung/Gleixner/Steffy; Crossref omitted volume."
+    }
+  ],
+  "limitations": [
+    "Crossref RTS author ordering differs from the accepted-author document order; manuscript uses C. Barrows et al. and does not introduce a disputed full author sequence.",
+    "Crossref web-reader API requests were unavailable; Node TLS verification failed without any security setting change. Normal system-trusted PowerShell HTTPS succeeded. A repeated Bahl request returned429; earlier successful metadata read retained, no retry after429.",
+    "Registry metadata validation is not proof of subscription-fulltext access or a fresh DOI redirect chain for every publisher."
+  ]
+}
