@@ -1,0 +1,23 @@
+{
+  "utc": "2026-09-27T04:24:00.029912+00:00",
+  "base_sha256": "495dcd6831ddbcd1c8263b32a536d5d9ff7ef2943fe54250c1c5532359e366d7",
+  "evidence_commit": "579ecf20452b7838fdc5802744b24f597af5e1c7",
+  "overlay_prefixes": [
+    "src/research8h_",
+    "docs/research8h/",
+    "results/research8h/",
+    "results/seasonal_uncapped/",
+    "reproducibility/"
+  ],
+  "overlay_files": 4462,
+  "failed_candidate01_provenance_sha256": "c24f43ae82a22d92d9bda4f6f97c4321df772f7a0db91ac65cb65cf7d12c406f",
+  "diagnosis_sha256": "cc470ab7b88f5ef429fe8809fb326842dc0bf9f954008cee991ac92d7701bb1b",
+  "base_existing_modifications_allowed": 0,
+  "reviewed_additions": {
+    "reproducibility/replay_strict_flow.py": "52dbe3b74c1709a36ab23b31768a8e1f1c24a1daa00df2abba7b03bd2e96fad7",
+    "docs/research8h/PORTABLE_STRICT_FLOW_REPLAY_PROTOCOL.md": "7d619dc7c7e7bb76da71dd7ee2496f507875bbd5ed0fb356e50417791e66557a"
+  },
+  "wrapper_imported": false,
+  "mathematical_replay": false,
+  "optimizer_calls": 0
+}

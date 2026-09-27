@@ -1,0 +1,8 @@
+{
+  "exit_code": 0,
+  "stdout": "{\"check\": \"provenance\", \"status\": \"STRICT_FLOW_PACKAGE_AND_PROVENANCE_PASS\"}\n{\"check\": \"focused_checks\", \"status\": \"FOCUSED_STRICT_FLOW_CHECKS_PASS\"}\n{\"check\": \"capped_january_identity\", \"status\": \"STRICT_BINARY_NATIVE_POINT_PASS\"}\n{\"check\": \"capped_seed_26100200\", \"status\": \"STRICT_BINARY_NATIVE_POINT_PASS\"}\n{\"check\": \"control_mapping\", \"status\": \"STRICT_CONTROL_MAPPING_PASS\"}\n{\"check\": \"rays_seed_26093200\", \"status\": \"STRICT_AND_EXPANDED_NEGATIVE_REPLAY_PASS\"}\n{\"check\": \"rays_seed_26093201\", \"status\": \"STRICT_AND_EXPANDED_NEGATIVE_REPLAY_PASS\"}\n{\"check\": \"uncapped_january_identity\", \"status\": \"STRICT_BINARY_NATIVE_POINT_PASS\"}\n{\"check\": \"uncapped_seed_26093200\", \"status\": \"STRICT_BINARY_NATIVE_POINT_PASS\"}\n{\"check\": \"uncapped_seed_26093201\", \"status\": \"STRICT_BINARY_NATIVE_POINT_PASS\"}\n{\"check\": \"lower_january_identity\", \"status\": \"EXACT_STRICT_LOWER_REPLAY_PASS\"}\n{\"check\": \"lower_seed_26093200\", \"status\": \"EXACT_STRICT_LOWER_REPLAY_PASS\"}\n{\"check\": \"lower_seed_26093201\", \"status\": \"EXACT_STRICT_LOWER_REPLAY_PASS\"}\n{\"check\": \"intervals\", \"status\": \"FINITE_STRICT_ENERGY_INTERVALS_PASS\"}\n{\"check\": \"ledgers\", \"status\": \"FIXED_CALL_AND_HOUR_LEDGER_PASS\"}\n{\"check\": \"summary\", \"status\": \"PORTABLE_STRICT_FLOW_REPLAY_PASS\"}\n",
+  "stderr": "",
+  "actual_wall_seconds": 151.25455610000063,
+  "closed_utc": "2026-09-27T04:32:33.085576+00:00",
+  "wrapper_attempts": 1
+}

@@ -1,0 +1,42 @@
+{
+  "status": "EXACT_STRICT_LOWER_REPLAY_PASS",
+  "selected": "+1_projected",
+  "lower": {
+    "numerator": "292092197273756692373268348894321437063628915265588611572697",
+    "denominator": "12259964326927110866866776217202473468949912977468817408"
+  },
+  "candidates": [
+    {
+      "candidate": "zero",
+      "valid": true,
+      "lower": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "candidate": "+1_raw",
+      "valid": false
+    },
+    {
+      "candidate": "+1_projected",
+      "valid": true,
+      "lower": {
+        "numerator": "292092197273756692373268348894321437063628915265588611572697",
+        "denominator": "12259964326927110866866776217202473468949912977468817408"
+      }
+    },
+    {
+      "candidate": "-1_raw",
+      "valid": false
+    },
+    {
+      "candidate": "-1_projected",
+      "valid": true,
+      "lower": {
+        "numerator": "-1780467069722865840025489097220014452307161293696224684874791",
+        "denominator": "12259964326927110866866776217202473468949912977468817408"
+      }
+    }
+  ]
+}

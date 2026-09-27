@@ -1,0 +1,133 @@
+{
+  "status": "EXACT_CLOSED_EXTERNAL_ARTIFACT_COPIES",
+  "external_root": "C:\\Users\\gmalkawi\\.codex\\research-replays\\strict-flow-20260927-candidate02",
+  "files": [
+    {
+      "path": "base_FILE_MANIFEST.csv",
+      "sha256": "a8e16c677344d441344c93a2bab6f743ff945c4c3776ea1bc79b10f86d8f607f",
+      "bytes": 487400
+    },
+    {
+      "path": "git17_overlay.json",
+      "sha256": "d0659ef48d76bdcc7fedd14f705d1c379b9a3d4f30101b8f1d00910408023df0",
+      "bytes": 1678402
+    },
+    {
+      "path": "package/FILE_MANIFEST.csv",
+      "sha256": "aba9185a0b9b2357820f57e7e91387a284038b4431e7addb3b60ab53d7c90773",
+      "bytes": 638558
+    },
+    {
+      "path": "preparation_builder.py",
+      "sha256": "0a9527bc2cdbe2adaba2637b0e9bd5bdd51ced15c35cf50c34a0cc86947f933f",
+      "bytes": 14990
+    },
+    {
+      "path": "preparation_started.json",
+      "sha256": "03a7f65e62e66cc6e34384dde61da92f45849943554d0f94cca4611b93a8e5de",
+      "bytes": 1009
+    },
+    {
+      "path": "prepared_freeze.json",
+      "sha256": "eda4180b19c5a6ab06f9e6ca00c76ca1dc2cd4a6eda285c2027dc11e5c2b17b9",
+      "bytes": 2488
+    },
+    {
+      "path": "recursive_manifest_closure.json",
+      "sha256": "6f5b87a95f6dd321b244bf166b0c85bb561690113f5446f652a8467dee86c32e",
+      "bytes": 2719
+    },
+    {
+      "path": "replay_launch.json",
+      "sha256": "5e4ec4fc9deae99ad0c3f1ec3ac437d19533e0e8ea15fbf777135e2be8f7a31d",
+      "bytes": 1272
+    },
+    {
+      "path": "replay_process_result.json",
+      "sha256": "af8c24026424418d4ae5d7b58801b51a75e2837ce958bd0c215d6014700d128e",
+      "bytes": 1565
+    },
+    {
+      "path": "reports/capped_january_identity.json",
+      "sha256": "4f8e14bbc468c92dddf6667c1cdbb24509fb3a3d22071268b734ffd070802dfd",
+      "bytes": 995
+    },
+    {
+      "path": "reports/capped_seed_26100200.json",
+      "sha256": "66633b35992671782daecf8be9d9c7655158f43d53993fa9d9999347f53ac3e8",
+      "bytes": 995
+    },
+    {
+      "path": "reports/control_mapping.json",
+      "sha256": "99ab59d11a5cc7721e231216baeca2a87dbd9caec14f1a98aef048176bc36efe",
+      "bytes": 73
+    },
+    {
+      "path": "reports/focused_checks.json",
+      "sha256": "698b64e1dde3dd716cab8244603b5023af47fc443399419a08ed21c24d37b1fd",
+      "bytes": 144
+    },
+    {
+      "path": "reports/intervals.json",
+      "sha256": "18b1a679d7109a4a2b3fb2dde81fe4e336b7037d1fcde09fbce1bdbe24fb4b8a",
+      "bytes": 9248
+    },
+    {
+      "path": "reports/ledgers.json",
+      "sha256": "9cecbbd80ddfaf28631145a405a00bc957b7f7591747b0cff3562d156f0ac20f",
+      "bytes": 180
+    },
+    {
+      "path": "reports/lower_january_identity.json",
+      "sha256": "0594ec09eb3c3b715228ffb78260b3d25cb94527c3345f04f7977f430523a5f7",
+      "bytes": 1109
+    },
+    {
+      "path": "reports/lower_seed_26093200.json",
+      "sha256": "bdc4dc4e2eef04ca9ee896abc4e9a1b89e8d6d19c357f04a3ecfb84c5bfbdd5b",
+      "bytes": 1118
+    },
+    {
+      "path": "reports/lower_seed_26093201.json",
+      "sha256": "f2424f3c7336f7405507c57d13d51cd555ab7e0a1db49e49c15d483d483ee90d",
+      "bytes": 1109
+    },
+    {
+      "path": "reports/provenance.json",
+      "sha256": "99d8ac65239a8ca6b64cccd291a9ec106f01aa20ce8206fe3840703cf6636ec6",
+      "bytes": 2993
+    },
+    {
+      "path": "reports/rays_seed_26093200.json",
+      "sha256": "206afca48b00e53977dc6c5a47838f773e05e5d407e512a3b556cd0c7d2f2935",
+      "bytes": 5424
+    },
+    {
+      "path": "reports/rays_seed_26093201.json",
+      "sha256": "74365302741a49d227917e3a5b466b9290077410455bf948bfaae5cf32f6c2ce",
+      "bytes": 5646
+    },
+    {
+      "path": "reports/summary.json",
+      "sha256": "6bbe5acbe6afda090dbc9c040fbae781f49ed665ff0ed6a457114cfa8a05589a",
+      "bytes": 780
+    },
+    {
+      "path": "reports/uncapped_january_identity.json",
+      "sha256": "2a8b3dd4551a3d14de701a40e9e0c398f19382ba103b50f558de74f7b241f2af",
+      "bytes": 995
+    },
+    {
+      "path": "reports/uncapped_seed_26093200.json",
+      "sha256": "60650bf51f89db2135e8411a9a327546ad6844d43a9e0b1009c8aedd0753677a",
+      "bytes": 995
+    },
+    {
+      "path": "reports/uncapped_seed_26093201.json",
+      "sha256": "b7b18c0788f874be5e7a8a41ce4aba386d76e3c37157ff7b12f5d556ec23cd82",
+      "bytes": 995
+    }
+  ],
+  "full_package_and_zip_not_copied": true,
+  "original_bytes_unchanged": true
+}

@@ -1,0 +1,21 @@
+{
+  "status": "PORTABLE_STRICT_FLOW_REPLAY_PASS",
+  "scope": "strict-flow-capped-and-uncapped-v1",
+  "strict_points": 5,
+  "selected_negative_certificates": 2,
+  "ray_candidates": 8,
+  "selected_lower_bounds": 3,
+  "lower_candidates": 15,
+  "penalty_intervals": 2,
+  "optimizer_calls": 0,
+  "network_calls": 0,
+  "native_reconstruction": false,
+  "package_files_unchanged": true,
+  "package_manifest_sha256": "aba9185a0b9b2357820f57e7e91387a284038b4431e7addb3b60ab53d7c90773",
+  "package_evidence_commit": "579ecf20452b7838fdc5802744b24f597af5e1c7",
+  "used_package_files": 1138,
+  "elapsed_seconds": 150.87042219997966,
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "win32",
+  "second_machine_claim": false
+}

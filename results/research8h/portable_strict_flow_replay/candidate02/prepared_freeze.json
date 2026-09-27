@@ -1,0 +1,51 @@
+{
+  "status": "PREPARED_STRICT_FLOW_CANDIDATE_ONLY",
+  "utc": "2026-09-27T04:27:02.330537+00:00",
+  "base_zip": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\research8h_delivery\\DSC_Temporal_Research_2026-09-27_Checkpoint05.zip",
+  "base_sha256": "495dcd6831ddbcd1c8263b32a536d5d9ff7ef2943fe54250c1c5532359e366d7",
+  "base_bytes": 88756097,
+  "original_zip_unchanged": true,
+  "evidence_commit": "579ecf20452b7838fdc5802744b24f597af5e1c7",
+  "overlay_prefixes": [
+    "src/research8h_",
+    "docs/research8h/",
+    "results/research8h/",
+    "results/seasonal_uncapped/",
+    "reproducibility/"
+  ],
+  "git_blob_checks": 4462,
+  "changed_or_added_git_payloads": 1062,
+  "package_root": "C:\\Users\\gmalkawi\\.codex\\research-replays\\strict-flow-20260927-candidate02\\package",
+  "candidate_zip": "C:\\Users\\gmalkawi\\.codex\\research-replays\\strict-flow-20260927-candidate02\\strict_flow_candidate02.zip",
+  "candidate_sha256": "682a5e0e9bbc8c4b266d5b990bab07079cff8e6692620d90ddb981e3cd999389",
+  "candidate_bytes": 97485608,
+  "candidate_payloads": 4566,
+  "candidate_files": 4567,
+  "outer_manifest_sha256": "aba9185a0b9b2357820f57e7e91387a284038b4431e7addb3b60ab53d7c90773",
+  "native_addendum_unchanged": true,
+  "base_payloads_preserved": 3501,
+  "existing_base_modifications": 0,
+  "failed_candidate01_provenance_sha256": "c24f43ae82a22d92d9bda4f6f97c4321df772f7a0db91ac65cb65cf7d12c406f",
+  "diagnosis_sha256": "cc470ab7b88f5ef429fe8809fb326842dc0bf9f954008cee991ac92d7701bb1b",
+  "recursive_manifests": 11,
+  "unique_historical_payloads": 1133,
+  "links_reparse_and_casefold_checks": true,
+  "directories_checked": 553,
+  "reviewed_additions": {
+    "reproducibility/replay_strict_flow.py": "52dbe3b74c1709a36ab23b31768a8e1f1c24a1daa00df2abba7b03bd2e96fad7",
+    "docs/research8h/PORTABLE_STRICT_FLOW_REPLAY_PROTOCOL.md": "7d619dc7c7e7bb76da71dd7ee2496f507875bbd5ed0fb356e50417791e66557a"
+  },
+  "candidate_metadata": {
+    "schema": "strict-flow-candidate-v1",
+    "evidence_commit": "579ecf20452b7838fdc5802744b24f597af5e1c7",
+    "scope": "strict-flow-capped-and-uncapped-v1"
+  },
+  "builder_sha256": "0a9527bc2cdbe2adaba2637b0e9bd5bdd51ced15c35cf50c34a0cc86947f933f",
+  "elapsed_s": 183.3328529999999,
+  "wrapper_imported": false,
+  "mathematical_replay": false,
+  "optimizer_calls": 0,
+  "network_calls": 0,
+  "independent_prepared_gate_required": true,
+  "execution_authorized": false
+}

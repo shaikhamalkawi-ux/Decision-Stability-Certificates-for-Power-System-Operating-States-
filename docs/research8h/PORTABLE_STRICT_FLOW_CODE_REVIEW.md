@@ -1,0 +1,18 @@
+# Independent portable strict-flow source review
+
+Verdict: PASS for candidate preparation only. Read the complete wrapper, protocol and relevant pinned helper/report schemas. Reviewed the final timing-only delta: historical floating solve-time totals use math.fsum and absolute tolerance 1e-9 seconds; all scientific rational comparisons remain exact.
+
+Final wrapper: reproducibility/replay_strict_flow.py; SHA256 52dbe3b74c1709a36ab23b31768a8e1f1c24a1daa00df2abba7b03bd2e96fad7.
+Final protocol: docs/research8h/PORTABLE_STRICT_FLOW_REPLAY_PROTOCOL.md; SHA256 7d619dc7c7e7bb76da71dd7ee2496f507875bbd5ed0fb356e50417791e66557a.
+
+The trusted outer-manifest digest is checked before package helper imports. The separately supplied evidence commit must equal the manifest-bound candidate metadata; this binds independently prepared provenance and does not pretend to authenticate Git remotely. The exact payload inventory, file hashes/sizes, normalized paths, case collisions and link/reparse rejection are checked, with a fresh external output path and final complete package rehash. Historical absolute paths use only the two explicit mappings, without original-host fallback. The source/protocol and all four imported stdlib helpers are manifest-bound; helpers are additionally hash-pinned, bytecode is disabled and no solver runner is imported.
+
+As a source/schema check only, read the ten recursively reachable manifest descriptors (103/277/355/466 primary entries plus125/34/92/136/50/59 historical entries). Their record schemas and historical prefixes are supported. This was not payload-hash validation, model arithmetic, wrapper execution, candidate construction or relocation success; those remain separate gates.
+
+The mathematical replay set matches the closed evidence: five complete strict rational binary/native points; eight fixed ray candidates and both selected strict/expanded separators; fifteen fixed objective-bound candidates and all residual/finite-box terms; three selected strict lower bounds and two optimum-difference/percentage intervals. Original masks contain all 12,096 U/Y/Z coordinates. Capped and uncapped helpers retain distinct semantics. The uncapped models are compared to their capped parents after only the cap row is removed, and the native23-fossil objective excludes nuclear. Raw-sign rejection, sign-only projection and fixed-order tie selection remain explicit. Exact whole-report equality is relocation-safe because accepted helper reports use content hashes and mathematical values, not machine-dependent file paths.
+
+The control map checks the fixed14 changed positions, complete hourly input transport, exact P/theta/flow transport, chronological binary states and energy equality. Full point checks already establish membership; the168/336 hour ledgers connect stored reconstruction outputs to those points without reconstructing bases. Historical numerical call counts remain3+5; the wrapper performs none.
+
+The five point checks include the same identity under capped and uncapped bindings and a mapped control. They are not five independent cases. The result is offline verification of known archived evidence in the distinct flow model, not field validation, solver-discovery reproduction, another network or an independent-machine run. No bound, point or template conclusion is transferred from the old angle model by assumption.
+
+No wrapper import, mathematical replay, candidate preparation or new synthetic run was performed by this reviewer. The producer's focused test report honestly retains the pre-timing-delta source hash. Independent candidate completeness/path/hash review and separate execution authorization remain required before any relocation claim.

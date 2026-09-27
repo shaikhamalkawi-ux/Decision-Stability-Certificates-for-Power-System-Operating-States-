@@ -1,0 +1,116 @@
+{
+  "status": "READ_ONLY_SCOPE_DIAGNOSIS",
+  "candidate01_preserved": true,
+  "wrapper_imported": false,
+  "mathematical_replay": false,
+  "optimizer_calls": 0,
+  "base_existing_overlay_conflicts": [
+    {
+      "path": "docs/V8R1_RTS_INPUTS.md",
+      "git_blob": "dc2893a75c3182b23f5539acd01c3e8cecd09a9d",
+      "sha256": "296bb23af9e1d015baff6f9066f7727bae301e5f8122952d338ce8a8dd20b9b3",
+      "bytes": 2968,
+      "previous_sha256": "c91d2235d54c138889bf7c13c0c1b09122b27d399195c240337555b9bd0aa19e",
+      "changed": true
+    },
+    {
+      "path": "results/v8/network_repair/network_fixed_commitment.csv",
+      "git_blob": "c1c944e5005b67971b97633b08bfdffc90d3f79e",
+      "sha256": "c115d407e5a98ff1d99b8b4e5de93590891a0841970b2878820f2d2dac6e3c72",
+      "bytes": 8315,
+      "previous_sha256": "d0baca56221f249076e11dbf26d49c8418ff189b27e44ef4fe5a5ad805cfa449",
+      "changed": true
+    },
+    {
+      "path": "results/v8/network_repair/network_repair_dispatch.csv",
+      "git_blob": "09ca5b5ab1ff1cd1393f654c60374f12821e52ea",
+      "sha256": "81dabd9bf7a17a7c157c2483e0ffb31853182cc96c3427bd34d743df5f1ac28a",
+      "bytes": 34668,
+      "previous_sha256": "a58ffcaa470cdc01d574ebd34fd2ab4953cb9a73087e1103407bf7b945be65da",
+      "changed": true
+    },
+    {
+      "path": "results/v8/network_repair/network_repair_witness_verification.json",
+      "git_blob": "7ed92881b80c3d3d5343c93f8888091ab39794b6",
+      "sha256": "6348fca9a4ae3d27189767bd43b85de64416b8c0df5d0c1780b72cad05d882f6",
+      "bytes": 517,
+      "previous_sha256": "7e3df9da748e2d8dd424fbfa87535fd2c75f885f067e09a0228cce55370fa17d",
+      "changed": true
+    },
+    {
+      "path": "results/v8r1/rts_input_reconstruction.json",
+      "git_blob": "3a3a1ac9072e04b83938452e46b1737f65ad7a3c",
+      "sha256": "d5f7f3bf8f1658a0d240311438261297964921b4f72c1039d631d2898bfbb48c",
+      "bytes": 12630,
+      "previous_sha256": "ba45cc4e9713686bc6279f9867c8ed793eb309ebf86327bf1f03a269a3bed7dd",
+      "changed": true
+    },
+    {
+      "path": "src/requirements-v8r1.txt",
+      "git_blob": "70caee380e0ea7541f076ba3c72507fb761d46e8",
+      "sha256": "63cb61e2ab3ad0c34a66b05dd87a4355aeb59ac21521e12529eb71c01899a6d5",
+      "bytes": 149,
+      "previous_sha256": "d077fabebefc79057bc10f5b7d09ee56975a4e3f25ea0d2bb746dc34003d10cd",
+      "changed": true
+    },
+    {
+      "path": "src/rts_native_model.py",
+      "git_blob": "83b136df4e289233ea1f783cfabb2f6492dcf821",
+      "sha256": "01d3e67440b1380b62ed68da07e61ac6895b930ada583ffa8af09a370850be78",
+      "bytes": 5694,
+      "previous_sha256": "8c31b40047fe60ceefa34b3c5b2e21301d252dd11b80698827ab47a1f084cc3a",
+      "changed": true
+    },
+    {
+      "path": "src/v8r1_prepare_rts_inputs.py",
+      "git_blob": "307b246dc5ea5f463087331ebae41cc3c4125f54",
+      "sha256": "48115bf43efa62c26cfcac1e46f9bee1112ddae2ee7ee468f97b2376c69c8911",
+      "bytes": 12184,
+      "previous_sha256": "0e3336252d0d925f5c56acf65ba47889825d3cf7d04e940265d02c5d022d5ce2",
+      "changed": true
+    },
+    {
+      "path": "src/v8r1_rts_residence_certificate.py",
+      "git_blob": "6c9b42da496dc5d43bb462973ecba658b022f51a",
+      "sha256": "0806410f418ed0ee6576c03a228fe987251b0c5cc910439a9caf0b46f73ccb66",
+      "bytes": 13042,
+      "previous_sha256": "15a1336d73a8b032d32a5dc01108a8e12f2c87bfd418c30572607e7c74ca7e03",
+      "changed": true
+    },
+    {
+      "path": "src/v8r1_rts_seasonal.py",
+      "git_blob": "9e80cdbefa319f3e24a9beeea4d24bd975633223",
+      "sha256": "577e10e27625ca4309bd8b8756e56eec3da99fd762269306b9bc1dd71f3ff40a",
+      "bytes": 12696,
+      "previous_sha256": "bca0127d7b2771c6da3b6a838c8caa7fb6ce0df4eafd9a512326aabd8daf7dc2",
+      "changed": true
+    }
+  ],
+  "conflict_count": 10,
+  "proposed_prefixes": [
+    "src/research8h_",
+    "docs/research8h/",
+    "results/research8h/",
+    "results/seasonal_uncapped/",
+    "reproducibility/"
+  ],
+  "proposed_git_blob_count": 4462,
+  "proposed_existing_payload_changes": 0,
+  "proposed_payloads_before_three_new_additions": 4563,
+  "historical_manifest_counts": {
+    "results/research8h/branch_flow_encoding/input_manifest.json": 103,
+    "results/research8h/branch_flow_encoding/artifact_manifest.csv": 277,
+    "results/research8h/branch_flow_strict_energy/input_manifest.json": 355,
+    "results/research8h/branch_flow_strict_energy/artifact_manifest.csv": 466,
+    "reproducibility/native_sources/FILE_MANIFEST.csv": 24,
+    "results/research8h/hour_of_day/input_manifest.csv": 125,
+    "results/research8h/exact_fixed_schedule/input_manifest.json": 34,
+    "results/research8h/hour_of_day_uncapped/input_manifest.csv": 92,
+    "results/research8h/seasonal_transfer/input_manifest.csv": 136,
+    "results/research8h/seasonal_reference/input_manifest.csv": 50,
+    "results/research8h/energy_lp_refinement/input_manifest.json": 59
+  },
+  "unique_historical_dependencies": 1133,
+  "prospective_metadata_closure_mismatches": [],
+  "note": "Simulated hashes only; no candidate02 or modified candidate01 bytes. All science files and manifests unchanged."
+}

@@ -1,0 +1,23 @@
+{
+  "utc": "2026-09-27T04:30:01.831350+00:00",
+  "interpreter": "C:\\Users\\gmalkawi\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "command": [
+    "C:\\Users\\gmalkawi\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-I",
+    "-S",
+    "C:\\Users\\gmalkawi\\.codex\\research-replays\\strict-flow-20260927-candidate02\\package\\reproducibility\\replay_strict_flow.py",
+    "--package-root",
+    "C:\\Users\\gmalkawi\\.codex\\research-replays\\strict-flow-20260927-candidate02\\package",
+    "--report-dir",
+    "C:\\Users\\gmalkawi\\.codex\\research-replays\\strict-flow-20260927-candidate02\\reports",
+    "--expected-package-manifest-sha256",
+    "aba9185a0b9b2357820f57e7e91387a284038b4431e7addb3b60ab53d7c90773",
+    "--package-evidence-commit",
+    "579ecf20452b7838fdc5802744b24f597af5e1c7"
+  ],
+  "working_directory": "C:\\Users\\gmalkawi\\.codex\\research-replays\\strict-flow-20260927-candidate02",
+  "wrapper_attempt": 1,
+  "previous_windowsapps_interpreter_probe": "Alias returned Python was not found; no wrapper imported or run",
+  "report_directory_previously_absent": true
+}

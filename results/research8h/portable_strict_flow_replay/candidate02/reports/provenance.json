@@ -1,0 +1,78 @@
+{
+  "status": "STRICT_FLOW_PACKAGE_AND_PROVENANCE_PASS",
+  "payloads": 4566,
+  "historical_manifests": {
+    "reproducibility/native_sources/FILE_MANIFEST.csv": {
+      "sha256": "8b18311c646c0ae68d85765c57b690e2db5b5ffc071d1ab1b734b2db88d866b8",
+      "entries": 24,
+      "mode": "relative",
+      "base": "reproducibility/native_sources"
+    },
+    "results/research8h/branch_flow_encoding/input_manifest.json": {
+      "sha256": "0981491f326dbd3f34e2825d501cbff54d74bf18e5c3d924edf420a4950532d4",
+      "entries": 103,
+      "mode": "historical",
+      "base": ""
+    },
+    "results/research8h/branch_flow_encoding/artifact_manifest.csv": {
+      "sha256": "a86ee29993a253e7018965cf9ce66dc177e220129eba849a4529960a09e237c4",
+      "entries": 277,
+      "mode": "relative",
+      "base": ""
+    },
+    "results/research8h/branch_flow_strict_energy/input_manifest.json": {
+      "sha256": "7ffffe82e6046daff5dcd610337c2e8cb333009c38ec9acfcdb9741f8cbadbb7",
+      "entries": 355,
+      "mode": "historical",
+      "base": ""
+    },
+    "results/research8h/branch_flow_strict_energy/artifact_manifest.csv": {
+      "sha256": "89475add4fdc688cf7227a201fa870712602cc67269b0ad7bacdfa7f8ef65648",
+      "entries": 466,
+      "mode": "relative",
+      "base": ""
+    },
+    "results/research8h/exact_fixed_schedule/input_manifest.json": {
+      "sha256": "397fdbdd982ec11dc7265d842733df40fc0ad66a22922ea40e06cfebdaf03da9",
+      "entries": 34,
+      "mode": "historical",
+      "base": ""
+    },
+    "results/research8h/hour_of_day/input_manifest.csv": {
+      "sha256": "078082667f83322d3540ad3ac215ebcc996d0d31b04fd52bfa75c1d2fd814fcc",
+      "entries": 125,
+      "mode": "historical",
+      "base": ""
+    },
+    "results/research8h/hour_of_day_uncapped/input_manifest.csv": {
+      "sha256": "b0ffca41db74d7278c001c776ae3b8656272994d083c8fc215ecbbf665020f8a",
+      "entries": 92,
+      "mode": "historical",
+      "base": ""
+    },
+    "results/research8h/energy_lp_refinement/input_manifest.json": {
+      "sha256": "b85b1260ded4d4f0a2576c921a4d84581360bfe7adddac361d5ad8826fd6e32d",
+      "entries": 59,
+      "mode": "historical",
+      "base": ""
+    },
+    "results/research8h/seasonal_reference/input_manifest.csv": {
+      "sha256": "a4cd70b40e26a9c5019df545364adb06124ce4e46e67c713caf4667ae19c02af",
+      "entries": 50,
+      "mode": "historical",
+      "base": ""
+    },
+    "results/research8h/seasonal_transfer/input_manifest.csv": {
+      "sha256": "9362c181d3aad078f9ff21fc35b3043ca923b70d8484e72565a4b39d7967eb87",
+      "entries": 136,
+      "mode": "historical",
+      "base": ""
+    }
+  },
+  "unique_bindings": 1133,
+  "package_manifest_sha256": "aba9185a0b9b2357820f57e7e91387a284038b4431e7addb3b60ab53d7c90773",
+  "package_evidence_commit": "579ecf20452b7838fdc5802744b24f597af5e1c7",
+  "scope": "strict-flow-capped-and-uncapped-v1",
+  "native_reconstruction": false,
+  "optimizer_calls": 0
+}

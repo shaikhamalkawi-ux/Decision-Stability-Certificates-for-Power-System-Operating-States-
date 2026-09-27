@@ -1,0 +1,95 @@
+{
+  "status": "INDEPENDENT_COMPACT_POSTRUN_REVIEW_PASS",
+  "source_sha256": "87cc71a5627ad0c5c8ebba91f6b35cff43dd9c229cf7461f5587eb9a308cee25",
+  "report_inventory": {
+    "capped_january_identity.json": {
+      "bytes": 995,
+      "sha256": "4f8e14bbc468c92dddf6667c1cdbb24509fb3a3d22071268b734ffd070802dfd"
+    },
+    "capped_seed_26100200.json": {
+      "bytes": 995,
+      "sha256": "66633b35992671782daecf8be9d9c7655158f43d53993fa9d9999347f53ac3e8"
+    },
+    "control_mapping.json": {
+      "bytes": 73,
+      "sha256": "99ab59d11a5cc7721e231216baeca2a87dbd9caec14f1a98aef048176bc36efe"
+    },
+    "focused_checks.json": {
+      "bytes": 144,
+      "sha256": "698b64e1dde3dd716cab8244603b5023af47fc443399419a08ed21c24d37b1fd"
+    },
+    "intervals.json": {
+      "bytes": 9248,
+      "sha256": "18b1a679d7109a4a2b3fb2dde81fe4e336b7037d1fcde09fbce1bdbe24fb4b8a"
+    },
+    "ledgers.json": {
+      "bytes": 180,
+      "sha256": "9cecbbd80ddfaf28631145a405a00bc957b7f7591747b0cff3562d156f0ac20f"
+    },
+    "lower_january_identity.json": {
+      "bytes": 1109,
+      "sha256": "0594ec09eb3c3b715228ffb78260b3d25cb94527c3345f04f7977f430523a5f7"
+    },
+    "lower_seed_26093200.json": {
+      "bytes": 1118,
+      "sha256": "bdc4dc4e2eef04ca9ee896abc4e9a1b89e8d6d19c357f04a3ecfb84c5bfbdd5b"
+    },
+    "lower_seed_26093201.json": {
+      "bytes": 1109,
+      "sha256": "f2424f3c7336f7405507c57d13d51cd555ab7e0a1db49e49c15d483d483ee90d"
+    },
+    "provenance.json": {
+      "bytes": 2993,
+      "sha256": "99d8ac65239a8ca6b64cccd291a9ec106f01aa20ce8206fe3840703cf6636ec6"
+    },
+    "rays_seed_26093200.json": {
+      "bytes": 5424,
+      "sha256": "206afca48b00e53977dc6c5a47838f773e05e5d407e512a3b556cd0c7d2f2935"
+    },
+    "rays_seed_26093201.json": {
+      "bytes": 5646,
+      "sha256": "74365302741a49d227917e3a5b466b9290077410455bf948bfaae5cf32f6c2ce"
+    },
+    "summary.json": {
+      "bytes": 780,
+      "sha256": "6bbe5acbe6afda090dbc9c040fbae781f49ed665ff0ed6a457114cfa8a05589a"
+    },
+    "uncapped_january_identity.json": {
+      "bytes": 995,
+      "sha256": "2a8b3dd4551a3d14de701a40e9e0c398f19382ba103b50f558de74f7b241f2af"
+    },
+    "uncapped_seed_26093200.json": {
+      "bytes": 995,
+      "sha256": "60650bf51f89db2135e8411a9a327546ad6844d43a9e0b1009c8aedd0753677a"
+    },
+    "uncapped_seed_26093201.json": {
+      "bytes": 995,
+      "sha256": "b7b18c0788f874be5e7a8a41ce4aba386d76e3c37157ff7b12f5d556ec23cd82"
+    }
+  },
+  "replay_launch_sha256": "5e4ec4fc9deae99ad0c3f1ec3ac437d19533e0e8ea15fbf777135e2be8f7a31d",
+  "replay_process_result_sha256": "af8c24026424418d4ae5d7b58801b51a75e2837ce958bd0c215d6014700d128e",
+  "summary_sha256": "6bbe5acbe6afda090dbc9c040fbae781f49ed665ff0ed6a457114cfa8a05589a",
+  "prepared_review_sha256": "bf7bcc7c92ce80232b6a152ba350ce10344033c0544d5a2c68ce5e7d47e13661",
+  "trusted_outer_sha256": "aba9185a0b9b2357820f57e7e91387a284038b4431e7addb3b60ab53d7c90773",
+  "evidence_commit": "579ecf20452b7838fdc5802744b24f597af5e1c7",
+  "authentic_isolated_no_site_command_checked": true,
+  "declared_scope_checked": true,
+  "strict_point_roles": 5,
+  "ray_candidates": 8,
+  "objective_candidates": 15,
+  "penalty_intervals": 2,
+  "wrapper_attempts": 1,
+  "wrapper_elapsed_s": 150.87042219997966,
+  "process_elapsed_s": 151.25455610000063,
+  "package_immutability": "Reviewed source compares its full before/after snapshot; reported unchanged, consistent with independently verified 4567-file prepared inventory. This compact review does not repeat a whole-package hash or mathematical replay.",
+  "candidate01": "Preserved preparation failure before wrapper import; not a mathematical replay attempt.",
+  "windowsapps_probe": "Failed interpreter discovery before wrapper execution; disclosed separately.",
+  "repeated_mathematical_replays": 0,
+  "model_imports": 0,
+  "optimizer_calls": 0,
+  "network_calls": 0,
+  "native_reconstruction": false,
+  "second_machine_claim": false,
+  "review_elapsed_s": 0.020228899986250326
+}

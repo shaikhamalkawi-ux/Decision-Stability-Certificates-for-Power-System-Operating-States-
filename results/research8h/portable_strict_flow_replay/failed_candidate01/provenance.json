@@ -1,0 +1,45 @@
+{
+  "status": "PRESERVED_FAILED_PREPARATION_ONLY",
+  "files": [
+    {
+      "path": "base_FILE_MANIFEST.csv",
+      "source": "C:\\Users\\gmalkawi\\.codex\\research-replays\\strict-flow-20260927-candidate01\\base_FILE_MANIFEST.csv",
+      "sha256": "a8e16c677344d441344c93a2bab6f743ff945c4c3776ea1bc79b10f86d8f607f",
+      "bytes": 487400
+    },
+    {
+      "path": "git17_overlay.json",
+      "source": "C:\\Users\\gmalkawi\\.codex\\research-replays\\strict-flow-20260927-candidate01\\git17_overlay.json",
+      "sha256": "fbeb45a57a9d83265f87ec98edecc5e74c59366b36d2dfdd0b03815f8b465719",
+      "bytes": 1832333
+    },
+    {
+      "path": "preparation_builder.py",
+      "source": "C:\\Users\\gmalkawi\\.codex\\research-replays\\strict-flow-20260927-candidate01\\preparation_builder.py",
+      "sha256": "3ba07233a628247707d76b1828c2f3d96657f11594f3d6f24882a22471749b11",
+      "bytes": 13567
+    },
+    {
+      "path": "preparation_failure.json",
+      "source": "C:\\Users\\gmalkawi\\.codex\\research-replays\\strict-flow-20260927-candidate01\\preparation_failure.json",
+      "sha256": "ca86ab43f93c02f260f660a1d24f65214b1169fb47bf43d02b32944ed4eb49a8",
+      "bytes": 253
+    },
+    {
+      "path": "preparation_started.json",
+      "source": "C:\\Users\\gmalkawi\\.codex\\research-replays\\strict-flow-20260927-candidate01\\preparation_started.json",
+      "sha256": "0274af19ad22ddee7e54a1a3f92c1116aa7790fc33fbaaa5fdca913843528fcf",
+      "bytes": 694
+    },
+    {
+      "path": "scope_diagnosis.json",
+      "source": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\portable_strict_flow_candidate01_diagnosis.json",
+      "sha256": "cc470ab7b88f5ef429fe8809fb326842dc0bf9f954008cee991ac92d7701bb1b",
+      "bytes": 5175
+    }
+  ],
+  "external_candidate_unchanged": true,
+  "wrapper_imported": false,
+  "mathematical_replay": false,
+  "optimizer_calls": 0
+}
