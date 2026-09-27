@@ -1,0 +1,29 @@
+{
+  "utc": "2026-09-27T14:49:05.666Z",
+  "authorization": "One additive recovery execution of previously unentered optimization stage",
+  "sole_run_owner": "/root/temporal_checker",
+  "pins": {
+    "src/researchnext_common_refinement_jobs.py": "fa1548f4d7765ac84e2f74a06df2fde640c713b85a1c27bdc29c99f3bb1b2973",
+    "docs/research_next/COMMON_REFINEMENT_JOBS_PROTOCOL.md": "14f9a4f2fb11966eec851e1c69187945f2daa523f1d5fd1a5b389900ecdf7b1f",
+    "results/research_next/common_refinement_jobs/prepared/prepared_freeze.json": "8053a3795c9ed14d53c84df5dddefa355fb29572be9ce213758bf75a3922347c",
+    "results/research_next/common_refinement_jobs/prepared/input_manifest.json": "4478c4637b2b81256cc31e9cdc2516b2112309c30096176d5df42ba205dd09a6",
+    "results/research_next/common_refinement_jobs_independent_review/prepared_review.json": "dac27b1878a0f79e5f5c49270a02a785e0d335f9761a76af88d22618be193f9d",
+    "results/research_next/common_refinement_jobs/PARENT_SOURCE_REVIEW.md": "080c309c04a1d3f80b85c1cdd15ce14d470be7da3d5f97dbd9981e004eee2cfd"
+  },
+  "freeze_sha256": "8053a3795c9ed14d53c84df5dddefa355fb29572be9ce213758bf75a3922347c",
+  "maximum_new_nominees": 8,
+  "maximum_optimizer_attempts": 24,
+  "overall_seconds": 2400,
+  "source_options_unchanged": true,
+  "seed_math_inherited_without_recomputation": true,
+  "prior_failed_attempt_optimizer_calls": 0,
+  "prior_failure_remains_separate": true,
+  "stop_on_first_declared_null_error_or_limit": true,
+  "no_automatic_retry_or_ninth_nomination": true,
+  "required_after_closure": [
+    "Independent actual backend/cut encoding and lifecycle review",
+    "Independent new nominee/proof or original full common-positive review",
+    "Final original and transport hashes against these captured values"
+  ],
+  "scientific_claims_provisional_until_independent_closure": true
+}

@@ -1,0 +1,50 @@
+{
+  "stop_reason": "NO_SINGLE_EXACT_MASTER_NOMINEE",
+  "completed_rounds": 0,
+  "new_cut_count": 0,
+  "seed_count": 336,
+  "cuts_with_completed_actual_transport": 336,
+  "total_cut_records": 336,
+  "terminal_cut_numeric_transport": "ADMITTED",
+  "one_adaptive_trajectory": true,
+  "no_global_infeasibility_claim": true,
+  "all_frozen_bytes_unchanged": true,
+  "error": null,
+  "ledger": {
+    "worker_launch_attempts": 1,
+    "optimizer_attempt_records": 1,
+    "optimizer_returned": 1,
+    "attempts_cancelled_before_optimizer": 0,
+    "entered_calls_from_return_or_error": 1,
+    "calls": [
+      {
+        "attempt": {
+          "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_refinement_jobs\\run01\\round_01\\master\\optimizer_attempt.json",
+          "bytes": 191,
+          "sha256": "8dfab59a025bcb461fa8411fd52ffaace63fa60a004b6cdd48f3f93985d2103e"
+        },
+        "returned": {
+          "utc": "2026-09-27T14:54:13.043028+00:00",
+          "attempted": 1,
+          "optimizer_entered": true,
+          "returned": 1,
+          "actual_seconds": 120.03080490004504,
+          "solver_soft_overrun": 0.030804900045040995
+        },
+        "cancelled_before_call": false
+      }
+    ],
+    "worker_closures": [
+      {
+        "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_refinement_jobs\\run01\\round_01\\master\\worker_closed.json",
+        "bytes": 992,
+        "sha256": "f8719ab1b2244a9257dd1535e75a49befc28de45fc4c3476fe3e19981469cd35"
+      }
+    ]
+  },
+  "provisional_until_completion": true,
+  "accepted_common": false,
+  "common_verdict": "UNKNOWN",
+  "phase_deadline_met": true,
+  "admission_monotonic": 283460.6970336
+}

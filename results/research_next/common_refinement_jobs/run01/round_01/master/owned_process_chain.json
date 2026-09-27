@@ -1,0 +1,31 @@
+{
+  "launcher_pid": 81996,
+  "actual_pid": 57176,
+  "actual_parent_pid": 81996,
+  "processes": [
+    {
+      "pid": 81996,
+      "role": "launcher",
+      "creation_filetime": 134349943082704112,
+      "any_job_before": {
+        "api_succeeded": true,
+        "win32_last_error": 0,
+        "in_job": true
+      }
+    },
+    {
+      "pid": 57176,
+      "role": "actual_python",
+      "creation_filetime": 134349943085633106,
+      "any_job_before": {
+        "api_succeeded": true,
+        "win32_last_error": 0,
+        "in_job": true
+      }
+    }
+  ],
+  "one_job_per_process": true,
+  "all_handles_captured_before_assignment": true,
+  "all_memberships_verified_before_GO": true,
+  "job_kill_on_close": true
+}

@@ -1,0 +1,31 @@
+{
+  "processes": [
+    {
+      "pid": 81996,
+      "role": "launcher",
+      "creation_filetime": 134349943082704112,
+      "any_job_before": {
+        "api_succeeded": true,
+        "win32_last_error": 0,
+        "in_job": true
+      }
+    },
+    {
+      "pid": 57176,
+      "role": "actual_python",
+      "creation_filetime": 134349943085633106,
+      "any_job_before": {
+        "api_succeeded": true,
+        "win32_last_error": 0,
+        "in_job": true
+      }
+    }
+  ],
+  "expected_processes": 2,
+  "all_retained_handles_reaped": true,
+  "unobserved_child_closure_unverified": false,
+  "actions": [],
+  "no_breakaway": true,
+  "no_outer_job_reconfiguration": true,
+  "no_name_based_kill": true
+}

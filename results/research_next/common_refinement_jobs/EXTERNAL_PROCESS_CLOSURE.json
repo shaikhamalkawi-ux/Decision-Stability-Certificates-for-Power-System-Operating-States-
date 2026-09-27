@@ -1,0 +1,28 @@
+{
+  "utc": "2026-09-27T14:56:04.0920433Z",
+  "scope": "Exact previously observed controller, parent, launcher and actual worker PIDs; no termination performed",
+  "all_absent": true,
+  "findings": [
+    {
+      "pid": 19896,
+      "present": false,
+      "observed": []
+    },
+    {
+      "pid": 86124,
+      "present": false,
+      "observed": []
+    },
+    {
+      "pid": 81996,
+      "present": false,
+      "observed": []
+    },
+    {
+      "pid": 57176,
+      "present": false,
+      "observed": []
+    }
+  ],
+  "external_cleanup_calls": 0
+}

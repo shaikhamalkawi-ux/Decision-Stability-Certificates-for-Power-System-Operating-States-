@@ -1,0 +1,47 @@
+{
+  "scope": "Reconciliation of existing records only; no new paper reading",
+  "all_distinct_work_records": 50,
+  "substantive_paper_or_preprint_records": 45,
+  "substantive_selected_or_indexed_body": 39,
+  "substantive_limited": 6,
+  "separate_nonpaper_records": 3,
+  "separate_background_metadata_or_code_only_papers": 2,
+  "all_work_body_or_excerpt_records": 41,
+  "new_readings": 0,
+  "by_type": {
+    "paper_or_preprint": 47,
+    "primary_supplement": 1,
+    "masters_thesis": 1,
+    "doctoral_dissertation": 1
+  },
+  "input_bindings": [
+    {
+      "path": "results/research_next/literature_accounting/literature_reading_ledger.csv",
+      "bytes": 18748,
+      "sha256": "37a981759fbb9774689a295ffad1274e9ef56f8866d55e5561821ad63ea63990"
+    },
+    {
+      "path": "results/research_next/reading_regret_2023.json",
+      "bytes": 1146,
+      "sha256": "1d717cdd455eeeeaa458307b0965a96bced31f01a55c360160493f729b8f4dd5"
+    },
+    {
+      "path": "results/research_next/reading_regret_uc_bounds.json",
+      "bytes": 1509,
+      "sha256": "1be6c7fe5c5ce0549b7cffdd22f42df46bdd42d51eebeb0038d4655536ae4f20"
+    },
+    {
+      "path": "results/research_next/reading_single_uc_dp.json",
+      "bytes": 844,
+      "sha256": "6fce680391fd977a8240c277efa38a839ea5eb7aa1ea56a09c1d458fce81d000"
+    },
+    {
+      "path": "results/research_next/reading_exact_lp_oracles.json",
+      "bytes": 689,
+      "sha256": "6b175bcef62618520d7fdbd650e27ae5deb05365466e652a234f5a7052dca640"
+    }
+  ],
+  "source_sha256": "50fc5a70b1fb774cdaefa96527ebfc527acb008b7a98cfedcac826b8b8d97ce5",
+  "ledger_sha256": "676d9093faeecb6730f9cc0520530783292cd02d2963f55318676912f6bc4582",
+  "limitation": "Depth is inherited from recorded selected sections, not an independent recreation of reading sessions; full-paper completion is not claimed."
+}

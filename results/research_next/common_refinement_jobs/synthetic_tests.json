@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "utc": "2026-09-27T14:37:13.609283+00:00",
+  "source_sha256": "fa1548f4d7765ac84e2f74a06df2fde640c713b85a1c27bdc29c99f3bb1b2973",
+  "protocol_sha256": "14f9a4f2fb11966eec851e1c69187945f2daa523f1d5fd1a5b389900ecdf7b1f",
+  "checks": [
+    "captured exact source executes; changed bytes fail before compile/exec",
+    "all creation identities and unique authenticated PIDs precede assignment",
+    "invented partial-job failure cleans unassigned retained handle; reverse reap; no vacuous closure",
+    "closing captured transport pin detects later file changes"
+  ],
+  "scientific_inputs_read": 0,
+  "seed_recomputations": 0,
+  "optimizer_calls": 0,
+  "backend_imports": 0,
+  "old_test_suites_repeated": false,
+  "real_processes_launched": 0
+}

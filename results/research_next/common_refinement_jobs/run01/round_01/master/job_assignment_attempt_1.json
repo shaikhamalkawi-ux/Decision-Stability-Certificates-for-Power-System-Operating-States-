@@ -1,0 +1,25 @@
+{
+  "utc": "2026-09-27T14:51:49.837214+00:00",
+  "order": 1,
+  "process": {
+    "pid": 81996,
+    "role": "launcher",
+    "creation_filetime": 134349943082704112,
+    "any_job_before": {
+      "api_succeeded": true,
+      "win32_last_error": 0,
+      "in_job": true
+    }
+  },
+  "new_job_index": 0,
+  "before_any": {
+    "api_succeeded": true,
+    "win32_last_error": 0,
+    "in_job": true
+  },
+  "before_selected": {
+    "api_succeeded": true,
+    "win32_last_error": 0,
+    "in_job": false
+  }
+}

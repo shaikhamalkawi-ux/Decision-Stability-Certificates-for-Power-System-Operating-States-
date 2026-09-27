@@ -1,0 +1,31 @@
+{
+  "session_id": 18854,
+  "initial_chunk_id": "0ca152",
+  "final_chunk_id": "a1358f",
+  "exit_code": 0,
+  "interpreter": "C:/Users/gmalkawi/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
+  "arguments": [
+    "-I",
+    "-S",
+    "src/researchnext_common_refinement_jobs.py",
+    "--run-prepared",
+    "--expected-freeze-sha256",
+    "8053a3795c9ed14d53c84df5dddefa355fb29572be9ce213758bf75a3922347c"
+  ],
+  "root_go_sha256": "da449965a1febf3bdeac8915c3355f7fd3a6ebc9c8cda864021432c74a69afc0",
+  "sole_controller_pid": 19896,
+  "controller_parent_pid": 86124,
+  "worker_launcher_pid": 81996,
+  "worker_actual_python_pid": 57176,
+  "scientific_runs": 1,
+  "retries": 0,
+  "stdout_final": {
+    "accepted_common": false,
+    "common_verdict": "UNKNOWN",
+    "phase_deadline_met": true,
+    "stop_reason": "NO_SINGLE_EXACT_MASTER_NOMINEE",
+    "optimizer_attempts": 1
+  },
+  "authoritative_completion_sha256": "5a81d136951fabdfaaa43e3134f801f8a5dfa13c365a20a1ec27fb7ce2526022",
+  "private_logs_published": false
+}

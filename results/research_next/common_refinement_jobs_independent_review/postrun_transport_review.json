@@ -1,0 +1,139 @@
+{
+  "status": "PASS_INDEPENDENT_BACKEND_TRANSPORT_AND_LEDGER",
+  "utc": "2026-09-27T15:03:59.590474+00:00",
+  "source_sha256": "b356d583f7ea16600d4bc5bfe64bbacf77a893360cf2fe30e63d590341341f8e",
+  "elapsed_seconds": 203.38503010000568,
+  "input_bindings": 1769,
+  "producer_outputs": 37,
+  "run_files": 32,
+  "all_pinned_bytes_unchanged": true,
+  "external_final_transport_gate": {
+    "freeze_sha256": "8053a3795c9ed14d53c84df5dddefa355fb29572be9ce213758bf75a3922347c",
+    "manifest_sha256": "4478c4637b2b81256cc31e9cdc2516b2112309c30096176d5df42ba205dd09a6",
+    "GO_sha256": "da449965a1febf3bdeac8915c3355f7fd3a6ebc9c8cda864021432c74a69afc0",
+    "pass": true
+  },
+  "workers": [
+    {
+      "folder": "round_01\\master",
+      "kind": "master",
+      "timed_out": false,
+      "ownership": {
+        "GO_issued": true,
+        "actual_OS_test_by_reviewer": false,
+        "cleanup": {
+          "processes": [
+            {
+              "pid": 81996,
+              "role": "launcher",
+              "creation_filetime": 134349943082704112,
+              "any_job_before": {
+                "api_succeeded": true,
+                "win32_last_error": 0,
+                "in_job": true
+              }
+            },
+            {
+              "pid": 57176,
+              "role": "actual_python",
+              "creation_filetime": 134349943085633106,
+              "any_job_before": {
+                "api_succeeded": true,
+                "win32_last_error": 0,
+                "in_job": true
+              }
+            }
+          ],
+          "expected_processes": 2,
+          "all_retained_handles_reaped": true,
+          "unobserved_child_closure_unverified": false,
+          "actions": [],
+          "no_breakaway": true,
+          "no_outer_job_reconfiguration": true,
+          "no_name_based_kill": true
+        },
+        "captured_processes": [
+          {
+            "pid": 81996,
+            "role": "launcher",
+            "creation_filetime": 134349943082704112,
+            "any_job_before": {
+              "api_succeeded": true,
+              "win32_last_error": 0,
+              "in_job": true
+            }
+          },
+          {
+            "pid": 57176,
+            "role": "actual_python",
+            "creation_filetime": 134349943085633106,
+            "any_job_before": {
+              "api_succeeded": true,
+              "win32_last_error": 0,
+              "in_job": true
+            }
+          }
+        ],
+        "assignment_results": [
+          {
+            "pid": 81996,
+            "new_job_index": 0,
+            "succeeded": true,
+            "win32_last_error": 0
+          },
+          {
+            "pid": 57176,
+            "new_job_index": 1,
+            "succeeded": true,
+            "win32_last_error": 0
+          }
+        ],
+        "timed_out": false,
+        "unobserved_child_selfexit_required": false
+      },
+      "solver_seconds": 120.03080490004504,
+      "backend": {
+        "backend_rows": 17548,
+        "backend_coefficient_uses": 111984,
+        "new_necessary_rows_independently_transport_checked": 336,
+        "producer_transport_checks": 336,
+        "numeric_master_readback_complete": true
+      },
+      "search_status": "timelimit",
+      "nodes": 2,
+      "LP_iterations": 102174,
+      "solution_count": 0,
+      "worker_number": 1,
+      "optimizer_attempt_record_present": true,
+      "optimizer_returned_record_present": true
+    }
+  ],
+  "worker_launches": 1,
+  "optimizer_attempts": 1,
+  "optimizer_returned": 1,
+  "optimizer_errors": 0,
+  "cancelled_before_call": 0,
+  "returned_solver_seconds": 120.03080490004504,
+  "solver_soft_overrun_seconds": 0.030804900045040995,
+  "phase_seconds": 290.7008039000211,
+  "producer_common_verdict": "UNKNOWN",
+  "scientific_certificate_nominee_positive_review": "Separate Find audit required; not replayed here.",
+  "encoder_author_disclosed": true,
+  "encoder_helper_imported": false,
+  "actual_outward_inequalities_independently_recomputed": true,
+  "inherited_seed_math_review_sha256": "205b8118a0a01d5cb63a1435b5b8dbdc0089ca1aad7e2cbb153b9117ac63738a",
+  "inherited_requested_encoding_review_sha256": "fa336a6b919b50df691f4ec01b8ef70cadd63e7f800f0fb4b3298c783c642a0f",
+  "seed_proof_recipe_recomputation": false,
+  "prepared_admission_repeated": false,
+  "new_OS_probes": 0,
+  "decoder_imported": false,
+  "producer_imports": 0,
+  "optimizer_calls_by_reviewer": 0,
+  "private_logs_read": false,
+  "new_candidates_or_coefficients": 0,
+  "limitations": [
+    "Recorded actual owned-process behavior only; no claim of unexercised timeout termination.",
+    "No recourse, phase-I or new cut ran; the numerical time limit is not infeasibility.",
+    "Inherited seed source proofs are covered by the pinned earlier mathematical review; no new nominee or full positive exists."
+  ]
+}

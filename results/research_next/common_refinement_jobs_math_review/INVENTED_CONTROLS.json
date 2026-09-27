@@ -1,0 +1,29 @@
+{
+  "status": "PASS_INVENTED_ONLY",
+  "source_sha256": "26f703af2e31761f45cdb3bc1609f49fddb731669c3e05f2d53ee18aa751a163",
+  "groups": 16,
+  "checks": [
+    "signed_full_residual",
+    "all_support_and_tau_terms",
+    "both_signs_and_cancellation",
+    "wrong_dual_sign_projected_to_zero",
+    "nomination_row_rejection",
+    "no_integrality_waiver",
+    "bad_complete_candidate_rejected",
+    "invalid_raw_nominee_rejected",
+    "valid_partial_master",
+    "valid_partial_recourse",
+    "valid_partial_phase1",
+    "missing_dependency_rejected_master",
+    "missing_dependency_rejected_recourse",
+    "missing_dependency_rejected_phase1",
+    "late_or_partial_positive_stays_unknown",
+    "empty_positive_claim_rejected"
+  ],
+  "scientific_inputs_read": 0,
+  "scientific_replays": 0,
+  "optimizer_calls": 0,
+  "backend_imports": 0,
+  "producer_imports": 0,
+  "helper_imports": 0
+}

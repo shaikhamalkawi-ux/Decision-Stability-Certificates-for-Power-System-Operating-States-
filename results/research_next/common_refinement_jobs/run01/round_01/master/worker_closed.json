@@ -1,0 +1,33 @@
+{
+  "kind": "master",
+  "worker_number": 1,
+  "worker_launch_attempted": 1,
+  "optimizer_attempted": 1,
+  "timed_out": false,
+  "launcher_pid": 81996,
+  "exit_code": 0,
+  "optimizer_returned": 1,
+  "completion": {
+    "utc": "2026-09-27T14:54:29.399781+00:00",
+    "final_admission": {
+      "accepted_common": false,
+      "common_verdict": "UNKNOWN",
+      "kind": "master",
+      "all_actual_cut_transports_admitted": true,
+      "transport_only_checks_new_terminal_cut": false,
+      "status": "timelimit",
+      "solution_count": 0,
+      "nodes": 2,
+      "LP_iterations": 102174,
+      "nominee_accepted": false,
+      "reason": "NO_SINGLE_RETURNED_SOLUTION",
+      "provisional_until_completion": true,
+      "phase_deadline_met": true
+    },
+    "remaining_phase": 2133.5172471000114,
+    "final_write_outside_sample": true
+  },
+  "elapsed_seconds": 163.30058009998174,
+  "owned_handles_reaped": true,
+  "unobserved_child_selfexit_required": false
+}

@@ -1,0 +1,45 @@
+{
+  "status": "PASS_INDEPENDENT_RECOVERY_MATHEMATICS",
+  "source_sha256": "26f703af2e31761f45cdb3bc1609f49fddb731669c3e05f2d53ee18aa751a163",
+  "freeze_sha256": "8053a3795c9ed14d53c84df5dddefa355fb29572be9ce213758bf75a3922347c",
+  "manifest_sha256": "4478c4637b2b81256cc31e9cdc2516b2112309c30096176d5df42ba205dd09a6",
+  "completion_sha256": "5a81d136951fabdfaaa43e3134f801f8a5dfa13c365a20a1ec27fb7ce2526022",
+  "inventory_sha256": "d34511df7670d47c044166e5de09522958e4fdde38e56672e13b6150e654f95c",
+  "input_bindings": 1769,
+  "closed_public_files": 37,
+  "closed_run_payloads": 31,
+  "inherited_seed_count": 336,
+  "inherited_seed_mathematics_review_sha256": "205b8118a0a01d5cb63a1435b5b8dbdc0089ca1aad7e2cbb153b9117ac63738a",
+  "inherited_seed_math_replays": 0,
+  "new_seed_evaluations": 0,
+  "rounds": [
+    {
+      "round": 1,
+      "raw_master_present": false,
+      "exact_master_admission": false,
+      "producer_nomination": false,
+      "status": "NO_SAVED_MASTER_VECTOR"
+    }
+  ],
+  "new_saved_full_phase_proofs": 0,
+  "exact_master_points": 0,
+  "published_new_nominees": 0,
+  "positive": [],
+  "claim": {
+    "producer_common_verdict": "UNKNOWN",
+    "mathematical_positive_saved": false,
+    "authoritative_common_positive": false,
+    "global_infeasibility_proved": false
+  },
+  "all_mathematical_files_accounted": 1,
+  "separate_backend_encoding_lifecycle_review": "REQUIRED; not replaced by mathematical admission",
+  "decoder_source_sha256": "708c3843425eea494a0561e83a275f7059f22bcd546a036705323d056bcf906f",
+  "historical_native_pure_function_source_sha256": null,
+  "old_full_point_replays": 0,
+  "optimizer_calls": 0,
+  "producer_arithmetic_imports": 0,
+  "encoding_helper_imports": 0,
+  "all_input_output_bytes_unchanged": true,
+  "elapsed_seconds": 260.60313210001914,
+  "scope": "Only new saved trajectory mathematics for this fixed expanded pair. Exact cut rejection excludes its nominated state, not all common commitments. Missing producer derivatives cannot be promoted to authoritative admission."
+}

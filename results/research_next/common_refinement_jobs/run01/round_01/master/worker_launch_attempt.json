@@ -1,0 +1,19 @@
+{
+  "utc": "2026-09-27T14:51:48.223735+00:00",
+  "worker_launch_attempted": 1,
+  "not_optimizer_attempt": true,
+  "command": [
+    "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\scip_capability_env01\\Scripts\\python.exe",
+    "-I",
+    "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\src\\researchnext_common_refinement_jobs.py",
+    "--worker",
+    "--expected-freeze-sha256",
+    "8053a3795c9ed14d53c84df5dddefa355fb29572be9ce213758bf75a3922347c",
+    "--request",
+    "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_refinement_jobs\\run01\\round_01\\master\\request.json",
+    "--expected-request-sha256",
+    "95f987838ffeddb9d2721e1db0f89ffdf9971c77412f9e3bd0987e5d103015f0"
+  ],
+  "request_sha256": "95f987838ffeddb9d2721e1db0f89ffdf9971c77412f9e3bd0987e5d103015f0",
+  "remaining": 2294.694030600018
+}
