@@ -1,0 +1,20 @@
+{
+  "utc": "2026-09-27T00:51:28.613043+00:00",
+  "status": "EXACT_NATIVE_ADDENDUM_PREPARED",
+  "native_files": 17,
+  "native_bytes": 3734672,
+  "all_copies_match_each_referencing_manifest": true,
+  "conflicting_provenance": [],
+  "upstream_raw_files": 8,
+  "upstream_raw_bytes": 3462535,
+  "raw_hashes_match_existing_pinned_acquisition_lock": true,
+  "upstream_commit": "3ece0d3725c844056132393ee252b3083dd4eab4",
+  "upstream_full_readme_url": "https://raw.githubusercontent.com/GridMod/RTS-GMLC/3ece0d3725c844056132393ee252b3083dd4eab4/README.md",
+  "upstream_full_readme_sha256": "9643002ac6b0d0eb85351c8477a3155ec082fd0583a17fb20b9756bc17ecba63",
+  "upstream_full_readme_bytes": 4778,
+  "applicable_data_permission": "Custom DATA USE DISCLAIMER AGREEMENT in the exact pinned README; not an inferred SPDX license",
+  "LF_model_matches_included_source_after_declared_normalization": true,
+  "old_manifests_modified": 0,
+  "optimization_calls": 0,
+  "second_machine_test": false
+}

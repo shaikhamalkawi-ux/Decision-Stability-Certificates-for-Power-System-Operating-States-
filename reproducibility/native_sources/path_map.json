@@ -1,0 +1,15 @@
+{
+  "format": "original-prefix to relative package-root destination; expand destinations to absolute paths before passing --path-map",
+  "maps": [
+    {
+      "original_prefix": "C:/Users/gmalkawi/.codex/worktrees/dsc-temporal-information/3",
+      "portable_relative_root": "."
+    },
+    {
+      "original_prefix": "C:/Users/gmalkawi/.codex/worktrees/dsc-v8r1-evidence/3/.work/v8r1_rts_inputs",
+      "portable_relative_root": "reproducibility/native_sources/rts_inputs"
+    }
+  ],
+  "historical_manifest_bytes_unchanged": true,
+  "rewrite_manifest_paths": false
+}
