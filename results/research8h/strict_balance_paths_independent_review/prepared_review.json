@@ -1,0 +1,72 @@
+{
+  "status": "INDEPENDENT_STRICT_PATH_PREPARED_PASS",
+  "frozen_bindings": 31,
+  "manifest_sha256": "c418af87aba6912c8ed70d65233eed828e6d83772ad8ce5a2ede70d0ac2cfd6f",
+  "source_sha256": "4622945e972313ac073f9c04bb55d179c7b4491533e03b44ae31accd06c1a0cd",
+  "protocol_sha256": "6c28f25ae326bdf1fc195d8dccba270c02f464567fe90f02df76b85027b1f735",
+  "all_hashes_match_before_after": true,
+  "models": [
+    {
+      "month": 1,
+      "rows": 34680,
+      "columns": 23016,
+      "branch_rows": 6384,
+      "balance_groups": 168,
+      "exact_branch_pairs_and_symmetric_limits": true,
+      "common_hour_normalized_block": true,
+      "reference_index": 12,
+      "reference_bus_ID": 113,
+      "reference_is_column_bound": true,
+      "graph_connected": true,
+      "no_path_or_support_computation": true
+    },
+    {
+      "month": 4,
+      "rows": 34680,
+      "columns": 23016,
+      "branch_rows": 6384,
+      "balance_groups": 168,
+      "exact_branch_pairs_and_symmetric_limits": true,
+      "common_hour_normalized_block": true,
+      "reference_index": 12,
+      "reference_bus_ID": 113,
+      "reference_is_column_bound": true,
+      "graph_connected": true,
+      "no_path_or_support_computation": true
+    },
+    {
+      "month": 7,
+      "rows": 34680,
+      "columns": 23016,
+      "branch_rows": 6384,
+      "balance_groups": 168,
+      "exact_branch_pairs_and_symmetric_limits": true,
+      "common_hour_normalized_block": true,
+      "reference_index": 12,
+      "reference_bus_ID": 113,
+      "reference_is_column_bound": true,
+      "graph_connected": true,
+      "no_path_or_support_computation": true
+    },
+    {
+      "month": 10,
+      "rows": 34680,
+      "columns": 23016,
+      "branch_rows": 6384,
+      "balance_groups": 168,
+      "exact_branch_pairs_and_symmetric_limits": true,
+      "common_hour_normalized_block": true,
+      "reference_index": 12,
+      "reference_bus_ID": 113,
+      "reference_is_column_bound": true,
+      "graph_connected": true,
+      "no_path_or_support_computation": true
+    }
+  ],
+  "diagnostic_orientations_executed": 0,
+  "optimizer_calls": 0,
+  "path_computations": 0,
+  "execution_marker_absent": true,
+  "review_source_sha256": "238b223feadd94e04b48666f22bc8e36713092783cba43b9b4784087e34276e5",
+  "elapsed_s": 1.0781038000131957
+}

@@ -1,0 +1,20 @@
+{
+  "utc": "2026-09-27T01:55:36.297663+00:00",
+  "orientation_denominator": 1344,
+  "hour_week_denominator": 672,
+  "evaluated_orientations": 1344,
+  "not_evaluated": 0,
+  "strict_separating_orientations": 0,
+  "expanded_separating_orientations": 0,
+  "status_counts": {
+    "VALID_NONSEPARATING_RATIONAL_CANDIDATE": 1344
+  },
+  "all_frozen_hashes_unchanged": true,
+  "validation_seconds": 1.568905199994333,
+  "arithmetic_phase_seconds": 17.478677600010997,
+  "phase_soft_overrun_s": 0.0,
+  "optimizer_calls": 0,
+  "path_metrics_tried": 1,
+  "all_nonreference_coordinates_use_paths": true,
+  "independent_postrun_review_required": true
+}

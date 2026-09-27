@@ -1,0 +1,7 @@
+{
+  "event": "Prior design-only structural inspection initially assumed reference index zero and stopped at that assertion.",
+  "correction": "The unchanged archives instead pin index 12, bus 113. Current code discovers and validates the actual zero column pin.",
+  "initial_assertion_failure_retained": true,
+  "new_path_bounds_or_separations_in_that_inspection": 0,
+  "original_files_changed": false
+}

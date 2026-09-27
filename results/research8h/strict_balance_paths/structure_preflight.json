@@ -1,0 +1,63 @@
+{
+  "months": [
+    {
+      "month": 1,
+      "rows": 34680,
+      "columns": 23016,
+      "branch_rows": 6384,
+      "exact_opposite_branch_coefficients": true,
+      "symmetric_finite_limits": true,
+      "reference_bus_index": 12,
+      "reference_bus_ID": 113,
+      "reference_is_column_bound": true,
+      "common_hour_normalized_block": true,
+      "graph_connected": true,
+      "no_paths_or_balance_diagnostics_computed": true
+    },
+    {
+      "month": 4,
+      "rows": 34680,
+      "columns": 23016,
+      "branch_rows": 6384,
+      "exact_opposite_branch_coefficients": true,
+      "symmetric_finite_limits": true,
+      "reference_bus_index": 12,
+      "reference_bus_ID": 113,
+      "reference_is_column_bound": true,
+      "common_hour_normalized_block": true,
+      "graph_connected": true,
+      "no_paths_or_balance_diagnostics_computed": true
+    },
+    {
+      "month": 7,
+      "rows": 34680,
+      "columns": 23016,
+      "branch_rows": 6384,
+      "exact_opposite_branch_coefficients": true,
+      "symmetric_finite_limits": true,
+      "reference_bus_index": 12,
+      "reference_bus_ID": 113,
+      "reference_is_column_bound": true,
+      "common_hour_normalized_block": true,
+      "graph_connected": true,
+      "no_paths_or_balance_diagnostics_computed": true
+    },
+    {
+      "month": 10,
+      "rows": 34680,
+      "columns": 23016,
+      "branch_rows": 6384,
+      "exact_opposite_branch_coefficients": true,
+      "symmetric_finite_limits": true,
+      "reference_bus_index": 12,
+      "reference_bus_ID": 113,
+      "reference_is_column_bound": true,
+      "common_hour_normalized_block": true,
+      "graph_connected": true,
+      "no_paths_or_balance_diagnostics_computed": true
+    }
+  ],
+  "elapsed_s": 2.620221000019228,
+  "diagnostic_orientations_executed": 0,
+  "optimization_calls": 0
+}

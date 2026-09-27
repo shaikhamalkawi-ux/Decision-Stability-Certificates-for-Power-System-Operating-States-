@@ -1,0 +1,1570 @@
+{
+  "reference_bus_index": 12,
+  "reference_bus_ID": 113,
+  "metric": "strict exact R/abs(b)",
+  "tie_break": "exact distance, complete ordered base-hour original row-ID tuple, final heap bus index",
+  "base_model_month": 1,
+  "base_hour": 0,
+  "paths": [
+    {
+      "bus_index": 0,
+      "strict_distance": {
+        "numerator": "135023762070834486935417039635565466325043525977341645396377600",
+        "denominator": "152778105738732608176527430725814662151428702174431071788006357"
+      },
+      "ordered_base_hour_row_ids": [
+        24305,
+        24303,
+        24296,
+        24290
+      ],
+      "steps": [
+        {
+          "base_hour_row": 24305,
+          "from_bus": 12,
+          "to_bus": 10,
+          "multiplier": {
+            "numerator": "2199023255552",
+            "denominator": "4581298449066667"
+          }
+        },
+        {
+          "base_hour_row": 24303,
+          "from_bus": 10,
+          "to_bus": 9,
+          "multiplier": {
+            "numerator": "4398046511104",
+            "denominator": "5158393749828759"
+          }
+        },
+        {
+          "base_hour_row": 24296,
+          "from_bus": 9,
+          "to_bus": 4,
+          "multiplier": {
+            "numerator": "2199023255552",
+            "denominator": "2498890063127273"
+          }
+        },
+        {
+          "base_hour_row": 24290,
+          "from_bus": 4,
+          "to_bus": 0,
+          "multiplier": {
+            "numerator": "2199023255552",
+            "denominator": "2587086183002353"
+          }
+        }
+      ],
+      "exact_path_coefficient_identity": true
+    },
+    {
+      "bus_index": 1,
+      "strict_distance": {
+        "numerator": "544913351301111036793498493178722622314017588257305694201002709724618660249600",
+        "denominator": "599933227604741939637528257363428154953221784158579658876754526271959441258051"
+      },
+      "ordered_base_hour_row_ids": [
+        24305,
+        24303,
+        24296,
+        24290,
+        24288
+      ],
+      "steps": [
+        {
+          "base_hour_row": 24305,
+          "from_bus": 12,
+          "to_bus": 10,
+          "multiplier": {
+            "numerator": "2199023255552",
+            "denominator": "4581298449066667"
+          }
+        },
+        {
+          "base_hour_row": 24303,
+          "from_bus": 10,
+          "to_bus": 9,
+          "multiplier": {
+            "numerator": "4398046511104",
+            "denominator": "5158393749828759"
+          }
+        },
+        {
+          "base_hour_row": 24296,
+          "from_bus": 9,
+          "to_bus": 4,
+          "multiplier": {
+            "numerator": "2199023255552",
+            "denominator": "2498890063127273"
+          }
+        },
+        {
+          "base_hour_row": 24290,
+          "from_bus": 4,
+          "to_bus": 0,
+          "multiplier": {
+            "numerator": "2199023255552",
+            "denominator": "2587086183002353"
+          }
+        },
+        {
+          "base_hour_row": 24288,
+          "from_bus": 0,
+          "to_bus": 1,
+          "multiplier": {
+            "numerator": "-549755813888",
+            "denominator": "3926827242057143"
+          }
+        }
+      ],
+      "exact_path_coefficient_identity": true
+    },
+    {
+      "bus_index": 2,
+      "strict_distance": {
+        "numerator": "8545859070908559550288665615635570910822400000",
+        "denominator": "10758575240653833091609968269654034613678369593"
+      },
+      "ordered_base_hour_row_ids": [
+        24305,
+        24301,
+        24293
+      ],
+      "steps": [
+        {
+          "base_hour_row": 24305,
+          "from_bus": 12,
+          "to_bus": 10,
+          "multiplier": {
+            "numerator": "2199023255552",
+            "denominator": "4581298449066667"
+          }
+        },
+        {
+          "base_hour_row": 24301,
+          "from_bus": 10,
+          "to_bus": 8,
+          "multiplier": {
+            "numerator": "2199023255552",
+            "denominator": "2541635755376791"
+          }
+        },
+        {
+          "base_hour_row": 24293,
+          "from_bus": 8,
+          "to_bus": 2,
+          "multiplier": {
+            "numerator": "1099511627776",
+            "denominator": "923959351072269"
+          }
+        }
+      ],
+      "exact_path_coefficient_identity": true
+    },
+    {
+      "bus_index": 3,
+      "strict_distance": {
+        "numerator": "75642317694625085421809942861403367386644480000",
+        "denominator": "98482342587523540112435906314464432386083901969"
+      },
+      "ordered_base_hour_row_ids": [
+        24305,
+        24301,
+        24295
+      ],
+      "steps": [
+        {
+          "base_hour_row": 24305,
+          "from_bus": 12,
+          "to_bus": 10,
+          "multiplier": {
+            "numerator": "2199023255552",
+            "denominator": "4581298449066667"
+          }
+        },
+        {
+          "base_hour_row": 24301,
+          "from_bus": 10,
+          "to_bus": 8,
+          "multiplier": {
+            "numerator": "2199023255552",
+            "denominator": "2541635755376791"
+          }
+        },
+        {
+          "base_hour_row": 24295,
+          "from_bus": 8,
+          "to_bus": 3,
+          "multiplier": {
+            "numerator": "8796093022208",
+            "denominator": "8457781752123077"
+          }
+        }
+      ],
+      "exact_path_coefficient_identity": true
+    },
+    {
+      "bus_index": 4,
+      "strict_distance": {
+        "numerator": "43407142591544610703587162389300599117473382400",
+        "denominator": "59054123029419640259830959915216430925814348069"
+      },
+      "ordered_base_hour_row_ids": [
+        24305,
+        24303,
+        24296
+      ],
+      "steps": [
+        {
+          "base_hour_row": 24305,
+          "from_bus": 12,
+          "to_bus": 10,
+          "multiplier": {
+            "numerator": "2199023255552",
+            "denominator": "4581298449066667"
+          }
+        },
+        {
+          "base_hour_row": 24303,
+          "from_bus": 10,
+          "to_bus": 9,
+          "multiplier": {
+            "numerator": "4398046511104",
+            "denominator": "5158393749828759"
+          }
+        },
+        {
+          "base_hour_row": 24296,
+          "from_bus": 9,
+          "to_bus": 4,
+          "multiplier": {
+            "numerator": "2199023255552",
+            "denominator": "2498890063127273"
+          }
+        }
+      ],
+      "exact_path_coefficient_identity": true
+    },
+    {
+      "bus_index": 5,
+      "strict_distance": {
+        "numerator": "58594778762288501904238271322658029407987302400",
+        "denominator": "85192833222769308960494384778028172045320331619"
+      },
+      "ordered_base_hour_row_ids": [
+        24305,
+        24303,
+        24297
+      ],
+      "steps": [
+        {
+          "base_hour_row": 24305,
+          "from_bus": 12,
+          "to_bus": 10,
+          "multiplier": {
+            "numerator": "2199023255552",
+            "denominator": "4581298449066667"
+          }
+        },
+        {
+          "base_hour_row": 24303,
+          "from_bus": 10,
+          "to_bus": 9,
+          "multiplier": {
+            "numerator": "4398046511104",
+            "denominator": "5158393749828759"
+          }
+        },
+        {
+          "base_hour_row": 24297,
+          "from_bus": 9,
+          "to_bus": 5,
+          "multiplier": {
+            "numerator": "2199023255552",
+            "denominator": "3604956156642623"
+          }
+        }
+      ],
+      "exact_path_coefficient_identity": true
+    },
+    {
+      "bus_index": 6,
+      "strict_distance": {
+        "numerator": "3959870153673274791810259132154757076120279915088394479206400",
+        "denominator": "4055000464572137073697165420262620598947941959261368264818651"
+      },
+      "ordered_base_hour_row_ids": [
+        24305,
+        24303,
+        24300,
+        24298
+      ],
+      "steps": [
+        {
+          "base_hour_row": 24305,
+          "from_bus": 12,
+          "to_bus": 10,
+          "multiplier": {
+            "numerator": "2199023255552",
+            "denominator": "4581298449066667"
+          }
+        },
+        {
+          "base_hour_row": 24303,
+          "from_bus": 10,
+          "to_bus": 9,
+          "multiplier": {
+            "numerator": "4398046511104",
+            "denominator": "5158393749828759"
+          }
+        },
+        {
+          "base_hour_row": 24300,
+          "from_bus": 9,
+          "to_bus": 7,
+          "multiplier": {
+            "numerator": "549755813888",
+            "denominator": "333185341750303"
+          }
+        },
+        {
+          "base_hour_row": 24298,
+          "from_bus": 7,
+          "to_bus": 6,
+          "multiplier": {
+            "numerator": "2199023255552",
+            "denominator": "3604956156642623"
+          }
+        }
+      ],
+      "exact_path_coefficient_identity": true
+    },
+    {
+      "bus_index": 7,
+      "strict_distance": {
+        "numerator": "978374965138264752276352488482691745212006400",
+        "denominator": "1124840438655611970357339372045243842257179237"
+      },
+      "ordered_base_hour_row_ids": [
+        24305,
+        24303,
+        24300
+      ],
+      "steps": [
+        {
+          "base_hour_row": 24305,
+          "from_bus": 12,
+          "to_bus": 10,
+          "multiplier": {
+            "numerator": "2199023255552",
+            "denominator": "4581298449066667"
+          }
+        },
+        {
+          "base_hour_row": 24303,
+          "from_bus": 10,
+          "to_bus": 9,
+          "multiplier": {
+            "numerator": "4398046511104",
+            "denominator": "5158393749828759"
+          }
+        },
+        {
+          "base_hour_row": 24300,
+          "from_bus": 9,
+          "to_bus": 7,
+          "multiplier": {
+            "numerator": "549755813888",
+            "denominator": "333185341750303"
+          }
+        }
+      ],
+      "exact_path_coefficient_identity": true
+    },
+    {
+      "bus_index": 8,
+      "strict_distance": {
+        "numerator": "6824310798656783025511700889600",
+        "denominator": "11643991944200079249800863525597"
+      },
+      "ordered_base_hour_row_ids": [
+        24305,
+        24301
+      ],
+      "steps": [
+        {
+          "base_hour_row": 24305,
+          "from_bus": 12,
+          "to_bus": 10,
+          "multiplier": {
+            "numerator": "2199023255552",
+            "denominator": "4581298449066667"
+          }
+        },
+        {
+          "base_hour_row": 24301,
+          "from_bus": 10,
+          "to_bus": 8,
+          "multiplier": {
+            "numerator": "2199023255552",
+            "denominator": "2541635755376791"
+          }
+        }
+      ],
+      "exact_path_coefficient_identity": true
+    },
+    {
+      "bus_index": 9,
+      "strict_distance": {
+        "numerator": "13731219372681291747128718131200",
+        "denominator": "23632141285765682258414624876253"
+      },
+      "ordered_base_hour_row_ids": [
+        24305,
+        24303
+      ],
+      "steps": [
+        {
+          "base_hour_row": 24305,
+          "from_bus": 12,
+          "to_bus": 10,
+          "multiplier": {
+            "numerator": "2199023255552",
+            "denominator": "4581298449066667"
+          }
+        },
+        {
+          "base_hour_row": 24303,
+          "from_bus": 10,
+          "to_bus": 9,
+          "multiplier": {
+            "numerator": "4398046511104",
+            "denominator": "5158393749828759"
+          }
+        }
+      ],
+      "exact_path_coefficient_identity": true
+    },
+    {
+      "bus_index": 10,
+      "strict_distance": {
+        "numerator": "1099511627776000",
+        "denominator": "4581298449066667"
+      },
+      "ordered_base_hour_row_ids": [
+        24305
+      ],
+      "steps": [
+        {
+          "base_hour_row": 24305,
+          "from_bus": 12,
+          "to_bus": 10,
+          "multiplier": {
+            "numerator": "2199023255552",
+            "denominator": "4581298449066667"
+          }
+        }
+      ],
+      "exact_path_coefficient_identity": true
+    },
+    {
+      "bus_index": 11,
+      "strict_distance": {
+        "numerator": "1099511627776000",
+        "denominator": "4581298449066667"
+      },
+      "ordered_base_hour_row_ids": [
+        24307
+      ],
+      "steps": [
+        {
+          "base_hour_row": 24307,
+          "from_bus": 12,
+          "to_bus": 11,
+          "multiplier": {
+            "numerator": "2199023255552",
+            "denominator": "4581298449066667"
+          }
+        }
+      ],
+      "exact_path_coefficient_identity": true
+    },
+    {
+      "bus_index": 12,
+      "strict_distance": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "ordered_base_hour_row_ids": [],
+      "steps": [],
+      "exact_path_coefficient_identity": true
+    },
+    {
+      "bus_index": 13,
+      "strict_distance": {
+        "numerator": "1079398053227347461708919603200",
+        "denominator": "2398662340505216572849094135873"
+      },
+      "ordered_base_hour_row_ids": [
+        24305,
+        24306
+      ],
+      "steps": [
+        {
+          "base_hour_row": 24305,
+          "from_bus": 12,
+          "to_bus": 10,
+          "multiplier": {
+            "numerator": "2199023255552",
+            "denominator": "4581298449066667"
+          }
+        },
+        {
+          "base_hour_row": 24306,
+          "from_bus": 10,
+          "to_bus": 13,
+          "multiplier": {
+            "numerator": "-1099511627776",
+            "denominator": "2617884828038095"
+          }
+        }
+      ],
+      "exact_path_coefficient_identity": true
+    },
+    {
+      "bus_index": 14,
+      "strict_distance": {
+        "numerator": "9598556386274900876916098199501787981039737807650087659110400",
+        "denominator": "11564525766596266449885222868901468515103199061117639158756143"
+      },
+      "ordered_base_hour_row_ids": [
+        24305,
+        24306,
+        24310,
+        24311
+      ],
+      "steps": [
+        {
+          "base_hour_row": 24305,
+          "from_bus": 12,
+          "to_bus": 10,
+          "multiplier": {
+            "numerator": "2199023255552",
+            "denominator": "4581298449066667"
+          }
+        },
+        {
+          "base_hour_row": 24306,
+          "from_bus": 10,
+          "to_bus": 13,
+          "multiplier": {
+            "numerator": "-1099511627776",
+            "denominator": "2617884828038095"
+          }
+        },
+        {
+          "base_hour_row": 24310,
+          "from_bus": 13,
+          "to_bus": 15,
+          "multiplier": {
+            "numerator": "-4398046511104",
+            "denominator": "7454316120515255"
+          }
+        },
+        {
+          "base_hour_row": 24311,
+          "from_bus": 15,
+          "to_bus": 14,
+          "multiplier": {
+            "numerator": "549755813888",
+            "denominator": "3233857728752941"
+          }
+        }
+      ],
+      "exact_path_coefficient_identity": true
+    },
+    {
+      "bus_index": 15,
+      "strict_distance": {
+        "numerator": "2664177715522632151407795644196429928752742400",
+        "denominator": "3576077470500177521467434421935786834347848523"
+      },
+      "ordered_base_hour_row_ids": [
+        24305,
+        24306,
+        24310
+      ],
+      "steps": [
+        {
+          "base_hour_row": 24305,
+          "from_bus": 12,
+          "to_bus": 10,
+          "multiplier": {
+            "numerator": "2199023255552",
+            "denominator": "4581298449066667"
+          }
+        },
+        {
+          "base_hour_row": 24306,
+          "from_bus": 10,
+          "to_bus": 13,
+          "multiplier": {
+            "numerator": "-1099511627776",
+            "denominator": "2617884828038095"
+          }
+        },
+        {
+          "base_hour_row": 24310,
+          "from_bus": 13,
+          "to_bus": 15,
+          "multiplier": {
+            "numerator": "-4398046511104",
+            "denominator": "7454316120515255"
+          }
+        }
+      ],
+      "exact_path_coefficient_identity": true
+    },
+    {
+      "bus_index": 16,
+      "strict_distance": {
+        "numerator": "2405906584309363196491305282978692509330320163085908495564800",
+        "denominator": "2749607524924986603696782314992255802696151899500052949878661"
+      },
+      "ordered_base_hour_row_ids": [
+        24305,
+        24306,
+        24310,
+        24315
+      ],
+      "steps": [
+        {
+          "base_hour_row": 24305,
+          "from_bus": 12,
+          "to_bus": 10,
+          "multiplier": {
+            "numerator": "2199023255552",
+            "denominator": "4581298449066667"
+          }
+        },
+        {
+          "base_hour_row": 24306,
+          "from_bus": 10,
+          "to_bus": 13,
+          "multiplier": {
+            "numerator": "-1099511627776",
+            "denominator": "2617884828038095"
+          }
+        },
+        {
+          "base_hour_row": 24310,
+          "from_bus": 13,
+          "to_bus": 15,
+          "multiplier": {
+            "numerator": "-4398046511104",
+            "denominator": "7454316120515255"
+          }
+        },
+        {
+          "base_hour_row": 24315,
+          "from_bus": 15,
+          "to_bus": 16,
+          "multiplier": {
+            "numerator": "-2199023255552",
+            "denominator": "8457781752123077"
+          }
+        }
+      ],
+      "exact_path_coefficient_identity": true
+    },
+    {
+      "bus_index": 17,
+      "strict_distance": {
+        "numerator": "10203385878479510503832857078049017495579048685185955146662130159892981350400",
+        "denominator": "10797233733840752224678371211750460336885428800860320312019118134997878325523"
+      },
+      "ordered_base_hour_row_ids": [
+        24305,
+        24306,
+        24310,
+        24315,
+        24317
+      ],
+      "steps": [
+        {
+          "base_hour_row": 24305,
+          "from_bus": 12,
+          "to_bus": 10,
+          "multiplier": {
+            "numerator": "2199023255552",
+            "denominator": "4581298449066667"
+          }
+        },
+        {
+          "base_hour_row": 24306,
+          "from_bus": 10,
+          "to_bus": 13,
+          "multiplier": {
+            "numerator": "-1099511627776",
+            "denominator": "2617884828038095"
+          }
+        },
+        {
+          "base_hour_row": 24310,
+          "from_bus": 13,
+          "to_bus": 15,
+          "multiplier": {
+            "numerator": "-4398046511104",
+            "denominator": "7454316120515255"
+          }
+        },
+        {
+          "base_hour_row": 24315,
+          "from_bus": 15,
+          "to_bus": 16,
+          "multiplier": {
+            "numerator": "-2199023255552",
+            "denominator": "8457781752123077"
+          }
+        },
+        {
+          "base_hour_row": 24317,
+          "from_bus": 16,
+          "to_bus": 17,
+          "multiplier": {
+            "numerator": "-549755813888",
+            "denominator": "3926827242057143"
+          }
+        }
+      ],
+      "exact_path_coefficient_identity": true
+    },
+    {
+      "bus_index": 18,
+      "strict_distance": {
+        "numerator": "5881986256615065476461985689279",
+        "denominator": "7895283565926262595596942846395"
+      },
+      "ordered_base_hour_row_ids": [
+        24309,
+        24323,
+        24321
+      ],
+      "steps": [
+        {
+          "base_hour_row": 24309,
+          "from_bus": 12,
+          "to_bus": 22,
+          "multiplier": {
+            "numerator": "-549755813888",
+            "denominator": "631903234354023"
+          }
+        },
+        {
+          "base_hour_row": 24323,
+          "from_bus": 22,
+          "to_bus": 19,
+          "multiplier": {
+            "numerator": "549755813888",
+            "denominator": "2498890063127273"
+          }
+        },
+        {
+          "base_hour_row": 24321,
+          "from_bus": 19,
+          "to_bus": 18,
+          "multiplier": {
+            "numerator": "1",
+            "denominator": "2500"
+          }
+        }
+      ],
+      "exact_path_coefficient_identity": true
+    },
+    {
+      "bus_index": 19,
+      "strict_distance": {
+        "numerator": "860585908685962591468519424000",
+        "denominator": "1579056713185252519119388569279"
+      },
+      "ordered_base_hour_row_ids": [
+        24309,
+        24323
+      ],
+      "steps": [
+        {
+          "base_hour_row": 24309,
+          "from_bus": 12,
+          "to_bus": 22,
+          "multiplier": {
+            "numerator": "-549755813888",
+            "denominator": "631903234354023"
+          }
+        },
+        {
+          "base_hour_row": 24323,
+          "from_bus": 22,
+          "to_bus": 19,
+          "multiplier": {
+            "numerator": "549755813888",
+            "denominator": "2498890063127273"
+          }
+        }
+      ],
+      "exact_path_coefficient_identity": true
+    },
+    {
+      "bus_index": 20,
+      "strict_distance": {
+        "numerator": "11607026263878808280275010398424853473891288112920357040865752289005430374400",
+        "denominator": "10797233733840752224678371211750460336885428800860320312019118134997878325523"
+      },
+      "ordered_base_hour_row_ids": [
+        24305,
+        24306,
+        24310,
+        24315,
+        24317,
+        24319
+      ],
+      "steps": [
+        {
+          "base_hour_row": 24305,
+          "from_bus": 12,
+          "to_bus": 10,
+          "multiplier": {
+            "numerator": "2199023255552",
+            "denominator": "4581298449066667"
+          }
+        },
+        {
+          "base_hour_row": 24306,
+          "from_bus": 10,
+          "to_bus": 13,
+          "multiplier": {
+            "numerator": "-1099511627776",
+            "denominator": "2617884828038095"
+          }
+        },
+        {
+          "base_hour_row": 24310,
+          "from_bus": 13,
+          "to_bus": 15,
+          "multiplier": {
+            "numerator": "-4398046511104",
+            "denominator": "7454316120515255"
+          }
+        },
+        {
+          "base_hour_row": 24315,
+          "from_bus": 15,
+          "to_bus": 16,
+          "multiplier": {
+            "numerator": "-2199023255552",
+            "denominator": "8457781752123077"
+          }
+        },
+        {
+          "base_hour_row": 24317,
+          "from_bus": 16,
+          "to_bus": 17,
+          "multiplier": {
+            "numerator": "-549755813888",
+            "denominator": "3926827242057143"
+          }
+        },
+        {
+          "base_hour_row": 24319,
+          "from_bus": 17,
+          "to_bus": 20,
+          "multiplier": {
+            "numerator": "-2199023255552",
+            "denominator": "8457781752123077"
+          }
+        }
+      ],
+      "exact_path_coefficient_identity": true
+    },
+    {
+      "bus_index": 21,
+      "strict_distance": {
+        "numerator": "6449547617014209071851710335830932402439585374718563326638272148215011737600",
+        "denominator": "4606819726438720912534671384680375027780685421803659297179465077598388753841"
+      },
+      "ordered_base_hour_row_ids": [
+        24305,
+        24306,
+        24310,
+        24315,
+        24318
+      ],
+      "steps": [
+        {
+          "base_hour_row": 24305,
+          "from_bus": 12,
+          "to_bus": 10,
+          "multiplier": {
+            "numerator": "2199023255552",
+            "denominator": "4581298449066667"
+          }
+        },
+        {
+          "base_hour_row": 24306,
+          "from_bus": 10,
+          "to_bus": 13,
+          "multiplier": {
+            "numerator": "-1099511627776",
+            "denominator": "2617884828038095"
+          }
+        },
+        {
+          "base_hour_row": 24310,
+          "from_bus": 13,
+          "to_bus": 15,
+          "multiplier": {
+            "numerator": "-4398046511104",
+            "denominator": "7454316120515255"
+          }
+        },
+        {
+          "base_hour_row": 24315,
+          "from_bus": 15,
+          "to_bus": 16,
+          "multiplier": {
+            "numerator": "-2199023255552",
+            "denominator": "8457781752123077"
+          }
+        },
+        {
+          "base_hour_row": 24318,
+          "from_bus": 16,
+          "to_bus": 21,
+          "multiplier": {
+            "numerator": "-8796093022208",
+            "denominator": "8377231449721905"
+          }
+        }
+      ],
+      "exact_path_coefficient_identity": true
+    },
+    {
+      "bus_index": 22,
+      "strict_distance": {
+        "numerator": "274877906944000",
+        "denominator": "631903234354023"
+      },
+      "ordered_base_hour_row_ids": [
+        24309
+      ],
+      "steps": [
+        {
+          "base_hour_row": 24309,
+          "from_bus": 12,
+          "to_bus": 22,
+          "multiplier": {
+            "numerator": "-549755813888",
+            "denominator": "631903234354023"
+          }
+        }
+      ],
+      "exact_path_coefficient_identity": true
+    },
+    {
+      "bus_index": 23,
+      "strict_distance": {
+        "numerator": "9692105104612344705398033237447569917046069277852604172465165423543635148800",
+        "denominator": "8891839545515912788085857196445495660734378132397968875735773905276796892001"
+      },
+      "ordered_base_hour_row_ids": [
+        24305,
+        24306,
+        24310,
+        24311,
+        24314
+      ],
+      "steps": [
+        {
+          "base_hour_row": 24305,
+          "from_bus": 12,
+          "to_bus": 10,
+          "multiplier": {
+            "numerator": "2199023255552",
+            "denominator": "4581298449066667"
+          }
+        },
+        {
+          "base_hour_row": 24306,
+          "from_bus": 10,
+          "to_bus": 13,
+          "multiplier": {
+            "numerator": "-1099511627776",
+            "denominator": "2617884828038095"
+          }
+        },
+        {
+          "base_hour_row": 24310,
+          "from_bus": 13,
+          "to_bus": 15,
+          "multiplier": {
+            "numerator": "-4398046511104",
+            "denominator": "7454316120515255"
+          }
+        },
+        {
+          "base_hour_row": 24311,
+          "from_bus": 15,
+          "to_bus": 14,
+          "multiplier": {
+            "numerator": "549755813888",
+            "denominator": "3233857728752941"
+          }
+        },
+        {
+          "base_hour_row": 24314,
+          "from_bus": 14,
+          "to_bus": 23,
+          "multiplier": {
+            "numerator": "-4398046511104",
+            "denominator": "8457781752123077"
+          }
+        }
+      ],
+      "exact_path_coefficient_identity": true
+    }
+  ],
+  "edges": [
+    {
+      "base_hour_row": 24288,
+      "uid": "0",
+      "positive_bus": 0,
+      "negative_bus": 1,
+      "b": {
+        "numerator": "3926827242057143",
+        "denominator": "549755813888"
+      },
+      "rate": {
+        "numerator": "175",
+        "denominator": "1"
+      }
+    },
+    {
+      "base_hour_row": 24289,
+      "uid": "1",
+      "positive_bus": 0,
+      "negative_bus": 2,
+      "b": {
+        "numerator": "2084382232750711",
+        "denominator": "4398046511104"
+      },
+      "rate": {
+        "numerator": "175",
+        "denominator": "1"
+      }
+    },
+    {
+      "base_hour_row": 24290,
+      "uid": "2",
+      "positive_bus": 0,
+      "negative_bus": 4,
+      "b": {
+        "numerator": "2587086183002353",
+        "denominator": "2199023255552"
+      },
+      "rate": {
+        "numerator": "175",
+        "denominator": "1"
+      }
+    },
+    {
+      "base_hour_row": 24291,
+      "uid": "3",
+      "positive_bus": 1,
+      "negative_bus": 3,
+      "b": {
+        "numerator": "6926057497801575",
+        "denominator": "8796093022208"
+      },
+      "rate": {
+        "numerator": "175",
+        "denominator": "1"
+      }
+    },
+    {
+      "base_hour_row": 24292,
+      "uid": "4",
+      "positive_bus": 1,
+      "negative_bus": 5,
+      "b": {
+        "numerator": "4581298449066667",
+        "denominator": "8796093022208"
+      },
+      "rate": {
+        "numerator": "175",
+        "denominator": "1"
+      }
+    },
+    {
+      "base_hour_row": 24293,
+      "uid": "5",
+      "positive_bus": 2,
+      "negative_bus": 8,
+      "b": {
+        "numerator": "923959351072269",
+        "denominator": "1099511627776"
+      },
+      "rate": {
+        "numerator": "175",
+        "denominator": "1"
+      }
+    },
+    {
+      "base_hour_row": 24294,
+      "uid": "6",
+      "positive_bus": 2,
+      "negative_bus": 23,
+      "b": {
+        "numerator": "5158393749828759",
+        "denominator": "4398046511104"
+      },
+      "rate": {
+        "numerator": "400",
+        "denominator": "1"
+      }
+    },
+    {
+      "base_hour_row": 24295,
+      "uid": "7",
+      "positive_bus": 3,
+      "negative_bus": 8,
+      "b": {
+        "numerator": "8457781752123077",
+        "denominator": "8796093022208"
+      },
+      "rate": {
+        "numerator": "175",
+        "denominator": "1"
+      }
+    },
+    {
+      "base_hour_row": 24296,
+      "uid": "8",
+      "positive_bus": 4,
+      "negative_bus": 9,
+      "b": {
+        "numerator": "2498890063127273",
+        "denominator": "2199023255552"
+      },
+      "rate": {
+        "numerator": "175",
+        "denominator": "1"
+      }
+    },
+    {
+      "base_hour_row": 24297,
+      "uid": "9",
+      "positive_bus": 5,
+      "negative_bus": 9,
+      "b": {
+        "numerator": "3604956156642623",
+        "denominator": "2199023255552"
+      },
+      "rate": {
+        "numerator": "175",
+        "denominator": "1"
+      }
+    },
+    {
+      "base_hour_row": 24298,
+      "uid": "10",
+      "positive_bus": 6,
+      "negative_bus": 7,
+      "b": {
+        "numerator": "3604956156642623",
+        "denominator": "2199023255552"
+      },
+      "rate": {
+        "numerator": "175",
+        "denominator": "1"
+      }
+    },
+    {
+      "base_hour_row": 24299,
+      "uid": "11",
+      "positive_bus": 7,
+      "negative_bus": 8,
+      "b": {
+        "numerator": "333185341750303",
+        "denominator": "549755813888"
+      },
+      "rate": {
+        "numerator": "175",
+        "denominator": "1"
+      }
+    },
+    {
+      "base_hour_row": 24300,
+      "uid": "12",
+      "positive_bus": 7,
+      "negative_bus": 9,
+      "b": {
+        "numerator": "333185341750303",
+        "denominator": "549755813888"
+      },
+      "rate": {
+        "numerator": "175",
+        "denominator": "1"
+      }
+    },
+    {
+      "base_hour_row": 24301,
+      "uid": "13",
+      "positive_bus": 8,
+      "negative_bus": 10,
+      "b": {
+        "numerator": "2541635755376791",
+        "denominator": "2199023255552"
+      },
+      "rate": {
+        "numerator": "400",
+        "denominator": "1"
+      }
+    },
+    {
+      "base_hour_row": 24302,
+      "uid": "14",
+      "positive_bus": 8,
+      "negative_bus": 11,
+      "b": {
+        "numerator": "2541635755376791",
+        "denominator": "2199023255552"
+      },
+      "rate": {
+        "numerator": "400",
+        "denominator": "1"
+      }
+    },
+    {
+      "base_hour_row": 24303,
+      "uid": "15",
+      "positive_bus": 9,
+      "negative_bus": 10,
+      "b": {
+        "numerator": "5158393749828759",
+        "denominator": "4398046511104"
+      },
+      "rate": {
+        "numerator": "400",
+        "denominator": "1"
+      }
+    },
+    {
+      "base_hour_row": 24304,
+      "uid": "16",
+      "positive_bus": 9,
+      "negative_bus": 11,
+      "b": {
+        "numerator": "5158393749828759",
+        "denominator": "4398046511104"
+      },
+      "rate": {
+        "numerator": "400",
+        "denominator": "1"
+      }
+    },
+    {
+      "base_hour_row": 24305,
+      "uid": "17",
+      "positive_bus": 10,
+      "negative_bus": 12,
+      "b": {
+        "numerator": "4581298449066667",
+        "denominator": "2199023255552"
+      },
+      "rate": {
+        "numerator": "500",
+        "denominator": "1"
+      }
+    },
+    {
+      "base_hour_row": 24306,
+      "uid": "18",
+      "positive_bus": 10,
+      "negative_bus": 13,
+      "b": {
+        "numerator": "2617884828038095",
+        "denominator": "1099511627776"
+      },
+      "rate": {
+        "numerator": "500",
+        "denominator": "1"
+      }
+    },
+    {
+      "base_hour_row": 24307,
+      "uid": "19",
+      "positive_bus": 11,
+      "negative_bus": 12,
+      "b": {
+        "numerator": "4581298449066667",
+        "denominator": "2199023255552"
+      },
+      "rate": {
+        "numerator": "500",
+        "denominator": "1"
+      }
+    },
+    {
+      "base_hour_row": 24308,
+      "uid": "20",
+      "positive_bus": 11,
+      "negative_bus": 22,
+      "b": {
+        "numerator": "4534068568148453",
+        "denominator": "4398046511104"
+      },
+      "rate": {
+        "numerator": "500",
+        "denominator": "1"
+      }
+    },
+    {
+      "base_hour_row": 24309,
+      "uid": "21",
+      "positive_bus": 12,
+      "negative_bus": 22,
+      "b": {
+        "numerator": "631903234354023",
+        "denominator": "549755813888"
+      },
+      "rate": {
+        "numerator": "500",
+        "denominator": "1"
+      }
+    },
+    {
+      "base_hour_row": 24310,
+      "uid": "22",
+      "positive_bus": 13,
+      "negative_bus": 15,
+      "b": {
+        "numerator": "7454316120515255",
+        "denominator": "4398046511104"
+      },
+      "rate": {
+        "numerator": "500",
+        "denominator": "1"
+      }
+    },
+    {
+      "base_hour_row": 24311,
+      "uid": "23",
+      "positive_bus": 14,
+      "negative_bus": 15,
+      "b": {
+        "numerator": "3233857728752941",
+        "denominator": "549755813888"
+      },
+      "rate": {
+        "numerator": "500",
+        "denominator": "1"
+      }
+    },
+    {
+      "base_hour_row": 24312,
+      "uid": "24",
+      "positive_bus": 14,
+      "negative_bus": 20,
+      "b": {
+        "numerator": "1121950640587755",
+        "denominator": "549755813888"
+      },
+      "rate": {
+        "numerator": "500",
+        "denominator": "1"
+      }
+    },
+    {
+      "base_hour_row": 24313,
+      "uid": "25",
+      "positive_bus": 14,
+      "negative_bus": 20,
+      "b": {
+        "numerator": "1121950640587755",
+        "denominator": "549755813888"
+      },
+      "rate": {
+        "numerator": "500",
+        "denominator": "1"
+      }
+    },
+    {
+      "base_hour_row": 24314,
+      "uid": "26",
+      "positive_bus": 14,
+      "negative_bus": 23,
+      "b": {
+        "numerator": "8457781752123077",
+        "denominator": "4398046511104"
+      },
+      "rate": {
+        "numerator": "500",
+        "denominator": "1"
+      }
+    },
+    {
+      "base_hour_row": 24315,
+      "uid": "27",
+      "positive_bus": 15,
+      "negative_bus": 16,
+      "b": {
+        "numerator": "8457781752123077",
+        "denominator": "2199023255552"
+      },
+      "rate": {
+        "numerator": "500",
+        "denominator": "1"
+      }
+    },
+    {
+      "base_hour_row": 24316,
+      "uid": "28",
+      "positive_bus": 15,
+      "negative_bus": 18,
+      "b": {
+        "numerator": "2390242669078261",
+        "denominator": "549755813888"
+      },
+      "rate": {
+        "numerator": "500",
+        "denominator": "1"
+      }
+    },
+    {
+      "base_hour_row": 24317,
+      "uid": "29",
+      "positive_bus": 16,
+      "negative_bus": 17,
+      "b": {
+        "numerator": "3926827242057143",
+        "denominator": "549755813888"
+      },
+      "rate": {
+        "numerator": "500",
+        "denominator": "1"
+      }
+    },
+    {
+      "base_hour_row": 24318,
+      "uid": "30",
+      "positive_bus": 16,
+      "negative_bus": 21,
+      "b": {
+        "numerator": "8377231449721905",
+        "denominator": "8796093022208"
+      },
+      "rate": {
+        "numerator": "500",
+        "denominator": "1"
+      }
+    },
+    {
+      "base_hour_row": 24319,
+      "uid": "31",
+      "positive_bus": 17,
+      "negative_bus": 20,
+      "b": {
+        "numerator": "8457781752123077",
+        "denominator": "2199023255552"
+      },
+      "rate": {
+        "numerator": "500",
+        "denominator": "1"
+      }
+    },
+    {
+      "base_hour_row": 24320,
+      "uid": "32",
+      "positive_bus": 17,
+      "negative_bus": 20,
+      "b": {
+        "numerator": "8457781752123077",
+        "denominator": "2199023255552"
+      },
+      "rate": {
+        "numerator": "500",
+        "denominator": "1"
+      }
+    },
+    {
+      "base_hour_row": 24321,
+      "uid": "33",
+      "positive_bus": 18,
+      "negative_bus": 19,
+      "b": {
+        "numerator": "2500",
+        "denominator": "1"
+      },
+      "rate": {
+        "numerator": "500",
+        "denominator": "1"
+      }
+    },
+    {
+      "base_hour_row": 24322,
+      "uid": "34",
+      "positive_bus": 18,
+      "negative_bus": 19,
+      "b": {
+        "numerator": "2500",
+        "denominator": "1"
+      },
+      "rate": {
+        "numerator": "500",
+        "denominator": "1"
+      }
+    },
+    {
+      "base_hour_row": 24323,
+      "uid": "35",
+      "positive_bus": 19,
+      "negative_bus": 22,
+      "b": {
+        "numerator": "2498890063127273",
+        "denominator": "549755813888"
+      },
+      "rate": {
+        "numerator": "500",
+        "denominator": "1"
+      }
+    },
+    {
+      "base_hour_row": 24324,
+      "uid": "36",
+      "positive_bus": 19,
+      "negative_bus": 22,
+      "b": {
+        "numerator": "2498890063127273",
+        "denominator": "549755813888"
+      },
+      "rate": {
+        "numerator": "500",
+        "denominator": "1"
+      }
+    },
+    {
+      "base_hour_row": 24325,
+      "uid": "37",
+      "positive_bus": 20,
+      "negative_bus": 21,
+      "b": {
+        "numerator": "3233857728752941",
+        "denominator": "2199023255552"
+      },
+      "rate": {
+        "numerator": "500",
+        "denominator": "1"
+      }
+    }
+  ]
+}

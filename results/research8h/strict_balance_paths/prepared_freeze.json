@@ -1,0 +1,27 @@
+{
+  "utc": "2026-09-27T01:53:08.286873+00:00",
+  "source_sha256": "4622945e972313ac073f9c04bb55d179c7b4491533e03b44ae31accd06c1a0cd",
+  "protocol_sha256": "6c28f25ae326bdf1fc195d8dccba270c02f464567fe90f02df76b85027b1f735",
+  "manifest_sha256": "c418af87aba6912c8ed70d65233eed828e6d83772ad8ce5a2ede70d0ac2cfd6f",
+  "bindings": 31,
+  "months": [
+    1,
+    4,
+    7,
+    10
+  ],
+  "hours_per_month": 168,
+  "orientations": [
+    1,
+    -1
+  ],
+  "hour_week_denominator": 672,
+  "orientation_denominator": 1344,
+  "path_metric": "strict exact R/abs(b)",
+  "all_nonreference_coordinates_use_paths": true,
+  "phase_seconds": 600.0,
+  "phase_starts_after_recorded_validation": true,
+  "diagnostic_orientations_executed": 0,
+  "optimizer_calls": 0,
+  "separate_root_execution_GO_required": true
+}

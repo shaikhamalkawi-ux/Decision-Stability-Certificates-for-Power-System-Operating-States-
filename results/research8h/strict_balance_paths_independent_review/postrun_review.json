@@ -1,0 +1,68 @@
+{
+  "status": "INDEPENDENT_STRICT_PATH_POSTRUN_PASS",
+  "months": [
+    {
+      "month": 1,
+      "orientation_count": 336,
+      "statuses": {
+        "VALID_NONSEPARATING_RATIONAL_CANDIDATE": 336
+      }
+    },
+    {
+      "month": 4,
+      "orientation_count": 336,
+      "statuses": {
+        "VALID_NONSEPARATING_RATIONAL_CANDIDATE": 336
+      }
+    },
+    {
+      "month": 7,
+      "orientation_count": 336,
+      "statuses": {
+        "VALID_NONSEPARATING_RATIONAL_CANDIDATE": 336
+      }
+    },
+    {
+      "month": 10,
+      "orientation_count": 336,
+      "statuses": {
+        "VALID_NONSEPARATING_RATIONAL_CANDIDATE": 336
+      }
+    }
+  ],
+  "orientation_denominator": 1344,
+  "evaluated": 1344,
+  "not_evaluated": 0,
+  "status_counts": {
+    "VALID_NONSEPARATING_RATIONAL_CANDIDATE": 1344
+  },
+  "common_paths_shortest_potential_proof": true,
+  "independent_lexicographic_optimal_path_DP": true,
+  "all_original_rational_rows_and_endpoints_replayed": true,
+  "reference_and_shared_edge_gain_identities": true,
+  "expanded_abs_beta_bound_verified": true,
+  "all31_inputs_and_result_hashes_unchanged": true,
+  "producer_validation_s": 1.568905199994333,
+  "producer_phase_s": 17.478677600010997,
+  "optimizer_calls": 0,
+  "producer_source_imported": false,
+  "review_source_sha256": "bffbabef0cdbfe46e7336ea0d1be80cfe51b3d18c931fdc70c93386343371710",
+  "producer_hashes": {
+    "results\\research8h\\strict_balance_paths\\common_paths.json": "eeeb32bb3d988c486a9ee62129e1307de98d1b0800fffad2e2423ed3dc50aff2",
+    "results\\research8h\\strict_balance_paths\\completion.json": "9521a2c45f05866f323c19cbf824a67ef6b9a47966147f77508f4e704692d4d6",
+    "results\\research8h\\strict_balance_paths\\execution_started.json": "53e3953c82399d0db93ab6f0e9b9aa33fb90f6971c139008c11d24edd632a56e",
+    "results\\research8h\\strict_balance_paths\\focused_checks.json": "fa83df67e267b2ac54a491aa6e39f241fa2db73ac2dbbfc6c090adaec304160a",
+    "results\\research8h\\strict_balance_paths\\input_manifest.json": "c418af87aba6912c8ed70d65233eed828e6d83772ad8ce5a2ede70d0ac2cfd6f",
+    "results\\research8h\\strict_balance_paths\\month_01.jsonl.gz": "2a28df65688efa68f1f7d62be5d8dec3b2bd589cf4d5ea5dad5701c905f467d2",
+    "results\\research8h\\strict_balance_paths\\month_04.jsonl.gz": "25bbde32905290e5c578f05f33be7302efd79d49e5c1b864873dfb800ae580f0",
+    "results\\research8h\\strict_balance_paths\\month_07.jsonl.gz": "9ca98c9757232531c3cf88331356f580543a64cdd0b13740d00dff56bbc538b4",
+    "results\\research8h\\strict_balance_paths\\month_10.jsonl.gz": "db925028501cd5e66081eef57bead30f41f3e8670872ce9b9de84298f3c0498f",
+    "results\\research8h\\strict_balance_paths\\outcomes.json": "53ddbf2587e3ec235fad87dca9e775c6e934bf7043d49ef05a79041bd03cf950",
+    "results\\research8h\\strict_balance_paths\\prepared_freeze.json": "c931146bcb73a57f392d8461bc2217d4fdb8a9dee4259eb7aae08ad08caaf43c",
+    "results\\research8h\\strict_balance_paths\\prior_readonly_inspection_note.json": "d8d5bc984119081be4be8f0c79e8ba575278b12c10e536593fc1df443501dca3",
+    "results\\research8h\\strict_balance_paths\\READOUT.md": "4a8208611eacfbfef4c28e6992bd53d5b15c3ad1528a7de22240e0936638126b",
+    "results\\research8h\\strict_balance_paths\\structure_preflight.json": "7cc9e555bbfd9c91d06a880c9f819da15017146f2d34a5d1767a0e76a083276c"
+  },
+  "elapsed_s": 39.897292199981166,
+  "scope": "Nonseparating fixed rational candidates do not prove strict feasibility; no physical inference."
+}
