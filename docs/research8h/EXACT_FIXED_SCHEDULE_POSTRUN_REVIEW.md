@@ -1,0 +1,13 @@
+# Exact fixed-schedule attempt: independent post-run review
+
+Verdict: PASS for the recorded null classification. No strict witness was obtained. This result does not prove infeasibility of the fixed schedule, any other schedule, or full unit commitment.
+
+The single producer call reported numerical Infeasible with a valid basis in 0.3519192000 seconds. All 168 deterministic rational hourly candidates were retained as UNRESOLVED_RECONSTRUCTED_POINT_VIOLATES. There were no omitted hours, bit-limit exits, phase skips, alternative bases or extra optimizer calls. Exact arithmetic took 9.9277972000 seconds within the 900-second soft phase. The producer correctly left full positive/cap checking unattempted because no complete admissible point had passed.
+
+The independent read-only replay checked all 34 frozen bindings and all 190 producer files before/after. It parsed canonical reduced fractions independently and checked the saved vectors against the full original fixed binary schedule. For every hour it matched basic columns and nonbasic row activities to the archived solver basis, recomputed all 4484 active equations and all 6436 nonbasic endpoint assignments, then checked every transformed row and column box. Every recorded hourly violation count agreed. This verifies the returned candidate arithmetic without selecting another active set or running an optimizer.
+
+As an additional diagnostic, the reviewer assembled the 168 archived continuous blocks and the unchanged 12096 binary coordinates, then checked every one of the original 34680 rows and 23016 column boxes at tau=0. The assembled candidate has 1670 original row/box violations. It is not an accepted point or a mathematical negative certificate. No new feasibility or optimum claim follows.
+
+Evidence is results/research8h/exact_fixed_schedule_independent_review/postrun_review.py, SHA256 de87886f3fd7926489bb85dd762190b1f72bcc5ed3fe58346e4fd82565b8db67; sidecar postrun_review.json, SHA256 d51df7e62510bddfac755506f6f63cafe605385ef43fbc9f7e87061321115d1d. The one independent arithmetic replay exited 0 in 9.1557996 seconds, imported no producer source and called no optimizer. The pinned standalone NPZ decoder was reused only to read the actual archived arrays; all basis/point arithmetic and classification checks were implemented independently.
+
+The frozen manifest remains 397fdbdd982ec11dc7265d842733df40fc0ad66a22922ea40e06cfebdaf03da9. Original, expanded-model and historical evidence remains unchanged. A different branch-flow encoding would be a separate model requiring its own design and validation; it cannot turn this null into a strict result for the original encoding.

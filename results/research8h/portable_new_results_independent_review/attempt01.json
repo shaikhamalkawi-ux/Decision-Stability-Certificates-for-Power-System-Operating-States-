@@ -1,0 +1,9 @@
+{
+  "status": "REVIEWER_SCHEMA_ASSUMPTION_REJECTED",
+  "exit_code": 1,
+  "reason": "Reviewer required one CSV column order; historical base manifest legitimately uses path,bytes,sha256 while candidate uses path,sha256,bytes.",
+  "candidate_changes": 0,
+  "wrapper_imports": 0,
+  "mathematical_replays": 0,
+  "source_sha256": "0ed717dd1cca5f7b5885b58ebf90258bdddd94ce8e18283ea3e8a5a9ac7a4ed3"
+}

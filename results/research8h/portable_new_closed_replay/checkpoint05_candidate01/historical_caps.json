@@ -1,0 +1,70 @@
+{
+  "status": "HISTORICAL_CAP_LEDGER_PRESERVED",
+  "records": [
+    {
+      "case": "seed_26093210",
+      "cap_MWh": 26532,
+      "expanded_cap": {
+        "numerator": "15661728446340136454809841",
+        "denominator": "590295810358705651712",
+        "approximate": 26532.00001
+      },
+      "uncapped_lower_MWh": {
+        "numerator": "20086370813996232580518473920067758661793960696268153117",
+        "denominator": "748288838313422294120286634350736906063837462003712",
+        "approximate": 26843.07153273749
+      },
+      "lower_proves_cap_infeasible": true,
+      "historical_verdict": "CERTIFIED_INFEASIBLE_EXPANDED_MODEL"
+    },
+    {
+      "case": "seed_26093211",
+      "cap_MWh": 26532,
+      "expanded_cap": {
+        "numerator": "15661728446340136454809841",
+        "denominator": "590295810358705651712",
+        "approximate": 26532.00001
+      },
+      "uncapped_lower_MWh": {
+        "numerator": "2465434983535487892226081461254514743454344793621905775",
+        "denominator": "93536104789177786765035829293842113257979682750464",
+        "approximate": 26358.110476081543
+      },
+      "lower_proves_cap_infeasible": false,
+      "historical_verdict": "UNKNOWN"
+    },
+    {
+      "case": "seed_26093220",
+      "cap_MWh": 48319,
+      "expanded_cap": {
+        "numerator": "28522503266625256488659185",
+        "denominator": "590295810358705651712",
+        "approximate": 48319.00001
+      },
+      "uncapped_lower_MWh": {
+        "numerator": "322007864663214391459227169138779673229590176269304105690026351423405",
+        "denominator": "6582018229284824168619876730229402019930943462534319453394436096",
+        "approximate": 48922.35989723208
+      },
+      "lower_proves_cap_infeasible": true,
+      "historical_verdict": "CERTIFIED_INFEASIBLE_EXPANDED_MODEL"
+    },
+    {
+      "case": "seed_26093221",
+      "cap_MWh": 48319,
+      "expanded_cap": {
+        "numerator": "28522503266625256488659185",
+        "denominator": "590295810358705651712",
+        "approximate": 48319.00001
+      },
+      "uncapped_lower_MWh": {
+        "numerator": "4572896679870482319140876157629580036471573054545449145",
+        "denominator": "93536104789177786765035829293842113257979682750464",
+        "approximate": 48889.107475422374
+      },
+      "lower_proves_cap_infeasible": true,
+      "historical_verdict": "CERTIFIED_INFEASIBLE_EXPANDED_MODEL"
+    }
+  ],
+  "ledger_mutated": false
+}

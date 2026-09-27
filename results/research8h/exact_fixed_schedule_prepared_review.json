@@ -1,0 +1,20 @@
+{
+  "status": "INDEPENDENT_EXACT_PREPARED_PASS",
+  "manifest_sha256": "397fdbdd982ec11dc7265d842733df40fc0ad66a22922ea40e06cfebdaf03da9",
+  "bindings": 34,
+  "original_rows_checked": 34680,
+  "constant_rows": 16032,
+  "exact_hour_blocks": 168,
+  "exact_proposal_rows": 18648,
+  "proposal_conversion_differences": 0,
+  "existing_cap_row": 24264,
+  "cap": 23195,
+  "full_original_mask": 12096,
+  "native_fossil_and_ramp_conventions_checked": true,
+  "capped_solver_objective_zero_and_cap_row_equals_fossil_cost": true,
+  "optimizer_calls": 0,
+  "basis_reconstructions": 0,
+  "producer_or_checker_imported": false,
+  "review_source_sha256": "c872b9d5e4dda64054ed07633f50de961a01ef1444ab5c3ade2c416e58c7d296",
+  "elapsed_s": 2.849283199990168
+}

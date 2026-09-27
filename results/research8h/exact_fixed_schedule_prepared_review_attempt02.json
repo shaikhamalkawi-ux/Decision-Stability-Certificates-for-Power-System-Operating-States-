@@ -1,0 +1,7 @@
+{
+  "status": "REVIEWER_CODEC_ERROR",
+  "failed_check": "native CSV open",
+  "reason": "Reviewer specified unsupported utf8-sig alias; corrected to utf-8-sig. No producer or mathematical input changed.",
+  "source_sha256": "5cdbf90cab58587408498b2ab061ecd6bd5defe2bfe2ff8bb6b10cce2ab7585b",
+  "optimizer_calls": 0
+}

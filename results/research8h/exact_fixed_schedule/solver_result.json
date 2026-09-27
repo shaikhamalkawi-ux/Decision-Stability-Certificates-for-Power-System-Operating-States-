@@ -1,0 +1,13 @@
+{
+  "call_status": "HighsStatus.kOk",
+  "model_status": "Infeasible",
+  "basis_valid": true,
+  "value_valid": true,
+  "objective_numerical": 115545.1370710088,
+  "configured_seconds": 60.0,
+  "actual_seconds": 0.35191920000943355,
+  "soft_overrun_seconds": 0.0,
+  "simplex_iterations": 6164,
+  "optimizer_calls": 1,
+  "exact_feasibility_claim": false
+}

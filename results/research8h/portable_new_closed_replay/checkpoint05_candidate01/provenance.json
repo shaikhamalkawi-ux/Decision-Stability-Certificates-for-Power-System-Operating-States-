@@ -1,0 +1,59 @@
+{
+  "status": "NEW_REPLAY_PACKAGE_AND_PROVENANCE_PASS",
+  "package_payloads": 3503,
+  "historical_manifests": {
+    "results/research8h/fresh_january_energy/input_manifest.csv": {
+      "sha256": "44b382d30a30b8485beda0cf080d22cd991b55a9f37491939f633d147bc14f2a",
+      "entries_checked": 378,
+      "path_mode": "historical",
+      "relative_base": ""
+    },
+    "results/research8h/hod_reoptimized_subsets/input_manifest.json": {
+      "sha256": "1d3c54426828dcca5684ca21d6f1af95f2c05cfc87631423ae939a354c867119",
+      "entries_checked": 155,
+      "path_mode": "historical",
+      "relative_base": ""
+    },
+    "results/research8h/fresh_january_energy/producer_artifact_manifest.csv": {
+      "sha256": "f48d012ff996f86e1981afe3b2d79165b0c80ae47f0cfdde43922fc17cbd4b90",
+      "entries_checked": 169,
+      "path_mode": "relative",
+      "relative_base": "results/research8h/fresh_january_energy"
+    },
+    "results/research8h/hod_reoptimized_subsets/artifact_manifest.csv": {
+      "sha256": "ba2c7a894fc7a2aa1984f05b9246233e73eb278a2c5abf93b99c5951add1c025",
+      "entries_checked": 71,
+      "path_mode": "relative",
+      "relative_base": ""
+    },
+    "results/research8h/fresh_january_weeks/references/input_manifest.csv": {
+      "sha256": "df48d8f6f60f51e43afa21ba4fcbd1438f274b86fb4a29e8fccbae3ae845fe26",
+      "entries_checked": 48,
+      "path_mode": "historical",
+      "relative_base": ""
+    },
+    "results/research8h/fresh_january_weeks/targets/input_manifest.csv": {
+      "sha256": "56c5240486a8274ecb076b3aca49db236db4a7d72b865392016868119f7938dd",
+      "entries_checked": 246,
+      "path_mode": "historical",
+      "relative_base": ""
+    },
+    "results/research8h/hour_of_day/input_manifest.csv": {
+      "sha256": "078082667f83322d3540ad3ac215ebcc996d0d31b04fd52bfa75c1d2fd814fcc",
+      "entries_checked": 125,
+      "path_mode": "historical",
+      "relative_base": ""
+    },
+    "results/research8h/hod_fixed_ray_transfer/input_manifest.json": {
+      "sha256": "3753fdcd4bb9d4f04c45f538631f019e54ff17d5c834266d0807a1353b89366a",
+      "entries_checked": 106,
+      "path_mode": "historical",
+      "relative_base": ""
+    }
+  },
+  "unique_historical_files": 726,
+  "package_manifest_sha256": "4fbe3109b23ce965c13cc1f26bce12f99e4aad65e52c93ec51bc670d753a9534",
+  "package_evidence_commit": "9000fcc74886cc942b52f8070ff6cf382db63591",
+  "commit_authentication": "Recorded reviewed delivery identifier; no remote Git query",
+  "native_reconstruction": false
+}

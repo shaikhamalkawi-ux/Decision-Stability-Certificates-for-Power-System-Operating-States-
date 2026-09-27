@@ -1,0 +1,27 @@
+{
+  "utc": "2026-09-27T02:31:10.311746+00:00",
+  "manifest_sha256": "397fdbdd982ec11dc7265d842733df40fc0ad66a22922ea40e06cfebdaf03da9",
+  "bindings": 34,
+  "options": {
+    "solver": "simplex",
+    "simplex_strategy": 1,
+    "presolve": "off",
+    "threads": 1,
+    "random_seed": 0,
+    "time_limit": 60.0,
+    "primal_feasibility_tolerance": 1e-07,
+    "dual_feasibility_tolerance": 1e-07,
+    "small_matrix_value": 1e-12,
+    "log_to_console": false,
+    "output_flag": true
+  },
+  "exact_phase_seconds": 900.0,
+  "bit_limit": 8192,
+  "cutoff_utc": "2026-09-27T04:00:00+00:00",
+  "optimizer_calls": 0,
+  "basis_reconstructions": 0,
+  "source_sha256": "733f57ae928c72dcf063c224e728d1ad1a01d52e93c068f63147d988c16e3a77",
+  "checker_sha256": "9cb836d420308a2ffc5b6e50e78cb565a823d5b65d1223c0f53d98910de5680d",
+  "protocol_sha256": "d3b3c39a62ca74e2b09cb46e456da5ab2812092eb9c9c25d548a7718e548acab",
+  "separate_root_execution_GO_required": true
+}

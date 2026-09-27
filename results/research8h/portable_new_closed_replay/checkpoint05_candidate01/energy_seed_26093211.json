@@ -1,0 +1,223 @@
+{
+  "status": "TARGET_EXACT_ENERGY_BOUNDS_PASS",
+  "relation": {
+    "case": "seed_26093211",
+    "week": 2,
+    "removed_cap_row": 24264,
+    "source_cap_MWh": 26532,
+    "exact_cap_only_relation": true,
+    "original_binary_coordinates": 12096,
+    "native_107_transport": true,
+    "raw_native_assembly": false
+  },
+  "lower": {
+    "dual_bound": {
+      "nominal_lower_bound_MWh": {
+        "numerator": "133657715281914086254912277028887617",
+        "denominator": "5070602400912917605986812821504",
+        "float": 26359.336566765753
+      },
+      "expanded_lower_bound_MWh": {
+        "numerator": "2465434983535487892226081461254514743454344793621905775",
+        "denominator": "93536104789177786765035829293842113257979682750464",
+        "float": 26358.110476081543
+      },
+      "row_term": {
+        "numerator": "2352199396735232850817956774196213",
+        "denominator": "19807040628566084398385987584",
+        "float": 118755.72130360792
+      },
+      "finite_box_term": {
+        "numerator": "-468505330282305523554484657165342911",
+        "denominator": "5070602400912917605986812821504",
+        "float": -92396.38473684216
+      },
+      "row_dual_l1": {
+        "numerator": "11349009764390319619473592871450155",
+        "denominator": "316912650057057350374175801344",
+        "float": 35811.1604643962
+      },
+      "stationarity_residual_l1": {
+        "numerator": "27507355029952490781751233428318487",
+        "denominator": "316912650057057350374175801344",
+        "float": 86797.9079566563
+      }
+    },
+    "zero_dual_bound": {
+      "nominal_lower_bound_MWh": {
+        "numerator": "0",
+        "denominator": "1",
+        "float": 0.0
+      },
+      "expanded_lower_bound_MWh": {
+        "numerator": "-2851128764032548531",
+        "denominator": "73786976294838206464",
+        "float": -0.03864
+      },
+      "row_term": {
+        "numerator": "0",
+        "denominator": "1",
+        "float": 0.0
+      },
+      "finite_box_term": {
+        "numerator": "0",
+        "denominator": "1",
+        "float": 0.0
+      },
+      "row_dual_l1": {
+        "numerator": "0",
+        "denominator": "1",
+        "float": 0.0
+      },
+      "stationarity_residual_l1": {
+        "numerator": "3864",
+        "denominator": "1",
+        "float": 3864.0
+      }
+    },
+    "selected_lower_MWh": {
+      "numerator": "2465434983535487892226081461254514743454344793621905775",
+      "denominator": "93536104789177786765035829293842113257979682750464",
+      "approximate": 26358.110476081543
+    },
+    "raw_projection_replayed": true,
+    "exact_sparse_residual_replayed": true,
+    "exact_optimality_claim": false
+  },
+  "verified_upper_MWh": {
+    "numerator": "139547039243864944018083235965575",
+    "denominator": "4951760157141521099596496896",
+    "approximate": 28181.300146899805
+  },
+  "original_binary_point": {
+    "status": "CERTIFIED_EXPANDED_ONLY_POINT",
+    "strict_pass": false,
+    "expanded_pass": true,
+    "original_binary_coordinates_exact": true,
+    "binary_coordinates": 12096,
+    "tau": {
+      "numerator": "5902958103587057",
+      "denominator": "590295810358705651712",
+      "float": 1e-05
+    },
+    "maximum_column_violation": {
+      "numerator": "28203",
+      "denominator": "1125899906842624",
+      "float": 2.5049295970802632e-11
+    },
+    "worst_column": {
+      "column": 6573,
+      "side": "lower"
+    },
+    "maximum_row_violation": {
+      "numerator": "9653",
+      "denominator": "281474976710656",
+      "float": 3.4294345141461235e-11
+    },
+    "worst_row": {
+      "row": 17188,
+      "side": "upper"
+    }
+  },
+  "raw_continuous_point": {
+    "status": "CERTIFIED_EXPANDED_ONLY_POINT",
+    "strict_pass": false,
+    "expanded_pass": true,
+    "original_binary_coordinates_exact": true,
+    "binary_coordinates": 0,
+    "tau": {
+      "numerator": "5902958103587057",
+      "denominator": "590295810358705651712",
+      "float": 1e-05
+    },
+    "maximum_column_violation": {
+      "numerator": "28203",
+      "denominator": "1125899906842624",
+      "float": 2.5049295970802632e-11
+    },
+    "worst_column": {
+      "column": 6573,
+      "side": "lower"
+    },
+    "maximum_row_violation": {
+      "numerator": "9653",
+      "denominator": "281474976710656",
+      "float": 3.4294345141461235e-11
+    },
+    "worst_row": {
+      "row": 17188,
+      "side": "upper"
+    }
+  },
+  "P_theta_bytes_preserved": true,
+  "canonical_YZ": true,
+  "intervals": {
+    "case": "seed_26093211",
+    "week": 2,
+    "optimum_difference_MWh": {
+      "lower": {
+        "numerator": "8330039232926100775045771821429540255411903404032367",
+        "denominator": "93536104789177786765035829293842113257979682750464",
+        "approximate": 89.05693958179339
+      },
+      "upper": {
+        "numerator": "215506256302707724730643782224866903377962175838320359",
+        "denominator": "93536104789177786765035829293842113257979682750464",
+        "approximate": 2303.990066599844
+      },
+      "outward_display": [
+        "89.056939",
+        "2303.990067"
+      ]
+    },
+    "target_optimum_excess_over_chosen_incumbent_MWh": {
+      "lower": {
+        "numerator": "8330039232926100775045771821429540255411903404032367",
+        "denominator": "93536104789177786765035829293842113257979682750464",
+        "approximate": 89.05693958179339
+      },
+      "upper": {
+        "numerator": "9468986576007919372773029554063",
+        "denominator": "4951760157141521099596496896",
+        "approximate": 1912.2466104000555
+      },
+      "outward_display": [
+        "89.056939",
+        "1912.246611"
+      ]
+    },
+    "optimal_relative_penalty": {
+      "lower": {
+        "numerator": "8330039232926100775045771821429540255411903404032367",
+        "denominator": "2457104944302561791451035689433085203198932890217873408",
+        "approximate": 0.0033901845553001176
+      },
+      "upper": {
+        "numerator": "215506256302707724730643782224866903377962175838320359",
+        "denominator": "2420462787332983677388067029405122530569028479259740441",
+        "approximate": 0.08903514544016845
+      },
+      "outward_display": [
+        "0.003390",
+        "0.089036"
+      ]
+    },
+    "optimal_relative_penalty_percent": {
+      "lower": {
+        "numerator": "208250980823152519376144295535738506385297585100809175",
+        "denominator": "614276236075640447862758922358271300799733222554468352",
+        "approximate": 0.33901845553001175
+      },
+      "upper": {
+        "numerator": "21550625630270772473064378222486690337796217583832035900",
+        "denominator": "2420462787332983677388067029405122530569028479259740441",
+        "approximate": 8.903514544016845
+      },
+      "outward_display": [
+        "0.339018",
+        "8.903515"
+      ]
+    }
+  },
+  "native_physical_assembler_rerun": false
+}

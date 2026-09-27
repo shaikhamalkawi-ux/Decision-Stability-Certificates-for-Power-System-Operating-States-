@@ -1,0 +1,29 @@
+{
+  "status": "NEW_REPLAY_FOCUSED_CHECKS_PASS",
+  "tests": [
+    "positive_row_endpoint",
+    "imperfect_dual_requires_box",
+    "negative_residual_uses_upper",
+    "negative_zero_dual_not_clipped",
+    "negative_row_endpoint",
+    "explicit_infinite_endpoint_projection",
+    "nonfinite_dual",
+    "projected_mask_not_original",
+    "zero_mask_never_binary_witness",
+    "optimum_vs_incumbent_interval",
+    "crossing_zero_and_no_upper",
+    "outward_rounding_both_signs",
+    "locality_actual_support_not_label",
+    "two_cc_drops_other_transitions",
+    "path_escape",
+    "prefix_lookalike",
+    "windows_prefix_normalization",
+    "normalized_manifest_duplicate",
+    "missing_historical_unknown",
+    "duplicate_json_key",
+    "nonfinite_json"
+  ],
+  "optimizer_calls": 0,
+  "unchanged_kernel_fixture_suite_rerun": false,
+  "frozen_evidence_modified": false
+}

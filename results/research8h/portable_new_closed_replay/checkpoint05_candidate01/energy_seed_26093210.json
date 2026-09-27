@@ -1,0 +1,223 @@
+{
+  "status": "TARGET_EXACT_ENERGY_BOUNDS_PASS",
+  "relation": {
+    "case": "seed_26093210",
+    "week": 2,
+    "removed_cap_row": 24264,
+    "source_cap_MWh": 26532,
+    "exact_cap_only_relation": true,
+    "original_binary_coordinates": 12096,
+    "native_107_transport": true,
+    "raw_native_assembly": false
+  },
+  "lower": {
+    "dual_bound": {
+      "nominal_lower_bound_MWh": {
+        "numerator": "136117835470971901645057708151581403",
+        "denominator": "5070602400912917605986812821504",
+        "float": 26844.509726588913
+      },
+      "expanded_lower_bound_MWh": {
+        "numerator": "20086370813996232580518473920067758661793960696268153117",
+        "denominator": "748288838313422294120286634350736906063837462003712",
+        "float": 26843.07153273749
+      },
+      "row_term": {
+        "numerator": "2342540355804099927137367477971261",
+        "denominator": "19807040628566084398385987584",
+        "float": 118268.06435816789
+      },
+      "finite_box_term": {
+        "numerator": "-463572495614877679702108366209061413",
+        "denominator": "5070602400912917605986812821504",
+        "float": -91423.55463157898
+      },
+      "row_dual_l1": {
+        "numerator": "12759109502446351281886101098853733",
+        "denominator": "316912650057057350374175801344",
+        "float": 40260.65068765537
+      },
+      "stationarity_residual_l1": {
+        "numerator": "131276291890028061346076112505622399",
+        "denominator": "1267650600228229401496703205376",
+        "float": 103558.73445442531
+      }
+    },
+    "zero_dual_bound": {
+      "nominal_lower_bound_MWh": {
+        "numerator": "0",
+        "denominator": "1",
+        "float": 0.0
+      },
+      "expanded_lower_bound_MWh": {
+        "numerator": "-2851128764032548531",
+        "denominator": "73786976294838206464",
+        "float": -0.03864
+      },
+      "row_term": {
+        "numerator": "0",
+        "denominator": "1",
+        "float": 0.0
+      },
+      "finite_box_term": {
+        "numerator": "0",
+        "denominator": "1",
+        "float": 0.0
+      },
+      "row_dual_l1": {
+        "numerator": "0",
+        "denominator": "1",
+        "float": 0.0
+      },
+      "stationarity_residual_l1": {
+        "numerator": "3864",
+        "denominator": "1",
+        "float": 3864.0
+      }
+    },
+    "selected_lower_MWh": {
+      "numerator": "20086370813996232580518473920067758661793960696268153117",
+      "denominator": "748288838313422294120286634350736906063837462003712",
+      "approximate": 26843.07153273749
+    },
+    "raw_projection_replayed": true,
+    "exact_sparse_residual_replayed": true,
+    "exact_optimality_claim": false
+  },
+  "verified_upper_MWh": {
+    "numerator": "62358939592901681319",
+    "denominator": "2251799813685248",
+    "approximate": 27692.932210899493
+  },
+  "original_binary_point": {
+    "status": "CERTIFIED_EXPANDED_ONLY_POINT",
+    "strict_pass": false,
+    "expanded_pass": true,
+    "original_binary_coordinates_exact": true,
+    "binary_coordinates": 12096,
+    "tau": {
+      "numerator": "5902958103587057",
+      "denominator": "590295810358705651712",
+      "float": 1e-05
+    },
+    "maximum_column_violation": {
+      "numerator": "956037",
+      "denominator": "281474976710656",
+      "float": 3.3965257273393945e-09
+    },
+    "worst_column": {
+      "column": 3977,
+      "side": "lower"
+    },
+    "maximum_row_violation": {
+      "numerator": "956037",
+      "denominator": "281474976710656",
+      "float": 3.3965257273393945e-09
+    },
+    "worst_row": {
+      "row": 747,
+      "side": "upper"
+    }
+  },
+  "raw_continuous_point": {
+    "status": "CERTIFIED_EXPANDED_ONLY_POINT",
+    "strict_pass": false,
+    "expanded_pass": true,
+    "original_binary_coordinates_exact": true,
+    "binary_coordinates": 0,
+    "tau": {
+      "numerator": "5902958103587057",
+      "denominator": "590295810358705651712",
+      "float": 1e-05
+    },
+    "maximum_column_violation": {
+      "numerator": "956037",
+      "denominator": "281474976710656",
+      "float": 3.3965257273393945e-09
+    },
+    "worst_column": {
+      "column": 3977,
+      "side": "lower"
+    },
+    "maximum_row_violation": {
+      "numerator": "956037",
+      "denominator": "281474976710656",
+      "float": 3.3965257273393945e-09
+    },
+    "worst_row": {
+      "row": 747,
+      "side": "upper"
+    }
+  },
+  "P_theta_bytes_preserved": true,
+  "canonical_YZ": true,
+  "intervals": {
+    "case": "seed_26093210",
+    "week": 2,
+    "optimum_difference_MWh": {
+      "lower": {
+        "numerator": "429531259575738248910188404603077036202497574525165853",
+        "denominator": "748288838313422294120286634350736906063837462003712",
+        "approximate": 574.0179962377418
+      },
+      "upper": {
+        "numerator": "169826221865308184977605579452035316617344851960952551",
+        "denominator": "93536104789177786765035829293842113257979682750464",
+        "approximate": 1815.6221305995334
+      },
+      "outward_display": [
+        "574.017996",
+        "1815.622131"
+      ]
+    },
+    "target_optimum_excess_over_chosen_incumbent_MWh": {
+      "lower": {
+        "numerator": "429531259575738248910188404603077036202497574525165853",
+        "denominator": "748288838313422294120286634350736906063837462003712",
+        "approximate": 574.0179962377418
+      },
+      "upper": {
+        "numerator": "881338211062017519881449377697",
+        "denominator": "618970019642690137449562112",
+        "approximate": 1423.8786743997446
+      },
+      "outward_display": [
+        "574.017996",
+        "1423.878675"
+      ]
+    },
+    "optimal_relative_penalty": {
+      "lower": {
+        "numerator": "429531259575738248910188404603077036202497574525165853",
+        "denominator": "19656839554420494331608285515464681625591463121742987264",
+        "approximate": 0.02185149135427235
+      },
+      "upper": {
+        "numerator": "169826221865308184977605579452035316617344851960952551",
+        "denominator": "2420462787332983677388067029405122530569028479259740441",
+        "approximate": 0.07016270721205066
+      },
+      "outward_display": [
+        "0.021851",
+        "0.070163"
+      ]
+    },
+    "optimal_relative_penalty_percent": {
+      "lower": {
+        "numerator": "10738281489393456222754710115076925905062439363129146325",
+        "denominator": "4914209888605123582902071378866170406397865780435746816",
+        "approximate": 2.185149135427235
+      },
+      "upper": {
+        "numerator": "16982622186530818497760557945203531661734485196095255100",
+        "denominator": "2420462787332983677388067029405122530569028479259740441",
+        "approximate": 7.016270721205066
+      },
+      "outward_display": [
+        "2.185149",
+        "7.016271"
+      ]
+    }
+  },
+  "native_physical_assembler_rerun": false
+}

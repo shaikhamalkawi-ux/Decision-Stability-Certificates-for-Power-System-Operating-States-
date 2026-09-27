@@ -1,0 +1,18 @@
+{
+  "status": "NOT_ATTEMPTED_INCOMPLETE_HOURS",
+  "accepted_strict": false,
+  "independent_replay_pending": false,
+  "optimizer_calls": 1,
+  "original_hour_denominator": 168,
+  "outcome_counts": {
+    "UNRESOLVED_RECONSTRUCTED_POINT_VIOLATES": 168
+  },
+  "solve_seconds": 0.35191920000943355,
+  "exact_phase_seconds": 9.927797199983615,
+  "exact_phase_budget": 900.0,
+  "exact_soft_overrun_seconds": 0.0,
+  "phase_includes_final_hash_and_outcomes_write": true,
+  "phase_excludes_completion_record_write": true,
+  "fixed_schedule_only": true,
+  "no_full_UC_negative_claim": true
+}

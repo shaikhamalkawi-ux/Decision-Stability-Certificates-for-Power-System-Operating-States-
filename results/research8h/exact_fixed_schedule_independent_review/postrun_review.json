@@ -1,0 +1,1331 @@
+{
+  "status": "INDEPENDENT_EXACT_FIXED_SCHEDULE_POSTRUN_PASS",
+  "accepted_strict_witness": false,
+  "hours": 168,
+  "outcome_counts": {
+    "UNRESOLVED_RECONSTRUCTED_POINT_VIOLATES": 168
+  },
+  "producer_completion": {
+    "status": "NOT_ATTEMPTED_INCOMPLETE_HOURS",
+    "accepted_strict": false,
+    "independent_replay_pending": false,
+    "optimizer_calls": 1,
+    "original_hour_denominator": 168,
+    "outcome_counts": {
+      "UNRESOLVED_RECONSTRUCTED_POINT_VIOLATES": 168
+    },
+    "solve_seconds": 0.35191920000943355,
+    "exact_phase_seconds": 9.927797199983615,
+    "exact_phase_budget": 900.0,
+    "exact_soft_overrun_seconds": 0.0,
+    "phase_includes_final_hash_and_outcomes_write": true,
+    "phase_excludes_completion_record_write": true,
+    "fixed_schedule_only": true,
+    "no_full_UC_negative_claim": true
+  },
+  "point_replay": null,
+  "null_candidate_review": {
+    "scope": "Diagnostic reconstruction from existing hour records only; no alternate basis or full-UC negative claim",
+    "hours_checked": 168,
+    "active_equations_checked": 4484,
+    "nonbasic_endpoints_checked": 6436,
+    "per_hour": [
+      {
+        "hour": 0,
+        "violations": 7,
+        "active_equations": 26,
+        "nonbasic_coordinates": 39
+      },
+      {
+        "hour": 1,
+        "violations": 8,
+        "active_equations": 25,
+        "nonbasic_coordinates": 40
+      },
+      {
+        "hour": 2,
+        "violations": 6,
+        "active_equations": 25,
+        "nonbasic_coordinates": 40
+      },
+      {
+        "hour": 3,
+        "violations": 10,
+        "active_equations": 27,
+        "nonbasic_coordinates": 38
+      },
+      {
+        "hour": 4,
+        "violations": 12,
+        "active_equations": 27,
+        "nonbasic_coordinates": 38
+      },
+      {
+        "hour": 5,
+        "violations": 12,
+        "active_equations": 31,
+        "nonbasic_coordinates": 34
+      },
+      {
+        "hour": 6,
+        "violations": 12,
+        "active_equations": 28,
+        "nonbasic_coordinates": 37
+      },
+      {
+        "hour": 7,
+        "violations": 10,
+        "active_equations": 25,
+        "nonbasic_coordinates": 40
+      },
+      {
+        "hour": 8,
+        "violations": 5,
+        "active_equations": 24,
+        "nonbasic_coordinates": 41
+      },
+      {
+        "hour": 9,
+        "violations": 4,
+        "active_equations": 27,
+        "nonbasic_coordinates": 38
+      },
+      {
+        "hour": 10,
+        "violations": 6,
+        "active_equations": 26,
+        "nonbasic_coordinates": 39
+      },
+      {
+        "hour": 11,
+        "violations": 4,
+        "active_equations": 25,
+        "nonbasic_coordinates": 40
+      },
+      {
+        "hour": 12,
+        "violations": 6,
+        "active_equations": 26,
+        "nonbasic_coordinates": 39
+      },
+      {
+        "hour": 13,
+        "violations": 10,
+        "active_equations": 26,
+        "nonbasic_coordinates": 39
+      },
+      {
+        "hour": 14,
+        "violations": 21,
+        "active_equations": 30,
+        "nonbasic_coordinates": 35
+      },
+      {
+        "hour": 15,
+        "violations": 14,
+        "active_equations": 30,
+        "nonbasic_coordinates": 35
+      },
+      {
+        "hour": 16,
+        "violations": 16,
+        "active_equations": 27,
+        "nonbasic_coordinates": 38
+      },
+      {
+        "hour": 17,
+        "violations": 17,
+        "active_equations": 29,
+        "nonbasic_coordinates": 36
+      },
+      {
+        "hour": 18,
+        "violations": 16,
+        "active_equations": 30,
+        "nonbasic_coordinates": 35
+      },
+      {
+        "hour": 19,
+        "violations": 13,
+        "active_equations": 30,
+        "nonbasic_coordinates": 35
+      },
+      {
+        "hour": 20,
+        "violations": 13,
+        "active_equations": 29,
+        "nonbasic_coordinates": 36
+      },
+      {
+        "hour": 21,
+        "violations": 12,
+        "active_equations": 26,
+        "nonbasic_coordinates": 39
+      },
+      {
+        "hour": 22,
+        "violations": 8,
+        "active_equations": 28,
+        "nonbasic_coordinates": 37
+      },
+      {
+        "hour": 23,
+        "violations": 7,
+        "active_equations": 26,
+        "nonbasic_coordinates": 39
+      },
+      {
+        "hour": 24,
+        "violations": 9,
+        "active_equations": 27,
+        "nonbasic_coordinates": 38
+      },
+      {
+        "hour": 25,
+        "violations": 8,
+        "active_equations": 25,
+        "nonbasic_coordinates": 40
+      },
+      {
+        "hour": 26,
+        "violations": 9,
+        "active_equations": 26,
+        "nonbasic_coordinates": 39
+      },
+      {
+        "hour": 27,
+        "violations": 9,
+        "active_equations": 26,
+        "nonbasic_coordinates": 39
+      },
+      {
+        "hour": 28,
+        "violations": 8,
+        "active_equations": 28,
+        "nonbasic_coordinates": 37
+      },
+      {
+        "hour": 29,
+        "violations": 12,
+        "active_equations": 28,
+        "nonbasic_coordinates": 37
+      },
+      {
+        "hour": 30,
+        "violations": 13,
+        "active_equations": 28,
+        "nonbasic_coordinates": 37
+      },
+      {
+        "hour": 31,
+        "violations": 9,
+        "active_equations": 28,
+        "nonbasic_coordinates": 37
+      },
+      {
+        "hour": 32,
+        "violations": 8,
+        "active_equations": 25,
+        "nonbasic_coordinates": 40
+      },
+      {
+        "hour": 33,
+        "violations": 6,
+        "active_equations": 25,
+        "nonbasic_coordinates": 40
+      },
+      {
+        "hour": 34,
+        "violations": 7,
+        "active_equations": 25,
+        "nonbasic_coordinates": 40
+      },
+      {
+        "hour": 35,
+        "violations": 7,
+        "active_equations": 26,
+        "nonbasic_coordinates": 39
+      },
+      {
+        "hour": 36,
+        "violations": 7,
+        "active_equations": 25,
+        "nonbasic_coordinates": 40
+      },
+      {
+        "hour": 37,
+        "violations": 8,
+        "active_equations": 26,
+        "nonbasic_coordinates": 39
+      },
+      {
+        "hour": 38,
+        "violations": 7,
+        "active_equations": 25,
+        "nonbasic_coordinates": 40
+      },
+      {
+        "hour": 39,
+        "violations": 9,
+        "active_equations": 25,
+        "nonbasic_coordinates": 40
+      },
+      {
+        "hour": 40,
+        "violations": 9,
+        "active_equations": 26,
+        "nonbasic_coordinates": 39
+      },
+      {
+        "hour": 41,
+        "violations": 12,
+        "active_equations": 28,
+        "nonbasic_coordinates": 37
+      },
+      {
+        "hour": 42,
+        "violations": 12,
+        "active_equations": 33,
+        "nonbasic_coordinates": 32
+      },
+      {
+        "hour": 43,
+        "violations": 14,
+        "active_equations": 28,
+        "nonbasic_coordinates": 37
+      },
+      {
+        "hour": 44,
+        "violations": 14,
+        "active_equations": 27,
+        "nonbasic_coordinates": 38
+      },
+      {
+        "hour": 45,
+        "violations": 10,
+        "active_equations": 27,
+        "nonbasic_coordinates": 38
+      },
+      {
+        "hour": 46,
+        "violations": 8,
+        "active_equations": 25,
+        "nonbasic_coordinates": 40
+      },
+      {
+        "hour": 47,
+        "violations": 9,
+        "active_equations": 27,
+        "nonbasic_coordinates": 38
+      },
+      {
+        "hour": 48,
+        "violations": 9,
+        "active_equations": 25,
+        "nonbasic_coordinates": 40
+      },
+      {
+        "hour": 49,
+        "violations": 6,
+        "active_equations": 25,
+        "nonbasic_coordinates": 40
+      },
+      {
+        "hour": 50,
+        "violations": 8,
+        "active_equations": 27,
+        "nonbasic_coordinates": 38
+      },
+      {
+        "hour": 51,
+        "violations": 9,
+        "active_equations": 27,
+        "nonbasic_coordinates": 38
+      },
+      {
+        "hour": 52,
+        "violations": 8,
+        "active_equations": 25,
+        "nonbasic_coordinates": 40
+      },
+      {
+        "hour": 53,
+        "violations": 8,
+        "active_equations": 27,
+        "nonbasic_coordinates": 38
+      },
+      {
+        "hour": 54,
+        "violations": 13,
+        "active_equations": 28,
+        "nonbasic_coordinates": 37
+      },
+      {
+        "hour": 55,
+        "violations": 7,
+        "active_equations": 26,
+        "nonbasic_coordinates": 39
+      },
+      {
+        "hour": 56,
+        "violations": 9,
+        "active_equations": 26,
+        "nonbasic_coordinates": 39
+      },
+      {
+        "hour": 57,
+        "violations": 7,
+        "active_equations": 25,
+        "nonbasic_coordinates": 40
+      },
+      {
+        "hour": 58,
+        "violations": 9,
+        "active_equations": 28,
+        "nonbasic_coordinates": 37
+      },
+      {
+        "hour": 59,
+        "violations": 7,
+        "active_equations": 26,
+        "nonbasic_coordinates": 39
+      },
+      {
+        "hour": 60,
+        "violations": 6,
+        "active_equations": 25,
+        "nonbasic_coordinates": 40
+      },
+      {
+        "hour": 61,
+        "violations": 7,
+        "active_equations": 25,
+        "nonbasic_coordinates": 40
+      },
+      {
+        "hour": 62,
+        "violations": 9,
+        "active_equations": 26,
+        "nonbasic_coordinates": 39
+      },
+      {
+        "hour": 63,
+        "violations": 10,
+        "active_equations": 28,
+        "nonbasic_coordinates": 37
+      },
+      {
+        "hour": 64,
+        "violations": 13,
+        "active_equations": 26,
+        "nonbasic_coordinates": 39
+      },
+      {
+        "hour": 65,
+        "violations": 12,
+        "active_equations": 28,
+        "nonbasic_coordinates": 37
+      },
+      {
+        "hour": 66,
+        "violations": 12,
+        "active_equations": 28,
+        "nonbasic_coordinates": 37
+      },
+      {
+        "hour": 67,
+        "violations": 15,
+        "active_equations": 27,
+        "nonbasic_coordinates": 38
+      },
+      {
+        "hour": 68,
+        "violations": 12,
+        "active_equations": 27,
+        "nonbasic_coordinates": 38
+      },
+      {
+        "hour": 69,
+        "violations": 12,
+        "active_equations": 27,
+        "nonbasic_coordinates": 38
+      },
+      {
+        "hour": 70,
+        "violations": 14,
+        "active_equations": 28,
+        "nonbasic_coordinates": 37
+      },
+      {
+        "hour": 71,
+        "violations": 11,
+        "active_equations": 25,
+        "nonbasic_coordinates": 40
+      },
+      {
+        "hour": 72,
+        "violations": 11,
+        "active_equations": 26,
+        "nonbasic_coordinates": 39
+      },
+      {
+        "hour": 73,
+        "violations": 8,
+        "active_equations": 26,
+        "nonbasic_coordinates": 39
+      },
+      {
+        "hour": 74,
+        "violations": 10,
+        "active_equations": 26,
+        "nonbasic_coordinates": 39
+      },
+      {
+        "hour": 75,
+        "violations": 9,
+        "active_equations": 28,
+        "nonbasic_coordinates": 37
+      },
+      {
+        "hour": 76,
+        "violations": 6,
+        "active_equations": 26,
+        "nonbasic_coordinates": 39
+      },
+      {
+        "hour": 77,
+        "violations": 8,
+        "active_equations": 28,
+        "nonbasic_coordinates": 37
+      },
+      {
+        "hour": 78,
+        "violations": 10,
+        "active_equations": 27,
+        "nonbasic_coordinates": 38
+      },
+      {
+        "hour": 79,
+        "violations": 12,
+        "active_equations": 27,
+        "nonbasic_coordinates": 38
+      },
+      {
+        "hour": 80,
+        "violations": 8,
+        "active_equations": 26,
+        "nonbasic_coordinates": 39
+      },
+      {
+        "hour": 81,
+        "violations": 11,
+        "active_equations": 26,
+        "nonbasic_coordinates": 39
+      },
+      {
+        "hour": 82,
+        "violations": 12,
+        "active_equations": 25,
+        "nonbasic_coordinates": 40
+      },
+      {
+        "hour": 83,
+        "violations": 10,
+        "active_equations": 25,
+        "nonbasic_coordinates": 40
+      },
+      {
+        "hour": 84,
+        "violations": 9,
+        "active_equations": 25,
+        "nonbasic_coordinates": 40
+      },
+      {
+        "hour": 85,
+        "violations": 11,
+        "active_equations": 26,
+        "nonbasic_coordinates": 39
+      },
+      {
+        "hour": 86,
+        "violations": 9,
+        "active_equations": 25,
+        "nonbasic_coordinates": 40
+      },
+      {
+        "hour": 87,
+        "violations": 12,
+        "active_equations": 25,
+        "nonbasic_coordinates": 40
+      },
+      {
+        "hour": 88,
+        "violations": 11,
+        "active_equations": 27,
+        "nonbasic_coordinates": 38
+      },
+      {
+        "hour": 89,
+        "violations": 13,
+        "active_equations": 26,
+        "nonbasic_coordinates": 39
+      },
+      {
+        "hour": 90,
+        "violations": 7,
+        "active_equations": 28,
+        "nonbasic_coordinates": 37
+      },
+      {
+        "hour": 91,
+        "violations": 13,
+        "active_equations": 31,
+        "nonbasic_coordinates": 34
+      },
+      {
+        "hour": 92,
+        "violations": 9,
+        "active_equations": 27,
+        "nonbasic_coordinates": 38
+      },
+      {
+        "hour": 93,
+        "violations": 10,
+        "active_equations": 25,
+        "nonbasic_coordinates": 40
+      },
+      {
+        "hour": 94,
+        "violations": 9,
+        "active_equations": 27,
+        "nonbasic_coordinates": 38
+      },
+      {
+        "hour": 95,
+        "violations": 9,
+        "active_equations": 25,
+        "nonbasic_coordinates": 40
+      },
+      {
+        "hour": 96,
+        "violations": 9,
+        "active_equations": 26,
+        "nonbasic_coordinates": 39
+      },
+      {
+        "hour": 97,
+        "violations": 9,
+        "active_equations": 27,
+        "nonbasic_coordinates": 38
+      },
+      {
+        "hour": 98,
+        "violations": 9,
+        "active_equations": 26,
+        "nonbasic_coordinates": 39
+      },
+      {
+        "hour": 99,
+        "violations": 9,
+        "active_equations": 26,
+        "nonbasic_coordinates": 39
+      },
+      {
+        "hour": 100,
+        "violations": 8,
+        "active_equations": 25,
+        "nonbasic_coordinates": 40
+      },
+      {
+        "hour": 101,
+        "violations": 10,
+        "active_equations": 25,
+        "nonbasic_coordinates": 40
+      },
+      {
+        "hour": 102,
+        "violations": 11,
+        "active_equations": 27,
+        "nonbasic_coordinates": 38
+      },
+      {
+        "hour": 103,
+        "violations": 9,
+        "active_equations": 25,
+        "nonbasic_coordinates": 40
+      },
+      {
+        "hour": 104,
+        "violations": 8,
+        "active_equations": 27,
+        "nonbasic_coordinates": 38
+      },
+      {
+        "hour": 105,
+        "violations": 7,
+        "active_equations": 25,
+        "nonbasic_coordinates": 40
+      },
+      {
+        "hour": 106,
+        "violations": 6,
+        "active_equations": 25,
+        "nonbasic_coordinates": 40
+      },
+      {
+        "hour": 107,
+        "violations": 6,
+        "active_equations": 25,
+        "nonbasic_coordinates": 40
+      },
+      {
+        "hour": 108,
+        "violations": 6,
+        "active_equations": 25,
+        "nonbasic_coordinates": 40
+      },
+      {
+        "hour": 109,
+        "violations": 8,
+        "active_equations": 25,
+        "nonbasic_coordinates": 40
+      },
+      {
+        "hour": 110,
+        "violations": 11,
+        "active_equations": 25,
+        "nonbasic_coordinates": 40
+      },
+      {
+        "hour": 111,
+        "violations": 11,
+        "active_equations": 25,
+        "nonbasic_coordinates": 40
+      },
+      {
+        "hour": 112,
+        "violations": 12,
+        "active_equations": 26,
+        "nonbasic_coordinates": 39
+      },
+      {
+        "hour": 113,
+        "violations": 13,
+        "active_equations": 28,
+        "nonbasic_coordinates": 37
+      },
+      {
+        "hour": 114,
+        "violations": 4,
+        "active_equations": 28,
+        "nonbasic_coordinates": 37
+      },
+      {
+        "hour": 115,
+        "violations": 8,
+        "active_equations": 29,
+        "nonbasic_coordinates": 36
+      },
+      {
+        "hour": 116,
+        "violations": 14,
+        "active_equations": 26,
+        "nonbasic_coordinates": 39
+      },
+      {
+        "hour": 117,
+        "violations": 12,
+        "active_equations": 26,
+        "nonbasic_coordinates": 39
+      },
+      {
+        "hour": 118,
+        "violations": 11,
+        "active_equations": 26,
+        "nonbasic_coordinates": 39
+      },
+      {
+        "hour": 119,
+        "violations": 7,
+        "active_equations": 25,
+        "nonbasic_coordinates": 40
+      },
+      {
+        "hour": 120,
+        "violations": 9,
+        "active_equations": 26,
+        "nonbasic_coordinates": 39
+      },
+      {
+        "hour": 121,
+        "violations": 9,
+        "active_equations": 27,
+        "nonbasic_coordinates": 38
+      },
+      {
+        "hour": 122,
+        "violations": 10,
+        "active_equations": 26,
+        "nonbasic_coordinates": 39
+      },
+      {
+        "hour": 123,
+        "violations": 10,
+        "active_equations": 25,
+        "nonbasic_coordinates": 40
+      },
+      {
+        "hour": 124,
+        "violations": 7,
+        "active_equations": 27,
+        "nonbasic_coordinates": 38
+      },
+      {
+        "hour": 125,
+        "violations": 11,
+        "active_equations": 33,
+        "nonbasic_coordinates": 32
+      },
+      {
+        "hour": 126,
+        "violations": 11,
+        "active_equations": 29,
+        "nonbasic_coordinates": 36
+      },
+      {
+        "hour": 127,
+        "violations": 9,
+        "active_equations": 27,
+        "nonbasic_coordinates": 38
+      },
+      {
+        "hour": 128,
+        "violations": 7,
+        "active_equations": 26,
+        "nonbasic_coordinates": 39
+      },
+      {
+        "hour": 129,
+        "violations": 6,
+        "active_equations": 25,
+        "nonbasic_coordinates": 40
+      },
+      {
+        "hour": 130,
+        "violations": 8,
+        "active_equations": 25,
+        "nonbasic_coordinates": 40
+      },
+      {
+        "hour": 131,
+        "violations": 8,
+        "active_equations": 25,
+        "nonbasic_coordinates": 40
+      },
+      {
+        "hour": 132,
+        "violations": 5,
+        "active_equations": 25,
+        "nonbasic_coordinates": 40
+      },
+      {
+        "hour": 133,
+        "violations": 9,
+        "active_equations": 26,
+        "nonbasic_coordinates": 39
+      },
+      {
+        "hour": 134,
+        "violations": 9,
+        "active_equations": 26,
+        "nonbasic_coordinates": 39
+      },
+      {
+        "hour": 135,
+        "violations": 9,
+        "active_equations": 26,
+        "nonbasic_coordinates": 39
+      },
+      {
+        "hour": 136,
+        "violations": 12,
+        "active_equations": 27,
+        "nonbasic_coordinates": 38
+      },
+      {
+        "hour": 137,
+        "violations": 14,
+        "active_equations": 28,
+        "nonbasic_coordinates": 37
+      },
+      {
+        "hour": 138,
+        "violations": 13,
+        "active_equations": 29,
+        "nonbasic_coordinates": 36
+      },
+      {
+        "hour": 139,
+        "violations": 13,
+        "active_equations": 28,
+        "nonbasic_coordinates": 37
+      },
+      {
+        "hour": 140,
+        "violations": 18,
+        "active_equations": 32,
+        "nonbasic_coordinates": 33
+      },
+      {
+        "hour": 141,
+        "violations": 10,
+        "active_equations": 27,
+        "nonbasic_coordinates": 38
+      },
+      {
+        "hour": 142,
+        "violations": 9,
+        "active_equations": 26,
+        "nonbasic_coordinates": 39
+      },
+      {
+        "hour": 143,
+        "violations": 9,
+        "active_equations": 28,
+        "nonbasic_coordinates": 37
+      },
+      {
+        "hour": 144,
+        "violations": 9,
+        "active_equations": 25,
+        "nonbasic_coordinates": 40
+      },
+      {
+        "hour": 145,
+        "violations": 10,
+        "active_equations": 27,
+        "nonbasic_coordinates": 38
+      },
+      {
+        "hour": 146,
+        "violations": 9,
+        "active_equations": 27,
+        "nonbasic_coordinates": 38
+      },
+      {
+        "hour": 147,
+        "violations": 7,
+        "active_equations": 26,
+        "nonbasic_coordinates": 39
+      },
+      {
+        "hour": 148,
+        "violations": 8,
+        "active_equations": 27,
+        "nonbasic_coordinates": 38
+      },
+      {
+        "hour": 149,
+        "violations": 10,
+        "active_equations": 28,
+        "nonbasic_coordinates": 37
+      },
+      {
+        "hour": 150,
+        "violations": 11,
+        "active_equations": 32,
+        "nonbasic_coordinates": 33
+      },
+      {
+        "hour": 151,
+        "violations": 9,
+        "active_equations": 27,
+        "nonbasic_coordinates": 38
+      },
+      {
+        "hour": 152,
+        "violations": 9,
+        "active_equations": 27,
+        "nonbasic_coordinates": 38
+      },
+      {
+        "hour": 153,
+        "violations": 7,
+        "active_equations": 26,
+        "nonbasic_coordinates": 39
+      },
+      {
+        "hour": 154,
+        "violations": 7,
+        "active_equations": 25,
+        "nonbasic_coordinates": 40
+      },
+      {
+        "hour": 155,
+        "violations": 8,
+        "active_equations": 25,
+        "nonbasic_coordinates": 40
+      },
+      {
+        "hour": 156,
+        "violations": 6,
+        "active_equations": 25,
+        "nonbasic_coordinates": 40
+      },
+      {
+        "hour": 157,
+        "violations": 8,
+        "active_equations": 26,
+        "nonbasic_coordinates": 39
+      },
+      {
+        "hour": 158,
+        "violations": 9,
+        "active_equations": 25,
+        "nonbasic_coordinates": 40
+      },
+      {
+        "hour": 159,
+        "violations": 8,
+        "active_equations": 26,
+        "nonbasic_coordinates": 39
+      },
+      {
+        "hour": 160,
+        "violations": 10,
+        "active_equations": 27,
+        "nonbasic_coordinates": 38
+      },
+      {
+        "hour": 161,
+        "violations": 16,
+        "active_equations": 33,
+        "nonbasic_coordinates": 32
+      },
+      {
+        "hour": 162,
+        "violations": 18,
+        "active_equations": 31,
+        "nonbasic_coordinates": 34
+      },
+      {
+        "hour": 163,
+        "violations": 11,
+        "active_equations": 28,
+        "nonbasic_coordinates": 37
+      },
+      {
+        "hour": 164,
+        "violations": 13,
+        "active_equations": 28,
+        "nonbasic_coordinates": 37
+      },
+      {
+        "hour": 165,
+        "violations": 10,
+        "active_equations": 27,
+        "nonbasic_coordinates": 38
+      },
+      {
+        "hour": 166,
+        "violations": 9,
+        "active_equations": 28,
+        "nonbasic_coordinates": 37
+      },
+      {
+        "hour": 167,
+        "violations": 8,
+        "active_equations": 26,
+        "nonbasic_coordinates": 39
+      }
+    ],
+    "original_candidate_check": {
+      "pass_strict": false,
+      "rows": 34680,
+      "columns": 23016,
+      "binary_coordinates": 12096,
+      "tau": 0,
+      "violations": 1670,
+      "first_violations": [
+        {
+          "column": 23,
+          "kind": "box"
+        },
+        {
+          "column": 220,
+          "kind": "box"
+        },
+        {
+          "column": 250,
+          "kind": "box"
+        },
+        {
+          "column": 296,
+          "kind": "box"
+        },
+        {
+          "column": 338,
+          "kind": "box"
+        },
+        {
+          "column": 462,
+          "kind": "box"
+        },
+        {
+          "column": 576,
+          "kind": "box"
+        },
+        {
+          "column": 703,
+          "kind": "box"
+        },
+        {
+          "column": 740,
+          "kind": "box"
+        },
+        {
+          "column": 786,
+          "kind": "box"
+        },
+        {
+          "column": 827,
+          "kind": "box"
+        },
+        {
+          "column": 1130,
+          "kind": "box"
+        },
+        {
+          "column": 1171,
+          "kind": "box"
+        },
+        {
+          "column": 1195,
+          "kind": "box"
+        },
+        {
+          "column": 1237,
+          "kind": "box"
+        },
+        {
+          "column": 1335,
+          "kind": "box"
+        },
+        {
+          "column": 1622,
+          "kind": "box"
+        },
+        {
+          "column": 1663,
+          "kind": "box"
+        },
+        {
+          "column": 1687,
+          "kind": "box"
+        },
+        {
+          "column": 1735,
+          "kind": "box"
+        }
+      ]
+    }
+  },
+  "frozen_bindings": 34,
+  "manifest_sha256": "397fdbdd982ec11dc7265d842733df40fc0ad66a22922ea40e06cfebdaf03da9",
+  "producer_hashes": {
+    "basis.json": "c46f87bd1d33fe1d7c91395d7d91cba997e8047fc58745ca18d92c04072d6981",
+    "completion.json": "afcacc321c3506f880d613e4265a1883d29695c325801adcba4342eff43d6770",
+    "constant_rows.json": "55cb4de453db1a304e9fdd5981f0c0344157c06eeaba275331a850bff6407eea",
+    "conversion_differences.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+    "exact_blocks.json.gz": "bb3ea42021bf41f75840e601f30fb0f751274d1185d5cc9dafece81be2327bec",
+    "execution_marker.json": "bccde1ad9593409657b163afc4cb14cc93025b70c32d58c23761c2f2ac448f2a",
+    "existing_cap_relation.json": "2e2a55d0500b4acadb5076e8388fe511bfef06fb19739278938f6088b8de85f3",
+    "fixed_schedule.json": "b9d489ad87be1c54bf3ac067e132eba2d6b01d9916fc0212a7fabbf7cc899130",
+    "hour_000.json": "b340300ddd63c7d7e98fb71f963ad98ab0bcb0ad2bba3c8cf820a43cf905d777",
+    "hour_001.json": "696e8b36ddb9bb04812f01d7ba51b930aa2a528f2be279c0324fb066c6e0e304",
+    "hour_002.json": "b63b6338655253b7ddf535d4903742c383e2994c96473710c4627aafa7f73c8d",
+    "hour_003.json": "2faf5a396c27680cb5cc93deedb164d77f2768da3686edb72c7448dbf2857d94",
+    "hour_004.json": "bca7f12a33a8deddccb9714d7410324ab3d4ce328d1468dba4bc6da2bcf2ca17",
+    "hour_005.json": "b5287e705408bc378cab91738115fc996dd1803967fc2ccdefc08d889bcd181d",
+    "hour_006.json": "6b81a75610840a7f41995bf14265a09cce978da6da54e915abe28cd9a2cb68be",
+    "hour_007.json": "089c8952b38653fcabf6f1aa994937d422326dbd67d09bdff0c08179484c4e57",
+    "hour_008.json": "70e4b753c13fbe870c003d738230c24c70760ae13474a238c6cfcbb1d05cb293",
+    "hour_009.json": "bcf7d3f8ecd61879554e99b7f6b86d4cd1ed96a7bfca447553e97bf5ef5c7273",
+    "hour_010.json": "1d8d99a8d208f4f1691df05fef90e23ffadf26301b93e3892dea9f32d254459b",
+    "hour_011.json": "f0bb97d8ad0035a15f4a00f84a27c44e463117e8b3c4a5c1caa10fa5bedea076",
+    "hour_012.json": "8ccf4c9fc9e10a098204bf17ea5cea6ac93d0f8760edb838e811798957c46900",
+    "hour_013.json": "d2531b83aaf7fa81cceb0d0885f1e4834b0ca847e4418ea60dc033d10b8e7970",
+    "hour_014.json": "f2e495387abcb72b1a81269d5d9bf3ee7b62f65db55e284041dd662071e5a8f8",
+    "hour_015.json": "f3d8e8befe1b6fd170dca4a5865a3e199eefe3ea68bb2b9f58bf96909e42f278",
+    "hour_016.json": "c309e6fc6b55f17f59b952d3bc6b800c57b9cee35406125cbbb05b8bc4b3105f",
+    "hour_017.json": "61afd613da2d828eadfeb0d6dfcd0fe30bd5b1d21228bd98f2bd3ad050a8d619",
+    "hour_018.json": "a333729c4b2d5d575f5662542adac08a6bcb70839671632d4ee66a242ae2b278",
+    "hour_019.json": "5cd2460a0b1c7d494b2973ff32814574ee964675062c61e626fa616886ae0fae",
+    "hour_020.json": "164dc29d71f591e282208e0a4143bc63ebd22d9327513f02729b8ffced4ac7f1",
+    "hour_021.json": "a3ac38a9642cc72551c0e16a3a3adeafdd1aab7efdcf7a747ec3d5ca7a13d353",
+    "hour_022.json": "d90628fb7c26cf2c0cc98f5f85dcb64fb1ceeb767f2bddb14b4fbcd9921953f7",
+    "hour_023.json": "211907138f8f4b42f15cc95b2c3d7ee4f00c3f700fad462cbf9b5c985302da7c",
+    "hour_024.json": "389cf9713fde6a6f93c85348a3b0dfdacfa48eb931e77674733fd58b964f5157",
+    "hour_025.json": "41f0cbaabb2302a14324b6b6e5b8171d4ebfa7e9db5ef1a1f83fe9f24e7ba735",
+    "hour_026.json": "9bccda1cccc15fbdfe9b528cbef9367e01bd15e8f4504d24115856c65741bb69",
+    "hour_027.json": "175e01d836d66e5e28a17dc112017872594fbc9b53cff3b73a0e281e030a7c94",
+    "hour_028.json": "a73246149b6adfde3ef0c8c4b51ba0908f92934f24b41e6cb658877b44f2937f",
+    "hour_029.json": "a03fc431313b8b75aa22716b7f2ed250f2d251bfef0c41cba30c5143b62c0338",
+    "hour_030.json": "f0eb24074c65f7a78de64209cf21e8d7dec755d538c86e8aba2366d8101e17af",
+    "hour_031.json": "0fb46c2f86ec289ad5126a78b276bdc104bfa1e5b300b4fd43e2b1d17b748bc1",
+    "hour_032.json": "b80e656b4df3c984c5ca26e04da1ef8437bc1bb3c59dac457be639fef3731790",
+    "hour_033.json": "5e1151e9c1e539e930506d3f44b7e4bf6fcbdbeaa5c97e8b339108e5c7379ccc",
+    "hour_034.json": "ff6baadd609975f31834115caa2620215911d5cf20d195f051f428e38d790525",
+    "hour_035.json": "66586e359a4e9976a2cf20b04b966c49a3630ed0f132c04f9c45667ea75f8b41",
+    "hour_036.json": "135005d5eaad3cec315e9982108ad1552f199d84124a1b83357dbebf9d649107",
+    "hour_037.json": "5e407dd8c19428f0fbd61fe047be9f9df1164ca4da9faf742a9599bf6f5d17ae",
+    "hour_038.json": "69dc2515bc1246e6bc2c900cf7acba2cdeb0a0140634806f022544008f5ee85b",
+    "hour_039.json": "e0f9578363d9992b021be3414af41e1c3dc4625ac82ac22db3e141c2cc56e85c",
+    "hour_040.json": "34e501b98e7c38da4a93954a4582830e6054a9de11d385310adf62beb75fa50a",
+    "hour_041.json": "682cee237b0ea3dd407df45da44d99cf769ffc07ce1cd9871d292856f994558e",
+    "hour_042.json": "73a05fafe286f683524a49aa5b7e2070722dc5c3b939a70cfcce6e9909fc1afb",
+    "hour_043.json": "45a2032745470c768ea0c23009743db12fdad52273f2a8977759016c812dd4e0",
+    "hour_044.json": "0e80ca8d163e5033cb99e6eff36a89b08b96306da66086001242b8d716665c02",
+    "hour_045.json": "7bd46e2845b760129fccce6ee0442419bcf9fa8e0d32d11b7792b56e9db7418a",
+    "hour_046.json": "1924f7f95766d95f840377cd2efc028576538c5e06d863ac8cfc9eae78a72b00",
+    "hour_047.json": "913c6045e47dd5cf7a9a35fa7ee5ebcc47cde0299d6f7b8e8b8b4b7c80c85970",
+    "hour_048.json": "20f6e124f000f96979c1d40bdfb9873948774fe3704f1dd892cbd90164f91ed3",
+    "hour_049.json": "0c6137bbc12ddc0a87c243b19342592aeff9c3c25bcba21fe7336d9c8c8c4806",
+    "hour_050.json": "ae88fcb73e92ad36180d6ea9a1a0ed11fe3975e0e233e77612c05454b10099a4",
+    "hour_051.json": "d515dd158af50879b6fed3bf39a702c7db6937f31ad4da54528c1613528f36fb",
+    "hour_052.json": "ddce51a9cdb2e2b5b83360f4dcc91e053b7d18a2c004a49ca8a1748aa42c4fae",
+    "hour_053.json": "1395f88f15e5cae67e5767bb2a53a23d7aec7d95922a7b95e6cc77e8d54080f2",
+    "hour_054.json": "2424cae5bc515f7c8012a4b8ce30ff0937492ceb09a24ad51d5870681a4f9fc9",
+    "hour_055.json": "176aafaad723bfe1d111f13d8c02ef8a4b3c1755f886710fdeb9794b3be43fa9",
+    "hour_056.json": "c8f96049c20a214874831ab6154a960e48da90468f3820d1f6330903b37a923d",
+    "hour_057.json": "598d8901a1d1c3b893c687130dc450fed2efda02b56968e692162648ffb8ae86",
+    "hour_058.json": "03743ac9b374448f59c11f6ce8536777fa3d10d1ab992d4a1c89efb5fcb4cd39",
+    "hour_059.json": "f6728807bfafde5903c69465f851bd90749e82250e6e85a1f393efa39b0618b2",
+    "hour_060.json": "3ea520cad30fcfd8209c5229cba848096a5b1a8a03356246c03c39127969dd0a",
+    "hour_061.json": "e5239533e2a2a8acdfa9834aaca4ee23bf76d453e7419c812d292b38f87a81f8",
+    "hour_062.json": "fbeb9138e95c34098031f2d11adf5323d781f6b82768ecd1e449410399126ff0",
+    "hour_063.json": "153f49e7bd1ac51c6ab11d9e06c1df9ec838610c32001f5eedc958da594307f9",
+    "hour_064.json": "8cff8ac38211511df0f95155bc43566aed80f73773d72321d1407c1d262e5cad",
+    "hour_065.json": "98ec257051e0fe6a83ecc1394fbaa94b1dd429f02230404664d2e27ed3a17c83",
+    "hour_066.json": "0033b6495c9595ef9a4e83611495b84823c86c528fe7306a0a3ff03b21ee14cb",
+    "hour_067.json": "37ee765bdef4b3993ff5804305696ebe50fb4f56e5aea1bd3fd42803c5d2dc63",
+    "hour_068.json": "4ccac90cb470b8bd1346f63d1d8fe943bcab8c130f6b9d09508faf0ad661bdeb",
+    "hour_069.json": "6aa60c6f1848bcc3d3cf894e7d36873b8b859cc932e6d174e874be8464332278",
+    "hour_070.json": "f62b4843e9ed0d76ed5e126289a837ecf55b19ebea6fd476da53009b266e8987",
+    "hour_071.json": "7410d51812a57a9ec4662e9f912e1fad22f0d79879837f6894b69b53ae75df3e",
+    "hour_072.json": "d7b5f84a590e0992631a94428557f95dd565129dadbdd947948ae67eac26982f",
+    "hour_073.json": "895ea049330b330517eee1bde800588a49efbda56fa57b5ba8425e3e8425b5a2",
+    "hour_074.json": "0a0e693a90599ca3209aa96effefb8837a6904f8852a3f93575b55268f33c913",
+    "hour_075.json": "e8f134183e4c838da1f922078def3ce6135f8ccecaf3567052c6ec56bb62f05b",
+    "hour_076.json": "a98261158e4fcb2ecf43fc2689c79e60aabf32341bd93bd1fc1af5632a532a8b",
+    "hour_077.json": "6fda47cd941dde54a14fa2d022a227d6247f1ee0e18cfedcb3f208fec92fba54",
+    "hour_078.json": "eb3f80191408e2838a9928e378f9041f25533f8a7f947f9b0c898108b683bbb9",
+    "hour_079.json": "e0551107e22299e043989ad5bef30a940cb5c81d0df1a73c7cff146e9d467da2",
+    "hour_080.json": "c7919352e9a70fbb99e0f93ceb95a19b69e537755fdb90e21ae4c8f14e2c82f8",
+    "hour_081.json": "b0225dd80e7c50688579b19030e6803fcebaa329b9f1e4d011b42b0e0c9f5d06",
+    "hour_082.json": "1fd6ade3bdaed630f11b0fca3d70440ed400fe2319f573038392ce763ffbdd35",
+    "hour_083.json": "db5f613b44f34182451e46b7ca6541febbb66c66ca904255aa74f0e29f360ff5",
+    "hour_084.json": "edd2af2340608358dbf2c8eaecbcb8070b10a018c2d316d3e0f694243f78cb81",
+    "hour_085.json": "34b9f16c99d239aab7e96df2d26a66b0349df5ec8296be94589f1452ced2baae",
+    "hour_086.json": "bc03a6b86c6e9b1d9b542cdd51831ac1b3430bbf868fefea0d7ce835abb2f231",
+    "hour_087.json": "77412de1e17dc231ca5966fe7e6915c1d5b85975797c2ba5519dbe329f052990",
+    "hour_088.json": "3011e9a1a412f65d17819f5d12708d7f2186a1c6ce2a45e7c4e06da1b2f39be3",
+    "hour_089.json": "dd8522fa1516e35347db48202350033bf0a0d20c865e19a98222956ddba8e675",
+    "hour_090.json": "9339f31dee6f5d14a590bc24517ca2a44e17a5c57791b1b8b63775c999bcacca",
+    "hour_091.json": "10d3c6ec5b67a9e68860564c08b3c0776fe878632e2d7b893f14c2e12338effd",
+    "hour_092.json": "e6eb7b4df707d0ebe4961d45f585fd2ec71f8c9cbb6321e3905c7cf82e6e2a4b",
+    "hour_093.json": "af023552cd4633f78fa508c6851717ffd80817fb82ba76c439b2a60906c09c64",
+    "hour_094.json": "741e155b579aa0d323ed68888b45f8bc3d731c7dbe7acf0b1d2d1ca8f37b9967",
+    "hour_095.json": "70e1b1fb57ab5c8ace41a69d068a00d1a5cba1cca3410cab4d5f6c0097450338",
+    "hour_096.json": "86fc9b71881348a2ac4e227b45f9f2d8df89600343e0bd8fb8bfe201099501dc",
+    "hour_097.json": "753274a4547e24a7eae8da305b97a897a0a3a75a053429dd8bcee1b75dbd339c",
+    "hour_098.json": "a4e5b695369cf881c6c1c900f0e671ef54cb64563344da0e3610da2ee65992e4",
+    "hour_099.json": "90d287f18b41007a861a182ea53223565ea0cd88233db359688c7271cf3eb008",
+    "hour_100.json": "65841fb77986c0b581c4fc932bf7edcee8d514b63ae31094c597def5d97c3584",
+    "hour_101.json": "bd4be590a98489cc057bd8bfc0450758b32409341dff3e8d6c7cde03f602fe2c",
+    "hour_102.json": "b4398b15e2603c04c43c9ca41063e1c2f42cc3664a57de5ff9951a0d178ffd9f",
+    "hour_103.json": "0f7406e5d0c79a2365c2bee3f81247bbb3a481080a1efc22ee3e1aaa380f942d",
+    "hour_104.json": "ab0f7709976b2120991f33643624709643ca0c1c952ef1a41614f8fb04feb638",
+    "hour_105.json": "3c3743c6b71338e8ceb9bd32234bede3044a1046c2bd8e84054ea0917681f156",
+    "hour_106.json": "e43dee96e615b874c484f170b07c79f4f0046b3faf9955d738c06589116de58b",
+    "hour_107.json": "ce2d3b5b969b6636c5938451716314df9d68abbea45b913307c6edb5fd4ed94e",
+    "hour_108.json": "6d560ef009eccf9a776cd4918f97238e23b5b203a27678fee6f15fe08ac3e998",
+    "hour_109.json": "18e0b71c6cd444f587c279c7799de8e1487f5e6ebc3df0ca61eae876756131da",
+    "hour_110.json": "42bb336fb734d6ecd1fde42ded71f41d409f7eb16a2cc938fba9f332b6a80838",
+    "hour_111.json": "ca52473042469c439d98269067c5c2ecdf75891162ba921b68a9a08f534e97a4",
+    "hour_112.json": "9e05671434b3e56c2ca16ca99973d99064996679903d260289271c2f57841923",
+    "hour_113.json": "027335db4a93c900e85e2c7b02ab80c93c60b2bb4f9cedbee63a38adc50cbfa8",
+    "hour_114.json": "29db0220fdf14af1a85fcd48e0a005331abe55c34003c18285441859f91468f9",
+    "hour_115.json": "d37f41878f1d3797d12cd5abf86f1384e1a6970343a9dfd451937de024811a13",
+    "hour_116.json": "55f234402956c9eb83139b62c2f87f2a333c503dc00e5667c93f8b9bb7b85126",
+    "hour_117.json": "dd523086e4ca393927e44ddfef76bfc6948ffd09f7c46485fe0b19fb953009c5",
+    "hour_118.json": "2831d9bd51dc72b80a0fa3222b12e1ed5adc158289eb716f6dda0e006e2da0ec",
+    "hour_119.json": "60ca0c714326d60466e3d9a8d32b41cadc7644f4b2cc80d9a052e451574480ee",
+    "hour_120.json": "926df282476be558924c45ad1e76fb33eeaf138fe87f3f3cae68097dc9736566",
+    "hour_121.json": "19ad5b367003688cb48c9c515238ae886efdb68167c522e291bab3685f39d536",
+    "hour_122.json": "ba26c16fed7cb92727302a0aa6e424face718819db24b36b0a6f84fd9b1c8e42",
+    "hour_123.json": "ade501ad0d3ba3b5077bba7e4c6a1482700442ccadbd8a1edac2e86eef18d2f2",
+    "hour_124.json": "54dd456a4d98fec508a3f4df162033b00abd69f48c1ccebd00fa111ec5df68ee",
+    "hour_125.json": "b129cf68d26487b438100fd8496117c9d25629463179380b08f68c95047fb57b",
+    "hour_126.json": "cdb2465ca8f7ccff95d6a3e408bf0b95691eeeac8541d009e150ff949cbacb53",
+    "hour_127.json": "cb4f901eed92341cb881d6ea1b64a0f1fb57ffc637cf4d29a711e324bfcababa",
+    "hour_128.json": "c545214a43342fa3bf46eede4e82508e71a2a03cfc23ed9a55f4195fd96f9147",
+    "hour_129.json": "e103f58253a1674cf284e0b10b869c6e8d8902341232c6d48ff98d6044e89f96",
+    "hour_130.json": "8d517e9aa2deedb78bb9d73be05696f7ab3248c99e8948cfee4afaa9179c560b",
+    "hour_131.json": "ccc4a7d80de1dadd1553c31b7c26bd286330dad156560cc19be0e89fae791194",
+    "hour_132.json": "ecf867aaf1c9ad7307aa050593624e38b0606bab033135ec20d2b24d4ab5ca52",
+    "hour_133.json": "d64cd33846fb4a7d6a4e365bf45b04dda8a5ed8b46f4e51e7109e2cf01e461d2",
+    "hour_134.json": "8177cecf2979bbe1812addbf1b845300f612cb6f2b25cda252d36b24571e0589",
+    "hour_135.json": "bd2364608c3278e03382bdc6247af5160d64746d651e9c231d8c7c05d3102e65",
+    "hour_136.json": "98cc9a9c828f777ff946fad9c3ffde9d018dff6239f3bf12b9fb7c8987dbf3b6",
+    "hour_137.json": "24e0b8328d96250d91a3ef9943af1d4d3f6324097bd8a3f416bad67c932d260f",
+    "hour_138.json": "74a5fc8046cd79a38f96a20e98565887f8bb085af667e53c70b7e795dfd69805",
+    "hour_139.json": "874900b2df06bfc2928846a782da47eb47352a656c96d40dbe854e652d8e8560",
+    "hour_140.json": "1d431427a6d5e096e992bfee437a150f74e0cf4a6d1e9f77921754c0f887729d",
+    "hour_141.json": "61a5557069d0a457e661c4ba608386681fb66930161a010a9e2f55c8b8fa97b8",
+    "hour_142.json": "361b60c04e87f24f5261795da30a8396ed93cb2cbd305650fc241bb5ac509fe4",
+    "hour_143.json": "44ceeb7b1fe63af14c7eaa5e2f1f1962626c7a4a82b2591c8f489e2320f7c06a",
+    "hour_144.json": "9b232963550c4090168c1d9c4c331b2bcb601e2e351325bec9325ef199cbb1e8",
+    "hour_145.json": "209d4f1a71ba891f3cdc85e26778e8a07c0d07368163bc5ca9b19798168c5d59",
+    "hour_146.json": "269c12b99f14e3c57a2e9abf8ca1c9c058be62a2d6d48540525adb4435a7fa9a",
+    "hour_147.json": "f79d660ac21deb95c08648fa27e918d4aa4b73040436308bf067c775ddfb218a",
+    "hour_148.json": "5d485cbe707f1c1a536072c961e06d61624372bfd3b0a65b055b0e0fa0cf3124",
+    "hour_149.json": "2be34bde003c2c8c0fc4fdd4343f6feae73aae14e0766e768a3aff6c302b47e2",
+    "hour_150.json": "58d41cbca59817338a89812a0896da6f31925326ca93d00e122484fd2158008d",
+    "hour_151.json": "721841f3c90b30f4b537d4243e6f4798ea09f6f61e4d6f1fea27022d045e7ac3",
+    "hour_152.json": "8ab7a63fb8c6b02e3ef31ed32d325cf230b0b4646ecc35fe162491f5bbe372e8",
+    "hour_153.json": "915309605bf5498915d95616e1341334ef0674ede56f5567f8fe193e33bb8ae3",
+    "hour_154.json": "c1d489189b05522a045f2bfd99570daf79249c3e2ef0cb8d2081faaaae93d960",
+    "hour_155.json": "6dfefe2185d099c6e9d7d67dbaa5e91d205871fb3f3d2396555a3421fc65cd49",
+    "hour_156.json": "d1a149493bc36ca4f75f956aeba4483440a878eca404e69ae0cc8e66cfc6564c",
+    "hour_157.json": "f74a0f7e55cc88821cf6704b2500d4ad8dedcd475b5a7d0b69ccf06f8e491f0d",
+    "hour_158.json": "e08ad926c17f83119a6e444e8288f31a78534f916def35e045b4e5776d928170",
+    "hour_159.json": "077e3b40d9ec3d4be94458d74ce098b3ce662ac470eea7c71d04b7105a967e75",
+    "hour_160.json": "188e2db0e5a47b5c0ed5be7d3c46a2fe39102486b8951cbe9c1623eed6c744b2",
+    "hour_161.json": "1b8bbd54679f41db612583298d2673d44fd9ec6b2576beaf7bf72c61458d86e0",
+    "hour_162.json": "8df879a6ce1dab30e61dfe4453983c74d593c46293d7b58f01eb92ce7040310f",
+    "hour_163.json": "093e236f48d0d4c51bb580a01b03bbd517bcf7cbd3857534f99ce0f181d26e40",
+    "hour_164.json": "1c3bcf6d11e1089cd63716b5eb1fb810a866a0b28532f37083cbb88e78dd97be",
+    "hour_165.json": "10428dbae7bc1b1fb1ba8bbef65586c7af8fe8c19bbf29e097f9bbfa74c9fbd4",
+    "hour_166.json": "2ed690e4f066d1e87a9df94fa871bcc4ae68044a8e61086205115f61f8bb96ac",
+    "hour_167.json": "84c974426013a83bc1ab9350e7928ca822fa320e0db45fa191d512045b39b7c6",
+    "input_manifest.json": "397fdbdd982ec11dc7265d842733df40fc0ad66a22922ea40e06cfebdaf03da9",
+    "launch_decision.json": "a378acf629c9f93401c73e40f4b56ad1b3a2329d2853d2bac573738bc9e07926",
+    "native_spec.json": "9a2c78233792adb44a3a50ba7510769185457660551f92892941eeda1bacffd3",
+    "numerical_proposal_point.npz": "ebea451a4e68f93e8497ac91392cff097a6ab5515d24a17f54c707071be99295",
+    "outcomes.json": "681e6832d54ede42e08966a243d067920cf5937b9fc1dbea66d497d870b32dc3",
+    "preparation_report.json": "5d59d2108095ec9f0df129debe2e5fa8141a795a3badf87475049433dcefb12c",
+    "prepared_freeze.json": "35a7cf4114915b5f47e216aa96b363f92dae4e1ab022864a064cb479667b3eba",
+    "proposal_bounds.npz": "a96cf99078d76bbf7804942d5ab61f0eb7792f9938a2038fc39da8716b60113f",
+    "proposal_mapping.json": "700cbde25098ec6f481524b49d2445beff27535b6a308496a003a0ba5b55cc36",
+    "proposal_matrix.npz": "f2200b0d89966c5ac7df754a8861f08118c59842236904b875ae2cb301e4dbe8",
+    "proposal_objective.npz": "c13ebe4f63cc3b1a3be3d34363d9ad5d445b0b925718fd0cff8da3e498e37a76",
+    "solver.log": "13f79c7ec468060b19578bf13ccd03f7e0ffca97148472bd890f89d8fd05c162",
+    "solver_result.json": "0fa4de472efa1ade69b9ce3ccf014d71c200885f234f9423c5b9fc5b1f4118b7",
+    "transformations.json": "9c909bf00198cb98dfc2c1f0e0c9fc76d53c7b4f75000cb0a75549ebe0edc75b"
+  },
+  "optimizer_calls_by_reviewer": 0,
+  "producer_source_imports": 0,
+  "elapsed_s": 9.155799600004684,
+  "no_full_UC_negative_inferred": true
+}

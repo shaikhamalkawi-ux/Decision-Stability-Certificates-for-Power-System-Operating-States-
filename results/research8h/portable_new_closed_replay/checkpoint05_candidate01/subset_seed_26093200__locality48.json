@@ -1,0 +1,39 @@
+{
+  "status": "EXPANDED_CONTINUOUS_TEMPLATE_ADMISSION",
+  "point_check": {
+    "status": "CERTIFIED_EXPANDED_ONLY_POINT",
+    "strict_pass": false,
+    "expanded_pass": true,
+    "original_binary_coordinates_exact": true,
+    "binary_coordinates": 0,
+    "tau": {
+      "numerator": "5902958103587057",
+      "denominator": "590295810358705651712",
+      "float": 1e-05
+    },
+    "maximum_column_violation": {
+      "numerator": "0",
+      "denominator": "1",
+      "float": 0.0
+    },
+    "worst_column": null,
+    "maximum_row_violation": {
+      "numerator": "6386793977371559373",
+      "denominator": "1267650600228229401496703205376",
+      "float": 5.038292078449434e-12
+    },
+    "worst_row": {
+      "row": 27209,
+      "side": "upper"
+    }
+  },
+  "actual_binary_coordinates_checked": 0,
+  "original_mask_validated": true,
+  "exact_nonbinary_original_states": 273,
+  "binary_witness_established": false,
+  "rows": 28689,
+  "columns": 23016,
+  "unchanged_static_network_cap_box": true,
+  "fixed_template_linear_separator_excluded": true,
+  "strict_nominal_feasibility_established": false
+}

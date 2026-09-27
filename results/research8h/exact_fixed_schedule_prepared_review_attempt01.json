@@ -1,0 +1,9 @@
+{
+  "status": "REVIEWER_ASSERTION_ERROR",
+  "failed_check": "capped objective equals uncapped objective",
+  "reason": "Capped feasibility archive has zero objective; cap row matches original fossil objective. Feasible-set equivalence never required the capped solver objective to match.",
+  "source_sha256": "bfa1192a5d7e0625356f94d9f681a8968481f9b1e4e5822e5aca92cc0620304a",
+  "observed_capped_objective_nonzero": 0,
+  "producer_or_prepared_files_changed": false,
+  "optimizer_calls": 0
+}

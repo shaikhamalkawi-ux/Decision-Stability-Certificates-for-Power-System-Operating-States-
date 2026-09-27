@@ -1,0 +1,72 @@
+# Exact fixed-schedule witness protocol
+
+This is a separately reviewed implementation of the design in `EXACT_FIXED_SCHEDULE_WITNESS_DESIGN.md`. Its scope is one original January reference schedule and the original, unexpanded archived model. Implementation and small synthetic fixtures are authorized first. Actual input preparation, its independent archive review, and the single numerical/reconstruction execution require distinct gates. No result is claimed by this document.
+
+## Fixed target and success condition
+
+The target is `results/research8h/seasonal_reference/month_01`: 34,680 rows, 23,016 columns, original U/Y/Z mask, no per-generator means, no fossil cap, and no explicit ramp rows. Fix the already canonical U/Y/Z values from `results/research8h/seasonal_transfer/january_identity/constructive_vector.npz`. Preserve all original source files. Check their existing provenance and frozen hashes, and compare the fixed U values with the rounded original reference U only to establish schedule identity; no fresh schedule is obtained from the proposed LP.
+
+An accepted result is a rational point satisfying every original row and finite column endpoint **exactly at tau=0**, with all 12,096 original binary coordinates equal to that fixed schedule, and the supplemental native dispatch/state/ramp checks passing. Its 23-fossil-unit electricity total is an exact feasible objective upper bound for the same nominal model, not an optimum claim. A separate independent rational replay must pass before publication as a strict witness.
+
+The numerical proposal uses the original objective: sum of all hourly P values for the 23 fossil units, excluding `121_NUCLEAR_1`. It contains no energy cap. After a complete point is obtained, compare its exact energy with the existing cap 23195 MWh. If it fits, directly replay the same rational point against the existing capped January identity model, whose equality to the original model except for that single cap row is checked during preparation. This is a post-check against a previously fixed cap, not a newly capped optimization. If it does not fit, the strict positive is uncapped only. No alternative objective, cap, commitment, or basis is selected after outcomes.
+
+## Preparation and exact transformation
+
+The runner is `src/research8h_exact_fixed_schedule.py`; the separate solver-free rational checker is `src/research8h_rational_witness_check.py`. Both retain the existing NPZ parser at `src/research8h_standalone_verify.py` unchanged and verify its SHA256. All new producer files are confined to `results/research8h/exact_fixed_schedule/`; synthetic fixture results are kept separately at `results/research8h/exact_fixed_schedule_implementation_tests.json` and included in the prepared bindings.
+
+`--prepare-only` verifies the original January matrix/bounds hashes, the original seasonal-reference manifest, all five mathematical/native arrays against that manifest, the canonical schedule and exact offline native generator bytes. It checks actual sparse coefficients, not just row family labels. Every one of the 16,032 constant rows left after fixed-state substitution must satisfy its endpoints exactly. The original binary mask and finite state bounds must match the schedule. Every continuous row must touch free P/theta coordinates in exactly one hour, agree with its hour label, and belong to the prescribed per-hour count: one aggregate balance, 48 thermal inequalities, 24 nodal balances and 38 branch rows. Unexpected coupling or a changed count stops preparation.
+
+The 168 blocks each retain all 65 P/theta coordinates, including any fixed continuous coordinates. Native P boxes, thermal inequalities, aggregate load, nodal load and generator-to-bus incidence are checked against the bound native inputs. The zero reference angle is discovered from column bounds; the inspected target has bus index 12, ID 113. No angle pin is guessed from index zero.
+
+For each hour, replace only the aggregate equality by the exact rational aggregate-minus-sum-of-all-24-nodals equality. Retain all 24 original nodals. Transform the right side by the same operation. Scale this difference by the unique selected power of two that makes its largest absolute nonzero coefficient lie in [1,2); the implementation repeatedly doubles/halves using rational comparisons, with no epsilon. Archive all exact difference terms, right side, original row IDs and scale. The replaced equation is recovered by inverse scaling and adding the nodals, so the exact transformation is invertible. A zero difference is outside this fixed attempt and stops preparation for review.
+
+Store all exact transformed rows/endpoints losslessly in `exact_blocks.json.gz`, every original constant row and activity in `constant_rows.json`, and all binary values in `fixed_schedule.json`. Separately convert the proposal to binary64 and archive its sparse matrix, bounds, objective, row mapping and every nonzero conversion error as an exact rational. Reject overflow or nonzero-to-zero underflow. Converted coefficients are a numerical basis proposal only; they do not define the acceptance model. The prepared manifest binds all sources, protocol/design, original/capped models, native data and prepared artifacts before any optimizer or actual basis reconstruction. Preparation reports zero optimizer calls and zero actual basis reconstructions.
+
+## HiGHS row-activity convention and native rate convention
+
+The intended installed solver is highspy/HiGHS **1.12.0**; the execution rechecks `version()`. Primary version source was read before implementation. The v1.12.0 tag resolves to commit `755a8e027a99a8d4ecf153a8dde4b2a767cdf384` (read-only `git ls-remote`). In that immutable [HEkk.cpp source, lines 1299–1376](https://github.com/ERGO-Code/HiGHS/blob/755a8e027a99a8d4ecf153a8dde4b2a767cdf384/highs/simplex/HEkk.cpp#L1299-L1376), returned row activity negates the internal row variable, and basis export correspondingly reverses the internal move-direction mapping for rows. Thus external `row_status=kLower` denotes the original row activity at its lower endpoint; `kUpper` denotes its upper endpoint. The [basis-import section, lines 1181–1200](https://github.com/ERGO-Code/HiGHS/blob/755a8e027a99a8d4ecf153a8dde4b2a767cdf384/highs/simplex/HEkk.cpp#L1181-L1200) uses the matching reverse mapping. Reconstruction must not apply another slack sign reversal.
+
+Native supplementary ramp checks preserve the existing reference check's numerical coefficient convention exactly: parse the native rate to binary64, calculate `float(rate) * 60.0` in binary64, then interpret that resulting hourly coefficient as an exact rational. They **do not** silently replace this with 60 times the rational per-minute value. The prepared native specification records both binary64 hex values, the hourly rational, and its difference from exact multiplication of the per-minute rational. Minimum up/down times retain `ceil(float(native hours))`; initial states are mature, Y/Z at hour zero are zero, observed transitions begin at hour 1, and dwell is clipped at hour 167. This is exact checking of the declared archived/numeric-input convention, not a claim that physical measurements are exact. DC network acceptance uses every original sparse row and the checked native endpoint/incidence mapping; no alternative network reassembly is introduced.
+
+## Exactly one numerical proposal
+
+After independent prepared-archive PASS and explicit root execution GO, `--run-prepared` revalidates all bindings, loads the frozen binary64 block-diagonal proposal, and makes at most one `Highs.run()` call. Fixed options are:
+
+| Option | Value |
+|---|---|
+| solver / simplex strategy | simplex / serial dual (1) |
+| presolve | off |
+| threads / random seed | 1 / 0 |
+| time limit | 60 seconds, soft |
+| primal / dual feasibility tolerance | 1e-7 / 1e-7 |
+| small matrix value | 1e-12 |
+| warm start | none |
+| objective | original 23-fossil hourly electricity sum |
+
+Every option must be accepted. Before the call, compare the solver's loaded numerical matrix, endpoints and objective with the submitted frozen proposal; any ignored/dropped coefficient or changed endpoint aborts before optimization. A durable single-use execution marker prevents retries. Check that at least 65 seconds remain before **2026-09-27 04:00 UTC**, write a launch decision, and check again immediately at the call site. A failed start guard leaves all 168 hours explicitly unevaluated and reports zero optimizer calls. Preserve actual time and any overshoot. A caught optimizer/result-retrieval exception retains the error, one attempted call, and the complete unresolved hour ledger.
+
+Save the raw numerical point, row activities, full column/row basis statuses, objective/status/iterations and log. These are numerical outputs only. A valid basis can be attempted even after a time limit or another numerical status; exact reconstruction and full original replay decide admissibility. An absent/invalid basis leaves all 168 hours unresolved. No numerical infeasibility status is promoted to a proof for the exact original model or full unit commitment.
+
+## Deterministic exact reconstruction
+
+Start one 900-second arithmetic soft phase after the numerical result/basis artifacts are written. Check both this phase and the absolute 04:00 UTC cutoff between hours and elimination pivots/rows. The denominator is always hours 0 through 167. Unprocessed hours become `NOT_EVALUATED_PHASE_LIMIT`; already completed failures and partial rational points remain archived. There are no alternate bases, repair pivots selected from a different active set, second objectives or optimizer retries.
+
+For each hour, identify basic structural columns B, nonbasic columns N, and nonbasic row activities I from the returned basis. Require `|I|=|B|<=65`. A recognized nonbasic status on a fixed interval uses its unique exact value, including `kNonbasic`; there is no endpoint ambiguity in that case. Otherwise `kLower`/`kUpper` require the respective finite exact endpoint; `kZero` is accepted only when both endpoints are infinite; ambiguous `kNonbasic` is unsupported. `kBasic` is never treated as a nonbasic endpoint. For active equalities either finite side denotes the same exact value.
+
+Solve `A[I,B] x_B = endpoint[I] - A[I,N] x_N` using the **exact** transformed equations. Clear each augmented equation's dyadic denominators with a positive power of two. Apply fraction-free Bareiss elimination in fixed sorted row/column order, choosing the first nonzero remaining row in each column, with exact-division assertions, followed by rational back substitution. Guard every input/intermediate integer and recovered numerator/denominator at **8192 bits**. Singular systems, unsupported statuses, bit-limit failures or violations produce an explicit unresolved hour, never a negative full-UC verdict. All original column intervals and exact transformed rows are checked for each recovered hour. Save active IDs/endpoints, nonbasic values/statuses, pivots, rational coordinates and violations; no failed attempt is erased.
+
+The phase also includes any full original replay, exact native check, cap comparison/capped-model replay, final input rehash and outcome-ledger write. Its final elapsed sample precedes only completion-record serialization. Validation and numerical solve times are separate. Finite soft overshoot and its cause are reported. If final replay exhausts the phase, a completed strict witness is not claimed merely because individual hours passed.
+
+## Full rational replay and interpretation
+
+Only when all 168 hourly candidates pass, reconstruct the original 23,016-coordinate order with the fixed U/Y/Z values. The separate checker replays all 34,680 original rows, every finite original column bound, the original full binary mask and the fixed schedule using exact `Fraction` arithmetic at zero tolerance. It also performs exact supplemental native dispatch/availability/hydro/aggregate/state/dwell/on-on-ramp checks. A direct capped-model check is added only if the exact fossil total is at most the previously fixed 23195 cap. A failed original or native check leaves an unresolved result and its diagnostic report.
+
+The point artifact uses indexed, reduced signed-numerator/positive-denominator strings, bound to original matrix/bounds/integrality/objective hashes. The independent replay entry point rejects duplicate/noncanonical/unreduced values, wrong column ordering, mismatched model hashes or oversized integers. A floating display export is not an authoritative witness. The old float NPZ kernel is unchanged. The new rational checker's CLI is solver-free and accepts explicit model, point, schedule, native-generator and new report paths.
+
+An accepted original point proves strict feasibility of this particular archived model. A failed fixed-schedule attempt, even one with a numerical infeasible result, excludes no alternative binary schedule. A constant-row contradiction can diagnose this fixed schedule only. An uncapped strict point need not satisfy the existing cap; energy above the cap supplies no capped positive. No exact optimum, new physical data accuracy, field validation, AC/security feasibility, method novelty or changed historical result follows from this arm.
+
+## Allowed synthetic validation and gates
+
+Before preparing actual inputs, run only the finite synthetic suite for arithmetic and checker logic: lower/upper/fixed/free endpoint semantics; unsupported status handling; nondyadic exact recovery; deterministic pivot swaps; singularity; retained near-dependent equations; power-of-two scaling; bit/phase guards; a valid strict rational point; corrupted dispatch and state rejection; constant-row failure; and canonical rational encoding. It loads no actual model archive and invokes no optimizer. Preserve any failed fixture report and correct source before the real input freeze, with the correction described; do not treat implementation fixture development as data outcomes.
+
+Root and independent code review precede `--prepare-only`. Independent prepared hashes, exact transformations, constant-row checks, basis mappings and native conventions precede a separate explicit root GO for `--run-prepared`. An independent full original rational replay is still required after any successful execution. All existing archives, caps, schedules and protocols remain unchanged.

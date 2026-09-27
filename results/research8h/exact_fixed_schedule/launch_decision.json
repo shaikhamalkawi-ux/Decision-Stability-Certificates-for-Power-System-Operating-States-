@@ -1,0 +1,17 @@
+{
+  "utc": "2026-09-27T02:36:29.481043+00:00",
+  "utc_remaining_s": 5010.518957,
+  "options": {
+    "solver": "simplex",
+    "simplex_strategy": 1,
+    "presolve": "off",
+    "threads": 1,
+    "random_seed": 0,
+    "time_limit": 60.0,
+    "primal_feasibility_tolerance": 1e-07,
+    "dual_feasibility_tolerance": 1e-07,
+    "small_matrix_value": 1e-12,
+    "log_to_console": false,
+    "output_flag": true
+  }
+}

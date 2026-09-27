@@ -1,0 +1,45 @@
+{
+  "status": "PREPARED_PORTABLE_NEW_CANDIDATE_ONLY",
+  "prepared_utc": "2026-09-27T02:29:37.278430+00:00",
+  "base_zip": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\research8h_delivery\\DSC_Temporal_Research_2026-09-27_Checkpoint05.zip",
+  "base_sha256": "495dcd6831ddbcd1c8263b32a536d5d9ff7ef2943fe54250c1c5532359e366d7",
+  "base_bytes": 88756097,
+  "base_evidence_commit": "9000fcc74886cc942b52f8070ff6cf382db63591",
+  "base_payloads": 3501,
+  "all_base_payload_bytes_preserved": true,
+  "base_manifest_sha256": "a8e16c677344d441344c93a2bab6f743ff945c4c3776ea1bc79b10f86d8f607f",
+  "candidate_zip": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\research8h_delivery\\DSC_Temporal_Research_2026-09-27_Checkpoint05_PortableNewCandidate01.zip",
+  "candidate_sha256": "d098c9b6154fcfa02645c1395d55e338fb04fb3c4ef7dd9bad35548463d01ad9",
+  "candidate_bytes": 67347208,
+  "package_root": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\portable_new_results_candidate01\\package",
+  "candidate_payloads": 3503,
+  "total_candidate_files": 3504,
+  "outer_manifest_sha256": "4fbe3109b23ce965c13cc1f26bce12f99e4aad65e52c93ec51bc670d753a9534",
+  "additions": {
+    "reproducibility/replay_new_closed_results.py": "073d04a21dac59fc34926912ac3a58b6399b32e40017584047828608a5606b51",
+    "docs/research8h/PORTABLE_NEW_RESULTS_REPLAY_PROTOCOL.md": "72093987ce0d0ea421ed5238e1cad8a977c233b1b26953610569f44b72e82df2"
+  },
+  "old_sources_unchanged": {
+    "reproducibility/replay_closed_research.py": "c6cf226ac82ecb5551dee2241e89b2fd1c990fdde3e27878758331b3f998fb85",
+    "src/research8h_standalone_verify.py": "708c3843425eea494a0561e83a275f7059f22bcd546a036705323d056bcf906f"
+  },
+  "zip_safe_paths_and_duplicate_checks": true,
+  "base_and_candidate_zip_symlinks_reparse_specialfiles_rejected": true,
+  "extracted_all_component_link_inventory": {
+    "files": 3504,
+    "directories": 522,
+    "symlinks": 0,
+    "reparse_points": 0
+  },
+  "exact_candidate_inventory_and_all_payload_hashes_pass": true,
+  "original_zip_unchanged": true,
+  "wrapper_imported": false,
+  "synthetic_checks_run": false,
+  "mathematical_replay_called": false,
+  "optimizer_calls": 0,
+  "network_calls": 0,
+  "preparation_script_sha256": "273434cc391ad8bfd2dfb46f09b361e3c61a3d2f2f34f5a4c36a45a24f67a55b",
+  "elapsed_s": 214.69953529999475,
+  "execution_authorized": false,
+  "independent_prepared_gate_required": true
+}

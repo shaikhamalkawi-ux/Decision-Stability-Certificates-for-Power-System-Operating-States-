@@ -1,0 +1,223 @@
+{
+  "status": "TARGET_EXACT_ENERGY_BOUNDS_PASS",
+  "relation": {
+    "case": "seed_26093220",
+    "week": 3,
+    "removed_cap_row": 24264,
+    "source_cap_MWh": 48319,
+    "exact_cap_only_relation": true,
+    "original_binary_coordinates": 12096,
+    "native_107_transport": true,
+    "raw_native_assembly": false
+  },
+  "lower": {
+    "dual_bound": {
+      "nominal_lower_bound_MWh": {
+        "numerator": "153550452557083484021482269379730592394880883865276164119492247",
+        "denominator": "3138550867693340381917894711603833208051177722232017256448",
+        "float": 48923.99678388341
+      },
+      "expanded_lower_bound_MWh": {
+        "numerator": "322007864663214391459227169138779673229590176269304105690026351423405",
+        "denominator": "6582018229284824168619876730229402019930943462534319453394436096",
+        "float": 48922.35989723208
+      },
+      "row_term": {
+        "numerator": "829450201394538322795598011980194273549860310245",
+        "denominator": "5575186299632655785383929568162090376495104",
+        "float": 148775.33356135382
+      },
+      "finite_box_term": {
+        "numerator": "-313388499683269722502934189925072200454281730721550751395449193",
+        "denominator": "3138550867693340381917894711603833208051177722232017256448",
+        "float": -99851.33677747041
+      },
+      "row_dual_l1": {
+        "numerator": "60615186365931889465137649347039171",
+        "denominator": "1267650600228229401496703205376",
+        "float": 47816.95078676936
+      },
+      "stationarity_residual_l1": {
+        "numerator": "1292012788680202045537332328578379054311469264259",
+        "denominator": "11150372599265311570767859136324180752990208",
+        "float": 115871.71434659786
+      }
+    },
+    "zero_dual_bound": {
+      "nominal_lower_bound_MWh": {
+        "numerator": "0",
+        "denominator": "1",
+        "float": 0.0
+      },
+      "expanded_lower_bound_MWh": {
+        "numerator": "-2851128764032548531",
+        "denominator": "73786976294838206464",
+        "float": -0.03864
+      },
+      "row_term": {
+        "numerator": "0",
+        "denominator": "1",
+        "float": 0.0
+      },
+      "finite_box_term": {
+        "numerator": "0",
+        "denominator": "1",
+        "float": 0.0
+      },
+      "row_dual_l1": {
+        "numerator": "0",
+        "denominator": "1",
+        "float": 0.0
+      },
+      "stationarity_residual_l1": {
+        "numerator": "3864",
+        "denominator": "1",
+        "float": 3864.0
+      }
+    },
+    "selected_lower_MWh": {
+      "numerator": "322007864663214391459227169138779673229590176269304105690026351423405",
+      "denominator": "6582018229284824168619876730229402019930943462534319453394436096",
+      "approximate": 48922.35989723208
+    },
+    "raw_projection_replayed": true,
+    "exact_sparse_residual_replayed": true,
+    "exact_optimality_claim": false
+  },
+  "verified_upper_MWh": {
+    "numerator": "14216855286323246732599",
+    "denominator": "288230376151711744",
+    "approximate": 49324.625239499816
+  },
+  "original_binary_point": {
+    "status": "CERTIFIED_EXPANDED_ONLY_POINT",
+    "strict_pass": false,
+    "expanded_pass": true,
+    "original_binary_coordinates_exact": true,
+    "binary_coordinates": 12096,
+    "tau": {
+      "numerator": "5902958103587057",
+      "denominator": "590295810358705651712",
+      "float": 1e-05
+    },
+    "maximum_column_violation": {
+      "numerator": "1329",
+      "denominator": "8796093022208",
+      "float": 1.510898073320277e-10
+    },
+    "worst_column": {
+      "column": 6829,
+      "side": "upper"
+    },
+    "maximum_row_violation": {
+      "numerator": "1329",
+      "denominator": "8796093022208",
+      "float": 1.510898073320277e-10
+    },
+    "worst_row": {
+      "row": 24252,
+      "side": "upper"
+    }
+  },
+  "raw_continuous_point": {
+    "status": "CERTIFIED_EXPANDED_ONLY_POINT",
+    "strict_pass": false,
+    "expanded_pass": true,
+    "original_binary_coordinates_exact": true,
+    "binary_coordinates": 0,
+    "tau": {
+      "numerator": "5902958103587057",
+      "denominator": "590295810358705651712",
+      "float": 1e-05
+    },
+    "maximum_column_violation": {
+      "numerator": "1329",
+      "denominator": "8796093022208",
+      "float": 1.510898073320277e-10
+    },
+    "worst_column": {
+      "column": 6829,
+      "side": "upper"
+    },
+    "maximum_row_violation": {
+      "numerator": "1329",
+      "denominator": "8796093022208",
+      "float": 1.510898073320277e-10
+    },
+    "worst_row": {
+      "row": 24252,
+      "side": "upper"
+    }
+  },
+  "P_theta_bytes_preserved": true,
+  "canonical_YZ": true,
+  "intervals": {
+    "case": "seed_26093220",
+    "week": 3,
+    "optimum_difference_MWh": {
+      "lower": {
+        "numerator": "7122247238581039598945326528539230928067902763137967106359205457837",
+        "denominator": "6582018229284824168619876730229402019930943462534319453394436096",
+        "approximate": 1082.0764984959505
+      },
+      "upper": {
+        "numerator": "2778012997240045970825177259146662000167099605394773021",
+        "denominator": "1496577676626844588240573268701473812127674924007424",
+        "approximate": 1856.2437758001608
+      },
+      "outward_display": [
+        "1082.076498",
+        "1856.243776"
+      ]
+    },
+    "target_optimum_excess_over_chosen_incumbent_MWh": {
+      "lower": {
+        "numerator": "7122247238581039598945326528539230928067902763137967106359205457837",
+        "denominator": "6582018229284824168619876730229402019930943462534319453394436096",
+        "approximate": 1082.0764984959505
+      },
+      "upper": {
+        "numerator": "427832407101041243447",
+        "denominator": "288230376151711744",
+        "approximate": 1484.3418407636852
+      },
+      "outward_display": [
+        "1082.076498",
+        "1484.341841"
+      ]
+    },
+    "optimal_relative_penalty": {
+      "lower": {
+        "numerator": "7122247238581039598945326528539230928067902763137967106359205457837",
+        "denominator": "314885617424633351860281842610240442301522273506166138583667145965568",
+        "approximate": 0.02261852191545624
+      },
+      "upper": {
+        "numerator": "2778012997240045970825177259146662000167099605394773021",
+        "denominator": "71040120044180405409152889048497810725108515836534336483",
+        "approximate": 0.03910484660657074
+      },
+      "outward_display": [
+        "0.022618",
+        "0.039105"
+      ]
+    },
+    "optimal_relative_penalty_percent": {
+      "lower": {
+        "numerator": "178056180964525989973633163213480773201697569078449177658980136445925",
+        "denominator": "78721404356158337965070460652560110575380568376541534645916786491392",
+        "approximate": 2.2618521915456244
+      },
+      "upper": {
+        "numerator": "277801299724004597082517725914666200016709960539477302100",
+        "denominator": "71040120044180405409152889048497810725108515836534336483",
+        "approximate": 3.910484660657074
+      },
+      "outward_display": [
+        "2.261852",
+        "3.910485"
+      ]
+    }
+  },
+  "native_physical_assembler_rerun": false
+}

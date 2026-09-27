@@ -1,0 +1,31 @@
+{
+  "status": "INDEPENDENT_PORTABLE_NEW_CLOSURE_REVIEW_PASS",
+  "core_report_count": 16,
+  "all_core_report_hashes_sizes_inventory_checked": true,
+  "summary_sha256": "c96879504d6d2aaf44ececb41a7a6f7370c0cc9b7917ef14e8e3ea28bfd1d618",
+  "closure_sha256": "00bb3b2893629d03abc60e8535ff8884b9b9e43813f065bc00d56ba18322839d",
+  "outer_manifest_sha256": "4fbe3109b23ce965c13cc1f26bce12f99e4aad65e52c93ec51bc670d753a9534",
+  "producer_invocations": 1,
+  "producer_exit_code": 0,
+  "producer_elapsed_s": 72.13002079998842,
+  "focused_checks": 21,
+  "math_replayed_by_reviewer": false,
+  "whole_package_postrun_payload_rehash_repeated_by_reviewer": false,
+  "preparation_gate_already_independently_passed": true,
+  "counts": {
+    "lower_bounds": 6,
+    "reference_binary_uppers": 2,
+    "target_binary_uppers": 4,
+    "fresh_intervals": 4,
+    "continuous_subset_points": 4,
+    "full_HOD_controls": 2,
+    "inheritances": 4
+  },
+  "strict_positive_claims": false,
+  "original_binary_count_per_upper": 12096,
+  "subset_binary_coordinates_checked": 0,
+  "historical_26093211": "UNKNOWN",
+  "exact_optimum_claim": false,
+  "second_machine_claim": false,
+  "scope": "Read-only closure/report consistency, not a second mathematical run"
+}
