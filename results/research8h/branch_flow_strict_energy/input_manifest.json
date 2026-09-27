@@ -1,0 +1,1777 @@
+[
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\docs\\research8h\\BRANCH_FLOW_ENCODING_CODE_REVIEW.md",
+    "bytes": 4233,
+    "sha256": "98673de7e4182cc28a6e0c58be08590c48da14c087c84208bbf00d8d6a2d4a41"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\docs\\research8h\\BRANCH_FLOW_ENCODING_DESIGN.md",
+    "bytes": 13093,
+    "sha256": "e4845e2bc8c5b97ab457b53e23a36c2d06b7cc6649a0c48e7bf274862a958c6b"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\docs\\research8h\\BRANCH_FLOW_ENCODING_DESIGN_REVIEW.md",
+    "bytes": 3419,
+    "sha256": "f898dc366ca4cfd9adb28304c7421a6abcd90d4fdfed14a4d862d57679e4aa0a"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\docs\\research8h\\BRANCH_FLOW_ENCODING_POSTRUN_REVIEW.md",
+    "bytes": 3018,
+    "sha256": "8db6b4d9a9ecaf2d9caaed313fc1b5717f394c01c8994cbab77d62dad8f643aa"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\docs\\research8h\\BRANCH_FLOW_ENCODING_PREPARED_REVIEW.md",
+    "bytes": 2618,
+    "sha256": "de170758fe9d023c1b295af7ee39ac8e8ffc829158ee515bc9b87d9716505310"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\docs\\research8h\\BRANCH_FLOW_ENCODING_PROTOCOL.md",
+    "bytes": 11777,
+    "sha256": "2e96ae15a1b37d10cb12e354e65238f4cd1479e3c2fc39c9717bc9d5ed21c9e7"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\FINAL_READOUT.md",
+    "bytes": 6798,
+    "sha256": "32c2e03e50fe0b1b1b66f631f0acf2b631780ed8ac651cfba535647887b40beb"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\calls.json",
+    "bytes": 1385,
+    "sha256": "8669f1331420bb1af4753698205c5864b7761a3d81d03574fad0177784758efd"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\completion.json",
+    "bytes": 479,
+    "sha256": "dae984b065f83fcbf70bdd657f27bc41c417434e9359ee401a40b016eb91105a"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\constant_rows.json",
+    "bytes": 3451802,
+    "sha256": "55dcf2b4bc005330a5dda1116b2deb7b2811c4fdfadc8e1e813ef681432992c1"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\exact_blocks.json.gz",
+    "bytes": 485483,
+    "sha256": "203a58efc2c98c040a5412cec004a6e5abb28f7730396ed4200cb3f1f9f907eb"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\execution_marker.json",
+    "bytes": 185,
+    "sha256": "caa1ac64f2b587c8b2342b217109a7b2ad1d1899b230cc2795339afb806b46f1"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\fixed_schedule.json",
+    "bytes": 1291165,
+    "sha256": "b9d489ad87be1c54bf3ac067e132eba2d6b01d9916fc0212a7fabbf7cc899130"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_control_classification.json",
+    "bytes": 152,
+    "sha256": "32bbf4c7812ebec5840c9f2903c28fd07671e2c899f3da8ce105f3edc5436db9"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\basis.json",
+    "bytes": 536834,
+    "sha256": "4c3df1c3bfd09163d19412ff24afef160b3ed5773a403f54ef9fab4b12da9c43"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\bounds.npz",
+    "bytes": 50761,
+    "sha256": "199ea06979eedb859a06f6019ce6aae444b3572c599cc7303ea59fafc8a13b03"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_000.json",
+    "bytes": 70504,
+    "sha256": "07e679cf8401f55f15b293f211fe408f139e081a3cfec14dbe688874bd2cbfc2"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_001.json",
+    "bytes": 70522,
+    "sha256": "710b961fdb82fb6ebf8fcb028a9609308f0718d11f8f672c0e994081d90227aa"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_002.json",
+    "bytes": 70561,
+    "sha256": "240624fcf085a94a7564dad47c5d966871f2e6b8342882371e7b39c96a79fe7c"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_003.json",
+    "bytes": 70539,
+    "sha256": "e7d5d478749edff3fc09975befbdb9a092891d21d60d0ab732a60fd35a3e61f4"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_004.json",
+    "bytes": 70686,
+    "sha256": "bcb36f8c66fb84bc4a593afb30ee9822aa0286105b2c28d7d078c7e4d6de0bcb"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_005.json",
+    "bytes": 70773,
+    "sha256": "91eea8ce587cf087a566549e93795f8721e41c3c713eb6dd17c1c1af1b935b3a"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_006.json",
+    "bytes": 70835,
+    "sha256": "68cd0e6ce60b4724c52e7d4aef78af5c40c591b44cb7d24788d1802a0d78ba7d"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_007.json",
+    "bytes": 71310,
+    "sha256": "334c0c810dd32eacae3f952ae72c980198de80001acb2824ad935d9f89727ff7"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_008.json",
+    "bytes": 71308,
+    "sha256": "ff32dd05f38250a2a405493a3df4c1c68c22cb2b51d0e9bf944d3de55bdff240"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_009.json",
+    "bytes": 71114,
+    "sha256": "0c4286af4ca4660735c7cb2f53435d0bfb29d9fc5e2c983442bfb79c33f70330"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_010.json",
+    "bytes": 71209,
+    "sha256": "bd6131eb5b52b4bdd61ed9257b7d8c50dc5e46554a1edb8e2ad488588ca4194f"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_011.json",
+    "bytes": 71206,
+    "sha256": "fc407d794975ff426533cf2f12ca4958ee6a4eb34a09c9ed95d372d37a1c005a"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_012.json",
+    "bytes": 71074,
+    "sha256": "a1c9d144df546a0d3fb7077c82e358877342817bb3f45948d10ced18e79d01fd"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_013.json",
+    "bytes": 71235,
+    "sha256": "bf2e0e2002fd340a175d30f2521f79491aaee66f312740b4be6a7d649b810bba"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_014.json",
+    "bytes": 71063,
+    "sha256": "762e0fcef9a0b999a874a6449430a1797b75ec43f70dd3c819a45acbb0e3299d"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_015.json",
+    "bytes": 71171,
+    "sha256": "7ec8a325f1b08b7d2d287915420c0ca9e4cb75a535df059cf3e72065799efacd"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_016.json",
+    "bytes": 70866,
+    "sha256": "02d2631579df658ca9bd9480ea1c9c17f74fc56ae147ae3319f2b534b25ba9e7"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_017.json",
+    "bytes": 70698,
+    "sha256": "758a0806eab082fdb04d0762efaacedddaf2bd7e4de941b6b5b3492d450e7298"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_018.json",
+    "bytes": 70339,
+    "sha256": "93162ce49d544ae678c7390d12dd0eede8ad31ecad0ef71f09b97bf4f388dfc7"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_019.json",
+    "bytes": 70741,
+    "sha256": "8658105ac02665541de2875a459d65e790296047e2dc6b5a1595888e629aa9d8"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_020.json",
+    "bytes": 70741,
+    "sha256": "b80a847852ea1e9a36baa17c4f74a205ac5ede56de83005e14c0970a905b1933"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_021.json",
+    "bytes": 70836,
+    "sha256": "a7e140c9112a1cf51ad3bae401b0b8d506309e48dea0edcff2e78c6ce44d178c"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_022.json",
+    "bytes": 70876,
+    "sha256": "eefaf31ad3cb8985dc603f8333221e33d46f59928d24b4abdb5d83c6ce1734c9"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_023.json",
+    "bytes": 70599,
+    "sha256": "fd218556b12e6091cdaf45f543caa638d2e2470624ced37689bb7914255c54b9"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_024.json",
+    "bytes": 70663,
+    "sha256": "fcb19de124d8ddd141532c7c6a2cae8654fbc98e264bfc82b4284af22ef4c418"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_025.json",
+    "bytes": 70690,
+    "sha256": "1fc5005c0458e51a4ef45a97e3346757dcc7a5ef41cff191188c618774d493c9"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_026.json",
+    "bytes": 70680,
+    "sha256": "8ad8f7ef267ce6b522b87cb0262b14480121ea5b9386ac0bbb04bdbab3c98aee"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_027.json",
+    "bytes": 70655,
+    "sha256": "65e6c46bc6908f63d9a87c0bb61b3d250020f071bbb410e85071e70396b5fa98"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_028.json",
+    "bytes": 70710,
+    "sha256": "d89e70ed342cc1f52e8a9a126a4d324e2928228a5f545d8c1dd973785590efb0"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_029.json",
+    "bytes": 70845,
+    "sha256": "9b16be0313ee327275135ddbc674158624781d7d333ebbc14295d5d8f111f59b"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_030.json",
+    "bytes": 70895,
+    "sha256": "7989ac5b792ba1d8a725efb29bbc3c5ce742fdda02d6fdd0ff45a84c584b9d3d"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_031.json",
+    "bytes": 71008,
+    "sha256": "43afcdac2644f9c7eb1a1f02914aa55657bf011a7a1c20d9955cec99a0a4fb4f"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_032.json",
+    "bytes": 70744,
+    "sha256": "406aac93af799180af5fa083a42ec3e4b047a55da9896a0e90aff60483b7a627"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_033.json",
+    "bytes": 70965,
+    "sha256": "454dbd49bc06cda2944366d75f8552209ff85e88adb1a66ad0e6039380378092"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_034.json",
+    "bytes": 70780,
+    "sha256": "ac10c7bae32bb949aea505f6c6bc4aa908e0cabde777b83cbdd074cee6536842"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_035.json",
+    "bytes": 70630,
+    "sha256": "4eb2ac7cc70569b4e7745842467d192f77c16e946e556245f89010039df96600"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_036.json",
+    "bytes": 70983,
+    "sha256": "7a2747fcfe1776a15632885366b4d3edd965137ecfb9e436c33a4a93f43f4e39"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_037.json",
+    "bytes": 70732,
+    "sha256": "45dcc97c7f599937268c88edef1427d19a8fcfc3ac6a130e48c16aa98dd48913"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_038.json",
+    "bytes": 70787,
+    "sha256": "c12815cca77bd8e2ecfe86e7e7e7e547ae0279a425f2d5aef14a93025b87d8c8"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_039.json",
+    "bytes": 70893,
+    "sha256": "504cd1cb572c4ba5119099a5968a39b0d09c10175ec516a4d496708424e43a73"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_040.json",
+    "bytes": 70881,
+    "sha256": "dac69b62789ee626582fa8e56d7db2e01fe9594a845e29af10183e41149c6361"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_041.json",
+    "bytes": 70831,
+    "sha256": "14f1166324c3fb04d8d5d246d6435693c1a638c1bf5efeb38fcad0ae806d0427"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_042.json",
+    "bytes": 70827,
+    "sha256": "d5c420c79f6010b10092fa0387628ae57debbbb78dcff9d649553684687f2b45"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_043.json",
+    "bytes": 70821,
+    "sha256": "1928733c3f28764b61e7ca5bb3212c3fb63f3c42f9bf031690f3298a25bbfa3d"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_044.json",
+    "bytes": 70794,
+    "sha256": "8353619ffe6b99b5527973b4c382cf33a08a83283422609839bf4eef43972953"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_045.json",
+    "bytes": 70687,
+    "sha256": "479d1fcd5db3d9e66d40df801de596d022e147b22e6210e4de6882a17bb5c847"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_046.json",
+    "bytes": 70679,
+    "sha256": "4a8132b2f5f3b5f13d2adb6d38169f31557ed959e578d49ffd4f023cf0ecb814"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_047.json",
+    "bytes": 70679,
+    "sha256": "702ed836d0cc339c3cbf982e2c2b5295c2484546cba2400180efc1ae13b45ab9"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_048.json",
+    "bytes": 70695,
+    "sha256": "8eae97698b6d7d39458fbe61b0fa1706e534a03234f0f19407b05c0cdea5ee27"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_049.json",
+    "bytes": 70659,
+    "sha256": "f9816a78ac0e990529115e9ec5229c74bc08b429713f4577d5dcbeee5a863e65"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_050.json",
+    "bytes": 70660,
+    "sha256": "3c5e2376f94347b723881724f6f973ffb13b14772728668e1be302fe97bfaef6"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_051.json",
+    "bytes": 70695,
+    "sha256": "157500ab1660a4308004e5d7947db92f64b4535b2c4c8830ce670b0ecef8a654"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_052.json",
+    "bytes": 70671,
+    "sha256": "746b45dc6998b4e72dd5150848468b9e497565f5efea7afad45c78d8978c9114"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_053.json",
+    "bytes": 70962,
+    "sha256": "94288c5bab35361f2e65586aacc53966fb3cfc3cf4a4f3d0bd5641395330bd94"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_054.json",
+    "bytes": 70938,
+    "sha256": "9a5ae0ed8de0296cebf8da8a9b188988efd137d611d31ca18c19cceb8e5aedd4"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_055.json",
+    "bytes": 70880,
+    "sha256": "7b3c93b3cb20680ffac2ffbcbab1912f4a9f8bbb4f43fe172765ba9d4fe89aba"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_056.json",
+    "bytes": 70747,
+    "sha256": "386ba03d160f2ee1ac922bfeb3512cf48e5a8c22479ba69eb083076f919f0ef1"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_057.json",
+    "bytes": 70900,
+    "sha256": "ab427e0eae189c15367160a322ff7d4a82d466477773ba73e0451f83d8797972"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_058.json",
+    "bytes": 71026,
+    "sha256": "6c5717260afbb390bc366fbeee7855b58a59b15ebd5a578deb5e0bb0d0c11e3a"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_059.json",
+    "bytes": 70902,
+    "sha256": "ddab8d7d080862fdb84d38217aae741f8f820bea8d05998d233279703f0827c7"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_060.json",
+    "bytes": 70905,
+    "sha256": "c1c9dc8b7ee75331695d118eb4d3e962c40ceaafc41a036530ad6ed8627bdc2a"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_061.json",
+    "bytes": 71039,
+    "sha256": "b319a6047319e9dceb0c0240ed302f25f39c2f4ba888608fe7e621aa7157eb8c"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_062.json",
+    "bytes": 71037,
+    "sha256": "fdda45e213e8d8933cfa01fbe04fda9196e778386a4f06a8a5f1944826b36ad1"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_063.json",
+    "bytes": 71345,
+    "sha256": "3ca1ec7eca90f82d74a6b39a6e4174031372c7c3c328926792c844d92c9a29fd"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_064.json",
+    "bytes": 70772,
+    "sha256": "d48461ecdf074158cdc5091524d13375f55e28337371131332d2f76efec29c99"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_065.json",
+    "bytes": 70837,
+    "sha256": "0b604fe5f797a472325d1f9fca7c4c0e8e9abd945923f084ee374c5cd7615143"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_066.json",
+    "bytes": 70849,
+    "sha256": "bc441863299ad4d3d74c8ff65dc958d283e9f2d0e9cacb9d21a215305f20d17f"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_067.json",
+    "bytes": 70843,
+    "sha256": "00e42be1f4ae73a92c0bdce4c666e0c9a5bfa4557b077d7db69638e5e2b458ef"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_068.json",
+    "bytes": 70820,
+    "sha256": "e2ecf9e40a2cfdc17995776bc1882885fb4eb939f7806de47fae605ec5f2d5b9"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_069.json",
+    "bytes": 70853,
+    "sha256": "60cfb62c1af6443c4189a3a648d975c1cb4b4cdcec700206a573c2656bf185e4"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_070.json",
+    "bytes": 70805,
+    "sha256": "73b06a943719b4c50c057b7980b2fa04e8875b2cbfc147d0eb7b76021dbc57a2"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_071.json",
+    "bytes": 70773,
+    "sha256": "aed20cb72199b086798504316a67bd01606e1759c31e2f811123fc4b92759f22"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_072.json",
+    "bytes": 70807,
+    "sha256": "d4190e9f6adcd872f8babfdda3bac566a2d9dc3e10e95796df62b529b494cee2"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_073.json",
+    "bytes": 70723,
+    "sha256": "27a3633aae0027e7a110fcd7b2e839a48b386281908535a69b1af7d0623b95a5"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_074.json",
+    "bytes": 70780,
+    "sha256": "c60464043f586433d0dc2739f095f92a152a94d87f17e9e72ed179f59b924cc3"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_075.json",
+    "bytes": 70802,
+    "sha256": "de4b53969fd57158e4eaf2e18d3b81806acc70c56fb86314b04acf7496a4c5e7"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_076.json",
+    "bytes": 70825,
+    "sha256": "28f4a5ccb7b438273f0c5ef0b3afbe7f32a38a39ffd99712c97b974affcccca7"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_077.json",
+    "bytes": 70920,
+    "sha256": "a1fc62490ba71170f5ee5e288f0818a0e4c6acd23f5947782a51324b041bf612"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_078.json",
+    "bytes": 70897,
+    "sha256": "c3f152f99c28b45c9e8efac532d872d0c506a1412319eeb82a1d6bef9a38176d"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_079.json",
+    "bytes": 71227,
+    "sha256": "57b334cde9417ad07dd7efacb220308033b168566922fed71d3d9c8eaff32ac5"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_080.json",
+    "bytes": 71282,
+    "sha256": "28f6d3ca0f0e1002a9a4b4794a7d38a8ceb9eeacb230e30fcc35eebdfdb20068"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_081.json",
+    "bytes": 71292,
+    "sha256": "3aaaa1514069b8b14c636380ba5d3070b501d2e1b73d37f8e69254d489aa4089"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_082.json",
+    "bytes": 71382,
+    "sha256": "939f19330bc0c0612acfe3e79cea29c696f9a305104100c74c9f12c6ce1a7f84"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_083.json",
+    "bytes": 71458,
+    "sha256": "bd8ef6370424968877148c5802e4068620cf6534f6e816e13a558e38c2fedcce"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_084.json",
+    "bytes": 71319,
+    "sha256": "ad61c363599580cf9feeccc44acb01711c0b0ec600029a922266639ff409130b"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_085.json",
+    "bytes": 71235,
+    "sha256": "55e6f00d0956b8b13fecb4424f1486da52007f24a2389dac1c6341127ef6950d"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_086.json",
+    "bytes": 70914,
+    "sha256": "adda75705cd02ec69a7047cc24eb20f220cb04635478d92fefd3b28c2d246e3f"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_087.json",
+    "bytes": 71061,
+    "sha256": "ff9ead3e219ba49c813b9e25db4699f5b49c488afb66e24b55e4e0533d5b343c"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_088.json",
+    "bytes": 70862,
+    "sha256": "cc744e696644acbc862ee6d774c6f4650523ef3b34bb0942194def1d6da6dc75"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_089.json",
+    "bytes": 70842,
+    "sha256": "e77018cae79319add5980027d180fbbed5a27975acbb51796efe0e8a31ed5321"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_090.json",
+    "bytes": 70874,
+    "sha256": "b8c19c6db4c84c23093e10d7e5b957d6b10d03daa135fd5a20eac60f23106b1e"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_091.json",
+    "bytes": 70861,
+    "sha256": "0fa53324d5408866af949798b0469dd12de956af3fe1e5da6eb0f803bc117ddf"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_092.json",
+    "bytes": 70886,
+    "sha256": "bb8eb058e16bf543b2d837c6ff974dd43c4a86484998d304e72e1d4fcb26f786"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_093.json",
+    "bytes": 70676,
+    "sha256": "63a402fa7d5f49a4587d83df479e781b9da886294eda92e2e8aac354d79b8d5b"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_094.json",
+    "bytes": 70674,
+    "sha256": "cc5e4e01f520d992218bd20dd2a1ddd6eee66fcfd5e184f2519b0fceb839cd99"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_095.json",
+    "bytes": 70665,
+    "sha256": "a871aebdae4dad706f1bbf8097da221ab60edfb944c0c7950a71d9b7c7d43d29"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_096.json",
+    "bytes": 70681,
+    "sha256": "103a407a6ccb8ada90aff791235d8e11061bb443e4f8d4c717fcf2d7863bd6ed"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_097.json",
+    "bytes": 70632,
+    "sha256": "257fcb94b0539db5d4443c9333a83504d44979cb79efc0087ef72c1efbaafce6"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_098.json",
+    "bytes": 70688,
+    "sha256": "c08abf2d6c45c1d60f8016c6e676800e15c4bf2fe37aee4762f462c592057a18"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_099.json",
+    "bytes": 70693,
+    "sha256": "51c2530adf50324b1da49e29ff504c3ea3450a532d8a916620b94ca6a166b746"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_100.json",
+    "bytes": 70700,
+    "sha256": "010fa1caad31ba1f8e945aa59f882b77524227eda2a0063c898e66f71e95aec4"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_101.json",
+    "bytes": 70848,
+    "sha256": "93b616f62bdd2572e287751978902c0571fe78fd8678b607d97f614c2b3d7010"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_102.json",
+    "bytes": 70749,
+    "sha256": "02985dfd0434873690b2b08da0338f4034da6d7691628eb64d67e838a9cabe00"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_103.json",
+    "bytes": 70810,
+    "sha256": "c745558a78dba135e22496d885bc653b6cb638f57aa6e49231819ae010029785"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_104.json",
+    "bytes": 70909,
+    "sha256": "c4ae0cb622e661621fedb2736e87e5a55f6684cacb6a68d12f2711427d4b8fd5"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_105.json",
+    "bytes": 70992,
+    "sha256": "67326870879e0a57dc2ec1889ccb543a6531ff81f513f25bc8ef4386a3cb90ce"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_106.json",
+    "bytes": 70866,
+    "sha256": "223cb54bbfe117463030f8750a7cea0820d2e3e312fa23683988f4f8821c3c0d"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_107.json",
+    "bytes": 71155,
+    "sha256": "a53d060d937f88256dcdafeb5f8ff4c5bb4ae92ee89964569b8faf5ae3a5fe4e"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_108.json",
+    "bytes": 70882,
+    "sha256": "435087fe796959a7012b68127b67f2baca154d9720144a8ef63478bcc6a9ab8f"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_109.json",
+    "bytes": 70804,
+    "sha256": "f5446d83985669b3193b2c0cb1738aef550d74f2def890c877da2ca9bdded7fa"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_110.json",
+    "bytes": 70827,
+    "sha256": "bea68c4f07ae5ead866b859a0f2dffacb4b8a1b128f12cea734edb023238586e"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_111.json",
+    "bytes": 70859,
+    "sha256": "37875176f7d129736d3c42a791cc55fc42cca175e4ba5e2be87ab95a57eb856d"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_112.json",
+    "bytes": 70823,
+    "sha256": "902010defdb35a91f471164f74529db2a26b35ae91501b5c2b61cd55b0684ebe"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_113.json",
+    "bytes": 70754,
+    "sha256": "9a98b0cf4ed769849e35eff17352a6adc8cbebbfd064d95aefa6f3fdfa8e07ca"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_114.json",
+    "bytes": 70891,
+    "sha256": "42336e8ec53d4eadd703bacd1b0956a720d28cf5c893878100576ba7333d42a0"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_115.json",
+    "bytes": 70820,
+    "sha256": "5f97446e78b212e3e336c5aec0740055947d6eb66390427b7d6c8e53fbf4f1a1"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_116.json",
+    "bytes": 70860,
+    "sha256": "34859dd8c743f7297b4d99893a3858c085c8e8ca9ab44fac2ce7bbefde07327a"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_117.json",
+    "bytes": 70683,
+    "sha256": "d6aa318cc02ad0068d7663ecd03b8258cf9e87b426bbeece7e5257dd25544faf"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_118.json",
+    "bytes": 70693,
+    "sha256": "00ff1cedfdd85553b8ef8a59c52b21edbe3003d05bbd4e1966e5662589be50fd"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_119.json",
+    "bytes": 70670,
+    "sha256": "bd67ae79760999d3f85f9f72e07ffd91ffc812178f4b81f02d1750667aaef12e"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_120.json",
+    "bytes": 70683,
+    "sha256": "aa649fdac02c497670ae441859817d8f12baf42ff04d3a398fd6043b02396262"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_121.json",
+    "bytes": 70690,
+    "sha256": "00d7815a64fc023b8919c3024fb87f2180a36f541c4a08066633ddd3d4384718"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_122.json",
+    "bytes": 70678,
+    "sha256": "de1a8bfc5780e3eaff51aa2b939cd61c32b01c52d62af9034225e2b69b6d02c4"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_123.json",
+    "bytes": 70698,
+    "sha256": "2a6020b8b09ac08456ad569cf7a8cba3c257ab078c74c5c05b8b592829160e0b"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_124.json",
+    "bytes": 70731,
+    "sha256": "d6338dcc05d709a7310003617f425621054cd7da60feda50fb853ff8af37a642"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_125.json",
+    "bytes": 70932,
+    "sha256": "5fbab88a28a357be7ce78bf10f4516f2f08004d45c7de426887f5a986d08118a"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_126.json",
+    "bytes": 70862,
+    "sha256": "3d1bd83399b181f1a419f7ceff7693f33dbd4df728e04ec20d4d64405a3c6c21"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_127.json",
+    "bytes": 71197,
+    "sha256": "d9c3f2cf48a40121156ef8b3583a925ac18e9f6a31f3621207c54acff8d3944d"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_128.json",
+    "bytes": 70791,
+    "sha256": "7a605c6da7ad473f9eb2574a1ac9161739bdbd91c5734701a23eb9b3b2130fd9"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_129.json",
+    "bytes": 70910,
+    "sha256": "d3b07da3ac4d8a5542fd142b606a3a4ede10d461e8811a08025eb6089d527530"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_130.json",
+    "bytes": 70919,
+    "sha256": "0cca3caa0eac2c71fea82384fc25423fed424b9e5a2f3d5ff4e44772f50b127a"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_131.json",
+    "bytes": 70874,
+    "sha256": "f3b3dabeb9448068a167ec4de6dc87759aecf2e762a7a1d297ecc6eb2790e2f0"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_132.json",
+    "bytes": 70793,
+    "sha256": "39056518abb7a30396015d5a3c84a606fd59766b2bc05cfb4bcd6dfaae63ee98"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_133.json",
+    "bytes": 71044,
+    "sha256": "1ca3acec9dad7707245be2e659df88fd604a792d55250d13c95d4ec99ef063ee"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_134.json",
+    "bytes": 70778,
+    "sha256": "9ec1127e3f77a2417c0cc72d1911445beb19e5af9fde418c51b08727338b3483"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_135.json",
+    "bytes": 70662,
+    "sha256": "df5038dc873af99269cbb3a47407b51293f4639102ac090198e35398a0aba817"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_136.json",
+    "bytes": 70776,
+    "sha256": "37d43b29b5b2646acdf7f522ce71717f86efef841d369e36b3a5e8a29f04e3a4"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_137.json",
+    "bytes": 70813,
+    "sha256": "66cf99b329810e86eeba2a40a221805cbc35d968cc060f228e9a657ba0417ab9"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_138.json",
+    "bytes": 70466,
+    "sha256": "076c9d26394b0dbf8503c7e1289cd41ba071986bf567436709b3dcbb8615007c"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_139.json",
+    "bytes": 70723,
+    "sha256": "035f9869905d03b336155a04b745fe738c4f01996ac0c12432b80449bb8f43ac"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_140.json",
+    "bytes": 70708,
+    "sha256": "8cdb901f3125c9819163449d2ecb679bdaecb0b1c0080bc6fa116ec4f763c988"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_141.json",
+    "bytes": 70685,
+    "sha256": "6798ba4a964bf715f27fc2935c1d5be9ca7c76dbb52a9ba6dba4a6698db5e4ab"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_142.json",
+    "bytes": 70640,
+    "sha256": "d76f92bfa7619d8154eb68178f0b7b8e4e3c7a4b5ccace1d4b1fe218cbcc9af9"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_143.json",
+    "bytes": 70654,
+    "sha256": "3da7f3b540ece5e050d99ea44faacb0d006800a8188d23ebcc897c817e3c9aef"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_144.json",
+    "bytes": 70665,
+    "sha256": "e40a81f96e77a1525eb9d2c07b7bbd7a541b0eac4860b4e4dc3fa8d3343e3a55"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_145.json",
+    "bytes": 70670,
+    "sha256": "faec6b13b19c5cc65f6e1de904e2d6073d86c088aecac1bc8a8b6f6169a36f46"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_146.json",
+    "bytes": 70666,
+    "sha256": "ebcb73fa57d38fc37cf11d92a70735fcc5e3dc074be018e3c2a96b14ed30ec3a"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_147.json",
+    "bytes": 70659,
+    "sha256": "06c90b9772997358047e7b66dcb86bb07419d799c48518f72202e87a78d5d6e0"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_148.json",
+    "bytes": 70908,
+    "sha256": "8e95dc15a1f4a6c1cdbf15e2d082c06a3ff405ed6a224bbf0accd8a9944a2b07"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_149.json",
+    "bytes": 70904,
+    "sha256": "7e392516f0e871c93ab2fe8c34cf297787691979d4bfb12ca346a9edcf013406"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_150.json",
+    "bytes": 70854,
+    "sha256": "eaeb093566304c2e89b33104b93fd2b6ff401ba7051847f441b9188c06fa99b2"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_151.json",
+    "bytes": 71167,
+    "sha256": "275eb657678f263732b28aa2d0d3fc219e202c4e880138927c2b061376745ca3"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_152.json",
+    "bytes": 70706,
+    "sha256": "415132bdacde1d6b30ba90cbadc349266c237f86bd23ddd3bc6d5f51829a5969"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_153.json",
+    "bytes": 70961,
+    "sha256": "66cba52e7e95a5f037ca3f0a166850b774acb68907c539b2c2cf8dd4edbb0b2a"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_154.json",
+    "bytes": 70853,
+    "sha256": "2594fcaf92f19295c9677108404e7f95d538508da2b1fc0d92fa30be635fd88d"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_155.json",
+    "bytes": 70674,
+    "sha256": "51f1ce0cf8eed0ffaaffcbe1b5da8d40f216bbf70f088189597142ec79f29816"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_156.json",
+    "bytes": 70704,
+    "sha256": "3d0d97727a95fb9a1f29972961c58d481c5db261bc76ae7942c1c7569b3f2512"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_157.json",
+    "bytes": 70914,
+    "sha256": "4784c795f4b45627aa19e38f89397b1f5b35ad9cc9da32f2477eae29be6a39af"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_158.json",
+    "bytes": 71030,
+    "sha256": "f4a642588b46ee7e86ff79877bb29cc58a84a9ac8355234d32751629b5c77e3c"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_159.json",
+    "bytes": 71014,
+    "sha256": "ae020cb160a43d13b8086dbbc282f30b8034ef8e218ea3e8552e8489c36d69e1"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_160.json",
+    "bytes": 70315,
+    "sha256": "52344be79af9bc562c132fb2e594ad2aa8df3ff1e6b9b137fa8b1bc2fc205554"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_161.json",
+    "bytes": 70775,
+    "sha256": "18e6310e8247cdcdfd984c30304d84f5e4a0c512a7ad3d56bc4f0e0fe98372c1"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_162.json",
+    "bytes": 70491,
+    "sha256": "94558924e07176e4631b528f7cd42c08008f5dce22498a652a7d9a6e5a2e5d92"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_163.json",
+    "bytes": 70790,
+    "sha256": "b4a461d200537c9bd6c9cf14472214d319b2b8244a29ec31eb401cd7b23aebf8"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_164.json",
+    "bytes": 70760,
+    "sha256": "8785ab05d3a4c0249734557b09d41dd15e3f0b48ee4f701f662291418290baf5"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_165.json",
+    "bytes": 70683,
+    "sha256": "068e2573d44e118119aa991b90deb96ccfea98a3fe2dff66c34cd023a70d86d2"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_166.json",
+    "bytes": 70684,
+    "sha256": "c8d3da3d2e86a56be260b6c4fe36434adf60bdd2fe1ec7e99347ae597703bb53"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_167.json",
+    "bytes": 70669,
+    "sha256": "d92300aef4e256638d70d2177a59b32a81476b5884995d7f0c33c73494aa4894"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\hour_outcomes.json",
+    "bytes": 10479,
+    "sha256": "d7dc4864d5dce9fb3715b20aed168a5096cf24497122400aaff5d1b1212dd338"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\integrality.npz",
+    "bytes": 264,
+    "sha256": "faf9f5cc4b5aa1fef0ba7aef6a81bc9ad58babb2b423fa274470f0933770f124"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\launch_decision.json",
+    "bytes": 152,
+    "sha256": "88c95aabdf1b9f982ed41049aff435900d4a6c697ca82516f1e6c502ccaba57b"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\matrix.npz",
+    "bytes": 92449,
+    "sha256": "8af3fb3b1e500e12211a6e9fbb8f0945aebf750e33969410c2c3b22756a2cfdd"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\model_metadata.json",
+    "bytes": 243,
+    "sha256": "d8b008519765b2adca0df891d9309fc8b4df6cd37d4347e2686892994db6501b"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\numerical_point.npz",
+    "bytes": 105322,
+    "sha256": "4eceb36bb2a1e38347a0b07f8a16c8fc84f433002e5836aabe3788ed32068d0b"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\objective.npz",
+    "bytes": 1090,
+    "sha256": "eae9a25016fac2e2c5e797b585649614eee1e56e5270ae55e4dac1c6f0872d4f"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\row_metadata.csv.gz",
+    "bytes": 132238,
+    "sha256": "1c4f57452cdeb3385f7a027a2d01fa08e504f614254c111186c811417980df9e"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\solver.log",
+    "bytes": 715,
+    "sha256": "c70db3bf50540d61477b21505c49d176e65c2f6ddaf363e5f682895f99eacb7e"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\identity_proposal\\solver_result.json",
+    "bytes": 430,
+    "sha256": "f61dcf6cc29db87763ab7c43daca528b3403608761c8aaca52474e0ea04290e8"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\input_manifest.json",
+    "bytes": 27560,
+    "sha256": "0981491f326dbd3f34e2825d501cbff54d74bf18e5c3d924edf420a4950532d4"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\january_identity\\bounds.npz",
+    "bytes": 50459,
+    "sha256": "62d6be9a96fc2eed61d403f06b6283a9e7883141a318eb7c582fd0002b619d5a"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\january_identity\\graph.json",
+    "bytes": 13573,
+    "sha256": "26b2c627a197f1c935ed743b3824e02d16b563162b79991cc0ed4f40de491c3a"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\january_identity\\integrality.npz",
+    "bytes": 286,
+    "sha256": "b7edefe877df7e0ca60056219002a63ead96c78926a403cb8e4d697f2a67838c"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\january_identity\\matrix.npz",
+    "bytes": 207024,
+    "sha256": "b252364e8d204bd5c407888ac50779c80f4855f36ef258a08f3276839aecad6b"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\january_identity\\model_metadata.json",
+    "bytes": 2740,
+    "sha256": "776acdb52349fa3568ebfef821a9563eb17cbf11c0da6716b5b4accbd0a974a4"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\january_identity\\native_inputs.npz",
+    "bytes": 26497,
+    "sha256": "5f917f58e4fd50ae1e0d9198fd84e81f57adb1f24b530d1ed5bb71d99714a960"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\january_identity\\native_spec.json",
+    "bytes": 18523,
+    "sha256": "9a2c78233792adb44a3a50ba7510769185457660551f92892941eeda1bacffd3"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\january_identity\\objective.npz",
+    "bytes": 912,
+    "sha256": "f104697baf043a1c57e6c757164e8cc705b5cbddff44950fb11ef1c2240ab980"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\january_identity\\permutation.csv",
+    "bytes": 2361,
+    "sha256": "94352d5ec4282e9757c259bd336faae046eecbba3231b57b96e7a60257252580"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\january_identity\\rational_point.json",
+    "bytes": 10539290,
+    "sha256": "fa947ac8a4d3a26fdb14bb4f7e0966d6a565c4b0ff3be9d5de31ff8b73e2b69e"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\january_identity\\representation_differences.json",
+    "bytes": 16321,
+    "sha256": "7320dc2eea55387917e9731ba395bd1464be448dc63d912e2a0cff32835958ec"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\january_identity\\row_metadata.csv.gz",
+    "bytes": 219373,
+    "sha256": "37600e34c9459eaa2adf5c6bd1f8ffeb6ee24d17e10079e745dea86ecd7c47d2"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\january_identity\\strict_point_check.json",
+    "bytes": 2368,
+    "sha256": "2625dff69f271c615c68abfb4024943992dab3500cab43d5d1e3bd6327d016ef"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\outcomes.json",
+    "bytes": 19014,
+    "sha256": "61e01182edb2f6567472294654aff8d36175b21e67fbc0225c7ecdb9665c18d1"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\preparation_report.json",
+    "bytes": 677,
+    "sha256": "8743fc64dd01629971781e589798194d40700868c890bcd0f1de57cd1c0e3aef"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\prepared_freeze.json",
+    "bytes": 1310,
+    "sha256": "7fa38542370a116f8011ec04ad451ad26d698122920a9f1e1f0a4ecc62fa18b5"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\seed_26093200\\basis.json",
+    "bytes": 958769,
+    "sha256": "f4e16ea12acec881e7d5f839ca3cfa299ebbb3f54f6872588c4bb1b210f25cb0"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\seed_26093200\\bounds.npz",
+    "bytes": 50540,
+    "sha256": "1ce6bf836d5f07a3d57d708012a7ac59a6d5a8de32aa9b1c91563a0ff1dfe2a1"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\seed_26093200\\classification.json",
+    "bytes": 8364,
+    "sha256": "f96952a1be30bf5f70a59d54222c65f601984ce3ab75bc74218f64dfb0d7939e"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\seed_26093200\\graph.json",
+    "bytes": 13573,
+    "sha256": "26b2c627a197f1c935ed743b3824e02d16b563162b79991cc0ed4f40de491c3a"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\seed_26093200\\integrality.npz",
+    "bytes": 286,
+    "sha256": "b7edefe877df7e0ca60056219002a63ead96c78926a403cb8e4d697f2a67838c"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\seed_26093200\\launch_decision.json",
+    "bytes": 148,
+    "sha256": "5261a840a5e3345668336d022ff422dfbc9f6e112cecafc6d671a4905cd11023"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\seed_26093200\\matrix.npz",
+    "bytes": 207024,
+    "sha256": "b252364e8d204bd5c407888ac50779c80f4855f36ef258a08f3276839aecad6b"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\seed_26093200\\model_metadata.json",
+    "bytes": 2740,
+    "sha256": "776acdb52349fa3568ebfef821a9563eb17cbf11c0da6716b5b4accbd0a974a4"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\seed_26093200\\native_inputs.npz",
+    "bytes": 26578,
+    "sha256": "c6e3efd7ddb65960db87eac29707eae40862bb8ea04dc00a5d2c2035d96af177"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\seed_26093200\\native_spec.json",
+    "bytes": 18523,
+    "sha256": "9a2c78233792adb44a3a50ba7510769185457660551f92892941eeda1bacffd3"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\seed_26093200\\numerical_point.npz",
+    "bytes": 111950,
+    "sha256": "ca73ee2db29c139bad4816ce7c68fda4f9cb2c545c40735a5d0ff21858208288"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\seed_26093200\\objective.npz",
+    "bytes": 912,
+    "sha256": "f104697baf043a1c57e6c757164e8cc705b5cbddff44950fb11ef1c2240ab980"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\seed_26093200\\permutation.csv",
+    "bytes": 2361,
+    "sha256": "09fd54c4a7ed25ba0ade5e7499ad45bd11ee63a7bfa46116b57685cc79ad31c7"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\seed_26093200\\raw_solver_ray.npz",
+    "bytes": 10122,
+    "sha256": "96dd7c18a9bad311d7b124e042275e9e194155320ec88caf81d8c0080caa3821"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\seed_26093200\\ray_+1_projected.json",
+    "bytes": 280822,
+    "sha256": "a769cb3177e7c2fe8c43454964d53c6139222d351c6bb95d94bf76fe901eb228"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\seed_26093200\\ray_+1_raw.json",
+    "bytes": 287974,
+    "sha256": "a844752daf379676dad114c3a91b631a60aba61bf2a34b5907998eecd64eda4a"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\seed_26093200\\ray_-1_projected.json",
+    "bytes": 212539,
+    "sha256": "4d9d0a7ff3492f36eaf9ae02fa0af79aef98e94515de2a78461711de9dc538d7"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\seed_26093200\\ray_-1_raw.json",
+    "bytes": 288644,
+    "sha256": "59d9bd8cb2c4bc44859c9658bdf1a629d1fd4c4deae5446a3080162fe89d6584"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\seed_26093200\\representation_differences.json",
+    "bytes": 16321,
+    "sha256": "152c552c4c43bbc4eaab2fcc84ca70512ffa87796c862a2fd841d4b6e14c59dc"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\seed_26093200\\row_metadata.csv.gz",
+    "bytes": 219373,
+    "sha256": "0007452bc9980c2a92e36be73dbc6b2786dddc17e07c0361ed511d1f98bf43f5"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\seed_26093200\\solver.log",
+    "bytes": 733,
+    "sha256": "3d87955f5d01733b56da6f82a3104958c7adf0c3891dd1e10c2b9e8d32046468"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\seed_26093200\\solver_result.json",
+    "bytes": 429,
+    "sha256": "221589109020d334fde8fa84139812de4819423eec3afca9a98d2dcadbf5965d"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\seed_26093201\\basis.json",
+    "bytes": 958769,
+    "sha256": "d7d21fecba627e91f3a4e4365a4cdfc1b646bd715563f49bba9bbf6492ccdacf"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\seed_26093201\\bounds.npz",
+    "bytes": 50974,
+    "sha256": "d57b6b30be386aef55220681cb044cc126f9ba97e7f95742ca034c73cc8836d8"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\seed_26093201\\classification.json",
+    "bytes": 8703,
+    "sha256": "a24ad6a2e46a7d10fd1d4094e3fe69f91b710c8711c1dbb93bd47a31075e71c4"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\seed_26093201\\graph.json",
+    "bytes": 13573,
+    "sha256": "26b2c627a197f1c935ed743b3824e02d16b563162b79991cc0ed4f40de491c3a"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\seed_26093201\\integrality.npz",
+    "bytes": 286,
+    "sha256": "b7edefe877df7e0ca60056219002a63ead96c78926a403cb8e4d697f2a67838c"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\seed_26093201\\launch_decision.json",
+    "bytes": 148,
+    "sha256": "02c8c5b227d6b4c6248bd66debfbd4215623320e95d4030355798fe557ff2b78"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\seed_26093201\\matrix.npz",
+    "bytes": 207024,
+    "sha256": "b252364e8d204bd5c407888ac50779c80f4855f36ef258a08f3276839aecad6b"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\seed_26093201\\model_metadata.json",
+    "bytes": 2740,
+    "sha256": "776acdb52349fa3568ebfef821a9563eb17cbf11c0da6716b5b4accbd0a974a4"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\seed_26093201\\native_inputs.npz",
+    "bytes": 26557,
+    "sha256": "dcb27717a55c3c4548faa722f8e2f88cfbffd1e963f3ca5bf33e93e7c34e964e"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\seed_26093201\\native_spec.json",
+    "bytes": 18523,
+    "sha256": "9a2c78233792adb44a3a50ba7510769185457660551f92892941eeda1bacffd3"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\seed_26093201\\numerical_point.npz",
+    "bytes": 112687,
+    "sha256": "6645f9b440944ad432d425e896fa3fcfe7c7bb3c916c57a666a4ea957514a842"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\seed_26093201\\objective.npz",
+    "bytes": 912,
+    "sha256": "f104697baf043a1c57e6c757164e8cc705b5cbddff44950fb11ef1c2240ab980"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\seed_26093201\\permutation.csv",
+    "bytes": 2361,
+    "sha256": "dd41797ff4b27820d9ba8ca7159ee4b6a0636a8d19f1c955fb3ed5b7f9fe6fa2"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\seed_26093201\\raw_solver_ray.npz",
+    "bytes": 10552,
+    "sha256": "88baf65cc0f1aacb2625f35e5ca6a8c45be643f85e88921eeb663de056d9d8b0"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\seed_26093201\\ray_+1_projected.json",
+    "bytes": 280135,
+    "sha256": "82f4e4bf3c9d0a5859a69b8b52551e2ccb20998e2644a002872f1e73545f0793"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\seed_26093201\\ray_+1_raw.json",
+    "bytes": 285127,
+    "sha256": "536c49d64f522de07a370c508da1dd116e2e067795907ff6e6d0cedb9a515c1d"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\seed_26093201\\ray_-1_projected.json",
+    "bytes": 204715,
+    "sha256": "6d1d721340b2859abf915e7cca5a28ee742ff02d84f0fff00155fc23d90dd2c4"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\seed_26093201\\ray_-1_raw.json",
+    "bytes": 285591,
+    "sha256": "ea8a43ff9cb60928258feefe48ff049b2cea68dff5e5a64b2f48242263eac334"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\seed_26093201\\representation_differences.json",
+    "bytes": 16321,
+    "sha256": "242ac3d6ba79e4efc36de6d22e4e8ffa92127990ac4c2b137ad5ac8ec93f5ebd"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\seed_26093201\\row_metadata.csv.gz",
+    "bytes": 219373,
+    "sha256": "681a9f9ac1f4b686f0bb7ce236cc685101123667a0c1da06b10bec154ba5130b"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\seed_26093201\\solver.log",
+    "bytes": 733,
+    "sha256": "e3c44225d16114844907643aa15a61c89cbea3333a80490bd165fb91450da043"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\seed_26093201\\solver_result.json",
+    "bytes": 428,
+    "sha256": "1a4433732439ed534c18f0a2117c4d7bbd573293d5dcf533dc4ea4155ba3bd9b"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\seed_26100200\\bounds.npz",
+    "bytes": 50715,
+    "sha256": "5fdd448eabbd3f11d5f72d5df96da78c39db4cd3b6df1c5251537ddfa43e4301"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\seed_26100200\\graph.json",
+    "bytes": 13573,
+    "sha256": "26b2c627a197f1c935ed743b3824e02d16b563162b79991cc0ed4f40de491c3a"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\seed_26100200\\integrality.npz",
+    "bytes": 286,
+    "sha256": "b7edefe877df7e0ca60056219002a63ead96c78926a403cb8e4d697f2a67838c"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\seed_26100200\\matrix.npz",
+    "bytes": 207024,
+    "sha256": "b252364e8d204bd5c407888ac50779c80f4855f36ef258a08f3276839aecad6b"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\seed_26100200\\model_metadata.json",
+    "bytes": 2740,
+    "sha256": "776acdb52349fa3568ebfef821a9563eb17cbf11c0da6716b5b4accbd0a974a4"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\seed_26100200\\native_inputs.npz",
+    "bytes": 26495,
+    "sha256": "8b258f1910910e251e0f876ec7b7dc37fdf9f4cc6ab7339483e8e4f019d9cbef"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\seed_26100200\\native_spec.json",
+    "bytes": 18523,
+    "sha256": "9a2c78233792adb44a3a50ba7510769185457660551f92892941eeda1bacffd3"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\seed_26100200\\objective.npz",
+    "bytes": 912,
+    "sha256": "f104697baf043a1c57e6c757164e8cc705b5cbddff44950fb11ef1c2240ab980"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\seed_26100200\\permutation.csv",
+    "bytes": 2361,
+    "sha256": "262f53569da110bab80082593e10eff92098b8a755b759a89f4147e2e8c12d7d"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\seed_26100200\\rational_point.json",
+    "bytes": 10539290,
+    "sha256": "2a0a6534c7b23ae53ef64716771483104960d8821dcc6ad180cde3d4eb2f4452"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\seed_26100200\\representation_differences.json",
+    "bytes": 16321,
+    "sha256": "0f6cf4fdb4128d18d53943dd1b2ec64a347ecbdb3df2f37a80ef291ede231daa"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\seed_26100200\\row_metadata.csv.gz",
+    "bytes": 219373,
+    "sha256": "9f59862a9242520a5de5264cb5282b5fd0b991aaf884cc72d5e96790bab05306"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\seed_26100200\\strict_point_check.json",
+    "bytes": 2368,
+    "sha256": "97fd70c3642c0e10d1168ef74342557c4410aa55198482a11025f1024becdef2"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_implementation_tests.json",
+    "bytes": 456,
+    "sha256": "47e1c82e58a108449531f6b72d1eed4dedc477352efab7e2e12b4bc29d56267a"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_independent_review\\postrun_review.json",
+    "bytes": 40275,
+    "sha256": "b0820ff52180c1c20b6d34ef6189dce33b2344223dc58936285a72cc3284991b"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_independent_review\\postrun_review.py",
+    "bytes": 20466,
+    "sha256": "c14de94fc61de56ce4366edf3dc940979701fa69051e9046de989662e34d6ea6"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_prepared_review.json",
+    "bytes": 3807,
+    "sha256": "19d5a9ca7cf293c8390a5a998aecabda769b5eff496b51d6ffb512fc4ad9660e"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_prepared_review.py",
+    "bytes": 15141,
+    "sha256": "54fd65020f351203d4ae43c8a8e71af4c82e27511446865798879d4c1f0aec1b"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_prepared_review_attempt01.json",
+    "bytes": 492,
+    "sha256": "a62b26096c65334185e6fa9cd7d03757dc7b601a30114a4dc5ed0599b21b473a"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_prepared_review_attempt01.py",
+    "bytes": 15075,
+    "sha256": "13ced214136a147ab75a38ec2760bd947c357b5bfd92198a80b7589f4e491bf7"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\src\\research8h_branch_flow.py",
+    "bytes": 36410,
+    "sha256": "bb5889f57ef051dffb196457b3bfbb9626e8c2e046a2b0bcc13ea6b5250fbd77"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\src\\research8h_branch_flow_check.py",
+    "bytes": 6471,
+    "sha256": "41dab33ed8e013d46fd7ae78974d95cab70e9794a906a7c6a12786bb093d4632"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_encoding\\artifact_manifest.csv",
+    "bytes": 39475,
+    "sha256": "a86ee29993a253e7018965cf9ce66dc177e220129eba849a4529960a09e237c4"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\hour_of_day_uncapped\\input_manifest.csv",
+    "bytes": 17903,
+    "sha256": "b0ffca41db74d7278c001c776ae3b8656272994d083c8fc215ecbbf665020f8a"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\hour_of_day_uncapped\\independent_postrun_review.json",
+    "bytes": 18797,
+    "sha256": "6039f8bbf0dd882cf34f9ada87ec251e95d1e48296291591e6b58914c680c832"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\hour_of_day_uncapped\\seed_26093200\\mip\\recovered_vector.npz",
+    "bytes": 41556,
+    "sha256": "d4d2f68f002e8ac37139e8a6fa3add916022418cb42cdcdbff9286f24ca898ca"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\hour_of_day_uncapped\\seed_26093200\\mip\\exact_point_check.json",
+    "bytes": 885,
+    "sha256": "2227123b09e71ade2ae10bcc59a60ee4e74b301f06e5ea59ae648cca9d38f5c5"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\hour_of_day_uncapped\\seed_26093200\\mip\\native_no_cap_check.json",
+    "bytes": 1488,
+    "sha256": "356cf2a76d78f4ab5d13313ced3e35eb6a01f15d218894dddbbd0ab5dc20dc3a"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\hour_of_day_uncapped\\seed_26093200\\native_inputs.npz",
+    "bytes": 26578,
+    "sha256": "c6e3efd7ddb65960db87eac29707eae40862bb8ea04dc00a5d2c2035d96af177"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\hour_of_day_uncapped\\seed_26093200\\permutation.csv",
+    "bytes": 2361,
+    "sha256": "09fd54c4a7ed25ba0ade5e7499ad45bd11ee63a7bfa46116b57685cc79ad31c7"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\hour_of_day_uncapped\\seed_26093200\\original_integrality.npz",
+    "bytes": 282,
+    "sha256": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\hour_of_day_uncapped\\seed_26093201\\mip\\recovered_vector.npz",
+    "bytes": 41294,
+    "sha256": "7a6f6f3757c1206ebcf0c03c275022e34f0ea2af0696c1f9c869d1c17d6e3aa3"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\hour_of_day_uncapped\\seed_26093201\\mip\\exact_point_check.json",
+    "bytes": 854,
+    "sha256": "a4c3d07524f63d76c9a51ba5a7e095dcf363f61628176a3f5d963e45860292ab"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\hour_of_day_uncapped\\seed_26093201\\mip\\native_no_cap_check.json",
+    "bytes": 1505,
+    "sha256": "3ce71028219a29191c54e94b59296e6e4338bde36eb282d6c58c029fa0610c80"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\hour_of_day_uncapped\\seed_26093201\\native_inputs.npz",
+    "bytes": 26557,
+    "sha256": "dcb27717a55c3c4548faa722f8e2f88cfbffd1e963f3ca5bf33e93e7c34e964e"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\hour_of_day_uncapped\\seed_26093201\\permutation.csv",
+    "bytes": 2361,
+    "sha256": "dd41797ff4b27820d9ba8ca7159ee4b6a0636a8d19f1c955fb3ed5b7f9fe6fa2"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\hour_of_day_uncapped\\seed_26093201\\original_integrality.npz",
+    "bytes": 282,
+    "sha256": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\src\\research8h_branch_flow_energy.py",
+    "bytes": 22711,
+    "sha256": "7e19ad3f6a5c0535f6b422ed28cc36034997daefb516ed3c91f07b4920e08ea5"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\src\\research8h_branch_flow_energy_check.py",
+    "bytes": 7046,
+    "sha256": "13d1debeb82d76e595c2700554d39a27c5b01259e03b0d35edabe21e8c3175e9"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\src\\research8h_exact_fixed_schedule.py",
+    "bytes": 38501,
+    "sha256": "733f57ae928c72dcf063c224e728d1ad1a01d52e93c068f63147d988c16e3a77"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\src\\research8h_rational_witness_check.py",
+    "bytes": 10706,
+    "sha256": "9cb836d420308a2ffc5b6e50e78cb565a823d5b65d1223c0f53d98910de5680d"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\src\\research8h_standalone_verify.py",
+    "bytes": 28861,
+    "sha256": "708c3843425eea494a0561e83a275f7059f22bcd546a036705323d056bcf906f"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\docs\\research8h\\BRANCH_FLOW_STRICT_ENERGY_PROTOCOL.md",
+    "bytes": 7680,
+    "sha256": "608003f505015b89ed6f36bdf87ef81e39ff4c0e07463206bfe613031be30886"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\docs\\research8h\\BRANCH_FLOW_STRICT_ENERGY_DESIGN.md",
+    "bytes": 10391,
+    "sha256": "7f836a4a8dd38c9b30341491301e753d1e2a3228740cb96daa705b560629606c"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_energy_implementation_tests.json",
+    "bytes": 286,
+    "sha256": "ffb52d2c34b5304ff7fe6c5b6be4d84d7afd1aa55c4a1c0258d2024f90e17235"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_strict_energy\\january_identity\\bounds.npz",
+    "bytes": 50454,
+    "sha256": "b6206716ac4447c2483f4c4d267fc55e769b128194a7750dbbbcb81204e438ce"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_strict_energy\\january_identity\\cap_deletion.json",
+    "bytes": 403503,
+    "sha256": "7eadf074772488f3f16dbe39e05482ce7b69b615a291282602cd3a6e3f19388e"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_strict_energy\\january_identity\\fixed_schedule.json",
+    "bytes": 1291165,
+    "sha256": "b9d489ad87be1c54bf3ac067e132eba2d6b01d9916fc0212a7fabbf7cc899130"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_strict_energy\\january_identity\\graph.json",
+    "bytes": 13573,
+    "sha256": "26b2c627a197f1c935ed743b3824e02d16b563162b79991cc0ed4f40de491c3a"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_strict_energy\\january_identity\\identity_upper.json",
+    "bytes": 2401,
+    "sha256": "75679adb0dec7d60d4cc53555a4a47caa3c64658fa2b35db0c6d47968eaf57ee"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_strict_energy\\january_identity\\integrality.npz",
+    "bytes": 286,
+    "sha256": "b7edefe877df7e0ca60056219002a63ead96c78926a403cb8e4d697f2a67838c"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_strict_energy\\january_identity\\matrix.npz",
+    "bytes": 201064,
+    "sha256": "1a2d01f03b4115793467c0f28c900db565bec012c469c13824e1ad1970804643"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_strict_energy\\january_identity\\model_metadata.json",
+    "bytes": 2955,
+    "sha256": "8fac72da0ad1ecb23897df2dfa17b8a876179a41ede718e048033f021e45b5da"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_strict_energy\\january_identity\\native_inputs.npz",
+    "bytes": 26497,
+    "sha256": "5f917f58e4fd50ae1e0d9198fd84e81f57adb1f24b530d1ed5bb71d99714a960"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_strict_energy\\january_identity\\native_spec.json",
+    "bytes": 18523,
+    "sha256": "9a2c78233792adb44a3a50ba7510769185457660551f92892941eeda1bacffd3"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_strict_energy\\january_identity\\objective.npz",
+    "bytes": 912,
+    "sha256": "f104697baf043a1c57e6c757164e8cc705b5cbddff44950fb11ef1c2240ab980"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_strict_energy\\january_identity\\permutation.csv",
+    "bytes": 2361,
+    "sha256": "94352d5ec4282e9757c259bd336faae046eecbba3231b57b96e7a60257252580"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_strict_energy\\january_identity\\rational_point.json",
+    "bytes": 10539290,
+    "sha256": "5815c5f86f72b23636884e8112a04764ab75243d3ce206040bbb6fb5c588dab3"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_strict_energy\\january_identity\\row_metadata.csv.gz",
+    "bytes": 218626,
+    "sha256": "e6d1c115f29ecac379771719527c4c0b6dcd194c3a296b055be1edb1e2e04d4b"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_strict_energy\\preparation_report.json",
+    "bytes": 419,
+    "sha256": "f85c9708a7a4b453200be35bf1e3759c365781f0f923171cf2bc573cb91870c9"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_strict_energy\\seed_26093200\\bounds.npz",
+    "bytes": 50537,
+    "sha256": "d435543efdd6cadda06227ce20f5d09f2eff068feaaa709bfcc7b31ded1d3286"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_strict_energy\\seed_26093200\\cap_deletion.json",
+    "bytes": 403503,
+    "sha256": "06ac09be37eb7157316c80f394ac042aff1d6000cc91f3161f340d3ac23472b2"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_strict_energy\\seed_26093200\\fixed_schedule.json",
+    "bytes": 1291165,
+    "sha256": "189f2df915336ac90331f0754ad27f157d3b15f395fc6195573062cdbd4f190d"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_strict_energy\\seed_26093200\\graph.json",
+    "bytes": 13573,
+    "sha256": "26b2c627a197f1c935ed743b3824e02d16b563162b79991cc0ed4f40de491c3a"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_strict_energy\\seed_26093200\\integrality.npz",
+    "bytes": 286,
+    "sha256": "b7edefe877df7e0ca60056219002a63ead96c78926a403cb8e4d697f2a67838c"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_strict_energy\\seed_26093200\\matrix.npz",
+    "bytes": 201064,
+    "sha256": "1a2d01f03b4115793467c0f28c900db565bec012c469c13824e1ad1970804643"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_strict_energy\\seed_26093200\\model_metadata.json",
+    "bytes": 2952,
+    "sha256": "bb5775df81c06255b17c00524abc6235b58ae4a68befb3dfc66ad4968736f94e"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_strict_energy\\seed_26093200\\native_inputs.npz",
+    "bytes": 26578,
+    "sha256": "c6e3efd7ddb65960db87eac29707eae40862bb8ea04dc00a5d2c2035d96af177"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_strict_energy\\seed_26093200\\native_spec.json",
+    "bytes": 18523,
+    "sha256": "9a2c78233792adb44a3a50ba7510769185457660551f92892941eeda1bacffd3"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_strict_energy\\seed_26093200\\objective.npz",
+    "bytes": 912,
+    "sha256": "f104697baf043a1c57e6c757164e8cc705b5cbddff44950fb11ef1c2240ab980"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_strict_energy\\seed_26093200\\permutation.csv",
+    "bytes": 2361,
+    "sha256": "09fd54c4a7ed25ba0ade5e7499ad45bd11ee63a7bfa46116b57685cc79ad31c7"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_strict_energy\\seed_26093200\\row_metadata.csv.gz",
+    "bytes": 218626,
+    "sha256": "5bf2d86018c367eba29aff6521c2f348f81cdd74cbd84bad75c62899c9da8861"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_strict_energy\\seed_26093200_proposal\\bounds.npz",
+    "bytes": 51066,
+    "sha256": "2a4d379d91a57839f72db7028d94b87181761c2028f40230a63b8844ae39986c"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_strict_energy\\seed_26093200_proposal\\constant_rows.json",
+    "bytes": 3451824,
+    "sha256": "cd6380004814e2693513815a315147d9189791781980bd5a3cce507cd11e31b1"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_strict_energy\\seed_26093200_proposal\\exact_blocks.json.gz",
+    "bytes": 485435,
+    "sha256": "22915cc1f345b5924bbb5281891947fddbe926a8a891548880800c9a790a81c0"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_strict_energy\\seed_26093200_proposal\\integrality.npz",
+    "bytes": 264,
+    "sha256": "faf9f5cc4b5aa1fef0ba7aef6a81bc9ad58babb2b423fa274470f0933770f124"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_strict_energy\\seed_26093200_proposal\\matrix.npz",
+    "bytes": 92449,
+    "sha256": "8af3fb3b1e500e12211a6e9fbb8f0945aebf750e33969410c2c3b22756a2cfdd"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_strict_energy\\seed_26093200_proposal\\model_metadata.json",
+    "bytes": 173,
+    "sha256": "559216cae72e18dd64f4b1c70774497fe715675a2ac204c34959dac898ee1871"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_strict_energy\\seed_26093200_proposal\\objective.npz",
+    "bytes": 1090,
+    "sha256": "eae9a25016fac2e2c5e797b585649614eee1e56e5270ae55e4dac1c6f0872d4f"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_strict_energy\\seed_26093200_proposal\\row_metadata.csv.gz",
+    "bytes": 132149,
+    "sha256": "d86c767195ce9d646132e6b459c0843e830a932493a024b53e07cf8d0b94dbab"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_strict_energy\\seed_26093201\\bounds.npz",
+    "bytes": 50970,
+    "sha256": "c5309400c819a7848410c25efe5aaea916520cbd74c9371bc459776fe263becd"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_strict_energy\\seed_26093201\\cap_deletion.json",
+    "bytes": 403503,
+    "sha256": "bfbe63751365e00345d410b1a30e5501d4ebb5068f72dc110390757e6ee25615"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_strict_energy\\seed_26093201\\fixed_schedule.json",
+    "bytes": 1291165,
+    "sha256": "9146f6c25806cffd5cf8b885751cb79ecaf5471e6b39a6d5bc5c1190d806c706"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_strict_energy\\seed_26093201\\graph.json",
+    "bytes": 13573,
+    "sha256": "26b2c627a197f1c935ed743b3824e02d16b563162b79991cc0ed4f40de491c3a"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_strict_energy\\seed_26093201\\integrality.npz",
+    "bytes": 286,
+    "sha256": "b7edefe877df7e0ca60056219002a63ead96c78926a403cb8e4d697f2a67838c"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_strict_energy\\seed_26093201\\matrix.npz",
+    "bytes": 201064,
+    "sha256": "1a2d01f03b4115793467c0f28c900db565bec012c469c13824e1ad1970804643"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_strict_energy\\seed_26093201\\model_metadata.json",
+    "bytes": 2952,
+    "sha256": "0798795df7b5673571526ad8c1eef2f1b9fb661669d684d8cb41431dbf983c69"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_strict_energy\\seed_26093201\\native_inputs.npz",
+    "bytes": 26557,
+    "sha256": "dcb27717a55c3c4548faa722f8e2f88cfbffd1e963f3ca5bf33e93e7c34e964e"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_strict_energy\\seed_26093201\\native_spec.json",
+    "bytes": 18523,
+    "sha256": "9a2c78233792adb44a3a50ba7510769185457660551f92892941eeda1bacffd3"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_strict_energy\\seed_26093201\\objective.npz",
+    "bytes": 912,
+    "sha256": "f104697baf043a1c57e6c757164e8cc705b5cbddff44950fb11ef1c2240ab980"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_strict_energy\\seed_26093201\\permutation.csv",
+    "bytes": 2361,
+    "sha256": "dd41797ff4b27820d9ba8ca7159ee4b6a0636a8d19f1c955fb3ed5b7f9fe6fa2"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_strict_energy\\seed_26093201\\row_metadata.csv.gz",
+    "bytes": 218626,
+    "sha256": "715733db49fb35a37cbe7e97c8bf11cce8cbf2d5eb7538cf06b350f21fbc87a2"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_strict_energy\\seed_26093201_proposal\\bounds.npz",
+    "bytes": 50829,
+    "sha256": "5c41ecbced354117cb63506e371ff8f2cd22df1486819f173e4d78214d3dd1bb"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_strict_energy\\seed_26093201_proposal\\constant_rows.json",
+    "bytes": 3451809,
+    "sha256": "2be70c91438540d87e36ce7a75e39674cfb8f6123bbe50e7d7b6b84037c00d47"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_strict_energy\\seed_26093201_proposal\\exact_blocks.json.gz",
+    "bytes": 485682,
+    "sha256": "33459a9aa861aa70184daab70ad12f0ff8041904ce068968f717ce71ebd7929f"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_strict_energy\\seed_26093201_proposal\\integrality.npz",
+    "bytes": 264,
+    "sha256": "faf9f5cc4b5aa1fef0ba7aef6a81bc9ad58babb2b423fa274470f0933770f124"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_strict_energy\\seed_26093201_proposal\\matrix.npz",
+    "bytes": 92449,
+    "sha256": "8af3fb3b1e500e12211a6e9fbb8f0945aebf750e33969410c2c3b22756a2cfdd"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_strict_energy\\seed_26093201_proposal\\model_metadata.json",
+    "bytes": 173,
+    "sha256": "559216cae72e18dd64f4b1c70774497fe715675a2ac204c34959dac898ee1871"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_strict_energy\\seed_26093201_proposal\\objective.npz",
+    "bytes": 1090,
+    "sha256": "eae9a25016fac2e2c5e797b585649614eee1e56e5270ae55e4dac1c6f0872d4f"
+  },
+  {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\branch_flow_strict_energy\\seed_26093201_proposal\\row_metadata.csv.gz",
+    "bytes": 132149,
+    "sha256": "5f9c4ec88c681950cbaa65e7a2ef33d0e4081694b2708c4a5b2f037ddbc5f03e"
+  }
+]

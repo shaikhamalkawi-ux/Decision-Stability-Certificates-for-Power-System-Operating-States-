@@ -1,0 +1,29 @@
+{
+  "manifest_sha256": "7ffffe82e6046daff5dcd610337c2e8cb333009c38ec9acfcdb9741f8cbadbb7",
+  "bindings": 355,
+  "calls": [
+    "january_identity",
+    "seed_26093200",
+    "seed_26093201",
+    "seed_26093200_proposal",
+    "seed_26093201_proposal"
+  ],
+  "options": {
+    "solver": "simplex",
+    "simplex_strategy": 1,
+    "presolve": "off",
+    "threads": 1,
+    "random_seed": 0,
+    "primal_feasibility_tolerance": 1e-07,
+    "dual_feasibility_tolerance": 1e-07,
+    "small_matrix_value": 1e-12,
+    "log_to_console": false,
+    "output_flag": true
+  },
+  "limit_per_call": 60,
+  "phase": 1800.0,
+  "arithmetic_phase": 900.0,
+  "latest_start": "2026-09-27T03:35:00+00:00",
+  "cutoff": "2026-09-27T04:00:00+00:00",
+  "separate_GO_required": true
+}

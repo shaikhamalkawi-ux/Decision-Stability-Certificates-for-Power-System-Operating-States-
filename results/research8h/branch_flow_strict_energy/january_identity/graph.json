@@ -1,0 +1,686 @@
+[
+  {
+    "branch": 0,
+    "uid": "0",
+    "positive_bus": 0,
+    "negative_bus": 1,
+    "coefficient": {
+      "numerator": "3926827242057143",
+      "denominator": "549755813888"
+    },
+    "lower": {
+      "numerator": "-175",
+      "denominator": "1"
+    },
+    "upper": {
+      "numerator": "175",
+      "denominator": "1"
+    }
+  },
+  {
+    "branch": 1,
+    "uid": "1",
+    "positive_bus": 0,
+    "negative_bus": 2,
+    "coefficient": {
+      "numerator": "2084382232750711",
+      "denominator": "4398046511104"
+    },
+    "lower": {
+      "numerator": "-175",
+      "denominator": "1"
+    },
+    "upper": {
+      "numerator": "175",
+      "denominator": "1"
+    }
+  },
+  {
+    "branch": 2,
+    "uid": "2",
+    "positive_bus": 0,
+    "negative_bus": 4,
+    "coefficient": {
+      "numerator": "2587086183002353",
+      "denominator": "2199023255552"
+    },
+    "lower": {
+      "numerator": "-175",
+      "denominator": "1"
+    },
+    "upper": {
+      "numerator": "175",
+      "denominator": "1"
+    }
+  },
+  {
+    "branch": 3,
+    "uid": "3",
+    "positive_bus": 1,
+    "negative_bus": 3,
+    "coefficient": {
+      "numerator": "6926057497801575",
+      "denominator": "8796093022208"
+    },
+    "lower": {
+      "numerator": "-175",
+      "denominator": "1"
+    },
+    "upper": {
+      "numerator": "175",
+      "denominator": "1"
+    }
+  },
+  {
+    "branch": 4,
+    "uid": "4",
+    "positive_bus": 1,
+    "negative_bus": 5,
+    "coefficient": {
+      "numerator": "4581298449066667",
+      "denominator": "8796093022208"
+    },
+    "lower": {
+      "numerator": "-175",
+      "denominator": "1"
+    },
+    "upper": {
+      "numerator": "175",
+      "denominator": "1"
+    }
+  },
+  {
+    "branch": 5,
+    "uid": "5",
+    "positive_bus": 2,
+    "negative_bus": 8,
+    "coefficient": {
+      "numerator": "923959351072269",
+      "denominator": "1099511627776"
+    },
+    "lower": {
+      "numerator": "-175",
+      "denominator": "1"
+    },
+    "upper": {
+      "numerator": "175",
+      "denominator": "1"
+    }
+  },
+  {
+    "branch": 6,
+    "uid": "6",
+    "positive_bus": 2,
+    "negative_bus": 23,
+    "coefficient": {
+      "numerator": "5158393749828759",
+      "denominator": "4398046511104"
+    },
+    "lower": {
+      "numerator": "-400",
+      "denominator": "1"
+    },
+    "upper": {
+      "numerator": "400",
+      "denominator": "1"
+    }
+  },
+  {
+    "branch": 7,
+    "uid": "7",
+    "positive_bus": 3,
+    "negative_bus": 8,
+    "coefficient": {
+      "numerator": "8457781752123077",
+      "denominator": "8796093022208"
+    },
+    "lower": {
+      "numerator": "-175",
+      "denominator": "1"
+    },
+    "upper": {
+      "numerator": "175",
+      "denominator": "1"
+    }
+  },
+  {
+    "branch": 8,
+    "uid": "8",
+    "positive_bus": 4,
+    "negative_bus": 9,
+    "coefficient": {
+      "numerator": "2498890063127273",
+      "denominator": "2199023255552"
+    },
+    "lower": {
+      "numerator": "-175",
+      "denominator": "1"
+    },
+    "upper": {
+      "numerator": "175",
+      "denominator": "1"
+    }
+  },
+  {
+    "branch": 9,
+    "uid": "9",
+    "positive_bus": 5,
+    "negative_bus": 9,
+    "coefficient": {
+      "numerator": "3604956156642623",
+      "denominator": "2199023255552"
+    },
+    "lower": {
+      "numerator": "-175",
+      "denominator": "1"
+    },
+    "upper": {
+      "numerator": "175",
+      "denominator": "1"
+    }
+  },
+  {
+    "branch": 10,
+    "uid": "10",
+    "positive_bus": 6,
+    "negative_bus": 7,
+    "coefficient": {
+      "numerator": "3604956156642623",
+      "denominator": "2199023255552"
+    },
+    "lower": {
+      "numerator": "-175",
+      "denominator": "1"
+    },
+    "upper": {
+      "numerator": "175",
+      "denominator": "1"
+    }
+  },
+  {
+    "branch": 11,
+    "uid": "11",
+    "positive_bus": 7,
+    "negative_bus": 8,
+    "coefficient": {
+      "numerator": "333185341750303",
+      "denominator": "549755813888"
+    },
+    "lower": {
+      "numerator": "-175",
+      "denominator": "1"
+    },
+    "upper": {
+      "numerator": "175",
+      "denominator": "1"
+    }
+  },
+  {
+    "branch": 12,
+    "uid": "12",
+    "positive_bus": 7,
+    "negative_bus": 9,
+    "coefficient": {
+      "numerator": "333185341750303",
+      "denominator": "549755813888"
+    },
+    "lower": {
+      "numerator": "-175",
+      "denominator": "1"
+    },
+    "upper": {
+      "numerator": "175",
+      "denominator": "1"
+    }
+  },
+  {
+    "branch": 13,
+    "uid": "13",
+    "positive_bus": 8,
+    "negative_bus": 10,
+    "coefficient": {
+      "numerator": "2541635755376791",
+      "denominator": "2199023255552"
+    },
+    "lower": {
+      "numerator": "-400",
+      "denominator": "1"
+    },
+    "upper": {
+      "numerator": "400",
+      "denominator": "1"
+    }
+  },
+  {
+    "branch": 14,
+    "uid": "14",
+    "positive_bus": 8,
+    "negative_bus": 11,
+    "coefficient": {
+      "numerator": "2541635755376791",
+      "denominator": "2199023255552"
+    },
+    "lower": {
+      "numerator": "-400",
+      "denominator": "1"
+    },
+    "upper": {
+      "numerator": "400",
+      "denominator": "1"
+    }
+  },
+  {
+    "branch": 15,
+    "uid": "15",
+    "positive_bus": 9,
+    "negative_bus": 10,
+    "coefficient": {
+      "numerator": "5158393749828759",
+      "denominator": "4398046511104"
+    },
+    "lower": {
+      "numerator": "-400",
+      "denominator": "1"
+    },
+    "upper": {
+      "numerator": "400",
+      "denominator": "1"
+    }
+  },
+  {
+    "branch": 16,
+    "uid": "16",
+    "positive_bus": 9,
+    "negative_bus": 11,
+    "coefficient": {
+      "numerator": "5158393749828759",
+      "denominator": "4398046511104"
+    },
+    "lower": {
+      "numerator": "-400",
+      "denominator": "1"
+    },
+    "upper": {
+      "numerator": "400",
+      "denominator": "1"
+    }
+  },
+  {
+    "branch": 17,
+    "uid": "17",
+    "positive_bus": 10,
+    "negative_bus": 12,
+    "coefficient": {
+      "numerator": "4581298449066667",
+      "denominator": "2199023255552"
+    },
+    "lower": {
+      "numerator": "-500",
+      "denominator": "1"
+    },
+    "upper": {
+      "numerator": "500",
+      "denominator": "1"
+    }
+  },
+  {
+    "branch": 18,
+    "uid": "18",
+    "positive_bus": 10,
+    "negative_bus": 13,
+    "coefficient": {
+      "numerator": "2617884828038095",
+      "denominator": "1099511627776"
+    },
+    "lower": {
+      "numerator": "-500",
+      "denominator": "1"
+    },
+    "upper": {
+      "numerator": "500",
+      "denominator": "1"
+    }
+  },
+  {
+    "branch": 19,
+    "uid": "19",
+    "positive_bus": 11,
+    "negative_bus": 12,
+    "coefficient": {
+      "numerator": "4581298449066667",
+      "denominator": "2199023255552"
+    },
+    "lower": {
+      "numerator": "-500",
+      "denominator": "1"
+    },
+    "upper": {
+      "numerator": "500",
+      "denominator": "1"
+    }
+  },
+  {
+    "branch": 20,
+    "uid": "20",
+    "positive_bus": 11,
+    "negative_bus": 22,
+    "coefficient": {
+      "numerator": "4534068568148453",
+      "denominator": "4398046511104"
+    },
+    "lower": {
+      "numerator": "-500",
+      "denominator": "1"
+    },
+    "upper": {
+      "numerator": "500",
+      "denominator": "1"
+    }
+  },
+  {
+    "branch": 21,
+    "uid": "21",
+    "positive_bus": 12,
+    "negative_bus": 22,
+    "coefficient": {
+      "numerator": "631903234354023",
+      "denominator": "549755813888"
+    },
+    "lower": {
+      "numerator": "-500",
+      "denominator": "1"
+    },
+    "upper": {
+      "numerator": "500",
+      "denominator": "1"
+    }
+  },
+  {
+    "branch": 22,
+    "uid": "22",
+    "positive_bus": 13,
+    "negative_bus": 15,
+    "coefficient": {
+      "numerator": "7454316120515255",
+      "denominator": "4398046511104"
+    },
+    "lower": {
+      "numerator": "-500",
+      "denominator": "1"
+    },
+    "upper": {
+      "numerator": "500",
+      "denominator": "1"
+    }
+  },
+  {
+    "branch": 23,
+    "uid": "23",
+    "positive_bus": 14,
+    "negative_bus": 15,
+    "coefficient": {
+      "numerator": "3233857728752941",
+      "denominator": "549755813888"
+    },
+    "lower": {
+      "numerator": "-500",
+      "denominator": "1"
+    },
+    "upper": {
+      "numerator": "500",
+      "denominator": "1"
+    }
+  },
+  {
+    "branch": 24,
+    "uid": "24",
+    "positive_bus": 14,
+    "negative_bus": 20,
+    "coefficient": {
+      "numerator": "1121950640587755",
+      "denominator": "549755813888"
+    },
+    "lower": {
+      "numerator": "-500",
+      "denominator": "1"
+    },
+    "upper": {
+      "numerator": "500",
+      "denominator": "1"
+    }
+  },
+  {
+    "branch": 25,
+    "uid": "25",
+    "positive_bus": 14,
+    "negative_bus": 20,
+    "coefficient": {
+      "numerator": "1121950640587755",
+      "denominator": "549755813888"
+    },
+    "lower": {
+      "numerator": "-500",
+      "denominator": "1"
+    },
+    "upper": {
+      "numerator": "500",
+      "denominator": "1"
+    }
+  },
+  {
+    "branch": 26,
+    "uid": "26",
+    "positive_bus": 14,
+    "negative_bus": 23,
+    "coefficient": {
+      "numerator": "8457781752123077",
+      "denominator": "4398046511104"
+    },
+    "lower": {
+      "numerator": "-500",
+      "denominator": "1"
+    },
+    "upper": {
+      "numerator": "500",
+      "denominator": "1"
+    }
+  },
+  {
+    "branch": 27,
+    "uid": "27",
+    "positive_bus": 15,
+    "negative_bus": 16,
+    "coefficient": {
+      "numerator": "8457781752123077",
+      "denominator": "2199023255552"
+    },
+    "lower": {
+      "numerator": "-500",
+      "denominator": "1"
+    },
+    "upper": {
+      "numerator": "500",
+      "denominator": "1"
+    }
+  },
+  {
+    "branch": 28,
+    "uid": "28",
+    "positive_bus": 15,
+    "negative_bus": 18,
+    "coefficient": {
+      "numerator": "2390242669078261",
+      "denominator": "549755813888"
+    },
+    "lower": {
+      "numerator": "-500",
+      "denominator": "1"
+    },
+    "upper": {
+      "numerator": "500",
+      "denominator": "1"
+    }
+  },
+  {
+    "branch": 29,
+    "uid": "29",
+    "positive_bus": 16,
+    "negative_bus": 17,
+    "coefficient": {
+      "numerator": "3926827242057143",
+      "denominator": "549755813888"
+    },
+    "lower": {
+      "numerator": "-500",
+      "denominator": "1"
+    },
+    "upper": {
+      "numerator": "500",
+      "denominator": "1"
+    }
+  },
+  {
+    "branch": 30,
+    "uid": "30",
+    "positive_bus": 16,
+    "negative_bus": 21,
+    "coefficient": {
+      "numerator": "8377231449721905",
+      "denominator": "8796093022208"
+    },
+    "lower": {
+      "numerator": "-500",
+      "denominator": "1"
+    },
+    "upper": {
+      "numerator": "500",
+      "denominator": "1"
+    }
+  },
+  {
+    "branch": 31,
+    "uid": "31",
+    "positive_bus": 17,
+    "negative_bus": 20,
+    "coefficient": {
+      "numerator": "8457781752123077",
+      "denominator": "2199023255552"
+    },
+    "lower": {
+      "numerator": "-500",
+      "denominator": "1"
+    },
+    "upper": {
+      "numerator": "500",
+      "denominator": "1"
+    }
+  },
+  {
+    "branch": 32,
+    "uid": "32",
+    "positive_bus": 17,
+    "negative_bus": 20,
+    "coefficient": {
+      "numerator": "8457781752123077",
+      "denominator": "2199023255552"
+    },
+    "lower": {
+      "numerator": "-500",
+      "denominator": "1"
+    },
+    "upper": {
+      "numerator": "500",
+      "denominator": "1"
+    }
+  },
+  {
+    "branch": 33,
+    "uid": "33",
+    "positive_bus": 18,
+    "negative_bus": 19,
+    "coefficient": {
+      "numerator": "2500",
+      "denominator": "1"
+    },
+    "lower": {
+      "numerator": "-500",
+      "denominator": "1"
+    },
+    "upper": {
+      "numerator": "500",
+      "denominator": "1"
+    }
+  },
+  {
+    "branch": 34,
+    "uid": "34",
+    "positive_bus": 18,
+    "negative_bus": 19,
+    "coefficient": {
+      "numerator": "2500",
+      "denominator": "1"
+    },
+    "lower": {
+      "numerator": "-500",
+      "denominator": "1"
+    },
+    "upper": {
+      "numerator": "500",
+      "denominator": "1"
+    }
+  },
+  {
+    "branch": 35,
+    "uid": "35",
+    "positive_bus": 19,
+    "negative_bus": 22,
+    "coefficient": {
+      "numerator": "2498890063127273",
+      "denominator": "549755813888"
+    },
+    "lower": {
+      "numerator": "-500",
+      "denominator": "1"
+    },
+    "upper": {
+      "numerator": "500",
+      "denominator": "1"
+    }
+  },
+  {
+    "branch": 36,
+    "uid": "36",
+    "positive_bus": 19,
+    "negative_bus": 22,
+    "coefficient": {
+      "numerator": "2498890063127273",
+      "denominator": "549755813888"
+    },
+    "lower": {
+      "numerator": "-500",
+      "denominator": "1"
+    },
+    "upper": {
+      "numerator": "500",
+      "denominator": "1"
+    }
+  },
+  {
+    "branch": 37,
+    "uid": "37",
+    "positive_bus": 20,
+    "negative_bus": 21,
+    "coefficient": {
+      "numerator": "3233857728752941",
+      "denominator": "2199023255552"
+    },
+    "lower": {
+      "numerator": "-500",
+      "denominator": "1"
+    },
+    "upper": {
+      "numerator": "500",
+      "denominator": "1"
+    }
+  }
+]

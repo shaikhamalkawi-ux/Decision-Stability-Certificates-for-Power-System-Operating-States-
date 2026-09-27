@@ -1,0 +1,12 @@
+{
+  "case": "january_identity",
+  "status": "Optimal",
+  "call_status": "HighsStatus.kOk",
+  "optimizer_calls": 1,
+  "actual_seconds": 2.0324453999928664,
+  "configured_seconds": 60,
+  "soft_overrun": 0.0,
+  "basis_valid": true,
+  "dual_valid": true,
+  "numerical_objective": 22616.830716809385
+}

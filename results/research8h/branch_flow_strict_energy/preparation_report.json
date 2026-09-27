@@ -1,0 +1,19 @@
+{
+  "cases": [
+    "january_identity",
+    "seed_26093200",
+    "seed_26093201"
+  ],
+  "call_order": [
+    "january_identity",
+    "seed_26093200",
+    "seed_26093201",
+    "seed_26093200_proposal",
+    "seed_26093201_proposal"
+  ],
+  "optimizer_calls": 0,
+  "actual_basis_reconstructions": 0,
+  "target_hour_denominator": 336,
+  "elapsed_s": 39.754522500006715,
+  "identity_strict_uncapped": true
+}

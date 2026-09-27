@@ -1,0 +1,7 @@
+# Independent prepared gate for strict flow-model energy
+
+PASS. Root executed one solver-free review, session32631,22.120708800008288seconds. Reviewer sourcef8efe7a937fd5b649e31c895ba50790fb48f09ff3f152fd6e771980527662a0f, reportc041f71f5a5935d3bdae0f3ef979f1eee2a0b21b9e2afb2f124c09d0a668596b. No producer source or optimizer was imported.
+
+All355 frozen bindings and the source/checker/protocol pins matched. All three actual34512-by29400 models equal the closed full parents after deletion of exactly their23195 fossil-cap row; all boxes, original12096 masks, objectives, native inputs, graph/spec and permutations match. Full identity rational coordinates are unchanged, rebound to the new model and checked against every row/box/state; the objective matches its declared upper.
+
+For both predetermined old target schedules, all12096 states match exactly. Every proposal row, coordinate bound and objective matches exact substitution into its full model. All16032 constant rows and168 blocks of110rows/103coordinates are checked, with complete row partitions and exact saved-block coefficients/shifted endpoints. The new native physical-function AST is identical to the closed capped checker except the single cap rule and the explicit uncapped return metadata. The execution marker was absent before and after review; five60-second calls,1800/900 budgets and03:35/04:00 clock gates were intact. Explicit root execution GO followed this PASS, before03:35. This prepared acceptance does not predict solver or reconstruction outcomes.

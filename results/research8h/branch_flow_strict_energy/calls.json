@@ -1,0 +1,62 @@
+[
+  {
+    "case": "january_identity",
+    "status": "Optimal",
+    "call_status": "HighsStatus.kOk",
+    "optimizer_calls": 1,
+    "actual_seconds": 2.0324453999928664,
+    "configured_seconds": 60,
+    "soft_overrun": 0.0,
+    "basis_valid": true,
+    "dual_valid": true,
+    "numerical_objective": 22616.830716809385
+  },
+  {
+    "case": "seed_26093200",
+    "status": "Optimal",
+    "call_status": "HighsStatus.kOk",
+    "optimizer_calls": 1,
+    "actual_seconds": 2.824913699994795,
+    "configured_seconds": 60,
+    "soft_overrun": 0.0,
+    "basis_valid": true,
+    "dual_valid": true,
+    "numerical_objective": 23532.98065407481
+  },
+  {
+    "case": "seed_26093201",
+    "status": "Optimal",
+    "call_status": "HighsStatus.kOk",
+    "optimizer_calls": 1,
+    "actual_seconds": 3.0430321999883745,
+    "configured_seconds": 60,
+    "soft_overrun": 0.0,
+    "basis_valid": true,
+    "dual_valid": true,
+    "numerical_objective": 23824.88149922749
+  },
+  {
+    "case": "seed_26093200_proposal",
+    "status": "Optimal",
+    "call_status": "HighsStatus.kOk",
+    "optimizer_calls": 1,
+    "actual_seconds": 0.8935600999975577,
+    "configured_seconds": 60,
+    "soft_overrun": 0.0,
+    "basis_valid": true,
+    "dual_valid": true,
+    "numerical_objective": 23952.175430556716
+  },
+  {
+    "case": "seed_26093201_proposal",
+    "status": "Optimal",
+    "call_status": "HighsStatus.kOk",
+    "optimizer_calls": 1,
+    "actual_seconds": 0.9209716000186745,
+    "configured_seconds": 60,
+    "soft_overrun": 0.0,
+    "basis_valid": true,
+    "dual_valid": true,
+    "numerical_objective": 24024.79898355672
+  }
+]

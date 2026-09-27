@@ -1,0 +1,33 @@
+{
+  "case": "seed_26093201",
+  "selected": {
+    "candidate": "+1_projected",
+    "lower_bound": {
+      "numerator": "292092197273756692373268348894321437063628915265588611572697",
+      "denominator": "12259964326927110866866776217202473468949912977468817408"
+    }
+  },
+  "candidates": [
+    {
+      "candidate": "zero",
+      "valid": true
+    },
+    {
+      "candidate": "+1_raw",
+      "valid": false
+    },
+    {
+      "candidate": "+1_projected",
+      "valid": true
+    },
+    {
+      "candidate": "-1_raw",
+      "valid": false
+    },
+    {
+      "candidate": "-1_projected",
+      "valid": true
+    }
+  ],
+  "tau": 0
+}

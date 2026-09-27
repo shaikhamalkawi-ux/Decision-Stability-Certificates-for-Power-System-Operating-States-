@@ -1,0 +1,33 @@
+{
+  "case": "january_identity",
+  "selected": {
+    "candidate": "+1_projected",
+    "lower_bound": {
+      "numerator": "554563075552401394113070482116538526728948385130110459520097",
+      "denominator": "24519928653854221733733552434404946937899825954937634816"
+    }
+  },
+  "candidates": [
+    {
+      "candidate": "zero",
+      "valid": true
+    },
+    {
+      "candidate": "+1_raw",
+      "valid": false
+    },
+    {
+      "candidate": "+1_projected",
+      "valid": true
+    },
+    {
+      "candidate": "-1_raw",
+      "valid": false
+    },
+    {
+      "candidate": "-1_projected",
+      "valid": true
+    }
+  ],
+  "tau": 0
+}
