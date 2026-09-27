@@ -1,0 +1,20 @@
+{
+  "utc": "2026-09-27T01:24:32.459829+00:00",
+  "source_sha256": "3c9d03015a23a277c0f4642be696843d17f2540bac2a2116247e11e0d80f8041",
+  "protocol_sha256": "eafa85dba6f772668a263f19f37eac086915cb1d6d599fabdc91ebac097ff0d2",
+  "manifest_sha256": "1d3c54426828dcca5684ca21d6f1af95f2c05cfc87631423ae939a354c867119",
+  "bindings": 155,
+  "schedule": [
+    "seed_26093200__two_cc",
+    "seed_26093200__locality48",
+    "seed_26093201__two_cc",
+    "seed_26093201__locality48"
+  ],
+  "maximum_LP_calls": 4,
+  "LP_seconds": 30.0,
+  "phase_seconds": 300.0,
+  "actual_call_guard_seconds": 35.0,
+  "last_start_deadline": "2026-09-27T04:00:00+00:00",
+  "optimizer_calls": 0,
+  "requires_independent_prepared_PASS_and_root_execution_GO": true
+}

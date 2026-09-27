@@ -1,0 +1,27 @@
+{
+  "status": "CERTIFIED_EXPANDED_ONLY_POINT",
+  "strict_pass": false,
+  "expanded_pass": true,
+  "original_binary_coordinates_exact": true,
+  "binary_coordinates": 0,
+  "tau": {
+    "numerator": "5902958103587057",
+    "denominator": "590295810358705651712",
+    "float": 1e-05
+  },
+  "maximum_column_violation": {
+    "numerator": "0",
+    "denominator": "1",
+    "float": 0.0
+  },
+  "worst_column": null,
+  "maximum_row_violation": {
+    "numerator": "6386793977371559373",
+    "denominator": "1267650600228229401496703205376",
+    "float": 5.038292078449434e-12
+  },
+  "worst_row": {
+    "row": 27209,
+    "side": "upper"
+  }
+}

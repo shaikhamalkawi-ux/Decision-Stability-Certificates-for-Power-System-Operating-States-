@@ -1,0 +1,7 @@
+# Gonzato primary-body access addendum
+
+On 27 September 2026, the [project-hosted paper](https://www.epocbelgium.be/sites/epoc/files/2.2.5.2%20Gonzato%2C%20Bruninx%2C%20Delarue_2021_Long_Term_Storage_In_Generation_Expansion_Planning_Models_with_a_Reduced_Temporal_Scope.pdf) was retrieved successfully through ordinary public access. Its title page identifies Gonzato, Bruninx and Delarue, Applied Energy 298 (2021), 117168; [DOI](https://doi.org/10.1016/j.apenergy.2021.117168). SHA256: 8bf85bf00f8666c87916dfe3a06fefdf453b73146f2d0bdea7f260cd2625700e. The PDF remains private reading material, excluded from delivery.
+
+Directly read: Sections 4.1–4.2 and equation 42 on printed page 8, also visually inspected; Sections 6.2–7.1 through extracted body text. This updates the earlier indexed-excerpts-only access note, without claiming a complete line-by-line reading.
+
+The earlier interpretation stands: their full-horizon optimization on constructed time series separates aggregation-input effects from reduced-model effects. Equation 42 forms those series through ordering weights on representative periods. Their discussion cautions about system-specific sensitivity. Thus our controlled downstream comparison is not a newly invented evaluation principle. Our narrower recorded distinction remains exact clock-conditioned joint-package collisions, common-cap UC verdicts and independently checkable enclosures. Priority for that combination remains unresolved.

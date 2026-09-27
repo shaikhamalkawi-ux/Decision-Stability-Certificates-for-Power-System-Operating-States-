@@ -1,0 +1,253 @@
+{
+  "status": "INDEPENDENT_PREPARED_SUBSET_GATE_PASS",
+  "source_sha256": "3c9d03015a23a277c0f4642be696843d17f2540bac2a2116247e11e0d80f8041",
+  "protocol_sha256": "eafa85dba6f772668a263f19f37eac086915cb1d6d599fabdc91ebac097ff0d2",
+  "manifest_sha256": "1d3c54426828dcca5684ca21d6f1af95f2c05cfc87631423ae939a354c867119",
+  "frozen_files": 155,
+  "old_manifest_files": 106,
+  "HOD_manifest_files": 125,
+  "prepared_models": [
+    {
+      "case": "seed_26093200",
+      "rule": "two_cc",
+      "rows": 19985,
+      "columns": 23016,
+      "identical_old_file_pairs": 6,
+      "all_actual_rows_bounds_labels_and_masks_match": true,
+      "counts": {
+        "aggregate_balance": 168,
+        "thermal_upper": 4032,
+        "thermal_lower": 4032,
+        "transition": 334,
+        "exclusive_transition": 334,
+        "minimum_up": 334,
+        "minimum_down": 334,
+        "fossil_energy_cap": 1,
+        "nodal_balance": 4032,
+        "branch_flow": 6384
+      },
+      "cap_row": 9568,
+      "cap_terms": 3864
+    },
+    {
+      "case": "seed_26093200",
+      "rule": "locality48",
+      "rows": 28689,
+      "columns": 23016,
+      "identical_old_file_pairs": 6,
+      "all_actual_rows_bounds_labels_and_masks_match": true,
+      "counts": {
+        "aggregate_balance": 168,
+        "thermal_upper": 4032,
+        "thermal_lower": 4032,
+        "transition": 4008,
+        "exclusive_transition": 4008,
+        "minimum_up": 1023,
+        "minimum_down": 1001,
+        "fossil_energy_cap": 1,
+        "nodal_balance": 4032,
+        "branch_flow": 6384
+      },
+      "cap_row": 18272,
+      "cap_terms": 3864
+    },
+    {
+      "case": "seed_26093201",
+      "rule": "two_cc",
+      "rows": 19985,
+      "columns": 23016,
+      "identical_old_file_pairs": 6,
+      "all_actual_rows_bounds_labels_and_masks_match": true,
+      "counts": {
+        "aggregate_balance": 168,
+        "thermal_upper": 4032,
+        "thermal_lower": 4032,
+        "transition": 334,
+        "exclusive_transition": 334,
+        "minimum_up": 334,
+        "minimum_down": 334,
+        "fossil_energy_cap": 1,
+        "nodal_balance": 4032,
+        "branch_flow": 6384
+      },
+      "cap_row": 9568,
+      "cap_terms": 3864
+    },
+    {
+      "case": "seed_26093201",
+      "rule": "locality48",
+      "rows": 28689,
+      "columns": 23016,
+      "identical_old_file_pairs": 6,
+      "all_actual_rows_bounds_labels_and_masks_match": true,
+      "counts": {
+        "aggregate_balance": 168,
+        "thermal_upper": 4032,
+        "thermal_lower": 4032,
+        "transition": 4008,
+        "exclusive_transition": 4008,
+        "minimum_up": 1023,
+        "minimum_down": 1001,
+        "fossil_energy_cap": 1,
+        "nodal_balance": 4032,
+        "branch_flow": 6384
+      },
+      "cap_row": 18272,
+      "cap_terms": 3864
+    }
+  ],
+  "positive_control_rule_checks": [
+    {
+      "case": "january_identity",
+      "rule": "two_cc",
+      "retained_rows": 19985,
+      "original_full_point": {
+        "status": "CERTIFIED_EXPANDED_ONLY_POINT",
+        "strict_pass": false,
+        "expanded_pass": true,
+        "original_binary_coordinates_exact": true,
+        "binary_coordinates": 12096,
+        "tau": {
+          "numerator": "5902958103587057",
+          "denominator": "590295810358705651712",
+          "float": 1e-05
+        },
+        "maximum_column_violation": {
+          "numerator": "12133",
+          "denominator": "562949953421312",
+          "float": 2.155253753244324e-11
+        },
+        "worst_column": {
+          "column": 4920,
+          "side": "lower"
+        },
+        "maximum_row_violation": {
+          "numerator": "8080919107015283899",
+          "denominator": "316912650057057350374175801344",
+          "float": 2.5498884647111388e-11
+        },
+        "worst_row": {
+          "row": 30909,
+          "side": "lower"
+        }
+      },
+      "exact_subset_membership_follows_from_checked_row_deletion": true
+    },
+    {
+      "case": "january_identity",
+      "rule": "locality48",
+      "retained_rows": 28689,
+      "original_full_point": {
+        "status": "CERTIFIED_EXPANDED_ONLY_POINT",
+        "strict_pass": false,
+        "expanded_pass": true,
+        "original_binary_coordinates_exact": true,
+        "binary_coordinates": 12096,
+        "tau": {
+          "numerator": "5902958103587057",
+          "denominator": "590295810358705651712",
+          "float": 1e-05
+        },
+        "maximum_column_violation": {
+          "numerator": "12133",
+          "denominator": "562949953421312",
+          "float": 2.155253753244324e-11
+        },
+        "worst_column": {
+          "column": 4920,
+          "side": "lower"
+        },
+        "maximum_row_violation": {
+          "numerator": "8080919107015283899",
+          "denominator": "316912650057057350374175801344",
+          "float": 2.5498884647111388e-11
+        },
+        "worst_row": {
+          "row": 30909,
+          "side": "lower"
+        }
+      },
+      "exact_subset_membership_follows_from_checked_row_deletion": true
+    },
+    {
+      "case": "seed_26100200",
+      "rule": "two_cc",
+      "retained_rows": 19985,
+      "original_full_point": {
+        "status": "CERTIFIED_EXPANDED_ONLY_POINT",
+        "strict_pass": false,
+        "expanded_pass": true,
+        "original_binary_coordinates_exact": true,
+        "binary_coordinates": 12096,
+        "tau": {
+          "numerator": "5902958103587057",
+          "denominator": "590295810358705651712",
+          "float": 1e-05
+        },
+        "maximum_column_violation": {
+          "numerator": "12133",
+          "denominator": "562949953421312",
+          "float": 2.155253753244324e-11
+        },
+        "worst_column": {
+          "column": 4920,
+          "side": "lower"
+        },
+        "maximum_row_violation": {
+          "numerator": "8080919107015283899",
+          "denominator": "316912650057057350374175801344",
+          "float": 2.5498884647111388e-11
+        },
+        "worst_row": {
+          "row": 27933,
+          "side": "lower"
+        }
+      },
+      "exact_subset_membership_follows_from_checked_row_deletion": true
+    },
+    {
+      "case": "seed_26100200",
+      "rule": "locality48",
+      "retained_rows": 28689,
+      "original_full_point": {
+        "status": "CERTIFIED_EXPANDED_ONLY_POINT",
+        "strict_pass": false,
+        "expanded_pass": true,
+        "original_binary_coordinates_exact": true,
+        "binary_coordinates": 12096,
+        "tau": {
+          "numerator": "5902958103587057",
+          "denominator": "590295810358705651712",
+          "float": 1e-05
+        },
+        "maximum_column_violation": {
+          "numerator": "12133",
+          "denominator": "562949953421312",
+          "float": 2.155253753244324e-11
+        },
+        "worst_column": {
+          "column": 4920,
+          "side": "lower"
+        },
+        "maximum_row_violation": {
+          "numerator": "8080919107015283899",
+          "denominator": "316912650057057350374175801344",
+          "float": 2.5498884647111388e-11
+        },
+        "worst_row": {
+          "row": 27933,
+          "side": "lower"
+        }
+      },
+      "exact_subset_membership_follows_from_checked_row_deletion": true
+    }
+  ],
+  "full_binary_point_replays": 2,
+  "execution_marker_absent": true,
+  "all_frozen_hashes_unchanged": true,
+  "producer_imports": false,
+  "optimizer_imports": false,
+  "optimization_calls": 0,
+  "independent_source_sha256": "7fe7d4d04e41d655f97f435a3da484a98eeb368349523696609d863e4c49151d",
+  "exact_kernel_sha256": "708c3843425eea494a0561e83a275f7059f22bcd546a036705323d056bcf906f"
+}

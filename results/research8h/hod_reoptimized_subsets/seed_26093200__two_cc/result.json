@@ -1,0 +1,34 @@
+{
+  "id": "seed_26093200__two_cc",
+  "case": "seed_26093200",
+  "rule": "two_cc",
+  "verdict": "VERIFIED_EXPANDED_CONTINUOUS_POINT",
+  "optimization_calls": 1,
+  "elapsed_s": 0.3505886000057217,
+  "options": {
+    "time_limit": 30.0,
+    "threads": 1,
+    "random_seed": 0,
+    "solver": "simplex",
+    "presolve": "off",
+    "log_to_console": false,
+    "log_file": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\hod_reoptimized_subsets\\seed_26093200__two_cc\\solver.log"
+  },
+  "original_binary_model_not_solved": true,
+  "actual_call_recheck": {
+    "utc": "2026-09-27T01:26:08.787764+00:00",
+    "phase_remaining_s": 299.2788279999804,
+    "cutoff_remaining_s": 9231.212236,
+    "guard_s": 35.0,
+    "admitted": true
+  },
+  "started_utc": "2026-09-27T01:26:08.787764+00:00",
+  "ended_utc": "2026-09-27T01:26:09.138662+00:00",
+  "run_status": "HighsStatus.kOk",
+  "model_status": "Optimal",
+  "solver_version": "1.12.0",
+  "soft_limit_overrun_s": 0.0,
+  "solution_value_valid": true,
+  "exact_expanded_continuous_pass": true,
+  "exact_strict_continuous_pass": false
+}

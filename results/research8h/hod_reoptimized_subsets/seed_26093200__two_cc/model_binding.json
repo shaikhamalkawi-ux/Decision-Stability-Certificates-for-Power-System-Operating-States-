@@ -1,0 +1,25 @@
+{
+  "id": "seed_26093200__two_cc",
+  "case": "seed_26093200",
+  "rule": "two_cc",
+  "source_directory": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\hod_fixed_ray_transfer\\models\\seed_26093200\\two_cc",
+  "rows": 19985,
+  "columns": 23016,
+  "retained_family_counts": {
+    "aggregate_balance": 168,
+    "thermal_upper": 4032,
+    "thermal_lower": 4032,
+    "transition": 334,
+    "exclusive_transition": 334,
+    "minimum_up": 334,
+    "minimum_down": 334,
+    "fossil_energy_cap": 1,
+    "nodal_balance": 4032,
+    "branch_flow": 6384
+  },
+  "cap_row": 9568,
+  "full_static_background_retained": true,
+  "all_column_bounds_unchanged": true,
+  "original_binary_columns": 12096,
+  "continuous_LP_mask_only": true
+}
