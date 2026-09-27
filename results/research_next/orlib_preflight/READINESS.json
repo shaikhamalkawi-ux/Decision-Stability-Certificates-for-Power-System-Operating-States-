@@ -1,0 +1,74 @@
+{
+  "schema": "orlib-source-readiness-v1",
+  "date_utc": "2026-09-27",
+  "status": "SOURCE_ONLY_READY_FOR_ROOT_REVIEW_NO_SCIENTIFIC_PREPARATION",
+  "adapter": {
+    "path": "src/researchnext_orlib_uc.py",
+    "bytes": 31747,
+    "sha256": "0578a2a6db012247fe34bd15da0adbe94cc1658fa1114b99898a4001d0c5dc72"
+  },
+  "protocol": {
+    "path": "docs/research_next/ORLIB_TRANSFER_PROTOCOL.md",
+    "bytes": 14932,
+    "sha256": "970ecb10f35412e9ffd6814ca39a815bdef72a58a3dc8eda1a28e359511e46b0"
+  },
+  "preflight": {
+    "memo_sha256": "e99d74e363aeadae4a934a38d5f412654a0298f77b01175fe9618bc53479de00",
+    "sources_json_sha256": "95dccf0bc3d400bb9b5485460432b192c2366bbff6e138d0336de7755993e6c6"
+  },
+  "producer_synthetic_checks": [
+    {
+      "path": "results/research_next/orlib_preflight/synthetic_checks01.json",
+      "sha256": "b6807274c1414e0b8113ddd54c96fbb2a5fad22476b0380c56bdd78404058ccd",
+      "tested_source_sha256": "15244839411c5b11409ffaa51883277493ac5a101d25473c64fdb6dd7e1513ab",
+      "status": "PASS_SYNTHETIC_ONLY",
+      "checks": 8,
+      "tool_process_exit": 0,
+      "scope": "Handwritten4hour1unit fixture; no selected ORLIB input or target orders loaded"
+    },
+    {
+      "path": "results/research_next/orlib_preflight/synthetic_checks02.json",
+      "sha256": "ccde28fb883c51063ad61eb6494c70d9ba3cfdc52885eb124ddb2954d63d9d87",
+      "tested_source_sha256": "0578a2a6db012247fe34bd15da0adbe94cc1658fa1114b99898a4001d0c5dc72",
+      "status": "PASS_SYNTHETIC_ONLY",
+      "checks": 9,
+      "tool_process_exit": 0,
+      "reason_for_second_source_test": "Added reporting-only regression: canonical PWL diagnostic is null outside nominal domain; no clipping or extrapolation",
+      "scope": "Handwritten4hour1unit fixture only; no scientific model/permutation or solver"
+    }
+  ],
+  "returned_child_review": {
+    "reviewer_agent_path": "/root/find_deposit/gb_docs",
+    "coordination": "Existing delegated child reactivated with followup_task; actual FINAL_ANSWER returned to producer",
+    "kind": "Agent-reported independent read-only source review; not an independent execution or replication",
+    "initial_reviewed_source_sha256": "15244839411c5b11409ffaa51883277493ac5a101d25473c64fdb6dd7e1513ab",
+    "initial_reviewed_protocol_sha256": "fa13515ac8eb8c6a5376cc675071754830361012613bb9152424c540d5fac01b",
+    "returned_verdict": "PASS for the reviewed model and checker logic. No execution or edits performed.",
+    "confirmed_scope": [
+      "Selected schema and source feature mapping",
+      "All960 native binary coordinates retained",
+      "Initial state, above-minimum ramp, dwell, segment and startup objective equations",
+      "Nominally implied finite boxes and unused mfg lift",
+      "Matrix and independent direct-checker logic",
+      "Fixed reverse and rotate orders without scientific generation"
+    ],
+    "reviewer_correction_retained": "Reviewer initially conflated mfg with the following free flexiramp variable. Exact pinned unit.jl10792B/SHAfdfff2b655cef6bfa9fcd7f17a78e5636e5c9c3c41f179b9fe6774d44da4158b line106 confirms mfg lower_bound=0; finding was withdrawn and existing source was unchanged.",
+    "reporting_delta_review": "Requested separately; no final delta verdict assumed in this receipt"
+  },
+  "root_gate": "Final adapter/protocol full-read pending; no scientific preparation authorized by this receipt",
+  "deferred_other_review": "Root-assigned temporal_checker said its ORLIB review had not started and was deferred to prioritize a separate HOD task; no review is attributed to it",
+  "execution_accounting": {
+    "scientific_models_exported": 0,
+    "scientific_permutations_generated": 0,
+    "optimizer_calls": 0,
+    "new_environments_or_packages_installed": 0,
+    "synthetic_source_test_executions": 2
+  },
+  "next_step": "Root reviews immutable adapter/protocol. A separate solver harness/protocol amendment is source-only work, not permission to prepare or optimize. Scientific preparation requires a separate explicit gate.",
+  "limits": [
+    "No runtime JuMP export identity test",
+    "No original Pisa conversion equivalence proof",
+    "Synthetic one-bus Phi0 pilot only; no HOD/network/fossil-energy replication",
+    "All numerical proofs would apply to the explicitly encoded model and declared expansion"
+  ]
+}

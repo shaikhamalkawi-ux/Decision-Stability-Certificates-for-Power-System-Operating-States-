@@ -1,0 +1,64 @@
+{
+  "matrix": {
+    "accepted": true,
+    "tau": {
+      "numerator": "5902958103587057",
+      "denominator": "590295810358705651712",
+      "approximate": 1e-05
+    },
+    "nominal_max_violation": {
+      "numerator": "6303997745770301",
+      "denominator": "2475880078570760549798248448",
+      "approximate": 2.5461644125386637e-12
+    },
+    "exact_objective": {
+      "numerator": "22185862454413392909444665250935403891325187824675",
+      "denominator": "11150372599265311570767859136324180752990208",
+      "approximate": 1989696.9591738307
+    },
+    "failures": []
+  },
+  "direct": {
+    "accepted": true,
+    "tau": {
+      "numerator": "5902958103587057",
+      "denominator": "590295810358705651712",
+      "approximate": 1e-05
+    },
+    "nominal_max_violation": {
+      "numerator": "6303997745770301",
+      "denominator": "2475880078570760549798248448",
+      "approximate": 2.5461644125386637e-12
+    },
+    "exact_saved_segment_objective": {
+      "numerator": "22185862454413392909444665250935403891325187824675",
+      "denominator": "11150372599265311570767859136324180752990208",
+      "approximate": 1989696.9591738307
+    },
+    "canonical_greedy_cost_diagnostic": null,
+    "canonical_domain_failures": [
+      "outside_nominal_PWL_domain:g0:2",
+      "outside_nominal_PWL_domain:g0:3",
+      "outside_nominal_PWL_domain:g0:8",
+      "outside_nominal_PWL_domain:g1:4",
+      "outside_nominal_PWL_domain:g1:5",
+      "outside_nominal_PWL_domain:g1:6",
+      "outside_nominal_PWL_domain:g1:11",
+      "outside_nominal_PWL_domain:g1:18",
+      "outside_nominal_PWL_domain:g3:5",
+      "outside_nominal_PWL_domain:g3:7",
+      "outside_nominal_PWL_domain:g3:8",
+      "outside_nominal_PWL_domain:g4:3",
+      "outside_nominal_PWL_domain:g4:4",
+      "outside_nominal_PWL_domain:g4:5",
+      "outside_nominal_PWL_domain:g4:6",
+      "outside_nominal_PWL_domain:g4:7",
+      "outside_nominal_PWL_domain:g5:3",
+      "outside_nominal_PWL_domain:g7:5"
+    ],
+    "canonical_cost_is_not_substituted_for_saved_objective": true,
+    "failures": []
+  },
+  "all_binary_columns_snapped": 960,
+  "continuous_bytes_preserved": true
+}

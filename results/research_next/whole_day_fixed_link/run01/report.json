@@ -1,0 +1,3315 @@
+{
+  "status": "PASS_SAVED_EVIDENCE_LINK",
+  "utc": "2026-09-27T07:55:31.872209+00:00",
+  "historical_git_commit": "d0c4be05899b70797902f191f0062ac898ea7137",
+  "historical_git_verified_files": [
+    "results/research8h/day_fixed_identity/independent_review.json",
+    "docs/research8h/DAY_FIXED_IDENTITY_PROTOCOL.md",
+    "src/research8h_day_fixed_identity.py",
+    "results/research8h/day_fixed_identity/identity_control.json",
+    "results/research8h/day_fixed_identity/input_manifest.json",
+    "results/research8h/day_fixed_identity/identity_state_anchor.npz",
+    "results/research8h/day_fixed_identity/prepared_cases.json",
+    "results/research8h/day_fixed_identity/days_132/model_binding.json",
+    "results/research8h/day_fixed_identity/days_132/fixed_schedule_certificate.json",
+    "results/research8h/day_fixed_identity/days_213/model_binding.json",
+    "results/research8h/day_fixed_identity/days_213/fixed_schedule_certificate.json",
+    "results/research8h/day_fixed_identity/days_231/model_binding.json",
+    "results/research8h/day_fixed_identity/days_231/fixed_schedule_certificate.json",
+    "results/research8h/day_fixed_identity/days_312/model_binding.json",
+    "results/research8h/day_fixed_identity/days_312/fixed_schedule_certificate.json",
+    "results/research8h/day_fixed_identity/days_321/model_binding.json",
+    "results/research8h/day_fixed_identity/days_321/fixed_schedule_certificate.json"
+  ],
+  "identity_model_bridge": [
+    {
+      "file": "matrix.npz",
+      "old": "results/research8h/seasonal_transfer/january_identity/matrix.npz",
+      "observer": "results/research8h/hour_of_day/january_identity/matrix.npz",
+      "comparison": "identical_file_bytes",
+      "compared_sha256": "2f11940f72432a2a2e89e4a88115eba3cf24a8e82a8110e250c6191020c1f0bb"
+    },
+    {
+      "file": "bounds.npz",
+      "old": "results/research8h/seasonal_transfer/january_identity/bounds.npz",
+      "observer": "results/research8h/hour_of_day/january_identity/bounds.npz",
+      "comparison": "identical_file_bytes",
+      "compared_sha256": "44ddedc6dd4b06028b9c7d10180cac4889dd51658a560d49f66ef8f3e31ab2d2"
+    },
+    {
+      "file": "integrality.npz",
+      "old": "results/research8h/seasonal_transfer/january_identity/integrality.npz",
+      "observer": "results/research8h/hour_of_day/january_identity/integrality.npz",
+      "comparison": "identical_file_bytes",
+      "compared_sha256": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d"
+    },
+    {
+      "file": "native_inputs.npz",
+      "old": "results/research8h/seasonal_transfer/january_identity/native_inputs.npz",
+      "observer": "results/research8h/hour_of_day/january_identity/native_inputs.npz",
+      "comparison": "identical_file_bytes",
+      "compared_sha256": "5f917f58e4fd50ae1e0d9198fd84e81f57adb1f24b530d1ed5bb71d99714a960"
+    },
+    {
+      "file": "model_metadata.json",
+      "old": "results/research8h/seasonal_transfer/january_identity/model_metadata.json",
+      "observer": "results/research8h/hour_of_day/january_identity/model_metadata.json",
+      "comparison": "identical_file_bytes",
+      "compared_sha256": "1d8281f53cc1c08f73d1fdc8d66a7825d2f34377ba933c13d0e5e0be8b223fa4"
+    },
+    {
+      "file": "row_metadata.csv.gz",
+      "old": "results/research8h/seasonal_transfer/january_identity/row_metadata.csv.gz",
+      "observer": "results/research8h/hour_of_day/january_identity/row_metadata.csv.gz",
+      "comparison": "identical_decompressed_bytes",
+      "compared_sha256": "3ad655455ebcd8ef54f59232309937594bd5bed429726373a80794f1e79f333f"
+    }
+  ],
+  "denominator": 5,
+  "rows": [
+    {
+      "case": "week_1_days_132",
+      "day_order": [
+        1,
+        3,
+        2
+      ],
+      "link": "PASS_SAVED_EVIDENCE_LINK",
+      "primary_observation": "DIFFERENT",
+      "primary_plus_full_hindex": "DIFFERENT",
+      "actual_native_hours_changed": 48,
+      "identity_fixed_commitment_predicate": true,
+      "target_fixed_commitment_predicate": false,
+      "historical_robust_gap": {
+        "numerator": "789892519055264043712414127872181087409",
+        "denominator": "1329227995784915872903807060280344576",
+        "approximate": 594.2490840999993
+      },
+      "selected_certificate_rows": [
+        {
+          "row": "4",
+          "family": "aggregate_balance",
+          "hour_0based": "4",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "5",
+          "family": "aggregate_balance",
+          "hour_0based": "5",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "6",
+          "family": "aggregate_balance",
+          "hour_0based": "6",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "7",
+          "family": "aggregate_balance",
+          "hour_0based": "7",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "8",
+          "family": "aggregate_balance",
+          "hour_0based": "8",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "9",
+          "family": "aggregate_balance",
+          "hour_0based": "9",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "10",
+          "family": "aggregate_balance",
+          "hour_0based": "10",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "11",
+          "family": "aggregate_balance",
+          "hour_0based": "11",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "12",
+          "family": "aggregate_balance",
+          "hour_0based": "12",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "13",
+          "family": "aggregate_balance",
+          "hour_0based": "13",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "14",
+          "family": "aggregate_balance",
+          "hour_0based": "14",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "15",
+          "family": "aggregate_balance",
+          "hour_0based": "15",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "16",
+          "family": "aggregate_balance",
+          "hour_0based": "16",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "17",
+          "family": "aggregate_balance",
+          "hour_0based": "17",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "18",
+          "family": "aggregate_balance",
+          "hour_0based": "18",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "19",
+          "family": "aggregate_balance",
+          "hour_0based": "19",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "20",
+          "family": "aggregate_balance",
+          "hour_0based": "20",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "21",
+          "family": "aggregate_balance",
+          "hour_0based": "21",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "22",
+          "family": "aggregate_balance",
+          "hour_0based": "22",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "28",
+          "family": "aggregate_balance",
+          "hour_0based": "28",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "29",
+          "family": "aggregate_balance",
+          "hour_0based": "29",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "30",
+          "family": "aggregate_balance",
+          "hour_0based": "30",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "40",
+          "family": "aggregate_balance",
+          "hour_0based": "40",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "41",
+          "family": "aggregate_balance",
+          "hour_0based": "41",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "42",
+          "family": "aggregate_balance",
+          "hour_0based": "42",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "43",
+          "family": "aggregate_balance",
+          "hour_0based": "43",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "44",
+          "family": "aggregate_balance",
+          "hour_0based": "44",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "53",
+          "family": "aggregate_balance",
+          "hour_0based": "53",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "54",
+          "family": "aggregate_balance",
+          "hour_0based": "54",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "63",
+          "family": "aggregate_balance",
+          "hour_0based": "63",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "64",
+          "family": "aggregate_balance",
+          "hour_0based": "64",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "65",
+          "family": "aggregate_balance",
+          "hour_0based": "65",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "66",
+          "family": "aggregate_balance",
+          "hour_0based": "66",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "67",
+          "family": "aggregate_balance",
+          "hour_0based": "67",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "68",
+          "family": "aggregate_balance",
+          "hour_0based": "68",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "69",
+          "family": "aggregate_balance",
+          "hour_0based": "69",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "70",
+          "family": "aggregate_balance",
+          "hour_0based": "70",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "71",
+          "family": "aggregate_balance",
+          "hour_0based": "71",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "87",
+          "family": "aggregate_balance",
+          "hour_0based": "87",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "88",
+          "family": "aggregate_balance",
+          "hour_0based": "88",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "89",
+          "family": "aggregate_balance",
+          "hour_0based": "89",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "90",
+          "family": "aggregate_balance",
+          "hour_0based": "90",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "91",
+          "family": "aggregate_balance",
+          "hour_0based": "91",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "92",
+          "family": "aggregate_balance",
+          "hour_0based": "92",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "93",
+          "family": "aggregate_balance",
+          "hour_0based": "93",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "94",
+          "family": "aggregate_balance",
+          "hour_0based": "94",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "96",
+          "family": "aggregate_balance",
+          "hour_0based": "96",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "97",
+          "family": "aggregate_balance",
+          "hour_0based": "97",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "98",
+          "family": "aggregate_balance",
+          "hour_0based": "98",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "99",
+          "family": "aggregate_balance",
+          "hour_0based": "99",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "100",
+          "family": "aggregate_balance",
+          "hour_0based": "100",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "101",
+          "family": "aggregate_balance",
+          "hour_0based": "101",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "102",
+          "family": "aggregate_balance",
+          "hour_0based": "102",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000003p+0"
+        },
+        {
+          "row": "103",
+          "family": "aggregate_balance",
+          "hour_0based": "103",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "104",
+          "family": "aggregate_balance",
+          "hour_0based": "104",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "105",
+          "family": "aggregate_balance",
+          "hour_0based": "105",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "106",
+          "family": "aggregate_balance",
+          "hour_0based": "106",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "107",
+          "family": "aggregate_balance",
+          "hour_0based": "107",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "108",
+          "family": "aggregate_balance",
+          "hour_0based": "108",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "109",
+          "family": "aggregate_balance",
+          "hour_0based": "109",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "111",
+          "family": "aggregate_balance",
+          "hour_0based": "111",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "112",
+          "family": "aggregate_balance",
+          "hour_0based": "112",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "113",
+          "family": "aggregate_balance",
+          "hour_0based": "113",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "114",
+          "family": "aggregate_balance",
+          "hour_0based": "114",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "115",
+          "family": "aggregate_balance",
+          "hour_0based": "115",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "116",
+          "family": "aggregate_balance",
+          "hour_0based": "116",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "124",
+          "family": "aggregate_balance",
+          "hour_0based": "124",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "125",
+          "family": "aggregate_balance",
+          "hour_0based": "125",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "126",
+          "family": "aggregate_balance",
+          "hour_0based": "126",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "136",
+          "family": "aggregate_balance",
+          "hour_0based": "136",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "137",
+          "family": "aggregate_balance",
+          "hour_0based": "137",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "138",
+          "family": "aggregate_balance",
+          "hour_0based": "138",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "139",
+          "family": "aggregate_balance",
+          "hour_0based": "139",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "148",
+          "family": "aggregate_balance",
+          "hour_0based": "148",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "149",
+          "family": "aggregate_balance",
+          "hour_0based": "149",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "150",
+          "family": "aggregate_balance",
+          "hour_0based": "150",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "161",
+          "family": "aggregate_balance",
+          "hour_0based": "161",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "162",
+          "family": "aggregate_balance",
+          "hour_0based": "162",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "163",
+          "family": "aggregate_balance",
+          "hour_0based": "163",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "164",
+          "family": "aggregate_balance",
+          "hour_0based": "164",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "17665",
+          "family": "thermal_lower",
+          "hour_0based": "72",
+          "uid": "118_CC_1",
+          "multiplier_hex": "-0x1.0000000000000p+0"
+        },
+        {
+          "row": "17671",
+          "family": "thermal_lower",
+          "hour_0based": "73",
+          "uid": "118_CC_1",
+          "multiplier_hex": "-0x1.0000000000000p+0"
+        },
+        {
+          "row": "17677",
+          "family": "thermal_lower",
+          "hour_0based": "74",
+          "uid": "118_CC_1",
+          "multiplier_hex": "-0x1.0000000000000p+0"
+        },
+        {
+          "row": "17683",
+          "family": "thermal_lower",
+          "hour_0based": "75",
+          "uid": "118_CC_1",
+          "multiplier_hex": "-0x1.0000000000000p+0"
+        },
+        {
+          "row": "17689",
+          "family": "thermal_lower",
+          "hour_0based": "76",
+          "uid": "118_CC_1",
+          "multiplier_hex": "-0x1.0000000000000p+0"
+        },
+        {
+          "row": "17695",
+          "family": "thermal_lower",
+          "hour_0based": "77",
+          "uid": "118_CC_1",
+          "multiplier_hex": "-0x1.0000000000000p+0"
+        },
+        {
+          "row": "17701",
+          "family": "thermal_lower",
+          "hour_0based": "78",
+          "uid": "118_CC_1",
+          "multiplier_hex": "-0x1.0000000000000p+0"
+        },
+        {
+          "row": "17707",
+          "family": "thermal_lower",
+          "hour_0based": "79",
+          "uid": "118_CC_1",
+          "multiplier_hex": "-0x1.0000000000000p+0"
+        },
+        {
+          "row": "17713",
+          "family": "thermal_lower",
+          "hour_0based": "80",
+          "uid": "118_CC_1",
+          "multiplier_hex": "-0x1.0000000000000p+0"
+        },
+        {
+          "row": "17719",
+          "family": "thermal_lower",
+          "hour_0based": "81",
+          "uid": "118_CC_1",
+          "multiplier_hex": "-0x1.0000000000000p+0"
+        },
+        {
+          "row": "24264",
+          "family": "fossil_energy_cap",
+          "hour_0based": "-1",
+          "uid": "23_fossil_units",
+          "multiplier_hex": "-0x1.0000000000000p+0"
+        }
+      ],
+      "selected_row_families": [
+        "aggregate_balance",
+        "fossil_energy_cap",
+        "thermal_lower"
+      ],
+      "selected_hours_0based": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        28,
+        29,
+        30,
+        40,
+        41,
+        42,
+        43,
+        44,
+        53,
+        54,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        124,
+        125,
+        126,
+        136,
+        137,
+        138,
+        139,
+        148,
+        149,
+        150,
+        161,
+        162,
+        163,
+        164
+      ],
+      "single_hour_balance_and_capacity_row_certificate": false,
+      "historical_unrestricted_target": "UNKNOWN",
+      "primary_fixed_recourse_counterexample": false,
+      "joint_fixed_recourse_counterexample": false,
+      "unrestricted_uc_infeasibility_inferred": false
+    },
+    {
+      "case": "week_1_days_213",
+      "day_order": [
+        2,
+        1,
+        3
+      ],
+      "link": "PASS_SAVED_EVIDENCE_LINK",
+      "primary_observation": "EQUAL",
+      "primary_plus_full_hindex": "DIFFERENT",
+      "actual_native_hours_changed": 48,
+      "identity_fixed_commitment_predicate": true,
+      "target_fixed_commitment_predicate": false,
+      "historical_robust_gap": {
+        "numerator": "492571193080352911120133644923465087937",
+        "denominator": "1329227995784915872903807060280344576",
+        "approximate": 370.5693790999994
+      },
+      "selected_certificate_rows": [
+        {
+          "row": "4",
+          "family": "aggregate_balance",
+          "hour_0based": "4",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "5",
+          "family": "aggregate_balance",
+          "hour_0based": "5",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "6",
+          "family": "aggregate_balance",
+          "hour_0based": "6",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "7",
+          "family": "aggregate_balance",
+          "hour_0based": "7",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "8",
+          "family": "aggregate_balance",
+          "hour_0based": "8",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "9",
+          "family": "aggregate_balance",
+          "hour_0based": "9",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "10",
+          "family": "aggregate_balance",
+          "hour_0based": "10",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "11",
+          "family": "aggregate_balance",
+          "hour_0based": "11",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "12",
+          "family": "aggregate_balance",
+          "hour_0based": "12",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "13",
+          "family": "aggregate_balance",
+          "hour_0based": "13",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "14",
+          "family": "aggregate_balance",
+          "hour_0based": "14",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "15",
+          "family": "aggregate_balance",
+          "hour_0based": "15",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "16",
+          "family": "aggregate_balance",
+          "hour_0based": "16",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "17",
+          "family": "aggregate_balance",
+          "hour_0based": "17",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "18",
+          "family": "aggregate_balance",
+          "hour_0based": "18",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000001p+0"
+        },
+        {
+          "row": "19",
+          "family": "aggregate_balance",
+          "hour_0based": "19",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "20",
+          "family": "aggregate_balance",
+          "hour_0based": "20",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "21",
+          "family": "aggregate_balance",
+          "hour_0based": "21",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "22",
+          "family": "aggregate_balance",
+          "hour_0based": "22",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "28",
+          "family": "aggregate_balance",
+          "hour_0based": "28",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000001p+0"
+        },
+        {
+          "row": "29",
+          "family": "aggregate_balance",
+          "hour_0based": "29",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "30",
+          "family": "aggregate_balance",
+          "hour_0based": "30",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "40",
+          "family": "aggregate_balance",
+          "hour_0based": "40",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "41",
+          "family": "aggregate_balance",
+          "hour_0based": "41",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "42",
+          "family": "aggregate_balance",
+          "hour_0based": "42",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "43",
+          "family": "aggregate_balance",
+          "hour_0based": "43",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "44",
+          "family": "aggregate_balance",
+          "hour_0based": "44",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "48",
+          "family": "aggregate_balance",
+          "hour_0based": "48",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "49",
+          "family": "aggregate_balance",
+          "hour_0based": "49",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "50",
+          "family": "aggregate_balance",
+          "hour_0based": "50",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "51",
+          "family": "aggregate_balance",
+          "hour_0based": "51",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "52",
+          "family": "aggregate_balance",
+          "hour_0based": "52",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "53",
+          "family": "aggregate_balance",
+          "hour_0based": "53",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "54",
+          "family": "aggregate_balance",
+          "hour_0based": "54",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "55",
+          "family": "aggregate_balance",
+          "hour_0based": "55",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "56",
+          "family": "aggregate_balance",
+          "hour_0based": "56",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "57",
+          "family": "aggregate_balance",
+          "hour_0based": "57",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "58",
+          "family": "aggregate_balance",
+          "hour_0based": "58",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "59",
+          "family": "aggregate_balance",
+          "hour_0based": "59",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "60",
+          "family": "aggregate_balance",
+          "hour_0based": "60",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "61",
+          "family": "aggregate_balance",
+          "hour_0based": "61",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "63",
+          "family": "aggregate_balance",
+          "hour_0based": "63",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "64",
+          "family": "aggregate_balance",
+          "hour_0based": "64",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "65",
+          "family": "aggregate_balance",
+          "hour_0based": "65",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "66",
+          "family": "aggregate_balance",
+          "hour_0based": "66",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "67",
+          "family": "aggregate_balance",
+          "hour_0based": "67",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "68",
+          "family": "aggregate_balance",
+          "hour_0based": "68",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.fffffffffffffp-1"
+        },
+        {
+          "row": "78",
+          "family": "aggregate_balance",
+          "hour_0based": "78",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "87",
+          "family": "aggregate_balance",
+          "hour_0based": "87",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "88",
+          "family": "aggregate_balance",
+          "hour_0based": "88",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "89",
+          "family": "aggregate_balance",
+          "hour_0based": "89",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "90",
+          "family": "aggregate_balance",
+          "hour_0based": "90",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "91",
+          "family": "aggregate_balance",
+          "hour_0based": "91",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "92",
+          "family": "aggregate_balance",
+          "hour_0based": "92",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "93",
+          "family": "aggregate_balance",
+          "hour_0based": "93",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "94",
+          "family": "aggregate_balance",
+          "hour_0based": "94",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "95",
+          "family": "aggregate_balance",
+          "hour_0based": "95",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.ffffffffffffdp-1"
+        },
+        {
+          "row": "101",
+          "family": "aggregate_balance",
+          "hour_0based": "101",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "102",
+          "family": "aggregate_balance",
+          "hour_0based": "102",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "111",
+          "family": "aggregate_balance",
+          "hour_0based": "111",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "112",
+          "family": "aggregate_balance",
+          "hour_0based": "112",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "113",
+          "family": "aggregate_balance",
+          "hour_0based": "113",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "114",
+          "family": "aggregate_balance",
+          "hour_0based": "114",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "115",
+          "family": "aggregate_balance",
+          "hour_0based": "115",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "116",
+          "family": "aggregate_balance",
+          "hour_0based": "116",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "117",
+          "family": "aggregate_balance",
+          "hour_0based": "117",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "118",
+          "family": "aggregate_balance",
+          "hour_0based": "118",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.fffffffffffffp-1"
+        },
+        {
+          "row": "124",
+          "family": "aggregate_balance",
+          "hour_0based": "124",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "125",
+          "family": "aggregate_balance",
+          "hour_0based": "125",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "126",
+          "family": "aggregate_balance",
+          "hour_0based": "126",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "136",
+          "family": "aggregate_balance",
+          "hour_0based": "136",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "137",
+          "family": "aggregate_balance",
+          "hour_0based": "137",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "138",
+          "family": "aggregate_balance",
+          "hour_0based": "138",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "139",
+          "family": "aggregate_balance",
+          "hour_0based": "139",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "148",
+          "family": "aggregate_balance",
+          "hour_0based": "148",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "149",
+          "family": "aggregate_balance",
+          "hour_0based": "149",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "150",
+          "family": "aggregate_balance",
+          "hour_0based": "150",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "161",
+          "family": "aggregate_balance",
+          "hour_0based": "161",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "162",
+          "family": "aggregate_balance",
+          "hour_0based": "162",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "163",
+          "family": "aggregate_balance",
+          "hour_0based": "163",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "164",
+          "family": "aggregate_balance",
+          "hour_0based": "164",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "17665",
+          "family": "thermal_lower",
+          "hour_0based": "72",
+          "uid": "118_CC_1",
+          "multiplier_hex": "-0x1.0000000000000p+0"
+        },
+        {
+          "row": "17671",
+          "family": "thermal_lower",
+          "hour_0based": "73",
+          "uid": "118_CC_1",
+          "multiplier_hex": "-0x1.0000000000000p+0"
+        },
+        {
+          "row": "17677",
+          "family": "thermal_lower",
+          "hour_0based": "74",
+          "uid": "118_CC_1",
+          "multiplier_hex": "-0x1.0000000000000p+0"
+        },
+        {
+          "row": "17683",
+          "family": "thermal_lower",
+          "hour_0based": "75",
+          "uid": "118_CC_1",
+          "multiplier_hex": "-0x1.0000000000000p+0"
+        },
+        {
+          "row": "17689",
+          "family": "thermal_lower",
+          "hour_0based": "76",
+          "uid": "118_CC_1",
+          "multiplier_hex": "-0x1.0000000000000p+0"
+        },
+        {
+          "row": "17695",
+          "family": "thermal_lower",
+          "hour_0based": "77",
+          "uid": "118_CC_1",
+          "multiplier_hex": "-0x1.0000000000000p+0"
+        },
+        {
+          "row": "17707",
+          "family": "thermal_lower",
+          "hour_0based": "79",
+          "uid": "118_CC_1",
+          "multiplier_hex": "-0x1.0000000000000p+0"
+        },
+        {
+          "row": "17713",
+          "family": "thermal_lower",
+          "hour_0based": "80",
+          "uid": "118_CC_1",
+          "multiplier_hex": "-0x1.0000000000000p+0"
+        },
+        {
+          "row": "17719",
+          "family": "thermal_lower",
+          "hour_0based": "81",
+          "uid": "118_CC_1",
+          "multiplier_hex": "-0x1.0000000000000p+0"
+        },
+        {
+          "row": "24264",
+          "family": "fossil_energy_cap",
+          "hour_0based": "-1",
+          "uid": "23_fossil_units",
+          "multiplier_hex": "-0x1.0000000000000p+0"
+        }
+      ],
+      "selected_row_families": [
+        "aggregate_balance",
+        "fossil_energy_cap",
+        "thermal_lower"
+      ],
+      "selected_hours_0based": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        28,
+        29,
+        30,
+        40,
+        41,
+        42,
+        43,
+        44,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        101,
+        102,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        124,
+        125,
+        126,
+        136,
+        137,
+        138,
+        139,
+        148,
+        149,
+        150,
+        161,
+        162,
+        163,
+        164
+      ],
+      "single_hour_balance_and_capacity_row_certificate": false,
+      "historical_unrestricted_target": "UNKNOWN",
+      "primary_fixed_recourse_counterexample": true,
+      "joint_fixed_recourse_counterexample": false,
+      "unrestricted_uc_infeasibility_inferred": false
+    },
+    {
+      "case": "week_1_days_231",
+      "day_order": [
+        2,
+        3,
+        1
+      ],
+      "link": "PASS_SAVED_EVIDENCE_LINK",
+      "primary_observation": "EQUAL",
+      "primary_plus_full_hindex": "DIFFERENT",
+      "actual_native_hours_changed": 72,
+      "identity_fixed_commitment_predicate": true,
+      "target_fixed_commitment_predicate": false,
+      "historical_robust_gap": {
+        "numerator": "789892519055264827550100019764359959129",
+        "denominator": "1329227995784915872903807060280344576",
+        "approximate": 594.2490840999999
+      },
+      "selected_certificate_rows": [
+        {
+          "row": "4",
+          "family": "aggregate_balance",
+          "hour_0based": "4",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "5",
+          "family": "aggregate_balance",
+          "hour_0based": "5",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "6",
+          "family": "aggregate_balance",
+          "hour_0based": "6",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "7",
+          "family": "aggregate_balance",
+          "hour_0based": "7",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "8",
+          "family": "aggregate_balance",
+          "hour_0based": "8",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "9",
+          "family": "aggregate_balance",
+          "hour_0based": "9",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "10",
+          "family": "aggregate_balance",
+          "hour_0based": "10",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "11",
+          "family": "aggregate_balance",
+          "hour_0based": "11",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "12",
+          "family": "aggregate_balance",
+          "hour_0based": "12",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "13",
+          "family": "aggregate_balance",
+          "hour_0based": "13",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "14",
+          "family": "aggregate_balance",
+          "hour_0based": "14",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "15",
+          "family": "aggregate_balance",
+          "hour_0based": "15",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "16",
+          "family": "aggregate_balance",
+          "hour_0based": "16",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "17",
+          "family": "aggregate_balance",
+          "hour_0based": "17",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "18",
+          "family": "aggregate_balance",
+          "hour_0based": "18",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "19",
+          "family": "aggregate_balance",
+          "hour_0based": "19",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "20",
+          "family": "aggregate_balance",
+          "hour_0based": "20",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "21",
+          "family": "aggregate_balance",
+          "hour_0based": "21",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "22",
+          "family": "aggregate_balance",
+          "hour_0based": "22",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "28",
+          "family": "aggregate_balance",
+          "hour_0based": "28",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "29",
+          "family": "aggregate_balance",
+          "hour_0based": "29",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "30",
+          "family": "aggregate_balance",
+          "hour_0based": "30",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "40",
+          "family": "aggregate_balance",
+          "hour_0based": "40",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "41",
+          "family": "aggregate_balance",
+          "hour_0based": "41",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "42",
+          "family": "aggregate_balance",
+          "hour_0based": "42",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "43",
+          "family": "aggregate_balance",
+          "hour_0based": "43",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "44",
+          "family": "aggregate_balance",
+          "hour_0based": "44",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "48",
+          "family": "aggregate_balance",
+          "hour_0based": "48",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "49",
+          "family": "aggregate_balance",
+          "hour_0based": "49",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "50",
+          "family": "aggregate_balance",
+          "hour_0based": "50",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "51",
+          "family": "aggregate_balance",
+          "hour_0based": "51",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "52",
+          "family": "aggregate_balance",
+          "hour_0based": "52",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "53",
+          "family": "aggregate_balance",
+          "hour_0based": "53",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "54",
+          "family": "aggregate_balance",
+          "hour_0based": "54",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "55",
+          "family": "aggregate_balance",
+          "hour_0based": "55",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "56",
+          "family": "aggregate_balance",
+          "hour_0based": "56",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "57",
+          "family": "aggregate_balance",
+          "hour_0based": "57",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "58",
+          "family": "aggregate_balance",
+          "hour_0based": "58",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "59",
+          "family": "aggregate_balance",
+          "hour_0based": "59",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.ffffffffffffep-1"
+        },
+        {
+          "row": "60",
+          "family": "aggregate_balance",
+          "hour_0based": "60",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "61",
+          "family": "aggregate_balance",
+          "hour_0based": "61",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "63",
+          "family": "aggregate_balance",
+          "hour_0based": "63",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "64",
+          "family": "aggregate_balance",
+          "hour_0based": "64",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "65",
+          "family": "aggregate_balance",
+          "hour_0based": "65",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "66",
+          "family": "aggregate_balance",
+          "hour_0based": "66",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "67",
+          "family": "aggregate_balance",
+          "hour_0based": "67",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "68",
+          "family": "aggregate_balance",
+          "hour_0based": "68",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000001p+0"
+        },
+        {
+          "row": "87",
+          "family": "aggregate_balance",
+          "hour_0based": "87",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "88",
+          "family": "aggregate_balance",
+          "hour_0based": "88",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "89",
+          "family": "aggregate_balance",
+          "hour_0based": "89",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "90",
+          "family": "aggregate_balance",
+          "hour_0based": "90",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "91",
+          "family": "aggregate_balance",
+          "hour_0based": "91",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "92",
+          "family": "aggregate_balance",
+          "hour_0based": "92",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "93",
+          "family": "aggregate_balance",
+          "hour_0based": "93",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "94",
+          "family": "aggregate_balance",
+          "hour_0based": "94",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "101",
+          "family": "aggregate_balance",
+          "hour_0based": "101",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "102",
+          "family": "aggregate_balance",
+          "hour_0based": "102",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "111",
+          "family": "aggregate_balance",
+          "hour_0based": "111",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "112",
+          "family": "aggregate_balance",
+          "hour_0based": "112",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "113",
+          "family": "aggregate_balance",
+          "hour_0based": "113",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "114",
+          "family": "aggregate_balance",
+          "hour_0based": "114",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "115",
+          "family": "aggregate_balance",
+          "hour_0based": "115",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "116",
+          "family": "aggregate_balance",
+          "hour_0based": "116",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "117",
+          "family": "aggregate_balance",
+          "hour_0based": "117",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "118",
+          "family": "aggregate_balance",
+          "hour_0based": "118",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "119",
+          "family": "aggregate_balance",
+          "hour_0based": "119",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "124",
+          "family": "aggregate_balance",
+          "hour_0based": "124",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "125",
+          "family": "aggregate_balance",
+          "hour_0based": "125",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "126",
+          "family": "aggregate_balance",
+          "hour_0based": "126",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "136",
+          "family": "aggregate_balance",
+          "hour_0based": "136",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "137",
+          "family": "aggregate_balance",
+          "hour_0based": "137",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "138",
+          "family": "aggregate_balance",
+          "hour_0based": "138",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "139",
+          "family": "aggregate_balance",
+          "hour_0based": "139",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "148",
+          "family": "aggregate_balance",
+          "hour_0based": "148",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "149",
+          "family": "aggregate_balance",
+          "hour_0based": "149",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "150",
+          "family": "aggregate_balance",
+          "hour_0based": "150",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "161",
+          "family": "aggregate_balance",
+          "hour_0based": "161",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "162",
+          "family": "aggregate_balance",
+          "hour_0based": "162",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "163",
+          "family": "aggregate_balance",
+          "hour_0based": "163",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "164",
+          "family": "aggregate_balance",
+          "hour_0based": "164",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "17665",
+          "family": "thermal_lower",
+          "hour_0based": "72",
+          "uid": "118_CC_1",
+          "multiplier_hex": "-0x1.0000000000000p+0"
+        },
+        {
+          "row": "17671",
+          "family": "thermal_lower",
+          "hour_0based": "73",
+          "uid": "118_CC_1",
+          "multiplier_hex": "-0x1.0000000000000p+0"
+        },
+        {
+          "row": "17677",
+          "family": "thermal_lower",
+          "hour_0based": "74",
+          "uid": "118_CC_1",
+          "multiplier_hex": "-0x1.0000000000000p+0"
+        },
+        {
+          "row": "17683",
+          "family": "thermal_lower",
+          "hour_0based": "75",
+          "uid": "118_CC_1",
+          "multiplier_hex": "-0x1.0000000000000p+0"
+        },
+        {
+          "row": "17689",
+          "family": "thermal_lower",
+          "hour_0based": "76",
+          "uid": "118_CC_1",
+          "multiplier_hex": "-0x1.0000000000000p+0"
+        },
+        {
+          "row": "17695",
+          "family": "thermal_lower",
+          "hour_0based": "77",
+          "uid": "118_CC_1",
+          "multiplier_hex": "-0x1.0000000000000p+0"
+        },
+        {
+          "row": "17701",
+          "family": "thermal_lower",
+          "hour_0based": "78",
+          "uid": "118_CC_1",
+          "multiplier_hex": "-0x1.0000000000000p+0"
+        },
+        {
+          "row": "17707",
+          "family": "thermal_lower",
+          "hour_0based": "79",
+          "uid": "118_CC_1",
+          "multiplier_hex": "-0x1.0000000000000p+0"
+        },
+        {
+          "row": "17713",
+          "family": "thermal_lower",
+          "hour_0based": "80",
+          "uid": "118_CC_1",
+          "multiplier_hex": "-0x1.0000000000000p+0"
+        },
+        {
+          "row": "17719",
+          "family": "thermal_lower",
+          "hour_0based": "81",
+          "uid": "118_CC_1",
+          "multiplier_hex": "-0x1.0000000000000p+0"
+        },
+        {
+          "row": "24264",
+          "family": "fossil_energy_cap",
+          "hour_0based": "-1",
+          "uid": "23_fossil_units",
+          "multiplier_hex": "-0x1.0000000000000p+0"
+        }
+      ],
+      "selected_row_families": [
+        "aggregate_balance",
+        "fossil_energy_cap",
+        "thermal_lower"
+      ],
+      "selected_hours_0based": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        28,
+        29,
+        30,
+        40,
+        41,
+        42,
+        43,
+        44,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        101,
+        102,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        124,
+        125,
+        126,
+        136,
+        137,
+        138,
+        139,
+        148,
+        149,
+        150,
+        161,
+        162,
+        163,
+        164
+      ],
+      "single_hour_balance_and_capacity_row_certificate": false,
+      "historical_unrestricted_target": "UNKNOWN",
+      "primary_fixed_recourse_counterexample": true,
+      "joint_fixed_recourse_counterexample": false,
+      "unrestricted_uc_infeasibility_inferred": false
+    },
+    {
+      "case": "week_1_days_312",
+      "day_order": [
+        3,
+        1,
+        2
+      ],
+      "link": "PASS_SAVED_EVIDENCE_LINK",
+      "primary_observation": "DIFFERENT",
+      "primary_plus_full_hindex": "DIFFERENT",
+      "actual_native_hours_changed": 72,
+      "identity_fixed_commitment_predicate": true,
+      "target_fixed_commitment_predicate": false,
+      "historical_robust_gap": {
+        "numerator": "492571193080352105031954046035411293721",
+        "denominator": "1329227995784915872903807060280344576",
+        "approximate": 370.5693790999988
+      },
+      "selected_certificate_rows": [
+        {
+          "row": "4",
+          "family": "aggregate_balance",
+          "hour_0based": "4",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "5",
+          "family": "aggregate_balance",
+          "hour_0based": "5",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "6",
+          "family": "aggregate_balance",
+          "hour_0based": "6",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "7",
+          "family": "aggregate_balance",
+          "hour_0based": "7",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "8",
+          "family": "aggregate_balance",
+          "hour_0based": "8",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "9",
+          "family": "aggregate_balance",
+          "hour_0based": "9",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "10",
+          "family": "aggregate_balance",
+          "hour_0based": "10",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "11",
+          "family": "aggregate_balance",
+          "hour_0based": "11",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "12",
+          "family": "aggregate_balance",
+          "hour_0based": "12",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "13",
+          "family": "aggregate_balance",
+          "hour_0based": "13",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "14",
+          "family": "aggregate_balance",
+          "hour_0based": "14",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "15",
+          "family": "aggregate_balance",
+          "hour_0based": "15",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "16",
+          "family": "aggregate_balance",
+          "hour_0based": "16",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "17",
+          "family": "aggregate_balance",
+          "hour_0based": "17",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "18",
+          "family": "aggregate_balance",
+          "hour_0based": "18",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000001p+0"
+        },
+        {
+          "row": "19",
+          "family": "aggregate_balance",
+          "hour_0based": "19",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "20",
+          "family": "aggregate_balance",
+          "hour_0based": "20",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "21",
+          "family": "aggregate_balance",
+          "hour_0based": "21",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "22",
+          "family": "aggregate_balance",
+          "hour_0based": "22",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "28",
+          "family": "aggregate_balance",
+          "hour_0based": "28",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "29",
+          "family": "aggregate_balance",
+          "hour_0based": "29",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "30",
+          "family": "aggregate_balance",
+          "hour_0based": "30",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "40",
+          "family": "aggregate_balance",
+          "hour_0based": "40",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "41",
+          "family": "aggregate_balance",
+          "hour_0based": "41",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "42",
+          "family": "aggregate_balance",
+          "hour_0based": "42",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "43",
+          "family": "aggregate_balance",
+          "hour_0based": "43",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "44",
+          "family": "aggregate_balance",
+          "hour_0based": "44",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "53",
+          "family": "aggregate_balance",
+          "hour_0based": "53",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "54",
+          "family": "aggregate_balance",
+          "hour_0based": "54",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "63",
+          "family": "aggregate_balance",
+          "hour_0based": "63",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "64",
+          "family": "aggregate_balance",
+          "hour_0based": "64",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "65",
+          "family": "aggregate_balance",
+          "hour_0based": "65",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "66",
+          "family": "aggregate_balance",
+          "hour_0based": "66",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "67",
+          "family": "aggregate_balance",
+          "hour_0based": "67",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "68",
+          "family": "aggregate_balance",
+          "hour_0based": "68",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "69",
+          "family": "aggregate_balance",
+          "hour_0based": "69",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "70",
+          "family": "aggregate_balance",
+          "hour_0based": "70",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "78",
+          "family": "aggregate_balance",
+          "hour_0based": "78",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "87",
+          "family": "aggregate_balance",
+          "hour_0based": "87",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "88",
+          "family": "aggregate_balance",
+          "hour_0based": "88",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "89",
+          "family": "aggregate_balance",
+          "hour_0based": "89",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "90",
+          "family": "aggregate_balance",
+          "hour_0based": "90",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "91",
+          "family": "aggregate_balance",
+          "hour_0based": "91",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "92",
+          "family": "aggregate_balance",
+          "hour_0based": "92",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "93",
+          "family": "aggregate_balance",
+          "hour_0based": "93",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "94",
+          "family": "aggregate_balance",
+          "hour_0based": "94",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "95",
+          "family": "aggregate_balance",
+          "hour_0based": "95",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.ffffffffffffdp-1"
+        },
+        {
+          "row": "96",
+          "family": "aggregate_balance",
+          "hour_0based": "96",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "97",
+          "family": "aggregate_balance",
+          "hour_0based": "97",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "98",
+          "family": "aggregate_balance",
+          "hour_0based": "98",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "99",
+          "family": "aggregate_balance",
+          "hour_0based": "99",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "100",
+          "family": "aggregate_balance",
+          "hour_0based": "100",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "101",
+          "family": "aggregate_balance",
+          "hour_0based": "101",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "102",
+          "family": "aggregate_balance",
+          "hour_0based": "102",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000003p+0"
+        },
+        {
+          "row": "103",
+          "family": "aggregate_balance",
+          "hour_0based": "103",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "104",
+          "family": "aggregate_balance",
+          "hour_0based": "104",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "105",
+          "family": "aggregate_balance",
+          "hour_0based": "105",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "106",
+          "family": "aggregate_balance",
+          "hour_0based": "106",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "107",
+          "family": "aggregate_balance",
+          "hour_0based": "107",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "108",
+          "family": "aggregate_balance",
+          "hour_0based": "108",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "109",
+          "family": "aggregate_balance",
+          "hour_0based": "109",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "111",
+          "family": "aggregate_balance",
+          "hour_0based": "111",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "112",
+          "family": "aggregate_balance",
+          "hour_0based": "112",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "113",
+          "family": "aggregate_balance",
+          "hour_0based": "113",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "114",
+          "family": "aggregate_balance",
+          "hour_0based": "114",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "115",
+          "family": "aggregate_balance",
+          "hour_0based": "115",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "116",
+          "family": "aggregate_balance",
+          "hour_0based": "116",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "124",
+          "family": "aggregate_balance",
+          "hour_0based": "124",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "125",
+          "family": "aggregate_balance",
+          "hour_0based": "125",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "126",
+          "family": "aggregate_balance",
+          "hour_0based": "126",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "136",
+          "family": "aggregate_balance",
+          "hour_0based": "136",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "137",
+          "family": "aggregate_balance",
+          "hour_0based": "137",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "138",
+          "family": "aggregate_balance",
+          "hour_0based": "138",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "139",
+          "family": "aggregate_balance",
+          "hour_0based": "139",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "148",
+          "family": "aggregate_balance",
+          "hour_0based": "148",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "149",
+          "family": "aggregate_balance",
+          "hour_0based": "149",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "150",
+          "family": "aggregate_balance",
+          "hour_0based": "150",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "161",
+          "family": "aggregate_balance",
+          "hour_0based": "161",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "162",
+          "family": "aggregate_balance",
+          "hour_0based": "162",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "163",
+          "family": "aggregate_balance",
+          "hour_0based": "163",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "164",
+          "family": "aggregate_balance",
+          "hour_0based": "164",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "17665",
+          "family": "thermal_lower",
+          "hour_0based": "72",
+          "uid": "118_CC_1",
+          "multiplier_hex": "-0x1.0000000000000p+0"
+        },
+        {
+          "row": "17671",
+          "family": "thermal_lower",
+          "hour_0based": "73",
+          "uid": "118_CC_1",
+          "multiplier_hex": "-0x1.0000000000000p+0"
+        },
+        {
+          "row": "17677",
+          "family": "thermal_lower",
+          "hour_0based": "74",
+          "uid": "118_CC_1",
+          "multiplier_hex": "-0x1.0000000000000p+0"
+        },
+        {
+          "row": "17683",
+          "family": "thermal_lower",
+          "hour_0based": "75",
+          "uid": "118_CC_1",
+          "multiplier_hex": "-0x1.0000000000000p+0"
+        },
+        {
+          "row": "17689",
+          "family": "thermal_lower",
+          "hour_0based": "76",
+          "uid": "118_CC_1",
+          "multiplier_hex": "-0x1.0000000000000p+0"
+        },
+        {
+          "row": "17695",
+          "family": "thermal_lower",
+          "hour_0based": "77",
+          "uid": "118_CC_1",
+          "multiplier_hex": "-0x1.0000000000000p+0"
+        },
+        {
+          "row": "17707",
+          "family": "thermal_lower",
+          "hour_0based": "79",
+          "uid": "118_CC_1",
+          "multiplier_hex": "-0x1.0000000000000p+0"
+        },
+        {
+          "row": "17713",
+          "family": "thermal_lower",
+          "hour_0based": "80",
+          "uid": "118_CC_1",
+          "multiplier_hex": "-0x1.0000000000000p+0"
+        },
+        {
+          "row": "17719",
+          "family": "thermal_lower",
+          "hour_0based": "81",
+          "uid": "118_CC_1",
+          "multiplier_hex": "-0x1.0000000000000p+0"
+        },
+        {
+          "row": "24264",
+          "family": "fossil_energy_cap",
+          "hour_0based": "-1",
+          "uid": "23_fossil_units",
+          "multiplier_hex": "-0x1.0000000000000p+0"
+        }
+      ],
+      "selected_row_families": [
+        "aggregate_balance",
+        "fossil_energy_cap",
+        "thermal_lower"
+      ],
+      "selected_hours_0based": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        28,
+        29,
+        30,
+        40,
+        41,
+        42,
+        43,
+        44,
+        53,
+        54,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        124,
+        125,
+        126,
+        136,
+        137,
+        138,
+        139,
+        148,
+        149,
+        150,
+        161,
+        162,
+        163,
+        164
+      ],
+      "single_hour_balance_and_capacity_row_certificate": false,
+      "historical_unrestricted_target": "EXPANDED_BINARY_FEASIBLE",
+      "primary_fixed_recourse_counterexample": false,
+      "joint_fixed_recourse_counterexample": false,
+      "unrestricted_uc_infeasibility_inferred": false
+    },
+    {
+      "case": "week_1_days_321",
+      "day_order": [
+        3,
+        2,
+        1
+      ],
+      "link": "PASS_SAVED_EVIDENCE_LINK",
+      "primary_observation": "EQUAL",
+      "primary_plus_full_hindex": "EQUAL",
+      "actual_native_hours_changed": 48,
+      "identity_fixed_commitment_predicate": true,
+      "target_fixed_commitment_predicate": false,
+      "historical_robust_gap": {
+        "numerator": "16302344017149909086535",
+        "denominator": "147573952589676412928",
+        "approximate": 110.46897999999999
+      },
+      "selected_certificate_rows": [
+        {
+          "row": "119",
+          "family": "aggregate_balance",
+          "hour_0based": "119",
+          "uid": "ALL",
+          "multiplier_hex": "0x1.0000000000000p+0"
+        },
+        {
+          "row": "878",
+          "family": "thermal_upper",
+          "hour_0based": "119",
+          "uid": "101_CT_1",
+          "multiplier_hex": "-0x1.0000000000000p+0"
+        },
+        {
+          "row": "1882",
+          "family": "thermal_upper",
+          "hour_0based": "119",
+          "uid": "101_CT_2",
+          "multiplier_hex": "-0x1.0000000000000p+0"
+        },
+        {
+          "row": "2886",
+          "family": "thermal_upper",
+          "hour_0based": "119",
+          "uid": "101_STEAM_3",
+          "multiplier_hex": "-0x1.0000000000000p+0"
+        },
+        {
+          "row": "3890",
+          "family": "thermal_upper",
+          "hour_0based": "119",
+          "uid": "101_STEAM_4",
+          "multiplier_hex": "-0x1.0000000000000p+0"
+        },
+        {
+          "row": "5898",
+          "family": "thermal_upper",
+          "hour_0based": "119",
+          "uid": "102_CT_2",
+          "multiplier_hex": "-0x1.0000000000000p+0"
+        },
+        {
+          "row": "6902",
+          "family": "thermal_upper",
+          "hour_0based": "119",
+          "uid": "102_STEAM_3",
+          "multiplier_hex": "-0x1.0000000000000p+0"
+        },
+        {
+          "row": "7906",
+          "family": "thermal_upper",
+          "hour_0based": "119",
+          "uid": "102_STEAM_4",
+          "multiplier_hex": "-0x1.0000000000000p+0"
+        },
+        {
+          "row": "8910",
+          "family": "thermal_upper",
+          "hour_0based": "119",
+          "uid": "107_CC_1",
+          "multiplier_hex": "-0x1.0000000000000p+0"
+        },
+        {
+          "row": "9914",
+          "family": "thermal_upper",
+          "hour_0based": "119",
+          "uid": "113_CT_1",
+          "multiplier_hex": "-0x1.0000000000000p+0"
+        },
+        {
+          "row": "10918",
+          "family": "thermal_upper",
+          "hour_0based": "119",
+          "uid": "113_CT_2",
+          "multiplier_hex": "-0x1.0000000000000p+0"
+        },
+        {
+          "row": "11922",
+          "family": "thermal_upper",
+          "hour_0based": "119",
+          "uid": "113_CT_3",
+          "multiplier_hex": "-0x1.0000000000000p+0"
+        },
+        {
+          "row": "12926",
+          "family": "thermal_upper",
+          "hour_0based": "119",
+          "uid": "113_CT_4",
+          "multiplier_hex": "-0x1.0000000000000p+0"
+        },
+        {
+          "row": "13930",
+          "family": "thermal_upper",
+          "hour_0based": "119",
+          "uid": "115_STEAM_1",
+          "multiplier_hex": "-0x1.0000000000000p+0"
+        },
+        {
+          "row": "14934",
+          "family": "thermal_upper",
+          "hour_0based": "119",
+          "uid": "115_STEAM_2",
+          "multiplier_hex": "-0x1.0000000000000p+0"
+        },
+        {
+          "row": "15938",
+          "family": "thermal_upper",
+          "hour_0based": "119",
+          "uid": "115_STEAM_3",
+          "multiplier_hex": "-0x1.0000000000000p+0"
+        },
+        {
+          "row": "16942",
+          "family": "thermal_upper",
+          "hour_0based": "119",
+          "uid": "116_STEAM_1",
+          "multiplier_hex": "-0x1.0000000000000p+0"
+        },
+        {
+          "row": "17946",
+          "family": "thermal_upper",
+          "hour_0based": "119",
+          "uid": "118_CC_1",
+          "multiplier_hex": "-0x1.0000000000000p+0"
+        },
+        {
+          "row": "18950",
+          "family": "thermal_upper",
+          "hour_0based": "119",
+          "uid": "123_STEAM_2",
+          "multiplier_hex": "-0x1.0000000000000p+0"
+        },
+        {
+          "row": "19954",
+          "family": "thermal_upper",
+          "hour_0based": "119",
+          "uid": "123_STEAM_3",
+          "multiplier_hex": "-0x1.0000000000000p+0"
+        },
+        {
+          "row": "20958",
+          "family": "thermal_upper",
+          "hour_0based": "119",
+          "uid": "123_CT_1",
+          "multiplier_hex": "-0x1.0000000000000p+0"
+        },
+        {
+          "row": "21962",
+          "family": "thermal_upper",
+          "hour_0based": "119",
+          "uid": "123_CT_4",
+          "multiplier_hex": "-0x1.0000000000000p+0"
+        },
+        {
+          "row": "22966",
+          "family": "thermal_upper",
+          "hour_0based": "119",
+          "uid": "123_CT_5",
+          "multiplier_hex": "-0x1.0000000000000p+0"
+        }
+      ],
+      "selected_row_families": [
+        "aggregate_balance",
+        "thermal_upper"
+      ],
+      "selected_hours_0based": [
+        119
+      ],
+      "single_hour_balance_and_capacity_row_certificate": true,
+      "historical_unrestricted_target": "UNKNOWN",
+      "primary_fixed_recourse_counterexample": true,
+      "joint_fixed_recourse_counterexample": true,
+      "unrestricted_uc_infeasibility_inferred": false
+    }
+  ],
+  "primary_counterexamples": 3,
+  "joint_counterexamples": 1,
+  "input_binding_count": 566,
+  "inputs_unchanged": true,
+  "new_optimizer_calls": 0,
+  "new_clustering_calls": 0,
+  "old_proof_replays": 0,
+  "elapsed_before_write_seconds": 48.62494340000558,
+  "scope": "Archived exact tau-expanded fixed-identity-commitment recourse predicate. A saved-proof linkage, not a new operating experiment or independent numerical proof replay. Nominal-strict identity positive is unavailable. No claim about unrestricted UC cost/feasibility, a common alternative commitment, or the published author's reconstructed reference.",
+  "limitation": "Primary-plus-Hindex equality hides within-cluster physical profile information; it does not establish that the chronological cluster-label sequence was lost. The days321 proof selects only hour119 aggregate balance and thermal upper-bound rows, plus variable box bounds: no selected intertemporal or energy-cap row. It demonstrates a one-hour fixed-commitment capacity rejection, not an isolated ramp/dwell mechanism. No scientific-priority claim."
+}

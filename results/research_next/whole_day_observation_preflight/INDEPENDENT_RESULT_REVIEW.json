@@ -1,0 +1,992 @@
+{
+  "status": "PASS_SAVED_OUTPUT_AND_CLAIM_AUDIT",
+  "reviewer_source_sha256": "3b59519a8ef55a83f5fde05d4b0508da16542ec33a7d2faa4292eec322d1e7c2",
+  "input_bindings_unchanged": 170,
+  "prepared_transport_bindings_unchanged": 4,
+  "producer_files_unchanged": 171,
+  "producer_snapshot": {
+    "completion.json": "716683064c992b12b600edf91dea3a42131b9d6241e7b1e5e5d742bb30dfcb8b",
+    "execution_started.json": "7eba6b9d1b7611fb96402d2f9a0d2e6779b734bc4e89501aae93383c604547d2",
+    "outcomes.json": "094a603e382a2f4d4b0fd6dd38f2a889ac664e46fea16389d3b226e0339f0bce",
+    "call_01_week_1_days_123\\actual_features.json": "43f5c8541c6ff6ccf16e800e81a5521147ee86f2ac10ac9fe7fef15d05ee7b47",
+    "call_01_week_1_days_123\\call_ledger.json": "8d983ca5675e7f461c0c1d2b11b0ed08a128bee9a6bc64e77ad71ea79975644d",
+    "call_01_week_1_days_123\\clustering_details.json": "8cc403f9b0e637c10e55f7af769101b28507a5ad75d7c3d9b6567d4f76e3ff64",
+    "call_01_week_1_days_123\\observation.json": "c0b4d2317731707dc187fc5a6219b46fdfc1393d9f3c9c872683196ea729b8dd",
+    "call_01_week_1_days_123\\result.json": "e5a451d6114d5596f967e99398038edfbfcc34457cb01c38b90d6c8517274af3",
+    "call_01_week_1_days_123\\solver_input.json": "062c964ac926ce11539042435c4eee583abd53952a27ee0f9db807f60bc7cab5",
+    "call_01_week_1_days_123\\solver_result.json": "a397936688c29969781f145681a395413ef8f4a9441dfa0e7271cdd1f354d96d",
+    "call_01_week_1_days_123\\termination.json": "02c464b48038b1503d5659c9f6740b76d40ebcb48affe2b080c8fd3820b427b3",
+    "call_02_week_1_days_132\\actual_features.json": "a5103fea98aa66d1f16547e715604e1f7177ac40998148a0fe87251b505403e6",
+    "call_02_week_1_days_132\\call_ledger.json": "3078d0c3c3ab1dfd84c02cada0b7c7ef5ff97fe7e8a410bbfdac1d1861d83b46",
+    "call_02_week_1_days_132\\clustering_details.json": "bbb2246d34a680bfe42ffb130c5de4083f35dac337c404513cfbda6fe3ac5eaa",
+    "call_02_week_1_days_132\\observation.json": "a06de6ba77f937719710f91dd9f95ec36f8bd4e9e23a3bfae5f7dfb87144ba40",
+    "call_02_week_1_days_132\\result.json": "bbad45348e208efcb46e2af0e0a1aa6240c5f8c4699df93d1da75a11f9f3e8a0",
+    "call_02_week_1_days_132\\solver_input.json": "8c19d6a89a3dc8c74f26838dadf2609310cdf535364d90da26400f694961bff7",
+    "call_02_week_1_days_132\\solver_result.json": "5ea06c3d2f89e440c0da662c39baa5a895f4fc2098a3cec8e7a6661f53e4952a",
+    "call_02_week_1_days_132\\termination.json": "afa78b33c475e96e35cf147ecfaebce24a092d3b96efac87c21bb5b8a90a971d",
+    "call_03_week_1_days_213\\actual_features.json": "21741b385bbb035c17b3f9c601333583c2100d2174c067953d7dcccd6c0c4c4b",
+    "call_03_week_1_days_213\\call_ledger.json": "b4a37ea5e74676f40a1663db26a79ed8ec60aca4136a3c952e770e7a48e4b6ba",
+    "call_03_week_1_days_213\\clustering_details.json": "c9c3ba4288d67b9ca33750ea0140c71237b3fab6d8171743e3f230f77d7defda",
+    "call_03_week_1_days_213\\observation.json": "6ebd1f02f0485908c592fcf296b2b01943c36d90350a83bcaba5500ed15ea7ab",
+    "call_03_week_1_days_213\\result.json": "a6702b59760d716d1f129d38de60244851ed34a255952b335f139bec84727a96",
+    "call_03_week_1_days_213\\solver_input.json": "c5ddc051b45e6d1f63fa7c58290dcae86f9ce44cb258fe07fa78fa2be7342f6a",
+    "call_03_week_1_days_213\\solver_result.json": "4d34c6f46f294d963ce944f198b43309e841cf0aa4f83dbb60e4000f34c56b69",
+    "call_03_week_1_days_213\\termination.json": "42a91da236552a0911521a316abbada2a071c1944f6b392e5912a2d7e4cfafbb",
+    "call_04_week_1_days_231\\actual_features.json": "d7b22442125d287e83a325225818a41d0ab37fd4105c1af5ac8135d8fbbe559e",
+    "call_04_week_1_days_231\\call_ledger.json": "830406e48e9c476decd7a7b592ffa510cb30cda2b61eb368001fea9a0d4df8fd",
+    "call_04_week_1_days_231\\clustering_details.json": "a29d88bfc862e335e4f32c820f677df133ad425d2ea4cc5033b8133ca4bd9b4f",
+    "call_04_week_1_days_231\\observation.json": "6ebd1f02f0485908c592fcf296b2b01943c36d90350a83bcaba5500ed15ea7ab",
+    "call_04_week_1_days_231\\result.json": "b338b3a7072ac3bc40ebf9988dbdadf0b7fc06774581b40eec59b6a94c579231",
+    "call_04_week_1_days_231\\solver_input.json": "083111b519ca3c68ccb4ea48fb51c4e5a2d83d954664acfac651f238f1cb99f5",
+    "call_04_week_1_days_231\\solver_result.json": "54c825e478d6230f556cab68020857817978a00d99c81636208a7be5cdf8f347",
+    "call_04_week_1_days_231\\termination.json": "6840e5779a6f52f5a0817e584460359b59865bd3a709bc12f708ffb44da9717b",
+    "call_05_week_1_days_312\\actual_features.json": "0b99a7dc8f3c852b755e32de831a8c3f8a1a1c44e7a9cc78da063bfc4c79a8c3",
+    "call_05_week_1_days_312\\call_ledger.json": "c40e0c8651e93b7440b59d2eca470d1bb414076d2ae6a56077749fd67786c746",
+    "call_05_week_1_days_312\\clustering_details.json": "80d0c6852b0100657debd12950883de5c5faa7a78dd4d0e2529d6aef02e5556e",
+    "call_05_week_1_days_312\\observation.json": "a06de6ba77f937719710f91dd9f95ec36f8bd4e9e23a3bfae5f7dfb87144ba40",
+    "call_05_week_1_days_312\\result.json": "dd9496624e0ddcfb0df967c36f11ce40dc416bf8ce44f9b4e3b42fd02e45a6ac",
+    "call_05_week_1_days_312\\solver_input.json": "92db28355f38807df8690533c831276c53c42424dca57e31f2709039856323ed",
+    "call_05_week_1_days_312\\solver_result.json": "57b66f601797c8d06c1f61496a65fad68890baf62d43dc4fe80e46cfbc948128",
+    "call_05_week_1_days_312\\termination.json": "71fff161aab09507de090ff6e7ea41aaffed98e46ad203ccdf812dad1bc9e8f1",
+    "call_06_week_1_days_321\\actual_features.json": "92558d3297ce783ee75ad7696f555f95158690c84c4cb441c871972a364af51a",
+    "call_06_week_1_days_321\\call_ledger.json": "7e5f272ae4bac01a15928f25f11fa413439fca72e23ecb0247c7856d1f853d89",
+    "call_06_week_1_days_321\\clustering_details.json": "e1c13650dd7d5dc6e8f370379acb0051c58671a22563f24bf5c9e8536822be9a",
+    "call_06_week_1_days_321\\observation.json": "6ebd1f02f0485908c592fcf296b2b01943c36d90350a83bcaba5500ed15ea7ab",
+    "call_06_week_1_days_321\\result.json": "89c85c02a0edfafe7e27c7d5110a4ae6812a118c7d696df2cc8ef0d894ed5d56",
+    "call_06_week_1_days_321\\solver_input.json": "7c04787195d2fc7f6fe4855ebd41170f56a66f66cd5f93cfb2eba34ba2377b96",
+    "call_06_week_1_days_321\\solver_result.json": "a4117a01e1cec2a28d4be4f954d1f632dda7d1b56fe32163b0f457da1a16474b",
+    "call_06_week_1_days_321\\termination.json": "c60d502c98e4529838af76bf6261d75268e766ace1356a932ff4080f03464211",
+    "call_07_week_1_days_123\\actual_features.json": "43f5c8541c6ff6ccf16e800e81a5521147ee86f2ac10ac9fe7fef15d05ee7b47",
+    "call_07_week_1_days_123\\call_ledger.json": "dbd24edb87879ff46b4f07638d2ad514d0a250ec6a3d5bf1d731019ad8aa232c",
+    "call_07_week_1_days_123\\clustering_details.json": "8cc403f9b0e637c10e55f7af769101b28507a5ad75d7c3d9b6567d4f76e3ff64",
+    "call_07_week_1_days_123\\observation.json": "c0b4d2317731707dc187fc5a6219b46fdfc1393d9f3c9c872683196ea729b8dd",
+    "call_07_week_1_days_123\\result.json": "807a5d0cf7119f88a362501c4adb999064803dfbbda42b4aa09fc5837bfd0a0a",
+    "call_07_week_1_days_123\\solver_input.json": "e6882c364d9b9dc7de41517b07a3bacaade0cbc27f8fcae9777c0d4c076f0cf2",
+    "call_07_week_1_days_123\\solver_result.json": "05f2eeeb635414ef49346ec89cf4a22354cee5a2af28f0b932a11f035c9cf559",
+    "call_07_week_1_days_123\\termination.json": "12df77662ff5afe8d7bcf41c2b878e898313162344b9b6e5e0c63e51da73d16d",
+    "call_08_week_2_days_123\\actual_features.json": "8c01606a47c20912005d9d70897cb702420790673f9e8d214300da5cac4bc2d4",
+    "call_08_week_2_days_123\\call_ledger.json": "f3ed417f25f148599d7a79e514aeb6ac2650bc89402c79eea6473505d4a9170f",
+    "call_08_week_2_days_123\\clustering_details.json": "72c212219427a137ec7d931d2f1c89a0e537cadd462af394dd93178238fdc76f",
+    "call_08_week_2_days_123\\observation.json": "ca39d74cb1c65a14d9ea75af545e3c51e4b3e3ad1e25f593d489fb5ed6164ca3",
+    "call_08_week_2_days_123\\result.json": "3c102cbfcf2336400578e1214fbd6db29de3bccc481137da44feead3e877774a",
+    "call_08_week_2_days_123\\solver_input.json": "585084866997c1db0bdd084d514fb77a9eb3a0bea0261b0fd55f5f0cc6b6604e",
+    "call_08_week_2_days_123\\solver_result.json": "bd3782b8f0c08eb4124d4da5d80040c4206a8a3366e3a371ef7819d15e4a25b2",
+    "call_08_week_2_days_123\\termination.json": "cd83465d58a484d3e319f9b335b76f841e661c22ab04e1216c6238d6fa941096",
+    "call_09_week_2_days_132\\actual_features.json": "9300e928c975085258585779d04d3d4eac5a0e989be19496c3e4f0da12a1ff12",
+    "call_09_week_2_days_132\\call_ledger.json": "968c47eeb7f89537e75f3c7ffa4611c0e17ba813a44c23a11da1788b2e1e8008",
+    "call_09_week_2_days_132\\clustering_details.json": "315479023f93efcc70372d6c32cc628bffcb33839fdfcf76b68af7fb985f5ef4",
+    "call_09_week_2_days_132\\observation.json": "9a2203e8fbdd1c3bc4f48b79d9438c7a69c116c844f128df9c0ffa48fa0998fc",
+    "call_09_week_2_days_132\\result.json": "726482e8812b8fb51242b71dace25aee1ac98e7087feafc072ee2ea47fc60669",
+    "call_09_week_2_days_132\\solver_input.json": "f81de6f41c6147e6e228c30ee139533bd09e29bb0855b474dfbd2f71882ede44",
+    "call_09_week_2_days_132\\solver_result.json": "289f9c7306c81613efbf59e1900e14524697acc593fa64797e323011b83586ba",
+    "call_09_week_2_days_132\\termination.json": "d0518fa17e58ac247bbfc5656b91fc333bccc15ab0f4d337aeabafaf53fba9e1",
+    "call_10_week_2_days_213\\actual_features.json": "67570bd48f5b12c3e92b2621a974a7cb4ceb9255229d13278c5b37928cbd200c",
+    "call_10_week_2_days_213\\call_ledger.json": "a0b2e469b9e90acc06a08c3557ade37b959d82be9ed11aa27a5f939e2c8c34fb",
+    "call_10_week_2_days_213\\clustering_details.json": "d37c10e33c6c952667117cdc7c9033fddf5c76506b7517e0f0dba236714c50ea",
+    "call_10_week_2_days_213\\observation.json": "a7abbd50e1f2f2477de9995767e2019f97e83f6657bd00771dfaa6b9032a3c8c",
+    "call_10_week_2_days_213\\result.json": "f7edf04f9b800b1f34148bb41da415f15daf0c646ec2bb8a6bbc133dd6573faf",
+    "call_10_week_2_days_213\\solver_input.json": "cf05ba0cd940478d5370355a86c5cfdd3006705fe76b58817e5d95b5a06334f9",
+    "call_10_week_2_days_213\\solver_result.json": "92eec459d95052220dcc150c76e7110f10cfb40fee3a463b5d460efb98aee81f",
+    "call_10_week_2_days_213\\termination.json": "7acc1c0b4daf4525c9e962b5089232b8ff9509bcc4ccbafac1617953d82e0a13",
+    "call_11_week_2_days_231\\actual_features.json": "f69852de56fa321c36918ee44c3b63a12f783850e379af279b79f95e4b913979",
+    "call_11_week_2_days_231\\call_ledger.json": "54a5e1c88af660f920e48664fc5bdf80a72c941e1f3f798aa4389eda273754d5",
+    "call_11_week_2_days_231\\clustering_details.json": "93cb37968bb14e0c6bc0bafebcf479f6a2ba660e1a3188da9ad27c22fb855052",
+    "call_11_week_2_days_231\\observation.json": "a7abbd50e1f2f2477de9995767e2019f97e83f6657bd00771dfaa6b9032a3c8c",
+    "call_11_week_2_days_231\\result.json": "eba5199f7576236d55a9d6f778c5123c9610bd91a76dc135178302fb2a6a0f05",
+    "call_11_week_2_days_231\\solver_input.json": "89ec32290dfed673200460f459015cd64589510cfbf418460d66d6d89bf11252",
+    "call_11_week_2_days_231\\solver_result.json": "265d23229e8aa5171fd39168a4d01e5192591769fe92ed6b2f47c65ba6685e1c",
+    "call_11_week_2_days_231\\termination.json": "ad7bf155f5d07ba1ba8a9b56d65351d3fd6716b5bc82cf129c7e3a25ad4b1b29",
+    "call_12_week_2_days_312\\actual_features.json": "5cbd1e887f4ac0e1b384de12aade88d9fbf1ddef83a9716f53a1678c52602601",
+    "call_12_week_2_days_312\\call_ledger.json": "219dfef194c45b48dbc3a6f60b6644edebb3a507dc01824c2f773e36a335ba71",
+    "call_12_week_2_days_312\\clustering_details.json": "b8734052bfb91876c178a9947479a4a60bc409d191b6ebeeb4aba190b6c366b7",
+    "call_12_week_2_days_312\\observation.json": "9a2203e8fbdd1c3bc4f48b79d9438c7a69c116c844f128df9c0ffa48fa0998fc",
+    "call_12_week_2_days_312\\result.json": "5b57eb927372c430ad10efc68e29b77272e5f83fbdafc1b43f774a9b4190dde5",
+    "call_12_week_2_days_312\\solver_input.json": "65ea1640fff19aafd90c76a8385fcf71d4d4cbc082d7c5669931e8dcb7c2f331",
+    "call_12_week_2_days_312\\solver_result.json": "968947acd81648c21be82a8f952ff146b9424e9a932068c741b47f297755404c",
+    "call_12_week_2_days_312\\termination.json": "d8fe0a19d8d3ec19245334cdcf7a2e7abbd4b5226803b00bbed38a800fdfbfd0",
+    "call_13_week_2_days_321\\actual_features.json": "5fee536235d24b781caada3d0246e782d8b045a8ba0038cfe6a0f76f7a5138b8",
+    "call_13_week_2_days_321\\call_ledger.json": "ce0ec9dbbe1e4ef0665dfc099597135f448065e678e36350414ac64f486b8bea",
+    "call_13_week_2_days_321\\clustering_details.json": "a49055c5ed9c54620bacf669a877ba24bc9e71b00902d659db5338878f1b0496",
+    "call_13_week_2_days_321\\observation.json": "3ae91cf166739ecdc07d43406aed7ea99b05d4581c116e248e9e49a2f1bcf106",
+    "call_13_week_2_days_321\\result.json": "ca6685fe6893a13a0f05add8e7041410e2b63cf6a2dbc746636276d85153dcfe",
+    "call_13_week_2_days_321\\solver_input.json": "d908755093b829a89ed53b0810262e71e3dd3759f197601eb3b39fe194837b36",
+    "call_13_week_2_days_321\\solver_result.json": "3c4f6a52674a2dac2c0fb8915d860e96f2281bf1fb019c01df24caf98d3ac861",
+    "call_13_week_2_days_321\\termination.json": "38ad25b8ec561bbd7810a373b2ba3a18cf1dda2c14ff279243d8e3ffa11d7864",
+    "call_14_week_2_days_123\\actual_features.json": "8c01606a47c20912005d9d70897cb702420790673f9e8d214300da5cac4bc2d4",
+    "call_14_week_2_days_123\\call_ledger.json": "69c2e121a8b8bd2179521db060a88987c1687e8ef51ab029a235e14cc5b7674d",
+    "call_14_week_2_days_123\\clustering_details.json": "72c212219427a137ec7d931d2f1c89a0e537cadd462af394dd93178238fdc76f",
+    "call_14_week_2_days_123\\observation.json": "ca39d74cb1c65a14d9ea75af545e3c51e4b3e3ad1e25f593d489fb5ed6164ca3",
+    "call_14_week_2_days_123\\result.json": "51b501b663aee56bf99360a20afd8ca5ffe880b48353ead6d3a6bf200a002648",
+    "call_14_week_2_days_123\\solver_input.json": "9561b0c977d15c92667b6d8c329b0ac73d24bff5c6d66a9fe9ef0503457b35d7",
+    "call_14_week_2_days_123\\solver_result.json": "fc358280fa51061fa840e829b334a14591618d609103544fac1ff8b55ec19024",
+    "call_14_week_2_days_123\\termination.json": "6c3d91d8c2fd86cec81250febdcbc6e538579acb881f4ca0a94a27a304a02f22",
+    "call_15_week_3_days_123\\actual_features.json": "de03063c64b5f62bb8abf48b950b7335a7b45b11a2960a755ac907c6d4a80156",
+    "call_15_week_3_days_123\\call_ledger.json": "84c21be352b36d3ad4c3f0bb5ad2dc9700f19af7afcd836ac5ac7fd7274f52e8",
+    "call_15_week_3_days_123\\clustering_details.json": "6b35adb17dde1631b9a4ed8224bc3688784a6c103a811a81f580d2f3f9655900",
+    "call_15_week_3_days_123\\observation.json": "8e8dbd9c2f1f73fade064a5dd61deb8c9ee791e90784d99f26b343285a875f4a",
+    "call_15_week_3_days_123\\result.json": "68b65db68c719c8ce6075dec239e9ee9c1987ee3612836f0e9f1b450f04ad700",
+    "call_15_week_3_days_123\\solver_input.json": "357422eaa2f3a336cb79a73938b1c183970cfb5edf3371e028ea6603371ad156",
+    "call_15_week_3_days_123\\solver_result.json": "64e8ec0eb22129ecbeaeb72e616e827b0cd0d986182df1c914269eeff0d51bfd",
+    "call_15_week_3_days_123\\termination.json": "f7b542b32eac4151c6f85483553f63d5fad81993d911800af3a9c44ef589662e",
+    "call_16_week_3_days_132\\actual_features.json": "c8ad0a39ea7df817d5061cf90e087642022bba59a914fc15b23fc15db7f50449",
+    "call_16_week_3_days_132\\call_ledger.json": "e99b11b54abff865fef4843f23d3e4be2b32efdd4114fe6357d49f988bec6de8",
+    "call_16_week_3_days_132\\clustering_details.json": "3faf88ee39e44b934f93372aa399f7a3f238f7fb6e49f6db6fd0db3dcf6f1217",
+    "call_16_week_3_days_132\\observation.json": "8e8dbd9c2f1f73fade064a5dd61deb8c9ee791e90784d99f26b343285a875f4a",
+    "call_16_week_3_days_132\\result.json": "781610fa9bbef5e56c5f8429d588b1a3363ff9f85c384ef3311d44e86b3280dd",
+    "call_16_week_3_days_132\\solver_input.json": "4209a7cba8fe9a37d457e2cd591a0e0003966cf5de22ffa30a0bc433daef8941",
+    "call_16_week_3_days_132\\solver_result.json": "d202e35611eb77afe7b45d20fbcc2be12f7c9b68acdad4f7524ae6e159ded880",
+    "call_16_week_3_days_132\\termination.json": "7a41374bb78360dddc37a4921c7c2d015bf1d5d2dad044713341c1246797deb4",
+    "call_17_week_3_days_213\\actual_features.json": "3c9758327e4762f67d93be1b806c5520855ccf769d9a2f6373ef02622104d3de",
+    "call_17_week_3_days_213\\call_ledger.json": "4d294a8b766b3af7843b8b25557701b30b34f420acc00a005e7b981077bc0a83",
+    "call_17_week_3_days_213\\clustering_details.json": "4ead781752e0a135a100e1ca736dff5987a5997ae0da46cf62d2cdb40c97e2c9",
+    "call_17_week_3_days_213\\observation.json": "c720663b3d14a74e9b97a81c33330147aa600b56a2719c9a3d164302bc44dad2",
+    "call_17_week_3_days_213\\result.json": "64b871b17e34798cd4cfdc1c462e34ad27908eacd8db2b5a06e5415546bf0513",
+    "call_17_week_3_days_213\\solver_input.json": "6ff616fef2ee11ead5f2263ed61115211877193dc0e474fe770fa113f9d87bcf",
+    "call_17_week_3_days_213\\solver_result.json": "d98ad357ec4961a9b11e5559fe212205c3f41bd1d0dc5655ebe4960500adab9f",
+    "call_17_week_3_days_213\\termination.json": "2286e780b72db4ea72a7db10b0e164c9e91cf20125c7c55cd56ccb8db03c6877",
+    "call_18_week_3_days_231\\actual_features.json": "5b411d428816aa3b28a9aa85cbdaa51d0d8eae4036b09e2eb600a31980dc619e",
+    "call_18_week_3_days_231\\call_ledger.json": "81996ca434631a950f47302cadbb03d7d48a00f13ec47f276756ed2b167cffdf",
+    "call_18_week_3_days_231\\clustering_details.json": "c1ae3be21896d3c339e910b5750cbf47ad9b9c5ff9296588c32ebfda5c344473",
+    "call_18_week_3_days_231\\observation.json": "c720663b3d14a74e9b97a81c33330147aa600b56a2719c9a3d164302bc44dad2",
+    "call_18_week_3_days_231\\result.json": "108f8fa5cafa2a3623d9a848371802017c21ab3bb7cadbaeab2a7e61e0482d4b",
+    "call_18_week_3_days_231\\solver_input.json": "29579d7b5a85ea9c1ddf92a7a7dbffc329daff2306d44e8e6e8e2e41990e8a05",
+    "call_18_week_3_days_231\\solver_result.json": "f0733f2373e0c6841dd0437e714da350436f4c9c9379e1fe797dbf623723f49c",
+    "call_18_week_3_days_231\\termination.json": "29478ed01e0d8bf047b40fbdb29cd99d807377c54e47ba2cc411f57535fac25c",
+    "call_19_week_3_days_312\\actual_features.json": "6de57149b2d1066a45a041b10a2fc3643d76d1b8454dc82762318a0557c1dcd8",
+    "call_19_week_3_days_312\\call_ledger.json": "805dbd8709688589882b538032b31da5a37b172f4780ee1f69568ad41796481c",
+    "call_19_week_3_days_312\\clustering_details.json": "feb825438834eaac6d3a58c11def3015ff3f690b6e348eea90db8ca1310a9115",
+    "call_19_week_3_days_312\\observation.json": "c720663b3d14a74e9b97a81c33330147aa600b56a2719c9a3d164302bc44dad2",
+    "call_19_week_3_days_312\\result.json": "a01bd29a9330ee252e0dfc9e31beb5ea1dee563b3f753e4dc4a0be1baa16b6ec",
+    "call_19_week_3_days_312\\solver_input.json": "0d58c96a420bd4b3a3205725724ea5c230d7e978d1d64c2fce3190d977b1770e",
+    "call_19_week_3_days_312\\solver_result.json": "53a6db3e1d1fe60d504f19b2849a1dd21c53c161beac68ac6d4fa1dc3ccfa526",
+    "call_19_week_3_days_312\\termination.json": "bbb52dcf172b57d37c9c50a4ff7b766747506f2b1313f4bcb4f4df99a8b3c747",
+    "call_20_week_3_days_321\\actual_features.json": "bbd7f54934bba89c6bf484d7c13893b4091080a2910faa8b980e54af8895d33f",
+    "call_20_week_3_days_321\\call_ledger.json": "ebe685164b636287b2135f4d79470eedaba8c560094966e1f062843312b90eda",
+    "call_20_week_3_days_321\\clustering_details.json": "708a4172f5da579567b92727331ffe88d7507e028f88cbf3232a03998521ffe8",
+    "call_20_week_3_days_321\\observation.json": "c720663b3d14a74e9b97a81c33330147aa600b56a2719c9a3d164302bc44dad2",
+    "call_20_week_3_days_321\\result.json": "c99b2c2cb51c5035390e3e784b7708f94583d775d6b8719bfd4041670a8293b1",
+    "call_20_week_3_days_321\\solver_input.json": "b9799b0509ba490271024cad8e8dc4f5d956a2373c63557710fabed8113f78b2",
+    "call_20_week_3_days_321\\solver_result.json": "38343fc8ebf1d3ddab5cfb5c2e98cad77a76a93dd43f34d3206224e0c7f8c983",
+    "call_20_week_3_days_321\\termination.json": "6c4b79590ace2487445a17ddf9ac3310806278c56e92bde3f4ca3b4a88395313",
+    "call_21_week_3_days_123\\actual_features.json": "de03063c64b5f62bb8abf48b950b7335a7b45b11a2960a755ac907c6d4a80156",
+    "call_21_week_3_days_123\\call_ledger.json": "3b21dc6f0c6fb4d2d72969c66c386f8c86862207b0d8312829f0c41978095199",
+    "call_21_week_3_days_123\\clustering_details.json": "6b35adb17dde1631b9a4ed8224bc3688784a6c103a811a81f580d2f3f9655900",
+    "call_21_week_3_days_123\\observation.json": "8e8dbd9c2f1f73fade064a5dd61deb8c9ee791e90784d99f26b343285a875f4a",
+    "call_21_week_3_days_123\\result.json": "a5dc7610c813cd97e83356f35204e3ebc30921353383e5c2c696a42bfffc3551",
+    "call_21_week_3_days_123\\solver_input.json": "47992c242d72a1a48280701261eca35aa71aa0286db66fbcc5083d2ea81e93f8",
+    "call_21_week_3_days_123\\solver_result.json": "9598a6b44bac60bc911eee8f5635595a18635516267bec88770eab1f6759f72c",
+    "call_21_week_3_days_123\\termination.json": "93c57bbd5e46442b000a80b84e6ebb922d787f1ba7118e3c70066d96c1cc3d03"
+  },
+  "native_input_checks": [
+    {
+      "week": 1,
+      "case": "week_1_days_123",
+      "role": "identity",
+      "physical_hour_positions_changed": 0,
+      "actual_107_coordinate_sequence_changed": false,
+      "all_six_native_arrays_bitwise_mapped": true,
+      "joint_day_multiset_equal": true,
+      "fixed48h_edges_equal": true
+    },
+    {
+      "week": 1,
+      "case": "week_1_days_132",
+      "role": "target",
+      "physical_hour_positions_changed": 48,
+      "actual_107_coordinate_sequence_changed": true,
+      "all_six_native_arrays_bitwise_mapped": true,
+      "joint_day_multiset_equal": true,
+      "fixed48h_edges_equal": true
+    },
+    {
+      "week": 1,
+      "case": "week_1_days_213",
+      "role": "target",
+      "physical_hour_positions_changed": 48,
+      "actual_107_coordinate_sequence_changed": true,
+      "all_six_native_arrays_bitwise_mapped": true,
+      "joint_day_multiset_equal": true,
+      "fixed48h_edges_equal": true
+    },
+    {
+      "week": 1,
+      "case": "week_1_days_231",
+      "role": "target",
+      "physical_hour_positions_changed": 72,
+      "actual_107_coordinate_sequence_changed": true,
+      "all_six_native_arrays_bitwise_mapped": true,
+      "joint_day_multiset_equal": true,
+      "fixed48h_edges_equal": true
+    },
+    {
+      "week": 1,
+      "case": "week_1_days_312",
+      "role": "target",
+      "physical_hour_positions_changed": 72,
+      "actual_107_coordinate_sequence_changed": true,
+      "all_six_native_arrays_bitwise_mapped": true,
+      "joint_day_multiset_equal": true,
+      "fixed48h_edges_equal": true
+    },
+    {
+      "week": 1,
+      "case": "week_1_days_321",
+      "role": "target",
+      "physical_hour_positions_changed": 48,
+      "actual_107_coordinate_sequence_changed": true,
+      "all_six_native_arrays_bitwise_mapped": true,
+      "joint_day_multiset_equal": true,
+      "fixed48h_edges_equal": true
+    },
+    {
+      "week": 2,
+      "case": "week_2_days_123",
+      "role": "identity",
+      "physical_hour_positions_changed": 0,
+      "actual_107_coordinate_sequence_changed": false,
+      "all_six_native_arrays_bitwise_mapped": true,
+      "joint_day_multiset_equal": true,
+      "fixed48h_edges_equal": true
+    },
+    {
+      "week": 2,
+      "case": "week_2_days_132",
+      "role": "target",
+      "physical_hour_positions_changed": 48,
+      "actual_107_coordinate_sequence_changed": true,
+      "all_six_native_arrays_bitwise_mapped": true,
+      "joint_day_multiset_equal": true,
+      "fixed48h_edges_equal": true
+    },
+    {
+      "week": 2,
+      "case": "week_2_days_213",
+      "role": "target",
+      "physical_hour_positions_changed": 48,
+      "actual_107_coordinate_sequence_changed": true,
+      "all_six_native_arrays_bitwise_mapped": true,
+      "joint_day_multiset_equal": true,
+      "fixed48h_edges_equal": true
+    },
+    {
+      "week": 2,
+      "case": "week_2_days_231",
+      "role": "target",
+      "physical_hour_positions_changed": 72,
+      "actual_107_coordinate_sequence_changed": true,
+      "all_six_native_arrays_bitwise_mapped": true,
+      "joint_day_multiset_equal": true,
+      "fixed48h_edges_equal": true
+    },
+    {
+      "week": 2,
+      "case": "week_2_days_312",
+      "role": "target",
+      "physical_hour_positions_changed": 72,
+      "actual_107_coordinate_sequence_changed": true,
+      "all_six_native_arrays_bitwise_mapped": true,
+      "joint_day_multiset_equal": true,
+      "fixed48h_edges_equal": true
+    },
+    {
+      "week": 2,
+      "case": "week_2_days_321",
+      "role": "target",
+      "physical_hour_positions_changed": 48,
+      "actual_107_coordinate_sequence_changed": true,
+      "all_six_native_arrays_bitwise_mapped": true,
+      "joint_day_multiset_equal": true,
+      "fixed48h_edges_equal": true
+    },
+    {
+      "week": 3,
+      "case": "week_3_days_123",
+      "role": "identity",
+      "physical_hour_positions_changed": 0,
+      "actual_107_coordinate_sequence_changed": false,
+      "all_six_native_arrays_bitwise_mapped": true,
+      "joint_day_multiset_equal": true,
+      "fixed48h_edges_equal": true
+    },
+    {
+      "week": 3,
+      "case": "week_3_days_132",
+      "role": "target",
+      "physical_hour_positions_changed": 48,
+      "actual_107_coordinate_sequence_changed": true,
+      "all_six_native_arrays_bitwise_mapped": true,
+      "joint_day_multiset_equal": true,
+      "fixed48h_edges_equal": true
+    },
+    {
+      "week": 3,
+      "case": "week_3_days_213",
+      "role": "target",
+      "physical_hour_positions_changed": 48,
+      "actual_107_coordinate_sequence_changed": true,
+      "all_six_native_arrays_bitwise_mapped": true,
+      "joint_day_multiset_equal": true,
+      "fixed48h_edges_equal": true
+    },
+    {
+      "week": 3,
+      "case": "week_3_days_231",
+      "role": "target",
+      "physical_hour_positions_changed": 72,
+      "actual_107_coordinate_sequence_changed": true,
+      "all_six_native_arrays_bitwise_mapped": true,
+      "joint_day_multiset_equal": true,
+      "fixed48h_edges_equal": true
+    },
+    {
+      "week": 3,
+      "case": "week_3_days_312",
+      "role": "target",
+      "physical_hour_positions_changed": 72,
+      "actual_107_coordinate_sequence_changed": true,
+      "all_six_native_arrays_bitwise_mapped": true,
+      "joint_day_multiset_equal": true,
+      "fixed48h_edges_equal": true
+    },
+    {
+      "week": 3,
+      "case": "week_3_days_321",
+      "role": "target",
+      "physical_hour_positions_changed": 48,
+      "actual_107_coordinate_sequence_changed": true,
+      "all_six_native_arrays_bitwise_mapped": true,
+      "joint_day_multiset_equal": true,
+      "fixed48h_edges_equal": true
+    }
+  ],
+  "invocation_checks": [
+    {
+      "invocation": 1,
+      "case": "week_1_days_123",
+      "complete_selected_tables_exact": true,
+      "rounded_binary_assignment_valid": true,
+      "cluster_order_matches_returned_assignment": true,
+      "medoid_is_in_its_cluster": true,
+      "circular_counts_and_P_exact": true,
+      "canonical_full_string_reproduced": true
+    },
+    {
+      "invocation": 2,
+      "case": "week_1_days_132",
+      "complete_selected_tables_exact": true,
+      "rounded_binary_assignment_valid": true,
+      "cluster_order_matches_returned_assignment": true,
+      "medoid_is_in_its_cluster": true,
+      "circular_counts_and_P_exact": true,
+      "canonical_full_string_reproduced": true
+    },
+    {
+      "invocation": 3,
+      "case": "week_1_days_213",
+      "complete_selected_tables_exact": true,
+      "rounded_binary_assignment_valid": true,
+      "cluster_order_matches_returned_assignment": true,
+      "medoid_is_in_its_cluster": true,
+      "circular_counts_and_P_exact": true,
+      "canonical_full_string_reproduced": true
+    },
+    {
+      "invocation": 4,
+      "case": "week_1_days_231",
+      "complete_selected_tables_exact": true,
+      "rounded_binary_assignment_valid": true,
+      "cluster_order_matches_returned_assignment": true,
+      "medoid_is_in_its_cluster": true,
+      "circular_counts_and_P_exact": true,
+      "canonical_full_string_reproduced": true
+    },
+    {
+      "invocation": 5,
+      "case": "week_1_days_312",
+      "complete_selected_tables_exact": true,
+      "rounded_binary_assignment_valid": true,
+      "cluster_order_matches_returned_assignment": true,
+      "medoid_is_in_its_cluster": true,
+      "circular_counts_and_P_exact": true,
+      "canonical_full_string_reproduced": true
+    },
+    {
+      "invocation": 6,
+      "case": "week_1_days_321",
+      "complete_selected_tables_exact": true,
+      "rounded_binary_assignment_valid": true,
+      "cluster_order_matches_returned_assignment": true,
+      "medoid_is_in_its_cluster": true,
+      "circular_counts_and_P_exact": true,
+      "canonical_full_string_reproduced": true
+    },
+    {
+      "invocation": 7,
+      "case": "week_1_days_123",
+      "complete_selected_tables_exact": true,
+      "rounded_binary_assignment_valid": true,
+      "cluster_order_matches_returned_assignment": true,
+      "medoid_is_in_its_cluster": true,
+      "circular_counts_and_P_exact": true,
+      "canonical_full_string_reproduced": true
+    },
+    {
+      "invocation": 8,
+      "case": "week_2_days_123",
+      "complete_selected_tables_exact": true,
+      "rounded_binary_assignment_valid": true,
+      "cluster_order_matches_returned_assignment": true,
+      "medoid_is_in_its_cluster": true,
+      "circular_counts_and_P_exact": true,
+      "canonical_full_string_reproduced": true
+    },
+    {
+      "invocation": 9,
+      "case": "week_2_days_132",
+      "complete_selected_tables_exact": true,
+      "rounded_binary_assignment_valid": true,
+      "cluster_order_matches_returned_assignment": true,
+      "medoid_is_in_its_cluster": true,
+      "circular_counts_and_P_exact": true,
+      "canonical_full_string_reproduced": true
+    },
+    {
+      "invocation": 10,
+      "case": "week_2_days_213",
+      "complete_selected_tables_exact": true,
+      "rounded_binary_assignment_valid": true,
+      "cluster_order_matches_returned_assignment": true,
+      "medoid_is_in_its_cluster": true,
+      "circular_counts_and_P_exact": true,
+      "canonical_full_string_reproduced": true
+    },
+    {
+      "invocation": 11,
+      "case": "week_2_days_231",
+      "complete_selected_tables_exact": true,
+      "rounded_binary_assignment_valid": true,
+      "cluster_order_matches_returned_assignment": true,
+      "medoid_is_in_its_cluster": true,
+      "circular_counts_and_P_exact": true,
+      "canonical_full_string_reproduced": true
+    },
+    {
+      "invocation": 12,
+      "case": "week_2_days_312",
+      "complete_selected_tables_exact": true,
+      "rounded_binary_assignment_valid": true,
+      "cluster_order_matches_returned_assignment": true,
+      "medoid_is_in_its_cluster": true,
+      "circular_counts_and_P_exact": true,
+      "canonical_full_string_reproduced": true
+    },
+    {
+      "invocation": 13,
+      "case": "week_2_days_321",
+      "complete_selected_tables_exact": true,
+      "rounded_binary_assignment_valid": true,
+      "cluster_order_matches_returned_assignment": true,
+      "medoid_is_in_its_cluster": true,
+      "circular_counts_and_P_exact": true,
+      "canonical_full_string_reproduced": true
+    },
+    {
+      "invocation": 14,
+      "case": "week_2_days_123",
+      "complete_selected_tables_exact": true,
+      "rounded_binary_assignment_valid": true,
+      "cluster_order_matches_returned_assignment": true,
+      "medoid_is_in_its_cluster": true,
+      "circular_counts_and_P_exact": true,
+      "canonical_full_string_reproduced": true
+    },
+    {
+      "invocation": 15,
+      "case": "week_3_days_123",
+      "complete_selected_tables_exact": true,
+      "rounded_binary_assignment_valid": true,
+      "cluster_order_matches_returned_assignment": true,
+      "medoid_is_in_its_cluster": true,
+      "circular_counts_and_P_exact": true,
+      "canonical_full_string_reproduced": true
+    },
+    {
+      "invocation": 16,
+      "case": "week_3_days_132",
+      "complete_selected_tables_exact": true,
+      "rounded_binary_assignment_valid": true,
+      "cluster_order_matches_returned_assignment": true,
+      "medoid_is_in_its_cluster": true,
+      "circular_counts_and_P_exact": true,
+      "canonical_full_string_reproduced": true
+    },
+    {
+      "invocation": 17,
+      "case": "week_3_days_213",
+      "complete_selected_tables_exact": true,
+      "rounded_binary_assignment_valid": true,
+      "cluster_order_matches_returned_assignment": true,
+      "medoid_is_in_its_cluster": true,
+      "circular_counts_and_P_exact": true,
+      "canonical_full_string_reproduced": true
+    },
+    {
+      "invocation": 18,
+      "case": "week_3_days_231",
+      "complete_selected_tables_exact": true,
+      "rounded_binary_assignment_valid": true,
+      "cluster_order_matches_returned_assignment": true,
+      "medoid_is_in_its_cluster": true,
+      "circular_counts_and_P_exact": true,
+      "canonical_full_string_reproduced": true
+    },
+    {
+      "invocation": 19,
+      "case": "week_3_days_312",
+      "complete_selected_tables_exact": true,
+      "rounded_binary_assignment_valid": true,
+      "cluster_order_matches_returned_assignment": true,
+      "medoid_is_in_its_cluster": true,
+      "circular_counts_and_P_exact": true,
+      "canonical_full_string_reproduced": true
+    },
+    {
+      "invocation": 20,
+      "case": "week_3_days_321",
+      "complete_selected_tables_exact": true,
+      "rounded_binary_assignment_valid": true,
+      "cluster_order_matches_returned_assignment": true,
+      "medoid_is_in_its_cluster": true,
+      "circular_counts_and_P_exact": true,
+      "canonical_full_string_reproduced": true
+    },
+    {
+      "invocation": 21,
+      "case": "week_3_days_123",
+      "complete_selected_tables_exact": true,
+      "rounded_binary_assignment_valid": true,
+      "cluster_order_matches_returned_assignment": true,
+      "medoid_is_in_its_cluster": true,
+      "circular_counts_and_P_exact": true,
+      "canonical_full_string_reproduced": true
+    }
+  ],
+  "comparisons": [
+    {
+      "week": 1,
+      "case": "week_1_days_132",
+      "day_order": [
+        1,
+        3,
+        2
+      ],
+      "role": "target",
+      "joint_identity_repeat_stable": true,
+      "primary_outcome": "DIFFERENT",
+      "primary_plus_hindex_outcome": "DIFFERENT",
+      "primary_compatible_maps": [],
+      "primary_and_hindex_compatible_maps": [],
+      "primary_equal": false,
+      "primary_and_hindex_equal": false
+    },
+    {
+      "week": 1,
+      "case": "week_1_days_213",
+      "day_order": [
+        2,
+        1,
+        3
+      ],
+      "role": "target",
+      "joint_identity_repeat_stable": true,
+      "primary_outcome": "EQUAL",
+      "primary_plus_hindex_outcome": "DIFFERENT",
+      "primary_compatible_maps": [
+        {
+          "rp01": "rp02",
+          "rp02": "rp01",
+          "rp03": "rp03"
+        }
+      ],
+      "primary_and_hindex_compatible_maps": [],
+      "primary_equal": true,
+      "primary_and_hindex_equal": false
+    },
+    {
+      "week": 1,
+      "case": "week_1_days_231",
+      "day_order": [
+        2,
+        3,
+        1
+      ],
+      "role": "target",
+      "joint_identity_repeat_stable": true,
+      "primary_outcome": "EQUAL",
+      "primary_plus_hindex_outcome": "DIFFERENT",
+      "primary_compatible_maps": [
+        {
+          "rp01": "rp02",
+          "rp02": "rp01",
+          "rp03": "rp03"
+        }
+      ],
+      "primary_and_hindex_compatible_maps": [],
+      "primary_equal": true,
+      "primary_and_hindex_equal": false
+    },
+    {
+      "week": 1,
+      "case": "week_1_days_312",
+      "day_order": [
+        3,
+        1,
+        2
+      ],
+      "role": "target",
+      "joint_identity_repeat_stable": true,
+      "primary_outcome": "DIFFERENT",
+      "primary_plus_hindex_outcome": "DIFFERENT",
+      "primary_compatible_maps": [],
+      "primary_and_hindex_compatible_maps": [],
+      "primary_equal": false,
+      "primary_and_hindex_equal": false
+    },
+    {
+      "week": 1,
+      "case": "week_1_days_321",
+      "day_order": [
+        3,
+        2,
+        1
+      ],
+      "role": "target",
+      "joint_identity_repeat_stable": true,
+      "primary_outcome": "EQUAL",
+      "primary_plus_hindex_outcome": "EQUAL",
+      "primary_compatible_maps": [
+        {
+          "rp01": "rp02",
+          "rp02": "rp01",
+          "rp03": "rp03"
+        }
+      ],
+      "primary_and_hindex_compatible_maps": [
+        {
+          "rp01": "rp02",
+          "rp02": "rp01",
+          "rp03": "rp03"
+        }
+      ],
+      "primary_equal": true,
+      "primary_and_hindex_equal": true
+    },
+    {
+      "week": 1,
+      "case": "week_1_days_123",
+      "day_order": [
+        1,
+        2,
+        3
+      ],
+      "role": "identity_repeat",
+      "joint_identity_repeat_stable": true,
+      "primary_outcome": "EQUAL",
+      "primary_plus_hindex_outcome": "EQUAL",
+      "primary_compatible_maps": [
+        {
+          "rp01": "rp01",
+          "rp02": "rp02",
+          "rp03": "rp03"
+        }
+      ],
+      "primary_and_hindex_compatible_maps": [
+        {
+          "rp01": "rp01",
+          "rp02": "rp02",
+          "rp03": "rp03"
+        }
+      ],
+      "primary_equal": true,
+      "primary_and_hindex_equal": true
+    },
+    {
+      "week": 2,
+      "case": "week_2_days_132",
+      "day_order": [
+        1,
+        3,
+        2
+      ],
+      "role": "target",
+      "joint_identity_repeat_stable": true,
+      "primary_outcome": "DIFFERENT",
+      "primary_plus_hindex_outcome": "DIFFERENT",
+      "primary_compatible_maps": [],
+      "primary_and_hindex_compatible_maps": [],
+      "primary_equal": false,
+      "primary_and_hindex_equal": false
+    },
+    {
+      "week": 2,
+      "case": "week_2_days_213",
+      "day_order": [
+        2,
+        1,
+        3
+      ],
+      "role": "target",
+      "joint_identity_repeat_stable": true,
+      "primary_outcome": "DIFFERENT",
+      "primary_plus_hindex_outcome": "DIFFERENT",
+      "primary_compatible_maps": [],
+      "primary_and_hindex_compatible_maps": [],
+      "primary_equal": false,
+      "primary_and_hindex_equal": false
+    },
+    {
+      "week": 2,
+      "case": "week_2_days_231",
+      "day_order": [
+        2,
+        3,
+        1
+      ],
+      "role": "target",
+      "joint_identity_repeat_stable": true,
+      "primary_outcome": "DIFFERENT",
+      "primary_plus_hindex_outcome": "DIFFERENT",
+      "primary_compatible_maps": [],
+      "primary_and_hindex_compatible_maps": [],
+      "primary_equal": false,
+      "primary_and_hindex_equal": false
+    },
+    {
+      "week": 2,
+      "case": "week_2_days_312",
+      "day_order": [
+        3,
+        1,
+        2
+      ],
+      "role": "target",
+      "joint_identity_repeat_stable": true,
+      "primary_outcome": "DIFFERENT",
+      "primary_plus_hindex_outcome": "DIFFERENT",
+      "primary_compatible_maps": [],
+      "primary_and_hindex_compatible_maps": [],
+      "primary_equal": false,
+      "primary_and_hindex_equal": false
+    },
+    {
+      "week": 2,
+      "case": "week_2_days_321",
+      "day_order": [
+        3,
+        2,
+        1
+      ],
+      "role": "target",
+      "joint_identity_repeat_stable": true,
+      "primary_outcome": "EQUAL",
+      "primary_plus_hindex_outcome": "EQUAL",
+      "primary_compatible_maps": [
+        {
+          "rp01": "rp01",
+          "rp02": "rp03",
+          "rp03": "rp02"
+        }
+      ],
+      "primary_and_hindex_compatible_maps": [
+        {
+          "rp01": "rp01",
+          "rp02": "rp03",
+          "rp03": "rp02"
+        }
+      ],
+      "primary_equal": true,
+      "primary_and_hindex_equal": true
+    },
+    {
+      "week": 2,
+      "case": "week_2_days_123",
+      "day_order": [
+        1,
+        2,
+        3
+      ],
+      "role": "identity_repeat",
+      "joint_identity_repeat_stable": true,
+      "primary_outcome": "EQUAL",
+      "primary_plus_hindex_outcome": "EQUAL",
+      "primary_compatible_maps": [
+        {
+          "rp01": "rp01",
+          "rp02": "rp02",
+          "rp03": "rp03"
+        }
+      ],
+      "primary_and_hindex_compatible_maps": [
+        {
+          "rp01": "rp01",
+          "rp02": "rp02",
+          "rp03": "rp03"
+        }
+      ],
+      "primary_equal": true,
+      "primary_and_hindex_equal": true
+    },
+    {
+      "week": 3,
+      "case": "week_3_days_132",
+      "day_order": [
+        1,
+        3,
+        2
+      ],
+      "role": "target",
+      "joint_identity_repeat_stable": true,
+      "primary_outcome": "EQUAL",
+      "primary_plus_hindex_outcome": "EQUAL",
+      "primary_compatible_maps": [
+        {
+          "rp01": "rp01",
+          "rp02": "rp02",
+          "rp03": "rp03"
+        }
+      ],
+      "primary_and_hindex_compatible_maps": [
+        {
+          "rp01": "rp01",
+          "rp02": "rp02",
+          "rp03": "rp03"
+        }
+      ],
+      "primary_equal": true,
+      "primary_and_hindex_equal": true
+    },
+    {
+      "week": 3,
+      "case": "week_3_days_213",
+      "day_order": [
+        2,
+        1,
+        3
+      ],
+      "role": "target",
+      "joint_identity_repeat_stable": true,
+      "primary_outcome": "DIFFERENT",
+      "primary_plus_hindex_outcome": "DIFFERENT",
+      "primary_compatible_maps": [],
+      "primary_and_hindex_compatible_maps": [],
+      "primary_equal": false,
+      "primary_and_hindex_equal": false
+    },
+    {
+      "week": 3,
+      "case": "week_3_days_231",
+      "day_order": [
+        2,
+        3,
+        1
+      ],
+      "role": "target",
+      "joint_identity_repeat_stable": true,
+      "primary_outcome": "DIFFERENT",
+      "primary_plus_hindex_outcome": "DIFFERENT",
+      "primary_compatible_maps": [],
+      "primary_and_hindex_compatible_maps": [],
+      "primary_equal": false,
+      "primary_and_hindex_equal": false
+    },
+    {
+      "week": 3,
+      "case": "week_3_days_312",
+      "day_order": [
+        3,
+        1,
+        2
+      ],
+      "role": "target",
+      "joint_identity_repeat_stable": true,
+      "primary_outcome": "DIFFERENT",
+      "primary_plus_hindex_outcome": "DIFFERENT",
+      "primary_compatible_maps": [],
+      "primary_and_hindex_compatible_maps": [],
+      "primary_equal": false,
+      "primary_and_hindex_equal": false
+    },
+    {
+      "week": 3,
+      "case": "week_3_days_321",
+      "day_order": [
+        3,
+        2,
+        1
+      ],
+      "role": "target",
+      "joint_identity_repeat_stable": true,
+      "primary_outcome": "DIFFERENT",
+      "primary_plus_hindex_outcome": "DIFFERENT",
+      "primary_compatible_maps": [],
+      "primary_and_hindex_compatible_maps": [],
+      "primary_equal": false,
+      "primary_and_hindex_equal": false
+    },
+    {
+      "week": 3,
+      "case": "week_3_days_123",
+      "day_order": [
+        1,
+        2,
+        3
+      ],
+      "role": "identity_repeat",
+      "joint_identity_repeat_stable": true,
+      "primary_outcome": "EQUAL",
+      "primary_plus_hindex_outcome": "EQUAL",
+      "primary_compatible_maps": [
+        {
+          "rp01": "rp01",
+          "rp02": "rp02",
+          "rp03": "rp03"
+        }
+      ],
+      "primary_and_hindex_compatible_maps": [
+        {
+          "rp01": "rp01",
+          "rp02": "rp02",
+          "rp03": "rp03"
+        }
+      ],
+      "primary_equal": true,
+      "primary_and_hindex_equal": true
+    }
+  ],
+  "primary_equal_target_cases": [
+    "week_1_days_213",
+    "week_1_days_231",
+    "week_1_days_321",
+    "week_2_days_321",
+    "week_3_days_132"
+  ],
+  "primary_plus_hindex_equal_target_cases": [
+    "week_1_days_321",
+    "week_2_days_321",
+    "week_3_days_132"
+  ],
+  "target_denominator": 15,
+  "comparison_denominator": 18,
+  "invocation_denominator": 21,
+  "all_three_joint_identity_repeats_equal": true,
+  "unknowns": 0,
+  "producer_clustering_calls": 21,
+  "producer_uc_calls": 0,
+  "producer_solver_seconds": 4.392376500094542,
+  "producer_phase_seconds": 137.51569500000915,
+  "reviewer_optimizer_calls": 0,
+  "reviewer_clustering_calls": 0,
+  "producer_imports": 0,
+  "scope": "Saved full-profile/whole107 native transport, rounded assignments, transitions, canonical strings and all compatible same-label Hindex maps. No re-clustering, medoid optimum proof, full physical-model equivalence or operational recourse proof replay.",
+  "elapsed_before_report_write_seconds": 54.76502210000763
+}

@@ -1,0 +1,51 @@
+{
+  "status": "PASS_SYNTHETIC_ONLY",
+  "tests": [
+    {
+      "name": "noncanonical_segments_are_valid_but_cost_more",
+      "matrix_accepted": true,
+      "direct_accepted": true
+    },
+    {
+      "name": "fractional_startup_category_rejected",
+      "matrix_accepted": false,
+      "direct_accepted": false
+    },
+    {
+      "name": "native_curtailment_is_a_real_feasible_variable",
+      "matrix_accepted": true,
+      "direct_accepted": true
+    },
+    {
+      "name": "same_curtailment_point_fails_hard_service",
+      "matrix_accepted": false,
+      "direct_accepted": false
+    },
+    {
+      "name": "initially_on_shutdown_respects_native_above_minimum_row",
+      "matrix_accepted": false,
+      "direct_accepted": false
+    },
+    {
+      "name": "residual_initial_dwell_not_reset",
+      "matrix_accepted": false,
+      "direct_accepted": false
+    },
+    {
+      "name": "semantic_cost_detects_objective_tampering",
+      "accepted_tamper": false
+    },
+    {
+      "name": "deleted_initial_ramp_caught_independently",
+      "accepted_tamper": false
+    },
+    {
+      "name": "outside_nominal_PWL_domain_returns_null_without_clipping",
+      "diagnostic": null
+    }
+  ],
+  "scientific_models_built": 0,
+  "scientific_permutations_generated": 0,
+  "solver_calls": 0,
+  "network_calls": 0
+}

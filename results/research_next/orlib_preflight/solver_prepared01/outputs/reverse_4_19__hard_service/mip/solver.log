@@ -1,0 +1,45 @@
+Running HiGHS 1.12.0 (git hash: 755a8e0): Copyright (c) 2025 HiGHS under MIT licence terms
+MIP has 4384 rows; 2472 cols; 15919 nonzeros; 960 integer variables (960 binary)
+Coefficient ranges:
+  Matrix  [1e+00, 2e+02]
+  Cost    [4e+01, 8e+03]
+  Bound   [1e+00, 2e+02]
+  RHS     [1e+00, 1e+03]
+Presolving model
+3707 rows, 1793 cols, 12702 nonzeros  0s
+2319 rows, 1767 cols, 7731 nonzeros  0s
+1974 rows, 1456 cols, 8715 nonzeros  0s
+1754 rows, 1426 cols, 8398 nonzeros  0s
+Presolve reductions: rows 1754(-2630); columns 1426(-1046); nonzeros 8398(-7521) 
+
+Solving MIP model with:
+   1754 rows
+   1426 cols (480 binary, 0 integer, 0 implied int., 946 continuous, 0 domain fixed)
+   8398 nonzeros
+
+Src: B => Branching; C => Central rounding; F => Feasibility pump; H => Heuristic;
+     I => Shifting; J => Feasibility jump; L => Sub-MIP; P => Empty MIP; R => Randomized rounding;
+     S => Solve LP; T => Evaluate node; U => Unbounded; X => User solution; Y => HiGHS solution;
+     Z => ZI Round; l => Trivial lower; p => Trivial point; u => Trivial upper; z => Trivial zero
+
+        Nodes      |    B&B Tree     |            Objective Bounds              |  Dynamic Constraints |       Work      
+Src  Proc. InQueue |  Leaves   Expl. | BestBound       BestSol              Gap |   Cuts   InLp Confl. | LpIters     Time
+
+         0       0         0   0.00%   310034.359386   inf                  inf        0      0      0         0     0.5s
+         1       0         1 100.00%   inf             inf                  inf        0      0      0       787     0.5s
+
+Solving report
+  Status            Infeasible
+  Primal bound      inf
+  Dual bound        inf
+  Gap               inf
+  P-D integral      0
+  Solution status   -
+  Timing            0.53
+  Max sub-MIP depth 0
+  Nodes             1
+  Repair LPs        0
+  LP iterations     787
+                    0 (strong br.)
+                    0 (separation)
+                    0 (heuristics)

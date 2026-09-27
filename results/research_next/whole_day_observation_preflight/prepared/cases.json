@@ -1,0 +1,256 @@
+{
+  "cases": [
+    {
+      "week": 1,
+      "case": "week_1_days_123",
+      "day_order": [
+        1,
+        2,
+        3
+      ],
+      "role": "identity",
+      "projection_file": "week_1_days_123.json",
+      "projection_sha256": "0eef8af90d4b6f17507f4f254c49ec995393e3c18b29fbf89e31eed552f814a5",
+      "native_input_path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\hour_of_day\\january_identity\\native_inputs.npz",
+      "provenance_kind": "existing_identity_native_input"
+    },
+    {
+      "week": 1,
+      "case": "week_1_days_132",
+      "day_order": [
+        1,
+        3,
+        2
+      ],
+      "role": "target",
+      "projection_file": "week_1_days_132.json",
+      "projection_sha256": "17a45cfd4f1604204a4f2d1f794fc2a0463d7ccd8eb1bd15c684bc6d6f1e0dad",
+      "native_input_path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\day_blocks\\days_132\\native_inputs.npz",
+      "provenance_kind": "existing_week1_day_archive_reused_no_native_or_model_rebuild"
+    },
+    {
+      "week": 1,
+      "case": "week_1_days_213",
+      "day_order": [
+        2,
+        1,
+        3
+      ],
+      "role": "target",
+      "projection_file": "week_1_days_213.json",
+      "projection_sha256": "c7d2a487cbcc311262ff374ae1567536cc9fb90984dcac7f54626e9089e8e27f",
+      "native_input_path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\day_blocks\\days_213\\native_inputs.npz",
+      "provenance_kind": "existing_week1_day_archive_reused_no_native_or_model_rebuild"
+    },
+    {
+      "week": 1,
+      "case": "week_1_days_231",
+      "day_order": [
+        2,
+        3,
+        1
+      ],
+      "role": "target",
+      "projection_file": "week_1_days_231.json",
+      "projection_sha256": "5d2f66d1e9a11dce974d258de91c1cb9a1019bec523e70fa82697a03246c921e",
+      "native_input_path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\day_blocks\\days_231\\native_inputs.npz",
+      "provenance_kind": "existing_week1_day_archive_reused_no_native_or_model_rebuild"
+    },
+    {
+      "week": 1,
+      "case": "week_1_days_312",
+      "day_order": [
+        3,
+        1,
+        2
+      ],
+      "role": "target",
+      "projection_file": "week_1_days_312.json",
+      "projection_sha256": "6c02975040b52e87e56b12a0f1ead1aa68d506bda7b743cc6fd9f24b6b36198c",
+      "native_input_path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\day_blocks\\days_312\\native_inputs.npz",
+      "provenance_kind": "existing_week1_day_archive_reused_no_native_or_model_rebuild"
+    },
+    {
+      "week": 1,
+      "case": "week_1_days_321",
+      "day_order": [
+        3,
+        2,
+        1
+      ],
+      "role": "target",
+      "projection_file": "week_1_days_321.json",
+      "projection_sha256": "579501dd6133b8c573743604ab2a3f63b5c95ce37902668cc2133e5b5aed8dc1",
+      "native_input_path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\day_blocks\\days_321\\native_inputs.npz",
+      "provenance_kind": "existing_week1_day_archive_reused_no_native_or_model_rebuild"
+    },
+    {
+      "week": 2,
+      "case": "week_2_days_123",
+      "day_order": [
+        1,
+        2,
+        3
+      ],
+      "role": "identity",
+      "projection_file": "week_2_days_123.json",
+      "projection_sha256": "03627b72c436a6bb7158e36e8e8eb818aee7bcaaf5fd7b48f6e7cadd957279a5",
+      "native_input_path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\fresh_january_weeks\\targets\\week_2_identity\\native_inputs.npz",
+      "provenance_kind": "existing_identity_native_input"
+    },
+    {
+      "week": 2,
+      "case": "week_2_days_132",
+      "day_order": [
+        1,
+        3,
+        2
+      ],
+      "role": "target",
+      "projection_file": "week_2_days_132.json",
+      "projection_sha256": "9a31945defd0445ae2ec03666fb4da99f4fab2866314620d9e00abfa314ef007",
+      "native_input_path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\whole_day_observation_preflight\\prepared\\new_native_inputs\\week_2_days_132\\native_inputs.npz",
+      "provenance_kind": "new_week2_or_3_native_permutation_only_no_UC_model"
+    },
+    {
+      "week": 2,
+      "case": "week_2_days_213",
+      "day_order": [
+        2,
+        1,
+        3
+      ],
+      "role": "target",
+      "projection_file": "week_2_days_213.json",
+      "projection_sha256": "fa0f839c0a1823c89b8a8f8ea77eb265ccd26a644888dbb489c1ead3e9a0dae1",
+      "native_input_path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\whole_day_observation_preflight\\prepared\\new_native_inputs\\week_2_days_213\\native_inputs.npz",
+      "provenance_kind": "new_week2_or_3_native_permutation_only_no_UC_model"
+    },
+    {
+      "week": 2,
+      "case": "week_2_days_231",
+      "day_order": [
+        2,
+        3,
+        1
+      ],
+      "role": "target",
+      "projection_file": "week_2_days_231.json",
+      "projection_sha256": "e0726613fbdacd31047c7d96b825a4ea686bc2c3632da6ba6f47a17f2c4388e0",
+      "native_input_path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\whole_day_observation_preflight\\prepared\\new_native_inputs\\week_2_days_231\\native_inputs.npz",
+      "provenance_kind": "new_week2_or_3_native_permutation_only_no_UC_model"
+    },
+    {
+      "week": 2,
+      "case": "week_2_days_312",
+      "day_order": [
+        3,
+        1,
+        2
+      ],
+      "role": "target",
+      "projection_file": "week_2_days_312.json",
+      "projection_sha256": "99a8e1cf5a511ac2bc3cee46025fe74aa9e35e67981523a5f46824e2a6561d32",
+      "native_input_path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\whole_day_observation_preflight\\prepared\\new_native_inputs\\week_2_days_312\\native_inputs.npz",
+      "provenance_kind": "new_week2_or_3_native_permutation_only_no_UC_model"
+    },
+    {
+      "week": 2,
+      "case": "week_2_days_321",
+      "day_order": [
+        3,
+        2,
+        1
+      ],
+      "role": "target",
+      "projection_file": "week_2_days_321.json",
+      "projection_sha256": "2dd1d4fbf7e493ef62fff2f0797a6815f27f821d51980ac3a66fa618876dc8ff",
+      "native_input_path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\whole_day_observation_preflight\\prepared\\new_native_inputs\\week_2_days_321\\native_inputs.npz",
+      "provenance_kind": "new_week2_or_3_native_permutation_only_no_UC_model"
+    },
+    {
+      "week": 3,
+      "case": "week_3_days_123",
+      "day_order": [
+        1,
+        2,
+        3
+      ],
+      "role": "identity",
+      "projection_file": "week_3_days_123.json",
+      "projection_sha256": "e17cff72943c35810354c725fed7697be8e08a1af83241bca5cab8d4cd21e70b",
+      "native_input_path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\fresh_january_weeks\\targets\\week_3_identity\\native_inputs.npz",
+      "provenance_kind": "existing_identity_native_input"
+    },
+    {
+      "week": 3,
+      "case": "week_3_days_132",
+      "day_order": [
+        1,
+        3,
+        2
+      ],
+      "role": "target",
+      "projection_file": "week_3_days_132.json",
+      "projection_sha256": "0e300c98d9b6b3ea905701ab047cdd2505760db26e650086a6ba0f7bb763b7fc",
+      "native_input_path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\whole_day_observation_preflight\\prepared\\new_native_inputs\\week_3_days_132\\native_inputs.npz",
+      "provenance_kind": "new_week2_or_3_native_permutation_only_no_UC_model"
+    },
+    {
+      "week": 3,
+      "case": "week_3_days_213",
+      "day_order": [
+        2,
+        1,
+        3
+      ],
+      "role": "target",
+      "projection_file": "week_3_days_213.json",
+      "projection_sha256": "54ab5ab3eca08df9f3ee1247af5e16279597003efe73988623e5a9e498ad8c44",
+      "native_input_path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\whole_day_observation_preflight\\prepared\\new_native_inputs\\week_3_days_213\\native_inputs.npz",
+      "provenance_kind": "new_week2_or_3_native_permutation_only_no_UC_model"
+    },
+    {
+      "week": 3,
+      "case": "week_3_days_231",
+      "day_order": [
+        2,
+        3,
+        1
+      ],
+      "role": "target",
+      "projection_file": "week_3_days_231.json",
+      "projection_sha256": "697ead1b100154370fc7d9f53da8c7d01d4b6b438b3a96c5a545b22331a1526c",
+      "native_input_path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\whole_day_observation_preflight\\prepared\\new_native_inputs\\week_3_days_231\\native_inputs.npz",
+      "provenance_kind": "new_week2_or_3_native_permutation_only_no_UC_model"
+    },
+    {
+      "week": 3,
+      "case": "week_3_days_312",
+      "day_order": [
+        3,
+        1,
+        2
+      ],
+      "role": "target",
+      "projection_file": "week_3_days_312.json",
+      "projection_sha256": "673a6b4dd4665681b6060eee36890071a68750e8aa62aba8ce96ec907a8cf00a",
+      "native_input_path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\whole_day_observation_preflight\\prepared\\new_native_inputs\\week_3_days_312\\native_inputs.npz",
+      "provenance_kind": "new_week2_or_3_native_permutation_only_no_UC_model"
+    },
+    {
+      "week": 3,
+      "case": "week_3_days_321",
+      "day_order": [
+        3,
+        2,
+        1
+      ],
+      "role": "target",
+      "projection_file": "week_3_days_321.json",
+      "projection_sha256": "d7d074a761d471e7198e95ce0b5efe9ba83ff356342051a0cea23e0b081af8ff",
+      "native_input_path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\whole_day_observation_preflight\\prepared\\new_native_inputs\\week_3_days_321\\native_inputs.npz",
+      "provenance_kind": "new_week2_or_3_native_permutation_only_no_UC_model"
+    }
+  ]
+}

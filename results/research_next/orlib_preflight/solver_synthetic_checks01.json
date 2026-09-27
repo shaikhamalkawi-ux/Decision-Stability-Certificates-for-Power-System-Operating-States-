@@ -1,0 +1,32 @@
+{
+  "status": "PASS_SYNTHETIC_EXACT_BOUND_TESTS_ONLY",
+  "checks": [
+    {
+      "name": "positive_lower_row",
+      "status": "PASS"
+    },
+    {
+      "name": "negative_upper_row",
+      "status": "PASS"
+    },
+    {
+      "name": "imperfect_stationarity_small_dual",
+      "status": "PASS"
+    },
+    {
+      "name": "imperfect_stationarity_large_dual",
+      "status": "PASS"
+    },
+    {
+      "name": "infinite_selected_bound_projection",
+      "status": "PASS"
+    },
+    {
+      "name": "zero_dual",
+      "status": "PASS"
+    }
+  ],
+  "solver_calls": 0,
+  "scientific_models_built": 0,
+  "scientific_inputs_read": 0
+}

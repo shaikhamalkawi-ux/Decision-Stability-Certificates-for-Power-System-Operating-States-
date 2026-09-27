@@ -1,0 +1,41 @@
+{
+  "utc": "2026-09-27T07:41:02.497469+00:00",
+  "status": "COMPLETE",
+  "fixed_targets": 15,
+  "fixed_invocations": 21,
+  "calls_started": 21,
+  "uc_calls": 0,
+  "new_UC_models": 0,
+  "solver_seconds": 4.392376500094542,
+  "soft_call_overruns": [],
+  "phase_seconds": 137.51569500000915,
+  "phase_limit_seconds": 1200,
+  "phase_overrun": 0,
+  "unknown_invocations": 0,
+  "all_hashes_unchanged": true,
+  "prepared_transport_hashes_unchanged": true,
+  "prepared_transport_bindings": [
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\whole_day_observation_preflight\\prepared\\prepared_freeze.json",
+      "sha256": "3b5da114904111edd8ad3e35d2bb5ad33a7c7cfeead23a5eca5ad1f2995bd422",
+      "bytes": 886
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\whole_day_observation_preflight\\prepared\\cases.json",
+      "sha256": "e579e6fd7ec2533cf2e6e8931277c6c3b90ba83d80bc1ddfd9c8d80f948c6ff7",
+      "bytes": 10489
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\whole_day_observation_preflight\\prepared\\schedule.json",
+      "sha256": "c99a40dba397faaa26e0d7db27df67e9115daa46b2f789b2ff1c2f541f84e356",
+      "bytes": 13440
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\whole_day_observation_preflight\\prepared\\input_manifest.json",
+      "sha256": "55a71e4d02e4523da084e2a468393e23cf3d0afb12f637e698155d0592e7cfd3",
+      "bytes": 48837
+    }
+  ],
+  "no_retries_or_fallback": true,
+  "week2_3_fixed_ray_scores_computed": 0
+}

@@ -1,0 +1,46 @@
+{
+  "kind": "mip",
+  "options": {
+    "time_limit": 300.0,
+    "threads": 1,
+    "random_seed": 0,
+    "presolve": "on",
+    "mip_rel_gap": 1e-08,
+    "log_to_console": false,
+    "log_file": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\orlib_preflight\\solver_prepared01\\outputs\\identity__native_penalized\\mip\\solver.log"
+  },
+  "solver_version": "1.12.0",
+  "solver_calls": 1,
+  "verdict": "EXACT_EXPANDED_FULL_BINARY_UPPER_WITNESS",
+  "exact_optimality_claim": false,
+  "accepted_expanded_upper": {
+    "numerator": "21513444555664356003273356714053400780148197047959",
+    "denominator": "11150372599265311570767859136324180752990208",
+    "approximate": 1929392.4363641317
+  },
+  "accepted_nominal_upper": null,
+  "selected_expanded_lower": null,
+  "selected_nominal_lower": null,
+  "started_utc": "2026-09-27T07:40:53.683772+00:00",
+  "ended_utc": "2026-09-27T07:41:35.044207+00:00",
+  "elapsed_seconds": 41.302652599988505,
+  "run_status": "HighsStatus.kOk",
+  "model_status": "Optimal",
+  "solution_value_valid": true,
+  "solution_dual_valid": false,
+  "numeric_objective": 1929392.4363641315,
+  "numeric_mip_bound": 1929392.4363641315,
+  "numeric_mip_gap": 0.0,
+  "primal_solution_status": 2,
+  "dual_solution_status": 0,
+  "mip_node_count": 1,
+  "simplex_iterations": 20670,
+  "time_limit_overrun_seconds": 0.0,
+  "candidate_eligible": true,
+  "exact_maximum_binary_snap": {
+    "numerator": "4321560747175127",
+    "denominator": "79228162514264337593543950336",
+    "approximate": 5.4545765167746605e-14
+  },
+  "nominal_strict_witness": false
+}

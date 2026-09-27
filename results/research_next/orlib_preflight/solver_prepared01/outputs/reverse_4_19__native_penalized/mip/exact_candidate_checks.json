@@ -1,0 +1,57 @@
+{
+  "matrix": {
+    "accepted": true,
+    "tau": {
+      "numerator": "5902958103587057",
+      "denominator": "590295810358705651712",
+      "approximate": 1e-05
+    },
+    "nominal_max_violation": {
+      "numerator": "55",
+      "denominator": "35184372088832",
+      "approximate": 1.5631940186722204e-12
+    },
+    "exact_objective": {
+      "numerator": "688637615591450462859699662708988826686810673863",
+      "denominator": "348449143727040986586495598010130648530944",
+      "approximate": 1976293.0344030275
+    },
+    "failures": []
+  },
+  "direct": {
+    "accepted": true,
+    "tau": {
+      "numerator": "5902958103587057",
+      "denominator": "590295810358705651712",
+      "approximate": 1e-05
+    },
+    "nominal_max_violation": {
+      "numerator": "55",
+      "denominator": "35184372088832",
+      "approximate": 1.5631940186722204e-12
+    },
+    "exact_saved_segment_objective": {
+      "numerator": "688637615591450462859699662708988826686810673863",
+      "denominator": "348449143727040986586495598010130648530944",
+      "approximate": 1976293.0344030275
+    },
+    "canonical_greedy_cost_diagnostic": null,
+    "canonical_domain_failures": [
+      "outside_nominal_PWL_domain:g1:7",
+      "outside_nominal_PWL_domain:g1:8",
+      "outside_nominal_PWL_domain:g1:9",
+      "outside_nominal_PWL_domain:g3:10",
+      "outside_nominal_PWL_domain:g3:11",
+      "outside_nominal_PWL_domain:g4:0",
+      "outside_nominal_PWL_domain:g4:1",
+      "outside_nominal_PWL_domain:g4:2",
+      "outside_nominal_PWL_domain:g7:7",
+      "outside_nominal_PWL_domain:g7:11",
+      "outside_nominal_PWL_domain:g8:8"
+    ],
+    "canonical_cost_is_not_substituted_for_saved_objective": true,
+    "failures": []
+  },
+  "all_binary_columns_snapped": 960,
+  "continuous_bytes_preserved": true
+}

@@ -1,0 +1,71 @@
+{
+  "matrix": {
+    "accepted": true,
+    "tau": {
+      "numerator": "5902958103587057",
+      "denominator": "590295810358705651712",
+      "approximate": 1e-05
+    },
+    "nominal_max_violation": {
+      "numerator": "453",
+      "denominator": "70368744177664",
+      "approximate": 6.437517185986508e-12
+    },
+    "exact_objective": {
+      "numerator": "21513444555664356003273356714053400780148197047959",
+      "denominator": "11150372599265311570767859136324180752990208",
+      "approximate": 1929392.4363641317
+    },
+    "failures": []
+  },
+  "direct": {
+    "accepted": true,
+    "tau": {
+      "numerator": "5902958103587057",
+      "denominator": "590295810358705651712",
+      "approximate": 1e-05
+    },
+    "nominal_max_violation": {
+      "numerator": "453",
+      "denominator": "70368744177664",
+      "approximate": 6.437517185986508e-12
+    },
+    "exact_saved_segment_objective": {
+      "numerator": "21513444555664356003273356714053400780148197047959",
+      "denominator": "11150372599265311570767859136324180752990208",
+      "approximate": 1929392.4363641317
+    },
+    "canonical_greedy_cost_diagnostic": null,
+    "canonical_domain_failures": [
+      "outside_nominal_PWL_domain:g0:7",
+      "outside_nominal_PWL_domain:g0:18",
+      "outside_nominal_PWL_domain:g0:19",
+      "outside_nominal_PWL_domain:g0:20",
+      "outside_nominal_PWL_domain:g1:6",
+      "outside_nominal_PWL_domain:g1:10",
+      "outside_nominal_PWL_domain:g1:11",
+      "outside_nominal_PWL_domain:g4:0",
+      "outside_nominal_PWL_domain:g4:1",
+      "outside_nominal_PWL_domain:g4:2",
+      "outside_nominal_PWL_domain:g4:3",
+      "outside_nominal_PWL_domain:g4:4",
+      "outside_nominal_PWL_domain:g4:5",
+      "outside_nominal_PWL_domain:g4:6",
+      "outside_nominal_PWL_domain:g4:7",
+      "outside_nominal_PWL_domain:g5:2",
+      "outside_nominal_PWL_domain:g5:21",
+      "outside_nominal_PWL_domain:g5:22",
+      "outside_nominal_PWL_domain:g5:23",
+      "outside_nominal_PWL_domain:g7:19",
+      "outside_nominal_PWL_domain:g7:20",
+      "outside_nominal_PWL_domain:g7:21",
+      "outside_nominal_PWL_domain:g7:23",
+      "outside_nominal_PWL_domain:g8:6",
+      "outside_nominal_PWL_domain:g8:21"
+    ],
+    "canonical_cost_is_not_substituted_for_saved_objective": true,
+    "failures": []
+  },
+  "all_binary_columns_snapped": 960,
+  "continuous_bytes_preserved": true
+}

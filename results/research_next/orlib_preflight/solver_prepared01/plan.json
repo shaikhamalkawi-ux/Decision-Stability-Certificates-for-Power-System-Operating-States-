@@ -1,0 +1,99 @@
+{
+  "schema": "orlib-solver-plan-v1",
+  "status": "PREPARED_NOT_RUN",
+  "source_adapter_sha256": "e2b137f6a7ba23d1a9b12663ee1deee7bf2a3fffdd1f95d4718fb9ba37d17dc1",
+  "adapter_protocol_sha256": "4fb15c1525405561a7c9ce19f5d4bb01dde55ff014b70bd55173d067f929f04a",
+  "solver_source_sha256": "2659f11efe5d817fe70f007e514b99dbc992408db3482e825719175bee458e5a",
+  "solver_protocol_sha256": "c7b4e5033095b6119838c8bea6d79362fadcecd736cecdb6abb1daf9585d05ff",
+  "adapter_manifest_sha256": "8cf0b37220f521cd1365c4a0ad05199bafb0a634eeb28cc0642c1e31b4c3b205",
+  "models": [
+    "identity__native_penalized",
+    "identity__hard_service",
+    "reverse_4_19__native_penalized",
+    "reverse_4_19__hard_service",
+    "rotate_left1_4_19__native_penalized",
+    "rotate_left1_4_19__hard_service"
+  ],
+  "sequence": [
+    {
+      "model": "identity__native_penalized",
+      "kind": "mip"
+    },
+    {
+      "model": "identity__native_penalized",
+      "kind": "lp"
+    },
+    {
+      "model": "identity__hard_service",
+      "kind": "mip"
+    },
+    {
+      "model": "identity__hard_service",
+      "kind": "lp"
+    },
+    {
+      "model": "reverse_4_19__native_penalized",
+      "kind": "mip"
+    },
+    {
+      "model": "reverse_4_19__native_penalized",
+      "kind": "lp"
+    },
+    {
+      "model": "reverse_4_19__hard_service",
+      "kind": "mip"
+    },
+    {
+      "model": "reverse_4_19__hard_service",
+      "kind": "lp"
+    },
+    {
+      "model": "rotate_left1_4_19__native_penalized",
+      "kind": "mip"
+    },
+    {
+      "model": "rotate_left1_4_19__native_penalized",
+      "kind": "lp"
+    },
+    {
+      "model": "rotate_left1_4_19__hard_service",
+      "kind": "mip"
+    },
+    {
+      "model": "rotate_left1_4_19__hard_service",
+      "kind": "lp"
+    }
+  ],
+  "options": {
+    "mip": {
+      "time_limit": 300.0,
+      "threads": 1,
+      "random_seed": 0,
+      "presolve": "on",
+      "mip_rel_gap": 1e-08
+    },
+    "lp": {
+      "time_limit": 30.0,
+      "threads": 1,
+      "random_seed": 0,
+      "solver": "simplex",
+      "presolve": "off"
+    }
+  },
+  "phase_seconds": 2700.0,
+  "guard_padding_seconds": 5.0,
+  "tau_binary64": 1e-05,
+  "tau_exact": {
+    "numerator": "5902958103587057",
+    "denominator": "590295810358705651712",
+    "approximate": 1e-05
+  },
+  "runtime": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "numpy": "2.3.5",
+    "highspy": "1.12.0"
+  },
+  "binary_columns_per_model": 960,
+  "native_export_identity": "NOT_TESTED",
+  "solver_calls": 0
+}

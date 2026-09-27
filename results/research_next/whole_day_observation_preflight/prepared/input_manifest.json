@@ -1,0 +1,854 @@
+{
+  "files": [
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\auer_projection_author_ce97428\\AUTHOR_CLOSURE.json",
+      "sha256": "3d462947a2d4366d834c0f5a3ed28b51fc7ecbbf41b1136a5bca2a018addfad9",
+      "bytes": 2574
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\auer_projection_author_ce97428\\environment.yml",
+      "sha256": "de49e8bd5a46a5a7de7cb859ab983caa3688e17b0bd408ad091e635e30233a34",
+      "bytes": 770
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\auer_projection_author_ce97428\\InOutModule\\__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\auer_projection_author_ce97428\\InOutModule\\CaseStudy.py",
+      "sha256": "dccce27eaa9db4dbeda6e71224e7019da503d654c9613ed481ed7a6220f26663",
+      "bytes": 75574
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\auer_projection_author_ce97428\\InOutModule\\ExcelReader.py",
+      "sha256": "8b1e2aa76b767afaf95ca849593887b0dcaa4fa17a7c340c05863a0c7b258960",
+      "bytes": 34105
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\auer_projection_author_ce97428\\InOutModule\\LICENSE",
+      "sha256": "b5f75f2e1c80f1fa9d731275c324ecf63c1bf3f1aa77630c04062f35db35a2f1",
+      "bytes": 1067
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\auer_projection_author_ce97428\\InOutModule\\printer.py",
+      "sha256": "1f03b1fcf2210a1e8e526f6bda0899aa025a823df95b29c292cf21beee92c6ad",
+      "bytes": 13643
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\auer_projection_author_ce97428\\InOutModule\\Utilities.py",
+      "sha256": "f9d6b69fc319ccd51c1e2cffa6ddc6f120e5eab457e451849331f914ce5984f2",
+      "bytes": 31155
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\auer_projection_author_ce97428\\LEGO_LICENSE",
+      "sha256": "30b265e3d9342fe74130c5b82388fb7c39b2144d0e9cb09f706074c5b21df309",
+      "bytes": 1067
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\auer_projection_env\\Lib\\site-packages\\tsam\\__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\auer_projection_env\\Lib\\site-packages\\tsam\\hyperparametertuning.py",
+      "sha256": "78cee6ede63cd2e4a5c272d1c6672d9e2b3626feba0f5e59d500fd0823334971",
+      "bytes": 10349
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\auer_projection_env\\Lib\\site-packages\\tsam\\periodAggregation.py",
+      "sha256": "87d082d3a8c12cdcb26854cc4729c650c37cedf387dcd75212e83a11c4ec2860",
+      "bytes": 5471
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\auer_projection_env\\Lib\\site-packages\\tsam\\representations.py",
+      "sha256": "d8d2f5c1a9c1846ade09e27c8e1d1a35d231d39617132c8c2663005454b9f93e",
+      "bytes": 7133
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\auer_projection_env\\Lib\\site-packages\\tsam\\timeseriesaggregation.py",
+      "sha256": "51db23b0ff1103099d047ab4c09c01d877d46a2e77f0d6114242b7d5347d7413",
+      "bytes": 57125
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\auer_projection_env\\Lib\\site-packages\\tsam\\utils\\__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\auer_projection_env\\Lib\\site-packages\\tsam\\utils\\durationRepresentation.py",
+      "sha256": "98f5262b543fd20210d06065f8d40ae2c7972df5f4d80b2b0c053652896bc093",
+      "bytes": 9796
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\auer_projection_env\\Lib\\site-packages\\tsam\\utils\\k_maxoids.py",
+      "sha256": "d0fc9a1d0300f2fb55fd2b90399d2a75c1852b8e9a52f3a23124287e31a48c14",
+      "bytes": 4415
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\auer_projection_env\\Lib\\site-packages\\tsam\\utils\\k_medoids_contiguity.py",
+      "sha256": "c5237dc53eb5a1cd823f1604461ba047d84391509bda8f0f3af0222cb82b7b2f",
+      "bytes": 5925
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\auer_projection_env\\Lib\\site-packages\\tsam\\utils\\k_medoids_exact.py",
+      "sha256": "096e812d057679362d3310e6a3defeea16351e58f172f90f56b2f80d03cde484",
+      "bytes": 7178
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\auer_projection_env\\Lib\\site-packages\\tsam\\utils\\segmentation.py",
+      "sha256": "cbc4cfbf5284a9fe81c8ecfb4d1cb09b7582f593e11a25af87001c41b1626ede",
+      "bytes": 6132
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\auer_projection_tsam_2_3_9\\tsam-2.3.9-py3-none-any.whl",
+      "sha256": "edcc4febb9e1dacc028bc819d710974ede8f563467c3d235a250f46416f93a1b",
+      "bytes": 36816
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\docs\\research_next\\AUER_EXECUTION_PROTOCOL.md",
+      "sha256": "86313ffced10a4e384da01c60a50b7bd8bb62a46c544b96ef4e5653b29c8daf2",
+      "bytes": 10260
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\docs\\research_next\\AUER_PROJECTION_PROTOCOL.md",
+      "sha256": "fdd6d1527586fde9def72ea0984c155cc3b2b9887f0b136e122d87c6e721ad81",
+      "bytes": 11275
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\docs\\research_next\\WHOLE_DAY_OBSERVATION_PROTOCOL.md",
+      "sha256": "a93991ee2b8fe7ed9a652ed5227c97e4f1deac6bd35d55aae01aea1a7aa8fcce",
+      "bytes": 10823
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\day_blocks\\days_132\\bounds.npz",
+      "sha256": "409779449608b84b9640204f4cc60595709ae7b4e32246cf4f1f8c10e5671ef8",
+      "bytes": 51834
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\day_blocks\\days_132\\integrality.npz",
+      "sha256": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d",
+      "bytes": 282
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\day_blocks\\days_132\\matrix.npz",
+      "sha256": "2f11940f72432a2a2e89e4a88115eba3cf24a8e82a8110e250c6191020c1f0bb",
+      "bytes": 199281
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\day_blocks\\days_132\\model_metadata.json",
+      "sha256": "1d8281f53cc1c08f73d1fdc8d66a7825d2f34377ba933c13d0e5e0be8b223fa4",
+      "bytes": 2474
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\day_blocks\\days_132\\native_inputs.npz",
+      "sha256": "abf0448799bc4f76a2da4728fb95aaaa487f3de34dffcb24d148a45ec4404ec2",
+      "bytes": 26513
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\day_blocks\\days_132\\permutation.csv",
+      "sha256": "d505057df3ee34fb1e5c395aba592d85ad7166c1cae533b79dfc34ddad811143",
+      "bytes": 1908
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\day_blocks\\days_132\\row_metadata.csv.gz",
+      "sha256": "98eb7de031328bc1dcb801b806d985ddcbe4173e2f1a047d44e973bd8cbb7c98",
+      "bytes": 147013
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\day_blocks\\days_213\\bounds.npz",
+      "sha256": "c016f2885b873e8f18e7cbcc69d157bd8ee3275b61b7efa1b379434efdfb0105",
+      "bytes": 52518
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\day_blocks\\days_213\\integrality.npz",
+      "sha256": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d",
+      "bytes": 282
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\day_blocks\\days_213\\matrix.npz",
+      "sha256": "2f11940f72432a2a2e89e4a88115eba3cf24a8e82a8110e250c6191020c1f0bb",
+      "bytes": 199281
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\day_blocks\\days_213\\model_metadata.json",
+      "sha256": "1d8281f53cc1c08f73d1fdc8d66a7825d2f34377ba933c13d0e5e0be8b223fa4",
+      "bytes": 2474
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\day_blocks\\days_213\\native_inputs.npz",
+      "sha256": "aeda29fc807fa23cc9ed321c1ae93e9a5711c0ba6c0f8e5b7a346138c7e19655",
+      "bytes": 26503
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\day_blocks\\days_213\\permutation.csv",
+      "sha256": "2ce0eb997ea99faf91b11f6401ea272aff64e83a0d83047956e7227406a64a31",
+      "bytes": 1908
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\day_blocks\\days_213\\row_metadata.csv.gz",
+      "sha256": "bb2fbf3b282946e530eeb24c8fffd9954fceea82c50d5f6055d81c4f9cc17a7a",
+      "bytes": 147013
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\day_blocks\\days_231\\bounds.npz",
+      "sha256": "67346932391e5be0b0ffc1f0293acf068202c39710210250a21f305ea272f47b",
+      "bytes": 52756
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\day_blocks\\days_231\\integrality.npz",
+      "sha256": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d",
+      "bytes": 282
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\day_blocks\\days_231\\matrix.npz",
+      "sha256": "2f11940f72432a2a2e89e4a88115eba3cf24a8e82a8110e250c6191020c1f0bb",
+      "bytes": 199281
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\day_blocks\\days_231\\model_metadata.json",
+      "sha256": "1d8281f53cc1c08f73d1fdc8d66a7825d2f34377ba933c13d0e5e0be8b223fa4",
+      "bytes": 2474
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\day_blocks\\days_231\\native_inputs.npz",
+      "sha256": "3e28c9c1c59a08e1444c31313889b49055cb55d1c2be2f49c69d036e7659f4e7",
+      "bytes": 26532
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\day_blocks\\days_231\\permutation.csv",
+      "sha256": "60a078b14d8c21d2a88399f5fa10a810b4089ed2ac7323d663e5a692162b2c91",
+      "bytes": 1908
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\day_blocks\\days_231\\row_metadata.csv.gz",
+      "sha256": "2675e532cbb7ad00f2efb12f1fcc5dceb36fa672225205242577240820ecbb54",
+      "bytes": 147013
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\day_blocks\\days_312\\bounds.npz",
+      "sha256": "9be8aa03d19c0677a48fe9cfc7dd767e28b9269c4fc8198a54e37436439e9282",
+      "bytes": 52056
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\day_blocks\\days_312\\integrality.npz",
+      "sha256": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d",
+      "bytes": 282
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\day_blocks\\days_312\\matrix.npz",
+      "sha256": "2f11940f72432a2a2e89e4a88115eba3cf24a8e82a8110e250c6191020c1f0bb",
+      "bytes": 199281
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\day_blocks\\days_312\\model_metadata.json",
+      "sha256": "1d8281f53cc1c08f73d1fdc8d66a7825d2f34377ba933c13d0e5e0be8b223fa4",
+      "bytes": 2474
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\day_blocks\\days_312\\native_inputs.npz",
+      "sha256": "1051f1547a279e4b3bce95601f0edb48198284effb22e7b762dbb521db371053",
+      "bytes": 26517
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\day_blocks\\days_312\\permutation.csv",
+      "sha256": "797a12f23f166d42b82b9430aae312558785e899876568ffb367edec5ff82b10",
+      "bytes": 1908
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\day_blocks\\days_312\\row_metadata.csv.gz",
+      "sha256": "1c7f1d25d8b04fbf5085b562fbdf3741a35f53c3e7a97a5e61b8ddf30386a8e0",
+      "bytes": 147013
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\day_blocks\\days_321\\bounds.npz",
+      "sha256": "5a5f697b0be8cac253c9ca5c607586ab440fcd8276ede98648c6ce179bca1e6d",
+      "bytes": 52776
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\day_blocks\\days_321\\integrality.npz",
+      "sha256": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d",
+      "bytes": 282
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\day_blocks\\days_321\\matrix.npz",
+      "sha256": "2f11940f72432a2a2e89e4a88115eba3cf24a8e82a8110e250c6191020c1f0bb",
+      "bytes": 199281
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\day_blocks\\days_321\\model_metadata.json",
+      "sha256": "1d8281f53cc1c08f73d1fdc8d66a7825d2f34377ba933c13d0e5e0be8b223fa4",
+      "bytes": 2474
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\day_blocks\\days_321\\native_inputs.npz",
+      "sha256": "65de9acfa3dc685ed9de1d3883fcca08addf2507d75632114984f269c7693622",
+      "bytes": 26526
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\day_blocks\\days_321\\permutation.csv",
+      "sha256": "6d2136284699f1a6075a2497c9d071936ae63cfb89f5136c1e1af3fc7c3af275",
+      "bytes": 1908
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\day_blocks\\days_321\\row_metadata.csv.gz",
+      "sha256": "eb73c440b322d0218299b5811de3db39e8335eac7dd014247ab4224be92f1efe",
+      "bytes": 147013
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\day_blocks\\input_manifest.csv",
+      "sha256": "5f15b13ce9b15abb1ff6256a4e10fc568ab5384e01a324160b0e522b31c8927d",
+      "bytes": 28426
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\fresh_january_weeks\\targets\\seed_26093210\\model_metadata.json",
+      "sha256": "a3fa741df26f556d20d15e01530150942d60b0d73b051cd649da1014dd0706b1",
+      "bytes": 2476
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\fresh_january_weeks\\targets\\seed_26093210\\native_inputs.npz",
+      "sha256": "95a05fa6afc5a9f301b7fa6df9b3dde0f64a4a688ec4eb1d26fd1ca417b1bdf9",
+      "bytes": 27021
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\fresh_january_weeks\\targets\\seed_26093210\\permutation.csv",
+      "sha256": "42f9b919b475adf7f077236d4256d97194cf2a18f39571ec1086cae1c4970810",
+      "bytes": 2020
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\fresh_january_weeks\\targets\\seed_26093211\\model_metadata.json",
+      "sha256": "a3fa741df26f556d20d15e01530150942d60b0d73b051cd649da1014dd0706b1",
+      "bytes": 2476
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\fresh_january_weeks\\targets\\seed_26093211\\native_inputs.npz",
+      "sha256": "a32addb7ed782be0ad6733821359c93998a2089fbcd9f00e849554254223be1c",
+      "bytes": 27016
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\fresh_january_weeks\\targets\\seed_26093211\\permutation.csv",
+      "sha256": "4af3299fc052afcba52fdc2b25459028e50bf392b5b9470910e885848ba5dbab",
+      "bytes": 2020
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\fresh_january_weeks\\targets\\seed_26093220\\model_metadata.json",
+      "sha256": "cfc67d46b777bcbb48657998390933ea3efd44d036eff6b27509a987bee1976a",
+      "bytes": 2476
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\fresh_january_weeks\\targets\\seed_26093220\\native_inputs.npz",
+      "sha256": "5df0b550ea74fe798f3cd0aca22bf3dd088aa8de5872352dbee387161c7ca362",
+      "bytes": 26912
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\fresh_january_weeks\\targets\\seed_26093220\\permutation.csv",
+      "sha256": "285869ce622597f84e82dbd29a3cf894098e9aae4c547ab7e405e609d7be2955",
+      "bytes": 2020
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\fresh_january_weeks\\targets\\seed_26093221\\model_metadata.json",
+      "sha256": "cfc67d46b777bcbb48657998390933ea3efd44d036eff6b27509a987bee1976a",
+      "bytes": 2476
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\fresh_january_weeks\\targets\\seed_26093221\\native_inputs.npz",
+      "sha256": "ddbb27dd75f4f1c5ce7a4669a11adc2b5888b6024c3873538efaebca7de4d44b",
+      "bytes": 26916
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\fresh_january_weeks\\targets\\seed_26093221\\permutation.csv",
+      "sha256": "3d4a19b33b1a75f7056348a0033509dc1416b3652242d254e74be6ed3437d97a",
+      "bytes": 2020
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\fresh_january_weeks\\targets\\seed_26100210\\model_metadata.json",
+      "sha256": "a3fa741df26f556d20d15e01530150942d60b0d73b051cd649da1014dd0706b1",
+      "bytes": 2476
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\fresh_january_weeks\\targets\\seed_26100210\\native_inputs.npz",
+      "sha256": "9b8f239fb056ab1fe1a87c0d8aacf579a8beed76574ffea70b49ec96e9bf32c9",
+      "bytes": 26981
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\fresh_january_weeks\\targets\\seed_26100210\\permutation.csv",
+      "sha256": "1ee0d4cb1e94e82e41c1fb9db9782121a0cd294b32c89d4dd78cf0e2577ef7df",
+      "bytes": 2020
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\fresh_january_weeks\\targets\\seed_26100220\\model_metadata.json",
+      "sha256": "cfc67d46b777bcbb48657998390933ea3efd44d036eff6b27509a987bee1976a",
+      "bytes": 2476
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\fresh_january_weeks\\targets\\seed_26100220\\native_inputs.npz",
+      "sha256": "094636e563ec1389b9fb9a2568c35ced908fc0597e251aa6d27acdfb756db487",
+      "bytes": 26891
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\fresh_january_weeks\\targets\\seed_26100220\\permutation.csv",
+      "sha256": "207891ecbcedc95668ae01017547283a48ba84e6d48b6eacef7fc7a5c68f0687",
+      "bytes": 2020
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\fresh_january_weeks\\targets\\week_2_identity\\model_metadata.json",
+      "sha256": "a3fa741df26f556d20d15e01530150942d60b0d73b051cd649da1014dd0706b1",
+      "bytes": 2476
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\fresh_january_weeks\\targets\\week_2_identity\\native_inputs.npz",
+      "sha256": "e7e187ec0103784437f464406066ed1637dd6b9ecc39e05a69f463601b46eab0",
+      "bytes": 26941
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\fresh_january_weeks\\targets\\week_2_identity\\permutation.csv",
+      "sha256": "1a639d0e75ece8dd1f0d3a1071513e75d7bcc69a41d81233016f91788d589f23",
+      "bytes": 2020
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\fresh_january_weeks\\targets\\week_3_identity\\model_metadata.json",
+      "sha256": "cfc67d46b777bcbb48657998390933ea3efd44d036eff6b27509a987bee1976a",
+      "bytes": 2476
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\fresh_january_weeks\\targets\\week_3_identity\\native_inputs.npz",
+      "sha256": "59c081731e57882369c21a1af19f66347f145aeb3a44b5fafe283ee8ef6efa59",
+      "bytes": 26874
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\fresh_january_weeks\\targets\\week_3_identity\\permutation.csv",
+      "sha256": "61bac650ea14b2a2565f76fe78e24b9320974c18f31cb821352eb4127e7388c5",
+      "bytes": 2020
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\hour_of_day\\january_identity\\model_metadata.json",
+      "sha256": "1d8281f53cc1c08f73d1fdc8d66a7825d2f34377ba933c13d0e5e0be8b223fa4",
+      "bytes": 2474
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\hour_of_day\\january_identity\\native_inputs.npz",
+      "sha256": "5f917f58e4fd50ae1e0d9198fd84e81f57adb1f24b530d1ed5bb71d99714a960",
+      "bytes": 26497
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\hour_of_day\\january_identity\\permutation.csv",
+      "sha256": "94352d5ec4282e9757c259bd336faae046eecbba3231b57b96e7a60257252580",
+      "bytes": 2361
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\hour_of_day\\seed_26093200\\model_metadata.json",
+      "sha256": "1d8281f53cc1c08f73d1fdc8d66a7825d2f34377ba933c13d0e5e0be8b223fa4",
+      "bytes": 2474
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\hour_of_day\\seed_26093200\\native_inputs.npz",
+      "sha256": "c6e3efd7ddb65960db87eac29707eae40862bb8ea04dc00a5d2c2035d96af177",
+      "bytes": 26578
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\hour_of_day\\seed_26093200\\permutation.csv",
+      "sha256": "09fd54c4a7ed25ba0ade5e7499ad45bd11ee63a7bfa46116b57685cc79ad31c7",
+      "bytes": 2361
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\hour_of_day\\seed_26093201\\model_metadata.json",
+      "sha256": "1d8281f53cc1c08f73d1fdc8d66a7825d2f34377ba933c13d0e5e0be8b223fa4",
+      "bytes": 2474
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\hour_of_day\\seed_26093201\\native_inputs.npz",
+      "sha256": "dcb27717a55c3c4548faa722f8e2f88cfbffd1e963f3ca5bf33e93e7c34e964e",
+      "bytes": 26557
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\hour_of_day\\seed_26093201\\permutation.csv",
+      "sha256": "dd41797ff4b27820d9ba8ca7159ee4b6a0636a8d19f1c955fb3ed5b7f9fe6fa2",
+      "bytes": 2361
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\hour_of_day\\seed_26100200\\model_metadata.json",
+      "sha256": "1d8281f53cc1c08f73d1fdc8d66a7825d2f34377ba933c13d0e5e0be8b223fa4",
+      "bytes": 2474
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\hour_of_day\\seed_26100200\\native_inputs.npz",
+      "sha256": "8b258f1910910e251e0f876ec7b7dc37fdf9f4cc6ab7339483e8e4f019d9cbef",
+      "bytes": 26495
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\hour_of_day\\seed_26100200\\permutation.csv",
+      "sha256": "262f53569da110bab80082593e10eff92098b8a755b759a89f4147e2e8c12d7d",
+      "bytes": 2361
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\auer_execution\\input_manifest.json",
+      "sha256": "abd3c49c3f5c3ab41bff76afc9648c380717d8892a4aeeb9c5fd6ff68bb9398a",
+      "bytes": 24051
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\auer_projection_preflight\\author_schema_fixtures.json",
+      "sha256": "d544a8a284e5112bf476821913524f5f8b957fb22e3b4fe8e317acace1431cae",
+      "bytes": 412
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\auer_projection_preflight\\environment_probe.py",
+      "sha256": "edc440ef175727bf261bd1d9ba69606161564ab581bc13b4a2bfd811da1a2187",
+      "bytes": 5446
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\auer_projection_preflight\\isolated_environment.json",
+      "sha256": "431af4e6f9a8a8e10a30f3f690551084b43d84b18b56b761594e9be1123e5366",
+      "bytes": 4048
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\auer_projection_preflight\\prepared\\cases.json",
+      "sha256": "b7ef56d295d919dbaad18696ad6260b58cc69740e9c16fe1f3ec60fd3be82570",
+      "bytes": 4898
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\auer_projection_preflight\\prepared\\close_hash_check.json",
+      "sha256": "3559ae11a3ca2cc022771a21f1116e723300a4f7efd89de117138ad3b898bf61",
+      "bytes": 114
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\auer_projection_preflight\\prepared\\initial_source_guard.json",
+      "sha256": "dbb09dadbbec6064ce44cc9b353e8e90aefba49f22de72557244607194c4a203",
+      "bytes": 2715
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\auer_projection_preflight\\prepared\\input_bindings.json",
+      "sha256": "ca10b778d4135925fc5d25493b0b3333ff106f0d8f2bbaeda003c5ce8c3e3fcd",
+      "bytes": 10470
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\auer_projection_preflight\\prepared\\january_identity.json",
+      "sha256": "0eef8af90d4b6f17507f4f254c49ec995393e3c18b29fbf89e31eed552f814a5",
+      "bytes": 933307
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\auer_projection_preflight\\prepared\\prepared_freeze.json",
+      "sha256": "9a291383949905d4486e9e167a1a3ad4a3cae3111eb993e91a9573398cc07830",
+      "bytes": 3294
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\auer_projection_preflight\\prepared\\seed_26093200.json",
+      "sha256": "9beba615c70bc85aa613c8bde528ab287b00d8b29f51ecf3419ef467d95a44a1",
+      "bytes": 933310
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\auer_projection_preflight\\prepared\\seed_26093201.json",
+      "sha256": "042bfee2e0bd3061e8a42d671de8f8bbe5f4fddbaa48c1c549df3c10d97286d3",
+      "bytes": 933310
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\auer_projection_preflight\\prepared\\seed_26093210.json",
+      "sha256": "33a3320e5d4d9e95d2fe0335ce6fbb19dcc7a78dab9ff609f6072380e9b06c47",
+      "bytes": 929865
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\auer_projection_preflight\\prepared\\seed_26093211.json",
+      "sha256": "240e02a732385dc2c669012305873287d1750e56cf6f93945a869bdb9aec144b",
+      "bytes": 929863
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\auer_projection_preflight\\prepared\\seed_26093220.json",
+      "sha256": "993164fff56d9be663e4a1adb460a4aa024dafbfcb2e91b5839213a9d0d6a547",
+      "bytes": 929626
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\auer_projection_preflight\\prepared\\seed_26093221.json",
+      "sha256": "011007042b5566526c0b99a2cc8eecaaaf246fc28cfe8f50f29d19af8f0aae52",
+      "bytes": 929627
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\auer_projection_preflight\\prepared\\seed_26100200.json",
+      "sha256": "24f1588804b8937a44c8ed529fa4af62f5b9be5debe267ea83ca2424b3d19e39",
+      "bytes": 933307
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\auer_projection_preflight\\prepared\\seed_26100210.json",
+      "sha256": "bc0bcb06756dfe2ce6d261bf4def5a2e1750f2d21e19da292e36e3b1f09a90ba",
+      "bytes": 929863
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\auer_projection_preflight\\prepared\\seed_26100220.json",
+      "sha256": "ac5a906c35c3815bfa491bdddc4b2580eac5d0866bbd5de87525e0a66512a410",
+      "bytes": 929627
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\auer_projection_preflight\\prepared\\week_2_identity.json",
+      "sha256": "03627b72c436a6bb7158e36e8e8eb818aee7bcaaf5fd7b48f6e7cadd957279a5",
+      "bytes": 929867
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\auer_projection_preflight\\prepared\\week_3_identity.json",
+      "sha256": "e17cff72943c35810354c725fed7697be8e08a1af83241bca5cab8d4cd21e70b",
+      "bytes": 929627
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\auer_projection_preflight\\probe_completion.json",
+      "sha256": "78356593844606bf71d9deaf9d6163c0e1fc820816d1737488eda2f8a974a00d",
+      "bytes": 2717
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\auer_projection_preflight\\synthetic_license_probe.json",
+      "sha256": "5ef5d25e22f8117a9b7ac5c3508b18b8960b142efacdc72f67749b596715e009",
+      "bytes": 239
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\whole_day_observation_preflight\\prepared\\new_native_inputs\\week_2_days_132\\native_inputs.npz",
+      "sha256": "c9c30a050f3e88736462676be2b88fab1bbdfb9fdd5422ab28d3dc688b971b14",
+      "bytes": 26960
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\whole_day_observation_preflight\\prepared\\new_native_inputs\\week_2_days_213\\native_inputs.npz",
+      "sha256": "3b06cb6229395a1127ac50a941beb4a721ef8cb5339df5ed4c0fdf6f29e5d16d",
+      "bytes": 26952
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\whole_day_observation_preflight\\prepared\\new_native_inputs\\week_2_days_231\\native_inputs.npz",
+      "sha256": "b7908d0f62303e6206873961add59153234fe563ad3bfbf384cce3d11a9aeefd",
+      "bytes": 26959
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\whole_day_observation_preflight\\prepared\\new_native_inputs\\week_2_days_312\\native_inputs.npz",
+      "sha256": "5eae1931b58f78c26a72140d2c8bc79b4253f4ae2994b34604e3b6bfb077fb96",
+      "bytes": 26977
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\whole_day_observation_preflight\\prepared\\new_native_inputs\\week_2_days_321\\native_inputs.npz",
+      "sha256": "4177069a3ab279862168a562e64f43be3ff7443374c50c172b809301a8b04477",
+      "bytes": 26966
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\whole_day_observation_preflight\\prepared\\new_native_inputs\\week_3_days_132\\native_inputs.npz",
+      "sha256": "033ba0c1d16207594af84ede254fa06365501a7fff7bdd312c79e2425688c1d6",
+      "bytes": 26872
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\whole_day_observation_preflight\\prepared\\new_native_inputs\\week_3_days_213\\native_inputs.npz",
+      "sha256": "c3542fddd1371d75182156a980fced11910fdc8b25d16a9b2ae1f04c854913fa",
+      "bytes": 26864
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\whole_day_observation_preflight\\prepared\\new_native_inputs\\week_3_days_231\\native_inputs.npz",
+      "sha256": "a0ee825175f08ce91bd2bfb58aa650f763e7b1e595119681bc1624941a17dd1e",
+      "bytes": 26879
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\whole_day_observation_preflight\\prepared\\new_native_inputs\\week_3_days_312\\native_inputs.npz",
+      "sha256": "d10bc9ed7ec2f867305f541b78fa9dfa4df79142a18569956654ee67e91bfb0e",
+      "bytes": 26878
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\whole_day_observation_preflight\\prepared\\new_native_inputs\\week_3_days_321\\native_inputs.npz",
+      "sha256": "6ecdd943d72c7090820297ebc96801a5975dd3504c740fdb678bb00fc027cb85",
+      "bytes": 26875
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\whole_day_observation_preflight\\prepared\\projections\\week_1_days_123.json",
+      "sha256": "0eef8af90d4b6f17507f4f254c49ec995393e3c18b29fbf89e31eed552f814a5",
+      "bytes": 933307
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\whole_day_observation_preflight\\prepared\\projections\\week_1_days_132.json",
+      "sha256": "17a45cfd4f1604204a4f2d1f794fc2a0463d7ccd8eb1bd15c684bc6d6f1e0dad",
+      "bytes": 933324
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\whole_day_observation_preflight\\prepared\\projections\\week_1_days_213.json",
+      "sha256": "c7d2a487cbcc311262ff374ae1567536cc9fb90984dcac7f54626e9089e8e27f",
+      "bytes": 933307
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\whole_day_observation_preflight\\prepared\\projections\\week_1_days_231.json",
+      "sha256": "5d2f66d1e9a11dce974d258de91c1cb9a1019bec523e70fa82697a03246c921e",
+      "bytes": 933309
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\whole_day_observation_preflight\\prepared\\projections\\week_1_days_312.json",
+      "sha256": "6c02975040b52e87e56b12a0f1ead1aa68d506bda7b743cc6fd9f24b6b36198c",
+      "bytes": 933324
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\whole_day_observation_preflight\\prepared\\projections\\week_1_days_321.json",
+      "sha256": "579501dd6133b8c573743604ab2a3f63b5c95ce37902668cc2133e5b5aed8dc1",
+      "bytes": 933309
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\whole_day_observation_preflight\\prepared\\projections\\week_2_days_123.json",
+      "sha256": "03627b72c436a6bb7158e36e8e8eb818aee7bcaaf5fd7b48f6e7cadd957279a5",
+      "bytes": 929867
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\whole_day_observation_preflight\\prepared\\projections\\week_2_days_132.json",
+      "sha256": "9a31945defd0445ae2ec03666fb4da99f4fab2866314620d9e00abfa314ef007",
+      "bytes": 929859
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\whole_day_observation_preflight\\prepared\\projections\\week_2_days_213.json",
+      "sha256": "fa0f839c0a1823c89b8a8f8ea77eb265ccd26a644888dbb489c1ead3e9a0dae1",
+      "bytes": 929867
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\whole_day_observation_preflight\\prepared\\projections\\week_2_days_231.json",
+      "sha256": "e0726613fbdacd31047c7d96b825a4ea686bc2c3632da6ba6f47a17f2c4388e0",
+      "bytes": 929864
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\whole_day_observation_preflight\\prepared\\projections\\week_2_days_312.json",
+      "sha256": "99a8e1cf5a511ac2bc3cee46025fe74aa9e35e67981523a5f46824e2a6561d32",
+      "bytes": 929859
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\whole_day_observation_preflight\\prepared\\projections\\week_2_days_321.json",
+      "sha256": "2dd1d4fbf7e493ef62fff2f0797a6815f27f821d51980ac3a66fa618876dc8ff",
+      "bytes": 929864
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\whole_day_observation_preflight\\prepared\\projections\\week_3_days_123.json",
+      "sha256": "e17cff72943c35810354c725fed7697be8e08a1af83241bca5cab8d4cd21e70b",
+      "bytes": 929627
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\whole_day_observation_preflight\\prepared\\projections\\week_3_days_132.json",
+      "sha256": "0e300c98d9b6b3ea905701ab047cdd2505760db26e650086a6ba0f7bb763b7fc",
+      "bytes": 929626
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\whole_day_observation_preflight\\prepared\\projections\\week_3_days_213.json",
+      "sha256": "54ab5ab3eca08df9f3ee1247af5e16279597003efe73988623e5a9e498ad8c44",
+      "bytes": 929627
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\whole_day_observation_preflight\\prepared\\projections\\week_3_days_231.json",
+      "sha256": "697ead1b100154370fc7d9f53da8c7d01d4b6b438b3a96c5a545b22331a1526c",
+      "bytes": 929624
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\whole_day_observation_preflight\\prepared\\projections\\week_3_days_312.json",
+      "sha256": "673a6b4dd4665681b6060eee36890071a68750e8aa62aba8ce96ec907a8cf00a",
+      "bytes": 929626
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\whole_day_observation_preflight\\prepared\\projections\\week_3_days_321.json",
+      "sha256": "d7d074a761d471e7198e95ce0b5efe9ba83ff356342051a0cea23e0b081af8ff",
+      "bytes": 929624
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\whole_day_observation_preflight\\prepared\\week_1_days_123_mapping.json",
+      "sha256": "731b21254122946e8a168493e9e477f5f43b0a59efb31df76b900e46442c0906",
+      "bytes": 2140
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\whole_day_observation_preflight\\prepared\\week_1_days_132_mapping.json",
+      "sha256": "6733751520b4c287a1d58e78e0288c4966a5960986f262bad4927a197863a2d9",
+      "bytes": 2269
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\whole_day_observation_preflight\\prepared\\week_1_days_213_mapping.json",
+      "sha256": "7711f18465cb4d75a936906542a446c65d17e5d35ec4d260136f3cf200030b9c",
+      "bytes": 2269
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\whole_day_observation_preflight\\prepared\\week_1_days_231_mapping.json",
+      "sha256": "6cec5a391eb61e358ad71f5a0af86e0c4783eb448d3390590d8a4c2492d2336c",
+      "bytes": 2269
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\whole_day_observation_preflight\\prepared\\week_1_days_312_mapping.json",
+      "sha256": "0f6df600d80b88dce10b623b53f352f241b1023e25acb8d7c7fb593f43de2b0b",
+      "bytes": 2269
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\whole_day_observation_preflight\\prepared\\week_1_days_321_mapping.json",
+      "sha256": "2a0db446f23fca3c86999bfa5b4d1eb1db852791b6684c89f502f12d38492dd1",
+      "bytes": 2269
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\whole_day_observation_preflight\\prepared\\week_2_days_123_mapping.json",
+      "sha256": "6d15670913aa5c3a69a65b5ef649f37b3e6d52f966439a25f1898015ec992bdd",
+      "bytes": 2156
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\whole_day_observation_preflight\\prepared\\week_2_days_132_mapping.json",
+      "sha256": "bd1b5263c9acc626d5570be75e65a6be569b94523403530487ffc51d436c6982",
+      "bytes": 2211
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\whole_day_observation_preflight\\prepared\\week_2_days_213_mapping.json",
+      "sha256": "a2533e18220c7f075a3b234816505b6dfa14dd37e533f746db7da65c8033d048",
+      "bytes": 2211
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\whole_day_observation_preflight\\prepared\\week_2_days_231_mapping.json",
+      "sha256": "641080cab6a37ad6d17dc2607f2b316093774bac747129ab93fbcbd68f00dd80",
+      "bytes": 2211
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\whole_day_observation_preflight\\prepared\\week_2_days_312_mapping.json",
+      "sha256": "a49ab7fb9b8e61574bb919ea65b414ac91951eba7a2e6b80110561ed7521ad9b",
+      "bytes": 2211
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\whole_day_observation_preflight\\prepared\\week_2_days_321_mapping.json",
+      "sha256": "9287e8bfde6c40d37c4009a577a10163186a71557a45490d62e4df9972fee66e",
+      "bytes": 2211
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\whole_day_observation_preflight\\prepared\\week_3_days_123_mapping.json",
+      "sha256": "a35351a3f1d6537f99c34f1f00f27f68547df2aae5bbe07097691580d0dd7b1b",
+      "bytes": 2156
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\whole_day_observation_preflight\\prepared\\week_3_days_132_mapping.json",
+      "sha256": "a3250a14bb22f7f8dc5378049a2e53875f80ebaf971105b868055457cec451f3",
+      "bytes": 2211
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\whole_day_observation_preflight\\prepared\\week_3_days_213_mapping.json",
+      "sha256": "801de11340b8aea56acc543f5fcc91fe4f2af3f373ed2467b7559d8f52077f9d",
+      "bytes": 2211
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\whole_day_observation_preflight\\prepared\\week_3_days_231_mapping.json",
+      "sha256": "ca5dd7837da60fe43b9cc8c84fc1491c46e94acd0dbae963cac6d3b8b0e6a707",
+      "bytes": 2211
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\whole_day_observation_preflight\\prepared\\week_3_days_312_mapping.json",
+      "sha256": "e253b8d214bd8d00f611275cae1008666d02bd5d19c83f2e29a561106533ee8d",
+      "bytes": 2211
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\whole_day_observation_preflight\\prepared\\week_3_days_321_mapping.json",
+      "sha256": "b5b96ba46adde624d4bccb8a0b935783bdee844fc93d9c935e44dc7e246193c3",
+      "bytes": 2211
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\src\\researchnext_auer_execution.py",
+      "sha256": "a18058186dde3dfe0dbd6717c27636e76ef59debbbcfbd36f7bb887c7a232d9c",
+      "bytes": 23821
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\src\\researchnext_auer_projection.py",
+      "sha256": "9d1f036568935d62ac665e22cf0f4440e39ea3bf02b4b42488a2c1b47ce980b4",
+      "bytes": 24454
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\src\\researchnext_whole_day_observation.py",
+      "sha256": "62a7f7c7b460b9dbe55c00e2a42f9cb6fbee7611b14bc397995aa1bb26fc1af6",
+      "bytes": 24184
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-v8r1-evidence\\3\\.work\\v8r1_rts_inputs\\code\\dscgrid_model.py",
+      "sha256": "01d3e67440b1380b62ed68da07e61ac6895b930ada583ffa8af09a370850be78",
+      "bytes": 5694
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-v8r1-evidence\\3\\.work\\v8r1_rts_inputs\\raw\\RTS-GMLC_v0.2.3\\gen.csv",
+      "sha256": "988466f29132b73739de60c9204dd4a2a9ceb0adf572e5966c086611272f4068",
+      "bytes": 32451
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "status": "SOLVER_PREPARED_NOT_RUN_PENDING_INDEPENDENT_GATE",
+  "adapter_prepared_manifest": {
+    "path": "results/research_next/orlib_preflight/prepared01/manifest.json",
+    "bytes": 4355,
+    "sha256": "8cf0b37220f521cd1365c4a0ad05199bafb0a634eeb28cc0642c1e31b4c3b205"
+  },
+  "independent_adapter_prepared_review": {
+    "path": "results/research_next/orlib_preflight/INDEPENDENT_PREPARED_REVIEW.md",
+    "bytes": 2856,
+    "sha256": "4ec1f4070ef946317de7ace2eae80eb643f6087893f7afbc832d8bcd237171dc"
+  },
+  "independent_final_source_review": {
+    "path": "results/research_next/orlib_preflight/SOLVER_SOURCE_REVIEW.md",
+    "bytes": 4986,
+    "sha256": "dea3c2ea5f9c95cf0b870f1c0a8daa4e40c10f81c2b36e8ca287bb00515102c6"
+  },
+  "solver_source": {
+    "path": "src/researchnext_orlib_solve.py",
+    "bytes": 28281,
+    "sha256": "2659f11efe5d817fe70f007e514b99dbc992408db3482e825719175bee458e5a"
+  },
+  "solver_protocol": {
+    "path": "docs/research_next/ORLIB_SOLVER_PROTOCOL.md",
+    "bytes": 11377,
+    "sha256": "c7b4e5033095b6119838c8bea6d79362fadcecd736cecdb6abb1daf9585d05ff"
+  },
+  "solver_run_manifest": {
+    "path": "results/research_next/orlib_preflight/solver_prepared01/run_manifest.json",
+    "bytes": 5147,
+    "sha256": "30bcdeda411263c4782d34328bbfe3ec6f77814a1c0a80d5d526844a52a79306"
+  },
+  "solver_plan": {
+    "path": "results/research_next/orlib_preflight/solver_prepared01/plan.json",
+    "bytes": 2524,
+    "sha256": "bea5b1258d0439c65493c342d0e11644d4c71eb83e9505dcc0b758f756096793"
+  },
+  "bound_payload_count": 29,
+  "complete_prepared_file_count": 30,
+  "prepare_run_executions": 1,
+  "prepare_run_exit_code": 0,
+  "prepare_run_process_wall_seconds": 2.8979151,
+  "optimizer_calls": 0,
+  "execution_marker_absent": true,
+  "fixed_models": [
+    "identity__native_penalized",
+    "identity__hard_service",
+    "reverse_4_19__native_penalized",
+    "reverse_4_19__hard_service",
+    "rotate_left1_4_19__native_penalized",
+    "rotate_left1_4_19__hard_service"
+  ],
+  "configured_options": {
+    "mip": {
+      "time_limit": 300.0,
+      "threads": 1,
+      "random_seed": 0,
+      "presolve": "on",
+      "mip_rel_gap": 1e-08
+    },
+    "lp": {
+      "time_limit": 30.0,
+      "threads": 1,
+      "random_seed": 0,
+      "solver": "simplex",
+      "presolve": "off"
+    }
+  },
+  "prior_fixture_report": {
+    "path": "results/research_next/orlib_preflight/solver_synthetic_checks01.json",
+    "bytes": 627,
+    "sha256": "47ea206a308a43b71cecf9477ffe4bb5babd459eae126396370421f3a3256566"
+  },
+  "prior_fixture_tested_source_sha256": "6c395f0c04930d1ed68e0d55a796ef3fab0e5f1fd2917bc5b60cb8a73f46364d",
+  "delta_since_fixtures": "Caller-owned attempted/returned bookkeeping and matching protocol only; no math/acceptance/model changes; AST read passed; no fixture rerun.",
+  "authorization": "Root conditional single prepare-run GO satisfied by final independent SOURCE PASS before launch.",
+  "next_gate": "Independent solver-prepared manifest/model review and separate explicit root execution GO. No optimization authorized by this record.",
+  "native_runtime_export_identity": "NOT_TESTED"
+}

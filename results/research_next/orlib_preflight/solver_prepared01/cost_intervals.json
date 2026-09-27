@@ -1,0 +1,145 @@
+{
+  "scope": "Both optima are in the same declared expanded encoded service variant",
+  "targets_per_variant": 2,
+  "rows": [
+    {
+      "variant": "native_penalized",
+      "target": "reverse_4_19",
+      "reference_lower": {
+        "numerator": "20345200626766392637354298381451419842143759",
+        "denominator": "10633823966279326983230456482242756608",
+        "approximate": 1913253.4722487966
+      },
+      "reference_upper": {
+        "numerator": "21513444555664356003273356714053400780148197047959",
+        "denominator": "11150372599265311570767859136324180752990208",
+        "approximate": 1929392.4363641317
+      },
+      "target_lower": {
+        "numerator": "82491478912931723758024539975441084099658751",
+        "denominator": "42535295865117307932921825928971026432",
+        "approximate": 1939365.349062542
+      },
+      "target_upper": {
+        "numerator": "688637615591450462859699662708988826686810673863",
+        "denominator": "348449143727040986586495598010130648530944",
+        "approximate": 1976293.0344030275
+      },
+      "signed_optimum_difference_interval": {
+        "lower": {
+          "numerator": "111201692487217789550228293268626770072746574185",
+          "denominator": "11150372599265311570767859136324180752990208",
+          "approximate": 9972.912698410166
+        },
+        "upper": {
+          "numerator": "21966081453569308918874013345588701299443978951",
+          "denominator": "348449143727040986586495598010130648530944",
+          "approximate": 63039.56215423082
+        }
+      },
+      "status": "EXACT_FINITE_SIGNED_COST_INTERVAL",
+      "tau": {
+        "numerator": "5902958103587057",
+        "denominator": "590295810358705651712",
+        "approximate": 1e-05
+      }
+    },
+    {
+      "variant": "native_penalized",
+      "target": "rotate_left1_4_19",
+      "reference_lower": {
+        "numerator": "20345200626766392637354298381451419842143759",
+        "denominator": "10633823966279326983230456482242756608",
+        "approximate": 1913253.4722487966
+      },
+      "reference_upper": {
+        "numerator": "21513444555664356003273356714053400780148197047959",
+        "denominator": "11150372599265311570767859136324180752990208",
+        "approximate": 1929392.4363641317
+      },
+      "target_lower": {
+        "numerator": "22492839325890161517544592249240986845878132180327002955",
+        "denominator": "11692013098647223345629478661730264157247460343808",
+        "approximate": 1923778.149760421
+      },
+      "target_upper": {
+        "numerator": "22185862454413392909444665250935403891325187824675",
+        "denominator": "11150372599265311570767859136324180752990208",
+        "approximate": 1989696.9591738307
+      },
+      "signed_optimum_difference_interval": {
+        "lower": {
+          "numerator": "-65642312510146242943771040554271930566543687433653429",
+          "denominator": "11692013098647223345629478661730264157247460343808",
+          "approximate": -5614.286603710794
+        },
+        "upper": {
+          "numerator": "852373362001195983338244471306599878929453587491",
+          "denominator": "11150372599265311570767859136324180752990208",
+          "approximate": 76443.48692503407
+        }
+      },
+      "status": "EXACT_FINITE_SIGNED_COST_INTERVAL",
+      "tau": {
+        "numerator": "5902958103587057",
+        "denominator": "590295810358705651712",
+        "approximate": 1e-05
+      }
+    },
+    {
+      "variant": "hard_service",
+      "target": "reverse_4_19",
+      "reference_lower": {
+        "numerator": "20345200626766392637354298381451419842143759",
+        "denominator": "10633823966279326983230456482242756608",
+        "approximate": 1913253.4722487966
+      },
+      "reference_upper": {
+        "numerator": "21518004415534767821921787548920018044658886981151",
+        "denominator": "11150372599265311570767859136324180752990208",
+        "approximate": 1929801.3787407042
+      },
+      "target_lower": {
+        "numerator": "364135496582020956266663629798764496408413870059",
+        "denominator": "174224571863520493293247799005065324265472",
+        "approximate": 2090035.2498341505
+      },
+      "target_upper": null,
+      "signed_optimum_difference_interval": null,
+      "status": "UNKNOWN_MISSING_FINITE_BRACKET",
+      "tau": {
+        "numerator": "5902958103587057",
+        "denominator": "590295810358705651712",
+        "approximate": 1e-05
+      }
+    },
+    {
+      "variant": "hard_service",
+      "target": "rotate_left1_4_19",
+      "reference_lower": {
+        "numerator": "20345200626766392637354298381451419842143759",
+        "denominator": "10633823966279326983230456482242756608",
+        "approximate": 1913253.4722487966
+      },
+      "reference_upper": {
+        "numerator": "21518004415534767821921787548920018044658886981151",
+        "denominator": "11150372599265311570767859136324180752990208",
+        "approximate": 1929801.3787407042
+      },
+      "target_lower": {
+        "numerator": "22492839325890161517544592249240986845878132180327002955",
+        "denominator": "11692013098647223345629478661730264157247460343808",
+        "approximate": 1923778.149760421
+      },
+      "target_upper": null,
+      "signed_optimum_difference_interval": null,
+      "status": "UNKNOWN_MISSING_FINITE_BRACKET",
+      "tau": {
+        "numerator": "5902958103587057",
+        "denominator": "590295810358705651712",
+        "approximate": 1e-05
+      }
+    }
+  ],
+  "no_energy_or_HOD_inference": true
+}

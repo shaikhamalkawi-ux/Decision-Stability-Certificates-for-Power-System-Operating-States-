@@ -1,0 +1,32 @@
+{
+  "status": "SOURCE_ONLY_CAPTURE",
+  "commit": "4f04f0dd6641b071fd7556346c3d7190c2ffdfe5",
+  "files": [
+    {
+      "path": "results/research_next/orlib_preflight/source_cache/builder_scope/src/model/build.jl",
+      "url": "https://raw.githubusercontent.com/ANL-CEEESA/UnitCommitment.jl/4f04f0dd6641b071fd7556346c3d7190c2ffdfe5/src/model/build.jl",
+      "bytes": 3653,
+      "sha256": "0d36d40b2c156601f40e8fbbab200d29ec278bbeba09009fe085e2f6bb86ae93"
+    },
+    {
+      "path": "results/research_next/orlib_preflight/source_cache/builder_scope/src/model/formulations/base/line.jl",
+      "url": "https://raw.githubusercontent.com/ANL-CEEESA/UnitCommitment.jl/4f04f0dd6641b071fd7556346c3d7190c2ffdfe5/src/model/formulations/base/line.jl",
+      "bytes": 1985,
+      "sha256": "248681a6d678663a3dcd4cfbaf9fbed097c6295308cf00f5dba68c3f887c55f1"
+    },
+    {
+      "path": "results/research_next/orlib_preflight/source_cache/builder_scope/src/UnitCommitment.jl",
+      "url": "https://raw.githubusercontent.com/ANL-CEEESA/UnitCommitment.jl/4f04f0dd6641b071fd7556346c3d7190c2ffdfe5/src/UnitCommitment.jl",
+      "bytes": 3013,
+      "sha256": "7124cd2edfabd93bfc8e76bb7a5aa1d00784f2dc88689e4f8e0d11039462d069"
+    },
+    {
+      "path": "results/research_next/orlib_preflight/source_cache/builder_scope/src/model/formulations/WanHob2016/ramp.jl",
+      "url": "https://raw.githubusercontent.com/ANL-CEEESA/UnitCommitment.jl/4f04f0dd6641b071fd7556346c3d7190c2ffdfe5/src/model/formulations/WanHob2016/ramp.jl",
+      "bytes": 8440,
+      "sha256": "cf8d8dda97a625a0a67c48ad36032e5f32bcec976e8bc65cb68a2fd4b4d7b15a"
+    }
+  ],
+  "scientific_models_generated": 0,
+  "optimizer_calls": 0
+}

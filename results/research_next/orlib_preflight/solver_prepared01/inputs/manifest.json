@@ -1,0 +1,130 @@
+{
+  "schema": "orlib-prepared-manifest-v1",
+  "files": [
+    {
+      "path": "descriptor.json",
+      "bytes": 2013,
+      "sha256": "92bf4ac52d5bb1233400c0a4518d41f90ad3a640ffce78914ef568aefc629e51"
+    },
+    {
+      "path": "identity__hard_service.json",
+      "bytes": 1680148,
+      "sha256": "fc88c381841ca63b4d9ff36f483fdbfd87507d9886a939a4b7bc07ef3bc824c3"
+    },
+    {
+      "path": "identity__native_penalized.json",
+      "bytes": 1680334,
+      "sha256": "5abc7c12289d6428081f49646553863abaa041abfd4bac6215d7d49130b2f725"
+    },
+    {
+      "path": "normalized_case.json",
+      "bytes": 9407,
+      "sha256": "be57cd1fd925fb5c106b8e90979dcc866c0b27068b368ec018e4068d03067df8"
+    },
+    {
+      "path": "ORLIB_TRANSFER_PROTOCOL.md",
+      "bytes": 15244,
+      "sha256": "4fb15c1525405561a7c9ce19f5d4bb01dde55ff014b70bd55173d067f929f04a"
+    },
+    {
+      "path": "researchnext_orlib_uc.py",
+      "bytes": 32720,
+      "sha256": "e2b137f6a7ba23d1a9b12663ee1deee7bf2a3fffdd1f95d4718fb9ba37d17dc1"
+    },
+    {
+      "path": "reverse_4_19__hard_service.json",
+      "bytes": 1680148,
+      "sha256": "394d6ffce03d4a15d9da6f225ad5f2c754b1efaf1fe3ec0dd5e2f194d98ce3cb"
+    },
+    {
+      "path": "reverse_4_19__native_penalized.json",
+      "bytes": 1680334,
+      "sha256": "a8bb82c4397957c6bdf4264d4265fca7144a09282b819aa15880ab60e22db4bb"
+    },
+    {
+      "path": "rotate_left1_4_19__hard_service.json",
+      "bytes": 1680148,
+      "sha256": "d18eaf959f6a709f7f60cdc903540d3ff0b0665e305c8530dbd177bf70f0adb8"
+    },
+    {
+      "path": "rotate_left1_4_19__native_penalized.json",
+      "bytes": 1680334,
+      "sha256": "3aab9efc6d583bc8ac34fffbd5b1a02a25633af3364ef94e61e0c780588298ad"
+    },
+    {
+      "path": "selected_case.json.gz",
+      "bytes": 2419,
+      "sha256": "6ef95ef5a1966914306da848f2ffa4bd835c49d520e30b1dcbcfa948eee85cbe"
+    },
+    {
+      "path": "upstream/LICENSE.md",
+      "bytes": 1789,
+      "sha256": "1c50672dd60074aa0d516c1c61834f47fb6002f4d70e707523d57bda5f0f136c"
+    },
+    {
+      "path": "upstream/src/instance/migrate.jl",
+      "bytes": 1748,
+      "sha256": "cef1c7575185ad4350e00962ce0d4af27514cf287e266439dc8679c99e33cf60"
+    },
+    {
+      "path": "upstream/src/instance/read.jl",
+      "bytes": 16792,
+      "sha256": "4ac605833da6c283b20ea536c3da874c6a42b8c2923301abf874f536fa4b6ec2"
+    },
+    {
+      "path": "upstream/src/model/formulations/base/bus.jl",
+      "bytes": 1003,
+      "sha256": "a7efa482f3c3b09576015717cfc90fea91c6bb3c5717be6afee7729240cbbb8c"
+    },
+    {
+      "path": "upstream/src/model/formulations/base/structs.jl",
+      "bytes": 3555,
+      "sha256": "5a90e3738a898d6a5be31f0cb8f4a809e78ca255f47d033df72717f533667216"
+    },
+    {
+      "path": "upstream/src/model/formulations/base/system.jl",
+      "bytes": 4486,
+      "sha256": "10ca02e32608a359f124115e420dddd15c425963050afa0e0e313cb64c14ae67"
+    },
+    {
+      "path": "upstream/src/model/formulations/base/unit.jl",
+      "bytes": 10792,
+      "sha256": "fdfff2b655cef6bfa9fcd7f17a78e5636e5c9c3c41f179b9fe6774d44da4158b"
+    },
+    {
+      "path": "upstream/src/model/formulations/Gar1962/prod.jl",
+      "bytes": 1845,
+      "sha256": "278790c87ca41f7bc4ec89d3d9b9ab22ef0d554fa6c8638e5a2726ab76db5d8e"
+    },
+    {
+      "path": "upstream/src/model/formulations/Gar1962/status.jl",
+      "bytes": 2207,
+      "sha256": "59049061a26d8223915061a7dc7b3c08907885bdeb5e9df6db897b6946181e7c"
+    },
+    {
+      "path": "upstream/src/model/formulations/KnuOstWat2018/pwlcosts.jl",
+      "bytes": 4103,
+      "sha256": "53697ddd610c649ad1e1b65b1061146e391f0695d8d65da8670fd00864d5f367"
+    },
+    {
+      "path": "upstream/src/model/formulations/MorLatRam2013/ramp.jl",
+      "bytes": 5413,
+      "sha256": "fd8f6f982993f9b33ecb348178b68c9dc9eee284f0ab2e37b149ca3730952916"
+    },
+    {
+      "path": "upstream/src/model/formulations/MorLatRam2013/scosts.jl",
+      "bytes": 1919,
+      "sha256": "db8c3c5410aa6a122a6bf61ca6d399c7c93d25f5fcf30a096f02940ab13f92b8"
+    },
+    {
+      "path": "upstream/src/validation/repair.jl",
+      "bytes": 2759,
+      "sha256": "8f918bb6bd9074ba56ad98fcc5e04de397ac6d153a6e498cb79800f32fd02b2f"
+    },
+    {
+      "path": "upstream/src/validation/validate.jl",
+      "bytes": 26293,
+      "sha256": "74fe665dd1e0b64569b8c0000bdd279cfaf524738b15519a2d05cea7c74c1337"
+    }
+  ]
+}

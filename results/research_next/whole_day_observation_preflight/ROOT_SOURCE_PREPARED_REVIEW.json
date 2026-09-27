@@ -1,0 +1,20 @@
+{
+  "status": "PASS_ROOT_SOURCE_AND_PREPARED_REVIEW",
+  "utc": "2026-09-27T07:38:03.715Z",
+  "source_sha256": "62a7f7c7b460b9dbe55c00e2a42f9cb6fbee7611b14bc397995aa1bb26fc1af6",
+  "protocol_sha256": "a93991ee2b8fe7ed9a652ed5227c97e4f1deac6bd35d55aae01aea1a7aa8fcce",
+  "freeze_sha256": "3b5da114904111edd8ad3e35d2bb5ad33a7c7cfeead23a5eca5ad1f2995bd422",
+  "input_manifest_sha256": "55a71e4d02e4523da084e2a468393e23cf3d0afb12f637e698155d0592e7cfd3",
+  "verified_bindings": 170,
+  "cases": 18,
+  "targets": 15,
+  "calls": 21,
+  "provenance_counts": {
+    "existing_identity": 3,
+    "old_week1": 5,
+    "new_week2_3": 10
+  },
+  "run_directory_absent": true,
+  "review_scope": "Root fully read new source/protocol and inherited execution/observation interface; independently checked prepared hashes/schedule/provenance, no model or projection regeneration, no clustering or optimizer.",
+  "tooling_note": "First review tool invocation used unavailable require() and stopped before hash checks or writes; fixed to supported module import."
+}

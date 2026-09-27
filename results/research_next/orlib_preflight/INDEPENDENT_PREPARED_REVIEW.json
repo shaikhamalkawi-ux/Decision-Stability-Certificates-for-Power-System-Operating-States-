@@ -1,0 +1,64 @@
+{
+  "status": "PASS_PREPARED_ARCHIVE",
+  "manifest_sha256": "8cf0b37220f521cd1365c4a0ad05199bafb0a634eeb28cc0642c1e31b4c3b205",
+  "payload_count": 25,
+  "file_count_with_manifest": 26,
+  "upstream_bound_files": 14,
+  "models": [
+    {
+      "model": "identity__native_penalized",
+      "rows": 4384,
+      "columns": 2472,
+      "binaries": 960,
+      "moved_hour_positions": 0,
+      "package_multiset_equal": true
+    },
+    {
+      "model": "identity__hard_service",
+      "rows": 4384,
+      "columns": 2472,
+      "binaries": 960,
+      "moved_hour_positions": 0,
+      "package_multiset_equal": true
+    },
+    {
+      "model": "reverse_4_19__native_penalized",
+      "rows": 4384,
+      "columns": 2472,
+      "binaries": 960,
+      "moved_hour_positions": 16,
+      "package_multiset_equal": true
+    },
+    {
+      "model": "reverse_4_19__hard_service",
+      "rows": 4384,
+      "columns": 2472,
+      "binaries": 960,
+      "moved_hour_positions": 16,
+      "package_multiset_equal": true
+    },
+    {
+      "model": "rotate_left1_4_19__native_penalized",
+      "rows": 4384,
+      "columns": 2472,
+      "binaries": 960,
+      "moved_hour_positions": 16,
+      "package_multiset_equal": true
+    },
+    {
+      "model": "rotate_left1_4_19__hard_service",
+      "rows": 4384,
+      "columns": 2472,
+      "binaries": 960,
+      "moved_hour_positions": 16,
+      "package_multiset_equal": true
+    }
+  ],
+  "all_archive_bytes_unchanged": true,
+  "model_rebuilds": 0,
+  "optimizer_calls": 0,
+  "witness_calls": 0,
+  "scope": "Independent byte/schema/coordinate/variant/package audit; no adapter import or runtime JuMP matrix-equivalence test",
+  "review_seconds": 0.586120399995707,
+  "review_source_sha256": "8b4f5e4417ac75645f866f06df9b369f2e7fd671e3172af3b91456dec391fd97"
+}

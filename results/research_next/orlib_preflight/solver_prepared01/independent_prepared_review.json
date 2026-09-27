@@ -1,0 +1,82 @@
+{
+  "status": "PASS_PREPARED_ORLIB",
+  "run_manifest_sha256": "30bcdeda411263c4782d34328bbfe3ec6f77814a1c0a80d5d526844a52a79306",
+  "adapter_sha256": "e2b137f6a7ba23d1a9b12663ee1deee7bf2a3fffdd1f95d4718fb9ba37d17dc1",
+  "solver_sha256": "2659f11efe5d817fe70f007e514b99dbc992408db3482e825719175bee458e5a",
+  "solver_protocol_sha256": "c7b4e5033095b6119838c8bea6d79362fadcecd736cecdb6abb1daf9585d05ff",
+  "adapter_manifest_sha256": "8cf0b37220f521cd1365c4a0ad05199bafb0a634eeb28cc0642c1e31b4c3b205",
+  "bound_payloads": 29,
+  "total_files_including_manifest": 30,
+  "byte_identical_prior_payloads_including_manifest": 26,
+  "models": [
+    {
+      "model": "identity__native_penalized",
+      "rows": 4384,
+      "columns": 2472,
+      "original_binary_coordinates": 960,
+      "objective_matches_bound_normalized_cost_fields": true
+    },
+    {
+      "model": "identity__hard_service",
+      "rows": 4384,
+      "columns": 2472,
+      "original_binary_coordinates": 960,
+      "objective_matches_bound_normalized_cost_fields": true
+    },
+    {
+      "model": "reverse_4_19__native_penalized",
+      "rows": 4384,
+      "columns": 2472,
+      "original_binary_coordinates": 960,
+      "objective_matches_bound_normalized_cost_fields": true
+    },
+    {
+      "model": "reverse_4_19__hard_service",
+      "rows": 4384,
+      "columns": 2472,
+      "original_binary_coordinates": 960,
+      "objective_matches_bound_normalized_cost_fields": true
+    },
+    {
+      "model": "rotate_left1_4_19__native_penalized",
+      "rows": 4384,
+      "columns": 2472,
+      "original_binary_coordinates": 960,
+      "objective_matches_bound_normalized_cost_fields": true
+    },
+    {
+      "model": "rotate_left1_4_19__hard_service",
+      "rows": 4384,
+      "columns": 2472,
+      "original_binary_coordinates": 960,
+      "objective_matches_bound_normalized_cost_fields": true
+    }
+  ],
+  "planned_MIP_calls": 6,
+  "planned_LP_calls": 6,
+  "execution_marker_absent": true,
+  "closed_reviews": {
+    "INDEPENDENT_PREPARED_REVIEW.json": "29bbf8a5e661bc9027262a004fc6c2a66c3df1ef687eaab29dfdfbba9586a3e8",
+    "INDEPENDENT_PREPARED_REVIEW.md": "4ec1f4070ef946317de7ace2eae80eb643f6087893f7afbc832d8bcd237171dc",
+    "SOLVER_SOURCE_REVIEW.md": "dea3c2ea5f9c95cf0b870f1c0a8daa4e40c10f81c2b36e8ca287bb00515102c6"
+  },
+  "frozen_bytes_unchanged": true,
+  "review_scope": "All frozen bytes and exact prior-archive transport; full model sizes, masks, finite boxes and every encoded cost; fixed order/options/tau; raw initial/dwell/ramp fields. Variant/package/row semantics inherited from unchanged independently audited archive; bound arithmetic/witness semantics from final source review.",
+  "not_claimed": [
+    "Runtime Julia/JuMP export equality",
+    "Solver outcome",
+    "Binary witness",
+    "Independent model reconstruction"
+  ],
+  "producer_imports": 0,
+  "model_rebuilds": 0,
+  "optimizer_calls": 0,
+  "witness_checks": 0,
+  "runtime_record_as_prepared": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "numpy": "2.3.5",
+    "highspy": "1.12.0"
+  },
+  "review_seconds": 0.8472863000060897,
+  "review_source_sha256": "64aa814c6b00517eeeb56eaeb1619e33e9bf227f1fdff203b8c6a8d84803451e"
+}

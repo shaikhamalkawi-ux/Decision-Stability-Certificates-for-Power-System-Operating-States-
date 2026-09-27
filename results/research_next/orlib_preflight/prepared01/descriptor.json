@@ -1,0 +1,65 @@
+{
+  "status": "PREPARED_NOT_SOLVED",
+  "source_commit": "4f04f0dd6641b071fd7556346c3d7190c2ffdfe5",
+  "case_url": "https://axavier.org/UnitCommitment.jl/0.4/instances/or-lib/10_0_1_w.json.gz",
+  "case_sha256": "6ef95ef5a1966914306da848f2ffa4bd835c49d520e30b1dcbcfa948eee85cbe",
+  "models": [
+    {
+      "case": "identity",
+      "variant": "native_penalized",
+      "file": "identity__native_penalized.json",
+      "rows": 4384,
+      "columns": 2472,
+      "binary_columns": 960
+    },
+    {
+      "case": "identity",
+      "variant": "hard_service",
+      "file": "identity__hard_service.json",
+      "rows": 4384,
+      "columns": 2472,
+      "binary_columns": 960
+    },
+    {
+      "case": "reverse_4_19",
+      "variant": "native_penalized",
+      "file": "reverse_4_19__native_penalized.json",
+      "rows": 4384,
+      "columns": 2472,
+      "binary_columns": 960
+    },
+    {
+      "case": "reverse_4_19",
+      "variant": "hard_service",
+      "file": "reverse_4_19__hard_service.json",
+      "rows": 4384,
+      "columns": 2472,
+      "binary_columns": 960
+    },
+    {
+      "case": "rotate_left1_4_19",
+      "variant": "native_penalized",
+      "file": "rotate_left1_4_19__native_penalized.json",
+      "rows": 4384,
+      "columns": 2472,
+      "binary_columns": 960
+    },
+    {
+      "case": "rotate_left1_4_19",
+      "variant": "hard_service",
+      "file": "rotate_left1_4_19__hard_service.json",
+      "rows": 4384,
+      "columns": 2472,
+      "binary_columns": 960
+    }
+  ],
+  "positive_control": "identity input and subsequently accepted identity witness; no extra optimization",
+  "solver_calls": 0,
+  "runtime_JuMP_matrix_equivalence": "NOT_TESTED",
+  "immutable_input_snapshots_and_final_recheck": true,
+  "snapshot_sha256": {
+    "case_gzip": "6ef95ef5a1966914306da848f2ffa4bd835c49d520e30b1dcbcfa948eee85cbe",
+    "adapter": "e2b137f6a7ba23d1a9b12663ee1deee7bf2a3fffdd1f95d4718fb9ba37d17dc1",
+    "protocol": "4fb15c1525405561a7c9ce19f5d4bb01dde55ff014b70bd55173d067f929f04a"
+  }
+}

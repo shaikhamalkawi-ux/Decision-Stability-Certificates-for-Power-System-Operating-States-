@@ -1,0 +1,15 @@
+# OR-LIB10 selected builder path and omitted mfg columns
+
+Source-only review, 2026-09-27. This closes the narrow top-level-call-path question before the separately authorized six-model preparation. It is not a Julia execution, exported-coefficient comparison, or solver result.
+
+The additional four official files are pinned to UnitCommitment.jl commit `4f04f0dd6641b071fd7556346c3d7190c2ffdfe5` and preserved under `source_cache/builder_scope/`. Their URLs, lengths and SHA256 values are in `source_cache/BUILDER_SCOPE_MANIFEST.json`, SHA256 `0cbd66dcd8040955563cbe98ce9d726bc2910dbe74028a5d16ea6d53be5ea2bb`. The previously inspected fourteen-file source cache and its manifest remain unchanged.
+
+`src/model/build.jl` lines60–107 gives the complete `build_model` route: commitment construction for every thermal unit, transmission setup, then scenario loops for lines, buses, price-sensitive loads, thermal dispatch, profiled units and storage, followed by system-wide equations and the accumulated objective. Optional variable naming only labels objects. The selected file has one bus and no lines, price-sensitive loads, profiled units or storage. In `base/line.jl` lines20–58, the one-bus transmission setup sets empty shift-factor arrays and adds no model variables or constraints; the line loop is empty.
+
+The remaining active paths are precisely the inspected `base/unit.jl`, `base/bus.jl` and `base/system.jl` and the formulation methods selected by `base/structs.jl`: Gar1962 production/status, KnuOstWat2018 PWL, MorLatRam2013 ramp and startup. `base/unit.jl` allocates mfg with lower bound zero before its flexiramp-product loop. None of the remaining selected methods uses mfg in a row or objective. System-wide flexiramp construction filters reserve products by type; the only selected reserve is spinning, so that loop adds nothing.
+
+`src/UnitCommitment.jl` loads an alternative `WanHob2016/ramp.jl`. Its method explicitly requires `WanHob2016.Ramping`, whereas the selected default is `MorLatRam2013.Ramping`; loading that file does not execute its body or select it. Its mfg constraints are inside the alternative method, associated with flexiramp products. They are not called by this selected build. This review does not claim mfg is unused for every formulation or every instance.
+
+For this selected model, the 240 native mfg columns therefore have only nonnegativity bounds and zero objective. Dropping them is a nominal projection with a cost-preserving lift `mfg=0`. There is no omitted mfg-linked constraint in the inspected actual selected top-level build path. No claim is made about a later different formulation, user-added constraints, an upstream optimization callback, or equality of runtime Julia binary64 exports. The adapter does not call an upstream optimizer or callback and the selected system has no transmission lines.
+
+The reviewed adapter/protocol remain unchanged at SHA256 `e2b137f6a7ba23d1a9b12663ee1deee7bf2a3fffdd1f95d4718fb9ba37d17dc1` / `4fb15c1525405561a7c9ce19f5d4bb01dde55ff014b70bd55173d067f929f04a`. This addendum is separate provenance, not an unannounced amendment of either frozen source.

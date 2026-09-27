@@ -1,0 +1,76 @@
+{
+  "schema": "orlib-readiness-v2",
+  "status": "ADAPTER_PREPARED_SOLVER_SOURCE_READY_NO_OPTIMIZATION",
+  "adapter": {
+    "path": "src/researchnext_orlib_uc.py",
+    "bytes": 32720,
+    "sha256": "e2b137f6a7ba23d1a9b12663ee1deee7bf2a3fffdd1f95d4718fb9ba37d17dc1"
+  },
+  "adapter_protocol": {
+    "path": "docs/research_next/ORLIB_TRANSFER_PROTOCOL.md",
+    "bytes": 15244,
+    "sha256": "4fb15c1525405561a7c9ce19f5d4bb01dde55ff014b70bd55173d067f929f04a"
+  },
+  "builder_scope_review": {
+    "path": "results/research_next/orlib_preflight/BUILDER_SCOPE_REVIEW.md",
+    "bytes": 3149,
+    "sha256": "9a978cb2713686348823dd52c5efe1c0889bfcdd9b73148a61378c2fc528b9bc"
+  },
+  "builder_source_manifest": {
+    "path": "results/research_next/orlib_preflight/source_cache/BUILDER_SCOPE_MANIFEST.json",
+    "bytes": 1717,
+    "sha256": "0cbd66dcd8040955563cbe98ce9d726bc2910dbe74028a5d16ea6d53be5ea2bb"
+  },
+  "prepared_manifest": {
+    "path": "results/research_next/orlib_preflight/prepared01/manifest.json",
+    "bytes": 4355,
+    "sha256": "8cf0b37220f521cd1365c4a0ad05199bafb0a634eeb28cc0642c1e31b4c3b205"
+  },
+  "prepared_descriptor": {
+    "path": "results/research_next/orlib_preflight/prepared01/descriptor.json",
+    "bytes": 2013,
+    "sha256": "92bf4ac52d5bb1233400c0a4518d41f90ad3a640ffce78914ef568aefc629e51"
+  },
+  "prepared_payload_count": 25,
+  "model_count": 6,
+  "rows_per_model": 4384,
+  "columns_per_model": 2472,
+  "binary_coordinates_per_model": 960,
+  "optimizer_calls": 0,
+  "adapter_preparation_executions": 1,
+  "adapter_preparation_process_session": 99354,
+  "adapter_preparation_exit_code": 0,
+  "root_review": "Root reported full source/protocol and selected pinned equation read PASS; conditional one-time preparation GO required top-level mfg omission review, closed by the bound addendum before launch.",
+  "temporal_review": "No ORLIB source review attributed yet; root is arranging independent stable solver/source and prepared review.",
+  "solver_source": {
+    "path": "src/researchnext_orlib_solve.py",
+    "bytes": 26894,
+    "sha256": "6c395f0c04930d1ed68e0d55a796ef3fab0e5f1fd2917bc5b60cb8a73f46364d"
+  },
+  "solver_protocol": {
+    "path": "docs/research_next/ORLIB_SOLVER_PROTOCOL.md",
+    "bytes": 10637,
+    "sha256": "cf5e026184e3bfb83944358e1a3a4f1a03882be0a83d2d74deb18e88b505d5d5"
+  },
+  "solver_synthetic_arithmetic": {
+    "path": "results/research_next/orlib_preflight/solver_synthetic_checks01.json",
+    "bytes": 627,
+    "sha256": "47ea206a308a43b71cecf9477ffe4bb5babd459eae126396370421f3a3256566"
+  },
+  "solver_synthetic_execution_exit_code": 0,
+  "solver_preparations": 0,
+  "solver_runs": 0,
+  "source_review_scope": "Producer AST checks and six synthetic dual arithmetic fixtures are not independent scientific replay. Returned earlier child review is preserved in READINESS.json; no unreturned later review inferred.",
+  "next_gates": [
+    "Independent six-model adapter prepared review",
+    "Root and independent full solver source/protocol review",
+    "Explicit solver prepare-run authorization",
+    "Independent solver-prepared gate and separate explicit run GO"
+  ],
+  "limits": [
+    "Source-derived encoding; runtime JuMP matrix equivalence NOT_TESTED",
+    "Independent synthetic one-bus UC cost pilot only",
+    "No HOD/network/fossil-energy replication",
+    "No optimizer call or target outcome exists"
+  ]
+}

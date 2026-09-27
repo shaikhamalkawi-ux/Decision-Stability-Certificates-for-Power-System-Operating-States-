@@ -1,0 +1,46 @@
+{
+  "kind": "lp",
+  "options": {
+    "time_limit": 30.0,
+    "threads": 1,
+    "random_seed": 0,
+    "solver": "simplex",
+    "presolve": "off",
+    "log_to_console": false,
+    "log_file": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\orlib_preflight\\solver_prepared01\\outputs\\rotate_left1_4_19__native_penalized\\lp\\solver.log"
+  },
+  "solver_version": "1.12.0",
+  "solver_calls": 1,
+  "verdict": "EXACT_OBJECTIVE_LOWER_BOUND_ONLY",
+  "exact_optimality_claim": false,
+  "accepted_expanded_upper": null,
+  "accepted_nominal_upper": null,
+  "selected_expanded_lower": {
+    "numerator": "22492839325890161517544592249240986845878132180327002955",
+    "denominator": "11692013098647223345629478661730264157247460343808",
+    "approximate": 1923778.149760421
+  },
+  "selected_nominal_lower": {
+    "numerator": "1219346818681594135870320136557725285",
+    "denominator": "633825300114114700748351602688",
+    "approximate": 1923790.0703270466
+  },
+  "started_utc": "2026-09-27T07:44:11.855726+00:00",
+  "ended_utc": "2026-09-27T07:44:12.215643+00:00",
+  "elapsed_seconds": 0.35890270001254976,
+  "run_status": "HighsStatus.kOk",
+  "model_status": "Optimal",
+  "solution_value_valid": true,
+  "solution_dual_valid": true,
+  "numeric_objective": 1923790.070327049,
+  "numeric_mip_bound": 0.0,
+  "numeric_mip_gap": null,
+  "primal_solution_status": 2,
+  "dual_solution_status": 2,
+  "mip_node_count": -1,
+  "simplex_iterations": 1427,
+  "time_limit_overrun_seconds": 0.0,
+  "nominal_bound_source": "projected_solver_rows_plus_box_residual",
+  "expanded_bound_source": "projected_solver_rows_plus_box_residual",
+  "LP_primal_is_not_a_UC_witness": true
+}
