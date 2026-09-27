@@ -1,0 +1,23 @@
+{
+  "rows": 69362,
+  "columns": 33936,
+  "coefficients": 291176,
+  "original_bits_fixed": 12096,
+  "same_original_matrix": true,
+  "only_state_boxes_changed": true,
+  "all_backend_continuous": true,
+  "options": {
+    "time_limit": 60.0,
+    "threads": 1,
+    "random_seed": 0,
+    "presolve": "on",
+    "solver": "simplex"
+  },
+  "array_materializations": {
+    "start": 1,
+    "indices": 1,
+    "values": 1
+  },
+  "readback_sha256": "ea55a27c30ccb529c3d08748f8101aba001153079b6a00594e86884defe14c0c",
+  "optimizer_calls": 0
+}

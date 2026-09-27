@@ -1,0 +1,17 @@
+# Independent reverse-native point, lower bound and signed-difference replay
+
+**PASS.** One full independent arithmetic replay checked the unchanged reverse target on the actual raw native encoding and the signed difference against the closed identity bounds. The outward six-place difference interval is **[9972.898506, 63039.576470]** in encoded UC objective units. Exact fractions in the JSON are authoritative.
+
+The reviewer is adapted from the distinct earlier independent identity checker 94c0e0f8462815c75607a1ab6d284d26eed54317d72999fee4f958d825bf5bc0. Its raw MOI, alias, endpoint and narrow NPY decoders and interval-minimum proof routines are retained. It imports neither producer nor shared mathematical helper code. Adaptation changes target/provenance/output bindings and adds a direct independent signed-endpoint subtraction, reference-role and outward-display check. This is disclosed checker reuse on the same host, not a new independent-machine replication.
+
+All 2712 lifted coordinates, 4384 raw affine constraints, 3696 variable records and 960 exact binaries were checked. The candidate's 2472 retained coordinates are unchanged; 240 disconnected mfg coordinates are zero. All raw objective terms reproduce the archived target upper exactly. Expanded membership passes; strict nominal membership fails with maximum violation 55/35184372088832. No strict nominal upper follows.
+
+All 4384 raw row multipliers, admissible-side projection, 2472 exact residuals, selected original signed proof, 480 Q/R upper corrections and direct interval-minimum sum agree. Actual target headroom relations and N equalities were checked; complete nominal correspondence for the remaining domains is inherited from bb44ef305c468a9e334a0a8e5ee63fc84ac8e87aec057c8e05e21ad07a2f8cc6. Target bounds are approximately [1939365.3348704537, 1976293.0344030275]. The Q/R correction is approximately −0.014192088255340178.
+
+The identity result and independent review remain unchanged and their full arithmetic was not repeated. The difference is L_reverse−U_identity through U_reverse−L_identity. Saved rational endpoints, endpoint linkage, outward decimal distances, positivity and absence of regret claims all pass. All 499 original bindings, 34 copies and eight producer files stayed unchanged. Producer arithmetic took 22.2671693 seconds; independent arithmetic took 1.5929311 seconds, with zero optimization, Julia or model-building calls.
+
+A first reviewer adaptation failed before scientific payload decoding during its initial provenance-hash loop: the copied identity prepared-review path was still present. That source (26aeff7e7729c24f2a41cc5d188f437b939b2758c297b7afc1e8c51fe75b78d3) and FIRST_REVIEW_FAILURE.json are preserved. The additive schema2 reviewer fixes the bindings/schema and adds the intended difference block; no producer or scientific input was modified, and the failed setup attempt evaluated no point or dual. The successful full arithmetic was run once.
+
+Successful reviewer: postrun_review_schema2.py, SHA256 187d25a96459ad4202a5340b551d09c244686626a0ed60526476e665a1313c2f. Report: postrun_review_schema2.json, SHA256 44eaa3634ce474a0c587b0022bfb03e7b4de347403ee38ede7388d1810313e20.
+
+This closes one post hoc actual-code fidelity extension for two separately informed optima under the declared uniform expansion. The other three original target/service comparisons remain untransferred. It proves no decision regret, exact nominal optimum, expanded-model equality, independent-network effect, field result or new algorithm.

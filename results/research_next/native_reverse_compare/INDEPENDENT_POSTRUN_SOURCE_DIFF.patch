@@ -1,0 +1,64 @@
+--- identity_independent_reviewer
++++ reverse_independent_reviewer
+@@ -6,10 +6,13 @@
+ import hashlib, json, math, time
+ 
+ ROOT=Path(__file__).resolve().parents[3]
+-ARM=ROOT/'results/research_next/orlib_native_compare_schema2'
++ARM=ROOT/'results/research_next/native_reverse_compare'
+ PRE=ARM/'prepared'
+ RUN=ARM/'run01'
+-MSHA='ea2a05148c0d0b23b2c59faea9f0afcfd4a3b386e6e738adb97ca1b4610ab829'
++MSHA='b594e558f7587a1667407d48d39d0bc9f4c7a6804620121e438908d804eb4fc4'
++PARENT_REVIEW=ROOT/'results/research_next/orlib_native_compare_schema2/INDEPENDENT_POSTRUN_REVIEW.py'
++PARENT_SHA='6390b0f51a9385860ff28683c2610008173ea0fcb8b1ed40b686cbbfd7c06d3c'
++ORDER=[0,1,2,3,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,20,21,22,23]
+ def need(ok,why):
+     if not ok: raise AssertionError(why)
+ def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
+@@ -109,14 +112,23 @@
+     return alias
+ def main():
+     start=time.perf_counter();need(sha(PRE/'manifest.json')==MSHA,'Pinned freeze')
+-    manifest=read(PRE/'manifest.json');check_files(manifest['inputs']+manifest['copies'])
++    manifest=read(PRE/'manifest.json');items=manifest['inputs']+list(manifest['copies'].values());check_files(items)
++    need(sha(PARENT_REVIEW)==PARENT_SHA,'Explicit unchanged independent parent checker provenance')
++    need(sha(ROOT/'src/researchnext_native_reverse_compare.py')==manifest['source_sha256']=='d119ee515815281bf95bd3f669b0bc5a657ed8be90161fe2fd6de6489cfa1e82','Frozen wrapper')
++    need(sha(ROOT/'docs/research_next/NATIVE_REVERSE_COMPARE_PROTOCOL.md')==manifest['protocol_sha256']=='36535647b0e62db57f526f1c6d5ebcb2e04c2df5a22650a6046a2341344d95d4','Frozen protocol')
+     snapshot={p.name:sha(p) for p in RUN.iterdir() if p.is_file()}
+-    need(set(snapshot)=={'started.json','comparison.json','completion.json'},'Closed single success layout')
++    need(set(snapshot)=={'started.json','comparison.json','completion.json','expected_parsed_bridge.json'},'Closed single success layout')
+     producer=read(RUN/'comparison.json');completion=read(RUN/'completion.json');started=read(RUN/'started.json')
+-    need(started['manifest_sha256']==MSHA and started['source_sha256']==manifest['source_sha256'],'Launch pins')
++    need(started['manifest_sha256']==MSHA and started['native_builds']==0,'Launch pins')
+     need(completion['status']=='COMPLETE_PENDING_INDEPENDENT_REVIEW' and completion['all_inputs_unchanged'],'Completed run')
+     need(0<=completion['elapsed_seconds']<=120 and completion['optimizer_calls']==started['optimizer_calls']==0,'Timing and zero optimization')
+     raw=read(PRE/'raw.json');p=read(PRE/'parsed.json');model=read(PRE/'model.json');normal=read(PRE/'normal.json')
++    need(model['order']==ORDER and model['variant']=='native_penalized' and model['horizon']==24,'Fixed original target')
++    bridge=read(RUN/'expected_parsed_bridge.json')
++    need(bridge['order_destination_to_source']==ORDER and bridge['only_reordered_fields']==['load','reserve','penalty'],'Recorded one-time expected-input bridge')
++    need(bridge['original_normal_sha256']==sha(PRE/'normal.json') and bridge['original_model_sha256']==sha(PRE/'model.json') and bridge['actual_target_plain_sha256']==sha(PRE/'derived_plain.json'),'Exact bridge payloads')
++    need(bridge['same_numerical_instance_not_whole_file_metadata_equality'] is True,'Metadata qualification')
++    normal={**normal,**{key:[normal[key][source] for source in ORDER] for key in ('load','reserve','penalty')}}
+     parsed=parsed_check(p,normal);alias=aliases_from_expected(raw,normal)
+     need(raw['schema']=='official-orlib-MOI-raw-binary64-v1' and raw['optimizer_state']=='NO_OPTIMIZER','Raw schema')
+     need(raw['duplicate_rows_preserved'] and not raw['mfg_omitted'] and not raw['finite_boxes_added'] and not raw['coefficient_normalization_performed'],'Raw export contract')
+@@ -176,11 +188,16 @@
+     need(producer['status']=='EXACT_NOMINAL_COMPARISON_PASS' and producer['allowed_nominal_domain_extensions']==504,'Producer classification')
+     need(producer['expanded_native_equivalence']=='NOT_ESTABLISHED' and not producer['old_expanded_cost_bounds_transferred'],'Expanded scope preserved')
+     need(producer['tolerance_for_comparison']==0 and not producer['coefficient_rescaling'] and producer['optimizer_calls']==producer['native_model_builds']==0,'Exact-only comparison scope')
+-    check_files(manifest['inputs']+manifest['copies']);need(sha(PRE/'manifest.json')==MSHA,'Freeze unchanged')
++    need(producer['case']=='reverse_4_19__native_penalized' and producer['reused_comparator_sha256']=='e9f1065fbd47e9d5b7a67afad92fc6a18816cade310b87c8f1c66a49814c389f','Producer target/helper scope')
++    need(producer['native_input_reordered_once'] is True and producer['target_candidate_or_dual_permuted'] is False and producer['no_cost_transfer_at_this_stage'] is True and producer['posthoc_fidelity_extension'] is True,'No silent point/cost transfer')
++    need(completion['native_builds']==0 and completion['final_completion_write_excluded'] is True,'Closed no-build scope')
++    check_files(items);need(sha(PRE/'manifest.json')==MSHA and sha(PARENT_REVIEW)==PARENT_SHA,'Freeze and independent lineage unchanged')
+     need(snapshot=={p.name:sha(p) for p in RUN.iterdir() if p.is_file()},'All producer outputs unchanged')
+     report=dict(status='PASS_INDEPENDENT_EXACT_NOMINAL_PROJECTION_EQUIVALENCE',utc=datetime.now(timezone.utc).isoformat(),
+       reviewer_source_sha256=sha(Path(__file__)),manifest_sha256=MSHA,source_sha256=manifest['source_sha256'],
+-      descriptors_verified_twice=16,producer_snapshot=snapshot,parsed_fields=parsed,
++      descriptors_verified_twice=len(items),original_bindings=len(manifest['inputs']),copies=len(manifest['copies']),producer_snapshot=snapshot,parsed_fields=parsed,
++      independent_parent_reviewer_sha256=PARENT_SHA,case='reverse_4_19__native_penalized',order_destination_to_source=ORDER,
++      adaptation_scope='Unchanged independent row/domain/objective/parsed-field algorithms; target expected-series order and closure provenance only.',
+       native_variables=2712,retained_variables=2472,omitted_nonnegative_zero_lift_variables=240,binaries=960,
+       affine_rows_with_multiplicity=4384,distinct_affine_row_signatures=len(rows),raw_affine_term_uses=term_uses,
+       comparison_representation='independent exact upper-halfspace-pair row multisets',

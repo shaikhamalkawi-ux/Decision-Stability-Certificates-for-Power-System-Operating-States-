@@ -1,0 +1,12 @@
+{
+  "utc": "2026-09-27T13:01:37.436Z",
+  "status": "PRE_ARITHMETIC_REVIEW_ADAPTATION_FAILURE",
+  "review_source_sha256": "26aeff7e7729c24f2a41cc5d188f437b939b2758c297b7afc1e8c51fe75b78d3",
+  "stage": "first provenance binding loop",
+  "error": "FileNotFoundError: inherited identity prepared_review.json path not adapted",
+  "scientific_payloads_decoded": 0,
+  "point_or_dual_replays": 0,
+  "producer_changes": 0,
+  "cause": "Cross-call JavaScript helper retained an earlier lexical string binding, so intended later text replacements were not present in written file.",
+  "resolution": "Additive schema2 file applies all corrections in one lexical scope and adds the independent signed-difference check. Original failed source remains unchanged."
+}

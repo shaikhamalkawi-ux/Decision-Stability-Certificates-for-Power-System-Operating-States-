@@ -1,0 +1,11 @@
+{
+  "status_at_record": "RUNNING_PENDING_RAW_EXPORT",
+  "exec_session_id": 63315,
+  "owned_julia_pid": 62188,
+  "julia_launch_utc": "2026-09-27T12:23:19.274334+00:00",
+  "prepared_sha256": "631ca0a7fa07abcd258dd905bc8017d88705bbfc708033157d5ac3e25cd2e675",
+  "source_sha256": "bbfc95b40199956220554a51b4bcd2fa7ab8134e238abb90b4a1129628db73df",
+  "future_completion_authority": "launcher01/completion.json",
+  "scientific_scope": "One native target read/build/raw export only; no optimizer or target comparison",
+  "automatic_retry": false
+}

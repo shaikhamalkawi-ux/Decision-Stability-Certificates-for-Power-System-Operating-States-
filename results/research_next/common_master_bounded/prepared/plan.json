@@ -1,0 +1,58 @@
+{
+  "runtime": {
+    "master": {
+      "python": [
+        3,
+        12,
+        14
+      ],
+      "packages": {
+        "pyscipopt": "6.2.1",
+        "numpy": "2.3.5"
+      }
+    },
+    "redispatch": {
+      "python": [
+        3,
+        12,
+        14
+      ],
+      "packages": {
+        "numpy": "2.3.5",
+        "scipy": "1.18.1",
+        "highspy": "1.12.0"
+      }
+    },
+    "master_executable": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\scip_capability_env01\\Scripts\\python.exe",
+    "LP_executable": "C:\\Users\\gmalkawi\\OneDrive - Higher Colleges of Technology\\Documents 1\\ChatGPT\\3\\.work\\solver_env\\Scripts\\python.exe"
+  },
+  "master_options": {
+    "limits/time": 120.0,
+    "limits/solutions": 1,
+    "parallel/maxnthreads": 1,
+    "lp/threads": 1,
+    "randomization/randomseedshift": 0,
+    "randomization/permutationseed": 0,
+    "randomization/lpseed": 0,
+    "numerics/feastol": 1e-08
+  },
+  "LP_options": {
+    "time_limit": 60.0,
+    "threads": 1,
+    "random_seed": 0,
+    "presolve": "on",
+    "solver": "simplex"
+  },
+  "phase_seconds": 360.0,
+  "master_start_guard": 125.0,
+  "LP_start_guard": 65.0,
+  "maximum_calls": 2,
+  "master_calls": 1,
+  "conditional_LP_calls": 1,
+  "candidates": 1,
+  "rows": 17212,
+  "columns": 12432,
+  "binary_columns": 12096,
+  "full_solution_lift": "exact rational master only",
+  "numeric_negative_is_never_exact": true
+}

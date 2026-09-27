@@ -1,0 +1,16 @@
+{
+  "utc": "2026-09-27T12:20:43.017723+00:00",
+  "status": "PASS_INDEPENDENT_SOURCE_AND_PREPARED_REVIEW",
+  "prepared_sha256": "631ca0a7fa07abcd258dd905bc8017d88705bbfc708033157d5ac3e25cd2e675",
+  "input_bindings": 445,
+  "all_unchanged": true,
+  "full_transport_launcher_exporter_source_read_by_parent": true,
+  "independent_checks": "One-permutation exact JSON/scalar preservation, 24-hour old-model endpoint/cost bridge, frozen command/source/runtime bindings",
+  "producer_or_native_imports": 0,
+  "scientific_native_builds": 0,
+  "optimizer_calls": 0,
+  "target_model_correspondence": "NOT_YET_TESTED",
+  "separate_root_execution_go_required": true,
+  "reviewer_source_sha256": "b1843917d92f80af58d0e8c627c204d91bce6934cc0afd5f53b3af60f2c91bbf",
+  "elapsed_seconds": 5.27381320000859
+}

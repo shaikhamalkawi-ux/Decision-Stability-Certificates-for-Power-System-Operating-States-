@@ -1,0 +1,37 @@
+{
+  "utc": "2026-09-27T12:52:32.987767+00:00",
+  "status": "CLOSED_PENDING_INDEPENDENT_REVIEW",
+  "ledger": {
+    "master_attempted": 1,
+    "master_returned": 1,
+    "LP_worker_invoked": 1,
+    "master_started_utc": "2026-09-27T12:51:36.667496+00:00",
+    "master_actual_seconds": 46.8863171999692,
+    "LP_worker": {
+      "timed_out": false,
+      "returncode": 0,
+      "owned_pid": 24456
+    },
+    "LP_worker_exit_code": 0,
+    "LP": {
+      "attempted": 1,
+      "returned": 1,
+      "started_utc": "2026-09-27T12:52:30.752971+00:00",
+      "actual_seconds": 0.6656821999931708
+    }
+  },
+  "phase_seconds": 61.233897899976,
+  "soft_phase_overrun": 0,
+  "master_soft_overrun": 0,
+  "all_frozen_bytes_unchanged": true,
+  "no_retries": true,
+  "no_exact_negative": true,
+  "final_write_cleanup_outside_sample": true,
+  "final_admission": {
+    "accepted_common": false,
+    "common_verdict": "UNKNOWN",
+    "phase_deadline_met": true,
+    "admission_monotonic": 276120.0730716,
+    "deadline_monotonic": 276418.8391884
+  }
+}

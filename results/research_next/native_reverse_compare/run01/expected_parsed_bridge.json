@@ -1,0 +1,37 @@
+{
+  "order_destination_to_source": [
+    0,
+    1,
+    2,
+    3,
+    19,
+    18,
+    17,
+    16,
+    15,
+    14,
+    13,
+    12,
+    11,
+    10,
+    9,
+    8,
+    7,
+    6,
+    5,
+    4,
+    20,
+    21,
+    22,
+    23
+  ],
+  "only_reordered_fields": [
+    "load",
+    "reserve",
+    "penalty"
+  ],
+  "original_normal_sha256": "be57cd1fd925fb5c106b8e90979dcc866c0b27068b368ec018e4068d03067df8",
+  "original_model_sha256": "a8bb82c4397957c6bdf4264d4265fca7144a09282b819aa15880ab60e22db4bb",
+  "actual_target_plain_sha256": "1d3446c1826f0420cb9d2f5cb59b252bbb8878dd3dc599c73b18edb32d051d6d",
+  "same_numerical_instance_not_whole_file_metadata_equality": true
+}

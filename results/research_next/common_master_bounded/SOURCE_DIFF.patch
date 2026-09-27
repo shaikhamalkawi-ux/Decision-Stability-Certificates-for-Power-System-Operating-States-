@@ -1,0 +1,214 @@
+--- src/researchnext_common_master.py
++++ src/researchnext_common_master_bounded.py
+@@ -1,4 +1,4 @@
+-"""One necessary commitment master and at most one unchanged joint redispatch LP."""
++"""Execution-control successor; inherit the exact prepared master without reassembly."""
+ from __future__ import annotations
+ import argparse
+ from contextlib import redirect_stderr, redirect_stdout
+@@ -18,9 +18,14 @@
+ 
+ sys.dont_write_bytecode = True
+ ROOT = Path(__file__).resolve().parents[1]
+-ARM = ROOT/'results/research_next/common_master'; PRE = ARM/'prepared'; RUN = ARM/'run01'
+-PRIVATE = ROOT/'.work/researchnext_common_master/run01'
+-PROTOCOL = ROOT/'docs/research_next/COMMON_MASTER_PROTOCOL.md'
++ARM = ROOT/'results/research_next/common_master_bounded'; PRE = ARM/'prepared'; RUN = ARM/'run01'
++PRIVATE = ROOT/'.work/researchnext_common_master_bounded/run01'
++PROTOCOL = ROOT/'docs/research_next/COMMON_MASTER_BOUNDED_PROTOCOL.md'
++INHERITED = ROOT/'results/research_next/common_master/prepared'
++INHERITED_FREEZE_SHA = '39fe78153d0ecbb408035d074f35bc7566e4fd1c93dd3d80e118fedb6f90405c'
++INHERITED_MANIFEST_SHA = 'c446c30eee6edc9b361b55bcb306bfdc8862916095d49a0ae26244753e265562'
++INHERITED_SOURCE_SHA = '0eea17f50b859db72cf6de5ad337263f6c984f7c30830861b5feb7500c39b76e'
++INHERITED_PROTOCOL_SHA = '7d28d1aff986a0cac5e2ff6179712abce7baf14ba3e3a6c3f02bd04372d9c3d2'
+ ORIGINAL = ROOT/'results/research_next/common_commitment/prepared'
+ AFFINE = ROOT/'results/research_next/union_affine_cut_schema2'
+ SCIP_PY = ROOT/'.work/scip_capability_env01/Scripts/python.exe'
+@@ -218,27 +223,38 @@
+ 
+ def prepare():
+     started=time.perf_counter();need(not PRE.exists() and not RUN.exists(),'One preparation only')
+-    runtime=runtimes();captured=capture_inputs();initial=[x[1] for x in captured.values()]
++    captured={}
++    def capture(path,expected=None):
++        path=Path(path).resolve();data=path.read_bytes();item=bind(path,data);key=str(path).casefold()
++        if expected is not None:need(item==expected,'Inherited captured bytes mismatch')
++        need(key not in captured or captured[key][1]==item,'Conflicting inherited bindings');captured[key]=(data,item)
++        return data,item
++    for path,digest in ((INHERITED/'prepared_freeze.json',INHERITED_FREEZE_SHA),(INHERITED/'input_manifest.json',INHERITED_MANIFEST_SHA),
++                        (ROOT/'src/researchnext_common_master.py',INHERITED_SOURCE_SHA),(ROOT/'docs/research_next/COMMON_MASTER_PROTOCOL.md',INHERITED_PROTOCOL_SHA)):
++        data,item=capture(path);need(item['sha256']==digest,'Inherited source/freeze pin')
++    inherited=json.loads(captured[str((INHERITED/'input_manifest.json').resolve()).casefold()][0])['files'];need(len(inherited)==200,'Inherited denominator')
++    for item in inherited:capture(item['path'],item)
++    for path in (Path(__file__),PROTOCOL,ARM/'synthetic_tests.json',ARM/'SOURCE_DIFF.patch',ARM/'PROTOCOL_DIFF.patch'):capture(path)
++    initial=[x[1] for x in captured.values()]
+     receipt=read(ARM/'synthetic_tests.json');need(receipt['source_sha256']==sha(__file__) and receipt['protocol_sha256']==sha(PROTOCOL),'Fixture source binding')
+-    PRE.mkdir(parents=True);save(PRE/'preparation_started.json',dict(utc=utc(),optimizer_calls=0,source_sha256=sha(__file__)))
++    PRE.mkdir(parents=True);save(PRE/'successor_preparation_started.json',dict(utc=utc(),optimizer_calls=0,source_sha256=sha(__file__),scientific_reassembly=False))
+     copies=[]
+-    def copy(src,dst):
+-        key=str(src.resolve()).casefold();need(key in captured,'Unbound copy source');data,item=captured[key];dst.write_bytes(data)
+-        need(bind(dst)['sha256']==item['sha256'],'Copied bytes');copies.append(dict(original=item,copy=bind(dst)))
+-    for folder,names in [('joint',JOINT_FILES)]+[(w,WORLD_FILES) for w in WORLDS]:
+-        (PRE/folder).mkdir()
+-        for name in names:copy(ORIGINAL/folder/name,PRE/folder/name)
+-    copy(ORIGINAL/'gen.csv',PRE/'gen.csv')
+-    for world in WORLDS:copy(AFFINE/'run01'/(world+'_cut.json'),PRE/(world+'_cut.json'))
+-    exact,premises=assemble(kernel());save_gzip(PRE/'master.json.gz',exact);save(PRE/'premises.json',premises)
+-    save(PRE/'copy_provenance.json',dict(copies=copies))
+-    save(PRE/'plan.json',dict(runtime=runtime,master_options=SCIP_OPTIONS,LP_options=LP_OPTIONS,phase_seconds=PHASE,
+-        master_start_guard=MASTER_GUARD,LP_start_guard=LP_GUARD,maximum_calls=2,master_calls=1,conditional_LP_calls=1,
+-        candidates=1,rows=len(exact['rows']),columns=NC,binary_columns=NB,full_solution_lift='exact rational master only',numeric_negative_is_never_exact=True))
++    for item in inherited:
++        src=Path(item['path'])
++        if not src.is_relative_to(INHERITED):continue
++        rel=src.relative_to(INHERITED);dst=PRE/rel;dst.parent.mkdir(parents=True,exist_ok=True)
++        data,descriptor=captured[str(src.resolve()).casefold()];dst.write_bytes(data)
++        need(bind(dst)['sha256']==descriptor['sha256'],'Byte-inherited payload differs');copies.append(dict(original=descriptor,copy=bind(dst)))
++    need(len(copies)==29,'All original prepared payloads except manifest/freeze')
++    save(PRE/'successor_copy_provenance.json',dict(copies=copies,master_reassembled=False,new_scientific_selection=False))
++    save(PRE/'execution_controls.json',dict(exactly_one_returned_solution=True,owned_child_timeout='remaining common monotonic phase',
++        late_positive_admission=False,phase_seconds=PHASE,master_start_guard=MASTER_GUARD,LP_start_guard=LP_GUARD,
++        cleanup_may_exceed_deadline_but_no_late_positive=True,source_sha256=sha(__file__),protocol_sha256=sha(PROTOCOL)))
+     validate(initial);items=initial+[bind(p) for p in PRE.rglob('*') if p.is_file()];validate(items)
+     save(PRE/'input_manifest.json',dict(files=items));validate(items)
+     save(PRE/'prepared_freeze.json',dict(utc=utc(),source_sha256=sha(__file__),protocol_sha256=sha(PROTOCOL),manifest_sha256=sha(PRE/'input_manifest.json'),
+-        bindings=len(items),copies=len(copies),rows=len(exact['rows']),columns=NC,binaries=NB,optimizer_calls=0,backend_imports=0,elapsed_seconds=time.perf_counter()-started,
++        bindings=len(items),copies=len(copies),rows=17212,columns=NC,binaries=NB,optimizer_calls=0,backend_imports=0,elapsed_seconds=time.perf_counter()-started,
++        inherited_freeze_sha256=INHERITED_FREEZE_SHA,master_reassembled=False,master_sha256=sha(PRE/'master.json.gz'),
+         separate_independent_prepared_review_and_explicit_execution_GO_required=True))
+     print(json.dumps(dict(status='PREPARED_NO_OPTIMIZER',freeze_sha256=sha(PRE/'prepared_freeze.json'),bindings=len(items))),flush=True)
+ 
+@@ -276,6 +292,19 @@
+     return items,read_gzip(PRE/'master.json.gz'),read(PRE/'premises.json')
+ def guard(deadline,needed=0.):
+     remaining=deadline-time.perf_counter();need(remaining>=needed,'Phase start/progress guard');return remaining
++def sole_solution(count):return type(count) is int and count==1
++def phase_admission(accepted,deadline,now=None):
++    when=time.perf_counter() if now is None else now
++    return dict(accepted_common=bool(accepted and when<=deadline),common_verdict='VERIFIED_EXPANDED_COMMON_COMMITMENT' if accepted and when<=deadline else 'UNKNOWN',
++                phase_deadline_met=when<=deadline,admission_monotonic=when,deadline_monotonic=deadline)
++def wait_owned(child,deadline,clock=time.perf_counter):
++    timeout=max(0.,deadline-clock())
++    try:
++        child.wait(timeout=timeout)
++        return dict(timed_out=False,returncode=child.returncode,owned_pid=child.pid)
++    except subprocess.TimeoutExpired:
++        child.kill();child.wait()
++        return dict(timed_out=True,returncode=child.returncode,owned_pid=child.pid,terminated_only_owned_child=True)
+ 
+ def master_backend(scip,np,model,deadline):
+     h=scip.Model('necessary_common_commitment_master');h.hideOutput();h.setLogfile(str(PRIVATE/'master.log'))
+@@ -330,7 +359,9 @@
+         finally:ledger['master_actual_seconds']=time.perf_counter()-clock
+         ledger['master_returned']=1;result.update(master_status=str(h.getStatus()),master_solutions=int(h.getNSols()),nodes=int(h.getNNodes()),LP_iterations=int(h.getNLPIterations()))
+         save(RUN/'master_solver_returned.json',dict(**result,ledger=ledger,parameters_after_call=h.getParams()))
+-        if h.getNSols()>0:
++        result['sole_returned_solution']=sole_solution(result['master_solutions'])
++        if result['sole_returned_solution']:
++            guard(deadline)
+             stage='master_exact_nomination';sol=h.getBestSol();raw=[float(h.getSolVal(sol,x)) for x in variables]
+             np.savez_compressed(RUN/'master_raw_solution.npz',vector=np.array(raw));admission,bits=nominate(raw,model,premises);save(RUN/'master_exact_admission.json',admission)
+             result['master_candidate_accepted']=admission['accepted']
+@@ -340,18 +371,24 @@
+                 request_sha=sha(RUN/'LP_request.json');save(RUN/'LP_launch_ready.json',dict(utc=utc(),remaining=guard(deadline,LP_GUARD),not_a_solver_call=True))
+                 guard(deadline,LP_GUARD);ledger['LP_worker_invoked']=1;stage='LP_worker'
+                 with (PRIVATE/'LP_worker.log').open('x',encoding='utf-8') as log:
+-                    child=subprocess.run([str(LP_PY),'-I',str(Path(__file__).resolve()),'--redispatch-worker','--expected-freeze-sha256',expected,'--expected-request-sha256',request_sha],stdout=log,stderr=log)
+-                ledger['LP_worker_exit_code']=child.returncode
++                    child=subprocess.Popen([str(LP_PY),'-I',str(Path(__file__).resolve()),'--redispatch-worker','--expected-freeze-sha256',expected,'--expected-request-sha256',request_sha],stdout=log,stderr=log)
++                    worker=wait_owned(child,deadline)
++                ledger['LP_worker']=worker;ledger['LP_worker_exit_code']=child.returncode
++                save(RUN/'LP_worker_closed.json',dict(utc=utc(),**worker))
+                 if (RUN/'lp/completion.json').exists():ledger['LP']=read(RUN/'lp/completion.json')['call_ledger']
+                 elif (RUN/'lp/failure.json').exists():ledger['LP']=read(RUN/'lp/failure.json').get('call_ledger',dict(attempted=0,stage='before_LP_call_ledger'))
+-                if child.returncode==0:
+-                    r=read(RUN/'lp/result.json');result['accepted_common']=r['accepted_common'];result['common_verdict']=r['common_verdict']
++                elif (RUN/'lp/invocation_boundary.json').exists():ledger['LP']=dict(attempted='UNKNOWN_ZERO_OR_ONE',returned=0,invocation_boundary_reached=True,worker_interrupted=True)
++                else:ledger['LP']=dict(attempted=0,returned=0,invocation_boundary_reached=False)
++                if child.returncode==0 and not worker['timed_out']:
++                    r=read(RUN/'lp/completion.json')['final_admission'];result['accepted_common']=r['accepted_common'];result['common_verdict']=r['common_verdict']
+                 else:result['worker_failure_preserved']=True
+-        validate(items);validate(transport);save(RUN/'result.json',result)
++        else:result['nomination_reason']='NO_SOLUTION' if result['master_solutions']==0 else 'MULTIPLE_SOLUTIONS_NOT_ADMITTED'
++        validate(items);validate(transport);result.update(phase_admission(result['accepted_common'],deadline));result['provisional_until_completion']=True;save(RUN/'result.json',result)
++        final=phase_admission(result['accepted_common'],deadline)
+         elapsed=time.perf_counter()-started;save(RUN/'completion.json',dict(utc=utc(),status='CLOSED_PENDING_INDEPENDENT_REVIEW',ledger=ledger,phase_seconds=elapsed,
+             soft_phase_overrun=max(0,elapsed-PHASE),master_soft_overrun=max(0,ledger.get('master_actual_seconds',0)-120),all_frozen_bytes_unchanged=True,
+-            no_retries=True,no_exact_negative=True,final_write_cleanup_outside_sample=True))
+-        print(json.dumps(result),flush=True)
++            no_retries=True,no_exact_negative=True,final_write_cleanup_outside_sample=True,final_admission=final))
++        print(json.dumps(final),flush=True)
+     except BaseException as exc:
+         save(RUN/'failure.json',dict(stage=stage,error_type=type(exc).__name__,message=str(exc),ledger=ledger,common_verdict='UNKNOWN',no_retry=True));raise
+     finally:
+@@ -381,6 +418,8 @@
+     try:
+         rx.build_readback(h,highspy,np,m,fullmask,fixed,tuple(lower),tuple(upper),checkpoint)
+         save(folder/'call_ready.json',dict(utc=utc(),remaining=guard(deadline,LP_GUARD),not_actual_call=True));guard(deadline,LP_GUARD)
++        save(folder/'invocation_boundary.json',dict(utc=utc(),not_proof_call_started=True,meaning='immediately before last phase guard and sole h.run'))
++        guard(deadline,LP_GUARD)
+         ledger.update(attempted=1,started_utc=utc());clock=time.perf_counter()
+         try:status=h.run()
+         finally:ledger['actual_seconds']=time.perf_counter()-clock
+@@ -394,35 +433,36 @@
+                 checked=sc.candidate_check(v,np,np.array(candidate),fullmask)
+                 need(all(candidate[j]==x for j,x in fixed.items()),'Prescribed complete shared states')
+                 save(folder/'prescribed_restoration.json',dict(all12096_fixed_states=True,continuous_raw_bytes_unchanged=True,raw_sha256=sha(folder/'raw_solution.npz'),prescribed_within_exact_tau=True))
+-                result['accepted_common']=checked['accepted'];result['common_verdict']='VERIFIED_EXPANDED_COMMON_COMMITMENT' if checked['accepted'] else 'UNKNOWN'
+-        validate(items);save(folder/'result.json',result);save(folder/'stage_timings.json',stages)
+-        save(folder/'completion.json',dict(utc=utc(),call_ledger=ledger,LP_soft_overrun=max(0,ledger.get('actual_seconds',0)-60),remaining_phase=deadline-time.perf_counter(),no_retry=True,no_negative_claim=True))
++                result.update(phase_admission(checked['accepted'],deadline))
++        validate(items);save(folder/'stage_timings.json',stages);result.update(phase_admission(result['accepted_common'],deadline));result['provisional_until_completion']=True;save(folder/'result.json',result)
++        final=phase_admission(result['accepted_common'],deadline)
++        remaining=deadline-time.perf_counter()
++        save(folder/'completion.json',dict(utc=utc(),call_ledger=ledger,LP_soft_overrun=max(0,ledger.get('actual_seconds',0)-60),remaining_phase=remaining,no_retry=True,no_negative_claim=True,
++            final_admission=final,final_write_outside_sample=True))
+     except BaseException as exc:
+         save(folder/'failure.json',dict(error_type=type(exc).__name__,message=str(exc),call_ledger=ledger,common_verdict='UNKNOWN',no_retry=True));raise
+ 
+ def self_test():
+     need(not (ARM/'synthetic_tests.json').exists(),'One invented fixture run');checks=[]
+-    for q in (Q(1,3),Q(-7,11),Q(0),Q(2**40),TAU):
+-        x=numeric_scalar(q);need(exact_scalar(x)==q and Q(float.fromhex(x['binary64_hex']))-q==frac(x['rounding_error']),'Exact/numeric encoding identity')
+-    need(frac(numeric_scalar(Q(1,3))['rounding_error'])!=0,'Nonrepresentable rational fixture');checks.append('exact rationals, numeric rounding and signed residuals')
+-    # An invented one-fossil/one-nuclear/one-renewable world; exhaust all binary states and rational dispatch grid.
+-    tau=Q(1,16);a=Q(1);b=Q(3);bn=Q(2);ub=Q(1);load=Q(2);accepted=0
+-    for uf,un in itertools.product((0,1),repeat=2):
+-        for pf,pn,pr in itertools.product([Q(n,4) for n in range(17)],repeat=3):
+-            if not (a*uf-tau<=pf<=b*uf+tau and pn<=bn*un+tau and pr<=ub+tau and pf+pn+pr>=load-tau):continue
+-            rho=load-ub-3*tau
+-            need(pf>=rho-bn*un and pf>=a*uf-tau and pf<=b*uf+tau,'Full dispatch lift')
+-            need(b*uf+bn*un>=ceiling(rho-tau),'Integer capacity ceiling');accepted+=1
+-    need(accepted>0,'Nonempty synthetic lift');checks.append('exhaustive rational-grid lift and total four-loss integer cover')
+-    need(ceiling(Q(7,4))==2 and Q(7,4)<2,'Ceiling is binary-only; fractional counterexample')
+-    # Witness at all four widened endpoints defeats an omitted tau loss.
+-    need((load-ub-3*tau)-tau==load-ub-4*tau and load-ub-4*tau<load-ub-3*tau,'Missing loss negative control');checks.append('ceiling fractional counterexample and omitted-tau control')
+-    toy=dict(rows=[encoded_row({0:Q(1)},None,Q(0),'invented',{})],boxes=[dict(lower=numeric_scalar(Q(0)),upper=numeric_scalar(Q(1)),kind='B')])
+-    need(not check_exact_rows(toy,[Q(0)]) and check_exact_rows(toy,[Q(1)]),'Exact state rejection')
+-    need(check_exact_rows(toy,[Q(1,2)]),'No fractional bit admission');checks.append('exact necessary rows/boxes and full binary check')
+-    hours=[dict(a=[rat(Q(2)),rat(Q(0))],b=[rat(Q(4)),rat(Q(3))],rho=rat(Q(5)),box_lower=rat(Q(0)))]
+-    need(smallest_auxiliary([Q(1),Q(1)],hours,[0],1,tau)==[Q(2)],'Minimum auxiliary keeps nuclear conditional')
+-    need(smallest_auxiliary([Q(0),Q(0)],hours,[0],1,tau)==[Q(5)],'No nuclear output when off');checks.append('deterministic auxiliary lower envelope')
++    need([sole_solution(x) for x in (0,1,2,10,True,1.)]==[False,True,False,False,False,False],'Exactly one returned integer solution count')
++    checks.append('zero/one/multiple solver solutions; no best-of-batch selection')
++    need(phase_admission(True,2.,1.)['accepted_common'] and phase_admission(True,2.,2.)['accepted_common'],'Within/deadline boundary admission')
++    need(not phase_admission(True,2.,3.)['accepted_common'] and not phase_admission(False,2.,1.)['accepted_common'],'Late or mathematically rejected positives remain UNKNOWN')
++    provisional=phase_admission(True,2.,1.);final=phase_admission(provisional['accepted_common'],2.,3.)
++    need(final['common_verdict']=='UNKNOWN','Late final closure overrides provisional positive');checks.append('early/boundary/late authoritative closure')
++    class Child:
++        pid=123456
++        def __init__(self,timeout):self.timeout=timeout;self.calls=[];self.returncode=None
++        def wait(self,timeout=None):
++            self.calls.append(('wait',timeout))
++            if self.timeout and len(self.calls)==1:raise subprocess.TimeoutExpired('invented-child',timeout)
++            self.returncode=-9 if self.timeout else 0;return self.returncode
++        def kill(self):self.calls.append(('kill',None))
++    normal=Child(False);receipt=wait_owned(normal,10.,lambda:4.)
++    need(not receipt['timed_out'] and normal.calls==[('wait',6.)],'Remaining phase wait')
++    expired=Child(True);receipt=wait_owned(expired,10.,lambda:11.)
++    need(receipt['timed_out'] and receipt['terminated_only_owned_child'] and expired.calls==[('wait',0.),('kill',None),('wait',None)],'Only owned expired child terminated and reaped')
++    checks.append('invented owned-child normal return and zero-remaining timeout termination; no process launched')
+     ARM.mkdir(parents=True,exist_ok=True);save(ARM/'synthetic_tests.json',dict(status='PASS',utc=utc(),source_sha256=sha(__file__),protocol_sha256=sha(PROTOCOL),checks=checks,scientific_inputs_read=0,optimizer_calls=0))
+     print(json.dumps(dict(status='PASS_SYNTHETIC_ONLY',groups=len(checks))),flush=True)
+ 

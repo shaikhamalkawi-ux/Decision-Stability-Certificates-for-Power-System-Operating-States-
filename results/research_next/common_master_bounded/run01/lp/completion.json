@@ -1,0 +1,21 @@
+{
+  "utc": "2026-09-27T12:52:31.977646+00:00",
+  "call_ledger": {
+    "attempted": 1,
+    "returned": 1,
+    "started_utc": "2026-09-27T12:52:30.752971+00:00",
+    "actual_seconds": 0.6656821999931708
+  },
+  "LP_soft_overrun": 0,
+  "remaining_phase": 299.7762313000276,
+  "no_retry": true,
+  "no_negative_claim": true,
+  "final_admission": {
+    "accepted_common": false,
+    "common_verdict": "UNKNOWN",
+    "phase_deadline_met": true,
+    "admission_monotonic": 276119.0629522,
+    "deadline_monotonic": 276418.8391884
+  },
+  "final_write_outside_sample": true
+}

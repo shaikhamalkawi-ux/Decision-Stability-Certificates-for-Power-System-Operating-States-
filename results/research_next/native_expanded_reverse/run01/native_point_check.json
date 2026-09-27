@@ -1,0 +1,26 @@
+{
+  "accepted": true,
+  "strict_nominal": false,
+  "tau": {
+    "numerator": "5902958103587057",
+    "denominator": "590295810358705651712",
+    "approximate": 1e-05
+  },
+  "nominal_max_violation": {
+    "numerator": "55",
+    "denominator": "35184372088832",
+    "approximate": 1.5631940186722204e-12
+  },
+  "native_variables": 2712,
+  "affine_rows": 4384,
+  "variable_constraint_records": 3696,
+  "binary_declarations": 960,
+  "objective": {
+    "numerator": "688637615591450462859699662708988826686810673863",
+    "denominator": "348449143727040986586495598010130648530944",
+    "approximate": 1976293.0344030275
+  },
+  "failures": [],
+  "omitted_mfg_lift": 0,
+  "candidate_changed": false
+}

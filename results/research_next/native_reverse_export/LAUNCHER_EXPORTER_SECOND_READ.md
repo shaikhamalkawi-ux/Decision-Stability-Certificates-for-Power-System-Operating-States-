@@ -1,0 +1,7 @@
+# Additional launcher/exporter source read
+
+Agent `/root/find_deposit/gb_docs` returned **SOURCE-ONLY PASS** for launcher `bbfc95b40199956220554a51b4bcd2fa7ab8134e238abb90b4a1129628db73df`, exporter `568b4819c78a73fe368002b663d768b16380c2540e3a1c84182abd54af95dfa4` and protocol `05ce332e378544ba8c937c26934045d321a58b6edb671d12f00d12da134fc7ad`. No material blocker was found.
+
+The returned review covered the full launcher, exporter changes/main and protocol. The `exact_value` through `export_backend` helper text was independently compared with the prior exporter and is unchanged. The seventh argument is in the frozen command, and Julia validates both the fixed target path and its digest. Transport is called only during preparation. Durable attempt markers precede the sole official read/build, and no optimizer is attached or called. The 600-second allocation begins at run entry; final admission follows input/output/log hashes. The native subphase must close within 120 seconds, and cleanup covers the owned post-launch process region.
+
+This was a source read without imports, execution, mathematical replay or repetition of the 445-binding prepared audit. The reviewer authored the separate transport module, so this note is **not** an independent review of that module. It does not certify any export outcome or target correspondence. It records the returned review without modifying the frozen source, protocol or preparation.

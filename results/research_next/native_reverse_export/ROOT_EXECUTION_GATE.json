@@ -1,0 +1,17 @@
+{
+  "utc": "2026-09-27T12:21:02.678Z",
+  "decision": "GO_ONE_FIXED_REVERSE_NATIVE_EXPORT",
+  "prepared_sha256": "631ca0a7fa07abcd258dd905bc8017d88705bbfc708033157d5ac3e25cd2e675",
+  "independent_review_sha256": "11a81548e39a2acc31da012ec9d1ee287c036e79b2a14efab6914b30afa3e5e1",
+  "source_full_review": "PASS_PARENT_READ_ALL_THREE_SOURCES",
+  "maximum": {
+    "Julia_launches": 1,
+    "native_reads": 1,
+    "native_builds": 1,
+    "optimizer_calls": 0,
+    "overall_seconds": 600,
+    "native_seconds": 120
+  },
+  "no_retry": true,
+  "comparison_and_cost_not_admitted_by_export": true
+}

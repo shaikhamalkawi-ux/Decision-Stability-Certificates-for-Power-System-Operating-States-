@@ -1,0 +1,41 @@
+{
+  "status": "PASS_INDEPENDENT_EXACT_NOMINAL_PROJECTION_EQUIVALENCE",
+  "utc": "2026-09-27T11:35:31.709745+00:00",
+  "reviewer_source_sha256": "6390b0f51a9385860ff28683c2610008173ea0fcb8b1ed40b686cbbfd7c06d3c",
+  "manifest_sha256": "ea2a05148c0d0b23b2c59faea9f0afcfd4a3b386e6e738adb97ca1b4610ab829",
+  "source_sha256": "e9f1065fbd47e9d5b7a67afad92fc6a18816cade310b87c8f1c66a49814c389f",
+  "descriptors_verified_twice": 16,
+  "producer_snapshot": {
+    "comparison.json": "2ad303026121cbef1952f234c2e65eade9ac897fb669aa138a1ffcae6ffb3125",
+    "completion.json": "4d5298fd1895c18f4a062680f42a6f66e98c01578120d83c6f048f3914468773",
+    "started.json": "9f342e68b43f596bf83309e978e7d0fc03139d0e05e3d93f689787d2b9bf16c5"
+  },
+  "parsed_fields": {
+    "top_level_fields": 10,
+    "units": 10,
+    "fields_per_unit": 18,
+    "all_exact": true
+  },
+  "native_variables": 2712,
+  "retained_variables": 2472,
+  "omitted_nonnegative_zero_lift_variables": 240,
+  "binaries": 960,
+  "affine_rows_with_multiplicity": 4384,
+  "distinct_affine_row_signatures": 3422,
+  "raw_affine_term_uses": 15919,
+  "comparison_representation": "independent exact upper-halfspace-pair row multisets",
+  "row_multiset_sha256": "a233e13dbeb901ad248c205a6cdb5e44471815ef0f7502625bd172dce967e3dd",
+  "exact_objective": true,
+  "nominal_domain_extensions": 504,
+  "headroom_extensions": 480,
+  "zero_injection_extensions": 24,
+  "nominal_projection_equivalence": true,
+  "expanded_native_equivalence": "NOT_ESTABLISHED",
+  "old_expanded_cost_bounds_transferred": false,
+  "producer_elapsed_seconds": 1.4881442000041716,
+  "producer_imports": 0,
+  "Julia_calls": 0,
+  "native_builds": 0,
+  "optimizer_calls": 0,
+  "elapsed_seconds": 0.6617616000003181
+}

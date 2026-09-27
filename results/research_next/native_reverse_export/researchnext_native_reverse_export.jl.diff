@@ -1,0 +1,59 @@
+--- src\researchnext_julia_export_reuse.jl
++++ src\researchnext_native_reverse_export.jl
+@@ -1,4 +1,4 @@
+-# Prospective reuse01 official export. No optimizer attachment or optimize! call.
++# Fixed reverse4..19 native export. No optimizer attachment or optimize! call.
+ # Scientific imports precede main: a separately reviewed launcher must first
+ # admit the frozen READY receipt/Manifest/paths/source bytes. Internal checks
+ # protect the subsequent native read and build; they are not pre-import guards.
+@@ -9,19 +9,20 @@
+ # dependency of the isolated project. Use its already declared module binding.
+ const JSON = UnitCommitment.JSON
+ 
+-const CASE_SHA = "6ef95ef5a1966914306da848f2ffa4bd835c49d520e30b1dcbcfa948eee85cbe"
++const ORIGINAL_CASE_SHA = "6ef95ef5a1966914306da848f2ffa4bd835c49d520e30b1dcbcfa948eee85cbe"
+ const UC_COMMIT = "4f04f0dd6641b071fd7556346c3d7190c2ffdfe5"
+ const UC_TREE = "619a6b12e1005425e6ac08c4c45e445bb0a6f134"
+ const SETUP_SOURCE_SHA = "2e1add47952cbeb1f2a26800619277623c4b8975118fe19e933b7680eea61a3a"
+ const SETUP_PROTOCOL_SHA = "eb1f8a857ca8228bcf33b7bb85fdddf4c157d49295883c3fc52fa0b0b7b51a2b"
+ const SETUP_PREPARED_SHA = "6113f906703d29da0177e666f1fc66eda0854efb4432ff2017197997186cc4d2"
+-const PARENT_EXPORT_SHA = "e7429f67a3d984976c84081acb3845dbd1238f198afb21b49266d87fae3d9088"
++const PARENT_EXPORT_SHA = "969f7cf9780c940185ee48ba505c6b8da7a94c4bb86f700c56c4136eb8e01320"
+ const REPOSITORY = abspath(joinpath(@__DIR__, ".."))
+ const REUSE_ROOT = joinpath(REPOSITORY, ".work", "researchnext_julia_export", "setup_reuse01")
+ const SECONDARY_DEPOT = joinpath(REPOSITORY, ".work", "researchnext_julia_export", "setup_efficient01", "depot")
+ const EXPECTED_RECEIPT = joinpath(REPOSITORY, "results", "research_next", "orlib_julia_export", "setup_reuse01", "ENVIRONMENT_ACQUISITION.json")
+-const EXPECTED_OUTPUT = joinpath(REPOSITORY, "results", "research_next", "orlib_julia_export", "official_export_reuse01")
+-const EXPORT_PROTOCOL = joinpath(REPOSITORY,"docs","research_next","ORLIB_JULIA_REUSE_EXPORT_PROTOCOL.md")
++const EXPECTED_OUTPUT = joinpath(REPOSITORY, "results", "research_next", "native_reverse_export", "run01")
++const EXPECTED_CASE = joinpath(REPOSITORY, "results", "research_next", "native_reverse_export", "prepared", "target_case.json.gz")
++const EXPORT_PROTOCOL = joinpath(REPOSITORY,"docs","research_next","NATIVE_REVERSE_EXPORT_PROTOCOL.md")
+ pathkey(p) = Sys.iswindows() ? lowercase(normpath(abspath(p))) : normpath(abspath(p))
+ samepath(a,b) = pathkey(a) == pathkey(b)
+ function underpath(path, root)
+@@ -158,12 +159,14 @@
+ end
+ 
+ function main()
+-    ensure(length(ARGS) == 6, "Usage: CASE_GZIP ENVIRONMENT_RECEIPT EXPECTED_RECEIPT_SHA OUTPUT_DIR PROJECT_MANIFEST EXPECTED_MANIFEST_SHA")
++    ensure(length(ARGS) == 7, "Usage: DERIVED_CASE_GZIP ENVIRONMENT_RECEIPT EXPECTED_RECEIPT_SHA OUTPUT_DIR PROJECT_MANIFEST EXPECTED_MANIFEST_SHA EXPECTED_DERIVED_CASE_SHA")
+     case_path, env_path, env_sha, output, manifest_path, manifest_sha = abspath(ARGS[1]), abspath(ARGS[2]), ARGS[3], abspath(ARGS[4]), abspath(ARGS[5]), ARGS[6]
+     ensure(!ispath(output) && isdir(dirname(output)), "Output must be new under an existing parent")
+     ensure(samepath(output, EXPECTED_OUTPUT) && samepath(env_path, EXPECTED_RECEIPT), "Wrong path-bound reuse01 output/receipt")
+     ensure(samepath(manifest_path, joinpath(REUSE_ROOT,"project","Manifest.toml")), "Wrong actual reuse01 Manifest path")
+-    ensure(digest(case_path) == CASE_SHA && digest(env_path) == env_sha && digest(manifest_path) == manifest_sha, "Trusted input hash mismatch")
++    case_sha = ARGS[7]
++    ensure(length(case_sha) == 64 && samepath(case_path, EXPECTED_CASE), "Wrong fixed derived target input")
++    ensure(digest(case_path) == case_sha && digest(env_path) == env_sha && digest(manifest_path) == manifest_sha, "Trusted input hash mismatch")
+     env_receipt = JSON.parsefile(env_path)
+     ensure(env_receipt["status"] == "READY_ENVIRONMENT_ONLY_NO_MODEL_BUILD", "Environment was not accepted")
+     ensure(env_receipt["julia_exit_code"]==0 && env_receipt["Julia_invocations"]==1 && env_receipt["Pkg_add_calls"]==1 && isempty(env_receipt["stream_errors"]), "Setup did not close normally")
+@@ -248,6 +251,8 @@
+         "input_sha256"=>snapshot, "source_sha256"=>digest(@__FILE__),
+         "parent_export_source_sha256"=>PARENT_EXPORT_SHA,
+         "setup_prepared_sha256"=>SETUP_PREPARED_SHA,
++        "case"=>"reverse_4_19__native_penalized", "original_case_sha256"=>ORIGINAL_CASE_SHA,
++        "derived_case_sha256"=>case_sha, "candidate_or_dual_permuted"=>false,
+         "depot_path"=>copy(DEPOT_PATH),
+         "whole_disk_registry_readback_completed"=>false,
+         "whole_installed_package_tree_rehash"=>false,

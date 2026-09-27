@@ -1,0 +1,37 @@
+{
+  "inputs": [
+    {
+      "path": "results/research_next/native_expanded_identity_independent_review/postrun_review.json",
+      "bytes": 3608,
+      "sha256": "8f13f3a1751e03f2e4487127159420d14717bfff2b2c810a5c829f13bfa1b2e1"
+    },
+    {
+      "path": "results/research_next/native_expanded_reverse_independent_review/postrun_review_schema2.json",
+      "bytes": 4445,
+      "sha256": "44eaa3634ce474a0c587b0022bfb03e7b4de347403ee38ede7388d1810313e20"
+    }
+  ],
+  "source_sha256": "960a26cb372eb056586ff50ca66952d8ee85950cfa189d9b76980fdb891933d0",
+  "data_operation": "Visualize already verified archived endpoints; no optimizer or new scientific replay",
+  "difference": [
+    "111201534240145780850057637442434037732943053161/11150372599265311570767859136324180752990208",
+    "21966086441831056243936642064517185594305761991/348449143727040986586495598010130648530944"
+  ],
+  "outputs": [
+    {
+      "name": "CAPTION.md",
+      "bytes": 851,
+      "sha256": "cd251ec9c1c4ec488e477bbe8170ae3b94de715b538951628dc08238adafea4b"
+    },
+    {
+      "name": "native_cost_intervals.png",
+      "bytes": 116370,
+      "sha256": "c971e075562542742b8afd1adc7ef87b6ecffe869660c12e9a9cdee699fbea99"
+    },
+    {
+      "name": "native_cost_intervals.svg",
+      "bytes": 9138,
+      "sha256": "41145ad5b974bf8145862ef0d4d142f8768488c01580064a9f6c4363cbfa15e3"
+    }
+  ]
+}

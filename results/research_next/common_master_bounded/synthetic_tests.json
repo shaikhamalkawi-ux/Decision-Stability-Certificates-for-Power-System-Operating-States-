@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "utc": "2026-09-27T12:42:43.913259+00:00",
+  "source_sha256": "62a2755aa289dc353893d3bf23ccf46ff839dffdf1937d5cdbc4320ce9526c18",
+  "protocol_sha256": "ff502793f1fa52c6a10a228e2fe5f0d8a5caba5ff77380006c897c3f3e243553",
+  "checks": [
+    "zero/one/multiple solver solutions; no best-of-batch selection",
+    "early/boundary/late authoritative closure",
+    "invented owned-child normal return and zero-remaining timeout termination; no process launched"
+  ],
+  "scientific_inputs_read": 0,
+  "optimizer_calls": 0
+}

@@ -1,0 +1,16 @@
+{
+  "utc": "2026-09-27T12:41:15.968Z",
+  "status": "GO_ONE_FROZEN_COMPARISON",
+  "manifest_sha256": "b594e558f7587a1667407d48d39d0bc9f4c7a6804620121e438908d804eb4fc4",
+  "source_sha256": "d119ee515815281bf95bd3f669b0bc5a657ed8be90161fe2fd6de6489cfa1e82",
+  "independent_prepared_review_sha256": "aba278eb2eea5fcf4de5c41d0ca664b28150fdb53394f2ab3f3126f1495d32e9",
+  "source_review": "Root complete prior source read plus independent source review",
+  "allowed": {
+    "comparison_runs": 1,
+    "soft_seconds": 120,
+    "native_builds": 0,
+    "optimizer_calls": 0,
+    "cost_transfer": false
+  },
+  "independent_actual_target_comparison_required_after": true
+}

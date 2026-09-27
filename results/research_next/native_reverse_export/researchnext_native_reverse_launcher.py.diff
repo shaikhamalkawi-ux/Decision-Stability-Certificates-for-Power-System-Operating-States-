@@ -1,0 +1,173 @@
+--- src\researchnext_julia_export_reuse_launcher.py
++++ src\researchnext_native_reverse_launcher.py
+@@ -1,22 +1,28 @@
+-"""Prepare one offline native export; launch only after explicit external review."""
++"""Prepare fixed reverse input and one native export; launch only after review."""
+ from pathlib import Path
+ from datetime import datetime, timezone
+-import hashlib, json, os, subprocess, sys, threading, time, tomllib
++import hashlib, importlib.util, json, os, subprocess, sys, threading, time, tomllib
+ 
+ REPO = Path(__file__).resolve().parents[1]
+ BASE = REPO / '.work/researchnext_julia_export'
+ SETUP = BASE / 'setup_reuse01'
+ SECONDARY = BASE / 'setup_efficient01/depot'
+ ENVOUT = REPO / 'results/research_next/orlib_julia_export/setup_reuse01'
+-PREP = ENVOUT.parent / 'official_export_reuse01_prepared'
+-OUT = ENVOUT.parent / 'official_export_reuse01_launcher'
+-EXPORT_OUT = ENVOUT.parent / 'official_export_reuse01'
+-PRIVATE = BASE / 'official_export_reuse01_launcher'
+-EXPORTER = REPO / 'src/researchnext_julia_export_reuse.jl'
+-PROTOCOL = REPO / 'docs/research_next/ORLIB_JULIA_REUSE_EXPORT_PROTOCOL.md'
++ARM = REPO / 'results/research_next/native_reverse_export'
++PREP = ARM / 'prepared'
++OUT = ARM / 'launcher01'
++EXPORT_OUT = ARM / 'run01'
++PRIVATE = BASE / 'native_reverse_export01_launcher'
++EXPORTER = REPO / 'src/researchnext_native_reverse_export.jl'
++TRANSPORT = REPO / 'src/researchnext_native_reverse_transport.py'
++CONTROLS = ARM / 'synthetic_controls.json'
++PROTOCOL = REPO / 'docs/research_next/NATIVE_REVERSE_EXPORT_PROTOCOL.md'
++DESIGN = REPO / 'docs/research_next/ORLIB_NATIVE_REVERSE_TRANSFER_PROTOCOL.md'
+ JULIA = BASE / 'attempt01/runtime/julia-1.6.7/bin/julia.exe'
+-CASE = REPO / 'results/research_next/orlib_preflight/solver_prepared01/inputs/selected_case.json.gz'
+-PYMODEL = CASE.with_name('identity__native_penalized.json')
++ORIGINAL_CASE = REPO / 'results/research_next/orlib_preflight/solver_prepared01/inputs/selected_case.json.gz'
++CASE = PREP / 'target_case.json.gz'
++PYMODEL = ORIGINAL_CASE.with_name('reverse_4_19__native_penalized.json')
++NORMAL = ORIGINAL_CASE.with_name('normalized_case.json')
+ RECEIPT_SHA = 'fd3f2db6f0a62ecb0733ef903ff5ac0760b6375f7c723f14e536983ad1839872'
+ MANIFEST_SHA = '2434d5a9878bd443e95e339dd0b71e1632bc61988fd1272af54461f6bad9d831'
+ PROJECT_SHA = '02e2d39820e8f8b03404d75ff1970764c68309e6afee996571d229c4cf84690a'
+@@ -42,7 +48,7 @@
+     if str(p) in bindings: assert bindings[str(p)]==expected
+     bindings[str(p)]=expected
+ 
+-def admitted_bindings():
++def admitted_bindings(include_transport=True):
+     b={}
+     fixed=[(ENVOUT/'ENVIRONMENT_ACQUISITION.json', RECEIPT_SHA),
+            (SETUP/'project/Manifest.toml', MANIFEST_SHA),(ENVOUT/'Manifest.toml',MANIFEST_SHA),
+@@ -50,13 +56,22 @@
+            (SETUP/'package_inventory.toml',INVENTORY_SHA),(ENVOUT/'package_inventory.toml',INVENTORY_SHA),
+            (ENVOUT/'selected_registry_and_installed_metadata.json',SELECTED_SHA),
+            (ENVOUT.parent/'reuse_prepared01/prepared.json',PREPARED_SETUP_SHA),
+-           (CASE,'6ef95ef5a1966914306da848f2ffa4bd835c49d520e30b1dcbcfa948eee85cbe'),
+-           (PYMODEL,'5abc7c12289d6428081f49646553863abaa041abfd4bac6215d7d49130b2f725'),
++           (ORIGINAL_CASE,'6ef95ef5a1966914306da848f2ffa4bd835c49d520e30b1dcbcfa948eee85cbe'),
++           (PYMODEL,'a8bb82c4397957c6bdf4264d4265fca7144a09282b819aa15880ab60e22db4bb'),
++           (NORMAL,'be57cd1fd925fb5c106b8e90979dcc866c0b27068b368ec018e4068d03067df8'),
++           (DESIGN,'b7247233409e0efe85e0fd07217a810bfeef57bbcd444dba545a116a16804c6e'),
++           (REPO/'src/researchnext_julia_export_reuse.jl','969f7cf9780c940185ee48ba505c6b8da7a94c4bb86f700c56c4136eb8e01320'),
++           (REPO/'src/researchnext_julia_export_reuse_launcher.py','da982ca456ed4ed83f0050c8c92c9d10460dcff46b60ef27c5233f262a601fbb'),
+            (JULIA,'29ebe4b29362a2e380848dd4803e67343fe1779207b4970390418a1d495da67f'),
+            (REPO/'src/researchnext_julia_export.jl','e7429f67a3d984976c84081acb3845dbd1238f198afb21b49266d87fae3d9088'),
+            (REPO/'docs/research_next/ORLIB_JULIA_EXPORT_PROTOCOL.md','c1d21f79ed26f53c23e771b627b8291656c8fd9c7c3e8db4a2009b1686dad17b')]
+     for p, h in fixed: bind(p,h,b)
+-    for p in (Path(__file__).resolve(),EXPORTER,PROTOCOL): bind(p,digest(p),b)
++    for p in (Path(__file__).resolve(),EXPORTER,TRANSPORT,PROTOCOL): bind(p,digest(p),b)
++    bind(CONTROLS,'21dc3050c588ebd978eab75cb2c05edb5848196036238f0dff4dab60f3d3935a',b)
++    controls=json.loads(CONTROLS.read_text())
++    assert controls['status']=='PASS_INVENTED_ONLY' and controls['check_count']==15
++    assert controls['source_sha256']==digest(TRANSPORT)
++    assert controls['scientific_inputs_read']==controls['scientific_transforms']==controls['optimizer_calls']==0
+     d=json.loads((ENVOUT/'ENVIRONMENT_ACQUISITION.json').read_text())
+     assert d['status']=='READY_ENVIRONMENT_ONLY_NO_MODEL_BUILD' and d['julia_exit_code']==0
+     assert d['Julia_invocations']==d['Pkg_add_calls']==1 and not d['stream_errors']
+@@ -100,7 +115,34 @@
+     for name,version in VERSIONS.items():
+         rows=[x for x in packages if x['name']==name]; assert len(rows)==1 and rows[0]['version']==version
+         p=Path(rows[0]['source'])/'src'/f'{name}.jl'; bind(p,digest(p),b)
++    if include_transport:
++        for name in ('original_case.json.gz','old_target_model.json','normalized_case.json','target_case.json','target_case.json.gz','transport.json'):
++            path=PREP/name; bind(path,digest(path),b)
++        assert (PREP/'original_case.json.gz').read_bytes()==ORIGINAL_CASE.read_bytes()
++        assert (PREP/'old_target_model.json').read_bytes()==PYMODEL.read_bytes()
++        assert (PREP/'normalized_case.json').read_bytes()==NORMAL.read_bytes()
+     return b
++
++def capture_transport(bindings):
++    # Scientific inputs are captured once for transformation. Later reads only
++    # test immutability; no recapture or second target derivation is permitted.
++    captured={p:p.read_bytes() for p in (ORIGINAL_CASE,PYMODEL,NORMAL)}
++    for path,payload in captured.items():
++        assert hashlib.sha256(payload).hexdigest()==bindings[str(path)]
++    expected=bindings[str(TRANSPORT)]; assert digest(TRANSPORT)==expected
++    sys.dont_write_bytecode=True
++    spec=importlib.util.spec_from_file_location('native_reverse_transport_only',TRANSPORT)
++    helper=importlib.util.module_from_spec(spec); spec.loader.exec_module(helper)
++    target_plain,target_gzip,audit=helper.transform(captured[ORIGINAL_CASE],captured[PYMODEL],captured[NORMAL])
++    outputs={'original_case.json.gz':captured[ORIGINAL_CASE], 'old_target_model.json':captured[PYMODEL],
++             'normalized_case.json':captured[NORMAL], 'target_case.json':target_plain, 'target_case.json.gz':target_gzip}
++    for name,payload in outputs.items():
++        with (PREP/name).open('xb') as stream: stream.write(payload)
++        assert (PREP/name).read_bytes()==payload
++    save(PREP/'transport.json',audit)
++    for path,payload in captured.items(): assert path.read_bytes()==payload
++    assert digest(TRANSPORT)==expected
++    return audit
+ 
+ def command_and_environment():
+     env={'JULIA_DEPOT_PATH':str(SETUP/'depot')+';'+str(SECONDARY),'JULIA_LOAD_PATH':'@;@stdlib',
+@@ -109,21 +151,26 @@
+          'TEMP':str(PRIVATE/'temporary'),'TMP':str(PRIVATE/'temporary')}
+     cmd=[str(JULIA),'--startup-file=no','--history-file=no','--project='+str(SETUP/'project'),
+          str(EXPORTER),str(CASE),str(ENVOUT/'ENVIRONMENT_ACQUISITION.json'),RECEIPT_SHA,
+-         str(EXPORT_OUT),str(SETUP/'project/Manifest.toml'),MANIFEST_SHA]
++         str(EXPORT_OUT),str(SETUP/'project/Manifest.toml'),MANIFEST_SHA,digest(CASE)]
+     return cmd,env
+ 
+ def prepare():
+     assert not any(p.exists() for p in (PREP,OUT,EXPORT_OUT,PRIVATE)), 'Fresh preparation only'
+-    plain(PREP.parent); PREP.mkdir()
++    plain(PREP.parent); PREP.mkdir(parents=True)
+     try:
+-        b=admitted_bindings(); cmd,env=command_and_environment()
++        original_bindings=admitted_bindings(include_transport=False)
++        transport=capture_transport(original_bindings)
++        b=admitted_bindings(); assert all(b[p]==h for p,h in original_bindings.items())
++        cmd,env=command_and_environment()
+         for p,h in b.items(): assert digest(Path(p))==h
+         d={'status':'PREPARED_OFFLINE_EXPORT_NO_JULIA','created_utc':utc(),
+            'bindings':[{'path':p,'sha256':h} for p,h in sorted(b.items())],
+            'command':cmd,'environment':env,'overall_seconds':600,'read_build_export_seconds':120,
+            'Julia_invocations':0,'native_read_attempts':0,'native_build_attempts':0,'optimizer_calls':0,
+            'scientific_import_order':'External admission before launch; exporter main guards follow package imports',
+-           'scope':'One fixed identity native penalized case; raw export only, no comparison or retry',
++           'scope':'One fixed reverse_4_19 native penalized case; raw export only, no comparison or retry',
++           'transport_sha256':digest(PREP/'transport.json'),'derived_case_sha256':digest(CASE),
++           'transport_calls':1,'target_model_rebuilds':0,'candidate_or_dual_permutations':0,
+            'whole_registry_readback':False,'whole_installed_package_tree_rehash':False}
+         save(PREP/'prepared.json',d)
+         print(json.dumps({'status':d['status'],'bindings':len(b),'prepared_sha256':digest(PREP/'prepared.json')}),flush=True)
+@@ -132,6 +179,7 @@
+         raise
+ 
+ def run(expected):
++    began=time.perf_counter(); began_utc=utc(); deadline=began+600
+     prepared_path=PREP/'prepared.json'; assert digest(prepared_path)==expected
+     prep=json.loads(prepared_path.read_text()); assert prep['status']=='PREPARED_OFFLINE_EXPORT_NO_JULIA'
+     assert prep['command']==command_and_environment()[0] and prep['environment']==command_and_environment()[1]
+@@ -140,11 +188,12 @@
+     assert not any(p.exists() for p in (OUT,EXPORT_OUT,PRIVATE))
+     plain(OUT.parent); plain(PRIVATE.parent); OUT.mkdir(); PRIVATE.mkdir(); (PRIVATE/'temporary').mkdir()
+     assert not os.environ.get('JULIA_SSL_NO_VERIFY_HOSTS') and not os.environ.get('JULIA_NO_VERIFY_HOSTS')
+-    began=time.perf_counter(); deadline=began+600
+-    d={'status':'STARTED','started_utc':utc(),'prepared_sha256':expected,'Julia_invocations':0,
++    d={'status':'STARTED','started_utc':began_utc,'prepared_sha256':expected,'Julia_invocations':0,
+        'native_read_attempts':0,'native_build_attempts':0,'optimizer_calls':0,'network_calls_requested':0,
+        'Pkg_resolution_calls':0,'automatic_retry':False,'overall_seconds':600,'read_build_export_seconds':120,
+        'command':prep['command'],'environment':prep['environment'],'source_sha256':digest(Path(__file__).resolve()),
++       'case':'reverse_4_19__native_penalized','derived_case_sha256':prep['derived_case_sha256'],
++       'transport_sha256':prep['transport_sha256'],'transport_repeated_during_run':False,
+        'exporter_sha256':digest(EXPORTER),'protocol_sha256':digest(PROTOCOL)}
+     save(OUT/'execution_started.json',d.copy())
+     child=None; threads=[]; stream_errors=[]; subdeadline=None; detected=None; observed_end=None
+@@ -211,6 +260,7 @@
+         assert child is not None and child.returncode==0 and not stream_errors, 'Julia export/log capture did not close normally'
+         completed=json.loads((EXPORT_OUT/'completion.json').read_text())
+         assert completed['status']=='OFFICIAL_RAW_EXPORT_COMPLETE_PENDING_COMPARISON'
++        assert completed['case']=='reverse_4_19__native_penalized' and completed['derived_case_sha256']==prep['derived_case_sha256']
+         assert completed['native_read_attempts']==completed['native_build_attempts']==1 and completed['optimizer_calls']==0
+         mark=json.loads((EXPORT_OUT/'native_read_attempt.json').read_text())
+         end=datetime.fromisoformat(completed['ended_utc'].replace('Z','+00:00')).timestamp()

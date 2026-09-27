@@ -1,0 +1,136 @@
+{
+  "status": "OFFICIAL_RAW_EXPORT_COMPLETE_PENDING_COMPARISON",
+  "started_utc": "2026-09-27T12:22:01.867902+00:00",
+  "prepared_sha256": "631ca0a7fa07abcd258dd905bc8017d88705bbfc708033157d5ac3e25cd2e675",
+  "Julia_invocations": 1,
+  "native_read_attempts": 1,
+  "native_build_attempts": 1,
+  "optimizer_calls": 0,
+  "network_calls_requested": 0,
+  "Pkg_resolution_calls": 0,
+  "automatic_retry": false,
+  "overall_seconds": 600,
+  "read_build_export_seconds": 120,
+  "command": [
+    "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\researchnext_julia_export\\attempt01\\runtime\\julia-1.6.7\\bin\\julia.exe",
+    "--startup-file=no",
+    "--history-file=no",
+    "--project=C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\researchnext_julia_export\\setup_reuse01\\project",
+    "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\src\\researchnext_native_reverse_export.jl",
+    "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\native_reverse_export\\prepared\\target_case.json.gz",
+    "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\orlib_julia_export\\setup_reuse01\\ENVIRONMENT_ACQUISITION.json",
+    "fd3f2db6f0a62ecb0733ef903ff5ac0760b6375f7c723f14e536983ad1839872",
+    "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\native_reverse_export\\run01",
+    "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\researchnext_julia_export\\setup_reuse01\\project\\Manifest.toml",
+    "2434d5a9878bd443e95e339dd0b71e1632bc61988fd1272af54461f6bad9d831",
+    "0acc7728ebab28731f6f2bbc5a97025db1c4381a1a4016f798e040dd72f073d8"
+  ],
+  "environment": {
+    "JULIA_DEPOT_PATH": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\researchnext_julia_export\\setup_reuse01\\depot;C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\researchnext_julia_export\\setup_efficient01\\depot",
+    "JULIA_LOAD_PATH": "@;@stdlib",
+    "JULIA_PROJECT": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\researchnext_julia_export\\setup_reuse01\\project",
+    "JULIA_PKG_SERVER": "",
+    "JULIA_PKG_OFFLINE": "true",
+    "JULIA_PKG_PRECOMPILE_AUTO": "0",
+    "JULIA_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "TEMP": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\researchnext_julia_export\\native_reverse_export01_launcher\\temporary",
+    "TMP": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\researchnext_julia_export\\native_reverse_export01_launcher\\temporary"
+  },
+  "source_sha256": "bbfc95b40199956220554a51b4bcd2fa7ab8134e238abb90b4a1129628db73df",
+  "case": "reverse_4_19__native_penalized",
+  "derived_case_sha256": "0acc7728ebab28731f6f2bbc5a97025db1c4381a1a4016f798e040dd72f073d8",
+  "transport_sha256": "dbb927af6d16f589ba4118aa9fff582725325acbbecac0cd63493e5ca5d5dc96",
+  "transport_repeated_during_run": false,
+  "exporter_sha256": "568b4819c78a73fe368002b663d768b16380c2540e3a1c84182abd54af95dfa4",
+  "protocol_sha256": "05ce332e378544ba8c937c26934045d321a58b6edb671d12f00d12da134fc7ad",
+  "julia_pid": 62188,
+  "julia_started_utc": "2026-09-27T12:23:19.274334+00:00",
+  "native_read_started_utc": "2026-09-27T12:27:46.792Z",
+  "native_subphase_detected_utc": "2026-09-27T12:27:47.673260+00:00",
+  "native_marker_detection_age_seconds": 0.8812601566314697,
+  "import_and_pre_read_seconds": 344.9204830433591,
+  "julia_exit_code": 0,
+  "owned_parent_alive": false,
+  "julia_ended_utc": "2026-09-27T12:29:27.062889+00:00",
+  "native_subphase_elapsed_seconds": 98.94099998474121,
+  "import_and_pre_read_wall_seconds": 267.5176661014557,
+  "inputs_unchanged": true,
+  "counts": {
+    "all_variables": 2712,
+    "native_ZeroOne_constraints": 960,
+    "scalar_affine_rows": 4384
+  },
+  "stream_errors": [],
+  "native_subphase_monitor_overrun_seconds": 0,
+  "import_subphase_observed": true,
+  "artifacts": [
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\native_reverse_export\\launcher01\\execution_started.json",
+      "bytes": 3281,
+      "sha256": "8099f0efbda0d084381fd4fc3c4975ef1f6d42bd4d42f24e234b6b51a505b75f"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\native_reverse_export\\launcher01\\julia_launch.json",
+      "bytes": 2366,
+      "sha256": "169c7931f6f9e19879ac451d028601351e00640a3daffae06709553bf933de8b"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\native_reverse_export\\launcher01\\native_subphase_admission.json",
+      "bytes": 3608,
+      "sha256": "c6ff6091eb8478007067c4d26107226b6b4fa3cad12333af5c57c6bc24e22d93"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\native_reverse_export\\run01\\completion.json",
+      "bytes": 87473,
+      "sha256": "71a3b644ba77340c006f43c4b564155f144032ef46f328c100b0c35b231ac03b"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\native_reverse_export\\run01\\execution_started.json",
+      "bytes": 86787,
+      "sha256": "097cab32e5022645716f8c859da85c1574f564dc0b894ed225122177aac2ce51"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\native_reverse_export\\run01\\native_build_attempt.json",
+      "bytes": 86951,
+      "sha256": "230827e57ded311e684a46bee2a752629fbddd2509a4936fdb9923468f76ae66"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\native_reverse_export\\run01\\native_build_returned.json",
+      "bytes": 87003,
+      "sha256": "89a056009cd04dd576f8589aa4639a688e7b67e8adf35fef8c34ce2688d35b71"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\native_reverse_export\\run01\\native_read_attempt.json",
+      "bytes": 86900,
+      "sha256": "05308d4722f2ba1e43e94980db9ba016813bb7bd4f42a962abbc531a59cf3c2a"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\native_reverse_export\\run01\\official_parsed_instance.json",
+      "bytes": 401554,
+      "sha256": "455814d618b3a84fe7d4bd4e2027155f8917d5a9dd57721b76ece2e472bfc227"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\native_reverse_export\\run01\\official_raw_model.json",
+      "bytes": 8630839,
+      "sha256": "8cd0adfe027727c1d0599a1a291c8e0b289995bc1749b72f13dfe6795289e6d6"
+    }
+  ],
+  "private_logs": [
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\researchnext_julia_export\\native_reverse_export01_launcher\\stderr.log",
+      "bytes": 196,
+      "sha256": "7b1417b532831772e6a1dea3aac97042393d196f51948c74a350d29d14d86d63"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\researchnext_julia_export\\native_reverse_export01_launcher\\stdout.log",
+      "bytes": 172,
+      "sha256": "7fc42c73306e102572ce4253183b7d9af715d2bfed3b703bf06cafff45ee2fd6"
+    }
+  ],
+  "ended_utc": "2026-09-27T12:29:30.251762+00:00",
+  "elapsed_seconds": 448.38420460000634,
+  "overall_overrun_seconds": 0,
+  "completion_receipt_write_excluded_from_elapsed": true,
+  "private_logs_publication_status": "NOT_SELECTED_PENDING_REVIEW"
+}

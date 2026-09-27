@@ -1,0 +1,11 @@
+{
+  "exactly_one_returned_solution": true,
+  "owned_child_timeout": "remaining common monotonic phase",
+  "late_positive_admission": false,
+  "phase_seconds": 360.0,
+  "master_start_guard": 125.0,
+  "LP_start_guard": 65.0,
+  "cleanup_may_exceed_deadline_but_no_late_positive": true,
+  "source_sha256": "62a2755aa289dc353893d3bf23ccf46ff839dffdf1937d5cdbc4320ce9526c18",
+  "protocol_sha256": "ff502793f1fa52c6a10a228e2fe5f0d8a5caba5ff77380006c897c3f3e243553"
+}

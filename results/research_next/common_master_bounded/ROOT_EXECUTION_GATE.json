@@ -1,0 +1,19 @@
+{
+  "utc": "2026-09-27T12:51:11.725Z",
+  "status": "GO_ONE_PREPARED_MASTER_WITH_CONDITIONAL_SINGLE_RECOURSE",
+  "source_sha256": "62a2755aa289dc353893d3bf23ccf46ff839dffdf1937d5cdbc4320ce9526c18",
+  "freeze_sha256": "75e9e276c356290129c85fefa9fdc5fb36f175174efb5b2e131bb96fdbef80d5",
+  "independent_source_prepared_review_sha256": "e7f4856d6778234c10a0372adad13be472912fc9176d1436d6db381feb7b2018",
+  "root_full_original_source_and_successor_diff_review": true,
+  "maximum_master_calls": 1,
+  "master_soft_seconds": 120,
+  "maximum_conditional_LP_calls": 1,
+  "LP_soft_seconds": 60,
+  "whole_phase_seconds": 360,
+  "one_returned_solution_only": true,
+  "completion_final_admission_authoritative": true,
+  "numerical_negative_is_unknown": true,
+  "no_retry_or_tuning": true,
+  "sole_execution_owner": "/root/temporal_checker",
+  "independent_postrun_required": true
+}

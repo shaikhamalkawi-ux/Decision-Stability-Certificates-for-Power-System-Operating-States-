@@ -1,0 +1,16 @@
+{
+  "utc": "2026-09-27T13:07:22.406Z",
+  "reviewer": "root",
+  "status": "PASS_VISUAL_REVIEW",
+  "checked": [
+    "Readable complete title/labels/footnotes without overlap",
+    "Approximation signs for rounded endpoint labels",
+    "Signed interval headline exactly matches verified outward display",
+    "Two finite bounds distinguished from exact optima",
+    "Single-bus/posthoc/other-comparison limits visible"
+  ],
+  "source_sha256": "960a26cb372eb056586ff50ca66952d8ee85950cfa189d9b76980fdb891933d0",
+  "png_sha256": "c971e075562542742b8afd1adc7ef87b6ecffe869660c12e9a9cdee699fbea99",
+  "svg_sha256": "41145ad5b974bf8145862ef0d4d142f8768488c01580064a9f6c4363cbfa15e3",
+  "new_optimization_or_scientific_replay": false
+}

@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "utc": "2026-09-27T12:27:22.653470+00:00",
+  "source_sha256": "0eea17f50b859db72cf6de5ad337263f6c984f7c30830861b5feb7500c39b76e",
+  "protocol_sha256": "7d28d1aff986a0cac5e2ff6179712abce7baf14ba3e3a6c3f02bd04372d9c3d2",
+  "checks": [
+    "exact rationals, numeric rounding and signed residuals",
+    "exhaustive rational-grid lift and total four-loss integer cover",
+    "ceiling fractional counterexample and omitted-tau control",
+    "exact necessary rows/boxes and full binary check",
+    "deterministic auxiliary lower envelope"
+  ],
+  "scientific_inputs_read": 0,
+  "optimizer_calls": 0
+}

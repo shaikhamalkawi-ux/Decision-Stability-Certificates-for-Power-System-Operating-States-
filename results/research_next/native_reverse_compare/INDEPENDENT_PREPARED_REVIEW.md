@@ -1,0 +1,11 @@
+# Independent reverse-target comparison prepared gate
+
+**PASS for the separately authorized sole comparison.** Manifest `b594e558f7587a1667407d48d39d0bc9f4c7a6804620121e438908d804eb4fc4` and unchanged reviewed wrapper/protocol passed one independent byte/provenance audit in 1.111198400030844 seconds. All **456 original bindings and 12 exact copies** passed initial and closing size/SHA checks, including all 445 export-preparation bindings. Each captured copy equals its declared original bytes. The comparison run directory was absent before and after this gate.
+
+Both actual export closures were independently checked against their external hashes: inner `71a3b644ba77340c006f43c4b564155f144032ef46f328c100b0c35b231ac03b`, outer `d52d7b7488d8f3978d3e0278e7f4a142b82cf3354618d5384dd5e551b1942977`. They report the same fixed reverse target and prepared derived input, one native read/build, zero optimizers, unchanged inputs and a normally closed Julia process/log capture. The outer phase was 448.3842046 seconds and its native subphase 98.94099998474121 seconds, within the declared 600/120-second limits; no admitted overrun or retry. The native input-hash map is covered by the comparator manifest, and public outer-artifact descriptors were checked. Private logs were not opened.
+
+Raw native bytes `8cd0adfe027727c1d0599a1a291c8e0b289995bc1749b72f13dfe6795289e6d6` and parsed bytes `455814d618b3a84fe7d4bd4e2027155f8917d5a9dd57721b76ece2e472bfc227` agree with the official receipt and captured copies. The original target model, original normal case, unchanged mathematical helper and prior independent transport gate are correctly bound. The four invented wrapper fixtures are bound to the final source/protocol; they were not rerun.
+
+No raw/parsed/model scientific JSON was loaded by the reviewer, no coordinate or coefficient arithmetic was performed, and no producer, comparator, Julia or optimizer was imported/called. This gate establishes the admitted files and successful export provenance, **not target model correspondence**. Nominal target equivalence remains untested until the one comparison closes and its mathematical result is independently reviewed; expanded-model equality and cost-bound transfer remain outside this gate.
+
+Report: `INDEPENDENT_PREPARED_REVIEW.json`, SHA256 `aba278eb2eea5fcf4de5c41d0ca664b28150fdb53394f2ab3f3126f1495d32e9`.

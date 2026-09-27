@@ -1,0 +1,31 @@
+{
+  "status": "CERTIFIED_FINITE_NATIVE_EXPANDED_IDENTITY_BRACKET",
+  "case": "identity__native_penalized",
+  "native_expanded_lower": {
+    "numerator": "20345200474536725055412689839003651156387479",
+    "denominator": "10633823966279326983230456482242756608",
+    "approximate": 1913253.4579331875
+  },
+  "native_expanded_upper": {
+    "numerator": "21513444555664356003273356714053400780148197047959",
+    "denominator": "11150372599265311570767859136324180752990208",
+    "approximate": 1929392.4363641317
+  },
+  "strict_nominal_upper": null,
+  "tau": {
+    "numerator": "5902958103587057",
+    "denominator": "590295810358705651712",
+    "approximate": 1e-05
+  },
+  "nominal_comparison_inherited": true,
+  "expanded_model_equivalence_claim": false,
+  "containment_only": true,
+  "target_cost_difference_claim": false,
+  "exact_optimality_claim": false,
+  "cost_units": "encoded UC objective",
+  "cases": 1,
+  "new_candidates": 0,
+  "new_optimizers": 0,
+  "Julia_calls": 0,
+  "native_builds": 0
+}

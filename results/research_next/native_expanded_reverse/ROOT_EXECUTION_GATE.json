@@ -1,0 +1,17 @@
+{
+  "utc": "2026-09-27T12:55:55.172Z",
+  "status": "GO_ONE_FIXED_REVERSE_NATIVE_EXPANDED_CERTIFICATE",
+  "freeze_sha256": "6863fc3027f570a87161c059f08789d967f891f3c87f5dc96add17fc97966eaa",
+  "source_sha256": "494517bef073fca4126b37194c61b9cafbbab347798a7cf950bd548ca18bde6f",
+  "root_full_source_protocol_read": true,
+  "independent_second_source_review_sha256": "3061362ae6a226ff57a0dc7f9e2bd0636983a1d1e43a1ad205e6d225247546a6",
+  "independent_prepared_review_sha256": "fa5b4d5baa2014fcff81e4981eb65932a9d42380dffa1f5ef3ac1e766391d677",
+  "maximum_arithmetic_runs": 1,
+  "soft_phase_seconds": 120,
+  "optimizer_calls": 0,
+  "native_builds": 0,
+  "Julia_calls": 0,
+  "no_new_candidate_dual_or_permutation": true,
+  "sole_execution_owner": "/root/find_deposit",
+  "independent_postrun_required_before_scientific_claim": true
+}

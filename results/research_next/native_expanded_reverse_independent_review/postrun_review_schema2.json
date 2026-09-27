@@ -1,0 +1,96 @@
+{
+  "status": "PASS_INDEPENDENT_NATIVE_EXPANDED_REVERSE_POINT_LOWER_AND_DIFFERENCE_REPLAY",
+  "utc": "2026-09-27T13:01:39.633644+00:00",
+  "elapsed_seconds": 1.592931099992711,
+  "reviewer_sha256": "187d25a96459ad4202a5340b551d09c244686626a0ed60526476e665a1313c2f",
+  "prepared_freeze_sha256": "6863fc3027f570a87161c059f08789d967f891f3c87f5dc96add17fc97966eaa",
+  "originals_verified_twice": 499,
+  "copies_verified_twice": 34,
+  "producer_outputs_unchanged": {
+    "completion.json": "714f4a3fa85ef0b33f068e221595be51b63bdebca0f301d86aedeace66540294",
+    "containment_premises.json": "98e4c00cb9d743e7644ab50f601bd19e94892d2e361dfc83656b444eef652917",
+    "lifted_rational_point.json": "ed528de491caabcbefc4897e8c4db859e945a6f39fd719b231b1954175a3bf02",
+    "native_lower_certificate.json": "70d380a6ed2042a459367842166b4561f4dbd0c39904ab7d9cb3b358fedf7944",
+    "native_point_check.json": "50c7ecf402e160bd49fb4a22d93b83d6462fe1f0f234feea71eb3375758a1a3b",
+    "result.json": "c0e81da4ca275b185820e8616cc3d81c995f666d977ee1e62199a846ed8ce23f",
+    "signed_difference.json": "ac80cf61d3912985fb480e0bf847053cfffe4891270d52d0d0db54d12eae9663",
+    "started.json": "55091f9687992492c2745193b9c0b1cf50fca36ae04954418466d788074ab524"
+  },
+  "native_variables": 2712,
+  "retained_candidate_values": 2472,
+  "zero_lift_variables": 240,
+  "native_constraint_records": 8080,
+  "affine_rows": 4384,
+  "variable_constraint_records": 3696,
+  "original_binary_declarations": 960,
+  "raw_affine_term_uses": 15919,
+  "native_expanded_point_accepted": true,
+  "native_strict_nominal_point_accepted": false,
+  "nominal_max_violation": {
+    "numerator": "55",
+    "denominator": "35184372088832",
+    "approximate": 1.5631940186722204e-12
+  },
+  "native_encoded_objective": {
+    "numerator": "688637615591450462859699662708988826686810673863",
+    "denominator": "348449143727040986586495598010130648530944",
+    "approximate": 1976293.0344030275
+  },
+  "signed_row_multipliers": 4384,
+  "exact_residual_coordinates": 2472,
+  "QR_coordinates": 480,
+  "headroom_pairs_rechecked": 240,
+  "original_expanded_lower": {
+    "numerator": "82491478912931723758024539975441084099658751",
+    "denominator": "42535295865117307932921825928971026432",
+    "approximate": 1939365.349062542
+  },
+  "additional_QR_upper_support_correction": {
+    "numerator": "-37729042055296938575703190024456931",
+    "denominator": "2658455991569831745807614120560689152",
+    "approximate": -0.014192088255340178
+  },
+  "native_expanded_lower": {
+    "numerator": "82491478309267050873273522764190043708347855",
+    "denominator": "42535295865117307932921825928971026432",
+    "approximate": 1939365.3348704537
+  },
+  "native_expanded_upper": {
+    "numerator": "688637615591450462859699662708988826686810673863",
+    "denominator": "348449143727040986586495598010130648530944",
+    "approximate": 1976293.0344030275
+  },
+  "strict_nominal_upper": null,
+  "exact_bracket_width": {
+    "numerator": "12867425281934782105842964224743988628025045703",
+    "denominator": "348449143727040986586495598010130648530944",
+    "approximate": 36927.69953257377
+  },
+  "producer_elapsed_seconds": 22.267169300001115,
+  "helper_imports": 0,
+  "producer_imports": 0,
+  "optimizer_calls": 0,
+  "Julia_calls": 0,
+  "native_builds": 0,
+  "new_candidates": 0,
+  "independent_arithmetic": "Raw MOI term evaluation and narrow NPY struct decoder; exact signed multipliers plus explicit interval minima",
+  "inherited_nominal_proof": "bb44ef305c468a9e334a0a8e5ee63fc84ac8e87aec057c8e05e21ad07a2f8cc6",
+  "independent_checker_lineage": "94c0e0f8462815c75607a1ab6d284d26eed54317d72999fee4f958d825bf5bc0",
+  "signed_difference_interval": [
+    {
+      "numerator": "111201534240145780850057637442434037732943053161",
+      "denominator": "11150372599265311570767859136324180752990208",
+      "approximate": 9972.89850632191
+    },
+    {
+      "numerator": "21966086441831056243936642064517185594305761991",
+      "denominator": "348449143727040986586495598010130648530944",
+      "approximate": 63039.576469839965
+    }
+  ],
+  "outward_6dp": [
+    "9972.898506",
+    "63039.576470"
+  ],
+  "scope": "One posthoc native-expanded binary reverse-minus-identity encoded-optimum difference; no expanded equality, regret, physical uncertainty, exact optimality or native transfer of other three original comparisons"
+}
