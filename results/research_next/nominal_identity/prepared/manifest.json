@@ -1,0 +1,411 @@
+{
+  "utc": "2026-09-27T12:17:34.035438+00:00",
+  "inputs": [
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\orlib_native_compare_schema2\\INDEPENDENT_POSTRUN_REVIEW.py",
+      "bytes": 14109,
+      "sha256": "6390b0f51a9385860ff28683c2610008173ea0fcb8b1ed40b686cbbfd7c06d3c"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\src\\research8h_standalone_verify.py",
+      "bytes": 28861,
+      "sha256": "708c3843425eea494a0561e83a275f7059f22bcd546a036705323d056bcf906f"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\orlib_native_compare_schema2\\INDEPENDENT_POSTRUN_REVIEW.json",
+      "bytes": 1761,
+      "sha256": "50191cce91e6a4e8479500bfa0a1740b03d812848ee37620480b3e41ce584080"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\orlib_native_compare_schema2\\run01\\comparison.json",
+      "bytes": 161172,
+      "sha256": "2ad303026121cbef1952f234c2e65eade9ac897fb669aa138a1ffcae6ffb3125"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\orlib_native_compare_schema2\\prepared\\manifest.json",
+      "bytes": 4840,
+      "sha256": "ea2a05148c0d0b23b2c59faea9f0afcfd4a3b386e6e738adb97ca1b4610ab829"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\orlib_preflight\\solver_prepared01\\output_manifest.json",
+      "bytes": 18302,
+      "sha256": "2713685311e705ea0c9b6080dee2594e9d077d37aea844efb0e093f722cf9a52"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\orlib_preflight\\INDEPENDENT_SOLVER_RESULT_REVIEW.json",
+      "bytes": 30472,
+      "sha256": "a465a16acf67ca9a0925376f2a2b7d4338a24bac9bb276258d134f930d11f358"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\orlib_preflight\\solver_prepared01\\outputs\\identity__native_penalized\\mip\\candidate_vector.json",
+      "bytes": 22628,
+      "sha256": "c24e7218930cf26a18dd1c2fc0fe7f36d1a180580c447ab5307fe07ee8781f6c"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\orlib_preflight\\solver_prepared01\\outputs\\identity__native_penalized\\lp\\raw_solution.npz",
+      "bytes": 15563,
+      "sha256": "42551c9d8dc9acdaa64cfdbc44062586b6cb6ca3949d8606d301abeb89b2e71a"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\orlib_preflight\\solver_prepared01\\outputs\\identity__native_penalized\\lp\\signed_dual_bound.json",
+      "bytes": 331048,
+      "sha256": "d1ca08949c6187e8c6c04d07c857fdae4b67117fcb70a117e87c57290ec5943c"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\docs\\research_next\\NATIVE_EXPANDED_CONTAINMENT_PROPOSAL.md",
+      "bytes": 3922,
+      "sha256": "b5342b65753d4440c0c19551dba45fb100731cb4fcd9206499ac38a6c23fc1db"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\docs\\research_next\\NATIVE_EXPANDED_CONTAINMENT_REVIEW.md",
+      "bytes": 3831,
+      "sha256": "20747ec68fb217c65c11779263851bae793c758a19c0be046c889ed93a5c5adb"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\orlib_native_compare_schema2\\prepared\\raw.json",
+      "bytes": 8630839,
+      "sha256": "028ca4d025389eecd6fa91dc278b32f262a358eede3dece50d05080cc61b0160"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\orlib_native_compare_schema2\\prepared\\parsed.json",
+      "bytes": 401554,
+      "sha256": "f47bec57919401282d15d2a091291a9489e00557f5276db4062c19d8f444e139"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\orlib_native_compare_schema2\\prepared\\normal.json",
+      "bytes": 9407,
+      "sha256": "be57cd1fd925fb5c106b8e90979dcc866c0b27068b368ec018e4068d03067df8"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\orlib_native_compare_schema2\\prepared\\model.json",
+      "bytes": 1680334,
+      "sha256": "5abc7c12289d6428081f49646553863abaa041abfd4bac6215d7d49130b2f725"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\orlib_preflight\\solver_prepared01\\outputs\\identity__native_penalized\\mip\\result.json",
+      "bytes": 1610,
+      "sha256": "d6a32d73b4347fc808e78bebd6a8ae9499278905b882bd07b8ca900bbf6dc0eb"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\orlib_preflight\\solver_prepared01\\outputs\\identity__native_penalized\\mip\\exact_candidate_checks.json",
+      "bytes": 2388,
+      "sha256": "d7714363de996df017a1ff8dc357730c28a9521a9fb74f837e9a461b9c7ae308"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\orlib_preflight\\solver_prepared01\\outputs\\identity__native_penalized\\lp\\result.json",
+      "bytes": 1667,
+      "sha256": "7e404e207776f2c1bf100f39504065fc2e134ff052e3d0bd4a9e0e2396c97a1e"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\orlib_native_compare_schema2\\run01\\completion.json",
+      "bytes": 247,
+      "sha256": "4d5298fd1895c18f4a062680f42a6f66e98c01578120d83c6f048f3914468773"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\orlib_native_compare_schema2\\INDEPENDENT_POSTRUN_REVIEW.md",
+      "bytes": 3639,
+      "sha256": "67c3df00f33523c6c818e306f9b8cc4401c510c1bc1dc6a3c54115ba747c8c23"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\orlib_preflight\\INDEPENDENT_SOLVER_RESULT_REVIEW.py",
+      "bytes": 18106,
+      "sha256": "c1190b9885d1c1cc81978b40864cb8411c9e2717f4584f172769cfb41a775d88"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\orlib_preflight\\INDEPENDENT_SOLVER_RESULT_REVIEW.md",
+      "bytes": 4961,
+      "sha256": "8c4ed61da2aa3d7090e0ed31815242b8b1b3b5859b5211d03d10a1f527ac0dd2"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\src\\researchnext_native_expanded_identity.py",
+      "bytes": 17170,
+      "sha256": "fca0051ebb46cd8128a141e868877b2206bc3b8962b4b83fac43bbea9095129d"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\docs\\research_next\\NATIVE_EXPANDED_IDENTITY_PROTOCOL.md",
+      "bytes": 7415,
+      "sha256": "1d5c1f0d5d8ca6282fd185f5c28d7388fa2bcb6f3ba727f3754728697f71a69e"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\orlib_julia_export\\official_export_reuse01\\completion.json",
+      "bytes": 87215,
+      "sha256": "5328052ad2d29636013efea6fcf70e90853336cb8fceac81b4e5bbc1a4a1a75c"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\orlib_julia_export\\official_export_reuse01\\official_raw_model.json",
+      "bytes": 8630839,
+      "sha256": "028ca4d025389eecd6fa91dc278b32f262a358eede3dece50d05080cc61b0160"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\orlib_julia_export\\official_export_reuse01\\official_parsed_instance.json",
+      "bytes": 401554,
+      "sha256": "f47bec57919401282d15d2a091291a9489e00557f5276db4062c19d8f444e139"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\orlib_preflight\\solver_prepared01\\inputs\\identity__native_penalized.json",
+      "bytes": 1680334,
+      "sha256": "5abc7c12289d6428081f49646553863abaa041abfd4bac6215d7d49130b2f725"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\orlib_preflight\\solver_prepared01\\inputs\\normalized_case.json",
+      "bytes": 9407,
+      "sha256": "be57cd1fd925fb5c106b8e90979dcc866c0b27068b368ec018e4068d03067df8"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\src\\researchnext_orlib_native_compare_schema2.py",
+      "bytes": 20384,
+      "sha256": "e9f1065fbd47e9d5b7a67afad92fc6a18816cade310b87c8f1c66a49814c389f"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\docs\\research_next\\ORLIB_NATIVE_COMPARE_SCHEMA2_PROTOCOL.md",
+      "bytes": 1969,
+      "sha256": "f4ac9b47e6b653c7dfc5a42b6a6c98831204a83c51604355f7676bab87fea775"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\src\\researchnext_orlib_native_compare.py",
+      "bytes": 19436,
+      "sha256": "83ee49f623b9bb9b90a27ecbf808e305369ae02046add59a643afb002c0db507"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\docs\\research_next\\ORLIB_NATIVE_COMPARE_PROTOCOL.md",
+      "bytes": 3576,
+      "sha256": "d0667b109ef0ceb50022726a68675b67c3b46f438e764d76402dcd3267701ba9"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\orlib_native_compare\\prepared\\manifest.json",
+      "bytes": 3720,
+      "sha256": "fe20e2535ad3f36e669dbafb1ff9d588d791f0e8c04bbedfa0557bc1830d8b29"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\orlib_native_compare\\run01\\failure.json",
+      "bytes": 235,
+      "sha256": "819f59c1b1918bf4672a4efc39f92e767c9601ec5492e824b2edbe36b08a673c"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\orlib_native_compare_schema2\\prepared\\official_completion.json",
+      "bytes": 87215,
+      "sha256": "5328052ad2d29636013efea6fcf70e90853336cb8fceac81b4e5bbc1a4a1a75c"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\native_expanded_identity\\prepared\\helper.py",
+      "bytes": 14109,
+      "sha256": "6390b0f51a9385860ff28683c2610008173ea0fcb8b1ed40b686cbbfd7c06d3c"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\native_expanded_identity\\prepared\\kernel.py",
+      "bytes": 28861,
+      "sha256": "708c3843425eea494a0561e83a275f7059f22bcd546a036705323d056bcf906f"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\native_expanded_identity\\prepared\\comparison_review.json",
+      "bytes": 1761,
+      "sha256": "50191cce91e6a4e8479500bfa0a1740b03d812848ee37620480b3e41ce584080"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\native_expanded_identity\\prepared\\comparison.json",
+      "bytes": 161172,
+      "sha256": "2ad303026121cbef1952f234c2e65eade9ac897fb669aa138a1ffcae6ffb3125"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\native_expanded_identity\\prepared\\comparison_manifest.json",
+      "bytes": 4840,
+      "sha256": "ea2a05148c0d0b23b2c59faea9f0afcfd4a3b386e6e738adb97ca1b4610ab829"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\native_expanded_identity\\prepared\\old_output_manifest.json",
+      "bytes": 18302,
+      "sha256": "2713685311e705ea0c9b6080dee2594e9d077d37aea844efb0e093f722cf9a52"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\native_expanded_identity\\prepared\\old_review.json",
+      "bytes": 30472,
+      "sha256": "a465a16acf67ca9a0925376f2a2b7d4338a24bac9bb276258d134f930d11f358"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\native_expanded_identity\\prepared\\candidate.json",
+      "bytes": 22628,
+      "sha256": "c24e7218930cf26a18dd1c2fc0fe7f36d1a180580c447ab5307fe07ee8781f6c"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\native_expanded_identity\\prepared\\raw_lp.npz",
+      "bytes": 15563,
+      "sha256": "42551c9d8dc9acdaa64cfdbc44062586b6cb6ca3949d8606d301abeb89b2e71a"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\native_expanded_identity\\prepared\\signed_bound.json",
+      "bytes": 331048,
+      "sha256": "d1ca08949c6187e8c6c04d07c857fdae4b67117fcb70a117e87c57290ec5943c"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\native_expanded_identity\\prepared\\theory.md",
+      "bytes": 3922,
+      "sha256": "b5342b65753d4440c0c19551dba45fb100731cb4fcd9206499ac38a6c23fc1db"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\native_expanded_identity\\prepared\\theory_review.md",
+      "bytes": 3831,
+      "sha256": "20747ec68fb217c65c11779263851bae793c758a19c0be046c889ed93a5c5adb"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\native_expanded_identity\\prepared\\raw.json",
+      "bytes": 8630839,
+      "sha256": "028ca4d025389eecd6fa91dc278b32f262a358eede3dece50d05080cc61b0160"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\native_expanded_identity\\prepared\\parsed.json",
+      "bytes": 401554,
+      "sha256": "f47bec57919401282d15d2a091291a9489e00557f5276db4062c19d8f444e139"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\native_expanded_identity\\prepared\\normal.json",
+      "bytes": 9407,
+      "sha256": "be57cd1fd925fb5c106b8e90979dcc866c0b27068b368ec018e4068d03067df8"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\native_expanded_identity\\prepared\\model.json",
+      "bytes": 1680334,
+      "sha256": "5abc7c12289d6428081f49646553863abaa041abfd4bac6215d7d49130b2f725"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\native_expanded_identity\\prepared\\mip_result.json",
+      "bytes": 1610,
+      "sha256": "d6a32d73b4347fc808e78bebd6a8ae9499278905b882bd07b8ca900bbf6dc0eb"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\native_expanded_identity\\prepared\\mip_checks.json",
+      "bytes": 2388,
+      "sha256": "d7714363de996df017a1ff8dc357730c28a9521a9fb74f837e9a461b9c7ae308"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\native_expanded_identity\\prepared\\lp_result.json",
+      "bytes": 1667,
+      "sha256": "7e404e207776f2c1bf100f39504065fc2e134ff052e3d0bd4a9e0e2396c97a1e"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\native_expanded_identity\\prepared\\comparison_completion.json",
+      "bytes": 247,
+      "sha256": "4d5298fd1895c18f4a062680f42a6f66e98c01578120d83c6f048f3914468773"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\native_expanded_identity\\prepared\\comparison_review_memo.md",
+      "bytes": 3639,
+      "sha256": "67c3df00f33523c6c818e306f9b8cc4401c510c1bc1dc6a3c54115ba747c8c23"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\native_expanded_identity\\prepared\\old_review_source.py",
+      "bytes": 18106,
+      "sha256": "c1190b9885d1c1cc81978b40864cb8411c9e2717f4584f172769cfb41a775d88"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\native_expanded_identity\\prepared\\old_review_memo.md",
+      "bytes": 4961,
+      "sha256": "8c4ed61da2aa3d7090e0ed31815242b8b1b3b5859b5211d03d10a1f527ac0dd2"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\native_expanded_identity\\prepared\\manifest.json",
+      "bytes": 18020,
+      "sha256": "218037265ef5c242f60ee35e54b018e5d7d2bbc58dad0644dd55dd54398538b9"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\native_expanded_identity\\run01\\result.json",
+      "bytes": 1032,
+      "sha256": "630481bb4b8249539811a76cbf9197cd6ca577c3c131b21a234d6b6cb64b9c0f"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\native_expanded_identity_independent_review\\postrun_review.json",
+      "bytes": 3608,
+      "sha256": "8f13f3a1751e03f2e4487127159420d14717bfff2b2c810a5c829f13bfa1b2e1"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\docs\\research_next\\NOMINAL_IDENTITY_RECONSTRUCTION_PROPOSAL.md",
+      "bytes": 6364,
+      "sha256": "29d9a994aee6fe332bbc18da3dbe003447273331931ed566fe11a6b34fca3c4f"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\docs\\research_next\\NOMINAL_IDENTITY_RECONSTRUCTION_REVIEW.md",
+      "bytes": 4554,
+      "sha256": "3acbc9d0de64c5c60665c5084f238502dc6d6462ec9a5e1b7cec3970d93fa7cc"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\src\\researchnext_orlib_uc.py",
+      "bytes": 32720,
+      "sha256": "e2b137f6a7ba23d1a9b12663ee1deee7bf2a3fffdd1f95d4718fb9ba37d17dc1"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\src\\researchnext_nominal_identity.py",
+      "bytes": 29224,
+      "sha256": "24d7a34f26d9427ce9fa95129053496e20084888d32db9ea1c53d3047b33a991"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\docs\\research_next\\NOMINAL_IDENTITY_PROTOCOL.md",
+      "bytes": 3695,
+      "sha256": "6c1e275a0a8a69062bd0fe1fd966adbdedf0bdba894170b82acc1dbdb9f5d4d1"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\nominal_identity\\synthetic_controls.json",
+      "bytes": 327,
+      "sha256": "877947bfa41c18047d8940a89a2ca7ab843a1b55a4fce940cae4558ce8976905"
+    }
+  ],
+  "copies": {
+    "old_manifest": {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\nominal_identity\\prepared\\old_manifest.json",
+      "bytes": 18020,
+      "sha256": "218037265ef5c242f60ee35e54b018e5d7d2bbc58dad0644dd55dd54398538b9"
+    },
+    "old_result": {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\nominal_identity\\prepared\\old_result.json",
+      "bytes": 1032,
+      "sha256": "630481bb4b8249539811a76cbf9197cd6ca577c3c131b21a234d6b6cb64b9c0f"
+    },
+    "old_review": {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\nominal_identity\\prepared\\old_review.json",
+      "bytes": 3608,
+      "sha256": "8f13f3a1751e03f2e4487127159420d14717bfff2b2c810a5c829f13bfa1b2e1"
+    },
+    "proposal": {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\nominal_identity\\prepared\\proposal.md",
+      "bytes": 6364,
+      "sha256": "29d9a994aee6fe332bbc18da3dbe003447273331931ed566fe11a6b34fca3c4f"
+    },
+    "raw": {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\nominal_identity\\prepared\\raw.json",
+      "bytes": 8630839,
+      "sha256": "028ca4d025389eecd6fa91dc278b32f262a358eede3dece50d05080cc61b0160"
+    },
+    "normal": {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\nominal_identity\\prepared\\normal.json",
+      "bytes": 9407,
+      "sha256": "be57cd1fd925fb5c106b8e90979dcc866c0b27068b368ec018e4068d03067df8"
+    },
+    "model": {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\nominal_identity\\prepared\\model.json",
+      "bytes": 1680334,
+      "sha256": "5abc7c12289d6428081f49646553863abaa041abfd4bac6215d7d49130b2f725"
+    },
+    "candidate": {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\nominal_identity\\prepared\\candidate.json",
+      "bytes": 22628,
+      "sha256": "c24e7218930cf26a18dd1c2fc0fe7f36d1a180580c447ab5307fe07ee8781f6c"
+    },
+    "helper": {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\nominal_identity\\prepared\\helper.py",
+      "bytes": 14109,
+      "sha256": "6390b0f51a9385860ff28683c2610008173ea0fcb8b1ed40b686cbbfd7c06d3c"
+    },
+    "theory_review": {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\nominal_identity\\prepared\\theory_review.md",
+      "bytes": 4554,
+      "sha256": "3acbc9d0de64c5c60665c5084f238502dc6d6462ec9a5e1b7cec3970d93fa7cc"
+    },
+    "old_semantic_source": {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\nominal_identity\\prepared\\old_semantic_source.py",
+      "bytes": 32720,
+      "sha256": "e2b137f6a7ba23d1a9b12663ee1deee7bf2a3fffdd1f95d4718fb9ba37d17dc1"
+    }
+  },
+  "source_sha256": "24d7a34f26d9427ce9fa95129053496e20084888d32db9ea1c53d3047b33a991",
+  "protocol_sha256": "6c1e275a0a8a69062bd0fe1fd966adbdedf0bdba894170b82acc1dbdb9f5d4d1",
+  "candidate_reconstructions": 0,
+  "optimizer_calls": 0
+}

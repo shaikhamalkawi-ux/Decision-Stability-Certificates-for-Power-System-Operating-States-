@@ -1,0 +1,10 @@
+{
+  "utc": "2026-09-27T12:03:01.861Z",
+  "decision": "GO_ONCE_AS_FROZEN",
+  "source_sha256": "cf951d0dc5ac69df003b919df1e7d6400b71b25fc7e7e7ec7137b2480fc5b32d",
+  "protocol_sha256": "0b1d513cbfd47474b39d35572478cc092554f8f862ab5aae029eb14f907cfc85",
+  "freeze_sha256": "6e4565d510fceec0308f97ccf59aeaf41ec787252abd39ba29fad204cda89bcd",
+  "independent_gate_sha256": "6dbd77c9c81d2965c64f5563db6cd32db4aa453d00492b4c75798b13e7328b61",
+  "parent_full_source_review": "PASS_PREVIOUSLY_RECORDED",
+  "scope": "Evaluate both archived cuts with source-world contradiction priority. At most one 60-second LP only if both pass. Original full world/joint/native acceptance, no retry. Independent postrun required."
+}

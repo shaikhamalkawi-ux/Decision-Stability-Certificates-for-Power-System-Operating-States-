@@ -1,0 +1,44 @@
+{
+  "evaluations": [
+    {
+      "world": "identity",
+      "value": {
+        "numerator": "1712123757140708214198607",
+        "denominator": "73786976294838206464",
+        "approximate": 23203.603713200002
+      },
+      "cap": {
+        "numerator": "13691911327173135695046897",
+        "denominator": "590295810358705651712",
+        "approximate": 23195.00001
+      },
+      "excess": {
+        "numerator": "5078729952530018541959",
+        "denominator": "590295810358705651712",
+        "approximate": 8.603703200000389
+      },
+      "strictly_violated": true
+    },
+    {
+      "world": "days_321",
+      "value": {
+        "numerator": "1693603226090703824376143",
+        "denominator": "73786976294838206464",
+        "approximate": 22952.603713200002
+      },
+      "cap": {
+        "numerator": "13691911327173135695046897",
+        "denominator": "590295810358705651712",
+        "approximate": 23195.00001
+      },
+      "excess": {
+        "numerator": "-143085518447505100037753",
+        "denominator": "590295810358705651712",
+        "approximate": -242.39629679999962
+      },
+      "strictly_violated": false
+    }
+  ],
+  "optimizer_calls": 0,
+  "no_reselection": true
+}

@@ -1,0 +1,10548 @@
+{
+  "status": "EXACT_NOMINAL_COMPARISON_PASS",
+  "parsed_differences": [],
+  "parsed_exact_agreement": true,
+  "native_variables": 2712,
+  "retained_variables": 2472,
+  "omitted_variables": 240,
+  "native_affine_rows": 4384,
+  "adapter_affine_rows": 4384,
+  "native_binary_count": 960,
+  "binary_symmetric_difference": [],
+  "unused_mfg_projection_and_zero_lift": true,
+  "row_multisets_exact": true,
+  "native_canonical_multiset_sha256": "1f9d37f9a32ad56290df66a076d289706fd88986af0fd141c5a9784f214c6cd1",
+  "adapter_canonical_multiset_sha256": "1f9d37f9a32ad56290df66a076d289706fd88986af0fd141c5a9784f214c6cd1",
+  "missing_native_rows": [],
+  "extra_native_rows": [],
+  "objective_exact": true,
+  "objective_constant": [
+    "0",
+    "1"
+  ],
+  "objective_sense": "MIN_SENSE",
+  "objective_differences": [],
+  "column_domain_differences": [
+    {
+      "name": "Q:g0:0",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "86",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g0:0",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "86",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g0:1",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "86",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g0:1",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "86",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g0:2",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "86",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g0:2",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "86",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g0:3",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "86",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g0:3",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "86",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g0:4",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "86",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g0:4",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "86",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g0:5",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "86",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g0:5",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "86",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g0:6",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "86",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g0:6",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "86",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g0:7",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "86",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g0:7",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "86",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g0:8",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "86",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g0:8",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "86",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g0:9",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "86",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g0:9",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "86",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g0:10",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "86",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g0:10",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "86",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g0:11",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "86",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g0:11",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "86",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g0:12",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "86",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g0:12",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "86",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g0:13",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "86",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g0:13",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "86",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g0:14",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "86",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g0:14",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "86",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g0:15",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "86",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g0:15",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "86",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g0:16",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "86",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g0:16",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "86",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g0:17",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "86",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g0:17",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "86",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g0:18",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "86",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g0:18",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "86",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g0:19",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "86",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g0:19",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "86",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g0:20",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "86",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g0:20",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "86",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g0:21",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "86",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g0:21",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "86",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g0:22",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "86",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g0:22",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "86",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g0:23",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "86",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g0:23",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "86",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g1:0",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "82",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g1:0",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "82",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g1:1",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "82",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g1:1",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "82",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g1:2",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "82",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g1:2",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "82",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g1:3",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "82",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g1:3",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "82",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g1:4",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "82",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g1:4",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "82",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g1:5",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "82",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g1:5",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "82",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g1:6",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "82",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g1:6",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "82",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g1:7",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "82",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g1:7",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "82",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g1:8",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "82",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g1:8",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "82",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g1:9",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "82",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g1:9",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "82",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g1:10",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "82",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g1:10",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "82",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g1:11",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "82",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g1:11",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "82",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g1:12",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "82",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g1:12",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "82",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g1:13",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "82",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g1:13",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "82",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g1:14",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "82",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g1:14",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "82",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g1:15",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "82",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g1:15",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "82",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g1:16",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "82",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g1:16",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "82",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g1:17",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "82",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g1:17",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "82",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g1:18",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "82",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g1:18",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "82",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g1:19",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "82",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g1:19",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "82",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g1:20",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "82",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g1:20",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "82",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g1:21",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "82",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g1:21",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "82",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g1:22",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "82",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g1:22",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "82",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g1:23",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "82",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g1:23",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "82",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g2:0",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "57",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g2:0",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "57",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g2:1",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "57",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g2:1",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "57",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g2:2",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "57",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g2:2",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "57",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g2:3",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "57",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g2:3",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "57",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g2:4",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "57",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g2:4",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "57",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g2:5",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "57",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g2:5",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "57",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g2:6",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "57",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g2:6",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "57",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g2:7",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "57",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g2:7",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "57",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g2:8",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "57",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g2:8",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "57",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g2:9",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "57",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g2:9",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "57",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g2:10",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "57",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g2:10",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "57",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g2:11",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "57",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g2:11",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "57",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g2:12",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "57",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g2:12",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "57",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g2:13",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "57",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g2:13",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "57",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g2:14",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "57",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g2:14",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "57",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g2:15",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "57",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g2:15",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "57",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g2:16",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "57",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g2:16",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "57",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g2:17",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "57",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g2:17",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "57",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g2:18",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "57",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g2:18",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "57",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g2:19",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "57",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g2:19",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "57",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g2:20",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "57",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g2:20",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "57",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g2:21",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "57",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g2:21",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "57",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g2:22",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "57",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g2:22",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "57",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g2:23",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "57",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g2:23",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "57",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g3:0",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "65",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g3:0",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "65",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g3:1",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "65",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g3:1",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "65",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g3:2",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "65",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g3:2",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "65",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g3:3",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "65",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g3:3",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "65",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g3:4",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "65",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g3:4",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "65",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g3:5",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "65",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g3:5",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "65",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g3:6",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "65",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g3:6",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "65",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g3:7",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "65",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g3:7",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "65",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g3:8",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "65",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g3:8",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "65",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g3:9",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "65",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g3:9",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "65",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g3:10",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "65",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g3:10",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "65",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g3:11",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "65",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g3:11",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "65",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g3:12",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "65",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g3:12",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "65",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g3:13",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "65",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g3:13",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "65",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g3:14",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "65",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g3:14",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "65",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g3:15",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "65",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g3:15",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "65",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g3:16",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "65",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g3:16",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "65",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g3:17",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "65",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g3:17",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "65",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g3:18",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "65",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g3:18",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "65",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g3:19",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "65",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g3:19",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "65",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g3:20",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "65",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g3:20",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "65",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g3:21",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "65",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g3:21",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "65",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g3:22",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "65",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g3:22",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "65",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g3:23",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "65",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g3:23",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "65",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g4:0",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "55",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g4:0",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "55",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g4:1",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "55",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g4:1",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "55",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g4:2",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "55",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g4:2",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "55",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g4:3",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "55",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g4:3",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "55",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g4:4",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "55",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g4:4",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "55",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g4:5",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "55",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g4:5",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "55",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g4:6",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "55",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g4:6",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "55",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g4:7",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "55",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g4:7",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "55",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g4:8",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "55",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g4:8",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "55",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g4:9",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "55",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g4:9",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "55",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g4:10",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "55",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g4:10",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "55",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g4:11",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "55",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g4:11",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "55",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g4:12",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "55",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g4:12",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "55",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g4:13",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "55",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g4:13",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "55",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g4:14",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "55",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g4:14",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "55",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g4:15",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "55",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g4:15",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "55",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g4:16",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "55",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g4:16",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "55",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g4:17",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "55",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g4:17",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "55",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g4:18",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "55",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g4:18",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "55",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g4:19",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "55",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g4:19",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "55",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g4:20",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "55",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g4:20",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "55",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g4:21",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "55",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g4:21",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "55",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g4:22",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "55",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g4:22",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "55",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g4:23",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "55",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g4:23",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "55",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g5:0",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "140",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g5:0",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "140",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g5:1",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "140",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g5:1",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "140",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g5:2",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "140",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g5:2",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "140",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g5:3",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "140",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g5:3",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "140",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g5:4",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "140",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g5:4",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "140",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g5:5",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "140",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g5:5",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "140",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g5:6",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "140",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g5:6",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "140",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g5:7",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "140",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g5:7",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "140",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g5:8",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "140",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g5:8",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "140",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g5:9",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "140",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g5:9",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "140",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g5:10",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "140",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g5:10",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "140",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g5:11",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "140",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g5:11",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "140",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g5:12",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "140",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g5:12",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "140",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g5:13",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "140",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g5:13",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "140",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g5:14",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "140",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g5:14",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "140",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g5:15",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "140",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g5:15",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "140",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g5:16",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "140",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g5:16",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "140",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g5:17",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "140",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g5:17",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "140",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g5:18",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "140",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g5:18",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "140",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g5:19",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "140",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g5:19",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "140",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g5:20",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "140",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g5:20",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "140",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g5:21",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "140",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g5:21",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "140",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g5:22",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "140",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g5:22",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "140",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g5:23",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "140",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g5:23",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "140",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g6:0",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "146",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g6:0",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "146",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g6:1",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "146",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g6:1",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "146",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g6:2",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "146",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g6:2",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "146",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g6:3",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "146",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g6:3",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "146",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g6:4",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "146",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g6:4",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "146",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g6:5",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "146",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g6:5",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "146",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g6:6",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "146",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g6:6",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "146",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g6:7",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "146",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g6:7",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "146",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g6:8",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "146",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g6:8",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "146",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g6:9",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "146",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g6:9",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "146",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g6:10",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "146",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g6:10",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "146",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g6:11",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "146",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g6:11",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "146",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g6:12",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "146",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g6:12",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "146",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g6:13",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "146",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g6:13",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "146",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g6:14",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "146",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g6:14",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "146",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g6:15",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "146",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g6:15",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "146",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g6:16",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "146",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g6:16",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "146",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g6:17",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "146",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g6:17",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "146",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g6:18",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "146",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g6:18",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "146",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g6:19",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "146",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g6:19",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "146",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g6:20",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "146",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g6:20",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "146",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g6:21",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "146",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g6:21",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "146",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g6:22",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "146",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g6:22",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "146",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g6:23",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "146",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g6:23",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "146",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g7:0",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "156",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g7:0",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "156",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g7:1",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "156",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g7:1",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "156",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g7:2",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "156",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g7:2",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "156",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g7:3",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "156",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g7:3",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "156",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g7:4",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "156",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g7:4",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "156",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g7:5",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "156",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g7:5",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "156",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g7:6",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "156",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g7:6",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "156",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g7:7",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "156",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g7:7",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "156",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g7:8",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "156",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g7:8",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "156",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g7:9",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "156",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g7:9",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "156",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g7:10",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "156",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g7:10",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "156",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g7:11",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "156",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g7:11",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "156",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g7:12",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "156",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g7:12",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "156",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g7:13",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "156",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g7:13",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "156",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g7:14",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "156",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g7:14",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "156",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g7:15",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "156",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g7:15",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "156",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g7:16",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "156",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g7:16",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "156",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g7:17",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "156",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g7:17",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "156",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g7:18",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "156",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g7:18",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "156",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g7:19",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "156",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g7:19",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "156",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g7:20",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "156",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g7:20",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "156",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g7:21",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "156",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g7:21",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "156",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g7:22",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "156",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g7:22",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "156",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g7:23",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "156",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g7:23",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "156",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g8:0",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "197",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g8:0",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "197",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g8:1",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "197",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g8:1",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "197",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g8:2",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "197",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g8:2",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "197",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g8:3",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "197",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g8:3",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "197",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g8:4",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "197",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g8:4",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "197",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g8:5",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "197",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g8:5",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "197",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g8:6",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "197",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g8:6",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "197",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g8:7",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "197",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g8:7",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "197",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g8:8",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "197",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g8:8",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "197",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g8:9",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "197",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g8:9",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "197",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g8:10",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "197",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g8:10",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "197",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g8:11",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "197",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g8:11",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "197",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g8:12",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "197",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g8:12",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "197",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g8:13",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "197",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g8:13",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "197",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g8:14",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "197",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g8:14",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "197",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g8:15",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "197",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g8:15",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "197",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g8:16",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "197",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g8:16",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "197",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g8:17",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "197",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g8:17",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "197",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g8:18",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "197",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g8:18",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "197",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g8:19",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "197",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g8:19",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "197",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g8:20",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "197",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g8:20",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "197",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g8:21",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "197",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g8:21",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "197",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g8:22",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "197",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g8:22",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "197",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g8:23",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "197",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g8:23",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "197",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g9:0",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "239",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g9:0",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "239",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g9:1",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "239",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g9:1",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "239",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g9:2",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "239",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g9:2",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "239",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g9:3",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "239",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g9:3",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "239",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g9:4",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "239",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g9:4",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "239",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g9:5",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "239",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g9:5",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "239",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g9:6",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "239",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g9:6",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "239",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g9:7",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "239",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g9:7",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "239",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g9:8",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "239",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g9:8",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "239",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g9:9",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "239",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g9:9",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "239",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g9:10",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "239",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g9:10",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "239",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g9:11",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "239",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g9:11",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "239",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g9:12",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "239",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g9:12",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "239",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g9:13",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "239",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g9:13",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "239",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g9:14",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "239",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g9:14",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "239",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g9:15",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "239",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g9:15",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "239",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g9:16",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "239",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g9:16",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "239",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g9:17",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "239",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g9:17",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "239",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g9:18",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "239",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g9:18",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "239",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g9:19",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "239",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g9:19",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "239",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g9:20",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "239",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g9:20",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "239",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g9:21",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "239",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g9:21",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "239",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g9:22",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "239",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g9:22",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "239",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "Q:g9:23",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "239",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "R:g9:23",
+      "native": [
+        [
+          "0",
+          "1"
+        ],
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "239",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "N:system:0",
+      "native": [
+        null,
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "N:system:1",
+      "native": [
+        null,
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "N:system:2",
+      "native": [
+        null,
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "N:system:3",
+      "native": [
+        null,
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "N:system:4",
+      "native": [
+        null,
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "N:system:5",
+      "native": [
+        null,
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "N:system:6",
+      "native": [
+        null,
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "N:system:7",
+      "native": [
+        null,
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "N:system:8",
+      "native": [
+        null,
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "N:system:9",
+      "native": [
+        null,
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "N:system:10",
+      "native": [
+        null,
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "N:system:11",
+      "native": [
+        null,
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "N:system:12",
+      "native": [
+        null,
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "N:system:13",
+      "native": [
+        null,
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "N:system:14",
+      "native": [
+        null,
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "N:system:15",
+      "native": [
+        null,
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "N:system:16",
+      "native": [
+        null,
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "N:system:17",
+      "native": [
+        null,
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "N:system:18",
+      "native": [
+        null,
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "N:system:19",
+      "native": [
+        null,
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "N:system:20",
+      "native": [
+        null,
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "N:system:21",
+      "native": [
+        null,
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "N:system:22",
+      "native": [
+        null,
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    },
+    {
+      "name": "N:system:23",
+      "native": [
+        null,
+        null
+      ],
+      "adapter": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "nominal_implication_checked": true
+    }
+  ],
+  "allowed_nominal_domain_extensions": 504,
+  "unjustified_domain_differences": [],
+  "nominal_projection_equivalence": true,
+  "expanded_native_equivalence": "NOT_ESTABLISHED",
+  "old_expanded_cost_bounds_transferred": false,
+  "tolerance_for_comparison": 0,
+  "coefficient_rescaling": false,
+  "optimizer_calls": 0,
+  "native_model_builds": 0
+}

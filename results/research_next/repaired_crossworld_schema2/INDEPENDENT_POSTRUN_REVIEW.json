@@ -1,0 +1,70 @@
+{
+  "status": "PASS_INDEPENDENT_REPAIRED_CROSSWORLD_EXACT_CUT_REJECTION",
+  "utc": "2026-09-27T12:05:52.260243+00:00",
+  "reviewer_source_sha256": "81e71f6cef1b534368ccb9967435289b0e1b365cf72310f84fe7407d14a42c07",
+  "freeze_sha256": "6e4565d510fceec0308f97ccf59aeaf41ec787252abd39ba29fad204cda89bcd",
+  "manifest_sha256": "6948d3d9a4b292273f07297a10a65d7574d208cfe6bcce013eb9bca52868dee4",
+  "prepared_review_sha256": "6dbd77c9c81d2965c64f5563db6cd32db4aa453d00492b4c75798b13e7328b61",
+  "inputs_rehashed_twice": 179,
+  "producer_snapshot": {
+    "completion.json": "ddc987a185e3c0d3d816ade4167670a894243ce7823615d88831420c9d1b8dde",
+    "cut_gate.json": "71686ac34dcac651a16b6cd37ad97b574996014d5746cf8f17816d26856f3cda",
+    "execution_started.json": "b47c5d6c41d188b37b0ce2a978669f5d3291f8a8317e2578de3c8a2f8550fa22",
+    "private_log_receipt.json": "3371aaf23bf7aca7d73b4a57cc337eb2e9b022840a53bdce3e06c04e239b36b6",
+    "result.json": "18e199048da50e67e090d767f9bb2c105dbab9c70bea5e445a10825cea0cabc7",
+    "stage_timings.json": "95118f22910cb0a4788871f3d8c584f3f762405a4cffb52881d8d0369553f007"
+  },
+  "evaluations": [
+    {
+      "world": "identity",
+      "value": {
+        "numerator": "1712123757140708214198607",
+        "denominator": "73786976294838206464",
+        "approximate": 23203.603713200002
+      },
+      "cap": {
+        "numerator": "13691911327173135695046897",
+        "denominator": "590295810358705651712",
+        "approximate": 23195.00001
+      },
+      "excess": {
+        "numerator": "5078729952530018541959",
+        "denominator": "590295810358705651712",
+        "approximate": 8.603703200000389
+      },
+      "strictly_violated": true
+    },
+    {
+      "world": "days_321",
+      "value": {
+        "numerator": "1693603226090703824376143",
+        "denominator": "73786976294838206464",
+        "approximate": 22952.603713200002
+      },
+      "cap": {
+        "numerator": "13691911327173135695046897",
+        "denominator": "590295810358705651712",
+        "approximate": 23195.00001
+      },
+      "excess": {
+        "numerator": "-143085518447505100037753",
+        "denominator": "590295810358705651712",
+        "approximate": -242.39629679999962
+      },
+      "strictly_violated": false
+    }
+  ],
+  "prescribed_binary_states": 12096,
+  "exact_global_cut_proof_reused": true,
+  "new_cut_or_multiplier": false,
+  "days321_consistency_pass": true,
+  "identity_repaired_schedule_rejected": true,
+  "original_common_question": "UNKNOWN",
+  "full_unrestricted_negative": false,
+  "producer_phase_seconds": 1.2696638999623246,
+  "optimizer_calls": 0,
+  "solver_imports": 0,
+  "producer_imports": 0,
+  "full_old_point_replays": 0,
+  "elapsed_seconds": 0.8383721000282094
+}

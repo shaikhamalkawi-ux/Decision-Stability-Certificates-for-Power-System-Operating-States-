@@ -1,0 +1,90 @@
+{
+  "inputs": [
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\orlib_julia_export\\official_export_reuse01\\completion.json",
+      "bytes": 87215,
+      "sha256": "5328052ad2d29636013efea6fcf70e90853336cb8fceac81b4e5bbc1a4a1a75c"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\orlib_julia_export\\official_export_reuse01\\official_raw_model.json",
+      "bytes": 8630839,
+      "sha256": "028ca4d025389eecd6fa91dc278b32f262a358eede3dece50d05080cc61b0160"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\orlib_julia_export\\official_export_reuse01\\official_parsed_instance.json",
+      "bytes": 401554,
+      "sha256": "f47bec57919401282d15d2a091291a9489e00557f5276db4062c19d8f444e139"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\orlib_preflight\\solver_prepared01\\inputs\\identity__native_penalized.json",
+      "bytes": 1680334,
+      "sha256": "5abc7c12289d6428081f49646553863abaa041abfd4bac6215d7d49130b2f725"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\orlib_preflight\\solver_prepared01\\inputs\\normalized_case.json",
+      "bytes": 9407,
+      "sha256": "be57cd1fd925fb5c106b8e90979dcc866c0b27068b368ec018e4068d03067df8"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\src\\researchnext_orlib_native_compare_schema2.py",
+      "bytes": 20384,
+      "sha256": "e9f1065fbd47e9d5b7a67afad92fc6a18816cade310b87c8f1c66a49814c389f"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\docs\\research_next\\ORLIB_NATIVE_COMPARE_SCHEMA2_PROTOCOL.md",
+      "bytes": 1969,
+      "sha256": "f4ac9b47e6b653c7dfc5a42b6a6c98831204a83c51604355f7676bab87fea775"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\src\\researchnext_orlib_native_compare.py",
+      "bytes": 19436,
+      "sha256": "83ee49f623b9bb9b90a27ecbf808e305369ae02046add59a643afb002c0db507"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\docs\\research_next\\ORLIB_NATIVE_COMPARE_PROTOCOL.md",
+      "bytes": 3576,
+      "sha256": "d0667b109ef0ceb50022726a68675b67c3b46f438e764d76402dcd3267701ba9"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\orlib_native_compare\\prepared\\manifest.json",
+      "bytes": 3720,
+      "sha256": "fe20e2535ad3f36e669dbafb1ff9d588d791f0e8c04bbedfa0557bc1830d8b29"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\orlib_native_compare\\run01\\failure.json",
+      "bytes": 235,
+      "sha256": "819f59c1b1918bf4672a4efc39f92e767c9601ec5492e824b2edbe36b08a673c"
+    }
+  ],
+  "copies": [
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\orlib_native_compare_schema2\\prepared\\official_completion.json",
+      "bytes": 87215,
+      "sha256": "5328052ad2d29636013efea6fcf70e90853336cb8fceac81b4e5bbc1a4a1a75c"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\orlib_native_compare_schema2\\prepared\\raw.json",
+      "bytes": 8630839,
+      "sha256": "028ca4d025389eecd6fa91dc278b32f262a358eede3dece50d05080cc61b0160"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\orlib_native_compare_schema2\\prepared\\parsed.json",
+      "bytes": 401554,
+      "sha256": "f47bec57919401282d15d2a091291a9489e00557f5276db4062c19d8f444e139"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\orlib_native_compare_schema2\\prepared\\model.json",
+      "bytes": 1680334,
+      "sha256": "5abc7c12289d6428081f49646553863abaa041abfd4bac6215d7d49130b2f725"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\orlib_native_compare_schema2\\prepared\\normal.json",
+      "bytes": 9407,
+      "sha256": "be57cd1fd925fb5c106b8e90979dcc866c0b27068b368ec018e4068d03067df8"
+    }
+  ],
+  "source_sha256": "e9f1065fbd47e9d5b7a67afad92fc6a18816cade310b87c8f1c66a49814c389f",
+  "protocol_sha256": "f4ac9b47e6b653c7dfc5a42b6a6c98831204a83c51604355f7676bab87fea775",
+  "utc": "2026-09-27T11:29:42.804962+00:00",
+  "comparison_runs": 0
+}

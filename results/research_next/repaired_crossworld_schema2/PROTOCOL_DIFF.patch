@@ -1,0 +1,16 @@
+--- docs\research_next\REPAIRED_CROSSWORLD_PROTOCOL.md
++++ docs\research_next\REPAIRED_CROSSWORLD_SCHEMA2_PROTOCOL.md
+@@ -1,6 +1,12 @@
++# Additive archived-path correction
++
++This is a separate source/protocol/output archive after two preserved pre-execution failures. The first used `-S` and hid scientific site-packages before preparation; the corrected `-I` invocation copied25 original payloads but stopped at an incorrect provenance-map member name. The real bound member is `union_affine_cut_schema2/prepared/joint/column_maps.json`, SHA256 `ced46514e0a6525a21f24aab86dea4b6e3ce0f27440f6dee53a47093dbc0f4bb`. The old source, protocol, failure records and25 partial copies stay unchanged. Neither attempt evaluated a cut or called an optimizer.
++
++The new source corrects only this archived-member lookup, adds explicit membership in the captured trusted manifest and a tiny invented full-path lookup fixture, uses new paths, and pins both old failures/source/protocol. The fixed candidate, original models, bits, cut formulas/branching, LP options and acceptance remain unchanged. The existing scientific interpreter must use `-I` (without `-S`) for preparation/execution. The prior no-retry records describe their individual attempts; this additive preparation was explicitly authorized separately. No scientific retry has occurred.
++
+ # One reverse test of the unchanged repaired schedule
+ 
+-Prospective protocol27 September2026. Source `src/researchnext_repaired_crossworld.py`; approved design `REPAIRED_SCHEDULE_CROSSWORLD_PROPOSAL.md`, SHA256 `ad35cb3231b4e1d10e06c18a80f645f39a183c1f974dce52e7904cb0c88aef99`. The independently reviewed selected-three dwell bound closed as a null with zero improvement. No new generic MIP or alternate candidate is included.
++Prospective protocol27 September2026. Source `src/researchnext_repaired_crossworld_schema2.py`; approved design `REPAIRED_SCHEDULE_CROSSWORLD_PROPOSAL.md`, SHA256 `ad35cb3231b4e1d10e06c18a80f645f39a183c1f974dce52e7904cb0c88aef99`. The independently reviewed selected-three dwell bound closed as a null with zero improvement. No new generic MIP or alternate candidate is included.
+ 
+ ## Fixed question and provenance
+ 

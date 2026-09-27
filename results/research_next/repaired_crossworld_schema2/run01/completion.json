@@ -1,0 +1,17 @@
+{
+  "status": "CLOSED_PENDING_INDEPENDENT_REVIEW",
+  "utc": "2026-09-27T12:03:04.569845+00:00",
+  "call_ledger": {
+    "attempted": 0,
+    "returned": 0
+  },
+  "optimizer_calls": 0,
+  "phase_seconds": 1.2696638999623246,
+  "soft_phase_overrun_seconds": 0,
+  "phase_limit_seconds": 240.0,
+  "candidates": 1,
+  "no_retry_or_ray": true,
+  "all_inputs_unchanged": true,
+  "nominal_feasibility_claim": false,
+  "final_completion_write_outside_sample": true
+}

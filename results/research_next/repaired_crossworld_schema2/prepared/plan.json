@@ -1,0 +1,33 @@
+{
+  "options": {
+    "time_limit": 60.0,
+    "threads": 1,
+    "random_seed": 0,
+    "presolve": "on",
+    "solver": "simplex"
+  },
+  "phase_seconds": 240.0,
+  "start_guard_seconds": 65.0,
+  "runtime": {
+    "executable": "C:\\Users\\gmalkawi\\OneDrive - Higher Colleges of Technology\\Documents 1\\ChatGPT\\3\\.work\\solver_env\\Scripts\\python.exe",
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "packages": {
+      "numpy": "2.3.5",
+      "scipy": "1.18.1",
+      "highspy": "1.12.0"
+    }
+  },
+  "candidates": 1,
+  "maximum_optimizer_calls": 1,
+  "cut_gate_worlds": [
+    "identity",
+    "days_321"
+  ],
+  "gate_scientific_evaluations": 0,
+  "LP_world": "identity",
+  "original_rows": 34681,
+  "original_columns": 23016,
+  "acceptance": "unchanged original full identity/joint/both worlds and native constraints",
+  "no_retry": true,
+  "no_ray": true
+}

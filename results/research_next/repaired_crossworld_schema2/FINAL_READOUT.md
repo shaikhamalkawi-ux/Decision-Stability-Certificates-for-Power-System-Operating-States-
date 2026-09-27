@@ -1,0 +1,13 @@
+# Unchanged repaired schedule: reverse transfer exactly rejected
+
+Independent post-run verification passed. The unchanged repaired days321 U/Y/Z schedule violates the existing identity necessary energy cut by exactly `5078729952530018541959/590295810358705651712`MWh, approximately8.6037032MWh. Its cut value is approximately23203.6037132MWh versus the original expanded cap23195.00001MWh. It therefore cannot serve the identity world under this same cap and model convention, even with a different private dispatch.
+
+The days321 cut is satisfied, with signed excess `-143085518447505100037753/590295810358705651712`MWh, approximately−242.3962968MWh. This is consistent with the already accepted individual days321 point. Both exact evaluations were retained and the consistency check had priority. No new inequality, multiplier selection or additional tau expansion was introduced.
+
+The gate stopped before backend import or construction. There were **zero optimizer calls**, no redispatch point and no new schedule. The single phase took1.2696638999623246seconds, with no overrun. The parent ran the frozen source once; the independent review checked the two saved values and branch/call ledger without optimization. All179 frozen bindings and six run files remained unchanged.
+
+The original identity schedule had already been rejected on days321. Now the repaired days321 schedule is rejected on identity. These two fixed-schedule results, and the earlier union/superset exclusion, do **not** show that no third common commitment exists. The original unrestricted common-binary question remains **UNKNOWN**. No nominal physical-data, optimality, regret or field-experiment claim is made.
+
+Independent source `81e71f6cef1b534368ccb9967435289b0e1b365cf72310f84fe7407d14a42c07`; report `4e21a41047efb191abe7e2b4d3f943cdce3ec8ea6d2fa998a1306013a787e7c2`; memo `982a801e18dc8f3436b08dedc23f6bed56f5b7b0deecbabb7455e67fb274acec`, all under `INDEPENDENT_POSTRUN_REVIEW.*` in this arm. The frozen successful preparation is `6e4565d510fceec0308f97ccf59aeaf41ec787252abd39ba29fad204cda89bcd`.
+
+The original source/protocol, first site-packages launch failure, subsequent archived-map-path failure and25 partial copied payloads remain intact in the separate `repaired_crossworld` archive. The corrected schema2 source changed only the manifest-member lookup and provenance/output paths, with its exact diff retained. Those failures produced no scientific cut or optimizer outcome. The public artifact inventory includes both histories, new prepared/model/proof bindings, source/protocol, gates, exact saved results and independent reviews. This appended readout changes none of the independently snapshotted evidence.

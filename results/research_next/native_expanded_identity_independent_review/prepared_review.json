@@ -1,0 +1,23 @@
+{
+  "status": "PASS_INDEPENDENT_SOURCE_BINDINGS_AND_PREPARED_PROVENANCE",
+  "utc": "2026-09-27T11:50:34.322213+00:00",
+  "elapsed_seconds": 1.8181452000280842,
+  "reviewer_sha256": "c6e864e4fa22cdd9ebb88d5dd133c64356a733a0108fda5fd1cf3d15d12403bc",
+  "source_sha256": "fca0051ebb46cd8128a141e868877b2206bc3b8962b4b83fac43bbea9095129d",
+  "protocol_sha256": "1d5c1f0d5d8ca6282fd185f5c28d7388fa2bcb6f3ba727f3754728697f71a69e",
+  "trusted_transports": {
+    "prepared_freeze.json": "08429d3134097ba8d8a308559e2dc250c207dca4938af3c2754bb9acdfb6f185",
+    "manifest.json": "218037265ef5c242f60ee35e54b018e5d7d2bbc58dad0644dd55dd54398538b9"
+  },
+  "original_bindings": 37,
+  "copied_payloads": 23,
+  "historical_output_roles": 6,
+  "exact_identity_model_bridge": true,
+  "preserved_source_bytes": true,
+  "scientific_run_absent": true,
+  "producer_imports": 0,
+  "scientific_point_replays": 0,
+  "scientific_bound_evaluations": 0,
+  "optimizer_calls": 0,
+  "scope": "Byte/provenance gate only; theory/source are separately read, no scientific arithmetic admission yet"
+}

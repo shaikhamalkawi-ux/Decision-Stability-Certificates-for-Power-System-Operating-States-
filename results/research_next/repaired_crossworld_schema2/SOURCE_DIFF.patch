@@ -1,0 +1,64 @@
+--- src\researchnext_repaired_crossworld.py
++++ src\researchnext_repaired_crossworld_schema2.py
+@@ -15,12 +15,12 @@
+ 
+ sys.dont_write_bytecode=True
+ ROOT=Path(__file__).resolve().parents[1]
+-ARM=ROOT/'results/research_next/repaired_crossworld';PRE=ARM/'prepared';RUN=ARM/'run01'
+-PRIVATE=ROOT/'.work/researchnext_repaired_crossworld/run01'
++ARM=ROOT/'results/research_next/repaired_crossworld_schema2';PRE=ARM/'prepared';RUN=ARM/'run01'
++PRIVATE=ROOT/'.work/researchnext_repaired_crossworld_schema2/run01'
+ ORIGINAL=ROOT/'results/research_next/common_commitment/prepared'
+ REPAIR=ROOT/'results/research_next/day321_local_repair'
+ AFFINE=ROOT/'results/research_next/union_affine_cut_schema2'
+-PROTOCOL=ROOT/'docs/research_next/REPAIRED_CROSSWORLD_PROTOCOL.md'
++PROTOCOL=ROOT/'docs/research_next/REPAIRED_CROSSWORLD_SCHEMA2_PROTOCOL.md'
+ BASE=ROOT/'src/researchnext_common_commitment.py'
+ BASE_SHA='039af59750b4c165d877b9878ac14af02a202700b46739ba96a8914075ae3284'
+ KERNEL=ROOT/'src/research8h_standalone_verify.py'
+@@ -33,6 +33,10 @@
+ WORLD_FILES=('matrix.npz','bounds.npz','integrality.npz','model_metadata.json','native_inputs.npz','permutation.csv','row_metadata.csv.gz','native_spec.json')
+ JOINT_FILES=('matrix.npz','bounds.npz','integrality.npz','column_maps.json','row_origins.json')
+ PINS={
++ 'src/researchnext_repaired_crossworld.py':'c64409480c5649b84620e96bfbb173d1779fca8a5a1c42eef7a2a2c7fedf6aa8',
++ 'docs/research_next/REPAIRED_CROSSWORLD_PROTOCOL.md':'0cb5126e78ebefaa5d259016cde7aa575ebe633be33a0da15d7b17603d10c746',
++ 'results/research_next/repaired_crossworld/failure.json':'b41de7c0f0a5bedef3b78494f4e0abec3a9c2ce7d7aa04c4b81f5299c410f7ce',
++ 'results/research_next/repaired_crossworld/prepared/failure.json':'66642eca1af66d3c224c3e49daa4ade684defcc5d699cb5255275d279bfe11f7',
+  'docs/research_next/REPAIRED_SCHEDULE_CROSSWORLD_PROPOSAL.md':'ad35cb3231b4e1d10e06c18a80f645f39a183c1f974dce52e7904cb0c88aef99',
+  'results/research_next/common_commitment/prepared/prepared_freeze.json':'4f21891d7d1f1793dd92e5b830edf5b5cf62474e5521d788c9aec17929ea9a59',
+  'results/research_next/common_commitment/prepared/input_manifest.json':'8ff99b1f4450ac15e91b26a261a85c98d574bbbdac3f7fe149efd9fd07204a5c',
+@@ -95,6 +99,11 @@
+     need(sha(BASE)==BASE_SHA and sha(KERNEL)==KERNEL_SHA,'Acceptance helper pins')
+     return captured
+ 
++def captured_member_sha(captured,path):
++    key=str(Path(path).resolve()).casefold()
++    need(key in captured,'Required exact archived manifest member is absent: '+str(path))
++    return captured[key][1]['sha256']
++
+ def validate_cut_schema(cut,world):
+     need(cut['status']=='VERIFIED_GLOBAL_EXPANDED_AFFINE_NECESSARY_CUT' and cut['world']==world,'Inherited cut scope')
+     need(fraction(cut['tau'])==TAU and fraction(cut['cap'])==Q(23195)+TAU and cut['new_derived_row_expansion']==0,'Exactly inherited expanded cut')
+@@ -125,7 +134,7 @@
+         for name in ('matrix.npz','bounds.npz','integrality.npz','model_metadata.json'):
+             need(sha(AFFINE/'prepared'/world/name)==sha(PRE/world/name),'Cut original-model relation')
+             relations.append(dict(role='cut_'+world,name=name,sha256=sha(PRE/world/name)))
+-    need(sha(AFFINE/'prepared/column_maps.json')==sha(PRE/'joint/column_maps.json'),'Cut shared coordinate relation')
++    need(captured_member_sha(captured,AFFINE/'prepared/joint/column_maps.json')==sha(PRE/'joint/column_maps.json'),'Cut shared coordinate relation')
+     for name in ('matrix.npz','bounds.npz','integrality.npz','model_metadata.json','native_inputs.npz','native_spec.json'):
+         need(sha(REPAIR/'prepared/model'/name)==sha(PRE/'days_321'/name),'Positive original-model/native relation')
+         relations.append(dict(role='positive_days321',name=name,sha256=sha(PRE/'days_321'/name)))
+@@ -282,6 +291,13 @@
+     for rowwise,arrays in ((True,([0,2,3],[0,2,1],[1.,-2.,3.])),(False,([0,1,2,3],[0,1,0],[1.,3.,-2.]))):
+         toy=Tiny(arrays);need(extract_rows(toy,rowwise,2,3,lambda *a,**k:None)==expected and toy.calls==[1,1,1],'Cached sparse transport')
+     checks.append('CSR and CSC readback with getters forbidden after first access')
++    toy_root=ROOT/'invented_unread_archive';toy_path=toy_root/'prepared/joint/column_maps.json';toy_data=b'invented map'
++    toy={str(toy_path.resolve()).casefold():(toy_data,bind(toy_path,toy_data))}
++    need(captured_member_sha(toy,toy_path)==hashlib.sha256(toy_data).hexdigest(),'Full manifest member name')
++    try:captured_member_sha(toy,toy_root/'prepared/column_maps.json')
++    except ValueError:pass
++    else:raise AssertionError('Undeclared shortened manifest member admitted')
++    checks.append('exact full manifest map member and wrong shortened name rejected')
+     ARM.mkdir(parents=True,exist_ok=True);save(ARM/'synthetic_tests.json',dict(status='PASS',utc=utc(),source_sha256=sha(__file__),protocol_sha256=sha(PROTOCOL),
+         checks=checks,scientific_inputs_read=0,scientific_cut_evaluations=0,optimizer_calls=0,elapsed_seconds=time.perf_counter()-started));print(json.dumps(dict(status='PASS_SYNTHETIC_ONLY',groups=len(checks))),flush=True)
+ 

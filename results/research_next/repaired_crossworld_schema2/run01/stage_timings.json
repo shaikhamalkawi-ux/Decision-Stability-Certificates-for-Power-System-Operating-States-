@@ -1,0 +1,22 @@
+{
+  "stages": [
+    {
+      "stage": "prepared_archive_validated",
+      "elapsed_seconds": 0.7981096999719739,
+      "stage_seconds": 0.7981096999719739,
+      "remaining_seconds": 239.20189030002803
+    },
+    {
+      "stage": "two_fixed_cut_evaluations",
+      "elapsed_seconds": 0.8396615000092424,
+      "stage_seconds": 0.04155180003726855,
+      "remaining_seconds": 239.16033849999076
+    },
+    {
+      "stage": "final_hash_revalidation",
+      "elapsed_seconds": 1.2603137999540195,
+      "stage_seconds": 0.42065229994477704,
+      "remaining_seconds": 238.73968620004598
+    }
+  ]
+}

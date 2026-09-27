@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "utc": "2026-09-27T12:20:25.928239+00:00",
+  "elapsed_seconds": 1.1143938000313938,
+  "reviewer_sha256": "a27b305212058676c22223a97669dc081b5fd1bb994f063bf51e7923127076bc",
+  "source_sha256": "24d7a34f26d9427ce9fa95129053496e20084888d32db9ea1c53d3047b33a991",
+  "protocol_sha256": "6c1e275a0a8a69062bd0fe1fd966adbdedf0bdba894170b82acc1dbdb9f5d4d1",
+  "freeze_sha256": "37dbfd382db1a8bf4a7905d2e486a606d9b94245f75d6d3e7c32a57b5df77756",
+  "manifest_sha256": "c8f40dc622a042e27b9a80f8fed02583881e0228445104ccb39eaaaf26933164",
+  "original_bindings": 69,
+  "copies": 11,
+  "inherited_entries": 60,
+  "copy_bytes_equal": true,
+  "semantic_AST_equal_except_name": true,
+  "invented_fixture_groups_recorded": 9,
+  "run_absent_before_after": true,
+  "producer_imports": 0,
+  "scientific_coordinate_arithmetic": 0,
+  "candidate_reconstructions": 0,
+  "optimizer_calls": 0,
+  "Julia_calls": 0,
+  "scope": "Byte provenance and source/AST admission only; no candidate, row activity or reconstruction evaluated."
+}

@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "utc": "2026-09-27T11:54:38.533183+00:00",
+  "source_sha256": "cf951d0dc5ac69df003b919df1e7d6400b71b25fc7e7e7ec7137b2480fc5b32d",
+  "protocol_sha256": "0b1d513cbfd47474b39d35572478cc092554f8f862ab5aae029eb14f907cfc85",
+  "checks": [
+    "exact affine pass/equality/rejection",
+    "prescribed rather than nearest bits and signed-zero continuous bytes",
+    "private mapping and shared-state mismatch",
+    "CSR and CSC readback with getters forbidden after first access",
+    "exact full manifest map member and wrong shortened name rejected"
+  ],
+  "scientific_inputs_read": 0,
+  "scientific_cut_evaluations": 0,
+  "optimizer_calls": 0,
+  "elapsed_seconds": 0.008681500039529055
+}

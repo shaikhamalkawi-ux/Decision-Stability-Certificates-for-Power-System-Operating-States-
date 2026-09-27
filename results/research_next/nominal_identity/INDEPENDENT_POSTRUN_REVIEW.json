@@ -1,0 +1,378 @@
+{
+  "status": "PASS",
+  "utc": "2026-09-27T12:25:21.830852+00:00",
+  "reviewer_sha256": "b72fbc7cd9f38bd6ff13137b90ed16a6c62d8afdc55a7a0099714b5b924dc0aa",
+  "elapsed_seconds": 0.9604206999647431,
+  "source_sha256": "24d7a34f26d9427ce9fa95129053496e20084888d32db9ea1c53d3047b33a991",
+  "freeze_sha256": "37dbfd382db1a8bf4a7905d2e486a606d9b94245f75d6d3e7c32a57b5df77756",
+  "manifest_sha256": "c8f40dc622a042e27b9a80f8fed02583881e0228445104ccb39eaaaf26933164",
+  "input_bindings": 69,
+  "copies": 11,
+  "producer_outputs": [
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\nominal_identity\\run01\\completion.json",
+      "bytes": 294,
+      "sha256": "f01389f7b6ec1caa005c5b2cf7a324bd7931ec1946a010e1747f992f02e08837"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\nominal_identity\\run01\\construction.json",
+      "bytes": 208674,
+      "sha256": "a79702871657a8d01eacd17369c4bcadd08982566b7ca6ee3f6ad18051262f1f"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\nominal_identity\\run01\\result.json",
+      "bytes": 234,
+      "sha256": "52a24dcbc6376a0ce1eacc4f42c58914af70937ae7afac500bf9b1a80b3f28e1"
+    },
+    {
+      "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\nominal_identity\\run01\\started.json",
+      "bytes": 189,
+      "sha256": "9613e42eb75e2a3d6bdd7d74822e8f96d9695b7d158e32af776907c3b505dcca"
+    }
+  ],
+  "unchanged_after": true,
+  "full_original_bits": 960,
+  "verified_Q": 240,
+  "verified_segments": 960,
+  "assigned_coordinates": 2166,
+  "unset_coordinates": 306,
+  "completed_system_hours": [
+    {
+      "hour_zero_based": 0,
+      "hour_one_based": 1,
+      "C": {
+        "numerator": "1273",
+        "denominator": "68719476736000000",
+        "approximate": 1.8524588085711003e-14
+      },
+      "lower": {
+        "numerator": "0",
+        "denominator": "1",
+        "approximate": 0.0
+      },
+      "upper": {
+        "numerator": "4192089652163697",
+        "denominator": "4398046511104",
+        "approximate": 953.170832
+      },
+      "violation": {
+        "numerator": "0",
+        "denominator": "1",
+        "approximate": 0.0
+      }
+    },
+    {
+      "hour_zero_based": 1,
+      "hour_one_based": 2,
+      "C": {
+        "numerator": "-1201",
+        "denominator": "137438953472000000",
+        "approximate": -8.738425094634295e-15
+      },
+      "lower": {
+        "numerator": "0",
+        "denominator": "1",
+        "approximate": 0.0
+      },
+      "upper": {
+        "numerator": "7936131183534999",
+        "denominator": "8796093022208",
+        "approximate": 902.233658
+      },
+      "violation": {
+        "numerator": "1201",
+        "denominator": "137438953472000000",
+        "approximate": 8.738425094634295e-15
+      }
+    }
+  ],
+  "first_failed_C": {
+    "hour_zero_based": 1,
+    "hour_one_based": 2,
+    "column": 2403,
+    "column_name": "C:system:1",
+    "load": {
+      "numerator": "7936131183534999",
+      "denominator": "8796093022208",
+      "approximate": 902.233658
+    },
+    "total_production": {
+      "numerator": "451116829",
+      "denominator": "500000",
+      "approximate": 902.233658
+    },
+    "C": {
+      "numerator": "-1201",
+      "denominator": "137438953472000000",
+      "approximate": -8.738425094634295e-15
+    },
+    "lower": {
+      "numerator": "0",
+      "denominator": "1",
+      "approximate": 0.0
+    },
+    "upper": {
+      "numerator": "7936131183534999",
+      "denominator": "8796093022208",
+      "approximate": 902.233658
+    },
+    "violation": {
+      "numerator": "1201",
+      "denominator": "137438953472000000",
+      "approximate": 8.738425094634295e-15
+    },
+    "side": "lower",
+    "unit_contributions": [
+      {
+        "unit": "g0",
+        "U": 0,
+        "pmin": {
+          "numerator": "32",
+          "denominator": "1",
+          "approximate": 32.0
+        },
+        "Q": {
+          "numerator": "0",
+          "denominator": "1",
+          "approximate": 0.0
+        },
+        "old_Q": {
+          "numerator": "0",
+          "denominator": "1",
+          "approximate": 0.0
+        },
+        "production": {
+          "numerator": "0",
+          "denominator": "1",
+          "approximate": 0.0
+        }
+      },
+      {
+        "unit": "g1",
+        "U": 0,
+        "pmin": {
+          "numerator": "37",
+          "denominator": "1",
+          "approximate": 37.0
+        },
+        "Q": {
+          "numerator": "0",
+          "denominator": "1",
+          "approximate": 0.0
+        },
+        "old_Q": {
+          "numerator": "0",
+          "denominator": "1",
+          "approximate": 0.0
+        },
+        "production": {
+          "numerator": "0",
+          "denominator": "1",
+          "approximate": 0.0
+        }
+      },
+      {
+        "unit": "g2",
+        "U": 1,
+        "pmin": {
+          "numerator": "48",
+          "denominator": "1",
+          "approximate": 48.0
+        },
+        "Q": {
+          "numerator": "57",
+          "denominator": "1",
+          "approximate": 57.0
+        },
+        "old_Q": {
+          "numerator": "57",
+          "denominator": "1",
+          "approximate": 57.0
+        },
+        "production": {
+          "numerator": "105",
+          "denominator": "1",
+          "approximate": 105.0
+        }
+      },
+      {
+        "unit": "g3",
+        "U": 0,
+        "pmin": {
+          "numerator": "48",
+          "denominator": "1",
+          "approximate": 48.0
+        },
+        "Q": {
+          "numerator": "0",
+          "denominator": "1",
+          "approximate": 0.0
+        },
+        "old_Q": {
+          "numerator": "0",
+          "denominator": "1",
+          "approximate": 0.0
+        },
+        "production": {
+          "numerator": "0",
+          "denominator": "1",
+          "approximate": 0.0
+        }
+      },
+      {
+        "unit": "g4",
+        "U": 1,
+        "pmin": {
+          "numerator": "47",
+          "denominator": "1",
+          "approximate": 47.0
+        },
+        "Q": {
+          "numerator": "55",
+          "denominator": "1",
+          "approximate": 55.0
+        },
+        "old_Q": {
+          "numerator": "3870280929771525",
+          "denominator": "70368744177664",
+          "approximate": 55.00000000000007
+        },
+        "production": {
+          "numerator": "102",
+          "denominator": "1",
+          "approximate": 102.0
+        }
+      },
+      {
+        "unit": "g5",
+        "U": 1,
+        "pmin": {
+          "numerator": "50",
+          "denominator": "1",
+          "approximate": 50.0
+        },
+        "Q": {
+          "numerator": "61702851",
+          "denominator": "1000000",
+          "approximate": 61.702851
+        },
+        "old_Q": {
+          "numerator": "8683904274103015",
+          "denominator": "140737488355328",
+          "approximate": 61.70285099999983
+        },
+        "production": {
+          "numerator": "111702851",
+          "denominator": "1000000",
+          "approximate": 111.702851
+        }
+      },
+      {
+        "unit": "g6",
+        "U": 1,
+        "pmin": {
+          "numerator": "62",
+          "denominator": "1",
+          "approximate": 62.0
+        },
+        "Q": {
+          "numerator": "143937167",
+          "denominator": "1000000",
+          "approximate": 143.937167
+        },
+        "old_Q": {
+          "numerator": "2532169420570175",
+          "denominator": "17592186044416",
+          "approximate": 143.937167
+        },
+        "production": {
+          "numerator": "205937167",
+          "denominator": "1000000",
+          "approximate": 205.937167
+        }
+      },
+      {
+        "unit": "g7",
+        "U": 1,
+        "pmin": {
+          "numerator": "55",
+          "denominator": "1",
+          "approximate": 55.0
+        },
+        "Q": {
+          "numerator": "1638077",
+          "denominator": "1000000",
+          "approximate": 1.638077
+        },
+        "old_Q": {
+          "numerator": "230538842712637",
+          "denominator": "140737488355328",
+          "approximate": 1.6380770000000453
+        },
+        "production": {
+          "numerator": "56638077",
+          "denominator": "1000000",
+          "approximate": 56.638077
+        }
+      },
+      {
+        "unit": "g8",
+        "U": 0,
+        "pmin": {
+          "numerator": "85",
+          "denominator": "1",
+          "approximate": 85.0
+        },
+        "Q": {
+          "numerator": "0",
+          "denominator": "1",
+          "approximate": 0.0
+        },
+        "old_Q": {
+          "numerator": "0",
+          "denominator": "1",
+          "approximate": 0.0
+        },
+        "production": {
+          "numerator": "0",
+          "denominator": "1",
+          "approximate": 0.0
+        }
+      },
+      {
+        "unit": "g9",
+        "U": 1,
+        "pmin": {
+          "numerator": "84",
+          "denominator": "1",
+          "approximate": 84.0
+        },
+        "Q": {
+          "numerator": "236955563",
+          "denominator": "1000000",
+          "approximate": 236.955563
+        },
+        "old_Q": {
+          "numerator": "521070793569417",
+          "denominator": "2199023255552",
+          "approximate": 236.95556299999998
+        },
+        "production": {
+          "numerator": "320955563",
+          "denominator": "1000000",
+          "approximate": 320.955563
+        }
+      }
+    ]
+  },
+  "producer_elapsed_seconds": 1.9645088000106625,
+  "nominal_feasibility": "UNKNOWN",
+  "interpretation": "Only this fixed construction failed; no nominal infeasibility certificate.",
+  "new_candidates": 0,
+  "alternative_denominators": 0,
+  "optimizer_calls": 0,
+  "Julia_calls": 0,
+  "producer_imports": 0,
+  "full_native_point_replay": false,
+  "algorithm_reuse": "Fraction arithmetic and limit_denominator standard library only; independently authored checks of saved partial data."
+}

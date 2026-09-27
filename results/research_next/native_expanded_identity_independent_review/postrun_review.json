@@ -1,0 +1,77 @@
+{
+  "status": "PASS_INDEPENDENT_NATIVE_EXPANDED_POINT_AND_LOWER_REPLAY",
+  "utc": "2026-09-27T12:00:15.560941+00:00",
+  "elapsed_seconds": 1.5347553999745287,
+  "reviewer_sha256": "94c0e0f8462815c75607a1ab6d284d26eed54317d72999fee4f958d825bf5bc0",
+  "prepared_freeze_sha256": "08429d3134097ba8d8a308559e2dc250c207dca4938af3c2754bb9acdfb6f185",
+  "originals_verified_twice": 37,
+  "copies_verified_twice": 23,
+  "producer_outputs_unchanged": {
+    "completion.json": "8c4aab6fb4d5a5a50ea226138817c440879d3cdce7f5c7a743913ac107e650ac",
+    "lifted_rational_point.json": "52aed35a989890adf92c699dccd014b0481b89be6b9e7e1144e09ecd51658107",
+    "native_lower_certificate.json": "f8c53ff207063ef6ee7bc869a582934bb538148a38d0218b617ef1efca64babe",
+    "native_point_check.json": "85e5cdeeeeb37ee9ff4ece9a12ad5ff3e22f6d21a7d1a96f3539d68ea50d75fb",
+    "result.json": "630481bb4b8249539811a76cbf9197cd6ca577c3c131b21a234d6b6cb64b9c0f",
+    "started.json": "611fb62b66fc27fab4a6f3180c90736993f859ba073806c16c4d203c76c2c7a9"
+  },
+  "native_variables": 2712,
+  "retained_candidate_values": 2472,
+  "zero_lift_variables": 240,
+  "native_constraint_records": 8080,
+  "affine_rows": 4384,
+  "variable_constraint_records": 3696,
+  "original_binary_declarations": 960,
+  "raw_affine_term_uses": 15919,
+  "native_expanded_point_accepted": true,
+  "native_strict_nominal_point_accepted": false,
+  "nominal_max_violation": {
+    "numerator": "453",
+    "denominator": "70368744177664",
+    "approximate": 6.437517185986508e-12
+  },
+  "native_encoded_objective": {
+    "numerator": "21513444555664356003273356714053400780148197047959",
+    "denominator": "11150372599265311570767859136324180752990208",
+    "approximate": 1929392.4363641317
+  },
+  "signed_row_multipliers": 4384,
+  "exact_residual_coordinates": 2472,
+  "QR_coordinates": 480,
+  "headroom_pairs_rechecked": 240,
+  "original_expanded_lower": {
+    "numerator": "20345200626766392637354298381451419842143759",
+    "denominator": "10633823966279326983230456482242756608",
+    "approximate": 1913253.4722487966
+  },
+  "additional_QR_upper_support_correction": {
+    "numerator": "-19028708447742701067805971085719535",
+    "denominator": "1329227995784915872903807060280344576",
+    "approximate": -0.014315609141610166
+  },
+  "native_expanded_lower": {
+    "numerator": "20345200474536725055412689839003651156387479",
+    "denominator": "10633823966279326983230456482242756608",
+    "approximate": 1913253.4579331875
+  },
+  "native_expanded_upper": {
+    "numerator": "21513444555664356003273356714053400780148197047959",
+    "denominator": "11150372599265311570767859136324180752990208",
+    "approximate": 1929392.4363641317
+  },
+  "strict_nominal_upper": null,
+  "exact_bracket_width": {
+    "numerator": "179955622876534991568940053430308265188039868055",
+    "denominator": "11150372599265311570767859136324180752990208",
+    "approximate": 16138.978430944282
+  },
+  "producer_elapsed_seconds": 2.098919300013222,
+  "helper_imports": 0,
+  "producer_imports": 0,
+  "optimizer_calls": 0,
+  "Julia_calls": 0,
+  "native_builds": 0,
+  "new_candidates": 0,
+  "independent_arithmetic": "Raw MOI term evaluation and narrow NPY struct decoder; exact signed multipliers plus explicit interval minima",
+  "inherited_nominal_proof": "50191cce91e6a4e8479500bfa0a1740b03d812848ee37620480b3e41ce584080",
+  "scope": "One native-expanded binary identity encoded-cost bracket by nominal correspondence plus containment; no equality, target difference, physical uncertainty or exact optimality claim"
+}

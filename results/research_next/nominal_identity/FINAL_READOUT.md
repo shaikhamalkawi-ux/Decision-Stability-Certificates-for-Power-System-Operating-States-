@@ -1,0 +1,9 @@
+# One exact nominal reconstruction: closed null
+
+The sole declared identity construction did not produce a complete nominal witness. It stopped while forming C:system:1, the second hour, because the proposed curtailment was exactly -1201/137438953472000000 MW, about -8.738425094634295e-15 MW, below its zero lower bound. This is a mathematical rejection of the proposed rational coordinates in the encoded nominal model; it is not evidence of physical infeasibility or of nominal-model emptiness.
+
+All960 existing binary values were retained. The attempt formed exactly240 Q coordinates using the one declared maximum denominator,960 greedy segment values, and two attempted system balances. The retained partial vector has2166 assigned and306 unset coordinates. It did not reach reserve construction or a full native point check. No alternative denominator, clipping, balance correction, second candidate, solver or Julia call was used. The earlier expanded positive remains unchanged and valid only under its declared convention.
+
+Producer arithmetic1.9645088seconds; independently implemented partial-stage replay0.9604207seconds. All69 original bindings,11 copies and four producer run files remained unchanged. Source/prepared review fd80ff4cf677af3df2dd950e9ea8d05fcad6b37e6e5560c7d096c8609847ef1c; independent result73b6c2a87a2459cc7bac9c8f400895b8bd43b2467c6b74ec06efb678d8a5809c; reviewer sourceb72fbc7cd9f38bd6ff13137b90ed16a6c62d8afdc55a7a0099714b5b924dc0aa. Both implementations ran on the same host. Root read the full independent review and accepts this restricted null.
+
+The algorithm is a heuristic rational reconstruction plus exact admission, not a new method. The nominal feasibility and nominal upper remain UNKNOWN/absent. No cost interval, target transfer, regret or minimum-information claim follows from this attempt. No further nominal repair is currently authorized.
