@@ -1,0 +1,43 @@
+{
+  "status": "PASS_SOURCE_AND_PREPARED_PREMISES_ONLY",
+  "utc": "2026-09-27T11:34:46.347130+00:00",
+  "elapsed_seconds": 1.1517093000002205,
+  "reviewer_source_sha256": "6ae62f270013d20827c43481cd36fc6b320278e095b1ea28ad6abdd99ad7daf7",
+  "trusted_bindings": {
+    "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\src\\researchnext_selected_dwell_cover.py": "55ae4f33da561a35ec1c5200eb3862000b1a8f5ccf462152e1bbb42d2f2a9f09",
+    "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\docs\\research_next\\SELECTED_DWELL_COVER_PROTOCOL.md": "7b694b832e4d934c136d7d6c7c47be2501c3610b5286ad660a1fcb10807ce6ea",
+    "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\selected_dwell_cover\\prepared\\prepared_freeze.json": "9cf1f83465a83596c2f837dd122c91463dcdca2f5648780a69afd99228443098",
+    "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\selected_dwell_cover\\prepared\\input_manifest.json": "57951a4d2160230ef917f7745a3d074f9eca4cb445eb43c3345cb6df44d5395c",
+    "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\selected_dwell_cover\\prepared\\admission.json": "c56b5f4951edd08a43f31f7b283b513c43b1af274590f5fe13266cbebe4cb7b8",
+    "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\selected_dwell_cover\\synthetic_tests.json": "47a94bec88acb96d4d057dd8775bc42a1911c62b31f024bb189db0b4edd8f5dc"
+  },
+  "manifest_bindings_rehashed": 101,
+  "byte_identical_copies": 14,
+  "worlds": [
+    {
+      "world": "identity",
+      "selected_temporal_rows": 2004,
+      "selected_state_boxes": 1512,
+      "all_fossil_thermal_rows": 7728,
+      "cap_rows": 1
+    },
+    {
+      "world": "days_321",
+      "selected_temporal_rows": 2004,
+      "selected_state_boxes": 1512,
+      "all_fossil_thermal_rows": 7728,
+      "cap_rows": 1
+    }
+  ],
+  "invented_control_groups_receipt_checked": 11,
+  "controls_rerun": false,
+  "producer_imported": false,
+  "decoder_sha256": "708c3843425eea494a0561e83a275f7059f22bcd546a036705323d056bcf906f",
+  "scientific_dp_runs": 0,
+  "scientific_threshold_queries": 0,
+  "scientific_graph_runs": 0,
+  "model_builds": 0,
+  "optimizer_calls": 0,
+  "inputs_unchanged": true,
+  "bound_or_rejection_claim": false
+}

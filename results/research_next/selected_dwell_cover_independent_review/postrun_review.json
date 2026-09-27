@@ -1,0 +1,60 @@
+{
+  "status": "PASS_INDEPENDENT_FULL_SELECTED_DWELL_REPLAY",
+  "utc": "2026-09-27T11:41:10.455903+00:00",
+  "elapsed_seconds": 3.677694700018037,
+  "reviewer_source_sha256": "24b8a2788798f10670ef57da802e9bf15a6fefa443770be9fb57617e61705f1f",
+  "input_bindings_unchanged": 101,
+  "producer_inventory_files_unchanged": 35,
+  "cover_layers": 21,
+  "cover_initial_cells": 1654,
+  "cover_recurrence_cells": 33080,
+  "suffix_cells": 1654,
+  "conditional_queries": 1344,
+  "state_labels": 3328,
+  "residence_layers": 168,
+  "residence_cells": 559104,
+  "evaluated_transition_count_verified": 787252,
+  "exact_lower": {
+    "numerator": "3298242508400627619418903",
+    "denominator": "73786976294838206464",
+    "approximate": 44699.5211624
+  },
+  "exact_combined_cap": {
+    "numerator": "13691911327173135695046897",
+    "denominator": "295147905179352825856",
+    "approximate": 46390.00002
+  },
+  "exact_floor_minus_cap": {
+    "numerator": "-498941293570625217371285",
+    "denominator": "295147905179352825856",
+    "approximate": -1690.4788575999992
+  },
+  "prior_sum_floor": {
+    "numerator": "3298242508400627619418903",
+    "denominator": "73786976294838206464",
+    "approximate": 44699.5211624
+  },
+  "exact_improvement": {
+    "numerator": "0",
+    "denominator": "1",
+    "approximate": 0.0
+  },
+  "equals_sum_prior_hourly_bounds": true,
+  "original_common_question": "UNKNOWN",
+  "interpretation": "No improvement for this fixed selected-three relaxation; does not prove dwell irrelevant or any common feasible schedule",
+  "producer_imports": 0,
+  "optimizer_calls": 0,
+  "new_cases_or_objectives": 0,
+  "scope": "Verification of saved exact evidence by independent pull recurrences and predecessor rule; no producer rerun or newly selected bound",
+  "trusted_files": {
+    "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\selected_dwell_cover\\prepared\\prepared_freeze.json": "9cf1f83465a83596c2f837dd122c91463dcdca2f5648780a69afd99228443098",
+    "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\selected_dwell_cover\\prepared\\input_manifest.json": "57951a4d2160230ef917f7745a3d074f9eca4cb445eb43c3345cb6df44d5395c",
+    "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\selected_dwell_cover_independent_review\\prepared_review.json": "676bd93ee4e8192dfe273b49a416cbedb2111dcd92d5d757b906d6142e8dab8c",
+    "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\selected_dwell_cover_independent_review\\prepared_review.py": "6ae62f270013d20827c43481cd36fc6b320278e095b1ea28ad6abdd99ad7daf7",
+    "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\selected_dwell_cover\\run01\\result.json": "453193dd721951f8fdf7108a06f4d962bfd644884d5195c829312b41d2a72def",
+    "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\selected_dwell_cover\\run01\\completion.json": "812b82600a7f47fea3309c848fd4bd4b04399f47b81ad8fc1656c5b63c856a2a",
+    "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\selected_dwell_cover\\producer_output_inventory.csv": "33f648f395763c95d371de928c650e11f9e5dc83068c4931169b4c0a66832210",
+    "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_capacity_cover\\run01\\result.json": "a2d34748019ab31b1bf075addedf55493bdebeed8beeb386e4d218c59cb2fdce",
+    "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\common_capacity_cover\\independent_postrun_review.json": "1c070d02efed767475e864d1fdf4dcd83a7a3012fc472590bbc13063c696bb19"
+  }
+}

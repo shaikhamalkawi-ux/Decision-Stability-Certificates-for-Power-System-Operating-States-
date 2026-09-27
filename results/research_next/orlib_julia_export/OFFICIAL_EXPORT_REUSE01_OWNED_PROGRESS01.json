@@ -1,0 +1,24 @@
+{
+  "source": "Owned process descendants only; no scientific calls",
+  "rows": [
+    {
+      "pid": 58756,
+      "name": "julia",
+      "cpu_seconds": 0.3125,
+      "working_set_bytes": 80072704,
+      "children": [
+        35456,
+        75460
+      ]
+    },
+    {
+      "pid": 75460,
+      "name": "julia",
+      "cpu_seconds": 0.515625,
+      "working_set_bytes": 406659072,
+      "children": []
+    }
+  ],
+  "utc": "2026-09-27T11:13:11.7706124Z",
+  "known_root_pid": 58756
+}

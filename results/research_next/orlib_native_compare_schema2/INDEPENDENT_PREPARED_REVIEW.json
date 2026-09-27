@@ -1,0 +1,30 @@
+{
+  "status": "PASS_INDEPENDENT_SCHEMA2_SOURCE_AND_PREPARED_GATE",
+  "utc": "2026-09-27T11:31:02.081453+00:00",
+  "source_sha256": "e9f1065fbd47e9d5b7a67afad92fc6a18816cade310b87c8f1c66a49814c389f",
+  "protocol_sha256": "f4ac9b47e6b653c7dfc5a42b6a6c98831204a83c51604355f7676bab87fea775",
+  "manifest_sha256": "ea2a05148c0d0b23b2c59faea9f0afcfd4a3b386e6e738adb97ca1b4610ab829",
+  "reviewer_source_sha256": "b2ee36cc5b77175b68784e4239add3d023539cc9494fd7a3d06f2fbdd59ebc26",
+  "descriptors_verified_twice": 16,
+  "exact_old_payload_relations": 5,
+  "changed_functions": [
+    "alias_name",
+    "prepare",
+    "self_test"
+  ],
+  "scientific_comparison_functions_ast_unchanged": true,
+  "synthetic_receipt_checks": 10,
+  "old_run_snapshot": {
+    "started.json": "d019b4e4dafe6c73d98465ef8da579e77eb9ad09fc8aa3999c501a1f055451b6",
+    "failure.json": "819f59c1b1918bf4672a4efc39f92e767c9601ec5492e824b2edbe36b08a673c"
+  },
+  "scientific_payloads_parsed": 0,
+  "producer_imports": 0,
+  "comparison_runs": 0,
+  "Julia_calls": 0,
+  "optimizer_calls": 0,
+  "run_absent_at_entry_and_close": true,
+  "nominal_equivalence": "NOT_ESTABLISHED",
+  "expanded_equivalence": "NOT_ESTABLISHED",
+  "elapsed_seconds": 0.2927517000352964
+}

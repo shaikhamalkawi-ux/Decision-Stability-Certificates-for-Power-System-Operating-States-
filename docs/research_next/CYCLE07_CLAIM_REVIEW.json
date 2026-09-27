@@ -1,0 +1,13 @@
+{
+  "utc": "2026-09-27T11:47:04.150Z",
+  "reviewer": "/root/find_deposit",
+  "reviewed_draft_sha256": "02dfe2ac84b4c9f977fd2e78bb3b365e19caeb743618a1898c000ad2eb11b855",
+  "closed_native_proof": "50191cce91e6a4e8479500bfa0a1740b03d812848ee37620480b3e41ce584080",
+  "closed_dwell_proof": "8eaa8fdc9e00e417f8d4b16eba1c0d967f8310fe2f3d2ade2989e197255d51f4",
+  "corrections_applied": [
+    "Use proved lower bound instead of wording suggesting full optimum",
+    "Distinguish feasible witnesses from negative certificates"
+  ],
+  "corrected_report_sha256": "d0a87e1b026245c98318442b756acdd5e7b50c096b4df0ddb38f97fedf654de5",
+  "other_counts_timings_and_scope": "PASS"
+}

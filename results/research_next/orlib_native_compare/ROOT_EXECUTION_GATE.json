@@ -1,0 +1,12 @@
+{
+  "utc": "2026-09-27T11:25:58.797Z",
+  "status": "ONE_COMPARISON_AUTHORIZED",
+  "prepared_manifest_sha256": "fe20e2535ad3f36e669dbafb1ff9d588d791f0e8c04bbedfa0557bc1830d8b29",
+  "source_sha256": "83ee49f623b9bb9b90a27ecbf808e305369ae02046add59a643afb002c0db507",
+  "source_review": "Independent full source review PASS plus parent read",
+  "independent_prepared_review_sha256": "3c976286ab5b3daf41958f08533052105985d9ee1016c63f03a8964708f55a1a",
+  "limit_seconds": 120,
+  "Julia_builds": 0,
+  "optimizer_calls": 0,
+  "retuning_or_retry": false
+}

@@ -1,0 +1,13 @@
+{
+  "utc": "2026-09-27T11:32:12.284Z",
+  "status": "ONE_SEPARATE_SCHEMA2_COMPARISON_AUTHORIZED",
+  "manifest_sha256": "ea2a05148c0d0b23b2c59faea9f0afcfd4a3b386e6e738adb97ca1b4610ab829",
+  "source_sha256": "e9f1065fbd47e9d5b7a67afad92fc6a18816cade310b87c8f1c66a49814c389f",
+  "independent_source_and_prepared_gate_sha256": "d377045ca56ced34c1441b573d994627aaa7421c2aca6533ddc0a7f8a780c6d0",
+  "original_failure_preserved": true,
+  "scientific_functions_unchanged": true,
+  "limit_seconds": 120,
+  "new_Julia_builds": 0,
+  "optimizer_calls": 0,
+  "automatic_retry": false
+}

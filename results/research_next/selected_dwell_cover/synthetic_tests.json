@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "utc": "2026-09-27T11:28:36.034749+00:00",
+  "source_sha256": "55ae4f33da561a35ec1c5200eb3862000b1a8f5ccf462152e1bbb42d2f2a9f09",
+  "protocol_sha256": "7b694b832e4d934c136d7d6c7c47be2501c3610b5286ad660a1fcb10807ce6ea",
+  "checks": [
+    "exhaustive binary sequences h1..7 (1, 1)",
+    "exhaustive binary sequences h1..7 (2, 1)",
+    "exhaustive binary sequences h1..7 (1, 3)",
+    "exhaustive binary sequences h1..7 (3, 2)",
+    "exhaustive cover and rational threshold [2, 3, 4]",
+    "exhaustive cover and rational threshold [0, 2, 2]",
+    "two-unit full-state recurrence h1..5 versus exhaustive original-row sequences",
+    "empty graph",
+    "dyadic exact scaling/unsupported denominators",
+    "signed ceiling/strict equality",
+    "integral tau premise"
+  ],
+  "scientific_inputs_read": 0,
+  "scientific_dp_runs": 0,
+  "optimizer_calls": 0,
+  "elapsed_seconds": 0.023475299996789545
+}

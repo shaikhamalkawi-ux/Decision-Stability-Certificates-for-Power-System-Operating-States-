@@ -1,0 +1,13 @@
+{
+  "utc": "2026-09-27T11:35:24.639Z",
+  "status": "ONE_FROZEN_SELECTED_DWELL_RUN_AUTHORIZED",
+  "freeze_sha256": "9cf1f83465a83596c2f837dd122c91463dcdca2f5648780a69afd99228443098",
+  "parent_source_review_sha256": "3adf6a74b6c0acf2453ccc0fffc997df4d5a2452a5949940cf007ace9ca9aaef",
+  "independent_prepared_review_sha256": "676bd93ee4e8192dfe273b49a416cbedb2111dcd92d5d757b906d6142e8dab8c",
+  "limit_seconds": 300,
+  "maximum_cells": 600000,
+  "maximum_transitions": 5000000,
+  "maximum_denominator_bits": 256,
+  "optimizer_calls": 0,
+  "automatic_retry": false
+}

@@ -1,0 +1,24 @@
+{
+  "status": "PREPARED_NO_SCIENTIFIC_DP",
+  "utc": "2026-09-27T11:29:03.123538+00:00",
+  "source_sha256": "55ae4f33da561a35ec1c5200eb3862000b1a8f5ccf462152e1bbb42d2f2a9f09",
+  "protocol_sha256": "7b694b832e4d934c136d7d6c7c47be2501c3610b5286ad660a1fcb10807ce6ea",
+  "input_manifest": {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\selected_dwell_cover\\prepared\\input_manifest.json",
+    "bytes": 28376,
+    "sha256": "57951a4d2160230ef917f7745a3d074f9eca4cb445eb43c3345cb6df44d5395c"
+  },
+  "admission": {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research_next\\selected_dwell_cover\\prepared\\admission.json",
+    "bytes": 2780669,
+    "sha256": "c56b5f4951edd08a43f31f7b283b513c43b1af274590f5fe13266cbebe4cb7b8"
+  },
+  "bindings": 101,
+  "copies": 14,
+  "selected_temporal_rows_per_world": 2004,
+  "selected_state_boxes_per_world": 1512,
+  "elapsed_seconds": 2.330407700035721,
+  "scientific_dp_runs": 0,
+  "scientific_threshold_queries": 0,
+  "optimizer_calls": 0
+}

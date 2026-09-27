@@ -1,0 +1,9 @@
+# Reuse native-export independent source review
+
+Status: SOURCE_ONLY_PASS after a pre-freeze timing correction. Reviewer `/root/find_deposit/gb_docs` returned this completed review; no independent mathematical/native execution is claimed.
+
+Reviewed exporter SHA256 `969f7cf9780c940185ee48ba505c6b8da7a94c4bb86f700c56c4136eb8e01320`; launcher `da982ca456ed4ed83f0050c8c92c9d10460dcff46b60ef27c5233f262a601fbb`; protocol `bf16b49f9fe4ed7dd17b6a85f6653f1665676b200e6a79c86ec156d59dfc36eb`. The source preserves all original mathematical helpers and native read/build/export calls. PackageInfo fields were checked against the installed pinned Julia1.6.7 Types/Operations sources. The two-depot/receipt/Project/Manifest/inventory/native-source guards and physical launcher admission are consistent. Scientific imports precede exporter main, so the external prelaunch guard remains essential.
+
+The first launcher draft checked600s before final input/output/log hashing and omitted some closure time from elapsed. The reviewer reported that defect; the owner corrected it before preparation. Final admission and elapsed now follow all expensive hashes, late success becomes failure, and the completion receipt write alone is explicitly excluded. Native subphase duration must be between0 and120s. Owned-process cleanup spans the complete post-Popen region; it is best-effort cleanup, not OS isolation.
+
+The owner subsequently ran the separately authorized preparation once: exit0 in2.47s,433bindings, prepared SHA256 `348efe5b5a98baacb082b4bd11bd58974f50517b4ac02d9d2a78c7928c70bd5b`. The child reviewer did not execute preparation or independently replay those433bindings. It performed no source imports, Julia, scientific build, solver, network or file edits. Root source/prepared review and explicit execution GO remain required before launch. At preparation closure the native output, launcher output and private launcher directories were all absent.

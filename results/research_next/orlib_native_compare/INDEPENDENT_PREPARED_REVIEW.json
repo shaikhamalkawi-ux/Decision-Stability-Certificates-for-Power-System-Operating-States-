@@ -1,0 +1,23 @@
+{
+  "status": "PASS_INDEPENDENT_PREPARED_BYTE_GATE",
+  "utc": "2026-09-27T11:22:23.492884+00:00",
+  "reviewer_source_sha256": "46fd0608db9e63ecd74d47ec83c355e751caa4edf7d7e4f5ee185774a014f47b",
+  "manifest_sha256": "fe20e2535ad3f36e669dbafb1ff9d588d791f0e8c04bbedfa0557bc1830d8b29",
+  "comparator_source_sha256": "83ee49f623b9bb9b90a27ecbf808e305369ae02046add59a643afb002c0db507",
+  "protocol_sha256": "d0667b109ef0ceb50022726a68675b67c3b46f438e764d76402dcd3267701ba9",
+  "original_descriptors": 7,
+  "captured_copies": 5,
+  "descriptors_checked_at_entry_and_close": 12,
+  "exact_payload_byte_relations": 5,
+  "official_export_receipt_sha256": "5328052ad2d29636013efea6fcf70e90853336cb8fceac81b4e5bbc1a4a1a75c",
+  "official_read_attempts": 1,
+  "official_build_attempts": 1,
+  "scientific_coefficient_payloads_parsed": 0,
+  "comparison_runs": 0,
+  "producer_imports": 0,
+  "Julia_calls": 0,
+  "optimizer_calls": 0,
+  "run_absent_at_entry_and_close": true,
+  "verdict_scope": "Prepared bytes/receipt/source roles only; no native coefficient equivalence claim",
+  "elapsed_seconds": 0.17240349994972348
+}

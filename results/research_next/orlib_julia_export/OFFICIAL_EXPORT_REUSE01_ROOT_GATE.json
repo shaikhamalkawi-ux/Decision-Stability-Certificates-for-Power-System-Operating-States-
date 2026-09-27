@@ -1,0 +1,11 @@
+{
+  "status": "ROOT_FULL_SOURCE_AND_PREPARED_PASS_ONE_NATIVE_EXPORT_GO",
+  "utc": "2026-09-27T11:08:02.755Z",
+  "prepared_sha256": "348efe5b5a98baacb082b4bd11bd58974f50517b4ac02d9d2a78c7928c70bd5b",
+  "all_433_frozen_bindings_rehashed": true,
+  "exporter_sha256": "969f7cf9780c940185ee48ba505c6b8da7a94c4bb86f700c56c4136eb8e01320",
+  "launcher_sha256": "da982ca456ed4ed83f0050c8c92c9d10460dcff46b60ef27c5233f262a601fbb",
+  "protocol_sha256": "bf16b49f9fe4ed7dd17b6a85f6653f1665676b200e6a79c86ec156d59dfc36eb",
+  "source_review": "Full exporter and launcher/protocol read; final marker/deadline deltas read; actual installed UC structs/build/jumpext inspected. Exact semantic/raw backend export with duplicate rows. Zero optimizer.",
+  "scope": "Exactly one offline native identity read/build/raw export;600s overall including hashes,120s native subphase; final receipt write excluded. No retry or claim of comparison/equivalence."
+}
