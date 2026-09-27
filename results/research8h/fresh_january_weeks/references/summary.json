@@ -1,0 +1,108 @@
+[
+  {
+    "verdict": "VERIFIED_REFERENCE_EXPANDED_MODEL",
+    "model_status": "Time limit reached",
+    "run_status": "HighsStatus.kWarning",
+    "elapsed_s": 600.3705776999996,
+    "optimization_calls": 1,
+    "solver_version": "1.12.0",
+    "solver_options": {
+      "time_limit": 600.0,
+      "threads": 1,
+      "random_seed": 0,
+      "presolve": "on",
+      "mip_rel_gap": 1e-08,
+      "log_to_console": false,
+      "log_file": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\fresh_january_weeks\\references\\week_2\\solver.log"
+    },
+    "solution_value_valid": true,
+    "solver_objective_MWh": 26269.05353649975,
+    "numerical_lower_bound_MWh": 25880.647222005326,
+    "mip_relative_gap": 0.014785698843498441,
+    "mip_node_count": 1023,
+    "exact_optimality_claim": false,
+    "raw_matrix_check": {
+      "pass": true,
+      "tolerance": 1e-05,
+      "residuals": {
+        "column_lower": 6.160405519040069e-11,
+        "column_upper": 2.2936319510336034e-11,
+        "row_lower": 4.099831585335778e-11,
+        "row_upper": 7.711165039836487e-11
+      }
+    },
+    "eligible_for_recovery": true,
+    "recovered_matrix_check": {
+      "pass": true,
+      "tolerance": 1e-05,
+      "residuals": {
+        "column_lower": 6.160405519040069e-11,
+        "column_upper": 2.2936319510336034e-11,
+        "row_lower": 4.099831585335778e-11,
+        "row_upper": 7.711165039836487e-11
+      }
+    },
+    "native_no_cap_pass": true,
+    "exact_expanded_pass": true,
+    "exact_strict_pass": false,
+    "fossil_energy": {
+      "numerator": "16259756583482128080663775801439",
+      "denominator": "618970019642690137449562112",
+      "float": 26269.05353649975
+    },
+    "week": 2
+  },
+  {
+    "verdict": "VERIFIED_REFERENCE_EXPANDED_MODEL",
+    "model_status": "Time limit reached",
+    "run_status": "HighsStatus.kWarning",
+    "elapsed_s": 600.3401202000096,
+    "optimization_calls": 1,
+    "solver_version": "1.12.0",
+    "solver_options": {
+      "time_limit": 600.0,
+      "threads": 1,
+      "random_seed": 0,
+      "presolve": "on",
+      "mip_rel_gap": 1e-08,
+      "log_to_console": false,
+      "log_file": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\fresh_january_weeks\\references\\week_3\\solver.log"
+    },
+    "solution_value_valid": true,
+    "solver_objective_MWh": 47840.28339873613,
+    "numerical_lower_bound_MWh": 47469.07509248424,
+    "mip_relative_gap": 0.007759324984719601,
+    "mip_node_count": 589,
+    "exact_optimality_claim": false,
+    "raw_matrix_check": {
+      "pass": true,
+      "tolerance": 1e-05,
+      "residuals": {
+        "column_lower": 0.0,
+        "column_upper": 0.0,
+        "row_lower": 4.177991286269389e-12,
+        "row_upper": 4.220623850414995e-12
+      }
+    },
+    "eligible_for_recovery": true,
+    "recovered_matrix_check": {
+      "pass": true,
+      "tolerance": 1e-05,
+      "residuals": {
+        "column_lower": 0.0,
+        "column_upper": 0.0,
+        "row_lower": 4.177991286269389e-12,
+        "row_upper": 4.220623850414995e-12
+      }
+    },
+    "native_no_cap_pass": true,
+    "exact_expanded_pass": true,
+    "exact_strict_pass": false,
+    "fossil_energy": {
+      "numerator": "1683230331936304381",
+      "denominator": "35184372088832",
+      "float": 47840.28339873613
+    },
+    "week": 3
+  }
+]

@@ -1,0 +1,32 @@
+{
+  "model_status": "Optimal",
+  "run_status": "HighsStatus.kOk",
+  "elapsed_s": 4.879603999987012,
+  "time_limit_s": 30,
+  "verdict": "NUMERICAL_CONTINUOUS_FEASIBLE_BINARY_UNKNOWN",
+  "solver_version": "1.12.0",
+  "solver_options": {
+    "time_limit": 30.0,
+    "threads": 1,
+    "random_seed": 0,
+    "presolve": "off",
+    "log_to_console": false,
+    "log_file": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\fresh_january_weeks\\targets\\seed_26093211\\lp\\solver.log",
+    "solver": "simplex"
+  },
+  "optimization_calls": 1,
+  "solution_value_valid": true,
+  "returned_vector_check": {
+    "pass": true,
+    "tolerance": 1e-05,
+    "residuals": {
+      "column_lower": 7.815970093361102e-14,
+      "column_upper": 7.105427357601002e-15,
+      "row_lower": 7.560174708487466e-12,
+      "row_upper": 5.051958851254312e-12
+    }
+  },
+  "fractional_state_coordinates": 304,
+  "matrix_sha256": "2f11940f72432a2a2e89e4a88115eba3cf24a8e82a8110e250c6191020c1f0bb",
+  "bounds_sha256": "921740becef004e963854e66f5833476653ef2179836556d0bce108ff27a47a9"
+}

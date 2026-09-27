@@ -1,0 +1,15 @@
+# Fresh January reference archive: independent prepared gate
+
+**Verdict: PASS for both frozen references.** No reference/target solver call was run by this reviewer. The exclusive execution marker and result/solver-log files were absent throughout replay. Reference execution now requires root GO; the later target stage retains its own separate gate.
+
+The archive froze at 00:02:19 UTC on September 27, 2026. All 48 frozen source/protocol/native/model bindings matched before and after. Manifest SHA-256 is df48d8f6f60f51e43afa21ba4fcbd1438f274b86fb4a29e8fccbae3ae845fe26; source and protocol remain the versions approved in FRESH_JANUARY_WEEKS_CODE_REVIEW.md.
+
+Independent replay results/research8h/fresh_january_reference_prepared_review.py (SHA-256 d4fc9e15643115eccbbedfe99b7ed71ff3c6e4da6b5d1db943723340ed15230d) ran once, exit zero, in 2.838 seconds. It uses stdlib CSV parsing and the reviewed stdlib NPZ decoder/projection checker. It imports no producer native assembler or optimizer. Detailed evidence is references/independent_prepared_review.json.
+
+For January 8--14 (native rows 168--335) and January 15--21 (336--503), the reviewer independently reads all five native time-series tables and their calendars, raw generator/bus rosters, thermal bounds, renewable/hydro availability and rooftop-PV placement. Native pmin, pmax, net demand and nodal-demand snapshots all reproduce with **zero observed binary64 numeric differences** for both weeks. The adapter comparison allows up to 1e-9 for independent parser/reduction rounding, but none was needed. All 168 saved timestamps and source rows per week match exactly. Native fossil membership and the analytical on/on ramp redundancy also pass.
+
+Both archived 34680 x 23016 matrices exactly match the established uncapped reference coefficient template. Every aggregate/nodal equality bound is independently matched to the new week's native array; all other row bounds and all state/angle boxes match the established template. Dispatch upper boxes equal native availability, hydro lower boxes equal fixed hydro, and other dispatch lower boxes are zero. No mean or cap row remains. The 3864 objective coefficients are exactly one on the 168 x 23 native fossil coordinates and zero elsewhere.
+
+Original U/Y/Z integrality has 12096 entries; the solve mask has 4032 U entries. Independent actual-row checks cover all 4008 transition, 4008 exclusivity, 4008 minimum-up and 4008 minimum-down rows in each model, original state boxes, fixed initial Y/Z, and absence of auxiliary variables from other rows. The original mask remains authoritative for post-run point acceptance. The five producer synthetic guard/control tests are archived and all report PASS with zero optimizer/native models.
+
+This is an archive/model correctness gate, not evidence that either week is feasible, optimal or a negative example. It uses the previously audited network coefficient template, so it does not independently rederive every branch susceptance from raw lines. The new hourly native snapshots are independently reproduced. All previous week/season results and UNKNOWN records remain unchanged.

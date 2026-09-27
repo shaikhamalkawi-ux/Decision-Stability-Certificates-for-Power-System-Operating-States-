@@ -1,0 +1,103 @@
+{
+  "status": "CERTIFIED_EXPANDED_INFEASIBLE",
+  "strict_pass": true,
+  "expanded_pass": true,
+  "tau": {
+    "numerator": "5902958103587057",
+    "denominator": "590295810358705651712",
+    "float": 1e-05
+  },
+  "row_multiplier_nonzeros": 1706,
+  "combined_column_nonzeros": 5576,
+  "beta": {
+    "numerator": "12534835661613196330148305988786363695",
+    "denominator": "2535301200456458802993406410752",
+    "float": 4944120.9034084035
+  },
+  "box_maximum": {
+    "numerator": "27421918028622874246102262053282090759480263453705",
+    "denominator": "5575186299632655785383929568162090376495104",
+    "float": 4918565.327660832
+  },
+  "separation_gap": {
+    "numerator": "142477095787084583985004789156757138522536530935",
+    "denominator": "5575186299632655785383929568162090376495104",
+    "float": 25555.57574757139
+  },
+  "expanded_beta": {
+    "numerator": "1849805548230260565153353875118385505272021319023716300301",
+    "denominator": "374144419156711147060143317175368453031918731001856",
+    "float": 4944094.989842587
+  },
+  "expanded_box_maximum": {
+    "numerator": "460070115316486526381604001348769731821924330915427428451",
+    "denominator": "93536104789177786765035829293842113257979682750464",
+    "float": 4918636.673543809
+  },
+  "expanded_separation_gap": {
+    "numerator": "9525086964314459626937869723306577984323995362006586497",
+    "denominator": "374144419156711147060143317175368453031918731001856",
+    "float": 25458.31629877889
+  },
+  "norm_formula_gap": {
+    "numerator": "9525086964314459626937869723306577984323995362006586497",
+    "denominator": "374144419156711147060143317175368453031918731001856",
+    "float": 25458.31629877889
+  },
+  "row_multiplier_l1": {
+    "numerator": "1642467363024412543232397730974417187",
+    "denominator": "633825300114114700748351602688",
+    "float": 2591356.5815828126
+  },
+  "combined_column_l1": {
+    "numerator": "1130520642239925762949523708311226003",
+    "denominator": "158456325028528675187087900672",
+    "float": 7134588.29766742
+  },
+  "independent_widened_endpoint_identity": true,
+  "bindings": {
+    "verified_files": [
+      {
+        "path": "results\\research8h\\hour_of_day\\seed_26093201\\lp\\matrix.npz",
+        "sha256": "2f11940f72432a2a2e89e4a88115eba3cf24a8e82a8110e250c6191020c1f0bb",
+        "bytes": 199281
+      },
+      {
+        "path": "results\\research8h\\hour_of_day\\seed_26093201\\lp\\bounds.npz",
+        "sha256": "c219e6b64e8a7d89fa23fbf229c04cbd74e8316355259a0ef06b5b4625c01a26",
+        "bytes": 52786
+      },
+      {
+        "path": "results\\research8h\\hour_of_day\\seed_26093201\\lp\\row_metadata.csv.gz",
+        "sha256": "239bdf757bc9c41b3fb943845443d3100bb3f29bc90590721b1c7495d46ceea6",
+        "bytes": 147013
+      },
+      {
+        "path": "results\\research8h\\hour_of_day\\seed_26093201\\lp\\raw_solver_ray.npz",
+        "sha256": "3d53299bf5ef85c7b47b6c2d19398002fb8506bb9015b41c8ac911bcd442c2d9",
+        "bytes": 6331
+      }
+    ],
+    "manifest": null,
+    "unverified_manifest_digest_without_supplied_manifest": "078082667f83322d3540ad3ac215ebcc996d0d31b04fd52bfa75c1d2fd814fcc"
+  },
+  "archived_gap_claim_comparison": {
+    "exact_gap": true,
+    "exact_robust_gap": true
+  },
+  "dimensions": {
+    "rows": 34681,
+    "columns": 23016,
+    "nonzeros": 145588
+  },
+  "input_hashes": {
+    "results\\research8h\\hour_of_day\\seed_26093201\\lp\\matrix.npz": "2f11940f72432a2a2e89e4a88115eba3cf24a8e82a8110e250c6191020c1f0bb",
+    "results\\research8h\\hour_of_day\\seed_26093201\\lp\\bounds.npz": "c219e6b64e8a7d89fa23fbf229c04cbd74e8316355259a0ef06b5b4625c01a26",
+    "results\\research8h\\hour_of_day\\seed_26093201\\lp\\dual_certificate.json": "638cedc44dba9fd2a4d880e80bb65ad2f946dca910277d98a1f31c08292601d4"
+  },
+  "scope": "Exact archived binary64 linear model; uniform outward expansion of every finite row/column bound. Binary coordinates remain exact. No native physical-data or field validation.",
+  "elapsed_s": 0.9289838999975473,
+  "verifier_sha256": "708c3843425eea494a0561e83a275f7059f22bcd546a036705323d056bcf906f",
+  "python_version": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "optimization_calls": 0
+}

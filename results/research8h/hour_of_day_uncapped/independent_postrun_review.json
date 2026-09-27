@@ -1,0 +1,284 @@
+{
+  "status": "INDEPENDENT_HOD_UNCAPPED_POSTRUN_PASS",
+  "optimizer_calls": 0,
+  "manifest_sha256": "b0ffca41db74d7278c001c776ae3b8656272994d083c8fc215ecbbf665020f8a",
+  "frozen_bindings": 92,
+  "all_frozen_and_replayed_hashes_unchanged": true,
+  "cases": [
+    {
+      "case": "seed_26093200",
+      "MIP_verdict": "VERIFIED_UNCAPPED_BINARY_WITNESS_EXPANDED_MODEL",
+      "LP_model_status": "Optimal",
+      "exact_optimality_claim": false,
+      "original_binary_coordinates": 12096,
+      "P_theta_bytes_preserved": true,
+      "canonical_YZ_exact": true,
+      "recovered_point": {
+        "binary_exact": true,
+        "binary_count": 12096,
+        "full_expanded_pass": true,
+        "full_strict_pass": false,
+        "static_expanded_pass": true,
+        "maximum_column_violation": {
+          "numerator": "24295",
+          "denominator": "562949953421312",
+          "float": 4.3156589413229085e-11
+        },
+        "maximum_row_violation": {
+          "numerator": "373915156003952800473",
+          "denominator": "5070602400912917605986812821504",
+          "float": 7.374176211028351e-11
+        },
+        "static_maximum_row_violation": {
+          "numerator": "373915156003952800473",
+          "denominator": "5070602400912917605986812821504",
+          "float": 7.374176211028351e-11
+        },
+        "failed_expanded_rows": [],
+        "integer_scale_exponent": 69
+      },
+      "raw_expanded_continuous_point": true,
+      "verified_upper_MWh": {
+        "numerator": "862968066750134879659",
+        "denominator": "36028797018963968",
+        "float": 23952.17543055647
+      },
+      "exact_dual_bound": {
+        "nominal_lower_bound_MWh": {
+          "numerator": "33587392341022158880700646578105145513011881981381",
+          "denominator": "1427247692705959881058285969449495136382746624",
+          "float": 23532.980654074738
+        },
+        "expanded_lower_bound_MWh": {
+          "numerator": "70432860081948971065822225642137428808286439790080830543",
+          "denominator": "2993155353253689176481146537402947624255349848014848",
+          "float": 23531.307857236814
+        },
+        "row_term": {
+          "numerator": "3606445937057360253438013037102868185",
+          "denominator": "40564819207303340847894502572032",
+          "float": 88905.75645430342
+        },
+        "finite_box_term": {
+          "numerator": "-93303143426660395094956109093577545086914924628539",
+          "denominator": "1427247692705959881058285969449495136382746624",
+          "float": -65372.77580022868
+        },
+        "row_dual_l1": {
+          "numerator": "52204801020770645549371",
+          "denominator": "1152921504606846976",
+          "float": 45280.44694471441
+        },
+        "stationarity_residual_l1": {
+          "numerator": "618609623268301894071311711613949633",
+          "denominator": "5070602400912917605986812821504",
+          "float": 121999.23684746544
+        }
+      },
+      "invalid_endpoint_projection_checked": true,
+      "projected_entries": 0,
+      "exact_bracket_arithmetic": true,
+      "exact_lower_MWh": {
+        "numerator": "70432860081948971065822225642137428808286439790080830543",
+        "denominator": "2993155353253689176481146537402947624255349848014848",
+        "float": 23531.307857236814
+      },
+      "finite_binary_upper_verified": true
+    },
+    {
+      "case": "seed_26093201",
+      "MIP_verdict": "VERIFIED_UNCAPPED_BINARY_WITNESS_EXPANDED_MODEL",
+      "LP_model_status": "Optimal",
+      "exact_optimality_claim": false,
+      "original_binary_coordinates": 12096,
+      "P_theta_bytes_preserved": true,
+      "canonical_YZ_exact": true,
+      "recovered_point": {
+        "binary_exact": true,
+        "binary_count": 12096,
+        "full_expanded_pass": true,
+        "full_strict_pass": false,
+        "static_expanded_pass": true,
+        "maximum_column_violation": {
+          "numerator": "32387",
+          "denominator": "281474976710656",
+          "float": 1.1506173791531182e-10
+        },
+        "maximum_row_violation": {
+          "numerator": "32387",
+          "denominator": "281474976710656",
+          "float": 1.1506173791531182e-10
+        },
+        "static_maximum_row_violation": {
+          "numerator": "32387",
+          "denominator": "281474976710656",
+          "float": 1.1506173791531182e-10
+        },
+        "failed_expanded_rows": [],
+        "integer_scale_exponent": 69
+      },
+      "raw_expanded_continuous_point": true,
+      "verified_upper_MWh": {
+        "numerator": "432792302999982809161",
+        "denominator": "18014398509481984",
+        "float": 24024.798983556408
+      },
+      "exact_dual_bound": {
+        "nominal_lower_bound_MWh": {
+          "numerator": "4250500893595632727583631909746773728751301957791",
+          "denominator": "178405961588244985132285746181186892047843328",
+          "float": 23824.881499227293
+        },
+        "expanded_lower_bound_MWh": {
+          "numerator": "1114158262530646718016528754594108697234904847543585957",
+          "denominator": "46768052394588893382517914646921056628989841375232",
+          "float": 23823.063084396388
+        },
+        "row_term": {
+          "numerator": "1789582628677569225539351403908049659",
+          "denominator": "20282409603651670423947251286016",
+          "float": 88233.23577664907
+        },
+        "finite_box_term": {
+          "numerator": "-11490834379179784211869935559486910498420951869281",
+          "denominator": "178405961588244985132285746181186892047843328",
+          "float": -64408.35427742178
+        },
+        "row_dual_l1": {
+          "numerator": "4188021851331131411028362777329665",
+          "denominator": "79228162514264337593543950336",
+          "float": 52860.267339623264
+        },
+        "stationarity_residual_l1": {
+          "numerator": "5109472361395976613105234607186053",
+          "denominator": "39614081257132168796771975168",
+          "float": 128981.21575080226
+        }
+      },
+      "invalid_endpoint_projection_checked": true,
+      "projected_entries": 0,
+      "exact_bracket_arithmetic": true,
+      "exact_lower_MWh": {
+        "numerator": "1114158262530646718016528754594108697234904847543585957",
+        "denominator": "46768052394588893382517914646921056628989841375232",
+        "float": 23823.063084396388
+      },
+      "finite_binary_upper_verified": true
+    }
+  ],
+  "call_order": [
+    {
+      "case": "seed_26093200",
+      "kind": "MIP",
+      "started_utc": "2026-09-27T00:09:31.705678+00:00",
+      "ended_utc": "2026-09-27T00:19:31.927892+00:00",
+      "seconds": 600.2120260999945,
+      "limit": 600.0
+    },
+    {
+      "case": "seed_26093201",
+      "kind": "MIP",
+      "started_utc": "2026-09-27T00:19:35.669971+00:00",
+      "ended_utc": "2026-09-27T00:29:35.891554+00:00",
+      "seconds": 600.1937996999768,
+      "limit": 600.0
+    },
+    {
+      "case": "seed_26093200",
+      "kind": "LP",
+      "started_utc": "2026-09-27T00:29:42.488470+00:00",
+      "ended_utc": "2026-09-27T00:29:44.274089+00:00",
+      "seconds": 1.784787899989169,
+      "limit": 60.0
+    },
+    {
+      "case": "seed_26093201",
+      "kind": "LP",
+      "started_utc": "2026-09-27T00:29:44.844119+00:00",
+      "ended_utc": "2026-09-27T00:29:46.102500+00:00",
+      "seconds": 1.2583708000020124,
+      "limit": 60.0
+    }
+  ],
+  "actual_MIP_seconds": 1200.4058257999714,
+  "actual_LP_seconds": 3.0431586999911815,
+  "phase_elapsed_s": 1215.8691980000003,
+  "soft_solver_overrun_s": 0.40582579997135326,
+  "native_scope": "Stored native checks pass; native input/matrix provenance established independently at prepared gate. Native physical assembler not rerun.",
+  "strict_model_optimality_claim": false,
+  "review_source_sha256": "a5fd773243a05b13224a5265ab093160232e0996c6271e863e125f2feb9f3909",
+  "input_and_result_hashes": {
+    "results\\research8h\\hour_of_day_uncapped\\allocation_started.json": "d08c0170735137af2c46a7388b29453876cb1d7afcacdc4ea1695cdfc67f5bae",
+    "results\\research8h\\hour_of_day_uncapped\\completion.json": "636753bea0e4669393392b746394abb9a0446a96ad890a361f6568579e1886b8",
+    "results\\research8h\\hour_of_day_uncapped\\energy_brackets.json": "4915dfe14d94419cbb6c62a52b2079dc10648a349b93a224630ab1b41e11a1f1",
+    "results\\research8h\\hour_of_day_uncapped\\execution_started.json": "97d6b2fe620550cf98a4cec7cd28c7d30fd1717fa19d8916399930dccd557f1f",
+    "results\\research8h\\hour_of_day_uncapped\\final_manifest_check.json": "65509117faec2724aef5378285f79d99a2b77f543634a9a347f996de264b56b6",
+    "results\\research8h\\hour_of_day_uncapped\\freeze_before_preparation.json": "e0970a46e8bdaa8592009cb2e98366ae025c221cfec85b4cb0c56fb2c39f5898",
+    "results\\research8h\\hour_of_day_uncapped\\independent_prepared_review.json": "f1e9484b5b45822505a5887b2cea04eefaf0c7037d08a0ce19b4152faffcc110",
+    "results\\research8h\\hour_of_day_uncapped\\input_manifest.csv": "b0ffca41db74d7278c001c776ae3b8656272994d083c8fc215ecbbf665020f8a",
+    "results\\research8h\\hour_of_day_uncapped\\launch_decisions.json": "5d8b6af2456d9016189ef3bda77678a5e0754a2a38807a16268379ebde33a176",
+    "results\\research8h\\hour_of_day_uncapped\\lp_results.json": "f51327581da4fda5be34ff68b866be6347dcb2c0231ce646358eaaba8f526aad",
+    "results\\research8h\\hour_of_day_uncapped\\mip_results.json": "ec8d67a7eb12a8a3a86e26c1f3cc9fb8692a2cad44cb4ea92e699472616682b0",
+    "results\\research8h\\hour_of_day_uncapped\\parent_manifest_check.json": "58759fce0d2f800aa11d1dfa067d8acbe8ff8807a70d0b4a3fccaab7f23ddeb7",
+    "results\\research8h\\hour_of_day_uncapped\\prepared_cases.json": "8d7abc97c261201746638f08ed1c417a13359ad9517358a2c68657f9f49bf0a6",
+    "results\\research8h\\hour_of_day_uncapped\\prepared_freeze.json": "1a5d43d5977a506e5c8c81610e47d17c063d69be3b4d257277ac0a0718e96988",
+    "results\\research8h\\hour_of_day_uncapped\\READOUT.md": "08548b9d288eb6463f2b5a26e18e89ea9d8013ee390bc81070181bdac976c443",
+    "results\\research8h\\hour_of_day_uncapped\\reused_identity_bounds.json": "e785f6b693c9c2938641aa60988a984e5db1b8104b91644986fa7189f585c4c8",
+    "results\\research8h\\hour_of_day_uncapped\\seed_26093200\\bounds.npz": "eeed1da86ce32cb8a89e4dede73f7e05447ca29e5e23555c6e50613964b2d01f",
+    "results\\research8h\\hour_of_day_uncapped\\seed_26093200\\integrality.npz": "3dce3436c853f1dcf296fce09408a6a3d1049e6c2a89568469af8a1c4ae6d73b",
+    "results\\research8h\\hour_of_day_uncapped\\seed_26093200\\lp\\exact_lower_bound.json": "6ab5472267604c5daa7ba472c78995f78712bb4e4b7539bbc5a7036164e2e989",
+    "results\\research8h\\hour_of_day_uncapped\\seed_26093200\\lp\\exact_stationarity_residual.json": "ead5c9fa1241214407e2050af79a560f6fbccf4755734a6ef286825422c6c75f",
+    "results\\research8h\\hour_of_day_uncapped\\seed_26093200\\lp\\primal.npz": "150745b1026882ec06139a1e358bffbb7bf3f936da9ee2f21f72856809d50d64",
+    "results\\research8h\\hour_of_day_uncapped\\seed_26093200\\lp\\projected_row_dual.npz": "4ac1fc396edc525b63520804abf4ed5da022baab797717df2056ead690d42a95",
+    "results\\research8h\\hour_of_day_uncapped\\seed_26093200\\lp\\raw_duals.npz": "6d21fa83fea75234786d5d9f7d19854da409c3211fa448931c45a5bfdadcfda7",
+    "results\\research8h\\hour_of_day_uncapped\\seed_26093200\\lp\\result.json": "af76ab53716a18b231e6cc91bdf5b22ba6dbb1fe266ae7035745bb99fcbb5b93",
+    "results\\research8h\\hour_of_day_uncapped\\seed_26093200\\lp\\solver.log": "ec8d3a131732a73e6e3f84ff52086cdf1a3b2a3f31b6481b500993573f88a251",
+    "results\\research8h\\hour_of_day_uncapped\\seed_26093200\\matrix.npz": "43eadfdf239a339757187fa4d52e786d1be7277bb93009d5ded1973523bf1386",
+    "results\\research8h\\hour_of_day_uncapped\\seed_26093200\\mip\\exact_point_check.json": "2227123b09e71ade2ae10bcc59a60ee4e74b301f06e5ea59ae648cca9d38f5c5",
+    "results\\research8h\\hour_of_day_uncapped\\seed_26093200\\mip\\native_no_cap_check.json": "356cf2a76d78f4ab5d13313ced3e35eb6a01f15d218894dddbbd0ab5dc20dc3a",
+    "results\\research8h\\hour_of_day_uncapped\\seed_26093200\\mip\\raw_vector.npz": "93276f8537f1fedc4e99d7064429f3df1d2d255d30dea2ceaf0c7df34083fa18",
+    "results\\research8h\\hour_of_day_uncapped\\seed_26093200\\mip\\recovered_vector.npz": "d4d2f68f002e8ac37139e8a6fa3add916022418cb42cdcdbff9286f24ca898ca",
+    "results\\research8h\\hour_of_day_uncapped\\seed_26093200\\mip\\result.json": "24be5473ecd5e7a3af360db257bf9e84b19fb72e6b5fb5bbbdaa37b0baf84289",
+    "results\\research8h\\hour_of_day_uncapped\\seed_26093200\\mip\\solver.log": "0d5bd426795045c77f3f83f1a9e3950902394b4b3046675c7062857f928eca99",
+    "results\\research8h\\hour_of_day_uncapped\\seed_26093200\\model_binding.json": "804302457ecfe075bf70088cb6ef9b1d9bd25f15bcae886cd78bc69ba91c3111",
+    "results\\research8h\\hour_of_day_uncapped\\seed_26093200\\model_metadata.json": "2c055c0f5de41741b70d278d13352d3ce2e4cac75c9c8d39e4cfe8292d1fe7a2",
+    "results\\research8h\\hour_of_day_uncapped\\seed_26093200\\native_inputs.npz": "c6e3efd7ddb65960db87eac29707eae40862bb8ea04dc00a5d2c2035d96af177",
+    "results\\research8h\\hour_of_day_uncapped\\seed_26093200\\objective.npz": "4a11881191004d9f39ed53d3cd18a5861829593b48c4e97d67e2af2d01b17632",
+    "results\\research8h\\hour_of_day_uncapped\\seed_26093200\\original_integrality.npz": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d",
+    "results\\research8h\\hour_of_day_uncapped\\seed_26093200\\permutation.csv": "09fd54c4a7ed25ba0ade5e7499ad45bd11ee63a7bfa46116b57685cc79ad31c7",
+    "results\\research8h\\hour_of_day_uncapped\\seed_26093200\\projection_audit.json": "e9648ffe394153363cc189379abca6edf6e2c18e40dcf9206ad9347283524473",
+    "results\\research8h\\hour_of_day_uncapped\\seed_26093200\\retained_parent_rows.npz": "f716fa7f6865e9a44befa66565a1e2d264781db9ec7077eabe815854588dbcc5",
+    "results\\research8h\\hour_of_day_uncapped\\seed_26093200\\row_metadata.csv.gz": "368168b00e0880d18f4f13e88d186aca7ad04b7d455b4c7ef5fc320ca87b7a91",
+    "results\\research8h\\hour_of_day_uncapped\\seed_26093200\\zero_dual_baseline.json": "73bc024d6c5bfe3e642d374defdbf0d742197c7ba0e21702f8e86bdbfe1e3eaa",
+    "results\\research8h\\hour_of_day_uncapped\\seed_26093201\\bounds.npz": "842876a152e73d9b47ac767f8497a81e8644973d949c0c942e1c22cfd034f0db",
+    "results\\research8h\\hour_of_day_uncapped\\seed_26093201\\integrality.npz": "3dce3436c853f1dcf296fce09408a6a3d1049e6c2a89568469af8a1c4ae6d73b",
+    "results\\research8h\\hour_of_day_uncapped\\seed_26093201\\lp\\exact_lower_bound.json": "0c1dce728691b7bb1fc694d1bace10fc365810e7e2bc24b0a46e5167e532c187",
+    "results\\research8h\\hour_of_day_uncapped\\seed_26093201\\lp\\exact_stationarity_residual.json": "2e1c8956c5c849a7a2da1969a3e3c88a076d90f0342dffe7a67c95c3e60d6163",
+    "results\\research8h\\hour_of_day_uncapped\\seed_26093201\\lp\\primal.npz": "881c838530ba70e145db792eead6cd5ba13c6f06143198992bba7cc831300bd3",
+    "results\\research8h\\hour_of_day_uncapped\\seed_26093201\\lp\\projected_row_dual.npz": "c4ea713bcc350f46c49cfbfbceb8935fb0aaa0c3638d5ddbd6148a1df672ca11",
+    "results\\research8h\\hour_of_day_uncapped\\seed_26093201\\lp\\raw_duals.npz": "f5f49232f68b90f0c0165c9d34b9e9422de0496d286d3502401c8203ccc5cd53",
+    "results\\research8h\\hour_of_day_uncapped\\seed_26093201\\lp\\result.json": "e64bba3a7b2707d359560140f8789df924f1996124ab99f86aac67e6bef37a82",
+    "results\\research8h\\hour_of_day_uncapped\\seed_26093201\\lp\\solver.log": "234c6d783ab16489324bce19be25820bd6abbb7b4c7af6bb6c2ec7baffaea237",
+    "results\\research8h\\hour_of_day_uncapped\\seed_26093201\\matrix.npz": "43eadfdf239a339757187fa4d52e786d1be7277bb93009d5ded1973523bf1386",
+    "results\\research8h\\hour_of_day_uncapped\\seed_26093201\\mip\\exact_point_check.json": "a4c3d07524f63d76c9a51ba5a7e095dcf363f61628176a3f5d963e45860292ab",
+    "results\\research8h\\hour_of_day_uncapped\\seed_26093201\\mip\\native_no_cap_check.json": "3ce71028219a29191c54e94b59296e6e4338bde36eb282d6c58c029fa0610c80",
+    "results\\research8h\\hour_of_day_uncapped\\seed_26093201\\mip\\raw_vector.npz": "edb9741dfc6e6ec742548470cf2c7272f11372ccb2302b792c87b815badc9f89",
+    "results\\research8h\\hour_of_day_uncapped\\seed_26093201\\mip\\recovered_vector.npz": "7a6f6f3757c1206ebcf0c03c275022e34f0ea2af0696c1f9c869d1c17d6e3aa3",
+    "results\\research8h\\hour_of_day_uncapped\\seed_26093201\\mip\\result.json": "55f08f618ed0dcd623834a6a5529cf9254647a342fb3f73f5ea77e7bfb16f6c7",
+    "results\\research8h\\hour_of_day_uncapped\\seed_26093201\\mip\\solver.log": "90fefb08b375d1d9680af107db70dae8dc2aa849f750ca898e948388a8c15572",
+    "results\\research8h\\hour_of_day_uncapped\\seed_26093201\\model_binding.json": "df151d3b16a0b7f8d4025fef24921293b6b206ff20d01ac056a73c0e95da8e0e",
+    "results\\research8h\\hour_of_day_uncapped\\seed_26093201\\model_metadata.json": "95a2252ce7dd344236fa7665e1eaa188b7f39ce24fb13b89dabd99f5359f9624",
+    "results\\research8h\\hour_of_day_uncapped\\seed_26093201\\native_inputs.npz": "dcb27717a55c3c4548faa722f8e2f88cfbffd1e963f3ca5bf33e93e7c34e964e",
+    "results\\research8h\\hour_of_day_uncapped\\seed_26093201\\objective.npz": "4a11881191004d9f39ed53d3cd18a5861829593b48c4e97d67e2af2d01b17632",
+    "results\\research8h\\hour_of_day_uncapped\\seed_26093201\\original_integrality.npz": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d",
+    "results\\research8h\\hour_of_day_uncapped\\seed_26093201\\permutation.csv": "dd41797ff4b27820d9ba8ca7159ee4b6a0636a8d19f1c955fb3ed5b7f9fe6fa2",
+    "results\\research8h\\hour_of_day_uncapped\\seed_26093201\\projection_audit.json": "e9648ffe394153363cc189379abca6edf6e2c18e40dcf9206ad9347283524473",
+    "results\\research8h\\hour_of_day_uncapped\\seed_26093201\\retained_parent_rows.npz": "f716fa7f6865e9a44befa66565a1e2d264781db9ec7077eabe815854588dbcc5",
+    "results\\research8h\\hour_of_day_uncapped\\seed_26093201\\row_metadata.csv.gz": "eca52d6840c21aaae3171c57192c7701675b3033c02e8fa04db80f7e4145a8ef",
+    "results\\research8h\\hour_of_day_uncapped\\seed_26093201\\zero_dual_baseline.json": "73bc024d6c5bfe3e642d374defdbf0d742197c7ba0e21702f8e86bdbfe1e3eaa",
+    "results\\research8h\\hour_of_day_uncapped\\summarize_postrun.py": "721762e8831126d17c5532d21b2f1fecdcd66115a2dd2b240399830bfd40a309",
+    "results\\research8h\\hour_of_day_uncapped\\summary.csv": "b47a76199846f6559abe12bb95b3b75bdcaf9218eb8f8c26398ec883ca09176f",
+    "results\\research8h\\hour_of_day_uncapped\\summary.json": "e1265ac9a1a1a089ed40a1c70ab3f6cf79597d77c5a4525c96d9965d81abc760"
+  },
+  "elapsed_seconds": 5.98579529998824
+}

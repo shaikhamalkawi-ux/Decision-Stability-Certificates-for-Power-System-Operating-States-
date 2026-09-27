@@ -1,0 +1,48 @@
+[
+  {
+    "case": "seed_26093210",
+    "week": 2,
+    "seed": 26093210,
+    "budget_MWh": 26532,
+    "constructive_expanded_pass": false,
+    "verdict": "CERTIFIED_INFEASIBLE_EXPANDED_MODEL",
+    "route": "EXACT_ROBUST_LP_RAY",
+    "LP_calls": 1,
+    "MIP_calls": 0
+  },
+  {
+    "case": "seed_26093220",
+    "week": 3,
+    "seed": 26093220,
+    "budget_MWh": 48319,
+    "constructive_expanded_pass": false,
+    "verdict": "CERTIFIED_INFEASIBLE_EXPANDED_MODEL",
+    "route": "EXACT_ROBUST_LP_RAY",
+    "LP_calls": 1,
+    "MIP_calls": 0
+  },
+  {
+    "case": "seed_26093221",
+    "week": 3,
+    "seed": 26093221,
+    "budget_MWh": 48319,
+    "constructive_expanded_pass": false,
+    "verdict": "CERTIFIED_INFEASIBLE_EXPANDED_MODEL",
+    "route": "EXACT_ROBUST_LP_RAY",
+    "LP_calls": 1,
+    "MIP_calls": 0
+  },
+  {
+    "case": "seed_26093211",
+    "week": 2,
+    "seed": 26093211,
+    "budget_MWh": 26532,
+    "constructive_expanded_pass": false,
+    "verdict": "UNKNOWN",
+    "diagnostic": "UNKNOWN",
+    "route": "MIP",
+    "LP_calls": 1,
+    "MIP_calls": 1,
+    "MIP_elapsed_s": 300.4468343000044
+  }
+]

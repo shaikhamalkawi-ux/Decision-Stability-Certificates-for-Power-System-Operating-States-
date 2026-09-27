@@ -1,0 +1,12 @@
+{
+  "pass": true,
+  "tests": [
+    "delegation_when_both_budgets_suffice",
+    "phase_remaining_guard",
+    "positive_UTC_remaining_below_guard",
+    "expired_UTC_cutoff",
+    "signed_zero_control_semantics_and_bitwise_roundtrip"
+  ],
+  "optimizer_calls": 0,
+  "native_models_generated": 0
+}

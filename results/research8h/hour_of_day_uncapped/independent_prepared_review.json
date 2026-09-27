@@ -1,0 +1,77 @@
+{
+  "status": "INDEPENDENT_HOD_UNCAPPED_PREPARED_PASS",
+  "optimizer_calls": 0,
+  "manifest_sha256": "b0ffca41db74d7278c001c776ae3b8656272994d083c8fc215ecbbf665020f8a",
+  "frozen_bindings": 92,
+  "all_hashes_match_before_after": true,
+  "execution_marker_absent": true,
+  "cases": [
+    {
+      "case": "seed_26093200",
+      "exact_single_cap_deletion": true,
+      "removed_cap_row": 24264,
+      "native_permutation_bytes_unchanged": true,
+      "objective_exactly_equals_deleted_cap_row": true,
+      "projection": {
+        "pass": true,
+        "family_counts": {
+          "transition": 4008,
+          "exclusive_transition": 4008,
+          "minimum_up": 4008,
+          "minimum_down": 4008
+        },
+        "original_binary": 12096,
+        "projected_binary": 4032
+      },
+      "zero_dual_expanded_lower_MWh": {
+        "numerator": "-2851128764032548531",
+        "denominator": "73786976294838206464",
+        "float": -0.03864
+      }
+    },
+    {
+      "case": "seed_26093201",
+      "exact_single_cap_deletion": true,
+      "removed_cap_row": 24264,
+      "native_permutation_bytes_unchanged": true,
+      "objective_exactly_equals_deleted_cap_row": true,
+      "projection": {
+        "pass": true,
+        "family_counts": {
+          "transition": 4008,
+          "exclusive_transition": 4008,
+          "minimum_up": 4008,
+          "minimum_down": 4008
+        },
+        "original_binary": 12096,
+        "projected_binary": 4032
+      },
+      "zero_dual_expanded_lower_MWh": {
+        "numerator": "-2851128764032548531",
+        "denominator": "73786976294838206464",
+        "float": -0.03864
+      }
+    }
+  ],
+  "identity": {
+    "exact_same_uncapped_model": true,
+    "dual_expanded_lower_MWh": {
+      "numerator": "67692670989541805824312031500944438452884092390539984097",
+      "denominator": "2993155353253689176481146537402947624255349848014848",
+      "float": 22615.822769091137
+    },
+    "upper_MWh": {
+      "numerator": "1654798412944827657145",
+      "denominator": "72057594037927936",
+      "float": 22964.941239556443
+    },
+    "exact_expanded_binary_point": true,
+    "strict_point": false,
+    "original_binary_coordinates": 12096,
+    "native_check": "Stored producer replay passes; archived native input binding inherited from independent HOD review"
+  },
+  "review_source_sha256": "ec6c5c129dfb71c9cd7f04643dcf8b81ce806f73652edc8da44080f63daf067f",
+  "reader_sha256": "708c3843425eea494a0561e83a275f7059f22bcd546a036705323d056bcf906f",
+  "helper_sha256": "3de77675460d103298ac17dc7851144362a3ecb87a1e77ec80f522622259433a",
+  "elapsed_seconds": 6.0265460000082385
+}

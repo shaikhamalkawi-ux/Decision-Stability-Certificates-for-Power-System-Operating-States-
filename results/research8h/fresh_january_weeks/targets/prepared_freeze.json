@@ -1,0 +1,24 @@
+{
+  "utc": "2026-09-27T00:33:02.320968+00:00",
+  "stage": "targets",
+  "cases": [
+    "seed_26093210",
+    "seed_26093211",
+    "seed_26093220",
+    "seed_26093221"
+  ],
+  "source_sha256": "5d89038f53760d8dff1cc521b641636fbbec490ea4842d3d9a524568fcdd36a7",
+  "protocol_sha256": "00cdcb9fde261660cc78e549e1bfd3426b81b1632ecf20e9f1ab86f23c0b39fd",
+  "manifest_sha256": "56c5240486a8274ecb076b3aca49db236db4a7d72b865392016868119f7938dd",
+  "source_v3": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-v8r1-evidence\\3\\.work\\v8r1_rts_inputs",
+  "cutoff_utc": "2026-09-27T04:00:00+00:00",
+  "optimizer_calls_started": 0,
+  "requires_independent_PASS_and_root_GO": true,
+  "phase_seconds": 2100,
+  "LP_seconds": 30,
+  "MIP_seconds": 300,
+  "LP_guard_seconds": 35,
+  "MIP_guard_seconds": 305,
+  "intended_ordinary_cases": 4,
+  "intended_controls": 2
+}

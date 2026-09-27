@@ -1,0 +1,18 @@
+{
+  "utc": "2026-09-27T00:29:47.511017+00:00",
+  "ordinary_denominator": 2,
+  "MIP_calls": 2,
+  "LP_calls": 2,
+  "new_identity_solves": 0,
+  "phase_elapsed_s": 1215.8691980000003,
+  "soft_allocation_s": 2100,
+  "soft_allocation_overrun_s": 0.0,
+  "UTC_cutoff_overrun_s": 0.0,
+  "invocation_elapsed_s": 1217.4219150999852,
+  "actual_MIP_seconds": 1200.4058257999714,
+  "actual_LP_seconds": 3.0431586999911815,
+  "all_frozen_hashes_unchanged": true,
+  "accepted_upper_witnesses": 2,
+  "nominal_exact_optimality_claim": false,
+  "postrun_independent_replay_required": true
+}

@@ -1,0 +1,389 @@
+{
+  "seed": 26093220,
+  "generator": "Generator(PCG64)",
+  "numpy_version": "2.3.5",
+  "state_before": {
+    "bit_generator": "PCG64",
+    "state": {
+      "state": 250927455978647570711929228878417275011,
+      "inc": 301492672636823862908688110215589047683
+    },
+    "has_uint32": 0,
+    "uinteger": 0
+  },
+  "state_after": {
+    "bit_generator": "PCG64",
+    "state": {
+      "state": 217680824686848314149331706039130718457,
+      "inc": 301492672636823862908688110215589047683
+    },
+    "has_uint32": 1,
+    "uinteger": 3649297002
+  },
+  "groups": [
+    {
+      "key": [
+        0
+      ],
+      "destination": [
+        48,
+        72,
+        96
+      ],
+      "source": [
+        48,
+        96,
+        72
+      ]
+    },
+    {
+      "key": [
+        1
+      ],
+      "destination": [
+        49,
+        73,
+        97
+      ],
+      "source": [
+        73,
+        97,
+        49
+      ]
+    },
+    {
+      "key": [
+        2
+      ],
+      "destination": [
+        50,
+        74,
+        98
+      ],
+      "source": [
+        50,
+        74,
+        98
+      ]
+    },
+    {
+      "key": [
+        3
+      ],
+      "destination": [
+        51,
+        75,
+        99
+      ],
+      "source": [
+        75,
+        99,
+        51
+      ]
+    },
+    {
+      "key": [
+        4
+      ],
+      "destination": [
+        52,
+        76,
+        100
+      ],
+      "source": [
+        52,
+        76,
+        100
+      ]
+    },
+    {
+      "key": [
+        5
+      ],
+      "destination": [
+        53,
+        77,
+        101
+      ],
+      "source": [
+        77,
+        53,
+        101
+      ]
+    },
+    {
+      "key": [
+        6
+      ],
+      "destination": [
+        54,
+        78,
+        102
+      ],
+      "source": [
+        102,
+        54,
+        78
+      ]
+    },
+    {
+      "key": [
+        7
+      ],
+      "destination": [
+        55,
+        79,
+        103
+      ],
+      "source": [
+        55,
+        103,
+        79
+      ]
+    },
+    {
+      "key": [
+        8
+      ],
+      "destination": [
+        56,
+        80,
+        104
+      ],
+      "source": [
+        80,
+        56,
+        104
+      ]
+    },
+    {
+      "key": [
+        9
+      ],
+      "destination": [
+        57,
+        81,
+        105
+      ],
+      "source": [
+        57,
+        81,
+        105
+      ]
+    },
+    {
+      "key": [
+        10
+      ],
+      "destination": [
+        58,
+        82,
+        106
+      ],
+      "source": [
+        82,
+        58,
+        106
+      ]
+    },
+    {
+      "key": [
+        11
+      ],
+      "destination": [
+        59,
+        83,
+        107
+      ],
+      "source": [
+        59,
+        107,
+        83
+      ]
+    },
+    {
+      "key": [
+        12
+      ],
+      "destination": [
+        60,
+        84,
+        108
+      ],
+      "source": [
+        60,
+        108,
+        84
+      ]
+    },
+    {
+      "key": [
+        13
+      ],
+      "destination": [
+        61,
+        85,
+        109
+      ],
+      "source": [
+        109,
+        61,
+        85
+      ]
+    },
+    {
+      "key": [
+        14
+      ],
+      "destination": [
+        62,
+        86,
+        110
+      ],
+      "source": [
+        62,
+        110,
+        86
+      ]
+    },
+    {
+      "key": [
+        15
+      ],
+      "destination": [
+        63,
+        87,
+        111
+      ],
+      "source": [
+        111,
+        87,
+        63
+      ]
+    },
+    {
+      "key": [
+        16
+      ],
+      "destination": [
+        64,
+        88,
+        112
+      ],
+      "source": [
+        112,
+        88,
+        64
+      ]
+    },
+    {
+      "key": [
+        17
+      ],
+      "destination": [
+        65,
+        89,
+        113
+      ],
+      "source": [
+        113,
+        65,
+        89
+      ]
+    },
+    {
+      "key": [
+        18
+      ],
+      "destination": [
+        66,
+        90,
+        114
+      ],
+      "source": [
+        90,
+        66,
+        114
+      ]
+    },
+    {
+      "key": [
+        19
+      ],
+      "destination": [
+        67,
+        91,
+        115
+      ],
+      "source": [
+        91,
+        115,
+        67
+      ]
+    },
+    {
+      "key": [
+        20
+      ],
+      "destination": [
+        68,
+        92,
+        116
+      ],
+      "source": [
+        116,
+        92,
+        68
+      ]
+    },
+    {
+      "key": [
+        21
+      ],
+      "destination": [
+        69,
+        93,
+        117
+      ],
+      "source": [
+        69,
+        93,
+        117
+      ]
+    },
+    {
+      "key": [
+        22
+      ],
+      "destination": [
+        70,
+        94,
+        118
+      ],
+      "source": [
+        70,
+        94,
+        118
+      ]
+    },
+    {
+      "key": [
+        23
+      ],
+      "destination": [
+        71,
+        95,
+        119
+      ],
+      "source": [
+        95,
+        71,
+        119
+      ]
+    }
+  ],
+  "redraws": 0,
+  "identity_draw_retained": false,
+  "U_semantically_unchanged": false,
+  "U_bitwise_unchanged": false
+}

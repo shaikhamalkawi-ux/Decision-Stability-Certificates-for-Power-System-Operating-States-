@@ -1,0 +1,47 @@
+{
+  "status": "CERTIFIED_EXPANDED_ONLY_POINT",
+  "strict_pass": false,
+  "expanded_pass": true,
+  "original_binary_coordinates_exact": true,
+  "binary_coordinates": 12096,
+  "tau": {
+    "numerator": "5902958103587057",
+    "denominator": "590295810358705651712",
+    "float": 1e-05
+  },
+  "maximum_column_violation": {
+    "numerator": "12133",
+    "denominator": "562949953421312",
+    "float": 2.155253753244324e-11
+  },
+  "worst_column": {
+    "column": 4920,
+    "side": "lower"
+  },
+  "maximum_row_violation": {
+    "numerator": "8080919107015283899",
+    "denominator": "316912650057057350374175801344",
+    "float": 2.5498884647111388e-11
+  },
+  "worst_row": {
+    "row": 30909,
+    "side": "lower"
+  },
+  "manifest": null,
+  "dimensions": {
+    "rows": 34681,
+    "columns": 23016,
+    "nonzeros": 145588
+  },
+  "input_hashes": {
+    "results\\research8h\\hour_of_day\\january_identity\\matrix.npz": "2f11940f72432a2a2e89e4a88115eba3cf24a8e82a8110e250c6191020c1f0bb",
+    "results\\research8h\\hour_of_day\\january_identity\\bounds.npz": "44ddedc6dd4b06028b9c7d10180cac4889dd51658a560d49f66ef8f3e31ab2d2",
+    "results\\research8h\\hour_of_day\\january_identity\\constructive_vector.npz": "7c534f8691c761815224ac43773259da5a8e1d3eb2aa892dcb64dc46541672db",
+    "results\\research8h\\hour_of_day\\january_identity\\integrality.npz": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d"
+  },
+  "scope": "Exact archived binary64 linear model; uniform outward expansion of every finite row/column bound. Binary coordinates remain exact. No native physical-data or field validation.",
+  "elapsed_s": 2.290252899983898,
+  "verifier_sha256": "708c3843425eea494a0561e83a275f7059f22bcd546a036705323d056bcf906f",
+  "python_version": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "optimization_calls": 0
+}

@@ -1,0 +1,65 @@
+{
+  "reference_energy_numerator": "1683230331936304381",
+  "reference_energy_denominator": "35184372088832",
+  "reference_energy_MWh": 47840.28339873613,
+  "budget_MWh": 48319,
+  "headroom_MWh": 478.7166012638701,
+  "headroom_numerator": "16843343023969027",
+  "headroom_denominator": "35184372088832",
+  "relative_headroom": 0.01000655864167638,
+  "formula": "ceil(101*exact_binary64_fossil_sum/100)",
+  "reference_result": {
+    "verdict": "VERIFIED_REFERENCE_EXPANDED_MODEL",
+    "model_status": "Time limit reached",
+    "run_status": "HighsStatus.kWarning",
+    "elapsed_s": 600.3401202000096,
+    "optimization_calls": 1,
+    "solver_version": "1.12.0",
+    "solver_options": {
+      "time_limit": 600.0,
+      "threads": 1,
+      "random_seed": 0,
+      "presolve": "on",
+      "mip_rel_gap": 1e-08,
+      "log_to_console": false,
+      "log_file": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\fresh_january_weeks\\references\\week_3\\solver.log"
+    },
+    "solution_value_valid": true,
+    "solver_objective_MWh": 47840.28339873613,
+    "numerical_lower_bound_MWh": 47469.07509248424,
+    "mip_relative_gap": 0.007759324984719601,
+    "mip_node_count": 589,
+    "exact_optimality_claim": false,
+    "raw_matrix_check": {
+      "pass": true,
+      "tolerance": 1e-05,
+      "residuals": {
+        "column_lower": 0.0,
+        "column_upper": 0.0,
+        "row_lower": 4.177991286269389e-12,
+        "row_upper": 4.220623850414995e-12
+      }
+    },
+    "eligible_for_recovery": true,
+    "recovered_matrix_check": {
+      "pass": true,
+      "tolerance": 1e-05,
+      "residuals": {
+        "column_lower": 0.0,
+        "column_upper": 0.0,
+        "row_lower": 4.177991286269389e-12,
+        "row_upper": 4.220623850414995e-12
+      }
+    },
+    "native_no_cap_pass": true,
+    "exact_expanded_pass": true,
+    "exact_strict_pass": false,
+    "fossil_energy": {
+      "numerator": "1683230331936304381",
+      "denominator": "35184372088832",
+      "float": 47840.28339873613
+    },
+    "week": 3
+  },
+  "reference_vector_sha256": "7481a3fe6e2da571da8f8a3db0ba835d90b2f628df11daf4b3fff9f593468093"
+}

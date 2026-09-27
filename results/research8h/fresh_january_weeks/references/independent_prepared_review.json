@@ -1,0 +1,84 @@
+{
+  "status": "INDEPENDENT_FRESH_REFERENCE_PREPARED_PASS",
+  "optimizer_calls": 0,
+  "execution_marker_absent": true,
+  "frozen_bindings": 48,
+  "manifest_sha256": "df48d8f6f60f51e43afa21ba4fcbd1438f274b86fb4a29e8fccbae3ae845fe26",
+  "all_hashes_unchanged": true,
+  "cases": [
+    {
+      "week": 2,
+      "native_rows": [
+        168,
+        335
+      ],
+      "matrix_exactly_matches_established_reference_template": true,
+      "all_hourly_and_static_bounds_exactly_checked": true,
+      "original_binary_mask": 12096,
+      "U_only_mask": 4032,
+      "objective_native_fossil_coordinates": 3864,
+      "calendar_tables_checked": 5,
+      "native_CSV_adapter_max_abs_differences_MW": {
+        "pmin": 0.0,
+        "pmax": 0.0,
+        "net": 0.0,
+        "nodal": 0.0
+      },
+      "native_parser_scope": "Independent stdlib decimal parsing and sequential summation; comparison within 1e-9 handles parser/reduction rounding. Archived matrix/bounds comparisons above are exact binary64 equality.",
+      "projection": {
+        "pass": true,
+        "family_counts": {
+          "transition": 4008,
+          "exclusive_transition": 4008,
+          "minimum_up": 4008,
+          "minimum_down": 4008
+        },
+        "original_binary": 12096,
+        "projected_binary": 4032
+      }
+    },
+    {
+      "week": 3,
+      "native_rows": [
+        336,
+        503
+      ],
+      "matrix_exactly_matches_established_reference_template": true,
+      "all_hourly_and_static_bounds_exactly_checked": true,
+      "original_binary_mask": 12096,
+      "U_only_mask": 4032,
+      "objective_native_fossil_coordinates": 3864,
+      "calendar_tables_checked": 5,
+      "native_CSV_adapter_max_abs_differences_MW": {
+        "pmin": 0.0,
+        "pmax": 0.0,
+        "net": 0.0,
+        "nodal": 0.0
+      },
+      "native_parser_scope": "Independent stdlib decimal parsing and sequential summation; comparison within 1e-9 handles parser/reduction rounding. Archived matrix/bounds comparisons above are exact binary64 equality.",
+      "projection": {
+        "pass": true,
+        "family_counts": {
+          "transition": 4008,
+          "exclusive_transition": 4008,
+          "minimum_up": 4008,
+          "minimum_down": 4008
+        },
+        "original_binary": 12096,
+        "projected_binary": 4032
+      }
+    }
+  ],
+  "baseline_template_hashes": {
+    "matrix.npz": "43eadfdf239a339757187fa4d52e786d1be7277bb93009d5ded1973523bf1386",
+    "bounds.npz": "ea8158050cefbaa9c8bdf5fd387ead50cbd9b803d378fe706a1c2522f5552518",
+    "integrality.npz": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d",
+    "objective.npz": "4a11881191004d9f39ed53d3cd18a5861829593b48c4e97d67e2af2d01b17632",
+    "row_metadata.csv.gz": "e13c39ee35091f1f67a4aed145cb36b4950e2d01dfb19b1412c3d6b06ced1618",
+    "model_metadata.json": "1920bfe421412b2ce64be9f02dddaee933e5ae1394532a56b37dc78adcbb06af"
+  },
+  "review_source_sha256": "d4fc9e15643115eccbbedfe99b7ed71ff3c6e4da6b5d1db943723340ed15230d",
+  "reader_sha256": "708c3843425eea494a0561e83a275f7059f22bcd546a036705323d056bcf906f",
+  "helper_sha256": "3de77675460d103298ac17dc7851144362a3ecb87a1e77ec80f522622259433a",
+  "elapsed_seconds": 2.8380738999985624
+}

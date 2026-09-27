@@ -1,0 +1,38 @@
+[
+  {
+    "kind": "MIP",
+    "case": "seed_26093200",
+    "utc": "2026-09-27T00:09:31.704677+00:00",
+    "phase_remaining_s": 2099.937646300008,
+    "cutoff_remaining_s": 13828.295323,
+    "guard_s": 605,
+    "admitted": true
+  },
+  {
+    "kind": "MIP",
+    "case": "seed_26093201",
+    "utc": "2026-09-27T00:19:35.666977+00:00",
+    "phase_remaining_s": 1495.9747964999988,
+    "cutoff_remaining_s": 13224.333023,
+    "guard_s": 605,
+    "admitted": true
+  },
+  {
+    "kind": "LP",
+    "case": "seed_26093200",
+    "utc": "2026-09-27T00:29:42.484989+00:00",
+    "phase_remaining_s": 889.1568085000035,
+    "cutoff_remaining_s": 12617.515011,
+    "guard_s": 65,
+    "admitted": true
+  },
+  {
+    "kind": "LP",
+    "case": "seed_26093201",
+    "utc": "2026-09-27T00:29:44.839916+00:00",
+    "phase_remaining_s": 886.8019709000073,
+    "cutoff_remaining_s": 12615.160084,
+    "guard_s": 65,
+    "admitted": true
+  }
+]

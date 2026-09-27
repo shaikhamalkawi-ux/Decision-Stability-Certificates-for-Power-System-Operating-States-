@@ -1,0 +1,200 @@
+[
+  {
+    "case": "seed_26093200",
+    "lower_MWh": {
+      "numerator": "70432860081948971065822225642137428808286439790080830543",
+      "denominator": "2993155353253689176481146537402947624255349848014848",
+      "approximate": 23531.307857236814,
+      "outward_floor_6dp": "23531.307857",
+      "outward_ceiling_6dp": "23531.307858"
+    },
+    "upper_MWh": {
+      "numerator": "862968066750134879659",
+      "denominator": "36028797018963968",
+      "approximate": 23952.17543055647,
+      "outward_floor_6dp": "23952.175430",
+      "outward_ceiling_6dp": "23952.175431"
+    },
+    "identity_lower_MWh": {
+      "numerator": "67692670989541805824312031500944438452884092390539984097",
+      "denominator": "2993155353253689176481146537402947624255349848014848",
+      "approximate": 22615.822769091137,
+      "outward_floor_6dp": "22615.822769",
+      "outward_ceiling_6dp": "22615.822770"
+    },
+    "identity_reference_upper_MWh": {
+      "numerator": "1654798412944827657145",
+      "denominator": "72057594037927936",
+      "approximate": 22964.941239556443,
+      "outward_floor_6dp": "22964.941239",
+      "outward_ceiling_6dp": "22964.941240"
+    },
+    "MIP_verdict": "VERIFIED_UNCAPPED_BINARY_WITNESS_EXPANDED_MODEL",
+    "LP_lower_bound_status": "EXACT_EXPANDED_OBJECTIVE_LOWER_BOUND",
+    "finite_uncapped_feasibility_established": true,
+    "scope": "uncapped uniformly expanded original-binary models; identity reused, not reoptimized",
+    "optimum_difference_MWh": {
+      "lower": {
+        "numerator": "1695223273614194406327858403608394686617656520224943183",
+        "denominator": "2993155353253689176481146537402947624255349848014848",
+        "approximate": 566.3666176803731,
+        "outward_floor_6dp": "566.366617",
+        "outward_ceiling_6dp": "566.366618"
+      },
+      "upper": {
+        "numerator": "3999911122499774517562456650018725585282210942010852127",
+        "denominator": "2993155353253689176481146537402947624255349848014848",
+        "approximate": 1336.3526614653324,
+        "outward_floor_6dp": "1336.352661",
+        "outward_ceiling_6dp": "1336.352662"
+      }
+    },
+    "target_optimum_excess_over_chosen_incumbent_MWh": {
+      "lower": {
+        "numerator": "1695223273614194406327858403608394686617656520224943183",
+        "denominator": "2993155353253689176481146537402947624255349848014848",
+        "approximate": 566.3666176803731,
+        "outward_floor_6dp": "566.366617",
+        "outward_ceiling_6dp": "566.366618"
+      },
+      "upper": {
+        "numerator": "71137720555442102173",
+        "denominator": "72057594037927936",
+        "approximate": 987.2341910000263,
+        "outward_floor_6dp": "987.234191",
+        "outward_ceiling_6dp": "987.234192"
+      }
+    },
+    "optimal_relative_penalty": {
+      "lower": {
+        "numerator": "1695223273614194406327858403608394686617656520224943183",
+        "denominator": "68737636808334776659494367238529034121668783269855887360",
+        "approximate": 0.024662228035873358,
+        "outward_floor_6dp": "0.024662",
+        "outward_ceiling_6dp": "0.024663"
+      },
+      "upper": {
+        "numerator": "3999911122499774517562456650018725585282210942010852127",
+        "denominator": "67692670989541805824312031500944438452884092390539984097",
+        "approximate": 0.05908927900212036,
+        "outward_floor_6dp": "0.059089",
+        "outward_ceiling_6dp": "0.059090"
+      }
+    },
+    "optimal_relative_penalty_percent": {
+      "lower": {
+        "numerator": "8476116368070972031639292018041973433088282601124715915",
+        "denominator": "3436881840416738832974718361926451706083439163492794368",
+        "approximate": 2.466222803587336,
+        "outward_floor_6dp": "2.466222",
+        "outward_ceiling_6dp": "2.466223"
+      },
+      "upper": {
+        "numerator": "399991112249977451756245665001872558528221094201085212700",
+        "denominator": "67692670989541805824312031500944438452884092390539984097",
+        "approximate": 5.908927900212036,
+        "outward_floor_6dp": "5.908927",
+        "outward_ceiling_6dp": "5.908928"
+      }
+    }
+  },
+  {
+    "case": "seed_26093201",
+    "lower_MWh": {
+      "numerator": "1114158262530646718016528754594108697234904847543585957",
+      "denominator": "46768052394588893382517914646921056628989841375232",
+      "approximate": 23823.063084396388,
+      "outward_floor_6dp": "23823.063084",
+      "outward_ceiling_6dp": "23823.063085"
+    },
+    "upper_MWh": {
+      "numerator": "432792302999982809161",
+      "denominator": "18014398509481984",
+      "approximate": 24024.798983556408,
+      "outward_floor_6dp": "24024.798983",
+      "outward_ceiling_6dp": "24024.798984"
+    },
+    "identity_lower_MWh": {
+      "numerator": "67692670989541805824312031500944438452884092390539984097",
+      "denominator": "2993155353253689176481146537402947624255349848014848",
+      "approximate": 22615.822769091137,
+      "outward_floor_6dp": "22615.822769",
+      "outward_ceiling_6dp": "22615.822770"
+    },
+    "identity_reference_upper_MWh": {
+      "numerator": "1654798412944827657145",
+      "denominator": "72057594037927936",
+      "approximate": 22964.941239556443,
+      "outward_floor_6dp": "22964.941239",
+      "outward_ceiling_6dp": "22964.941240"
+    },
+    "MIP_verdict": "VERIFIED_UNCAPPED_BINARY_WITNESS_EXPANDED_MODEL",
+    "LP_lower_bound_status": "EXACT_EXPANDED_OBJECTIVE_LOWER_BOUND",
+    "finite_uncapped_feasibility_established": true,
+    "scope": "uncapped uniformly expanded original-binary models; identity reused, not reoptimized",
+    "optimum_difference_MWh": {
+      "lower": {
+        "numerator": "40132687400415832711929266492092539083830108952087717",
+        "denominator": "46768052394588893382517914646921056628989841375232",
+        "approximate": 858.1218448399451,
+        "outward_floor_6dp": "858.121844",
+        "outward_ceiling_6dp": "858.121845"
+      },
+      "upper": {
+        "numerator": "4217284698933842019540983988929376655983180772151198495",
+        "denominator": "2993155353253689176481146537402947624255349848014848",
+        "approximate": 1408.9762144652705,
+        "outward_floor_6dp": "1408.976214",
+        "outward_ceiling_6dp": "1408.976215"
+      }
+    },
+    "target_optimum_excess_over_chosen_incumbent_MWh": {
+      "lower": {
+        "numerator": "40132687400415832711929266492092539083830108952087717",
+        "denominator": "46768052394588893382517914646921056628989841375232",
+        "approximate": 858.1218448399451,
+        "outward_floor_6dp": "858.121844",
+        "outward_ceiling_6dp": "858.121845"
+      },
+      "upper": {
+        "numerator": "76370799055103579499",
+        "denominator": "72057594037927936",
+        "approximate": 1059.8577439999642,
+        "outward_floor_6dp": "1059.857743",
+        "outward_ceiling_6dp": "1059.857744"
+      }
+    },
+    "optimal_relative_penalty": {
+      "lower": {
+        "numerator": "40132687400415832711929266492092539083830108952087717",
+        "denominator": "1074025575130230885304599488102016158151074738591498240",
+        "approximate": 0.03736660311422244,
+        "outward_floor_6dp": "0.037366",
+        "outward_ceiling_6dp": "0.037367"
+      },
+      "upper": {
+        "numerator": "4217284698933842019540983988929376655983180772151198495",
+        "denominator": "67692670989541805824312031500944438452884092390539984097",
+        "approximate": 0.06230046232900741,
+        "outward_floor_6dp": "0.062300",
+        "outward_ceiling_6dp": "0.062301"
+      }
+    },
+    "optimal_relative_penalty_percent": {
+      "lower": {
+        "numerator": "200663437002079163559646332460462695419150544760438585",
+        "denominator": "53701278756511544265229974405100807907553736929574912",
+        "approximate": 3.736660311422244,
+        "outward_floor_6dp": "3.736660",
+        "outward_ceiling_6dp": "3.736661"
+      },
+      "upper": {
+        "numerator": "421728469893384201954098398892937665598318077215119849500",
+        "denominator": "67692670989541805824312031500944438452884092390539984097",
+        "approximate": 6.230046232900741,
+        "outward_floor_6dp": "6.230046",
+        "outward_ceiling_6dp": "6.230047"
+      }
+    }
+  }
+]

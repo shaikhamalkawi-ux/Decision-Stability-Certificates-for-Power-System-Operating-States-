@@ -1,0 +1,62 @@
+{
+  "controls": [
+    {
+      "case": "january_identity",
+      "rule": "two_cc",
+      "expanded_binary_feasibility_inherited": true,
+      "strict_positive_claim": false,
+      "retained_rows": 19985,
+      "original_point_sha256": "7c534f8691c761815224ac43773259da5a8e1d3eb2aa892dcb64dc46541672db",
+      "source_matrix_sha256": "2f11940f72432a2a2e89e4a88115eba3cf24a8e82a8110e250c6191020c1f0bb",
+      "source_bounds_sha256": "44ddedc6dd4b06028b9c7d10180cac4889dd51658a560d49f66ef8f3e31ab2d2",
+      "all_columns_and_boxes_unchanged": true
+    },
+    {
+      "case": "january_identity",
+      "rule": "locality48",
+      "expanded_binary_feasibility_inherited": true,
+      "strict_positive_claim": false,
+      "retained_rows": 28689,
+      "original_point_sha256": "7c534f8691c761815224ac43773259da5a8e1d3eb2aa892dcb64dc46541672db",
+      "source_matrix_sha256": "2f11940f72432a2a2e89e4a88115eba3cf24a8e82a8110e250c6191020c1f0bb",
+      "source_bounds_sha256": "44ddedc6dd4b06028b9c7d10180cac4889dd51658a560d49f66ef8f3e31ab2d2",
+      "all_columns_and_boxes_unchanged": true
+    },
+    {
+      "case": "seed_26100200",
+      "rule": "two_cc",
+      "expanded_binary_feasibility_inherited": true,
+      "strict_positive_claim": false,
+      "retained_rows": 19985,
+      "original_point_sha256": "3315c482b738df85a053ae5ee1b2a8bbfd3e109083a32985a249ef61934a7ff6",
+      "source_matrix_sha256": "2f11940f72432a2a2e89e4a88115eba3cf24a8e82a8110e250c6191020c1f0bb",
+      "source_bounds_sha256": "209fc8c9d031438b6cdc17b3bbeb155389d946399a356ebd12c85f02511e8a48",
+      "all_columns_and_boxes_unchanged": true
+    },
+    {
+      "case": "seed_26100200",
+      "rule": "locality48",
+      "expanded_binary_feasibility_inherited": true,
+      "strict_positive_claim": false,
+      "retained_rows": 28689,
+      "original_point_sha256": "3315c482b738df85a053ae5ee1b2a8bbfd3e109083a32985a249ef61934a7ff6",
+      "source_matrix_sha256": "2f11940f72432a2a2e89e4a88115eba3cf24a8e82a8110e250c6191020c1f0bb",
+      "source_bounds_sha256": "209fc8c9d031438b6cdc17b3bbeb155389d946399a356ebd12c85f02511e8a48",
+      "all_columns_and_boxes_unchanged": true
+    }
+  ],
+  "parent_manifest": {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\hour_of_day\\input_manifest.csv",
+    "sha256": "078082667f83322d3540ad3ac215ebcc996d0d31b04fd52bfa75c1d2fd814fcc",
+    "entries_checked": 125,
+    "required_input_digests_covered": 0
+  },
+  "prior_rule_manifest": {
+    "path": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\seasonal_rule_transfer\\input_manifest.csv",
+    "sha256": "a0898f56326a489622d812f685b2f4d816646874ef8528baa4902c6dac42144c",
+    "entries_checked": 59,
+    "required_input_digests_covered": 0
+  },
+  "full_point_replays": 0,
+  "optimizer_calls": 0
+}

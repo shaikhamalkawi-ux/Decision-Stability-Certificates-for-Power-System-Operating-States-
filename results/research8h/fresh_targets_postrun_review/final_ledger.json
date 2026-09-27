@@ -1,0 +1,135 @@
+{
+  "status": "INDEPENDENT_FRESH_TARGET_FINAL_REVIEW_PASS",
+  "optimizer_calls": 0,
+  "ordinary_denominator": 4,
+  "certified_expanded_negatives": 3,
+  "verified_target_binary_positives": 0,
+  "binary_unknown": 1,
+  "negative_case_ids": [
+    "seed_26093210",
+    "seed_26093220",
+    "seed_26093221"
+  ],
+  "unknown_case": "seed_26093211",
+  "unknown_LP_exact_expanded_continuous_point": {
+    "binary_exact": true,
+    "binary_count": 0,
+    "full_expanded_pass": true,
+    "full_strict_pass": false,
+    "static_expanded_pass": true,
+    "maximum_column_violation": {
+      "numerator": "11",
+      "denominator": "140737488355328",
+      "float": 7.815970093361102e-14
+    },
+    "maximum_row_violation": {
+      "numerator": "38094240507634246187",
+      "denominator": "5070602400912917605986812821504",
+      "float": 7.512764262639822e-12
+    },
+    "static_maximum_row_violation": {
+      "numerator": "38094240507634246187",
+      "denominator": "5070602400912917605986812821504",
+      "float": 7.512764262639822e-12
+    },
+    "failed_expanded_rows": [],
+    "integer_scale_exponent": 103
+  },
+  "unknown_LP_exact_nonbinary_state_coordinates": 359,
+  "unknown_MIP_no_returned_incumbent": true,
+  "call_order_source_reviewed_and_log_completion_times_consistent": true,
+  "calls": [
+    {
+      "case": "seed_26093210",
+      "kind": "LP",
+      "seconds": 5.354152000014437,
+      "limit": 30,
+      "log_mtime_ns": 1790469312958658600
+    },
+    {
+      "case": "seed_26093211",
+      "kind": "LP",
+      "seconds": 4.879603999987012,
+      "limit": 30,
+      "log_mtime_ns": 1790469318855544300
+    },
+    {
+      "case": "seed_26093220",
+      "kind": "LP",
+      "seconds": 5.313145699998131,
+      "limit": 30,
+      "log_mtime_ns": 1790469324324311500
+    },
+    {
+      "case": "seed_26093221",
+      "kind": "LP",
+      "seconds": 4.626020700001391,
+      "limit": 30,
+      "log_mtime_ns": 1790469329798269700
+    },
+    {
+      "case": "seed_26093211",
+      "kind": "MIP",
+      "seconds": 300.4468343000044,
+      "limit": 300,
+      "log_mtime_ns": 1790469631461770100
+    }
+  ],
+  "solver_calls": 5,
+  "actual_LP_seconds": 20.17292240000097,
+  "actual_MIP_seconds": 300.4468343000044,
+  "phase_elapsed_s": 337.61820259998785,
+  "total_soft_solver_overrun_s": 0.4468343000044115,
+  "manifest_sha256": "56c5240486a8274ecb076b3aca49db236db4a7d72b865392016868119f7938dd",
+  "frozen_bindings": 246,
+  "all_hashes_unchanged": true,
+  "negative_review_sha256": "9f99adfc38d9055c51253ff1f2fce74a987b1670bc2c7adf4c45eeef1f592433",
+  "replayed_output_hashes": {
+    "results\\research8h\\fresh_january_weeks\\targets\\outcomes.json": "919ba5f4526a636d578b07a12dbed8959f2a3d0d5bf2be090cba5284b98359a1",
+    "results\\research8h\\fresh_january_weeks\\targets\\completion.json": "92d54c607c37366007f35c75ba228efaa9ed9a1e36ff362ed6d04d18312c488a",
+    "results\\research8h\\fresh_january_weeks\\targets\\final_manifest_check.json": "9472dce77795427b56c2721f41a9e8544f70adb8a5d7bec3549ef3d809ca5ca0",
+    "results\\research8h\\fresh_january_weeks\\targets\\execution_started.json": "3ba3dd2fecfcff0371d51a48e87b728ce0204c2435a02559aaa1af0a6e29d62e",
+    "results\\research8h\\fresh_january_weeks\\targets\\seed_26093210\\lp\\bounds.npz": "a30db0ca129e221871102d61c0e98cd015ea563d9bb5fc2d4fbd16936a2af68c",
+    "results\\research8h\\fresh_january_weeks\\targets\\seed_26093210\\lp\\dual_certificate.json": "c16e1574866bf9658425874365a08152817dbc8b0abefb01cf66e83a64b1c55b",
+    "results\\research8h\\fresh_january_weeks\\targets\\seed_26093210\\lp\\integrality.npz": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d",
+    "results\\research8h\\fresh_january_weeks\\targets\\seed_26093210\\lp\\matrix.npz": "2f11940f72432a2a2e89e4a88115eba3cf24a8e82a8110e250c6191020c1f0bb",
+    "results\\research8h\\fresh_january_weeks\\targets\\seed_26093210\\lp\\raw_solver_ray.npz": "8b1d0dfd3dc342b51646cee34d626fe48888b1eba26584c0bb889f1e22aa4d6d",
+    "results\\research8h\\fresh_january_weeks\\targets\\seed_26093210\\lp\\result.json": "11a8f0c48e1d30d12165cadb5784d122db2486ee14fff394fbe30e83eba28d83",
+    "results\\research8h\\fresh_january_weeks\\targets\\seed_26093210\\lp\\returned_vector.npz": "70b009523380bb6f15d6f62120053cff01371d381fed34ce131c83256dcb13c1",
+    "results\\research8h\\fresh_january_weeks\\targets\\seed_26093210\\lp\\row_metadata.csv.gz": "969626ee590f30a9832fc28cad5e1379cd0c562436a9e96a0e49da08a12641f0",
+    "results\\research8h\\fresh_january_weeks\\targets\\seed_26093210\\lp\\solver.log": "98c406024aebd4d8dd2cb76dff139383652ef570af0e4621b4c23b565fcf04ac",
+    "results\\research8h\\fresh_january_weeks\\targets\\seed_26093210\\lp\\sparse_multipliers.csv": "4dff8f406b2693af2181643b6ac928d96b38f59e6fb1171dc01dd4aa1638305b",
+    "results\\research8h\\fresh_january_weeks\\targets\\seed_26093211\\lp\\bounds.npz": "921740becef004e963854e66f5833476653ef2179836556d0bce108ff27a47a9",
+    "results\\research8h\\fresh_january_weeks\\targets\\seed_26093211\\lp\\integrality.npz": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d",
+    "results\\research8h\\fresh_january_weeks\\targets\\seed_26093211\\lp\\matrix.npz": "2f11940f72432a2a2e89e4a88115eba3cf24a8e82a8110e250c6191020c1f0bb",
+    "results\\research8h\\fresh_january_weeks\\targets\\seed_26093211\\lp\\result.json": "cb568e2d519c7247f06b5d552791e8adb88b9bd0d45c0f0aedbbfe23a5e720c1",
+    "results\\research8h\\fresh_january_weeks\\targets\\seed_26093211\\lp\\returned_vector.npz": "e95a152989b2699ed6913e81f79240ba387a1c0672faeab6f200d5b00a7d7e70",
+    "results\\research8h\\fresh_january_weeks\\targets\\seed_26093211\\lp\\row_metadata.csv.gz": "d80ffb0b2680d3841bd69d120b0dac1ffa91120bebe2c2dfe3243ce5fc0a1679",
+    "results\\research8h\\fresh_january_weeks\\targets\\seed_26093211\\lp\\solver.log": "ef1041ee933523da7ddbea208524dd3e66ed31a736ebde07a7e7d8941e2b4379",
+    "results\\research8h\\fresh_january_weeks\\targets\\seed_26093211\\mip\\result.json": "7e31ba6478b8d1cf8716496232fcd068cf5ae555cced3f0084b51031f078d37f",
+    "results\\research8h\\fresh_january_weeks\\targets\\seed_26093211\\mip\\solver.log": "a1b969c6de9bf23bd9be2c234c51cb0b9dadf116f47bfeaac781b387c0af4261",
+    "results\\research8h\\fresh_january_weeks\\targets\\seed_26093220\\lp\\bounds.npz": "0776ab390d0673ea681cb525b1e6a18aa9a8092f0843d535122ee82df17eb374",
+    "results\\research8h\\fresh_january_weeks\\targets\\seed_26093220\\lp\\dual_certificate.json": "e3dbc63687f42ab6236a998afe94c94d095fa60a5d2360ed7fdbee090c746924",
+    "results\\research8h\\fresh_january_weeks\\targets\\seed_26093220\\lp\\integrality.npz": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d",
+    "results\\research8h\\fresh_january_weeks\\targets\\seed_26093220\\lp\\matrix.npz": "2f11940f72432a2a2e89e4a88115eba3cf24a8e82a8110e250c6191020c1f0bb",
+    "results\\research8h\\fresh_january_weeks\\targets\\seed_26093220\\lp\\raw_solver_ray.npz": "0823c6c922e05f10907944dca32f0e022829da8f7c7df38d64f33219eeb09339",
+    "results\\research8h\\fresh_january_weeks\\targets\\seed_26093220\\lp\\result.json": "ac4704a7e531bd0564f456dc847030c4f295f7e10cc17dace4d5728d7fe7af0a",
+    "results\\research8h\\fresh_january_weeks\\targets\\seed_26093220\\lp\\returned_vector.npz": "c75d3a1302188bfba3c7567d3b8a092ba18dcf0a23d3cb1a96b16e584cf1dcb2",
+    "results\\research8h\\fresh_january_weeks\\targets\\seed_26093220\\lp\\row_metadata.csv.gz": "8de1e62a3d42dc4e734260994fa2a225003c8b816d44c17d325764aadd0784cf",
+    "results\\research8h\\fresh_january_weeks\\targets\\seed_26093220\\lp\\solver.log": "b75fcec5aad382b5831445072017e4f491ac3bbb9c5788e740dd6a2bd53b83a9",
+    "results\\research8h\\fresh_january_weeks\\targets\\seed_26093220\\lp\\sparse_multipliers.csv": "c6875f9f5a30e2065e173c3a8a895b1d78824b17bc08bd4212acdb64f228a7de",
+    "results\\research8h\\fresh_january_weeks\\targets\\seed_26093221\\lp\\bounds.npz": "d88ce1eaab97089d3fd6075eec13a6ca372ce845442ef11543ba41c4152f60c5",
+    "results\\research8h\\fresh_january_weeks\\targets\\seed_26093221\\lp\\dual_certificate.json": "46d444c976d8ae688ecf37beee1c46dceb7875d96527b8136008fdb88e393661",
+    "results\\research8h\\fresh_january_weeks\\targets\\seed_26093221\\lp\\integrality.npz": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d",
+    "results\\research8h\\fresh_january_weeks\\targets\\seed_26093221\\lp\\matrix.npz": "2f11940f72432a2a2e89e4a88115eba3cf24a8e82a8110e250c6191020c1f0bb",
+    "results\\research8h\\fresh_january_weeks\\targets\\seed_26093221\\lp\\raw_solver_ray.npz": "5395fbb57108d25edf10321451ab4c80aab448ffb970fbf9cfcbdace4fc53341",
+    "results\\research8h\\fresh_january_weeks\\targets\\seed_26093221\\lp\\result.json": "53b42df67960b48e916867475007b0b72e9484b659fc8b5f61d23b1874b06324",
+    "results\\research8h\\fresh_january_weeks\\targets\\seed_26093221\\lp\\returned_vector.npz": "1a5e4b7615ee8357012c6182812a636c9ae693db644c612d1df50d1b65038db4",
+    "results\\research8h\\fresh_january_weeks\\targets\\seed_26093221\\lp\\row_metadata.csv.gz": "f9f88cf542dcc7bb8d38914d1e70030c4427a7cab82296ff60fc372945859378",
+    "results\\research8h\\fresh_january_weeks\\targets\\seed_26093221\\lp\\solver.log": "8815caf517758d8273d03fcb5e7ad2b436882bf956cc2af646b3b3960e426513",
+    "results\\research8h\\fresh_january_weeks\\targets\\seed_26093221\\lp\\sparse_multipliers.csv": "1940ffc8c16ce0f7730646997e8202ec430ecacf7c36b2fb9ebb8f6a8efefe35"
+  },
+  "review_source_sha256": "80289d48a2787966bbcd4fbd0116d5f5b8624d494328831ffe24591ccfb1326e",
+  "elapsed_seconds": 2.0710450999904424,
+  "scope": "Full denominator retained. Log completion order supports reviewed sequential source; no unrecorded precise solver start times inferred. No nominal strict feasibility or population success-rate claim."
+}

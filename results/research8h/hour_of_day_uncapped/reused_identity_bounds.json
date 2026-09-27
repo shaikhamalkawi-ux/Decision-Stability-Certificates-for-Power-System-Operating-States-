@@ -1,0 +1,98 @@
+{
+  "case": "january_identity",
+  "optimization_calls": 0,
+  "prior_manifest_check": {
+    "pass": true,
+    "files": 59,
+    "manifest_sha256": "b85b1260ded4d4f0a2576c921a4d84581360bfe7adddac361d5ad8826fd6e32d"
+  },
+  "matrix_objective_bounds_original_integrality_equal_after_only_cap_deletion": true,
+  "exact_projected_dual_replay": true,
+  "exact_uncapped_binary_upper_check": {
+    "strict_pass": false,
+    "expanded_pass": true,
+    "original_binary_coordinates_exact": true,
+    "tau": {
+      "numerator": "5902958103587057",
+      "denominator": "590295810358705651712",
+      "float": 1e-05
+    },
+    "maximum_column_violation": {
+      "numerator": "12133",
+      "denominator": "562949953421312",
+      "float": 2.155253753244324e-11
+    },
+    "worst_column": {
+      "column": 4920,
+      "side": "lower"
+    },
+    "maximum_row_violation": {
+      "numerator": "8080919107015283899",
+      "denominator": "316912650057057350374175801344",
+      "float": 2.5498884647111388e-11
+    },
+    "worst_row": {
+      "row": 30908,
+      "side": "lower"
+    },
+    "arithmetic": "exact rational interpretation of every archived binary64 matrix/bound/vector coefficient",
+    "expanded_model": "every finite row/column bound expanded outward by exactly Fraction.from_float(1e-5)"
+  },
+  "native_no_cap_check": {
+    "pass": true,
+    "tolerance": 1e-05,
+    "residuals": {
+      "negative_dispatch_MW": 2.155253753244324e-11,
+      "availability_MW": 4.774847184307873e-12,
+      "hydro_fixed_MW": 0.0,
+      "aggregate_balance_MW": 1.4779288903810084e-11,
+      "binary_UYZ": 0.0,
+      "state_lower": 0.0,
+      "state_upper": 0.0,
+      "raw_commitment_upper_MW": 9.448442028769932e-12,
+      "raw_commitment_lower_MW": 2.155253753244324e-11,
+      "rounded_commitment_upper_MW": 9.448442028769932e-12,
+      "rounded_commitment_lower_MW": 2.155253753244324e-11,
+      "transition_identity": 0.0,
+      "exclusive_transition": 0.0,
+      "initial_transition": 0.0,
+      "startup_matches_observed": 0.0,
+      "shutdown_matches_observed": 0.0,
+      "observed_residence_violations": 0,
+      "native_on_on_ramp_MW": 0.0,
+      "provided_nodal_balance_MW": 2.5510009800139894e-11,
+      "provided_branch_excess_MW": 0.0,
+      "angle_bound_rad": 0.0,
+      "slack_angle_rad": 0.0
+    },
+    "dispatch_reconstructed_network": {
+      "balance_MW": 1.4779288903810084e-11,
+      "nodal_balance_MW": 1.3713474800169934e-11,
+      "branch_excess_MW": 0.0,
+      "max_branch_loading": 1.0,
+      "pass": true
+    },
+    "residence_violations": [],
+    "fossil_energy_MWh": 22964.941239556443,
+    "exact_binary64_fossil_energy_numerator": "1654798412944827657145",
+    "exact_binary64_fossil_energy_denominator": "72057594037927936",
+    "individual_mean_constraints": 0,
+    "energy_cap_constraints": 0
+  },
+  "lower_MWh": {
+    "numerator": "67692670989541805824312031500944438452884092390539984097",
+    "denominator": "2993155353253689176481146537402947624255349848014848",
+    "approximate": 22615.822769091137,
+    "outward_floor_6dp": "22615.822769",
+    "outward_ceiling_6dp": "22615.822770"
+  },
+  "reference_upper_MWh": {
+    "numerator": "1654798412944827657145",
+    "denominator": "72057594037927936",
+    "approximate": 22964.941239556443,
+    "outward_floor_6dp": "22964.941239",
+    "outward_ceiling_6dp": "22964.941240"
+  },
+  "parent_cap_row_0based": 24264,
+  "scope": "same uncapped uniformly expanded original-binary January identity"
+}

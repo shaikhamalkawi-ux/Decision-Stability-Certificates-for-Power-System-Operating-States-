@@ -1,0 +1,20 @@
+{
+  "utc": "2026-09-27T00:02:19.061824+00:00",
+  "stage": "references",
+  "cases": [
+    "week_2",
+    "week_3"
+  ],
+  "source_sha256": "5d89038f53760d8dff1cc521b641636fbbec490ea4842d3d9a524568fcdd36a7",
+  "protocol_sha256": "00cdcb9fde261660cc78e549e1bfd3426b81b1632ecf20e9f1ab86f23c0b39fd",
+  "manifest_sha256": "df48d8f6f60f51e43afa21ba4fcbd1438f274b86fb4a29e8fccbae3ae845fe26",
+  "source_v3": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-v8r1-evidence\\3\\.work\\v8r1_rts_inputs",
+  "cutoff_utc": "2026-09-27T04:00:00+00:00",
+  "optimizer_calls_started": 0,
+  "requires_independent_PASS_and_root_GO": true,
+  "seconds_per_case": 600,
+  "phase_seconds": 1800,
+  "start_guard_seconds": 605,
+  "objective": "23 fossil-unit MWh",
+  "no_warm_start_or_retry": true
+}

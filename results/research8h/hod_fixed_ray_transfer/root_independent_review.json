@@ -1,0 +1,75 @@
+{
+  "status": "PASS_COMPLETE",
+  "utc": "2026-09-27T00:34:14.571540+00:00",
+  "frozen_bindings": 106,
+  "optimizer_calls": 0,
+  "candidate_replays": [
+    {
+      "id": "seed_26093200__old_january_locality",
+      "rows": 28689,
+      "mapped_coefficients": 1268,
+      "status": "VALID_NONSEPARATING_RAY",
+      "expanded_gap": {
+        "numerator": "-47999535123148167591099312272503173956345652488144440393939290172208069",
+        "denominator": "822752278660603021077484591278675252491367932816789931674304512",
+        "float": -58340203.20343428
+      }
+    },
+    {
+      "id": "seed_26093200__own_full_to_two_cc",
+      "rows": 19985,
+      "mapped_coefficients": 866,
+      "status": "VALID_NONSEPARATING_RAY",
+      "expanded_gap": {
+        "numerator": "-402700049696021795595918600254724320388202324969229062391",
+        "denominator": "748288838313422294120286634350736906063837462003712",
+        "float": -538161.2407899502
+      }
+    },
+    {
+      "id": "seed_26093200__own_full_to_locality48",
+      "rows": 28689,
+      "mapped_coefficients": 1326,
+      "status": "VALID_NONSEPARATING_RAY",
+      "expanded_gap": {
+        "numerator": "-619406628094115218565171223326881599633524559853349010477",
+        "denominator": "748288838313422294120286634350736906063837462003712",
+        "float": -827764.0883835761
+      }
+    },
+    {
+      "id": "seed_26093201__old_january_locality",
+      "rows": 28689,
+      "mapped_coefficients": 1268,
+      "status": "VALID_NONSEPARATING_RAY",
+      "expanded_gap": {
+        "numerator": "-42063797512450590108159566641517595221852142365047196466782075919840197",
+        "denominator": "822752278660603021077484591278675252491367932816789931674304512",
+        "float": -51125713.78219482
+      }
+    },
+    {
+      "id": "seed_26093201__own_full_to_two_cc",
+      "rows": 19985,
+      "mapped_coefficients": 1002,
+      "status": "VALID_NONSEPARATING_RAY",
+      "expanded_gap": {
+        "numerator": "-214906748983139371249001935486087822923214979712927071461",
+        "denominator": "374144419156711147060143317175368453031918731001856",
+        "float": -574395.1746427767
+      }
+    },
+    {
+      "id": "seed_26093201__own_full_to_locality48",
+      "rows": 28689,
+      "mapped_coefficients": 1551,
+      "status": "VALID_NONSEPARATING_RAY",
+      "expanded_gap": {
+        "numerator": "-285520441695313970104656335456456040385169083337859718255",
+        "denominator": "374144419156711147060143317175368453031918731001856",
+        "float": -763128.9605731715
+      }
+    }
+  ],
+  "limitations": "Shared standalone mathematical checker; independent row-support and unchanged-coefficient mapping audit. A null certificate is not a feasibility witness. No minimum-support or information claim."
+}

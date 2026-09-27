@@ -1,0 +1,74 @@
+{
+  "case": "seed_26093201",
+  "verdict": "VERIFIED_UNCAPPED_BINARY_WITNESS_EXPANDED_MODEL",
+  "started_utc": "2026-09-27T00:19:35.669971+00:00",
+  "ended_utc": "2026-09-27T00:29:35.891554+00:00",
+  "elapsed_s": 600.1937996999768,
+  "optimization_calls": 1,
+  "model_status": "Time limit reached",
+  "run_status": "HighsStatus.kWarning",
+  "options": {
+    "time_limit": 600.0,
+    "threads": 1,
+    "random_seed": 0,
+    "presolve": "on",
+    "mip_rel_gap": 1e-08,
+    "log_to_console": false,
+    "log_file": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\hour_of_day_uncapped\\seed_26093201\\mip\\solver.log"
+  },
+  "solver_version": "1.12.0",
+  "solution_value_valid": true,
+  "numerical_objective_MWh": 24024.798983556408,
+  "numerical_lower_bound_MWh": 23827.310874086194,
+  "numerical_relative_gap": 0.00822017739275918,
+  "mip_node_count": 619,
+  "exact_optimality_claim": false,
+  "model_artifacts": {
+    "matrix.npz": "43eadfdf239a339757187fa4d52e786d1be7277bb93009d5ded1973523bf1386",
+    "bounds.npz": "842876a152e73d9b47ac767f8497a81e8644973d949c0c942e1c22cfd034f0db",
+    "objective.npz": "4a11881191004d9f39ed53d3cd18a5861829593b48c4e97d67e2af2d01b17632",
+    "integrality.npz": "3dce3436c853f1dcf296fce09408a6a3d1049e6c2a89568469af8a1c4ae6d73b",
+    "original_integrality.npz": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d",
+    "native_inputs.npz": "dcb27717a55c3c4548faa722f8e2f88cfbffd1e963f3ca5bf33e93e7c34e964e"
+  },
+  "prepared_manifest_sha256": "b0ffca41db74d7278c001c776ae3b8656272994d083c8fc215ecbbf665020f8a",
+  "raw_matrix_check": {
+    "pass": true,
+    "tolerance": 1e-05,
+    "residuals": {
+      "column_lower": 1.1506173791531182e-10,
+      "column_upper": 7.958078640513122e-12,
+      "row_lower": 9.86162262961443e-11,
+      "row_upper": 1.1506173791531182e-10
+    }
+  },
+  "eligible_for_recovery": true,
+  "P_theta_bytes_preserved": true,
+  "recovered_matrix_check": {
+    "pass": true,
+    "tolerance": 1e-05,
+    "residuals": {
+      "column_lower": 1.1506173791531182e-10,
+      "column_upper": 7.958078640513122e-12,
+      "row_lower": 9.86162262961443e-11,
+      "row_upper": 1.1506173791531182e-10
+    }
+  },
+  "native_no_cap_pass": true,
+  "exact_strict_pass": false,
+  "exact_expanded_pass": true,
+  "candidate_fossil_MWh": {
+    "numerator": "432792302999982809161",
+    "denominator": "18014398509481984",
+    "approximate": 24024.798983556408,
+    "outward_floor_6dp": "24024.798983",
+    "outward_ceiling_6dp": "24024.798984"
+  },
+  "verified_upper_MWh": {
+    "numerator": "432792302999982809161",
+    "denominator": "18014398509481984",
+    "approximate": 24024.798983556408,
+    "outward_floor_6dp": "24024.798983",
+    "outward_ceiling_6dp": "24024.798984"
+  }
+}

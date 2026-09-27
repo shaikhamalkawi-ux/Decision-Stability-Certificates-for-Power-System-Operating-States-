@@ -1,0 +1,708 @@
+{
+  "target_candidates": 6,
+  "target_candidate_checks": 6,
+  "optimizer_calls": 0,
+  "expanded_rejections": 0,
+  "all_outcomes_retained": true,
+  "all_frozen_hashes_unchanged": true,
+  "elapsed_seconds": 5.03712700001779,
+  "candidates": [
+    {
+      "id": "seed_26093200__old_january_locality",
+      "case": "seed_26093200",
+      "rule": "locality48",
+      "kind": "old_january_locality",
+      "verification": {
+        "status": "VALID_NONSEPARATING_RAY",
+        "strict_pass": false,
+        "expanded_pass": false,
+        "tau": {
+          "numerator": "5902958103587057",
+          "denominator": "590295810358705651712",
+          "float": 1e-05
+        },
+        "row_multiplier_nonzeros": 1268,
+        "combined_column_nonzeros": 4975,
+        "beta": {
+          "numerator": "31962854766726264985701999647864042668580041911239653",
+          "denominator": "89202980794122492566142873090593446023921664",
+          "float": 358315994.4004054
+        },
+        "box_maximum": {
+          "numerator": "163460492620411073719885082736612621340118366065572074819585864367",
+          "denominator": "392318858461667547739736838950479151006397215279002157056",
+          "float": 416652141.7332845
+        },
+        "separation_gap": {
+          "numerator": "-22886370728686768211717406741087931915836922976078422899316257455",
+          "denominator": "392318858461667547739736838950479151006397215279002157056",
+          "float": -58336147.33287907
+        },
+        "expanded_beta": {
+          "numerator": "67030753299319192715711046573288017661402827255331736889083",
+          "denominator": "187072209578355573530071658587684226515959365500928",
+          "float": 358314863.8186327
+        },
+        "expanded_box_maximum": {
+          "numerator": "342803905807891880132898091580744994673806690100777786001095272948085701",
+          "denominator": "822752278660603021077484591278675252491367932816789931674304512",
+          "float": 416655067.02206695
+        },
+        "expanded_separation_gap": {
+          "numerator": "-47999535123148167591099312272503173956345652488144440393939290172208069",
+          "denominator": "822752278660603021077484591278675252491367932816789931674304512",
+          "float": -58340203.20343428
+        },
+        "norm_formula_gap": {
+          "numerator": "-47999535123148167591099312272503173956345652488144440393939290172208069",
+          "denominator": "822752278660603021077484591278675252491367932816789931674304512",
+          "float": -58340203.20343428
+        },
+        "row_multiplier_l1": {
+          "numerator": "35829566569145880656779778620499202389",
+          "denominator": "316912650057057350374175801344",
+          "float": 113058177.26965168
+        },
+        "combined_column_l1": {
+          "numerator": "407725748568929126087839296729099020806411938600981",
+          "denominator": "1393796574908163946345982392040522594123776",
+          "float": 292528878.25168735
+        },
+        "independent_widened_endpoint_identity": true
+      },
+      "retained_row_family_counts": {
+        "aggregate_balance": 168,
+        "thermal_upper": 4032,
+        "thermal_lower": 4032,
+        "transition": 4008,
+        "exclusive_transition": 4008,
+        "minimum_up": 1023,
+        "minimum_down": 1001,
+        "fossil_energy_cap": 1,
+        "nodal_balance": 4032,
+        "branch_flow": 6384
+      },
+      "nonzero_multiplier_family_counts": {
+        "aggregate_balance": 83,
+        "thermal_upper": 165,
+        "thermal_lower": 373,
+        "transition": 347,
+        "minimum_up": 196,
+        "minimum_down": 15,
+        "fossil_energy_cap": 1,
+        "nodal_balance": 84,
+        "branch_flow": 4
+      },
+      "retained_dwell_rows": 2024,
+      "nonzero_dwell_multipliers": 211,
+      "nonzero_temporal_generator_uids": [
+        "101_CT_2",
+        "101_STEAM_3",
+        "101_STEAM_4",
+        "102_STEAM_3",
+        "102_STEAM_4",
+        "107_CC_1",
+        "113_CT_1",
+        "113_CT_2",
+        "113_CT_3",
+        "113_CT_4",
+        "115_STEAM_3",
+        "116_STEAM_1",
+        "118_CC_1",
+        "121_NUCLEAR_1",
+        "123_CT_1",
+        "123_CT_4",
+        "123_CT_5",
+        "123_STEAM_2",
+        "123_STEAM_3"
+      ],
+      "source_multiplier_count": 1268,
+      "retained_multiplier_count": 1268,
+      "dropped_multiplier_count": 0,
+      "candidate_sha256": "57abc3f5cc3217c29e3c0f264e8da6359b522af6d70dae461a86a7f9cad0ac56",
+      "target_model_artifacts": {
+        "matrix.npz": "91be4400b761da53e1353da5cdf86ee02e4245613f61dda6fee5faace2361b50",
+        "bounds.npz": "dcb1234dd8261135a7758aba86ba09d69db52ee84db4852c8316d421e1fa8ba9"
+      },
+      "experiment_manifest_sha256": "3753fdcd4bb9d4f04c45f538631f019e54ff17d5c834266d0807a1353b89366a",
+      "optimizer_calls": 0,
+      "interpretation": "Fixed sufficient proof candidate; null is not feasibility. Full static/network/cap background remains; no IIS, minimality or raw-information claim."
+    },
+    {
+      "id": "seed_26093200__own_full_to_two_cc",
+      "case": "seed_26093200",
+      "rule": "two_cc",
+      "kind": "own_full_to_two_cc",
+      "verification": {
+        "status": "VALID_NONSEPARATING_RAY",
+        "strict_pass": false,
+        "expanded_pass": false,
+        "tau": {
+          "numerator": "5902958103587057",
+          "denominator": "590295810358705651712",
+          "float": 1e-05
+        },
+        "row_multiplier_nonzeros": 866,
+        "combined_column_nonzeros": 4302,
+        "beta": {
+          "numerator": "26647361952915369499305355764533336920107217951",
+          "denominator": "5444517870735015415413993718908291383296",
+          "float": 4894347.412495121
+        },
+        "box_maximum": {
+          "numerator": "121147986283218235428861148256118560403645699090121",
+          "denominator": "22300745198530623141535718272648361505980416",
+          "float": 5432463.588310967
+        },
+        "separation_gap": {
+          "numerator": "-12000391724076881959706411044590012378886534362825",
+          "denominator": "22300745198530623141535718272648361505980416",
+          "float": -538116.1758158457
+        },
+        "expanded_beta": {
+          "numerator": "3662379210185418718082808809503230314860535645310138317115",
+          "denominator": "748288838313422294120286634350736906063837462003712",
+          "float": 4894338.953979458
+        },
+        "expanded_box_maximum": {
+          "numerator": "2032539629940720256839363704878977317624368985139683689753",
+          "denominator": "374144419156711147060143317175368453031918731001856",
+          "float": 5432500.194769408
+        },
+        "expanded_separation_gap": {
+          "numerator": "-402700049696021795595918600254724320388202324969229062391",
+          "denominator": "748288838313422294120286634350736906063837462003712",
+          "float": -538161.2407899502
+        },
+        "norm_formula_gap": {
+          "numerator": "-402700049696021795595918600254724320388202324969229062391",
+          "denominator": "748288838313422294120286634350736906063837462003712",
+          "float": -538161.2407899502
+        },
+        "row_multiplier_l1": {
+          "numerator": "1072244245806028113309749748676238101",
+          "denominator": "1267650600228229401496703205376",
+          "float": 845851.5663645645
+        },
+        "combined_column_l1": {
+          "numerator": "2320209950740322070440217183293415081",
+          "denominator": "633825300114114700748351602688",
+          "float": 3660645.8440876193
+        },
+        "independent_widened_endpoint_identity": true
+      },
+      "retained_row_family_counts": {
+        "aggregate_balance": 168,
+        "thermal_upper": 4032,
+        "thermal_lower": 4032,
+        "transition": 334,
+        "exclusive_transition": 334,
+        "minimum_up": 334,
+        "minimum_down": 334,
+        "fossil_energy_cap": 1,
+        "nodal_balance": 4032,
+        "branch_flow": 6384
+      },
+      "nonzero_multiplier_family_counts": {
+        "aggregate_balance": 76,
+        "thermal_upper": 213,
+        "thermal_lower": 426,
+        "transition": 51,
+        "minimum_up": 27,
+        "fossil_energy_cap": 1,
+        "nodal_balance": 69,
+        "branch_flow": 3
+      },
+      "retained_dwell_rows": 668,
+      "nonzero_dwell_multipliers": 27,
+      "nonzero_temporal_generator_uids": [
+        "107_CC_1",
+        "118_CC_1"
+      ],
+      "source_multiplier_count": 1442,
+      "retained_multiplier_count": 866,
+      "dropped_multiplier_count": 576,
+      "candidate_sha256": "cefe611ad6b904828fea142ce90d708217bb81e3679d9840e785aeeaa3b990b6",
+      "target_model_artifacts": {
+        "matrix.npz": "b5168a8e6dce1f8e64505e6cf713c36494bbf197465314d676fcd327009c0bcb",
+        "bounds.npz": "48af41db35bd7899d5f44c60dca5cd73d914f45bdcc1f4a893d0d50acb2177b6"
+      },
+      "experiment_manifest_sha256": "3753fdcd4bb9d4f04c45f538631f019e54ff17d5c834266d0807a1353b89366a",
+      "optimizer_calls": 0,
+      "interpretation": "Fixed sufficient proof candidate; null is not feasibility. Full static/network/cap background remains; no IIS, minimality or raw-information claim."
+    },
+    {
+      "id": "seed_26093200__own_full_to_locality48",
+      "case": "seed_26093200",
+      "rule": "locality48",
+      "kind": "own_full_to_locality48",
+      "verification": {
+        "status": "VALID_NONSEPARATING_RAY",
+        "strict_pass": false,
+        "expanded_pass": false,
+        "tau": {
+          "numerator": "5902958103587057",
+          "denominator": "590295810358705651712",
+          "float": 1e-05
+        },
+        "row_multiplier_nonzeros": 1326,
+        "combined_column_nonzeros": 5197,
+        "beta": {
+          "numerator": "26617303915965325305974675800651036544278688799",
+          "denominator": "5444517870735015415413993718908291383296",
+          "float": 4888826.623021436
+        },
+        "box_maximum": {
+          "numerator": "127482586711327905118835292960328629662634617235145",
+          "denominator": "22300745198530623141535718272648361505980416",
+          "float": 5716516.895575652
+        },
+        "separation_gap": {
+          "numerator": "-18458109871533932665563020880861983977269107914441",
+          "denominator": "22300745198530623141535718272648361505980416",
+          "float": -827690.2725542159
+        },
+        "expanded_beta": {
+          "numerator": "3658239128831645685544145514964986597839347786783570705211",
+          "denominator": "748288838313422294120286634350736906063837462003712",
+          "float": 4888806.22230982
+        },
+        "expanded_box_maximum": {
+          "numerator": "534705719615720113013664592286483524684109043329614964461",
+          "denominator": "93536104789177786765035829293842113257979682750464",
+          "float": 5716570.310693396
+        },
+        "expanded_separation_gap": {
+          "numerator": "-619406628094115218565171223326881599633524559853349010477",
+          "denominator": "748288838313422294120286634350736906063837462003712",
+          "float": -827764.0883835761
+        },
+        "norm_formula_gap": {
+          "numerator": "-619406628094115218565171223326881599633524559853349010477",
+          "denominator": "748288838313422294120286634350736906063837462003712",
+          "float": -827764.0883835761
+        },
+        "row_multiplier_l1": {
+          "numerator": "2586097432536522689201173477345736981",
+          "denominator": "1267650600228229401496703205376",
+          "float": 2040071.1616204958
+        },
+        "combined_column_l1": {
+          "numerator": "846396325869090998251313668717657533",
+          "denominator": "158456325028528675187087900672",
+          "float": 5341511.774406637
+        },
+        "independent_widened_endpoint_identity": true
+      },
+      "retained_row_family_counts": {
+        "aggregate_balance": 168,
+        "thermal_upper": 4032,
+        "thermal_lower": 4032,
+        "transition": 4008,
+        "exclusive_transition": 4008,
+        "minimum_up": 1023,
+        "minimum_down": 1001,
+        "fossil_energy_cap": 1,
+        "nodal_balance": 4032,
+        "branch_flow": 6384
+      },
+      "nonzero_multiplier_family_counts": {
+        "aggregate_balance": 76,
+        "thermal_upper": 213,
+        "thermal_lower": 426,
+        "transition": 426,
+        "minimum_up": 104,
+        "minimum_down": 8,
+        "fossil_energy_cap": 1,
+        "nodal_balance": 69,
+        "branch_flow": 3
+      },
+      "retained_dwell_rows": 2024,
+      "nonzero_dwell_multipliers": 112,
+      "nonzero_temporal_generator_uids": [
+        "101_CT_2",
+        "101_STEAM_3",
+        "101_STEAM_4",
+        "102_CT_2",
+        "102_STEAM_3",
+        "102_STEAM_4",
+        "107_CC_1",
+        "113_CT_1",
+        "113_CT_2",
+        "113_CT_3",
+        "113_CT_4",
+        "115_STEAM_1",
+        "115_STEAM_2",
+        "115_STEAM_3",
+        "116_STEAM_1",
+        "118_CC_1",
+        "123_CT_1",
+        "123_CT_4",
+        "123_CT_5",
+        "123_STEAM_2",
+        "123_STEAM_3"
+      ],
+      "source_multiplier_count": 1442,
+      "retained_multiplier_count": 1326,
+      "dropped_multiplier_count": 116,
+      "candidate_sha256": "f0b9ba85da4086c1318b8fd71f17f9f52ae81625d0e45fee22f112a1e23babfa",
+      "target_model_artifacts": {
+        "matrix.npz": "91be4400b761da53e1353da5cdf86ee02e4245613f61dda6fee5faace2361b50",
+        "bounds.npz": "dcb1234dd8261135a7758aba86ba09d69db52ee84db4852c8316d421e1fa8ba9"
+      },
+      "experiment_manifest_sha256": "3753fdcd4bb9d4f04c45f538631f019e54ff17d5c834266d0807a1353b89366a",
+      "optimizer_calls": 0,
+      "interpretation": "Fixed sufficient proof candidate; null is not feasibility. Full static/network/cap background remains; no IIS, minimality or raw-information claim."
+    },
+    {
+      "id": "seed_26093201__old_january_locality",
+      "case": "seed_26093201",
+      "rule": "locality48",
+      "kind": "old_january_locality",
+      "verification": {
+        "status": "VALID_NONSEPARATING_RAY",
+        "strict_pass": false,
+        "expanded_pass": false,
+        "tau": {
+          "numerator": "5902958103587057",
+          "denominator": "590295810358705651712",
+          "float": 1e-05
+        },
+        "row_multiplier_nonzeros": 1268,
+        "combined_column_nonzeros": 4975,
+        "beta": {
+          "numerator": "31876042797494194272799966112130010232893938460591077",
+          "denominator": "89202980794122492566142873090593446023921664",
+          "float": 357342798.5670461
+        },
+        "box_maximum": {
+          "numerator": "160248309287883457380278148887686538740636859902964775501187543727",
+          "denominator": "392318858461667547739736838950479151006397215279002157056",
+          "float": 408464456.4786857
+        },
+        "separation_gap": {
+          "numerator": "-20055990474562328265094679522943715981801855359092508703703724719",
+          "denominator": "392318858461667547739736838950479151006397215279002157056",
+          "float": -51121657.911639616
+        },
+        "expanded_beta": {
+          "numerator": "66848695404420217156007121139756320070838844031597174433531",
+          "denominator": "187072209578355573530071658587684226515959365500928",
+          "float": 357341667.98527336
+        },
+        "expanded_box_maximum": {
+          "numerator": "336067469107714924471058731045601962698138850488853563020917598021268421",
+          "denominator": "822752278660603021077484591278675252491367932816789931674304512",
+          "float": 408467381.7674682
+        },
+        "expanded_separation_gap": {
+          "numerator": "-42063797512450590108159566641517595221852142365047196466782075919840197",
+          "denominator": "822752278660603021077484591278675252491367932816789931674304512",
+          "float": -51125713.78219482
+        },
+        "norm_formula_gap": {
+          "numerator": "-42063797512450590108159566641517595221852142365047196466782075919840197",
+          "denominator": "822752278660603021077484591278675252491367932816789931674304512",
+          "float": -51125713.78219482
+        },
+        "row_multiplier_l1": {
+          "numerator": "35829566569145880656779778620499202389",
+          "denominator": "316912650057057350374175801344",
+          "float": 113058177.26965168
+        },
+        "combined_column_l1": {
+          "numerator": "407725748568929126087839296729099020806411938600981",
+          "denominator": "1393796574908163946345982392040522594123776",
+          "float": 292528878.25168735
+        },
+        "independent_widened_endpoint_identity": true
+      },
+      "retained_row_family_counts": {
+        "aggregate_balance": 168,
+        "thermal_upper": 4032,
+        "thermal_lower": 4032,
+        "transition": 4008,
+        "exclusive_transition": 4008,
+        "minimum_up": 1023,
+        "minimum_down": 1001,
+        "fossil_energy_cap": 1,
+        "nodal_balance": 4032,
+        "branch_flow": 6384
+      },
+      "nonzero_multiplier_family_counts": {
+        "aggregate_balance": 83,
+        "thermal_upper": 165,
+        "thermal_lower": 373,
+        "transition": 347,
+        "minimum_up": 196,
+        "minimum_down": 15,
+        "fossil_energy_cap": 1,
+        "nodal_balance": 84,
+        "branch_flow": 4
+      },
+      "retained_dwell_rows": 2024,
+      "nonzero_dwell_multipliers": 211,
+      "nonzero_temporal_generator_uids": [
+        "101_CT_2",
+        "101_STEAM_3",
+        "101_STEAM_4",
+        "102_STEAM_3",
+        "102_STEAM_4",
+        "107_CC_1",
+        "113_CT_1",
+        "113_CT_2",
+        "113_CT_3",
+        "113_CT_4",
+        "115_STEAM_3",
+        "116_STEAM_1",
+        "118_CC_1",
+        "121_NUCLEAR_1",
+        "123_CT_1",
+        "123_CT_4",
+        "123_CT_5",
+        "123_STEAM_2",
+        "123_STEAM_3"
+      ],
+      "source_multiplier_count": 1268,
+      "retained_multiplier_count": 1268,
+      "dropped_multiplier_count": 0,
+      "candidate_sha256": "aa48d0063c5cfc2410d307bebc257cc4ffa720561bf94ea18df35caea67498d7",
+      "target_model_artifacts": {
+        "matrix.npz": "91be4400b761da53e1353da5cdf86ee02e4245613f61dda6fee5faace2361b50",
+        "bounds.npz": "f428bf4c885b593b51baadef73d65c4516bd642e4fa9bb55ac5c926392837953"
+      },
+      "experiment_manifest_sha256": "3753fdcd4bb9d4f04c45f538631f019e54ff17d5c834266d0807a1353b89366a",
+      "optimizer_calls": 0,
+      "interpretation": "Fixed sufficient proof candidate; null is not feasibility. Full static/network/cap background remains; no IIS, minimality or raw-information claim."
+    },
+    {
+      "id": "seed_26093201__own_full_to_two_cc",
+      "case": "seed_26093201",
+      "rule": "two_cc",
+      "kind": "own_full_to_two_cc",
+      "verification": {
+        "status": "VALID_NONSEPARATING_RAY",
+        "strict_pass": false,
+        "expanded_pass": false,
+        "tau": {
+          "numerator": "5902958103587057",
+          "denominator": "590295810358705651712",
+          "float": 1e-05
+        },
+        "row_multiplier_nonzeros": 1002,
+        "combined_column_nonzeros": 4488,
+        "beta": {
+          "numerator": "12581216307285402093887672972297411887",
+          "denominator": "2535301200456458802993406410752",
+          "float": 4962414.842473259
+        },
+        "box_maximum": {
+          "numerator": "30868462749952454843455997414559365981914622209033",
+          "denominator": "5575186299632655785383929568162090376495104",
+          "float": 5536758.969289753
+        },
+        "separation_gap": {
+          "numerator": "-3202075507101798315349769234816390985380018662409",
+          "denominator": "5575186299632655785383929568162090376495104",
+          "float": -574344.126816494
+        },
+        "expanded_beta": {
+          "numerator": "1856656376736813596069074024166327447026491026872799436077",
+          "denominator": "374144419156711147060143317175368453031918731001856",
+          "float": 4962405.642509796
+        },
+        "expanded_box_maximum": {
+          "numerator": "1035781562859976483659037979826207634974853003292863253769",
+          "denominator": "187072209578355573530071658587684226515959365500928",
+          "float": 5536800.817152573
+        },
+        "expanded_separation_gap": {
+          "numerator": "-214906748983139371249001935486087822923214979712927071461",
+          "denominator": "374144419156711147060143317175368453031918731001856",
+          "float": -574395.1746427767
+        },
+        "norm_formula_gap": {
+          "numerator": "-214906748983139371249001935486087822923214979712927071461",
+          "denominator": "374144419156711147060143317175368453031918731001856",
+          "float": -574395.1746427767
+        },
+        "row_multiplier_l1": {
+          "numerator": "583116960290386026082744816341264387",
+          "denominator": "633825300114114700748351602688",
+          "float": 919996.3462887974
+        },
+        "combined_column_l1": {
+          "numerator": "1326211710545122152108234169577498009",
+          "denominator": "316912650057057350374175801344",
+          "float": 4184786.281981326
+        },
+        "independent_widened_endpoint_identity": true
+      },
+      "retained_row_family_counts": {
+        "aggregate_balance": 168,
+        "thermal_upper": 4032,
+        "thermal_lower": 4032,
+        "transition": 334,
+        "exclusive_transition": 334,
+        "minimum_up": 334,
+        "minimum_down": 334,
+        "fossil_energy_cap": 1,
+        "nodal_balance": 4032,
+        "branch_flow": 6384
+      },
+      "nonzero_multiplier_family_counts": {
+        "aggregate_balance": 78,
+        "thermal_upper": 255,
+        "thermal_lower": 499,
+        "transition": 60,
+        "minimum_up": 37,
+        "fossil_energy_cap": 1,
+        "nodal_balance": 69,
+        "branch_flow": 3
+      },
+      "retained_dwell_rows": 668,
+      "nonzero_dwell_multipliers": 37,
+      "nonzero_temporal_generator_uids": [
+        "107_CC_1",
+        "118_CC_1"
+      ],
+      "source_multiplier_count": 1706,
+      "retained_multiplier_count": 1002,
+      "dropped_multiplier_count": 704,
+      "candidate_sha256": "5e1e5d746dc5ee67b3ad7a883674a8f6404cf4f0bcad0599242244d33c107ddd",
+      "target_model_artifacts": {
+        "matrix.npz": "b5168a8e6dce1f8e64505e6cf713c36494bbf197465314d676fcd327009c0bcb",
+        "bounds.npz": "9ffb6d039e8f6a66db63bab36519e240729484137b3cdd453fec9a6e8bb86233"
+      },
+      "experiment_manifest_sha256": "3753fdcd4bb9d4f04c45f538631f019e54ff17d5c834266d0807a1353b89366a",
+      "optimizer_calls": 0,
+      "interpretation": "Fixed sufficient proof candidate; null is not feasibility. Full static/network/cap background remains; no IIS, minimality or raw-information claim."
+    },
+    {
+      "id": "seed_26093201__own_full_to_locality48",
+      "case": "seed_26093201",
+      "rule": "locality48",
+      "kind": "own_full_to_locality48",
+      "verification": {
+        "status": "VALID_NONSEPARATING_RAY",
+        "strict_pass": false,
+        "expanded_pass": false,
+        "tau": {
+          "numerator": "5902958103587057",
+          "denominator": "590295810358705651712",
+          "float": 1e-05
+        },
+        "row_multiplier_nonzeros": 1551,
+        "combined_column_nonzeros": 5446,
+        "beta": {
+          "numerator": "12553873745387662859074533003552398639",
+          "denominator": "2535301200456458802993406410752",
+          "float": 4951630.103408403
+        },
+        "box_maximum": {
+          "numerator": "31860406297335989054237345528023570587551784905737",
+          "denominator": "5575186299632655785383929568162090376495104",
+          "float": 5714680.1174043715
+        },
+        "separation_gap": {
+          "numerator": "-4254145983964831129578669776737706151399510912009",
+          "denominator": "5575186299632655785383929568162090376495104",
+          "float": -763050.0139959687
+        },
+        "expanded_beta": {
+          "numerator": "1852616380470477265901690323840527726785121531566161491469",
+          "denominator": "374144419156711147060143317175368453031918731001856",
+          "float": 4951607.683060228
+        },
+        "expanded_box_maximum": {
+          "numerator": "534534205541447809001586664824245941792572653726005302431",
+          "denominator": "93536104789177786765035829293842113257979682750464",
+          "float": 5714736.643633399
+        },
+        "expanded_separation_gap": {
+          "numerator": "-285520441695313970104656335456456040385169083337859718255",
+          "denominator": "374144419156711147060143317175368453031918731001856",
+          "float": -763128.9605731715
+        },
+        "norm_formula_gap": {
+          "numerator": "-285520441695313970104656335456456040385169083337859718255",
+          "denominator": "374144419156711147060143317175368453031918731001856",
+          "float": -763128.9605731715
+        },
+        "row_multiplier_l1": {
+          "numerator": "1421058391055726670658290945535131939",
+          "denominator": "633825300114114700748351602688",
+          "float": 2242034.8174802703
+        },
+        "combined_column_l1": {
+          "numerator": "895693851949103299498710540780394127",
+          "denominator": "158456325028528675187087900672",
+          "float": 5652622.902795716
+        },
+        "independent_widened_endpoint_identity": true
+      },
+      "retained_row_family_counts": {
+        "aggregate_balance": 168,
+        "thermal_upper": 4032,
+        "thermal_lower": 4032,
+        "transition": 4008,
+        "exclusive_transition": 4008,
+        "minimum_up": 1023,
+        "minimum_down": 1001,
+        "fossil_energy_cap": 1,
+        "nodal_balance": 4032,
+        "branch_flow": 6384
+      },
+      "nonzero_multiplier_family_counts": {
+        "aggregate_balance": 78,
+        "thermal_upper": 255,
+        "transition": 491,
+        "thermal_lower": 499,
+        "minimum_down": 10,
+        "minimum_up": 145,
+        "fossil_energy_cap": 1,
+        "nodal_balance": 69,
+        "branch_flow": 3
+      },
+      "retained_dwell_rows": 2024,
+      "nonzero_dwell_multipliers": 155,
+      "nonzero_temporal_generator_uids": [
+        "101_CT_1",
+        "101_CT_2",
+        "101_STEAM_3",
+        "101_STEAM_4",
+        "102_CT_1",
+        "102_CT_2",
+        "102_STEAM_3",
+        "102_STEAM_4",
+        "107_CC_1",
+        "113_CT_1",
+        "113_CT_2",
+        "113_CT_3",
+        "113_CT_4",
+        "115_STEAM_1",
+        "115_STEAM_2",
+        "115_STEAM_3",
+        "116_STEAM_1",
+        "118_CC_1",
+        "123_CT_1",
+        "123_CT_4",
+        "123_CT_5",
+        "123_STEAM_2",
+        "123_STEAM_3"
+      ],
+      "source_multiplier_count": 1706,
+      "retained_multiplier_count": 1551,
+      "dropped_multiplier_count": 155,
+      "candidate_sha256": "5127a835f60525583c0224aed6884683eebc74940cf51a643982bb5f7a99eaac",
+      "target_model_artifacts": {
+        "matrix.npz": "91be4400b761da53e1353da5cdf86ee02e4245613f61dda6fee5faace2361b50",
+        "bounds.npz": "f428bf4c885b593b51baadef73d65c4516bd642e4fa9bb55ac5c926392837953"
+      },
+      "experiment_manifest_sha256": "3753fdcd4bb9d4f04c45f538631f019e54ff17d5c834266d0807a1353b89366a",
+      "optimizer_calls": 0,
+      "interpretation": "Fixed sufficient proof candidate; null is not feasibility. Full static/network/cap background remains; no IIS, minimality or raw-information claim."
+    }
+  ],
+  "scope": "Post-label arithmetic explanation reuse on two known same-week HOD cases; no new replication or optimization"
+}

@@ -1,0 +1,189 @@
+{
+  "status": "SELECTED_RELOCATION_REPLAY_PASS",
+  "zip_sha256": "4e1315dffaa6d02e55db5af225b4b0e9d3a8106ee6ba070c43d0fbad000868c6",
+  "source_sha256": "19c903a49edbe02aca64765c40703f7f25fe0ad4e58c1c9fe1069062999e1f62",
+  "scratch": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\.work\\research8h_delivery\\relocated_checkpoint03",
+  "extracted_members": [
+    {
+      "path": "results/research8h/day_blocks/days_312/bounds.npz",
+      "bytes": 52056,
+      "sha256": "9be8aa03d19c0677a48fe9cfc7dd767e28b9269c4fc8198a54e37436439e9282"
+    },
+    {
+      "path": "results/research8h/day_blocks/days_312/constructive_vector.npz",
+      "bytes": 41236,
+      "sha256": "9beca0a4c6d31be407097a6d77e1ce99925b493dfd2ee064cc89ba02698bd7b2"
+    },
+    {
+      "path": "results/research8h/day_blocks/days_312/integrality.npz",
+      "bytes": 282,
+      "sha256": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d"
+    },
+    {
+      "path": "results/research8h/day_blocks/days_312/matrix.npz",
+      "bytes": 199281,
+      "sha256": "2f11940f72432a2a2e89e4a88115eba3cf24a8e82a8110e250c6191020c1f0bb"
+    },
+    {
+      "path": "results/research8h/hour_of_day/january_identity/bounds.npz",
+      "bytes": 52283,
+      "sha256": "44ddedc6dd4b06028b9c7d10180cac4889dd51658a560d49f66ef8f3e31ab2d2"
+    },
+    {
+      "path": "results/research8h/hour_of_day/january_identity/constructive_vector.npz",
+      "bytes": 41271,
+      "sha256": "7c534f8691c761815224ac43773259da5a8e1d3eb2aa892dcb64dc46541672db"
+    },
+    {
+      "path": "results/research8h/hour_of_day/january_identity/integrality.npz",
+      "bytes": 282,
+      "sha256": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d"
+    },
+    {
+      "path": "results/research8h/hour_of_day/january_identity/matrix.npz",
+      "bytes": 199281,
+      "sha256": "2f11940f72432a2a2e89e4a88115eba3cf24a8e82a8110e250c6191020c1f0bb"
+    },
+    {
+      "path": "results/research8h/hour_of_day/seed_26093200/lp/bounds.npz",
+      "bytes": 52361,
+      "sha256": "db1348bc87d18f00c2f597aa028ef1dfbf02b75756b9280ec6618a2c793a3554"
+    },
+    {
+      "path": "results/research8h/hour_of_day/seed_26093200/lp/dual_certificate.json",
+      "bytes": 119189,
+      "sha256": "8e8ebecfa75e1fee98ff615525e17ec22bc5dd280ab24a6dbe5fa6d4a206320a"
+    },
+    {
+      "path": "results/research8h/hour_of_day/seed_26093200/lp/matrix.npz",
+      "bytes": 199281,
+      "sha256": "2f11940f72432a2a2e89e4a88115eba3cf24a8e82a8110e250c6191020c1f0bb"
+    },
+    {
+      "path": "results/research8h/hour_of_day/seed_26093200/lp/raw_solver_ray.npz",
+      "bytes": 4983,
+      "sha256": "703ec5fa329ee3eb332d66722c49e838a118812628c9e5b83f24b47fd9172487"
+    },
+    {
+      "path": "results/research8h/hour_of_day/seed_26093200/lp/row_metadata.csv.gz",
+      "bytes": 147013,
+      "sha256": "4660b93a91fb9828471b80f3edf200c6e47454b9a8d95943041b74ed4a840d42"
+    },
+    {
+      "path": "results/research8h/hour_of_day/seed_26093201/lp/bounds.npz",
+      "bytes": 52786,
+      "sha256": "c219e6b64e8a7d89fa23fbf229c04cbd74e8316355259a0ef06b5b4625c01a26"
+    },
+    {
+      "path": "results/research8h/hour_of_day/seed_26093201/lp/dual_certificate.json",
+      "bytes": 140363,
+      "sha256": "638cedc44dba9fd2a4d880e80bb65ad2f946dca910277d98a1f31c08292601d4"
+    },
+    {
+      "path": "results/research8h/hour_of_day/seed_26093201/lp/matrix.npz",
+      "bytes": 199281,
+      "sha256": "2f11940f72432a2a2e89e4a88115eba3cf24a8e82a8110e250c6191020c1f0bb"
+    },
+    {
+      "path": "results/research8h/hour_of_day/seed_26093201/lp/raw_solver_ray.npz",
+      "bytes": 6331,
+      "sha256": "3d53299bf5ef85c7b47b6c2d19398002fb8506bb9015b41c8ac911bcd442c2d9"
+    },
+    {
+      "path": "results/research8h/hour_of_day/seed_26093201/lp/row_metadata.csv.gz",
+      "bytes": 147013,
+      "sha256": "239bdf757bc9c41b3fb943845443d3100bb3f29bc90590721b1c7495d46ceea6"
+    },
+    {
+      "path": "src/research8h_standalone_verify.py",
+      "bytes": 28861,
+      "sha256": "708c3843425eea494a0561e83a275f7059f22bcd546a036705323d056bcf906f"
+    }
+  ],
+  "results": [
+    {
+      "case": "self_test",
+      "status": "SELF_TESTS_PASS",
+      "elapsed_s": 1.0121889999718405,
+      "command": [
+        "C:\\Users\\gmalkawi\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-I",
+        "-S",
+        "src/research8h_standalone_verify.py",
+        "self-test"
+      ]
+    },
+    {
+      "case": "HOD_ray_0",
+      "status": "CERTIFIED_EXPANDED_INFEASIBLE",
+      "elapsed_s": 1.8846308000211138,
+      "command": [
+        "C:\\Users\\gmalkawi\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-I",
+        "-S",
+        "src/research8h_standalone_verify.py",
+        "ray",
+        "--model-dir",
+        "results/research8h/hour_of_day/seed_26093200/lp",
+        "--certificate",
+        "results/research8h/hour_of_day/seed_26093200/lp/dual_certificate.json"
+      ]
+    },
+    {
+      "case": "HOD_ray_1",
+      "status": "CERTIFIED_EXPANDED_INFEASIBLE",
+      "elapsed_s": 1.7314133999752812,
+      "command": [
+        "C:\\Users\\gmalkawi\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-I",
+        "-S",
+        "src/research8h_standalone_verify.py",
+        "ray",
+        "--model-dir",
+        "results/research8h/hour_of_day/seed_26093201/lp",
+        "--certificate",
+        "results/research8h/hour_of_day/seed_26093201/lp/dual_certificate.json"
+      ]
+    },
+    {
+      "case": "point_0",
+      "status": "CERTIFIED_EXPANDED_ONLY_POINT",
+      "elapsed_s": 2.9598460999841336,
+      "command": [
+        "C:\\Users\\gmalkawi\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-I",
+        "-S",
+        "src/research8h_standalone_verify.py",
+        "point",
+        "--model-dir",
+        "results/research8h/hour_of_day/january_identity",
+        "--vector",
+        "results/research8h/hour_of_day/january_identity/constructive_vector.npz",
+        "--integrality",
+        "results/research8h/hour_of_day/january_identity/integrality.npz"
+      ]
+    },
+    {
+      "case": "point_1",
+      "status": "CERTIFIED_EXPANDED_ONLY_POINT",
+      "elapsed_s": 2.57942739999271,
+      "command": [
+        "C:\\Users\\gmalkawi\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-I",
+        "-S",
+        "src/research8h_standalone_verify.py",
+        "point",
+        "--model-dir",
+        "results/research8h/day_blocks/days_312",
+        "--vector",
+        "results/research8h/day_blocks/days_312/constructive_vector.npz",
+        "--integrality",
+        "results/research8h/day_blocks/days_312/integrality.npz"
+      ]
+    }
+  ],
+  "new_optimization_calls": 0,
+  "same_host": true,
+  "new_experimental_cases": 0,
+  "scope": "Selected mathematical certificates replayed solely from ZIP member inputs using isolated stdlib Python. Full original-host manifests and native input assembly are not replayed here. Package manifest hashes checked for all extracted bytes. Not a second-machine test or general parser proof."
+}

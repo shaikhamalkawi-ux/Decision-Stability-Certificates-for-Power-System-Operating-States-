@@ -1,0 +1,25 @@
+{
+  "case": "seed_26093200",
+  "source_matrix_sha256": "2f11940f72432a2a2e89e4a88115eba3cf24a8e82a8110e250c6191020c1f0bb",
+  "source_bounds_sha256": "db1348bc87d18f00c2f597aa028ef1dfbf02b75756b9280ec6618a2c793a3554",
+  "source_native_sha256": "c6e3efd7ddb65960db87eac29707eae40862bb8ea04dc00a5d2c2035d96af177",
+  "source_integrality_sha256": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d",
+  "deleted_row_0based": 24264,
+  "deleted_family": "fossil_energy_cap",
+  "all_other_rows_and_bounds_unchanged": true,
+  "native_and_permutation_bytes_unchanged": true,
+  "objective_equals_deleted_cap_row": true,
+  "no_means_or_cap": true,
+  "projected_binary_columns": 4032,
+  "original_binary_columns": 12096,
+  "matrix_sha256": "43eadfdf239a339757187fa4d52e786d1be7277bb93009d5ded1973523bf1386",
+  "bounds_sha256": "eeed1da86ce32cb8a89e4dede73f7e05447ca29e5e23555c6e50613964b2d01f",
+  "objective_sha256": "4a11881191004d9f39ed53d3cd18a5861829593b48c4e97d67e2af2d01b17632",
+  "zero_dual_expanded_lower_MWh": {
+    "numerator": "-2851128764032548531",
+    "denominator": "73786976294838206464",
+    "approximate": -0.03864,
+    "outward_floor_6dp": -0.038641,
+    "outward_ceiling_6dp": -0.03864
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "strict_pass": false,
+  "expanded_pass": true,
+  "original_binary_coordinates_exact": true,
+  "tau": {
+    "numerator": "5902958103587057",
+    "denominator": "590295810358705651712",
+    "float": 1e-05
+  },
+  "maximum_column_violation": {
+    "numerator": "24295",
+    "denominator": "562949953421312",
+    "float": 4.3156589413229085e-11
+  },
+  "worst_column": {
+    "column": 1858,
+    "side": "lower"
+  },
+  "maximum_row_violation": {
+    "numerator": "373915156003952800473",
+    "denominator": "5070602400912917605986812821504",
+    "float": 7.374176211028351e-11
+  },
+  "worst_row": {
+    "row": 25947,
+    "side": "lower"
+  },
+  "arithmetic": "exact rational interpretation of every archived binary64 matrix/bound/vector coefficient",
+  "expanded_model": "every finite row/column bound expanded outward by exactly Fraction.from_float(1e-5)"
+}

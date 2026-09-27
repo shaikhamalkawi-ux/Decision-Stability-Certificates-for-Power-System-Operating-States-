@@ -1,0 +1,20 @@
+{
+  "bitwise_package_roundtrips": true,
+  "native_nodal_exact": true,
+  "hour_of_day_preserved": true,
+  "edges_fixed": true,
+  "fossil_energy_exactly_preserved": true,
+  "changed_hours": 2,
+  "source_continuity_breaks_after_destination_hours": [
+    56,
+    57,
+    80,
+    81
+  ],
+  "literal_changed_adjacent_source_pairs_after_destination_hours": [
+    56,
+    57,
+    80,
+    81
+  ]
+}

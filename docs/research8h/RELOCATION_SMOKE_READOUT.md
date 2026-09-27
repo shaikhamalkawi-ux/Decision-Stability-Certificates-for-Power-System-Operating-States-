@@ -1,0 +1,9 @@
+# Relocated archive replay
+
+The selected evidence from Checkpoint03 was copied into a fresh directory and verified using its packaged standalone checker with Python -I -S. The package ZIP hash was checked before reading; all 19 selected source/model/point/certificate members matched the package manifest before extraction. Paths were checked to remain beneath the fresh extraction directory. No optimization or native model assembly was performed.
+
+The 35 small checker tests, both hour-of-day negative rays, the January identity and the whole-day days_312 positive witness all passed. Both negative gaps exactly reproduce their archived fractions. Both positive points satisfy only the declared uniformly expanded original-binary model, as expected; strict nominal membership is not claimed. See results/research8h/relocation_smoke/summary.json and the four mathematical reports.
+
+This is a relocation check on the same Windows host with an isolated standard-library interpreter, not a test on a second machine. Full original-host experiment manifests and native data reconstruction were not requested from the checker; its reports retain that explicit provenance limitation. The encompassing package was independently checked against its committed Git blobs and six published manifests during packaging. These checks support different parts of the evidence chain and are not interchangeable.
+
+Reproduce by giving src/research8h_relocation_check.py the unchanged Checkpoint03 ZIP, a nonexistent scratch directory and a nonexistent report directory. The script refuses a ZIP with a different expected SHA256 and never overwrites an existing output directory. Its fixed selection contains two negative and two positive fixtures; it adds no new experimental cases or parser-wide correctness guarantee.

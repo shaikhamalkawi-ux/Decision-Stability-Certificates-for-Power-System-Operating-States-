@@ -1,0 +1,72 @@
+{
+  "week": 3,
+  "optimizer_calls": 0,
+  "producer_verdict": "VERIFIED_REFERENCE_EXPANDED_MODEL",
+  "model_status": "Time limit reached",
+  "reported_solver_seconds": 600.3401202000096,
+  "exact_optimality_claim": false,
+  "review_source_sha256": "ee35dbe4878252c33381fe5a0202844601e14f1350df36fdf66f55632a8f5183",
+  "status": "INDEPENDENT_EXPANDED_BINARY_REFERENCE_PASS",
+  "original_binary_coordinates": 12096,
+  "P_theta_bytes_preserved": true,
+  "U_recovery_exactly_checked": true,
+  "YZ_canonical_exact": true,
+  "exact_point": {
+    "binary_exact": true,
+    "binary_count": 12096,
+    "full_expanded_pass": true,
+    "full_strict_pass": false,
+    "static_expanded_pass": true,
+    "maximum_column_violation": {
+      "numerator": "0",
+      "denominator": "1",
+      "float": 0.0
+    },
+    "maximum_row_violation": {
+      "numerator": "21374331876572903777",
+      "denominator": "5070602400912917605986812821504",
+      "float": 4.2153436981619075e-12
+    },
+    "static_maximum_row_violation": {
+      "numerator": "21374331876572903777",
+      "denominator": "5070602400912917605986812821504",
+      "float": 4.2153436981619075e-12
+    },
+    "failed_expanded_rows": [],
+    "integer_scale_exponent": 69
+  },
+  "exact_fossil_MWh": {
+    "numerator": "1683230331936304381",
+    "denominator": "35184372088832",
+    "float": 47840.28339873613
+  },
+  "strict_pass": false,
+  "native_scope": "Stored producer native check passes; native data reproduced independently at prepared gate, no repeated native assembler call",
+  "replayed_files_sha256": {
+    "results\\research8h\\fresh_january_weeks\\references\\week_3\\angles.csv": "e363e501eeff2caf3fa579f8e6dd15187958f8c218790d688f93e632d9f9416a",
+    "results\\research8h\\fresh_january_weeks\\references\\week_3\\bounds.npz": "d04ec3d429a8ab43fbbc7cf91a04bda985cef562596303029abeb30ba8b4fe3e",
+    "results\\research8h\\fresh_january_weeks\\references\\week_3\\commitment.csv": "edd9732ce6725b85048310f4aac6a04e4cb39321ceca7d438a10e502d7ee6d75",
+    "results\\research8h\\fresh_january_weeks\\references\\week_3\\dispatch.csv": "a53a34c249488f676961df0fd81920d639b8070ecec0684423bb4cba7df008eb",
+    "results\\research8h\\fresh_january_weeks\\references\\week_3\\exact_point_check.json": "0458575179be4297c00bf1302aaa23c794b876b57580454555017f165ff9995c",
+    "results\\research8h\\fresh_january_weeks\\references\\week_3\\integrality.npz": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d",
+    "results\\research8h\\fresh_january_weeks\\references\\week_3\\matrix.npz": "43eadfdf239a339757187fa4d52e786d1be7277bb93009d5ded1973523bf1386",
+    "results\\research8h\\fresh_january_weeks\\references\\week_3\\model_metadata.json": "1920bfe421412b2ce64be9f02dddaee933e5ae1394532a56b37dc78adcbb06af",
+    "results\\research8h\\fresh_january_weeks\\references\\week_3\\native_adapter_audit.json": "51cdc4822f181a30c3e1f7bf3a038c72efb1ccb2ce6088c1ed383c3bc821423b",
+    "results\\research8h\\fresh_january_weeks\\references\\week_3\\native_inputs.npz": "59c081731e57882369c21a1af19f66347f145aeb3a44b5fafe283ee8ef6efa59",
+    "results\\research8h\\fresh_january_weeks\\references\\week_3\\native_no_cap_check.json": "7de3475f672132ed6e53cd5193f6e442d889620624cb8133dd1b34c5fee54a2b",
+    "results\\research8h\\fresh_january_weeks\\references\\week_3\\objective.npz": "4a11881191004d9f39ed53d3cd18a5861829593b48c4e97d67e2af2d01b17632",
+    "results\\research8h\\fresh_january_weeks\\references\\week_3\\projected_integrality.npz": "3dce3436c853f1dcf296fce09408a6a3d1049e6c2a89568469af8a1c4ae6d73b",
+    "results\\research8h\\fresh_january_weeks\\references\\week_3\\projection_audit.json": "e9648ffe394153363cc189379abca6edf6e2c18e40dcf9206ad9347283524473",
+    "results\\research8h\\fresh_january_weeks\\references\\week_3\\raw_vector.npz": "7481a3fe6e2da571da8f8a3db0ba835d90b2f628df11daf4b3fff9f593468093",
+    "results\\research8h\\fresh_january_weeks\\references\\week_3\\recovered_vector.npz": "7481a3fe6e2da571da8f8a3db0ba835d90b2f628df11daf4b3fff9f593468093",
+    "results\\research8h\\fresh_january_weeks\\references\\week_3\\result.json": "8f8842eb58b06dfe39f423c12d75b6f9eb968a6ca50086bf5926862c1ede0797",
+    "results\\research8h\\fresh_january_weeks\\references\\week_3\\row_metadata.csv.gz": "df792e20ec67978d17af3f6f3499fe5b7f78b877769131f00a280732af6b45b3",
+    "results\\research8h\\fresh_january_weeks\\references\\week_3\\shutdown.csv": "639c3c5082341a2d3a5da293b8641674143d7dee92ede69d0034cb7a1f72b15c",
+    "results\\research8h\\fresh_january_weeks\\references\\week_3\\solver.log": "8b1c772d29c1c7016c6452fed9aaa90a768d2f473ff4ece23de89e9041eed047",
+    "results\\research8h\\fresh_january_weeks\\references\\week_3\\source_hours.csv": "f220f441a82b021929ccc4014e014f32ffb025e59a0906bf5dd858a0c35fd5c1",
+    "results\\research8h\\fresh_january_weeks\\references\\week_3\\startup.csv": "bdac53ff54a03acf43620e3c46de7d3227e3a2f13becb709bd67649f122ee6e6"
+  },
+  "all_input_and_result_hashes_unchanged": true,
+  "manifest_sha256": "df48d8f6f60f51e43afa21ba4fcbd1438f274b86fb4a29e8fccbae3ae845fe26",
+  "elapsed_seconds": 2.3934830999933183
+}

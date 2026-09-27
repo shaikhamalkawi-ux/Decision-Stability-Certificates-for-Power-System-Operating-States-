@@ -1,0 +1,121 @@
+{
+  "id": "seed_26093201__old_january_locality",
+  "case": "seed_26093201",
+  "rule": "locality48",
+  "kind": "old_january_locality",
+  "verification": {
+    "status": "VALID_NONSEPARATING_RAY",
+    "strict_pass": false,
+    "expanded_pass": false,
+    "tau": {
+      "numerator": "5902958103587057",
+      "denominator": "590295810358705651712",
+      "float": 1e-05
+    },
+    "row_multiplier_nonzeros": 1268,
+    "combined_column_nonzeros": 4975,
+    "beta": {
+      "numerator": "31876042797494194272799966112130010232893938460591077",
+      "denominator": "89202980794122492566142873090593446023921664",
+      "float": 357342798.5670461
+    },
+    "box_maximum": {
+      "numerator": "160248309287883457380278148887686538740636859902964775501187543727",
+      "denominator": "392318858461667547739736838950479151006397215279002157056",
+      "float": 408464456.4786857
+    },
+    "separation_gap": {
+      "numerator": "-20055990474562328265094679522943715981801855359092508703703724719",
+      "denominator": "392318858461667547739736838950479151006397215279002157056",
+      "float": -51121657.911639616
+    },
+    "expanded_beta": {
+      "numerator": "66848695404420217156007121139756320070838844031597174433531",
+      "denominator": "187072209578355573530071658587684226515959365500928",
+      "float": 357341667.98527336
+    },
+    "expanded_box_maximum": {
+      "numerator": "336067469107714924471058731045601962698138850488853563020917598021268421",
+      "denominator": "822752278660603021077484591278675252491367932816789931674304512",
+      "float": 408467381.7674682
+    },
+    "expanded_separation_gap": {
+      "numerator": "-42063797512450590108159566641517595221852142365047196466782075919840197",
+      "denominator": "822752278660603021077484591278675252491367932816789931674304512",
+      "float": -51125713.78219482
+    },
+    "norm_formula_gap": {
+      "numerator": "-42063797512450590108159566641517595221852142365047196466782075919840197",
+      "denominator": "822752278660603021077484591278675252491367932816789931674304512",
+      "float": -51125713.78219482
+    },
+    "row_multiplier_l1": {
+      "numerator": "35829566569145880656779778620499202389",
+      "denominator": "316912650057057350374175801344",
+      "float": 113058177.26965168
+    },
+    "combined_column_l1": {
+      "numerator": "407725748568929126087839296729099020806411938600981",
+      "denominator": "1393796574908163946345982392040522594123776",
+      "float": 292528878.25168735
+    },
+    "independent_widened_endpoint_identity": true
+  },
+  "retained_row_family_counts": {
+    "aggregate_balance": 168,
+    "thermal_upper": 4032,
+    "thermal_lower": 4032,
+    "transition": 4008,
+    "exclusive_transition": 4008,
+    "minimum_up": 1023,
+    "minimum_down": 1001,
+    "fossil_energy_cap": 1,
+    "nodal_balance": 4032,
+    "branch_flow": 6384
+  },
+  "nonzero_multiplier_family_counts": {
+    "aggregate_balance": 83,
+    "thermal_upper": 165,
+    "thermal_lower": 373,
+    "transition": 347,
+    "minimum_up": 196,
+    "minimum_down": 15,
+    "fossil_energy_cap": 1,
+    "nodal_balance": 84,
+    "branch_flow": 4
+  },
+  "retained_dwell_rows": 2024,
+  "nonzero_dwell_multipliers": 211,
+  "nonzero_temporal_generator_uids": [
+    "101_CT_2",
+    "101_STEAM_3",
+    "101_STEAM_4",
+    "102_STEAM_3",
+    "102_STEAM_4",
+    "107_CC_1",
+    "113_CT_1",
+    "113_CT_2",
+    "113_CT_3",
+    "113_CT_4",
+    "115_STEAM_3",
+    "116_STEAM_1",
+    "118_CC_1",
+    "121_NUCLEAR_1",
+    "123_CT_1",
+    "123_CT_4",
+    "123_CT_5",
+    "123_STEAM_2",
+    "123_STEAM_3"
+  ],
+  "source_multiplier_count": 1268,
+  "retained_multiplier_count": 1268,
+  "dropped_multiplier_count": 0,
+  "candidate_sha256": "aa48d0063c5cfc2410d307bebc257cc4ffa720561bf94ea18df35caea67498d7",
+  "target_model_artifacts": {
+    "matrix.npz": "91be4400b761da53e1353da5cdf86ee02e4245613f61dda6fee5faace2361b50",
+    "bounds.npz": "f428bf4c885b593b51baadef73d65c4516bd642e4fa9bb55ac5c926392837953"
+  },
+  "experiment_manifest_sha256": "3753fdcd4bb9d4f04c45f538631f019e54ff17d5c834266d0807a1353b89366a",
+  "optimizer_calls": 0,
+  "interpretation": "Fixed sufficient proof candidate; null is not feasibility. Full static/network/cap background remains; no IIS, minimality or raw-information claim."
+}
