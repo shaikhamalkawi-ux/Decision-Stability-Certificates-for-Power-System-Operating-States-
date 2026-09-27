@@ -1,0 +1,102 @@
+[
+  {
+    "kind": "IDENTITY_LP",
+    "case": "week_2_identity",
+    "utc": "2026-09-27T01:02:48.857883+00:00",
+    "phase_remaining_s": 3598.905666800012,
+    "cutoff_remaining_s": 10631.142117,
+    "guard_s": 65,
+    "admitted": true,
+    "reason": "ADMITTED"
+  },
+  {
+    "kind": "IDENTITY_LP",
+    "case": "week_3_identity",
+    "utc": "2026-09-27T01:02:50.073077+00:00",
+    "phase_remaining_s": 3597.6899428000033,
+    "cutoff_remaining_s": 10629.926923,
+    "guard_s": 65,
+    "admitted": true,
+    "reason": "ADMITTED"
+  },
+  {
+    "kind": "TARGET_MIP",
+    "case": "seed_26093210",
+    "utc": "2026-09-27T01:02:51.316028+00:00",
+    "phase_remaining_s": 3596.4470962000196,
+    "cutoff_remaining_s": 10628.683972,
+    "guard_s": 605,
+    "admitted": true,
+    "reason": "ADMITTED"
+  },
+  {
+    "kind": "TARGET_MIP",
+    "case": "seed_26093211",
+    "utc": "2026-09-27T01:12:54.715332+00:00",
+    "phase_remaining_s": 2993.0478566999955,
+    "cutoff_remaining_s": 10025.284668,
+    "guard_s": 605,
+    "admitted": true,
+    "reason": "ADMITTED"
+  },
+  {
+    "kind": "TARGET_MIP",
+    "case": "seed_26093220",
+    "utc": "2026-09-27T01:23:00.132431+00:00",
+    "phase_remaining_s": 2387.6302276000206,
+    "cutoff_remaining_s": 9419.867569,
+    "guard_s": 605,
+    "admitted": true,
+    "reason": "ADMITTED"
+  },
+  {
+    "kind": "TARGET_MIP",
+    "case": "seed_26093221",
+    "utc": "2026-09-27T01:33:02.794114+00:00",
+    "phase_remaining_s": 1784.9690183000057,
+    "cutoff_remaining_s": 8817.205886,
+    "guard_s": 605,
+    "admitted": true,
+    "reason": "ADMITTED"
+  },
+  {
+    "kind": "TARGET_LP",
+    "case": "seed_26093210",
+    "utc": "2026-09-27T01:43:06.422539+00:00",
+    "phase_remaining_s": 1181.3403239000181,
+    "cutoff_remaining_s": 8213.577461,
+    "guard_s": 65,
+    "admitted": true,
+    "reason": "ADMITTED"
+  },
+  {
+    "kind": "TARGET_LP",
+    "case": "seed_26093211",
+    "utc": "2026-09-27T01:43:08.292047+00:00",
+    "phase_remaining_s": 1179.4715167999966,
+    "cutoff_remaining_s": 8211.707953,
+    "guard_s": 65,
+    "admitted": true,
+    "reason": "ADMITTED"
+  },
+  {
+    "kind": "TARGET_LP",
+    "case": "seed_26093220",
+    "utc": "2026-09-27T01:43:10.503649+00:00",
+    "phase_remaining_s": 1177.2599051000143,
+    "cutoff_remaining_s": 8209.496351,
+    "guard_s": 65,
+    "admitted": true,
+    "reason": "ADMITTED"
+  },
+  {
+    "kind": "TARGET_LP",
+    "case": "seed_26093221",
+    "utc": "2026-09-27T01:43:13.631632+00:00",
+    "phase_remaining_s": 1174.1312447999953,
+    "cutoff_remaining_s": 8206.368368,
+    "guard_s": 65,
+    "admitted": true,
+    "reason": "ADMITTED"
+  }
+]

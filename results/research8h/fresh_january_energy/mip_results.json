@@ -1,0 +1,298 @@
+{
+  "seed_26093210": {
+    "case": "seed_26093210",
+    "verdict": "VERIFIED_UNCAPPED_BINARY_WITNESS_EXPANDED_MODEL",
+    "started_utc": "2026-09-27T01:02:51.317026+00:00",
+    "ended_utc": "2026-09-27T01:12:51.574320+00:00",
+    "elapsed_s": 600.2466681000078,
+    "optimization_calls": 1,
+    "model_status": "Time limit reached",
+    "run_status": "HighsStatus.kWarning",
+    "options": {
+      "time_limit": 600.0,
+      "threads": 1,
+      "random_seed": 0,
+      "presolve": "on",
+      "mip_rel_gap": 1e-08,
+      "log_to_console": false,
+      "log_file": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\fresh_january_energy\\seed_26093210\\mip\\solver.log"
+    },
+    "solver_version": "1.12.0",
+    "solution_value_valid": true,
+    "numerical_objective_MWh": 27692.932210899493,
+    "numerical_lower_bound_MWh": 26847.325984294497,
+    "numerical_relative_gap": 0.03053509177595077,
+    "mip_node_count": 800,
+    "exact_optimality_claim": false,
+    "model_artifacts": {
+      "matrix.npz": "43eadfdf239a339757187fa4d52e786d1be7277bb93009d5ded1973523bf1386",
+      "bounds.npz": "460256f48c1cd1f06db5fcd06ebe51c752065196ee71adba39bcfc80de9a6e23",
+      "objective.npz": "4a11881191004d9f39ed53d3cd18a5861829593b48c4e97d67e2af2d01b17632",
+      "integrality.npz": "3dce3436c853f1dcf296fce09408a6a3d1049e6c2a89568469af8a1c4ae6d73b",
+      "original_integrality.npz": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d",
+      "native_inputs.npz": "95a05fa6afc5a9f301b7fa6df9b3dde0f64a4a688ec4eb1d26fd1ca417b1bdf9"
+    },
+    "prepared_manifest_sha256": "44b382d30a30b8485beda0cf080d22cd991b55a9f37491939f633d147bc14f2a",
+    "raw_matrix_check": {
+      "pass": true,
+      "tolerance": 1e-05,
+      "residuals": {
+        "column_lower": 3.3965257273393945e-09,
+        "column_upper": 1.1027623258996755e-11,
+        "row_lower": 2.5056579033844173e-10,
+        "row_upper": 3.3965257273393945e-09
+      }
+    },
+    "eligible_for_recovery": true,
+    "P_theta_bytes_preserved": true,
+    "recovered_matrix_check": {
+      "pass": true,
+      "tolerance": 1e-05,
+      "residuals": {
+        "column_lower": 3.3965257273393945e-09,
+        "column_upper": 1.1027623258996755e-11,
+        "row_lower": 2.5056579033844173e-10,
+        "row_upper": 3.3965257273393945e-09
+      }
+    },
+    "native_no_cap_pass": true,
+    "exact_strict_pass": false,
+    "exact_expanded_pass": true,
+    "candidate_fossil_MWh": {
+      "numerator": "62358939592901681319",
+      "denominator": "2251799813685248",
+      "approximate": 27692.932210899493,
+      "outward_floor_6dp": "27692.932210",
+      "outward_ceiling_6dp": "27692.932211"
+    },
+    "verified_upper_MWh": {
+      "numerator": "62358939592901681319",
+      "denominator": "2251799813685248",
+      "approximate": 27692.932210899493,
+      "outward_floor_6dp": "27692.932210",
+      "outward_ceiling_6dp": "27692.932211"
+    }
+  },
+  "seed_26093211": {
+    "case": "seed_26093211",
+    "verdict": "VERIFIED_UNCAPPED_BINARY_WITNESS_EXPANDED_MODEL",
+    "started_utc": "2026-09-27T01:12:54.716333+00:00",
+    "ended_utc": "2026-09-27T01:22:54.851982+00:00",
+    "elapsed_s": 600.1279706000059,
+    "optimization_calls": 1,
+    "model_status": "Time limit reached",
+    "run_status": "HighsStatus.kWarning",
+    "options": {
+      "time_limit": 600.0,
+      "threads": 1,
+      "random_seed": 0,
+      "presolve": "on",
+      "mip_rel_gap": 1e-08,
+      "log_to_console": false,
+      "log_file": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\fresh_january_energy\\seed_26093211\\mip\\solver.log"
+    },
+    "solver_version": "1.12.0",
+    "solution_value_valid": true,
+    "numerical_objective_MWh": 28181.300146899805,
+    "numerical_lower_bound_MWh": 26362.15282447115,
+    "numerical_relative_gap": 0.064551575439956,
+    "mip_node_count": 1085,
+    "exact_optimality_claim": false,
+    "model_artifacts": {
+      "matrix.npz": "43eadfdf239a339757187fa4d52e786d1be7277bb93009d5ded1973523bf1386",
+      "bounds.npz": "c3ce048491371d8f0151e18fa1d657c0239b0dba3f77bfa1a744a94d6b5f0576",
+      "objective.npz": "4a11881191004d9f39ed53d3cd18a5861829593b48c4e97d67e2af2d01b17632",
+      "integrality.npz": "3dce3436c853f1dcf296fce09408a6a3d1049e6c2a89568469af8a1c4ae6d73b",
+      "original_integrality.npz": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d",
+      "native_inputs.npz": "a32addb7ed782be0ad6733821359c93998a2089fbcd9f00e849554254223be1c"
+    },
+    "prepared_manifest_sha256": "44b382d30a30b8485beda0cf080d22cd991b55a9f37491939f633d147bc14f2a",
+    "raw_matrix_check": {
+      "pass": true,
+      "tolerance": 1e-05,
+      "residuals": {
+        "column_lower": 2.5049295970802632e-11,
+        "column_upper": 5.115907697472721e-12,
+        "row_lower": 1.757882728270488e-11,
+        "row_upper": 3.4294345141461235e-11
+      }
+    },
+    "eligible_for_recovery": true,
+    "P_theta_bytes_preserved": true,
+    "recovered_matrix_check": {
+      "pass": true,
+      "tolerance": 1e-05,
+      "residuals": {
+        "column_lower": 2.5049295970802632e-11,
+        "column_upper": 5.115907697472721e-12,
+        "row_lower": 1.757882728270488e-11,
+        "row_upper": 3.4294345141461235e-11
+      }
+    },
+    "native_no_cap_pass": true,
+    "exact_strict_pass": false,
+    "exact_expanded_pass": true,
+    "candidate_fossil_MWh": {
+      "numerator": "139547039243864944018083235965575",
+      "denominator": "4951760157141521099596496896",
+      "approximate": 28181.300146899805,
+      "outward_floor_6dp": "28181.300146",
+      "outward_ceiling_6dp": "28181.300147"
+    },
+    "verified_upper_MWh": {
+      "numerator": "139547039243864944018083235965575",
+      "denominator": "4951760157141521099596496896",
+      "approximate": 28181.300146899805,
+      "outward_floor_6dp": "28181.300146",
+      "outward_ceiling_6dp": "28181.300147"
+    }
+  },
+  "seed_26093220": {
+    "case": "seed_26093220",
+    "verdict": "VERIFIED_UNCAPPED_BINARY_WITNESS_EXPANDED_MODEL",
+    "started_utc": "2026-09-27T01:23:00.134435+00:00",
+    "ended_utc": "2026-09-27T01:33:00.309344+00:00",
+    "elapsed_s": 600.1690748999827,
+    "optimization_calls": 1,
+    "model_status": "Time limit reached",
+    "run_status": "HighsStatus.kWarning",
+    "options": {
+      "time_limit": 600.0,
+      "threads": 1,
+      "random_seed": 0,
+      "presolve": "on",
+      "mip_rel_gap": 1e-08,
+      "log_to_console": false,
+      "log_file": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\fresh_january_energy\\seed_26093220\\mip\\solver.log"
+    },
+    "solver_version": "1.12.0",
+    "solution_value_valid": true,
+    "numerical_objective_MWh": 49324.625239499816,
+    "numerical_lower_bound_MWh": 48927.97271514396,
+    "numerical_relative_gap": 0.008041673351391478,
+    "mip_node_count": 470,
+    "exact_optimality_claim": false,
+    "model_artifacts": {
+      "matrix.npz": "43eadfdf239a339757187fa4d52e786d1be7277bb93009d5ded1973523bf1386",
+      "bounds.npz": "5fce0509bdb795ea868ab89d83860c05eda9e81d267757f762662bda027112b0",
+      "objective.npz": "4a11881191004d9f39ed53d3cd18a5861829593b48c4e97d67e2af2d01b17632",
+      "integrality.npz": "3dce3436c853f1dcf296fce09408a6a3d1049e6c2a89568469af8a1c4ae6d73b",
+      "original_integrality.npz": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d",
+      "native_inputs.npz": "5df0b550ea74fe798f3cd0aca22bf3dd088aa8de5872352dbee387161c7ca362"
+    },
+    "prepared_manifest_sha256": "44b382d30a30b8485beda0cf080d22cd991b55a9f37491939f633d147bc14f2a",
+    "raw_matrix_check": {
+      "pass": true,
+      "tolerance": 1e-05,
+      "residuals": {
+        "column_lower": 2.5615065624151612e-11,
+        "column_upper": 1.510898073320277e-10,
+        "row_lower": 1.2050804798491299e-11,
+        "row_upper": 1.510898073320277e-10
+      }
+    },
+    "eligible_for_recovery": true,
+    "P_theta_bytes_preserved": true,
+    "recovered_matrix_check": {
+      "pass": true,
+      "tolerance": 1e-05,
+      "residuals": {
+        "column_lower": 2.5615065624151612e-11,
+        "column_upper": 1.510898073320277e-10,
+        "row_lower": 1.2050804798491299e-11,
+        "row_upper": 1.510898073320277e-10
+      }
+    },
+    "native_no_cap_pass": true,
+    "exact_strict_pass": false,
+    "exact_expanded_pass": true,
+    "candidate_fossil_MWh": {
+      "numerator": "14216855286323246732599",
+      "denominator": "288230376151711744",
+      "approximate": 49324.625239499816,
+      "outward_floor_6dp": "49324.625239",
+      "outward_ceiling_6dp": "49324.625240"
+    },
+    "verified_upper_MWh": {
+      "numerator": "14216855286323246732599",
+      "denominator": "288230376151711744",
+      "approximate": 49324.625239499816,
+      "outward_floor_6dp": "49324.625239",
+      "outward_ceiling_6dp": "49324.625240"
+    }
+  },
+  "seed_26093221": {
+    "case": "seed_26093221",
+    "verdict": "VERIFIED_UNCAPPED_BINARY_WITNESS_EXPANDED_MODEL",
+    "started_utc": "2026-09-27T01:33:02.797123+00:00",
+    "ended_utc": "2026-09-27T01:43:03.141139+00:00",
+    "elapsed_s": 600.3434420999838,
+    "optimization_calls": 1,
+    "model_status": "Time limit reached",
+    "run_status": "HighsStatus.kWarning",
+    "options": {
+      "time_limit": 600.0,
+      "threads": 1,
+      "random_seed": 0,
+      "presolve": "on",
+      "mip_rel_gap": 1e-08,
+      "log_to_console": false,
+      "log_file": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\fresh_january_energy\\seed_26093221\\mip\\solver.log"
+    },
+    "solver_version": "1.12.0",
+    "solution_value_valid": true,
+    "numerical_objective_MWh": 49926.768979299726,
+    "numerical_lower_bound_MWh": 48892.05763486234,
+    "numerical_relative_gap": 0.020724580532467205,
+    "mip_node_count": 1090,
+    "exact_optimality_claim": false,
+    "model_artifacts": {
+      "matrix.npz": "43eadfdf239a339757187fa4d52e786d1be7277bb93009d5ded1973523bf1386",
+      "bounds.npz": "4d553b230230942c7ae50bc9a33b0ab34bc245beb93b1b36bedeac801c5ba57f",
+      "objective.npz": "4a11881191004d9f39ed53d3cd18a5861829593b48c4e97d67e2af2d01b17632",
+      "integrality.npz": "3dce3436c853f1dcf296fce09408a6a3d1049e6c2a89568469af8a1c4ae6d73b",
+      "original_integrality.npz": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d",
+      "native_inputs.npz": "ddbb27dd75f4f1c5ce7a4669a11adc2b5888b6024c3873538efaebca7de4d44b"
+    },
+    "prepared_manifest_sha256": "44b382d30a30b8485beda0cf080d22cd991b55a9f37491939f633d147bc14f2a",
+    "raw_matrix_check": {
+      "pass": true,
+      "tolerance": 1e-05,
+      "residuals": {
+        "column_lower": 2.5782043167055235e-11,
+        "column_upper": 9.208633855450898e-12,
+        "row_lower": 4.7975845518521965e-11,
+        "row_upper": 2.5782043167055235e-11
+      }
+    },
+    "eligible_for_recovery": true,
+    "P_theta_bytes_preserved": true,
+    "recovered_matrix_check": {
+      "pass": true,
+      "tolerance": 1e-05,
+      "residuals": {
+        "column_lower": 2.5782043167055235e-11,
+        "column_upper": 9.208633855450898e-12,
+        "row_lower": 4.7975845518521965e-11,
+        "row_upper": 2.5782043167055235e-11
+      }
+    },
+    "native_no_cap_pass": true,
+    "exact_strict_pass": false,
+    "exact_expanded_pass": true,
+    "candidate_fossil_MWh": {
+      "numerator": "3597602850735793619653",
+      "denominator": "72057594037927936",
+      "approximate": 49926.768979299726,
+      "outward_floor_6dp": "49926.768979",
+      "outward_ceiling_6dp": "49926.768980"
+    },
+    "verified_upper_MWh": {
+      "numerator": "3597602850735793619653",
+      "denominator": "72057594037927936",
+      "approximate": 49926.768979299726,
+      "outward_floor_6dp": "49926.768979",
+      "outward_ceiling_6dp": "49926.768980"
+    }
+  }
+}

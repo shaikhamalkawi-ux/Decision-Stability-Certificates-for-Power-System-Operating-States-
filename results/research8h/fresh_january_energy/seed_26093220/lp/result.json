@@ -1,0 +1,56 @@
+{
+  "case": "seed_26093220",
+  "started_utc": "2026-09-27T01:43:10.504646+00:00",
+  "ended_utc": "2026-09-27T01:43:13.146161+00:00",
+  "elapsed_s": 2.641323799995007,
+  "optimization_calls": 1,
+  "model_status": "Optimal",
+  "run_status": "HighsStatus.kOk",
+  "options": {
+    "time_limit": 60.0,
+    "threads": 1,
+    "random_seed": 0,
+    "solver": "simplex",
+    "presolve": "off",
+    "log_to_console": false,
+    "log_file": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\fresh_january_energy\\seed_26093220\\lp\\solver.log"
+  },
+  "solver_version": "1.12.0",
+  "primal_valid": true,
+  "dual_valid": true,
+  "numerical_objective_MWh": 48923.99678388385,
+  "simplex_iterations": 14558,
+  "exact_optimality_claim": false,
+  "new_lower_bound_status": "EXACT_EXPANDED_OBJECTIVE_LOWER_BOUND",
+  "model_artifacts": {
+    "matrix.npz": "43eadfdf239a339757187fa4d52e786d1be7277bb93009d5ded1973523bf1386",
+    "bounds.npz": "5fce0509bdb795ea868ab89d83860c05eda9e81d267757f762662bda027112b0",
+    "objective.npz": "4a11881191004d9f39ed53d3cd18a5861829593b48c4e97d67e2af2d01b17632"
+  },
+  "prepared_manifest_sha256": "44b382d30a30b8485beda0cf080d22cd991b55a9f37491939f633d147bc14f2a",
+  "numerical_primal_check": {
+    "pass": true,
+    "tolerance": 1e-05,
+    "residuals": {
+      "column_lower": 1.899238936055227e-12,
+      "column_upper": 9.663381206337363e-13,
+      "row_lower": 4.092726157978177e-12,
+      "row_upper": 6.66489086142974e-12
+    }
+  },
+  "continuous_primal_not_binary_upper": true,
+  "expanded_lower_MWh": {
+    "numerator": "322007864663214391459227169138779673229590176269304105690026351423405",
+    "denominator": "6582018229284824168619876730229402019930943462534319453394436096",
+    "approximate": 48922.35989723208,
+    "outward_floor_6dp": 48922.359897,
+    "outward_ceiling_6dp": 48922.359898
+  },
+  "nominal_lower_MWh": {
+    "numerator": "153550452557083484021482269379730592394880883865276164119492247",
+    "denominator": "3138550867693340381917894711603833208051177722232017256448",
+    "approximate": 48923.99678388341,
+    "outward_floor_6dp": 48923.996783,
+    "outward_ceiling_6dp": 48923.996784
+  }
+}

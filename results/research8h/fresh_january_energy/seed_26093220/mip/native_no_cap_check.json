@@ -1,0 +1,41 @@
+{
+  "pass": true,
+  "tolerance": 1e-05,
+  "residuals": {
+    "negative_dispatch_MW": 2.5615065624151612e-11,
+    "availability_MW": 1.510898073320277e-10,
+    "hydro_fixed_MW": 0.0,
+    "aggregate_balance_MW": 1.2050804798491299e-11,
+    "binary_UYZ": 0.0,
+    "state_lower": 0.0,
+    "state_upper": 0.0,
+    "raw_commitment_upper_MW": 1.510898073320277e-10,
+    "raw_commitment_lower_MW": 2.5615065624151612e-11,
+    "rounded_commitment_upper_MW": 1.510898073320277e-10,
+    "rounded_commitment_lower_MW": 2.5615065624151612e-11,
+    "transition_identity": 0.0,
+    "exclusive_transition": 0.0,
+    "initial_transition": 0.0,
+    "startup_matches_observed": 0.0,
+    "shutdown_matches_observed": 0.0,
+    "observed_residence_violations": 0,
+    "native_on_on_ramp_MW": 0.0,
+    "provided_nodal_balance_MW": 1.1851655005743991e-11,
+    "provided_branch_excess_MW": 2.842170943040401e-14,
+    "angle_bound_rad": 0.0,
+    "slack_angle_rad": 0.0
+  },
+  "dispatch_reconstructed_network": {
+    "balance_MW": 1.2107648217352107e-11,
+    "nodal_balance_MW": 1.0842882147699129e-11,
+    "branch_excess_MW": 0.0,
+    "max_branch_loading": 1.0,
+    "pass": true
+  },
+  "residence_violations": [],
+  "fossil_energy_MWh": 49324.625239499816,
+  "exact_binary64_fossil_energy_numerator": "14216855286323246732599",
+  "exact_binary64_fossil_energy_denominator": "288230376151711744",
+  "individual_mean_constraints": 0,
+  "energy_cap_constraints": 0
+}

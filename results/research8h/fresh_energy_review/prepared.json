@@ -1,0 +1,381 @@
+{
+  "status": "INDEPENDENT_FRESH_ENERGY_PREPARED_PASS",
+  "optimizer_calls": 0,
+  "manifest_sha256": "44b382d30a30b8485beda0cf080d22cd991b55a9f37491939f633d147bc14f2a",
+  "frozen_bindings": 378,
+  "all_hashes_match_before_after": true,
+  "execution_marker_absent": true,
+  "source_sha256": "0ad4536f7b9be7d681a4e164eb8546cc1755ddccb2b49e90887e92d4f08b250d",
+  "protocol_sha256": "56ad8786aedeabab42374bb91d923c6453c4f468414a19bea54d352a3e9e8bca",
+  "cases": [
+    {
+      "case": "week_2_identity",
+      "week": 2,
+      "removed_cap_row_0based": 24264,
+      "source_cap_MWh": 26532,
+      "projection": {
+        "pass": true,
+        "family_counts": {
+          "transition": 4008,
+          "exclusive_transition": 4008,
+          "minimum_up": 4008,
+          "minimum_down": 4008
+        },
+        "original_binary": 12096,
+        "projected_binary": 4032
+      },
+      "zero_dual_bound": {
+        "nominal_lower_bound_MWh": {
+          "numerator": "0",
+          "denominator": "1",
+          "float": 0.0
+        },
+        "expanded_lower_bound_MWh": {
+          "numerator": "-2851128764032548531",
+          "denominator": "73786976294838206464",
+          "float": -0.03864
+        },
+        "row_term": {
+          "numerator": "0",
+          "denominator": "1",
+          "float": 0.0
+        },
+        "finite_box_term": {
+          "numerator": "0",
+          "denominator": "1",
+          "float": 0.0
+        },
+        "row_dual_l1": {
+          "numerator": "0",
+          "denominator": "1",
+          "float": 0.0
+        },
+        "stationarity_residual_l1": {
+          "numerator": "3864",
+          "denominator": "1",
+          "float": 3864.0
+        }
+      },
+      "exact_cap_only_removal": true,
+      "native_packages_unchanged": true,
+      "exact_same_uncapped_reference": true,
+      "upper_MWh": {
+        "numerator": "16259756583482128080663775801439",
+        "denominator": "618970019642690137449562112",
+        "float": 26269.05353649975
+      },
+      "point_check": {
+        "binary_exact": true,
+        "binary_count": 12096,
+        "full_expanded_pass": true,
+        "full_strict_pass": false,
+        "static_expanded_pass": true,
+        "maximum_column_violation": {
+          "numerator": "4335",
+          "denominator": "70368744177664",
+          "float": 6.160405519040069e-11
+        },
+        "maximum_row_violation": {
+          "numerator": "21705",
+          "denominator": "281474976710656",
+          "float": 7.711165039836487e-11
+        },
+        "static_maximum_row_violation": {
+          "numerator": "21705",
+          "denominator": "281474976710656",
+          "float": 7.711165039836487e-11
+        },
+        "failed_expanded_rows": [],
+        "integer_scale_exponent": 92
+      }
+    },
+    {
+      "case": "seed_26093210",
+      "week": 2,
+      "removed_cap_row_0based": 24264,
+      "source_cap_MWh": 26532,
+      "projection": {
+        "pass": true,
+        "family_counts": {
+          "transition": 4008,
+          "exclusive_transition": 4008,
+          "minimum_up": 4008,
+          "minimum_down": 4008
+        },
+        "original_binary": 12096,
+        "projected_binary": 4032
+      },
+      "zero_dual_bound": {
+        "nominal_lower_bound_MWh": {
+          "numerator": "0",
+          "denominator": "1",
+          "float": 0.0
+        },
+        "expanded_lower_bound_MWh": {
+          "numerator": "-2851128764032548531",
+          "denominator": "73786976294838206464",
+          "float": -0.03864
+        },
+        "row_term": {
+          "numerator": "0",
+          "denominator": "1",
+          "float": 0.0
+        },
+        "finite_box_term": {
+          "numerator": "0",
+          "denominator": "1",
+          "float": 0.0
+        },
+        "row_dual_l1": {
+          "numerator": "0",
+          "denominator": "1",
+          "float": 0.0
+        },
+        "stationarity_residual_l1": {
+          "numerator": "3864",
+          "denominator": "1",
+          "float": 3864.0
+        }
+      },
+      "exact_cap_only_removal": true,
+      "native_packages_unchanged": true
+    },
+    {
+      "case": "seed_26093211",
+      "week": 2,
+      "removed_cap_row_0based": 24264,
+      "source_cap_MWh": 26532,
+      "projection": {
+        "pass": true,
+        "family_counts": {
+          "transition": 4008,
+          "exclusive_transition": 4008,
+          "minimum_up": 4008,
+          "minimum_down": 4008
+        },
+        "original_binary": 12096,
+        "projected_binary": 4032
+      },
+      "zero_dual_bound": {
+        "nominal_lower_bound_MWh": {
+          "numerator": "0",
+          "denominator": "1",
+          "float": 0.0
+        },
+        "expanded_lower_bound_MWh": {
+          "numerator": "-2851128764032548531",
+          "denominator": "73786976294838206464",
+          "float": -0.03864
+        },
+        "row_term": {
+          "numerator": "0",
+          "denominator": "1",
+          "float": 0.0
+        },
+        "finite_box_term": {
+          "numerator": "0",
+          "denominator": "1",
+          "float": 0.0
+        },
+        "row_dual_l1": {
+          "numerator": "0",
+          "denominator": "1",
+          "float": 0.0
+        },
+        "stationarity_residual_l1": {
+          "numerator": "3864",
+          "denominator": "1",
+          "float": 3864.0
+        }
+      },
+      "exact_cap_only_removal": true,
+      "native_packages_unchanged": true
+    },
+    {
+      "case": "week_3_identity",
+      "week": 3,
+      "removed_cap_row_0based": 24264,
+      "source_cap_MWh": 48319,
+      "projection": {
+        "pass": true,
+        "family_counts": {
+          "transition": 4008,
+          "exclusive_transition": 4008,
+          "minimum_up": 4008,
+          "minimum_down": 4008
+        },
+        "original_binary": 12096,
+        "projected_binary": 4032
+      },
+      "zero_dual_bound": {
+        "nominal_lower_bound_MWh": {
+          "numerator": "0",
+          "denominator": "1",
+          "float": 0.0
+        },
+        "expanded_lower_bound_MWh": {
+          "numerator": "-2851128764032548531",
+          "denominator": "73786976294838206464",
+          "float": -0.03864
+        },
+        "row_term": {
+          "numerator": "0",
+          "denominator": "1",
+          "float": 0.0
+        },
+        "finite_box_term": {
+          "numerator": "0",
+          "denominator": "1",
+          "float": 0.0
+        },
+        "row_dual_l1": {
+          "numerator": "0",
+          "denominator": "1",
+          "float": 0.0
+        },
+        "stationarity_residual_l1": {
+          "numerator": "3864",
+          "denominator": "1",
+          "float": 3864.0
+        }
+      },
+      "exact_cap_only_removal": true,
+      "native_packages_unchanged": true,
+      "exact_same_uncapped_reference": true,
+      "upper_MWh": {
+        "numerator": "1683230331936304381",
+        "denominator": "35184372088832",
+        "float": 47840.28339873613
+      },
+      "point_check": {
+        "binary_exact": true,
+        "binary_count": 12096,
+        "full_expanded_pass": true,
+        "full_strict_pass": false,
+        "static_expanded_pass": true,
+        "maximum_column_violation": {
+          "numerator": "0",
+          "denominator": "1",
+          "float": 0.0
+        },
+        "maximum_row_violation": {
+          "numerator": "21374331876572903777",
+          "denominator": "5070602400912917605986812821504",
+          "float": 4.2153436981619075e-12
+        },
+        "static_maximum_row_violation": {
+          "numerator": "21374331876572903777",
+          "denominator": "5070602400912917605986812821504",
+          "float": 4.2153436981619075e-12
+        },
+        "failed_expanded_rows": [],
+        "integer_scale_exponent": 69
+      }
+    },
+    {
+      "case": "seed_26093220",
+      "week": 3,
+      "removed_cap_row_0based": 24264,
+      "source_cap_MWh": 48319,
+      "projection": {
+        "pass": true,
+        "family_counts": {
+          "transition": 4008,
+          "exclusive_transition": 4008,
+          "minimum_up": 4008,
+          "minimum_down": 4008
+        },
+        "original_binary": 12096,
+        "projected_binary": 4032
+      },
+      "zero_dual_bound": {
+        "nominal_lower_bound_MWh": {
+          "numerator": "0",
+          "denominator": "1",
+          "float": 0.0
+        },
+        "expanded_lower_bound_MWh": {
+          "numerator": "-2851128764032548531",
+          "denominator": "73786976294838206464",
+          "float": -0.03864
+        },
+        "row_term": {
+          "numerator": "0",
+          "denominator": "1",
+          "float": 0.0
+        },
+        "finite_box_term": {
+          "numerator": "0",
+          "denominator": "1",
+          "float": 0.0
+        },
+        "row_dual_l1": {
+          "numerator": "0",
+          "denominator": "1",
+          "float": 0.0
+        },
+        "stationarity_residual_l1": {
+          "numerator": "3864",
+          "denominator": "1",
+          "float": 3864.0
+        }
+      },
+      "exact_cap_only_removal": true,
+      "native_packages_unchanged": true
+    },
+    {
+      "case": "seed_26093221",
+      "week": 3,
+      "removed_cap_row_0based": 24264,
+      "source_cap_MWh": 48319,
+      "projection": {
+        "pass": true,
+        "family_counts": {
+          "transition": 4008,
+          "exclusive_transition": 4008,
+          "minimum_up": 4008,
+          "minimum_down": 4008
+        },
+        "original_binary": 12096,
+        "projected_binary": 4032
+      },
+      "zero_dual_bound": {
+        "nominal_lower_bound_MWh": {
+          "numerator": "0",
+          "denominator": "1",
+          "float": 0.0
+        },
+        "expanded_lower_bound_MWh": {
+          "numerator": "-2851128764032548531",
+          "denominator": "73786976294838206464",
+          "float": -0.03864
+        },
+        "row_term": {
+          "numerator": "0",
+          "denominator": "1",
+          "float": 0.0
+        },
+        "finite_box_term": {
+          "numerator": "0",
+          "denominator": "1",
+          "float": 0.0
+        },
+        "row_dual_l1": {
+          "numerator": "0",
+          "denominator": "1",
+          "float": 0.0
+        },
+        "stationarity_residual_l1": {
+          "numerator": "3864",
+          "denominator": "1",
+          "float": 3864.0
+        }
+      },
+      "exact_cap_only_removal": true,
+      "native_packages_unchanged": true
+    }
+  ],
+  "review_source_sha256": "31a4086276e71388cb0ae91386d9cbdda2fda8b9d7482020df5e6f1c3c44c283",
+  "elapsed_seconds": 7.541158999985782,
+  "scope": "Independent stdlib decoding, exact matrix/bound equality, native-package transport and original-mask dyadic binary point replay. Raw native-calendar reconstruction inherited through prior independently reviewed and rehashed reference archives; no new native assembler execution."
+}

@@ -1,0 +1,56 @@
+{
+  "case": "week_3_identity",
+  "started_utc": "2026-09-27T01:02:50.075071+00:00",
+  "ended_utc": "2026-09-27T01:02:50.962171+00:00",
+  "elapsed_s": 0.8874989000032656,
+  "optimization_calls": 1,
+  "model_status": "Optimal",
+  "run_status": "HighsStatus.kOk",
+  "options": {
+    "time_limit": 60.0,
+    "threads": 1,
+    "random_seed": 0,
+    "solver": "simplex",
+    "presolve": "off",
+    "log_to_console": false,
+    "log_file": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\fresh_january_energy\\week_3_identity\\lp\\solver.log"
+  },
+  "solver_version": "1.12.0",
+  "primal_valid": true,
+  "dual_valid": true,
+  "numerical_objective_MWh": 47468.610119699995,
+  "simplex_iterations": 11987,
+  "exact_optimality_claim": false,
+  "new_lower_bound_status": "EXACT_EXPANDED_OBJECTIVE_LOWER_BOUND",
+  "model_artifacts": {
+    "matrix.npz": "43eadfdf239a339757187fa4d52e786d1be7277bb93009d5ded1973523bf1386",
+    "bounds.npz": "d04ec3d429a8ab43fbbc7cf91a04bda985cef562596303029abeb30ba8b4fe3e",
+    "objective.npz": "4a11881191004d9f39ed53d3cd18a5861829593b48c4e97d67e2af2d01b17632"
+  },
+  "prepared_manifest_sha256": "44b382d30a30b8485beda0cf080d22cd991b55a9f37491939f633d147bc14f2a",
+  "numerical_primal_check": {
+    "pass": true,
+    "tolerance": 1e-05,
+    "residuals": {
+      "column_lower": 1.9099388737230803e-12,
+      "column_upper": 4.547473508864641e-13,
+      "row_lower": 7.290168468898628e-12,
+      "row_upper": 8.114398042380344e-12
+    }
+  },
+  "continuous_primal_not_binary_upper": true,
+  "expanded_lower_MWh": {
+    "numerator": "71040120044180405409152889048497810725108515836534336483",
+    "denominator": "1496577676626844588240573268701473812127674924007424",
+    "approximate": 47468.381463699654,
+    "outward_floor_6dp": 47468.381463,
+    "outward_ceiling_6dp": 47468.381464
+  },
+  "nominal_lower_MWh": {
+    "numerator": "1925555587527586284945318839192626195",
+    "denominator": "40564819207303340847894502572032",
+    "approximate": 47468.61011969965,
+    "outward_floor_6dp": 47468.610119,
+    "outward_ceiling_6dp": 47468.61012
+  }
+}

@@ -1,0 +1,1191 @@
+{
+  "status": "INDEPENDENT_FRESH_ENERGY_POSTRUN_PASS",
+  "optimizer_calls": 0,
+  "ordinary_denominator": 4,
+  "identity_denominator": 2,
+  "manifest_sha256": "44b382d30a30b8485beda0cf080d22cd991b55a9f37491939f633d147bc14f2a",
+  "frozen_bindings": 378,
+  "cases": [
+    {
+      "case": "week_2_identity",
+      "dual_bound": {
+        "zero_dual_lower_MWh": {
+          "numerator": "-2851128764032548531",
+          "denominator": "73786976294838206464",
+          "float": -0.03864
+        },
+        "bound": {
+          "nominal_lower_bound_MWh": {
+            "numerator": "65608095908999008714845142022012811",
+            "denominator": "2535301200456458802993406410752",
+            "float": 25877.83096429996
+          },
+          "expanded_lower_bound_MWh": {
+            "numerator": "2420462787332983677388067029405122530569028479259740441",
+            "denominator": "93536104789177786765035829293842113257979682750464",
+            "float": 25877.310080299958
+          },
+          "row_term": {
+            "numerator": "593147833138218755781501243969063",
+            "denominator": "4951760157141521099596496896",
+            "float": 119785.25096430001
+          },
+          "finite_box_term": {
+            "numerator": "-238083594657768994245283494890147445",
+            "denominator": "2535301200456458802993406410752",
+            "float": -93907.42000000006
+          },
+          "row_dual_l1": {
+            "numerator": "10261822737591315573320280201451057",
+            "denominator": "633825300114114700748351602688",
+            "float": 16190.301547987694
+          },
+          "stationarity_residual_l1": {
+            "numerator": "22753123024872887297383662411521835",
+            "denominator": "633825300114114700748351602688",
+            "float": 35898.09845201254
+          }
+        },
+        "projected_entries": 51,
+        "exact_sparse_stationarity_residual_pass": true,
+        "selected_lower_MWh": {
+          "numerator": "2420462787332983677388067029405122530569028479259740441",
+          "denominator": "93536104789177786765035829293842113257979682750464",
+          "float": 25877.310080299958
+        }
+      },
+      "LP_continuous_exact_point": {
+        "binary_exact": true,
+        "binary_count": 0,
+        "full_expanded_pass": true,
+        "full_strict_pass": false,
+        "static_expanded_pass": true,
+        "maximum_column_violation": {
+          "numerator": "7",
+          "denominator": "140737488355328",
+          "float": 4.973799150320701e-14
+        },
+        "maximum_row_violation": {
+          "numerator": "1635349524793779515",
+          "denominator": "158456325028528675187087900672",
+          "float": 1.0320506451852579e-11
+        },
+        "static_maximum_row_violation": {
+          "numerator": "1635349524793779515",
+          "denominator": "158456325028528675187087900672",
+          "float": 1.0320506451852579e-11
+        },
+        "failed_expanded_rows": [],
+        "integer_scale_exponent": 101
+      },
+      "reference_point": {
+        "binary_exact": true,
+        "binary_count": 12096,
+        "full_expanded_pass": true,
+        "full_strict_pass": false,
+        "static_expanded_pass": true,
+        "maximum_column_violation": {
+          "numerator": "4335",
+          "denominator": "70368744177664",
+          "float": 6.160405519040069e-11
+        },
+        "maximum_row_violation": {
+          "numerator": "21705",
+          "denominator": "281474976710656",
+          "float": 7.711165039836487e-11
+        },
+        "static_maximum_row_violation": {
+          "numerator": "21705",
+          "denominator": "281474976710656",
+          "float": 7.711165039836487e-11
+        },
+        "failed_expanded_rows": [],
+        "integer_scale_exponent": 92
+      },
+      "verified_reference_upper_MWh": {
+        "numerator": "16259756583482128080663775801439",
+        "denominator": "618970019642690137449562112",
+        "float": 26269.05353649975
+      }
+    },
+    {
+      "case": "week_3_identity",
+      "dual_bound": {
+        "zero_dual_lower_MWh": {
+          "numerator": "-2851128764032548531",
+          "denominator": "73786976294838206464",
+          "float": -0.03864
+        },
+        "bound": {
+          "nominal_lower_bound_MWh": {
+            "numerator": "1925555587527586284945318839192626195",
+            "denominator": "40564819207303340847894502572032",
+            "float": 47468.61011969965
+          },
+          "expanded_lower_bound_MWh": {
+            "numerator": "71040120044180405409152889048497810725108515836534336483",
+            "denominator": "1496577676626844588240573268701473812127674924007424",
+            "float": 47468.381463699654
+          },
+          "row_term": {
+            "numerator": "3170074665976365331825842531427657",
+            "denominator": "19807040628566084398385987584",
+            "float": 160047.87011969998
+          },
+          "finite_box_term": {
+            "numerator": "-4566757328392009914634006665171215341",
+            "denominator": "40564819207303340847894502572032",
+            "float": -112579.26000000033
+          },
+          "row_dual_l1": {
+            "numerator": "12511224562697607805854134690360935",
+            "denominator": "2535301200456458802993406410752",
+            "float": 4934.807966976497
+          },
+          "stationarity_residual_l1": {
+            "numerator": "22729979283230841955024798274054083",
+            "denominator": "1267650600228229401496703205376",
+            "float": 17930.79203302433
+          }
+        },
+        "projected_entries": 98,
+        "exact_sparse_stationarity_residual_pass": true,
+        "selected_lower_MWh": {
+          "numerator": "71040120044180405409152889048497810725108515836534336483",
+          "denominator": "1496577676626844588240573268701473812127674924007424",
+          "float": 47468.381463699654
+        }
+      },
+      "LP_continuous_exact_point": {
+        "binary_exact": true,
+        "binary_count": 0,
+        "full_expanded_pass": true,
+        "full_strict_pass": false,
+        "static_expanded_pass": true,
+        "maximum_column_violation": {
+          "numerator": "2364389804369425",
+          "denominator": "1237940039285380274899124224",
+          "float": 1.9099388737230803e-12
+        },
+        "maximum_row_violation": {
+          "numerator": "160328655066478603",
+          "denominator": "19807040628566084398385987584",
+          "float": 8.094528509991018e-12
+        },
+        "static_maximum_row_violation": {
+          "numerator": "160328655066478603",
+          "denominator": "19807040628566084398385987584",
+          "float": 8.094528509991018e-12
+        },
+        "failed_expanded_rows": [],
+        "integer_scale_exponent": 105
+      },
+      "reference_point": {
+        "binary_exact": true,
+        "binary_count": 12096,
+        "full_expanded_pass": true,
+        "full_strict_pass": false,
+        "static_expanded_pass": true,
+        "maximum_column_violation": {
+          "numerator": "0",
+          "denominator": "1",
+          "float": 0.0
+        },
+        "maximum_row_violation": {
+          "numerator": "21374331876572903777",
+          "denominator": "5070602400912917605986812821504",
+          "float": 4.2153436981619075e-12
+        },
+        "static_maximum_row_violation": {
+          "numerator": "21374331876572903777",
+          "denominator": "5070602400912917605986812821504",
+          "float": 4.2153436981619075e-12
+        },
+        "failed_expanded_rows": [],
+        "integer_scale_exponent": 69
+      },
+      "verified_reference_upper_MWh": {
+        "numerator": "1683230331936304381",
+        "denominator": "35184372088832",
+        "float": 47840.28339873613
+      }
+    },
+    {
+      "case": "seed_26093210",
+      "dual_bound": {
+        "zero_dual_lower_MWh": {
+          "numerator": "-2851128764032548531",
+          "denominator": "73786976294838206464",
+          "float": -0.03864
+        },
+        "bound": {
+          "nominal_lower_bound_MWh": {
+            "numerator": "136117835470971901645057708151581403",
+            "denominator": "5070602400912917605986812821504",
+            "float": 26844.509726588913
+          },
+          "expanded_lower_bound_MWh": {
+            "numerator": "20086370813996232580518473920067758661793960696268153117",
+            "denominator": "748288838313422294120286634350736906063837462003712",
+            "float": 26843.07153273749
+          },
+          "row_term": {
+            "numerator": "2342540355804099927137367477971261",
+            "denominator": "19807040628566084398385987584",
+            "float": 118268.06435816789
+          },
+          "finite_box_term": {
+            "numerator": "-463572495614877679702108366209061413",
+            "denominator": "5070602400912917605986812821504",
+            "float": -91423.55463157898
+          },
+          "row_dual_l1": {
+            "numerator": "12759109502446351281886101098853733",
+            "denominator": "316912650057057350374175801344",
+            "float": 40260.65068765537
+          },
+          "stationarity_residual_l1": {
+            "numerator": "131276291890028061346076112505622399",
+            "denominator": "1267650600228229401496703205376",
+            "float": 103558.73445442531
+          }
+        },
+        "projected_entries": 19,
+        "exact_sparse_stationarity_residual_pass": true,
+        "selected_lower_MWh": {
+          "numerator": "20086370813996232580518473920067758661793960696268153117",
+          "denominator": "748288838313422294120286634350736906063837462003712",
+          "float": 26843.07153273749
+        }
+      },
+      "LP_continuous_exact_point": {
+        "binary_exact": true,
+        "binary_count": 0,
+        "full_expanded_pass": true,
+        "full_strict_pass": false,
+        "static_expanded_pass": true,
+        "maximum_column_violation": {
+          "numerator": "1",
+          "denominator": "8796093022208",
+          "float": 1.1368683772161603e-13
+        },
+        "maximum_row_violation": {
+          "numerator": "2923840458310463581",
+          "denominator": "158456325028528675187087900672",
+          "float": 1.8452027445316882e-11
+        },
+        "static_maximum_row_violation": {
+          "numerator": "2923840458310463581",
+          "denominator": "158456325028528675187087900672",
+          "float": 1.8452027445316882e-11
+        },
+        "failed_expanded_rows": [],
+        "integer_scale_exponent": 104
+      },
+      "finite_binary_upper_verified": true,
+      "original_binary_coordinates": 12096,
+      "P_theta_bytes_preserved": true,
+      "canonical_YZ_exact": true,
+      "point_check": {
+        "binary_exact": true,
+        "binary_count": 12096,
+        "full_expanded_pass": true,
+        "full_strict_pass": false,
+        "static_expanded_pass": true,
+        "maximum_column_violation": {
+          "numerator": "956037",
+          "denominator": "281474976710656",
+          "float": 3.3965257273393945e-09
+        },
+        "maximum_row_violation": {
+          "numerator": "956037",
+          "denominator": "281474976710656",
+          "float": 3.3965257273393945e-09
+        },
+        "static_maximum_row_violation": {
+          "numerator": "956037",
+          "denominator": "281474976710656",
+          "float": 3.3965257273393945e-09
+        },
+        "failed_expanded_rows": [],
+        "integer_scale_exponent": 69
+      },
+      "raw_expanded_continuous_point": true,
+      "verified_upper_MWh": {
+        "numerator": "62358939592901681319",
+        "denominator": "2251799813685248",
+        "float": 27692.932210899493
+      },
+      "intervals_exact": true,
+      "intervals": {
+        "optimum_difference_MWh": {
+          "lower": {
+            "numerator": "429531259575738248910188404603077036202497574525165853",
+            "denominator": "748288838313422294120286634350736906063837462003712",
+            "float": 574.0179962377418
+          },
+          "upper": {
+            "numerator": "169826221865308184977605579452035316617344851960952551",
+            "denominator": "93536104789177786765035829293842113257979682750464",
+            "float": 1815.6221305995334
+          }
+        },
+        "target_optimum_excess_over_chosen_incumbent_MWh": {
+          "lower": {
+            "numerator": "429531259575738248910188404603077036202497574525165853",
+            "denominator": "748288838313422294120286634350736906063837462003712",
+            "float": 574.0179962377418
+          },
+          "upper": {
+            "numerator": "881338211062017519881449377697",
+            "denominator": "618970019642690137449562112",
+            "float": 1423.8786743997446
+          }
+        },
+        "optimal_relative_penalty": {
+          "lower": {
+            "numerator": "429531259575738248910188404603077036202497574525165853",
+            "denominator": "19656839554420494331608285515464681625591463121742987264",
+            "float": 0.02185149135427235
+          },
+          "upper": {
+            "numerator": "169826221865308184977605579452035316617344851960952551",
+            "denominator": "2420462787332983677388067029405122530569028479259740441",
+            "float": 0.07016270721205066
+          }
+        },
+        "optimal_relative_penalty_percent": {
+          "lower": {
+            "numerator": "10738281489393456222754710115076925905062439363129146325",
+            "denominator": "4914209888605123582902071378866170406397865780435746816",
+            "float": 2.185149135427235
+          },
+          "upper": {
+            "numerator": "16982622186530818497760557945203531661734485196095255100",
+            "denominator": "2420462787332983677388067029405122530569028479259740441",
+            "float": 7.016270721205066
+          }
+        }
+      }
+    },
+    {
+      "case": "seed_26093211",
+      "dual_bound": {
+        "zero_dual_lower_MWh": {
+          "numerator": "-2851128764032548531",
+          "denominator": "73786976294838206464",
+          "float": -0.03864
+        },
+        "bound": {
+          "nominal_lower_bound_MWh": {
+            "numerator": "133657715281914086254912277028887617",
+            "denominator": "5070602400912917605986812821504",
+            "float": 26359.336566765753
+          },
+          "expanded_lower_bound_MWh": {
+            "numerator": "2465434983535487892226081461254514743454344793621905775",
+            "denominator": "93536104789177786765035829293842113257979682750464",
+            "float": 26358.110476081543
+          },
+          "row_term": {
+            "numerator": "2352199396735232850817956774196213",
+            "denominator": "19807040628566084398385987584",
+            "float": 118755.72130360792
+          },
+          "finite_box_term": {
+            "numerator": "-468505330282305523554484657165342911",
+            "denominator": "5070602400912917605986812821504",
+            "float": -92396.38473684216
+          },
+          "row_dual_l1": {
+            "numerator": "11349009764390319619473592871450155",
+            "denominator": "316912650057057350374175801344",
+            "float": 35811.1604643962
+          },
+          "stationarity_residual_l1": {
+            "numerator": "27507355029952490781751233428318487",
+            "denominator": "316912650057057350374175801344",
+            "float": 86797.9079566563
+          }
+        },
+        "projected_entries": 13,
+        "exact_sparse_stationarity_residual_pass": true,
+        "selected_lower_MWh": {
+          "numerator": "2465434983535487892226081461254514743454344793621905775",
+          "denominator": "93536104789177786765035829293842113257979682750464",
+          "float": 26358.110476081543
+        }
+      },
+      "LP_continuous_exact_point": {
+        "binary_exact": true,
+        "binary_count": 0,
+        "full_expanded_pass": true,
+        "full_strict_pass": false,
+        "static_expanded_pass": true,
+        "maximum_column_violation": {
+          "numerator": "107465",
+          "denominator": "18014398509481984",
+          "float": 5.965505867067122e-12
+        },
+        "maximum_row_violation": {
+          "numerator": "21304609110447658893",
+          "denominator": "1267650600228229401496703205376",
+          "float": 1.6806373228247554e-11
+        },
+        "static_maximum_row_violation": {
+          "numerator": "21304609110447658893",
+          "denominator": "1267650600228229401496703205376",
+          "float": 1.6806373228247554e-11
+        },
+        "failed_expanded_rows": [],
+        "integer_scale_exponent": 105
+      },
+      "finite_binary_upper_verified": true,
+      "original_binary_coordinates": 12096,
+      "P_theta_bytes_preserved": true,
+      "canonical_YZ_exact": true,
+      "point_check": {
+        "binary_exact": true,
+        "binary_count": 12096,
+        "full_expanded_pass": true,
+        "full_strict_pass": false,
+        "static_expanded_pass": true,
+        "maximum_column_violation": {
+          "numerator": "28203",
+          "denominator": "1125899906842624",
+          "float": 2.5049295970802632e-11
+        },
+        "maximum_row_violation": {
+          "numerator": "9653",
+          "denominator": "281474976710656",
+          "float": 3.4294345141461235e-11
+        },
+        "static_maximum_row_violation": {
+          "numerator": "9653",
+          "denominator": "281474976710656",
+          "float": 3.4294345141461235e-11
+        },
+        "failed_expanded_rows": [],
+        "integer_scale_exponent": 92
+      },
+      "raw_expanded_continuous_point": true,
+      "verified_upper_MWh": {
+        "numerator": "139547039243864944018083235965575",
+        "denominator": "4951760157141521099596496896",
+        "float": 28181.300146899805
+      },
+      "intervals_exact": true,
+      "intervals": {
+        "optimum_difference_MWh": {
+          "lower": {
+            "numerator": "8330039232926100775045771821429540255411903404032367",
+            "denominator": "93536104789177786765035829293842113257979682750464",
+            "float": 89.05693958179339
+          },
+          "upper": {
+            "numerator": "215506256302707724730643782224866903377962175838320359",
+            "denominator": "93536104789177786765035829293842113257979682750464",
+            "float": 2303.990066599844
+          }
+        },
+        "target_optimum_excess_over_chosen_incumbent_MWh": {
+          "lower": {
+            "numerator": "8330039232926100775045771821429540255411903404032367",
+            "denominator": "93536104789177786765035829293842113257979682750464",
+            "float": 89.05693958179339
+          },
+          "upper": {
+            "numerator": "9468986576007919372773029554063",
+            "denominator": "4951760157141521099596496896",
+            "float": 1912.2466104000555
+          }
+        },
+        "optimal_relative_penalty": {
+          "lower": {
+            "numerator": "8330039232926100775045771821429540255411903404032367",
+            "denominator": "2457104944302561791451035689433085203198932890217873408",
+            "float": 0.0033901845553001176
+          },
+          "upper": {
+            "numerator": "215506256302707724730643782224866903377962175838320359",
+            "denominator": "2420462787332983677388067029405122530569028479259740441",
+            "float": 0.08903514544016845
+          }
+        },
+        "optimal_relative_penalty_percent": {
+          "lower": {
+            "numerator": "208250980823152519376144295535738506385297585100809175",
+            "denominator": "614276236075640447862758922358271300799733222554468352",
+            "float": 0.33901845553001175
+          },
+          "upper": {
+            "numerator": "21550625630270772473064378222486690337796217583832035900",
+            "denominator": "2420462787332983677388067029405122530569028479259740441",
+            "float": 8.903514544016845
+          }
+        }
+      }
+    },
+    {
+      "case": "seed_26093220",
+      "dual_bound": {
+        "zero_dual_lower_MWh": {
+          "numerator": "-2851128764032548531",
+          "denominator": "73786976294838206464",
+          "float": -0.03864
+        },
+        "bound": {
+          "nominal_lower_bound_MWh": {
+            "numerator": "153550452557083484021482269379730592394880883865276164119492247",
+            "denominator": "3138550867693340381917894711603833208051177722232017256448",
+            "float": 48923.99678388341
+          },
+          "expanded_lower_bound_MWh": {
+            "numerator": "322007864663214391459227169138779673229590176269304105690026351423405",
+            "denominator": "6582018229284824168619876730229402019930943462534319453394436096",
+            "float": 48922.35989723208
+          },
+          "row_term": {
+            "numerator": "829450201394538322795598011980194273549860310245",
+            "denominator": "5575186299632655785383929568162090376495104",
+            "float": 148775.33356135382
+          },
+          "finite_box_term": {
+            "numerator": "-313388499683269722502934189925072200454281730721550751395449193",
+            "denominator": "3138550867693340381917894711603833208051177722232017256448",
+            "float": -99851.33677747041
+          },
+          "row_dual_l1": {
+            "numerator": "60615186365931889465137649347039171",
+            "denominator": "1267650600228229401496703205376",
+            "float": 47816.95078676936
+          },
+          "stationarity_residual_l1": {
+            "numerator": "1292012788680202045537332328578379054311469264259",
+            "denominator": "11150372599265311570767859136324180752990208",
+            "float": 115871.71434659786
+          }
+        },
+        "projected_entries": 38,
+        "exact_sparse_stationarity_residual_pass": true,
+        "selected_lower_MWh": {
+          "numerator": "322007864663214391459227169138779673229590176269304105690026351423405",
+          "denominator": "6582018229284824168619876730229402019930943462534319453394436096",
+          "float": 48922.35989723208
+        }
+      },
+      "LP_continuous_exact_point": {
+        "binary_exact": true,
+        "binary_count": 0,
+        "full_expanded_pass": true,
+        "full_strict_pass": false,
+        "static_expanded_pass": true,
+        "maximum_column_violation": {
+          "numerator": "4702287846225063",
+          "denominator": "2475880078570760549798248448",
+          "float": 1.899238936055227e-12
+        },
+        "maximum_row_violation": {
+          "numerator": "127658031257199571",
+          "denominator": "19807040628566084398385987584",
+          "float": 6.445083526162347e-12
+        },
+        "static_maximum_row_violation": {
+          "numerator": "127658031257199571",
+          "denominator": "19807040628566084398385987584",
+          "float": 6.445083526162347e-12
+        },
+        "failed_expanded_rows": [],
+        "integer_scale_exponent": 102
+      },
+      "finite_binary_upper_verified": true,
+      "original_binary_coordinates": 12096,
+      "P_theta_bytes_preserved": true,
+      "canonical_YZ_exact": true,
+      "point_check": {
+        "binary_exact": true,
+        "binary_count": 12096,
+        "full_expanded_pass": true,
+        "full_strict_pass": false,
+        "static_expanded_pass": true,
+        "maximum_column_violation": {
+          "numerator": "1329",
+          "denominator": "8796093022208",
+          "float": 1.510898073320277e-10
+        },
+        "maximum_row_violation": {
+          "numerator": "1329",
+          "denominator": "8796093022208",
+          "float": 1.510898073320277e-10
+        },
+        "static_maximum_row_violation": {
+          "numerator": "1329",
+          "denominator": "8796093022208",
+          "float": 1.510898073320277e-10
+        },
+        "failed_expanded_rows": [],
+        "integer_scale_exponent": 69
+      },
+      "raw_expanded_continuous_point": true,
+      "verified_upper_MWh": {
+        "numerator": "14216855286323246732599",
+        "denominator": "288230376151711744",
+        "float": 49324.625239499816
+      },
+      "intervals_exact": true,
+      "intervals": {
+        "optimum_difference_MWh": {
+          "lower": {
+            "numerator": "7122247238581039598945326528539230928067902763137967106359205457837",
+            "denominator": "6582018229284824168619876730229402019930943462534319453394436096",
+            "float": 1082.0764984959505
+          },
+          "upper": {
+            "numerator": "2778012997240045970825177259146662000167099605394773021",
+            "denominator": "1496577676626844588240573268701473812127674924007424",
+            "float": 1856.2437758001608
+          }
+        },
+        "target_optimum_excess_over_chosen_incumbent_MWh": {
+          "lower": {
+            "numerator": "7122247238581039598945326528539230928067902763137967106359205457837",
+            "denominator": "6582018229284824168619876730229402019930943462534319453394436096",
+            "float": 1082.0764984959505
+          },
+          "upper": {
+            "numerator": "427832407101041243447",
+            "denominator": "288230376151711744",
+            "float": 1484.3418407636852
+          }
+        },
+        "optimal_relative_penalty": {
+          "lower": {
+            "numerator": "7122247238581039598945326528539230928067902763137967106359205457837",
+            "denominator": "314885617424633351860281842610240442301522273506166138583667145965568",
+            "float": 0.02261852191545624
+          },
+          "upper": {
+            "numerator": "2778012997240045970825177259146662000167099605394773021",
+            "denominator": "71040120044180405409152889048497810725108515836534336483",
+            "float": 0.03910484660657074
+          }
+        },
+        "optimal_relative_penalty_percent": {
+          "lower": {
+            "numerator": "178056180964525989973633163213480773201697569078449177658980136445925",
+            "denominator": "78721404356158337965070460652560110575380568376541534645916786491392",
+            "float": 2.2618521915456244
+          },
+          "upper": {
+            "numerator": "277801299724004597082517725914666200016709960539477302100",
+            "denominator": "71040120044180405409152889048497810725108515836534336483",
+            "float": 3.910484660657074
+          }
+        }
+      }
+    },
+    {
+      "case": "seed_26093221",
+      "dual_bound": {
+        "zero_dual_lower_MWh": {
+          "numerator": "-2851128764032548531",
+          "denominator": "73786976294838206464",
+          "float": -0.03864
+        },
+        "bound": {
+          "nominal_lower_bound_MWh": {
+            "numerator": "68143327191335464519675381367142514711876509541",
+            "denominator": "1393796574908163946345982392040522594123776",
+            "float": 48890.43955056739
+          },
+          "expanded_lower_bound_MWh": {
+            "numerator": "4572896679870482319140876157629580036471573054545449145",
+            "denominator": "93536104789177786765035829293842113257979682750464",
+            "float": 48889.107475422374
+          },
+          "row_term": {
+            "numerator": "46800100274078694605115376933831645",
+            "denominator": "316912650057057350374175801344",
+            "float": 147675.07786657536
+          },
+          "finite_box_term": {
+            "numerator": "-137685690538393692456291009148077628642882576539",
+            "denominator": "1393796574908163946345982392040522594123776",
+            "float": -98784.63831600797
+          },
+          "row_dual_l1": {
+            "numerator": "12204851794563884374732070327078823",
+            "denominator": "316912650057057350374175801344",
+            "float": 38511.72173899182
+          },
+          "stationarity_residual_l1": {
+            "numerator": "30010294633676430796609727275132871",
+            "denominator": "316912650057057350374175801344",
+            "float": 94695.79276268504
+          }
+        },
+        "projected_entries": 50,
+        "exact_sparse_stationarity_residual_pass": true,
+        "selected_lower_MWh": {
+          "numerator": "4572896679870482319140876157629580036471573054545449145",
+          "denominator": "93536104789177786765035829293842113257979682750464",
+          "float": 48889.107475422374
+        }
+      },
+      "LP_continuous_exact_point": {
+        "binary_exact": true,
+        "binary_count": 0,
+        "full_expanded_pass": true,
+        "full_strict_pass": false,
+        "static_expanded_pass": true,
+        "maximum_column_violation": {
+          "numerator": "239559746623897",
+          "denominator": "309485009821345068724781056",
+          "float": 7.740592888882938e-13
+        },
+        "maximum_row_violation": {
+          "numerator": "485373463701904477",
+          "denominator": "79228162514264337593543950336",
+          "float": 6.126274399138276e-12
+        },
+        "static_maximum_row_violation": {
+          "numerator": "485373463701904477",
+          "denominator": "79228162514264337593543950336",
+          "float": 6.126274399138276e-12
+        },
+        "failed_expanded_rows": [],
+        "integer_scale_exponent": 106
+      },
+      "finite_binary_upper_verified": true,
+      "original_binary_coordinates": 12096,
+      "P_theta_bytes_preserved": true,
+      "canonical_YZ_exact": true,
+      "point_check": {
+        "binary_exact": true,
+        "binary_count": 12096,
+        "full_expanded_pass": true,
+        "full_strict_pass": false,
+        "static_expanded_pass": true,
+        "maximum_column_violation": {
+          "numerator": "7257",
+          "denominator": "281474976710656",
+          "float": 2.5782043167055235e-11
+        },
+        "maximum_row_violation": {
+          "numerator": "106745",
+          "denominator": "2251799813685248",
+          "float": 4.7404302705444934e-11
+        },
+        "static_maximum_row_violation": {
+          "numerator": "106745",
+          "denominator": "2251799813685248",
+          "float": 4.7404302705444934e-11
+        },
+        "failed_expanded_rows": [],
+        "integer_scale_exponent": 69
+      },
+      "raw_expanded_continuous_point": true,
+      "verified_upper_MWh": {
+        "numerator": "3597602850735793619653",
+        "denominator": "72057594037927936",
+        "float": 49926.768979299726
+      },
+      "intervals_exact": true,
+      "intervals": {
+        "optimum_difference_MWh": {
+          "lower": {
+            "numerator": "98102918742337228428285448125389845324068313148674233",
+            "denominator": "93536104789177786765035829293842113257979682750464",
+            "float": 1048.8240766862448
+          },
+          "upper": {
+            "numerator": "3679167876345200992904297403012747811879820108858250269",
+            "denominator": "1496577676626844588240573268701473812127674924007424",
+            "float": 2458.387515600075
+          }
+        },
+        "target_optimum_excess_over_chosen_incumbent_MWh": {
+          "lower": {
+            "numerator": "98102918742337228428285448125389845324068313148674233",
+            "denominator": "93536104789177786765035829293842113257979682750464",
+            "float": 1048.8240766862448
+          },
+          "upper": {
+            "numerator": "150347130930242247365",
+            "denominator": "72057594037927936",
+            "float": 2086.4855805636
+          }
+        },
+        "optimal_relative_penalty": {
+          "lower": {
+            "numerator": "98102918742337228428285448125389845324068313148674233",
+            "denominator": "4474793761128145090712590709504190191147504741396774912",
+            "float": 0.02192345032625691
+          },
+          "upper": {
+            "numerator": "3679167876345200992904297403012747811879820108858250269",
+            "denominator": "71040120044180405409152889048497810725108515836534336483",
+            "float": 0.051790000834135666
+          }
+        },
+        "optimal_relative_penalty_percent": {
+          "lower": {
+            "numerator": "2452572968558430710707136203134746133101707828716855825",
+            "denominator": "1118698440282036272678147677376047547786876185349193728",
+            "float": 2.192345032625691
+          },
+          "upper": {
+            "numerator": "367916787634520099290429740301274781187982010885825026900",
+            "denominator": "71040120044180405409152889048497810725108515836534336483",
+            "float": 5.179000083413566
+          }
+        }
+      }
+    }
+  ],
+  "calls": [
+    {
+      "case": "week_2_identity",
+      "kind": "IDENTITY_LP",
+      "started_utc": "2026-09-27T01:02:48.858867+00:00",
+      "ended_utc": "2026-09-27T01:02:49.705943+00:00",
+      "seconds": 0.8443141000170726,
+      "limit": 60
+    },
+    {
+      "case": "week_3_identity",
+      "kind": "IDENTITY_LP",
+      "started_utc": "2026-09-27T01:02:50.075071+00:00",
+      "ended_utc": "2026-09-27T01:02:50.962171+00:00",
+      "seconds": 0.8874989000032656,
+      "limit": 60
+    },
+    {
+      "case": "seed_26093210",
+      "kind": "TARGET_MIP",
+      "started_utc": "2026-09-27T01:02:51.317026+00:00",
+      "ended_utc": "2026-09-27T01:12:51.574320+00:00",
+      "seconds": 600.2466681000078,
+      "limit": 600
+    },
+    {
+      "case": "seed_26093211",
+      "kind": "TARGET_MIP",
+      "started_utc": "2026-09-27T01:12:54.716333+00:00",
+      "ended_utc": "2026-09-27T01:22:54.851982+00:00",
+      "seconds": 600.1279706000059,
+      "limit": 600
+    },
+    {
+      "case": "seed_26093220",
+      "kind": "TARGET_MIP",
+      "started_utc": "2026-09-27T01:23:00.134435+00:00",
+      "ended_utc": "2026-09-27T01:33:00.309344+00:00",
+      "seconds": 600.1690748999827,
+      "limit": 600
+    },
+    {
+      "case": "seed_26093221",
+      "kind": "TARGET_MIP",
+      "started_utc": "2026-09-27T01:33:02.797123+00:00",
+      "ended_utc": "2026-09-27T01:43:03.141139+00:00",
+      "seconds": 600.3434420999838,
+      "limit": 600
+    },
+    {
+      "case": "seed_26093210",
+      "kind": "TARGET_LP",
+      "started_utc": "2026-09-27T01:43:06.424522+00:00",
+      "ended_utc": "2026-09-27T01:43:07.712882+00:00",
+      "seconds": 1.288450499996543,
+      "limit": 60
+    },
+    {
+      "case": "seed_26093211",
+      "kind": "TARGET_LP",
+      "started_utc": "2026-09-27T01:43:08.301297+00:00",
+      "ended_utc": "2026-09-27T01:43:09.954917+00:00",
+      "seconds": 1.6536277999985032,
+      "limit": 60
+    },
+    {
+      "case": "seed_26093220",
+      "kind": "TARGET_LP",
+      "started_utc": "2026-09-27T01:43:10.504646+00:00",
+      "ended_utc": "2026-09-27T01:43:13.146161+00:00",
+      "seconds": 2.641323799995007,
+      "limit": 60
+    },
+    {
+      "case": "seed_26093221",
+      "kind": "TARGET_LP",
+      "started_utc": "2026-09-27T01:43:13.633632+00:00",
+      "ended_utc": "2026-09-27T01:43:16.612520+00:00",
+      "seconds": 2.9791781999811064,
+      "limit": 60
+    }
+  ],
+  "clock_diagnostics": [
+    {
+      "case": "week_2_identity",
+      "kind": "IDENTITY_LP",
+      "decision_to_start_s": 0.000984,
+      "actual_UTC_remaining_s": 10631.141133,
+      "wall_adjusted_phase_estimate_s": 3598.9046828000123,
+      "observed_consistent": true
+    },
+    {
+      "case": "week_3_identity",
+      "kind": "IDENTITY_LP",
+      "decision_to_start_s": 0.001994,
+      "actual_UTC_remaining_s": 10629.924929,
+      "wall_adjusted_phase_estimate_s": 3597.687948800003,
+      "observed_consistent": true
+    },
+    {
+      "case": "seed_26093210",
+      "kind": "TARGET_MIP",
+      "decision_to_start_s": 0.000998,
+      "actual_UTC_remaining_s": 10628.682974,
+      "wall_adjusted_phase_estimate_s": 3596.4460982000196,
+      "observed_consistent": true
+    },
+    {
+      "case": "seed_26093211",
+      "kind": "TARGET_MIP",
+      "decision_to_start_s": 0.001001,
+      "actual_UTC_remaining_s": 10025.283667,
+      "wall_adjusted_phase_estimate_s": 2993.0468556999954,
+      "observed_consistent": true
+    },
+    {
+      "case": "seed_26093220",
+      "kind": "TARGET_MIP",
+      "decision_to_start_s": 0.002004,
+      "actual_UTC_remaining_s": 9419.865565,
+      "wall_adjusted_phase_estimate_s": 2387.6282236000206,
+      "observed_consistent": true
+    },
+    {
+      "case": "seed_26093221",
+      "kind": "TARGET_MIP",
+      "decision_to_start_s": 0.003009,
+      "actual_UTC_remaining_s": 8817.202877,
+      "wall_adjusted_phase_estimate_s": 1784.9660093000057,
+      "observed_consistent": true
+    },
+    {
+      "case": "seed_26093210",
+      "kind": "TARGET_LP",
+      "decision_to_start_s": 0.001983,
+      "actual_UTC_remaining_s": 8213.575478,
+      "wall_adjusted_phase_estimate_s": 1181.338340900018,
+      "observed_consistent": true
+    },
+    {
+      "case": "seed_26093211",
+      "kind": "TARGET_LP",
+      "decision_to_start_s": 0.00925,
+      "actual_UTC_remaining_s": 8211.698703,
+      "wall_adjusted_phase_estimate_s": 1179.4622667999965,
+      "observed_consistent": true
+    },
+    {
+      "case": "seed_26093220",
+      "kind": "TARGET_LP",
+      "decision_to_start_s": 0.000997,
+      "actual_UTC_remaining_s": 8209.495354,
+      "wall_adjusted_phase_estimate_s": 1177.2589081000142,
+      "observed_consistent": true
+    },
+    {
+      "case": "seed_26093221",
+      "kind": "TARGET_LP",
+      "decision_to_start_s": 0.002,
+      "actual_UTC_remaining_s": 8206.366368,
+      "wall_adjusted_phase_estimate_s": 1174.1292447999954,
+      "observed_consistent": true
+    }
+  ],
+  "clock_scope": "Actual UTC values checked; wall-adjusted phase estimate is not a saved monotonic final-call measurement.",
+  "actual_MIP_seconds": 2400.88715569998,
+  "actual_LP_seconds": 10.294393299991498,
+  "phase_elapsed_s": 2434.342625899997,
+  "accepted_binary_uppers": 4,
+  "all_hashes_unchanged": true,
+  "input_and_result_hashes": {
+    "results\\research8h\\fresh_january_energy\\allocation_audit.json": "ecab955aa91d8d3d53c83674ebec6cf3cf73a620410b3e43f0609256afe33856",
+    "results\\research8h\\fresh_january_energy\\allocation_started.json": "26edee2726b490f87e8edbaf8b5642044e8004c613174e53976b33aa3529d087",
+    "results\\research8h\\fresh_january_energy\\completion.json": "fab533b066f89905e2e8172612d44c596b888871db3d6594ee1667336b8bf6cf",
+    "results\\research8h\\fresh_january_energy\\energy_brackets.json": "ed4e0e6eb4f88b8a660c7b46495a95d30eebce94f715be83cedf4a884930471c",
+    "results\\research8h\\fresh_january_energy\\execution_started.json": "04ab525d7efe4d5ca0655885f6daad68186b33ccf28fa32419cc9e811aebe1e8",
+    "results\\research8h\\fresh_january_energy\\final_manifest_check.json": "c5c6746ff747b0b32e7d76e7f160b89f9cc42a1678ae4242179de5a8d0534936",
+    "results\\research8h\\fresh_january_energy\\freeze_before_preparation.json": "1524b6c2e3cfc8c624ef7eaf2a742ccc28db049b236067f1dfb26acc95c6d5cc",
+    "results\\research8h\\fresh_january_energy\\identity_energy_bounds.json": "9cffacd9ee0467ca2fd7a53b69e2d5b8cd0fd407c6e33fcdb49bdb926171d9b2",
+    "results\\research8h\\fresh_january_energy\\input_manifest.csv": "44b382d30a30b8485beda0cf080d22cd991b55a9f37491939f633d147bc14f2a",
+    "results\\research8h\\fresh_january_energy\\launch_decisions.json": "4ca02357cf4f50c4cd585817ec1b90711e82e7d82b9dd9435ede454720f75fbf",
+    "results\\research8h\\fresh_january_energy\\lp_results.json": "06353ab40ff6242737ce7b27ed191d676a1b3a2ccf7888e674434c54766168cc",
+    "results\\research8h\\fresh_january_energy\\mip_results.json": "b79c688fe561100919e92758063d69dc3f475f1d036e9572ade2338613f43296",
+    "results\\research8h\\fresh_january_energy\\new_cap_implication.json": "29d295f2e47cc0782409e65b13bf2b1047e719add05f3343e52ada4db7efa71b",
+    "results\\research8h\\fresh_january_energy\\parent_manifest_checks.json": "0e8b916abd0cbd2817e62e935a072ff52d768957ed48ed261a989e4c5a16b30a",
+    "results\\research8h\\fresh_january_energy\\parent_outcomes_context.json": "1c0cdbd3291ca9a8008c558e50d73553a79e51c0e5942e58d30115ef6c173979",
+    "results\\research8h\\fresh_january_energy\\prepared_cases.json": "73db971bb9bd0869a9f14182f89ad19d06ee0c9aa4f8b5f39562e80e6dbaf18e",
+    "results\\research8h\\fresh_january_energy\\prepared_freeze.json": "07b238b9cbc5b7d5296e13fa09a01bac83124d1c7203bade300b93c3ff6c5349",
+    "results\\research8h\\fresh_january_energy\\PREPARED_INTERPRETATION.md": "8123f28bd8c94225556e7289e6178fba3a6bd7adb72d2a3125933dfe75ad151a",
+    "results\\research8h\\fresh_january_energy\\READOUT.md": "26e92e8e46369a2bf51e1deec4059df06ba17e3db979ae9e7474508120a3e31f",
+    "results\\research8h\\fresh_january_energy\\reference_bindings.json": "61424d924d596ecfa7cbffddbb668890991532a453d7b845a71a1bd6368df37c",
+    "results\\research8h\\fresh_january_energy\\summarize_postrun.py": "d4f51051e798952024a54ef0781b07bcf2d8004ad1b934033d6fed203cf0f72e",
+    "results\\research8h\\fresh_january_energy\\summary.csv": "d1ee23db05c4231b406d846b78f397c69136fba25127b64bb7db1e4dac13e8c0",
+    "results\\research8h\\fresh_january_energy\\summary.json": "3fc1739e997a0c5179c90a21a816dc55c5583758b9ce154986b884377bdab606",
+    "results\\research8h\\fresh_january_energy\\seed_26093210\\bounds.npz": "460256f48c1cd1f06db5fcd06ebe51c752065196ee71adba39bcfc80de9a6e23",
+    "results\\research8h\\fresh_january_energy\\seed_26093210\\integrality.npz": "3dce3436c853f1dcf296fce09408a6a3d1049e6c2a89568469af8a1c4ae6d73b",
+    "results\\research8h\\fresh_january_energy\\seed_26093210\\matrix.npz": "43eadfdf239a339757187fa4d52e786d1be7277bb93009d5ded1973523bf1386",
+    "results\\research8h\\fresh_january_energy\\seed_26093210\\model_binding.json": "05964bfc92249abd1ba60bb18ae82f6d89e8e438aed3e6e1bcd53884347a10e3",
+    "results\\research8h\\fresh_january_energy\\seed_26093210\\model_metadata.json": "161e9b9a8ba64f3ac61bcad38d058faa05bae0266019d0cdfae84e82bd239684",
+    "results\\research8h\\fresh_january_energy\\seed_26093210\\native_inputs.npz": "95a05fa6afc5a9f301b7fa6df9b3dde0f64a4a688ec4eb1d26fd1ca417b1bdf9",
+    "results\\research8h\\fresh_january_energy\\seed_26093210\\objective.npz": "4a11881191004d9f39ed53d3cd18a5861829593b48c4e97d67e2af2d01b17632",
+    "results\\research8h\\fresh_january_energy\\seed_26093210\\original_integrality.npz": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d",
+    "results\\research8h\\fresh_january_energy\\seed_26093210\\permutation.csv": "42f9b919b475adf7f077236d4256d97194cf2a18f39571ec1086cae1c4970810",
+    "results\\research8h\\fresh_january_energy\\seed_26093210\\projection_audit.json": "e9648ffe394153363cc189379abca6edf6e2c18e40dcf9206ad9347283524473",
+    "results\\research8h\\fresh_january_energy\\seed_26093210\\retained_parent_rows.npz": "f716fa7f6865e9a44befa66565a1e2d264781db9ec7077eabe815854588dbcc5",
+    "results\\research8h\\fresh_january_energy\\seed_26093210\\row_metadata.csv.gz": "4879a6d5f6ec5e59e877bceea2cc51e87e1b0efa8d84d076f1bce83a4308c7e8",
+    "results\\research8h\\fresh_january_energy\\seed_26093210\\zero_dual_baseline.json": "73bc024d6c5bfe3e642d374defdbf0d742197c7ba0e21702f8e86bdbfe1e3eaa",
+    "results\\research8h\\fresh_january_energy\\seed_26093211\\bounds.npz": "c3ce048491371d8f0151e18fa1d657c0239b0dba3f77bfa1a744a94d6b5f0576",
+    "results\\research8h\\fresh_january_energy\\seed_26093211\\integrality.npz": "3dce3436c853f1dcf296fce09408a6a3d1049e6c2a89568469af8a1c4ae6d73b",
+    "results\\research8h\\fresh_january_energy\\seed_26093211\\matrix.npz": "43eadfdf239a339757187fa4d52e786d1be7277bb93009d5ded1973523bf1386",
+    "results\\research8h\\fresh_january_energy\\seed_26093211\\model_binding.json": "aa24ffa87df5cc5cfcb6c30a232b654bc6c3423544d1e2b59b92e760f81e867f",
+    "results\\research8h\\fresh_january_energy\\seed_26093211\\model_metadata.json": "536464610d9bb0437e785f78994d03573d4552e7d9c0894de05cf9379da74e6d",
+    "results\\research8h\\fresh_january_energy\\seed_26093211\\native_inputs.npz": "a32addb7ed782be0ad6733821359c93998a2089fbcd9f00e849554254223be1c",
+    "results\\research8h\\fresh_january_energy\\seed_26093211\\objective.npz": "4a11881191004d9f39ed53d3cd18a5861829593b48c4e97d67e2af2d01b17632",
+    "results\\research8h\\fresh_january_energy\\seed_26093211\\original_integrality.npz": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d",
+    "results\\research8h\\fresh_january_energy\\seed_26093211\\permutation.csv": "4af3299fc052afcba52fdc2b25459028e50bf392b5b9470910e885848ba5dbab",
+    "results\\research8h\\fresh_january_energy\\seed_26093211\\projection_audit.json": "e9648ffe394153363cc189379abca6edf6e2c18e40dcf9206ad9347283524473",
+    "results\\research8h\\fresh_january_energy\\seed_26093211\\retained_parent_rows.npz": "f716fa7f6865e9a44befa66565a1e2d264781db9ec7077eabe815854588dbcc5",
+    "results\\research8h\\fresh_january_energy\\seed_26093211\\row_metadata.csv.gz": "c7ad8a7e983860e8a5b2781c6a94f9246b9484cbd18eca268c1545b2548c3380",
+    "results\\research8h\\fresh_january_energy\\seed_26093211\\zero_dual_baseline.json": "73bc024d6c5bfe3e642d374defdbf0d742197c7ba0e21702f8e86bdbfe1e3eaa",
+    "results\\research8h\\fresh_january_energy\\seed_26093220\\bounds.npz": "5fce0509bdb795ea868ab89d83860c05eda9e81d267757f762662bda027112b0",
+    "results\\research8h\\fresh_january_energy\\seed_26093220\\integrality.npz": "3dce3436c853f1dcf296fce09408a6a3d1049e6c2a89568469af8a1c4ae6d73b",
+    "results\\research8h\\fresh_january_energy\\seed_26093220\\matrix.npz": "43eadfdf239a339757187fa4d52e786d1be7277bb93009d5ded1973523bf1386",
+    "results\\research8h\\fresh_january_energy\\seed_26093220\\model_binding.json": "ff391ea1194aa7148d18ad3383fb06ca040c0e7c7e378d504327b0f8b88ae68c",
+    "results\\research8h\\fresh_january_energy\\seed_26093220\\model_metadata.json": "9ed761cc05937ca720bd82011507a9a22ab8830738bcab0c9a1b77af2b3dc53a",
+    "results\\research8h\\fresh_january_energy\\seed_26093220\\native_inputs.npz": "5df0b550ea74fe798f3cd0aca22bf3dd088aa8de5872352dbee387161c7ca362",
+    "results\\research8h\\fresh_january_energy\\seed_26093220\\objective.npz": "4a11881191004d9f39ed53d3cd18a5861829593b48c4e97d67e2af2d01b17632",
+    "results\\research8h\\fresh_january_energy\\seed_26093220\\original_integrality.npz": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d",
+    "results\\research8h\\fresh_january_energy\\seed_26093220\\permutation.csv": "285869ce622597f84e82dbd29a3cf894098e9aae4c547ab7e405e609d7be2955",
+    "results\\research8h\\fresh_january_energy\\seed_26093220\\projection_audit.json": "e9648ffe394153363cc189379abca6edf6e2c18e40dcf9206ad9347283524473",
+    "results\\research8h\\fresh_january_energy\\seed_26093220\\retained_parent_rows.npz": "f716fa7f6865e9a44befa66565a1e2d264781db9ec7077eabe815854588dbcc5",
+    "results\\research8h\\fresh_january_energy\\seed_26093220\\row_metadata.csv.gz": "47f8f925b1676b5e2f3b195f7b7bcf40ad7245658b1d8a7107e3be91ca200cee",
+    "results\\research8h\\fresh_january_energy\\seed_26093220\\zero_dual_baseline.json": "73bc024d6c5bfe3e642d374defdbf0d742197c7ba0e21702f8e86bdbfe1e3eaa",
+    "results\\research8h\\fresh_january_energy\\seed_26093221\\bounds.npz": "4d553b230230942c7ae50bc9a33b0ab34bc245beb93b1b36bedeac801c5ba57f",
+    "results\\research8h\\fresh_january_energy\\seed_26093221\\integrality.npz": "3dce3436c853f1dcf296fce09408a6a3d1049e6c2a89568469af8a1c4ae6d73b",
+    "results\\research8h\\fresh_january_energy\\seed_26093221\\matrix.npz": "43eadfdf239a339757187fa4d52e786d1be7277bb93009d5ded1973523bf1386",
+    "results\\research8h\\fresh_january_energy\\seed_26093221\\model_binding.json": "61e3d9e3485c86215b26e021dc1cea35d40581301320a02651e785904743bbfb",
+    "results\\research8h\\fresh_january_energy\\seed_26093221\\model_metadata.json": "12fde37b7e0f26e054ce779acd1331e6336ef3770ad3a1cc117e589eaf88945a",
+    "results\\research8h\\fresh_january_energy\\seed_26093221\\native_inputs.npz": "ddbb27dd75f4f1c5ce7a4669a11adc2b5888b6024c3873538efaebca7de4d44b",
+    "results\\research8h\\fresh_january_energy\\seed_26093221\\objective.npz": "4a11881191004d9f39ed53d3cd18a5861829593b48c4e97d67e2af2d01b17632",
+    "results\\research8h\\fresh_january_energy\\seed_26093221\\original_integrality.npz": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d",
+    "results\\research8h\\fresh_january_energy\\seed_26093221\\permutation.csv": "3d4a19b33b1a75f7056348a0033509dc1416b3652242d254e74be6ed3437d97a",
+    "results\\research8h\\fresh_january_energy\\seed_26093221\\projection_audit.json": "e9648ffe394153363cc189379abca6edf6e2c18e40dcf9206ad9347283524473",
+    "results\\research8h\\fresh_january_energy\\seed_26093221\\retained_parent_rows.npz": "f716fa7f6865e9a44befa66565a1e2d264781db9ec7077eabe815854588dbcc5",
+    "results\\research8h\\fresh_january_energy\\seed_26093221\\row_metadata.csv.gz": "23058bfe98f094b34e589d975d501b806257abf7868248aa0f4f7dcf26640131",
+    "results\\research8h\\fresh_january_energy\\seed_26093221\\zero_dual_baseline.json": "73bc024d6c5bfe3e642d374defdbf0d742197c7ba0e21702f8e86bdbfe1e3eaa",
+    "results\\research8h\\fresh_january_energy\\week_2_identity\\bounds.npz": "848e31f86de748453227910e6412fb8e8229ac68f6c2b25e11ce960f0f1319c0",
+    "results\\research8h\\fresh_january_energy\\week_2_identity\\integrality.npz": "3dce3436c853f1dcf296fce09408a6a3d1049e6c2a89568469af8a1c4ae6d73b",
+    "results\\research8h\\fresh_january_energy\\week_2_identity\\matrix.npz": "43eadfdf239a339757187fa4d52e786d1be7277bb93009d5ded1973523bf1386",
+    "results\\research8h\\fresh_january_energy\\week_2_identity\\model_metadata.json": "0c14a5a6c409506621937574e6d038d737efb48569b0a60122e8f764e15c4297",
+    "results\\research8h\\fresh_january_energy\\week_2_identity\\native_adapter_check.json": "c7a43ddb4294819a264d1273b5e61ce94f27df85321f7b8521746b0607d6e4b2",
+    "results\\research8h\\fresh_january_energy\\week_2_identity\\native_inputs.npz": "e7e187ec0103784437f464406066ed1637dd6b9ecc39e05a69f463601b46eab0",
+    "results\\research8h\\fresh_january_energy\\week_2_identity\\objective.npz": "4a11881191004d9f39ed53d3cd18a5861829593b48c4e97d67e2af2d01b17632",
+    "results\\research8h\\fresh_january_energy\\week_2_identity\\original_integrality.npz": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d",
+    "results\\research8h\\fresh_january_energy\\week_2_identity\\projection_audit.json": "e9648ffe394153363cc189379abca6edf6e2c18e40dcf9206ad9347283524473",
+    "results\\research8h\\fresh_january_energy\\week_2_identity\\reference_binding.json": "7c2394ed83f84460aa085d39d5d54a366d61e5b9ffdf7b6fdd5867c3d39e5435",
+    "results\\research8h\\fresh_january_energy\\week_2_identity\\reference_upper_vector.npz": "26e67eb484a57a566b8e08c120523918adca648b918e29b9431a68ceb81711ee",
+    "results\\research8h\\fresh_january_energy\\week_2_identity\\retained_parent_rows.npz": "b29c85e80d66b2d2887be9ed593a8a5c7f94dd722b6db95f22df29b91c12de8b",
+    "results\\research8h\\fresh_january_energy\\week_2_identity\\row_metadata.csv.gz": "553c821389271a68cc65f5c4315a5d273b8675cc9092add17ddeb864c6a90048",
+    "results\\research8h\\fresh_january_energy\\week_2_identity\\zero_dual_baseline.json": "73bc024d6c5bfe3e642d374defdbf0d742197c7ba0e21702f8e86bdbfe1e3eaa",
+    "results\\research8h\\fresh_january_energy\\week_3_identity\\bounds.npz": "d04ec3d429a8ab43fbbc7cf91a04bda985cef562596303029abeb30ba8b4fe3e",
+    "results\\research8h\\fresh_january_energy\\week_3_identity\\integrality.npz": "3dce3436c853f1dcf296fce09408a6a3d1049e6c2a89568469af8a1c4ae6d73b",
+    "results\\research8h\\fresh_january_energy\\week_3_identity\\matrix.npz": "43eadfdf239a339757187fa4d52e786d1be7277bb93009d5ded1973523bf1386",
+    "results\\research8h\\fresh_january_energy\\week_3_identity\\model_metadata.json": "b63c9bbb9547208ffa2e667511f32ae18da77ceb48ce4112386c47a7689f0f11",
+    "results\\research8h\\fresh_january_energy\\week_3_identity\\native_adapter_check.json": "51cdc4822f181a30c3e1f7bf3a038c72efb1ccb2ce6088c1ed383c3bc821423b",
+    "results\\research8h\\fresh_january_energy\\week_3_identity\\native_inputs.npz": "59c081731e57882369c21a1af19f66347f145aeb3a44b5fafe283ee8ef6efa59",
+    "results\\research8h\\fresh_january_energy\\week_3_identity\\objective.npz": "4a11881191004d9f39ed53d3cd18a5861829593b48c4e97d67e2af2d01b17632",
+    "results\\research8h\\fresh_january_energy\\week_3_identity\\original_integrality.npz": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d",
+    "results\\research8h\\fresh_january_energy\\week_3_identity\\projection_audit.json": "e9648ffe394153363cc189379abca6edf6e2c18e40dcf9206ad9347283524473",
+    "results\\research8h\\fresh_january_energy\\week_3_identity\\reference_binding.json": "4aa56d324f98b1d0220f53d0947ff1fa65657183e55689a8125697eb63886819",
+    "results\\research8h\\fresh_january_energy\\week_3_identity\\reference_upper_vector.npz": "7481a3fe6e2da571da8f8a3db0ba835d90b2f628df11daf4b3fff9f593468093",
+    "results\\research8h\\fresh_january_energy\\week_3_identity\\retained_parent_rows.npz": "b29c85e80d66b2d2887be9ed593a8a5c7f94dd722b6db95f22df29b91c12de8b",
+    "results\\research8h\\fresh_january_energy\\week_3_identity\\row_metadata.csv.gz": "25ee1f482ae257f04633dc0c6b118cbe8a2242e22778e58456860909b44f6fdb",
+    "results\\research8h\\fresh_january_energy\\week_3_identity\\zero_dual_baseline.json": "73bc024d6c5bfe3e642d374defdbf0d742197c7ba0e21702f8e86bdbfe1e3eaa",
+    "results\\research8h\\fresh_january_energy\\seed_26093210\\lp\\exact_lower_bound.json": "3fa24dd2f88df0399746570c2754821c66e68f93b7f595a8100c2c352c3fecdc",
+    "results\\research8h\\fresh_january_energy\\seed_26093210\\lp\\exact_stationarity_residual.json": "81d1333493f7cf1a352f3947a819c5a8994c8206f49fe21c881e8f5c5e620e08",
+    "results\\research8h\\fresh_january_energy\\seed_26093210\\lp\\primal.npz": "67f3707f5ef81ecc704f327d04ad2d1e7992adfed05ac5f60efc998d5c34540e",
+    "results\\research8h\\fresh_january_energy\\seed_26093210\\lp\\projected_row_dual.npz": "ec13abdaad6a42fd8911499ab8f328849fa91979a45c6e5d8d64a052bba4a45d",
+    "results\\research8h\\fresh_january_energy\\seed_26093210\\lp\\raw_duals.npz": "dc37a7cb8ea83e081a9883b46392888c157fcdd5e561946745c3d0074b523f9e",
+    "results\\research8h\\fresh_january_energy\\seed_26093210\\lp\\result.json": "0990ce14a5ab9ce4784b8d4296421ae77c41821f221a8c0d1c730bb3777fff8f",
+    "results\\research8h\\fresh_january_energy\\seed_26093210\\lp\\solver.log": "81c6488325ade3cd0ac9a19a91f67d574619ef94bad130f4ab616fd42d6667d0",
+    "results\\research8h\\fresh_january_energy\\seed_26093210\\mip\\exact_point_check.json": "57fd0c8bdf230810af96c54e1a2d2d25683d4b997251d2b781d3cc586bdb21c4",
+    "results\\research8h\\fresh_january_energy\\seed_26093210\\mip\\native_no_cap_check.json": "320ec021f2d5c485e128db32a4a8bc4094eb01d026531db8ea68ebf2b400daf1",
+    "results\\research8h\\fresh_january_energy\\seed_26093210\\mip\\raw_vector.npz": "eb108797781e09c8afe41de339d53fc45f5d54afb59b9929ae9935c50ced8769",
+    "results\\research8h\\fresh_january_energy\\seed_26093210\\mip\\recovered_vector.npz": "e7fce362ad6bc15813a61cfe0cd5cbb243c98e0796d156b73c443e961f68407c",
+    "results\\research8h\\fresh_january_energy\\seed_26093210\\mip\\result.json": "c935c3571bdd5948359e6e9033f452842619b60b6b0488ad0bb7a6b2518c54a8",
+    "results\\research8h\\fresh_january_energy\\seed_26093210\\mip\\solver.log": "0be4217eb8edaf40561404c78ba32cc6fbb0c4107d5cfa7997309c061157fd0d",
+    "results\\research8h\\fresh_january_energy\\seed_26093211\\lp\\exact_lower_bound.json": "b75b05a5f33b3ec5d611a509f239d293e33d027c2d97302d4d14a99a0c917b09",
+    "results\\research8h\\fresh_january_energy\\seed_26093211\\lp\\exact_stationarity_residual.json": "1fee7e00c787f46bab579c18c832f10b076c91904c6910409d65200a479bdddb",
+    "results\\research8h\\fresh_january_energy\\seed_26093211\\lp\\primal.npz": "6abe321e619fcff57ec225dc99941c37c319d89b30133e59333ad99b076c55cf",
+    "results\\research8h\\fresh_january_energy\\seed_26093211\\lp\\projected_row_dual.npz": "4c28f27360064b069e5c7aaefa2525bb9094c2d9a76e29edfa01bdd1aa955fa7",
+    "results\\research8h\\fresh_january_energy\\seed_26093211\\lp\\raw_duals.npz": "abddc103cb6511fc035d4bcf3fbba840e73002a3d1821ba0c12758d68c2dc639",
+    "results\\research8h\\fresh_january_energy\\seed_26093211\\lp\\result.json": "c5c563f69354f8ce6a80f133c6c5241653039994805ccd2422e1c0c056cd45da",
+    "results\\research8h\\fresh_january_energy\\seed_26093211\\lp\\solver.log": "fe6afc8c049da5a2d56e8f02e6d405b83a3473dbfe50c7a34a11ec3b5f3bb342",
+    "results\\research8h\\fresh_january_energy\\seed_26093211\\mip\\exact_point_check.json": "18a56b387e372b979be1a6215f29243339a018e4ee4261a4c6636294cc129a66",
+    "results\\research8h\\fresh_january_energy\\seed_26093211\\mip\\native_no_cap_check.json": "389497be0f116cce8740a0866be1d252f6aa1a6c3d13239411220955bcc6c2ea",
+    "results\\research8h\\fresh_january_energy\\seed_26093211\\mip\\raw_vector.npz": "d72b5297702e288393223967a84af914b48f8413e7974fb0d54265d5907b06b8",
+    "results\\research8h\\fresh_january_energy\\seed_26093211\\mip\\recovered_vector.npz": "2a7bcf367329f86401011d00e82840fc56dceac33ad6a2f4622e08a7b0c7ee51",
+    "results\\research8h\\fresh_january_energy\\seed_26093211\\mip\\result.json": "4ac8892ec0c20dfd51ad41f8e445a8cbebb0a28be0c827f069f505a0a5f9a5a5",
+    "results\\research8h\\fresh_january_energy\\seed_26093211\\mip\\solver.log": "0c1fded00f0d0ecf6677cb37f876a1c97f7c5644a0d608a00106dce7f0b415b9",
+    "results\\research8h\\fresh_january_energy\\seed_26093220\\lp\\exact_lower_bound.json": "f6c76debfb26c6b1672414bb7e040987596bea4ec9768ca8a5a8feba3688b9b6",
+    "results\\research8h\\fresh_january_energy\\seed_26093220\\lp\\exact_stationarity_residual.json": "8adc2b03638376ed7aa2171587fdfc62c84cdd15e14047c8c6e9f32ac3cb0c6b",
+    "results\\research8h\\fresh_january_energy\\seed_26093220\\lp\\primal.npz": "e49850849f6ccba46f606277727c75d148b30cf880c1f21c6541bfbe1e1a55ff",
+    "results\\research8h\\fresh_january_energy\\seed_26093220\\lp\\projected_row_dual.npz": "1b2ab6b8b11a7373247d1156461aecace9213db3e14c0f566d415fa4198cdc97",
+    "results\\research8h\\fresh_january_energy\\seed_26093220\\lp\\raw_duals.npz": "a3f8050d4ea7c34f1dbd91b522285048df46becabec0e52ba48b1ad9a173a004",
+    "results\\research8h\\fresh_january_energy\\seed_26093220\\lp\\result.json": "635290b16f102a447d8324912998319a589df4d958787184d6e30bb73acddc4d",
+    "results\\research8h\\fresh_january_energy\\seed_26093220\\lp\\solver.log": "87a7116400606a2977c71e5168430579d329b00d4cff7221c56089cfd8de420d",
+    "results\\research8h\\fresh_january_energy\\seed_26093220\\mip\\exact_point_check.json": "01760cd8055fdac20cee6f4eaea218e9a1003dd3e108b8f7b2edb32b14ca8865",
+    "results\\research8h\\fresh_january_energy\\seed_26093220\\mip\\native_no_cap_check.json": "28a8fee588e22fc9ec2e565265e3d148c8b8cf35060c367b8b96650c9a6286e8",
+    "results\\research8h\\fresh_january_energy\\seed_26093220\\mip\\raw_vector.npz": "39d1b924861279709eef1dc0d14be33ed802180d1c3d625dbd2eae1090737bfb",
+    "results\\research8h\\fresh_january_energy\\seed_26093220\\mip\\recovered_vector.npz": "cb0dd439ff5543e9eb536b3a1f0c033a79df862b6fa145cc9e68e62ef6b7ead0",
+    "results\\research8h\\fresh_january_energy\\seed_26093220\\mip\\result.json": "1431bd846fcb5e7f816398c4d336c14a58e3330f7333f8bc5b62fd154bdbc2a6",
+    "results\\research8h\\fresh_january_energy\\seed_26093220\\mip\\solver.log": "b4f5f1c693437555cb1287def09a3fff4565a144b44773d488a5a106451b9702",
+    "results\\research8h\\fresh_january_energy\\seed_26093221\\lp\\exact_lower_bound.json": "0ed16e24d155ff7efa7db1516f636f8b6f440899c688c5f8c6598a61c453d45d",
+    "results\\research8h\\fresh_january_energy\\seed_26093221\\lp\\exact_stationarity_residual.json": "ebbd0b3e10da2421b53aa7740bfacee045c2b7c2e69321425be647e5aa9eebd3",
+    "results\\research8h\\fresh_january_energy\\seed_26093221\\lp\\primal.npz": "beadc9cf8f3197a6bc896e8e6405e9b80031c1b765bc6b6b3dffb91ac3a67e60",
+    "results\\research8h\\fresh_january_energy\\seed_26093221\\lp\\projected_row_dual.npz": "dcab94586a4fd996342d76a9d3c0ac5f45da361720b134367b23328c4f5e5f31",
+    "results\\research8h\\fresh_january_energy\\seed_26093221\\lp\\raw_duals.npz": "a559e1ea976ee57ec51aada3d9fbe00c3645907763157a693675269a27570ac4",
+    "results\\research8h\\fresh_january_energy\\seed_26093221\\lp\\result.json": "b2c9be3cf6a4e0ea4642abdeb49fd1126be8280950f4fc31fe72898a7c3066b7",
+    "results\\research8h\\fresh_january_energy\\seed_26093221\\lp\\solver.log": "caf6782c9ff490dc04d36aa9b84464b4c3e70e5c50409eaf15934c5bceb42089",
+    "results\\research8h\\fresh_january_energy\\seed_26093221\\mip\\exact_point_check.json": "2621190cde3cbde44ea6313c1ccdbce38aa675440115bf4ad990feaf1fd3f64e",
+    "results\\research8h\\fresh_january_energy\\seed_26093221\\mip\\native_no_cap_check.json": "c726b4843dbb0f7847886bfc150446077dfe3553a15c552dba1647e8c35a180f",
+    "results\\research8h\\fresh_january_energy\\seed_26093221\\mip\\raw_vector.npz": "4706ccb2a76bf39a2c288bfde9f941618d77d9d89a216e15ae4991c5ca46c67b",
+    "results\\research8h\\fresh_january_energy\\seed_26093221\\mip\\recovered_vector.npz": "24c67f3140b5c9a9253ef645c9ab7b3c707b40b703519d34588c76ee171500b3",
+    "results\\research8h\\fresh_january_energy\\seed_26093221\\mip\\result.json": "6255638b8bebb0c213568f72652a2e565d9d445608b4f4ccd51c27661a6f5413",
+    "results\\research8h\\fresh_january_energy\\seed_26093221\\mip\\solver.log": "5f5559aee8fe7e2c7069a4233cd1ffb540d3fde86224f81511077fcb59f7fab7",
+    "results\\research8h\\fresh_january_energy\\week_2_identity\\lp\\exact_lower_bound.json": "b98a38232d938ff4a996fea48fb0908599bf3df53a0960f670436a5686a0b22e",
+    "results\\research8h\\fresh_january_energy\\week_2_identity\\lp\\exact_stationarity_residual.json": "3a0de0d69a5ce22e3f288f656e02e85a0aac6b05499683c4e9d1d9c9ec1825fd",
+    "results\\research8h\\fresh_january_energy\\week_2_identity\\lp\\primal.npz": "debb9704d6f48443f37bf2bf60471eaf1ed2ef27c0df3112c2e5db80b09163e0",
+    "results\\research8h\\fresh_january_energy\\week_2_identity\\lp\\projected_row_dual.npz": "e649e8da5df7734de9c5cd2f59921bf086e52f2f4a20c3a9b95a2abdb2759e11",
+    "results\\research8h\\fresh_january_energy\\week_2_identity\\lp\\raw_duals.npz": "647b30dce0500f7d3fef7a02a47a40ff83275ac7798e495fc000400da4909531",
+    "results\\research8h\\fresh_january_energy\\week_2_identity\\lp\\result.json": "978bf33fe1541768799692a6b96935d637cca53d62b26e13a4ee6970b7a0d67e",
+    "results\\research8h\\fresh_january_energy\\week_2_identity\\lp\\solver.log": "07104a0f8e0a66a611b7901c002b8e37cffcaf90917853d2a7ce16783d124eef",
+    "results\\research8h\\fresh_january_energy\\week_3_identity\\lp\\exact_lower_bound.json": "a656818d68b9a4549719fd55e014e69f6db49e9fb7ddab4433a6596fdfaf1b17",
+    "results\\research8h\\fresh_january_energy\\week_3_identity\\lp\\exact_stationarity_residual.json": "0f12a167635fc46f1d72d5870f53871db85e94023bba3eb96e754976234fadf9",
+    "results\\research8h\\fresh_january_energy\\week_3_identity\\lp\\primal.npz": "413f65fb9504bfc9375265561d6bea02081b4ee055a0b7aebecc79074b9098d0",
+    "results\\research8h\\fresh_january_energy\\week_3_identity\\lp\\projected_row_dual.npz": "5a54b37327b59869ea8f757a1d129eb3e6ac6d8ecf2c3f1c97e17bbaac5eae9e",
+    "results\\research8h\\fresh_january_energy\\week_3_identity\\lp\\raw_duals.npz": "c4d13a029ee072740879fe585f7f1c20ff95212d42104fb3312f404e5dfcf2cd",
+    "results\\research8h\\fresh_january_energy\\week_3_identity\\lp\\result.json": "4d132b363f53160d8db52116119b262e8c1f9421a8eb8d142b743a11eeabca2f",
+    "results\\research8h\\fresh_january_energy\\week_3_identity\\lp\\solver.log": "90fbcccde5647d063b9cd8cbe00e427bb5be94877563c74527be264c1aa46a65"
+  },
+  "review_source_sha256": "14925541da0bcebfb59d09983c9101d48caee76ad7ea2535540d9774087335e4",
+  "elapsed_s": 16.462867800000822,
+  "native_scope": "Native model provenance independently checked at prepared gate; stored native no-cap checks inspected, native physical assembler not rerun.",
+  "exact_optimality_claim": false
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "case": "seed_26093210",
+    "historical_capped_verdict": "CERTIFIED_INFEASIBLE_EXPANDED_MODEL",
+    "removed_cap_MWh": 26532,
+    "expanded_cap_exact": {
+      "numerator": "15661728446340136454809841",
+      "denominator": "590295810358705651712"
+    },
+    "lower_MWh": {
+      "numerator": "20086370813996232580518473920067758661793960696268153117",
+      "denominator": "748288838313422294120286634350736906063837462003712",
+      "approximate": 26843.07153273749,
+      "outward_floor_6dp": "26843.071532",
+      "outward_ceiling_6dp": "26843.071533"
+    },
+    "strict_lower_greater_than_expanded_cap": true,
+    "new_exclusion_for_historically_UNKNOWN": false,
+    "historical_ledger_modified": false,
+    "reason": "A valid uncapped lower bound greater than B+tau contradicts the old expanded cap; no such implication is claimed otherwise."
+  },
+  {
+    "case": "seed_26093211",
+    "historical_capped_verdict": "UNKNOWN",
+    "removed_cap_MWh": 26532,
+    "expanded_cap_exact": {
+      "numerator": "15661728446340136454809841",
+      "denominator": "590295810358705651712"
+    },
+    "lower_MWh": {
+      "numerator": "2465434983535487892226081461254514743454344793621905775",
+      "denominator": "93536104789177786765035829293842113257979682750464",
+      "approximate": 26358.110476081543,
+      "outward_floor_6dp": "26358.110476",
+      "outward_ceiling_6dp": "26358.110477"
+    },
+    "strict_lower_greater_than_expanded_cap": false,
+    "new_exclusion_for_historically_UNKNOWN": false,
+    "historical_ledger_modified": false,
+    "reason": "A valid uncapped lower bound greater than B+tau contradicts the old expanded cap; no such implication is claimed otherwise."
+  },
+  {
+    "case": "seed_26093220",
+    "historical_capped_verdict": "CERTIFIED_INFEASIBLE_EXPANDED_MODEL",
+    "removed_cap_MWh": 48319,
+    "expanded_cap_exact": {
+      "numerator": "28522503266625256488659185",
+      "denominator": "590295810358705651712"
+    },
+    "lower_MWh": {
+      "numerator": "322007864663214391459227169138779673229590176269304105690026351423405",
+      "denominator": "6582018229284824168619876730229402019930943462534319453394436096",
+      "approximate": 48922.35989723208,
+      "outward_floor_6dp": "48922.359897",
+      "outward_ceiling_6dp": "48922.359898"
+    },
+    "strict_lower_greater_than_expanded_cap": true,
+    "new_exclusion_for_historically_UNKNOWN": false,
+    "historical_ledger_modified": false,
+    "reason": "A valid uncapped lower bound greater than B+tau contradicts the old expanded cap; no such implication is claimed otherwise."
+  },
+  {
+    "case": "seed_26093221",
+    "historical_capped_verdict": "CERTIFIED_INFEASIBLE_EXPANDED_MODEL",
+    "removed_cap_MWh": 48319,
+    "expanded_cap_exact": {
+      "numerator": "28522503266625256488659185",
+      "denominator": "590295810358705651712"
+    },
+    "lower_MWh": {
+      "numerator": "4572896679870482319140876157629580036471573054545449145",
+      "denominator": "93536104789177786765035829293842113257979682750464",
+      "approximate": 48889.107475422374,
+      "outward_floor_6dp": "48889.107475",
+      "outward_ceiling_6dp": "48889.107476"
+    },
+    "strict_lower_greater_than_expanded_cap": true,
+    "new_exclusion_for_historically_UNKNOWN": false,
+    "historical_ledger_modified": false,
+    "reason": "A valid uncapped lower bound greater than B+tau contradicts the old expanded cap; no such implication is claimed otherwise."
+  }
+]

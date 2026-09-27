@@ -1,0 +1,40 @@
+{
+  "2": {
+    "case": "week_2_identity",
+    "lower_MWh": {
+      "numerator": "2420462787332983677388067029405122530569028479259740441",
+      "denominator": "93536104789177786765035829293842113257979682750464",
+      "approximate": 25877.310080299958,
+      "outward_floor_6dp": "25877.310080",
+      "outward_ceiling_6dp": "25877.310081"
+    },
+    "upper_MWh": {
+      "numerator": "16259756583482128080663775801439",
+      "denominator": "618970019642690137449562112",
+      "approximate": 26269.05353649975,
+      "outward_floor_6dp": "26269.053536",
+      "outward_ceiling_6dp": "26269.053537"
+    },
+    "LP_lower_bound_status": "EXACT_EXPANDED_OBJECTIVE_LOWER_BOUND",
+    "upper_witness_unchanged": true
+  },
+  "3": {
+    "case": "week_3_identity",
+    "lower_MWh": {
+      "numerator": "71040120044180405409152889048497810725108515836534336483",
+      "denominator": "1496577676626844588240573268701473812127674924007424",
+      "approximate": 47468.381463699654,
+      "outward_floor_6dp": "47468.381463",
+      "outward_ceiling_6dp": "47468.381464"
+    },
+    "upper_MWh": {
+      "numerator": "1683230331936304381",
+      "denominator": "35184372088832",
+      "approximate": 47840.28339873613,
+      "outward_floor_6dp": "47840.283398",
+      "outward_ceiling_6dp": "47840.283399"
+    },
+    "LP_lower_bound_status": "EXACT_EXPANDED_OBJECTIVE_LOWER_BOUND",
+    "upper_witness_unchanged": true
+  }
+}

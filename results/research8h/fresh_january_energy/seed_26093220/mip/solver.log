@@ -1,0 +1,85 @@
+Running HiGHS 1.12.0 (git hash: 755a8e0): Copyright (c) 2025 HiGHS under MIT licence terms
+MIP has 34680 rows; 23016 cols; 141724 nonzeros; 4032 integer variables (4032 binary)
+Coefficient ranges:
+  Matrix  [1e+00, 2e+04]
+  Cost    [1e+00, 1e+00]
+  Bound   [8e-01, 7e+02]
+  RHS     [1e+00, 2e+03]
+Presolving model
+34680 rows, 20736 cols, 136420 nonzeros  0s
+29625 rows, 17661 cols, 132892 nonzeros  0s
+Presolve reductions: rows 29625(-5055); columns 17661(-5355); nonzeros 132892(-8832) 
+
+Solving MIP model with:
+   29625 rows
+   17661 cols (4032 binary, 0 integer, 0 implied int., 13629 continuous, 0 domain fixed)
+   132892 nonzeros
+
+Src: B => Branching; C => Central rounding; F => Feasibility pump; H => Heuristic;
+     I => Shifting; J => Feasibility jump; L => Sub-MIP; P => Empty MIP; R => Randomized rounding;
+     S => Solve LP; T => Evaluate node; U => Unbounded; X => User solution; Y => HiGHS solution;
+     Z => ZI Round; l => Trivial lower; p => Trivial point; u => Trivial upper; z => Trivial zero
+
+        Nodes      |    B&B Tree     |            Objective Bounds              |  Dynamic Constraints |       Work      
+Src  Proc. InQueue |  Leaves   Expl. | BestBound       BestSol              Gap |   Cuts   InLp Confl. | LpIters     Time
+
+         0       0         0   0.00%   -12846856.00761 inf                  inf        0      0      0         0     2.9s
+         0       0         0   0.00%   48923.996784    inf                  inf        0      0      0     17333     7.3s
+         0       0         0   0.00%   48927.507742    inf                  inf      189     12      9     17932    31.7s
+         0       0         0   0.00%   48927.972715    inf                  inf      272     20      9     18770    36.8s
+         0       0         0   0.00%   48927.972715    inf                  inf      313     24      9     19092    42.1s
+ L       0       0         0   0.00%   48927.972715    49495.837016       1.15%      313     24      9     19092    69.8s
+
+3.7% inactive integer columns, restarting
+Model after restart has 28529 rows, 16868 cols (3883 bin., 0 int., 3 impl., 12982 cont., 0 dom.fix.), and 121241 nonzeros
+
+         0       0         0   0.00%   48927.972715    49495.837016       1.15%       12      0      0     31915    70.5s
+         0       0         0   0.00%   48927.972715    49495.837016       1.15%       12      3      4     41951    75.4s
+       137     136         1   0.00%   48927.972715    49495.837016       1.15%       97      8     80     64361   132.9s
+ L     137     109         1   0.00%   48927.972715    49459.723508       1.08%       97      8     80     64361   172.7s
+       199     109         2   0.00%   48927.972715    49459.723508       1.08%       99      8    134    101649   217.4s
+       205     111         4   0.00%   48927.972715    49459.723508       1.08%      107      8    155    107675   228.1s
+       209     111         6   0.00%   48927.972715    49459.723508       1.08%      114      8    175    112725   234.5s
+       216     111        10   0.00%   48927.972715    49459.723508       1.08%      120      8    209    118571   243.2s
+       222     112        14   0.00%   48927.972715    49459.723508       1.08%      121      8    247    121009   248.6s
+       228     112        16   0.00%   48927.972715    49459.723508       1.08%      131      8    339    124788   255.8s
+       236     114        21   0.00%   48927.972715    49459.723508       1.08%      137      8    385    129050   264.9s
+       287     167        23   0.00%   48927.972715    49459.723508       1.08%      141      9    438    164758   360.6s
+       290     167        24   0.00%   48927.972715    49459.723508       1.08%      147      9    488    168958   365.9s
+       296     167        27   0.00%   48927.972715    49459.723508       1.08%      159      9    547    173143   374.4s
+
+        Nodes      |    B&B Tree     |            Objective Bounds              |  Dynamic Constraints |       Work      
+Src  Proc. InQueue |  Leaves   Expl. | BestBound       BestSol              Gap |   Cuts   InLp Confl. | LpIters     Time
+
+       317     167        29   0.00%   48927.972715    49459.723508       1.08%      172      9    593    179104   385.9s
+       366     260        33   0.00%   48927.972715    49459.723508       1.08%      182      9    652    192568   417.6s
+ L     366     205        33   0.00%   48927.972715    49324.625239       0.80%      182     10    652    192691   487.4s
+       401     205        34   0.00%   48927.972715    49324.625239       0.80%      186     10    682    221221   520.2s
+       404     206        36   0.00%   48927.972715    49324.625239       0.80%      189     10    745    225093   525.5s
+       406     206        37   0.00%   48927.972715    49324.625239       0.80%      192     10    753    227649   530.7s
+       410     207        41   0.01%   48927.972715    49324.625239       0.80%      195     10    880    230420   535.8s
+       442     207        43   0.02%   48927.972715    49324.625239       0.80%      207     10    942    237927   555.6s
+       454     207        46   0.02%   48927.972715    49324.625239       0.80%      211     10    967    240489   562.5s
+       469     265        47   0.02%   48927.972715    49324.625239       0.80%      214     10    985    242921   568.2s
+       470     265        48   0.02%   48927.972715    49324.625239       0.80%      215     11    987    258296   600.1s
+       470     265        48   0.02%   48927.972715    49324.625239       0.80%      215     11    987    258296   600.1s
+
+Solving report
+  Status            Time limit reached
+  Primal bound      49324.6252395
+  Dual bound        48927.9727151
+  Gap               0.804% (tolerance: 0%)
+  P-D integral      5.47036646676
+  Solution status   feasible
+                    49324.6252395 (objective)
+                    0 (bound viol.)
+                    0 (int. viol.)
+                    0 (row viol.)
+  Timing            600.10
+  Max sub-MIP depth 9
+  Nodes             470
+  Repair LPs        2 (2 feasible; 1650 iterations)
+  LP iterations     258296
+                    126477 (strong br.)
+                    2435 (separation)
+                    67754 (heuristics)

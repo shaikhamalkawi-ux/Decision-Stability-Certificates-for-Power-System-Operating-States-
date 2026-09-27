@@ -1,0 +1,74 @@
+{
+  "case": "seed_26093221",
+  "verdict": "VERIFIED_UNCAPPED_BINARY_WITNESS_EXPANDED_MODEL",
+  "started_utc": "2026-09-27T01:33:02.797123+00:00",
+  "ended_utc": "2026-09-27T01:43:03.141139+00:00",
+  "elapsed_s": 600.3434420999838,
+  "optimization_calls": 1,
+  "model_status": "Time limit reached",
+  "run_status": "HighsStatus.kWarning",
+  "options": {
+    "time_limit": 600.0,
+    "threads": 1,
+    "random_seed": 0,
+    "presolve": "on",
+    "mip_rel_gap": 1e-08,
+    "log_to_console": false,
+    "log_file": "C:\\Users\\gmalkawi\\.codex\\worktrees\\dsc-temporal-information\\3\\results\\research8h\\fresh_january_energy\\seed_26093221\\mip\\solver.log"
+  },
+  "solver_version": "1.12.0",
+  "solution_value_valid": true,
+  "numerical_objective_MWh": 49926.768979299726,
+  "numerical_lower_bound_MWh": 48892.05763486234,
+  "numerical_relative_gap": 0.020724580532467205,
+  "mip_node_count": 1090,
+  "exact_optimality_claim": false,
+  "model_artifacts": {
+    "matrix.npz": "43eadfdf239a339757187fa4d52e786d1be7277bb93009d5ded1973523bf1386",
+    "bounds.npz": "4d553b230230942c7ae50bc9a33b0ab34bc245beb93b1b36bedeac801c5ba57f",
+    "objective.npz": "4a11881191004d9f39ed53d3cd18a5861829593b48c4e97d67e2af2d01b17632",
+    "integrality.npz": "3dce3436c853f1dcf296fce09408a6a3d1049e6c2a89568469af8a1c4ae6d73b",
+    "original_integrality.npz": "7fae01f9639be86f0b91683b2d2a72f166c06593fb646001bc0417e97aaa712d",
+    "native_inputs.npz": "ddbb27dd75f4f1c5ce7a4669a11adc2b5888b6024c3873538efaebca7de4d44b"
+  },
+  "prepared_manifest_sha256": "44b382d30a30b8485beda0cf080d22cd991b55a9f37491939f633d147bc14f2a",
+  "raw_matrix_check": {
+    "pass": true,
+    "tolerance": 1e-05,
+    "residuals": {
+      "column_lower": 2.5782043167055235e-11,
+      "column_upper": 9.208633855450898e-12,
+      "row_lower": 4.7975845518521965e-11,
+      "row_upper": 2.5782043167055235e-11
+    }
+  },
+  "eligible_for_recovery": true,
+  "P_theta_bytes_preserved": true,
+  "recovered_matrix_check": {
+    "pass": true,
+    "tolerance": 1e-05,
+    "residuals": {
+      "column_lower": 2.5782043167055235e-11,
+      "column_upper": 9.208633855450898e-12,
+      "row_lower": 4.7975845518521965e-11,
+      "row_upper": 2.5782043167055235e-11
+    }
+  },
+  "native_no_cap_pass": true,
+  "exact_strict_pass": false,
+  "exact_expanded_pass": true,
+  "candidate_fossil_MWh": {
+    "numerator": "3597602850735793619653",
+    "denominator": "72057594037927936",
+    "approximate": 49926.768979299726,
+    "outward_floor_6dp": "49926.768979",
+    "outward_ceiling_6dp": "49926.768980"
+  },
+  "verified_upper_MWh": {
+    "numerator": "3597602850735793619653",
+    "denominator": "72057594037927936",
+    "approximate": 49926.768979299726,
+    "outward_floor_6dp": "49926.768979",
+    "outward_ceiling_6dp": "49926.768980"
+  }
+}

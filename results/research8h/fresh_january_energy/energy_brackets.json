@@ -1,0 +1,414 @@
+[
+  {
+    "case": "seed_26093210",
+    "week": 2,
+    "lower_MWh": {
+      "numerator": "20086370813996232580518473920067758661793960696268153117",
+      "denominator": "748288838313422294120286634350736906063837462003712",
+      "approximate": 26843.07153273749,
+      "outward_floor_6dp": "26843.071532",
+      "outward_ceiling_6dp": "26843.071533"
+    },
+    "upper_MWh": {
+      "numerator": "62358939592901681319",
+      "denominator": "2251799813685248",
+      "approximate": 27692.932210899493,
+      "outward_floor_6dp": "27692.932210",
+      "outward_ceiling_6dp": "27692.932211"
+    },
+    "identity_lower_MWh": {
+      "numerator": "2420462787332983677388067029405122530569028479259740441",
+      "denominator": "93536104789177786765035829293842113257979682750464",
+      "approximate": 25877.310080299958,
+      "outward_floor_6dp": "25877.310080",
+      "outward_ceiling_6dp": "25877.310081"
+    },
+    "identity_reference_upper_MWh": {
+      "numerator": "16259756583482128080663775801439",
+      "denominator": "618970019642690137449562112",
+      "approximate": 26269.05353649975,
+      "outward_floor_6dp": "26269.053536",
+      "outward_ceiling_6dp": "26269.053537"
+    },
+    "MIP_verdict": "VERIFIED_UNCAPPED_BINARY_WITNESS_EXPANDED_MODEL",
+    "LP_lower_bound_status": "EXACT_EXPANDED_OBJECTIVE_LOWER_BOUND",
+    "upper_status": "VERIFIED_BINARY_UPPER",
+    "finite_uncapped_feasibility_established": true,
+    "scope": "uncapped uniformly expanded original-binary models; original weekly reference upper retained",
+    "positive_lower_penalty_necessary_if_target_nonempty": true,
+    "optimum_difference_MWh": {
+      "lower": {
+        "numerator": "429531259575738248910188404603077036202497574525165853",
+        "denominator": "748288838313422294120286634350736906063837462003712",
+        "approximate": 574.0179962377418,
+        "outward_floor_6dp": "574.017996",
+        "outward_ceiling_6dp": "574.017997"
+      },
+      "upper": {
+        "numerator": "169826221865308184977605579452035316617344851960952551",
+        "denominator": "93536104789177786765035829293842113257979682750464",
+        "approximate": 1815.6221305995334,
+        "outward_floor_6dp": "1815.622130",
+        "outward_ceiling_6dp": "1815.622131"
+      }
+    },
+    "target_optimum_excess_over_chosen_incumbent_MWh": {
+      "lower": {
+        "numerator": "429531259575738248910188404603077036202497574525165853",
+        "denominator": "748288838313422294120286634350736906063837462003712",
+        "approximate": 574.0179962377418,
+        "outward_floor_6dp": "574.017996",
+        "outward_ceiling_6dp": "574.017997"
+      },
+      "upper": {
+        "numerator": "881338211062017519881449377697",
+        "denominator": "618970019642690137449562112",
+        "approximate": 1423.8786743997446,
+        "outward_floor_6dp": "1423.878674",
+        "outward_ceiling_6dp": "1423.878675"
+      }
+    },
+    "strictly_positive_optimum_difference_certified": true,
+    "optimal_relative_penalty": {
+      "lower": {
+        "numerator": "429531259575738248910188404603077036202497574525165853",
+        "denominator": "19656839554420494331608285515464681625591463121742987264",
+        "approximate": 0.02185149135427235,
+        "outward_floor_6dp": "0.021851",
+        "outward_ceiling_6dp": "0.021852"
+      },
+      "upper": {
+        "numerator": "169826221865308184977605579452035316617344851960952551",
+        "denominator": "2420462787332983677388067029405122530569028479259740441",
+        "approximate": 0.07016270721205066,
+        "outward_floor_6dp": "0.070162",
+        "outward_ceiling_6dp": "0.070163"
+      }
+    },
+    "optimal_relative_penalty_percent": {
+      "lower": {
+        "numerator": "10738281489393456222754710115076925905062439363129146325",
+        "denominator": "4914209888605123582902071378866170406397865780435746816",
+        "approximate": 2.185149135427235,
+        "outward_floor_6dp": "2.185149",
+        "outward_ceiling_6dp": "2.185150"
+      },
+      "upper": {
+        "numerator": "16982622186530818497760557945203531661734485196095255100",
+        "denominator": "2420462787332983677388067029405122530569028479259740441",
+        "approximate": 7.016270721205066,
+        "outward_floor_6dp": "7.016270",
+        "outward_ceiling_6dp": "7.016271"
+      }
+    }
+  },
+  {
+    "case": "seed_26093211",
+    "week": 2,
+    "lower_MWh": {
+      "numerator": "2465434983535487892226081461254514743454344793621905775",
+      "denominator": "93536104789177786765035829293842113257979682750464",
+      "approximate": 26358.110476081543,
+      "outward_floor_6dp": "26358.110476",
+      "outward_ceiling_6dp": "26358.110477"
+    },
+    "upper_MWh": {
+      "numerator": "139547039243864944018083235965575",
+      "denominator": "4951760157141521099596496896",
+      "approximate": 28181.300146899805,
+      "outward_floor_6dp": "28181.300146",
+      "outward_ceiling_6dp": "28181.300147"
+    },
+    "identity_lower_MWh": {
+      "numerator": "2420462787332983677388067029405122530569028479259740441",
+      "denominator": "93536104789177786765035829293842113257979682750464",
+      "approximate": 25877.310080299958,
+      "outward_floor_6dp": "25877.310080",
+      "outward_ceiling_6dp": "25877.310081"
+    },
+    "identity_reference_upper_MWh": {
+      "numerator": "16259756583482128080663775801439",
+      "denominator": "618970019642690137449562112",
+      "approximate": 26269.05353649975,
+      "outward_floor_6dp": "26269.053536",
+      "outward_ceiling_6dp": "26269.053537"
+    },
+    "MIP_verdict": "VERIFIED_UNCAPPED_BINARY_WITNESS_EXPANDED_MODEL",
+    "LP_lower_bound_status": "EXACT_EXPANDED_OBJECTIVE_LOWER_BOUND",
+    "upper_status": "VERIFIED_BINARY_UPPER",
+    "finite_uncapped_feasibility_established": true,
+    "scope": "uncapped uniformly expanded original-binary models; original weekly reference upper retained",
+    "positive_lower_penalty_necessary_if_target_nonempty": true,
+    "optimum_difference_MWh": {
+      "lower": {
+        "numerator": "8330039232926100775045771821429540255411903404032367",
+        "denominator": "93536104789177786765035829293842113257979682750464",
+        "approximate": 89.05693958179339,
+        "outward_floor_6dp": "89.056939",
+        "outward_ceiling_6dp": "89.056940"
+      },
+      "upper": {
+        "numerator": "215506256302707724730643782224866903377962175838320359",
+        "denominator": "93536104789177786765035829293842113257979682750464",
+        "approximate": 2303.990066599844,
+        "outward_floor_6dp": "2303.990066",
+        "outward_ceiling_6dp": "2303.990067"
+      }
+    },
+    "target_optimum_excess_over_chosen_incumbent_MWh": {
+      "lower": {
+        "numerator": "8330039232926100775045771821429540255411903404032367",
+        "denominator": "93536104789177786765035829293842113257979682750464",
+        "approximate": 89.05693958179339,
+        "outward_floor_6dp": "89.056939",
+        "outward_ceiling_6dp": "89.056940"
+      },
+      "upper": {
+        "numerator": "9468986576007919372773029554063",
+        "denominator": "4951760157141521099596496896",
+        "approximate": 1912.2466104000555,
+        "outward_floor_6dp": "1912.246610",
+        "outward_ceiling_6dp": "1912.246611"
+      }
+    },
+    "strictly_positive_optimum_difference_certified": true,
+    "optimal_relative_penalty": {
+      "lower": {
+        "numerator": "8330039232926100775045771821429540255411903404032367",
+        "denominator": "2457104944302561791451035689433085203198932890217873408",
+        "approximate": 0.0033901845553001176,
+        "outward_floor_6dp": "0.003390",
+        "outward_ceiling_6dp": "0.003391"
+      },
+      "upper": {
+        "numerator": "215506256302707724730643782224866903377962175838320359",
+        "denominator": "2420462787332983677388067029405122530569028479259740441",
+        "approximate": 0.08903514544016845,
+        "outward_floor_6dp": "0.089035",
+        "outward_ceiling_6dp": "0.089036"
+      }
+    },
+    "optimal_relative_penalty_percent": {
+      "lower": {
+        "numerator": "208250980823152519376144295535738506385297585100809175",
+        "denominator": "614276236075640447862758922358271300799733222554468352",
+        "approximate": 0.33901845553001175,
+        "outward_floor_6dp": "0.339018",
+        "outward_ceiling_6dp": "0.339019"
+      },
+      "upper": {
+        "numerator": "21550625630270772473064378222486690337796217583832035900",
+        "denominator": "2420462787332983677388067029405122530569028479259740441",
+        "approximate": 8.903514544016845,
+        "outward_floor_6dp": "8.903514",
+        "outward_ceiling_6dp": "8.903515"
+      }
+    }
+  },
+  {
+    "case": "seed_26093220",
+    "week": 3,
+    "lower_MWh": {
+      "numerator": "322007864663214391459227169138779673229590176269304105690026351423405",
+      "denominator": "6582018229284824168619876730229402019930943462534319453394436096",
+      "approximate": 48922.35989723208,
+      "outward_floor_6dp": "48922.359897",
+      "outward_ceiling_6dp": "48922.359898"
+    },
+    "upper_MWh": {
+      "numerator": "14216855286323246732599",
+      "denominator": "288230376151711744",
+      "approximate": 49324.625239499816,
+      "outward_floor_6dp": "49324.625239",
+      "outward_ceiling_6dp": "49324.625240"
+    },
+    "identity_lower_MWh": {
+      "numerator": "71040120044180405409152889048497810725108515836534336483",
+      "denominator": "1496577676626844588240573268701473812127674924007424",
+      "approximate": 47468.381463699654,
+      "outward_floor_6dp": "47468.381463",
+      "outward_ceiling_6dp": "47468.381464"
+    },
+    "identity_reference_upper_MWh": {
+      "numerator": "1683230331936304381",
+      "denominator": "35184372088832",
+      "approximate": 47840.28339873613,
+      "outward_floor_6dp": "47840.283398",
+      "outward_ceiling_6dp": "47840.283399"
+    },
+    "MIP_verdict": "VERIFIED_UNCAPPED_BINARY_WITNESS_EXPANDED_MODEL",
+    "LP_lower_bound_status": "EXACT_EXPANDED_OBJECTIVE_LOWER_BOUND",
+    "upper_status": "VERIFIED_BINARY_UPPER",
+    "finite_uncapped_feasibility_established": true,
+    "scope": "uncapped uniformly expanded original-binary models; original weekly reference upper retained",
+    "positive_lower_penalty_necessary_if_target_nonempty": true,
+    "optimum_difference_MWh": {
+      "lower": {
+        "numerator": "7122247238581039598945326528539230928067902763137967106359205457837",
+        "denominator": "6582018229284824168619876730229402019930943462534319453394436096",
+        "approximate": 1082.0764984959505,
+        "outward_floor_6dp": "1082.076498",
+        "outward_ceiling_6dp": "1082.076499"
+      },
+      "upper": {
+        "numerator": "2778012997240045970825177259146662000167099605394773021",
+        "denominator": "1496577676626844588240573268701473812127674924007424",
+        "approximate": 1856.2437758001608,
+        "outward_floor_6dp": "1856.243775",
+        "outward_ceiling_6dp": "1856.243776"
+      }
+    },
+    "target_optimum_excess_over_chosen_incumbent_MWh": {
+      "lower": {
+        "numerator": "7122247238581039598945326528539230928067902763137967106359205457837",
+        "denominator": "6582018229284824168619876730229402019930943462534319453394436096",
+        "approximate": 1082.0764984959505,
+        "outward_floor_6dp": "1082.076498",
+        "outward_ceiling_6dp": "1082.076499"
+      },
+      "upper": {
+        "numerator": "427832407101041243447",
+        "denominator": "288230376151711744",
+        "approximate": 1484.3418407636852,
+        "outward_floor_6dp": "1484.341840",
+        "outward_ceiling_6dp": "1484.341841"
+      }
+    },
+    "strictly_positive_optimum_difference_certified": true,
+    "optimal_relative_penalty": {
+      "lower": {
+        "numerator": "7122247238581039598945326528539230928067902763137967106359205457837",
+        "denominator": "314885617424633351860281842610240442301522273506166138583667145965568",
+        "approximate": 0.02261852191545624,
+        "outward_floor_6dp": "0.022618",
+        "outward_ceiling_6dp": "0.022619"
+      },
+      "upper": {
+        "numerator": "2778012997240045970825177259146662000167099605394773021",
+        "denominator": "71040120044180405409152889048497810725108515836534336483",
+        "approximate": 0.03910484660657074,
+        "outward_floor_6dp": "0.039104",
+        "outward_ceiling_6dp": "0.039105"
+      }
+    },
+    "optimal_relative_penalty_percent": {
+      "lower": {
+        "numerator": "178056180964525989973633163213480773201697569078449177658980136445925",
+        "denominator": "78721404356158337965070460652560110575380568376541534645916786491392",
+        "approximate": 2.2618521915456244,
+        "outward_floor_6dp": "2.261852",
+        "outward_ceiling_6dp": "2.261853"
+      },
+      "upper": {
+        "numerator": "277801299724004597082517725914666200016709960539477302100",
+        "denominator": "71040120044180405409152889048497810725108515836534336483",
+        "approximate": 3.910484660657074,
+        "outward_floor_6dp": "3.910484",
+        "outward_ceiling_6dp": "3.910485"
+      }
+    }
+  },
+  {
+    "case": "seed_26093221",
+    "week": 3,
+    "lower_MWh": {
+      "numerator": "4572896679870482319140876157629580036471573054545449145",
+      "denominator": "93536104789177786765035829293842113257979682750464",
+      "approximate": 48889.107475422374,
+      "outward_floor_6dp": "48889.107475",
+      "outward_ceiling_6dp": "48889.107476"
+    },
+    "upper_MWh": {
+      "numerator": "3597602850735793619653",
+      "denominator": "72057594037927936",
+      "approximate": 49926.768979299726,
+      "outward_floor_6dp": "49926.768979",
+      "outward_ceiling_6dp": "49926.768980"
+    },
+    "identity_lower_MWh": {
+      "numerator": "71040120044180405409152889048497810725108515836534336483",
+      "denominator": "1496577676626844588240573268701473812127674924007424",
+      "approximate": 47468.381463699654,
+      "outward_floor_6dp": "47468.381463",
+      "outward_ceiling_6dp": "47468.381464"
+    },
+    "identity_reference_upper_MWh": {
+      "numerator": "1683230331936304381",
+      "denominator": "35184372088832",
+      "approximate": 47840.28339873613,
+      "outward_floor_6dp": "47840.283398",
+      "outward_ceiling_6dp": "47840.283399"
+    },
+    "MIP_verdict": "VERIFIED_UNCAPPED_BINARY_WITNESS_EXPANDED_MODEL",
+    "LP_lower_bound_status": "EXACT_EXPANDED_OBJECTIVE_LOWER_BOUND",
+    "upper_status": "VERIFIED_BINARY_UPPER",
+    "finite_uncapped_feasibility_established": true,
+    "scope": "uncapped uniformly expanded original-binary models; original weekly reference upper retained",
+    "positive_lower_penalty_necessary_if_target_nonempty": true,
+    "optimum_difference_MWh": {
+      "lower": {
+        "numerator": "98102918742337228428285448125389845324068313148674233",
+        "denominator": "93536104789177786765035829293842113257979682750464",
+        "approximate": 1048.8240766862448,
+        "outward_floor_6dp": "1048.824076",
+        "outward_ceiling_6dp": "1048.824077"
+      },
+      "upper": {
+        "numerator": "3679167876345200992904297403012747811879820108858250269",
+        "denominator": "1496577676626844588240573268701473812127674924007424",
+        "approximate": 2458.387515600075,
+        "outward_floor_6dp": "2458.387515",
+        "outward_ceiling_6dp": "2458.387516"
+      }
+    },
+    "target_optimum_excess_over_chosen_incumbent_MWh": {
+      "lower": {
+        "numerator": "98102918742337228428285448125389845324068313148674233",
+        "denominator": "93536104789177786765035829293842113257979682750464",
+        "approximate": 1048.8240766862448,
+        "outward_floor_6dp": "1048.824076",
+        "outward_ceiling_6dp": "1048.824077"
+      },
+      "upper": {
+        "numerator": "150347130930242247365",
+        "denominator": "72057594037927936",
+        "approximate": 2086.4855805636,
+        "outward_floor_6dp": "2086.485580",
+        "outward_ceiling_6dp": "2086.485581"
+      }
+    },
+    "strictly_positive_optimum_difference_certified": true,
+    "optimal_relative_penalty": {
+      "lower": {
+        "numerator": "98102918742337228428285448125389845324068313148674233",
+        "denominator": "4474793761128145090712590709504190191147504741396774912",
+        "approximate": 0.02192345032625691,
+        "outward_floor_6dp": "0.021923",
+        "outward_ceiling_6dp": "0.021924"
+      },
+      "upper": {
+        "numerator": "3679167876345200992904297403012747811879820108858250269",
+        "denominator": "71040120044180405409152889048497810725108515836534336483",
+        "approximate": 0.051790000834135666,
+        "outward_floor_6dp": "0.051790",
+        "outward_ceiling_6dp": "0.051791"
+      }
+    },
+    "optimal_relative_penalty_percent": {
+      "lower": {
+        "numerator": "2452572968558430710707136203134746133101707828716855825",
+        "denominator": "1118698440282036272678147677376047547786876185349193728",
+        "approximate": 2.192345032625691,
+        "outward_floor_6dp": "2.192345",
+        "outward_ceiling_6dp": "2.192346"
+      },
+      "upper": {
+        "numerator": "367916787634520099290429740301274781187982010885825026900",
+        "denominator": "71040120044180405409152889048497810725108515836534336483",
+        "approximate": 5.179000083413566,
+        "outward_floor_6dp": "5.179000",
+        "outward_ceiling_6dp": "5.179001"
+      }
+    }
+  }
+]

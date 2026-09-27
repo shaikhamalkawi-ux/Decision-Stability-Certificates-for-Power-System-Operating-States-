@@ -1,0 +1,38 @@
+{
+  "status": "INDEPENDENT_FRESH_ENERGY_REPORTING_PASS",
+  "reviewer_optimizer_calls": 0,
+  "summary_sha256": "3fc1739e997a0c5179c90a21a816dc55c5583758b9ce154986b884377bdab606",
+  "readout_sha256": "26e92e8e46369a2bf51e1deec4059df06ba17e3db979ae9e7474508120a3e31f",
+  "reporting_source_sha256": "d4f51051e798952024a54ef0781b07bcf2d8004ad1b934033d6fed203cf0f72e",
+  "checks": [
+    {
+      "case": "seed_26093210",
+      "historical_cap_verdict": "CERTIFIED_INFEASIBLE_EXPANDED_MODEL",
+      "old_cap_excluded_by_new_bound": true,
+      "strictly_positive_optimum_difference": true
+    },
+    {
+      "case": "seed_26093211",
+      "historical_cap_verdict": "UNKNOWN",
+      "old_cap_excluded_by_new_bound": false,
+      "strictly_positive_optimum_difference": true
+    },
+    {
+      "case": "seed_26093220",
+      "historical_cap_verdict": "CERTIFIED_INFEASIBLE_EXPANDED_MODEL",
+      "old_cap_excluded_by_new_bound": true,
+      "strictly_positive_optimum_difference": true
+    },
+    {
+      "case": "seed_26093221",
+      "historical_cap_verdict": "CERTIFIED_INFEASIBLE_EXPANDED_MODEL",
+      "old_cap_excluded_by_new_bound": true,
+      "strictly_positive_optimum_difference": true
+    }
+  ],
+  "unknown11_remains_unknown_under_old_cap": true,
+  "new_binary_uppers_are_uncapped": true,
+  "all_four_true_optimum_difference_intervals_strictly_positive": true,
+  "exact_optimality_claim": false,
+  "independent_source_sha256": "ed6db7b31403a260fb63fd731a89dc9933a2adab5bc93c110045ec9b739a15ee"
+}
